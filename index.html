@@ -393,7 +393,7 @@
   <div class="save-bar-wrap">
     <div class="save-bar-inner">
       <span class="progress-text" id="wk-progress">Fill in your sets</span>
-      <button class="save-btn" id="wk-save" onclick="saveWorkout()" disabled>Save to Tracker</button>
+      <button class="save-btn" id="wk-save" onclick="confirmSave()" disabled>Review &amp; Save</button>
     </div>
   </div>
 </div>
@@ -712,20 +712,24 @@ async function loadAIBrief() {
     const t = todayInfo();
     const s = DAY_META[t.dow];
 
-    // Truncate program.md to most relevant sections (keep under ~4K tokens)
-    const programSnippet = extractProgramSections(progMd, t.dow, week);
-    const trackerSnippet = extractTrackerSections(trackerMd);
+    const programSnippet = progMd;
+    const trackerSnippet = trackerMd;
 
-    const prompt = `You are a personal running + lifting coach. Analyze the program and tracker below and produce a concise, specific workout brief for today.
+    const prompt = `You are a personal running + lifting coach. Your job is to produce a specific, actionable workout brief for today based on BOTH documents below.
+
+IMPORTANT PRIORITY ORDER:
+1. Tracker.md is the ground truth — it contains the athlete's actual current loads, recent session notes, carry-forwards, SI/injury log, and adjustments that override the program defaults. Always reference it first.
+2. program.md provides the prescribed framework — use it for session structure, prescribed rep ranges, phase logic, and what exercises belong today.
+3. Where Tracker.md has a note or carry-forward that conflicts with program defaults, the Tracker wins.
 
 TODAY: ${t.display}, Week ${week} (${phase} phase), Day: ${t.short}
 SESSION: ${s.label}
 
-PROGRAM EXCERPT:
-${programSnippet}
-
-TRACKER (current loads + recent history):
+════ TRACKER.MD (actual logs, current loads, notes, SI status) ════
 ${trackerSnippet}
+
+════ PROGRAM.MD (prescribed framework for today's session) ════
+${programSnippet}
 
 Return ONLY a JSON object (no markdown, no explanation) with this exact structure:
 {
@@ -738,12 +742,12 @@ Return ONLY a JSON object (no markdown, no explanation) with this exact structur
 }
 
 Rules:
-- keyTargets: 2-3 most important things to nail today
-- warnings: SI/health cautions specific to today
-- highlights: positive notes / what to watch for
-- exercises: only for lifting days, include actual load numbers from tracker
-- cardio: always include if there's a run/row component
-- Be specific with numbers (paces, HR, weights, reps). Reference actual current loads.`;
+- keyTargets: 2-3 most important things to nail today, derived from tracker notes and carry-forwards
+- warnings: SI/injury/health cautions from the tracker's SI log and Adjustments section — be specific about what to watch
+- highlights: things going well or positive carry-forwards from recent sessions
+- exercises: for lifting days — use the exact loads from Tracker.md "Current Working Loads" and any per-exercise notes/carry-forwards; include every exercise in today's circuit
+- cardio: always include if there's a run/row component; use HR zones and paces from the tracker
+- Be specific with numbers. Cite the tracker ("last session: 125×8 RIR 2") when relevant.`;
 
     const resp = await callAI(prompt);
     let data;
@@ -786,59 +790,6 @@ Rules:
   }
 }
 
-function extractProgramSections(md, dow, week) {
-  // Pull relevant sections based on day
-  const sections = [];
-
-  // Always include hypertrophy circuits
-  const hypStart = md.indexOf('## 3. Hypertrophy Circuits');
-  const hypEnd   = md.indexOf('\n## 4.');
-  if (hypStart !== -1) sections.push(md.slice(hypStart, hypEnd !== -1 ? hypEnd : hypStart+3000));
-
-  // Include relevant run phase
-  const phase = getPhase(week);
-  const phaseMap = { Reset:'4.B', Base:'4.C', Build:'4.D', Sharpen:'4.E', Taper:'4.F' };
-  const phaseSection = phaseMap[phase];
-  if (phaseSection) {
-    const idx = md.indexOf(`### ${phaseSection}`);
-    if (idx !== -1) {
-      const end = md.indexOf('\n### 4.', idx+1);
-      sections.push(md.slice(idx, end !== -1 ? end : idx+1500));
-    }
-  }
-
-  // Include strength progression
-  const strIdx = md.indexOf('## 5. Strength Progression');
-  if (strIdx !== -1) sections.push(md.slice(strIdx, strIdx+800));
-
-  return sections.join('\n\n---\n\n').slice(0, 6000);
-}
-
-function extractTrackerSections(md) {
-  // Pull current loads + recent entries
-  const loadsIdx = md.indexOf('## Current Working Loads');
-  const liftIdx  = md.indexOf('## Lifting Log');
-  const cardIdx  = md.indexOf('## Cardio Log');
-
-  let out = '';
-  if (loadsIdx !== -1) {
-    const end = md.indexOf('\n## ', loadsIdx+1);
-    out += md.slice(loadsIdx, end !== -1 ? end : loadsIdx+1200) + '\n\n';
-  }
-  // Last ~1500 chars of lifting log
-  if (liftIdx !== -1) {
-    const end = md.indexOf('\n## ', liftIdx+1);
-    const block = md.slice(liftIdx, end !== -1 ? end : md.length);
-    out += block.slice(-1500) + '\n\n';
-  }
-  // Last ~800 chars of cardio log
-  if (cardIdx !== -1) {
-    const end = md.indexOf('\n## ', cardIdx+1);
-    const block = md.slice(cardIdx, end !== -1 ? end : md.length);
-    out += block.slice(-800);
-  }
-  return out.slice(0, 3000);
-}
 
 // ═══════════════════════════════════════════
 // WORKOUT SCREEN
@@ -977,6 +928,12 @@ function renderWorkout() {
     html += `<div id="wk-preview"></div>`;
     document.getElementById('wk-content').innerHTML = html;
   }
+
+  // Restore save bar visibility (may have been hidden by confirmSave)
+  const saveBtn = document.getElementById('wk-save');
+  const progressTxt = document.getElementById('wk-progress');
+  if (saveBtn)      saveBtn.style.display = '';
+  if (progressTxt)  progressTxt.style.display = '';
 
   updateProgress();
 }
@@ -1138,12 +1095,60 @@ function escHtml(s) {
 // SAVE TO GITHUB
 // ═══════════════════════════════════════════
 
-async function saveWorkout() {
+// Show a confirm preview before committing
+function confirmSave() {
+  const section = aiMarkdown || buildStructuredMarkdown();
+  if (!section.trim()) { showToast('Nothing to save yet','red'); return; }
+
+  // Build confirm UI inside wk-content (replaces form)
+  const t = todayInfo();
+  const isLift = wkType.startsWith('lift-');
+  const dow    = parseInt(wkType.split('-')[1]);
+  const isBothDay = DAY_META[dow]?.type === 'both';
+  const isLiftSession = isLift;
+
+  // Inject confirm screen
+  const content = document.getElementById('wk-content');
+  content.innerHTML = `
+    <div class="card" style="background:var(--surface2)">
+      <div class="today-label">${t.display}</div>
+      <div style="font-size:13px;color:var(--text-dim);margin-top:2px">Review before saving to Tracker.md</div>
+    </div>
+    <div class="preview-block">
+      <div class="preview-header">
+        <span style="font-size:16px">📋</span>
+        <h3>What will be appended</h3>
+      </div>
+      <div class="preview-body"><pre>${escHtml(section)}</pre></div>
+    </div>
+    ${isBothDay && isLiftSession ? `
+    <div class="card" style="border-color:#15532e;background:#0a1505">
+      <div class="card-title" style="color:#86efac">Also log cardio today?</div>
+      <div style="font-size:13px;color:var(--text-dim);margin-bottom:12px">Today is a ${DAY_META[dow].label} day — cardio is also scheduled.</div>
+      <label style="display:flex;align-items:center;gap:10px;font-size:14px;cursor:pointer">
+        <input type="checkbox" id="also-log-cardio" style="width:20px;height:20px;accent-color:var(--green)">
+        Open cardio log after saving
+      </label>
+    </div>` : ''}
+    <div style="display:flex;gap:10px;margin-top:4px">
+      <button class="btn btn-secondary" style="flex:1" onclick="renderWorkout()">← Edit</button>
+      <button class="btn btn-green" style="flex:1" onclick="commitSave()">Commit to Tracker →</button>
+    </div>`;
+
+  // Hide the floating save bar — actions are now inline
+  document.getElementById('wk-save').style.display = 'none';
+  document.getElementById('wk-progress').style.display = 'none';
+}
+
+async function commitSave() {
   const cfg = getCfg();
   if (!cfg.token) { showToast('No GitHub token','red'); return; }
 
-  const btn = document.getElementById('wk-save');
-  btn.disabled = true; btn.textContent = 'Saving…';
+  const commitBtn = document.querySelector('#wk-content .btn-green');
+  if (commitBtn) { commitBtn.disabled = true; commitBtn.textContent = 'Saving…'; }
+
+  const alsoCardio = document.getElementById('also-log-cardio')?.checked;
+  const dow = parseInt(wkType.split('-')[1]);
 
   try {
     const apiBase = `https://api.github.com/repos/${cfg.repo}/contents/Tracker.md`;
@@ -1162,7 +1167,7 @@ async function saveWorkout() {
 
     // Generate markdown section (AI or structured)
     const section = aiMarkdown || buildStructuredMarkdown();
-    if (!section.trim()) { showToast('Nothing to save','red'); btn.disabled=false; btn.textContent='Save to Tracker'; return; }
+    if (!section.trim()) { showToast('Nothing to save','red'); return; }
 
     // Append to the right section
     let updated = current;
@@ -1180,7 +1185,7 @@ async function saveWorkout() {
 
     // Commit
     const t = todayInfo();
-    const label = isLift ? (parseInt(wkType.split('-')[1])===2?'Hyp-A':'Hyp-B') : 'Cardio';
+    const label = isLift ? (dow===2?'Hyp-A':'Hyp-B') : 'Cardio';
     const putRes = await fetch(apiBase, {
       method: 'PUT', headers: hdrs,
       body: JSON.stringify({
@@ -1193,11 +1198,16 @@ async function saveWorkout() {
     if (!putRes.ok) throw new Error(`GitHub write ${putRes.status}: ${await putRes.text()}`);
 
     showToast('✓ Saved to Tracker.md!','green');
-    setTimeout(() => showHome(), 1500);
+
+    if (alsoCardio) {
+      setTimeout(() => showWorkout(`cardio-${dow}`), 1200);
+    } else {
+      setTimeout(() => showHome(), 1200);
+    }
 
   } catch(err) {
     showToast('Error: ' + err.message.slice(0,80),'red');
-    btn.disabled = false; btn.textContent = 'Save to Tracker';
+    if (commitBtn) { commitBtn.disabled = false; commitBtn.textContent = 'Commit to Tracker →'; }
   }
 }
 
