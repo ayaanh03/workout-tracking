@@ -690,6 +690,17 @@ function renderHome() {
   // Loads
   document.getElementById('hm-loads').innerHTML = Object.entries(LOADS)
     .map(([n,v])=>`<tr><td>${n}</td><td>${v.load}</td></tr>`).join('');
+
+  // Silently pre-load today's cached brief so it's ready when the user opens the workout screen
+  if (hasAnyAI() && getCfg().token) {
+    const t2 = todayInfo();
+    fetchGitHubFile('brief-cache.json').then(raw => {
+      const cache = JSON.parse(raw);
+      if (cache.date === t2.dateStr && cache.dow === t2.dow && cache.data) {
+        currentBrief = cache.data;
+      }
+    }).catch(() => {});
+  }
 }
 
 // ═══════════════════════════════════════════
@@ -749,7 +760,7 @@ Return ONLY a JSON object (no markdown, no explanation) with this exact structur
   "keyTargets": ["string", ...],
   "warnings": ["string", ...],
   "highlights": ["string", ...],
-  "exercises": [{"name":"string","target":"string","note":"string"}, ...],
+  "exercises": [{"name":"string","sets":3,"type":"strength|iso","target":"string","note":"string"}, ...],
   "cardio": {"prescription":"string","paceTarget":"string","hrTarget":"string","notes":"string"}
 }
 
@@ -757,7 +768,7 @@ Rules:
 - keyTargets: 2-3 most important things to nail today, derived from tracker notes and carry-forwards
 - warnings: SI/injury/health cautions from the tracker's SI log and Adjustments section — be specific
 - highlights: things going well or positive carry-forwards from recent sessions
-- exercises: for lifting days — use exact loads from Tracker.md; include every exercise in today's circuit
+- exercises: for lifting days — use exact loads from Tracker.md; include every exercise in today's circuit; sets = number of working sets; type = "iso" for isometric holds (planks, wall sits), "strength" for everything else
 - cardio: always include if there's a run/row component; use HR zones and paces from the tracker
 - Be specific with numbers. Cite the tracker ("last session: 125×8 RIR 2") when relevant.`;
 
@@ -780,7 +791,10 @@ Rules:
   }
 }
 
+let currentBrief = null;
+
 function renderBriefHTML(el, data, s, { fromCache = false, cachedAt = null } = {}) {
+  currentBrief = data;
   const timeLabel = fromCache
     ? `cached · ${new Date(cachedAt).toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'})}`
     : `generated · ${new Date().toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'})}`;
@@ -852,41 +866,82 @@ async function saveBriefCache(data, t) {
 
 let wkType   = '';  // 'lift-2', 'lift-6', 'cardio-N'
 let wkWeek   = 1;
-let wkData   = {};  // structured form data
-let aiMarkdown = ''; // AI-generated markdown preview
+let wkData      = {};  // { exId: { weight, sets:[{reps,rir,time}], notes } }
+let wkExercises = [];  // active exercise list — AI-sourced or static fallback
+let aiMarkdown  = '';  // AI-generated markdown preview
+
+// Slugify an exercise name to a stable ID
+const toSlug = s => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 function showWorkout(type) {
-  wkType = type; wkWeek = getWeek(); wkData = {}; aiMarkdown = '';
+  wkType = type; wkWeek = getWeek(); wkData = {}; wkExercises = []; aiMarkdown = '';
   renderWorkout();
   showScreen('workout');
 }
 
 function renderWorkout() {
-  const t = todayInfo();
+  const t     = todayInfo();
   const phase = getPhase(wkWeek);
   document.getElementById('wk-badge').textContent = `W${wkWeek}`;
 
   if (wkType.startsWith('lift-')) {
     const dow = parseInt(wkType.split('-')[1]);
     const isA = dow === 2;
-    const exs = isA ? HYP_A : HYP_B;
-    const label = isA ? 'Hypertrophy A' : 'Hypertrophy B';
-    document.getElementById('wk-title').textContent = label;
+
+    // ── Build exercise list: AI brief is source of truth, static is fallback ──
+    const briefExs = currentBrief?.exercises;
+    const fromAI   = briefExs?.length > 0;
+
+    if (fromAI) {
+      wkExercises = briefExs.map(e => ({
+        id:         toSlug(e.name),
+        name:       e.name,
+        prescribed: e.target  || '',   // AI-generated target string
+        sets:       typeof e.sets === 'number' ? e.sets : 3,
+        iso:        e.type === 'iso',
+        optional:   !!e.optional,
+        aiNote:     e.note    || '',
+        aiSourced:  true,
+        loadKey:    null,
+      }));
+    } else {
+      wkExercises = (isA ? HYP_A : HYP_B).map(e => ({
+        ...e, aiNote: '', aiSourced: false,
+      }));
+    }
+
+    const sessionTitle = fromAI
+      ? (currentBrief.sessionTitle || (isA ? 'Hypertrophy A' : 'Hypertrophy B'))
+      : (isA ? 'Hypertrophy A' : 'Hypertrophy B');
+
+    document.getElementById('wk-title').textContent = sessionTitle;
 
     let html = `<div class="card" style="background:var(--surface2)">
       <div class="today-label">${t.display}</div>
-      <div style="font-size:13px;color:var(--text-dim);margin-top:2px">${phase} · ${label} · ~40 min</div>
+      <div style="font-size:13px;color:var(--text-dim);margin-top:2px">
+        ${phase} · ${sessionTitle} · ~40 min
+        ${fromAI ? '<span style="color:#c4b5fd;margin-left:6px">✨ AI plan</span>' : ''}
+      </div>
     </div>`;
 
-    // Structured exercise blocks
+    // Exercise blocks
     let exNum = 0;
-    exs.forEach(ex => {
+    wkExercises.forEach(ex => {
       exNum++;
       wkData[ex.id] = { weight:'', sets: Array(ex.sets).fill(null).map(()=>({reps:'',rir:'',time:''})), notes:'' };
-      const load = ex.loadKey ? LOADS[ex.loadKey] : null;
+
+      // Load hint: AI target string OR static LOADS table
+      const staticLoad = (!ex.aiSourced && ex.loadKey) ? LOADS[ex.loadKey] : null;
+      const loadHint   = ex.aiSourced
+        ? (ex.prescribed ? `<div class="exercise-load">🎯 ${escHtml(ex.prescribed)}</div>` : '')
+        : (staticLoad ? `<div class="exercise-load">Last: ${staticLoad.load} — ${staticLoad.note}</div>` : '');
+      const aiNoteHtml = ex.aiNote
+        ? `<div class="ai-note-badge">✨ ${escHtml(ex.aiNote)}</div>` : '';
+      // For AI-sourced, prescribed IS the target so don't double-show it
+      const prescribedHtml = ex.aiSourced ? '' : `<div class="exercise-prescribed">${escHtml(ex.prescribed)}</div>`;
 
       let setsHtml = '';
-      for (let i=0; i<ex.sets; i++) {
+      for (let i = 0; i < ex.sets; i++) {
         if (ex.iso) {
           setsHtml += `<div class="set-row iso">
             <div class="set-num">S${i+1}</div>
@@ -910,11 +965,12 @@ function renderWorkout() {
 
       html += `<div class="exercise-block">
         <div class="exercise-header">
-          <div class="exercise-num${ex.optional?' opt':''}">${ex.optional?'*':exNum}</div>
+          <div class="exercise-num${ex.optional?' opt':''}">${ex.optional ? '*' : exNum}</div>
           <div style="flex:1">
-            <div class="exercise-name">${ex.name}</div>
-            <div class="exercise-prescribed">${ex.prescribed}</div>
-            ${load ? `<div class="exercise-load">Last: ${load.load} — ${load.note}</div>` : ''}
+            <div class="exercise-name">${escHtml(ex.name)}</div>
+            ${prescribedHtml}
+            ${loadHint}
+            ${aiNoteHtml}
           </div>
         </div>
         <div class="sets-area">
@@ -927,27 +983,35 @@ function renderWorkout() {
       </div>`;
     });
 
-    // NL input block
-    html += nlBlock(hasAnyAI(), label);
-    // Preview placeholder
+    html += nlBlock(hasAnyAI(), sessionTitle);
     html += `<div id="wk-preview"></div>`;
-
     document.getElementById('wk-content').innerHTML = html;
 
   } else {
-    // Cardio
+    // ── Cardio ──────────────────────────────────────────────────────
     const dow = parseInt(wkType.split('-')[1]);
     const dm  = DAY_META[dow];
     document.getElementById('wk-title').textContent = 'Cardio Log';
     wkData['cardio'] = { modality:'', duration:'', distance:'', avgHr:'', peakHr:'', pace:'', notes:'' };
 
+    // Pull AI brief cardio prescription if available
+    const aiCardio = currentBrief?.cardio;
+    const cardioDesc = aiCardio?.prescription
+      ? `<div style="margin-bottom:6px">${escHtml(aiCardio.prescription)}</div>
+         ${aiCardio.paceTarget ? `<div style="font-size:12px;color:#c4b5fd">🎯 Pace: ${escHtml(aiCardio.paceTarget)}</div>` : ''}
+         ${aiCardio.hrTarget   ? `<div style="font-size:12px;color:#c4b5fd">💓 HR: ${escHtml(aiCardio.hrTarget)}</div>` : ''}
+         ${aiCardio.notes      ? `<div style="font-size:12px;color:var(--text-dim);margin-top:4px">${escHtml(aiCardio.notes)}</div>` : ''}`
+      : escHtml(dm.desc);
+    const cardioSourceTag = aiCardio?.prescription
+      ? '<span style="color:#c4b5fd;font-size:12px;margin-left:6px">✨ AI plan</span>' : '';
+
     let html = `<div class="card" style="background:var(--surface2)">
       <div class="today-label">${t.display}</div>
-      <div style="font-size:13px;color:var(--text-dim);margin-top:2px">${phase} · ${dm.label}</div>
+      <div style="font-size:13px;color:var(--text-dim);margin-top:2px">${phase} · ${dm.label}${cardioSourceTag}</div>
     </div>
     <div class="cardio-block">
       <div class="cardio-title">${dm.label}</div>
-      <div class="cardio-desc">${dm.desc}</div>
+      <div class="cardio-desc">${cardioDesc}</div>
 
       <div class="form-group" style="margin-bottom:12px">
         <div class="field-label">Modality</div>
@@ -984,8 +1048,8 @@ function renderWorkout() {
     document.getElementById('wk-content').innerHTML = html;
   }
 
-  // Restore save bar visibility (may have been hidden by confirmSave)
-  const saveBtn = document.getElementById('wk-save');
+  // Restore save bar (may have been hidden by confirmSave)
+  const saveBtn     = document.getElementById('wk-save');
   const progressTxt = document.getElementById('wk-progress');
   if (saveBtn)      saveBtn.style.display = '';
   if (progressTxt)  progressTxt.style.display = '';
@@ -1130,8 +1194,7 @@ function buildStructuredSummary() {
     return Object.entries(c).filter(([,v])=>v).map(([k,v])=>`${k}: ${v}`).join(', ');
   }
   const lines = [];
-  const exs = parseInt(wkType.split('-')[1]) === 2 ? HYP_A : HYP_B;
-  for (const ex of exs) {
+  for (const ex of wkExercises) {
     const d = wkData[ex.id];
     if (!d) continue;
     const sets = d.sets.filter(s=>s.reps||s.time);
@@ -1273,13 +1336,12 @@ function buildStructuredMarkdown() {
   if (isLift) {
     const dow = parseInt(wkType.split('-')[1]);
     const isA = dow === 2;
-    const exs = isA ? HYP_A : HYP_B;
-    const label = isA ? 'Hypertrophy A' : 'Hypertrophy B';
+    const label = currentBrief?.sessionTitle || (isA ? 'Hypertrophy A' : 'Hypertrophy B');
 
     let md = `### W${wkWeek} ${t.short} ${t.dateStr} — ${label}\n\n`;
     md += `|Exercise|Sets|Notes|\n|--------|-----|-----|\n`;
 
-    exs.forEach(ex => {
+    wkExercises.forEach(ex => {
       const d = wkData[ex.id];
       if (!d) return;
       const hasSets = d.sets.some(s=>s.reps||s.time);
