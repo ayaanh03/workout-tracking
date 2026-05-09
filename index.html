@@ -86,7 +86,9 @@
     /* AI Brief */
     .ai-brief { border-radius: var(--radius); overflow: hidden; margin-top: 12px; border: 1px solid #312e81; background: #0f0c2a; }
     .ai-brief-header { background: linear-gradient(135deg, #1e1b4b, #2e1065); padding: 12px 14px; display: flex; align-items: center; gap: 8px; }
-    .ai-brief-header h3 { font-size: 14px; font-weight: 700; color: #c4b5fd; flex: 1; }
+    .ai-brief-header h3 { font-size: 14px; font-weight: 700; color: #c4b5fd; }
+    .regen-btn { background: rgba(255,255,255,0.1); border: 1px solid #4c1d95; color: #c4b5fd; border-radius: 6px; padding: 4px 10px; font-size: 13px; font-weight: 700; cursor: pointer; touch-action: manipulation; flex-shrink: 0; }
+    .regen-btn:active { opacity: 0.7; }
     .ai-brief-body { padding: 14px; }
     .ai-target { background: #1a1535; border: 1px solid #312e81; border-radius: 8px; padding: 10px 12px; margin-bottom: 8px; font-size: 13px; line-height: 1.5; }
     .ai-target .label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: #818cf8; margin-bottom: 4px; }
@@ -691,29 +693,39 @@ function renderHome() {
 }
 
 // ═══════════════════════════════════════════
-// AI BRIEF
+// AI BRIEF — with cross-device cache
 // ═══════════════════════════════════════════
 
-async function loadAIBrief() {
-  const cfg = getCfg();
+async function loadAIBrief(forceRegenerate = false) {
   if (!hasAnyAI()) { showToast('No AI key — add secrets in GitHub repo settings','red'); return; }
 
   const el = document.getElementById('hm-ai-brief');
-  el.innerHTML = `<div class="ai-brief"><div class="ai-brief-header"><span>✨</span><h3>AI Workout Brief</h3></div><div class="ai-loading"><div class="spinner">⏳</div><div>Reading your program…</div></div></div>`;
+  const t  = todayInfo();
+  const s  = DAY_META[t.dow];
 
+  el.innerHTML = `<div class="ai-brief"><div class="ai-brief-header"><span>✨</span><h3>AI Workout Brief</h3></div><div class="ai-loading"><div class="spinner">⏳</div><div>${forceRegenerate ? 'Regenerating…' : 'Checking cache…'}</div></div></div>`;
+
+  // ── 1. Try cache first (skip if force-regenerate) ───────────────
+  if (!forceRegenerate) {
+    try {
+      const cached = await fetchGitHubFile('brief-cache.json');
+      const cache  = JSON.parse(cached);
+      if (cache.date === t.dateStr && cache.dow === t.dow && cache.data) {
+        renderBriefHTML(el, cache.data, s, { fromCache: true, cachedAt: cache.generatedAt });
+        return;
+      }
+    } catch { /* cache miss or parse error — fall through to generate */ }
+  }
+
+  // ── 2. Fetch source files and call AI ───────────────────────────
+  el.querySelector('.ai-loading div:last-child').textContent = 'Reading your program…';
   try {
-    // Fetch program.md and Tracker.md from GitHub
     const [progMd, trackerMd] = await Promise.all([
       fetchGitHubFile('program.md'),
       fetchGitHubFile('Tracker.md'),
     ]);
 
-    const week = getWeek(), phase = getPhase(week);
-    const t = todayInfo();
-    const s = DAY_META[t.dow];
-
-    const programSnippet = progMd;
-    const trackerSnippet = trackerMd;
+    const week  = getWeek(), phase = getPhase(week);
 
     const prompt = `You are a personal running + lifting coach. Your job is to produce a specific, actionable workout brief for today based on BOTH documents below.
 
@@ -726,10 +738,10 @@ TODAY: ${t.display}, Week ${week} (${phase} phase), Day: ${t.short}
 SESSION: ${s.label}
 
 ════ TRACKER.MD (actual logs, current loads, notes, SI status) ════
-${trackerSnippet}
+${trackerMd}
 
 ════ PROGRAM.MD (prescribed framework for today's session) ════
-${programSnippet}
+${progMd}
 
 Return ONLY a JSON object (no markdown, no explanation) with this exact structure:
 {
@@ -743,51 +755,94 @@ Return ONLY a JSON object (no markdown, no explanation) with this exact structur
 
 Rules:
 - keyTargets: 2-3 most important things to nail today, derived from tracker notes and carry-forwards
-- warnings: SI/injury/health cautions from the tracker's SI log and Adjustments section — be specific about what to watch
+- warnings: SI/injury/health cautions from the tracker's SI log and Adjustments section — be specific
 - highlights: things going well or positive carry-forwards from recent sessions
-- exercises: for lifting days — use the exact loads from Tracker.md "Current Working Loads" and any per-exercise notes/carry-forwards; include every exercise in today's circuit
+- exercises: for lifting days — use exact loads from Tracker.md; include every exercise in today's circuit
 - cardio: always include if there's a run/row component; use HR zones and paces from the tracker
 - Be specific with numbers. Cite the tracker ("last session: 125×8 RIR 2") when relevant.`;
 
     const resp = await callAI(prompt);
     let data;
     try {
-      const jsonStr = resp.replace(/```json\n?|\n?```/g,'').trim();
-      data = JSON.parse(jsonStr);
+      data = JSON.parse(resp.replace(/```json\n?|\n?```/g,'').trim());
     } catch {
-      el.innerHTML = `<div class="ai-brief"><div class="ai-brief-header"><span>✨</span><h3>AI Brief</h3></div><div class="ai-brief-body"><div style="font-size:13px;color:#c4b5fd;white-space:pre-wrap">${resp}</div></div></div>`;
+      el.innerHTML = `<div class="ai-brief"><div class="ai-brief-header"><span>✨</span><h3>AI Brief</h3><button class="regen-btn" onclick="loadAIBrief(true)">↺ Regen</button></div><div class="ai-brief-body"><div style="font-size:13px;color:#c4b5fd;white-space:pre-wrap">${escHtml(resp)}</div></div></div>`;
       return;
     }
 
-    let html = `<div class="ai-brief">
-      <div class="ai-brief-header"><span>✨</span><h3>${data.sessionTitle || s.label}</h3><span style="font-size:11px;color:#818cf8">AI · ${new Date().toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'})}</span></div>
-      <div class="ai-brief-body">`;
+    // ── 3. Save to cache (fire-and-forget) ──────────────────────────
+    saveBriefCache(data, t).catch(() => {}); // don't block render on cache write
 
-    (data.warnings||[]).forEach(w => { html += `<div class="ai-warning">⚠️ ${w}</div>`; });
-    (data.highlights||[]).forEach(h => { html += `<div class="ai-highlight">✓ ${h}</div>`; });
-
-    if (data.keyTargets?.length) {
-      html += `<div class="ai-target"><div class="label">Key Targets</div><div class="value">${data.keyTargets.map(t=>`• ${t}`).join('<br>')}</div></div>`;
-    }
-
-    if (data.cardio?.prescription) {
-      html += `<div class="ai-target"><div class="label">Cardio</div><div class="value"><strong>${data.cardio.prescription}</strong>${data.cardio.paceTarget ? `<br>Pace: ${data.cardio.paceTarget}` : ''}${data.cardio.hrTarget ? `<br>HR: ${data.cardio.hrTarget}` : ''}${data.cardio.notes ? `<br>${data.cardio.notes}` : ''}</div></div>`;
-    }
-
-    if (data.exercises?.length) {
-      html += `<div class="ai-target"><div class="label">Exercise Targets</div>`;
-      data.exercises.forEach(e => {
-        html += `<div class="ai-ex-row"><div><div class="ai-ex-name">${e.name}</div>${e.note?`<div style="font-size:11px;color:#818cf8">${e.note}</div>`:''}</div><div class="ai-ex-target">${e.target}</div></div>`;
-      });
-      html += `</div>`;
-    }
-
-    html += `</div></div>`;
-    el.innerHTML = html;
+    renderBriefHTML(el, data, s, { fromCache: false });
 
   } catch(err) {
-    el.innerHTML = `<div class="ai-brief"><div class="ai-brief-body"><div style="color:var(--red);font-size:13px">Error: ${err.message}</div></div></div>`;
+    el.innerHTML = `<div class="ai-brief"><div class="ai-brief-body"><div style="color:var(--red);font-size:13px">Error: ${escHtml(err.message)}</div></div></div>`;
   }
+}
+
+function renderBriefHTML(el, data, s, { fromCache = false, cachedAt = null } = {}) {
+  const timeLabel = fromCache
+    ? `cached · ${new Date(cachedAt).toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'})}`
+    : `generated · ${new Date().toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'})}`;
+
+  let html = `<div class="ai-brief">
+    <div class="ai-brief-header">
+      <span>✨</span>
+      <h3>${escHtml(data.sessionTitle || s.label)}</h3>
+      <span style="font-size:11px;color:#818cf8;flex:1;text-align:right">${timeLabel}</span>
+      <button class="regen-btn" onclick="loadAIBrief(true)" title="Regenerate">↺</button>
+    </div>
+    <div class="ai-brief-body">`;
+
+  (data.warnings  ||[]).forEach(w => { html += `<div class="ai-warning">⚠️ ${escHtml(w)}</div>`; });
+  (data.highlights||[]).forEach(h => { html += `<div class="ai-highlight">✓ ${escHtml(h)}</div>`; });
+
+  if (data.keyTargets?.length) {
+    html += `<div class="ai-target"><div class="label">Key Targets</div><div class="value">${data.keyTargets.map(x=>`• ${escHtml(x)}`).join('<br>')}</div></div>`;
+  }
+
+  if (data.cardio?.prescription) {
+    html += `<div class="ai-target"><div class="label">Cardio</div><div class="value">
+      <strong>${escHtml(data.cardio.prescription)}</strong>
+      ${data.cardio.paceTarget ? `<br>Pace: ${escHtml(data.cardio.paceTarget)}` : ''}
+      ${data.cardio.hrTarget   ? `<br>HR: ${escHtml(data.cardio.hrTarget)}`     : ''}
+      ${data.cardio.notes      ? `<br>${escHtml(data.cardio.notes)}`            : ''}
+    </div></div>`;
+  }
+
+  if (data.exercises?.length) {
+    html += `<div class="ai-target"><div class="label">Exercise Targets</div>`;
+    data.exercises.forEach(e => {
+      html += `<div class="ai-ex-row">
+        <div>
+          <div class="ai-ex-name">${escHtml(e.name)}</div>
+          ${e.note ? `<div style="font-size:11px;color:#818cf8">${escHtml(e.note)}</div>` : ''}
+        </div>
+        <div class="ai-ex-target">${escHtml(e.target)}</div>
+      </div>`;
+    });
+    html += `</div>`;
+  }
+
+  html += `</div></div>`;
+  el.innerHTML = html;
+}
+
+async function saveBriefCache(data, t) {
+  const cfg = getCfg();
+  const payload = JSON.stringify({ date: t.dateStr, dow: t.dow, generatedAt: new Date().toISOString(), data }, null, 2);
+  const apiUrl  = `https://api.github.com/repos/${cfg.repo}/contents/brief-cache.json`;
+  const hdrs    = { 'Authorization': `token ${cfg.token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' };
+
+  // Get existing SHA if the file already exists
+  let sha;
+  const check = await fetch(`${apiUrl}?ref=${cfg.branch}`, { headers: hdrs });
+  if (check.ok) sha = (await check.json()).sha;
+
+  const body = { message: `Cache AI brief — ${t.dateStr}`, content: btoa(unescape(encodeURIComponent(payload))), branch: cfg.branch };
+  if (sha) body.sha = sha;
+
+  await fetch(apiUrl, { method: 'PUT', headers: hdrs, body: JSON.stringify(body) });
 }
 
 
