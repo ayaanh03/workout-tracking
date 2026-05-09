@@ -712,9 +712,8 @@ async function loadAIBrief() {
     const t = todayInfo();
     const s = DAY_META[t.dow];
 
-    // Truncate program.md to most relevant sections (keep under ~4K tokens)
-    const programSnippet = extractProgramSections(progMd, t.dow, week);
-    const trackerSnippet = extractTrackerSections(trackerMd);
+    const programSnippet = progMd;
+    const trackerSnippet = trackerMd;
 
     const prompt = `You are a personal running + lifting coach. Your job is to produce a specific, actionable workout brief for today based on BOTH documents below.
 
@@ -791,84 +790,6 @@ Rules:
   }
 }
 
-function extractProgramSections(md, dow, week) {
-  // Pull relevant sections based on day
-  const sections = [];
-
-  // Always include hypertrophy circuits
-  const hypStart = md.indexOf('## 3. Hypertrophy Circuits');
-  const hypEnd   = md.indexOf('\n## 4.');
-  if (hypStart !== -1) sections.push(md.slice(hypStart, hypEnd !== -1 ? hypEnd : hypStart+3000));
-
-  // Include relevant run phase
-  const phase = getPhase(week);
-  const phaseMap = { Reset:'4.B', Base:'4.C', Build:'4.D', Sharpen:'4.E', Taper:'4.F' };
-  const phaseSection = phaseMap[phase];
-  if (phaseSection) {
-    const idx = md.indexOf(`### ${phaseSection}`);
-    if (idx !== -1) {
-      const end = md.indexOf('\n### 4.', idx+1);
-      sections.push(md.slice(idx, end !== -1 ? end : idx+1500));
-    }
-  }
-
-  // Include strength progression
-  const strIdx = md.indexOf('## 5. Strength Progression');
-  if (strIdx !== -1) sections.push(md.slice(strIdx, strIdx+800));
-
-  // Include SI joint rules (phase gates, flare response)
-  const siIdx = md.indexOf('## 9. SI Joint Rules');
-  if (siIdx !== -1) {
-    const siEnd = md.indexOf('\n## ', siIdx+1);
-    sections.push(md.slice(siIdx, siEnd !== -1 ? siEnd : siIdx+1200));
-  }
-
-  return sections.join('\n\n---\n\n').slice(0, 8000);
-}
-
-function extractTrackerSections(md) {
-  // Helper: extract a named ## section, return up to maxChars
-  const section = (heading, maxChars = 2000) => {
-    const idx = md.indexOf(`\n## ${heading}`);
-    if (idx === -1) return '';
-    const end = md.indexOf('\n## ', idx + 1);
-    const block = md.slice(idx, end !== -1 ? end : md.length);
-    return block.slice(0, maxChars).trim();
-  };
-
-  const parts = [
-    // Ground-truth carry-forwards and adjustments — most important for the brief
-    section('Adjustments / Carry-forwards', 2000),
-    // Current loads table
-    section('Current Working Loads', 1500),
-    // SI / injury status — critical for warnings
-    section('SI / Sciatica Log', 1500),
-    // Phase gate progress
-    section('Phase Status', 800),
-    // HR zones (locked)
-    section('HR Zones', 600),
-    // Strength progression table
-    section('Incline BB Progression', 600),
-    // Last 2000 chars of lifting log (most recent sessions)
-    (() => {
-      const idx = md.indexOf('\n## Lifting Log');
-      if (idx === -1) return '';
-      const end = md.indexOf('\n## ', idx + 1);
-      const block = md.slice(idx, end !== -1 ? end : md.length);
-      return block.slice(-2000).trim();
-    })(),
-    // Last 1000 chars of cardio log
-    (() => {
-      const idx = md.indexOf('\n## Cardio Log');
-      if (idx === -1) return '';
-      const end = md.indexOf('\n## ', idx + 1);
-      const block = md.slice(idx, end !== -1 ? end : md.length);
-      return block.slice(-1000).trim();
-    })(),
-  ];
-
-  return parts.filter(Boolean).join('\n\n---\n\n').slice(0, 8000);
-}
 
 // ═══════════════════════════════════════════
 // WORKOUT SCREEN
