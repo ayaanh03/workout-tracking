@@ -27,17 +27,17 @@ jobs:
         env:
           GEMINI_KEY: ${{ secrets.GEMINI_API_KEY }}
           CLAUDE_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        # Use Python so special chars in key values are safely JSON-encoded
         run: |
-          python3 -c "
+          python3 << 'PYEOF'
           import os, json
           config = {
-            'geminiKey': os.environ.get('GEMINI_KEY', ''),
-            'claudeKey': os.environ.get('CLAUDE_KEY', ''),
+            "geminiKey": os.environ.get("GEMINI_KEY", ""),
+            "claudeKey": os.environ.get("CLAUDE_KEY", ""),
           }
-          print('window.WORKOUT_CONFIG = ' + json.dumps(config) + ';')
-          " > config.js
-          echo "config.js generated"
+          with open("config.js", "w") as f:
+            f.write("window.WORKOUT_CONFIG = " + json.dumps(config) + ";\n")
+          print("config.js written, geminiKey present:", bool(config["geminiKey"]))
+          PYEOF
 
       - uses: actions/configure-pages@v5
 
