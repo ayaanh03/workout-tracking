@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Sub-20 5K">
+  <meta name="theme-color" content="#0f0f0f">
+  <title>Sub-20 5K Dashboard</title>
+  <style>
+    :root {
+      --bg: #0f0f0f;
+      --surface: #1a1a1a;
+      --surface2: #242424;
+      --border: #2e2e2e;
+      --accent: #f97316;
+      --accent-dim: #7c3a0f;
+      --green: #22c55e;
+      --blue: #3b82f6;
+      --red: #ef4444;
+      --yellow: #eab308;
+      --purple: #a855f7;
+      --text: #f1f1f1;
+      --text-dim: #888;
+      --text-muted: #555;
+      --radius: 12px;
+      --radius-sm: 8px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+    html { height: 100%; -webkit-text-size-adjust: 100%; }
+    body {
+      height: 100%; background: var(--bg); color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 16px; overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Prevent iOS bounce on body but allow scroll in content */
+    .screen { display: none; min-height: 100vh; padding-bottom: env(safe-area-inset-bottom, 0px); padding-bottom: calc(100px + env(safe-area-inset-bottom, 0px)); -webkit-overflow-scrolling: touch; }
+    .screen.active { display: block; }
+
+    .top-bar {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(15,15,15,0.95); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      /* iOS safe area top */
+      padding: 12px 16px;
+      padding-top: max(12px, env(safe-area-inset-top, 12px));
+      display: flex; align-items: center; gap: 10px;
+    }
+    .top-bar h1 { font-size: 18px; font-weight: 700; flex: 1; }
+    .week-badge { background: var(--accent); color: #fff; font-size: 12px; font-weight: 700; padding: 3px 9px; border-radius: 20px; flex-shrink: 0; }
+    .icon-btn {
+      background: var(--surface2); border: none; color: var(--text-dim);
+      /* 44px minimum tap target per Apple HIG */
+      width: 44px; height: 44px; border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px; cursor: pointer; flex-shrink: 0;
+      touch-action: manipulation; -webkit-user-select: none; user-select: none;
+    }
+    .icon-btn:active { opacity: 0.7; }
+
+    .content { padding: 16px; max-width: 600px; margin: 0 auto; }
+
+    /* Cards */
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; margin-bottom: 12px; }
+    .card-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-dim); margin-bottom: 12px; }
+
+    /* Today card */
+    .today-card { background: linear-gradient(135deg, #1a1a1a 0%, #1f1510 100%); border-color: var(--accent-dim); }
+    .today-label { font-size: 12px; color: var(--accent); font-weight: 600; margin-bottom: 4px; }
+    .today-title { font-size: 20px; font-weight: 800; margin-bottom: 4px; line-height: 1.2; }
+    .today-sub { font-size: 13px; color: var(--text-dim); margin-bottom: 14px; line-height: 1.5; }
+
+    .btn { display: block; width: 100%; padding: 13px; font-size: 15px; font-weight: 700; border: none; border-radius: var(--radius-sm); cursor: pointer; text-align: center; touch-action: manipulation; -webkit-user-select: none; user-select: none; }
+    .btn:active { opacity: 0.85; }
+    .btn-primary { background: var(--accent); color: #fff; }
+    .btn-secondary { background: var(--surface2); color: var(--text-dim); margin-top: 8px; }
+    .btn-ai { background: linear-gradient(135deg, #4f46e5, #7c3aed); color: #fff; margin-top: 8px; }
+    .btn-green { background: var(--green); color: #fff; }
+    .btn-sm { padding: 9px 16px; font-size: 14px; width: auto; display: inline-block; border-radius: 8px; }
+
+    /* AI Brief */
+    .ai-brief { border-radius: var(--radius); overflow: hidden; margin-top: 12px; border: 1px solid #312e81; background: #0f0c2a; }
+    .ai-brief-header { background: linear-gradient(135deg, #1e1b4b, #2e1065); padding: 12px 14px; display: flex; align-items: center; gap: 8px; }
+    .ai-brief-header h3 { font-size: 14px; font-weight: 700; color: #c4b5fd; flex: 1; }
+    .ai-brief-body { padding: 14px; }
+    .ai-target { background: #1a1535; border: 1px solid #312e81; border-radius: 8px; padding: 10px 12px; margin-bottom: 8px; font-size: 13px; line-height: 1.5; }
+    .ai-target .label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: #818cf8; margin-bottom: 4px; }
+    .ai-target .value { color: var(--text); }
+    .ai-warning { background: #1c0a0a; border: 1px solid #7f1d1d; border-radius: 8px; padding: 10px 12px; margin-bottom: 8px; font-size: 13px; color: #fca5a5; }
+    .ai-highlight { background: #0a1f0a; border: 1px solid #15532e; border-radius: 8px; padding: 10px 12px; margin-bottom: 8px; font-size: 13px; color: #86efac; }
+    .ai-ex-row { display: flex; gap: 10px; padding: 8px 0; border-bottom: 1px solid #1e1b4b; font-size: 13px; align-items: flex-start; }
+    .ai-ex-row:last-child { border-bottom: none; }
+    .ai-ex-name { font-weight: 600; flex: 1; }
+    .ai-ex-target { color: #c4b5fd; font-size: 12px; text-align: right; flex-shrink: 0; }
+    .ai-loading { text-align: center; padding: 20px; color: #818cf8; font-size: 14px; }
+    .ai-loading .spinner { display: inline-block; animation: spin 1s linear infinite; font-size: 20px; margin-bottom: 8px; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Week grid */
+    .week-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
+    .day-col { text-align: center; }
+    .day-name { font-size: 10px; color: var(--text-muted); font-weight: 600; margin-bottom: 4px; }
+    .day-dot { width: 32px; height: 32px; border-radius: 50%; margin: 0 auto; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 700; border: 2px solid transparent; }
+    .day-dot.run { background: #0c2a12; color: var(--green); border-color: #15532e; }
+    .day-dot.lift { background: #1c0d03; color: var(--accent); border-color: var(--accent-dim); }
+    .day-dot.both { background: #1c1403; color: var(--yellow); border-color: #713f12; }
+    .day-dot.rest { background: var(--surface2); color: var(--text-muted); }
+    .day-dot.today { border-color: var(--text) !important; }
+
+    /* Loads table */
+    .loads-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    .loads-table tr { border-bottom: 1px solid var(--border); }
+    .loads-table tr:last-child { border-bottom: none; }
+    .loads-table td { padding: 8px 4px; vertical-align: top; }
+    .loads-table td:first-child { color: var(--text-dim); width: 55%; }
+    .loads-table td:last-child { font-weight: 600; text-align: right; }
+
+    /* Pills */
+    .pill-row { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
+    .pill { font-size: 11px; font-weight: 600; padding: 4px 10px; border-radius: 20px; border: 1px solid; }
+    .pill.green { color: var(--green); border-color: #15532e; background: #052e16; }
+    .pill.orange { color: var(--accent); border-color: var(--accent-dim); background: #1c0d03; }
+    .pill.blue { color: var(--blue); border-color: #1e3a5f; background: #0c1e35; }
+    .pill.red { color: var(--red); border-color: #7f1d1d; background: #2d0a0a; }
+    .pill.purple { color: var(--purple); border-color: #581c87; background: #1a0533; }
+
+    /* Checklist */
+    .checklist-item { display: flex; align-items: center; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--border); font-size: 13px; }
+    .checklist-item:last-child { border-bottom: none; }
+
+    /* Countdown */
+    .race-days { font-size: 36px; font-weight: 900; color: var(--accent); line-height: 1; text-align: center; }
+    .race-label { font-size: 12px; color: var(--text-dim); margin-top: 4px; text-align: center; }
+
+    /* Exercise blocks */
+    .exercise-block { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: 10px; overflow: hidden; }
+    .exercise-header { padding: 12px 14px; display: flex; align-items: flex-start; gap: 10px; }
+    .exercise-num { background: var(--accent); color: #fff; font-size: 11px; font-weight: 800; width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 1px; }
+    .exercise-num.opt { background: var(--surface2); color: var(--text-dim); }
+    .exercise-name { font-size: 15px; font-weight: 700; margin-bottom: 2px; }
+    .exercise-prescribed { font-size: 12px; color: var(--text-dim); }
+    .exercise-load { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 2px; }
+    .ai-note-badge { font-size: 11px; color: #c4b5fd; background: #1a1535; border: 1px solid #312e81; border-radius: 6px; padding: 3px 8px; margin-top: 4px; display: inline-block; }
+
+    .sets-area { padding: 0 14px 14px; }
+    .set-row { display: grid; gap: 6px; margin-bottom: 6px; }
+    .set-row.strength { grid-template-columns: 26px 1fr 1fr 1fr; }
+    .set-row.iso { grid-template-columns: 26px 1fr 1fr; }
+    .set-num { font-size: 12px; color: var(--text-muted); font-weight: 600; padding-top: 10px; text-align: center; }
+    .field-wrap { display: flex; flex-direction: column; gap: 2px; }
+    .field-label { font-size: 10px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+
+    input[type=text], input[type=number], textarea, select {
+      background: var(--surface2); border: 1px solid var(--border); color: var(--text);
+      border-radius: 6px; padding: 9px 10px;
+      /* 16px minimum prevents iOS Safari zoom-on-focus */
+      font-size: 16px; width: 100%;
+      -webkit-appearance: none; appearance: none; outline: none;
+      /* Disable iOS default styling */
+      -webkit-border-radius: 6px;
+    }
+    input:focus, textarea:focus, select:focus { border-color: var(--accent); }
+    input[type=number] { -moz-appearance: textfield; }
+    input[type=number]::-webkit-inner-spin-button { -webkit-appearance: none; }
+    textarea { resize: none; font-family: inherit; -webkit-overflow-scrolling: touch; }
+    select { cursor: pointer; }
+    /* Fix iOS select arrow */
+    select::-ms-expand { display: none; }
+
+    /* NL input area */
+    .nl-block { background: #0f0c2a; border: 1px solid #312e81; border-radius: var(--radius); margin-bottom: 12px; overflow: hidden; }
+    .nl-header { background: linear-gradient(135deg, #1e1b4b, #2e1065); padding: 12px 14px; display: flex; align-items: center; gap: 8px; }
+    .nl-header h3 { font-size: 14px; font-weight: 700; color: #c4b5fd; flex: 1; }
+    .nl-body { padding: 14px; }
+    .nl-body textarea { background: #0a0820; border-color: #312e81; min-height: 100px; }
+    .nl-body textarea:focus { border-color: #818cf8; }
+    .nl-parse-btn { background: linear-gradient(135deg, #4f46e5, #7c3aed); color: #fff; border: none; border-radius: 8px; padding: 10px 18px; font-size: 16px; font-weight: 700; cursor: pointer; width: 100%; margin-top: 10px; min-height: 44px; touch-action: manipulation; }
+    .nl-parse-btn:disabled { opacity: 0.5; cursor: default; }
+
+    /* Markdown preview */
+    .preview-block { background: #0a1505; border: 1px solid #15532e; border-radius: var(--radius); margin-bottom: 12px; }
+    .preview-header { padding: 10px 14px; border-bottom: 1px solid #15532e; display: flex; align-items: center; gap: 8px; }
+    .preview-header h3 { font-size: 13px; font-weight: 700; color: #86efac; flex: 1; }
+    .preview-body { padding: 14px; }
+    .preview-body pre { font-size: 12px; color: #86efac; white-space: pre-wrap; word-break: break-word; font-family: 'Courier New', monospace; line-height: 1.5; }
+
+    /* Cardio block */
+    .cardio-block { background: var(--surface); border: 1px solid #15532e; border-radius: var(--radius); margin-bottom: 12px; padding: 14px; }
+    .cardio-title { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
+    .cardio-desc { font-size: 12px; color: var(--text-dim); margin-bottom: 12px; line-height: 1.5; }
+    .cardio-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+
+    /* Save bar — respects iOS home indicator */
+    .save-bar-wrap {
+      position: fixed; bottom: 0; left: 0; right: 0;
+      background: rgba(15,15,15,0.97);
+      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+      border-top: 1px solid var(--border);
+      padding: 12px 16px;
+      padding-bottom: max(12px, env(safe-area-inset-bottom, 12px));
+      z-index: 200;
+    }
+    .save-bar-inner { display: flex; gap: 10px; align-items: center; max-width: 600px; margin: 0 auto; }
+    .progress-text { font-size: 12px; color: var(--text-dim); flex: 1; }
+    .save-btn { padding: 12px 20px; background: var(--green); color: #fff; font-size: 15px; font-weight: 700; border: none; border-radius: var(--radius-sm); cursor: pointer; white-space: nowrap; touch-action: manipulation; min-height: 44px; }
+    .save-btn:active { opacity: 0.85; }
+    .save-btn:disabled { background: var(--surface2); color: var(--text-muted); cursor: default; }
+
+    /* Setup */
+    .setup-logo { font-size: 40px; text-align: center; margin-bottom: 8px; margin-top: 20px; }
+    .setup-title { font-size: 24px; font-weight: 800; text-align: center; margin-bottom: 6px; }
+    .setup-sub { font-size: 14px; color: var(--text-dim); text-align: center; margin-bottom: 28px; line-height: 1.6; }
+    .form-group { margin-bottom: 16px; }
+    .form-label { font-size: 13px; font-weight: 600; color: var(--text-dim); margin-bottom: 6px; display: block; }
+    .form-hint { font-size: 11px; color: var(--text-muted); margin-top: 5px; line-height: 1.4; }
+    .form-hint a { color: var(--accent); }
+    .security-note { background: #1c0a0a; border: 1px solid #7f1d1d; border-radius: 8px; padding: 10px 12px; font-size: 12px; color: #fca5a5; margin-bottom: 16px; line-height: 1.5; }
+    .section-divider { display: flex; align-items: center; gap: 10px; margin: 20px 0; }
+    .section-divider span { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); white-space: nowrap; }
+    .section-divider::before, .section-divider::after { content: ''; flex: 1; border-top: 1px solid var(--border); }
+
+    /* Toast */
+    .toast { position: fixed; top: 70px; left: 50%; transform: translateX(-50%); background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 12px 20px; font-size: 14px; font-weight: 600; z-index: 999; display: none; white-space: nowrap; box-shadow: 0 8px 32px rgba(0,0,0,0.5); }
+    .toast.green { border-color: #15532e; color: var(--green); background: #052e16; }
+    .toast.red { border-color: #7f1d1d; color: var(--red); background: #2d0a0a; }
+    .toast.blue { border-color: #1e3a5f; color: #93c5fd; background: #0c1e35; }
+
+    .section-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+
+<!-- ══════════ SETUP ══════════ -->
+<div id="screen-setup" class="screen active">
+  <div class="content" style="max-width:480px">
+    <div class="setup-logo">🏃</div>
+    <div class="setup-title">Sub-20 5K Dashboard</div>
+    <div class="setup-sub">Connect your GitHub repo to log workouts and optionally add your Anthropic key for AI-powered briefs and smart log parsing.</div>
+
+    <div class="card">
+      <div class="card-title">GitHub (required)</div>
+      <div class="form-group">
+        <label class="form-label" for="in-token">Personal Access Token</label>
+        <input type="text" id="in-token" placeholder="ghp_…" autocomplete="off" autocorrect="off" spellcheck="false">
+        <div class="form-hint">Needs <strong>repo</strong> scope → <a href="https://github.com/settings/tokens/new?scopes=repo" target="_blank">Generate token ↗</a></div>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="in-repo">Repository</label>
+        <input type="text" id="in-repo" value="ayaanh03/workout-tracking">
+      </div>
+      <div class="form-group" style="margin-bottom:0">
+        <label class="form-label" for="in-branch">Branch for Tracker.md</label>
+        <input type="text" id="in-branch" value="main">
+      </div>
+    </div>
+
+    <div class="card" style="border-color:#312e81;background:#0f0c2a">
+      <div class="card-title" style="color:#818cf8">Anthropic AI (optional)</div>
+      <div class="security-note">Your key is stored in your browser only and sent directly to api.anthropic.com. Never share this page with others.</div>
+      <div class="form-group" style="margin-bottom:0">
+        <label class="form-label" for="in-ai-key">Anthropic API Key</label>
+        <input type="text" id="in-ai-key" placeholder="sk-ant-…" autocomplete="off" autocorrect="off" spellcheck="false">
+        <div class="form-hint">Enables: AI workout briefs, natural-language log parsing, smart load targets.<br><a href="https://console.anthropic.com/settings/keys" target="_blank" style="color:#818cf8">Get API key ↗</a></div>
+      </div>
+    </div>
+
+    <button class="btn btn-primary" onclick="saveSetup()">Open Dashboard →</button>
+  </div>
+</div>
+
+<!-- ══════════ HOME ══════════ -->
+<div id="screen-home" class="screen">
+  <div class="top-bar">
+    <h1>Sub-20 5K</h1>
+    <span class="week-badge" id="hm-badge">W?</span>
+    <button class="icon-btn" onclick="showSetup()" title="Settings">⚙️</button>
+  </div>
+  <div class="content">
+
+    <!-- Today card -->
+    <div class="card today-card">
+      <div class="today-label" id="hm-date">—</div>
+      <div class="today-title" id="hm-title">—</div>
+      <div class="today-sub" id="hm-sub">—</div>
+      <div id="hm-actions"></div>
+      <!-- AI Brief inlined here -->
+      <div id="hm-ai-brief"></div>
+    </div>
+
+    <!-- Countdown -->
+    <div class="card" style="padding:12px">
+      <div class="race-days" id="hm-days">—</div>
+      <div class="race-label">days to race · Sat Oct 24 2026</div>
+    </div>
+
+    <!-- Week -->
+    <div class="card">
+      <div class="card-title">This Week</div>
+      <div class="week-grid" id="hm-week"></div>
+    </div>
+
+    <!-- Phase status -->
+    <div class="card">
+      <div class="card-title">Phase Status</div>
+      <div class="pill-row" id="hm-pills"></div>
+      <div id="hm-checklist"></div>
+    </div>
+
+    <!-- Loads -->
+    <div class="card">
+      <div class="card-title">Current Working Loads</div>
+      <table class="loads-table"><tbody id="hm-loads"></tbody></table>
+    </div>
+
+    <!-- HR Zones -->
+    <div class="card">
+      <div class="card-title">HR Zones — Max 191 bpm</div>
+      <table class="loads-table"><tbody>
+        <tr><td>Z1 Easy (≤75%)</td><td>≤ 143 bpm</td></tr>
+        <tr><td>Z2 Threshold (85–88%)</td><td>162–168 bpm</td></tr>
+        <tr><td>Z3 VO2max (92–96%)</td><td>176–183 bpm</td></tr>
+        <tr><td>Gray zone (avoid)</td><td>144–161 bpm</td></tr>
+      </tbody></table>
+    </div>
+
+  </div>
+</div>
+
+<!-- ══════════ WORKOUT ══════════ -->
+<div id="screen-workout" class="screen">
+  <div class="top-bar">
+    <button class="icon-btn" onclick="showHome()">←</button>
+    <h1 id="wk-title">Workout</h1>
+    <span class="week-badge" id="wk-badge">W?</span>
+  </div>
+  <div class="content">
+    <div id="wk-content"></div>
+  </div>
+  <div class="save-bar-wrap">
+    <div class="save-bar-inner">
+      <span class="progress-text" id="wk-progress">Fill in your sets</span>
+      <button class="save-btn" id="wk-save" onclick="saveWorkout()" disabled>Save to Tracker</button>
+    </div>
+  </div>
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
+
+<script>
+// ═══════════════════════════════════════════
+// STATIC DATA
+// ═══════════════════════════════════════════
+
+const PROGRAM_START = new Date('2026-04-20T00:00:00');
+const RACE_DAY      = new Date('2026-10-24T00:00:00');
+
+const LOADS = {
+  'Incline BB':         { load: '125 lb (TM 155)', note: '+5 lb/wk if clean RPE 7; AMRAP test W4' },
+  'Lat Pulldown':       { load: '125 lb',          note: 'Drift 130 S2-3, back off 120 S4' },
+  'Chest-supp Row':     { load: '80 lb',            note: 'NEW to Sat circuit Phase B+; hold 80' },
+  'Cable Lateral (Tue)':{ load: '12.5 lb',          note: 'Anchor all 4 sets' },
+  'Cable Lateral (Sat)':{ load: '5 lb/side',        note: 'Uni, RPE 9' },
+  'Preacher Curl Uni':  { load: '50 lb/arm',        note: 'Machine 5 lb increments' },
+  'Triceps Pushdown':   { load: '42.5 lb',          note: 'Hold — failed 50; need clean RIR 2 all sets' },
+  'Rear-delt Fly':      { load: '125 lb',           note: 'Bumped from 120' },
+  'Seated Calf':        { load: '315 lb',           note: 'RIR 2 sustained' },
+  'Cable Crunch':       { load: '42.5 lb',          note: 'RPE 8' },
+  'Soleus Wall-sit':    { load: 'BW',               note: '3×30–45s knee ~80°, forefoot push, RPE 7-8' },
+};
+
+const HYP_A = [
+  { id:'incline',   name:'Incline BB',                prescribed:'3×5–8 @ TM, RPE 7',              sets:3, iso:false, loadKey:'Incline BB' },
+  { id:'lateral-a', name:'DB Lateral Raise',           prescribed:'4×12, RPE 9 (last to failure)',   sets:4, iso:false, loadKey:'Cable Lateral (Tue)', optional:false },
+  { id:'preacher-a',name:'Preacher Curl Machine',      prescribed:'3×10, RPE 8 (preacher only)',     sets:3, iso:false, loadKey:'Preacher Curl Uni' },
+  { id:'pushdown-v',name:'Cable Pushdown V-bar',       prescribed:'3×12, RPE 8',                     sets:3, iso:false, loadKey:'Triceps Pushdown' },
+  { id:'crunch',    name:'Cable Crunch',               prescribed:'3×12, RPE 8',                     sets:3, iso:false, loadKey:'Cable Crunch' },
+  { id:'soleus-a',  name:'Soleus Wall-sit Isometric',  prescribed:'3×30–45s, RPE 7–8, knee ~80°',    sets:3, iso:true,  loadKey:'Soleus Wall-sit' },
+  { id:'reardelt',  name:'Rear-delt Fly (optional)',   prescribed:'2×15, RPE 7',                     sets:2, iso:false, loadKey:'Rear-delt Fly', optional:true },
+];
+
+const HYP_B = [
+  { id:'latpull',   name:'Lat Pulldown',               prescribed:'4×8–10, RPE 8 (last RIR 1)',     sets:4, iso:false, loadKey:'Lat Pulldown' },
+  { id:'csrow',     name:'Chest-supported Row',        prescribed:'3×10, RPE 8',                    sets:3, iso:false, loadKey:'Chest-supp Row' },
+  { id:'lateral-b', name:'Cable Lateral Raise',        prescribed:'3×12–15, RPE 9',                 sets:3, iso:false, loadKey:'Cable Lateral (Sat)' },
+  { id:'preacher-b',name:'Preacher Curl Machine',      prescribed:'3×12, RPE 8',                    sets:3, iso:false, loadKey:'Preacher Curl Uni' },
+  { id:'pushdown-r',name:'Cable Pushdown Rope',        prescribed:'3×12–15, RPE 8',                 sets:3, iso:false, loadKey:'Triceps Pushdown' },
+  { id:'kneeraise', name:'Hanging Knee Raise',         prescribed:'3×10, RPE 8',                    sets:3, iso:false, loadKey:null },
+  { id:'calf',      name:'Seated Calf Raise',          prescribed:'4×12–15, RPE 9 (last to failure)',sets:4, iso:false, loadKey:'Seated Calf' },
+  { id:'soleus-b',  name:'Soleus Wall-sit Isometric',  prescribed:'3×30–45s, RPE 7–8',              sets:3, iso:true,  loadKey:'Soleus Wall-sit' },
+  { id:'flye',      name:'DB Flye (optional)',         prescribed:'2×12, RPE 7',                    sets:2, iso:false, loadKey:null, optional:true },
+];
+
+const DAY_META = {
+  0:{ type:'rest', label:'Rest + Prehab',                  icon:'😴', desc:'Tyler twists 3×15 + reverse Tyler 3×15 · McGill Big 3 · clamshells 2×15/side · bird-dog 3×8/side · side plank 3×20–30s/side' },
+  1:{ type:'run',  label:'Easy Run + Strides',             icon:'🏃', desc:'Z1 easy 30–50 min (≤143 bpm) · 4×20s strides · Phase B+: hill strides 6–8×10–12s @ 4–6% grade (replaces flat strides Mon)' },
+  2:{ type:'both', label:'Threshold + Hypertrophy A',      icon:'🔥', desc:'AM: Threshold run or row (≥6h gap) · PM: Hypertrophy A ~40 min · Z2: 162–168 bpm', lift: HYP_A },
+  3:{ type:'run',  label:'Easy Run',                       icon:'🏃', desc:'Z1 easy 30–50 min (≤143 bpm) · optional 4–6 strides after' },
+  4:{ type:'run',  label:'Easy Run or Rest',               icon:'🏃', desc:'Z1 easy 25–40 min or full rest day · listen to body' },
+  5:{ type:'run',  label:'VO2max / Quality Session',       icon:'⚡', desc:'Fri quality run or row · Z3: 176–183 bpm · intervals or easy+strides depending on phase' },
+  6:{ type:'both', label:'Long Run + Hypertrophy B',       icon:'💪', desc:'AM: Long run Z1 (≤143 bpm) · PM: Hypertrophy B ~40 min (≥6h gap) · max 40 min total lift time', lift: HYP_B },
+};
+
+// ═══════════════════════════════════════════
+// HELPERS
+// ═══════════════════════════════════════════
+
+const getWeek = () => Math.max(1, Math.ceil((Date.now() - PROGRAM_START) / 6048e5));
+const getPhase = w => w<=4?'Reset':w<=12?'Base':w<=18?'Build':w<=22?'Sharpen':'Taper';
+const daysToRace = () => Math.ceil((RACE_DAY - Date.now()) / 864e5);
+
+const todayInfo = () => {
+  const d = new Date();
+  return {
+    dow: d.getDay(),
+    dateStr: d.toISOString().slice(0,10),
+    display: d.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'}),
+    short: ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][d.getDay()],
+  };
+};
+
+// ═══════════════════════════════════════════
+// CONFIG
+// ═══════════════════════════════════════════
+
+const getCfg = () => { try { return JSON.parse(localStorage.getItem('wk_cfg')||'{}'); } catch { return {}; } };
+
+function saveSetup() {
+  const token   = document.getElementById('in-token').value.trim();
+  const repo    = document.getElementById('in-repo').value.trim();
+  const branch  = document.getElementById('in-branch').value.trim();
+  const aiKey   = document.getElementById('in-ai-key').value.trim();
+  if (!token) { showToast('GitHub token required','red'); return; }
+  localStorage.setItem('wk_cfg', JSON.stringify({ token, repo, branch:branch||'main', aiKey }));
+  showHome();
+}
+
+function showSetup() {
+  const c = getCfg();
+  if (c.token)  document.getElementById('in-token').value  = c.token;
+  if (c.repo)   document.getElementById('in-repo').value   = c.repo;
+  if (c.branch) document.getElementById('in-branch').value = c.branch;
+  if (c.aiKey)  document.getElementById('in-ai-key').value = c.aiKey;
+  showScreen('setup');
+}
+
+// ═══════════════════════════════════════════
+// SCREENS
+// ═══════════════════════════════════════════
+
+const showScreen = name => {
+  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
+  document.getElementById('screen-'+name).classList.add('active');
+  window.scrollTo(0,0);
+};
+
+// ═══════════════════════════════════════════
+// HOME
+// ═══════════════════════════════════════════
+
+function showHome() {
+  const c = getCfg();
+  if (!c.token) { showSetup(); return; }
+  renderHome();
+  showScreen('home');
+}
+
+function renderHome() {
+  const week = getWeek(), phase = getPhase(week);
+  const t = todayInfo();
+  const s = DAY_META[t.dow];
+
+  document.getElementById('hm-badge').textContent = `W${week}`;
+  document.getElementById('hm-days').textContent  = daysToRace();
+  document.getElementById('hm-date').textContent  = t.display;
+  document.getElementById('hm-title').textContent = `${s.icon} ${s.label}`;
+  document.getElementById('hm-sub').textContent   = s.desc;
+
+  // Action buttons
+  const actions = document.getElementById('hm-actions');
+  const cfg = getCfg();
+  const hasAI = !!cfg.aiKey;
+  if (s.type === 'rest') {
+    actions.innerHTML = `<div style="color:var(--text-muted);font-size:13px;padding:8px 0">Rest + prehab day — no logging needed</div>`;
+  } else if (s.type === 'run') {
+    actions.innerHTML = `
+      <button class="btn btn-primary" onclick="showWorkout('cardio-${t.dow}')">Log Cardio Session</button>
+      ${hasAI ? `<button class="btn btn-ai" onclick="loadAIBrief()">✨ Get AI Workout Brief</button>` : ''}`;
+  } else {
+    actions.innerHTML = `
+      <button class="btn btn-primary" onclick="showWorkout('lift-${t.dow}')">Log ${t.dow===2?'Hypertrophy A':'Hypertrophy B'}</button>
+      <button class="btn btn-secondary" onclick="showWorkout('cardio-${t.dow}')">Log Cardio Only</button>
+      ${hasAI ? `<button class="btn btn-ai" onclick="loadAIBrief()">✨ Get AI Workout Brief</button>` : ''}`;
+  }
+
+  // Week grid
+  const DNAMES = ['S','M','T','W','T','F','S'];
+  document.getElementById('hm-week').innerHTML = DNAMES.map((dn,i)=>{
+    const dm = DAY_META[i];
+    const cls = dm.type==='rest'?'rest':dm.type==='both'?'both':dm.type==='run'?'run':'lift';
+    return `<div class="day-col">
+      <div class="day-name">${dn}</div>
+      <div class="day-dot ${cls}${i===t.dow?' today':''}">●</div>
+    </div>`;
+  }).join('');
+
+  // Pills
+  document.getElementById('hm-pills').innerHTML = `
+    <span class="pill orange">Phase A · ${phase}</span>
+    <span class="pill green">W${week}/W25</span>
+    <span class="pill blue">Soleus ✓</span>
+    <span class="pill red">Hill Strides ✗</span>
+    <span class="pill purple">SI 3/7 ⟶ Phase B</span>`;
+
+  // Checklist
+  document.getElementById('hm-checklist').innerHTML = `
+    <div class="section-label" style="margin-top:8px">Phase B Gate (Running Reintro)</div>
+    <div class="checklist-item"><span>✅</span> SI provocation tests negative (5/6)</div>
+    <div class="checklist-item"><span>✅</span> Single-leg bridge 30s/side pain-free (5/6)</div>
+    <div class="checklist-item"><span>⬜</span> 7 consecutive symptom-free days — 3/7 as of 5/8</div>
+    <div class="checklist-item"><span>⬜</span> PT visit (overdue)</div>
+    <div style="font-size:12px;color:var(--text-muted);margin-top:8px">Earliest: ~May 23 (conservative) · May 27–Jun 3 (realistic)</div>`;
+
+  // Loads
+  document.getElementById('hm-loads').innerHTML = Object.entries(LOADS)
+    .map(([n,v])=>`<tr><td>${n}</td><td>${v.load}</td></tr>`).join('');
+}
+
+// ═══════════════════════════════════════════
+// AI BRIEF
+// ═══════════════════════════════════════════
+
+async function loadAIBrief() {
+  const cfg = getCfg();
+  if (!cfg.aiKey) { showToast('Add Anthropic key in settings','red'); return; }
+
+  const el = document.getElementById('hm-ai-brief');
+  el.innerHTML = `<div class="ai-brief"><div class="ai-brief-header"><span>✨</span><h3>AI Workout Brief</h3></div><div class="ai-loading"><div class="spinner">⏳</div><div>Reading your program…</div></div></div>`;
+
+  try {
+    // Fetch program.md and Tracker.md from GitHub
+    const [progMd, trackerMd] = await Promise.all([
+      fetchGitHubFile('program.md'),
+      fetchGitHubFile('Tracker.md'),
+    ]);
+
+    const week = getWeek(), phase = getPhase(week);
+    const t = todayInfo();
+    const s = DAY_META[t.dow];
+
+    // Truncate program.md to most relevant sections (keep under ~4K tokens)
+    const programSnippet = extractProgramSections(progMd, t.dow, week);
+    const trackerSnippet = extractTrackerSections(trackerMd);
+
+    const prompt = `You are a personal running + lifting coach. Analyze the program and tracker below and produce a concise, specific workout brief for today.
+
+TODAY: ${t.display}, Week ${week} (${phase} phase), Day: ${t.short}
+SESSION: ${s.label}
+
+PROGRAM EXCERPT:
+${programSnippet}
+
+TRACKER (current loads + recent history):
+${trackerSnippet}
+
+Return ONLY a JSON object (no markdown, no explanation) with this exact structure:
+{
+  "sessionTitle": "string",
+  "keyTargets": ["string", ...],
+  "warnings": ["string", ...],
+  "highlights": ["string", ...],
+  "exercises": [{"name":"string","target":"string","note":"string"}, ...],
+  "cardio": {"prescription":"string","paceTarget":"string","hrTarget":"string","notes":"string"}
+}
+
+Rules:
+- keyTargets: 2-3 most important things to nail today
+- warnings: SI/health cautions specific to today
+- highlights: positive notes / what to watch for
+- exercises: only for lifting days, include actual load numbers from tracker
+- cardio: always include if there's a run/row component
+- Be specific with numbers (paces, HR, weights, reps). Reference actual current loads.`;
+
+    const resp = await callClaude(prompt, 'claude-haiku-4-5-20251001', cfg.aiKey);
+    let data;
+    try {
+      const jsonStr = resp.replace(/```json\n?|\n?```/g,'').trim();
+      data = JSON.parse(jsonStr);
+    } catch {
+      el.innerHTML = `<div class="ai-brief"><div class="ai-brief-header"><span>✨</span><h3>AI Brief</h3></div><div class="ai-brief-body"><div style="font-size:13px;color:#c4b5fd;white-space:pre-wrap">${resp}</div></div></div>`;
+      return;
+    }
+
+    let html = `<div class="ai-brief">
+      <div class="ai-brief-header"><span>✨</span><h3>${data.sessionTitle || s.label}</h3><span style="font-size:11px;color:#818cf8">AI · ${new Date().toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'})}</span></div>
+      <div class="ai-brief-body">`;
+
+    (data.warnings||[]).forEach(w => { html += `<div class="ai-warning">⚠️ ${w}</div>`; });
+    (data.highlights||[]).forEach(h => { html += `<div class="ai-highlight">✓ ${h}</div>`; });
+
+    if (data.keyTargets?.length) {
+      html += `<div class="ai-target"><div class="label">Key Targets</div><div class="value">${data.keyTargets.map(t=>`• ${t}`).join('<br>')}</div></div>`;
+    }
+
+    if (data.cardio?.prescription) {
+      html += `<div class="ai-target"><div class="label">Cardio</div><div class="value"><strong>${data.cardio.prescription}</strong>${data.cardio.paceTarget ? `<br>Pace: ${data.cardio.paceTarget}` : ''}${data.cardio.hrTarget ? `<br>HR: ${data.cardio.hrTarget}` : ''}${data.cardio.notes ? `<br>${data.cardio.notes}` : ''}</div></div>`;
+    }
+
+    if (data.exercises?.length) {
+      html += `<div class="ai-target"><div class="label">Exercise Targets</div>`;
+      data.exercises.forEach(e => {
+        html += `<div class="ai-ex-row"><div><div class="ai-ex-name">${e.name}</div>${e.note?`<div style="font-size:11px;color:#818cf8">${e.note}</div>`:''}</div><div class="ai-ex-target">${e.target}</div></div>`;
+      });
+      html += `</div>`;
+    }
+
+    html += `</div></div>`;
+    el.innerHTML = html;
+
+  } catch(err) {
+    el.innerHTML = `<div class="ai-brief"><div class="ai-brief-body"><div style="color:var(--red);font-size:13px">Error: ${err.message}</div></div></div>`;
+  }
+}
+
+function extractProgramSections(md, dow, week) {
+  // Pull relevant sections based on day
+  const sections = [];
+
+  // Always include hypertrophy circuits
+  const hypStart = md.indexOf('## 3. Hypertrophy Circuits');
+  const hypEnd   = md.indexOf('\n## 4.');
+  if (hypStart !== -1) sections.push(md.slice(hypStart, hypEnd !== -1 ? hypEnd : hypStart+3000));
+
+  // Include relevant run phase
+  const phase = getPhase(week);
+  const phaseMap = { Reset:'4.B', Base:'4.C', Build:'4.D', Sharpen:'4.E', Taper:'4.F' };
+  const phaseSection = phaseMap[phase];
+  if (phaseSection) {
+    const idx = md.indexOf(`### ${phaseSection}`);
+    if (idx !== -1) {
+      const end = md.indexOf('\n### 4.', idx+1);
+      sections.push(md.slice(idx, end !== -1 ? end : idx+1500));
+    }
+  }
+
+  // Include strength progression
+  const strIdx = md.indexOf('## 5. Strength Progression');
+  if (strIdx !== -1) sections.push(md.slice(strIdx, strIdx+800));
+
+  return sections.join('\n\n---\n\n').slice(0, 6000);
+}
+
+function extractTrackerSections(md) {
+  // Pull current loads + recent entries
+  const loadsIdx = md.indexOf('## Current Working Loads');
+  const liftIdx  = md.indexOf('## Lifting Log');
+  const cardIdx  = md.indexOf('## Cardio Log');
+
+  let out = '';
+  if (loadsIdx !== -1) {
+    const end = md.indexOf('\n## ', loadsIdx+1);
+    out += md.slice(loadsIdx, end !== -1 ? end : loadsIdx+1200) + '\n\n';
+  }
+  // Last ~1500 chars of lifting log
+  if (liftIdx !== -1) {
+    const end = md.indexOf('\n## ', liftIdx+1);
+    const block = md.slice(liftIdx, end !== -1 ? end : md.length);
+    out += block.slice(-1500) + '\n\n';
+  }
+  // Last ~800 chars of cardio log
+  if (cardIdx !== -1) {
+    const end = md.indexOf('\n## ', cardIdx+1);
+    const block = md.slice(cardIdx, end !== -1 ? end : md.length);
+    out += block.slice(-800);
+  }
+  return out.slice(0, 3000);
+}
+
+// ═══════════════════════════════════════════
+// WORKOUT SCREEN
+// ═══════════════════════════════════════════
+
+let wkType   = '';  // 'lift-2', 'lift-6', 'cardio-N'
+let wkWeek   = 1;
+let wkData   = {};  // structured form data
+let aiMarkdown = ''; // AI-generated markdown preview
+
+function showWorkout(type) {
+  wkType = type; wkWeek = getWeek(); wkData = {}; aiMarkdown = '';
+  renderWorkout();
+  showScreen('workout');
+}
+
+function renderWorkout() {
+  const t = todayInfo();
+  const phase = getPhase(wkWeek);
+  const cfg = getCfg();
+  const hasAI = !!cfg.aiKey;
+
+  document.getElementById('wk-badge').textContent = `W${wkWeek}`;
+
+  if (wkType.startsWith('lift-')) {
+    const dow = parseInt(wkType.split('-')[1]);
+    const isA = dow === 2;
+    const exs = isA ? HYP_A : HYP_B;
+    const label = isA ? 'Hypertrophy A' : 'Hypertrophy B';
+    document.getElementById('wk-title').textContent = label;
+
+    let html = `<div class="card" style="background:var(--surface2)">
+      <div class="today-label">${t.display}</div>
+      <div style="font-size:13px;color:var(--text-dim);margin-top:2px">${phase} · ${label} · ~40 min</div>
+    </div>`;
+
+    // Structured exercise blocks
+    let exNum = 0;
+    exs.forEach(ex => {
+      exNum++;
+      wkData[ex.id] = { weight:'', sets: Array(ex.sets).fill(null).map(()=>({reps:'',rir:'',time:''})), notes:'' };
+      const load = ex.loadKey ? LOADS[ex.loadKey] : null;
+
+      let setsHtml = '';
+      for (let i=0; i<ex.sets; i++) {
+        if (ex.iso) {
+          setsHtml += `<div class="set-row iso">
+            <div class="set-num">S${i+1}</div>
+            <div class="field-wrap"><div class="field-label">Time (s)</div>
+              <input type="number" inputmode="numeric" placeholder="30–45" oninput="setField('${ex.id}',${i},'time',this.value)"></div>
+            <div class="field-wrap"><div class="field-label">RPE</div>
+              <input type="number" inputmode="numeric" step="0.5" min="1" max="10" placeholder="7" oninput="setField('${ex.id}',${i},'rpe',this.value)"></div>
+          </div>`;
+        } else {
+          setsHtml += `<div class="set-row strength">
+            <div class="set-num">S${i+1}</div>
+            <div class="field-wrap"><div class="field-label">Reps</div>
+              <input type="number" inputmode="numeric" placeholder="—" oninput="setField('${ex.id}',${i},'reps',this.value)"></div>
+            <div class="field-wrap"><div class="field-label">RIR</div>
+              <input type="number" inputmode="numeric" step="0.5" min="0" max="5" placeholder="—" oninput="setField('${ex.id}',${i},'rir',this.value)"></div>
+            <div class="field-wrap"><div class="field-label">Load</div>
+              <input type="text" placeholder="lb" oninput="setWeight('${ex.id}',this.value)"></div>
+          </div>`;
+        }
+      }
+
+      html += `<div class="exercise-block">
+        <div class="exercise-header">
+          <div class="exercise-num${ex.optional?' opt':''}">${ex.optional?'*':exNum}</div>
+          <div style="flex:1">
+            <div class="exercise-name">${ex.name}</div>
+            <div class="exercise-prescribed">${ex.prescribed}</div>
+            ${load ? `<div class="exercise-load">Last: ${load.load} — ${load.note}</div>` : ''}
+          </div>
+        </div>
+        <div class="sets-area">
+          ${setsHtml}
+          <div style="margin-top:8px">
+            <div class="field-label">Notes</div>
+            <textarea placeholder="feel, RIR, anything worth noting…" rows="2" oninput="setNotes('${ex.id}',this.value)"></textarea>
+          </div>
+        </div>
+      </div>`;
+    });
+
+    // NL input block
+    html += nlBlock(hasAI, label);
+    // Preview placeholder
+    html += `<div id="wk-preview"></div>`;
+
+    document.getElementById('wk-content').innerHTML = html;
+
+  } else {
+    // Cardio
+    const dow = parseInt(wkType.split('-')[1]);
+    const dm  = DAY_META[dow];
+    document.getElementById('wk-title').textContent = 'Cardio Log';
+    wkData['cardio'] = { modality:'', duration:'', distance:'', avgHr:'', peakHr:'', pace:'', notes:'' };
+
+    let html = `<div class="card" style="background:var(--surface2)">
+      <div class="today-label">${t.display}</div>
+      <div style="font-size:13px;color:var(--text-dim);margin-top:2px">${phase} · ${dm.label}</div>
+    </div>
+    <div class="cardio-block">
+      <div class="cardio-title">${dm.label}</div>
+      <div class="cardio-desc">${dm.desc}</div>
+
+      <div class="form-group" style="margin-bottom:12px">
+        <div class="field-label">Modality</div>
+        <select onchange="wkData['cardio'].modality=this.value;updateProgress()">
+          <option value="">— select —</option>
+          <option>Run (outdoor)</option>
+          <option>Run (treadmill)</option>
+          <option>Row</option>
+          <option>Bike</option>
+          <option>Walk-jog drill</option>
+        </select>
+      </div>
+
+      <div class="cardio-grid">
+        <div class="field-wrap"><div class="field-label">Duration (min)</div>
+          <input type="number" inputmode="numeric" placeholder="—" oninput="wkData['cardio'].duration=this.value;updateProgress()"></div>
+        <div class="field-wrap"><div class="field-label">Distance (mi/m)</div>
+          <input type="text" placeholder="—" oninput="wkData['cardio'].distance=this.value"></div>
+        <div class="field-wrap"><div class="field-label">Avg HR</div>
+          <input type="number" inputmode="numeric" placeholder="bpm" oninput="wkData['cardio'].avgHr=this.value"></div>
+        <div class="field-wrap"><div class="field-label">Peak HR</div>
+          <input type="number" inputmode="numeric" placeholder="bpm" oninput="wkData['cardio'].peakHr=this.value"></div>
+        <div class="field-wrap" style="grid-column:span 2"><div class="field-label">Avg Pace / Split</div>
+          <input type="text" placeholder="e.g. 10:30/mi or 2:22/500m" oninput="wkData['cardio'].pace=this.value"></div>
+      </div>
+      <div style="margin-top:10px">
+        <div class="field-label">Notes</div>
+        <textarea rows="3" placeholder="zone compliance, feel, SI status, strides, decoupling…" oninput="wkData['cardio'].notes=this.value;updateProgress()"></textarea>
+      </div>
+    </div>`;
+
+    html += nlBlock(hasAI, dm.label);
+    html += `<div id="wk-preview"></div>`;
+    document.getElementById('wk-content').innerHTML = html;
+  }
+
+  updateProgress();
+}
+
+function nlBlock(hasAI, sessionLabel) {
+  if (!hasAI) return '';
+  return `<div class="nl-block">
+    <div class="nl-header"><span>✨</span><h3>Describe Your Workout (AI Parse)</h3></div>
+    <div class="nl-body">
+      <div class="field-label" style="margin-bottom:6px">Write anything — AI will format it for Tracker.md</div>
+      <textarea id="nl-text" rows="4" placeholder="e.g. &quot;Incline 130×8 RIR 2 for 3 sets, felt strong. Pushdown stayed at 42.5, hit RIR 2 all sets finally. Skipped rear delt. SI felt fine throughout, maybe 0-1/10.&quot;"></textarea>
+      <button class="nl-parse-btn" id="nl-btn" onclick="parseWithAI()">✨ Parse &amp; Preview</button>
+    </div>
+  </div>`;
+}
+
+// ═══════════════════════════════════════════
+// FORM STATE
+// ═══════════════════════════════════════════
+
+function setField(id, idx, field, val) {
+  if (!wkData[id]) return;
+  wkData[id].sets[idx][field] = val;
+  updateProgress();
+}
+function setWeight(id, val) { if (wkData[id]) wkData[id].weight = val; }
+function setNotes(id, val)  { if (wkData[id]) wkData[id].notes  = val; }
+
+function updateProgress() {
+  const keys = Object.keys(wkData);
+  let filled = 0;
+  for (const k of keys) {
+    const d = wkData[k];
+    if (k === 'cardio') { if (d.duration || d.distance || d.modality) filled++; }
+    else if (d.sets?.some(s => s.reps || s.time)) filled++;
+  }
+  const hasPreview = !!aiMarkdown;
+  document.getElementById('wk-progress').textContent = hasPreview
+    ? '✓ AI preview ready — save to commit'
+    : `${filled}/${keys.length} exercises logged`;
+  document.getElementById('wk-save').disabled = (filled === 0 && !hasPreview);
+}
+
+// ═══════════════════════════════════════════
+// AI PARSE
+// ═══════════════════════════════════════════
+
+async function parseWithAI() {
+  const cfg = getCfg();
+  if (!cfg.aiKey) { showToast('Add Anthropic key in settings','red'); return; }
+  const nlText = document.getElementById('nl-text')?.value?.trim();
+  if (!nlText) { showToast('Write your workout description first','red'); return; }
+
+  const btn = document.getElementById('nl-btn');
+  btn.disabled = true; btn.textContent = '⏳ Parsing…';
+
+  try {
+    const t = todayInfo();
+    const week = wkWeek;
+    const phase = getPhase(week);
+    const isLift = wkType.startsWith('lift-');
+    const isA    = isLift && parseInt(wkType.split('-')[1]) === 2;
+
+    // Also pull structured form data to include what's already filled
+    const structuredSummary = buildStructuredSummary();
+
+    // Build context about current loads
+    const loadsContext = Object.entries(LOADS)
+      .map(([n,v]) => `- ${n}: ${v.load} (${v.note})`).join('\n');
+
+    const prompt = `You are a personal fitness coach formatting a workout log entry for a Markdown tracker file.
+
+DATE: ${t.dateStr}  WEEK: W${week}  PHASE: ${phase}  SESSION: ${wkType}
+${isLift ? `SESSION TYPE: ${isA ? 'Hypertrophy A (Tue)' : 'Hypertrophy B (Sat)'}` : 'SESSION TYPE: Cardio'}
+
+CURRENT LOADS REFERENCE:
+${loadsContext}
+
+${structuredSummary ? `STRUCTURED DATA ALREADY FILLED:\n${structuredSummary}\n\n` : ''}USER'S NATURAL LANGUAGE DESCRIPTION:
+"${nlText}"
+
+YOUR JOB:
+Produce the exact Markdown section to append to the Tracker.md Lifting Log or Cardio Log.
+
+${isLift ? `For a lifting session, output a section header then a Markdown table in this format:
+### W${week} ${t.short} ${t.dateStr} — ${isA ? 'Hypertrophy A' : 'Hypertrophy B'}
+
+|Exercise|Sets|Notes|
+|--------|-----|-----|
+|Exercise Name|weight×reps RIRx / weight×reps RIRx ...|notes|
+
+Include every exercise mentioned. Use "—" for anything not mentioned. Infer loads from the reference if not stated explicitly.`
+
+: `For a cardio session, output a single table row to append under the existing Cardio Log table header:
+|${t.dateStr}|W${week}|modality|time / distance|pace or split|avg HR, peak HR|notes|
+
+If any field is unknown from the description, use "—".`}
+
+Also include a brief "AI Summary" line at the very end starting with "> AI:" summarizing what was notable (e.g. load bumps, SI status, fatigue flags, RIR trends).
+
+Return ONLY the markdown — no explanation, no code fences, no JSON.`;
+
+    const resp = await callClaude(prompt, 'claude-haiku-4-5-20251001', cfg.aiKey);
+    aiMarkdown = resp.trim();
+
+    // Show preview
+    document.getElementById('wk-preview').innerHTML = `
+      <div class="preview-block">
+        <div class="preview-header">
+          <span style="font-size:16px">📋</span>
+          <h3>Preview — will be appended to Tracker.md</h3>
+          <button class="btn btn-sm btn-secondary" onclick="clearPreview()" style="padding:5px 10px;font-size:12px">✕</button>
+        </div>
+        <div class="preview-body"><pre>${escHtml(aiMarkdown)}</pre></div>
+      </div>`;
+
+    btn.textContent = '✓ Preview ready';
+    updateProgress();
+    document.getElementById('wk-preview').scrollIntoView({behavior:'smooth'});
+
+  } catch(err) {
+    btn.disabled = false; btn.textContent = '✨ Parse & Preview';
+    showToast('AI error: ' + err.message.slice(0,60), 'red');
+  }
+}
+
+function clearPreview() {
+  aiMarkdown = '';
+  document.getElementById('wk-preview').innerHTML = '';
+  const btn = document.getElementById('nl-btn');
+  if (btn) { btn.disabled = false; btn.textContent = '✨ Parse & Preview'; }
+  updateProgress();
+}
+
+function buildStructuredSummary() {
+  if (wkType.startsWith('cardio-')) {
+    const c = wkData['cardio'];
+    if (!c) return '';
+    return Object.entries(c).filter(([,v])=>v).map(([k,v])=>`${k}: ${v}`).join(', ');
+  }
+  const lines = [];
+  const exs = parseInt(wkType.split('-')[1]) === 2 ? HYP_A : HYP_B;
+  for (const ex of exs) {
+    const d = wkData[ex.id];
+    if (!d) continue;
+    const sets = d.sets.filter(s=>s.reps||s.time);
+    if (!sets.length) continue;
+    const setStr = sets.map(s => ex.iso ? `${s.time||'?'}s` : `${d.weight||'?'}×${s.reps||'?'} RIR${s.rir??'?'}`).join(' / ');
+    lines.push(`${ex.name}: ${setStr}${d.notes ? ` (${d.notes})` : ''}`);
+  }
+  return lines.join('\n');
+}
+
+function escHtml(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+// ═══════════════════════════════════════════
+// SAVE TO GITHUB
+// ═══════════════════════════════════════════
+
+async function saveWorkout() {
+  const cfg = getCfg();
+  if (!cfg.token) { showToast('No GitHub token','red'); return; }
+
+  const btn = document.getElementById('wk-save');
+  btn.disabled = true; btn.textContent = 'Saving…';
+
+  try {
+    const apiBase = `https://api.github.com/repos/${cfg.repo}/contents/Tracker.md`;
+    const hdrs = {
+      'Authorization': `token ${cfg.token}`,
+      'Accept': 'application/vnd.github.v3+json',
+      'Content-Type': 'application/json',
+    };
+
+    // Fetch current file
+    const res = await fetch(`${apiBase}?ref=${cfg.branch}`, { headers: hdrs });
+    if (!res.ok) throw new Error(`GitHub ${res.status}: ${await res.text()}`);
+    const file = await res.json();
+    const current = decodeURIComponent(escape(atob(file.content.replace(/\n/g,''))));
+    const sha = file.sha;
+
+    // Generate markdown section (AI or structured)
+    const section = aiMarkdown || buildStructuredMarkdown();
+    if (!section.trim()) { showToast('Nothing to save','red'); btn.disabled=false; btn.textContent='Save to Tracker'; return; }
+
+    // Append to the right section
+    let updated = current;
+    const isLift = wkType.startsWith('lift-');
+    const anchor = isLift ? '\n## Lifting Log\n' : '\n## Cardio Log\n';
+    const anchorIdx = updated.indexOf(anchor);
+
+    if (anchorIdx !== -1) {
+      const nextSection = updated.indexOf('\n## ', anchorIdx + anchor.length);
+      const insertAt = nextSection !== -1 ? nextSection : updated.length;
+      updated = updated.slice(0, insertAt) + '\n' + section + '\n' + updated.slice(insertAt);
+    } else {
+      updated += '\n' + anchor + '\n' + section + '\n';
+    }
+
+    // Commit
+    const t = todayInfo();
+    const label = isLift ? (parseInt(wkType.split('-')[1])===2?'Hyp-A':'Hyp-B') : 'Cardio';
+    const putRes = await fetch(apiBase, {
+      method: 'PUT', headers: hdrs,
+      body: JSON.stringify({
+        message: `Log W${wkWeek} ${t.short} ${label} — ${t.dateStr}`,
+        content: btoa(unescape(encodeURIComponent(updated))),
+        sha, branch: cfg.branch,
+      }),
+    });
+
+    if (!putRes.ok) throw new Error(`GitHub write ${putRes.status}: ${await putRes.text()}`);
+
+    showToast('✓ Saved to Tracker.md!','green');
+    setTimeout(() => showHome(), 1500);
+
+  } catch(err) {
+    showToast('Error: ' + err.message.slice(0,80),'red');
+    btn.disabled = false; btn.textContent = 'Save to Tracker';
+  }
+}
+
+function buildStructuredMarkdown() {
+  const t = todayInfo();
+  const isLift = wkType.startsWith('lift-');
+
+  if (isLift) {
+    const dow = parseInt(wkType.split('-')[1]);
+    const isA = dow === 2;
+    const exs = isA ? HYP_A : HYP_B;
+    const label = isA ? 'Hypertrophy A' : 'Hypertrophy B';
+
+    let md = `### W${wkWeek} ${t.short} ${t.dateStr} — ${label}\n\n`;
+    md += `|Exercise|Sets|Notes|\n|--------|-----|-----|\n`;
+
+    exs.forEach(ex => {
+      const d = wkData[ex.id];
+      if (!d) return;
+      const hasSets = d.sets.some(s=>s.reps||s.time);
+      if (!hasSets && !d.notes) return;
+
+      let sets;
+      if (ex.iso) {
+        sets = d.sets.filter(s=>s.time).map(s=>`${s.time}s${s.rpe?` RPE${s.rpe}`:''}`).join(' / ') || '—';
+      } else {
+        const w = d.weight || '?';
+        sets = d.sets.filter(s=>s.reps).map(s=>`${w}×${s.reps}${s.rir!==''?` RIR${s.rir}`:''}`).join(' / ') || '—';
+      }
+      md += `|${ex.name}|${sets}|${d.notes||''}|\n`;
+    });
+    return md;
+
+  } else {
+    const c = wkData['cardio'];
+    if (!c) return '';
+    return `|${t.dateStr}|W${wkWeek}|${c.modality||'—'}|${c.duration?c.duration+' min':'—'}${c.distance?' / '+c.distance:''}|${c.pace||'—'}|${c.avgHr?'avg '+c.avgHr:'—'}${c.peakHr?', peak '+c.peakHr:''}|${c.notes||'—'}|\n`;
+  }
+}
+
+// ═══════════════════════════════════════════
+// CLAUDE API
+// ═══════════════════════════════════════════
+
+async function callClaude(prompt, model, apiKey) {
+  const res = await fetch('https://api.anthropic.com/v1/messages', {
+    method: 'POST',
+    headers: {
+      'x-api-key': apiKey,
+      'anthropic-version': '2023-06-01',
+      'anthropic-dangerous-direct-browser-access': 'true',
+      'content-type': 'application/json',
+    },
+    body: JSON.stringify({
+      model,
+      max_tokens: 1024,
+      messages: [{ role:'user', content: prompt }],
+    }),
+  });
+  if (!res.ok) {
+    const err = await res.json().catch(()=>({error:{message:res.statusText}}));
+    throw new Error(err.error?.message || `API ${res.status}`);
+  }
+  const data = await res.json();
+  return data.content[0].text;
+}
+
+// ═══════════════════════════════════════════
+// GITHUB FILE FETCH
+// ═══════════════════════════════════════════
+
+async function fetchGitHubFile(path) {
+  const cfg = getCfg();
+  const res = await fetch(`https://api.github.com/repos/${cfg.repo}/contents/${path}?ref=${cfg.branch}`, {
+    headers: { 'Authorization': `token ${cfg.token}`, 'Accept': 'application/vnd.github.v3+json' },
+  });
+  if (!res.ok) throw new Error(`Can't fetch ${path}: ${res.status}`);
+  const data = await res.json();
+  return decodeURIComponent(escape(atob(data.content.replace(/\n/g,''))));
+}
+
+// ═══════════════════════════════════════════
+// TOAST
+// ═══════════════════════════════════════════
+
+function showToast(msg, type='green') {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.className = 'toast ' + type;
+  el.style.display = 'block';
+  clearTimeout(el._t);
+  el._t = setTimeout(()=>{ el.style.display='none'; }, 3500);
+}
+
+// ═══════════════════════════════════════════
+// IOS COMPATIBILITY
+// ═══════════════════════════════════════════
+
+(function iosCompat() {
+  // Prevent double-tap zoom on buttons without disabling pinch-zoom
+  let lastTouch = 0;
+  document.addEventListener('touchend', e => {
+    const now = Date.now();
+    if (now - lastTouch < 300 && e.target.tagName !== 'INPUT' && e.target.tagName !== 'TEXTAREA') {
+      e.preventDefault();
+    }
+    lastTouch = now;
+  }, { passive: false });
+
+  // Scroll active input into view when iOS keyboard opens
+  // iOS fires a resize-like visual viewport change
+  if (window.visualViewport) {
+    window.visualViewport.addEventListener('resize', () => {
+      const active = document.activeElement;
+      if (active && (active.tagName === 'INPUT' || active.tagName === 'TEXTAREA')) {
+        setTimeout(() => active.scrollIntoView({ behavior: 'smooth', block: 'center' }), 100);
+      }
+    });
+  }
+})();
+
+// ═══════════════════════════════════════════
+// BOOT
+// ═══════════════════════════════════════════
+
+(function(){
+  const cfg = getCfg();
+  if (cfg.token) showHome(); else showScreen('setup');
+})();
+</script>
+</body>
+</html>
