@@ -1,495 +1,551 @@
-# Six-Month Return-to-Strength Program v3.2
+# Six-Month Sub-20 5K Program v4.2
 
 **Author:** Self
-**Version:** 3.2 — supersedes v3.1
-**Effective:** Week of May 4, 2026 (W3 forward)
-**Target end:** Week 25 (1RM + 5K test week) → Week 26 active recovery
-**Status:** Working document. Pin and reference. Not a literature review.
+**Version:** 4.2 — supersedes v4.1
+**Effective:** Week of May 4, 2026
+**Race day:** Saturday October 24, 2026 (W25)
+**Status:** Working document. Pin and reference.
 
------
+---
 
-## 0. What Changed in v3.2 (Read First)
+## 0. Goal Hierarchy & What Changed in v4.2
 
-**v3.2 changes (this revision):**
+**Goal order (locked):**
+1. **Running** — sub-20:00 5K on Oct 24, 2026
+2. **Hypertrophy** — maintain or grow: side delts, biceps, triceps, abs, lats, calves
+3. **Strength** — grow incline bench
 
-1. **Overhead cable triceps extension → cable pushdown (varied attachment).** Overhead extension forces deep elbow flexion under tensile load with shoulder fully flexed — that position stresses the medial elbow and forces wrist extensors to stabilize against the rope, both of which aggravate reactive lateral epicondyle tendon. Pushdowns keep the elbow at the side, shorter ROM, smaller wrist arc. Trade-off: less long-head triceps stimulus; acceptable while elbow heals.
+Anything that doesn't serve those three goals is cut. **Running > everything.** When goals conflict (e.g. lift volume vs run quality), running wins.
 
-**v3.1 changes (carried forward):**
+### v4.2 changes vs v4.1
+
+| Change | v4.1 | v4.2 | Why |
+|---|---|---|---|
+| Lower-body neuromuscular work | "None — covered by running" | **Staged additions: soleus isometric now; hill strides Phase B; opt-in reverse Nordic / Spanish squat / B-stance hip thrust Phase C** | Llanos-Lagos 2024, Eihara 2022, Bohm 2021, Add 2018: ~1–2% RE/durability benefit available at near-zero SI risk if dosed correctly |
+| Soleus | Seated calf only (Sat) | **Seated calf (Sat) + soleus wall-sit isometric 3×30–45s, 2×/wk (Tue + Sat after lifts)** | Bohm 2021 (PMC7893283): 14 wk plantar-flexor isometric → ~4% RE; soleus = main calf muscle at endurance pace |
+| Hill strides | Not programmed | **6–8 × 10–12 s @ 4–6% grade, walk-down recovery, 1×/wk after Mon easy run** — gates on SI clean ≥3 consecutive wks | Concentric-biased neuromuscular work without landing impact; safer than flat-ground bounding for SI |
+| Lats decision | "Decide at W8 — punt" | **RESOLVED: 4 sets/wk = maintenance only. Add chest-supported row 3×10 to Sat circuit Phase B onward for growth + rear delt double-duty** | Goal #2 says "maintain or grow"; chest-supp row dual-purposes for rear delts so cost is marginal |
+| Lower-body locked rules | Blanket prohibition on "loaded squat / leg press" | **Split into "permanent prohibitions" (sumo, leg press, heavy compound squat/deadlift) and "phase-gated optional adds" (single-leg bridge, reverse Nordic, Spanish squat, B-stance hip thrust)** | Reflects PT consensus: low-shear glute/quad isolation is fine once SI is asymptomatic; only axial/twisting/heavy-compound work is permanently out |
+| Confidence on sub-20 | ~50% Tier A | **~52–55% Tier A with staged adds** (still ~80% Tier B, ~95% Tier C) | Adds buy ~10–25 s if tolerated; SI risk dominates everything else |
+| Macrocycle table | No leg-work column | **Adds a Leg-work column** showing what's in each phase | Visibility |
+| Volume audit | No row for lower-body durability/RE work | **Adds a row** | Bookkeeping |
+| Plyometric drills (A/B skips, bounding) | Implicit — not addressed | **Explicitly excluded for the entire macrocycle** | Speed-specificity in Llanos-Lagos 2024 shows plyo benefits are at ≤12 km/h, not at sub-20 race pace; landing impact is SI-incompatible |
+
+### What's permanently out
+
+- **Sumo deadlift** — permanently retired (SI shear).
+- **Heavy back squat / conventional deadlift / trap-bar deadlift** — out for this macrocycle. Reconsider only with PT clearance + 8 weeks SI-symptom-free.
+- **Leg press** — permanently out (lumbar/SI shear in flexed-spine end range).
+- **Bulgarian split squat, heavy walking lunges, heavy step-ups** — out for this macrocycle (highest SI shear among unilateral leg work).
+- **Plyometrics (jumps, bounding, depth jumps), running drills (A/B skips, butt kicks, high knees)** — out for this macrocycle. Speed-specificity evidence (Llanos-Lagos 2024) shows benefit at ≤12 km/h, not at sub-20 race pace; landing impact is SI-incompatible.
+- **OHP** — out (doesn't serve incline bench or any priority muscle).
+- **Free-weight curls, overhead triceps extensions** — out per §10.A tennis elbow (preacher / pushdown only).
+
+### What's phase-gated optional (see §3.C and §11.A advance/revert thresholds)
+
+- **Soleus wall-sit isometric** — start now (Phase A safe; zero SI shear, knee-bent).
+- **Hill strides** — start when SI clean ≥3 consecutive weeks AND running has been re-introduced (Phase B+).
+- **Single-leg glute bridge progression to B-stance hip thrust (light)** — start when SI clean ≥4 weeks of running.
+- **Reverse Nordic, Spanish squat / wall sit** — opt-in additions Phase C if Phase B additions were tolerated.
+
+---
+
+## 1. Macrocycle Overview (25 weeks, May 6 → Oct 24, 2026)
+
+| Block | Weeks | Dates | Theme | Run mileage | Lift days | Lower-body neuromuscular work |
+|---|---|---|---|---|---|---|
+| **Reset / Reintro** | W1–W4 | May 6 – Jun 1 | SI clearance, run reintroduction | 0 → 12 mpw | 2 (upper only) | Soleus wall-sit 2×/wk; daily SI prehab |
+| **Base** | W5–W12 | Jun 2 – Jul 27 | Aerobic capacity, mileage build, weekly threshold | 14 → 25 mpw | 2 | + Hill strides 1×/wk (gated on SI clean ≥3 wks) |
+| **Build** | W13–W18 | Jul 28 – Sep 7 | Add VO2max intervals; polarized 80/20 | 26 → 35 mpw, peak 38 W17 | 2 | + Optional B-stance hip thrust, reverse Nordic, Spanish squat (gated on Phase B clean) |
+| **Sharpen** | W19–W22 | Sep 8 – Oct 5 | Race-pace specificity | 32–35 mpw | 2 (reduced volume) | Maintain Phase B additions; **no new exercises** |
+| **Taper** | W23–W25 | Oct 6 – Oct 24 | Volume cut 30 → 50%, intensity preserved | 28 → 22 → 14 (race wk) | 1 (W23 only) | Drop hill strides last 10 days; soleus + calf 1×/wk only |
+
+### 1.1 Test targets W25
 
-1. **All leg press → knee extension machine.** Even single-leg leg press loads the lumbar/SI through the seat-back braced position. Knee extension is the most back-isolated quad accessory available.
-1. **Hammer curls and incline DB curls → preacher curl machine.** Free-weight curling forces wrist extensors to stabilize against falling DB. Preacher is fixed-path, supports the elbow.
-1. **All standing calf raises → seated calf raises.** Lifter preference; seated bias preserved across the program.
+| Test | Day | Tier A target |
+|---|---|---|
+| 5K race | Sat Oct 24 | **sub-20:00 (6:26/mi)** |
+| Incline BB 1RM | (no formal test — track via AMRAP at deloads) | TM 175+ |
 
-**v3.0 changes (carried forward):**
-sumo deadlift retired and replaced by trap-bar high-handle; W3 sumo session skipped, W4 carry-forward cancelled; running on hold pending §13 reintroduction; Friday threshold stays on rower until pain-free running re-established; hypertrophy added as explicit secondary goal with priority muscle volume targets in the 12–20 set range; squat session-by-session while SI is flared; W25 hinge test = trap-bar 1RM, not sumo.
+---
 
------
-
-## 1. Program Overview
-
-### 1.1 Macrocycle
-
-|Block                    |Weeks|Dates          |Theme                            |Hinge slot                                                        |Run/Row mix                                      |
-|-------------------------|-----|---------------|---------------------------------|------------------------------------------------------------------|-------------------------------------------------|
-|Meso 1 (re-entry)        |1–8  |Apr 23 – Jun 17|Hypertrophy-leaning, TM build-up |Trap-bar high-handle (W4 onward)                                  |Row-only until SI clears, then phased run reintro|
-|Deload                   |9    |Jun 18 – 24    |Light, technique                 |Trap-bar light                                                    |Z1 only                                          |
-|Meso 2 (strength-leaning)|10–17|Jun 25 – Aug 19|Conjugate variation; intensity up|Rotating: trap-bar heavy / trap-bar deficit / trap-bar paused-knee|Threshold + tempo                                |
-|Deload                   |18   |Aug 20 – 26    |Light                            |Trap-bar light                                                    |Z1 only                                          |
-|Meso 3 (peak/realization)|19–24|Aug 27 – Oct 7 |Peak strength + 5K specificity   |Trap-bar heavy singles/doubles                                    |Race-specific running                            |
-|Test/peak                |25   |Oct 8 – 14     |Realization                      |Trap-bar 1RM (Thu)                                                |5K test (Tue), 6K row (W24 Thu)                  |
-|Recovery                 |26   |Oct 15 – 21    |Active recovery                  |—                                                                 |—                                                |
-
-### 1.2 Training Maxes (TMs)
-
-TMs are the working "100%" used to prescribe % loads. Re-estimate at W4 AMRAP and W9 deload-week AMRAPs.
-
-|Lift             |2022 1RM|Current TM (W3)     |Notes                                                       |
-|-----------------|--------|--------------------|------------------------------------------------------------|
-|High-bar squat   |275     |**205**             |Re-entry conservative; W2 145×6 RIR 3 confirms TM is right  |
-|Incline BB       |~160    |**155**             |Was 130; W2 115×8 @ RPE 7 → e1RM ~150–155                   |
-|Standing OHP     |135     |**125**             |Was 110; W2 85×8 @ RPE 7 → e1RM ~115–120                    |
-|Trap-bar HH (NEW)|n/a     |**315** *(estimate)*|Validate W4 with conservative top set. Soft until verified. |
-|~Sumo DL~        |~495~   |~RETIRED~           |Do not resume until cleared by PT and 8+ weeks symptom-free.|
-
-### 1.3 Test Targets at W25
-
-|Test              |Day    |Target                                |
-|------------------|-------|--------------------------------------|
-|5K run            |Tue W25|20:30 (6:36/mi)                       |
-|6K row            |Thu W24|22:24                                 |
-|High-bar squat 1RM|Thu W25|TBD W4 AMRAP-driven; interim 295      |
-|Incline BB 1RM    |Thu W25|TBD; interim 175                      |
-|Standing OHP 1RM  |Thu W25|TBD; interim 145                      |
-|Trap-bar HH 1RM   |Thu W25|TBD; interim 365 (skip if SI not 100%)|
-
------
-
-## 2. Weekly Template
-
-5 days/week. Lifting before endurance on shared days, ≥6 h apart. No running the day before squat or hinge.
-
-|Day|Session                                                                |Notes                                  |
-|---|-----------------------------------------------------------------------|---------------------------------------|
-|Mon|**Squat day** (HB squat + lower accessory + pump finisher)             |If SI flared: §10.B swap rule          |
-|Tue|Z1 ROW 50 min @ 2:20–2:25/500m, rate 20                                |Was Z1 run; held until §13 criteria met|
-|Wed|**Upper press day** (Incline BB + OHP + lateral/tri pump + biceps prep)|                                       |
-|Thu|**Hinge day** (Trap-bar HH + posterior chain + lats/biceps)            |First trap-bar session: W4             |
-|Fri|Threshold ROW 4–6×500m or 3×8 min @ recalibrated zones                 |Stays on rower until §13.B met         |
-|Sat|**Upper pump / hypertrophy day** + long Z1 ROW (45–70 min)             |Pump session is the volume sink        |
-|Sun|Off / mobility / Tyler twists + McGill Big 3                           |                                       |
-
------
-
-## 3. Mesocycle 1 — Reference Week (W3, current)
-
-### Mon (squat day) — gated by SI screen
-
-**SI screen first (see §10.B):** Fortin finger sign, Gaenslen, thigh thrust, FABER, compression, distraction. ≥3 positive OR Fortin positive → swap to row + upper pump (template below). Otherwise:
-
-|Block    |Movement                                               |Sets×reps                           |Load/RPE                  |
-|---------|-------------------------------------------------------|------------------------------------|--------------------------|
-|Warm-up  |RAMP §8                                                |—                                   |—                         |
-|Main     |High-bar squat                                         |4×6                                 |165 (80% TM), RIR 3       |
-|Lower acc|**Knee extension machine** *(was single-leg leg press)*|3×10–12/leg if unilateral, else 3×12|RPE 7–8                   |
-|Lower acc|Seated leg curl                                        |3×10–12                             |RPE 8                     |
-|Pump     |**Seated calf raise** *(was standing)*                 |3×12–15                             |RPE 9, last set to failure|
-|Pump     |Cable crunch                                           |3×12                                |RPE 8                     |
-|Cooldown |Hip flexor stretch + glute med activation              |5 min                               |—                         |
-
-**Squat-skip alternative day (if SI screen positive):** 40 min Z1 row, then upper pump (3×12 lat pulldown, 3×12 chest-supported row, 3×15 lateral raise, 3×12 preacher curl, 3×12 cable triceps pushdown).
-
-### Tue (Z1 row — substituting for Z1 run)
-
-50 min @ 2:20–2:25/500m, rate 20 spm, HR Z1. Drag factor 110–120.
-
-### Wed (upper press)
-
-|Block  |Movement                                     |Sets×reps|Load/RPE                              |
-|-------|---------------------------------------------|---------|--------------------------------------|
-|Warm-up|RAMP + wrist-extensor isos (§8)              |—        |—                                     |
-|Main   |Incline BB                                   |4×8      |120 (~77% TM), RPE 7                  |
-|Main   |Standing OHP                                 |3×8      |90 (~72% TM), RPE 7                   |
-|Acc    |Cable lateral raise                          |4×12     |RPE 9, last set to failure            |
-|Acc    |Cable triceps pushdown                       |3×12     |RPE 8                                 |
-|Acc    |Rear-delt fly                                |3×15     |RPE 8                                 |
-|Pump   |**Preacher curl machine** *(was hammer curl)*|2×12     |RPE 8 — biceps prep, tennis-elbow safe|
-
-### Thu (hinge day) — **W3 SKIP. First trap-bar session is W4 Thu.**
-
-W3 Thu = true off day or 20-min light Z1 spin/walk.
-
-### Fri — **MAX HR FIELD TEST (rower)**
-
-10 min Z1 warm-up → 4 min @ 2:00/500m → 3 min @ 1:55 → 2 min @ 1:50 → 1 min ALL OUT. Record peak HR. Lockout zones from result before any further threshold/VO2 work.
-
-### Sat (upper pump + long Z1)
-
-|Block     |Movement                                                                                           |Sets×reps|RPE                     |
-|----------|---------------------------------------------------------------------------------------------------|---------|------------------------|
-|Lats      |Lat pulldown (neutral grip)                                                                        |4×10     |RPE 8                   |
-|Lats      |Chest-supported DB row                                                                             |4×10     |RPE 8                   |
-|Side delts|DB lateral raise                                                                                   |4×12     |RPE 9, last set drop set|
-|Biceps    |**Preacher curl machine** *(was incline DB curl)*                                                  |3×10     |RPE 8                   |
-|Biceps    |**Preacher curl machine, neutral/semi-supinated grip if available** *(was cable hammer)*           |3×12     |RPE 8                   |
-|Triceps   |**Cable triceps pushdown (V-bar or straight bar — vary from Wed)** *(was overhead cable extension)*|3×12     |RPE 8                   |
-|Triceps   |Cable kickback                                                                                     |3×15     |RPE 9                   |
-|Chest     |Pec deck or cable crossover                                                                        |3×12     |RPE 8                   |
-|Abs       |Hanging leg raise                                                                                  |3×10     |RPE 8                   |
-
-Then: **Long Z1 row 60 min** @ 2:25/500m.
-
-### Sun — Off
-
-Tyler twists (3×15, blue FlexBar), reverse Tyler (3×15), McGill Big 3 (5-3-1 pyramid, both sides).
-
-**Note on Sat biceps:** if your preacher machine has only one grip, just do 3 sets of 10 + 3 sets of 12 in the same grip with a load drop on set 4–6, or rotate machine angle/seat height to bias different fiber lengths. The point is total preacher volume (~6 sets), not exercise variety.
-
------
-
-## 4. Weeks 2–8 Main Lift Progression
-
-|Week  |Squat (HB)             |Incline BB       |OHP              |Trap-Bar HH                                    |
-|------|-----------------------|-----------------|-----------------|-----------------------------------------------|
-|W1    |5×5 @ 65%              |5×8 @ 65%        |5×8 @ 60%        |(was sumo — done)                              |
-|W2    |4×6 @ 70%              |4×8 @ 72%        |4×8 @ 68%        |(was sumo — done)                              |
-|**W3**|4×6 @ 80%*             |4×8 @ 77%        |3×8 @ 72%        |**SKIPPED**                                    |
-|W4    |3×5 @ 82% + AMRAP @ 80%|3×6 @ 82% + AMRAP|3×6 @ 80% + AMRAP|**3×5 @ 70% trap-bar TM, RPE 6–7** (validation)|
-|W5    |4×5 @ 80%              |4×6 @ 80%        |4×6 @ 78%        |3×5 @ 75%, RPE 7                               |
-|W6    |4×4 @ 85%              |4×5 @ 85%        |4×5 @ 82%        |3×4 @ 80%, RPE 7                               |
-|W7    |3×3 @ 88%              |3×3 @ 88%        |3×4 @ 85%        |3×3 @ 82%, RPE 8                               |
-|W8    |2×3 @ 90% + AMRAP @ 85%|2×3 @ 90% + AMRAP|3×3 @ 88% + AMRAP|3×3 @ 85% + AMRAP (only if symptom-free 3+ wks)|
-
-*W3 squat gated by §10.B SI screen. If positive, skip and substitute.
-
-**Progression rule:** all reps at prescribed RPE/RIR → advance. Miss → repeat. Two misses → TM cut 5–7%.
-
-**Quad accessory progression (knee extension):** double progression on the machine. 3×10–12, hit 12 across all sets at RPE 8 → next session jump one weight stack pin. Most machines have ~10 lb increments; if your machine increments small (5 lb), use the smaller jumps.
-
------
-
-## 5. Mesocycle 2 (W10–17) — Strength-Leaning, Conjugate Variation
-
-### 5.1 Hinge rotation (Thu)
-
-|Microcycle   |W10–11            |W12–13                           |W14–15            |W16–17                     |
-|-------------|------------------|---------------------------------|------------------|---------------------------|
-|Hinge variant|Trap-bar HH (main)|**Trap-bar deficit, low handles**|Trap-bar HH (main)|**Trap-bar paused at knee**|
-|Sets×reps    |4×4 @ 80%         |3×5 @ 70% (deficit derate)       |4×3 @ 85%         |3×4 @ 75% paused           |
-
-### 5.2 Squat (Mon)
-
-W10–13: 5×3 @ 82–88%, RPE 7–8. W14–17: 4×2 @ 88–92%, RPE 8. Pause squat (3 s) substitutes 1×/microcycle.
-
-### 5.3 Press days (Wed)
-
-Incline BB and OHP move to 4×4–5 @ 82–88%. Close-grip incline rotates in W14–17 for triceps emphasis.
-
-### 5.4 Hypertrophy work in Meso 2
-
-Volume targets from §11 carry forward. Rotate accessory exercises every 4–6 weeks within muscle groups. **Biceps stays on preacher machine throughout Meso 2 unless tennis elbow has been symptom-free at programmed loads for ≥4 weeks** — see §10.A re-introduction.
-
------
-
-## 6. Mesocycle 3 (W19–24) — Peak / Realization
-
-### 6.1 Strength taper
-
-|Week                  |Squat             |Incline BB|OHP      |Trap-Bar HH      |
-|----------------------|------------------|----------|---------|-----------------|
-|W19                   |5×3 @ 85%         |5×3 @ 85% |4×4 @ 85%|4×3 @ 82%        |
-|W20                   |4×2 @ 90%         |4×2 @ 90% |4×3 @ 88%|4×2 @ 88%        |
-|W21                   |3×2 @ 92%         |3×2 @ 92% |3×3 @ 90%|3×2 @ 90%        |
-|W22                   |3×1 @ 95%         |3×1 @ 95% |2×2 @ 92%|3×1 @ 92%        |
-|W23                   |2×1 @ 97% (opener)|2×1 @ 97% |2×1 @ 95%|2×1 @ 95%        |
-|W24 (deload-into-test)|2×3 @ 70%         |2×3 @ 70% |2×3 @ 70%|(rest — test Thu)|
-
-### 6.2 Test schedule (W24–25)
-
-|Day    |Test                                                                                                               |
-|-------|-------------------------------------------------------------------------------------------------------------------|
-|Thu W24|**6K row test** — target 22:24 (1:52.0/500m)                                                                       |
-|Sat W24|Light technique, 30 min Z1                                                                                         |
-|Tue W25|**5K run test** — target 20:30. Vaporfly Next% 2.                                                                  |
-|Wed W25|Off OR very light upper opener (singles @ 80%)                                                                     |
-|Thu W25|**1RM day**: HB squat → Incline BB → OHP → Trap-bar HH. Skip trap-bar 1RM if SI not 100% symptom-free for ≥6 weeks.|
-|Sat W25|Off / celebration                                                                                                  |
-|W26    |Active recovery — 3×30 min Z1 only, mobility, no lifting                                                           |
-
-### 6.3 Running specificity (W19–24)
-
-Assumes §13 running reintro complete by W14 latest.
-
-|Day|W19–21                                |W22–24                              |
-|---|--------------------------------------|------------------------------------|
-|Tue|Z2 easy 35–45 min (Vomero)            |Z2 easy 30 min                      |
-|Fri|4×1K @ 5K pace + 90s rest (Zoom Fly 6)|3×1K @ 5K pace, then 2×400 @ 3K pace|
-|Sat|Long Z2 60–75 min                     |50 min Z2 + 6×100m strides          |
-
------
-
-## 7. Progression Rules Summary
-
-1. Main lifts: % of TM. Hit reps at RPE → advance. Miss → repeat. Miss twice → cut TM 5–7%.
-1. AMRAP weeks (W4, W8, deloads): Epley → e1RM, set new TM at 90% e1RM. Cap bumps at +10 lb lower / +5 lb upper.
-1. Accessories: double progression. 3×8–10 — when all sets hit 10, +5 lb (compound) or +2.5 lb (isolation/preacher), back to 8.
-1. Isolation/pump: last set to failure or near-failure (RIR 0–1).
-1. Rep ranges: strength 3–8, hypertrophy 8–15. Both drive growth when effort is matched.
-
------
-
-## 8. 10-Minute RAMP Warm-Up
-
-### 8.1 General RAMP (5 min)
-
-3 min easy row/bike → World's greatest stretch ×3/side → Cat-cow ×8 → Banded clamshell ×15/side → Single-leg glute bridge ×8/side.
-
-### 8.2 Pre-session prehab (lower-body days — Mon, Thu)
-
-Quadruped thoracic rotation ×8/side, bird-dog ×8/side slow, dead bug ×8/side, Pallof press ×10/side.
-
-### 8.3 Pre-session prehab (upper-body days)
-
-**Wrist-extensor isometric ×3×30 s each arm** (tennis-elbow tendon prep — non-negotiable while preacher curls are the only direct biceps work; the iso prep keeps the common extensor tolerant under preacher fixed-path loading too). Band pull-apart ×15. Scap push-up ×10.
-
-### 8.4 Lift-specific ramp-ups
-
-**Squat:** empty bar ×8 → 95×5 → 135×5 → 50%×3 → 65%×2 → 75%×1 → working set.
-
-**Trap-bar HH:** empty trap-bar ×5 → 135×5 → 50%×3 → 65%×2 → 75%×1 → working. Cue check each warm-up: heels hip-width, knees over toes, neutral grip, no hip ER, brace before lift.
-
-**Incline BB:** empty ×8 → 95×5 → 60%×3 → 75%×2 → working set.
-
-**OHP:** empty ×10 → 65×5 → 70%×3 → 80%×1 → working set.
-
------
-
-## 9. Deload, Recovery, Autoregulation
-
-### 9.1 Scheduled deloads
-
-W9 and W18: main lifts at 60% TM × 2×5, accessory volume halved, no AMRAPs, no failure, Z1 endurance only.
-
-### 9.2 Autoregulation triggers
-
-|Trigger                        |Action                                                         |
-|-------------------------------|---------------------------------------------------------------|
-|Resting HR up >7 bpm × 3 days  |Cut endurance volume 30% for the week                          |
-|Sleep <6 h                     |Drop heaviest set; cap RPE 7                                   |
-|Bar speed slow at planned RPE 7|Cap remaining sets at hit weight                               |
-|Any new sharp lift pain        |Stop lift; substitute or skip                                  |
-|Right-PSIS pain at rest        |§10.B SI Joint Flare Protocol                                  |
-|Elbow pain >4/10 on preacher   |Drop preacher load 20%, finish session, double Tyler that night|
-
-### 9.3 SI joint flare protocol
-
-(Unchanged from v3 — see §10.B for screen + return-to-load criteria.)
-
-### 9.4 Accutane recovery layer
-
-Hydration ≥3.5 L/day on lifting days, ≥4.5 L on long endurance days. No sauna/heat. Watch for dark urine, persistent muscle pain >72 h, weakness — stop, hydrate, get CK drawn. No vitamin A supps. No tetracyclines. Use chalk on barbells (skin tear risk).
-
-### 9.5 Sleep & nutrition floor
-
-Sleep 7.5–8 h. Protein 1.6–1.8 g/kg. Carbs 0.5–1 g/kg pre, 1+ g/kg post on hard days.
-
------
-
-## 10. Injury Management
-
-### 10.A Tennis Elbow (chronic, reactive-on-degenerative)
-
-Goal: keep tendon out of reactive flare while continuing tensile loading.
-
-**Daily:** Tyler twist 3×15 + Reverse Tyler 3×15. Eccentric phase 4 s. FlexBar color = 3–4/10 discomfort on eccentric.
-
-**Pre-lift:** wrist-extensor isometric ×3×30 s each arm.
-
-**Direct biceps work — preacher machine ONLY** until tennis elbow has been symptom-free at programmed loads for ≥4 consecutive weeks. Reasoning: free-weight curls (DB hammer, incline DB, BB curl, EZ curl) place tensile load on the common extensor origin in the supinated bottom position because the wrist must stabilize against the falling DB. Preacher machine is fixed-path and supports the elbow against the pad — the wrist extensors don't need to hold the load.
-
-**Re-introduction sequence (only after 4 weeks symptom-free at full preacher loads):**
-
-1. Add cable hammer curl 1×/wk, 3×12, RPE 7 (rope handle, neutral grip).
-1. Two clean weeks → add DB hammer 1×/wk, 3×10, RPE 7.
-1. Two clean weeks → DB incline curl 1×/wk, 3×10, RPE 7.
-1. Two clean weeks → resume rotation.
-
-If pain >4/10 on any introduction set: drop back one stage, hold 2 weeks, retry. If pain >6/10 or worse next AM: drop back two stages, hold 4 weeks.
-
-**Direct triceps work — pushdowns + kickbacks ONLY** until tennis elbow has been symptom-free at programmed loads for ≥4 consecutive weeks. Reasoning: overhead cable extension forces deep elbow flexion under tensile load with the shoulder fully flexed. The bottom position stresses the medial elbow and forces wrist extensors to stabilize the rope against wrist flexion — both irritate a reactive lateral epicondyle tendon. Pushdowns keep the elbow at the side, shorter ROM through the painful end-range, and the wrist works through a smaller arc.
-
-**Triceps re-introduction sequence (only after 4 weeks symptom-free at full pushdown loads):**
-
-1. Add single-arm DB overhead extension 1×/wk, 3×10, RPE 7 (lighter, more controlled than the rope cable version).
-1. Two clean weeks → DB skullcrusher 1×/wk, 3×10, RPE 7 (neutral grip).
-1. Two clean weeks → cable rope overhead extension 1×/wk, 3×12, RPE 7.
-1. Two clean weeks → free rotation.
-
-Same regression rule as biceps: pain >4/10 → back one stage; >6/10 or worse next AM → back two stages.
-
-**Substitution map (other aggravators):**
-
-|Aggravating             |Substitute                                                                           |
-|------------------------|-------------------------------------------------------------------------------------|
-|Straight-bar curl       |Preacher machine (only direct biceps for now)                                        |
-|EZ-bar curl             |Preacher machine                                                                     |
-|DB hammer curl          |Preacher machine (re-introduce per sequence above)                                   |
-|DB incline curl         |Preacher machine (re-introduce per sequence above)                                   |
-|Skullcrusher EZ-bar     |Cable triceps pushdown (rope or V-bar) — *no overhead extension while elbow reactive*|
-|Pull-up (mixed/pronated)|Neutral-grip lat pulldown, neutral-grip chin                                         |
-|Heavy DB row pronated   |Chest-supported neutral DB row                                                       |
-
-**Red flags:** night pain, grip strength drop >20% morning to morning, sharp pain on lockout of pressing → cut upper accessory volume 50% for 1 week, rebuild.
-
-### 10.B SI Joint (chronic right SI)
-
-**Provocation screen — perform before every Mon (squat) and Thu (hinge) if any symptoms in the prior 48 h:**
-
-|Test                       |Positive =                        |
-|---------------------------|----------------------------------|
-|Fortin finger sign         |Localizes pain within 1 cm of PSIS|
-|Gaenslen                   |Reproduces right-PSIS pain        |
-|Thigh thrust               |Reproduction                      |
-|FABER                      |Reproduction (not groin)          |
-|SI compression (side-lying)|Reproduction                      |
-|SI distraction (supine)    |Reproduction                      |
-
-**Decision rule:** ≥3 positive OR Fortin positive alone → SWAP DAY (Z1 row + upper pump from Sat menu).
-
-**If <3 positive AND Fortin negative:** train, but cap squat at 70% TM and trap-bar at 65% TM, RPE 7 ceiling.
-
-**Daily prehab:** Banded clamshell 3×15/side, side-lying hip abduction 3×12/side, single-leg glute bridge 3×8/side, bird-dog 3×8/side, McGill side plank 3×20–30 s/side.
-
-**Permanent program changes:**
-
-- Sumo deadlift retired.
-- RDLs: RPE 7 cap, no AMRAPs, strict, 1 s mid-shin pause.
-- Trap-bar HH only for pulling.
-- **Leg press dropped** — even single-leg leg press loads SI through the seat-back braced position. Knee extension machine is the back-isolated quad alternative.
-
-### 10.C Knee
-
-VMO activation: terminal knee extensions 2×15 pre-squat, light band. Squat depth: 5° below parallel max. No high-bar oly-style ATG. Knee extension machine should be set so the pad sits low on the shin (above the ankle) and the back is fully supported — if the lumbar lifts off the pad at end-range, reduce the load. Patellar tendon load monitor: morning stiffness >15 min = cut squat volume 30% next session.
-
-### 10.D Low back (trap-bar context)
-
-Brace before every rep. Trap-bar HH cue checklist: feet hip-width, neutral grip, vertical torso, no hip ER, knees over toes, heels driving floor, lockout = stand tall. Belt: optional below 80%, recommended at 80%+. RDL: 1-s pause mid-shin, RPE 7 cap, no AMRAPs. Any back pain persisting >24 h post-session → §9.3 SI flare protocol.
-
------
-
-## 11. Weekly Volume Audit
-
-|Muscle          |v2 sets/wk|**v3.1 target**|Where the volume comes from                                                                                      |
-|----------------|----------|---------------|-----------------------------------------------------------------------------------------------------------------|
-|Side delts      |10        |**16–18**      |Wed (4) + Sat (4–6) + Mon pump finisher (3) + Thu pump finisher (3)                                              |
-|Biceps          |8         |**12–14**      |Wed preacher (2) + Sat preacher (6) + Thu pump finisher preacher (4) — *all preacher until tennis elbow resolved*|
-|Triceps (direct)|3         |**12–14**      |Wed (3) + Sat (6) + Mon/Thu pump (3–5)                                                                           |
-|Lats            |7         |**12–14**      |Thu (4–6) + Sat (8)                                                                                              |
-|Chest (direct)  |4         |**8–10**       |Sat (3) + Wed pump (2–3) + horizontal press substitution (3–4 once per microcycle)                               |
-|Calves          |6         |**10–12**      |Mon seated (3) + Thu seated (3) + Sat seated (3–4) — *all seated*                                                |
-|Abs             |5         |**8–10**       |Mon (3) + Sat (3) + Sun bird-dog/Pallof (2 fractional)                                                           |
-|Quads           |(heavy)   |**10–14**      |Squat (4–6) + **knee extension (3)** + pump finisher (3) + trap-bar fractional                                   |
-|Hamstrings      |(heavy)   |**10–12**      |Trap-bar HH (4) + RDL/seated leg curl (3) + leg curl pump (3)                                                    |
-|Glutes          |(heavy)   |**10–14**      |Squat (4) + trap-bar (4) + hip thrust/single-leg bridge (3)                                                      |
-
-**Rules for hypertrophy work:**
-
-- 8–15 reps, RPE 8–9, RIR 1–2; last set RIR 0–1.
-- Double progression on isolation.
-- Rotate exercises every 4–6 weeks **except biceps** (locked to preacher machine — see §10.A).
-- Volume increases live in pump finishers and Sat upper pump.
-
------
-
-## 12. Execution Notes
-
-### 12.1 v3.1–v3.2 substitutions — rationale
-
-**Leg press → knee extension.** Even seated single-leg leg press transmits load through the lumbar/SI via the seat-back: the brace position locks the pelvis against the back pad, and unilateral pressing creates rotational shear at L5–S1 / SI. Knee extension machine isolates the quad with the lumbar fully supported and no asymmetric pelvic load. Cost: less posterior chain involvement, less GPP transfer. Worth it given current SI status. Re-introduce hack squat or single-leg leg press only after 8+ weeks symptom-free and PT clearance.
-
-**Hammer curl + incline DB curl → preacher curl machine.** Free-weight curling supinates against gravity at the bottom. To resist that, the wrist extensors fire to keep the wrist neutral while the biceps shortens — this loads the common extensor origin at the lateral epicondyle, which is exactly the tendon that's already reactive. Preacher machine eliminates the lever arm against the wrist extensors because the elbow is supported and the path is fixed. Cost: less long-head biceps stimulus in the lengthened position. Re-introduction sequence in §10.A.
-
-**Overhead cable extension → cable pushdown (varied attachment).** Overhead extension stretches the long head fully — meaning the bottom of the rep puts the elbow in deep flexion under load with the shoulder flexed overhead. That position cranks tensile load onto the medial elbow and forces wrist extensors to stabilize against the rope pulling the wrist into flexion. Pushdowns keep the elbow at the side, shorter ROM through painful end-range, smaller wrist arc. Trade-off: less long-head triceps growth (the long head is the only triceps head that crosses the shoulder, and only the overhead position trains it in its lengthened state). Acceptable while elbow heals. Vary attachment between Wed and Sat (rope ↔ V-bar/straight) to bias slightly different fibers without re-introducing overhead loaded-stretch. Re-introduction sequence in §10.A.
-
-**Standing → seated calf.** Lifter preference. Seated targets soleus more than gastrocnemius (knee bent), which has a higher slow-twitch proportion and tends to respond well to higher-rep work. Functionally fine — running uses both, and the program already gets gastrocnemius work indirectly via squat depth and trap-bar lockout.
-
-### 12.2 W1–W2 Lessons learned (carried forward from v3)
-
-Upper TMs were sandbagged (incline +15 lb, OHP +15 lb over programmed). Bumped at v3 release. Squat re-entry conservative is correct. Threshold row pacing was scattered with HR 180+ for 8 min — Max HR test scheduled W3 Fri to recalibrate. Aerobic baseline solid.
-
-### 12.3 Why sumo is dropped
-
-(See v3 release notes — preserved.)
-
-### 12.4 Why Tue/Sat run → row
-
-(See v3 release notes — preserved.)
-
-### 12.5 Hypertrophy volume increase
-
-(See v3 release notes — preserved.)
-
-### 12.6 Shoe rotation
-
-Vomero Plus = Z1/Z2 daily trainer. Zoom Fly 6 = tempo/threshold. Vaporfly Next% 2 = race day only.
-
-### 12.7 Cadence cueing (running reintro)
-
-Metronome at 175–180 spm during §13 reintro phases. 5–10% increase in cadence at constant pace reduces hip and knee energy absorption, mitigates the overstride pattern documented in SI-pain runners.
-
------
-
-## 13. SI Joint Recovery Protocol
-
-Baseline: **Saturday May 2, 2026** (re-injury day).
-
-### 13.A Phase 0 — Acute (Days 0–7, May 2–9)
-
-Lifting screen-gated. Endurance: Z1 row only. Daily McGill Big 3 AM/PM. Walks ≥30 min/day. **PT visit this week.** Symptom log daily.
+## 2. Weekly Template (run-priority)
+
+### 2.A Base / Build template (W5–W22)
+6 days running, 2 lifting, 1 off.
+
+| Day | Session | Notes |
+|---|---|---|
+| **Mon** | Z1 easy run 30–50 min + 4×20 s strides; **Phase B+: hill strides 6–8 × 10–12 s @ 4–6% grade replaces flat strides 1×/wk** | Recovery aerobic + neuromuscular |
+| **Tue** | AM (or PM) **Threshold session** (run or row) — see §4. PM (≥6 h gap) **Hypertrophy A** circuit (~40 min) including soleus wall-sit isometric | Quality day #1. Lift after run |
+| **Wed** | Z1 easy run 30–50 min + optional 4–6 strides | Recovery aerobic |
+| **Thu** | AM Z1 easy run 25–40 min OR rest | Pure aerobic or recovery |
+| **Fri** | **VO2max session** (run or row) — see §4 | Quality day #2 |
+| **Sat** | AM Long run. PM (≥6 h gap) **Hypertrophy B** circuit (~40 min) including seated calf + soleus wall-sit | Volume day. Lift well after run, or push to Sun if run was hard |
+| **Sun** | Off, mobility, Tyler twists 3×15 + reverse Tyler 3×15, McGill Big 3 5-3-1 pyramid, daily SI prehab | Walking is fine |
+
+**Strides** (flat): 4–8 × ~20 s "fast but smooth" (~mile pace effort, not sprint), full walk/jog recovery. 2–3× /wk in base, 1–2× /wk in peak/taper.
+
+**Hill strides** (Phase B+, gated): 6–8 × 10–12 s on a 4–6% grade, walk-down recovery, on Mon easy run only. Replaces flat strides on Mon. Concentric-biased neuromuscular work — low landing impact, low SI shear, ~1–2% RE benefit when consistent.
+
+**Cadence**: target 175–182 spm at quality pace; 165–172 at easy is fine if natural. Don't force 180 at conversational pace.
+
+### 2.B Sharpen template (W19–W22)
+Same shape, slightly reduced lift volume (drop one circuit/wk if running mileage hits 35+). **No new lower-body exercises this phase** — only maintain what's working from Phase B.
+
+### 2.C Taper template (W23–W25)
+| | W23 | W24 | W25 (race wk) |
+|---|---|---|---|
+| Run volume vs peak | –30% | –45% | –55% |
+| Quality | 1 T session 3×1 mi + 1 race-pace 5×600m @ 5K pace | 1 short VO2max 5×3 min + 1 race-pace primer 3×800m @ 5K pace | Tue 3×800m @ 5K pace; Thu 4×200m @ goal pace; Fri 20 min EZ + 4 strides |
+| Long run | 50 min Z1 | 40 min Z1 | None |
+| Lift | Tue: 1 top set incline @ ~75% × 3, no accessories. Sat: half-volume hypertrophy B | None | None |
+| Lower-body NM | Hill strides 1× early week only | Drop hill strides; soleus + seated calf 1× | None |
+
+---
+
+## 3. Hypertrophy Circuits + SI-Safe Lower-Body Work
+
+Total volume per priority muscle/week is in §6. Logic: 2 sessions/wk × 4–6 sets/session = 8–12 sets/wk per priority muscle, inside MEV → MAV (RP volume landmarks; Schoenfeld dose-response metas).
+
+### 3.A Hypertrophy A (Tue, ~40 min, post-threshold run with ≥6 h gap)
+
+| Block | Movement | Sets×reps | Load/RPE | Priority muscle |
+|---|---|---|---|---|
+| Strength | **Incline BB** | 3×5–8 (TM progression — see §5) | RPE 7, +5 lb/wk if reps clean | Chest (incidental), front delt, triceps |
+| Side delts | DB lateral raise | 4×12 | RPE 9, last set to failure | **Side delt** |
+| Biceps | Preacher curl machine (§10.A) | 3×10 | RPE 8 | **Biceps** |
+| Triceps | Cable pushdown, V-bar (§10.A) | 3×12 | RPE 8 | **Triceps** |
+| Abs | Cable crunch | 3×12 | RPE 8 | **Abs** |
+| Lower NM | **Soleus wall-sit isometric** | 3×30–45 s | Knee bent ~80°, push through forefoot, RPE 7–8 | Soleus / RE |
+| Optional | Rear-delt fly (cable or pec deck reverse) | 2×15 | RPE 7 | Rear delt (joint health) |
+
+### 3.B Hypertrophy B (Sat, ~40 min, well-spaced from long run — ideally PM after AM long run, or push to Sun)
+
+| Block | Movement | Sets×reps | Load/RPE | Priority muscle |
+|---|---|---|---|---|
+| Lats | Lat pulldown, neutral grip | 4×8–10 | RPE 8, last set to RIR 1 | **Lats** |
+| Lats / rear delt | **Chest-supported row** (Phase B+, dual-purpose for lat growth + rear delt) | 3×10 | RPE 8 | **Lats** + rear delt |
+| Side delts | Cable lateral raise | 3×12–15 | RPE 9 | **Side delt** |
+| Biceps | Preacher curl machine, semi-supinated grip if available (§10.A) | 3×12 | RPE 8 | **Biceps** |
+| Triceps | Cable pushdown, rope (vary attachment vs Tue) (§10.A) | 3×12–15 | RPE 8 | **Triceps** |
+| Abs | Hanging knee raise (or decline crunch) | 3×10 | RPE 8 | **Abs** |
+| Calves | Seated calf raise | 4×12–15 | RPE 9, last set to failure | **Calves** |
+| Lower NM | **Soleus wall-sit isometric** | 3×30–45 s | Same as Tue | Soleus / RE |
+| Optional | DB flye or pec deck | 2×12 | RPE 7 | Chest (joint health) |
+
+**Notes:**
+- **Calves are on Sat only** to keep Tue legs fresh for Wed easy run. Sat long run is followed by 24 h rest, so calf soreness clears before Tue threshold.
+- Total Sat lift time should not exceed 40 min. If it does, drop the optional chest set first; soleus and chest-supported row are protected.
+- **Both circuits substitute the row** for the threshold/VO2max if SI flares (§7) — the lift schedule does not change.
+
+### 3.C Phase B/C Optional Lower-Body Adds (gated on §11.A thresholds)
+
+These are *opt-in*, low-shear, low-SI-risk additions for marginal RE and durability gains. **Do not add more than one per week initially.** All passes 48-hour test before keeping (no SI symptoms within 48h, no walking pain flare).
+
+| Exercise | When eligible | Dose | Slot | Targets | Notes |
+|---|---|---|---|---|---|
+| **Single-leg glute bridge** | Already in daily prehab; can elevate to lift slot Phase B+ | 2×8/side, 2×/wk | Tue + Sat circuits | Glute max | Replace one set of double-leg bridges in current prehab |
+| **B-stance hip thrust (light)** | SI clean ≥4 wks of running (≈Phase B late) | 2×8/side, 1×/wk | Sat circuit | Glute max + hams | Light load only; supported torso; non-axial |
+| **Reverse Nordic** | SI clean ≥4 wks running (Phase B+) | 2×5–8, 1×/wk | Tue or Sat | Quad eccentric | No spine compression; controllable load |
+| **Spanish squat / wall sit** | SI clean ≥4 wks (Phase B late or C) | 3×30–45 s, 1×/wk | Tue or Sat | Quad isometric | Late-race quad capacity |
+
+**Decision rule throughout:** if any new addition triggers SI symptoms within 48h → drop it. Keep what works, don't add what doesn't.
+
+**What's NOT on this list and why:**
+- Step-ups, split squats, Bulgarian splits — too much SI shear even unloaded for an athlete with active history.
+- Plyometrics, drills (A/B skips, bounding) — landing impact + speed-specificity at wrong end of training velocity.
+- Heavy compound (squat, deadlift, trap-bar) — permanently out for this macrocycle.
+
+---
+
+## 4. Phase-by-Phase Run Progression (with row equivalents on every session)
+
+### 4.A Pace anchors
+
+Train at **current** VDOT, not goal VDOT. Update after every test (§10).
+
+**Starting paces (assume current 5K ≈22:30–23:30, VDOT ~40):**
+| Pace | Run | Row 500m split |
+|---|---|---|
+| Easy / Z1 | 9:45–10:45 /mi | 2:15–2:25 (RPE 4–5; can talk in full sentences) |
+| Marathon (M) | 8:30 /mi | ~2:05 |
+| Threshold (T, Z2 Seiler) | 7:55–8:10 /mi | 1:55–2:00 |
+| Interval (I, Z3 Seiler, ~vVO2max) | 7:00–7:15 /mi | 1:45–1:50 |
+| Repetition (R) | 6:30 /mi | 1:38–1:42 |
+| **Goal 5K race pace** | 6:26 /mi | ~1:35 |
+
+Rower runs ~20–35 s/500m faster than equivalent run pace at the same HR (non-weight-bearing, more upper-body recruitment). **Anchor row substitutions to HR + RPE, not pace.** After W1 Fri Max-HR test: threshold ≈ 85–88% MaxHR; VO2max ≈ 92–96% MaxHR; easy ≤75% MaxHR.
+
+### 4.B Reset / Reintro (W1–W4)
+| Wk | Tue | Fri | Sat | Notes |
+|---|---|---|---|---|
+| W1 | Z1 row 50 min | Threshold row 4×500m @ T | Z1 row 50 min | HR test Fri primary; SI Phase A; soleus wall-sit starts in Tue + Sat lifts |
+| W2 | Treadmill walk-jog drill: 5×(1 min jog ≥175 spm 0% / 4 min walk) | Threshold row 4×500m @ T | Z1 row 50 min | Run pre-prep — only if SI clean |
+| W3 | Treadmill 4×(2 min jog / 3 min walk) | Treadmill 3×(3 min jog / 2 min walk) OR row 4×3 min @ T | 30 min row + 15 min outdoor jog | First outdoor jog |
+| W4 | 25 min easy outdoor | 4×3 min @ T (run or row) + 1 min jog rec | 35–40 min easy | Strides 4×20 s after Tue |
+
+### 4.C Base (W5–W12) — polarized, no VO2max yet
+~85% Z1, weekly volume 14 → 25 mpw.
+
+| Wk | Mon EZ | Tue T | Wed EZ | Fri Quality | Sat Long | Total |
+|---|---|---|---|---|---|---|
+| W5 | 30 min | 4×5 min @ T (1 min rec) | 25 min | 25 min easy + 6×20 s strides | 45 min | ~14 mi |
+| W6 | 35 min (+ hill strides if SI clean ≥3 wks) | 5×5 min @ T (1 min rec) | 30 min | 30 min progression (last 10 @ M) | 55 min | ~17 mi |
+| W7 | 40 min (+ hill strides) | 3×8 min @ T (90 s rec) | 30 min | 35 min easy + 6 strides | 60 min | ~19 mi |
+| W8 (deload) | 30 min | 3×6 min @ T (1 min rec) | 25 min | 25 min easy + 4 strides | 45 min | ~14 mi |
+| W9 | 40 min (+ hill strides) | 4×8 min @ T (90 s rec) | 35 min | 40 min easy + 6 strides | 65 min | ~21 mi |
+| W10 | 45 min (+ hill strides) | 2×15 min @ T (3 min rec) | 35 min | 35 min progression (last 15 @ M) | 70 min | ~23 mi |
+| W11 | 45 min (+ hill strides) | 5×6 min @ T (1 min rec) cruise intervals | 40 min | 40 min easy + 6 strides | 75 min | ~25 mi |
+| W12 (test) | 35 min | 30 min + 4 strides | 25 min | **5K TT** (Fri or Sat) — see §10 | 30 min easy day-after | ~17 + race |
+
+**Row equivalents:**
+- Easy run → Z1 row, same minutes, HR ≤75% MHR, ~2:15–2:25/500m
+- T session → row same work-time at ~1:55–2:00 split (e.g., 5×5 min @ ~1:58, 1 min rec)
+- Long run → row same minutes, Z1, can break into 2 segments with 2 min walk
+
+### 4.D Build (W13–W18) — add VO2max
+80% Z1 / 5% Z2 / 15% Z3 (polarized, Stöggl 2014).
+
+| Wk | Mon EZ | Tue T | Wed EZ | Fri VO2max | Sat Long | Total |
+|---|---|---|---|---|---|---|
+| W13 | 45 min (+ hill strides) | 4×6 min @ T (90 s) | 40 min | 5×3 min @ I (3 min rec) | 75 min | ~26 |
+| W14 | 50 min (+ hill strides) | **3K TT or 4×1 mi @ T** (mid-build test) | 40 min | 6×3 min @ I (2:30 rec) | 80 min | ~28 |
+| W15 | 50 min (+ hill strides) | 2×15 min @ T | 45 min | 5×4 min @ I (3 min rec) | 85 min | ~31 |
+| W16 (deload) | 35 min | 3×6 min @ T | 30 min | 4×3 min @ I | 60 min | ~20 |
+| W17 | 55 min (+ hill strides) | 6×1 K @ T (60 s rec) | 45 min | **5×1000m @ I (90 s rec)** — gold standard 5K VO2max session | 90 min | ~35 (peak) |
+| W18 | 50 min (+ hill strides) | 4×1 mi @ T (90 s) | 45 min | 8×800m @ I (90 s rec) | 75 min | ~32 |
+
+5×1000m @ I-pace is the most cited VO2max session for 5K (Daniels; LetsRun forum consensus; PMC10099854 — 4×4 min and 5×1K class show largest VO2max gains).
+
+**Row equivalents (Build):**
+- Tue T: unchanged
+- Fri VO2max: row 5×3 min @ ~1:45–1:50 (3 min very easy rec), or 12×30 s @ ~1:35 / 30 s rec @ 2:30
+- *Caveat*: row VO2max transfers ~70–80% to running (Tanaka 1994 cross-training meta), maintains fitness on flare days but doesn't develop running economy/pacing rhythm. Use as substitute, not replacement.
+
+### 4.E Sharpen (W19–W22) — race-pace specificity
+Volume holds 30–35 mpw, intensity gets specific. **No new lower-body exercises.**
+
+| Wk | Mon EZ | Tue Quality | Wed EZ | Fri Quality | Sat Long |
+|---|---|---|---|---|---|
+| W19 | 45 min (+ hill strides) | 6×800m @ 5K pace (90 s rec) | 40 min | 5×3 min @ I (2 min rec) + 4×200m R | 75 min |
+| W20 | 50 min (+ hill strides) | **Cut-down: 1 mi @ M / 1 mi @ T / 1 mi @ 5K** | 40 min | 4×1 K @ 5K pace (2 min rec) | 70 min |
+| W21 | 50 min | 5×1 K @ 5K pace (90 s rec) | 45 min | **Tune-up race or solo 5K TT (target 20:30–20:45)** | 60 min easy day-after |
+| W22 (deload) | 35 min | 3×1 K @ 5K pace | 30 min | 5×3 min @ I | 60 min |
+
+### 4.F Taper (W23–W25)
+See §2.C above. Race day Sat Oct 24:
+- WU: 15 min easy + 4×100m strides + 5 min standing/dynamic
+- Race: goal pace 6:26/mi (3:59/km), even-split or –1 s/mi negative split
+- CD: 10–15 min walk
+
+---
+
+## 5. Strength Progression — Incline BB Only
+
+**Current TM: 155 lb** (W2 confirmed 115×8 @ RPE 7 → e1RM ~150–155, then W3 Wed 125×8 RIR 2 → e1RM ~160; conservative 155 holds).
+
+| Phase | Day | Sets/Reps | Notes |
+|---|---|---|---|
+| Reset (W1–W4) | Tue | 3×5 @ TM, +5 lb/wk if reps clean RPE 7 | Conservative LP |
+| Base (W5–W12) | Tue | 3×5 @ TM. Every 4 wks: 1×5 @ TM + 1×AMRAP @ 80% (test set) → set new TM at 90% of e1RM | Linear progression continues; expect TM 175–185 by W12 |
+| Build (W13–W18) | Tue | 1×5 @ TM + 1×AMRAP @ 80% | Single top + back-off; preserves stimulus without burning Tue afternoon |
+| Sharpen (W19–W22) | Tue | 1×5 @ TM, no AMRAP, no PR attempts | Maintenance |
+| Taper W23 | 1×3 @ 75% Tue, then stop until post-race | — |
+| Taper W24–W25 | None | — |
+
+**Progression rule:** all reps clean at prescribed RPE → +5 lb next session. Miss → repeat. Two misses → cut TM 5–7%.
+
+**Why incline BB and not flat:** athlete-specified strength target. Incline biases upper chest + front delt; trains the same movement pattern as flat with less anterior shoulder impingement risk. Bar path is steeper, so it's a slightly worse mechanical lift for absolute load — meaning TM growth will be modest (5–10 lb/8 wks once past the first 8 wks).
+
+---
+
+## 6. Weekly Volume Audit (priority muscles + lower-body durability)
+
+| Muscle/system | Sets/wk target | Source | Notes |
+|---|---|---|---|
+| **Side delts** | 10–14 | Tue 4 (DB lat) + Sat 3 (cable lat) + 3 incidental on incline + 1 rear-delt overlap | Inside MAV; growth zone |
+| **Biceps** | 6 | Tue 3 (preacher) + Sat 3 (preacher, varied grip) | MEV–MAV; preacher only until tennis elbow clears (§10.A). Bias toward maintenance — biceps grow slowly under run mileage |
+| **Triceps** | 6–8 | Tue 3 (V-bar pushdown) + Sat 3 (rope pushdown) + 5–8 incidental from incline pressing | MAV; pushdowns only (§10.A) |
+| **Abs** | 6 | Tue 3 (cable crunch) + Sat 3 (hanging knee raise) + Sun McGill Big 3 (counts as 1, not in lift sets) | MEV |
+| **Lats** | 7 (Phase B+) | Sat 4 (lat pulldown) + Sat 3 (chest-supported row, Phase B+) | MEV–MAV; chest-supp row dual-purposes for rear delt |
+| **Calves** | 4 + soleus iso | Sat 4 (seated calf) + 6 sets/wk soleus wall-sit (Tue 3 + Sat 3) | Direct calf MEV; soleus iso adds RE-specific stimulus (Bohm 2021 ~4% RE) |
+| Rear delts (joint health) | 5 | Tue 2 (rear-delt fly) + Sat 3 (chest-supp row overlap) | Health zone |
+| Chest (joint health, growth from incline) | 5–7 | Tue 3 (incline) + Sat 2 (DB flye, optional) | Incidental; will grow despite not being a priority |
+| **Lower-body durability/RE** (Phase B+) | 4–8 sets equivalent | Daily SI prehab (clamshell, single-leg bridge, bird-dog, side-lying abd) + Mon hill strides + opt-in Phase C (B-stance hip thrust, reverse Nordic, Spanish squat) | SI durability + glute max + RE; replaces what dropped squat/trap-bar would have provided |
+
+**Rules:**
+- 8–15 reps, RPE 8–9, RIR 1–2; last set RIR 0–1 on isolation.
+- Double progression on isolation (8–10 reps clean → +2.5 lb).
+- Rotate accessory exercises every 4–6 wks **except biceps** (locked to preacher per §10.A) and **soleus** (the isometric stimulus is the point; don't rotate).
+- If running quality slips for 2 consecutive weeks, **first cut**: chest (DB flye) and rear-delt fly. **Last to cut**: side delts, calves, biceps, lats, triceps, soleus.
+
+---
+
+## 7. SI Recovery + Running Reintroduction (preserved + calendar anchor)
+
+Baseline flare: **Saturday May 2, 2026.**
+
+### 7.A Phase 0 — Acute (May 2–9)
+Lifting upper-only (no hinge load). Endurance: Z1 row only. Daily McGill Big 3 AM/PM. Walks ≥30 min/day. **PT visit this week.** Symptom log daily.
 
 → Phase A criteria: 3 days rest pain ≤1/10 + walking ≤1/10 + Fortin negative + ≤1 provocation positive.
 
-### 13.B Phase A — Squat reintroduction + running prep (Days 7–21)
+### 7.B Phase A — Run-prep (May 9–~23)
+Endurance: Z1 row. Running prep: cadence drill (treadmill walk-jog) only when 7 consecutive clean days banked. Mon May 5 walking flare reset the count — **conservative Phase B trigger ≥May 23, realistic May 27–Jun 3.**
 
-Squat session-by-session screen-gated; if pass, 70% TM ceiling, RPE 7 ceiling. Trap-bar HH introduces W4 Thu (May 14): 70% trap-bar TM, 3×5, RPE 6–7. Endurance: Z1 row holds. Threshold returns to rower only.
+Daily prehab: clamshells 2×15/side, side-lying hip abduction 2×12/side, single-leg glute bridge 2×8/side, bird-dog 3×8/side, McGill side plank 3×20–30 s/side, Tyler twists 3×15 + reverse Tyler 3×15.
 
-Daily running-prep prehab: clamshells, side-lying hip abduction, single-leg glute bridge, bird-dog, cadence-tap drill.
+**Soleus wall-sit added** to Tue + Sat lifts — zero SI shear, knee-bent, safe in Phase A.
 
-→ Phase B criteria: 7 days symptom-free + 2 squat sessions clean + 1 trap-bar session clean + all SI tests negative + pain-free single-leg bridge 30 s/side.
+→ Phase B criteria: 7 days symptom-free + all SI provocation tests negative + pain-free single-leg bridge 30 s/side.
 
-### 13.C Phase B — Running reintroduction (Days 21+)
+### 7.C Phase B — Running reintroduction
+Treadmill flat Z1, 175–180 spm, Vomero Plus. Sequence:
+1. 5×(1 min jog ≥175 spm 0% / 4 min walk). Day 1.
+2. 4×(2 min jog / 3 min walk). Day 2 or 3.
+3. 3×(3 min jog / 2 min walk). Day 4–6.
+4. First continuous outdoor 15 min easy (flat, even surface, no hills, post-5-min walk WU). Day 7.
+5. 25 min continuous outdoor easy. Day 8–10.
+6. Transition to §4.B / §4.C run progression.
 
-Treadmill-flat Z1, 175–180 spm, Vomero. 15→20→25→30 min progression with 48 h rest. Outdoor flat at session 5+. Saturday long stays on rower until 2 weeks of pain-free Z1 running. Friday threshold stays on rower until same.
+Saturday long stays on rower until 2 weeks of pain-free Z1 running. Friday quality stays on rower until same.
 
-Hard rules: no hills until 4 weeks Z1 clean. No speed until 6 weeks Z1 clean.
+**Hard rules:** no hill workouts (intentional ascent training) until W10 (8+ wks of pain-free running). Hill *strides* (10–12 s on 4–6% grade) eligible after 3 wks SI-clean of running per §11.A. Light rolling terrain on long runs OK after W7.
 
-### 13.D Decision tree for W25 trap-bar 1RM
+### 7.D Flare response during build
+- **Mild** (<3/10, no positive tests): drop one quality session, replace with row, continue.
+- **Moderate** (3–6/10, 1–2 positive tests): full row substitution 5–7 days; restart run progression at –1 step. **Pause all Phase B/C lower-body adds** for the return-to-run weeks.
+- **Severe** (>6/10 or 3+ positive tests): return to Phase 0; consult sports med; **goal downgrades to 21:30**. Drop all lower-body adds; restart from Phase A soleus only.
 
-|Status at W22                     |Action                                         |
-|----------------------------------|-----------------------------------------------|
-|8+ weeks pain-free                |Test                                           |
-|4–8 weeks pain-free               |Test conservatively, last clean single = result|
-|<4 weeks pain-free OR recent flare|Skip the hinge test entirely                   |
+---
 
-Returning to sumo is **not on the table this program.**
+## 8. Tennis Elbow Rules (§10.A — preserved verbatim)
 
------
+Goal: keep tendon out of reactive flare while continuing tensile loading.
 
-## 14. Quick Reference Card
+**Daily:** Tyler twist 3×15 + Reverse Tyler 3×15 (FlexBar, color = 3–4/10 discomfort on eccentric, eccentric phase 4 s).
 
-|If…                                             |Then…                                                    |
-|------------------------------------------------|---------------------------------------------------------|
-|Right PSIS pain at rest                         |§9.3 + §10.B; PT this week                               |
-|Tennis elbow flare                              |Cut accessory volume 50%, double Tyler, drop preacher 20%|
-|Sleep <6 h                                      |Cap RPE 7, drop final set                                |
-|Bar speed slow at planned RPE 7                 |Cut remaining sets at hit weight                         |
-|HR sustained 180+ on planned threshold          |Zones miscalibrated — redo Max HR test                   |
-|Persistent muscle pain >72 h, dark urine        |STOP. Hydrate. CK draw. Notify dermatologist.            |
-|Fortin sign positive                            |Skip squat/hinge that day; row + upper pump              |
-|3 consecutive symptom-free Z1 runs              |Promote to next §13.C phase                              |
-|W4 incline AMRAP estimates >175                 |Bump incline TM to AMRAP × 0.9                           |
-|Knee extension lifts lumbar off pad at end-range|Reduce load                                              |
-|Preacher pain >4/10                             |Drop 20%, finish, double Tyler that night                |
+**Pre-lift:** wrist-extensor isometric 3×30 s each arm.
 
------
+**Direct biceps work — preacher machine ONLY** until 4 consecutive weeks symptom-free at programmed loads. Free-weight curls (DB hammer, incline DB, BB curl, EZ curl) load the common extensor origin in supination because the wrist must stabilize against the falling DB. Preacher is fixed-path and supports the elbow.
 
-*End of v3.2. Next planned revision: end of Mesocycle 1 (W9 deload week, Jun 18) — pull AMRAP data, reset TMs, evaluate SI joint trajectory, consider tennis-elbow re-introduction sequences (biceps + triceps) per §10.A.*
+**Direct triceps work — pushdowns + kickbacks ONLY** until 4 weeks symptom-free. Overhead extension forces deep elbow flexion under tensile load with shoulder flexed — stresses medial elbow + forces wrist extensors to stabilize against the rope. Pushdowns keep elbow at side, shorter ROM, smaller wrist arc.
+
+**Re-introduction sequences** (only after 4 wks symptom-free at full programmed loads): see v3.2 §10.A — same protocol, biceps and triceps independently progressed.
+
+**Red flags:** night pain, grip strength drop >20% morning to morning, sharp pain on lockout of pressing → cut accessory volume 50% for 1 week, drop preacher 20%, double Tyler.
+
+**If pain >4/10 on any working set:** drop preacher 20% that session, finish circuit, double Tyler that night.
+
+---
+
+## 9. SI Joint Rules
+
+**Provocation screen — perform before any quality session if SI symptoms in prior 48 h:**
+
+| Test | Positive = |
+|---|---|
+| Fortin finger sign | Localizes pain within 1 cm of PSIS |
+| Gaenslen | Reproduces right-PSIS pain |
+| Thigh thrust | Reproduction |
+| FABER | Reproduction (not groin) |
+| SI compression (side-lying) | Reproduction |
+| SI distraction (supine) | Reproduction |
+
+**Decision rule:** ≥3 positive OR Fortin positive alone → SWAP day to row Z1 + upper hypertrophy circuit only. Drop hill strides for the week. No Phase B/C lower-body adds until clean again.
+
+**Daily prehab:** Banded clamshell 3×15/side, side-lying hip abduction 3×12/side, single-leg glute bridge 3×8/side, bird-dog 3×8/side, McGill side plank 3×20–30 s/side. (Mirrors the protocol shown to improve SI dysfunction in Add 2018, PMC5808006.)
+
+**Permanent prohibitions** (never in this macrocycle, regardless of SI status):
+- Sumo deadlift (retired forever).
+- Heavy back squat / conventional deadlift / trap-bar deadlift (>50% body weight or any RPE >6).
+- Leg press (any weight).
+- Bulgarian split squat, heavy walking lunges, heavy step-ups.
+- Plyometrics (jumps, bounding, depth jumps).
+- Running drills (A/B skips, butt kicks, high knees).
+
+**Phase-gated allowed** (per §3.C and §11.A): single-leg bridge, B-stance hip thrust (light), reverse Nordic, Spanish squat / wall sit, soleus wall-sit, hill strides on grade ≤6%.
+
+---
+
+## 10. Test Schedule and Goal-Tier Gates
+
+| When | Test | Pass criteria | If miss → |
+|---|---|---|---|
+| W1 Fri (May 8) | **Max-HR field test** on rower (3 min build → 2 min all-out, last 30 s flat-out) | Peak HR recorded | Fallback: (220 – age)×0.95; retest W4 on the run |
+| W4 (~May 25) | First continuous outdoor run | Pain-free during + 24h post | Restart Phase B at –1 step |
+| **W12 (Aug 1–2)** | **5K time trial** — flat course or treadmill 1%, racing intent | **≤21:30 = sub-20 trajectory**; 21:31–22:30 = downgrade to 20:59; >22:30 = downgrade to 21:30 | **Goal locks here. Do not renegotiate later.** |
+| W14 (Aug 15) | 3K TT or 4×1 mi @ T | T pace from W12 should feel exactly RPE 7 | If RPE 8+: drop paces 10 s/mi |
+| W18 (Sep 5) | 5K-pace cut-down (1 mi M / 1 mi T / 1 mi 5K) | Final mile @ goal pace = RPE 8–9 | If RPE 10 / can't sustain: downgrade goal one tier |
+| **W21 (Sep 26)** | **Tune-up race or solo 5K TT, target 20:30–20:45** | Hits target ± 10 s | If >21:00: downgrade to 20:59 final, race-day = even splits not negative |
+| **W25 Sat Oct 24** | **RACE: sub-20:00 5K** | n/a | n/a |
+
+**Goal tier ladder (locked at W12):**
+- **Tier A (sub-20)**: W12 ≤ 21:30
+- **Tier B (sub-21)**: W12 21:31 – 22:30
+- **Tier C (sub-21:30)**: W12 22:31 – 23:30
+- **Tier D (PR-only ~22:00)**: W12 > 23:30 — pivot to "build base, race tune-up, save sub-20 for spring 2027"
+
+---
+
+## 11. Autoregulation, Deload, Recovery
+
+### 11.A Phase advance/revert thresholds for lower-body work
+
+| Phase | Eligible additions | Advance criterion | Revert trigger |
+|---|---|---|---|
+| **A** (now → first run) | Soleus wall-sit only | 3 consecutive SI-clean weeks AND running re-introduced (Phase B per §7.C) | Any SI flare → stay in Phase A |
+| **B** (running re-established) | + Hill strides 1×/wk | 4 consecutive SI-clean weeks of running | SI flare moderate+ → drop hill strides for 2 wks, retry |
+| **C** (Phase B tolerated 4+ wks) | Opt-in: B-stance hip thrust, reverse Nordic, Spanish squat (one at a time, 48-hr test each) | Holds through Sharpen | Any SI symptoms within 48h of new add → drop that exercise |
+| **D** (Sharpen+) | **No new exercises**; maintain only what's working | n/a | Drop new adds last 10 days of taper regardless |
+
+### 11.B Scheduled deloads
+W8, W16, W22 (every 4 wks Build, embedded in Sharpen). Run volume –30 to –40%, intensity preserved on quality. Lift: same exercises, sets cut 30–50%, intensity 80% of normal. Hill strides held during deload weeks.
+
+### 11.C Daily green/yellow/red check (on waking)
+- HRV (Apple/Oura) > rolling 7-day avg AND RHR ≤ avg+3 AND SI screen clean → **green** (run as scheduled)
+- HRV –1 SD OR RHR avg+4 to +7 OR SI 1–2 positive → **yellow** (downgrade quality day to easy 30–40 min, push quality to next day; skip hill strides if Mon)
+- HRV –2 SD OR RHR >avg+7 OR SI 3+ positive OR walking pain >3/10 → **red** (off, mobility, reschedule)
+
+### 11.D Weekly volume bump rule
+≤10% mileage increase wk-to-wk during ramp; never increase mileage AND quality complexity in same week. Never add a new lower-body exercise the same week as a mileage bump.
+
+### 11.E Accutane recovery layer
+- Hydration: ≥3.5 L lift days, ≥4.5 L long-run days, ≥4.5 L race week. Track.
+- No sauna, no extreme heat. Limit summer long runs to <70°F if possible — start at 6 AM in Jul/Aug.
+- Watch for: muscle pain >72 h, dark urine, persistent unilateral weakness, calf cramping out of proportion.
+- **Trigger CK lab draw** if any of above. Hold all lifting + reduce running 50% until CK <500 U/L. Documented isotretinoin-exercise rhabdo cases: PMC9287672, PMC8857541, PMC7660121 — rare but real.
+- Mention to dermatologist that the program ramps 0 → 38 mpw + lifting; ask about baseline CK.
+- No vitamin A supps. No tetracyclines. Chalk on barbell (skin tear risk).
+
+### 11.F Sleep & nutrition floor
+Sleep 7.5–8 h. Protein 1.6–1.8 g/kg. Carbs 0.5–1 g/kg pre, 1+ g/kg post on hard days. **More carbs once running mileage hits 25+ mpw** — under-fueled long runs is the #1 mistake at sub-20 mileage.
+
+---
+
+## 12. Quick Reference Card
+
+```
+WEEKLY LANDSCAPE (Base / Build / Sharpen)
+Mon  Easy run + strides (or hill strides Phase B+)
+Tue  THRESHOLD run (or row)         + Hypertrophy A circuit (PM, ≥6h)
+                                      includes soleus wall-sit
+Wed  Easy run + optional strides
+Thu  AM easy or off
+Fri  VO2max run (or row)
+Sat  LONG RUN (AM)                  + Hypertrophy B circuit (PM, ≥6h)
+                                      includes seated calf + soleus wall-sit
+Sun  Off + Tyler + McGill + clamshells + daily SI prehab
+
+ZONE CROSSWALK (3-zone Seiler ↔ Apple 5-zone)
+Z1 easy   = Apple Z1 + Z2          (≤75% MHR, talk in sentences)
+Z2 thresh = Apple Z3 + low Z4      (~85–88% MHR)
+Z3 VO2max = Apple high Z4 + Z5     (92–96% MHR)
+
+KEY PACES (current, update after every test)
+5K assumption 22:30 → train at VDOT 40
+  Easy 9:50/mi  T 8:00/mi  I 7:05/mi  R 6:25/mi
+  Goal race pace 6:26/mi
+
+SESSION TYPES
+Threshold:  3–5×6–8 min @ T, 60–90s rec  (cruise intervals)
+            OR 2×15 min @ T, 3 min rec
+VO2max:     5×1000m @ I, 90s rec         (gold standard)
+            6×800m @ I, 90s rec
+            5×3 min @ I, 3 min rec       (early build)
+            12×30/30                     (alt session)
+Race-pace:  6×800m @ 5K pace, 90s rec
+            5×1K @ 5K pace, 2 min rec
+Strides:    4–8×~20s controlled-fast, full rec, after easy runs
+Hill strides (Phase B+): 6–8×10–12s @ 4–6% grade, walk down
+
+LOWER-BODY NM PROGRESSION (gates in §11.A)
+Phase A: soleus wall-sit only (Tue + Sat, 3×30–45s)
+Phase B: + hill strides 1×/wk (Mon)
+Phase C: + opt-in B-stance hip thrust / reverse Nordic / Spanish squat
+         (one at a time, 48-hr test each)
+Phase D (Sharpen+/Taper): no new exercises
+
+GO/NO-GO BEFORE EVERY RUN
+Walking pain ≤2/10? Yes → run
+HRV ≥ rolling avg? Yes → quality OK; No → easy only
+
+ACCUTANE FLAGS (escalate)
+Muscle pain >72h • Dark urine • Persistent unilateral weakness
+→ Stop training, draw CK, contact derm
+
+PERMANENT PROHIBITIONS (this macrocycle)
+- Sumo deadlift (retired forever)
+- Heavy back squat / conv DL / trap-bar DL
+- Leg press (any weight)
+- Bulgarian split, heavy lunges, heavy step-ups
+- Plyometrics (jumps, bounding, depth jumps)
+- Running drills (A/B skips, butt kicks)
+- OHP
+- Free-weight curls, overhead triceps extensions
+- Sauna (Accutane)
+
+PHASE-GATED ALLOWED
+- Soleus wall-sit (now)
+- Hill strides ≤6% grade (Phase B+)
+- Single-leg bridge / B-stance hip thrust light (Phase B+)
+- Reverse Nordic, Spanish squat (Phase C opt-in)
+
+GOAL TIER (locked at W12)
+A: sub-20:00  if W12 ≤ 21:30
+B: sub-21:00  if W12 21:31–22:30
+C: sub-21:30  if W12 22:31–23:30
+D: PR-only    if W12 > 23:30
+```
+
+---
+
+## 13. Sub-20 Feasibility — Honest Assessment
+
+**24:00 → sub-20:00 is a 17% improvement in 25 weeks.**
+
+Signals that say it's possible:
+- Daniels VDOT: 24:00 = VDOT 39, sub-20 = VDOT 50 (11-point jump). Realistic gains: 3–6 points for trained runners; up to 8–10 for returning/detrained with prior history (the5krunner; Daniels 5K plan reviews; LetsRun consensus).
+- Detraining literature: 2.5 yr without consistent running predicts –20 to –25% VO2max from peak (PMC10853933). Apple Watch reading 54 ml/kg/min, derated 5–10 for non-runner overestimation, gives true ~44–49 — roughly a **22:00–23:00 5K runner already**, *higher* than the 24:00 PR predicts.
+- That gap is signal: the engine is partially intact from non-running aerobic work; the missing piece is gait-specific economy and lactate clearance at running paces.
+- Soleus isometric (Bohm 2021) + hill strides (concentric NM) buy ~1–2% RE if tolerated → ~10–25 s on race day.
+
+Signals that say it's tight:
+- Peak mileage 35–38 mpw is on the *low* end for sub-20 (LetsRun and Runna sub-20 guides cluster at 30–40 mpw).
+- SI joint flare is the binary risk. If it costs >2 weeks total, W12 likely slips to Tier B.
+- Llanos-Lagos 2024 says heavy compound (>80% 1RM) is the only RT modality reliably improving RE at sub-20 race pace (~15 km/h) — and that's exactly what SI forbids. Plyo benefits cap at ≤12 km/h. We're forced onto the lower-yield side of the RE evidence base.
+- Accutane increases rhabdo and tendon risk on aggressive ramps.
+
+**Confidence (with v4.2 staged adds):**
+- ~52–55% on Tier A (sub-20) — slight bump from v4.1 ~50% via soleus + hill strides RE benefit
+- ~80% on Tier B (sub-21)
+- ~95% on Tier C (sub-21:30)
+
+**Single biggest risk: SI joint. Protect it ruthlessly. The asymmetry: any leg-add that triggers a 2-week SI flare costs more in lost run training than it can possibly add in RE.** This is why v4.2 adds *only* low-shear, knee-bent, non-axial work — and why it gates everything new on multi-week clean windows.
+
+The W12 gate is the moment of truth. The program structure does not change between tiers — only race-day pacing and Sharpen-phase race-pace targets.
+
+**Largest single lever for sub-20 is not strength work — it's banking 8+ uninterrupted SI-clean weeks at 30+ mpw.** Everything in v4.2 protects that.
+
+---
+
+## Sources
+
+**Run training:** Daniels' Running Formula (4th ed) • Pfitzinger, *Faster Road Racing* • Magness, *Science of Running* • Seiler & Kjerland 2006 (Scand J Med Sci Sports) • Stöggl & Sperlich 2014 (Front Physiol; PMC3912323) • Joyner & Coyle 2008 (J Physiol) • Heiderscheit 2011 cadence • PMC12440572 cadence systematic review.
+
+**Tapering:** Bosquet 2007 taper meta (Med Sci Sports Exerc) • Smyth & Lawlor 2021 (PMC8506252) • runnersconnect 5K-taper guide • marathonhandbook sub-20 guide • Runna sub-20 guide.
+
+**Strength + running:** Blagrove 2018 (Sports Med; PMC5889786) • Llanos-Lagos 2024 (Sports Med; PMC11052887) • Eihara 2022 (Sports Med-Open; PMC9653533) • Paavolainen 1999 (J Appl Physiol; PMID 10233114) • Storen 2008 • Mikkola 2007 • Saunders 2006 • Spurrs 2003 • Bohm 2021 soleus isometric (PMC7893283) • Ueno 2018 plantar-flexor stiffness (PMID 29287284).
+
+**Concurrent training / interference:** Wilson 2012 concurrent training meta (JSCR) • Doma 2024 review (PMC11359207, PMC12885173) • Schumann 2014 / 2022 • Robineau 2016.
+
+**Hypertrophy:** Schoenfeld dose-response volume metas • RP Strength volume landmarks (Israetel) • Iversen 2021 narrative review (PMC8449772).
+
+**SI joint / injury prevention:** Add 2018 SI dysfunction case series (PMC5808006) • Maharaj 2024 SI in endurance runners (PMC11148519) • Wu 2024 runner injury prevention meta (PMC11127851) • Lauersen 2014 BJSM • Bret Contreras / dellanave / ProNatal Fitness clinical guidance.
+
+**Accutane:** Carlson 2022 (PMC9287672) • Helms 2022 (PMC8857541) • PMC7660121 adolescent rhabdo case.
+
+**Cross-training:** Tanaka 1994 cross-training meta • Concept2 PM documentation.
+
+*v4.2 — drafted May 7, 2026. Treat all paces and TMs as targets, not commandments. Update VDOT after every test; update incline TM only if Tue/Fri quality runs stayed green that week. Your read on your own body trumps the schedule.*
