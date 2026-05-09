@@ -576,7 +576,7 @@ function renderSettingsAIStatus() {
   const hasG = !!getGeminiKey(), hasC = !!getClaudeKey();
   const src  = builtIn().geminiKey || builtIn().claudeKey ? '(server-configured)' : '(manual)';
   el.innerHTML = prov
-    ? `<span style="color:var(--green)">✓ ${prov === 'gemini' ? 'Gemini Flash Lite' : 'Claude Haiku'} active ${src}</span>`
+    ? `<span style="color:var(--green)">✓ ${prov === 'gemini' ? 'Gemini 2.5 Flash' : 'Claude Haiku'} active ${src}</span>`
     : `<span style="color:var(--red)">✗ No AI key found — enter below or add GitHub secrets</span>`;
   // Show/hide provider toggle
   const toggle = document.getElementById('ai-provider-toggle');
@@ -1249,7 +1249,7 @@ async function callAI(prompt) {
   if (provider === 'gemini') {
     const key = getGeminiKey();
     const res = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=${encodeURIComponent(key)}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${encodeURIComponent(key)}`,
       {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
