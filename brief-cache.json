@@ -1,0 +1,70 @@
+{
+  "date": "2026-05-09",
+  "dow": 6,
+  "generatedAt": "2026-05-09T20:23:16.113Z",
+  "data": {
+    "sessionTitle": "Long Z1 Row + Hypertrophy B",
+    "keyTargets": [
+      "Execute LT1 decoupling test on the long row (target HR 150-155, flat split, nasal breathing, log HR for first/second halves).",
+      "Initiate Soleus wall-sits (3x30-45s @ RPE 7-8, knee ~80°, forefoot push).",
+      "Ensure Triceps pushdown load (42.5) allows for clean RIR 2 across all sets."
+    ],
+    "warnings": [
+      "You are 3/7 days into your SI symptom-free streak for Phase B running reintroduction. Any SI flare will reset the clock. Monitor all movements.",
+      "Accutane: Remember no sauna. Watch for muscle pain (>72h), dark urine, unilateral weakness, or calf cramping. Escalate to CK lab draw if any occur."
+    ],
+    "highlights": [
+      "Successfully hit peak HR 191 bpm in Friday's field test with no SI symptoms.",
+      "Preacher curl load locked in at 50/arm after a strong W3 Wed session (50x12 RIR 2).",
+      "Chest-supported row is a new addition today, offering dual-purpose for lat growth and rear delt health."
+    ],
+    "exercises": [
+      {
+        "name": "Lat pulldown, neutral grip",
+        "target": "Lats",
+        "note": "4 sets of 8-10 reps. Anchor S1 at 125, drift to 130 for S2-3, back off to 120 for S4. Target RPE 8, last set to RIR 1."
+      },
+      {
+        "name": "Chest-supported row",
+        "target": "Lats + Rear Delt",
+        "note": "3 sets of 10 reps @ 80. Hold 80 for this new exercise. Target RPE 8."
+      },
+      {
+        "name": "Cable lateral raise (unilateral)",
+        "target": "Side Delt",
+        "note": "3 sets of 12-15 reps @ 5/side uni. Target RPE 9."
+      },
+      {
+        "name": "Preacher curl machine",
+        "target": "Biceps",
+        "note": "3 sets of 12 reps @ 50/arm (last session: 50x12 RIR 2). Target RPE 8."
+      },
+      {
+        "name": "Triceps pushdown (rope attachment)",
+        "target": "Triceps",
+        "note": "3 sets of 12-15 reps @ 42.5 (last session: failed at 50, hold 42.5). Hold this weight until you can achieve RIR 2 across all 3 sets. Target RPE 8."
+      },
+      {
+        "name": "Cable crunch",
+        "target": "Abs",
+        "note": "3 sets of 12 reps @ 42.5 (last session: W1 Sat RPE 8). Target RPE 8."
+      },
+      {
+        "name": "Seated calf raise",
+        "target": "Calves",
+        "note": "4 sets of 12-15 reps @ 315 (RIR 2 sustained). Target RPE 9, last set to failure."
+      },
+      {
+        "name": "Soleus wall-sit isometric",
+        "target": "Soleus / RE",
+        "note": "3 sets of 30-45 seconds (first session). Bend knee ~80°, push through forefoot. Target RPE 7-8."
+      }
+    ],
+    "cardio": {
+      "prescription": "Long Z1 Row",
+      "paceTarget": "2:22-2:30/500m, rate 18-20 strokes/min",
+      "hrTarget": "150-155 bpm (for LT1 verification)",
+      "notes": "65 minutes total. This session is designed to verify LT1: hold a flat split for the full duration. Log your average HR for the first 32 minutes and the last 33 minutes for decoupling analysis. Aim to maintain nasal breathing throughout."
+    }
+  }
+}
