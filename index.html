@@ -8,6 +8,8 @@
   <meta name="apple-mobile-web-app-title" content="Sub-20 5K">
   <meta name="theme-color" content="#0f0f0f">
   <title>Sub-20 5K Dashboard</title>
+  <!-- AI keys injected at deploy time by GitHub Actions; falls back to {} in local dev -->
+  <script src="config.js" onerror="window.WORKOUT_CONFIG={}"></script>
   <style>
     :root {
       --bg: #0f0f0f;
@@ -240,34 +242,82 @@
     <div class="setup-title">Sub-20 5K Dashboard</div>
     <div class="setup-sub">Connect your GitHub repo to log workouts and optionally add your Anthropic key for AI-powered briefs and smart log parsing.</div>
 
-    <div class="card">
-      <div class="card-title">GitHub (required)</div>
-      <div class="form-group">
-        <label class="form-label" for="in-token">Personal Access Token</label>
-        <input type="text" id="in-token" placeholder="ghp_…" autocomplete="off" autocorrect="off" spellcheck="false">
-        <div class="form-hint">Needs <strong>repo</strong> scope → <a href="https://github.com/settings/tokens/new?scopes=repo" target="_blank">Generate token ↗</a></div>
+    <!-- ── GitHub login (shown when no token saved) ── -->
+    <div id="setup-login-block">
+      <div class="card">
+        <div class="card-title">Connect GitHub</div>
+        <div class="form-group">
+          <label class="form-label" for="in-token">Personal Access Token</label>
+          <input type="text" id="in-token" placeholder="ghp_…" autocomplete="off" autocorrect="off" spellcheck="false">
+          <div class="form-hint">
+            Needs <strong>repo</strong> scope (write to Tracker.md) · stored on this device only<br>
+            <a href="https://github.com/settings/tokens/new?scopes=repo&description=Workout+Dashboard" target="_blank">Generate token ↗</a>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="in-repo">Repository</label>
+          <input type="text" id="in-repo" value="ayaanh03/workout-tracking">
+        </div>
+        <div class="form-group" style="margin-bottom:0">
+          <label class="form-label" for="in-branch">Branch (Tracker.md lives here)</label>
+          <input type="text" id="in-branch" value="main">
+        </div>
       </div>
-      <div class="form-group">
-        <label class="form-label" for="in-repo">Repository</label>
-        <input type="text" id="in-repo" value="ayaanh03/workout-tracking">
-      </div>
-      <div class="form-group" style="margin-bottom:0">
-        <label class="form-label" for="in-branch">Branch for Tracker.md</label>
-        <input type="text" id="in-branch" value="main">
-      </div>
+      <button class="btn btn-primary" id="connect-btn" onclick="connectGitHub()">Connect →</button>
     </div>
 
-    <div class="card" style="border-color:#312e81;background:#0f0c2a">
-      <div class="card-title" style="color:#818cf8">Anthropic AI (optional)</div>
-      <div class="security-note">Your key is stored in your browser only and sent directly to api.anthropic.com. Never share this page with others.</div>
-      <div class="form-group" style="margin-bottom:0">
-        <label class="form-label" for="in-ai-key">Anthropic API Key</label>
-        <input type="text" id="in-ai-key" placeholder="sk-ant-…" autocomplete="off" autocorrect="off" spellcheck="false">
-        <div class="form-hint">Enables: AI workout briefs, natural-language log parsing, smart load targets.<br><a href="https://console.anthropic.com/settings/keys" target="_blank" style="color:#818cf8">Get API key ↗</a></div>
-      </div>
-    </div>
+    <!-- ── Settings panel (shown when already connected) ── -->
+    <div id="setup-settings-block" style="display:none">
 
-    <button class="btn btn-primary" onclick="saveSetup()">Open Dashboard →</button>
+      <!-- Connected account -->
+      <div class="card" style="border-color:#15532e">
+        <div class="card-title">GitHub Session</div>
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
+          <img id="setup-avatar" src="" width="36" height="36" style="border-radius:50%;display:none">
+          <div>
+            <div style="font-weight:700" id="setup-username">—</div>
+            <div style="font-size:12px;color:var(--text-dim)" id="setup-repo-info">—</div>
+          </div>
+          <span style="margin-left:auto;font-size:12px;color:var(--green)">✓ Connected</span>
+        </div>
+        <button class="btn btn-secondary btn-sm" style="width:auto" onclick="disconnectGitHub()">Disconnect this device</button>
+      </div>
+
+      <!-- AI status -->
+      <div class="card" style="border-color:#312e81;background:#0f0c2a">
+        <div class="card-title" style="color:#818cf8">AI Configuration</div>
+        <div id="ai-status-line" style="font-size:13px;margin-bottom:12px">—</div>
+
+        <!-- Provider toggle — only shown when both keys available -->
+        <div id="ai-provider-toggle" style="display:none;gap:8px;margin-bottom:12px">
+          <div class="field-label" style="margin-bottom:6px">Preferred provider</div>
+          <div style="display:flex;gap:8px">
+            <button id="prov-btn-gemini" class="btn btn-sm" style="flex:1;background:var(--accent)" onclick="setAIProvider('gemini')">Gemini Flash</button>
+            <button id="prov-btn-claude" class="btn btn-sm" style="flex:1;background:var(--surface2)" onclick="setAIProvider('claude')">Claude Haiku</button>
+          </div>
+        </div>
+
+        <!-- Manual key fallback — hidden when config.js is present -->
+        <div id="manual-ai-block">
+          <div class="security-note" style="margin-bottom:12px">
+            AI keys below are stored on this device only. For a shared-device setup, add <code>GEMINI_API_KEY</code> and <code>ANTHROPIC_API_KEY</code> as GitHub repo secrets and they'll be baked in at deploy time.
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="in-gemini-key">Gemini API Key (free)</label>
+            <input type="text" id="in-gemini-key" placeholder="AIza…" autocomplete="off" autocorrect="off" spellcheck="false">
+            <div class="form-hint"><a href="https://aistudio.google.com/app/apikey" target="_blank" style="color:#818cf8">Get free Gemini key ↗</a> · 1500 req/day, no credit card</div>
+          </div>
+          <div class="form-group" style="margin-bottom:12px">
+            <label class="form-label" for="in-claude-key">Anthropic API Key (optional)</label>
+            <input type="text" id="in-claude-key" placeholder="sk-ant-…" autocomplete="off" autocorrect="off" spellcheck="false">
+            <div class="form-hint"><a href="https://console.anthropic.com/settings/keys" target="_blank" style="color:#818cf8">Get Claude key ↗</a></div>
+          </div>
+          <button class="btn btn-ai btn-sm" style="width:auto" onclick="saveManualAIKeys()">Save AI Keys</button>
+        </div>
+      </div>
+
+      <button class="btn btn-secondary" onclick="showHome()">← Back to Dashboard</button>
+    </div>
   </div>
 </div>
 
@@ -276,6 +326,7 @@
   <div class="top-bar">
     <h1>Sub-20 5K</h1>
     <span class="week-badge" id="hm-badge">W?</span>
+    <span id="hm-ai-badge" style="font-size:11px;font-weight:700;padding:3px 8px;border-radius:20px;background:#1a1535;border:1px solid #312e81;color:#c4b5fd;display:none"></span>
     <button class="icon-btn" onclick="showSetup()" title="Settings">⚙️</button>
   </div>
   <div class="content">
@@ -427,24 +478,118 @@ const todayInfo = () => {
 // ═══════════════════════════════════════════
 
 const getCfg = () => { try { return JSON.parse(localStorage.getItem('wk_cfg')||'{}'); } catch { return {}; } };
+const saveCfg = patch => localStorage.setItem('wk_cfg', JSON.stringify({ ...getCfg(), ...patch }));
 
-function saveSetup() {
-  const token   = document.getElementById('in-token').value.trim();
-  const repo    = document.getElementById('in-repo').value.trim();
-  const branch  = document.getElementById('in-branch').value.trim();
-  const aiKey   = document.getElementById('in-ai-key').value.trim();
-  if (!token) { showToast('GitHub token required','red'); return; }
-  localStorage.setItem('wk_cfg', JSON.stringify({ token, repo, branch:branch||'main', aiKey }));
-  showHome();
+// AI key resolution: built-in (config.js) takes priority, localStorage is fallback for local dev
+const builtIn = () => window.WORKOUT_CONFIG || {};
+const getGeminiKey = () => builtIn().geminiKey || getCfg().geminiKey || '';
+const getClaudeKey = () => builtIn().claudeKey || getCfg().claudeKey || '';
+const hasAnyAI = () => !!(getGeminiKey() || getClaudeKey());
+
+// Active provider: user pref → auto-detect (gemini first, then claude)
+function getAIProvider() {
+  const pref = getCfg().aiProvider; // 'gemini' | 'claude' | undefined
+  if (pref === 'claude' && getClaudeKey()) return 'claude';
+  if (pref === 'gemini' && getGeminiKey()) return 'gemini';
+  if (getGeminiKey()) return 'gemini';
+  if (getClaudeKey()) return 'claude';
+  return null;
+}
+
+// ── Login screen ──────────────────────────
+
+async function connectGitHub() {
+  const token  = document.getElementById('in-token').value.trim();
+  const repo   = document.getElementById('in-repo').value.trim();
+  const branch = document.getElementById('in-branch').value.trim() || 'main';
+  if (!token) { showToast('Paste your GitHub token first','red'); return; }
+
+  const btn = document.getElementById('connect-btn');
+  btn.disabled = true; btn.textContent = 'Verifying…';
+
+  try {
+    // Verify the token works and grab the username
+    const res = await fetch('https://api.github.com/user', {
+      headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json' }
+    });
+    if (!res.ok) throw new Error(`GitHub returned ${res.status} — check your token`);
+    const user = await res.json();
+    saveCfg({ token, repo, branch, ghUser: user.login, ghAvatar: user.avatar_url });
+    showHome();
+  } catch(err) {
+    showToast(err.message, 'red');
+    btn.disabled = false; btn.textContent = 'Connect →';
+  }
 }
 
 function showSetup() {
   const c = getCfg();
-  if (c.token)  document.getElementById('in-token').value  = c.token;
-  if (c.repo)   document.getElementById('in-repo').value   = c.repo;
-  if (c.branch) document.getElementById('in-branch').value = c.branch;
-  if (c.aiKey)  document.getElementById('in-ai-key').value = c.aiKey;
+  const el = id => document.getElementById(id);
+  const isConnected = !!c.token;
+
+  // Toggle login vs settings panel
+  el('setup-login-block').style.display    = isConnected ? 'none' : 'block';
+  el('setup-settings-block').style.display = isConnected ? 'block' : 'none';
+
+  if (isConnected) {
+    // Populate settings panel
+    if (el('setup-username'))  el('setup-username').textContent  = c.ghUser ? `@${c.ghUser}` : 'Connected';
+    if (el('setup-repo-info')) el('setup-repo-info').textContent = `${c.repo} · ${c.branch}`;
+    const avatar = el('setup-avatar');
+    if (avatar && c.ghAvatar) { avatar.src = c.ghAvatar; avatar.style.display = 'block'; }
+    if (el('in-gemini-key') && c.geminiKey) el('in-gemini-key').value = c.geminiKey;
+    if (el('in-claude-key') && c.claudeKey) el('in-claude-key').value = c.claudeKey;
+    renderSettingsAIStatus();
+  } else {
+    // Pre-fill login form with saved values (if reconnecting)
+    if (el('in-repo')   && c.repo)   el('in-repo').value   = c.repo;
+    if (el('in-branch') && c.branch) el('in-branch').value = c.branch;
+  }
+
   showScreen('setup');
+}
+
+function saveManualAIKeys() {
+  const g = document.getElementById('in-gemini-key')?.value.trim();
+  const c = document.getElementById('in-claude-key')?.value.trim();
+  saveCfg({ geminiKey: g||'', claudeKey: c||'' });
+  showToast('AI keys saved','green');
+  renderSettingsAIStatus();
+}
+
+function setAIProvider(p) {
+  saveCfg({ aiProvider: p });
+  renderSettingsAIStatus();
+  showToast(`AI provider: ${p}`,'blue');
+}
+
+function disconnectGitHub() {
+  if (!confirm('Remove GitHub session from this device?')) return;
+  localStorage.removeItem('wk_cfg');
+  showSetup();
+}
+
+function renderSettingsAIStatus() {
+  const el = document.getElementById('ai-status-line');
+  if (!el) return;
+  const prov = getAIProvider();
+  const hasG = !!getGeminiKey(), hasC = !!getClaudeKey();
+  const src  = builtIn().geminiKey || builtIn().claudeKey ? '(server-configured)' : '(manual)';
+  el.innerHTML = prov
+    ? `<span style="color:var(--green)">✓ ${prov === 'gemini' ? 'Gemini Flash Lite' : 'Claude Haiku'} active ${src}</span>`
+    : `<span style="color:var(--red)">✗ No AI key found — enter below or add GitHub secrets</span>`;
+  // Show/hide provider toggle
+  const toggle = document.getElementById('ai-provider-toggle');
+  if (toggle) toggle.style.display = (hasG && hasC) ? 'flex' : 'none';
+  // Mark active button
+  const cfg = getCfg();
+  ['gemini','claude'].forEach(p => {
+    const b = document.getElementById(`prov-btn-${p}`);
+    if (b) b.style.background = (cfg.aiProvider === p || (!cfg.aiProvider && p === 'gemini')) && (p==='gemini'?hasG:hasC) ? 'var(--accent)' : 'var(--surface2)';
+  });
+  // Show manual key block only if config.js is absent
+  const manualBlock = document.getElementById('manual-ai-block');
+  if (manualBlock) manualBlock.style.display = (builtIn().geminiKey || builtIn().claudeKey) ? 'none' : 'block';
 }
 
 // ═══════════════════════════════════════════
@@ -468,6 +613,21 @@ function showHome() {
   showScreen('home');
 }
 
+function renderTopBarUser() {
+  const c = getCfg();
+  const prov = getAIProvider();
+  const badge = document.getElementById('hm-ai-badge');
+  if (!badge) return;
+  if (prov) {
+    badge.textContent = prov === 'gemini' ? '✨ Gemini' : '✨ Claude';
+    badge.style.display = 'inline-block';
+  } else {
+    badge.style.display = 'none';
+  }
+  const user = document.getElementById('hm-user');
+  if (user && c.ghUser) user.textContent = `@${c.ghUser}`;
+}
+
 function renderHome() {
   const week = getWeek(), phase = getPhase(week);
   const t = todayInfo();
@@ -479,21 +639,22 @@ function renderHome() {
   document.getElementById('hm-title').textContent = `${s.icon} ${s.label}`;
   document.getElementById('hm-sub').textContent   = s.desc;
 
+  renderTopBarUser();
+
   // Action buttons
   const actions = document.getElementById('hm-actions');
-  const cfg = getCfg();
-  const hasAI = !!cfg.aiKey;
+  const ai = hasAnyAI();
   if (s.type === 'rest') {
     actions.innerHTML = `<div style="color:var(--text-muted);font-size:13px;padding:8px 0">Rest + prehab day — no logging needed</div>`;
   } else if (s.type === 'run') {
     actions.innerHTML = `
       <button class="btn btn-primary" onclick="showWorkout('cardio-${t.dow}')">Log Cardio Session</button>
-      ${hasAI ? `<button class="btn btn-ai" onclick="loadAIBrief()">✨ Get AI Workout Brief</button>` : ''}`;
+      ${ai ? `<button class="btn btn-ai" onclick="loadAIBrief()">✨ AI Workout Brief</button>` : ''}`;
   } else {
     actions.innerHTML = `
       <button class="btn btn-primary" onclick="showWorkout('lift-${t.dow}')">Log ${t.dow===2?'Hypertrophy A':'Hypertrophy B'}</button>
       <button class="btn btn-secondary" onclick="showWorkout('cardio-${t.dow}')">Log Cardio Only</button>
-      ${hasAI ? `<button class="btn btn-ai" onclick="loadAIBrief()">✨ Get AI Workout Brief</button>` : ''}`;
+      ${ai ? `<button class="btn btn-ai" onclick="loadAIBrief()">✨ AI Workout Brief</button>` : ''}`;
   }
 
   // Week grid
@@ -535,7 +696,7 @@ function renderHome() {
 
 async function loadAIBrief() {
   const cfg = getCfg();
-  if (!cfg.aiKey) { showToast('Add Anthropic key in settings','red'); return; }
+  if (!hasAnyAI()) { showToast('No AI key — add secrets in GitHub repo settings','red'); return; }
 
   const el = document.getElementById('hm-ai-brief');
   el.innerHTML = `<div class="ai-brief"><div class="ai-brief-header"><span>✨</span><h3>AI Workout Brief</h3></div><div class="ai-loading"><div class="spinner">⏳</div><div>Reading your program…</div></div></div>`;
@@ -584,7 +745,7 @@ Rules:
 - cardio: always include if there's a run/row component
 - Be specific with numbers (paces, HR, weights, reps). Reference actual current loads.`;
 
-    const resp = await callClaude(prompt, 'claude-haiku-4-5-20251001', cfg.aiKey);
+    const resp = await callAI(prompt);
     let data;
     try {
       const jsonStr = resp.replace(/```json\n?|\n?```/g,'').trim();
@@ -697,9 +858,6 @@ function showWorkout(type) {
 function renderWorkout() {
   const t = todayInfo();
   const phase = getPhase(wkWeek);
-  const cfg = getCfg();
-  const hasAI = !!cfg.aiKey;
-
   document.getElementById('wk-badge').textContent = `W${wkWeek}`;
 
   if (wkType.startsWith('lift-')) {
@@ -764,7 +922,7 @@ function renderWorkout() {
     });
 
     // NL input block
-    html += nlBlock(hasAI, label);
+    html += nlBlock(hasAnyAI(), label);
     // Preview placeholder
     html += `<div id="wk-preview"></div>`;
 
@@ -815,7 +973,7 @@ function renderWorkout() {
       </div>
     </div>`;
 
-    html += nlBlock(hasAI, dm.label);
+    html += nlBlock(hasAnyAI(), dm.label);
     html += `<div id="wk-preview"></div>`;
     document.getElementById('wk-content').innerHTML = html;
   }
@@ -823,8 +981,8 @@ function renderWorkout() {
   updateProgress();
 }
 
-function nlBlock(hasAI, sessionLabel) {
-  if (!hasAI) return '';
+function nlBlock(aiAvailable, sessionLabel) {
+  if (!aiAvailable) return '';
   return `<div class="nl-block">
     <div class="nl-header"><span>✨</span><h3>Describe Your Workout (AI Parse)</h3></div>
     <div class="nl-body">
@@ -868,7 +1026,7 @@ function updateProgress() {
 
 async function parseWithAI() {
   const cfg = getCfg();
-  if (!cfg.aiKey) { showToast('Add Anthropic key in settings','red'); return; }
+  if (!hasAnyAI()) { showToast('No AI key — add secrets in GitHub repo settings','red'); return; }
   const nlText = document.getElementById('nl-text')?.value?.trim();
   if (!nlText) { showToast('Write your workout description first','red'); return; }
 
@@ -921,7 +1079,7 @@ Also include a brief "AI Summary" line at the very end starting with "> AI:" sum
 
 Return ONLY the markdown — no explanation, no code fences, no JSON.`;
 
-    const resp = await callClaude(prompt, 'claude-haiku-4-5-20251001', cfg.aiKey);
+    const resp = await callAI(prompt);
     aiMarkdown = resp.trim();
 
     // Show preview
@@ -1081,30 +1239,53 @@ function buildStructuredMarkdown() {
 }
 
 // ═══════════════════════════════════════════
-// CLAUDE API
+// AI API — Gemini + Claude
 // ═══════════════════════════════════════════
 
-async function callClaude(prompt, model, apiKey) {
-  const res = await fetch('https://api.anthropic.com/v1/messages', {
-    method: 'POST',
-    headers: {
-      'x-api-key': apiKey,
-      'anthropic-version': '2023-06-01',
-      'anthropic-dangerous-direct-browser-access': 'true',
-      'content-type': 'application/json',
-    },
-    body: JSON.stringify({
-      model,
-      max_tokens: 1024,
-      messages: [{ role:'user', content: prompt }],
-    }),
-  });
-  if (!res.ok) {
-    const err = await res.json().catch(()=>({error:{message:res.statusText}}));
-    throw new Error(err.error?.message || `API ${res.status}`);
+async function callAI(prompt) {
+  const provider = getAIProvider();
+  if (!provider) throw new Error('No AI key configured — add GEMINI_API_KEY or ANTHROPIC_API_KEY in GitHub repo secrets');
+
+  if (provider === 'gemini') {
+    const key = getGeminiKey();
+    const res = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=${encodeURIComponent(key)}`,
+      {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] }),
+      }
+    );
+    if (!res.ok) {
+      const err = await res.json().catch(()=>({ error:{ message: res.statusText } }));
+      throw new Error(err.error?.message || `Gemini ${res.status}`);
+    }
+    const data = await res.json();
+    return data.candidates[0].content.parts[0].text;
+
+  } else {
+    const key = getClaudeKey();
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'x-api-key': key,
+        'anthropic-version': '2023-06-01',
+        'anthropic-dangerous-direct-browser-access': 'true',
+        'content-type': 'application/json',
+      },
+      body: JSON.stringify({
+        model: 'claude-haiku-4-5-20251001',
+        max_tokens: 1024,
+        messages: [{ role:'user', content: prompt }],
+      }),
+    });
+    if (!res.ok) {
+      const err = await res.json().catch(()=>({ error:{ message: res.statusText } }));
+      throw new Error(err.error?.message || `Claude ${res.status}`);
+    }
+    const data = await res.json();
+    return data.content[0].text;
   }
-  const data = await res.json();
-  return data.content[0].text;
 }
 
 // ═══════════════════════════════════════════
