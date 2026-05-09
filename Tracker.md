@@ -75,6 +75,9 @@ Apple 5-zone (auto-recalibrates from Health app): Z1 ≤115 / Z2 116–134 / Z3 
 
 -----
 
+|2026-05-09|W3|Row (Z1)|65:00 / 12847m|2:31.7 avg, r18-19|154 avg, 160 peak|Decoupling 3.3% (Friel EF, first vs second half). HR drifted 153→156 across workout. LT1 confirmed >143, ~158-162. LT2 not crossed. Apple workout log: 1:06:39 incl 90s pre-row sit-down.|
+> AI: Long Z1 row with LT1 verified within target, showing good aerobic efficiency (3.3% decoupling) despite minor HR drift.
+
 ## Cardio Log
 
 |Date          |Wk        |Type                         |Distance/Time    |Pace/Power                    |HR                     |Notes                                                                                                                            |
