@@ -1031,7 +1031,7 @@ function renderWorkout() {
       ? (currentBrief.sessionTitle || (isA ? 'Hypertrophy A' : 'Hypertrophy B'))
       : (isA ? 'Hypertrophy A' : 'Hypertrophy B');
 
-    document.getElementById('wk-title').textContent = sessionTitle;
+    document.getElementById('wk-title').textContent = 'Log Today\'s Workout';
 
     // Reference card — AI targets or static list, read-only
     const refRows = fromAI
@@ -1065,7 +1065,7 @@ function renderWorkout() {
     const dow = parseInt(wkType.split('-')[1]);
     const dm  = DAY_META[dow];
     const sessionTitle = currentBrief?.sessionTitle || dm.label;
-    document.getElementById('wk-title').textContent = sessionTitle;
+    document.getElementById('wk-title').textContent = 'Log Today\'s Workout';
 
     const html = cardioRefCard(dm, currentBrief?.cardio, sessionTitle) + liftTextBlock(sessionTitle) + `<div id="wk-preview"></div>`;
     document.getElementById('wk-content').innerHTML = html;
@@ -1448,13 +1448,15 @@ const DNAMES_FULL = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday'
 function renderWeekGrid(t) {
   const DNAMES = ['S','M','T','W','T','F','S'];
 
+  const typeToClass = type => type==='rest'?'rest':type==='both'?'both':type==='run'?'run':'lift';
+
   // This week
   const el = document.getElementById('hm-week');
   if (el) {
     el.innerHTML = DNAMES.map((dn,i) => {
       const dm  = DAY_META[i];
-      const cls = dm.type==='rest'?'rest':dm.type==='both'?'both':dm.type==='run'?'run':'lift';
       const log = weekLogCache[i];
+      const cls = typeToClass(log?.sessionType || dm.type);
       return `<div class="day-col" onclick="showDaySheet(${i}, 0)">
         <div class="day-name">${dn}</div>
         <div class="day-dot ${cls}${i===t.dow?' today':''}">●</div>
@@ -1469,8 +1471,8 @@ function renderWeekGrid(t) {
     const nextWeek = getWeek() + 1;
     elNext.innerHTML = DNAMES.map((dn,i) => {
       const dm  = DAY_META[i];
-      const cls = dm.type==='rest'?'rest':dm.type==='both'?'both':dm.type==='run'?'run':'lift';
       const log = weekLogCache[`next-${i}`];
+      const cls = typeToClass(log?.sessionType || dm.type);
       return `<div class="day-col" onclick="showDaySheet(${i}, 1)">
         <div class="day-name">${dn}</div>
         <div class="day-dot ${cls}">●</div>
@@ -1480,22 +1482,30 @@ function renderWeekGrid(t) {
   }
 }
 
+function detectSessionType(snippet) {
+  if (/hypertrophy|hyp\s*[ab]\b/i.test(snippet)) return 'both';
+  if (/\b(run|row|cardio|threshold|VO2|Z1|Z2|Z3|easy run|long run)\b/i.test(snippet)) return 'run';
+  return null; // unknown — fall back to DAY_META
+}
+
 function parseWeekLogs(trackerMd) {
   const today  = new Date();
   const sunOff = today.getDay();
+  const pad    = n => String(n).padStart(2, '0');
   const result = {};
   // This week (keys: 0-6) and next week (keys: 'next-0' … 'next-6')
   for (let weekOffset = 0; weekOffset <= 1; weekOffset++) {
     for (let i = 0; i < 7; i++) {
       const d       = new Date(today);
       d.setDate(today.getDate() - sunOff + i + weekOffset * 7);
-      const dateStr = d.toISOString().slice(0, 10);
+      // Use local date to match todayInfo() — avoids UTC/local timezone mismatch
+      const dateStr = `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
       if (!trackerMd.includes(dateStr)) continue;
       const idx     = trackerMd.indexOf(dateStr);
       const start   = trackerMd.lastIndexOf('\n', Math.max(0, idx - 20));
       const snippet = trackerMd.slice(start, idx + 400).trim();
       const key     = weekOffset === 0 ? i : `next-${i}`;
-      result[key]   = { logged: true, snippet, dateStr };
+      result[key]   = { logged: true, snippet, dateStr, sessionType: detectSessionType(snippet) };
     }
   }
   return result;
@@ -1515,7 +1525,12 @@ function showDaySheet(dow, weekOffset = 0) {
   const dateLabel = d.toLocaleDateString('en-US', { weekday:'long', month:'short', day:'numeric' });
   const sheetWeek = getWeek() + weekOffset;
 
-  const typeColor = dm.type==='rest'?'var(--text-dim)':dm.type==='both'?'var(--yellow)':dm.type==='run'?'var(--green)':'var(--accent)';
+  // If the log indicates a deferred session with a different type, use that instead of static DAY_META
+  const effectiveType  = (log?.sessionType) || dm.type;
+  const effectiveLabel = log?.sessionType === 'both' ? 'Hypertrophy B (deferred)'
+                       : log?.sessionType === 'run'  ? dm.label
+                       : dm.label;
+  const typeColor = effectiveType==='rest'?'var(--text-dim)':effectiveType==='both'?'var(--yellow)':effectiveType==='run'?'var(--green)':'var(--accent)';
 
   let logSection = '';
   if (log) {
@@ -1538,8 +1553,8 @@ function showDaySheet(dow, weekOffset = 0) {
 
   document.getElementById('day-sheet-content').innerHTML = `
     <div class="sheet-day-title" style="color:${typeColor}">${dm.icon} ${dateLabel}</div>
-    <div style="font-size:12px;font-weight:700;color:${typeColor};margin-bottom:6px;text-transform:uppercase;letter-spacing:0.06em">W${sheetWeek} · ${dm.label}</div>
-    <div class="sheet-day-sub">${escHtml(dm.desc)}</div>
+    <div style="font-size:12px;font-weight:700;color:${typeColor};margin-bottom:6px;text-transform:uppercase;letter-spacing:0.06em">W${sheetWeek} · ${escHtml(effectiveLabel)}</div>
+    ${!log?.sessionType ? `<div class="sheet-day-sub">${escHtml(dm.desc)}</div>` : ''}
     ${logSection}
     ${actionBtns}`;
 
