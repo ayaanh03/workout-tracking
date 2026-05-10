@@ -105,7 +105,6 @@
 
     /* Week grid */
     .week-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
-    .day-col { text-align: center; }
     .day-name { font-size: 10px; color: var(--text-muted); font-weight: 600; margin-bottom: 4px; }
     .day-dot { width: 32px; height: 32px; border-radius: 50%; margin: 0 auto; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 700; border: 2px solid transparent; }
     .day-dot.run { background: #0c2a12; color: var(--green); border-color: #15532e; }
@@ -233,6 +232,55 @@
     .toast.blue { border-color: #1e3a5f; color: #93c5fd; background: #0c1e35; }
 
     .section-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 10px; }
+
+    /* Clickable day column */
+    .day-col { text-align: center; cursor: pointer; -webkit-user-select: none; user-select: none; touch-action: manipulation; border-radius: 8px; padding: 4px 2px; }
+    .day-col:active { opacity: 0.6; }
+    .day-logged { font-size: 9px; color: var(--green); margin-top: 2px; font-weight: 700; }
+
+    /* Hamburger drawer */
+    .drawer-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 300; display: none; }
+    .drawer-overlay.open { display: block; }
+    .drawer { position: fixed; top: 0; right: 0; bottom: 0; width: 270px; background: var(--surface); border-left: 1px solid var(--border); z-index: 301; transform: translateX(100%); transition: transform 0.25s ease; display: flex; flex-direction: column; }
+    .drawer.open { transform: translateX(0); }
+    .drawer-header { padding: 16px; padding-top: max(16px, env(safe-area-inset-top, 16px)); border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+    .drawer-header h2 { font-size: 16px; font-weight: 700; }
+    .drawer-body { flex: 1; overflow-y: auto; padding: 8px; }
+    .drawer-item { display: flex; align-items: center; gap: 12px; padding: 14px 12px; border-radius: 10px; cursor: pointer; touch-action: manipulation; -webkit-user-select: none; user-select: none; }
+    .drawer-item:active { background: var(--surface2); }
+    .drawer-item .di-icon { font-size: 20px; width: 28px; text-align: center; flex-shrink: 0; }
+    .drawer-item .di-label { font-size: 15px; font-weight: 600; }
+    .drawer-item .di-sub { font-size: 12px; color: var(--text-dim); font-weight: 400; }
+
+    /* Day sheet */
+    .sheet-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 400; display: none; align-items: flex-end; }
+    .sheet-overlay.open { display: flex; }
+    .sheet { background: var(--surface); border-radius: 20px 20px 0 0; width: 100%; max-height: 78vh; overflow-y: auto; padding: 20px 16px; padding-bottom: max(20px, env(safe-area-inset-bottom, 20px)); -webkit-overflow-scrolling: touch; }
+    .sheet-handle { width: 36px; height: 4px; background: var(--border); border-radius: 2px; margin: 0 auto 16px; }
+    .sheet-day-title { font-size: 20px; font-weight: 800; margin-bottom: 4px; }
+    .sheet-day-sub { font-size: 13px; color: var(--text-dim); margin-bottom: 14px; line-height: 1.5; }
+    .sheet-log-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--green); margin-bottom: 6px; }
+    .sheet-log-snippet { background: var(--surface2); border: 1px solid var(--border); border-radius: 10px; padding: 12px; font-size: 12px; color: var(--text-dim); font-family: 'Courier New', monospace; white-space: pre-wrap; word-break: break-word; margin-bottom: 14px; max-height: 200px; overflow-y: auto; }
+
+    /* Consult / Chat */
+    .chat-wrap { display: flex; flex-direction: column; height: calc(100vh - 200px); min-height: 300px; }
+    .chat-messages { flex: 1; overflow-y: auto; padding: 4px 0 12px; display: flex; flex-direction: column; gap: 10px; -webkit-overflow-scrolling: touch; }
+    .chat-msg { max-width: 88%; padding: 10px 13px; border-radius: 14px; font-size: 14px; line-height: 1.5; word-break: break-word; }
+    .chat-msg.user { background: var(--accent); color: #fff; align-self: flex-end; border-bottom-right-radius: 4px; }
+    .chat-msg.ai { background: var(--surface2); color: var(--text); align-self: flex-start; border-bottom-left-radius: 4px; white-space: pre-wrap; }
+    .chat-msg.loading { color: var(--text-dim); font-style: italic; }
+    .chat-input-row { display: flex; gap: 8px; padding-top: 10px; border-top: 1px solid var(--border); padding-bottom: max(4px, env(safe-area-inset-bottom, 4px)); flex-shrink: 0; }
+    .chat-input-row textarea { flex: 1; min-height: 44px; max-height: 100px; resize: none; font-family: inherit; }
+    .chat-send { background: var(--accent); border: none; color: #fff; border-radius: 10px; padding: 0 16px; font-size: 20px; cursor: pointer; flex-shrink: 0; min-width: 48px; min-height: 44px; touch-action: manipulation; }
+    .chat-send:disabled { background: var(--surface2); color: var(--text-muted); }
+    .commit-bar { background: #0a1f0a; border: 1px solid #15532e; border-radius: var(--radius-sm); padding: 12px; margin-top: 10px; display: none; flex-shrink: 0; }
+    .commit-bar.visible { display: block; }
+    .commit-bar p { font-size: 13px; color: #86efac; margin-bottom: 10px; }
+
+    /* API usage */
+    .usage-stat { display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-bottom: 1px solid var(--border); font-size: 14px; }
+    .usage-stat:last-child { border-bottom: none; }
+    .usage-val { font-weight: 700; font-size: 16px; }
   </style>
 </head>
 <body>
@@ -329,7 +377,7 @@
     <h1>Sub-20 5K</h1>
     <span class="week-badge" id="hm-badge">W?</span>
     <span id="hm-ai-badge" style="font-size:11px;font-weight:700;padding:3px 8px;border-radius:20px;background:#1a1535;border:1px solid #312e81;color:#c4b5fd;display:none"></span>
-    <button class="icon-btn" onclick="showSetup()" title="Settings">⚙️</button>
+    <button class="icon-btn" onclick="toggleDrawer()" title="Menu" style="font-size:20px">☰</button>
   </div>
   <div class="content">
 
@@ -394,6 +442,88 @@
     <div class="save-bar-inner">
       <span class="progress-text" id="wk-progress">Fill in your sets</span>
       <button class="save-btn" id="wk-save" onclick="confirmSave()" disabled>Review &amp; Save</button>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════ HAMBURGER DRAWER ══════════ -->
+<div class="drawer-overlay" id="drawer-overlay" onclick="closeDrawer()"></div>
+<div class="drawer" id="drawer">
+  <div class="drawer-header">
+    <h2>Menu</h2>
+    <button class="icon-btn" onclick="closeDrawer()" style="width:36px;height:36px;font-size:16px">✕</button>
+  </div>
+  <div class="drawer-body">
+    <div class="drawer-item" onclick="closeDrawer();showConsult()">
+      <div class="di-icon">🤖</div>
+      <div><div class="di-label">AI Consult</div><div class="di-sub">Chat · commit decisions to Tracker</div></div>
+    </div>
+    <div class="drawer-item" onclick="closeDrawer();showApiUsage()">
+      <div class="di-icon">📊</div>
+      <div><div class="di-label">API Usage</div><div class="di-sub">Session calls · limits</div></div>
+    </div>
+    <div class="drawer-item" onclick="closeDrawer();showSetup()">
+      <div class="di-icon">⚙️</div>
+      <div><div class="di-label">Settings</div><div class="di-sub">GitHub · AI keys · account</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════ DAY SHEET ══════════ -->
+<div class="sheet-overlay" id="sheet-overlay" onclick="closeDaySheet(event)">
+  <div class="sheet" id="day-sheet">
+    <div class="sheet-handle"></div>
+    <div id="day-sheet-content"></div>
+  </div>
+</div>
+
+<!-- ══════════ CONSULT ══════════ -->
+<div id="screen-consult" class="screen">
+  <div class="top-bar">
+    <button class="icon-btn" onclick="showHome()">←</button>
+    <h1>AI Consult</h1>
+    <span id="consult-provider-badge" style="font-size:11px;font-weight:700;padding:3px 8px;border-radius:20px;background:#1a1535;border:1px solid #312e81;color:#c4b5fd"></span>
+  </div>
+  <div class="content">
+    <div class="chat-wrap">
+      <div class="chat-messages" id="chat-messages"></div>
+      <div class="commit-bar" id="commit-bar">
+        <p>Commit decisions from this conversation to Tracker.md?</p>
+        <div style="display:flex;gap:8px">
+          <button class="btn btn-secondary btn-sm" style="flex:1" onclick="dismissCommitBar()">Dismiss</button>
+          <button class="btn btn-green btn-sm" style="flex:1" onclick="commitConsultToTracker()">Commit to Tracker →</button>
+        </div>
+      </div>
+      <div class="chat-input-row">
+        <textarea id="chat-input" placeholder="Ask about your training, loads, phase gate, injury status…" rows="2" onkeydown="chatKeydown(event)"></textarea>
+        <button class="chat-send" id="chat-send-btn" onclick="sendConsult()">↑</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════ API USAGE ══════════ -->
+<div id="screen-api-usage" class="screen">
+  <div class="top-bar">
+    <button class="icon-btn" onclick="showHome()">←</button>
+    <h1>API Usage</h1>
+  </div>
+  <div class="content">
+    <div class="card">
+      <div class="card-title">This Session</div>
+      <div id="usage-session-stats"></div>
+    </div>
+    <div class="card">
+      <div class="card-title">Limits &amp; Quotas</div>
+      <div id="usage-limits"></div>
+    </div>
+    <div class="card" style="border-color:#312e81;background:#0f0c2a">
+      <div class="card-title" style="color:#818cf8">Note</div>
+      <div style="font-size:13px;color:#c4b5fd;line-height:1.6">Real-time usage totals require server-side API calls which aren't possible from the browser. Session counts above are tracked locally. To check your actual quota, visit your provider dashboard.</div>
+      <div style="display:flex;gap:8px;margin-top:12px;flex-wrap:wrap">
+        <a href="https://aistudio.google.com/app/apikey" target="_blank" class="btn btn-secondary btn-sm" style="width:auto;text-decoration:none;font-size:13px">Gemini dashboard ↗</a>
+        <a href="https://console.anthropic.com/settings/usage" target="_blank" class="btn btn-secondary btn-sm" style="width:auto;text-decoration:none;font-size:13px">Anthropic dashboard ↗</a>
+      </div>
     </div>
   </div>
 </div>
@@ -656,15 +786,7 @@ function renderHome() {
   }
 
   // Week grid
-  const DNAMES = ['S','M','T','W','T','F','S'];
-  document.getElementById('hm-week').innerHTML = DNAMES.map((dn,i)=>{
-    const dm = DAY_META[i];
-    const cls = dm.type==='rest'?'rest':dm.type==='both'?'both':dm.type==='run'?'run':'lift';
-    return `<div class="day-col">
-      <div class="day-name">${dn}</div>
-      <div class="day-dot ${cls}${i===t.dow?' today':''}">●</div>
-    </div>`;
-  }).join('');
+  renderWeekGrid(t);
 
   // Pills
   document.getElementById('hm-pills').innerHTML = `
@@ -687,14 +809,21 @@ function renderHome() {
   document.getElementById('hm-loads').innerHTML = Object.entries(LOADS)
     .map(([n,v])=>`<tr><td>${n}</td><td>${v.load}</td></tr>`).join('');
 
-  // Silently pre-load today's cached brief so it's ready when the user opens the workout screen
-  if (hasAnyAI() && getCfg().token) {
+  // Silently pre-load today's cached brief + Tracker.md for week view
+  if (getCfg().token) {
     const t2 = todayInfo();
-    fetchGitHubFile('brief-cache.json').then(raw => {
-      const cache = JSON.parse(raw);
-      if (cache.date === t2.dateStr && cache.dow === t2.dow && cache.data) {
-        currentBrief = cache.data;
-      }
+    if (hasAnyAI()) {
+      fetchGitHubFile('brief-cache.json').then(raw => {
+        const cache = JSON.parse(raw);
+        if (cache.date === t2.dateStr && cache.dow === t2.dow && cache.data) {
+          currentBrief = cache.data;
+        }
+      }).catch(() => {});
+    }
+    fetchGitHubFile('Tracker.md').then(raw => {
+      trackerCache = raw;
+      weekLogCache = parseWeekLogs(raw);
+      renderWeekGrid(t2);
     }).catch(() => {});
   }
 }
@@ -757,7 +886,10 @@ Return ONLY a JSON object (no markdown, no explanation) with this exact structur
   "warnings": ["string", ...],
   "highlights": ["string", ...],
   "exercises": [{"name":"string","sets":3,"type":"strength|iso","target":"string","note":"string"}, ...],
-  "cardio": {"prescription":"string","paceTarget":"string","hrTarget":"string","notes":"string"}
+  "cardio": {"prescription":"string","paceTarget":"string","hrTarget":"string","notes":"string"},
+  "statusPills": [{"color":"green|orange|blue|red|purple","text":"string"}, ...],
+  "phaseGate": [{"done":true,"text":"string","detail":"string"}, ...],
+  "currentLoads": [{"name":"string","load":"string","note":"string"}, ...]
 }
 
 Rules:
@@ -766,6 +898,9 @@ Rules:
 - highlights: things going well or positive carry-forwards from recent sessions
 - exercises: for lifting days — use exact loads from Tracker.md; include every exercise in today's circuit; sets = number of working sets; type = "iso" for isometric holds (planks, wall sits), "strength" for everything else
 - cardio: always include if there's a run/row component; use HR zones and paces from the tracker
+- statusPills: 3-6 dynamic status pills for the dashboard — derive from Tracker.md (e.g. SI symptom-free streak, phase gate progress, what's cleared/blocked, injury status). Use color: red=blocked/injured, green=cleared/good, orange=in-progress, blue=neutral info, purple=gate/milestone.
+- phaseGate: list every phase gate criterion from the tracker with current status (done true/false) and brief detail showing progress (e.g. "3/7 days"). Extract from the SI log and Phase B gate section.
+- currentLoads: current working loads for each lift — read from the most recent sessions in Tracker.md, override static defaults. Include all main lifts with actual last-used load.
 - Be specific with numbers. Cite the tracker ("last session: 125×8 RIR 2") when relevant.`;
 
     const resp = await callAI(prompt);
@@ -791,6 +926,7 @@ let currentBrief = null;
 
 function renderBriefHTML(el, data, s, { fromCache = false, cachedAt = null } = {}) {
   currentBrief = data;
+  updateHomeFromBrief(data);
   const timeLabel = fromCache
     ? `cached · ${new Date(cachedAt).toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'})}`
     : `generated · ${new Date().toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'})}`;
@@ -1268,74 +1404,33 @@ async function commitSave() {
   const dow = parseInt(wkType.split('-')[1]);
 
   try {
-    const apiBase = `https://api.github.com/repos/${cfg.repo}/contents/Tracker.md`;
-    const hdrs = {
-      'Authorization': `token ${cfg.token}`,
-      'Accept': 'application/vnd.github.v3+json',
-      'Content-Type': 'application/json',
-    };
-
-    // Fetch current file
-    const res = await fetch(`${apiBase}?ref=${cfg.branch}`, { headers: hdrs });
-    if (!res.ok) throw new Error(`GitHub ${res.status}: ${await res.text()}`);
-    const file = await res.json();
-    const current = decodeURIComponent(escape(atob(file.content.replace(/\n/g,''))));
-    const sha = file.sha;
-
-    // Generate markdown section (AI or structured)
-    const t = todayInfo();
+    const t            = todayInfo();
     const isBothSession = wkType.startsWith('both-');
     const isLift        = wkType.startsWith('lift-') || isBothSession;
+    const label         = isBothSession ? (dow===2?'Hyp-A+Cardio':'Hyp-B+Cardio') : (isLift ? (dow===2?'Hyp-A':'Hyp-B') : 'Cardio');
 
-    let updated = current;
-
-    function insertIntoSection(md, anchor) {
-      const anchorIdx = updated.indexOf(anchor);
-      if (anchorIdx !== -1) {
-        const nextSection = updated.indexOf('\n## ', anchorIdx + anchor.length);
-        const insertAt = nextSection !== -1 ? nextSection : updated.length;
-        updated = updated.slice(0, insertAt) + '\n' + md + '\n' + updated.slice(insertAt);
-      } else {
-        updated += '\n' + anchor + '\n' + md + '\n';
-      }
-    }
-
+    let newContent;
     if (aiMarkdown) {
-      // AI-generated: treat as lift section (covers both if AI combined them)
-      insertIntoSection(aiMarkdown.trim(), '\n## Lifting Log\n');
+      newContent = aiMarkdown.trim();
     } else if (isBothSession) {
-      const liftMd   = buildLiftMarkdown(t);
-      const cardioMd = buildCardioMarkdown(t);
-      if (liftMd.trim())   insertIntoSection(liftMd.trim(),   '\n## Lifting Log\n');
-      if (cardioMd.trim()) insertIntoSection(cardioMd.trim(), '\n## Cardio Log\n');
+      const liftMd   = buildLiftMarkdown(t).trim();
+      const cardioMd = buildCardioMarkdown(t).trim();
+      newContent = [liftMd, cardioMd].filter(Boolean).join('\n\n');
     } else {
-      const section = buildStructuredMarkdown();
-      if (!section.trim()) { showToast('Nothing to save','red'); return; }
-      const anchor = isLift ? '\n## Lifting Log\n' : '\n## Cardio Log\n';
-      insertIntoSection(section.trim(), anchor);
+      newContent = buildStructuredMarkdown().trim();
     }
+    if (!newContent) { showToast('Nothing to save','red'); return; }
 
-    // Commit
-    const label = isBothSession ? (dow===2?'Hyp-A+Cardio':'Hyp-B+Cardio') : (isLift ? (dow===2?'Hyp-A':'Hyp-B') : 'Cardio');
-    const putRes = await fetch(apiBase, {
-      method: 'PUT', headers: hdrs,
-      body: JSON.stringify({
-        message: `Log W${wkWeek} ${t.short} ${label} — ${t.dateStr}`,
-        content: btoa(unescape(encodeURIComponent(updated))),
-        sha, branch: cfg.branch,
-      }),
-    });
-
-    if (!putRes.ok) throw new Error(`GitHub write ${putRes.status}: ${await putRes.text()}`);
+    const contentType = `W${wkWeek} ${t.short} ${label}`;
+    await smartCommitToTracker(newContent, t, contentType);
+    trackerCache = null; // invalidate cache
 
     showToast('✓ Saved to Tracker.md!','green');
-
     if (alsoCardio) {
       setTimeout(() => showWorkout(`cardio-${dow}`), 1200);
     } else {
       setTimeout(() => showHome(), 1200);
     }
-
   } catch(err) {
     showToast('Error: ' + err.message.slice(0,80),'red');
     if (commitBtn) { commitBtn.disabled = false; commitBtn.textContent = 'Commit to Tracker →'; }
@@ -1387,6 +1482,7 @@ function buildStructuredMarkdown() {
 // ═══════════════════════════════════════════
 
 async function callAI(prompt) {
+  aiCallCount++;
   const provider = getAIProvider();
   if (!provider) throw new Error('No AI key configured — add GEMINI_API_KEY or ANTHROPIC_API_KEY in GitHub repo secrets');
 
@@ -1457,6 +1553,409 @@ function showToast(msg, type='green') {
   el.style.display = 'block';
   clearTimeout(el._t);
   el._t = setTimeout(()=>{ el.style.display='none'; }, 3500);
+}
+
+// ═══════════════════════════════════════════
+// GLOBALS — week cache, tracker cache, AI counter
+// ═══════════════════════════════════════════
+
+let weekLogCache  = {};   // { dow: { logged, snippet, dateStr } }
+let trackerCache  = null; // raw Tracker.md string, fetched on home load
+let aiCallCount   = 0;    // session call counter
+
+// ═══════════════════════════════════════════
+// WEEK GRID
+// ═══════════════════════════════════════════
+
+const DNAMES_FULL = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+
+function renderWeekGrid(t) {
+  const DNAMES = ['S','M','T','W','T','F','S'];
+  const el = document.getElementById('hm-week');
+  if (!el) return;
+  el.innerHTML = DNAMES.map((dn,i) => {
+    const dm  = DAY_META[i];
+    const cls = dm.type==='rest'?'rest':dm.type==='both'?'both':dm.type==='run'?'run':'lift';
+    const log = weekLogCache[i];
+    const logDot = log ? `<div class="day-logged">✓</div>` : '';
+    return `<div class="day-col" onclick="showDaySheet(${i})">
+      <div class="day-name">${dn}</div>
+      <div class="day-dot ${cls}${i===t.dow?' today':''}">●</div>
+      ${logDot}
+    </div>`;
+  }).join('');
+}
+
+function parseWeekLogs(trackerMd) {
+  const today   = new Date();
+  const sunOff  = today.getDay();
+  const week    = getWeek();
+  const result  = {};
+  for (let i = 0; i < 7; i++) {
+    const d       = new Date(today);
+    d.setDate(today.getDate() - sunOff + i);
+    const dateStr = d.toISOString().slice(0, 10);
+    if (!trackerMd.includes(dateStr)) continue;
+    // Extract ~400 chars around the first occurrence of this date
+    const idx     = trackerMd.indexOf(dateStr);
+    const start   = trackerMd.lastIndexOf('\n', Math.max(0, idx - 20));
+    const snippet = trackerMd.slice(start, idx + 400).trim();
+    result[i] = { logged: true, snippet, dateStr };
+  }
+  return result;
+}
+
+// ═══════════════════════════════════════════
+// DAY SHEET
+// ═══════════════════════════════════════════
+
+function showDaySheet(dow) {
+  const dm  = DAY_META[dow];
+  const log = weekLogCache[dow];
+  const t   = todayInfo();
+  const d   = new Date();
+  d.setDate(d.getDate() - t.dow + dow);
+  const dateLabel = d.toLocaleDateString('en-US', { weekday:'long', month:'short', day:'numeric' });
+
+  const typeColor = dm.type==='rest'?'var(--text-dim)':dm.type==='both'?'var(--yellow)':dm.type==='run'?'var(--green)':'var(--accent)';
+
+  let logSection = '';
+  if (log) {
+    logSection = `<div class="sheet-log-label">✓ Logged</div>
+    <div class="sheet-log-snippet">${escHtml(log.snippet)}</div>`;
+  } else if (dow !== t.dow && dow < t.dow) {
+    logSection = `<div style="font-size:13px;color:var(--text-muted);margin-bottom:14px">No log found for this day.</div>`;
+  }
+
+  let actionBtns = '';
+  if (dm.type !== 'rest') {
+    if (dm.type === 'run') {
+      actionBtns = `<button class="btn btn-primary" onclick="closeDaySheet();showWorkout('cardio-${dow}')">Log Cardio Session</button>`;
+    } else {
+      actionBtns = `
+        <button class="btn btn-primary" onclick="closeDaySheet();showWorkout('both-${dow}')">Log Full Session</button>
+        <button class="btn btn-secondary" style="margin-top:8px" onclick="closeDaySheet();showWorkout('cardio-${dow}')">Log Cardio Only</button>`;
+    }
+  }
+
+  document.getElementById('day-sheet-content').innerHTML = `
+    <div class="sheet-day-title" style="color:${typeColor}">${dm.icon} ${dateLabel}</div>
+    <div style="font-size:12px;font-weight:700;color:${typeColor};margin-bottom:6px;text-transform:uppercase;letter-spacing:0.06em">${dm.label}</div>
+    <div class="sheet-day-sub">${escHtml(dm.desc)}</div>
+    ${logSection}
+    ${actionBtns}`;
+
+  document.getElementById('sheet-overlay').classList.add('open');
+}
+
+function closeDaySheet(e) {
+  if (e && e.target !== document.getElementById('sheet-overlay')) return;
+  document.getElementById('sheet-overlay').classList.remove('open');
+}
+
+// ═══════════════════════════════════════════
+// UPDATE HOME FROM AI BRIEF
+// ═══════════════════════════════════════════
+
+function updateHomeFromBrief(data) {
+  const week = getWeek(), phase = getPhase(week);
+
+  // Pills
+  const pillsEl = document.getElementById('hm-pills');
+  if (pillsEl) {
+    const basePills = `<span class="pill orange">Phase A · ${phase}</span><span class="pill green">W${week}/W25</span>`;
+    const aiPills = (data.statusPills || []).map(p =>
+      `<span class="pill ${p.color}">${escHtml(p.text)}</span>`).join('');
+    pillsEl.innerHTML = basePills + aiPills;
+  }
+
+  // Checklist / phase gate
+  const checkEl = document.getElementById('hm-checklist');
+  if (checkEl && data.phaseGate?.length) {
+    const items = data.phaseGate.map(item => {
+      const icon = item.done ? '✅' : '⬜';
+      const detail = item.detail ? `<span style="color:var(--text-muted);font-size:12px;margin-left:auto">${escHtml(item.detail)}</span>` : '';
+      return `<div class="checklist-item">${icon} <span style="flex:1">${escHtml(item.text)}</span>${detail}</div>`;
+    }).join('');
+    checkEl.innerHTML = `<div class="section-label" style="margin-top:8px">Phase Gate — AI updated</div>${items}`;
+  }
+
+  // Current loads
+  const loadsEl = document.getElementById('hm-loads');
+  if (loadsEl && data.currentLoads?.length) {
+    loadsEl.innerHTML = data.currentLoads.map(l =>
+      `<tr><td>${escHtml(l.name)}</td><td>${escHtml(l.load)}${l.note ? `<div style="font-size:11px;color:var(--text-dim);font-weight:400">${escHtml(l.note)}</div>` : ''}</td></tr>`
+    ).join('');
+  }
+}
+
+// ═══════════════════════════════════════════
+// HAMBURGER DRAWER
+// ═══════════════════════════════════════════
+
+function toggleDrawer() {
+  const overlay = document.getElementById('drawer-overlay');
+  const drawer  = document.getElementById('drawer');
+  const open    = drawer.classList.contains('open');
+  if (open) { closeDrawer(); } else {
+    overlay.classList.add('open');
+    drawer.classList.add('open');
+  }
+}
+
+function closeDrawer() {
+  document.getElementById('drawer-overlay').classList.remove('open');
+  document.getElementById('drawer').classList.remove('open');
+}
+
+// ═══════════════════════════════════════════
+// AI CONSULT CHAT
+// ═══════════════════════════════════════════
+
+let consultHistory = []; // [{role:'user'|'ai', text}]
+let consultContext = ''; // loaded program + tracker context
+
+async function showConsult() {
+  const badge = document.getElementById('consult-provider-badge');
+  if (badge) {
+    const prov = getAIProvider();
+    badge.textContent = prov === 'gemini' ? '✨ Gemini' : prov === 'claude' ? '✨ Claude' : 'No AI';
+  }
+  showScreen('consult');
+  const msgsEl = document.getElementById('chat-messages');
+  if (consultHistory.length === 0) {
+    msgsEl.innerHTML = `<div class="chat-msg ai">Hi! I'm your training assistant. Ask me anything about your program, loads, injury status, phase gate, or next steps — I'll have access to your Tracker.md and program. What's on your mind?</div>`;
+    // Pre-load context silently
+    loadConsultContext();
+  } else {
+    rerenderChat();
+  }
+}
+
+async function loadConsultContext() {
+  if (consultContext || !getCfg().token) return;
+  try {
+    const [prog, tracker] = await Promise.all([
+      fetchGitHubFile('program.md'),
+      trackerCache ? Promise.resolve(trackerCache) : fetchGitHubFile('Tracker.md'),
+    ]);
+    if (!trackerCache) trackerCache = tracker;
+    const week = getWeek(), phase = getPhase(week);
+    const t = todayInfo();
+    consultContext = `You are a personal running + lifting coach assistant. The athlete can ask you anything about their training. Be specific, cite numbers from their tracker, and give actionable advice.
+
+TODAY: ${t.display}, Week ${week} (${phase} phase)
+
+════ TRACKER.MD ════
+${tracker}
+
+════ PROGRAM.MD ════
+${prog}`;
+  } catch { /* context will load on first send if not ready */ }
+}
+
+async function sendConsult() {
+  if (!hasAnyAI()) { showToast('No AI key configured', 'red'); return; }
+  const input = document.getElementById('chat-input');
+  const text  = input.value.trim();
+  if (!text) return;
+
+  input.value = '';
+  input.style.height = '';
+  consultHistory.push({ role: 'user', text });
+  rerenderChat();
+
+  const sendBtn = document.getElementById('chat-send-btn');
+  sendBtn.disabled = true;
+
+  // Loading indicator
+  const msgsEl = document.getElementById('chat-messages');
+  const loadEl = document.createElement('div');
+  loadEl.className = 'chat-msg ai loading';
+  loadEl.textContent = '…';
+  msgsEl.appendChild(loadEl);
+  msgsEl.scrollTop = msgsEl.scrollHeight;
+
+  try {
+    if (!consultContext) await loadConsultContext();
+
+    // Build conversation for AI
+    const history = consultHistory.slice(0, -1).map(m =>
+      `${m.role === 'user' ? 'Athlete' : 'Coach'}: ${m.text}`).join('\n\n');
+    const prompt = `${consultContext}
+
+${history ? `CONVERSATION SO FAR:\n${history}\n\n` : ''}Athlete: ${text}
+
+Coach:`;
+
+    const resp = await callAI(prompt);
+    loadEl.remove();
+    consultHistory.push({ role: 'ai', text: resp.trim() });
+    rerenderChat();
+
+    // Show commit bar after 2+ AI responses (decisions may have been made)
+    if (consultHistory.filter(m => m.role === 'ai').length >= 2) {
+      document.getElementById('commit-bar').classList.add('visible');
+    }
+  } catch(err) {
+    loadEl.remove();
+    consultHistory.push({ role: 'ai', text: `Error: ${err.message}` });
+    rerenderChat();
+  }
+  sendBtn.disabled = false;
+  document.getElementById('chat-messages').scrollTop = 99999;
+}
+
+function rerenderChat() {
+  const msgsEl = document.getElementById('chat-messages');
+  msgsEl.innerHTML = consultHistory.map(m =>
+    `<div class="chat-msg ${m.role === 'user' ? 'user' : 'ai'}">${escHtml(m.text)}</div>`
+  ).join('');
+  msgsEl.scrollTop = 99999;
+}
+
+function chatKeydown(e) {
+  if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendConsult(); }
+}
+
+function dismissCommitBar() {
+  document.getElementById('commit-bar').classList.remove('visible');
+}
+
+async function commitConsultToTracker() {
+  if (!hasAnyAI()) { showToast('No AI key', 'red'); return; }
+  const btn = document.querySelector('#commit-bar .btn-green');
+  btn.disabled = true; btn.textContent = 'Committing…';
+
+  try {
+    const cfg = getCfg();
+    const t   = todayInfo();
+    const week = getWeek(), phase = getPhase(week);
+
+    // Build a readable transcript of decisions
+    const transcript = consultHistory.map(m =>
+      `${m.role === 'user' ? 'Q' : 'A'}: ${m.text}`).join('\n\n');
+
+    // Ask AI to extract decisions and format for Tracker.md
+    const extractPrompt = `You are formatting a training decision log entry for a Markdown tracker file.
+
+The following is a coaching consultation transcript. Extract any concrete decisions, adjustments, carry-forwards, or action items discussed. Ignore general Q&A that didn't produce a decision.
+
+TODAY: ${t.dateStr}, Week ${week} (${phase} phase)
+
+TRANSCRIPT:
+${transcript}
+
+CURRENT TRACKER.MD:
+${trackerCache || '(not loaded)'}
+
+Return ONLY the Markdown text to append to the Tracker.md. Format it as a concise note block like:
+
+### Consult Note — ${t.dateStr}
+> **Decisions / Carry-forwards:**
+> - [decision 1]
+> - [decision 2]
+
+If there are no concrete decisions worth logging, return exactly: NOTHING_TO_COMMIT`;
+
+    const raw = await callAI(extractPrompt);
+    if (raw.trim() === 'NOTHING_TO_COMMIT') {
+      showToast('No concrete decisions to log', 'blue');
+      btn.disabled = false; btn.textContent = 'Commit to Tracker →';
+      return;
+    }
+
+    await smartCommitToTracker(raw.trim(), t, 'consult note');
+    trackerCache = null; // invalidate so next home load re-fetches
+    showToast('✓ Committed to Tracker.md', 'green');
+    dismissCommitBar();
+    btn.disabled = false; btn.textContent = 'Commit to Tracker →';
+  } catch(err) {
+    showToast('Error: ' + err.message.slice(0, 60), 'red');
+    btn.disabled = false; btn.textContent = 'Commit to Tracker →';
+  }
+}
+
+// ═══════════════════════════════════════════
+// SMART TRACKER COMMIT (AI-assisted placement)
+// ═══════════════════════════════════════════
+
+async function smartCommitToTracker(newContent, t, contentType) {
+  const cfg = getCfg();
+  const apiBase = `https://api.github.com/repos/${cfg.repo}/contents/Tracker.md`;
+  const hdrs    = {
+    'Authorization': `token ${cfg.token}`,
+    'Accept': 'application/vnd.github.v3+json',
+    'Content-Type': 'application/json',
+  };
+
+  // Fetch current file
+  const res = await fetch(`${apiBase}?ref=${cfg.branch}`, { headers: hdrs });
+  if (!res.ok) throw new Error(`GitHub ${res.status}`);
+  const file    = await res.json();
+  const current = decodeURIComponent(escape(atob(file.content.replace(/\n/g,''))));
+  const sha     = file.sha;
+
+  // Ask AI where to place the new content
+  const placementPrompt = `You are editing a Markdown training tracker file. Insert the following new content into the correct location so the file stays well-organized.
+
+NEW CONTENT TO INSERT:
+${newContent}
+
+CONTENT TYPE: ${contentType}
+DATE: ${t.dateStr}
+
+CURRENT TRACKER.MD:
+${current}
+
+Rules:
+- For lifting log entries (### Wn ...): insert at the BOTTOM of the ## Lifting Log section, before the next ## heading.
+- For cardio log rows (table rows starting with |): insert as the LAST ROW of the cardio table in ## Cardio Log, preserving table formatting.
+- For consult notes, adjustments, or general notes: insert at the bottom of an ## Adjustments / Notes section, or create one if absent, before any appendix.
+- NEVER insert in the middle of a table; always append rows at the end.
+
+Return ONLY the complete updated Tracker.md file with the new content inserted. No explanation, no code fences.`;
+
+  const updatedMd = await callAI(placementPrompt);
+
+  // Commit
+  const putRes = await fetch(apiBase, {
+    method: 'PUT', headers: hdrs,
+    body: JSON.stringify({
+      message: `${contentType} — ${t.dateStr}`,
+      content: btoa(unescape(encodeURIComponent(updatedMd.trim()))),
+      sha, branch: cfg.branch,
+    }),
+  });
+  if (!putRes.ok) throw new Error(`GitHub write ${putRes.status}`);
+}
+
+// ═══════════════════════════════════════════
+// API USAGE SCREEN
+// ═══════════════════════════════════════════
+
+function showApiUsage() {
+  const prov = getAIProvider();
+  const provName = prov === 'gemini' ? 'Gemini 2.5 Flash' : prov === 'claude' ? 'Claude Haiku' : 'None';
+  const src = (builtIn().geminiKey || builtIn().claudeKey) ? 'Server (GitHub Actions secret)' : 'Manual (localStorage)';
+
+  document.getElementById('usage-session-stats').innerHTML = `
+    <div class="usage-stat"><span>AI calls this session</span><span class="usage-val">${aiCallCount}</span></div>
+    <div class="usage-stat"><span>Active provider</span><span class="usage-val" style="font-size:14px">${provName}</span></div>
+    <div class="usage-stat"><span>Key source</span><span class="usage-val" style="font-size:13px">${src}</span></div>`;
+
+  const limitsHtml = prov === 'gemini'
+    ? `<div class="usage-stat"><span>Free tier</span><span class="usage-val" style="color:var(--green)">1,500 req/day</span></div>
+       <div class="usage-stat"><span>Input token limit</span><span class="usage-val">1M tokens/req</span></div>
+       <div class="usage-stat"><span>Cost</span><span class="usage-val" style="color:var(--green)">Free</span></div>`
+    : prov === 'claude'
+    ? `<div class="usage-stat"><span>Model</span><span class="usage-val">claude-haiku-4-5</span></div>
+       <div class="usage-stat"><span>Input</span><span class="usage-val">$0.80 / 1M tokens</span></div>
+       <div class="usage-stat"><span>Output</span><span class="usage-val">$4.00 / 1M tokens</span></div>`
+    : `<div style="font-size:13px;color:var(--text-dim);padding:12px 0">No AI provider configured.</div>`;
+
+  document.getElementById('usage-limits').innerHTML = limitsHtml;
+  showScreen('api-usage');
 }
 
 // ═══════════════════════════════════════════
