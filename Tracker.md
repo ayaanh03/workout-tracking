@@ -39,7 +39,7 @@ Companion to `program.md` (v4.2 effective W3, week of 2026-05-04). Race: Sat 202
 
 ## Adjustments / Carry-forwards
 
-1. **Hyp B punted Sat 5/9 → Sun 5/10.**
+1. **Hyp B punted Sat 5/9 → Sun 5/10 (executed W3 Sun 5/10).**
 2. **SI watch:** chest-supp row + soleus wall-sit are NEW additions; drop immediately on any SI flare.
 
 ---
@@ -67,6 +67,11 @@ Companion to `program.md` (v4.2 effective W3, week of 2026-05-04). Race: Sat 202
 |Triceps pushdown|42.5×12 RIR 3-4 / 50×12 RIR 1-2 / 50×fail|hold 42.5|
 |Rear-delt fly|120×15 RIR 3/2/1|bump 125 next|
 |Preacher curl uni|45×12 easy / 50×12 RIR 2|lock 50|
+
+### W3 Sun 2026-05-10 — Hypertrophy B (deferred from Sat)
+
+|Exercise|Sets|Notes|
+|---|---|---|
 
 ---
 
@@ -133,4 +138,4 @@ Break-in: Vomero first run (Tue Z1) OK. Zoom Fly 6 needs 20–30 min easy break-
 |---|---|---|---|---|---|---|---|
 |W1|n/a|n/a|n/a|✓ Sumo 4-23|✓ Threshold 4-24|✓ Long row + pump 4-25|started Thu|
 |W2|✓ Incline 4-27|✓ Z1 run 4-28|Off|✓ Squat 4-30|✓ Threshold 5-1|✓ Sumo + bike 5-2|complete|
-|W3|✓ Squat 5-4|✓ Z1 row 5-5|✓ Incline 5-6|✓ REST 5-7|✓ Max HR 191 5-8|✓ Long Z1 5-9|in progress (Hyp B Sun 5/10)|
+|W3|✓ Squat 5-4|✓ Z1 row 5-5|✓ Incline 5-6|✓ REST 5-7|✓ Max HR 191 5-8|✓ Long Z1 5-9|complete (Hyp B done Sun 5/10)|
