@@ -597,9 +597,11 @@ const daysToRace = () => Math.ceil((RACE_DAY - Date.now()) / 864e5);
 
 const todayInfo = () => {
   const d = new Date();
+  const pad = n => String(n).padStart(2, '0');
+  const dateStr = `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
   return {
     dow: d.getDay(),
-    dateStr: d.toISOString().slice(0,10),
+    dateStr,
     display: d.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'}),
     short: ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][d.getDay()],
   };
@@ -1022,7 +1024,9 @@ function renderWorkout() {
     const isA = dow === 2;
 
     const briefExs    = currentBrief?.exercises;
+    // Treat an explicitly empty array as "no lift today" — only fall back to static when brief hasn't loaded
     const fromAI      = briefExs?.length > 0;
+    const briefSaysNoLift = currentBrief !== null && Array.isArray(briefExs) && briefExs.length === 0;
     const sessionTitle = fromAI
       ? (currentBrief.sessionTitle || (isA ? 'Hypertrophy A' : 'Hypertrophy B'))
       : (isA ? 'Hypertrophy A' : 'Hypertrophy B');
@@ -1035,13 +1039,15 @@ function renderWorkout() {
           <div><div class="ai-ex-name">${escHtml(e.name)}</div>${e.note?`<div style="font-size:11px;color:#818cf8">${escHtml(e.note)}</div>`:''}</div>
           <div class="ai-ex-target">${escHtml(e.target||'')}</div>
         </div>`).join('')
-      : (isA ? HYP_A : HYP_B).map(e => {
-          const load = LOADS[e.loadKey];
-          return `<div class="ai-ex-row">
-            <div class="ai-ex-name">${escHtml(e.name)}</div>
-            <div class="ai-ex-target">${load ? escHtml(load.load) : escHtml(e.prescribed)}</div>
-          </div>`;
-        }).join('');
+      : briefSaysNoLift
+        ? `<div style="font-size:13px;color:var(--text-muted);padding:8px 0">No lift scheduled today per AI brief — log cardio below.</div>`
+        : (isA ? HYP_A : HYP_B).map(e => {
+            const load = LOADS[e.loadKey];
+            return `<div class="ai-ex-row">
+              <div class="ai-ex-name">${escHtml(e.name)}</div>
+              <div class="ai-ex-target">${load ? escHtml(load.load) : escHtml(e.prescribed)}</div>
+            </div>`;
+          }).join('');
 
     const refCard = `<div class="ai-brief" style="margin-bottom:12px">
       <div class="ai-brief-header"><span>${fromAI?'✨':'📋'}</span><h3>${escHtml(sessionTitle)} — Targets</h3></div>
@@ -1758,7 +1764,13 @@ If there are no concrete decisions worth logging, return exactly: NOTHING_TO_COM
     }
 
     await smartCommitToTracker(raw.trim(), t, 'consult note');
-    trackerCache = null; // invalidate so next home load re-fetches
+    trackerCache = null;
+    // Refresh week grid immediately so the day sheet shows the updated note
+    fetchGitHubFile('Tracker.md').then(raw => {
+      trackerCache = raw;
+      weekLogCache = parseWeekLogs(raw);
+      renderWeekGrid(todayInfo());
+    }).catch(() => {});
     showToast('✓ Committed to Tracker.md', 'green');
     dismissCommitBar();
     btn.disabled = false; btn.textContent = 'Commit to Tracker →';
