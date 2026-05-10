@@ -1841,8 +1841,8 @@ If there are no concrete decisions worth logging, return exactly: NOTHING_TO_COM
 // SMART TRACKER COMMIT (AI-assisted placement)
 // ═══════════════════════════════════════════
 
-async function smartCommitToTracker(newContent, t, contentType) {
-  const cfg = getCfg();
+async function smartCommitToTracker(newContent, t, commitMsg) {
+  const cfg     = getCfg();
   const apiBase = `https://api.github.com/repos/${cfg.repo}/contents/Tracker.md`;
   const hdrs    = {
     'Authorization': `token ${cfg.token}`,
@@ -1850,45 +1850,71 @@ async function smartCommitToTracker(newContent, t, contentType) {
     'Content-Type': 'application/json',
   };
 
-  // Fetch current file
+  // Fetch current file + SHA
   const res = await fetch(`${apiBase}?ref=${cfg.branch}`, { headers: hdrs });
-  if (!res.ok) throw new Error(`GitHub ${res.status}`);
+  if (!res.ok) throw new Error(`GitHub ${res.status}: ${await res.text()}`);
   const file    = await res.json();
   const current = decodeURIComponent(escape(atob(file.content.replace(/\n/g,''))));
   const sha     = file.sha;
 
-  // Ask AI where to place the new content
-  const placementPrompt = `You are editing a Markdown training tracker file. Insert the following new content into the correct location so the file stays well-organized.
+  const updated = insertIntoTracker(current, newContent);
 
-NEW CONTENT TO INSERT:
-${newContent}
-
-CONTENT TYPE: ${contentType}
-DATE: ${t.dateStr}
-
-CURRENT TRACKER.MD:
-${current}
-
-Rules:
-- For lifting log entries (### Wn ...): insert at the BOTTOM of the ## Lifting Log section, before the next ## heading.
-- For cardio log rows (table rows starting with |): insert as the LAST ROW of the cardio table in ## Cardio Log, preserving table formatting.
-- For consult notes, adjustments, or general notes: insert at the bottom of an ## Adjustments / Notes section, or create one if absent, before any appendix.
-- NEVER insert in the middle of a table; always append rows at the end.
-
-Return ONLY the complete updated Tracker.md file with the new content inserted. No explanation, no code fences.`;
-
-  const updatedMd = await callAI(placementPrompt);
-
-  // Commit
   const putRes = await fetch(apiBase, {
     method: 'PUT', headers: hdrs,
     body: JSON.stringify({
-      message: `${contentType} — ${t.dateStr}`,
-      content: btoa(unescape(encodeURIComponent(updatedMd.trim()))),
+      message: `${commitMsg} — ${t.dateStr}`,
+      content: btoa(unescape(encodeURIComponent(updated))),
       sha, branch: cfg.branch,
     }),
   });
-  if (!putRes.ok) throw new Error(`GitHub write ${putRes.status}`);
+  if (!putRes.ok) throw new Error(`GitHub write ${putRes.status}: ${await putRes.text()}`);
+}
+
+// Pure JS insertion — no AI call, no truncation risk.
+// Handles three content shapes: table rows (cardio), ### section entries (lift), free-text notes (consult).
+function insertIntoTracker(md, newContent) {
+  const trimmed = newContent.trim();
+  // Split combined lift+cardio (both-day) on blank line boundary between a section and a table row
+  const liftPart   = trimmed.match(/^(###[\s\S]*?)(?=\n\n?\||\s*$)/)?.[1]?.trim();
+  const cardioPart = trimmed.match(/(\|.+\|\n?)$/m)?.[0]?.trim()  // last table row
+                  || (trimmed.startsWith('|') ? trimmed : null);
+
+  let result = md;
+  if (liftPart)   result = appendToSection(result, liftPart,   '## Lifting Log');
+  if (cardioPart) result = appendTableRow(result,  cardioPart, '## Cardio Log');
+  // If neither matched (consult note, plain text), append to Adjustments or end
+  if (!liftPart && !cardioPart) {
+    result = appendToSection(result, trimmed, '## Adjustments');
+    if (result === md) result = md.trimEnd() + '\n\n## Adjustments & Notes\n\n' + trimmed + '\n';
+  }
+  return result;
+}
+
+function appendToSection(md, content, sectionHeader) {
+  const secIdx = md.indexOf('\n' + sectionHeader);
+  if (secIdx === -1) return md; // section not found — caller handles fallback
+  const afterSec   = secIdx + sectionHeader.length + 1;
+  const nextSecIdx = md.indexOf('\n## ', afterSec);
+  const insertAt   = nextSecIdx !== -1 ? nextSecIdx : md.length;
+  return md.slice(0, insertAt).trimEnd() + '\n\n' + content + '\n' + md.slice(insertAt);
+}
+
+function appendTableRow(md, row, sectionHeader) {
+  const secIdx = md.indexOf('\n' + sectionHeader);
+  if (secIdx === -1) return md + '\n\n' + sectionHeader + '\n\n' + row + '\n';
+  const afterSec   = secIdx + sectionHeader.length + 1;
+  const nextSecIdx = md.indexOf('\n## ', afterSec);
+  const sectionMd  = nextSecIdx !== -1 ? md.slice(secIdx, nextSecIdx) : md.slice(secIdx);
+  // Find last pipe-delimited row in this section
+  const tableRows  = [...sectionMd.matchAll(/^(\|.+\|)\s*$/gm)];
+  if (tableRows.length) {
+    const lastMatch  = tableRows[tableRows.length - 1];
+    const lastRowEnd = secIdx + lastMatch.index + lastMatch[0].length;
+    return md.slice(0, lastRowEnd) + '\n' + row + md.slice(lastRowEnd);
+  }
+  // No table yet — insert before next section
+  const insertAt = nextSecIdx !== -1 ? nextSecIdx : md.length;
+  return md.slice(0, insertAt).trimEnd() + '\n\n' + row + '\n' + md.slice(insertAt);
 }
 
 // ═══════════════════════════════════════════
