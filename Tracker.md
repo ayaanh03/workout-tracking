@@ -150,7 +150,6 @@ Per §5: linear progression on TM, +5/wk if clean RPE 7. AMRAP test every 4 wks.
 - [ ] 7 consecutive symptom-free days — **3/7** (5/6, 5/7, 5/8)
 - [x] SI provocation tests negative (5/6)
 - [x] Single-leg bridge 30s/side pain-free (5/6)
-- [ ] PT visit (overdue)
 
 **Earliest run start:** ~May 23+ conservative, May 27–Jun 3 realistic per §7.B.
 
@@ -177,8 +176,8 @@ Per §5: linear progression on TM, +5/wk if clean RPE 7. AMRAP test every 4 wks.
 |Wed 5/6    |Upper press (Hypertrophy A)                               |✓      |
 |Thu 5/7    |REST                                                      |✓      |
 |**Fri 5/8**|**Max HR field test (rower) — peak 191**                  |**✓**  |
-|Sat 5/9    |Long Z1 row 65 min + Hypertrophy B (first soleus wall-sit)|pending|
-|Sun 5/10   |Rest + prehab                                             |—      |
+|Sat 5/9    |Long Z1 row 65 min                                        |✓      |
+|Sun 5/10   |Hypertrophy B (first soleus wall-sit                      |—      |
 
 **Sat 5/9 long row spec (with new locked zones):** 65 min, target ≤143 bpm, 2:22–2:30/500m, r18–20. Hold flat split for full duration to enable LT1 decoupling test (compare first 32min vs last 33min avg HR; <5% drift = below LT1, >10% = above).
 
@@ -243,4 +242,4 @@ Per §5: linear progression on TM, +5/wk if clean RPE 7. AMRAP test every 4 wks.
 |--|--------------|-------------|-------------|------------|--------------------|----------------------|------------|
 |W1|n/a           |n/a          |n/a          |✓ Sumo 4-23 |✓ Threshold 4-24    |✓ Long row + pump 4-25|Started Thu |
 |W2|✓ Incline 4-27|✓ Z1 run 4-28|Off          |✓ Squat 4-30|✓ Threshold 5-1     |✓ Sumo + bike 5-2     |**Complete**|
-|W3|✓ Squat 5-4   |✓ Z1 row 5-5 |✓ Incline 5-6|✓ REST 5-7  |✓ **Max HR 191** 5-8|Long Z1 + pump 5-9    |In progress |
+|W3|✓ Squat 5-4   |✓ Z1 row 5-5 |✓ Incline 5-6|✓ REST 5-7  |✓ **Max HR 191** 5-8|✓ Long Z1 (pump 5-9 pushed to sunday)    |In progress |
