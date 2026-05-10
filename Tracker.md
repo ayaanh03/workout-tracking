@@ -7,21 +7,23 @@ RIR preferred over RPE going forward.
 
 ## Current Working Loads
 
-|Exercise           |Load            |Last verified           |Notes                                                     |
-|-------------------|----------------|------------------------|----------------------------------------------------------|
-|Incline BB (TM)    |155             |W3 Wed 5/6 (125×8 RIR 2)|125 working weight; AMRAP at 4-wk gates to re-set TM      |
-|OHP                |RETIRED per v4.2|—                       |Doesn’t serve incline or priority muscles                 |
-|Lat pulldown       |125 (anchor S1) |W3 —                    |Drift to 130 by S2-3, back off S4 to 120                  |
-|Chest-supp row     |80              |W2 Mon                  |NEW to Sat circuit Phase B+; hold 80                      |
-|Cable lateral (Tue)|12.5            |W2 Mon                  |Anchor all 4 sets                                         |
-|Cable lateral (Sat)|5/side uni      |W1 Sat                  |RPE 9                                                     |
-|DB lateral raise   |25 (next)       |W3 Mon (22.5×15 RIR 3)  |RETIRED per v4.2 (squat day gone)                         |
-|Preacher curl uni  |50/arm          |W3 Wed (50×12 RIR 2)    |Machine 5lb increments                                    |
-|Triceps pushdown   |42.5            |W3 Wed                  |Failed at 50 — hold 42.5 until clean RIR 2 across all sets|
-|Rear-delt fly      |125 (next)      |W3 Wed (120×15 RIR 1)   |Bump 125                                                  |
-|Seated calf        |315             |Multiple                |RIR 2 sustained                                           |
-|Cable crunch       |42.5            |W1 Sat                  |RPE 8                                                     |
-|**Soleus wall-sit**|BW              |NEW v4.2                |3×30–45s, knee ~80°, forefoot push                        |
+|Exercise                 |Load            |Last verified           |Notes                                                                 |
+|-------------------------|----------------|------------------------|----------------------------------------------------------------------|
+|Incline BB (TM)          |155             |W3 Wed 5/6 (125×8 RIR 2)|125 working weight; AMRAP at 4-wk gates to re-set TM                    |
+|OHP                      |RETIRED per v4.2|—                       |Doesn’t serve incline or priority muscles                             |
+|Lat pulldown             |125 (anchor S1) |W3 —                    |Drift to 130 by S2-3, back off S4 to 120, RPE 8, last S to RIR 1      |
+|Chest-supp row           |80              |W2 Mon                  |NEW to Sat circuit Phase B+; 3x10 RPE 8; hold 80                      |
+|Cable lateral (Tue)      |12.5            |W2 Mon                  |Anchor all 4 sets                                                     |
+|Cable lateral (Sat)      |5/side uni      |W1 Sat                  |3 sets RPE 9                                                          |
+|DB lateral raise         |25 (next)       |W3 Mon (22.5×15 RIR 3)  |RETIRED per v4.2 (squat day gone)                                     |
+|Preacher curl uni        |50/arm          |W3 Wed (50×12 RIR 2)    |Machine 5lb increments; 3x12 RPE 8                                    |
+|Triceps pushdown         |42.5            |W3 Wed                  |Failed at 50 — hold 42.5 for all 3 sets until clean RIR 2 across all sets|
+|Rear-delt fly            |125 (next)      |W3 Wed (120×15 RIR 1)   |Bump 125                                                              |
+|Seated calf              |315             |Multiple                |4x12-15 reps, RIR 2 sustained                                         |
+|Cable crunch             |42.5            |W1 Sat                  |RPE 8                                                                 |
+|Hanging knee raise       |BW              |NEW                     |3x10 reps, RPE 8                                                      |
+|Optional DB flye/pec deck|As needed       |NEW                     |2 sets, RPE 7, if time allows and total lift stays within 40-min cap  |
+|**Soleus wall-sit**      |BW              |NEW v4.2                |3×30–45s, knee ~80°, forefoot push, RPE 7-8                           |
 
 **Permanently retired per v4.2:** Sumo DL, OHP, free-weight curls, overhead triceps, heavy squat/DL/trap-bar, leg press, Bulgarian splits, plyometrics, drills, sauna (Accutane).
 
@@ -31,12 +33,13 @@ RIR preferred over RPE going forward.
 
 **Max HR: 191 bpm** (rower field test 2026-05-08, peak on effort 1)
 
-|Zone                   |%MHR  |bpm        |Use                                        |
-|-----------------------|------|-----------|-------------------------------------------|
-|Z1 easy (3-zone Seiler)|≤75%  |**≤143**   |Easy/long, conversational, nasal breathing |
-|Z2 threshold           |85–88%|**162–168**|Tue T sessions                             |
-|Z3 VO2max              |92–96%|**176–183**|Fri intervals                              |
-|Gray zone (avoid)      |76–84%|144–161    |Neither aerobic-base nor threshold stimulus|
+|Zone                   |%MHR  |bpm                      |Use                                        |
+|-----------------------|------|-------------------------|-------------------------------------------|
+|Z1 easy (Running)      |≤75%  |**≤143**                 |Easy/long, conversational, nasal breathing |
+|Z1 easy (Rowing)       |≤75%  |**≤158**                 |Easy/long, conversational, nasal breathing |
+|Z2 threshold           |85–88%|**162–168**              |Tue T sessions                             |
+|Z3 VO2max              |92–96%|**176–183**              |Fri intervals                              |
+|Gray zone (avoid)      |76–84%|144–161                  |Neither aerobic-base nor threshold stimulus|
 
 Apple 5-zone (auto-recalibrates from Health app): Z1 ≤115 / Z2 116–134 / Z3 135–153 / Z4 154–171 / **Z5 ≥172**
 
@@ -44,8 +47,8 @@ Apple 5-zone (auto-recalibrates from Health app): Z1 ≤115 / Z2 116–134 / Z3 
 
 - True running max likely **195–200** (rower modality penalty 3–5 bpm + CNS pullback on first max test 3–5 bpm). Re-test on the run W6–W8 once Phase B established.
 - Historical: 2019 rower 209, 2023 squash 198 — 18 bpm drop over 7 yrs. ~5 bpm age decline (Tanaka), rest is detraining + accessible-vs-physiological-max gap that should narrow as fitness returns.
-- **LT1 likely sits above the 75% Z1 cap.** W3 Tue Z1 row (avg 157, peak 168) felt easy with nasal breathing throughout — well above 143. Confirm via flat-pace 65-min decoupling test on Sat long row (target r18–20, 2:22 split, log first-half vs second-half avg HR).
-- **Practical co-anchor until LT1 verified:** HR ≤143 *and* nasal breathing *and* full sentences. If 2 of 3 break, you’re out of Z1 regardless of HR.
+- LT1 confirmed above 75% Z1 cap for rowing. The Sat 5/9 long row (avg 154, peak 160, 3.3% decoupling) confirmed LT1 is ~158-162 bpm. Rowing Z1 cap formally adjusted to ≤158 bpm, running Z1 remains ≤143 bpm.
+- **Practical co-anchor (running):** HR ≤143 *and* nasal breathing *and* full sentences. If 2 of 3 break, you’re out of Z1 regardless of HR.
 
 -----
 
@@ -177,7 +180,7 @@ Per §5: linear progression on TM, +5/wk if clean RPE 7. AMRAP test every 4 wks.
 |Thu 5/7    |REST                                                      |✓      |
 |**Fri 5/8**|**Max HR field test (rower) — peak 191**                  |**✓**  |
 |Sat 5/9    |Long Z1 row 65 min                                        |✓      |
-|Sun 5/10   |Hypertrophy B (first soleus wall-sit                      |—      |
+|Sun 5/10   |Hypertrophy B                                             |✓      |
 
 **Sat 5/9 long row spec (with new locked zones):** 65 min, target ≤143 bpm, 2:22–2:30/500m, r18–20. Hold flat split for full duration to enable LT1 decoupling test (compare first 32min vs last 33min avg HR; <5% drift = below LT1, >10% = above).
 
@@ -185,19 +188,24 @@ Per §5: linear progression on TM, +5/wk if clean RPE 7. AMRAP test every 4 wks.
 
 ## Adjustments / Carry-forwards
 
-1. **Incline BB** — 125 confirmed working. AMRAP test W4 to re-estimate TM.
-1. **Triceps pushdown** — hold 42.5 until clean RIR 2 across all 3 sets. Do not advance.
-1. **Cable lateral (Tue)** — anchor 12.5 all 4 sets.
-1. **Rear-delt fly** — bump to 125 next session.
-1. **Preacher curl** — lock in 50/arm next session (5lb machine increments).
-1. **Lat pulldown** — anchor 125 S1, drift 130 S2-3, back off 120 S4. Don’t open at 130.
-1. **Chest-supp row** — 80, NEW to Sat circuit Phase B+. Hold 80.
-1. **Seated calf** — hold 315, RIR 2 sustained.
-1. **Soleus wall-sit** — start this Sat. 3×30–45s, knee ~80°, forefoot push, RPE 7-8.
-1. **HR zones — LOCKED 5/8 off max 191.** Z1 ≤143 / Z2 162–168 / Z3 176–183. See HR Zones section above.
-1. **LT1 verification — Sat 5/9 long row.** Flat 2:22 split r18–20, target HR 150–155 with nasal breathing. Log first-half vs second-half avg HR for decoupling math. If <5% drift, LT1 confirmed above 143 and Z1 cap can be raised toward ~155.
-1. **Sauna** — STOP per §11.E (Accutane rhabdo risk).
-1. **Max HR re-test** — schedule for W6–W8 on the run (treadmill 1% or 1500m all-out) once Phase B established. Expect 195–200.
+1.  **Hypertrophy B lift session:** Officially punted from Saturday, May 9, to Sunday, May 10.
+2.  **Incline BB:** AMRAP test W4 (May 13) to re-estimate Training Max (TM).
+3.  **Triceps pushdown:** Hold 42.5 lbs for all 3 sets until clean RIR 2 across all sets. Do not advance.
+4.  **Cable lateral (Tue):** Anchor 12.5 all 4 sets.
+5.  **Rear-delt fly:** Bump to 125 lbs for next session.
+6.  **Preacher curl (Hypertrophy B):** Lock in 50 lbs/arm (5lb machine increments), 3 sets of 12 reps, target RPE 8.
+7.  **Lat pulldown (Hypertrophy B):** Anchor set 1 at 125 lbs, drift up to 130 lbs for sets 2-3, back off to 120 lbs for set 4. Target RPE 8, last set to RIR 1.
+8.  **Chest-supported row (Hypertrophy B):** NEW exercise, 3 sets of 10 reps @ 80 lbs. Target RPE 8.
+9.  **Hanging knee raise (Hypertrophy B):** NEW exercise, 3 sets of 10 reps, RPE 8.
+10. **Seated calf raise (Hypertrophy B):** Hold 315 lbs, 4 sets of 12-15 reps, maintaining RIR 2.
+11. **Soleus wall-sit isometric (Hypertrophy B):** NEW exercise, 3 sets of 30–45 seconds. Knees ~80°, push through forefoot, RPE 7-8.
+12. **Optional DB flye or pec deck (Hypertrophy B):** NEW exercise, 2 sets, RPE 7, *if time allows and total lift stays within 40-minute cap*.
+13. **Hypertrophy B session time cap:** Do not exceed 40 minutes. Prioritize dropping the optional chest set if running long.
+14. **SI monitoring for new exercises:** Be particularly mindful of body's response to the new chest-supported row and soleus wall-sit; drop immediately if any SI discomfort occurs.
+15. **HR zones — LOCKED 5/8 off max 191:** Running Z1 ≤143 bpm / Rowing Z1 ≤158 bpm / Z2 162–168 bpm / Z3 176–183 bpm. See HR Zones section above for full details.
+16. **LT1 verification — Sat 5/9 long row:** RESOLVED: Rowing Z1 cap formally adjusted to ≤158 bpm based on decoupling test results.
+17. **Sauna:** STOP per §11.E (Accutane rhabdo risk).
+18. **Max HR re-test:** Schedule for W6–W8 on the run (treadmill 1% or 1500m all-out) once Phase B established. Expect 195–200.
 
 ### Consult Note — 2026-05-10
 > **Decisions / Carry-forwards:**
@@ -215,6 +223,8 @@ Per §5: linear progression on TM, +5/wk if clean RPE 7. AMRAP test every 4 wks.
 > -   **Optional DB flye or pec deck (Hypertrophy B):** 2 sets, RPE 7, *if time allows and total lift stays within 40-minute cap*.
 > -   **Hypertrophy B session time cap:** Do not exceed 40 minutes. Prioritize dropping the optional chest set if running long.
 > -   **SI monitoring for new exercises:** Be particularly mindful of body's response to the new chest-supported row and soleus wall-sit; drop immediately if any SI discomfort occurs.
+> -   **Incline BB progression (W4 Wed):** AMRAP test set on May 13th to re-estimate Training Max (TM). Continue to strive for clean reps at the prescribed RPE.
+> -   **Rear-delt fly (W4 Wed):** Bump up to 125 lbs for next session.
 
 -----
 
@@ -242,4 +252,4 @@ Per §5: linear progression on TM, +5/wk if clean RPE 7. AMRAP test every 4 wks.
 |--|--------------|-------------|-------------|------------|--------------------|----------------------|------------|
 |W1|n/a           |n/a          |n/a          |✓ Sumo 4-23 |✓ Threshold 4-24    |✓ Long row + pump 4-25|Started Thu |
 |W2|✓ Incline 4-27|✓ Z1 run 4-28|Off          |✓ Squat 4-30|✓ Threshold 5-1     |✓ Sumo + bike 5-2     |**Complete**|
-|W3|✓ Squat 5-4   |✓ Z1 row 5-5 |✓ Incline 5-6|✓ REST 5-7  |✓ **Max HR 191** 5-8|✓ Long Z1 (pump 5-9 pushed to sunday)    |In progress |
+|W3|✓ Squat 5-4   |✓ Z1 row 5-5 |✓ Incline 5-6|✓ REST 5-7  |✓ **Max HR 191** 5-8|✓ Long Z1             |In progress |
