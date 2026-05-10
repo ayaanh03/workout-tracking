@@ -1,131 +1,140 @@
 {
+  "version": 2,
   "date": "2026-05-10",
   "dow": 0,
-  "generatedAt": "2026-05-10T16:06:56.114Z",
+  "generatedAt": "2026-05-10T16:26:09.897Z",
   "data": {
-    "sessionTitle": "Hypertrophy B Lift Session",
+    "today": {
+      "sessionTitle": "Hypertrophy B (Deferred from Saturday)",
+      "type": "lift",
+      "icon": "🏋️",
+      "shortLabel": "Hypertrophy B (deferred)",
+      "isLogged": false,
+      "loggedSummary": ""
+    },
     "keyTargets": [
-      "Execute Hypertrophy B session with specific load adjustments and RIR/RPE targets.",
-      "Carefully monitor body's response to new Chest-supported Row and Soleus Wall-Sit for any SI discomfort, dropping immediately if pain occurs.",
-      "Adhere strictly to the 40-minute session time cap, prioritizing core exercises over optional chest flye if time runs short."
+      "Execute Hypertrophy B lift session as planned, adhering to specified loads, rep ranges, and RPE/RIR targets.",
+      "Monitor SI response closely to the new Chest-supported Row and Soleus Wall-Sit; drop immediately if any discomfort.",
+      "Adhere to the 40-minute time cap for the lift session, prioritizing core exercises and dropping the optional chest set if needed."
     ],
     "warnings": [
-      "Accutane protocol: Remain vigilant for prolonged muscle pain (>72h), dark urine, persistent unilateral weakness, or calf cramping. If any occur, cease training, get CK lab draw, and contact dermatologist.",
-      "SI joint: Monitor closely for any discomfort during the new Chest-supported Row and Soleus Wall-Sit. If SI pain occurs, stop the exercise immediately."
+      "SI monitoring is critical for new exercises (Chest-supported Row, Soleus Wall-Sit).",
+      "Accutane protocols: No sauna or extreme heat. Watch for prolonged muscle pain, dark urine, or unusual cramping; report immediately.",
+      "Triceps pushdown load (42.5 lbs) is to be held until RIR 2 is consistently achieved across all sets.",
+      "Running reintroduction remains gated; earliest safe start is ~May 23rd+ conservative."
     ],
     "highlights": [
-      "Max HR field test on rower (W3 Fri 5/8) confirmed peak HR at 191 bpm.",
-      "LT1 verified on Sat 5/9 long Z1 row with excellent aerobic efficiency (3.3% decoupling).",
-      "Rowing-specific Z1 HR cap has been adjusted to ≤158 bpm based on LT1 verification.",
-      "Currently 3 consecutive days SI symptom-free (5/6, 5/7, 5/8) towards Phase B reintroduction."
+      "Max HR of 191 bpm (rower) was verified on Fri 5/8, anchoring new HR zones.",
+      "Rowing-specific Z1 HR cap adjusted to ≤158 bpm, effective immediately, based on successful LT1 decoupling test on Sat 5/9.",
+      "3/7 consecutive symptom-free days banked toward Phase B running reintroduction gate."
     ],
     "exercises": [
       {
-        "name": "Lat Pulldown (Neutral Grip)",
+        "name": "Lat pulldown, neutral grip",
         "sets": 4,
         "type": "strength",
         "target": "Lats",
-        "note": "Set 1: 125 lbs. Sets 2-3: Drift up to 130 lbs. Set 4: Back off to 120 lbs. Target RPE 8, last set to RIR 1."
+        "note": "Anchor 125 lbs for set 1, drift to 130 lbs for sets 2-3, back off to 120 lbs for set 4. Target RPE 8, last set to RIR 1."
       },
       {
-        "name": "Chest-supported Row",
+        "name": "Chest-supported row (NEW)",
         "sets": 3,
         "type": "strength",
         "target": "Lats + Rear Delt",
-        "note": "NEW exercise. 3 sets of 10 reps @ 80 lbs. Target RPE 8. Monitor SI closely."
+        "note": "3 sets of 10 reps @ 80 lbs. Target RPE 8. Monitor SI response."
       },
       {
-        "name": "Cable Lateral Raise",
+        "name": "Cable lateral raise",
         "sets": 3,
         "type": "strength",
         "target": "Side Delt",
-        "note": "3 sets @ 5 lbs/side uni. Target RPE 9 (last session: 5/side uni RPE 9)."
+        "note": "3 sets @ 5 lbs/side uni. Target RPE 9."
       },
       {
-        "name": "Preacher Curl Machine",
+        "name": "Preacher curl machine",
         "sets": 3,
         "type": "strength",
         "target": "Biceps",
-        "note": "3 sets of 12 reps @ 50 lbs/arm. Target RPE 8 (last session: 50x12 RIR 2)."
+        "note": "3 sets of 12 reps @ 50 lbs/arm. Target RPE 8. (Locked at 50 lbs per previous session)."
       },
       {
-        "name": "Triceps Pushdown",
+        "name": "Triceps pushdown (rope)",
         "sets": 3,
         "type": "strength",
         "target": "Triceps",
-        "note": "Hold 42.5 lbs for all 3 sets until clean RIR 2 across all sets. Do not advance (last session: failed at 50, held 42.5)."
+        "note": "Hold 42.5 lbs for all 3 sets until clean RIR 2 is achieved consistently."
       },
       {
-        "name": "Hanging Knee Raise",
+        "name": "Hanging knee raise",
         "sets": 3,
         "type": "strength",
         "target": "Abs",
-        "note": "3 sets of 10 reps @ BW. Target RPE 8."
+        "note": "3 sets of 10 reps. Target RPE 8."
       },
       {
-        "name": "Seated Calf Raise",
+        "name": "Seated calf raise",
         "sets": 4,
         "type": "strength",
         "target": "Calves",
         "note": "4 sets of 12-15 reps @ 315 lbs, maintaining RIR 2."
       },
       {
-        "name": "Soleus Wall-Sit Isometric",
+        "name": "Soleus wall-sit isometric (NEW)",
         "sets": 3,
         "type": "iso",
         "target": "Soleus / RE",
-        "note": "NEW exercise. 3 sets of 30–45 seconds @ BW. Knees ~80°, push through forefoot. Target RPE 7-8. Monitor SI closely."
+        "note": "3 sets of 30–45 seconds. Knee ~80°, push through forefoot. Target RPE 7-8. Monitor SI response."
       },
       {
-        "name": "Optional DB Flye or Pec Deck",
+        "name": "Optional DB flye or pec deck",
         "sets": 2,
         "type": "strength",
         "target": "Chest",
-        "note": "Optional: 2 sets of 12 reps @ RPE 7, ONLY IF time allows and total lift stays within 40-minute cap. Prioritize dropping this if running long."
+        "note": "2 sets of 12 reps @ RPE 7. Perform only if time allows and total lift stays within 40-minute cap (prioritize dropping if running long)."
       }
     ],
     "cardio": null,
     "statusPills": [
       {
-        "color": "orange",
-        "text": "SI Streak: 3/7 Symptom-Free Days"
-      },
-      {
-        "color": "blue",
-        "text": "Rowing Z1 Cap: ≤158 bpm"
-      },
-      {
         "color": "purple",
-        "text": "Max HR Verified: 191 bpm (Rower)"
+        "text": "W3: Reset Phase (May 4-Jun 1)"
+      },
+      {
+        "color": "orange",
+        "text": "Running Gate: 3/7 days symptom-free"
       },
       {
         "color": "green",
-        "text": "Soleus Wall-Sit: Eligible (Phase A)"
+        "text": "HR Zones Locked (Rower Z1: ≤158)"
       },
       {
         "color": "orange",
-        "text": "Running Reintro: Est. May 23+"
+        "text": "SI Monitor: New Lifts"
       },
       {
-        "color": "red",
-        "text": "Accutane Protocols Active"
+        "color": "blue",
+        "text": "Accutane: Adherence"
+      },
+      {
+        "color": "green",
+        "text": "Max HR: 191 bpm (rower)"
       }
     ],
     "phaseGate": [
       {
         "done": false,
         "text": "7 consecutive symptom-free days",
-        "detail": "3/7 days (last reset 5/5)"
+        "detail": "3/7 days logged clean (5/6-5/8). Need 5/9, 5/10, 5/11, 5/12 to be clean to meet this by Tue 5/12."
       },
       {
         "done": true,
         "text": "SI provocation tests negative",
-        "detail": "Verified 5/6"
+        "detail": "Logged 5/6"
       },
       {
         "done": true,
         "text": "Single-leg bridge 30s/side pain-free",
-        "detail": "Verified 5/6"
+        "detail": "Logged 5/6"
       },
       {
         "done": false,
@@ -135,54 +144,189 @@
     ],
     "currentLoads": [
       {
-        "name": "Incline BB",
+        "name": "Incline BB (TM)",
         "load": "155",
-        "note": "Last verified W3 Wed (125x8 RIR 2); AMRAP at 4-wk gates to re-set TM"
+        "note": "125 working weight; AMRAP at 4-wk gates to re-set TM (next W4)."
       },
       {
-        "name": "Lat Pulldown",
-        "load": "125",
-        "note": "Anchor S1; drift to 130 S2-3, back off S4 to 120"
+        "name": "Lat pulldown",
+        "load": "125 (anchor S1)",
+        "note": "Drift to 130 by S2-3, back off S4 to 120."
       },
       {
-        "name": "Chest-supported Row",
+        "name": "Chest-supported row (NEW)",
         "load": "80",
-        "note": "NEW to Sat circuit Phase B+; hold 80"
+        "note": "Hold 80 lbs for 3x10. Monitor SI."
       },
       {
-        "name": "Cable Lateral (Sat)",
+        "name": "Cable lateral (Tue)",
+        "load": "12.5",
+        "note": "Anchor all 4 sets."
+      },
+      {
+        "name": "Cable lateral (Sat)",
         "load": "5/side uni",
-        "note": "RPE 9"
+        "note": "RPE 9 for 3 sets."
       },
       {
-        "name": "Preacher Curl Uni",
+        "name": "Preacher curl uni",
         "load": "50/arm",
-        "note": "W3 Wed (50x12 RIR 2); lock 50 next"
+        "note": "Lock 50/arm for 3x12. (5lb machine increments)."
       },
       {
-        "name": "Triceps Pushdown",
+        "name": "Triceps pushdown",
         "load": "42.5",
-        "note": "W3 Wed (failed at 50); hold 42.5 until clean RIR 2 across all sets"
+        "note": "Hold 42.5 until clean RIR 2 across all 3 sets. (Failed at 50 previously)."
       },
       {
-        "name": "Rear-Delt Fly",
-        "load": "125",
-        "note": "W3 Wed (120x15 RIR 1); bump 125 next"
+        "name": "Rear-delt fly",
+        "load": "125 (next)",
+        "note": "Will bump to 125 next session (last: 120×15 RIR 1)."
       },
       {
-        "name": "Seated Calf",
+        "name": "Seated calf",
         "load": "315",
-        "note": "RIR 2 sustained"
+        "note": "RIR 2 sustained for 4x12-15."
       },
       {
-        "name": "Soleus Wall-Sit",
-        "load": "BW",
-        "note": "3x30–45s, knee ~80°, forefoot push, RPE 7-8"
+        "name": "Cable crunch",
+        "load": "42.5",
+        "note": "RPE 8 for 3x12."
       },
       {
-        "name": "Hanging Knee Raise",
+        "name": "Soleus wall-sit (NEW)",
         "load": "BW",
-        "note": "3x10 reps, RPE 8"
+        "note": "3×30–45s, knee ~80°, forefoot push, RPE 7-8. Monitor SI."
+      }
+    ],
+    "thisWeek": [
+      {
+        "dow": 0,
+        "dateStr": "2026-05-10",
+        "label": "Hypertrophy B (Deferred)",
+        "type": "lift",
+        "icon": "🏋️",
+        "description": "Today's lift session, originally scheduled for Sat 5/9, with a focus on lats, side delts, biceps, triceps, abs, calves, and soleus isometrics. New exercises include Chest-supported Row and Soleus Wall-Sit; monitor SI response closely.",
+        "isLogged": false,
+        "loggedSummary": ""
+      },
+      {
+        "dow": 1,
+        "dateStr": "2026-05-11",
+        "label": "Rest Day",
+        "type": "rest",
+        "icon": "🛌",
+        "description": "A complete rest day to recover from the weekend's activity. Focus on daily SI prehab and mobility.",
+        "isLogged": false,
+        "loggedSummary": ""
+      },
+      {
+        "dow": 2,
+        "dateStr": "2026-05-12",
+        "label": "Threshold Row + Hypertrophy A",
+        "type": "both",
+        "icon": "🚣🏋️",
+        "description": "Threshold row session (Z2, 162–168 bpm), followed by Hypertrophy A circuit focusing on Incline BB, side delts, biceps, triceps, abs, and soleus wall-sits.",
+        "isLogged": false,
+        "loggedSummary": ""
+      },
+      {
+        "dow": 3,
+        "dateStr": "2026-05-13",
+        "label": "Z1 Recovery Row",
+        "type": "run",
+        "icon": "🚣",
+        "description": "A Z1 easy row for active recovery. Focus on nasal breathing and maintaining conversational pace within the updated rowing-specific Z1 HR cap (≤158 bpm).",
+        "isLogged": false,
+        "loggedSummary": ""
+      },
+      {
+        "dow": 4,
+        "dateStr": "2026-05-14",
+        "label": "Rest Day",
+        "type": "rest",
+        "icon": "🛌",
+        "description": "A complete rest day focusing on recovery, mobility, and daily SI prehab.",
+        "isLogged": false,
+        "loggedSummary": ""
+      },
+      {
+        "dow": 5,
+        "dateStr": "2026-05-15",
+        "label": "Threshold Row",
+        "type": "run",
+        "icon": "🚣",
+        "description": "Threshold row session (Z2, 162–168 bpm). Maintain target HR and focus on consistent pacing during intervals.",
+        "isLogged": false,
+        "loggedSummary": ""
+      },
+      {
+        "dow": 6,
+        "dateStr": "2026-05-16",
+        "label": "Long Z1 Row",
+        "type": "run",
+        "icon": "🚣",
+        "description": "Long Z1 aerobic row session (65 min). Focus on maintaining a steady, conversational pace and staying within the updated rowing-specific Z1 HR cap (≤158 bpm).",
+        "isLogged": false,
+        "loggedSummary": ""
+      }
+    ],
+    "nextWeek": [
+      {
+        "dow": 0,
+        "dateStr": "2026-05-17",
+        "label": "Rest + Prehab",
+        "type": "rest",
+        "icon": "🛌",
+        "description": "A full rest day for recovery, mobility, and daily SI prehab."
+      },
+      {
+        "dow": 1,
+        "dateStr": "2026-05-18",
+        "label": "Z1 Easy Row",
+        "type": "run",
+        "icon": "🚣",
+        "description": "An easy Z1 aerobic row for recovery. Focus on consistent effort and staying within the rowing-specific Z1 HR cap (≤158 bpm)."
+      },
+      {
+        "dow": 2,
+        "dateStr": "2026-05-19",
+        "label": "Threshold Row + Hypertrophy A",
+        "type": "both",
+        "icon": "🚣🏋️",
+        "description": "Threshold row session (Z2, 162–168 bpm) followed by Hypertrophy A circuit (Incline BB, side delts, biceps, triceps, abs, soleus wall-sit)."
+      },
+      {
+        "dow": 3,
+        "dateStr": "2026-05-20",
+        "label": "Z1 Easy Row",
+        "type": "run",
+        "icon": "🚣",
+        "description": "An easy Z1 aerobic row for recovery and base building. Focus on nasal breathing and staying within the rowing-specific Z1 HR cap (≤158 bpm)."
+      },
+      {
+        "dow": 4,
+        "dateStr": "2026-05-21",
+        "label": "Z1 Easy Row",
+        "type": "run",
+        "icon": "🚣",
+        "description": "An optional easy Z1 aerobic row. Can be substituted with a rest day if needed for recovery, adhering to the program's flexibility for rest days."
+      },
+      {
+        "dow": 5,
+        "dateStr": "2026-05-22",
+        "label": "Threshold Row",
+        "type": "run",
+        "icon": "🚣",
+        "description": "Threshold row session (Z2, 162–168 bpm). Focus on maintaining target HR and consistent effort during intervals."
+      },
+      {
+        "dow": 6,
+        "dateStr": "2026-05-23",
+        "label": "First Easy Outdoor Jog + Hypertrophy B",
+        "type": "both",
+        "icon": "🏃🏋️",
+        "description": "A landmark session: the first easy outdoor jog, marking the reintroduction of running (approx 15-20 min continuous, flat surface). Followed by the Hypertrophy B circuit, including seated calf and soleus wall-sits."
       }
     ]
   }
