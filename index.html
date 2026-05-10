@@ -277,10 +277,6 @@
     .commit-bar.visible { display: block; }
     .commit-bar p { font-size: 13px; color: #86efac; margin-bottom: 10px; }
 
-    /* API usage */
-    .usage-stat { display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-bottom: 1px solid var(--border); font-size: 14px; }
-    .usage-stat:last-child { border-bottom: none; }
-    .usage-val { font-weight: 700; font-size: 16px; }
   </style>
 </head>
 <body>
@@ -512,19 +508,11 @@
   </div>
   <div class="content">
     <div class="card">
-      <div class="card-title">This Session</div>
-      <div id="usage-session-stats"></div>
-    </div>
-    <div class="card">
-      <div class="card-title">Limits &amp; Quotas</div>
-      <div id="usage-limits"></div>
-    </div>
-    <div class="card" style="border-color:#312e81;background:#0f0c2a">
-      <div class="card-title" style="color:#818cf8">Note</div>
-      <div style="font-size:13px;color:#c4b5fd;line-height:1.6">Real-time usage totals require server-side API calls which aren't possible from the browser. Session counts above are tracked locally. To check your actual quota, visit your provider dashboard.</div>
-      <div style="display:flex;gap:8px;margin-top:12px;flex-wrap:wrap">
-        <a href="https://aistudio.google.com/app/apikey" target="_blank" class="btn btn-secondary btn-sm" style="width:auto;text-decoration:none;font-size:13px">Gemini dashboard ↗</a>
-        <a href="https://console.anthropic.com/settings/usage" target="_blank" class="btn btn-secondary btn-sm" style="width:auto;text-decoration:none;font-size:13px">Anthropic dashboard ↗</a>
+      <div class="card-title">Provider Dashboards</div>
+      <div style="font-size:13px;color:var(--text-dim);line-height:1.6;margin-bottom:14px">Check your actual usage and quota on your provider's dashboard.</div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        <a href="https://aistudio.google.com/app/apikey" target="_blank" class="btn btn-secondary" style="width:auto;text-decoration:none">Gemini dashboard ↗</a>
+        <a href="https://console.anthropic.com/settings/usage" target="_blank" class="btn btn-secondary" style="width:auto;text-decoration:none">Anthropic dashboard ↗</a>
       </div>
     </div>
   </div>
@@ -1397,7 +1385,6 @@ function buildLiftMarkdown(t) {
 // ═══════════════════════════════════════════
 
 async function callAI(prompt) {
-  aiCallCount++;
   const provider = getAIProvider();
   if (!provider) throw new Error('No AI key configured — add GEMINI_API_KEY or ANTHROPIC_API_KEY in GitHub repo secrets');
 
@@ -1476,7 +1463,6 @@ function showToast(msg, type='green') {
 
 let weekLogCache  = {};   // { dow: { logged, snippet, dateStr } }
 let trackerCache  = null; // raw Tracker.md string, fetched on home load
-let aiCallCount   = 0;    // session call counter
 
 // ═══════════════════════════════════════════
 // WEEK GRID
@@ -1905,26 +1891,6 @@ Return ONLY the complete updated Tracker.md. No explanation, no code fences, no 
 // ═══════════════════════════════════════════
 
 function showApiUsage() {
-  const prov = getAIProvider();
-  const provName = prov === 'gemini' ? 'Gemini 2.5 Flash' : prov === 'claude' ? 'Claude Haiku' : 'None';
-  const src = (builtIn().geminiKey || builtIn().claudeKey) ? 'Server (GitHub Actions secret)' : 'Manual (localStorage)';
-
-  document.getElementById('usage-session-stats').innerHTML = `
-    <div class="usage-stat"><span>AI calls this session</span><span class="usage-val">${aiCallCount}</span></div>
-    <div class="usage-stat"><span>Active provider</span><span class="usage-val" style="font-size:14px">${provName}</span></div>
-    <div class="usage-stat"><span>Key source</span><span class="usage-val" style="font-size:13px">${src}</span></div>`;
-
-  const limitsHtml = prov === 'gemini'
-    ? `<div class="usage-stat"><span>Free tier</span><span class="usage-val" style="color:var(--green)">1,500 req/day</span></div>
-       <div class="usage-stat"><span>Input token limit</span><span class="usage-val">1M tokens/req</span></div>
-       <div class="usage-stat"><span>Cost</span><span class="usage-val" style="color:var(--green)">Free</span></div>`
-    : prov === 'claude'
-    ? `<div class="usage-stat"><span>Model</span><span class="usage-val">claude-haiku-4-5</span></div>
-       <div class="usage-stat"><span>Input</span><span class="usage-val">$0.80 / 1M tokens</span></div>
-       <div class="usage-stat"><span>Output</span><span class="usage-val">$4.00 / 1M tokens</span></div>`
-    : `<div style="font-size:13px;color:var(--text-dim);padding:12px 0">No AI provider configured.</div>`;
-
-  document.getElementById('usage-limits').innerHTML = limitsHtml;
   showScreen('api-usage');
 }
 
