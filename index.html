@@ -766,6 +766,26 @@ function renderTopBarUser() {
   if (user && c.ghUser) user.textContent = `@${c.ghUser}`;
 }
 
+function renderHomeActions(t) {
+  const actions = document.getElementById('hm-actions');
+  if (!actions) return;
+  const s = DAY_META[t.dow];
+  // Use deferred session type from weekLogCache when today is nominally a rest day
+  const effectiveType = weekLogCache[t.dow]?.sessionType || s.type;
+  const ai = hasAnyAI();
+  if (effectiveType === 'rest') {
+    actions.innerHTML = `<div style="color:var(--text-muted);font-size:13px;padding:8px 0">Rest + prehab day — no logging needed</div>`;
+  } else if (effectiveType === 'run') {
+    actions.innerHTML = `
+      <button class="btn btn-primary" onclick="showWorkout('cardio-${t.dow}')">Log Cardio Session</button>
+      ${ai ? `<button class="btn btn-ai" onclick="loadAIBrief()">✨ AI Workout Brief</button>` : ''}`;
+  } else {
+    actions.innerHTML = `
+      <button class="btn btn-primary" onclick="showWorkout('both-${t.dow}')">Log Today's Workout</button>
+      ${ai ? `<button class="btn btn-ai" onclick="loadAIBrief()">✨ AI Workout Brief</button>` : ''}`;
+  }
+}
+
 function renderHome() {
   const week = getWeek(), phase = getPhase(week);
   const t = todayInfo();
@@ -777,20 +797,8 @@ function renderHome() {
 
   renderTopBarUser();
 
-  // Action buttons
-  const actions = document.getElementById('hm-actions');
-  const ai = hasAnyAI();
-  if (s.type === 'rest') {
-    actions.innerHTML = `<div style="color:var(--text-muted);font-size:13px;padding:8px 0">Rest + prehab day — no logging needed</div>`;
-  } else if (s.type === 'run') {
-    actions.innerHTML = `
-      <button class="btn btn-primary" onclick="showWorkout('cardio-${t.dow}')">Log Cardio Session</button>
-      ${ai ? `<button class="btn btn-ai" onclick="loadAIBrief()">✨ AI Workout Brief</button>` : ''}`;
-  } else {
-    actions.innerHTML = `
-      <button class="btn btn-primary" onclick="showWorkout('both-${t.dow}')">Log Today's Workout</button>
-      ${ai ? `<button class="btn btn-ai" onclick="loadAIBrief()">✨ AI Workout Brief</button>` : ''}`;
-  }
+  // Action buttons — call helper so it can be re-invoked after weekLogCache loads
+  renderHomeActions(t);
 
   // Week grid
   renderWeekGrid(t);
@@ -831,6 +839,8 @@ function renderHome() {
       trackerCache = raw;
       weekLogCache = parseWeekLogs(raw);
       renderWeekGrid(t2);
+      // Re-render action buttons now that weekLogCache is populated — handles deferred sessions
+      renderHomeActions(t2);
     }).catch(() => {});
   }
 }
@@ -1545,10 +1555,12 @@ function parseWeekLogs(trackerMd) {
       d.setDate(today.getDate() - sunOff + i + weekOffset * 7);
       // Use local date to match todayInfo() — avoids UTC/local timezone mismatch
       const dateStr = `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
-      if (!trackerMd.includes(dateStr)) continue;
-      const idx     = trackerMd.indexOf(dateStr);
-      const start   = trackerMd.lastIndexOf('\n', Math.max(0, idx - 20));
-      const snippet = trackerMd.slice(start, idx + 400).trim();
+      // Match only section headers (### ... YYYY-MM-DD) to avoid false positives from plan notes
+      const headerRe = new RegExp(`^#{1,4}[^\\n]*${dateStr}`, 'm');
+      const match = headerRe.exec(trackerMd);
+      if (!match) continue;
+      const idx     = match.index;
+      const snippet = trackerMd.slice(idx, idx + 500).trim();
       const key     = weekOffset === 0 ? i : `next-${i}`;
       result[key]   = { logged: true, snippet, dateStr, sessionType: detectSessionType(snippet) };
     }
