@@ -200,6 +200,23 @@ Per §5: linear progression on TM, +5/wk if clean RPE 7. AMRAP test every 4 wks.
 1. **Sauna** — STOP per §11.E (Accutane rhabdo risk).
 1. **Max HR re-test** — schedule for W6–W8 on the run (treadmill 1% or 1500m all-out) once Phase B established. Expect 195–200.
 
+### Consult Note — 2026-05-10
+> **Decisions / Carry-forwards:**
+> -   **Hypertrophy B lift session:** Officially punted from Saturday, May 9, to Sunday, May 10.
+> -   **Rowing-specific Z1 HR cap:** Adjusted to ≤158 bpm (effective immediately).
+> -   **Running Z1 HR cap:** Remains at ≤143 bpm (until re-test W6-W8).
+> -   **Lat pulldown (Hypertrophy B):** Anchor set 1 at 125 lbs, drift up to 130 lbs for sets 2-3, back off to 120 lbs for set 4. Target RPE 8, last set to RIR 1.
+> -   **Chest-supported row (Hypertrophy B):** Add this NEW exercise, 3 sets of 10 reps @ 80 lbs. Target RPE 8.
+> -   **Cable lateral raise (Hypertrophy B):** 3 sets @ 5 lbs/side uni, RPE 9.
+> -   **Preacher curl machine (Hypertrophy B):** 3 sets of 12 reps @ 50 lbs/arm. Target RPE 8.
+> -   **Triceps pushdown (Hypertrophy B):** Hold 42.5 lbs for all 3 sets until clean RIR 2 across all sets.
+> -   **Hanging knee raise (Hypertrophy B):** 3 sets of 10 reps, RPE 8.
+> -   **Seated calf raise (Hypertrophy B):** 4 sets of 12-15 reps @ 315 lbs, maintaining RIR 2.
+> -   **Soleus wall-sit isometric (Hypertrophy B):** Add this NEW exercise, 3 sets of 30–45 seconds. Knees ~80°, push through forefoot, RPE 7-8.
+> -   **Optional DB flye or pec deck (Hypertrophy B):** 2 sets, RPE 7, *if time allows and total lift stays within 40-minute cap*.
+> -   **Hypertrophy B session time cap:** Do not exceed 40 minutes. Prioritize dropping the optional chest set if running long.
+> -   **SI monitoring for new exercises:** Be particularly mindful of body's response to the new chest-supported row and soleus wall-sit; drop immediately if any SI discomfort occurs.
+
 -----
 
 ## Shoe Rotation
