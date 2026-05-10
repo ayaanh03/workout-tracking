@@ -399,6 +399,8 @@
     <div class="card">
       <div class="card-title">This Week</div>
       <div class="week-grid" id="hm-week"></div>
+      <div class="card-title" style="margin-top:16px">Next Week</div>
+      <div class="week-grid" id="hm-week-next"></div>
     </div>
 
     <!-- Phase status -->
@@ -1506,36 +1508,56 @@ const DNAMES_FULL = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday'
 
 function renderWeekGrid(t) {
   const DNAMES = ['S','M','T','W','T','F','S'];
+
+  // This week
   const el = document.getElementById('hm-week');
-  if (!el) return;
-  el.innerHTML = DNAMES.map((dn,i) => {
-    const dm  = DAY_META[i];
-    const cls = dm.type==='rest'?'rest':dm.type==='both'?'both':dm.type==='run'?'run':'lift';
-    const log = weekLogCache[i];
-    const logDot = log ? `<div class="day-logged">✓</div>` : '';
-    return `<div class="day-col" onclick="showDaySheet(${i})">
-      <div class="day-name">${dn}</div>
-      <div class="day-dot ${cls}${i===t.dow?' today':''}">●</div>
-      ${logDot}
-    </div>`;
-  }).join('');
+  if (el) {
+    el.innerHTML = DNAMES.map((dn,i) => {
+      const dm  = DAY_META[i];
+      const cls = dm.type==='rest'?'rest':dm.type==='both'?'both':dm.type==='run'?'run':'lift';
+      const log = weekLogCache[i];
+      return `<div class="day-col" onclick="showDaySheet(${i}, 0)">
+        <div class="day-name">${dn}</div>
+        <div class="day-dot ${cls}${i===t.dow?' today':''}">●</div>
+        ${log ? `<div class="day-logged">✓</div>` : ''}
+      </div>`;
+    }).join('');
+  }
+
+  // Next week
+  const elNext = document.getElementById('hm-week-next');
+  if (elNext) {
+    const nextWeek = getWeek() + 1;
+    elNext.innerHTML = DNAMES.map((dn,i) => {
+      const dm  = DAY_META[i];
+      const cls = dm.type==='rest'?'rest':dm.type==='both'?'both':dm.type==='run'?'run':'lift';
+      const log = weekLogCache[`next-${i}`];
+      return `<div class="day-col" onclick="showDaySheet(${i}, 1)">
+        <div class="day-name">${dn}</div>
+        <div class="day-dot ${cls}">●</div>
+        ${log ? `<div class="day-logged">✓</div>` : ''}
+      </div>`;
+    }).join('');
+  }
 }
 
 function parseWeekLogs(trackerMd) {
-  const today   = new Date();
-  const sunOff  = today.getDay();
-  const week    = getWeek();
-  const result  = {};
-  for (let i = 0; i < 7; i++) {
-    const d       = new Date(today);
-    d.setDate(today.getDate() - sunOff + i);
-    const dateStr = d.toISOString().slice(0, 10);
-    if (!trackerMd.includes(dateStr)) continue;
-    // Extract ~400 chars around the first occurrence of this date
-    const idx     = trackerMd.indexOf(dateStr);
-    const start   = trackerMd.lastIndexOf('\n', Math.max(0, idx - 20));
-    const snippet = trackerMd.slice(start, idx + 400).trim();
-    result[i] = { logged: true, snippet, dateStr };
+  const today  = new Date();
+  const sunOff = today.getDay();
+  const result = {};
+  // This week (keys: 0-6) and next week (keys: 'next-0' … 'next-6')
+  for (let weekOffset = 0; weekOffset <= 1; weekOffset++) {
+    for (let i = 0; i < 7; i++) {
+      const d       = new Date(today);
+      d.setDate(today.getDate() - sunOff + i + weekOffset * 7);
+      const dateStr = d.toISOString().slice(0, 10);
+      if (!trackerMd.includes(dateStr)) continue;
+      const idx     = trackerMd.indexOf(dateStr);
+      const start   = trackerMd.lastIndexOf('\n', Math.max(0, idx - 20));
+      const snippet = trackerMd.slice(start, idx + 400).trim();
+      const key     = weekOffset === 0 ? i : `next-${i}`;
+      result[key]   = { logged: true, snippet, dateStr };
+    }
   }
   return result;
 }
@@ -1544,13 +1566,15 @@ function parseWeekLogs(trackerMd) {
 // DAY SHEET
 // ═══════════════════════════════════════════
 
-function showDaySheet(dow) {
+function showDaySheet(dow, weekOffset = 0) {
   const dm  = DAY_META[dow];
-  const log = weekLogCache[dow];
+  const key = weekOffset === 0 ? dow : `next-${dow}`;
+  const log = weekLogCache[key];
   const t   = todayInfo();
   const d   = new Date();
-  d.setDate(d.getDate() - t.dow + dow);
+  d.setDate(d.getDate() - t.dow + dow + weekOffset * 7);
   const dateLabel = d.toLocaleDateString('en-US', { weekday:'long', month:'short', day:'numeric' });
+  const sheetWeek = getWeek() + weekOffset;
 
   const typeColor = dm.type==='rest'?'var(--text-dim)':dm.type==='both'?'var(--yellow)':dm.type==='run'?'var(--green)':'var(--accent)';
 
@@ -1558,8 +1582,10 @@ function showDaySheet(dow) {
   if (log) {
     logSection = `<div class="sheet-log-label">✓ Logged</div>
     <div class="sheet-log-snippet">${escHtml(log.snippet)}</div>`;
-  } else if (dow !== t.dow && dow < t.dow) {
+  } else if (weekOffset === 0 && dow < t.dow) {
     logSection = `<div style="font-size:13px;color:var(--text-muted);margin-bottom:14px">No log found for this day.</div>`;
+  } else if (weekOffset === 1) {
+    logSection = `<div style="font-size:13px;color:var(--text-muted);margin-bottom:14px">Scheduled — nothing logged yet.</div>`;
   }
 
   let actionBtns = '';
@@ -1575,7 +1601,7 @@ function showDaySheet(dow) {
 
   document.getElementById('day-sheet-content').innerHTML = `
     <div class="sheet-day-title" style="color:${typeColor}">${dm.icon} ${dateLabel}</div>
-    <div style="font-size:12px;font-weight:700;color:${typeColor};margin-bottom:6px;text-transform:uppercase;letter-spacing:0.06em">${dm.label}</div>
+    <div style="font-size:12px;font-weight:700;color:${typeColor};margin-bottom:6px;text-transform:uppercase;letter-spacing:0.06em">W${sheetWeek} · ${dm.label}</div>
     <div class="sheet-day-sub">${escHtml(dm.desc)}</div>
     ${logSection}
     ${actionBtns}`;
@@ -1831,10 +1857,12 @@ async function smartCommitToTracker(newContent, t, contentType) {
   const current = decodeURIComponent(escape(atob(file.content.replace(/\n/g,''))));
   const sha     = file.sha;
 
-  // Ask AI where to place the new content
-  const placementPrompt = `You are editing a Markdown training tracker file. Insert the following new content into the correct location so the file stays well-organized.
+  // Ask AI to apply the new content AND propagate all related changes across the file
+  const placementPrompt = `You are maintaining a Markdown training tracker file. A new log entry or note has been produced. Your job is to return the COMPLETE updated Tracker.md that:
+1. Inserts the new content in the correct location
+2. Propagates ALL implied changes to every other relevant section of the file
 
-NEW CONTENT TO INSERT:
+NEW CONTENT:
 ${newContent}
 
 CONTENT TYPE: ${contentType}
@@ -1843,13 +1871,22 @@ DATE: ${t.dateStr}
 CURRENT TRACKER.MD:
 ${current}
 
-Rules:
-- For lifting log entries (### Wn ...): insert at the BOTTOM of the ## Lifting Log section, before the next ## heading.
-- For cardio log rows (table rows starting with |): insert as the LAST ROW of the cardio table in ## Cardio Log, preserving table formatting.
-- For consult notes, adjustments, or general notes: insert at the bottom of an ## Adjustments / Notes section, or create one if absent, before any appendix.
-- NEVER insert in the middle of a table; always append rows at the end.
+INSERTION RULES:
+- Lifting log entries (### Wn ...): append at the BOTTOM of ## Lifting Log, before the next ## heading
+- Cardio log rows (| ... |): append as the LAST ROW of the cardio table in ## Cardio Log
+- Consult notes / decisions: append at the bottom of ## Adjustments or ## Notes section; create it if absent
+- NEVER insert in the middle of a table
 
-Return ONLY the complete updated Tracker.md file with the new content inserted. No explanation, no code fences.`;
+PROPAGATION RULES — apply ALL that are relevant:
+- If loads changed (e.g. "bumped incline to 135"): update the current loads / reference table with the new load
+- If SI/injury status changed (e.g. "day 6 symptom-free", "SI flared"): update the SI log and any symptom-free streak counter
+- If a phase gate criterion was met or un-met: update the Phase B Gate checklist or equivalent section
+- If a carry-forward or adjustment was noted (e.g. "hold pushdown at 42.5 next session"): add or update the Adjustments / Carry-Forwards section
+- If a PR or load milestone was hit: note it in any PRs / Milestones section if one exists
+- If the workout schedule changed (session swapped, skipped, moved, or a rest day added): update the weekly plan table or schedule section to reflect the change
+- If today's workout note conflicts with a previous carry-forward, resolve the conflict in the Adjustments section
+
+Return ONLY the complete updated Tracker.md. No explanation, no code fences, no preamble.`;
 
   const updatedMd = await callAI(placementPrompt);
 
