@@ -399,6 +399,8 @@
     <div class="card">
       <div class="card-title">This Week</div>
       <div class="week-grid" id="hm-week"></div>
+      <div class="card-title" style="margin-top:16px">Next Week</div>
+      <div class="week-grid" id="hm-week-next"></div>
     </div>
 
     <!-- Phase status -->
@@ -1506,36 +1508,56 @@ const DNAMES_FULL = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday'
 
 function renderWeekGrid(t) {
   const DNAMES = ['S','M','T','W','T','F','S'];
+
+  // This week
   const el = document.getElementById('hm-week');
-  if (!el) return;
-  el.innerHTML = DNAMES.map((dn,i) => {
-    const dm  = DAY_META[i];
-    const cls = dm.type==='rest'?'rest':dm.type==='both'?'both':dm.type==='run'?'run':'lift';
-    const log = weekLogCache[i];
-    const logDot = log ? `<div class="day-logged">✓</div>` : '';
-    return `<div class="day-col" onclick="showDaySheet(${i})">
-      <div class="day-name">${dn}</div>
-      <div class="day-dot ${cls}${i===t.dow?' today':''}">●</div>
-      ${logDot}
-    </div>`;
-  }).join('');
+  if (el) {
+    el.innerHTML = DNAMES.map((dn,i) => {
+      const dm  = DAY_META[i];
+      const cls = dm.type==='rest'?'rest':dm.type==='both'?'both':dm.type==='run'?'run':'lift';
+      const log = weekLogCache[i];
+      return `<div class="day-col" onclick="showDaySheet(${i}, 0)">
+        <div class="day-name">${dn}</div>
+        <div class="day-dot ${cls}${i===t.dow?' today':''}">●</div>
+        ${log ? `<div class="day-logged">✓</div>` : ''}
+      </div>`;
+    }).join('');
+  }
+
+  // Next week
+  const elNext = document.getElementById('hm-week-next');
+  if (elNext) {
+    const nextWeek = getWeek() + 1;
+    elNext.innerHTML = DNAMES.map((dn,i) => {
+      const dm  = DAY_META[i];
+      const cls = dm.type==='rest'?'rest':dm.type==='both'?'both':dm.type==='run'?'run':'lift';
+      const log = weekLogCache[`next-${i}`];
+      return `<div class="day-col" onclick="showDaySheet(${i}, 1)">
+        <div class="day-name">${dn}</div>
+        <div class="day-dot ${cls}">●</div>
+        ${log ? `<div class="day-logged">✓</div>` : ''}
+      </div>`;
+    }).join('');
+  }
 }
 
 function parseWeekLogs(trackerMd) {
-  const today   = new Date();
-  const sunOff  = today.getDay();
-  const week    = getWeek();
-  const result  = {};
-  for (let i = 0; i < 7; i++) {
-    const d       = new Date(today);
-    d.setDate(today.getDate() - sunOff + i);
-    const dateStr = d.toISOString().slice(0, 10);
-    if (!trackerMd.includes(dateStr)) continue;
-    // Extract ~400 chars around the first occurrence of this date
-    const idx     = trackerMd.indexOf(dateStr);
-    const start   = trackerMd.lastIndexOf('\n', Math.max(0, idx - 20));
-    const snippet = trackerMd.slice(start, idx + 400).trim();
-    result[i] = { logged: true, snippet, dateStr };
+  const today  = new Date();
+  const sunOff = today.getDay();
+  const result = {};
+  // This week (keys: 0-6) and next week (keys: 'next-0' … 'next-6')
+  for (let weekOffset = 0; weekOffset <= 1; weekOffset++) {
+    for (let i = 0; i < 7; i++) {
+      const d       = new Date(today);
+      d.setDate(today.getDate() - sunOff + i + weekOffset * 7);
+      const dateStr = d.toISOString().slice(0, 10);
+      if (!trackerMd.includes(dateStr)) continue;
+      const idx     = trackerMd.indexOf(dateStr);
+      const start   = trackerMd.lastIndexOf('\n', Math.max(0, idx - 20));
+      const snippet = trackerMd.slice(start, idx + 400).trim();
+      const key     = weekOffset === 0 ? i : `next-${i}`;
+      result[key]   = { logged: true, snippet, dateStr };
+    }
   }
   return result;
 }
@@ -1544,13 +1566,15 @@ function parseWeekLogs(trackerMd) {
 // DAY SHEET
 // ═══════════════════════════════════════════
 
-function showDaySheet(dow) {
+function showDaySheet(dow, weekOffset = 0) {
   const dm  = DAY_META[dow];
-  const log = weekLogCache[dow];
+  const key = weekOffset === 0 ? dow : `next-${dow}`;
+  const log = weekLogCache[key];
   const t   = todayInfo();
   const d   = new Date();
-  d.setDate(d.getDate() - t.dow + dow);
+  d.setDate(d.getDate() - t.dow + dow + weekOffset * 7);
   const dateLabel = d.toLocaleDateString('en-US', { weekday:'long', month:'short', day:'numeric' });
+  const sheetWeek = getWeek() + weekOffset;
 
   const typeColor = dm.type==='rest'?'var(--text-dim)':dm.type==='both'?'var(--yellow)':dm.type==='run'?'var(--green)':'var(--accent)';
 
@@ -1558,8 +1582,10 @@ function showDaySheet(dow) {
   if (log) {
     logSection = `<div class="sheet-log-label">✓ Logged</div>
     <div class="sheet-log-snippet">${escHtml(log.snippet)}</div>`;
-  } else if (dow !== t.dow && dow < t.dow) {
+  } else if (weekOffset === 0 && dow < t.dow) {
     logSection = `<div style="font-size:13px;color:var(--text-muted);margin-bottom:14px">No log found for this day.</div>`;
+  } else if (weekOffset === 1) {
+    logSection = `<div style="font-size:13px;color:var(--text-muted);margin-bottom:14px">Scheduled — nothing logged yet.</div>`;
   }
 
   let actionBtns = '';
@@ -1575,7 +1601,7 @@ function showDaySheet(dow) {
 
   document.getElementById('day-sheet-content').innerHTML = `
     <div class="sheet-day-title" style="color:${typeColor}">${dm.icon} ${dateLabel}</div>
-    <div style="font-size:12px;font-weight:700;color:${typeColor};margin-bottom:6px;text-transform:uppercase;letter-spacing:0.06em">${dm.label}</div>
+    <div style="font-size:12px;font-weight:700;color:${typeColor};margin-bottom:6px;text-transform:uppercase;letter-spacing:0.06em">W${sheetWeek} · ${dm.label}</div>
     <div class="sheet-day-sub">${escHtml(dm.desc)}</div>
     ${logSection}
     ${actionBtns}`;
