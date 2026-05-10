@@ -783,7 +783,6 @@ function renderHome() {
   } else {
     actions.innerHTML = `
       <button class="btn btn-primary" onclick="showWorkout('both-${t.dow}')">Log Today's Workout</button>
-      <button class="btn btn-secondary" onclick="showWorkout('cardio-${t.dow}')">Log Cardio Only</button>
       ${ai ? `<button class="btn btn-ai" onclick="loadAIBrief()">✨ AI Workout Brief</button>` : ''}`;
   }
 
@@ -1049,30 +1048,20 @@ function renderWorkout() {
       <div class="ai-brief-body">${refRows}</div>
     </div>`;
 
-    // For 'both' days, append the cardio section
-    let cardioHtml = '';
-    if (isBoth) {
-      const dm2 = DAY_META[dow];
-      wkData['cardio'] = { modality:'', duration:'', distance:'', avgHr:'', peakHr:'', pace:'', notes:'' };
-      cardioHtml = buildCardioHtml(dm2, currentBrief?.cardio, 'Cardio Session');
-    }
+    // For 'both' days, show a cardio reference card above the shared textarea
+    const cardioRefHtml = isBoth ? cardioRefCard(DAY_META[dow], currentBrief?.cardio, 'Cardio Targets') : '';
 
-    const html = refCard + cardioHtml + liftTextBlock(sessionTitle) + `<div id="wk-preview"></div>`;
+    const html = refCard + cardioRefHtml + liftTextBlock(sessionTitle) + `<div id="wk-preview"></div>`;
     document.getElementById('wk-content').innerHTML = html;
 
   } else {
     // ── Cardio-only ──────────────────────────────────────────────────
     const dow = parseInt(wkType.split('-')[1]);
     const dm  = DAY_META[dow];
-    document.getElementById('wk-title').textContent = currentBrief?.cardio?.prescription
-      ? currentBrief.sessionTitle || dm.label
-      : dm.label;
-    wkData['cardio'] = { modality:'', duration:'', distance:'', avgHr:'', peakHr:'', pace:'', notes:'' };
+    const sessionTitle = currentBrief?.sessionTitle || dm.label;
+    document.getElementById('wk-title').textContent = sessionTitle;
 
-    const aiCardio = currentBrief?.cardio;
-    let html = buildCardioHtml(dm, aiCardio, dm.label);
-    html += nlBlock(hasAnyAI(), dm.label);
-    html += `<div id="wk-preview"></div>`;
+    const html = cardioRefCard(dm, currentBrief?.cardio, sessionTitle) + liftTextBlock(sessionTitle) + `<div id="wk-preview"></div>`;
     document.getElementById('wk-content').innerHTML = html;
   }
 
@@ -1085,44 +1074,16 @@ function renderWorkout() {
   updateProgress();
 }
 
-function buildCardioHtml(dm, aiCardio, sectionTitle) {
-  const cardioDesc = aiCardio?.prescription
-    ? `<div style="margin-bottom:6px"><strong>${escHtml(aiCardio.prescription)}</strong></div>
-       ${aiCardio.paceTarget ? `<div style="font-size:12px;color:#c4b5fd">🎯 Pace: ${escHtml(aiCardio.paceTarget)}</div>` : ''}
-       ${aiCardio.hrTarget   ? `<div style="font-size:12px;color:#c4b5fd">💓 HR: ${escHtml(aiCardio.hrTarget)}</div>` : ''}
-       ${aiCardio.notes      ? `<div style="font-size:12px;color:var(--text-dim);margin-top:4px">${escHtml(aiCardio.notes)}</div>` : ''}`
-    : `<div style="font-size:13px;color:var(--text-dim)">${escHtml(dm.desc)}</div>`;
-
-  return `<div class="cardio-block">
-    <div class="cardio-title">${escHtml(sectionTitle)}${aiCardio?.prescription ? ' <span style="font-size:11px;color:#c4b5fd">✨ AI plan</span>' : ''}</div>
-    <div class="cardio-desc" style="margin-bottom:12px">${cardioDesc}</div>
-    <div class="form-group" style="margin-bottom:12px">
-      <div class="field-label">Modality</div>
-      <select onchange="wkData['cardio'].modality=this.value;updateProgress()">
-        <option value="">— select —</option>
-        <option>Run (outdoor)</option>
-        <option>Run (treadmill)</option>
-        <option>Row</option>
-        <option>Bike</option>
-        <option>Walk-jog drill</option>
-      </select>
-    </div>
-    <div class="cardio-grid">
-      <div class="field-wrap"><div class="field-label">Duration (min)</div>
-        <input type="number" inputmode="numeric" placeholder="—" oninput="wkData['cardio'].duration=this.value;updateProgress()"></div>
-      <div class="field-wrap"><div class="field-label">Distance (mi/m)</div>
-        <input type="text" placeholder="—" oninput="wkData['cardio'].distance=this.value"></div>
-      <div class="field-wrap"><div class="field-label">Avg HR</div>
-        <input type="number" inputmode="numeric" placeholder="bpm" oninput="wkData['cardio'].avgHr=this.value"></div>
-      <div class="field-wrap"><div class="field-label">Peak HR</div>
-        <input type="number" inputmode="numeric" placeholder="bpm" oninput="wkData['cardio'].peakHr=this.value"></div>
-      <div class="field-wrap" style="grid-column:span 2"><div class="field-label">Avg Pace / Split</div>
-        <input type="text" placeholder="e.g. 10:30/mi or 2:22/500m" oninput="wkData['cardio'].pace=this.value"></div>
-    </div>
-    <div style="margin-top:10px">
-      <div class="field-label">Notes</div>
-      <textarea rows="3" placeholder="zone compliance, feel, SI status, strides, decoupling…" oninput="wkData['cardio'].notes=this.value;updateProgress()"></textarea>
-    </div>
+function cardioRefCard(dm, aiCardio, sectionTitle) {
+  const desc = aiCardio?.prescription
+    ? `<div class="ai-ex-row"><div class="ai-ex-name">${escHtml(aiCardio.prescription)}</div></div>
+       ${aiCardio.paceTarget ? `<div class="ai-ex-row"><div class="ai-ex-name" style="color:var(--text-dim)">Pace target</div><div class="ai-ex-target">${escHtml(aiCardio.paceTarget)}</div></div>` : ''}
+       ${aiCardio.hrTarget   ? `<div class="ai-ex-row"><div class="ai-ex-name" style="color:var(--text-dim)">HR target</div><div class="ai-ex-target">${escHtml(aiCardio.hrTarget)}</div></div>` : ''}
+       ${aiCardio.notes      ? `<div style="font-size:12px;color:var(--text-dim);padding:6px 0">${escHtml(aiCardio.notes)}</div>` : ''}`
+    : `<div style="font-size:13px;color:var(--text-dim);padding:4px 0">${escHtml(dm.desc)}</div>`;
+  return `<div class="ai-brief" style="margin-bottom:12px">
+    <div class="ai-brief-header"><span>${aiCardio?.prescription ? '✨' : '🏃'}</span><h3>${escHtml(sectionTitle)} — Targets</h3></div>
+    <div class="ai-brief-body">${desc}</div>
   </div>`;
 }
 
@@ -1138,17 +1099,6 @@ function liftTextBlock(sessionLabel) {
   </div>`;
 }
 
-function nlBlock(aiAvailable, sessionLabel) {
-  if (!aiAvailable) return '';
-  return `<div class="nl-block">
-    <div class="nl-header"><span>✨</span><h3>Describe Your Workout (AI Parse)</h3></div>
-    <div class="nl-body">
-      <div class="field-label" style="margin-bottom:6px">Write anything — AI will format it for Tracker.md</div>
-      <textarea id="nl-text" rows="4" placeholder="e.g. &quot;Incline 130×8 RIR 2 for 3 sets, felt strong. Pushdown stayed at 42.5, hit RIR 2 all sets finally. Skipped rear delt. SI felt fine throughout, maybe 0-1/10.&quot;" oninput="updateProgress()"></textarea>
-      <button class="nl-parse-btn" id="nl-btn" onclick="parseWithAI()">✨ Parse &amp; Preview</button>
-    </div>
-  </div>`;
-}
 
 // ═══════════════════════════════════════════
 // FORM STATE
@@ -1160,9 +1110,7 @@ function updateProgress() {
   const nlText      = document.getElementById('nl-text')?.value?.trim() || '';
   const isLiftMode  = wkType.startsWith('lift-') || wkType.startsWith('both-');
 
-  // Cardio fields check
-  const cardio   = wkData['cardio'];
-  const hasCardio = cardio && (cardio.duration || cardio.distance || cardio.modality);
+  const hasCardio = false; // cardio is now textarea-only, no structured fields
 
   let ready = false;
   let label = '';
@@ -1277,22 +1225,7 @@ function clearPreview() {
 }
 
 function buildStructuredSummary() {
-  const lines = [];
-  if (wkType.startsWith('cardio-')) {
-    const c = wkData['cardio'];
-    if (!c) return '';
-    return Object.entries(c).filter(([,v])=>v).map(([k,v])=>`${k}: ${v}`).join(', ');
-  }
-  if ((wkType.startsWith('lift-') || wkType.startsWith('both-'))) {
-    const nlText = document.getElementById('nl-text')?.value?.trim();
-    if (nlText) lines.push(`Lift notes: ${nlText}`);
-  }
-  if (wkType.startsWith('both-') && wkData['cardio']) {
-    const c = wkData['cardio'];
-    const cardioStr = Object.entries(c).filter(([,v])=>v).map(([k,v])=>`${k}: ${v}`).join(', ');
-    if (cardioStr) lines.push(`Cardio — ${cardioStr}`);
-  }
-  return lines.join('\n');
+  return document.getElementById('nl-text')?.value?.trim() || '';
 }
 
 function escHtml(s) {
@@ -1593,9 +1526,7 @@ function showDaySheet(dow, weekOffset = 0) {
     if (dm.type === 'run') {
       actionBtns = `<button class="btn btn-primary" onclick="closeDaySheet();showWorkout('cardio-${dow}')">Log Cardio Session</button>`;
     } else {
-      actionBtns = `
-        <button class="btn btn-primary" onclick="closeDaySheet();showWorkout('both-${dow}')">Log Full Session</button>
-        <button class="btn btn-secondary" style="margin-top:8px" onclick="closeDaySheet();showWorkout('cardio-${dow}')">Log Cardio Only</button>`;
+      actionBtns = `<button class="btn btn-primary" onclick="closeDaySheet();showWorkout('both-${dow}')">Log Today's Workout</button>`;
     }
   }
 
