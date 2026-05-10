@@ -1019,6 +1019,22 @@ function renderWorkout() {
   const isLift  = wkType.startsWith('lift-') || isBoth;
   const isCardioOnly = wkType.startsWith('cardio-');
 
+  // Check if something was already logged today
+  const todayLog = weekLogCache[t.dow];
+  const alreadyLogged = !!todayLog;
+
+  // Banner shown when today has a prior log entry; textarea starts hidden until "Log Additional"
+  const alreadyLoggedBanner = alreadyLogged ? `
+    <div class="ai-brief" style="margin-bottom:12px;border-color:#15532e">
+      <div class="ai-brief-header"><span>✓</span><h3>Already logged today</h3></div>
+      <div class="ai-brief-body">
+        <pre style="font-size:11px;color:var(--text-dim);white-space:pre-wrap;margin:0;line-height:1.5">${escHtml(todayLog.snippet)}</pre>
+      </div>
+      <div style="padding:10px 14px 14px">
+        <button class="btn btn-secondary" style="width:100%" onclick="showAdditionalLog()">+ Log Additional</button>
+      </div>
+    </div>` : '';
+
   if (isLift) {
     const dow = parseInt(wkType.split('-')[1]);
     const isA = dow === 2;
@@ -1057,7 +1073,11 @@ function renderWorkout() {
     // For 'both' days, show a cardio reference card above the shared textarea
     const cardioRefHtml = isBoth ? cardioRefCard(DAY_META[dow], currentBrief?.cardio, 'Cardio Targets') : '';
 
-    const html = refCard + cardioRefHtml + liftTextBlock(sessionTitle) + `<div id="wk-preview"></div>`;
+    const logBlock = alreadyLogged
+      ? `<div id="wk-log-block" style="display:none">${liftTextBlock(sessionTitle)}</div>`
+      : liftTextBlock(sessionTitle);
+
+    const html = alreadyLoggedBanner + refCard + cardioRefHtml + logBlock + `<div id="wk-preview"></div>`;
     document.getElementById('wk-content').innerHTML = html;
 
   } else {
@@ -1067,17 +1087,36 @@ function renderWorkout() {
     const sessionTitle = currentBrief?.sessionTitle || dm.label;
     document.getElementById('wk-title').textContent = 'Log Today\'s Workout';
 
-    const html = cardioRefCard(dm, currentBrief?.cardio, sessionTitle) + liftTextBlock(sessionTitle) + `<div id="wk-preview"></div>`;
+    const logBlock = alreadyLogged
+      ? `<div id="wk-log-block" style="display:none">${liftTextBlock(sessionTitle)}</div>`
+      : liftTextBlock(sessionTitle);
+
+    const html = alreadyLoggedBanner + cardioRefCard(dm, currentBrief?.cardio, sessionTitle) + logBlock + `<div id="wk-preview"></div>`;
     document.getElementById('wk-content').innerHTML = html;
   }
 
-  // Restore save bar (may have been hidden by confirmSave)
+  // Restore save bar (hidden initially when already logged; revealed by showAdditionalLog)
+  const saveBtn     = document.getElementById('wk-save');
+  const progressTxt = document.getElementById('wk-progress');
+  if (alreadyLogged) {
+    if (saveBtn)      saveBtn.style.display = 'none';
+    if (progressTxt)  progressTxt.style.display = 'none';
+  } else {
+    if (saveBtn)      saveBtn.style.display = '';
+    if (progressTxt)  progressTxt.style.display = '';
+    updateProgress();
+  }
+}
+
+function showAdditionalLog() {
+  const block = document.getElementById('wk-log-block');
+  if (block) block.style.display = '';
   const saveBtn     = document.getElementById('wk-save');
   const progressTxt = document.getElementById('wk-progress');
   if (saveBtn)      saveBtn.style.display = '';
   if (progressTxt)  progressTxt.style.display = '';
-
   updateProgress();
+  block?.querySelector('textarea')?.focus();
 }
 
 function cardioRefCard(dm, aiCardio, sectionTitle) {
@@ -1543,8 +1582,9 @@ function showDaySheet(dow, weekOffset = 0) {
   }
 
   let actionBtns = '';
-  if (dm.type !== 'rest') {
-    if (dm.type === 'run') {
+  const isToday = weekOffset === 0 && dow === t.dow;
+  if (isToday && effectiveType !== 'rest') {
+    if (effectiveType === 'run') {
       actionBtns = `<button class="btn btn-primary" onclick="closeDaySheet();showWorkout('cardio-${dow}')">Log Cardio Session</button>`;
     } else {
       actionBtns = `<button class="btn btn-primary" onclick="closeDaySheet();showWorkout('both-${dow}')">Log Today's Workout</button>`;
