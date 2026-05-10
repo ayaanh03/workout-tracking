@@ -769,20 +769,46 @@ function renderTopBarUser() {
 function renderHomeActions(t) {
   const actions = document.getElementById('hm-actions');
   if (!actions) return;
-  const s = DAY_META[t.dow];
-  // Use deferred session type from weekLogCache when today is nominally a rest day
-  const effectiveType = weekLogCache[t.dow]?.sessionType || s.type;
-  const ai = hasAnyAI();
+  const s   = DAY_META[t.dow];
+  const ai  = hasAnyAI();
+  const dow = t.dow;
+
+  // Source of truth priority:
+  //   1. AI brief's today.type (uses inference, sees deferrals/swaps)
+  //   2. weekLogCache fallback (regex-based, may misfire on consult notes)
+  //   3. static DAY_META (program default)
+  const effectiveType = currentBrief?.today?.type
+                     || weekLogCache[dow]?.sessionType
+                     || s.type;
+
+  // AI inference for "did the athlete actually log a workout today?".
+  // Only the AI brief sets this — regex on tracker dates produces false
+  // positives (e.g. consult notes containing today's date).
+  const aiLogged = !!currentBrief?.today?.isLogged;
+  const summary  = currentBrief?.today?.loggedSummary || '';
+
+  // Build the "already logged" indicator (only when AI says so)
+  const loggedBlock = aiLogged
+    ? `<div style="background:#0a1505;border:1px solid #15532e;border-radius:8px;padding:10px 12px;margin-bottom:10px;font-size:12px;color:#86efac;line-height:1.5">
+         <strong>✓ Logged today</strong>${summary ? `<div style="margin-top:4px;color:var(--text-dim)">${escHtml(summary)}</div>` : ''}
+       </div>`
+    : '';
+
+  // Map effectiveType → wkType prefix so the workout screen renders the
+  // correct combination of cardio ref / lift block.
+  const wkPrefix = effectiveType === 'run'  ? 'cardio'
+                 : effectiveType === 'lift' ? 'lift'
+                 : 'both';
+  const buttonLabel = effectiveType === 'run'
+    ? (aiLogged ? '+ Log Additional Cardio' : 'Log Cardio Session')
+    : (aiLogged ? '+ Log Additional Workout' : "Log Today's Workout");
+
   if (effectiveType === 'rest') {
-    actions.innerHTML = `<div style="color:var(--text-muted);font-size:13px;padding:8px 0">Rest + prehab day — no logging needed</div>`;
-  } else if (effectiveType === 'run') {
-    actions.innerHTML = `
-      <button class="btn btn-primary" onclick="showWorkout('cardio-${t.dow}')">Log Cardio Session</button>
-      ${ai ? `<button class="btn btn-ai" onclick="loadAIBrief()">✨ AI Workout Brief</button>` : ''}`;
+    actions.innerHTML = loggedBlock + `<div style="color:var(--text-muted);font-size:13px;padding:8px 0">Rest + prehab day — no logging needed</div>${ai && !currentBrief ? `<button class="btn btn-ai" onclick="loadAIBrief()">✨ AI Workout Brief</button>` : ''}`;
   } else {
-    actions.innerHTML = `
-      <button class="btn btn-primary" onclick="showWorkout('both-${t.dow}')">Log Today's Workout</button>
-      ${ai ? `<button class="btn btn-ai" onclick="loadAIBrief()">✨ AI Workout Brief</button>` : ''}`;
+    actions.innerHTML = loggedBlock + `
+      <button class="btn btn-primary" onclick="showWorkout('${wkPrefix}-${dow}')">${escHtml(buttonLabel)}</button>
+      ${ai && !currentBrief ? `<button class="btn btn-ai" onclick="loadAIBrief()">✨ AI Workout Brief</button>` : ''}`;
   }
 }
 
@@ -824,30 +850,36 @@ function renderHome() {
   document.getElementById('hm-loads').innerHTML = Object.entries(LOADS)
     .map(([n,v])=>`<tr><td>${n}</td><td>${v.load}</td></tr>`).join('');
 
-  // Silently pre-load today's cached brief + Tracker.md for week view
+  // Pre-fetch Tracker.md so weekLogCache is populated as a fallback (used only
+  // when the AI brief isn't loaded yet). The AI brief is the primary source
+  // of truth for "what's logged" once it arrives.
   if (getCfg().token) {
     const t2 = todayInfo();
-    if (hasAnyAI()) {
-      fetchGitHubFile('brief-cache.json').then(raw => {
-        const cache = JSON.parse(raw);
-        if (cache.date === t2.dateStr && cache.dow === t2.dow && cache.data) {
-          currentBrief = cache.data;
-        }
-      }).catch(() => {});
-    }
     fetchGitHubFile('Tracker.md').then(raw => {
       trackerCache = raw;
       weekLogCache = parseWeekLogs(raw);
-      renderWeekGrid(t2);
-      // Re-render action buttons now that weekLogCache is populated — handles deferred sessions
-      renderHomeActions(t2);
+      // Only re-render fallback UI if AI brief hasn't already populated it
+      if (!currentBrief) {
+        renderWeekGrid(t2);
+        renderHomeActions(t2);
+      }
     }).catch(() => {});
+
+    // Auto-load the AI brief — it drives the entire dashboard. Cache hits are
+    // free, misses cost one API call (worth it for accurate today + week info).
+    if (hasAnyAI()) {
+      loadAIBrief().catch(() => {});
+    }
   }
 }
 
 // ═══════════════════════════════════════════
 // AI BRIEF — with cross-device cache
 // ═══════════════════════════════════════════
+
+// Bump this when the AI brief schema changes — old caches with a different
+// version are ignored and regenerated so we don't render against stale shapes.
+const BRIEF_SCHEMA_VERSION = 2;
 
 async function loadAIBrief(forceRegenerate = false) {
   if (!hasAnyAI()) { showToast('No AI key — add secrets in GitHub repo settings','red'); return; }
@@ -863,7 +895,7 @@ async function loadAIBrief(forceRegenerate = false) {
     try {
       const cached = await fetchGitHubFile('brief-cache.json');
       const cache  = JSON.parse(cached);
-      if (cache.date === t.dateStr && cache.dow === t.dow && cache.data) {
+      if (cache.date === t.dateStr && cache.dow === t.dow && cache.version === BRIEF_SCHEMA_VERSION && cache.data) {
         renderBriefHTML(el, cache.data, s, { fromCache: true, cachedAt: cache.generatedAt });
         return;
       }
@@ -880,45 +912,86 @@ async function loadAIBrief(forceRegenerate = false) {
 
     const week  = getWeek(), phase = getPhase(week);
 
-    const prompt = `You are a personal running + lifting coach. Your job is to produce a specific, actionable workout brief for today based on BOTH documents below.
+    // Compute the date strings for this week and next week (Sun..Sat) so the AI
+    // can match each entry against the tracker without doing date math itself.
+    const pad = n => String(n).padStart(2, '0');
+    const weekDates = (offsetWeeks) => {
+      const today = new Date();
+      const sunOff = today.getDay();
+      const out = [];
+      for (let i = 0; i < 7; i++) {
+        const d = new Date(today);
+        d.setDate(today.getDate() - sunOff + i + offsetWeeks * 7);
+        out.push(`${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`);
+      }
+      return out;
+    };
+    const thisWeekDates = weekDates(0);
+    const nextWeekDates = weekDates(1);
+
+    const prompt = `You are a personal running + lifting coach. Your job is to produce a complete, AI-driven dashboard payload — today's workout brief PLUS the schedule + log status for this week and next week — based on BOTH documents below.
 
 IMPORTANT PRIORITY ORDER:
-1. Tracker.md is the ground truth — it contains the athlete's actual current loads, recent session notes, carry-forwards, SI/injury log, and adjustments that override the program defaults. Always reference it first.
-2. program.md provides the prescribed framework — use it for session structure, prescribed rep ranges, phase logic, and what exercises belong today.
-3. Where Tracker.md has a note or carry-forward that conflicts with program defaults, the Tracker wins.
+1. Tracker.md is the ground truth — actual current loads, recent session notes, carry-forwards, SI/injury log, schedule changes (e.g. session deferrals like "Hyp B punted from Sat to Sun"), and adjustments that override program defaults. Always reference it first.
+2. program.md provides the prescribed framework — session structure, prescribed rep ranges, phase logic, what exercises belong on which day.
+3. Where Tracker.md has a note, carry-forward, or schedule change that conflicts with program defaults, the Tracker wins.
 
-TODAY: ${t.display}, Week ${week} (${phase} phase), Day: ${t.short}
-SESSION: ${s.label}
+TODAY: ${t.display} (${t.dateStr}), Week ${week} (${phase} phase), Day-of-week ${t.short} (dow=${t.dow})
+THIS WEEK DATES (Sun→Sat): ${JSON.stringify(thisWeekDates)}
+NEXT WEEK DATES (Sun→Sat): ${JSON.stringify(nextWeekDates)}
 
 ════ TRACKER.MD (actual logs, current loads, notes, SI status) ════
 ${trackerMd}
 
-════ PROGRAM.MD (prescribed framework for today's session) ════
+════ PROGRAM.MD (prescribed framework) ════
 ${progMd}
 
 Return ONLY a JSON object (no markdown, no explanation) with this exact structure:
 {
-  "sessionTitle": "string",
+  "today": {
+    "sessionTitle": "string — descriptive title for today's session",
+    "type": "rest|run|lift|both",
+    "icon": "single emoji",
+    "shortLabel": "string — short label like 'Hypertrophy B (deferred)' for the today card",
+    "isLogged": false,
+    "loggedSummary": "string — short 1-2 line summary of what was actually logged today; empty string if not logged"
+  },
   "keyTargets": ["string", ...],
   "warnings": ["string", ...],
   "highlights": ["string", ...],
   "exercises": [{"name":"string","sets":3,"type":"strength|iso","target":"string","note":"string"}, ...],
-  "cardio": {"prescription":"string","paceTarget":"string","hrTarget":"string","notes":"string"},
+  "cardio": null OR {"prescription":"string","paceTarget":"string","hrTarget":"string","notes":"string"},
   "statusPills": [{"color":"green|orange|blue|red|purple","text":"string"}, ...],
   "phaseGate": [{"done":true,"text":"string","detail":"string"}, ...],
-  "currentLoads": [{"name":"string","load":"string","note":"string"}, ...]
+  "currentLoads": [{"name":"string","load":"string","note":"string"}, ...],
+  "thisWeek": [
+    {"dow":0,"dateStr":"YYYY-MM-DD","label":"string","type":"rest|run|lift|both","icon":"single emoji","description":"string","isLogged":false,"loggedSummary":"string"},
+    ...exactly 7 entries, dow 0=Sun through dow 6=Sat, in order
+  ],
+  "nextWeek": [
+    {"dow":0,"dateStr":"YYYY-MM-DD","label":"string","type":"rest|run|lift|both","icon":"single emoji","description":"string"},
+    ...exactly 7 entries, dow 0=Sun through dow 6=Sat, in order
+  ]
 }
 
-Rules:
-- keyTargets: 2-3 most important things to nail today, derived from tracker notes and carry-forwards
-- warnings: SI/injury/health cautions from the tracker's SI log and Adjustments section — be specific
-- highlights: things going well or positive carry-forwards from recent sessions
-- exercises: for lifting days — use exact loads from Tracker.md; include every exercise in today's circuit; sets = number of working sets; type = "iso" for isometric holds (planks, wall sits), "strength" for everything else
-- cardio: always include if there's a run/row component; use HR zones and paces from the tracker
-- statusPills: 3-6 dynamic status pills for the dashboard — derive from Tracker.md (e.g. SI symptom-free streak, phase gate progress, what's cleared/blocked, injury status). Use color: red=blocked/injured, green=cleared/good, orange=in-progress, blue=neutral info, purple=gate/milestone.
-- phaseGate: list every phase gate criterion from the tracker with current status (done true/false) and brief detail showing progress (e.g. "3/7 days"). Extract from the SI log and Phase B gate section.
-- currentLoads: current working loads for each lift — read from the most recent sessions in Tracker.md, override static defaults. Include all main lifts with actual last-used load.
-- Be specific with numbers. Cite the tracker ("last session: 125×8 RIR 2") when relevant.`;
+CRITICAL RULES (read carefully):
+- today.type: examine the tracker for any session deferrals, swaps, or carry-forwards that change today's prescribed session. E.g. if a Saturday lift was punted to Sunday, today.type for Sunday is "lift" or "both" (not "rest"). Use "lift" if today is lift only, "run" if cardio only, "both" if both lift+cardio, "rest" if rest day.
+- today.isLogged: TRUE only if the athlete has logged an ACTUAL workout for today (not a consult note, not a coaching adjustment, not a carry-forward note that merely mentions today's date, not a side-note that references today). Use INFERENCE: look for entries that contain real training data — exercise sets with weights/reps/RIR, run/row metrics with distance/time/pace/HR. A "### Consult Note — 2026-05-10" or "### Adjustments" block is NOT a logged workout. Only mark isLogged=true if you find concrete training execution.
+- today.loggedSummary: if isLogged=true, give a 1-2 line summary of what was actually performed (e.g. "Hyp B: incline 130×8, lat pulldown 125-130-120, pushdown 42.5×12 RIR 2"). Empty string otherwise.
+- exercises: include ONLY if today is a lift or both day with real exercises to perform. Empty array [] if today is rest/run-only or already logged. Use exact loads from Tracker.md; include every exercise in today's circuit; sets = number of working sets; type = "iso" for isometric holds, "strength" for everything else.
+- cardio: include ONLY if today actually has a run/row component scheduled. Set to null otherwise (do NOT populate with prehab/rest-day mobility — those don't belong here).
+- statusPills: 3-6 dynamic status pills. Color: red=blocked/injured, green=cleared/good, orange=in-progress, blue=neutral info, purple=gate/milestone.
+- phaseGate: list every phase gate criterion from the tracker with current status and brief detail (e.g. "3/7 days").
+- currentLoads: current working loads for each main lift — read from the most recent sessions in Tracker.md.
+- thisWeek / nextWeek: EXACTLY 7 entries each, dow 0..6 (Sun..Sat). Use the dateStr values I provided. For each day:
+  - label: a short, specific session name (e.g. "Threshold Row + Hyp A", "Long Z1 Run + Hyp B", "Rest + Prehab", "Easy Run Z1") — derived from program for that dow, modified by any tracker schedule changes.
+  - type: one of rest|run|lift|both based on what's actually planned for that day (after applying tracker overrides).
+  - icon: a single emoji that matches the session vibe.
+  - description: 1-2 sentences describing the session (paces, HR targets, exercise focus, etc.). Be specific and clean — no rambling.
+  - isLogged (thisWeek only): same inference rule as today.isLogged — only true if real training data was logged for that date.
+  - loggedSummary (thisWeek only): brief summary if logged, empty otherwise.
+- Be specific with numbers. Cite the tracker ("last session: 125×8 RIR 2") when relevant.
+- Output MUST be valid JSON. No trailing commas, no comments, no markdown fences.`;
 
     const resp = await callAI(prompt);
     let data;
@@ -948,10 +1021,12 @@ function renderBriefHTML(el, data, s, { fromCache = false, cachedAt = null } = {
     ? `cached · ${new Date(cachedAt).toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'})}`
     : `generated · ${new Date().toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'})}`;
 
+  const headerTitle = data.today?.sessionTitle || data.sessionTitle || s.label;
+
   let html = `<div class="ai-brief">
     <div class="ai-brief-header">
       <span>✨</span>
-      <h3>${escHtml(data.sessionTitle || s.label)}</h3>
+      <h3>${escHtml(headerTitle)}</h3>
       <span style="font-size:11px;color:#818cf8;flex:1;text-align:right">${timeLabel}</span>
       <button class="regen-btn" onclick="loadAIBrief(true)" title="Regenerate">↺</button>
     </div>
@@ -993,7 +1068,7 @@ function renderBriefHTML(el, data, s, { fromCache = false, cachedAt = null } = {
 
 async function saveBriefCache(data, t) {
   const cfg = getCfg();
-  const payload = JSON.stringify({ date: t.dateStr, dow: t.dow, generatedAt: new Date().toISOString(), data }, null, 2);
+  const payload = JSON.stringify({ version: BRIEF_SCHEMA_VERSION, date: t.dateStr, dow: t.dow, generatedAt: new Date().toISOString(), data }, null, 2);
   const apiUrl  = `https://api.github.com/repos/${cfg.repo}/contents/brief-cache.json`;
   const hdrs    = { 'Authorization': `token ${cfg.token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' };
 
@@ -1029,20 +1104,29 @@ function renderWorkout() {
   const phase = getPhase(wkWeek);
   document.getElementById('wk-badge').textContent = `W${wkWeek}`;
 
-  const isBoth  = wkType.startsWith('both-');
-  const isLift  = wkType.startsWith('lift-') || isBoth;
+  const isBoth       = wkType.startsWith('both-');
+  const isLift       = wkType.startsWith('lift-') || isBoth;
   const isCardioOnly = wkType.startsWith('cardio-');
 
-  // Check if something was already logged today
-  const todayLog = weekLogCache[t.dow];
-  const alreadyLogged = !!todayLog;
+  // AI inference for "is today's workout already logged?".
+  // When AI is configured, trust the AI brief exclusively — never fall back
+  // to regex, which false-positives on consult notes containing today's date.
+  // Without AI, fall back to regex (known limitation, accepted trade-off).
+  const fallbackLog = weekLogCache[t.dow];
+  const aiAvailable = hasAnyAI();
+  const alreadyLogged = aiAvailable
+    ? !!currentBrief?.today?.isLogged
+    : !!fallbackLog;
+  const loggedSummary = currentBrief?.today?.loggedSummary
+                     || (!aiAvailable ? fallbackLog?.snippet : '')
+                     || '';
 
   // Banner shown when today has a prior log entry; textarea starts hidden until "Log Additional"
   const alreadyLoggedBanner = alreadyLogged ? `
     <div class="ai-brief" style="margin-bottom:12px;border-color:#15532e">
       <div class="ai-brief-header"><span>✓</span><h3>Already logged today</h3></div>
       <div class="ai-brief-body">
-        <pre style="font-size:11px;color:var(--text-dim);white-space:pre-wrap;margin:0;line-height:1.5">${escHtml(todayLog.snippet)}</pre>
+        <pre style="font-size:11px;color:var(--text-dim);white-space:pre-wrap;margin:0;line-height:1.5">${escHtml(loggedSummary || '(see Tracker.md for details)')}</pre>
       </div>
       <div style="padding:10px 14px 14px">
         <button class="btn btn-secondary" style="width:100%" onclick="showAdditionalLog()">+ Log Additional</button>
@@ -1058,7 +1142,7 @@ function renderWorkout() {
     const fromAI      = briefExs?.length > 0;
     const briefSaysNoLift = currentBrief !== null && Array.isArray(briefExs) && briefExs.length === 0;
     const sessionTitle = fromAI
-      ? (currentBrief.sessionTitle || (isA ? 'Hypertrophy A' : 'Hypertrophy B'))
+      ? (currentBrief.today?.sessionTitle || currentBrief.today?.shortLabel || (isA ? 'Hypertrophy A' : 'Hypertrophy B'))
       : (isA ? 'Hypertrophy A' : 'Hypertrophy B');
 
     document.getElementById('wk-title').textContent = 'Log Today\'s Workout';
@@ -1084,8 +1168,13 @@ function renderWorkout() {
       <div class="ai-brief-body">${refRows}</div>
     </div>`;
 
-    // For 'both' days, show a cardio reference card above the shared textarea
-    const cardioRefHtml = isBoth ? cardioRefCard(DAY_META[dow], currentBrief?.cardio, 'Cardio Targets') : '';
+    // Show cardio ref card only when there's actually cardio scheduled today.
+    // Source of truth: AI brief's cardio block (null = no cardio). Fall back to
+    // wkType prefix only if the brief hasn't loaded.
+    const briefHasCardio = currentBrief?.cardio?.prescription;
+    const briefSaysNoCardio = currentBrief !== null && currentBrief?.cardio === null;
+    const showCardioRef = isBoth && (briefHasCardio || (!currentBrief && !briefSaysNoCardio));
+    const cardioRefHtml = showCardioRef ? cardioRefCard(DAY_META[dow], currentBrief?.cardio, 'Cardio Targets') : '';
 
     const logBlock = alreadyLogged
       ? `<div id="wk-log-block" style="display:none">${liftTextBlock(sessionTitle)}</div>`
@@ -1098,7 +1187,7 @@ function renderWorkout() {
     // ── Cardio-only ──────────────────────────────────────────────────
     const dow = parseInt(wkType.split('-')[1]);
     const dm  = DAY_META[dow];
-    const sessionTitle = currentBrief?.sessionTitle || dm.label;
+    const sessionTitle = currentBrief?.today?.sessionTitle || dm.label;
     document.getElementById('wk-title').textContent = 'Log Today\'s Workout';
 
     const logBlock = alreadyLogged
@@ -1401,7 +1490,9 @@ function buildStructuredMarkdown() {
 function buildLiftMarkdown(t) {
   const dow   = parseInt(wkType.split('-')[1]);
   const isA   = dow === 2;
-  const label = currentBrief?.sessionTitle || (isA ? 'Hypertrophy A' : 'Hypertrophy B');
+  const label = currentBrief?.today?.sessionTitle
+             || currentBrief?.today?.shortLabel
+             || (isA ? 'Hypertrophy A' : 'Hypertrophy B');
   const nlText = document.getElementById('nl-text')?.value?.trim() || '';
   return `### W${wkWeek} ${t.short} ${t.dateStr} — ${label}\n\n${nlText}\n`;
 }
@@ -1505,33 +1596,36 @@ function renderWeekGrid(t) {
 
   const typeToClass = type => type==='rest'?'rest':type==='both'?'both':type==='run'?'run':'lift';
 
-  // This week
+  // This week — prefer AI brief, fall back to weekLogCache regex, then DAY_META.
   const el = document.getElementById('hm-week');
   if (el) {
     el.innerHTML = DNAMES.map((dn,i) => {
-      const dm  = DAY_META[i];
-      const log = weekLogCache[i];
-      const cls = typeToClass(log?.sessionType || dm.type);
+      const aiDay = currentBrief?.thisWeek?.[i];
+      const dm    = DAY_META[i];
+      const log   = weekLogCache[i];
+      // AI inference is authoritative for "is this day logged?"
+      const isLogged = aiDay ? !!aiDay.isLogged : !!log;
+      const type     = aiDay?.type || log?.sessionType || dm.type;
+      const cls      = typeToClass(type);
       return `<div class="day-col" onclick="showDaySheet(${i}, 0)">
         <div class="day-name">${dn}</div>
         <div class="day-dot ${cls}${i===t.dow?' today':''}">●</div>
-        ${log ? `<div class="day-logged">✓</div>` : ''}
+        ${isLogged ? `<div class="day-logged">✓</div>` : ''}
       </div>`;
     }).join('');
   }
 
-  // Next week
+  // Next week — same priority order, no isLogged (future days).
   const elNext = document.getElementById('hm-week-next');
   if (elNext) {
-    const nextWeek = getWeek() + 1;
     elNext.innerHTML = DNAMES.map((dn,i) => {
-      const dm  = DAY_META[i];
-      const log = weekLogCache[`next-${i}`];
-      const cls = typeToClass(log?.sessionType || dm.type);
+      const aiDay = currentBrief?.nextWeek?.[i];
+      const dm    = DAY_META[i];
+      const type  = aiDay?.type || dm.type;
+      const cls   = typeToClass(type);
       return `<div class="day-col" onclick="showDaySheet(${i}, 1)">
         <div class="day-name">${dn}</div>
         <div class="day-dot ${cls}">●</div>
-        ${log ? `<div class="day-logged">✓</div>` : ''}
       </div>`;
     }).join('');
   }
@@ -1582,15 +1676,28 @@ function showDaySheet(dow, weekOffset = 0) {
   const dateLabel = d.toLocaleDateString('en-US', { weekday:'long', month:'short', day:'numeric' });
   const sheetWeek = getWeek() + weekOffset;
 
-  // If the log indicates a deferred session with a different type, use that instead of static DAY_META
-  const effectiveType  = (log?.sessionType) || dm.type;
-  const effectiveLabel = log?.sessionType === 'both' ? 'Hypertrophy B (deferred)'
-                       : log?.sessionType === 'run'  ? dm.label
-                       : dm.label;
+  // Pull AI brief data for this specific day, with priority over the regex
+  // weekLogCache (which can false-positive on consult notes).
+  const aiDay = weekOffset === 0
+    ? currentBrief?.thisWeek?.[dow]
+    : currentBrief?.nextWeek?.[dow];
+
+  const effectiveType  = aiDay?.type || log?.sessionType || dm.type;
+  const effectiveLabel = aiDay?.label || dm.label;
+  const effectiveDesc  = aiDay?.description || dm.desc;
+  const effectiveIcon  = aiDay?.icon || dm.icon;
   const typeColor = effectiveType==='rest'?'var(--text-dim)':effectiveType==='both'?'var(--yellow)':effectiveType==='run'?'var(--green)':'var(--accent)';
 
+  // AI inference for isLogged. Only show "logged" content when AI confirms it
+  // (this prevents the consult-note false positive from showing up here too).
+  const aiLogged = !!aiDay?.isLogged;
+
   let logSection = '';
-  if (log) {
+  if (aiLogged && aiDay?.loggedSummary) {
+    logSection = `<div class="sheet-log-label">✓ Logged</div>
+    <div class="sheet-log-snippet">${escHtml(aiDay.loggedSummary)}</div>`;
+  } else if (!aiDay && log) {
+    // Brief not loaded — fall back to regex snippet
     logSection = `<div class="sheet-log-label">✓ Logged</div>
     <div class="sheet-log-snippet">${escHtml(log.snippet)}</div>`;
   } else if (weekOffset === 0 && dow < t.dow) {
@@ -1602,17 +1709,19 @@ function showDaySheet(dow, weekOffset = 0) {
   let actionBtns = '';
   const isToday = weekOffset === 0 && dow === t.dow;
   if (isToday && effectiveType !== 'rest') {
-    if (effectiveType === 'run') {
-      actionBtns = `<button class="btn btn-primary" onclick="closeDaySheet();showWorkout('cardio-${dow}')">Log Cardio Session</button>`;
-    } else {
-      actionBtns = `<button class="btn btn-primary" onclick="closeDaySheet();showWorkout('both-${dow}')">Log Today's Workout</button>`;
-    }
+    const wkPrefix = effectiveType === 'run'  ? 'cardio'
+                   : effectiveType === 'lift' ? 'lift'
+                   : 'both';
+    const label = effectiveType === 'run'
+      ? (aiLogged ? '+ Log Additional Cardio' : 'Log Cardio Session')
+      : (aiLogged ? '+ Log Additional Workout' : "Log Today's Workout");
+    actionBtns = `<button class="btn btn-primary" onclick="closeDaySheet();showWorkout('${wkPrefix}-${dow}')">${escHtml(label)}</button>`;
   }
 
   document.getElementById('day-sheet-content').innerHTML = `
-    <div class="sheet-day-title" style="color:${typeColor}">${dm.icon} ${dateLabel}</div>
+    <div class="sheet-day-title" style="color:${typeColor}">${effectiveIcon} ${dateLabel}</div>
     <div style="font-size:12px;font-weight:700;color:${typeColor};margin-bottom:6px;text-transform:uppercase;letter-spacing:0.06em">W${sheetWeek} · ${escHtml(effectiveLabel)}</div>
-    ${!log?.sessionType ? `<div class="sheet-day-sub">${escHtml(dm.desc)}</div>` : ''}
+    <div class="sheet-day-sub">${escHtml(effectiveDesc)}</div>
     ${logSection}
     ${actionBtns}`;
 
@@ -1630,6 +1739,21 @@ function closeDaySheet(e) {
 
 function updateHomeFromBrief(data) {
   const week = getWeek(), phase = getPhase(week);
+  const t    = todayInfo();
+
+  // Today card — date label uses AI's icon + label when available
+  const dateEl = document.getElementById('hm-date');
+  if (dateEl) {
+    const icon = data.today?.icon || DAY_META[t.dow].icon;
+    const label = data.today?.shortLabel || data.today?.sessionTitle || DAY_META[t.dow].label;
+    dateEl.innerHTML = `${icon} ${escHtml(t.display)} · <span style="color:var(--text)">${escHtml(label)}</span>`;
+  }
+
+  // Re-render today's action button(s) using AI brief as source of truth
+  renderHomeActions(t);
+
+  // Re-render week grid using AI brief's thisWeek / nextWeek payload
+  renderWeekGrid(t);
 
   // Pills
   const pillsEl = document.getElementById('hm-pills');
