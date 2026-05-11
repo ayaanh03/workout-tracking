@@ -724,7 +724,7 @@ function renderSettingsAIStatus() {
   const hasG = !!getGeminiKey(), hasC = !!getClaudeKey();
   const src  = builtIn().geminiKey || builtIn().claudeKey ? '(server-configured)' : '(manual)';
   el.innerHTML = prov
-    ? `<span style="color:var(--green)">✓ ${prov === 'gemini' ? 'Gemini 2.5 Flash' : 'Claude Haiku'} active ${src}</span>`
+    ? `<span style="color:var(--green)">✓ ${prov === 'gemini' ? 'Gemini 3 Flash' : 'Claude Haiku'} active ${src}</span>`
     : `<span style="color:var(--red)">✗ No AI key found — enter below or add GitHub secrets</span>`;
   // Show/hide provider toggle
   const toggle = document.getElementById('ai-provider-toggle');
@@ -1403,7 +1403,7 @@ Also include a brief "AI Summary" line at the very end starting with "> AI:" sum
 
 Return ONLY the markdown — no explanation, no code fences, no JSON.`;
 
-    const resp = await callAI(prompt);
+    const resp = await callAI(prompt, 'commit');
     aiMarkdown = resp.trim();
 
     // Show preview
@@ -1583,14 +1583,15 @@ function buildLiftMarkdown(t) {
 // AI API — Gemini + Claude
 // ═══════════════════════════════════════════
 
-async function callAI(prompt) {
+async function callAI(prompt, mode = 'brief') {
   const provider = getAIProvider();
   if (!provider) throw new Error('No AI key configured — add GEMINI_API_KEY or ANTHROPIC_API_KEY in GitHub repo secrets');
 
   if (provider === 'gemini') {
     const key = getGeminiKey();
+    const geminiModel = mode === 'commit' ? 'gemini-3.1-flash-lite' : 'gemini-3-flash';
     const res = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${encodeURIComponent(key)}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/${geminiModel}:generateContent?key=${encodeURIComponent(key)}`,
       {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
@@ -2040,7 +2041,7 @@ Return ONLY the Markdown text to append to the Tracker.md. Format it as a concis
 
 If there are no concrete decisions worth logging, return exactly: NOTHING_TO_COMMIT`;
 
-    const raw = await callAI(extractPrompt);
+    const raw = await callAI(extractPrompt, 'commit');
     if (raw.trim() === 'NOTHING_TO_COMMIT') {
       showToast('No concrete decisions to log', 'blue');
       btn.disabled = false; btn.textContent = 'Commit to Tracker →';
@@ -2115,7 +2116,7 @@ PROPAGATION RULES — apply ALL that are relevant:
 
 Return ONLY the complete updated Tracker.md. No explanation, no code fences, no preamble.`;
 
-  const updatedMd = await callAI(placementPrompt);
+  const updatedMd = await callAI(placementPrompt, 'commit');
 
   // Commit
   const putRes = await fetch(apiBase, {
