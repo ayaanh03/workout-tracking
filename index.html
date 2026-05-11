@@ -248,6 +248,7 @@
     .regen-btn { transition: opacity 0.1s ease; }
 
     .section-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 10px; }
+    .files-tab.active { background: var(--accent) !important; color: #fff !important; }
 
     /* Clickable day column */
     .day-col { text-align: center; cursor: pointer; -webkit-user-select: none; user-select: none; touch-action: manipulation; border-radius: 8px; padding: 4px 2px; }
@@ -472,6 +473,10 @@
       <div class="di-icon">🤖</div>
       <div><div class="di-label">AI Consult</div><div class="di-sub">Chat · commit decisions to Tracker</div></div>
     </div>
+    <div class="drawer-item" onclick="closeDrawer();showFiles()">
+      <div class="di-icon">📄</div>
+      <div><div class="di-label">Files</div><div class="di-sub">Preview program.md · Tracker.md</div></div>
+    </div>
     <div class="drawer-item" onclick="closeDrawer();showApiUsage()">
       <div class="di-icon">📊</div>
       <div><div class="di-label">API Usage</div><div class="di-sub">Session calls · limits</div></div>
@@ -530,6 +535,25 @@
         <a href="https://aistudio.google.com/app/apikey" target="_blank" class="btn btn-secondary" style="width:auto;text-decoration:none">Gemini dashboard ↗</a>
         <a href="https://console.anthropic.com/settings/usage" target="_blank" class="btn btn-secondary" style="width:auto;text-decoration:none">Anthropic dashboard ↗</a>
       </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════ FILES ══════════ -->
+<div id="screen-files" class="screen">
+  <div class="top-bar">
+    <button class="icon-btn" onclick="showHome()">←</button>
+    <h1>Files</h1>
+    <button class="icon-btn" onclick="refreshFiles()" id="files-refresh-btn" title="Refresh" style="font-size:16px">↻</button>
+  </div>
+  <div class="content">
+    <div style="display:flex;gap:0;margin-bottom:16px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);overflow:hidden">
+      <button class="files-tab active" id="tab-program" onclick="switchFilesTab('program')" style="flex:1;padding:11px;font-size:14px;font-weight:700;border:none;background:transparent;color:var(--text);cursor:pointer;border-right:1px solid var(--border);touch-action:manipulation">Program</button>
+      <button class="files-tab" id="tab-tracker" onclick="switchFilesTab('tracker')" style="flex:1;padding:11px;font-size:14px;font-weight:700;border:none;background:transparent;color:var(--text-dim);cursor:pointer;touch-action:manipulation">Tracker</button>
+    </div>
+    <div id="files-loading" style="text-align:center;padding:40px;color:var(--text-dim);font-size:14px">Loading…</div>
+    <div id="files-content" style="display:none">
+      <pre id="files-text" style="font-size:12px;color:var(--text-dim);white-space:pre-wrap;word-break:break-word;font-family:'Courier New',monospace;line-height:1.6;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:14px"></pre>
     </div>
   </div>
 </div>
@@ -2183,6 +2207,58 @@ async function smartCommitToTracker(newContent, t, contentType) {
 
 function showApiUsage() {
   showScreen('api-usage');
+}
+
+// ═══════════════════════════════════════════
+// FILES SCREEN
+// ═══════════════════════════════════════════
+
+let filesCache = { program: null, tracker: null };
+let filesActiveTab = 'program';
+
+async function showFiles() {
+  showScreen('files');
+  await loadFilesTab(filesActiveTab);
+}
+
+async function loadFilesTab(tab) {
+  const loading = document.getElementById('files-loading');
+  const content = document.getElementById('files-content');
+  const pre = document.getElementById('files-text');
+
+  if (filesCache[tab]) {
+    pre.textContent = filesCache[tab];
+    loading.style.display = 'none';
+    content.style.display = 'block';
+    return;
+  }
+
+  loading.style.display = 'block';
+  content.style.display = 'none';
+  loading.textContent = 'Loading…';
+
+  try {
+    const filename = tab === 'program' ? 'program.md' : 'Tracker.md';
+    const text = await fetchGitHubFile(filename);
+    filesCache[tab] = text;
+    pre.textContent = text;
+    loading.style.display = 'none';
+    content.style.display = 'block';
+  } catch (e) {
+    loading.textContent = 'Failed to load file. Check your connection and GitHub token.';
+  }
+}
+
+function switchFilesTab(tab) {
+  filesActiveTab = tab;
+  document.querySelectorAll('.files-tab').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + tab).classList.add('active');
+  loadFilesTab(tab);
+}
+
+function refreshFiles() {
+  filesCache[filesActiveTab] = null;
+  loadFilesTab(filesActiveTab);
 }
 
 // ═══════════════════════════════════════════
