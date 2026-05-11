@@ -1622,7 +1622,7 @@ async function callAI(prompt, mode = 'brief') {
 
   if (provider === 'gemini') {
     const key = getGeminiKey();
-    const geminiModel = mode === 'commit' ? 'gemini-3.1-flash-lite' : 'gemini-3-flash';
+    const geminiModel = mode === 'commit' ? 'gemini-3.1-flash-lite' : 'gemini-3-flash-preview';
     const res = await fetch(
       `https://generativelanguage.googleapis.com/v1beta/models/${geminiModel}:generateContent?key=${encodeURIComponent(key)}`,
       {
