@@ -993,6 +993,7 @@ Return ONLY a JSON object (no markdown, no explanation) with this exact structur
       "rir": "string — RIR/RPE target like 'RIR 2', 'RPE 8', 'last set RIR 1'",
       "type": "strength|iso",
       "target": "string — muscle group or focus area",
+      "rest": "string — rest period between sets like '90s', '2 min', '2-3 min'",
       "note": "string — additional context, carry-forwards, or coaching cues"
     }
   ],
@@ -1030,6 +1031,7 @@ EXERCISES:
 - rir: the RIR/RPE target as a string, e.g. "RIR 2", "RPE 8", "last set RIR 1".
 - type: "iso" for isometric holds (wall-sit, plank, hold), "strength" for everything else.
 - target: muscle group / focus area, 1-3 words ("Lats", "Side delt", "Calves").
+- rest: prescribed rest between sets. Strength compounds typically "2-3 min", isolation/accessories "60-90s", iso holds "60s". Use program.md guidance if specified, otherwise sensible defaults.
 - note: short coaching cue, carry-forward, or special instruction. Keep concise.
 
 CARDIO:
@@ -1451,7 +1453,8 @@ function exerciseTargetHTML(e) {
                 : e.sets            ? `${e.sets} sets`
                 : e.reps            ? e.reps
                 : '';
-  const tail = [e.weight, e.rir].filter(Boolean).join(' · ');
+  const restStr = e.rest ? `rest ${e.rest}` : '';
+  const tail = [e.weight, e.rir, restStr].filter(Boolean).join(' · ');
 
   if (setsReps || tail) {
     return `<div style="font-weight:700;color:var(--text)">${escHtml(setsReps)}</div>${
