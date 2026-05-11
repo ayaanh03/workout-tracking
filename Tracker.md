@@ -8,11 +8,11 @@ Companion to `program.md` (v4.2 effective W3, week of 2026-05-04). Race: Sat 202
 
 **Phase: A** (Reset/Reintro). Max HR **191 bpm** locked W3 Fri 2026-05-08 (rower, peak on effort 1). True running max likely 195–200 (modality penalty + first-test CNS pullback). Re-test W6–W8 on the run (treadmill 1% or 1500m all-out).
 
-**Locked HR zones (off 191):** Run Z1 ≤143 / Row Z1 ≤158 (LT1 from 2026-05-09 long row, 3.3% decoupling) / Z2 162–168 / Z3 176–183 / Apple Z5 ≥172.
+**Locked HR zones (off 191):** Run Z1 ≤155 (LT1 updated 2026-05-11) / Row Z1 ≤155 / Z2 162–168 / Z3 176–183 / Apple Z5 ≥172.
 
 **Phase B running gate** (clean clock reset 2026-05-05; earliest run start ~May 23 conservative, May 27 – Jun 3 realistic per §7.B):
 
-- [ ] 7 consecutive symptom-free days — **5/7** (5/6, 5/7, 5/8, 5/9, 5/10)
+- [ ] 7 consecutive symptom-free days — **6/7** (5/6, 5/7, 5/8, 5/9, 5/10, 5/11)
 - [x] SI provocation tests negative (5/6)
 - [x] Single-leg bridge 30s/side pain-free (5/6)
 
@@ -46,6 +46,7 @@ Companion to `program.md` (v4.2 effective W3, week of 2026-05-04). Race: Sat 202
 4.  **Seated Calf:** failed RIR2 on last two sets (W3 Sun 5/10), hold 315 lb for 4 sets of 12-15 RIR2.
 5.  **Hanging Knees skipped** W3 Sun 5/10.
 6.  **New accessory: Chest Fly** (130lb, 2x12) added W3 Sun 5/10.
+7.  **Z1 Cap:** Adjusted to ~155 bpm following 2026-05-11 row; LT1 confirmed higher than previous 143 estimate.
 
 ---
 
@@ -105,12 +106,15 @@ Companion to `program.md` (v4.2 effective W3, week of 2026-05-04). Race: Sat 202
 |2026-05-05|W3 Tue|Z1 row|50:00 / 10725m|2:19.8, r20|avg 157, peak 168|nasal breathing throughout; supports LT1 > 75% MHR|
 |2026-05-08|W3 Fri|Max HR test (rower)|~38 min|progressive WU + 3min/3min/60s|peak 191 (effort 1)|test #1 hit max, #2 didn't (peripheral fatigue cap); see detail below|
 |2026-05-09|W3 Sat|Long row Z1|65:00 / 12847m|2:31.7 avg, r18-19|avg 154, peak 160|decoupling 3.3% (Friel EF, drift 153→156); LT1 confirmed >143, ~158–162; LT2 not crossed; Apple log 1:06:39 incl 90s pre-row sit|
+|2026-05-11|W4 Mon|Z1 row + sprints|41:20 / 8697m|2:22.5 avg; sprints 1:52→1:40|123–176, base ~150–160|Nasal breathing throughout; LT1 confirmed well above 143 cap; Z1 cap moved to ~155 pending Sat decoupling test.|
 
 ### Max HR Test Detail — 2026-05-08
 
 - **Protocol:** 15 min progressive WU (r18–24, 2:35 → 2:05) → 3 min all-out (peak 191) → 3 min easy r18–20 → 3 min all-out (no exceed 191) → 1 min paddle → 60s sprint → 10 min CD r18.
 - **Conditions:** 5g L-citrulline + collagen + vit C ~45 min pre-WU. Last meal ~3h prior. No SI symptoms during or post.
 - **History (rower):** 2019 = 209, 2026 = 191 (–18 bpm in 7y). ~5 bpm age (Tanaka), rest = detraining + first-test CNS pullback. Expect 3–8 bpm climb over macrocycle.
+
+> AI: Session confirms LT1 is significantly higher than previous 143 bpm estimate; Z1 working cap adjusted to ~155 bpm based on successful nasal-breathing sustainability at higher HRs.
 
 ---
 
@@ -125,6 +129,7 @@ Companion to `program.md` (v4.2 effective W3, week of 2026-05-04). Race: Sat 202
 |2026-05-08|clean|—|clean (max HR test)|clean|3/7 toward Phase B gate|
 |2026-05-09|clean|—|—|—|4/7 toward Phase B gate|
 |2026-05-10|clean|—|clean (Hyp B)|clean|5/7 toward Phase B gate|
+|2026-05-11|clean|—|clean|clean|6/7 toward Phase B gate|
 
 ---
 
@@ -159,3 +164,4 @@ Break-in: Vomero first run (Tue Z1) OK. Zoom Fly 6 needs 20–30 min easy break-
 |W1|n/a|n/a|n/a|✓ Sumo 4-23|✓ Threshold 4-24|✓ Long row + pump 4-25|started Thu|
 |W2|✓ Incline 4-27|✓ Z1 run 4-28|Off|✓ Squat 4-30|✓ Threshold 5-1|✓ Sumo + bike 5-2|complete|
 |W3|✓ Squat 5-4|✓ Z1 row 5-5|✓ Incline 5-6|✓ REST 5-7|✓ Max HR 191 5-8|✓ Long Z1 5-9|complete (Hyp B done Sun 5/10)|
+|W4|✓ Z1 row 5-11|—|—|—|—|—|in progress|
