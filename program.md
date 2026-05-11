@@ -1,35 +1,18 @@
 # Six-Month Sub-20 5K Program v4.2
 
-**Author:** Self
-**Version:** 4.2 — supersedes v4.1
 **Effective:** Week of May 4, 2026
 **Race day:** Saturday October 24, 2026 (W25)
-**Status:** Working document. Pin and reference.
 
 ---
 
-## 0. Goal Hierarchy & What Changed in v4.2
+## 0. Goal Hierarchy
 
 **Goal order (locked):**
 1. **Running** — sub-20:00 5K on Oct 24, 2026
 2. **Hypertrophy** — maintain or grow: side delts, biceps, triceps, abs, lats, calves
 3. **Strength** — grow incline bench
 
-Anything that doesn't serve those three goals is cut. **Running > everything.** When goals conflict (e.g. lift volume vs run quality), running wins.
-
-### v4.2 changes vs v4.1
-
-| Change | v4.1 | v4.2 | Why |
-|---|---|---|---|
-| Lower-body neuromuscular work | "None — covered by running" | **Staged additions: soleus isometric now; hill strides Phase B; opt-in reverse Nordic / Spanish squat / B-stance hip thrust Phase C** | Llanos-Lagos 2024, Eihara 2022, Bohm 2021, Add 2018: ~1–2% RE/durability benefit available at near-zero SI risk if dosed correctly |
-| Soleus | Seated calf only (Sat) | **Seated calf (Sat) + soleus wall-sit isometric 3×30–45s, 2×/wk (Tue + Sat after lifts)** | Bohm 2021 (PMC7893283): 14 wk plantar-flexor isometric → ~4% RE; soleus = main calf muscle at endurance pace |
-| Hill strides | Not programmed | **6–8 × 10–12 s @ 4–6% grade, walk-down recovery, 1×/wk after Mon easy run** — gates on SI clean ≥3 consecutive wks | Concentric-biased neuromuscular work without landing impact; safer than flat-ground bounding for SI |
-| Lats decision | "Decide at W8 — punt" | **RESOLVED: 4 sets/wk = maintenance only. Add chest-supported row 3×10 to Sat circuit Phase B onward for growth + rear delt double-duty** | Goal #2 says "maintain or grow"; chest-supp row dual-purposes for rear delts so cost is marginal |
-| Lower-body locked rules | Blanket prohibition on "loaded squat / leg press" | **Split into "permanent prohibitions" (sumo, leg press, heavy compound squat/deadlift) and "phase-gated optional adds" (single-leg bridge, reverse Nordic, Spanish squat, B-stance hip thrust)** | Reflects PT consensus: low-shear glute/quad isolation is fine once SI is asymptomatic; only axial/twisting/heavy-compound work is permanently out |
-| Confidence on sub-20 | ~50% Tier A | **~52–55% Tier A with staged adds** (still ~80% Tier B, ~95% Tier C) | Adds buy ~10–25 s if tolerated; SI risk dominates everything else |
-| Macrocycle table | No leg-work column | **Adds a Leg-work column** showing what's in each phase | Visibility |
-| Volume audit | No row for lower-body durability/RE work | **Adds a row** | Bookkeeping |
-| Plyometric drills (A/B skips, bounding) | Implicit — not addressed | **Explicitly excluded for the entire macrocycle** | Speed-specificity in Llanos-Lagos 2024 shows plyo benefits are at ≤12 km/h, not at sub-20 race pace; landing impact is SI-incompatible |
+Running > everything. When goals conflict (e.g. lift volume vs run quality), running wins.
 
 ### What's permanently out
 
@@ -165,7 +148,7 @@ These are *opt-in*, low-shear, low-SI-risk additions for marginal RE and durabil
 
 Train at **current** VDOT, not goal VDOT. Update after every test (§10).
 
-**Starting paces (assume current 5K ≈22:30–23:30, VDOT ~40):**
+**Reference paces (train at current VDOT, not goal VDOT; update after every test — current VDOT in Tracker.md):**
 | Pace | Run | Row 500m split |
 |---|---|---|
 | Easy / Z1 | 9:45–10:45 /mi | 2:15–2:25 (RPE 4–5; can talk in full sentences) |
@@ -243,7 +226,7 @@ See §2.C above. Race day Sat Oct 24:
 
 ## 5. Strength Progression — Incline BB Only
 
-**Current TM: 155 lb** (W2 confirmed 115×8 @ RPE 7 → e1RM ~150–155, then W3 Wed 125×8 RIR 2 → e1RM ~160; conservative 155 holds).
+**Current TM:** see Tracker.md — updated after each AMRAP test.
 
 | Phase | Day | Sets/Reps | Notes |
 |---|---|---|---|
@@ -255,8 +238,6 @@ See §2.C above. Race day Sat Oct 24:
 | Taper W24–W25 | None | — |
 
 **Progression rule:** all reps clean at prescribed RPE → +5 lb next session. Miss → repeat. Two misses → cut TM 5–7%.
-
-**Why incline BB and not flat:** athlete-specified strength target. Incline biases upper chest + front delt; trains the same movement pattern as flat with less anterior shoulder impingement risk. Bar path is steeper, so it's a slightly worse mechanical lift for absolute load — meaning TM growth will be modest (5–10 lb/8 wks once past the first 8 wks).
 
 ---
 
@@ -282,17 +263,10 @@ See §2.C above. Race day Sat Oct 24:
 
 ---
 
-## 7. SI Recovery + Running Reintroduction (preserved + calendar anchor)
+## 7. SI Recovery + Running Reintroduction
 
-Baseline flare: **Saturday May 2, 2026.**
-
-### 7.A Phase 0 — Acute (May 2–9)
-Lifting upper-only (no hinge load). Endurance: Z1 row only. Daily McGill Big 3 AM/PM. Walks ≥30 min/day. **PT visit this week.** Symptom log daily.
-
-→ Phase A criteria: 3 days rest pain ≤1/10 + walking ≤1/10 + Fortin negative + ≤1 provocation positive.
-
-### 7.B Phase A — Run-prep (May 9–~23)
-Endurance: Z1 row. Running prep: cadence drill (treadmill walk-jog) only when 7 consecutive clean days banked. Mon May 5 walking flare reset the count — **conservative Phase B trigger ≥May 23, realistic May 27–Jun 3.**
+### 7.A Phase A — Run-prep
+Endurance: Z1 row. Running prep: cadence drill (treadmill walk-jog) only when 7 consecutive clean days banked.
 
 Daily prehab: clamshells 2×15/side, side-lying hip abduction 2×12/side, single-leg glute bridge 2×8/side, bird-dog 3×8/side, McGill side plank 3×20–30 s/side, Tyler twists 3×15 + reverse Tyler 3×15.
 
@@ -300,20 +274,20 @@ Daily prehab: clamshells 2×15/side, side-lying hip abduction 2×12/side, single
 
 → Phase B criteria: 7 days symptom-free + all SI provocation tests negative + pain-free single-leg bridge 30 s/side.
 
-### 7.C Phase B — Running reintroduction
+### 7.B Phase B — Running reintroduction
 Treadmill flat Z1, 175–180 spm, Vomero Plus. Sequence:
 1. 5×(1 min jog ≥175 spm 0% / 4 min walk). Day 1.
 2. 4×(2 min jog / 3 min walk). Day 2 or 3.
 3. 3×(3 min jog / 2 min walk). Day 4–6.
 4. First continuous outdoor 15 min easy (flat, even surface, no hills, post-5-min walk WU). Day 7.
 5. 25 min continuous outdoor easy. Day 8–10.
-6. Transition to §4.B / §4.C run progression.
+6. Transition to §4.B / §4.C run progression (Base block).
 
 Saturday long stays on rower until 2 weeks of pain-free Z1 running. Friday quality stays on rower until same.
 
 **Hard rules:** no hill workouts (intentional ascent training) until W10 (8+ wks of pain-free running). Hill *strides* (10–12 s on 4–6% grade) eligible after 3 wks SI-clean of running per §11.A. Light rolling terrain on long runs OK after W7.
 
-### 7.D Flare response during build
+### 7.C Flare response during build
 - **Mild** (<3/10, no positive tests): drop one quality session, replace with row, continue.
 - **Moderate** (3–6/10, 1–2 positive tests): full row substitution 5–7 days; restart run progression at –1 step. **Pause all Phase B/C lower-body adds** for the return-to-run weeks.
 - **Severe** (>6/10 or 3+ positive tests): return to Phase 0; consult sports med; **goal downgrades to 21:30**. Drop all lower-body adds; restart from Phase A soleus only.
@@ -395,7 +369,7 @@ Goal: keep tendon out of reactive flare while continuing tensile loading.
 
 | Phase | Eligible additions | Advance criterion | Revert trigger |
 |---|---|---|---|
-| **A** (now → first run) | Soleus wall-sit only | 3 consecutive SI-clean weeks AND running re-introduced (Phase B per §7.C) | Any SI flare → stay in Phase A |
+| **A** (now → first run) | Soleus wall-sit only | 3 consecutive SI-clean weeks AND running re-introduced (Phase B per §7.B) | Any SI flare → stay in Phase A |
 | **B** (running re-established) | + Hill strides 1×/wk | 4 consecutive SI-clean weeks of running | SI flare moderate+ → drop hill strides for 2 wks, retry |
 | **C** (Phase B tolerated 4+ wks) | Opt-in: B-stance hip thrust, reverse Nordic, Spanish squat (one at a time, 48-hr test each) | Holds through Sharpen | Any SI symptoms within 48h of new add → drop that exercise |
 | **D** (Sharpen+) | **No new exercises**; maintain only what's working | n/a | Drop new adds last 10 days of taper regardless |
@@ -443,9 +417,8 @@ Z1 easy   = Apple Z1 + Z2          (≤75% MHR, talk in sentences)
 Z2 thresh = Apple Z3 + low Z4      (~85–88% MHR)
 Z3 VO2max = Apple high Z4 + Z5     (92–96% MHR)
 
-KEY PACES (current, update after every test)
-5K assumption 22:30 → train at VDOT 40
-  Easy 9:50/mi  T 8:00/mi  I 7:05/mi  R 6:25/mi
+KEY PACES (update from Tracker.md after every test — train at current VDOT, not goal VDOT)
+  Easy / T / I / R paces: see §4.A pace table
   Goal race pace 6:26/mi
 
 SESSION TYPES
@@ -499,53 +472,5 @@ C: sub-21:30  if W12 22:31–23:30
 D: PR-only    if W12 > 23:30
 ```
 
----
 
-## 13. Sub-20 Feasibility — Honest Assessment
-
-**24:00 → sub-20:00 is a 17% improvement in 25 weeks.**
-
-Signals that say it's possible:
-- Daniels VDOT: 24:00 = VDOT 39, sub-20 = VDOT 50 (11-point jump). Realistic gains: 3–6 points for trained runners; up to 8–10 for returning/detrained with prior history (the5krunner; Daniels 5K plan reviews; LetsRun consensus).
-- Detraining literature: 2.5 yr without consistent running predicts –20 to –25% VO2max from peak (PMC10853933). Apple Watch reading 54 ml/kg/min, derated 5–10 for non-runner overestimation, gives true ~44–49 — roughly a **22:00–23:00 5K runner already**, *higher* than the 24:00 PR predicts.
-- That gap is signal: the engine is partially intact from non-running aerobic work; the missing piece is gait-specific economy and lactate clearance at running paces.
-- Soleus isometric (Bohm 2021) + hill strides (concentric NM) buy ~1–2% RE if tolerated → ~10–25 s on race day.
-
-Signals that say it's tight:
-- Peak mileage 35–38 mpw is on the *low* end for sub-20 (LetsRun and Runna sub-20 guides cluster at 30–40 mpw).
-- SI joint flare is the binary risk. If it costs >2 weeks total, W12 likely slips to Tier B.
-- Llanos-Lagos 2024 says heavy compound (>80% 1RM) is the only RT modality reliably improving RE at sub-20 race pace (~15 km/h) — and that's exactly what SI forbids. Plyo benefits cap at ≤12 km/h. We're forced onto the lower-yield side of the RE evidence base.
-- Accutane increases rhabdo and tendon risk on aggressive ramps.
-
-**Confidence (with v4.2 staged adds):**
-- ~52–55% on Tier A (sub-20) — slight bump from v4.1 ~50% via soleus + hill strides RE benefit
-- ~80% on Tier B (sub-21)
-- ~95% on Tier C (sub-21:30)
-
-**Single biggest risk: SI joint. Protect it ruthlessly. The asymmetry: any leg-add that triggers a 2-week SI flare costs more in lost run training than it can possibly add in RE.** This is why v4.2 adds *only* low-shear, knee-bent, non-axial work — and why it gates everything new on multi-week clean windows.
-
-The W12 gate is the moment of truth. The program structure does not change between tiers — only race-day pacing and Sharpen-phase race-pace targets.
-
-**Largest single lever for sub-20 is not strength work — it's banking 8+ uninterrupted SI-clean weeks at 30+ mpw.** Everything in v4.2 protects that.
-
----
-
-## Sources
-
-**Run training:** Daniels' Running Formula (4th ed) • Pfitzinger, *Faster Road Racing* • Magness, *Science of Running* • Seiler & Kjerland 2006 (Scand J Med Sci Sports) • Stöggl & Sperlich 2014 (Front Physiol; PMC3912323) • Joyner & Coyle 2008 (J Physiol) • Heiderscheit 2011 cadence • PMC12440572 cadence systematic review.
-
-**Tapering:** Bosquet 2007 taper meta (Med Sci Sports Exerc) • Smyth & Lawlor 2021 (PMC8506252) • runnersconnect 5K-taper guide • marathonhandbook sub-20 guide • Runna sub-20 guide.
-
-**Strength + running:** Blagrove 2018 (Sports Med; PMC5889786) • Llanos-Lagos 2024 (Sports Med; PMC11052887) • Eihara 2022 (Sports Med-Open; PMC9653533) • Paavolainen 1999 (J Appl Physiol; PMID 10233114) • Storen 2008 • Mikkola 2007 • Saunders 2006 • Spurrs 2003 • Bohm 2021 soleus isometric (PMC7893283) • Ueno 2018 plantar-flexor stiffness (PMID 29287284).
-
-**Concurrent training / interference:** Wilson 2012 concurrent training meta (JSCR) • Doma 2024 review (PMC11359207, PMC12885173) • Schumann 2014 / 2022 • Robineau 2016.
-
-**Hypertrophy:** Schoenfeld dose-response volume metas • RP Strength volume landmarks (Israetel) • Iversen 2021 narrative review (PMC8449772).
-
-**SI joint / injury prevention:** Add 2018 SI dysfunction case series (PMC5808006) • Maharaj 2024 SI in endurance runners (PMC11148519) • Wu 2024 runner injury prevention meta (PMC11127851) • Lauersen 2014 BJSM • Bret Contreras / dellanave / ProNatal Fitness clinical guidance.
-
-**Accutane:** Carlson 2022 (PMC9287672) • Helms 2022 (PMC8857541) • PMC7660121 adolescent rhabdo case.
-
-**Cross-training:** Tanaka 1994 cross-training meta • Concept2 PM documentation.
-
-*v4.2 — drafted May 7, 2026. Treat all paces and TMs as targets, not commandments. Update VDOT after every test; update incline TM only if Tue/Fri quality runs stayed green that week. Your read on your own body trumps the schedule.*
+*Treat all paces and TMs as targets, not commandments. Update VDOT after every test; update incline TM only if quality runs stayed green that week. Body feedback trumps the schedule.*
