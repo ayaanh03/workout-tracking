@@ -39,8 +39,8 @@ Companion to `program.md` (v4.2 effective W3, week of 2026-05-04). Race: Sat 202
 
 ## Adjustments / Carry-forwards
 
-1. **Hyp B punted Sat 5/9 → Sun 5/10 (executed W3 Sun 5/10).**
-2. **SI watch:** chest-supp row + soleus wall-sit are NEW additions; drop immediately on any SI flare.
+1.  **Hyp B punted Sat 5/9 → Sun 5/10 (executed W3 Sun 5/10).**
+2.  **SI watch:** chest-supp row + soleus wall-sit are NEW additions; drop immediately on any SI flare.
 
 ---
 
