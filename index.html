@@ -724,7 +724,7 @@ function renderSettingsAIStatus() {
   const hasG = !!getGeminiKey(), hasC = !!getClaudeKey();
   const src  = builtIn().geminiKey || builtIn().claudeKey ? '(server-configured)' : '(manual)';
   el.innerHTML = prov
-    ? `<span style="color:var(--green)">✓ ${prov === 'gemini' ? 'Gemini 2.5 Flash' : 'Claude Haiku'} active ${src}</span>`
+    ? `<span style="color:var(--green)">✓ ${prov === 'gemini' ? 'Gemini 3 Flash' : 'Claude Haiku'} active ${src}</span>`
     : `<span style="color:var(--red)">✗ No AI key found — enter below or add GitHub secrets</span>`;
   // Show/hide provider toggle
   const toggle = document.getElementById('ai-provider-toggle');
@@ -1403,7 +1403,7 @@ Also include a brief "AI Summary" line at the very end starting with "> AI:" sum
 
 Return ONLY the markdown — no explanation, no code fences, no JSON.`;
 
-    const resp = await callAI(prompt);
+    const resp = await callAI(prompt, 'commit');
     aiMarkdown = resp.trim();
 
     // Show preview
@@ -1507,12 +1507,14 @@ function confirmSave() {
   document.getElementById('wk-progress').style.display = 'none';
 }
 
+let pendingCommit = null; // { updatedMd, sha, contentType, t, alsoCardio, dow }
+
 async function commitSave() {
   const cfg = getCfg();
   if (!cfg.token) { showToast('No GitHub token','red'); return; }
 
   const commitBtn = document.querySelector('#wk-content .btn-green');
-  if (commitBtn) { commitBtn.disabled = true; commitBtn.textContent = 'Saving…'; }
+  if (commitBtn) { commitBtn.disabled = true; commitBtn.textContent = 'Generating preview…'; }
 
   const alsoCardio = document.getElementById('also-log-cardio')?.checked;
   const dow = parseInt(wkType.split('-')[1]);
@@ -1536,9 +1538,37 @@ async function commitSave() {
     if (!newContent) { showToast('Nothing to save','red'); return; }
 
     const contentType = `W${wkWeek} ${t.short} ${label}`;
-    await smartCommitToTracker(newContent, t, contentType);
-    trackerCache = null; // invalidate cache
+    const { updatedMd, sha } = await generateTrackerUpdate(newContent, t, contentType);
+    pendingCommit = { updatedMd, sha, contentType, t, alsoCardio, dow };
 
+    const content = document.getElementById('wk-content');
+    content.innerHTML = `
+      <div class="preview-block">
+        <div class="preview-header">
+          <span style="font-size:16px">🤖</span>
+          <h3>AI-generated Tracker.md — review before pushing</h3>
+        </div>
+        <div class="preview-body" style="max-height:60vh;overflow:auto"><pre>${escHtml(updatedMd)}</pre></div>
+      </div>
+      <div style="display:flex;gap:10px;margin-top:4px">
+        <button class="btn btn-secondary" style="flex:1" onclick="renderWorkout()">← Edit</button>
+        <button class="btn btn-green" style="flex:1" onclick="pushPendingCommit()">Push to GitHub →</button>
+      </div>`;
+  } catch(err) {
+    showToast('Error: ' + err.message.slice(0,80),'red');
+    if (commitBtn) { commitBtn.disabled = false; commitBtn.textContent = 'Commit to Tracker →'; }
+  }
+}
+
+async function pushPendingCommit() {
+  if (!pendingCommit) { showToast('Nothing to push','red'); return; }
+  const btn = document.querySelector('#wk-content .btn-green');
+  if (btn) { btn.disabled = true; btn.textContent = 'Pushing…'; }
+  try {
+    await pushTrackerUpdate(pendingCommit);
+    trackerCache = null;
+    const { alsoCardio, dow } = pendingCommit;
+    pendingCommit = null;
     showToast('✓ Saved to Tracker.md!','green');
     if (alsoCardio) {
       setTimeout(() => showWorkout(`cardio-${dow}`), 1200);
@@ -1547,7 +1577,7 @@ async function commitSave() {
     }
   } catch(err) {
     showToast('Error: ' + err.message.slice(0,80),'red');
-    if (commitBtn) { commitBtn.disabled = false; commitBtn.textContent = 'Commit to Tracker →'; }
+    if (btn) { btn.disabled = false; btn.textContent = 'Push to GitHub →'; }
   }
 }
 
@@ -1583,14 +1613,15 @@ function buildLiftMarkdown(t) {
 // AI API — Gemini + Claude
 // ═══════════════════════════════════════════
 
-async function callAI(prompt) {
+async function callAI(prompt, mode = 'brief') {
   const provider = getAIProvider();
   if (!provider) throw new Error('No AI key configured — add GEMINI_API_KEY or ANTHROPIC_API_KEY in GitHub repo secrets');
 
   if (provider === 'gemini') {
     const key = getGeminiKey();
+    const geminiModel = mode === 'commit' ? 'gemini-3.1-flash-lite' : 'gemini-3-flash';
     const res = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${encodeURIComponent(key)}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/${geminiModel}:generateContent?key=${encodeURIComponent(key)}`,
       {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
@@ -2040,7 +2071,7 @@ Return ONLY the Markdown text to append to the Tracker.md. Format it as a concis
 
 If there are no concrete decisions worth logging, return exactly: NOTHING_TO_COMMIT`;
 
-    const raw = await callAI(extractPrompt);
+    const raw = await callAI(extractPrompt, 'commit');
     if (raw.trim() === 'NOTHING_TO_COMMIT') {
       showToast('No concrete decisions to log', 'blue');
       btn.disabled = false; btn.textContent = 'Commit to Tracker →';
@@ -2068,7 +2099,7 @@ If there are no concrete decisions worth logging, return exactly: NOTHING_TO_COM
 // SMART TRACKER COMMIT (AI-assisted placement)
 // ═══════════════════════════════════════════
 
-async function smartCommitToTracker(newContent, t, contentType) {
+async function generateTrackerUpdate(newContent, t, contentType) {
   const cfg = getCfg();
   const apiBase = `https://api.github.com/repos/${cfg.repo}/contents/Tracker.md`;
   const hdrs    = {
@@ -2115,18 +2146,32 @@ PROPAGATION RULES — apply ALL that are relevant:
 
 Return ONLY the complete updated Tracker.md. No explanation, no code fences, no preamble.`;
 
-  const updatedMd = await callAI(placementPrompt);
+  const updatedMd = await callAI(placementPrompt, 'commit');
+  return { updatedMd: updatedMd.trim(), sha, current };
+}
 
-  // Commit
+async function pushTrackerUpdate({ updatedMd, sha, contentType, t }) {
+  const cfg = getCfg();
+  const apiBase = `https://api.github.com/repos/${cfg.repo}/contents/Tracker.md`;
+  const hdrs    = {
+    'Authorization': `token ${cfg.token}`,
+    'Accept': 'application/vnd.github.v3+json',
+    'Content-Type': 'application/json',
+  };
   const putRes = await fetch(apiBase, {
     method: 'PUT', headers: hdrs,
     body: JSON.stringify({
       message: `${contentType} — ${t.dateStr}`,
-      content: btoa(unescape(encodeURIComponent(updatedMd.trim()))),
+      content: btoa(unescape(encodeURIComponent(updatedMd))),
       sha, branch: cfg.branch,
     }),
   });
   if (!putRes.ok) throw new Error(`GitHub write ${putRes.status}`);
+}
+
+async function smartCommitToTracker(newContent, t, contentType) {
+  const { updatedMd, sha } = await generateTrackerUpdate(newContent, t, contentType);
+  await pushTrackerUpdate({ updatedMd, sha, contentType, t });
 }
 
 // ═══════════════════════════════════════════
