@@ -12,7 +12,7 @@ Companion to `program.md` (v4.2 effective W3, week of 2026-05-04). Race: Sat 202
 
 **Phase B running gate** (clean clock reset 2026-05-05; earliest run start ~May 23 conservative, May 27 – Jun 3 realistic per §7.B):
 
-- [ ] 7 consecutive symptom-free days — **3/7** (5/6, 5/7, 5/8)
+- [ ] 7 consecutive symptom-free days — **5/7** (5/6, 5/7, 5/8, 5/9, 5/10)
 - [x] SI provocation tests negative (5/6)
 - [x] Single-leg bridge 30s/side pain-free (5/6)
 
@@ -23,17 +23,18 @@ Companion to `program.md` (v4.2 effective W3, week of 2026-05-04). Race: Sat 202
 |Exercise|Load|Last verified|Note|
 |---|---|---|---|
 |Incline BB|125 working / TM 155|W3 Wed 5/6 (125×8 RIR 2)|AMRAP W4 Wed 5/13 to re-set TM|
-|Lat pulldown|S1 125 → S2-3 130 → S4 120|—|RPE 8, last set RIR 1|
+|Lat pulldown|130|W3 Sun 5/10 (130×10 RIR1)|sustained 130 lb|
 |Chest-supp row|80|W2 Mon|NEW (Phase B+); 3×10 RPE 8|
 |Cable lateral (Tue)|12.5|W2 Mon|anchor all 4 sets|
-|Cable lateral (Sat)|5/side uni|W1 Sat|3 sets RPE 9|
+|Cable lateral (Sat)|15/side uni|W3 Sun 5/10 (15×11 RIR0)|significant load increase|
 |Preacher curl uni|50/arm|W3 Wed (50×12 RIR 2)|locked, 5lb increments|
-|Triceps pushdown|42.5|W3 Wed|hold all 3 sets until clean RIR 2 across all|
+|Triceps pushdown|42.5|W3 Sun 5/10 (42.5×15 RIR0)|hold; missed RIR2 last set|
 |Rear-delt fly|125 next|W3 Wed (120×15 RIR 1)|bump from 120|
-|Seated calf|315|multiple|4×12-15 RIR 2|
+|Seated calf|315|W3 Sun 5/10 (315×15 RIR0)|missed RIR2 last two sets|
 |Cable crunch|42.5|W1 Sat|RPE 8|
-|Hanging knee raise|BW|NEW|3×10 RPE 8|
+|Hanging knee raise|BW|W3 Sun 5/10 (skipped)|NEW; 3×10 RPE 8|
 |Soleus wall-sit|BW|NEW v4.2|3×30-45s, knee ~80°, RPE 7-8|
+|Chest Fly|130|W3 Sun 5/10 (130×12 RIR1)|new accessory|
 
 ---
 
@@ -41,6 +42,10 @@ Companion to `program.md` (v4.2 effective W3, week of 2026-05-04). Race: Sat 202
 
 1.  **Hyp B punted Sat 5/9 → Sun 5/10 (executed W3 Sun 5/10).**
 2.  **SI watch:** chest-supp row + soleus wall-sit are NEW additions; drop immediately on any SI flare.
+3.  **Triceps Pushdown:** failed RIR2 on last set (W3 Sun 5/10), hold 42.5 lb until clean RIR2.
+4.  **Seated Calf:** failed RIR2 on last two sets (W3 Sun 5/10), hold 315 lb for 4 sets of 12-15 RIR2.
+5.  **Hanging Knees skipped** W3 Sun 5/10.
+6.  **New accessory: Chest Fly** (130lb, 2x12) added W3 Sun 5/10.
 
 ---
 
@@ -68,10 +73,23 @@ Companion to `program.md` (v4.2 effective W3, week of 2026-05-04). Race: Sat 202
 |Rear-delt fly|120×15 RIR 3/2/1|bump 125 next|
 |Preacher curl uni|45×12 easy / 50×12 RIR 2|lock 50|
 
-### W3 Sun 2026-05-10 — Hypertrophy B (deferred from Sat)
+### W3 Sun 2026-05-10 — Hypertrophy B
 
 |Exercise|Sets|Notes|
-|---|---|---|
+|--------|-----|-----|
+|Incline BB|—|—|
+|Lat Pulldown|125x10 RIR3 / 125x10 RIR3 / 130x10 RIR2 / 130x10 RIR1|Load drift to 130 lb sustained|
+|Chest-supp Row|—|—|
+|Cable Lateral (Sat)|15x15 RIR2 / 15x15 RIR2 / 15x11 RIR0|Significant load increase from 5lb/side (uni) reference|
+|Preacher Curl Uni|50x12 RIR2 / 50x12 RIR2 / 50x12 RIR1|—|
+|Triceps Pushdown|42.5x15 RIR2 / 42.5x15 RIR2 / 42.5x15 RIR0|Missed RIR2 target on last set|
+|Rear-delt Fly|—|—|
+|Seated Calf|315x15 RIR2 / 315x15 RIR2 / 315x15 RIR1 / 315x15 RIR0|Missed RIR2 sustained target on last two sets|
+|Cable Crunch|—|—|
+|Soleus Wall-sit|BWx45s / BWx45s / BWx45s|3 sets|
+|Hanging Knees|—|Skipped|
+|Chest Fly|130x12 RIR2 / 130x12 RIR1|Accessory|
+> AI: Significant load increase on Cable Lateral (Sat) pushing to RIR0. Lat Pulldown sustained 130lb. Triceps Pushdown and Seated Calf missed RIR targets on final sets (RIR0/1), indicating high intensity/fatigue. Hanging Knees skipped. New accessory: Chest Fly (130lb, 2x12).
 
 ---
 
@@ -105,6 +123,8 @@ Companion to `program.md` (v4.2 effective W3, week of 2026-05-04). Race: Sat 202
 |2026-05-06|0 ("2 days zero pain")|—|—|—|SI tests negative, single-leg bridge clean. Conflict w/ 5/5 — log conservatively|
 |2026-05-07|clean|—|—|—|none|
 |2026-05-08|clean|—|clean (max HR test)|clean|3/7 toward Phase B gate|
+|2026-05-09|clean|—|—|—|4/7 toward Phase B gate|
+|2026-05-10|clean|—|clean (Hyp B)|clean|5/7 toward Phase B gate|
 
 ---
 
