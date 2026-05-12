@@ -329,7 +329,7 @@
         <div class="card-title">Connect GitHub</div>
         <div class="form-group">
           <label class="form-label" for="in-token">Personal Access Token</label>
-          <input type="text" id="in-token" placeholder="ghp_…" autocomplete="off" autocorrect="off" spellcheck="false">
+          <input type="text" id="in-token" placeholder="ghp_…" autocomplete="off" autocorrect="off" spellcheck="false" onkeydown="if(event.key==='Enter'){event.preventDefault();connectGitHub()}">
           <div class="form-hint">
             Needs <strong>repo</strong> scope (write to Tracker.md) · stored on this device only<br>
             <a href="https://github.com/settings/tokens/new?scopes=repo&description=Workout+Dashboard" target="_blank">Generate token ↗</a>
@@ -337,11 +337,11 @@
         </div>
         <div class="form-group">
           <label class="form-label" for="in-repo">Repository</label>
-          <input type="text" id="in-repo" value="ayaanh03/workout-tracking">
+          <input type="text" id="in-repo" value="ayaanh03/workout-tracking" onkeydown="if(event.key==='Enter'){event.preventDefault();connectGitHub()}">
         </div>
         <div class="form-group" style="margin-bottom:0">
           <label class="form-label" for="in-branch">Branch (Tracker.md lives here)</label>
-          <input type="text" id="in-branch" value="main">
+          <input type="text" id="in-branch" value="main" onkeydown="if(event.key==='Enter'){event.preventDefault();connectGitHub()}">
         </div>
       </div>
       <button class="btn btn-primary" id="connect-btn" onclick="connectGitHub()">Connect →</button>
