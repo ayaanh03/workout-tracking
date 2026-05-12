@@ -324,12 +324,12 @@
     <div class="setup-sub">Connect your GitHub repo to log workouts and optionally add your Anthropic key for AI-powered briefs and smart log parsing.</div>
 
     <!-- ── GitHub login (shown when no token saved) ── -->
-    <div id="setup-login-block">
+    <form id="setup-login-block">
       <div class="card">
         <div class="card-title">Connect GitHub</div>
         <div class="form-group">
           <label class="form-label" for="in-token">Personal Access Token</label>
-          <input type="text" id="in-token" placeholder="ghp_…" autocomplete="off" autocorrect="off" spellcheck="false" onkeydown="if(event.key==='Enter'){event.preventDefault();connectGitHub()}">
+          <input type="text" id="in-token" placeholder="ghp_…" autocomplete="off" autocorrect="off" spellcheck="false">
           <div class="form-hint">
             Needs <strong>repo</strong> scope (write to Tracker.md) · stored on this device only<br>
             <a href="https://github.com/settings/tokens/new?scopes=repo&description=Workout+Dashboard" target="_blank">Generate token ↗</a>
@@ -337,15 +337,15 @@
         </div>
         <div class="form-group">
           <label class="form-label" for="in-repo">Repository</label>
-          <input type="text" id="in-repo" value="ayaanh03/workout-tracking" onkeydown="if(event.key==='Enter'){event.preventDefault();connectGitHub()}">
+          <input type="text" id="in-repo" value="ayaanh03/workout-tracking">
         </div>
         <div class="form-group" style="margin-bottom:0">
           <label class="form-label" for="in-branch">Branch (Tracker.md lives here)</label>
-          <input type="text" id="in-branch" value="main" onkeydown="if(event.key==='Enter'){event.preventDefault();connectGitHub()}">
+          <input type="text" id="in-branch" value="main">
         </div>
       </div>
-      <button class="btn btn-primary" id="connect-btn" onclick="connectGitHub()">Connect →</button>
-    </div>
+      <button type="submit" class="btn btn-primary" id="connect-btn">Connect →</button>
+    </form>
 
     <!-- ── Settings panel (shown when already connected) ── -->
     <div id="setup-settings-block" style="display:none">
@@ -2591,6 +2591,10 @@ function refreshFiles() {
 // ═══════════════════════════════════════════
 
 (function(){
+  document.getElementById('setup-login-block').addEventListener('submit', e => {
+    e.preventDefault();
+    connectGitHub();
+  });
   const cfg = getCfg();
   if (cfg.token) showHome(); else showScreen('setup');
 })();
