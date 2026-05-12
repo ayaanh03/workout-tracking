@@ -2561,14 +2561,17 @@ function refreshFiles() {
 // ═══════════════════════════════════════════
 
 (function iosCompat() {
-  // Prevent double-tap zoom on buttons without disabling pinch-zoom
-  let lastTouch = 0;
+  // Prevent double-tap zoom on buttons without disabling pinch-zoom.
+  // Must be same target — otherwise tapping an input then a button within
+  // 300ms cancels the button's synthetic click on iOS.
+  let lastTap = { time: 0, target: null };
   document.addEventListener('touchend', e => {
     const now = Date.now();
-    if (now - lastTouch < 300 && e.target.tagName !== 'INPUT' && e.target.tagName !== 'TEXTAREA') {
+    const sameTarget = lastTap.target === e.target;
+    if (sameTarget && now - lastTap.time < 300 && e.target.tagName !== 'INPUT' && e.target.tagName !== 'TEXTAREA') {
       e.preventDefault();
     }
-    lastTouch = now;
+    lastTap = { time: now, target: e.target };
   }, { passive: false });
 
   // Scroll active input into view when iOS keyboard opens
