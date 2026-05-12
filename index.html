@@ -1675,20 +1675,38 @@ function buildLiftMarkdown(t) {
 
 // callAI(prompt, mode, opts)
 //   prompt: the user/dynamic portion of the request
-//   mode: 'brief' | 'commit' — controls model + max_tokens defaults
+//   mode: 'brief' | 'commit' — controls model defaults + thinking on/off
 //   opts.systemBlocks: optional [{ text, cache }] — stable instructions sent
 //     as Anthropic system blocks with cache_control:'ephemeral' on cached
-//     blocks (massive latency + cost win on repeat calls). For Gemini we
-//     concatenate them with the prompt; its implicit caching handles
-//     identical prefixes automatically.
+//     blocks (massive latency + cost win on repeat calls). For Gemini they
+//     go in the native systemInstruction field; identical prefixes still
+//     benefit from implicit caching server-side.
+//   opts.thinkingBudget: Gemini-only. Tokens reserved for internal
+//     reasoning. Default: brief=4096, commit=0. Set 0 to disable thinking,
+//     or a larger value (up to 24576 for Flash) for harder reasoning tasks.
+//   opts.maxTokens: cap on response tokens. Default auto-sizes to cover
+//     thinkingBudget + ~8K visible output, so MAX_TOKENS empty-output is
+//     extremely unlikely. Override if you need something different.
 async function callAI(prompt, mode = 'brief', opts = {}) {
   const provider = getAIProvider();
   if (!provider) throw new Error('No AI key configured — add GEMINI_API_KEY or ANTHROPIC_API_KEY in GitHub repo secrets');
 
   const systemBlocks = opts.systemBlocks || [];
-  // Brief returns a large JSON payload (~1700 tokens); commit returns a full
-  // regenerated Tracker.md (~2000 tokens). 1024 truncates both and breaks JSON.
-  const maxTokens = opts.maxTokens || (mode === 'commit' ? 4096 : 8192);
+  // Thinking budget — Gemini only (Claude ignores it). Brief is a real
+  // reasoning task (week derivation, isLogged inference, carry-forward
+  // application), so thinking improves quality. Commit is pure markdown
+  // formatting — thinking just adds latency, so disable it there.
+  const thinkingBudget = opts.thinkingBudget !== undefined
+    ? opts.thinkingBudget
+    : (mode === 'commit' ? 0 : 4096);
+  // Token cap on the response. For Gemini, thinking tokens generally count
+  // toward maxOutputTokens, so the cap must cover thinking + visible output
+  // — otherwise a long thinking pass starves the visible JSON and we get
+  // finishReason=MAX_TOKENS with empty parts (the original failure mode).
+  // Visible JSON is ~1700 tokens; 16K leaves a wide margin on top of a 4K
+  // thinking budget. Commit mode has no thinking, so a smaller cap is fine.
+  const defaultMax = mode === 'commit' ? 4096 : (thinkingBudget + 8192);
+  const maxTokens = opts.maxTokens || defaultMax;
 
   if (provider === 'gemini') {
     const key = getGeminiKey();
@@ -1698,14 +1716,16 @@ async function callAI(prompt, mode = 'brief', opts = {}) {
       contents: [{ role: 'user', parts: [{ text: prompt }] }],
       generationConfig: {
         maxOutputTokens: maxTokens,
-        // gemini-3-flash-preview is thinking-capable. With the default
-        // (dynamic) budget, thinking tokens can eat the entire output
-        // allowance on a complex prompt — the response then comes back
-        // with finishReason=MAX_TOKENS and parts containing only thought
-        // tokens (no `text` field). That's the primary brief-failure mode.
-        // Our task is structured JSON formatting, not extended reasoning,
-        // so disabling thinking is both faster and far more reliable.
-        thinkingConfig: { thinkingBudget: 0 },
+        // gemini-3-flash-preview is thinking-capable. Original failure was
+        // letting it run with the default (dynamic) budget AND a tight
+        // maxOutputTokens — thinking would consume the whole allowance and
+        // the response came back with finishReason=MAX_TOKENS and no
+        // visible text. Fix is BOTH halves: pin an explicit thinking
+        // budget (or 0 to disable) AND size maxOutputTokens to cover
+        // thinking + visible output. Brief keeps thinking on because the
+        // reasoning (week/phase/isLogged/carry-forwards) genuinely helps;
+        // commit disables it because that mode is pure formatting.
+        thinkingConfig: { thinkingBudget },
       },
     };
     if (mode === 'brief') {
