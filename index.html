@@ -962,11 +962,8 @@ async function loadAIBrief(forceRegenerate = false) {
       fetchGitHubFile('Tracker.md'),
     ]);
 
-    // No static week/phase here — the AI derives both from the tracker context
-    // (see CRITICAL RULES > WEEK + PHASE in the prompt).
-
-    // Compute the date strings for this week and next week (Sun..Sat) so the AI
-    // can match each entry against the tracker without doing date math itself.
+    // Compute date strings for this week / next week (Sun..Sat) so the AI
+    // doesn't have to do date math itself.
     const pad = n => String(n).padStart(2, '0');
     const weekDates = (offsetWeeks) => {
       const today = new Date();
@@ -982,34 +979,34 @@ async function loadAIBrief(forceRegenerate = false) {
     const thisWeekDates = weekDates(0);
     const nextWeekDates = weekDates(1);
 
-    // Inline the static program defaults so the AI has a clear baseline
-    // for each day of the week. The AI MAY override based on tracker context
-    // (e.g. session deferrals) but should not silently drop default days.
+    // Default weekly template baseline (override only when the tracker says so).
     const dayDefaults = [0,1,2,3,4,5,6].map(i => {
       const dm = DAY_META[i];
       const dn = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][i];
       return `  dow=${i} ${dn}: type=${dm.type}, label="${dm.label}", desc="${dm.desc}"`;
     }).join('\n');
 
-    const prompt = `You are a personal running + lifting coach. Your job is to produce a complete, AI-driven dashboard payload — today's workout brief PLUS the schedule + log status for this week and next week — based on BOTH documents below.
+    // ── Prompt structure: STABLE prefix (system + program.md) is cached;
+    // only the dynamic suffix (today's date + tracker) is sent uncached
+    // each time. On Anthropic this gives ~5-10× faster repeat calls and
+    // ~90% cost reduction on the prefix. Gemini's implicit caching kicks
+    // in for identical prefixes too.
+    //
+    // DAY_META + the schema/rules text only changes when we ship a new
+    // app version, so they live in the cached system block. program.md
+    // changes rarely (only when the user edits their program), so it
+    // gets its own cached system block. Tracker.md changes every workout,
+    // so it goes in the dynamic user message.
+
+    const systemInstructions = `You are a personal running + lifting coach. Your job is to produce a complete, AI-driven dashboard payload — today's workout brief PLUS the schedule + log status for this week and next week — based on BOTH documents provided in this conversation.
 
 IMPORTANT PRIORITY ORDER:
 1. Tracker.md is the ground truth — actual current loads, recent session notes, carry-forwards, SI/injury log, schedule changes (e.g. session deferrals like "Hyp B punted from Sat to Sun"), week labels (e.g. "## W3 Schedule"), and adjustments that override program defaults. Always reference it first.
 2. program.md provides the prescribed framework — session structure, prescribed rep ranges, phase logic, what exercises belong on which day.
 3. Where Tracker.md has a note, carry-forward, or schedule change that conflicts with program defaults, the Tracker wins.
 
-TODAY: ${t.display} (${t.dateStr}), Day-of-week ${t.short} (dow=${t.dow})
-THIS WEEK DATES (Sun→Sat): ${JSON.stringify(thisWeekDates)}
-NEXT WEEK DATES (Sun→Sat): ${JSON.stringify(nextWeekDates)}
-
 DEFAULT WEEKLY TEMPLATE (use as the baseline for every day; override only when the tracker explicitly says so):
 ${dayDefaults}
-
-════ TRACKER.MD (actual logs, current loads, notes, SI status) ════
-${trackerMd}
-
-════ PROGRAM.MD (prescribed framework) ════
-${progMd}
 
 Return ONLY a JSON object (no markdown, no explanation) with this exact structure:
 {
@@ -1061,7 +1058,7 @@ WEEK + PHASE:
 
 TODAY:
 - today.type: examine the tracker for any session deferrals, swaps, or carry-forwards that change today's prescribed session. E.g. if a Saturday lift was punted to Sunday, today.type for Sunday is "lift" or "both" (not "rest"). Use "lift" if today is lift only, "run" if cardio only, "both" if both lift+cardio, "rest" if rest day.
-- today.isLogged: TRUE only if the athlete has logged an ACTUAL workout for today (not a consult note, not a coaching adjustment, not a carry-forward note that merely mentions today's date, not a side-note that references today). Use INFERENCE: look for entries that contain real training data — exercise sets with weights/reps/RIR, run/row metrics with distance/time/pace/HR. A "### Consult Note — 2026-05-10" or "### Adjustments" block is NOT a logged workout. Only mark isLogged=true if you find concrete training execution.
+- today.isLogged: TRUE only if the athlete has logged an ACTUAL workout for today (not a consult note, not a coaching adjustment, not a carry-forward note that merely mentions today's date, not a side-note that references today). Use INFERENCE: look for entries that contain real training data — exercise sets with weights/reps/RIR, run/row metrics with distance/time/pace/HR. A "### Consult Note" or "### Adjustments" block is NOT a logged workout. Only mark isLogged=true if you find concrete training execution.
 - today.loggedSummary: if isLogged=true, give a 1-2 line summary of what was actually performed (e.g. "Hyp B: incline 130×8, lat pulldown 125-130-120, pushdown 42.5×12 RIR 2"). Empty string otherwise.
 
 EXERCISES:
@@ -1085,8 +1082,8 @@ DASHBOARD:
 - currentLoads: current working loads for each main lift — read from the most recent sessions in Tracker.md.
 
 THIS WEEK / NEXT WEEK:
-- EXACTLY 7 entries each, dow 0..6 (Sun..Sat). Use the dateStr values I provided.
-- For EVERY day, you MUST set type to one of rest|run|lift|both. Default to the DEFAULT WEEKLY TEMPLATE provided above for that dow, then apply tracker overrides on top.
+- EXACTLY 7 entries each, dow 0..6 (Sun..Sat). Use the dateStr values provided by the user.
+- For EVERY day, you MUST set type to one of rest|run|lift|both. Default to the DEFAULT WEEKLY TEMPLATE above for that dow, then apply tracker overrides on top.
 - Do NOT silently mark a day as "rest" unless either (a) the default template says rest for that dow, or (b) the tracker explicitly defers/skips that day.
 - label: a short, specific session name (e.g. "Threshold Row + Hyp A", "Long Z1 Run + Hyp B", "Easy Run Z1") — derived from program for that dow, modified by tracker.
 - icon: a single emoji that matches the session vibe.
@@ -1098,7 +1095,25 @@ OUTPUT:
 - Be specific with numbers. Cite the tracker ("last session: 125×8 RIR 2") when relevant.
 - Output MUST be valid JSON. No trailing commas, no comments, no markdown fences.`;
 
-    const resp = await callAI(prompt);
+    const programBlock = `════ PROGRAM.MD (prescribed framework — stable, cached) ════
+${progMd}`;
+
+    const userPrompt = `TODAY: ${t.display} (${t.dateStr}), Day-of-week ${t.short} (dow=${t.dow})
+THIS WEEK DATES (Sun→Sat): ${JSON.stringify(thisWeekDates)}
+NEXT WEEK DATES (Sun→Sat): ${JSON.stringify(nextWeekDates)}
+
+════ TRACKER.MD (actual logs, current loads, notes, SI status — ground truth) ════
+${trackerMd}
+
+Generate the dashboard JSON now.`;
+
+    el.querySelector('.ai-loading div:last-child').textContent = 'Generating brief…';
+    const resp = await callAI(userPrompt, 'brief', {
+      systemBlocks: [
+        { text: systemInstructions, cache: true },
+        { text: programBlock,       cache: true },
+      ],
+    });
     let data;
     try {
       data = JSON.parse(resp.replace(/```json\n?|\n?```/g,'').trim());
@@ -1658,19 +1673,40 @@ function buildLiftMarkdown(t) {
 // AI API — Gemini + Claude
 // ═══════════════════════════════════════════
 
-async function callAI(prompt, mode = 'brief') {
+// callAI(prompt, mode, opts)
+//   prompt: the user/dynamic portion of the request
+//   mode: 'brief' | 'commit' — controls model + max_tokens defaults
+//   opts.systemBlocks: optional [{ text, cache }] — stable instructions sent
+//     as Anthropic system blocks with cache_control:'ephemeral' on cached
+//     blocks (massive latency + cost win on repeat calls). For Gemini we
+//     concatenate them with the prompt; its implicit caching handles
+//     identical prefixes automatically.
+async function callAI(prompt, mode = 'brief', opts = {}) {
   const provider = getAIProvider();
   if (!provider) throw new Error('No AI key configured — add GEMINI_API_KEY or ANTHROPIC_API_KEY in GitHub repo secrets');
+
+  const systemBlocks = opts.systemBlocks || [];
+  // Brief returns a large JSON payload (~1700 tokens); commit returns a full
+  // regenerated Tracker.md (~2000 tokens). 1024 truncates both and breaks JSON.
+  const maxTokens = opts.maxTokens || (mode === 'commit' ? 4096 : 8192);
 
   if (provider === 'gemini') {
     const key = getGeminiKey();
     const geminiModel = mode === 'commit' ? 'gemini-3.1-flash-lite' : 'gemini-3-flash-preview';
+    // Gemini doesn't take cache_control inline — concatenate system + user.
+    // Identical prefixes still benefit from implicit caching server-side.
+    const fullText = systemBlocks.length
+      ? systemBlocks.map(b => b.text).join('\n\n') + '\n\n' + prompt
+      : prompt;
     const res = await fetch(
       `https://generativelanguage.googleapis.com/v1beta/models/${geminiModel}:generateContent?key=${encodeURIComponent(key)}`,
       {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] }),
+        body: JSON.stringify({
+          contents: [{ parts: [{ text: fullText }] }],
+          generationConfig: { maxOutputTokens: maxTokens },
+        }),
       }
     );
     if (!res.ok) {
@@ -1682,6 +1718,25 @@ async function callAI(prompt, mode = 'brief') {
 
   } else {
     const key = getClaudeKey();
+    const body = {
+      model: 'claude-haiku-4-5-20251001',
+      max_tokens: maxTokens,
+      messages: [{ role:'user', content: prompt }],
+    };
+    if (systemBlocks.length) {
+      // Mark the LAST cacheable block with cache_control — that breakpoint
+      // caches everything up to and including it. One breakpoint covers all
+      // preceding stable blocks while keeping us well under the 4-breakpoint
+      // limit.
+      const blocks = systemBlocks.map(b => ({ type: 'text', text: b.text }));
+      for (let i = blocks.length - 1; i >= 0; i--) {
+        if (systemBlocks[i].cache) {
+          blocks[i].cache_control = { type: 'ephemeral' };
+          break;
+        }
+      }
+      body.system = blocks;
+    }
     const res = await fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',
       headers: {
@@ -1690,11 +1745,7 @@ async function callAI(prompt, mode = 'brief') {
         'anthropic-dangerous-direct-browser-access': 'true',
         'content-type': 'application/json',
       },
-      body: JSON.stringify({
-        model: 'claude-haiku-4-5-20251001',
-        max_tokens: 1024,
-        messages: [{ role:'user', content: prompt }],
-      }),
+      body: JSON.stringify(body),
     });
     if (!res.ok) {
       const err = await res.json().catch(()=>({ error:{ message: res.statusText } }));
