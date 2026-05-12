@@ -1693,20 +1693,38 @@ async function callAI(prompt, mode = 'brief', opts = {}) {
   if (provider === 'gemini') {
     const key = getGeminiKey();
     const geminiModel = mode === 'commit' ? 'gemini-3.1-flash-lite' : 'gemini-3-flash-preview';
-    // Gemini doesn't take cache_control inline — concatenate system + user.
-    // Identical prefixes still benefit from implicit caching server-side.
-    const fullText = systemBlocks.length
-      ? systemBlocks.map(b => b.text).join('\n\n') + '\n\n' + prompt
-      : prompt;
+
+    const body = {
+      contents: [{ role: 'user', parts: [{ text: prompt }] }],
+      generationConfig: {
+        maxOutputTokens: maxTokens,
+        // gemini-3-flash-preview is thinking-capable. With the default
+        // (dynamic) budget, thinking tokens can eat the entire output
+        // allowance on a complex prompt — the response then comes back
+        // with finishReason=MAX_TOKENS and parts containing only thought
+        // tokens (no `text` field). That's the primary brief-failure mode.
+        // Our task is structured JSON formatting, not extended reasoning,
+        // so disabling thinking is both faster and far more reliable.
+        thinkingConfig: { thinkingBudget: 0 },
+      },
+    };
+    if (mode === 'brief') {
+      // Force structured JSON output — kills the "wrapped in ```json fences"
+      // / prose-contamination class of parse failures at the source.
+      body.generationConfig.responseMimeType = 'application/json';
+    }
+    if (systemBlocks.length) {
+      // Use the native systemInstruction field rather than concatenating into
+      // the user prompt. Cleaner separation + better implicit prefix caching.
+      body.systemInstruction = { parts: systemBlocks.map(b => ({ text: b.text })) };
+    }
+
     const res = await fetch(
       `https://generativelanguage.googleapis.com/v1beta/models/${geminiModel}:generateContent?key=${encodeURIComponent(key)}`,
       {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({
-          contents: [{ parts: [{ text: fullText }] }],
-          generationConfig: { maxOutputTokens: maxTokens },
-        }),
+        body: JSON.stringify(body),
       }
     );
     if (!res.ok) {
@@ -1714,7 +1732,27 @@ async function callAI(prompt, mode = 'brief', opts = {}) {
       throw new Error(err.error?.message || `Gemini ${res.status}`);
     }
     const data = await res.json();
-    return data.candidates[0].content.parts[0].text;
+
+    // Defensive extraction. Gemini can legitimately return:
+    //  - no candidates at all (prompt-level safety block) → promptFeedback.blockReason
+    //  - a candidate with finishReason != STOP (SAFETY, RECITATION, OTHER)
+    //  - a candidate whose parts have no `text` (thinking-only / MAX_TOKENS)
+    // In every case the old `candidates[0].content.parts[0].text` crashed
+    // with "Cannot read properties of undefined", which surfaced upstream as
+    // a generic brief failure. Surface a real reason instead.
+    const cand = data.candidates?.[0];
+    if (!cand) {
+      const block = data.promptFeedback?.blockReason;
+      throw new Error(block ? `Gemini blocked prompt: ${block}` : 'Gemini returned no candidates');
+    }
+    const text = cand.content?.parts?.find(p => typeof p.text === 'string' && p.text.length)?.text;
+    if (!text) {
+      const reason = cand.finishReason || 'unknown';
+      throw new Error(reason === 'MAX_TOKENS'
+        ? 'Gemini hit max tokens before producing visible output (try regenerating)'
+        : `Gemini returned empty content (${reason})`);
+    }
+    return text;
 
   } else {
     const key = getClaudeKey();
