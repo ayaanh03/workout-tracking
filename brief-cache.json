@@ -2,88 +2,77 @@
   "version": 4,
   "date": "2026-05-12",
   "dow": 2,
-  "generatedAt": "2026-05-12T19:20:48.931Z",
+  "generatedAt": "2026-05-12T20:47:15.516Z",
   "data": {
     "currentWeek": 4,
     "phase": "Reset",
     "today": {
       "sessionTitle": "Z1 Row + Hypertrophy A",
       "type": "both",
-      "icon": "🚣",
-      "shortLabel": "Hyp A + Z1 Row",
+      "icon": "🏋️",
+      "shortLabel": "Z1 Row + Hyp A",
       "isLogged": false,
       "loggedSummary": ""
     },
     "keyTargets": [
-      "Complete SI Day 7/7 for Phase B Gate",
-      "Verify LT1 sustainability at ≤155 bpm",
-      "Hypertrophy A priority: Side delts and Incline stimulus"
+      "Z1 Row 30–50 min @ ≤155 bpm",
+      "Incline BB 3×5 @ 125 lb (Pre-AMRAP volume)",
+      "Monitor SI during soleus wall-sit"
     ],
     "warnings": [
-      "Accutane: Ensure 3.5L+ hydration for today's lift session",
-      "SI Watch: New additions (Chest-supp row, Soleus wall-sit) are test-phase",
-      "Tennis Elbow: Preacher/Pushdown only; no free-weight curls"
+      "Phase B gate: 6/7 days clear. Maintain SI caution.",
+      "Triceps Pushdown: 42.5 lb hold (missed RIR 2 goal last session).",
+      "Seated Calf: 315 lb hold (missed RIR 2 goal last session)."
     ],
     "highlights": [
-      "LT1 cap officially increased to 155 bpm based on Monday's row",
-      "SI Streak currently at 6/7 days — Phase B running gate nearly closed",
-      "Sat Cable Lateral load increased significantly to 15 lb uni"
+      "Incline BB prep for W4 AMRAP re-test tomorrow",
+      "LT1 cap updated to 155 bpm",
+      "SI gate 6/7 days clean"
     ],
     "exercises": [
       {
         "name": "Incline BB",
         "sets": 3,
         "reps": "5",
-        "weight": "160 lb",
-        "rir": "RPE 7",
+        "weight": "125 lb",
+        "rir": "RIR 2",
         "type": "strength",
         "target": "Chest/Front Delt",
         "rest": "2-3 min",
-        "note": "Target 160 per W4 progression; AMRAP test scheduled for Wed 5/13."
+        "note": "Working sets before W4 AMRAP re-test."
       },
       {
         "name": "DB Lateral Raise",
         "sets": 4,
         "reps": "12",
         "weight": "12.5 lb",
-        "rir": "RIR 1-2",
+        "rir": "RPE 9",
         "type": "strength",
-        "target": "Side Delt",
-        "rest": "90s",
-        "note": "Anchoring 12.5 lb for all sets after last session."
+        "target": "Side delt",
+        "rest": "60-90s",
+        "note": "Anchor 12.5 lb."
       },
       {
         "name": "Preacher Curl Machine",
         "sets": 3,
         "reps": "10-12",
         "weight": "50 lb",
-        "rir": "RIR 2",
+        "rir": "RPE 8",
         "type": "strength",
         "target": "Biceps",
         "rest": "60-90s",
-        "note": "Uni-lateral. Keep elbow supported per tennis elbow protocol."
+        "note": "Locked load; focus on eccentric."
       },
       {
-        "name": "Cable Pushdown (V-Bar)",
+        "name": "Cable Pushdown",
         "sets": 3,
         "reps": "12",
         "weight": "42.5 lb",
-        "rir": "RIR 2",
+        "rir": "RPE 8",
         "type": "strength",
         "target": "Triceps",
         "rest": "60-90s",
-        "note": "Hold 42.5 lb; failed RIR 2 on final set Sun 5/10."
-      },
-      {
-        "name": "Rear-Delt Fly",
-        "sets": 3,
-        "reps": "15",
-        "weight": "125 lb",
-        "rir": "RIR 1",
-        "type": "strength",
-        "target": "Rear Delt",
-        "rest": "60s",
-        "note": "Bump to 125 lb from last session."
+        "note": "Hold 42.5 lb until clean RIR 2."
       },
       {
         "name": "Cable Crunch",
@@ -93,11 +82,11 @@
         "rir": "RPE 8",
         "type": "strength",
         "target": "Abs",
-        "rest": "60s",
-        "note": "Controlled eccentric."
+        "rest": "60-90s",
+        "note": "Maintain form."
       },
       {
-        "name": "Soleus Wall-Sit",
+        "name": "Soleus Wall-sit",
         "sets": 3,
         "reps": "30-45s",
         "weight": "BW",
@@ -105,31 +94,27 @@
         "type": "iso",
         "target": "Soleus",
         "rest": "60s",
-        "note": "Knee bent ~80°; push through forefoot."
+        "note": "Knee ~80°, push through forefoot. Drop if SI flares."
       }
     ],
     "cardio": {
       "prescription": "Z1 Row 30–50 min",
-      "paceTarget": "2:15–2:25 /500m",
+      "paceTarget": "2:15–2:25/500m",
       "hrTarget": "≤155 bpm",
-      "notes": "Steady aerobic; nasal breathing focus. High-end Z1 per new LT1 test."
+      "notes": "Steady aerobic; nasal breathing focus."
     },
     "statusPills": [
       {
-        "color": "green",
-        "text": "SI Streak: 6/7 Days"
-      },
-      {
-        "color": "purple",
-        "text": "LT1: 155 bpm"
-      },
-      {
         "color": "blue",
-        "text": "Phase A Holdover"
+        "text": "W4 Reset"
       },
       {
         "color": "orange",
-        "text": "Accutane: Dry Skin/Hydrate"
+        "text": "Gate 6/7"
+      },
+      {
+        "color": "green",
+        "text": "LT1 ≤155 bpm"
       }
     ],
     "phaseBGate": {
@@ -138,57 +123,47 @@
         {
           "done": false,
           "text": "7 consecutive symptom-free days",
-          "detail": "6/7 days logged (Streak: 5/6 to 5/11)"
+          "detail": "6/7 days"
         },
         {
           "done": true,
           "text": "SI provocation tests negative",
-          "detail": "Negative as of 5/6"
+          "detail": "Verified 5/6"
         },
         {
           "done": true,
           "text": "Single-leg bridge 30s/side pain-free",
-          "detail": "Clean as of 5/6"
+          "detail": "Verified 5/6"
         }
       ]
     },
     "currentLoads": [
       {
         "name": "Incline BB",
-        "load": "125 lb (Working) / 160 lb (Target)",
-        "note": "TM 155; AMRAP tomorrow"
+        "load": "125 lb",
+        "note": "Working"
       },
       {
         "name": "Lat Pulldown",
         "load": "130 lb",
-        "note": "Sustained load"
+        "note": "Sustained"
       },
       {
-        "name": "Preacher Curl Uni",
-        "load": "50 lb",
-        "note": "Locked load"
-      },
-      {
-        "name": "Triceps Pushdown",
-        "load": "42.5 lb",
-        "note": "Holding for RIR"
-      },
-      {
-        "name": "Seated Calf",
-        "load": "315 lb",
-        "note": "Holding for RIR"
+        "name": "Cable Lateral (Sat)",
+        "load": "15 lb",
+        "note": "Uni"
       }
     ],
     "thisWeek": [
       {
         "dow": 0,
         "dateStr": "2026-05-10",
-        "label": "Hypertrophy B (Deferred)",
+        "label": "Hyp B (deferred)",
         "type": "lift",
         "icon": "🏋️",
-        "description": "Lat pulldown, cable lateral, triceps, soleus, and chest fly.",
+        "description": "Lat Pulldown, Cable Lat, Preacher Curl, Pushdown, Chest Fly, Calf, Soleus.",
         "isLogged": true,
-        "loggedSummary": "Hyp B: Lat pulldown 130x10 RIR 1, Cable lateral 15x11 RIR 0, Triceps 42.5x15 RIR 0, Soleus BW 3x45s."
+        "loggedSummary": "Lat pulldown 130lb, Cable Lat 15lb, Preacher 50lb, Pushdown 42.5lb, Calf 315lb, Chest Fly 130lb."
       },
       {
         "dow": 1,
@@ -196,27 +171,27 @@
         "label": "Z1 Row + Sprints",
         "type": "run",
         "icon": "🚣",
-        "description": "Z1 Aerobic + nasal breathing test + capacity sprints.",
+        "description": "Z1 row 41:20 + sprints.",
         "isLogged": true,
-        "loggedSummary": "Z1 Row + Sprints: 41:20, HR 123-176, LT1 confirmed >143, Z1 cap adjusted to 155."
+        "loggedSummary": "41:20 / 8697m, 2:22.5 avg; sprints 1:52→1:40; 123-176bpm."
       },
       {
         "dow": 2,
         "dateStr": "2026-05-12",
-        "label": "Z1 Row + Hypertrophy A",
+        "label": "Z1 Row + Hyp A",
         "type": "both",
-        "icon": "💪",
-        "description": "30-50 min Z1 Row + Upper Body Hyp A including Incline and Side Delts.",
+        "icon": "🏋️",
+        "description": "Z1 row 30-50m; Hyp A circuit.",
         "isLogged": false,
         "loggedSummary": ""
       },
       {
         "dow": 3,
         "dateStr": "2026-05-13",
-        "label": "Z1 Row + Incline AMRAP",
-        "type": "both",
-        "icon": "🧪",
-        "description": "Easy aerobic row + AMRAP test to reset Incline BB training max.",
+        "label": "Z1 Row",
+        "type": "run",
+        "icon": "🚣",
+        "description": "Z1 row 25–40 min.",
         "isLogged": false,
         "loggedSummary": ""
       },
@@ -225,8 +200,8 @@
         "dateStr": "2026-05-14",
         "label": "Easy Run or Rest",
         "type": "run",
-        "icon": "🏃",
-        "description": "First potential Phase B transition day if gate closes 5/13.",
+        "icon": "👟",
+        "description": "Z1 easy 25–40 min or rest.",
         "isLogged": false,
         "loggedSummary": ""
       },
@@ -235,18 +210,18 @@
         "dateStr": "2026-05-15",
         "label": "Threshold Row",
         "type": "run",
-        "icon": "🔥",
-        "description": "3×6 min @ T (162–168 bpm) row equivalent.",
+        "icon": "🚣",
+        "description": "4-5x500m @ T.",
         "isLogged": false,
         "loggedSummary": ""
       },
       {
         "dow": 6,
         "dateStr": "2026-05-16",
-        "label": "Long Row + Hypertrophy B",
+        "label": "Long Z1 Row + Hyp B",
         "type": "both",
-        "icon": "🏔️",
-        "description": "50-65 min Z1 Row + Hyp B circuit including Lats and Calves.",
+        "icon": "🏋️",
+        "description": "AM: Long row. PM: Hyp B circuit.",
         "isLogged": false,
         "loggedSummary": ""
       }
@@ -258,55 +233,55 @@
         "label": "Rest + Prehab",
         "type": "rest",
         "icon": "🧘",
-        "description": "McGill Big 3, Tyler Twists, and SI mobility focus."
+        "description": "McGill Big 3, Tyler twists, Clamshells."
       },
       {
         "dow": 1,
         "dateStr": "2026-05-18",
-        "label": "Z1 Run + Strides",
+        "label": "Z1 Row",
         "type": "run",
-        "icon": "🏃",
-        "description": "Phase B Transition: 30 min easy run + 4×20s strides if SI clean."
+        "icon": "🚣",
+        "description": "Z1 row 30–45 min."
       },
       {
         "dow": 2,
         "dateStr": "2026-05-19",
-        "label": "Threshold Run + Hyp A",
+        "label": "Z1 Row + Hyp A",
         "type": "both",
-        "icon": "⚡",
-        "description": "4x5 min @ Threshold (7:55-8:10/mi) + Hyp A circuit."
+        "icon": "🏋️",
+        "description": "AM: Row. PM: Hyp A."
       },
       {
         "dow": 3,
         "dateStr": "2026-05-20",
-        "label": "Z1 Easy Run",
+        "label": "Z1 Row",
         "type": "run",
-        "icon": "🍃",
-        "description": "30-45 min Z1 easy run, conversational pace."
+        "icon": "🚣",
+        "description": "Z1 row 25–40 min."
       },
       {
         "dow": 4,
         "dateStr": "2026-05-21",
         "label": "Easy Run or Rest",
         "type": "run",
-        "icon": "☁️",
-        "description": "25-40 min Z1 easy or full recovery day."
+        "icon": "👟",
+        "description": "Z1 easy or rest."
       },
       {
         "dow": 5,
         "dateStr": "2026-05-22",
-        "label": "Threshold Progression",
+        "label": "Threshold Row",
         "type": "run",
-        "icon": "📈",
-        "description": "30 min progression run (last 10 min @ M-Pace)."
+        "icon": "🚣",
+        "description": "4-5x500m @ T."
       },
       {
         "dow": 6,
         "dateStr": "2026-05-23",
-        "label": "Long Run + Hyp B",
+        "label": "Long Z1 Row + Hyp B",
         "type": "both",
-        "icon": "🗺️",
-        "description": "45-50 min Z1 Long Run + Sat Hypertrophy circuit."
+        "icon": "🏋️",
+        "description": "AM: Long row. PM: Hyp B."
       }
     ]
   }
