@@ -821,7 +821,7 @@ function renderSettingsAIStatus() {
   const hasG = !!getGeminiKey(), hasC = !!getClaudeKey();
   const src  = builtIn().geminiKey || builtIn().claudeKey ? '(server-configured)' : '(manual)';
   el.innerHTML = prov
-    ? `<span style="color:var(--green)">✓ ${prov === 'gemini' ? 'Gemini 3 Flash' : 'Claude Haiku'} active ${src}</span>`
+    ? `<span style="color:var(--green)">✓ ${prov === 'gemini' ? 'Gemini 3.1 Flash Lite' : 'Claude Haiku'} active ${src}</span>`
     : `<span style="color:var(--red)">✗ No AI key found — enter below or add GitHub secrets</span>`;
   // Show/hide provider toggle
   const toggle = document.getElementById('ai-provider-toggle');
@@ -1131,7 +1131,7 @@ EXERCISES:
 - Use exact loads from Tracker.md current loads section + most recent session entries. Include EVERY exercise in today's circuit per the tracker's adjustments and program template.
 - sets: number of working sets (integer).
 - reps: a clean rep range string. Strength = e.g. "5-8", "8", "12". Iso (wall-sit, plank) = duration like "30-45s".
-- weight: the target load. Use the tracker's current loads section. For variable loads across sets, use a progression string like "125 (S1) → 130 (S2-3) → 120 (S4)". For bodyweight use "BW".
+- weight: today's WORKING load — the load the athlete will actually move today. Pull from the Tracker's "Current Working Loads" table and the most recently logged session for that lift; NEVER use a TM, a "(Target)" value, or a row from a forward-looking progression/forecast table (e.g. "Incline BB Progression", "Meso 1 plan") as today's weight. When the Tracker shows a split like "125 working / TM 155" or "125 lb (Working) / 160 lb (Target)", the working value (125) is today's weight; the TM/Target is reference-only and does not become the working load until an AMRAP/test set has actually moved it. Worked example: if Tracker says `Incline BB | 125 working / TM 155` AND a progression table lists `W4: 3×5 @ 160`, today's weight is `125 lb`, not `160 lb` — 160 only applies AFTER a successful AMRAP retest moves the TM. For variable loads across sets, use a progression string like "125 (S1) → 130 (S2-3) → 120 (S4)". For bodyweight use "BW".
 - rir: the RIR/RPE target as a string, e.g. "RIR 2", "RPE 8", "last set RIR 1".
 - type: "iso" for isometric holds (wall-sit, plank, hold), "strength" for everything else.
 - target: muscle group / focus area, 1-3 words ("Lats", "Side delt", "Calves").
@@ -1781,7 +1781,7 @@ async function callAI(prompt, mode = 'brief', opts = {}) {
 
   if (provider === 'gemini') {
     const key = getGeminiKey();
-    const geminiModel = mode === 'commit' ? 'gemini-3.1-flash-lite' : 'gemini-3-flash-preview';
+    const geminiModel = 'gemini-3.1-flash-lite';
 
     // One Gemini attempt. Pulled into a closure so we can retry with
     // thinking disabled if the first attempt empties out — defense in

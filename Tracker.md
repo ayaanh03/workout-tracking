@@ -135,10 +135,12 @@ Companion to `program.md` (v4.2 effective W3, week of 2026-05-04). Race: Sat 202
 
 ## Incline BB Progression (Meso 1)
 
-|Wk|Target|Actual|
+*Forecast only — today's working load comes from the **Current Working Loads** table above, not from this projection. Future-week numbers assume each prior week landed clean; if a week holds the TM (like W3 did), shift later rows down accordingly.*
+
+|Wk|Projected target (if prior wk clean)|Actual|
 |---|---|---|
 |W3|3×5 @ 155 RPE 7|125×8 RIR 2-3/2/2 (Wed 5/6) — TM held|
-|W4|3×5 @ 160 RPE 7 + AMRAP test|—|
+|W4|3×5 @ TM (155) + AMRAP test — re-set TM from AMRAP result|—|
 |W5–W7|3×5 @ TM|—|
 |W8 deload|2×5 @ TM−10|—|
 
