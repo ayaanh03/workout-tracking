@@ -1682,8 +1682,10 @@ function buildLiftMarkdown(t) {
 //     go in the native systemInstruction field; identical prefixes still
 //     benefit from implicit caching server-side.
 //   opts.thinkingBudget: Gemini-only. Tokens reserved for internal
-//     reasoning. Default: brief=4096, commit=0. Set 0 to disable thinking,
-//     or a larger value (up to 24576 for Flash) for harder reasoning tasks.
+//     reasoning. Default: brief=24576 (max for Flash), commit=0. Set 0
+//     to force thinking off. If thinking-on attempt fails with a recoverable
+//     error (MAX_TOKENS / empty content), we automatically retry once with
+//     thinking off so the brief still lands.
 //   opts.maxTokens: cap on response tokens. Default auto-sizes to cover
 //     thinkingBudget + ~8K visible output, so MAX_TOKENS empty-output is
 //     extremely unlikely. Override if you need something different.
@@ -1694,17 +1696,20 @@ async function callAI(prompt, mode = 'brief', opts = {}) {
   const systemBlocks = opts.systemBlocks || [];
   // Thinking budget — Gemini only (Claude ignores it). Brief is a real
   // reasoning task (week derivation, isLogged inference, carry-forward
-  // application), so thinking improves quality. Commit is pure markdown
-  // formatting — thinking just adds latency, so disable it there.
+  // application) so we want a generous budget; commit is pure markdown
+  // formatting so thinking adds latency for no gain. Brief default is
+  // pinned high so the model essentially can't run out of headroom; if
+  // it ever still does, the retry below falls back to thinking=0 so the
+  // call still succeeds.
   const thinkingBudget = opts.thinkingBudget !== undefined
     ? opts.thinkingBudget
-    : (mode === 'commit' ? 0 : 4096);
-  // Token cap on the response. For Gemini, thinking tokens generally count
-  // toward maxOutputTokens, so the cap must cover thinking + visible output
-  // — otherwise a long thinking pass starves the visible JSON and we get
-  // finishReason=MAX_TOKENS with empty parts (the original failure mode).
-  // Visible JSON is ~1700 tokens; 16K leaves a wide margin on top of a 4K
-  // thinking budget. Commit mode has no thinking, so a smaller cap is fine.
+    : (mode === 'commit' ? 0 : 24576);
+  // Token cap on the response. For Gemini, thinking tokens count toward
+  // maxOutputTokens, so the cap must cover thinking + visible output —
+  // otherwise a long thinking pass starves the visible JSON and we get
+  // finishReason=MAX_TOKENS with empty parts. Visible JSON is ~1700
+  // tokens; thinkingBudget + 8192 leaves a wide visible-output margin.
+  // Commit mode has no thinking, so a smaller cap is fine.
   const defaultMax = mode === 'commit' ? 4096 : (thinkingBudget + 8192);
   const maxTokens = opts.maxTokens || defaultMax;
 
@@ -1712,67 +1717,87 @@ async function callAI(prompt, mode = 'brief', opts = {}) {
     const key = getGeminiKey();
     const geminiModel = mode === 'commit' ? 'gemini-3.1-flash-lite' : 'gemini-3-flash-preview';
 
-    const body = {
-      contents: [{ role: 'user', parts: [{ text: prompt }] }],
-      generationConfig: {
-        maxOutputTokens: maxTokens,
-        // gemini-3-flash-preview is thinking-capable. Original failure was
-        // letting it run with the default (dynamic) budget AND a tight
-        // maxOutputTokens — thinking would consume the whole allowance and
-        // the response came back with finishReason=MAX_TOKENS and no
-        // visible text. Fix is BOTH halves: pin an explicit thinking
-        // budget (or 0 to disable) AND size maxOutputTokens to cover
-        // thinking + visible output. Brief keeps thinking on because the
-        // reasoning (week/phase/isLogged/carry-forwards) genuinely helps;
-        // commit disables it because that mode is pure formatting.
-        thinkingConfig: { thinkingBudget },
-      },
-    };
-    if (mode === 'brief') {
-      // Force structured JSON output — kills the "wrapped in ```json fences"
-      // / prose-contamination class of parse failures at the source.
-      body.generationConfig.responseMimeType = 'application/json';
-    }
-    if (systemBlocks.length) {
-      // Use the native systemInstruction field rather than concatenating into
-      // the user prompt. Cleaner separation + better implicit prefix caching.
-      body.systemInstruction = { parts: systemBlocks.map(b => ({ text: b.text })) };
-    }
-
-    const res = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/${geminiModel}:generateContent?key=${encodeURIComponent(key)}`,
-      {
-        method: 'POST',
-        headers: { 'content-type': 'application/json' },
-        body: JSON.stringify(body),
+    // One Gemini attempt. Pulled into a closure so we can retry with
+    // thinking disabled if the first attempt empties out — defense in
+    // depth on top of the already-generous thinkingBudget default.
+    const attempt = async (budget, max) => {
+      const body = {
+        contents: [{ role: 'user', parts: [{ text: prompt }] }],
+        generationConfig: {
+          maxOutputTokens: max,
+          // Thinking tokens count toward maxOutputTokens. Pinning both
+          // halves explicitly is what prevents the empty-output failure
+          // mode (thinking consuming the whole budget and leaving no
+          // visible text). budget=0 disables thinking entirely.
+          thinkingConfig: { thinkingBudget: budget },
+        },
+      };
+      if (mode === 'brief') {
+        // Force structured JSON output — kills the "wrapped in ```json fences"
+        // / prose-contamination class of parse failures at the source.
+        body.generationConfig.responseMimeType = 'application/json';
       }
-    );
-    if (!res.ok) {
-      const err = await res.json().catch(()=>({ error:{ message: res.statusText } }));
-      throw new Error(err.error?.message || `Gemini ${res.status}`);
-    }
-    const data = await res.json();
+      if (systemBlocks.length) {
+        // Use the native systemInstruction field rather than concatenating
+        // into the user prompt. Cleaner + better implicit prefix caching.
+        body.systemInstruction = { parts: systemBlocks.map(b => ({ text: b.text })) };
+      }
 
-    // Defensive extraction. Gemini can legitimately return:
-    //  - no candidates at all (prompt-level safety block) → promptFeedback.blockReason
-    //  - a candidate with finishReason != STOP (SAFETY, RECITATION, OTHER)
-    //  - a candidate whose parts have no `text` (thinking-only / MAX_TOKENS)
-    // In every case the old `candidates[0].content.parts[0].text` crashed
-    // with "Cannot read properties of undefined", which surfaced upstream as
-    // a generic brief failure. Surface a real reason instead.
-    const cand = data.candidates?.[0];
-    if (!cand) {
-      const block = data.promptFeedback?.blockReason;
-      throw new Error(block ? `Gemini blocked prompt: ${block}` : 'Gemini returned no candidates');
+      const res = await fetch(
+        `https://generativelanguage.googleapis.com/v1beta/models/${geminiModel}:generateContent?key=${encodeURIComponent(key)}`,
+        {
+          method: 'POST',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify(body),
+        }
+      );
+      if (!res.ok) {
+        const err = await res.json().catch(()=>({ error:{ message: res.statusText } }));
+        const e = new Error(err.error?.message || `Gemini ${res.status}`);
+        e.permanent = true; // HTTP error — won't be fixed by toggling thinking
+        throw e;
+      }
+      const data = await res.json();
+
+      // Defensive extraction. Gemini can legitimately return:
+      //  - no candidates at all (prompt-level safety block)
+      //  - a candidate with finishReason != STOP (SAFETY/RECITATION/OTHER)
+      //  - a candidate whose parts have no `text` (thinking-only/MAX_TOKENS)
+      // Bucket the failures so the retry layer knows which are recoverable
+      // by disabling thinking and which are permanent (safety/recitation).
+      const cand = data.candidates?.[0];
+      if (!cand) {
+        const block = data.promptFeedback?.blockReason;
+        const e = new Error(block ? `Gemini blocked prompt: ${block}` : 'Gemini returned no candidates');
+        e.permanent = true;
+        throw e;
+      }
+      const text = cand.content?.parts?.find(p => typeof p.text === 'string' && p.text.length)?.text;
+      if (!text) {
+        const reason = cand.finishReason || 'unknown';
+        const e = new Error(reason === 'MAX_TOKENS'
+          ? 'Gemini hit max tokens before producing visible output'
+          : `Gemini returned empty content (${reason})`);
+        // MAX_TOKENS / unknown / STOP-with-empty-content can all be fixed
+        // by retrying without thinking. SAFETY / RECITATION cannot.
+        e.permanent = (reason === 'SAFETY' || reason === 'RECITATION');
+        throw e;
+      }
+      return text;
+    };
+
+    try {
+      return await attempt(thinkingBudget, maxTokens);
+    } catch (err) {
+      // Fallback: thinking-off, smaller cap (no thinking to budget for).
+      // Only retry if the failure was recoverable AND thinking was on.
+      if (err.permanent || thinkingBudget === 0) throw err;
+      // If the fallback also fails, surface the original error — it
+      // describes the actual problem (the fallback's error is usually
+      // just a downstream symptom).
+      try { return await attempt(0, mode === 'commit' ? 4096 : 8192); }
+      catch { throw err; }
     }
-    const text = cand.content?.parts?.find(p => typeof p.text === 'string' && p.text.length)?.text;
-    if (!text) {
-      const reason = cand.finishReason || 'unknown';
-      throw new Error(reason === 'MAX_TOKENS'
-        ? 'Gemini hit max tokens before producing visible output (try regenerating)'
-        : `Gemini returned empty content (${reason})`);
-    }
-    return text;
 
   } else {
     const key = getClaudeKey();
