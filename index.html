@@ -451,7 +451,7 @@
     <div class="card">
       <div class="card-title">HR Zones — Max 191 bpm</div>
       <table class="loads-table"><tbody>
-        <tr><td>Z1 Easy (≤75%)</td><td>≤ 143 bpm</td></tr>
+        <tr><td>Z1 Easy (≤81%)</td><td>≤ 155 bpm</td></tr>
         <tr><td>Z2 Threshold (85–88%)</td><td>162–168 bpm</td></tr>
         <tr><td>Z3 VO2max (92–96%)</td><td>176–183 bpm</td></tr>
         <tr><td>Gray zone (avoid)</td><td>144–161 bpm</td></tr>
@@ -627,14 +627,38 @@ const HYP_B = [
   { id:'flye',      name:'DB Flye (optional)',         prescribed:'2×12, RPE 7',                    sets:2, iso:false, loadKey:null, optional:true },
 ];
 
-const DAY_META = {
+// Base/Build/Sharpen/Taper weekly template (§2.A). Z1 cap = 155 bpm per
+// Tracker.md 2026-05-11 (LT1 confirmed higher via nasal-breathing test).
+const BASE_DAY_META = {
   0:{ type:'rest', label:'Rest + Prehab',                  icon:'😴', desc:'Tyler twists 3×15 + reverse Tyler 3×15 · McGill Big 3 · clamshells 2×15/side · bird-dog 3×8/side · side plank 3×20–30s/side' },
-  1:{ type:'run',  label:'Easy Run + Strides',             icon:'🏃', desc:'Z1 easy 30–50 min (≤143 bpm) · 4×20s strides · Phase B+: hill strides 6–8×10–12s @ 4–6% grade (replaces flat strides Mon)' },
+  1:{ type:'run',  label:'Easy Run + Strides',             icon:'🏃', desc:'Z1 easy 30–50 min (≤155 bpm) · 4×20s strides · Phase B+: hill strides 6–8×10–12s @ 4–6% grade (replaces flat strides Mon)' },
   2:{ type:'both', label:'Threshold + Hypertrophy A',      icon:'🔥', desc:'AM: Threshold run or row (≥6h gap) · PM: Hypertrophy A ~40 min · Z2: 162–168 bpm', lift: HYP_A },
-  3:{ type:'run',  label:'Easy Run',                       icon:'🏃', desc:'Z1 easy 30–50 min (≤143 bpm) · optional 4–6 strides after' },
+  3:{ type:'run',  label:'Easy Run',                       icon:'🏃', desc:'Z1 easy 30–50 min (≤155 bpm) · optional 4–6 strides after' },
   4:{ type:'run',  label:'Easy Run or Rest',               icon:'🏃', desc:'Z1 easy 25–40 min or full rest day · listen to body' },
   5:{ type:'run',  label:'VO2max / Quality Session',       icon:'⚡', desc:'Fri quality run or row · Z3: 176–183 bpm · intervals or easy+strides depending on phase' },
-  6:{ type:'both', label:'Long Run + Hypertrophy B',       icon:'💪', desc:'AM: Long run Z1 (≤143 bpm) · PM: Hypertrophy B ~40 min (≥6h gap) · max 40 min total lift time', lift: HYP_B },
+  6:{ type:'both', label:'Long Run + Hypertrophy B',       icon:'💪', desc:'AM: Long run Z1 (≤155 bpm) · PM: Hypertrophy B ~40 min (≥6h gap) · max 40 min total lift time', lift: HYP_B },
+};
+
+// Phase A (Reset/Reintro, W1–W4) overrides while the Phase B running gate is
+// NOT yet closed: 7 symptom-free days + SI provocation neg + SL bridge clean.
+// Per program.md §4.B: no running yet; Tue/Sat lifts stay; cardio is Z1 row.
+const RESET_PRE_GATE_DAY_META = {
+  1:{ type:'run',  label:'Z1 Row',                          icon:'🚣', desc:'Z1 row 30–45 min · ≤155 bpm · steady aerobic, no intervals' },
+  2:{ type:'both', label:'Z1 Row + Hypertrophy A',          icon:'🚣', desc:'AM: Z1 row 30–50 min · ≤155 bpm · PM: Hypertrophy A ~40 min (≥6h gap) · soleus wall-sit', lift: HYP_A },
+  3:{ type:'run',  label:'Z1 Row',                          icon:'🚣', desc:'Z1 row 25–40 min · ≤155 bpm · keep it conversational' },
+  5:{ type:'run',  label:'Threshold Row',                   icon:'🔥', desc:'Threshold row · 4–5×500m or 3×6 min @ T · 162–168 bpm · running quality stays off until §7.B gate' },
+  6:{ type:'both', label:'Long Z1 Row + Hypertrophy B',     icon:'🚣', desc:'AM: Z1 row 50–65 min · ≤155 bpm · PM: Hypertrophy B ~40 min (≥6h gap) · seated calf · soleus wall-sit', lift: HYP_B },
+};
+
+// Phase A overrides AFTER the Phase B gate closes. The cardio days surface the
+// §7.B reintroduction step based on days-since-gate-close. Friday quality
+// stays on the rower until 2 weeks of pain-free Z1 running.
+const RESET_POST_GATE_DAY_META = {
+  1:{ type:'run',  label:'§7.B Reintro',                    icon:'🏃', desc:'{step}' },
+  2:{ type:'both', label:'§7.B Reintro + Hypertrophy A',    icon:'🏃', desc:'AM: {step} · PM: Hypertrophy A ~40 min (≥6h gap) · soleus wall-sit', lift: HYP_A },
+  3:{ type:'run',  label:'§7.B Reintro',                    icon:'🏃', desc:'{step}' },
+  5:{ type:'run',  label:'Threshold Row',                   icon:'🔥', desc:'Threshold row · 4–5×500m or 3×6 min @ T · 162–168 bpm · stays on rower until 2 weeks pain-free Z1 running' },
+  6:{ type:'both', label:'§7.B Reintro + Hypertrophy B',    icon:'🏃', desc:'AM: {step} · PM: Hypertrophy B ~40 min (≥6h gap) · seated calf · soleus wall-sit', lift: HYP_B },
 };
 
 // ═══════════════════════════════════════════
@@ -650,6 +674,37 @@ const daysToRace = () => Math.ceil((RACE_DAY - Date.now()) / 864e5);
 // flow through automatically. Static getWeek/getPhase are fallbacks only.
 const currentWeek  = () => currentBrief?.currentWeek ?? getWeek();
 const currentPhase = () => currentBrief?.phase       ?? getPhase(currentWeek());
+
+// Phase B running-gate state. AI fills this from the tracker's "Phase B
+// running gate" checklist + SI log. Null until the gate closes.
+const phaseBGateClosedAt = () => currentBrief?.phaseBGate?.closedAt || null;
+
+// §7.B reintroduction ladder. `daysSinceGateClose` drives which step is
+// active. Returns null once the athlete graduates to §4.C Base template.
+const phaseBStep = () => {
+  const ts = phaseBGateClosedAt();
+  if (!ts) return null;
+  const closed = new Date(ts);
+  const days = Math.floor((Date.now() - closed.getTime()) / 864e5);
+  if (days < 0)  return null; // future date — treat as not yet
+  if (days < 1)  return { idx: 1, desc: 'Treadmill 5×(1 min jog ≥175 spm @ 0% / 4 min walk) · ~25 min' };
+  if (days < 3)  return { idx: 2, desc: 'Treadmill 4×(2 min jog ≥175 spm / 3 min walk) · ~20 min' };
+  if (days < 6)  return { idx: 3, desc: 'Treadmill 3×(3 min jog ≥175 spm / 2 min walk) · ~15 min' };
+  if (days < 8)  return { idx: 4, desc: '15 min continuous easy outdoor (flat) · Z1 ≤155 bpm' };
+  if (days < 11) return { idx: 5, desc: '25 min continuous easy outdoor · Z1 ≤155 bpm' };
+  return null; // graduate to §4.C Base
+};
+
+// Phase-aware day-meta lookup. Replaces direct DAY_META[dow] access.
+const getDayMeta = (dow, phase = currentPhase()) => {
+  if (phase !== 'Reset') return BASE_DAY_META[dow];
+  const step = phaseBStep();
+  if (!step) return RESET_PRE_GATE_DAY_META[dow] || BASE_DAY_META[dow];
+  const post = RESET_POST_GATE_DAY_META[dow];
+  if (!post) return BASE_DAY_META[dow];
+  const prefix = `Step ${step.idx}: `;
+  return { ...post, desc: post.desc.replace(/\{step\}/g, prefix + step.desc) };
+};
 
 const todayInfo = () => {
   const d = new Date();
@@ -821,7 +876,7 @@ function renderTopBarUser() {
 function renderHomeActions(t) {
   const actions = document.getElementById('hm-actions');
   if (!actions) return;
-  const s   = DAY_META[t.dow];
+  const s   = getDayMeta(t.dow);
   const ai  = hasAnyAI();
   const dow = t.dow;
 
@@ -867,7 +922,7 @@ function renderHomeActions(t) {
 function renderHome() {
   const week = currentWeek(), phase = currentPhase();
   const t = todayInfo();
-  const s = DAY_META[t.dow];
+  const s = getDayMeta(t.dow);
 
   document.getElementById('hm-badge').textContent = `W${week}`;
   document.getElementById('hm-days').textContent  = daysToRace();
@@ -931,14 +986,14 @@ function renderHome() {
 
 // Bump this when the AI brief schema changes — old caches with a different
 // version are ignored and regenerated so we don't render against stale shapes.
-const BRIEF_SCHEMA_VERSION = 3;
+const BRIEF_SCHEMA_VERSION = 4;
 
 async function loadAIBrief(forceRegenerate = false) {
   if (!hasAnyAI()) { showToast('No AI key — add secrets in GitHub repo settings','red'); return; }
 
   const el = document.getElementById('hm-ai-brief');
   const t  = todayInfo();
-  const s  = DAY_META[t.dow];
+  const s  = getDayMeta(t.dow);
 
   el.innerHTML = `<div class="ai-brief"><div class="ai-brief-header"><span>✨</span><h3>AI Workout Brief</h3></div><div class="ai-loading"><div class="spinner">⏳</div><div>${forceRegenerate ? 'Regenerating…' : 'Checking cache…'}</div></div></div>`;
 
@@ -979,9 +1034,16 @@ async function loadAIBrief(forceRegenerate = false) {
     const thisWeekDates = weekDates(0);
     const nextWeekDates = weekDates(1);
 
-    // Default weekly template baseline (override only when the tracker says so).
+    // Default weekly template baseline. Phase-aware: in Reset (Phase A) this
+    // returns the §4.B/§7.B prescriptions (Z1 row pre-gate, treadmill reintro
+    // post-gate). Override only when the tracker explicitly says so.
+    const phaseLabel = currentPhase();
+    const gateClosedAt = phaseBGateClosedAt();
+    const phaseBStatus = phaseLabel === 'Reset'
+      ? (gateClosedAt ? `Phase B gate closed ${gateClosedAt} — §7.B reintro active` : `Phase B gate NOT yet closed — Phase A holdover (Z1 row only, no running)`)
+      : `not in Reset phase`;
     const dayDefaults = [0,1,2,3,4,5,6].map(i => {
-      const dm = DAY_META[i];
+      const dm = getDayMeta(i, phaseLabel);
       const dn = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][i];
       return `  dow=${i} ${dn}: type=${dm.type}, label="${dm.label}", desc="${dm.desc}"`;
     }).join('\n');
@@ -1005,7 +1067,7 @@ IMPORTANT PRIORITY ORDER:
 2. program.md provides the prescribed framework — session structure, prescribed rep ranges, phase logic, what exercises belong on which day.
 3. Where Tracker.md has a note, carry-forward, or schedule change that conflicts with program defaults, the Tracker wins.
 
-DEFAULT WEEKLY TEMPLATE (use as the baseline for every day; override only when the tracker explicitly says so):
+DEFAULT WEEKLY TEMPLATE (current phase: ${phaseLabel}; Phase B running gate: ${phaseBStatus}; this baseline is ALREADY phase- and gate-adjusted — still defer to program.md §4/§7 phase tables and tracker deferrals/swaps for the exact prescription):
 ${dayDefaults}
 
 Return ONLY a JSON object (no markdown, no explanation) with this exact structure:
@@ -1038,7 +1100,10 @@ Return ONLY a JSON object (no markdown, no explanation) with this exact structur
   ],
   "cardio": null OR {"prescription":"string","paceTarget":"string","hrTarget":"string","notes":"string"},
   "statusPills": [{"color":"green|orange|blue|red|purple","text":"string"}, ...],
-  "phaseGate": [{"done":true,"text":"string","detail":"string"}, ...],
+  "phaseBGate": {
+    "closedAt": "YYYY-MM-DD or null — the date all three Phase B running-gate criteria first held simultaneously (7 consecutive symptom-free days + SI provocation tests negative + single-leg bridge 30s/side pain-free). Null if any criterion is still open.",
+    "criteria": [{"done":true,"text":"string","detail":"string"}, ...]
+  },
   "currentLoads": [{"name":"string","load":"string","note":"string"}, ...],
   "thisWeek": [
     {"dow":0,"dateStr":"YYYY-MM-DD","label":"string","type":"rest|run|lift|both","icon":"single emoji","description":"string","isLogged":false,"loggedSummary":"string"},
@@ -1078,7 +1143,8 @@ CARDIO:
 
 DASHBOARD:
 - statusPills: 3-6 dynamic status pills. Color: red=blocked/injured, green=cleared/good, orange=in-progress, blue=neutral info, purple=gate/milestone.
-- phaseGate: list every phase gate criterion from the tracker with current status and brief detail (e.g. "3/7 days").
+- phaseBGate.criteria: list every Phase B running-gate criterion from the tracker with current status and brief detail (e.g. "3/7 days"). Include all of: 7 consecutive symptom-free days, SI provocation tests negative, single-leg bridge 30s/side pain-free, and any other criterion the tracker tracks.
+- phaseBGate.closedAt: compute by scanning the tracker's SI log + gate checklist. Set to the earliest date on which (a) the 7-day clean streak first reaches 7/7 AND (b) provocation tests are documented negative AND (c) SL bridge is documented pain-free. If any criterion is still open today, set to null. If unsure, set to null — the dashboard treats null as "stay in Phase A holdover (Z1 row)".
 - currentLoads: current working loads for each main lift — read from the most recent sessions in Tracker.md.
 
 THIS WEEK / NEXT WEEK:
@@ -1296,7 +1362,7 @@ function renderWorkout() {
     const briefHasCardio = currentBrief?.cardio?.prescription;
     const briefSaysNoCardio = currentBrief !== null && currentBrief?.cardio === null;
     const showCardioRef = isBoth && (briefHasCardio || (!currentBrief && !briefSaysNoCardio));
-    const cardioRefHtml = showCardioRef ? cardioRefCard(DAY_META[dow], currentBrief?.cardio, 'Cardio Targets') : '';
+    const cardioRefHtml = showCardioRef ? cardioRefCard(getDayMeta(dow), currentBrief?.cardio, 'Cardio Targets') : '';
 
     const logBlock = alreadyLogged
       ? `<div id="wk-log-block" style="display:none">${liftTextBlock(sessionTitle)}</div>`
@@ -1308,7 +1374,7 @@ function renderWorkout() {
   } else {
     // ── Cardio-only ──────────────────────────────────────────────────
     const dow = parseInt(wkType.split('-')[1]);
-    const dm  = DAY_META[dow];
+    const dm  = getDayMeta(dow);
     const sessionTitle = currentBrief?.today?.sessionTitle || dm.label;
     document.getElementById('wk-title').textContent = 'Log Today\'s Workout';
 
@@ -1536,7 +1602,7 @@ function confirmSave() {
   const dow = parseInt(wkType.split('-')[1]);
   const isBothSession = wkType.startsWith('both-');
   const isLiftOnly    = wkType.startsWith('lift-');
-  const isBothDay     = DAY_META[dow]?.type === 'both';
+  const isBothDay     = getDayMeta(dow)?.type === 'both';
 
   // Inject confirm screen
   const content = document.getElementById('wk-content');
@@ -1551,7 +1617,7 @@ function confirmSave() {
     ${isBothDay && isLiftOnly ? `
     <div class="card" style="border-color:#15532e;background:#0a1505">
       <div class="card-title" style="color:#86efac">Also log cardio today?</div>
-      <div style="font-size:13px;color:var(--text-dim);margin-bottom:12px">Today is a ${DAY_META[dow].label} day — cardio is also scheduled.</div>
+      <div style="font-size:13px;color:var(--text-dim);margin-bottom:12px">Today is a ${getDayMeta(dow).label} day — cardio is also scheduled.</div>
       <label style="display:flex;align-items:center;gap:10px;font-size:14px;cursor:pointer">
         <input type="checkbox" id="also-log-cardio" style="width:20px;height:20px;accent-color:var(--green)">
         Open cardio log after saving
@@ -1893,7 +1959,7 @@ function renderWeekGrid(t) {
   if (el) {
     el.innerHTML = DNAMES.map((dn,i) => {
       const aiDay = currentBrief?.thisWeek?.[i];
-      const dm    = DAY_META[i];
+      const dm    = getDayMeta(i);
       const log   = weekLogCache[i];
       // AI inference is authoritative for "is this day logged?"
       const isLogged = aiDay ? !!aiDay.isLogged : !!log;
@@ -1912,7 +1978,7 @@ function renderWeekGrid(t) {
   if (elNext) {
     elNext.innerHTML = DNAMES.map((dn,i) => {
       const aiDay = currentBrief?.nextWeek?.[i];
-      const dm    = DAY_META[i];
+      const dm    = getDayMeta(i);
       const type  = aiDay?.type || dm.type;
       const cls   = typeToClass(type);
       return `<div class="day-col" onclick="showDaySheet(${i}, 1)">
@@ -1959,7 +2025,7 @@ function parseWeekLogs(trackerMd) {
 // ═══════════════════════════════════════════
 
 function showDaySheet(dow, weekOffset = 0) {
-  const dm  = DAY_META[dow];
+  const dm  = getDayMeta(dow);
   const key = weekOffset === 0 ? dow : `next-${dow}`;
   const log = weekLogCache[key];
   const t   = todayInfo();
@@ -2041,8 +2107,8 @@ function updateHomeFromBrief(data) {
   // Today card — date label uses AI's icon + label when available
   const dateEl = document.getElementById('hm-date');
   if (dateEl) {
-    const icon = data.today?.icon || DAY_META[t.dow].icon;
-    const label = data.today?.shortLabel || data.today?.sessionTitle || DAY_META[t.dow].label;
+    const icon = data.today?.icon || getDayMeta(t.dow).icon;
+    const label = data.today?.shortLabel || data.today?.sessionTitle || getDayMeta(t.dow).label;
     dateEl.innerHTML = `${icon} ${escHtml(t.display)} · <span style="color:var(--text)">${escHtml(label)}</span>`;
   }
 
@@ -2061,15 +2127,22 @@ function updateHomeFromBrief(data) {
     pillsEl.innerHTML = basePills + aiPills;
   }
 
-  // Checklist / phase gate
+  // Checklist / phase gate. Accept both the new shape (phaseBGate.criteria
+  // with closedAt) and the legacy flat phaseGate[] for back-compat in case
+  // the AI emits the old shape during the schema-version transition.
   const checkEl = document.getElementById('hm-checklist');
-  if (checkEl && data.phaseGate?.length) {
-    const items = data.phaseGate.map(item => {
+  const gateCriteria = data.phaseBGate?.criteria || data.phaseGate;
+  if (checkEl && gateCriteria?.length) {
+    const items = gateCriteria.map(item => {
       const icon = item.done ? '✅' : '⬜';
       const detail = item.detail ? `<span style="color:var(--text-muted);font-size:12px;margin-left:auto">${escHtml(item.detail)}</span>` : '';
       return `<div class="checklist-item">${icon} <span style="flex:1">${escHtml(item.text)}</span>${detail}</div>`;
     }).join('');
-    checkEl.innerHTML = `<div class="section-label" style="margin-top:8px">Phase Gate — AI updated</div>${items}`;
+    const closedAt = data.phaseBGate?.closedAt;
+    const header = closedAt
+      ? `Phase B Gate — closed ${escHtml(closedAt)} · §7.B reintro active`
+      : 'Phase B Gate (Running Reintro)';
+    checkEl.innerHTML = `<div class="section-label" style="margin-top:8px">${header}</div>${items}`;
   }
 
   // Current loads
