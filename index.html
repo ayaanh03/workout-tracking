@@ -1769,55 +1769,51 @@ function buildLiftMarkdown(t) {
 //     blocks (massive latency + cost win on repeat calls). For Gemini they
 //     go in the native systemInstruction field; identical prefixes still
 //     benefit from implicit caching server-side.
-//   opts.thinkingBudget: Gemini-only. Tokens reserved for internal
-//     reasoning. Default: brief=24576 (max for Flash), commit=0. Set 0
-//     to force thinking off. If thinking-on attempt fails with a recoverable
-//     error (MAX_TOKENS / empty content), we automatically retry once with
-//     thinking off so the brief still lands.
-//   opts.maxTokens: cap on response tokens. Default auto-sizes to cover
-//     thinkingBudget + ~8K visible output, so MAX_TOKENS empty-output is
-//     extremely unlikely. Override if you need something different.
+//   opts.thinkingLevel: Gemini-only. Reasoning depth as a string —
+//     'minimal' | 'low' | 'medium' | 'high'. Default: brief='high',
+//     commit='minimal'. Gemini 3.x (incl. flash-lite) uses thinkingLevel
+//     instead of the numeric thinkingBudget the 2.5 series took. If the
+//     brief attempt fails with a recoverable error we automatically retry
+//     once at 'minimal' so the brief still lands.
+//   opts.maxTokens: cap on response tokens. Default 16K for brief, 4K for
+//     commit — the server reserves its own thinking budget under
+//     thinkingLevel, so the cap only needs to cover visible output.
 async function callAI(prompt, mode = 'brief', opts = {}) {
   const provider = getAIProvider();
   if (!provider) throw new Error('No AI key configured — add GEMINI_API_KEY or ANTHROPIC_API_KEY in GitHub repo secrets');
 
   const systemBlocks = opts.systemBlocks || [];
-  // Thinking budget — Gemini only (Claude ignores it). Brief is a real
+  // Thinking level — Gemini only (Claude ignores it). Brief is a real
   // reasoning task (week derivation, isLogged inference, carry-forward
-  // application) so we want a generous budget; commit is pure markdown
-  // formatting so thinking adds latency for no gain. Brief default is
-  // pinned high so the model essentially can't run out of headroom; if
-  // it ever still does, the retry below falls back to thinking=0 so the
-  // call still succeeds.
-  const thinkingBudget = opts.thinkingBudget !== undefined
-    ? opts.thinkingBudget
-    : (mode === 'commit' ? 0 : 24576);
-  // Token cap on the response. For Gemini, thinking tokens count toward
-  // maxOutputTokens, so the cap must cover thinking + visible output —
-  // otherwise a long thinking pass starves the visible JSON and we get
-  // finishReason=MAX_TOKENS with empty parts. Visible JSON is ~1700
-  // tokens; thinkingBudget + 8192 leaves a wide visible-output margin.
-  // Commit mode has no thinking, so a smaller cap is fine.
-  const defaultMax = mode === 'commit' ? 4096 : (thinkingBudget + 8192);
+  // application) so we want deep reasoning; commit is pure markdown
+  // formatting so thinking adds latency for no gain. Gemini 3.x flash-lite
+  // takes thinkingLevel (string) rather than the numeric thinkingBudget
+  // the 2.5 series used — passing thinkingBudget here gets the request
+  // rejected on the server.
+  const thinkingLevel = opts.thinkingLevel
+    ?? (mode === 'commit' ? 'minimal' : 'high');
+  // Token cap on the response. Under thinkingLevel the server manages its
+  // own internal reasoning reservation, so maxOutputTokens only has to
+  // cover visible output. Visible JSON is ~1700 tokens; 16K leaves a wide
+  // margin. Commit mode has no thinking, so a smaller cap is fine.
+  const defaultMax = mode === 'commit' ? 4096 : 16384;
   const maxTokens = opts.maxTokens || defaultMax;
 
   if (provider === 'gemini') {
     const key = getGeminiKey();
     const geminiModel = 'gemini-3.1-flash-lite';
 
-    // One Gemini attempt. Pulled into a closure so we can retry with
-    // thinking disabled if the first attempt empties out — defense in
-    // depth on top of the already-generous thinkingBudget default.
-    const attempt = async (budget, max) => {
+    // One Gemini attempt. Pulled into a closure so we can retry at
+    // thinkingLevel='minimal' if the first attempt empties out — defense
+    // in depth on top of the default brief='high' level.
+    const attempt = async (level, max) => {
       const body = {
         contents: [{ role: 'user', parts: [{ text: prompt }] }],
         generationConfig: {
           maxOutputTokens: max,
-          // Thinking tokens count toward maxOutputTokens. Pinning both
-          // halves explicitly is what prevents the empty-output failure
-          // mode (thinking consuming the whole budget and leaving no
-          // visible text). budget=0 disables thinking entirely.
-          thinkingConfig: { thinkingBudget: budget },
+          // Gemini 3.x flash-lite uses thinkingLevel (string), not the
+          // numeric thinkingBudget the 2.5 series accepted.
+          thinkingConfig: { thinkingLevel: level },
         },
       };
       if (mode === 'brief') {
@@ -1842,7 +1838,10 @@ async function callAI(prompt, mode = 'brief', opts = {}) {
       if (!res.ok) {
         const err = await res.json().catch(()=>({ error:{ message: res.statusText } }));
         const e = new Error(err.error?.message || `Gemini ${res.status}`);
-        e.permanent = true; // HTTP error — won't be fixed by toggling thinking
+        // 5xx + 429 are transient (overload, "busy") — let the retry
+        // layer take another swing at thinkingLevel='minimal'. 4xx is
+        // a real bug in the request and won't improve on retry.
+        e.permanent = res.status < 500 && res.status !== 429;
         throw e;
       }
       const data = await res.json();
@@ -1875,15 +1874,15 @@ async function callAI(prompt, mode = 'brief', opts = {}) {
     };
 
     try {
-      return await attempt(thinkingBudget, maxTokens);
+      return await attempt(thinkingLevel, maxTokens);
     } catch (err) {
-      // Fallback: thinking-off, smaller cap (no thinking to budget for).
-      // Only retry if the failure was recoverable AND thinking was on.
-      if (err.permanent || thinkingBudget === 0) throw err;
+      // Fallback: thinkingLevel='minimal', smaller cap. Only retry if
+      // the failure was recoverable AND we weren't already at minimal.
+      if (err.permanent || thinkingLevel === 'minimal') throw err;
       // If the fallback also fails, surface the original error — it
       // describes the actual problem (the fallback's error is usually
       // just a downstream symptom).
-      try { return await attempt(0, mode === 'commit' ? 4096 : 8192); }
+      try { return await attempt('minimal', mode === 'commit' ? 4096 : 8192); }
       catch { throw err; }
     }
 
