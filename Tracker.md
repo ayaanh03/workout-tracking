@@ -6,15 +6,11 @@ Companion to `program.md` (v4.2 effective W3, week of 2026-05-04). Race: Sat 202
 
 ## Status
 
-**Phase: A** (Reset/Reintro). Max HR **191 bpm** locked W3 Fri 2026-05-08 (rower, peak on effort 1). True running max likely 195–200 (modality penalty + first-test CNS pullback). Re-test W6–W8 on the run (treadmill 1% or 1500m all-out).
+**Phase: A → B eligible.** Phase B running gate **cleared 2026-05-13** (8 consecutive SI-clean days 5/6–5/13; SI tests negative 5/6; single-leg bridge 30s/side clean 5/6). Ready to start §7.B treadmill walk-jog sequence.
+
+Max HR **191 bpm** locked W3 Fri 2026-05-08 (rower, peak on effort 1). True running max likely 195–200 (modality penalty + first-test CNS pullback). Re-test W6–W8 on the run (treadmill 1% or 1500m all-out).
 
 **Locked HR zones (off 191):** Run Z1 ≤155 (LT1 updated 2026-05-11) / Row Z1 ≤155 / Z2 162–168 / Z3 176–183 / Apple Z5 ≥172.
-
-**Phase B running gate** (clean clock reset 2026-05-05; earliest run start ~May 23 conservative, May 27 – Jun 3 realistic per §7.B):
-
-- [ ] 7 consecutive symptom-free days — **6/7** (5/6, 5/7, 5/8, 5/9, 5/10, 5/11)
-- [x] SI provocation tests negative (5/6)
-- [x] Single-leg bridge 30s/side pain-free (5/6)
 
 ---
 
@@ -153,6 +149,8 @@ Companion to `program.md` (v4.2 effective W3, week of 2026-05-04). Race: Sat 202
 |2026-05-09|clean|—|—|—|4/7 toward Phase B gate|
 |2026-05-10|clean|—|clean (Hyp B)|clean|5/7 toward Phase B gate|
 |2026-05-11|clean|—|clean|clean|6/7 toward Phase B gate|
+|2026-05-12|clean|—|clean (Hyp A + Z1 run)|clean|7/7 — **Phase B gate cleared**|
+|2026-05-13|clean|—|—|—|day 8 clean; Phase B sequence eligible|
 
 ---
 
