@@ -92,6 +92,18 @@ Companion to `program.md` (v4.2 effective W3, week of 2026-05-04). Race: Sat 202
 |Chest Fly|130x12 RIR2 / 130x12 RIR1|Accessory|
 > AI: Significant load increase on Cable Lateral (Sat) pushing to RIR0. Lat Pulldown sustained 130lb. Triceps Pushdown and Seated Calf missed RIR targets on final sets (RIR0/1), indicating high intensity/fatigue. Hanging Knees skipped. New accessory: Chest Fly (130lb, 2x12).
 
+### W4 Wed 2026-05-13 — Hypertrophy A
+
+|Exercise|Sets|Notes|
+|---|---|---|
+|Incline BB|125×5 RIR 4 / 125×5 RIR 4 / 125×5 RIR 4|pre-AMRAP volume (W4 prescription)|
+|DB lateral raise|25×12 RIR 4 / 25×12 RIR 3 / 25×12 RIR 4 / 25×12 RIR 2|4 sets; subbed for Cable lateral|
+|Triceps pushdown|42.5×12 RIR 3 / 42.5×12 RIR 2 / 42.5×12 RIR 1|—|
+|Rear-delt fly|125×15 RIR 4 / 125×15 RIR 1|bumped to 125 per W3 Wed note|
+|Preacher curl uni|50×12 RIR 4 / 50×12 RIR 2 / 50×10 RIR 1|3rd set 10 reps|
+|Cable crunch|50×12 RIR 3 / 50×12 RIR 2 / 50×12 RIR 2|—|
+|Soleus wall-sit|BW×45s RIR 6 / BW×45s RIR 6 / BW×45s RIR 6|—|
+
 ---
 
 ## Cardio Log
@@ -107,6 +119,7 @@ Companion to `program.md` (v4.2 effective W3, week of 2026-05-04). Race: Sat 202
 |2026-05-08|W3 Fri|Max HR test (rower)|~38 min|progressive WU + 3min/3min/60s|peak 191 (effort 1)|test #1 hit max, #2 didn't (peripheral fatigue cap); see detail below|
 |2026-05-09|W3 Sat|Long row Z1|65:00 / 12847m|2:31.7 avg, r18-19|avg 154, peak 160|decoupling 3.3% (Friel EF, drift 153→156); LT1 confirmed >143, ~158–162; LT2 not crossed; Apple log 1:06:39 incl 90s pre-row sit|
 |2026-05-11|W4 Mon|Z1 row + sprints|41:20 / 8697m|2:22.5 avg; sprints 1:52→1:40|123–176, base ~150–160|Nasal breathing throughout; LT1 confirmed well above 143 cap; Z1 cap moved to ~155 pending Sat decoupling test.|
+|2026-05-13|W4 Wed|Z1 run|25:00 / 2.17 mi|11:30/mi|avg 163, peak 173|subbed for prescribed Z1 row; nasal breathing throughout; cadence 170 spm; 1% incline (Vomero Plus)|
 
 ### Max HR Test Detail — 2026-05-08
 
