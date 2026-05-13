@@ -92,7 +92,7 @@ Companion to `program.md` (v4.2 effective W3, week of 2026-05-04). Race: Sat 202
 |Chest Fly|130x12 RIR2 / 130x12 RIR1|Accessory|
 > AI: Significant load increase on Cable Lateral (Sat) pushing to RIR0. Lat Pulldown sustained 130lb. Triceps Pushdown and Seated Calf missed RIR targets on final sets (RIR0/1), indicating high intensity/fatigue. Hanging Knees skipped. New accessory: Chest Fly (130lb, 2x12).
 
-### W4 Wed 2026-05-13 — Hypertrophy A
+### W4 Tue 2026-05-12 — Hypertrophy A
 
 |Exercise|Sets|Notes|
 |---|---|---|
@@ -103,6 +103,16 @@ Companion to `program.md` (v4.2 effective W3, week of 2026-05-04). Race: Sat 202
 |Preacher curl uni|50×12 RIR 4 / 50×12 RIR 2 / 50×10 RIR 1|3rd set 10 reps|
 |Cable crunch|50×12 RIR 3 / 50×12 RIR 2 / 50×12 RIR 2|—|
 |Soleus wall-sit|BW×45s RIR 6 / BW×45s RIR 6 / BW×45s RIR 6|—|
+
+### W4 Wed 2026-05-13 — Incline BB AMRAP (TM re-set)
+
+|Exercise|Sets|Notes|
+|---|---|---|
+|Incline BB warm-up|bar / 95 / 115 / 135|standard ramp|
+|Incline BB top set|1×5 @ 155 (TM)|RPE 7 target; clean reps only|
+|Incline BB AMRAP|1×AMRAP @ 125 (80% TM)|stop at true RIR 0; log reps to compute new TM|
+
+*TM re-set rule: new TM = 90% × e1RM, where e1RM = weight × (1 + reps/30) (Epley). Example: 125×10 → e1RM ≈ 167 → new TM ≈ 150. 125×12 → e1RM ≈ 175 → new TM ≈ 158 (round to 155). Fill reps after session.*
 
 ---
 
@@ -119,7 +129,7 @@ Companion to `program.md` (v4.2 effective W3, week of 2026-05-04). Race: Sat 202
 |2026-05-08|W3 Fri|Max HR test (rower)|~38 min|progressive WU + 3min/3min/60s|peak 191 (effort 1)|test #1 hit max, #2 didn't (peripheral fatigue cap); see detail below|
 |2026-05-09|W3 Sat|Long row Z1|65:00 / 12847m|2:31.7 avg, r18-19|avg 154, peak 160|decoupling 3.3% (Friel EF, drift 153→156); LT1 confirmed >143, ~158–162; LT2 not crossed; Apple log 1:06:39 incl 90s pre-row sit|
 |2026-05-11|W4 Mon|Z1 row + sprints|41:20 / 8697m|2:22.5 avg; sprints 1:52→1:40|123–176, base ~150–160|Nasal breathing throughout; LT1 confirmed well above 143 cap; Z1 cap moved to ~155 pending Sat decoupling test.|
-|2026-05-13|W4 Wed|Z1 run|25:00 / 2.17 mi|11:30/mi|avg 163, peak 173|subbed for prescribed Z1 row; nasal breathing throughout; cadence 170 spm; 1% incline (Vomero Plus)|
+|2026-05-12|W4 Tue|Z1 run|25:00 / 2.17 mi|11:30/mi|avg 163, peak 173|matches W4 Tue Phase A prescription (25 min easy outdoor); nasal breathing throughout; cadence 170 spm; 1% incline (Vomero Plus)|
 
 ### Max HR Test Detail — 2026-05-08
 
@@ -179,4 +189,4 @@ Break-in: Vomero first run (Tue Z1) OK. Zoom Fly 6 needs 20–30 min easy break-
 |W1|n/a|n/a|n/a|✓ Sumo 4-23|✓ Threshold 4-24|✓ Long row + pump 4-25|started Thu|
 |W2|✓ Incline 4-27|✓ Z1 run 4-28|Off|✓ Squat 4-30|✓ Threshold 5-1|✓ Sumo + bike 5-2|complete|
 |W3|✓ Squat 5-4|✓ Z1 row 5-5|✓ Incline 5-6|✓ REST 5-7|✓ Max HR 191 5-8|✓ Long Z1 5-9|complete (Hyp B done Sun 5/10)|
-|W4|✓ Z1 row 5-11|—|—|—|—|—|in progress|
+|W4|✓ Z1 row 5-11|✓ Hyp A + Z1 run 5-12|AMRAP scheduled 5-13|—|—|—|in progress|
