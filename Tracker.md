@@ -18,7 +18,7 @@ Max HR **191 bpm** locked W3 Fri 2026-05-08 (rower, peak on effort 1). True runn
 
 |Exercise|Load|Last verified|Note|
 |---|---|---|---|
-|Incline BB|125 working / TM 155|W3 Wed 5/6 (125×8 RIR 2)|AMRAP W4 Wed 5/13 to re-set TM|
+|Incline BB|135 working / TM 165|W4 Wed 5/13 (125×14 RIR 0, AMRAP)|TM re-set from AMRAP; working load jump to 135 (82% TM) for W5 Tue|
 |Lat pulldown|130|W3 Sun 5/10 (130×10 RIR1)|sustained 130 lb|
 |Chest-supp row|80|W2 Mon|NEW (Phase B+); 3×10 RPE 8|
 |Cable lateral (Tue)|12.5|W2 Mon|anchor all 4 sets|
@@ -43,6 +43,7 @@ Max HR **191 bpm** locked W3 Fri 2026-05-08 (rower, peak on effort 1). True runn
 5.  **Hanging Knees skipped** W3 Sun 5/10.
 6.  **New accessory: Chest Fly** (130lb, 2x12) added W3 Sun 5/10.
 7.  **Z1 Cap:** Adjusted to ~155 bpm following 2026-05-11 row; LT1 confirmed higher than previous 143 estimate.
+8.  **Incline BB TM re-set W4 Wed 5/13:** 125×14 AMRAP → new TM 165 (was 155). Working load jump 125 → 135 (82% TM) for W5 Tue. Top-set prescription (1×5 @ TM) was skipped after 145 single hit RIR 2/3 — protocol followed via AMRAP-only path.
 
 ---
 
@@ -105,10 +106,10 @@ Max HR **191 bpm** locked W3 Fri 2026-05-08 (rower, peak on effort 1). True runn
 |Exercise|Sets|Notes|
 |---|---|---|
 |Incline BB warm-up|bar / 95 / 115 / 135|standard ramp|
-|Incline BB top set|1×5 @ 155 (TM)|RPE 7 target; clean reps only|
-|Incline BB AMRAP|1×AMRAP @ 125 (80% TM)|stop at true RIR 0; log reps to compute new TM|
+|Incline BB probe|145×1 RIR 2/3|skipped prescribed 155×5 top set — 145 single indicated 1RM ~155–160, 155×5 unrealistic|
+|Incline BB AMRAP|125 × 14 + 1 partial (half-rep)|14 clean reps to RIR 0; 15th rep stalled half-way|
 
-*TM re-set rule: new TM = 90% × e1RM, where e1RM = weight × (1 + reps/30) (Epley). Example: 125×10 → e1RM ≈ 167 → new TM ≈ 150. 125×12 → e1RM ≈ 175 → new TM ≈ 158 (round to 155). Fill reps after session.*
+*TM re-set: e1RM = 125 × (1 + 14/30) ≈ 183 → new TM = 90% × 183 ≈ **165 lb** (up from 155). Partial 15th rep not counted in Epley.*
 
 ---
 
@@ -161,7 +162,7 @@ Max HR **191 bpm** locked W3 Fri 2026-05-08 (rower, peak on effort 1). True runn
 |Wk|Projected target (if prior wk clean)|Actual|
 |---|---|---|
 |W3|3×5 @ 155 RPE 7|125×8 RIR 2-3/2/2 (Wed 5/6) — TM held|
-|W4|3×5 @ TM (155) + AMRAP test — re-set TM from AMRAP result|—|
+|W4|3×5 @ TM (155) + AMRAP test — re-set TM from AMRAP result|**145×1 RIR 2/3 (top set skipped); 125×14 AMRAP RIR 0 → new TM 165**|
 |W5–W7|3×5 @ TM|—|
 |W8 deload|2×5 @ TM−10|—|
 
@@ -187,4 +188,4 @@ Break-in: Vomero first run (Tue Z1) OK. Zoom Fly 6 needs 20–30 min easy break-
 |W1|n/a|n/a|n/a|✓ Sumo 4-23|✓ Threshold 4-24|✓ Long row + pump 4-25|started Thu|
 |W2|✓ Incline 4-27|✓ Z1 run 4-28|Off|✓ Squat 4-30|✓ Threshold 5-1|✓ Sumo + bike 5-2|complete|
 |W3|✓ Squat 5-4|✓ Z1 row 5-5|✓ Incline 5-6|✓ REST 5-7|✓ Max HR 191 5-8|✓ Long Z1 5-9|complete (Hyp B done Sun 5/10)|
-|W4|✓ Z1 row 5-11|✓ Hyp A + Z1 run 5-12|AMRAP scheduled 5-13|—|—|—|in progress|
+|W4|✓ Z1 row 5-11|✓ Hyp A + Z1 run 5-12|✓ AMRAP 5-13 (TM → 165)|—|—|—|in progress|
