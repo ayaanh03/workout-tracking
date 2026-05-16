@@ -44,6 +44,11 @@ Max HR **191 bpm** locked W3 Fri 2026-05-08 (rower, peak on effort 1). True runn
 6.  **New accessory: Chest Fly** (130lb, 2x12) added W3 Sun 5/10.
 7.  **Z1 Cap:** Adjusted to ~155 bpm following 2026-05-11 row; LT1 confirmed higher than previous 143 estimate.
 8.  **Incline BB TM re-set W4 Wed 5/13:** 125×14 AMRAP → new TM 165 (was 155). Working load jump 125 → 135 (82% TM) for W5 Tue. Top-set prescription (1×5 @ TM) was skipped after 145 single hit RIR 2/3 — protocol followed via AMRAP-only path.
+9.  **Run MHR re-test priority — accelerate to W5 (originally W6–W8).** W4 Fri T-run: 7:55/mi @ HR 180, but subjective RPE 6.5–7 ("could do 2 more reps") = proper threshold effort, not VO2max. Strong evidence true run MHR ≥ 200 (rower 191 underestimate). Implication: HR zones off 191 are too low for run; the §4.A goal-VDOT pace table (T 7:55–8:10) appears correct by feel. **Until run-MHR retest:**
+    - **Hold §4.A pace targets** (don't recalibrate down)
+    - **Anchor quality sessions to RPE + pace**, not the off-191 HR zones (will skew high)
+    - If run MHR confirms 195–205 on retest, recompute Z2 (85–88%) and Z3 (92–96%) accordingly — likely Z2 ≈ 170–177, Z3 ≈ 184–192
+    - Current VDOT estimate revised **upward to ~45–48** (vs goal 50)
 
 ---
 
@@ -127,6 +132,7 @@ Max HR **191 bpm** locked W3 Fri 2026-05-08 (rower, peak on effort 1). True runn
 |2026-05-09|W3 Sat|Long row Z1|65:00 / 12847m|2:31.7 avg, r18-19|avg 154, peak 160|decoupling 3.3% (Friel EF, drift 153→156); LT1 confirmed >143, ~158–162; LT2 not crossed; Apple log 1:06:39 incl 90s pre-row sit|
 |2026-05-11|W4 Mon|Z1 row + sprints|41:20 / 8697m|2:22.5 avg; sprints 1:52→1:40|123–176, base ~150–160|Nasal breathing throughout; LT1 confirmed well above 143 cap; Z1 cap moved to ~155 pending Sat decoupling test.|
 |2026-05-12|W4 Tue|Z1 run|25:00 / 2.17 mi|11:30/mi|avg 163, peak 173|matches W4 Tue Phase A prescription (25 min easy outdoor); nasal breathing throughout; cadence 170 spm; 1% incline (Vomero Plus)|
+|2026-05-15|W4 Fri|Threshold run (first T-run)|4×3 min @ T + WU 1.36 mi / CD 1.05 mi; total ~4.26 mi / 42:51|work avg 7:55/mi (7:52/7:55/8:01/7:56); rec 11:00–11:40/mi; cooldown 11:16/mi; work power 246–249W|work 178–181 (avg ~180); rec 179–182 (no drop); cooldown 170|**Pace control tight** (±5s across reps). **Subjective RPE 6.5–7 — "could have done 2 more reps"** = proper threshold effort. HR ran 178–181 but feel says metabolic load was correct. Strong evidence **true run MHR > 191** (rower test underestimate per line 11 caveat); 180 likely ≈ 90% true MHR = high-T territory ✓. Cadence work 178–181 ✓; rec dropped to 159–165. No SI flare. Off-protocol vs §7.B (Fri quality should stay on rower 2 wks post-Phase-B); tolerated well. **Hold §4.A paces, trust RPE, accelerate run-MHR re-test.** See Adjustment #9.|
 
 ### Max HR Test Detail — 2026-05-08
 
@@ -188,4 +194,4 @@ Break-in: Vomero first run (Tue Z1) OK. Zoom Fly 6 needs 20–30 min easy break-
 |W1|n/a|n/a|n/a|✓ Sumo 4-23|✓ Threshold 4-24|✓ Long row + pump 4-25|started Thu|
 |W2|✓ Incline 4-27|✓ Z1 run 4-28|Off|✓ Squat 4-30|✓ Threshold 5-1|✓ Sumo + bike 5-2|complete|
 |W3|✓ Squat 5-4|✓ Z1 row 5-5|✓ Incline 5-6|✓ REST 5-7|✓ Max HR 191 5-8|✓ Long Z1 5-9|complete (Hyp B done Sun 5/10)|
-|W4|✓ Z1 row 5-11|✓ Hyp A + Z1 run 5-12|✓ AMRAP 5-13 (TM → 165)|—|—|—|in progress|
+|W4|✓ Z1 row 5-11|✓ Hyp A + Z1 run 5-12|✓ AMRAP 5-13 (TM → 165)|—|✓ T-run 4×3 min 5-15|—|in progress|
