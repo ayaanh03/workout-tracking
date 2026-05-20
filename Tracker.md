@@ -23,11 +23,11 @@ Max HR **191 bpm** locked W3 Fri 2026-05-08 (rower, peak on effort 1). True runn
 |Chest-supp row|80|W4 Sat 5/16 (80×10/10/7 RIR 2/1/0)|set 3 dropped to 7 reps; hold 80|
 |Cable lateral (Tue)|12.5|W2 Mon|anchor all 4 sets|
 |Cable lateral (Sat)|15/side uni → bump next|W4 Sat 5/16 (15×12 RIR 1 ×3)|clean RIR 1 across all 3; bump-eligible|
-|Preacher curl uni|50/arm|W4 Sat 5/16 (50×12/12/8 RIR 2/1/0)|set 3 dropped to 8 reps; hold 50|
-|Triceps pushdown|50|W4 Sat 5/16 (50×15/15/12 RIR 2/2/0)|intentional bump 42.5 → 50; hold 50 until clean RIR 2|
+|Preacher curl uni|50/arm → bump next Sat|W5 Tue 5/19 (50×10/10/10 RIR 4/3/2)|clean RIR 2 across all 3 — bump-eligible|
+|Triceps pushdown|50 → bump next Sat|W5 Tue 5/19 (50×12/12/12 RIR 4/3/2)|hold-until-clean satisfied; bump-eligible|
 |Rear-delt fly|125 next|W3 Wed (120×15 RIR 1)|bump from 120|
 |Seated calf|315 → bump next|W4 Sat 5/16 (315×15 RIR 2 ×4)|clean RIR 2 across 4 sets — bump next Sat|
-|Cable crunch|42.5|W1 Sat|RPE 8|
+|Cable crunch|65 (working top set)|W5 Tue 5/19 (50/57.5/65 ×12 RIR 5+/5+/3)|pyramid up revealed real load; new working top at 65×12 RIR 3 (was held at 42.5)|
 |Hanging straight-leg raise|BW|W4 Sat 5/16 (BW×10 RIR 3-5 ×3)|subbed for hanging knee; harder variant — progress reps or add load|
 |Soleus wall-sit|BW|W4 Sat 5/16 (BW×30s ×3)|3×30-45s, knee ~80°, RPE 7-8 — restore to 45s|
 |Chest Fly|130|W4 Sat 5/16 (130×12 RIR 2/1)|accessory|
@@ -38,7 +38,7 @@ Max HR **191 bpm** locked W3 Fri 2026-05-08 (rower, peak on effort 1). True runn
 
 1.  **Hyp B punted Sat 5/9 → Sun 5/10 (executed W3 Sun 5/10).**
 2.  **SI watch:** chest-supp row + soleus wall-sit are NEW additions; drop immediately on any SI flare.
-3.  **Triceps Pushdown:** intentional bump 42.5 → 50 W4 Sat 5/16 (50×15/15/12 RIR 2/2/0); last set missed RIR 2 — hold 50 until clean.
+3.  **Triceps Pushdown:** hold-50-until-clean **satisfied W5 Tue 5/19** (50×12/12/12 RIR 4/3/2 — clean RIR 2 on set 3); bump-eligible next Sat.
 4.  **Seated Calf:** 315 lb clean RIR 2 across 4×15 W4 Sat 5/16 — bump next Sat (try +10–20 lb).
 5.  **Hanging Knees → hanging straight-leg raise** W4 Sat 5/16 (BW×10 RIR 3-5 ×3); harder variant tolerated, progress reps or add load.
 6.  **New accessory: Chest Fly** (130lb, 2x12) added W3 Sun 5/10; sustained W4 Sat 5/16 (130×12 RIR 2/1).
@@ -52,8 +52,10 @@ Max HR **191 bpm** locked W3 Fri 2026-05-08 (rower, peak on effort 1). True runn
 10. **Lat pulldown 130** clean 4×10 RIR 3 W4 Sat 5/16 — bump to 135 next Sat.
 11. **Cable lateral (Sat) 15/side uni** clean 3×12 RIR 1 W4 Sat 5/16 — bump-eligible next Sat.
 12. **Chest-supp row 80** dropped reps on set 3 (10/10/7) W4 Sat 5/16 — hold 80; same-week running fatigue likely contributing.
-13. **Preacher curl uni 50** dropped reps on set 3 (12/12/8) W4 Sat 5/16 — hold 50.
-14. **Soleus wall-sit** came in at the 30s floor W4 Sat 5/16 (was 45s prior) — restore to 45s next session.
+13. **Preacher curl uni 50** hold **satisfied W5 Tue 5/19** (50×10/10/10 RIR 4/3/2 — clean RIR 2 on set 3); bump-eligible next Sat.
+14. **Soleus wall-sit** 45s restored **W5 Tue 5/19** (45s × 3 RIR 5/5/5); duration target satisfied, RIR room → push duration toward 50–60s or knee angle deeper next session.
+15. **Cable crunch working load reset W5 Tue 5/19:** pyramid 50→57.5→65 ×12 (RIR 5+/5+/3); prior held weight (42.5) was significantly under MEV — top set 65×12 RIR 3 is the new floor.
+16. **Run/lift ordering W5 Tue 5/19 off-protocol:** lift-first, T-run immediately after (no ≥6h gap, no formal WU) — confounds RPE/HR signal for the T-run. Restore §2.A standard (run AM, lift PM ≥6h gap) before re-testing 8:00/mi T-pace target.
 
 ---
 
@@ -137,6 +139,20 @@ Max HR **191 bpm** locked W3 Fri 2026-05-08 (rower, peak on effort 1). True runn
 
 > AI: Strong session. Lat pulldown and seated calf both signal load progression next Sat (130 → 135; 315 → +10–20 lb). Cable lateral (Sat) at 15/side clean RIR 1 across 3×12 is bump-eligible. Triceps pushdown bumped to 50 lb against prior hold note — landed at RIR 2/2/0, same pattern as 42.5 prior session, so hold 50 now. Chest-supp row and preacher curl both dropped reps on set 3 (10/10/7 and 12/12/8) — accumulated fatigue from running the same week. Soleus came in at the 30s floor of the 30–45s band; bring it back up.
 
+### W5 Tue 2026-05-19 — Hypertrophy A (lift-first, T-run back-to-back)
+
+|Exercise|Sets|Notes|
+|---|---|---|
+|Incline BB|135×5 RIR 3 / 135×5 RIR 2 / 135×5 RIR 2|**first session on new TM 165** @ 82% (§5 Base prescription) — clean entry; RIR 2 on sets 2-3 borderline of RPE 7 target but acceptable as W5 entry; +5 lb next Tue per §5 if sets stay clean|
+|DB lateral raise|25×12 RIR 3 / 25×12 RIR 3 / 25×12 RIR 3 / 25×12 RIR 4|consistent but soft of RPE 9 (RIR 1) target — push harder or bump load next Tue|
+|Preacher curl uni|50×10 RIR 4 / 50×10 RIR 3 / 50×10 RIR 2|**clean across all 3 sets at 50** — Adj #13 hold-50 satisfied; bump-eligible next Sat|
+|Triceps pushdown|50×12 RIR 4 / 50×12 RIR 3 / 50×12 RIR 2|**first clean RIR 2 on set 3 at 50** — Adj #3 hold-until-clean satisfied; bump-eligible next Sat|
+|Cable crunch|50×12 RIR 5+ / 57.5×12 RIR 5+ / 65×12 RIR 3|**pyramid up to discover working load** — 65×12 RIR 3 = new working weight (was 42.5/50); update Current Working Loads|
+|Soleus wall-sit|BW×45s RIR 5 / BW×45s RIR 5 / BW×45s RIR 5|**restored to 45s target** — Adj #14 satisfied; RIR 5 across all 3 sets = room to push duration toward 50–60s or knee-angle deeper|
+|Rear-delt fly|125×15 RIR 4 / 125×15 RIR 3|hold 125; clean|
+
+> AI: Strong Hyp A — two carry-forward holds cleared in one session. Triceps pushdown 50 (RIR 4/3/2) and Preacher 50 (RIR 4/3/2) both landed clean RIR 2 on last set, satisfying Adj #3 and #13 hold conditions → both bump-eligible next Sat. Incline BB 135×5/5/5 RIR 3/2/2 = clean entry to W5 Base linear progression on new TM 165. Cable crunch pyramid (50→57.5→65) revealed real working load — 65×12 RIR 3 is the new floor; update Current Working Loads from 42.5 to 65. Soleus restored to 45s with RIR 5 across the board — could push duration or knee angle. DB lat raise sits soft of RPE 9 (RIR 1) prescription — last set RIR 4 = push harder or bump load next Tue. Rear-delt fly 125 holding clean since W4 Tue bump.
+
 ---
 
 ## Cardio Log
@@ -156,6 +172,7 @@ Max HR **191 bpm** locked W3 Fri 2026-05-08 (rower, peak on effort 1). True runn
 |2026-05-15|W4 Fri|Threshold run (first T-run)|4×3 min @ T + WU 1.36 mi / CD 1.05 mi; total ~4.26 mi / 42:51|work avg 7:55/mi (7:52/7:55/8:01/7:56); rec 11:00–11:40/mi; cooldown 11:16/mi; work power 246–249W|work 178–181 (avg ~180); rec 179–182 (no drop); cooldown 170|**Pace control tight** (±5s across reps). **Subjective RPE 6.5–7 — "could have done 2 more reps"** = proper threshold effort. HR ran 178–181 but feel says metabolic load was correct. Strong evidence **true run MHR > 191** (rower test underestimate per line 11 caveat); 180 likely ≈ 90% true MHR = high-T territory ✓. Cadence work 178–181 ✓; rec dropped to 159–165. No SI flare. Off-protocol vs §7.B (Fri quality should stay on rower 2 wks post-Phase-B); tolerated well. **Hold §4.A paces, trust RPE, accelerate run-MHR re-test.** See Adjustment #9.|
 |2026-05-16|W4 Sat|Z1 easy run (long for Reset W4)|3.30 mi / 35:04|splits 10:38 / 10:46 / 10:35 / 10:27 (0.30 mi); avg ~10:38/mi; power 175 → 187 → 197 → 191W|splits 158 / 169 / 172 / 172; avg ~167; peak 172|**Nasal breathing throughout** = aerobic / sub-LT1 by physiological gate. Pace sits in §4.A Z1 band (9:45–10:45/mi). HR drift 158 → 172 on stable pace = **3.8% Pa:HR decoupling** (Friel EF: 0.000838 → 0.000806), within aerobic durability band (<5%); comparable to W3 Sat long row (3.3%). HR runs above off-191 Z1 cap (≤155), but per Adjustment #9 those zones are skewed low for running until MHR retest — nasal confirmation is the physiological gate. Power climbs 175 → 197W on flat pace = same drift signature in mechanical work. Matches §4.B W4 Reset prescription (35–40 min easy outdoor). Done PM after Hyp B is non-standard ordering — usually run AM, lift PM. Watch tomorrow AM for SI / soreness.|
 |2026-05-18|W5 Mon|Z1 easy run|3.22 mi / 30:08 (elapsed 31:37)|9:21/mi avg; range 14:45 → 7:08/mi (steady, no strides — range likely GPS noise / traffic lights / urban stop-go)|avg 179, peak 189, low 106|**Nasal breathing for the most part** = aerobic / sub-LT1 by physiological gate. Cadence avg 165 spm (range 134–189). Matches §4.C W5 Mon prescription distance/duration (Z1 easy 30 min) ✓ — **strides skipped** (prescription is 30 min + 4×20 s strides; flat or hill strides Phase B+; revisit next Mon). Avg pace 9:21/mi is faster than prior Z1 outings (W4 Sat 10:38/mi, W4 Tue 11:30/mi) — pace creeping toward §4.A Z1 floor (9:45/mi) with no stride contribution to explain it. **Avg HR 179 / peak 189 runs hot** vs prior easy runs (W4 Sat avg 167 / peak 172) on steady effort = real upward drift, not stride spikes. Nasal gate held = still aerobic, but borderline; effort sustained above expected easy HR while nasal-clean is further evidence true run MHR > 191 (peak 189 = 99% of rower max with nasal breathing in steady state is implausible if 191 is real MHR). HR runs well above off-191 Z1 cap (≤155); per Adjustment #9 zones skew low for running until MHR retest. Outdoor (Chelsea / Hudson River loop, NYC); shoes presumed Vomero Plus (daily trainer). Watch tomorrow AM for SI / soreness. **Action:** keep pushing run-MHR retest priority (Adjustment #9) — three consecutive sessions now (Fri T-run, Sat easy, today) with HR signal at odds with off-191 zones while RPE/nasal say otherwise.|
+|2026-05-19|W5 Tue|Threshold run (treadmill, lift-first back-to-back)|4×5 min @ T + 1 min rec, treadmill 1% incline; total HR-captured ~25:10 across 2 Apple Watch splits (11:20 + 13:50)|8:00/mi (slow end of §4.A T band 7:55–8:10); short/no formal WU or CD (lift served as warmup)|split 1 (11:20): avg 172, peak 180 (range 127–180 — WU climb + reps 1–2); split 2 (13:50): avg 179, peak 188 (range 146–188 — reps 3–4 + CD drop)|**Subjective "quite hard"** — stronger RPE than W4 Fri T-run ("RPE 6.5–7, could do 2 more reps"). Compounding drivers: (a) rep length doubled (3 min → 5 min), (b) **lift-first, run-immediately ordering** off-protocol vs §2.A (which calls for run AM, lift PM ≥6 h gap) — accumulated lift fatigue + cold metabolic start, (c) **no formal WU** — first split shows 127 → 180 ramp i.e. T effort entered cold, (d) treadmill heat / no breeze cooling, (e) possible true T pace closer to 8:05–8:10 for current fitness. HR avg ~175–176 across segments, peak 188 = highest T-effort HR in log (W4 Fri peak 181; W5 Mon peak 189 on easy). **Peak 188 on T effort + W5 Mon peak 189 on easy** = strong cumulative evidence run MHR > 191; rower max almost certainly an underestimate (Adj #9). Matches §4.C W5 Tue prescription (4×5 min @ T, 1 min rec) ✓. **Action:** next Tue (a) restore standard ordering (run AM, lift PM ≥6h gap) before re-testing pace target; (b) if 8:00/mi still feels >RPE 7 with proper WU + standard ordering, slow to 8:05–8:10; (c) accelerate run-MHR retest into W5 late or W6.|
 
 ### Max HR Test Detail — 2026-05-08
 
@@ -220,4 +237,4 @@ Break-in: Vomero first run (Tue Z1) OK. Zoom Fly 6 needs 20–30 min easy break-
 |W2|✓ Incline 4-27|✓ Z1 run 4-28|Off|✓ Squat 4-30|✓ Threshold 5-1|✓ Sumo + bike 5-2|complete|
 |W3|✓ Squat 5-4|✓ Z1 row 5-5|✓ Incline 5-6|✓ REST 5-7|✓ Max HR 191 5-8|✓ Long Z1 5-9|complete (Hyp B done Sun 5/10)|
 |W4|✓ Z1 row 5-11|✓ Hyp A + Z1 run 5-12|✓ AMRAP 5-13 (TM → 165)|—|✓ T-run 4×3 min 5-15|✓ Hyp B + Z1 run 5-16|complete|
-|W5|✓ Z1 run 5-18 (strides skipped)|—|—|—|—|—|in progress|
+|W5|✓ Z1 run 5-18 (strides skipped)|✓ Hyp A + T-run 4×5 min 5-19 (lift-first)|—|—|—|—|in progress|
