@@ -1,86 +1,73 @@
-# 🏃 Workout Tracking Dashboard
+# Workout Tracking
 
-A personal training dashboard built as a single-page app served via **GitHub Pages** — no backend, no build step, just one `index.html` file and a GitHub PAT.
+Two markdown files + a tiny read-only dash, all driven by Claude Code chats. No backend, no build.
+
+- **`program.md`** — the prescribed 25-week Sub-20 5K + hypertrophy program. The plan.
+- **`Tracker.md`** — what's actually been done: status, current working loads, carry-forwards, lifting/cardio logs. The record.
+- **`index.html`** — a static, mobile-friendly view of today's brief + the week ahead. Renders `latest-workout.json` and `week-ahead.json`, both written by Claude.
+
+`CLAUDE.md` tells Claude how to behave in this repo.
 
 ---
 
-## 🎯 The Program — Sub-20 5K Training
+## How it works
 
-This app is built around a structured **Sub-20 5K training plan** that combines running and hypertrophy lifting across a ~25-week program.
+**Morning:** ask for the workout.
 
-### 📅 Weekly Schedule
+> "what's today"
+
+Claude reads `program.md` + `Tracker.md`, figures out the week / phase / day, applies current working loads and any carry-forward flags, and outputs a tight brief: intro line, lift table (sets × reps × load × RIR × rest × cue), warmup, cooldown. Cardio gets its own block — flags, workout, targets, cues.
+
+**Post-session:** dump what you did.
+
+> "Hyp A done. Incline 135×5/5/5 RIR 3/2/2. Lat raise 25×12 across RIR 3. Preacher 50×10 across RIR 4/3/2. Pushdown 50×12 across RIR 4/3/2…"
+
+Claude appends a structured entry to `Tracker.md`, updates Current Working Loads, adds/resolves entries in Adjustments/Carry-forwards, marks the Weekly Summary, logs SI status if reported, then commits and pushes. The next morning's brief reads the new state.
+
+That's the whole loop. Each session feeds context into the next.
+
+---
+
+## The program at a glance
+
+25-week Sub-20 5K plan + 2×/wk hypertrophy. Phases: **Reset → Base → Build → Sharpen → Taper**, race day Sat Oct 24, 2026.
 
 | Day | Session |
-|-----|---------|
-| **Sunday** | 😴 Rest + Prehab |
-| **Monday** | 🏃 Easy Run + Strides (Z1, ≤143 bpm) |
-| **Tuesday** | 🔥 Threshold Run + Hypertrophy A (~40 min lift) |
-| **Wednesday** | 🏃 Easy Run (Z1) |
-| **Thursday** | 🏃 Easy Run or Full Rest |
-| **Friday** | ⚡ VO2max / Quality Session |
-| **Saturday** | 💪 Long Run (Z1) + Hypertrophy B (~40 min lift) |
+|---|---|
+| Sun | Off / SI prehab |
+| Mon | Z1 easy run + strides |
+| Tue | Threshold + Hyp A (≥6h gap) |
+| Wed | Z1 easy run |
+| Thu | Z1 easy or rest |
+| Fri | Quality (T or VO2max) |
+| Sat | Long run + Hyp B (≥6h gap) |
 
-### 🏋️ Hypertrophy Sessions
-
-Two lifting circuits focused on injury resilience and race-day strength:
-
-- **Hypertrophy A (Tuesday PM)** — Incline press, lateral raises, rear-delt flyes, triceps pushdown, preacher curl, planks
-- **Hypertrophy B (Saturday PM)** — Lat pulldown, chest-supported row, cable lateral raise, preacher curl, triceps pushdown, hanging knee raise, seated calf raise, soleus wall-sit
-
-### 🫀 Heart Rate Zones (locked off max 191 bpm)
-
-| Zone | Purpose | Range |
-|------|---------|-------|
-| Z1 | Easy / recovery | ≤143 bpm |
-| Z2 | Threshold | 162–168 bpm |
-| Z3 | VO2max | 176–183 bpm |
-
-### 🚦 Phase Gates
-
-The program progresses through phases — **Reset → Base → Build → Sharpen → Taper**. Phase B (Running Reintroduction) requires 7 consecutive symptom-free days, negative SI provocation tests, and a PT sign-off before unlocking higher-intensity running.
+Full prescription in `program.md`. Current execution state in `Tracker.md`.
 
 ---
 
-## 🛠️ How the App Works
-
-**Live flow:**
-1. 🔑 Log in with a GitHub PAT (stored in `localStorage`) — validates against the GitHub API to fetch your username and avatar
-2. 📖 App reads `program.md` (training plan) and `Tracker.md` (your workout log)
-3. ✨ AI generates today's workout brief using your actual loads and recent notes from the Tracker
-4. 📝 Log your session set-by-set or via natural language → AI formats it into Markdown
-5. ✅ Confirm screen shows exactly what will be appended → one-click commit to `Tracker.md` via the GitHub Contents API
-
-**No server. No database. Your data lives in this repo.**
-
----
-
-## 🤖 AI Features
-
-- **Daily workout brief** — pulls from both `program.md` and `Tracker.md` so the AI knows your current loads, injuries, and carry-forwards. Cached in `brief-cache.json` for cross-device access.
-- **Natural language logging** — describe your session in plain text; AI formats it into a structured Markdown table
-- **AI Consult** — chat with your coach about any training decision; commit the decisions directly to `Tracker.md`
-- **Supports Gemini 2.5 Flash** (free tier, 1,500 req/day) and **Claude Haiku** — keys injected at deploy time via GitHub Actions secrets, never committed
-
----
-
-## 📁 File Map
+## File map
 
 | File | Purpose |
-|------|---------|
-| `index.html` | Entire app — single file, all JS/CSS inline |
-| `program.md` | Sub-20 5K training program (source of truth) |
-| `Tracker.md` | Workout log — appended by the app, read by AI |
-| `brief-cache.json` | Daily AI brief cache for cross-device sync |
-| `.github/workflows/deploy.yml` | Deploys to GitHub Pages; bakes API keys into `config.js` |
+|---|---|
+| `program.md` | 25-week plan (prescription, source of truth) |
+| `Tracker.md` | Execution log: status, current loads, carry-forwards, lifting/cardio logs |
+| `index.html` | Read-only dash — fetches the two JSON caches and renders them |
+| `latest-workout.json` | Cached daily brief (written by Claude each morning) |
+| `week-ahead.json` | Cached 7-day glance for the current program week (written by Claude) |
+| `CLAUDE.md` | Behavior instructions for Claude Code |
+| `README.md` | This file |
+| `LICENSE` | MIT |
 
 ---
 
-## 🚀 Setup
+## Dash setup (one-time)
 
-1. Fork this repo
-2. Go to **Settings → Pages** and set source to **GitHub Actions**
-3. Add secrets under **Settings → Secrets → Actions**:
-   - `GEMINI_API_KEY` — from [Google AI Studio](https://aistudio.google.com/app/apikey)
-   - `ANTHROPIC_API_KEY` — from [Anthropic Console](https://console.anthropic.com/settings/apikeys)
-4. Push any change to trigger a deploy
-5. Open the Pages URL, enter your GitHub PAT (needs `repo` scope), and start logging
+The dash is just `index.html` + the two JSON files in this repo. To put it on the web:
+
+1. Repo **Settings → Pages**
+2. Source: **Deploy from a branch**
+3. Branch: `main` (or whichever branch you merge to) / `/(root)`
+4. Save → wait a minute → open the Pages URL
+
+No secrets, no workflow, no build. Every morning Claude writes the fresh JSON, commits it, and the dash picks it up on the next load.

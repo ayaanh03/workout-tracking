@@ -1,2627 +1,310 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="Sub-20 5K">
-  <meta name="theme-color" content="#0f0f0f">
-  <title>Sub-20 5K Dashboard</title>
-  <!-- AI keys live in config.js, injected at deploy time. We DO NOT load it eagerly:
-       that would expose window.WORKOUT_CONFIG to anyone visiting the page. Instead,
-       loadBuiltInConfig() injects the script only after a GitHub PAT has been validated. -->
-  <script>window.WORKOUT_CONFIG = {};</script>
-  <style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0a0a">
+<title>Workout</title>
+<style>
+  :root {
+    --bg: #0a0a0a;
+    --card: #161616;
+    --text: #e8e8e8;
+    --muted: #8a8a8a;
+    --accent: #ff7a00;
+    --border: #262626;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); -webkit-text-size-adjust: 100%; }
+  body {
+    font: 16px/1.5 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 16px; }
+  header { padding: 8px 0 20px; }
+  h1 { font-size: 22px; margin: 0 0 4px; font-weight: 600; letter-spacing: -0.01em; }
+  .meta { color: var(--muted); font-size: 13px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 16px;
+    margin-bottom: 14px;
+  }
+  .card h2 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    margin: 0 0 12px;
+    font-weight: 600;
+  }
+  .intro p { margin: 0 0 8px; }
+  .intro p:last-child { margin-bottom: 0; }
+  .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0 -16px; padding: 0 16px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th {
+    color: var(--muted);
+    font-weight: 500;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    white-space: nowrap;
+  }
+  tr:last-child td { border-bottom: 0; }
+  td.ex { font-weight: 500; white-space: nowrap; }
+  td.load { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .label {
+    color: var(--muted);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-top: 14px;
+    margin-bottom: 4px;
+    font-weight: 600;
+  }
+  .label:first-child { margin-top: 0; }
+  ul { margin: 4px 0 0; padding-left: 18px; }
+  ul li { margin: 4px 0; }
+  .flag { color: var(--accent); }
+  .targets {
+    display: grid;
+    grid-template-columns: 72px 1fr;
+    gap: 4px 12px;
+    margin-top: 4px;
+    font-size: 14px;
+  }
+  .targets .k { color: var(--muted); }
+  details summary {
+    cursor: pointer;
+    color: var(--muted);
+    font-size: 13px;
+    user-select: none;
+    list-style: none;
+  }
+  details summary::-webkit-details-marker { display: none; }
+  details summary::after { content: " ▾"; }
+  details[open] summary::after { content: " ▴"; }
+  details[open] summary { margin-bottom: 10px; }
+  .loads td.note { color: var(--muted); font-size: 13px; }
+  .week td.day { font-weight: 500; white-space: nowrap; width: 1%; }
+  .week td.session { white-space: nowrap; }
+  .week td.note { color: var(--muted); font-size: 13px; }
+  .week tr.done td { color: var(--muted); }
+  .week tr.done td.day::before { content: "✓ "; color: var(--muted); }
+  .week tr.today td { color: var(--accent); font-weight: 500; }
+  .week tr.today td.day::before { content: "→ "; }
+  .week .summary { font-size: 13px; color: var(--muted); margin-bottom: 10px; }
+  .empty {
+    color: var(--muted);
+    text-align: center;
+    padding: 40px 16px;
+  }
+  .empty h1 { font-size: 18px; margin: 0 0 8px; color: var(--text); }
+  .err { color: #ff6b6b; font-size: 13px; margin-top: 8px; }
+  a { color: var(--accent); }
+  @media (prefers-color-scheme: light) {
     :root {
-      --bg: #0f0f0f;
-      --surface: #1a1a1a;
-      --surface2: #242424;
-      --border: #2e2e2e;
-      --accent: #f97316;
-      --accent-dim: #7c3a0f;
-      --green: #22c55e;
-      --blue: #3b82f6;
-      --red: #ef4444;
-      --yellow: #eab308;
-      --purple: #a855f7;
-      --text: #f1f1f1;
-      --text-dim: #888;
-      --text-muted: #555;
-      --radius: 12px;
-      --radius-sm: 8px;
+      --bg: #fafafa;
+      --card: #fff;
+      --text: #111;
+      --muted: #666;
+      --border: #e5e5e5;
     }
-    * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
-    html { height: 100%; -webkit-text-size-adjust: 100%; }
-    body {
-      height: 100%; background: var(--bg); color: var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-      font-size: 16px; overflow-x: hidden;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    /* Prevent iOS bounce on body but allow scroll in content */
-    .screen { display: none; min-height: 100vh; padding-bottom: env(safe-area-inset-bottom, 0px); padding-bottom: calc(100px + env(safe-area-inset-bottom, 0px)); -webkit-overflow-scrolling: touch; }
-    .screen.active { display: block; }
-
-    .top-bar {
-      position: sticky; top: 0; z-index: 100;
-      background: rgba(15,15,15,0.95); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border);
-      /* iOS safe area top */
-      padding: 12px 16px;
-      padding-top: max(12px, env(safe-area-inset-top, 12px));
-      display: flex; align-items: center; gap: 10px;
-    }
-    .top-bar h1 { font-size: 18px; font-weight: 700; flex: 1; }
-    .week-badge { background: var(--accent); color: #fff; font-size: 12px; font-weight: 700; padding: 3px 9px; border-radius: 20px; flex-shrink: 0; }
-    .icon-btn {
-      background: var(--surface2); border: none; color: var(--text-dim);
-      /* 44px minimum tap target per Apple HIG */
-      width: 44px; height: 44px; border-radius: 8px;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 18px; cursor: pointer; flex-shrink: 0;
-      touch-action: manipulation; -webkit-user-select: none; user-select: none;
-    }
-    .icon-btn:active { opacity: 0.7; }
-
-    .content { padding: 16px; max-width: 600px; margin: 0 auto; }
-
-    /* Cards */
-    .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; margin-bottom: 12px; }
-    .card-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-dim); margin-bottom: 12px; }
-
-    /* Today card */
-    .today-card { background: linear-gradient(135deg, #1a1a1a 0%, #1f1510 100%); border-color: var(--accent-dim); }
-    .today-label { font-size: 12px; color: var(--accent); font-weight: 600; margin-bottom: 4px; }
-    .today-title { font-size: 20px; font-weight: 800; margin-bottom: 4px; line-height: 1.2; }
-    .today-sub { font-size: 13px; color: var(--text-dim); margin-bottom: 14px; line-height: 1.5; }
-
-    .btn { display: block; width: 100%; padding: 13px; font-size: 15px; font-weight: 700; border: none; border-radius: var(--radius-sm); cursor: pointer; text-align: center; touch-action: manipulation; -webkit-user-select: none; user-select: none; }
-    .btn:active { opacity: 0.85; }
-    .btn-primary { background: var(--accent); color: #fff; }
-    .btn-secondary { background: var(--surface2); color: var(--text-dim); margin-top: 8px; }
-    .btn-ai { background: linear-gradient(135deg, #4f46e5, #7c3aed); color: #fff; margin-top: 8px; }
-    .btn-green { background: var(--green); color: #fff; }
-    .btn-sm { padding: 9px 16px; font-size: 14px; width: auto; display: inline-block; border-radius: 8px; }
-
-    /* AI Brief */
-    .ai-brief { border-radius: var(--radius); overflow: hidden; margin-top: 12px; border: 1px solid #312e81; background: #0f0c2a; }
-    .ai-brief-header { background: linear-gradient(135deg, #1e1b4b, #2e1065); padding: 12px 14px; display: flex; align-items: center; gap: 8px; }
-    .ai-brief-header h3 { font-size: 14px; font-weight: 700; color: #c4b5fd; }
-    .regen-btn { background: rgba(255,255,255,0.1); border: 1px solid #4c1d95; color: #c4b5fd; border-radius: 6px; padding: 4px 10px; font-size: 13px; font-weight: 700; cursor: pointer; touch-action: manipulation; flex-shrink: 0; }
-    .regen-btn:active { opacity: 0.7; }
-    .ai-brief-body { padding: 14px; }
-    .ai-target { background: #1a1535; border: 1px solid #312e81; border-radius: 8px; padding: 10px 12px; margin-bottom: 8px; font-size: 13px; line-height: 1.5; }
-    .ai-target .label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: #818cf8; margin-bottom: 4px; }
-    .ai-target .value { color: var(--text); }
-    .ai-warning { background: #1c0a0a; border: 1px solid #7f1d1d; border-radius: 8px; padding: 10px 12px; margin-bottom: 8px; font-size: 13px; color: #fca5a5; }
-    .ai-highlight { background: #0a1f0a; border: 1px solid #15532e; border-radius: 8px; padding: 10px 12px; margin-bottom: 8px; font-size: 13px; color: #86efac; }
-    .ai-ex-row { display: flex; gap: 10px; padding: 8px 0; border-bottom: 1px solid #1e1b4b; font-size: 13px; align-items: flex-start; }
-    .ai-ex-row:last-child { border-bottom: none; }
-    .ai-ex-name { font-weight: 600; flex: 1; }
-    .ai-ex-target { color: #c4b5fd; font-size: 12px; text-align: right; flex-shrink: 0; max-width: 55%; word-break: break-word; }
-    .ai-loading { text-align: center; padding: 20px; color: #818cf8; font-size: 14px; }
-    .ai-loading .spinner { display: inline-block; animation: spin 1s linear infinite; font-size: 20px; margin-bottom: 8px; }
-    @keyframes spin { to { transform: rotate(360deg); } }
-
-    /* Week grid */
-    .week-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
-    .day-name { font-size: 10px; color: var(--text-muted); font-weight: 600; margin-bottom: 4px; }
-    .day-dot { width: 32px; height: 32px; border-radius: 50%; margin: 0 auto; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 700; border: 2px solid transparent; }
-    .day-dot.run { background: #0c2a12; color: var(--green); border-color: #15532e; }
-    .day-dot.lift { background: #1c0d03; color: var(--accent); border-color: var(--accent-dim); }
-    .day-dot.both { background: #1c1403; color: var(--yellow); border-color: #713f12; }
-    .day-dot.rest { background: var(--surface2); color: var(--text-muted); }
-    .day-dot.today { border-color: var(--text) !important; }
-
-    /* Loads table */
-    .loads-table { width: 100%; border-collapse: collapse; font-size: 13px; }
-    .loads-table tr { border-bottom: 1px solid var(--border); }
-    .loads-table tr:last-child { border-bottom: none; }
-    .loads-table td { padding: 8px 4px; vertical-align: top; }
-    .loads-table td:first-child { color: var(--text-dim); width: 55%; }
-    .loads-table td:last-child { font-weight: 600; text-align: right; }
-
-    /* Pills */
-    .pill-row { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
-    .pill { font-size: 11px; font-weight: 600; padding: 4px 10px; border-radius: 20px; border: 1px solid; }
-    .pill.green { color: var(--green); border-color: #15532e; background: #052e16; }
-    .pill.orange { color: var(--accent); border-color: var(--accent-dim); background: #1c0d03; }
-    .pill.blue { color: var(--blue); border-color: #1e3a5f; background: #0c1e35; }
-    .pill.red { color: var(--red); border-color: #7f1d1d; background: #2d0a0a; }
-    .pill.purple { color: var(--purple); border-color: #581c87; background: #1a0533; }
-
-    /* Checklist */
-    .checklist-item { display: flex; align-items: center; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--border); font-size: 13px; }
-    .checklist-item:last-child { border-bottom: none; }
-
-    /* Countdown */
-    .race-days { font-size: 36px; font-weight: 900; color: var(--accent); line-height: 1; text-align: center; }
-    .race-label { font-size: 12px; color: var(--text-dim); margin-top: 4px; text-align: center; }
-
-    /* Exercise blocks */
-    .exercise-block { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: 10px; overflow: hidden; }
-    .exercise-header { padding: 12px 14px; display: flex; align-items: flex-start; gap: 10px; }
-    .exercise-num { background: var(--accent); color: #fff; font-size: 11px; font-weight: 800; width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 1px; }
-    .exercise-num.opt { background: var(--surface2); color: var(--text-dim); }
-    .exercise-name { font-size: 15px; font-weight: 700; margin-bottom: 2px; }
-    .exercise-prescribed { font-size: 12px; color: var(--text-dim); }
-    .exercise-load { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 2px; }
-    .ai-note-badge { font-size: 11px; color: #c4b5fd; background: #1a1535; border: 1px solid #312e81; border-radius: 6px; padding: 3px 8px; margin-top: 4px; display: inline-block; }
-
-    .sets-area { padding: 0 14px 14px; }
-    .set-row { display: grid; gap: 6px; margin-bottom: 6px; }
-    .set-row.strength { grid-template-columns: 26px 1fr 1fr 1fr; }
-    .set-row.iso { grid-template-columns: 26px 1fr 1fr; }
-    .set-num { font-size: 12px; color: var(--text-muted); font-weight: 600; padding-top: 10px; text-align: center; }
-    .field-wrap { display: flex; flex-direction: column; gap: 2px; }
-    .field-label { font-size: 10px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
-
-    input[type=text], input[type=number], textarea, select {
-      background: var(--surface2); border: 1px solid var(--border); color: var(--text);
-      border-radius: 6px; padding: 9px 10px;
-      /* 16px minimum prevents iOS Safari zoom-on-focus */
-      font-size: 16px; width: 100%;
-      -webkit-appearance: none; appearance: none; outline: none;
-      /* Disable iOS default styling */
-      -webkit-border-radius: 6px;
-    }
-    input:focus, textarea:focus, select:focus { border-color: var(--accent); }
-    input[type=number] { -moz-appearance: textfield; }
-    input[type=number]::-webkit-inner-spin-button { -webkit-appearance: none; }
-    textarea { resize: none; font-family: inherit; -webkit-overflow-scrolling: touch; }
-    select { cursor: pointer; }
-    /* Fix iOS select arrow */
-    select::-ms-expand { display: none; }
-
-    /* NL input area */
-    .nl-block { background: #0f0c2a; border: 1px solid #312e81; border-radius: var(--radius); margin-bottom: 12px; overflow: hidden; }
-    .nl-header { background: linear-gradient(135deg, #1e1b4b, #2e1065); padding: 12px 14px; display: flex; align-items: center; gap: 8px; }
-    .nl-header h3 { font-size: 14px; font-weight: 700; color: #c4b5fd; flex: 1; }
-    .nl-body { padding: 14px; }
-    .nl-body textarea { background: #0a0820; border-color: #312e81; min-height: 100px; }
-    .nl-body textarea:focus { border-color: #818cf8; }
-    .nl-parse-btn { background: linear-gradient(135deg, #4f46e5, #7c3aed); color: #fff; border: none; border-radius: 8px; padding: 10px 18px; font-size: 16px; font-weight: 700; cursor: pointer; width: 100%; margin-top: 10px; min-height: 44px; touch-action: manipulation; }
-    .nl-parse-btn:disabled { opacity: 0.5; cursor: default; }
-
-    /* Markdown preview */
-    .preview-block { background: #0a1505; border: 1px solid #15532e; border-radius: var(--radius); margin-bottom: 12px; }
-    .preview-header { padding: 10px 14px; border-bottom: 1px solid #15532e; display: flex; align-items: center; gap: 8px; }
-    .preview-header h3 { font-size: 13px; font-weight: 700; color: #86efac; flex: 1; }
-    .preview-body { padding: 14px; }
-    .preview-body pre { font-size: 12px; color: #86efac; white-space: pre-wrap; word-break: break-word; font-family: 'Courier New', monospace; line-height: 1.5; }
-
-    /* Cardio block */
-    .cardio-block { background: var(--surface); border: 1px solid #15532e; border-radius: var(--radius); margin-bottom: 12px; padding: 14px; }
-    .cardio-title { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
-    .cardio-desc { font-size: 12px; color: var(--text-dim); margin-bottom: 12px; line-height: 1.5; }
-    .cardio-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
-
-    /* Save bar — respects iOS home indicator */
-    .save-bar-wrap {
-      position: fixed; bottom: 0; left: 0; right: 0;
-      background: rgba(15,15,15,0.97);
-      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
-      border-top: 1px solid var(--border);
-      padding: 12px 16px;
-      padding-bottom: max(12px, env(safe-area-inset-bottom, 12px));
-      z-index: 200;
-    }
-    .save-bar-inner { display: flex; gap: 10px; align-items: center; max-width: 600px; margin: 0 auto; }
-    .progress-text { font-size: 12px; color: var(--text-dim); flex: 1; }
-    .save-btn { padding: 12px 20px; background: var(--green); color: #fff; font-size: 15px; font-weight: 700; border: none; border-radius: var(--radius-sm); cursor: pointer; white-space: nowrap; touch-action: manipulation; min-height: 44px; }
-    .save-btn:active { opacity: 0.85; }
-    .save-btn:disabled { background: var(--surface2); color: var(--text-muted); cursor: default; }
-
-    /* Setup */
-    .setup-logo { font-size: 40px; text-align: center; margin-bottom: 8px; margin-top: 20px; }
-    .setup-title { font-size: 24px; font-weight: 800; text-align: center; margin-bottom: 6px; }
-    .setup-sub { font-size: 14px; color: var(--text-dim); text-align: center; margin-bottom: 28px; line-height: 1.6; }
-    .form-group { margin-bottom: 16px; }
-    .form-label { font-size: 13px; font-weight: 600; color: var(--text-dim); margin-bottom: 6px; display: block; }
-    .form-hint { font-size: 11px; color: var(--text-muted); margin-top: 5px; line-height: 1.4; }
-    .form-hint a { color: var(--accent); }
-    .security-note { background: #1c0a0a; border: 1px solid #7f1d1d; border-radius: 8px; padding: 10px 12px; font-size: 12px; color: #fca5a5; margin-bottom: 16px; line-height: 1.5; }
-    .section-divider { display: flex; align-items: center; gap: 10px; margin: 20px 0; }
-    .section-divider span { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); white-space: nowrap; }
-    .section-divider::before, .section-divider::after { content: ''; flex: 1; border-top: 1px solid var(--border); }
-
-    /* Toast */
-    .toast { position: fixed; top: 70px; left: 50%; transform: translateX(-50%) translateY(-8px); background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 12px 20px; font-size: 14px; font-weight: 600; z-index: 999; display: none; white-space: nowrap; box-shadow: 0 8px 32px rgba(0,0,0,0.5); opacity: 0; transition: opacity 0.2s ease, transform 0.2s ease; }
-    .toast.visible { opacity: 1; transform: translateX(-50%) translateY(0); }
-    .toast.green { border-color: #15532e; color: var(--green); background: #052e16; }
-    .toast.red { border-color: #7f1d1d; color: var(--red); background: #2d0a0a; }
-    .toast.blue { border-color: #1e3a5f; color: #93c5fd; background: #0c1e35; }
-
-    /* Screen transitions */
-    @keyframes screenFadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
-    .screen.active .content { animation: screenFadeIn 0.2s ease forwards; }
-
-    /* Card entrance stagger */
-    @keyframes cardIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-    .card, .today-card, .exercise-block, .ai-brief, .nl-block, .preview-block { animation: cardIn 0.25s ease backwards; }
-
-    /* Button press feedback */
-    .btn { transition: transform 0.1s ease, opacity 0.1s ease; }
-    .btn:active { transform: scale(0.97); opacity: 0.85; }
-    .icon-btn { transition: transform 0.1s ease, opacity 0.1s ease; }
-    .icon-btn:active { transform: scale(0.9); opacity: 0.7; }
-    .regen-btn { transition: opacity 0.1s ease; }
-
-    .section-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 10px; }
-    .files-tab.active { background: var(--accent) !important; color: #fff !important; }
-    .md-body { font-size: 14px; line-height: 1.7; color: var(--text); }
-    .md-body h1 { font-size: 20px; font-weight: 800; margin: 20px 0 8px; color: var(--text); border-bottom: 1px solid var(--border); padding-bottom: 6px; }
-    .md-body h2 { font-size: 17px; font-weight: 700; margin: 18px 0 6px; color: var(--accent); }
-    .md-body h3 { font-size: 14px; font-weight: 700; margin: 14px 0 4px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em; }
-    .md-body h4 { font-size: 13px; font-weight: 700; margin: 12px 0 4px; color: var(--text-dim); }
-    .md-body p { margin: 0 0 10px; }
-    .md-body ul, .md-body ol { margin: 0 0 10px 18px; }
-    .md-body li { margin-bottom: 3px; }
-    .md-body code { background: var(--surface2); border: 1px solid var(--border); border-radius: 4px; padding: 1px 5px; font-size: 12px; font-family: 'Courier New', monospace; color: var(--green); }
-    .md-body pre { background: var(--surface2); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 12px; margin: 0 0 10px; overflow-x: auto; }
-    .md-body pre code { background: none; border: none; padding: 0; color: var(--text-dim); font-size: 12px; }
-    .md-body hr { border: none; border-top: 1px solid var(--border); margin: 16px 0; }
-    .md-body strong { font-weight: 700; color: var(--text); }
-    .md-body em { font-style: italic; color: var(--text-dim); }
-    .md-body blockquote { border-left: 3px solid var(--accent-dim); margin: 0 0 10px; padding: 6px 12px; color: var(--text-dim); font-size: 13px; }
-    .md-body table { width: 100%; border-collapse: collapse; font-size: 13px; margin-bottom: 12px; }
-    .md-body th { background: var(--surface2); border: 1px solid var(--border); padding: 7px 10px; font-weight: 700; text-align: left; }
-    .md-body td { border: 1px solid var(--border); padding: 7px 10px; }
-
-    /* Clickable day column */
-    .day-col { text-align: center; cursor: pointer; -webkit-user-select: none; user-select: none; touch-action: manipulation; border-radius: 8px; padding: 4px 2px; }
-    .day-col:active { opacity: 0.6; }
-    .day-logged { font-size: 9px; color: var(--green); margin-top: 2px; font-weight: 700; }
-
-    /* Hamburger drawer */
-    .drawer-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 300; display: none; }
-    .drawer-overlay.open { display: block; }
-    .drawer { position: fixed; top: 0; right: 0; bottom: 0; width: 270px; background: var(--surface); border-left: 1px solid var(--border); z-index: 301; transform: translateX(100%); transition: transform 0.25s ease; display: flex; flex-direction: column; }
-    .drawer.open { transform: translateX(0); }
-    .drawer-header { padding: 16px; padding-top: max(16px, env(safe-area-inset-top, 16px)); border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
-    .drawer-header h2 { font-size: 16px; font-weight: 700; }
-    .drawer-body { flex: 1; overflow-y: auto; padding: 8px; }
-    .drawer-item { display: flex; align-items: center; gap: 12px; padding: 14px 12px; border-radius: 10px; cursor: pointer; touch-action: manipulation; -webkit-user-select: none; user-select: none; }
-    .drawer-item:active { background: var(--surface2); }
-    .drawer-item .di-icon { font-size: 20px; width: 28px; text-align: center; flex-shrink: 0; }
-    .drawer-item .di-label { font-size: 15px; font-weight: 600; }
-    .drawer-item .di-sub { font-size: 12px; color: var(--text-dim); font-weight: 400; }
-
-    /* Day sheet */
-    .sheet-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 400; display: none; align-items: flex-end; }
-    .sheet-overlay.open { display: flex; }
-    .sheet { background: var(--surface); border-radius: 20px 20px 0 0; width: 100%; max-height: 78vh; overflow-y: auto; padding: 20px 16px; padding-bottom: max(20px, env(safe-area-inset-bottom, 20px)); -webkit-overflow-scrolling: touch; }
-    .sheet-handle { width: 36px; height: 4px; background: var(--border); border-radius: 2px; margin: 0 auto 16px; }
-    .sheet-day-title { font-size: 20px; font-weight: 800; margin-bottom: 4px; }
-    .sheet-day-sub { font-size: 13px; color: var(--text-dim); margin-bottom: 14px; line-height: 1.5; }
-    .sheet-log-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--green); margin-bottom: 6px; }
-    .sheet-log-snippet { background: var(--surface2); border: 1px solid var(--border); border-radius: 10px; padding: 12px; font-size: 12px; color: var(--text-dim); font-family: 'Courier New', monospace; white-space: pre-wrap; word-break: break-word; margin-bottom: 14px; max-height: 200px; overflow-y: auto; }
-
-    /* Consult / Chat */
-    .chat-wrap { display: flex; flex-direction: column; height: calc(100vh - 200px); min-height: 300px; }
-    .chat-messages { flex: 1; overflow-y: auto; padding: 4px 0 12px; display: flex; flex-direction: column; gap: 10px; -webkit-overflow-scrolling: touch; }
-    .chat-msg { max-width: 88%; padding: 10px 13px; border-radius: 14px; font-size: 14px; line-height: 1.5; word-break: break-word; }
-    .chat-msg.user { background: var(--accent); color: #fff; align-self: flex-end; border-bottom-right-radius: 4px; }
-    .chat-msg.ai { background: var(--surface2); color: var(--text); align-self: flex-start; border-bottom-left-radius: 4px; white-space: pre-wrap; }
-    .chat-msg.loading { color: var(--text-dim); font-style: italic; }
-    .chat-input-row { display: flex; gap: 8px; padding-top: 10px; border-top: 1px solid var(--border); padding-bottom: max(4px, env(safe-area-inset-bottom, 4px)); flex-shrink: 0; }
-    .chat-input-row textarea { flex: 1; min-height: 44px; max-height: 100px; resize: none; font-family: inherit; }
-    .chat-send { background: var(--accent); border: none; color: #fff; border-radius: 10px; padding: 0 16px; font-size: 20px; cursor: pointer; flex-shrink: 0; min-width: 48px; min-height: 44px; touch-action: manipulation; }
-    .chat-send:disabled { background: var(--surface2); color: var(--text-muted); }
-    .commit-bar { background: #0a1f0a; border: 1px solid #15532e; border-radius: var(--radius-sm); padding: 12px; margin-top: 10px; display: none; flex-shrink: 0; }
-    .commit-bar.visible { display: block; }
-    .commit-bar p { font-size: 13px; color: #86efac; margin-bottom: 10px; }
-
-  </style>
+  }
+</style>
 </head>
 <body>
-
-<!-- ══════════ SETUP ══════════ -->
-<div id="screen-setup" class="screen active">
-  <div class="content" style="max-width:480px">
-    <div class="setup-logo">🏃</div>
-    <div class="setup-title">Sub-20 5K Dashboard</div>
-    <div class="setup-sub">Connect your GitHub repo to log workouts and optionally add your Anthropic key for AI-powered briefs and smart log parsing.</div>
-
-    <!-- ── GitHub login (shown when no token saved) ── -->
-    <form id="setup-login-block">
-      <div class="card">
-        <div class="card-title">Connect GitHub</div>
-        <div class="form-group">
-          <label class="form-label" for="in-token">Personal Access Token</label>
-          <input type="text" id="in-token" placeholder="ghp_…" autocomplete="off" autocorrect="off" spellcheck="false">
-          <div class="form-hint">
-            Needs <strong>repo</strong> scope (write to Tracker.md) · stored on this device only<br>
-            <a href="https://github.com/settings/tokens/new?scopes=repo&description=Workout+Dashboard" target="_blank">Generate token ↗</a>
-          </div>
-        </div>
-        <div class="form-group">
-          <label class="form-label" for="in-repo">Repository</label>
-          <input type="text" id="in-repo" value="ayaanh03/workout-tracking">
-        </div>
-        <div class="form-group" style="margin-bottom:0">
-          <label class="form-label" for="in-branch">Branch (Tracker.md lives here)</label>
-          <input type="text" id="in-branch" value="main">
-        </div>
-      </div>
-      <button type="submit" class="btn btn-primary" id="connect-btn">Connect →</button>
-    </form>
-
-    <!-- ── Settings panel (shown when already connected) ── -->
-    <div id="setup-settings-block" style="display:none">
-
-      <!-- Connected account -->
-      <div class="card" style="border-color:#15532e">
-        <div class="card-title">GitHub Session</div>
-        <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
-          <img id="setup-avatar" src="" width="36" height="36" style="border-radius:50%;display:none">
-          <div>
-            <div style="font-weight:700" id="setup-username">—</div>
-            <div style="font-size:12px;color:var(--text-dim)" id="setup-repo-info">—</div>
-          </div>
-          <span style="margin-left:auto;font-size:12px;color:var(--green)">✓ Connected</span>
-        </div>
-        <button class="btn btn-secondary btn-sm" style="width:auto" onclick="disconnectGitHub()">Disconnect this device</button>
-      </div>
-
-      <!-- AI status -->
-      <div class="card" style="border-color:#312e81;background:#0f0c2a">
-        <div class="card-title" style="color:#818cf8">AI Configuration</div>
-        <div id="ai-status-line" style="font-size:13px;margin-bottom:12px">—</div>
-
-        <!-- Provider toggle — only shown when both keys available -->
-        <div id="ai-provider-toggle" style="display:none;gap:8px;margin-bottom:12px">
-          <div class="field-label" style="margin-bottom:6px">Preferred provider</div>
-          <div style="display:flex;gap:8px">
-            <button id="prov-btn-gemini" class="btn btn-sm" style="flex:1;background:var(--accent)" onclick="setAIProvider('gemini')">Gemini Flash</button>
-            <button id="prov-btn-claude" class="btn btn-sm" style="flex:1;background:var(--surface2)" onclick="setAIProvider('claude')">Claude Haiku</button>
-          </div>
-        </div>
-
-        <!-- Manual key fallback — hidden when config.js is present -->
-        <div id="manual-ai-block">
-          <div class="security-note" style="margin-bottom:12px">
-            AI keys below are stored on this device only. For a shared-device setup, add <code>GEMINI_API_KEY</code> and <code>ANTHROPIC_API_KEY</code> as GitHub repo secrets and they'll be baked in at deploy time.
-          </div>
-          <div class="form-group">
-            <label class="form-label" for="in-gemini-key">Gemini API Key (free)</label>
-            <input type="text" id="in-gemini-key" placeholder="AIza…" autocomplete="off" autocorrect="off" spellcheck="false">
-            <div class="form-hint"><a href="https://aistudio.google.com/app/apikey" target="_blank" style="color:#818cf8">Get free Gemini key ↗</a> · 1500 req/day, no credit card</div>
-          </div>
-          <div class="form-group" style="margin-bottom:12px">
-            <label class="form-label" for="in-claude-key">Anthropic API Key (optional)</label>
-            <input type="text" id="in-claude-key" placeholder="sk-ant-…" autocomplete="off" autocorrect="off" spellcheck="false">
-            <div class="form-hint"><a href="https://console.anthropic.com/settings/keys" target="_blank" style="color:#818cf8">Get Claude key ↗</a></div>
-          </div>
-          <button class="btn btn-ai btn-sm" style="width:auto" onclick="saveManualAIKeys()">Save AI Keys</button>
-        </div>
-      </div>
-
-      <button class="btn btn-secondary" onclick="showHome()">← Back to Dashboard</button>
-    </div>
-  </div>
-</div>
-
-<!-- ══════════ HOME ══════════ -->
-<div id="screen-home" class="screen">
-  <div class="top-bar">
-    <h1>Sub-20 5K</h1>
-    <span class="week-badge" id="hm-badge">W?</span>
-    <span id="hm-ai-badge" style="font-size:11px;font-weight:700;padding:3px 8px;border-radius:20px;background:#1a1535;border:1px solid #312e81;color:#c4b5fd;display:none"></span>
-    <button class="icon-btn" onclick="toggleDrawer()" title="Menu" style="font-size:20px">☰</button>
-  </div>
-  <div class="content">
-
-    <!-- Today card -->
-    <div class="card today-card">
-      <div class="today-label" id="hm-date">—</div>
-      <div id="hm-actions"></div>
-    </div>
-    <!-- AI Brief -->
-    <div id="hm-ai-brief"></div>
-
-    <!-- Countdown -->
-    <div class="card" style="padding:12px">
-      <div class="race-days" id="hm-days">—</div>
-      <div class="race-label">days to race · Sat Oct 24 2026</div>
-    </div>
-
-    <!-- Week -->
-    <div class="card">
-      <div class="card-title">This Week</div>
-      <div class="week-grid" id="hm-week"></div>
-      <div class="card-title" style="margin-top:16px">Next Week</div>
-      <div class="week-grid" id="hm-week-next"></div>
-    </div>
-
-    <!-- Phase status -->
-    <div class="card">
-      <div class="card-title">Phase Status</div>
-      <div class="pill-row" id="hm-pills"></div>
-      <div id="hm-checklist"></div>
-    </div>
-
-    <!-- Loads -->
-    <div class="card">
-      <div class="card-title">Current Working Loads</div>
-      <table class="loads-table"><tbody id="hm-loads"></tbody></table>
-    </div>
-
-    <!-- HR Zones -->
-    <div class="card">
-      <div class="card-title">HR Zones — Max 191 bpm</div>
-      <table class="loads-table"><tbody>
-        <tr><td>Z1 Easy (≤81%)</td><td>≤ 155 bpm</td></tr>
-        <tr><td>Z2 Threshold (85–88%)</td><td>162–168 bpm</td></tr>
-        <tr><td>Z3 VO2max (92–96%)</td><td>176–183 bpm</td></tr>
-        <tr><td>Gray zone (avoid)</td><td>144–161 bpm</td></tr>
-      </tbody></table>
-    </div>
-
-  </div>
-</div>
-
-<!-- ══════════ WORKOUT ══════════ -->
-<div id="screen-workout" class="screen">
-  <div class="top-bar">
-    <button class="icon-btn" onclick="showHome()">←</button>
-    <h1 id="wk-title">Workout</h1>
-    <span class="week-badge" id="wk-badge">W?</span>
-  </div>
-  <div class="content">
-    <div id="wk-content"></div>
-  </div>
-  <div class="save-bar-wrap">
-    <div class="save-bar-inner">
-      <span class="progress-text" id="wk-progress">Fill in your sets</span>
-      <button class="save-btn" id="wk-save" onclick="confirmSave()" disabled>Review &amp; Save</button>
-    </div>
-  </div>
-</div>
-
-<!-- ══════════ HAMBURGER DRAWER ══════════ -->
-<div class="drawer-overlay" id="drawer-overlay" onclick="closeDrawer()"></div>
-<div class="drawer" id="drawer">
-  <div class="drawer-header">
-    <h2>Menu</h2>
-    <button class="icon-btn" onclick="closeDrawer()" style="width:36px;height:36px;font-size:16px">✕</button>
-  </div>
-  <div class="drawer-body">
-    <div class="drawer-item" onclick="closeDrawer();showConsult()">
-      <div class="di-icon">🤖</div>
-      <div><div class="di-label">AI Consult</div><div class="di-sub">Chat · commit decisions to Tracker</div></div>
-    </div>
-    <div class="drawer-item" onclick="closeDrawer();showFiles()">
-      <div class="di-icon">📄</div>
-      <div><div class="di-label">Files</div><div class="di-sub">Preview program.md · Tracker.md</div></div>
-    </div>
-    <div class="drawer-item" onclick="closeDrawer();showApiUsage()">
-      <div class="di-icon">📊</div>
-      <div><div class="di-label">API Usage</div><div class="di-sub">Session calls · limits</div></div>
-    </div>
-    <div class="drawer-item" onclick="closeDrawer();showSetup()">
-      <div class="di-icon">⚙️</div>
-      <div><div class="di-label">Settings</div><div class="di-sub">GitHub · AI keys · account</div></div>
-    </div>
-  </div>
-</div>
-
-<!-- ══════════ DAY SHEET ══════════ -->
-<div class="sheet-overlay" id="sheet-overlay" onclick="closeDaySheet(event)">
-  <div class="sheet" id="day-sheet">
-    <div class="sheet-handle"></div>
-    <div id="day-sheet-content"></div>
-  </div>
-</div>
-
-<!-- ══════════ CONSULT ══════════ -->
-<div id="screen-consult" class="screen">
-  <div class="top-bar">
-    <button class="icon-btn" onclick="showHome()">←</button>
-    <h1>AI Consult</h1>
-    <span id="consult-provider-badge" style="font-size:11px;font-weight:700;padding:3px 8px;border-radius:20px;background:#1a1535;border:1px solid #312e81;color:#c4b5fd"></span>
-  </div>
-  <div class="content">
-    <div class="chat-wrap">
-      <div class="chat-messages" id="chat-messages"></div>
-      <div class="commit-bar" id="commit-bar">
-        <p>Commit decisions from this conversation to Tracker.md?</p>
-        <div style="display:flex;gap:8px">
-          <button class="btn btn-secondary btn-sm" style="flex:1" onclick="dismissCommitBar()">Dismiss</button>
-          <button class="btn btn-green btn-sm" style="flex:1" onclick="commitConsultToTracker()">Commit to Tracker →</button>
-        </div>
-      </div>
-      <div class="chat-input-row">
-        <textarea id="chat-input" placeholder="Ask about your training, loads, phase gate, injury status…" rows="2" onkeydown="chatKeydown(event)"></textarea>
-        <button class="chat-send" id="chat-send-btn" onclick="sendConsult()">↑</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- ══════════ API USAGE ══════════ -->
-<div id="screen-api-usage" class="screen">
-  <div class="top-bar">
-    <button class="icon-btn" onclick="showHome()">←</button>
-    <h1>API Usage</h1>
-  </div>
-  <div class="content">
-    <div class="card">
-      <div class="card-title">Provider Dashboards</div>
-      <div style="font-size:13px;color:var(--text-dim);line-height:1.6;margin-bottom:14px">Check your actual usage and quota on your provider's dashboard.</div>
-      <div style="display:flex;gap:8px;flex-wrap:wrap">
-        <a href="https://aistudio.google.com/app/apikey" target="_blank" class="btn btn-secondary" style="width:auto;text-decoration:none">Gemini dashboard ↗</a>
-        <a href="https://console.anthropic.com/settings/usage" target="_blank" class="btn btn-secondary" style="width:auto;text-decoration:none">Anthropic dashboard ↗</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- ══════════ FILES ══════════ -->
-<div id="screen-files" class="screen">
-  <div class="top-bar">
-    <button class="icon-btn" onclick="showHome()">←</button>
-    <h1>Files</h1>
-    <button class="icon-btn" onclick="refreshFiles()" id="files-refresh-btn" title="Refresh" style="font-size:16px">↻</button>
-  </div>
-  <div class="content">
-    <div style="display:flex;gap:0;margin-bottom:16px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);overflow:hidden">
-      <button class="files-tab active" id="tab-program" onclick="switchFilesTab('program')" style="flex:1;padding:11px;font-size:14px;font-weight:700;border:none;background:transparent;color:var(--text);cursor:pointer;border-right:1px solid var(--border);touch-action:manipulation">Program</button>
-      <button class="files-tab" id="tab-tracker" onclick="switchFilesTab('tracker')" style="flex:1;padding:11px;font-size:14px;font-weight:700;border:none;background:transparent;color:var(--text-dim);cursor:pointer;touch-action:manipulation">Tracker</button>
-    </div>
-    <div id="files-loading" style="text-align:center;padding:40px;color:var(--text-dim);font-size:14px">Loading…</div>
-    <div id="files-content" style="display:none">
-      <div id="files-text" class="md-body"></div>
-    </div>
-  </div>
-</div>
-
-<!-- Toast -->
-<div class="toast" id="toast"></div>
-
+<div class="wrap" id="app"></div>
 <script>
-// ═══════════════════════════════════════════
-// STATIC DATA
-// ═══════════════════════════════════════════
-
-// Hoisted up here so week/phase helpers below can safely reference it.
-// Populated by renderBriefHTML once the AI brief loads (or hits cache).
-let currentBrief = null;
-
-const PROGRAM_START = new Date('2026-04-20T00:00:00');
-const RACE_DAY      = new Date('2026-10-24T00:00:00');
-
-const LOADS = {
-  'Incline BB':         { load: '125 lb (TM 155)', note: '+5 lb/wk if clean RPE 7; AMRAP test W4' },
-  'Lat Pulldown':       { load: '125 lb',          note: 'Drift 130 S2-3, back off 120 S4' },
-  'Chest-supp Row':     { load: '80 lb',            note: 'NEW to Sat circuit Phase B+; hold 80' },
-  'Cable Lateral (Tue)':{ load: '12.5 lb',          note: 'Anchor all 4 sets' },
-  'Cable Lateral (Sat)':{ load: '5 lb/side',        note: 'Uni, RPE 9' },
-  'Preacher Curl Uni':  { load: '50 lb/arm',        note: 'Machine 5 lb increments' },
-  'Triceps Pushdown':   { load: '42.5 lb',          note: 'Hold — failed 50; need clean RIR 2 all sets' },
-  'Rear-delt Fly':      { load: '125 lb',           note: 'Bumped from 120' },
-  'Seated Calf':        { load: '315 lb',           note: 'RIR 2 sustained' },
-  'Cable Crunch':       { load: '42.5 lb',          note: 'RPE 8' },
-  'Soleus Wall-sit':    { load: 'BW',               note: '3×30–45s knee ~80°, forefoot push, RPE 7-8' },
+const $ = (tag, attrs, ...kids) => {
+  const e = document.createElement(tag);
+  if (attrs) for (const k in attrs) {
+    if (k === 'class') e.className = attrs[k];
+    else if (k === 'html') e.innerHTML = attrs[k];
+    else e.setAttribute(k, attrs[k]);
+  }
+  for (const c of kids) if (c != null) e.appendChild(typeof c === 'string' ? document.createTextNode(c) : c);
+  return e;
 };
 
-const HYP_A = [
-  { id:'incline',   name:'Incline BB',                prescribed:'3×5–8 @ TM, RPE 7',              sets:3, iso:false, loadKey:'Incline BB' },
-  { id:'lateral-a', name:'DB Lateral Raise',           prescribed:'4×12, RPE 9 (last to failure)',   sets:4, iso:false, loadKey:'Cable Lateral (Tue)', optional:false },
-  { id:'preacher-a',name:'Preacher Curl Machine',      prescribed:'3×10, RPE 8 (preacher only)',     sets:3, iso:false, loadKey:'Preacher Curl Uni' },
-  { id:'pushdown-v',name:'Cable Pushdown V-bar',       prescribed:'3×12, RPE 8',                     sets:3, iso:false, loadKey:'Triceps Pushdown' },
-  { id:'crunch',    name:'Cable Crunch',               prescribed:'3×12, RPE 8',                     sets:3, iso:false, loadKey:'Cable Crunch' },
-  { id:'soleus-a',  name:'Soleus Wall-sit Isometric',  prescribed:'3×30–45s, RPE 7–8, knee ~80°',    sets:3, iso:true,  loadKey:'Soleus Wall-sit' },
-  { id:'reardelt',  name:'Rear-delt Fly (optional)',   prescribed:'2×15, RPE 7',                     sets:2, iso:false, loadKey:'Rear-delt Fly', optional:true },
-];
-
-const HYP_B = [
-  { id:'latpull',   name:'Lat Pulldown',               prescribed:'4×8–10, RPE 8 (last RIR 1)',     sets:4, iso:false, loadKey:'Lat Pulldown' },
-  { id:'csrow',     name:'Chest-supported Row',        prescribed:'3×10, RPE 8',                    sets:3, iso:false, loadKey:'Chest-supp Row' },
-  { id:'lateral-b', name:'Cable Lateral Raise',        prescribed:'3×12–15, RPE 9',                 sets:3, iso:false, loadKey:'Cable Lateral (Sat)' },
-  { id:'preacher-b',name:'Preacher Curl Machine',      prescribed:'3×12, RPE 8',                    sets:3, iso:false, loadKey:'Preacher Curl Uni' },
-  { id:'pushdown-r',name:'Cable Pushdown Rope',        prescribed:'3×12–15, RPE 8',                 sets:3, iso:false, loadKey:'Triceps Pushdown' },
-  { id:'kneeraise', name:'Hanging Knee Raise',         prescribed:'3×10, RPE 8',                    sets:3, iso:false, loadKey:null },
-  { id:'calf',      name:'Seated Calf Raise',          prescribed:'4×12–15, RPE 9 (last to failure)',sets:4, iso:false, loadKey:'Seated Calf' },
-  { id:'soleus-b',  name:'Soleus Wall-sit Isometric',  prescribed:'3×30–45s, RPE 7–8',              sets:3, iso:true,  loadKey:'Soleus Wall-sit' },
-  { id:'flye',      name:'DB Flye (optional)',         prescribed:'2×12, RPE 7',                    sets:2, iso:false, loadKey:null, optional:true },
-];
-
-// Base/Build/Sharpen/Taper weekly template (§2.A). Z1 cap = 155 bpm per
-// Tracker.md 2026-05-11 (LT1 confirmed higher via nasal-breathing test).
-const BASE_DAY_META = {
-  0:{ type:'rest', label:'Rest + Prehab',                  icon:'😴', desc:'Tyler twists 3×15 + reverse Tyler 3×15 · McGill Big 3 · clamshells 2×15/side · bird-dog 3×8/side · side plank 3×20–30s/side' },
-  1:{ type:'run',  label:'Easy Run + Strides',             icon:'🏃', desc:'Z1 easy 30–50 min (≤155 bpm) · 4×20s strides · Phase B+: hill strides 6–8×10–12s @ 4–6% grade (replaces flat strides Mon)' },
-  2:{ type:'both', label:'Threshold + Hypertrophy A',      icon:'🔥', desc:'AM: Threshold run or row (≥6h gap) · PM: Hypertrophy A ~40 min · Z2: 162–168 bpm', lift: HYP_A },
-  3:{ type:'run',  label:'Easy Run',                       icon:'🏃', desc:'Z1 easy 30–50 min (≤155 bpm) · optional 4–6 strides after' },
-  4:{ type:'run',  label:'Easy Run or Rest',               icon:'🏃', desc:'Z1 easy 25–40 min or full rest day · listen to body' },
-  5:{ type:'run',  label:'VO2max / Quality Session',       icon:'⚡', desc:'Fri quality run or row · Z3: 176–183 bpm · intervals or easy+strides depending on phase' },
-  6:{ type:'both', label:'Long Run + Hypertrophy B',       icon:'💪', desc:'AM: Long run Z1 (≤155 bpm) · PM: Hypertrophy B ~40 min (≥6h gap) · max 40 min total lift time', lift: HYP_B },
+const fmtAge = iso => {
+  const then = new Date(iso);
+  const mins = Math.round((Date.now() - then.getTime()) / 60000);
+  if (mins < 1) return 'just now';
+  if (mins < 60) return mins + ' min ago';
+  const hrs = Math.round(mins / 60);
+  if (hrs < 24) return hrs + ' h ago';
+  return then.toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' });
 };
 
-// Phase A (Reset/Reintro, W1–W4) overrides while the Phase B running gate is
-// NOT yet closed: 7 symptom-free days + SI provocation neg + SL bridge clean.
-// Per program.md §4.B: no running yet; Tue/Sat lifts stay; cardio is Z1 row.
-const RESET_PRE_GATE_DAY_META = {
-  1:{ type:'run',  label:'Z1 Row',                          icon:'🚣', desc:'Z1 row 30–45 min · ≤155 bpm · steady aerobic, no intervals' },
-  2:{ type:'both', label:'Z1 Row + Hypertrophy A',          icon:'🚣', desc:'AM: Z1 row 30–50 min · ≤155 bpm · PM: Hypertrophy A ~40 min (≥6h gap) · soleus wall-sit', lift: HYP_A },
-  3:{ type:'run',  label:'Z1 Row',                          icon:'🚣', desc:'Z1 row 25–40 min · ≤155 bpm · keep it conversational' },
-  5:{ type:'run',  label:'Threshold Row',                   icon:'🔥', desc:'Threshold row · 4–5×500m or 3×6 min @ T · 162–168 bpm · running quality stays off until §7.B gate' },
-  6:{ type:'both', label:'Long Z1 Row + Hypertrophy B',     icon:'🚣', desc:'AM: Z1 row 50–65 min · ≤155 bpm · PM: Hypertrophy B ~40 min (≥6h gap) · seated calf · soleus wall-sit', lift: HYP_B },
-};
+const block = (label, content) => content ? [$('div', { class: 'label' }, label), $('div', null, content)] : [];
 
-// Phase A overrides AFTER the Phase B gate closes. The cardio days surface the
-// §7.B reintroduction step based on days-since-gate-close. Friday quality
-// stays on the rower until 2 weeks of pain-free Z1 running.
-const RESET_POST_GATE_DAY_META = {
-  1:{ type:'run',  label:'§7.B Reintro',                    icon:'🏃', desc:'{step}' },
-  2:{ type:'both', label:'§7.B Reintro + Hypertrophy A',    icon:'🏃', desc:'AM: {step} · PM: Hypertrophy A ~40 min (≥6h gap) · soleus wall-sit', lift: HYP_A },
-  3:{ type:'run',  label:'§7.B Reintro',                    icon:'🏃', desc:'{step}' },
-  5:{ type:'run',  label:'Threshold Row',                   icon:'🔥', desc:'Threshold row · 4–5×500m or 3×6 min @ T · 162–168 bpm · stays on rower until 2 weeks pain-free Z1 running' },
-  6:{ type:'both', label:'§7.B Reintro + Hypertrophy B',    icon:'🏃', desc:'AM: {step} · PM: Hypertrophy B ~40 min (≥6h gap) · seated calf · soleus wall-sit', lift: HYP_B },
-};
+const render = d => {
+  const app = document.getElementById('app');
+  app.innerHTML = '';
 
-// ═══════════════════════════════════════════
-// HELPERS
-// ═══════════════════════════════════════════
+  const h = $('header');
+  if (d.sessionName) {
+    h.appendChild($('h1', null, `${d.week} ${d.day} ${d.date} — ${d.sessionName}`));
+    h.appendChild($('div', { class: 'meta' }, `Generated ${fmtAge(d.generatedAt)}${d.phase ? ' · ' + d.phase : ''}`));
+  } else {
+    h.appendChild($('h1', null, 'No brief for today yet'));
+    h.appendChild($('div', { class: 'meta' }, 'Ask Claude for today’s workout.'));
+  }
+  app.appendChild(h);
 
-const getWeek = () => Math.max(1, Math.ceil((Date.now() - PROGRAM_START) / 6048e5));
-const getPhase = w => w<=4?'Reset':w<=12?'Base':w<=18?'Build':w<=22?'Sharpen':'Taper';
-const daysToRace = () => Math.ceil((RACE_DAY - Date.now()) / 864e5);
+  if (d.intro && d.intro.length) {
+    const c = $('section', { class: 'card intro' });
+    c.appendChild($('h2', null, 'Today'));
+    for (const line of d.intro) c.appendChild($('p', null, line));
+    app.appendChild(c);
+  }
 
-// AI brief is the source of truth for week + phase — it derives them from the
-// tracker's labels, so user-driven changes (renaming "## W3 Schedule" → "## W4")
-// flow through automatically. Static getWeek/getPhase are fallbacks only.
-const currentWeek  = () => currentBrief?.currentWeek ?? getWeek();
-const currentPhase = () => currentBrief?.phase       ?? getPhase(currentWeek());
-
-// Phase B running-gate state. AI fills this from the tracker's "Phase B
-// running gate" checklist + SI log. Null until the gate closes.
-const phaseBGateClosedAt = () => currentBrief?.phaseBGate?.closedAt || null;
-
-// §7.B reintroduction ladder. `daysSinceGateClose` drives which step is
-// active. Returns null once the athlete graduates to §4.C Base template.
-const phaseBStep = () => {
-  const ts = phaseBGateClosedAt();
-  if (!ts) return null;
-  const closed = new Date(ts);
-  const days = Math.floor((Date.now() - closed.getTime()) / 864e5);
-  if (days < 0)  return null; // future date — treat as not yet
-  if (days < 1)  return { idx: 1, desc: 'Treadmill 5×(1 min jog ≥175 spm @ 0% / 4 min walk) · ~25 min' };
-  if (days < 3)  return { idx: 2, desc: 'Treadmill 4×(2 min jog ≥175 spm / 3 min walk) · ~20 min' };
-  if (days < 6)  return { idx: 3, desc: 'Treadmill 3×(3 min jog ≥175 spm / 2 min walk) · ~15 min' };
-  if (days < 8)  return { idx: 4, desc: '15 min continuous easy outdoor (flat) · Z1 ≤155 bpm' };
-  if (days < 11) return { idx: 5, desc: '25 min continuous easy outdoor · Z1 ≤155 bpm' };
-  return null; // graduate to §4.C Base
-};
-
-// Phase-aware day-meta lookup. Replaces direct DAY_META[dow] access.
-const getDayMeta = (dow, phase = currentPhase()) => {
-  if (phase !== 'Reset') return BASE_DAY_META[dow];
-  const step = phaseBStep();
-  if (!step) return RESET_PRE_GATE_DAY_META[dow] || BASE_DAY_META[dow];
-  const post = RESET_POST_GATE_DAY_META[dow];
-  if (!post) return BASE_DAY_META[dow];
-  const prefix = `Step ${step.idx}: `;
-  return { ...post, desc: post.desc.replace(/\{step\}/g, prefix + step.desc) };
-};
-
-const todayInfo = () => {
-  const d = new Date();
-  const pad = n => String(n).padStart(2, '0');
-  const dateStr = `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
-  return {
-    dow: d.getDay(),
-    dateStr,
-    display: d.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'}),
-    short: ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][d.getDay()],
-  };
-};
-
-// ═══════════════════════════════════════════
-// CONFIG
-// ═══════════════════════════════════════════
-
-const getCfg = () => { try { return JSON.parse(localStorage.getItem('wk_cfg')||'{}'); } catch { return {}; } };
-const saveCfg = patch => localStorage.setItem('wk_cfg', JSON.stringify({ ...getCfg(), ...patch }));
-
-// AI key resolution: built-in (config.js) takes priority, localStorage is fallback for local dev.
-// config.js is loaded lazily by loadBuiltInConfig() — only AFTER a valid GitHub PAT is on file —
-// so the baked-in keys are not exposed to anyone who merely opens the page.
-let _builtInLoad = null;
-function loadBuiltInConfig() {
-  if (_builtInLoad) return _builtInLoad;
-  _builtInLoad = new Promise(resolve => {
-    if (window.WORKOUT_CONFIG && (window.WORKOUT_CONFIG.geminiKey || window.WORKOUT_CONFIG.claudeKey)) {
-      resolve(window.WORKOUT_CONFIG); return;
+  if (d.lift) {
+    const c = $('section', { class: 'card' });
+    c.appendChild($('h2', null, 'Lift'));
+    const wrap = $('div', { class: 'table-wrap' });
+    const tbl = $('table');
+    const thead = $('thead');
+    const tr = $('tr');
+    ['Exercise', 'Sets×Reps', 'Load', 'RIR', 'Rest', 'Cue'].forEach(t => tr.appendChild($('th', null, t)));
+    thead.appendChild(tr);
+    tbl.appendChild(thead);
+    const tbody = $('tbody');
+    for (const row of d.lift.table) {
+      const r = $('tr');
+      r.appendChild($('td', { class: 'ex' }, row.exercise || ''));
+      r.appendChild($('td', null, row.setsReps || ''));
+      r.appendChild($('td', { class: 'load' }, row.load || ''));
+      r.appendChild($('td', null, row.rir || ''));
+      r.appendChild($('td', null, row.rest || ''));
+      r.appendChild($('td', null, row.cue || ''));
+      tbody.appendChild(r);
     }
-    const s = document.createElement('script');
-    s.src = 'config.js?t=' + Date.now();
-    s.onload  = () => resolve(window.WORKOUT_CONFIG || {});
-    s.onerror = () => { window.WORKOUT_CONFIG = window.WORKOUT_CONFIG || {}; resolve(window.WORKOUT_CONFIG); };
-    document.head.appendChild(s);
-  });
-  return _builtInLoad;
-}
-const builtIn = () => window.WORKOUT_CONFIG || {};
-const getGeminiKey = () => builtIn().geminiKey || getCfg().geminiKey || '';
-const getClaudeKey = () => builtIn().claudeKey || getCfg().claudeKey || '';
-const hasAnyAI = () => !!(getGeminiKey() || getClaudeKey());
-
-// Active provider: user pref → auto-detect (gemini first, then claude)
-function getAIProvider() {
-  const pref = getCfg().aiProvider; // 'gemini' | 'claude' | undefined
-  if (pref === 'claude' && getClaudeKey()) return 'claude';
-  if (pref === 'gemini' && getGeminiKey()) return 'gemini';
-  if (getGeminiKey()) return 'gemini';
-  if (getClaudeKey()) return 'claude';
-  return null;
-}
-
-// ── Login screen ──────────────────────────
-
-async function connectGitHub() {
-  const token  = document.getElementById('in-token').value.trim();
-  const repo   = document.getElementById('in-repo').value.trim();
-  const branch = document.getElementById('in-branch').value.trim() || 'main';
-  if (!token) { showToast('Paste your GitHub token first','red'); return; }
-
-  const btn = document.getElementById('connect-btn');
-  btn.disabled = true; btn.textContent = 'Verifying…';
-
-  try {
-    // Verify the token works and grab the username
-    const res = await fetch('https://api.github.com/user', {
-      headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json' }
-    });
-    if (!res.ok) throw new Error(`GitHub returned ${res.status} — check your token`);
-    const user = await res.json();
-    saveCfg({ token, repo, branch, ghUser: user.login, ghAvatar: user.avatar_url });
-    await loadBuiltInConfig();
-    showHome();
-  } catch(err) {
-    showToast(err.message, 'red');
-    btn.disabled = false; btn.textContent = 'Connect →';
-  }
-}
-
-function showSetup() {
-  const c = getCfg();
-  const el = id => document.getElementById(id);
-  const isConnected = !!c.token;
-
-  // Toggle login vs settings panel
-  el('setup-login-block').style.display    = isConnected ? 'none' : 'block';
-  el('setup-settings-block').style.display = isConnected ? 'block' : 'none';
-
-  if (isConnected) {
-    // Populate settings panel
-    if (el('setup-username'))  el('setup-username').textContent  = c.ghUser ? `@${c.ghUser}` : 'Connected';
-    if (el('setup-repo-info')) el('setup-repo-info').textContent = `${c.repo} · ${c.branch}`;
-    const avatar = el('setup-avatar');
-    if (avatar && c.ghAvatar) { avatar.src = c.ghAvatar; avatar.style.display = 'block'; }
-    if (el('in-gemini-key') && c.geminiKey) el('in-gemini-key').value = c.geminiKey;
-    if (el('in-claude-key') && c.claudeKey) el('in-claude-key').value = c.claudeKey;
-    renderSettingsAIStatus();
-  } else {
-    // Pre-fill login form with saved values (if reconnecting)
-    if (el('in-repo')   && c.repo)   el('in-repo').value   = c.repo;
-    if (el('in-branch') && c.branch) el('in-branch').value = c.branch;
+    tbl.appendChild(tbody);
+    wrap.appendChild(tbl);
+    c.appendChild(wrap);
+    block('Warmup', d.lift.warmup).forEach(n => c.appendChild(n));
+    block('Cooldown', d.lift.cooldown).forEach(n => c.appendChild(n));
+    app.appendChild(c);
   }
 
-  showScreen('setup');
-}
-
-function saveManualAIKeys() {
-  const g = document.getElementById('in-gemini-key')?.value.trim();
-  const c = document.getElementById('in-claude-key')?.value.trim();
-  saveCfg({ geminiKey: g||'', claudeKey: c||'' });
-  showToast('AI keys saved','green');
-  renderSettingsAIStatus();
-}
-
-function setAIProvider(p) {
-  saveCfg({ aiProvider: p });
-  renderSettingsAIStatus();
-  showToast(`AI provider: ${p}`,'blue');
-}
-
-function disconnectGitHub() {
-  if (!confirm('Remove GitHub session from this device?')) return;
-  localStorage.removeItem('wk_cfg');
-  window.WORKOUT_CONFIG = {};
-  _builtInLoad = null;
-  showSetup();
-}
-
-function renderSettingsAIStatus() {
-  const el = document.getElementById('ai-status-line');
-  if (!el) return;
-  const prov = getAIProvider();
-  const hasG = !!getGeminiKey(), hasC = !!getClaudeKey();
-  const src  = builtIn().geminiKey || builtIn().claudeKey ? '(server-configured)' : '(manual)';
-  el.innerHTML = prov
-    ? `<span style="color:var(--green)">✓ ${prov === 'gemini' ? 'Gemini 3.1 Flash Lite' : 'Claude Haiku'} active ${src}</span>`
-    : `<span style="color:var(--red)">✗ No AI key found — enter below or add GitHub secrets</span>`;
-  // Show/hide provider toggle
-  const toggle = document.getElementById('ai-provider-toggle');
-  if (toggle) toggle.style.display = (hasG && hasC) ? 'flex' : 'none';
-  // Mark active button
-  const cfg = getCfg();
-  ['gemini','claude'].forEach(p => {
-    const b = document.getElementById(`prov-btn-${p}`);
-    if (b) b.style.background = (cfg.aiProvider === p || (!cfg.aiProvider && p === 'gemini')) && (p==='gemini'?hasG:hasC) ? 'var(--accent)' : 'var(--surface2)';
-  });
-  // Show manual key block only if config.js is absent
-  const manualBlock = document.getElementById('manual-ai-block');
-  if (manualBlock) manualBlock.style.display = (builtIn().geminiKey || builtIn().claudeKey) ? 'none' : 'block';
-}
-
-// ═══════════════════════════════════════════
-// SCREENS
-// ═══════════════════════════════════════════
-
-const showScreen = name => {
-  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
-  document.getElementById('screen-'+name).classList.add('active');
-  window.scrollTo(0,0);
-};
-
-// ═══════════════════════════════════════════
-// HOME
-// ═══════════════════════════════════════════
-
-function showHome() {
-  const c = getCfg();
-  if (!c.token) { showSetup(); return; }
-  renderHome();
-  showScreen('home');
-}
-
-function renderTopBarUser() {
-  const c = getCfg();
-  const prov = getAIProvider();
-  const badge = document.getElementById('hm-ai-badge');
-  if (!badge) return;
-  if (prov) {
-    badge.textContent = prov === 'gemini' ? '✨ Gemini' : '✨ Claude';
-    badge.style.display = 'inline-block';
-  } else {
-    badge.style.display = 'none';
-  }
-  const user = document.getElementById('hm-user');
-  if (user && c.ghUser) user.textContent = `@${c.ghUser}`;
-}
-
-function renderHomeActions(t) {
-  const actions = document.getElementById('hm-actions');
-  if (!actions) return;
-  const s   = getDayMeta(t.dow);
-  const ai  = hasAnyAI();
-  const dow = t.dow;
-
-  // Source of truth priority:
-  //   1. AI brief's today.type (uses inference, sees deferrals/swaps)
-  //   2. weekLogCache fallback (regex-based, may misfire on consult notes)
-  //   3. static DAY_META (program default)
-  const effectiveType = currentBrief?.today?.type
-                     || weekLogCache[dow]?.sessionType
-                     || s.type;
-
-  // AI inference for "did the athlete actually log a workout today?".
-  // Only the AI brief sets this — regex on tracker dates produces false
-  // positives (e.g. consult notes containing today's date).
-  const aiLogged = !!currentBrief?.today?.isLogged;
-  const summary  = currentBrief?.today?.loggedSummary || '';
-
-  // Build the "already logged" indicator (only when AI says so)
-  const loggedBlock = aiLogged
-    ? `<div style="background:#0a1505;border:1px solid #15532e;border-radius:8px;padding:10px 12px;margin-bottom:10px;font-size:12px;color:#86efac;line-height:1.5">
-         <strong>✓ Logged today</strong>${summary ? `<div style="margin-top:4px;color:var(--text-dim)">${escHtml(summary)}</div>` : ''}
-       </div>`
-    : '';
-
-  // Map effectiveType → wkType prefix so the workout screen renders the
-  // correct combination of cardio ref / lift block.
-  const wkPrefix = effectiveType === 'run'  ? 'cardio'
-                 : effectiveType === 'lift' ? 'lift'
-                 : 'both';
-  const buttonLabel = effectiveType === 'run'
-    ? (aiLogged ? '+ Log Additional Cardio' : 'Log Cardio Session')
-    : (aiLogged ? '+ Log Additional Workout' : "Log Today's Workout");
-
-  if (effectiveType === 'rest') {
-    actions.innerHTML = loggedBlock + `<div style="color:var(--text-muted);font-size:13px;padding:8px 0">Rest + prehab day — no logging needed</div>${ai && !currentBrief ? `<button class="btn btn-ai" onclick="loadAIBrief()">✨ AI Workout Brief</button>` : ''}`;
-  } else {
-    actions.innerHTML = loggedBlock + `
-      <button class="btn btn-primary" onclick="showWorkout('${wkPrefix}-${dow}')">${escHtml(buttonLabel)}</button>
-      ${ai && !currentBrief ? `<button class="btn btn-ai" onclick="loadAIBrief()">✨ AI Workout Brief</button>` : ''}`;
-  }
-}
-
-function renderHome() {
-  const week = currentWeek(), phase = currentPhase();
-  const t = todayInfo();
-  const s = getDayMeta(t.dow);
-
-  document.getElementById('hm-badge').textContent = `W${week}`;
-  document.getElementById('hm-days').textContent  = daysToRace();
-  document.getElementById('hm-date').textContent  = `${s.icon} ${t.display}`;
-
-  renderTopBarUser();
-
-  // Action buttons — call helper so it can be re-invoked after weekLogCache loads
-  renderHomeActions(t);
-
-  // Week grid
-  renderWeekGrid(t);
-
-  // Pills
-  document.getElementById('hm-pills').innerHTML = `
-    <span class="pill orange">Phase A · ${phase}</span>
-    <span class="pill green">W${week}/W25</span>
-    <span class="pill blue">Soleus ✓</span>
-    <span class="pill red">Hill Strides ✗</span>
-    <span class="pill purple">SI 3/7 ⟶ Phase B</span>`;
-
-  // Checklist
-  document.getElementById('hm-checklist').innerHTML = `
-    <div class="section-label" style="margin-top:8px">Phase B Gate (Running Reintro)</div>
-    <div class="checklist-item"><span>✅</span> SI provocation tests negative (5/6)</div>
-    <div class="checklist-item"><span>✅</span> Single-leg bridge 30s/side pain-free (5/6)</div>
-    <div class="checklist-item"><span>⬜</span> 7 consecutive symptom-free days — 3/7 as of 5/8</div>
-    <div class="checklist-item"><span>⬜</span> PT visit (overdue)</div>
-    <div style="font-size:12px;color:var(--text-muted);margin-top:8px">Earliest: ~May 23 (conservative) · May 27–Jun 3 (realistic)</div>`;
-
-  // Loads
-  document.getElementById('hm-loads').innerHTML = Object.entries(LOADS)
-    .map(([n,v])=>`<tr><td>${n}</td><td>${v.load}</td></tr>`).join('');
-
-  // Pre-fetch Tracker.md so weekLogCache is populated as a fallback (used only
-  // when the AI brief isn't loaded yet). The AI brief is the primary source
-  // of truth for "what's logged" once it arrives.
-  if (getCfg().token) {
-    const t2 = todayInfo();
-    fetchGitHubFile('Tracker.md').then(raw => {
-      trackerCache = raw;
-      weekLogCache = parseWeekLogs(raw);
-      // Only re-render fallback UI if AI brief hasn't already populated it
-      if (!currentBrief) {
-        renderWeekGrid(t2);
-        renderHomeActions(t2);
-      }
-    }).catch(() => {});
-
-    // Auto-load the AI brief — it drives the entire dashboard. Cache hits are
-    // free, misses cost one API call (worth it for accurate today + week info).
-    if (hasAnyAI()) {
-      loadAIBrief().catch(() => {});
+  if (d.cardio) {
+    const c = $('section', { class: 'card' });
+    c.appendChild($('h2', null, 'Cardio'));
+    if (d.cardio.flags && d.cardio.flags.length) {
+      c.appendChild($('div', { class: 'label' }, 'Flags'));
+      const ul = $('ul');
+      for (const f of d.cardio.flags) ul.appendChild($('li', { class: 'flag' }, f));
+      c.appendChild(ul);
     }
-  }
-}
-
-// ═══════════════════════════════════════════
-// AI BRIEF — with cross-device cache
-// ═══════════════════════════════════════════
-
-// Bump this when the AI brief schema changes — old caches with a different
-// version are ignored and regenerated so we don't render against stale shapes.
-const BRIEF_SCHEMA_VERSION = 4;
-
-async function loadAIBrief(forceRegenerate = false) {
-  if (!hasAnyAI()) { showToast('No AI key — add secrets in GitHub repo settings','red'); return; }
-
-  const el = document.getElementById('hm-ai-brief');
-  const t  = todayInfo();
-  const s  = getDayMeta(t.dow);
-
-  el.innerHTML = `<div class="ai-brief"><div class="ai-brief-header"><span>✨</span><h3>AI Workout Brief</h3></div><div class="ai-loading"><div class="spinner">⏳</div><div>${forceRegenerate ? 'Regenerating…' : 'Checking cache…'}</div></div></div>`;
-
-  // ── 1. Try cache first (skip if force-regenerate) ───────────────
-  if (!forceRegenerate) {
-    try {
-      const cached = await fetchGitHubFile('brief-cache.json');
-      const cache  = JSON.parse(cached);
-      if (cache.date === t.dateStr && cache.dow === t.dow && cache.version === BRIEF_SCHEMA_VERSION && cache.data) {
-        renderBriefHTML(el, cache.data, s, { fromCache: true, cachedAt: cache.generatedAt });
-        return;
-      }
-    } catch { /* cache miss or parse error — fall through to generate */ }
-  }
-
-  // ── 2. Fetch source files and call AI ───────────────────────────
-  el.querySelector('.ai-loading div:last-child').textContent = 'Reading your program…';
-  try {
-    const [progMd, trackerMd] = await Promise.all([
-      fetchGitHubFile('program.md'),
-      fetchGitHubFile('Tracker.md'),
-    ]);
-
-    // Compute date strings for this week / next week (Sun..Sat) so the AI
-    // doesn't have to do date math itself.
-    const pad = n => String(n).padStart(2, '0');
-    const weekDates = (offsetWeeks) => {
-      const today = new Date();
-      const sunOff = today.getDay();
-      const out = [];
-      for (let i = 0; i < 7; i++) {
-        const d = new Date(today);
-        d.setDate(today.getDate() - sunOff + i + offsetWeeks * 7);
-        out.push(`${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`);
-      }
-      return out;
-    };
-    const thisWeekDates = weekDates(0);
-    const nextWeekDates = weekDates(1);
-
-    // Default weekly template baseline. Phase-aware: in Reset (Phase A) this
-    // returns the §4.B/§7.B prescriptions (Z1 row pre-gate, treadmill reintro
-    // post-gate). Override only when the tracker explicitly says so.
-    const phaseLabel = currentPhase();
-    const gateClosedAt = phaseBGateClosedAt();
-    const phaseBStatus = phaseLabel === 'Reset'
-      ? (gateClosedAt ? `Phase B gate closed ${gateClosedAt} — §7.B reintro active` : `Phase B gate NOT yet closed — Phase A holdover (Z1 row only, no running)`)
-      : `not in Reset phase`;
-    const dayDefaults = [0,1,2,3,4,5,6].map(i => {
-      const dm = getDayMeta(i, phaseLabel);
-      const dn = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][i];
-      return `  dow=${i} ${dn}: type=${dm.type}, label="${dm.label}", desc="${dm.desc}"`;
-    }).join('\n');
-
-    // ── Prompt structure: STABLE prefix (system + program.md) is cached;
-    // only the dynamic suffix (today's date + tracker) is sent uncached
-    // each time. On Anthropic this gives ~5-10× faster repeat calls and
-    // ~90% cost reduction on the prefix. Gemini's implicit caching kicks
-    // in for identical prefixes too.
-    //
-    // DAY_META + the schema/rules text only changes when we ship a new
-    // app version, so they live in the cached system block. program.md
-    // changes rarely (only when the user edits their program), so it
-    // gets its own cached system block. Tracker.md changes every workout,
-    // so it goes in the dynamic user message.
-
-    const systemInstructions = `You are a personal running + lifting coach. Your job is to produce a complete, AI-driven dashboard payload — today's workout brief PLUS the schedule + log status for this week and next week — based on BOTH documents provided in this conversation.
-
-IMPORTANT PRIORITY ORDER:
-1. Tracker.md is the ground truth — actual current loads, recent session notes, carry-forwards, SI/injury log, schedule changes (e.g. session deferrals like "Hyp B punted from Sat to Sun"), week labels (e.g. "## W3 Schedule"), and adjustments that override program defaults. Always reference it first.
-2. program.md provides the prescribed framework — session structure, prescribed rep ranges, phase logic, what exercises belong on which day.
-3. Where Tracker.md has a note, carry-forward, or schedule change that conflicts with program defaults, the Tracker wins.
-
-DEFAULT WEEKLY TEMPLATE (current phase: ${phaseLabel}; Phase B running gate: ${phaseBStatus}; this baseline is ALREADY phase- and gate-adjusted — still defer to program.md §4/§7 phase tables and tracker deferrals/swaps for the exact prescription):
-${dayDefaults}
-
-Return ONLY a JSON object (no markdown, no explanation) with this exact structure:
-{
-  "currentWeek": 0,
-  "phase": "string — Reset|Base|Build|Sharpen|Taper",
-  "today": {
-    "sessionTitle": "string — descriptive title for today's session",
-    "type": "rest|run|lift|both",
-    "icon": "single emoji",
-    "shortLabel": "string — short label like 'Hypertrophy B (deferred)' for the today card",
-    "isLogged": false,
-    "loggedSummary": "string — short 1-2 line summary of what was actually logged today; empty string if not logged"
-  },
-  "keyTargets": ["string", ...],
-  "warnings": ["string", ...],
-  "highlights": ["string", ...],
-  "exercises": [
-    {
-      "name": "string",
-      "sets": 3,
-      "reps": "string — rep range like '8-10' for strength, or duration like '30-45s' for iso",
-      "weight": "string — target load like '125 lb', '5/side', 'BW', or progression like '125 → 130 → 120'",
-      "rir": "string — RIR/RPE target like 'RIR 2', 'RPE 8', 'last set RIR 1'",
-      "type": "strength|iso",
-      "target": "string — muscle group or focus area",
-      "rest": "string — rest period between sets like '90s', '2 min', '2-3 min'",
-      "note": "string — additional context, carry-forwards, or coaching cues"
-    }
-  ],
-  "cardio": null OR {"prescription":"string","paceTarget":"string","hrTarget":"string","notes":"string"},
-  "statusPills": [{"color":"green|orange|blue|red|purple","text":"string"}, ...],
-  "phaseBGate": {
-    "closedAt": "YYYY-MM-DD or null — the date all three Phase B running-gate criteria first held simultaneously (7 consecutive symptom-free days + SI provocation tests negative + single-leg bridge 30s/side pain-free). Null if any criterion is still open.",
-    "criteria": [{"done":true,"text":"string","detail":"string"}, ...]
-  },
-  "currentLoads": [{"name":"string","load":"string","note":"string"}, ...],
-  "thisWeek": [
-    {"dow":0,"dateStr":"YYYY-MM-DD","label":"string","type":"rest|run|lift|both","icon":"single emoji","description":"string","isLogged":false,"loggedSummary":"string"},
-    ...exactly 7 entries, dow 0=Sun through dow 6=Sat, in order
-  ],
-  "nextWeek": [
-    {"dow":0,"dateStr":"YYYY-MM-DD","label":"string","type":"rest|run|lift|both","icon":"single emoji","description":"string"},
-    ...exactly 7 entries, dow 0=Sun through dow 6=Sat, in order
-  ]
-}
-
-CRITICAL RULES (read carefully):
-
-WEEK + PHASE:
-- currentWeek: the week number that today falls into, derived from the tracker. The tracker uses labels like "### W3 Mon 2026-05-04" or "## W3 Schedule" — match today's date against those labels. If tracker doesn't explicitly label today's week, derive it from the most recent labeled date (e.g. if "W3 Mon 5/4" and today is 5/10, today is still W3; if today is 5/11, today is W4). If user has clearly advanced the tracker to a new week (e.g. a "## W4 Schedule" header exists with today's date), use that.
-- phase: derived from the macrocycle table in program.md based on currentWeek (Reset W1-W4, Base W5-W12, Build W13-W18, Sharpen W19-W22, Taper W23-W25). Override only if the tracker explicitly states a different phase.
-
-TODAY:
-- today.type: examine the tracker for any session deferrals, swaps, or carry-forwards that change today's prescribed session. E.g. if a Saturday lift was punted to Sunday, today.type for Sunday is "lift" or "both" (not "rest"). Use "lift" if today is lift only, "run" if cardio only, "both" if both lift+cardio, "rest" if rest day.
-- today.isLogged: TRUE only if the athlete has logged an ACTUAL workout for today (not a consult note, not a coaching adjustment, not a carry-forward note that merely mentions today's date, not a side-note that references today). Use INFERENCE: look for entries that contain real training data — exercise sets with weights/reps/RIR, run/row metrics with distance/time/pace/HR. A "### Consult Note" or "### Adjustments" block is NOT a logged workout. Only mark isLogged=true if you find concrete training execution.
-- today.loggedSummary: if isLogged=true, give a 1-2 line summary of what was actually performed (e.g. "Hyp B: incline 130×8, lat pulldown 125-130-120, pushdown 42.5×12 RIR 2"). Empty string otherwise.
-
-EXERCISES:
-- Include ONLY if today is a lift or both day with real exercises to perform. Empty array [] if today is rest/run-only or already logged.
-- Use exact loads from Tracker.md current loads section + most recent session entries. Include EVERY exercise in today's circuit per the tracker's adjustments and program template.
-- sets: number of working sets (integer).
-- reps: a clean rep range string. Strength = e.g. "5-8", "8", "12". Iso (wall-sit, plank) = duration like "30-45s".
-- weight: today's WORKING load — the load the athlete will actually move today. Pull from the Tracker's "Current Working Loads" table and the most recently logged session for that lift; NEVER use a TM, a "(Target)" value, or a row from a forward-looking progression/forecast table (e.g. "Incline BB Progression", "Meso 1 plan") as today's weight. When the Tracker shows a split like "125 working / TM 155" or "125 lb (Working) / 160 lb (Target)", the working value (125) is today's weight; the TM/Target is reference-only and does not become the working load until an AMRAP/test set has actually moved it. Worked example: if Tracker says \`Incline BB | 125 working / TM 155\` AND a progression table lists \`W4: 3×5 @ 160\`, today's weight is \`125 lb\`, not \`160 lb\` — 160 only applies AFTER a successful AMRAP retest moves the TM. For variable loads across sets, use a progression string like "125 (S1) → 130 (S2-3) → 120 (S4)". For bodyweight use "BW".
-- rir: the RIR/RPE target as a string, e.g. "RIR 2", "RPE 8", "last set RIR 1".
-- type: "iso" for isometric holds (wall-sit, plank, hold), "strength" for everything else.
-- target: muscle group / focus area, 1-3 words ("Lats", "Side delt", "Calves").
-- rest: prescribed rest between sets. Strength compounds typically "2-3 min", isolation/accessories "60-90s", iso holds "60s". Use program.md guidance if specified, otherwise sensible defaults.
-- note: short coaching cue, carry-forward, or special instruction. Keep concise.
-
-CARDIO:
-- Include ONLY if today actually has a run/row component scheduled. Set to null otherwise (do NOT populate with prehab/rest-day mobility — those don't belong here).
-
-DASHBOARD:
-- statusPills: 3-6 dynamic status pills. Color: red=blocked/injured, green=cleared/good, orange=in-progress, blue=neutral info, purple=gate/milestone.
-- phaseBGate.criteria: list every Phase B running-gate criterion from the tracker with current status and brief detail (e.g. "3/7 days"). Include all of: 7 consecutive symptom-free days, SI provocation tests negative, single-leg bridge 30s/side pain-free, and any other criterion the tracker tracks.
-- phaseBGate.closedAt: compute by scanning the tracker's SI log + gate checklist. Set to the earliest date on which (a) the 7-day clean streak first reaches 7/7 AND (b) provocation tests are documented negative AND (c) SL bridge is documented pain-free. If any criterion is still open today, set to null. If unsure, set to null — the dashboard treats null as "stay in Phase A holdover (Z1 row)".
-- currentLoads: current working loads for each main lift — read from the most recent sessions in Tracker.md.
-
-THIS WEEK / NEXT WEEK:
-- EXACTLY 7 entries each, dow 0..6 (Sun..Sat). Use the dateStr values provided by the user.
-- For EVERY day, you MUST set type to one of rest|run|lift|both. Default to the DEFAULT WEEKLY TEMPLATE above for that dow, then apply tracker overrides on top.
-- Do NOT silently mark a day as "rest" unless either (a) the default template says rest for that dow, or (b) the tracker explicitly defers/skips that day.
-- label: a short, specific session name (e.g. "Threshold Row + Hyp A", "Long Z1 Run + Hyp B", "Easy Run Z1") — derived from program for that dow, modified by tracker.
-- icon: a single emoji that matches the session vibe.
-- description: 1-2 specific sentences (paces, HR targets, exercise focus, etc.). No rambling.
-- isLogged (thisWeek only): same inference rule as today.isLogged — only true if real training data was logged for that date.
-- loggedSummary (thisWeek only): brief summary if logged, empty otherwise.
-
-OUTPUT:
-- Be specific with numbers. Cite the tracker ("last session: 125×8 RIR 2") when relevant.
-- Output MUST be valid JSON. No trailing commas, no comments, no markdown fences.`;
-
-    const programBlock = `════ PROGRAM.MD (prescribed framework — stable, cached) ════
-${progMd}`;
-
-    const userPrompt = `TODAY: ${t.display} (${t.dateStr}), Day-of-week ${t.short} (dow=${t.dow})
-THIS WEEK DATES (Sun→Sat): ${JSON.stringify(thisWeekDates)}
-NEXT WEEK DATES (Sun→Sat): ${JSON.stringify(nextWeekDates)}
-
-════ TRACKER.MD (actual logs, current loads, notes, SI status — ground truth) ════
-${trackerMd}
-
-Generate the dashboard JSON now.`;
-
-    el.querySelector('.ai-loading div:last-child').textContent = 'Generating brief…';
-    const resp = await callAI(userPrompt, 'brief', {
-      systemBlocks: [
-        { text: systemInstructions, cache: true },
-        { text: programBlock,       cache: true },
-      ],
-    });
-    let data;
-    try {
-      data = JSON.parse(resp.replace(/```json\n?|\n?```/g,'').trim());
-    } catch {
-      el.innerHTML = `<div class="ai-brief"><div class="ai-brief-header"><span>✨</span><h3>AI Brief</h3><button class="regen-btn" onclick="loadAIBrief(true)">↺ Regen</button></div><div class="ai-brief-body"><div style="font-size:13px;color:#c4b5fd;white-space:pre-wrap">${escHtml(resp)}</div></div></div>`;
-      return;
-    }
-
-    // ── 3. Save to cache (fire-and-forget) ──────────────────────────
-    saveBriefCache(data, t).catch(() => {}); // don't block render on cache write
-
-    renderBriefHTML(el, data, s, { fromCache: false });
-
-  } catch(err) {
-    el.innerHTML = `<div class="ai-brief"><div class="ai-brief-body"><div style="color:var(--red);font-size:13px">Error: ${escHtml(err.message)}</div></div></div>`;
-  }
-}
-
-function renderBriefHTML(el, data, s, { fromCache = false, cachedAt = null } = {}) {
-  currentBrief = data;
-  updateHomeFromBrief(data);
-  const timeLabel = fromCache
-    ? `cached · ${new Date(cachedAt).toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'})}`
-    : `generated · ${new Date().toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'})}`;
-
-  const headerTitle = data.today?.sessionTitle || data.sessionTitle || s.label;
-
-  let html = `<div class="ai-brief">
-    <div class="ai-brief-header">
-      <span>✨</span>
-      <h3>${escHtml(headerTitle)}</h3>
-      <span style="font-size:11px;color:#818cf8;flex:1;text-align:right">${timeLabel}</span>
-      <button class="regen-btn" onclick="loadAIBrief(true)" title="Regenerate">↺</button>
-    </div>
-    <div class="ai-brief-body">`;
-
-  (data.warnings  ||[]).forEach(w => { html += `<div class="ai-warning">⚠️ ${escHtml(w)}</div>`; });
-  (data.highlights||[]).forEach(h => { html += `<div class="ai-highlight">✓ ${escHtml(h)}</div>`; });
-
-  if (data.keyTargets?.length) {
-    html += `<div class="ai-target"><div class="label">Key Targets</div><div class="value">${data.keyTargets.map(x=>`• ${escHtml(x)}`).join('<br>')}</div></div>`;
-  }
-
-  if (data.cardio?.prescription) {
-    html += `<div class="ai-target"><div class="label">Cardio</div><div class="value">
-      <strong>${escHtml(data.cardio.prescription)}</strong>
-      ${data.cardio.paceTarget ? `<br>Pace: ${escHtml(data.cardio.paceTarget)}` : ''}
-      ${data.cardio.hrTarget   ? `<br>HR: ${escHtml(data.cardio.hrTarget)}`     : ''}
-      ${data.cardio.notes      ? `<br>${escHtml(data.cardio.notes)}`            : ''}
-    </div></div>`;
-  }
-
-  if (data.exercises?.length) {
-    html += `<div class="ai-target"><div class="label">Exercise Targets</div>`;
-    data.exercises.forEach(e => {
-      html += `<div class="ai-ex-row">
-        <div>
-          <div class="ai-ex-name">${escHtml(e.name)}</div>
-          ${e.target ? `<div style="font-size:11px;color:var(--text-muted)">${escHtml(e.target)}</div>` : ''}
-          ${e.note ? `<div style="font-size:11px;color:#818cf8;margin-top:2px">${escHtml(e.note)}</div>` : ''}
-        </div>
-        <div class="ai-ex-target">${exerciseTargetHTML(e)}</div>
-      </div>`;
-    });
-    html += `</div>`;
-  }
-
-  html += `</div></div>`;
-  el.innerHTML = html;
-}
-
-async function saveBriefCache(data, t) {
-  const cfg = getCfg();
-  const payload = JSON.stringify({ version: BRIEF_SCHEMA_VERSION, date: t.dateStr, dow: t.dow, generatedAt: new Date().toISOString(), data }, null, 2);
-  const apiUrl  = `https://api.github.com/repos/${cfg.repo}/contents/brief-cache.json`;
-  const hdrs    = { 'Authorization': `token ${cfg.token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' };
-
-  // Get existing SHA if the file already exists
-  let sha;
-  const check = await fetch(`${apiUrl}?ref=${cfg.branch}`, { headers: hdrs });
-  if (check.ok) sha = (await check.json()).sha;
-
-  const body = { message: `Cache AI brief — ${t.dateStr}`, content: btoa(unescape(encodeURIComponent(payload))), branch: cfg.branch };
-  if (sha) body.sha = sha;
-
-  await fetch(apiUrl, { method: 'PUT', headers: hdrs, body: JSON.stringify(body) });
-}
-
-
-// ═══════════════════════════════════════════
-// WORKOUT SCREEN
-// ═══════════════════════════════════════════
-
-let wkType     = '';  // 'lift-2', 'lift-6', 'cardio-N', 'both-N'
-let wkWeek     = 1;
-let wkData     = {};  // only used for cardio fields now
-let aiMarkdown = '';  // AI-generated markdown preview
-
-function showWorkout(type) {
-  wkType = type; wkWeek = currentWeek(); wkData = {}; aiMarkdown = '';
-  renderWorkout();
-  showScreen('workout');
-}
-
-function renderWorkout() {
-  const t = todayInfo();
-  document.getElementById('wk-badge').textContent = `W${wkWeek}`;
-
-  const isBoth       = wkType.startsWith('both-');
-  const isLift       = wkType.startsWith('lift-') || isBoth;
-  const isCardioOnly = wkType.startsWith('cardio-');
-
-  // AI inference for "is today's workout already logged?".
-  // When AI is configured, trust the AI brief exclusively — never fall back
-  // to regex, which false-positives on consult notes containing today's date.
-  // Without AI, fall back to regex (known limitation, accepted trade-off).
-  const fallbackLog = weekLogCache[t.dow];
-  const aiAvailable = hasAnyAI();
-  const alreadyLogged = aiAvailable
-    ? !!currentBrief?.today?.isLogged
-    : !!fallbackLog;
-  const loggedSummary = currentBrief?.today?.loggedSummary
-                     || (!aiAvailable ? fallbackLog?.snippet : '')
-                     || '';
-
-  // Banner shown when today has a prior log entry; textarea starts hidden until "Log Additional"
-  const alreadyLoggedBanner = alreadyLogged ? `
-    <div class="ai-brief" style="margin-bottom:12px;border-color:#15532e">
-      <div class="ai-brief-header"><span>✓</span><h3>Already logged today</h3></div>
-      <div class="ai-brief-body">
-        <pre style="font-size:11px;color:var(--text-dim);white-space:pre-wrap;margin:0;line-height:1.5">${escHtml(loggedSummary || '(see Tracker.md for details)')}</pre>
-      </div>
-      <div style="padding:10px 14px 14px">
-        <button class="btn btn-secondary" style="width:100%" onclick="showAdditionalLog()">+ Log Additional</button>
-      </div>
-    </div>` : '';
-
-  if (isLift) {
-    const dow = parseInt(wkType.split('-')[1]);
-    const isA = dow === 2;
-
-    const briefExs    = currentBrief?.exercises;
-    // Treat an explicitly empty array as "no lift today" — only fall back to static when brief hasn't loaded
-    const fromAI      = briefExs?.length > 0;
-    const briefSaysNoLift = currentBrief !== null && Array.isArray(briefExs) && briefExs.length === 0;
-    const sessionTitle = fromAI
-      ? (currentBrief.today?.sessionTitle || currentBrief.today?.shortLabel || (isA ? 'Hypertrophy A' : 'Hypertrophy B'))
-      : (isA ? 'Hypertrophy A' : 'Hypertrophy B');
-
-    document.getElementById('wk-title').textContent = 'Log Today\'s Workout';
-
-    // Reference card — AI targets or static list, read-only
-    const refRows = fromAI
-      ? briefExs.map(e => `<div class="ai-ex-row">
-          <div>
-            <div class="ai-ex-name">${escHtml(e.name)}</div>
-            ${e.target ? `<div style="font-size:11px;color:var(--text-muted)">${escHtml(e.target)}</div>` : ''}
-            ${e.note ? `<div style="font-size:11px;color:#818cf8;margin-top:2px">${escHtml(e.note)}</div>` : ''}
-          </div>
-          <div class="ai-ex-target">${exerciseTargetHTML(e)}</div>
-        </div>`).join('')
-      : briefSaysNoLift
-        ? `<div style="font-size:13px;color:var(--text-muted);padding:8px 0">No lift scheduled today per AI brief — log cardio below.</div>`
-        : (isA ? HYP_A : HYP_B).map(e => {
-            const load = LOADS[e.loadKey];
-            return `<div class="ai-ex-row">
-              <div class="ai-ex-name">${escHtml(e.name)}</div>
-              <div class="ai-ex-target">${load ? escHtml(load.load) : escHtml(e.prescribed)}</div>
-            </div>`;
-          }).join('');
-
-    const refCard = `<div class="ai-brief" style="margin-bottom:12px">
-      <div class="ai-brief-header"><span>${fromAI?'✨':'📋'}</span><h3>${escHtml(sessionTitle)} — Targets</h3></div>
-      <div class="ai-brief-body">${refRows}</div>
-    </div>`;
-
-    // Show cardio ref card only when there's actually cardio scheduled today.
-    // Source of truth: AI brief's cardio block (null = no cardio). Fall back to
-    // wkType prefix only if the brief hasn't loaded.
-    const briefHasCardio = currentBrief?.cardio?.prescription;
-    const briefSaysNoCardio = currentBrief !== null && currentBrief?.cardio === null;
-    const showCardioRef = isBoth && (briefHasCardio || (!currentBrief && !briefSaysNoCardio));
-    const cardioRefHtml = showCardioRef ? cardioRefCard(getDayMeta(dow), currentBrief?.cardio, 'Cardio Targets') : '';
-
-    const logBlock = alreadyLogged
-      ? `<div id="wk-log-block" style="display:none">${liftTextBlock(sessionTitle)}</div>`
-      : liftTextBlock(sessionTitle);
-
-    const html = alreadyLoggedBanner + refCard + cardioRefHtml + logBlock + `<div id="wk-preview"></div>`;
-    document.getElementById('wk-content').innerHTML = html;
-
-  } else {
-    // ── Cardio-only ──────────────────────────────────────────────────
-    const dow = parseInt(wkType.split('-')[1]);
-    const dm  = getDayMeta(dow);
-    const sessionTitle = currentBrief?.today?.sessionTitle || dm.label;
-    document.getElementById('wk-title').textContent = 'Log Today\'s Workout';
-
-    const logBlock = alreadyLogged
-      ? `<div id="wk-log-block" style="display:none">${liftTextBlock(sessionTitle)}</div>`
-      : liftTextBlock(sessionTitle);
-
-    const html = alreadyLoggedBanner + cardioRefCard(dm, currentBrief?.cardio, sessionTitle) + logBlock + `<div id="wk-preview"></div>`;
-    document.getElementById('wk-content').innerHTML = html;
-  }
-
-  // Restore save bar (hidden initially when already logged; revealed by showAdditionalLog)
-  const saveBtn     = document.getElementById('wk-save');
-  const progressTxt = document.getElementById('wk-progress');
-  if (alreadyLogged) {
-    if (saveBtn)      saveBtn.style.display = 'none';
-    if (progressTxt)  progressTxt.style.display = 'none';
-  } else {
-    if (saveBtn)      saveBtn.style.display = '';
-    if (progressTxt)  progressTxt.style.display = '';
-    updateProgress();
-  }
-}
-
-function showAdditionalLog() {
-  const block = document.getElementById('wk-log-block');
-  if (block) block.style.display = '';
-  const saveBtn     = document.getElementById('wk-save');
-  const progressTxt = document.getElementById('wk-progress');
-  if (saveBtn)      saveBtn.style.display = '';
-  if (progressTxt)  progressTxt.style.display = '';
-  updateProgress();
-  block?.querySelector('textarea')?.focus();
-}
-
-function cardioRefCard(dm, aiCardio, sectionTitle) {
-  const desc = aiCardio?.prescription
-    ? `<div class="ai-ex-row"><div class="ai-ex-name">${escHtml(aiCardio.prescription)}</div></div>
-       ${aiCardio.paceTarget ? `<div class="ai-ex-row"><div class="ai-ex-name" style="color:var(--text-dim)">Pace target</div><div class="ai-ex-target">${escHtml(aiCardio.paceTarget)}</div></div>` : ''}
-       ${aiCardio.hrTarget   ? `<div class="ai-ex-row"><div class="ai-ex-name" style="color:var(--text-dim)">HR target</div><div class="ai-ex-target">${escHtml(aiCardio.hrTarget)}</div></div>` : ''}
-       ${aiCardio.notes      ? `<div style="font-size:12px;color:var(--text-dim);padding:6px 0">${escHtml(aiCardio.notes)}</div>` : ''}`
-    : `<div style="font-size:13px;color:var(--text-dim);padding:4px 0">${escHtml(dm.desc)}</div>`;
-  return `<div class="ai-brief" style="margin-bottom:12px">
-    <div class="ai-brief-header"><span>${aiCardio?.prescription ? '✨' : '🏃'}</span><h3>${escHtml(sectionTitle)} — Targets</h3></div>
-    <div class="ai-brief-body">${desc}</div>
-  </div>`;
-}
-
-function liftTextBlock(sessionLabel) {
-  const aiAvailable = hasAnyAI();
-  return `<div class="nl-block">
-    <div class="nl-header"><span>📝</span><h3>Log Your Workout</h3></div>
-    <div class="nl-body">
-      <div class="field-label" style="margin-bottom:6px">Describe what you did — sets, loads, feel, anything notable</div>
-      <textarea id="nl-text" rows="6" placeholder="e.g. Incline 130×8 RIR 2 for 3 sets, felt strong. Pushdown stayed at 42.5, hit RIR 2 all sets finally. Skipped rear delt. SI felt fine throughout maybe 0-1/10." oninput="updateProgress()"></textarea>
-      ${aiAvailable ? `<button class="nl-parse-btn" id="nl-btn" onclick="parseWithAI()">✨ Parse &amp; Preview</button>` : ''}
-    </div>
-  </div>`;
-}
-
-
-// ═══════════════════════════════════════════
-// FORM STATE
-// ═══════════════════════════════════════════
-
-
-function updateProgress() {
-  const hasPreview  = !!aiMarkdown;
-  const nlText      = document.getElementById('nl-text')?.value?.trim() || '';
-  const isLiftMode  = wkType.startsWith('lift-') || wkType.startsWith('both-');
-
-  const hasCardio = false; // cardio is now textarea-only, no structured fields
-
-  let ready = false;
-  let label = '';
-  if (hasPreview) {
-    ready = true;
-    label = '✓ Preview ready — save to commit';
-  } else if (isLiftMode && nlText) {
-    ready = true;
-    label = nlText.length > 40 ? nlText.slice(0, 40) + '…' : nlText;
-  } else if (!isLiftMode && hasCardio) {
-    ready = true;
-    label = 'Cardio logged';
-  } else if (isLiftMode) {
-    label = 'Describe your workout above';
-  } else {
-    label = 'Fill in your session';
-  }
-
-  document.getElementById('wk-progress').textContent = label;
-  document.getElementById('wk-save').disabled = !ready;
-}
-
-// ═══════════════════════════════════════════
-// AI PARSE
-// ═══════════════════════════════════════════
-
-async function parseWithAI() {
-  const cfg = getCfg();
-  if (!hasAnyAI()) { showToast('No AI key — add secrets in GitHub repo settings','red'); return; }
-  const nlText = document.getElementById('nl-text')?.value?.trim();
-  if (!nlText) { showToast('Write your workout description first','red'); return; }
-
-  const btn = document.getElementById('nl-btn');
-  btn.disabled = true; btn.textContent = '⏳ Parsing…';
-
-  try {
-    const t = todayInfo();
-    const week = wkWeek;
-    const phase = getPhase(week);
-    const isLift = wkType.startsWith('lift-');
-    const isA    = isLift && parseInt(wkType.split('-')[1]) === 2;
-
-    // Also pull structured form data to include what's already filled
-    const structuredSummary = buildStructuredSummary();
-
-    // Build context about current loads
-    const loadsContext = Object.entries(LOADS)
-      .map(([n,v]) => `- ${n}: ${v.load} (${v.note})`).join('\n');
-
-    const prompt = `You are a personal fitness coach formatting a workout log entry for a Markdown tracker file.
-
-DATE: ${t.dateStr}  WEEK: W${week}  PHASE: ${phase}  SESSION: ${wkType}
-${isLift ? `SESSION TYPE: ${isA ? 'Hypertrophy A (Tue)' : 'Hypertrophy B (Sat)'}` : 'SESSION TYPE: Cardio'}
-
-CURRENT LOADS REFERENCE:
-${loadsContext}
-
-${structuredSummary ? `STRUCTURED DATA ALREADY FILLED:\n${structuredSummary}\n\n` : ''}USER'S NATURAL LANGUAGE DESCRIPTION:
-"${nlText}"
-
-YOUR JOB:
-Produce the exact Markdown section to append to the Tracker.md Lifting Log or Cardio Log.
-
-${isLift ? `For a lifting session, output a section header then a Markdown table in this format:
-### W${week} ${t.short} ${t.dateStr} — ${isA ? 'Hypertrophy A' : 'Hypertrophy B'}
-
-|Exercise|Sets|Notes|
-|--------|-----|-----|
-|Exercise Name|weight×reps RIRx / weight×reps RIRx ...|notes|
-
-Include every exercise mentioned. Use "—" for anything not mentioned. Infer loads from the reference if not stated explicitly.`
-
-: `For a cardio session, output a single table row to append under the existing Cardio Log table header:
-|${t.dateStr}|W${week}|modality|time / distance|pace or split|avg HR, peak HR|notes|
-
-If any field is unknown from the description, use "—".`}
-
-Also include a brief "AI Summary" line at the very end starting with "> AI:" summarizing what was notable (e.g. load bumps, SI status, fatigue flags, RIR trends).
-
-Return ONLY the markdown — no explanation, no code fences, no JSON.`;
-
-    const resp = await callAI(prompt, 'commit');
-    aiMarkdown = resp.trim();
-
-    // Show preview
-    document.getElementById('wk-preview').innerHTML = `
-      <div class="preview-block">
-        <div class="preview-header">
-          <span style="font-size:16px">📋</span>
-          <h3>Preview — will be appended to Tracker.md</h3>
-          <button class="btn btn-sm btn-secondary" onclick="clearPreview()" style="padding:5px 10px;font-size:12px">✕</button>
-        </div>
-        <div class="preview-body"><pre>${escHtml(aiMarkdown)}</pre></div>
-      </div>`;
-
-    btn.textContent = '✓ Preview ready';
-    updateProgress();
-    document.getElementById('wk-preview').scrollIntoView({behavior:'smooth'});
-
-  } catch(err) {
-    btn.disabled = false; btn.textContent = '✨ Parse & Preview';
-    showToast('AI error: ' + err.message.slice(0,60), 'red');
-  }
-}
-
-function clearPreview() {
-  aiMarkdown = '';
-  document.getElementById('wk-preview').innerHTML = '';
-  const btn = document.getElementById('nl-btn');
-  if (btn) { btn.disabled = false; btn.textContent = '✨ Parse & Preview'; }
-  updateProgress();
-}
-
-function buildStructuredSummary() {
-  return document.getElementById('nl-text')?.value?.trim() || '';
-}
-
-function escHtml(s) {
-  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-}
-
-// Render the structured sets/reps/weight/RIR fields as a compact two-line
-// target block. Falls back to the legacy `target` string if structured fields
-// aren't present (handles older briefs gracefully).
-function exerciseTargetHTML(e) {
-  const setsReps = e.sets && e.reps ? `${e.sets}×${e.reps}`
-                : e.sets            ? `${e.sets} sets`
-                : e.reps            ? e.reps
-                : '';
-  const restStr = e.rest ? `rest ${e.rest}` : '';
-  const tail = [e.weight, e.rir, restStr].filter(Boolean).join(' · ');
-
-  if (setsReps || tail) {
-    return `<div style="font-weight:700;color:var(--text)">${escHtml(setsReps)}</div>${
-      tail ? `<div style="font-size:11px;color:#c4b5fd;margin-top:2px">${escHtml(tail)}</div>` : ''
-    }`;
-  }
-  // Legacy fallback — older briefs may only have a free-text `target`.
-  return escHtml(e.target || '');
-}
-
-// ═══════════════════════════════════════════
-// SAVE TO GITHUB
-// ═══════════════════════════════════════════
-
-// Show a confirm preview before committing
-function confirmSave() {
-  const section = aiMarkdown || buildStructuredMarkdown();
-  if (!section.trim()) { showToast('Nothing to save yet','red'); return; }
-
-  // Build confirm UI inside wk-content (replaces form)
-  const t = todayInfo();
-  const dow = parseInt(wkType.split('-')[1]);
-  const isBothSession = wkType.startsWith('both-');
-  const isLiftOnly    = wkType.startsWith('lift-');
-  const isBothDay     = getDayMeta(dow)?.type === 'both';
-
-  // Inject confirm screen
-  const content = document.getElementById('wk-content');
-  content.innerHTML = `
-    <div class="preview-block">
-      <div class="preview-header">
-        <span style="font-size:16px">📋</span>
-        <h3>What will be appended to Tracker.md</h3>
-      </div>
-      <div class="preview-body"><pre>${escHtml(section)}</pre></div>
-    </div>
-    ${isBothDay && isLiftOnly ? `
-    <div class="card" style="border-color:#15532e;background:#0a1505">
-      <div class="card-title" style="color:#86efac">Also log cardio today?</div>
-      <div style="font-size:13px;color:var(--text-dim);margin-bottom:12px">Today is a ${getDayMeta(dow).label} day — cardio is also scheduled.</div>
-      <label style="display:flex;align-items:center;gap:10px;font-size:14px;cursor:pointer">
-        <input type="checkbox" id="also-log-cardio" style="width:20px;height:20px;accent-color:var(--green)">
-        Open cardio log after saving
-      </label>
-    </div>` : ''}
-    <div style="display:flex;gap:10px;margin-top:4px">
-      <button class="btn btn-secondary" style="flex:1" onclick="renderWorkout()">← Edit</button>
-      <button class="btn btn-green" style="flex:1" onclick="commitSave()">Commit to Tracker →</button>
-    </div>`;
-
-  // Hide the floating save bar — actions are now inline
-  document.getElementById('wk-save').style.display = 'none';
-  document.getElementById('wk-progress').style.display = 'none';
-}
-
-let pendingCommit = null; // { updatedMd, sha, contentType, t, alsoCardio, dow }
-
-async function commitSave() {
-  const cfg = getCfg();
-  if (!cfg.token) { showToast('No GitHub token','red'); return; }
-
-  const commitBtn = document.querySelector('#wk-content .btn-green');
-  if (commitBtn) { commitBtn.disabled = true; commitBtn.textContent = 'Generating preview…'; }
-
-  const alsoCardio = document.getElementById('also-log-cardio')?.checked;
-  const dow = parseInt(wkType.split('-')[1]);
-
-  try {
-    const t            = todayInfo();
-    const isBothSession = wkType.startsWith('both-');
-    const isLift        = wkType.startsWith('lift-') || isBothSession;
-    const label         = isBothSession ? (dow===2?'Hyp-A+Cardio':'Hyp-B+Cardio') : (isLift ? (dow===2?'Hyp-A':'Hyp-B') : 'Cardio');
-
-    let newContent;
-    if (aiMarkdown) {
-      newContent = aiMarkdown.trim();
-    } else if (isBothSession) {
-      const liftMd   = buildLiftMarkdown(t).trim();
-      const cardioMd = buildCardioMarkdown(t).trim();
-      newContent = [liftMd, cardioMd].filter(Boolean).join('\n\n');
-    } else {
-      newContent = buildStructuredMarkdown().trim();
-    }
-    if (!newContent) { showToast('Nothing to save','red'); return; }
-
-    const contentType = `W${wkWeek} ${t.short} ${label}`;
-    const { updatedMd, sha } = await generateTrackerUpdate(newContent, t, contentType);
-    pendingCommit = { updatedMd, sha, contentType, t, alsoCardio, dow };
-
-    const content = document.getElementById('wk-content');
-    content.innerHTML = `
-      <div class="preview-block">
-        <div class="preview-header">
-          <span style="font-size:16px">🤖</span>
-          <h3>AI-generated Tracker.md — review before pushing</h3>
-        </div>
-        <div class="preview-body" style="max-height:60vh;overflow:auto"><pre>${escHtml(updatedMd)}</pre></div>
-      </div>
-      <div style="display:flex;gap:10px;margin-top:4px">
-        <button class="btn btn-secondary" style="flex:1" onclick="renderWorkout()">← Edit</button>
-        <button class="btn btn-green" style="flex:1" onclick="pushPendingCommit()">Push to GitHub →</button>
-      </div>`;
-  } catch(err) {
-    showToast('Error: ' + err.message.slice(0,80),'red');
-    if (commitBtn) { commitBtn.disabled = false; commitBtn.textContent = 'Commit to Tracker →'; }
-  }
-}
-
-async function pushPendingCommit() {
-  if (!pendingCommit) { showToast('Nothing to push','red'); return; }
-  const btn = document.querySelector('#wk-content .btn-green');
-  if (btn) { btn.disabled = true; btn.textContent = 'Pushing…'; }
-  try {
-    await pushTrackerUpdate(pendingCommit);
-    trackerCache = null;
-    const { alsoCardio, dow } = pendingCommit;
-    pendingCommit = null;
-    showToast('✓ Saved to Tracker.md!','green');
-    if (alsoCardio) {
-      setTimeout(() => showWorkout(`cardio-${dow}`), 1200);
-    } else {
-      setTimeout(() => showHome(), 1200);
-    }
-  } catch(err) {
-    showToast('Error: ' + err.message.slice(0,80),'red');
-    if (btn) { btn.disabled = false; btn.textContent = 'Push to GitHub →'; }
-  }
-}
-
-
-function buildCardioMarkdown(t) {
-  const c = wkData['cardio'];
-  if (!c) return '';
-  return `|${t.dateStr}|W${wkWeek}|${c.modality||'—'}|${c.duration?c.duration+' min':'—'}${c.distance?' / '+c.distance:''}|${c.pace||'—'}|${c.avgHr?'avg '+c.avgHr:'—'}${c.peakHr?', peak '+c.peakHr:''}|${c.notes||'—'}|\n`;
-}
-
-function buildStructuredMarkdown() {
-  const t = todayInfo();
-  if (wkType.startsWith('both-')) {
-    return buildLiftMarkdown(t) + '\n' + buildCardioMarkdown(t);
-  } else if (wkType.startsWith('lift-')) {
-    return buildLiftMarkdown(t);
-  } else {
-    return buildCardioMarkdown(t);
-  }
-}
-
-function buildLiftMarkdown(t) {
-  const dow   = parseInt(wkType.split('-')[1]);
-  const isA   = dow === 2;
-  const label = currentBrief?.today?.sessionTitle
-             || currentBrief?.today?.shortLabel
-             || (isA ? 'Hypertrophy A' : 'Hypertrophy B');
-  const nlText = document.getElementById('nl-text')?.value?.trim() || '';
-  return `### W${wkWeek} ${t.short} ${t.dateStr} — ${label}\n\n${nlText}\n`;
-}
-
-// ═══════════════════════════════════════════
-// AI API — Gemini + Claude
-// ═══════════════════════════════════════════
-
-// callAI(prompt, mode, opts)
-//   prompt: the user/dynamic portion of the request
-//   mode: 'brief' | 'commit' — controls model defaults + thinking on/off
-//   opts.systemBlocks: optional [{ text, cache }] — stable instructions sent
-//     as Anthropic system blocks with cache_control:'ephemeral' on cached
-//     blocks (massive latency + cost win on repeat calls). For Gemini they
-//     go in the native systemInstruction field; identical prefixes still
-//     benefit from implicit caching server-side.
-//   opts.thinkingLevel: Gemini-only. Reasoning depth as a string —
-//     'minimal' | 'low' | 'medium' | 'high'. Default: brief='high',
-//     commit='minimal'. Gemini 3.x (incl. flash-lite) uses thinkingLevel
-//     instead of the numeric thinkingBudget the 2.5 series took. If the
-//     brief attempt fails with a recoverable error we automatically retry
-//     once at 'minimal' so the brief still lands.
-//   opts.maxTokens: cap on response tokens. Default 16K for brief, 4K for
-//     commit — the server reserves its own thinking budget under
-//     thinkingLevel, so the cap only needs to cover visible output.
-async function callAI(prompt, mode = 'brief', opts = {}) {
-  const provider = getAIProvider();
-  if (!provider) throw new Error('No AI key configured — add GEMINI_API_KEY or ANTHROPIC_API_KEY in GitHub repo secrets');
-
-  const systemBlocks = opts.systemBlocks || [];
-  // Thinking level — Gemini only (Claude ignores it). Brief is a real
-  // reasoning task (week derivation, isLogged inference, carry-forward
-  // application) so we want deep reasoning; commit is pure markdown
-  // formatting so thinking adds latency for no gain. Gemini 3.x flash-lite
-  // takes thinkingLevel (string) rather than the numeric thinkingBudget
-  // the 2.5 series used — passing thinkingBudget here gets the request
-  // rejected on the server.
-  const thinkingLevel = opts.thinkingLevel
-    ?? (mode === 'commit' ? 'minimal' : 'high');
-  // Token cap on the response. Under thinkingLevel the server manages its
-  // own internal reasoning reservation, so maxOutputTokens only has to
-  // cover visible output. Visible JSON is ~1700 tokens; 16K leaves a wide
-  // margin. Commit mode has no thinking, so a smaller cap is fine.
-  const defaultMax = mode === 'commit' ? 4096 : 16384;
-  const maxTokens = opts.maxTokens || defaultMax;
-
-  if (provider === 'gemini') {
-    const key = getGeminiKey();
-    const geminiModel = 'gemini-3.1-flash-lite';
-
-    // One Gemini attempt. Pulled into a closure so we can retry at
-    // thinkingLevel='minimal' if the first attempt empties out — defense
-    // in depth on top of the default brief='high' level.
-    const attempt = async (level, max) => {
-      const body = {
-        contents: [{ role: 'user', parts: [{ text: prompt }] }],
-        generationConfig: {
-          maxOutputTokens: max,
-          // Gemini 3.x flash-lite uses thinkingLevel (string), not the
-          // numeric thinkingBudget the 2.5 series accepted.
-          thinkingConfig: { thinkingLevel: level },
-        },
-      };
-      if (mode === 'brief') {
-        // Force structured JSON output — kills the "wrapped in ```json fences"
-        // / prose-contamination class of parse failures at the source.
-        body.generationConfig.responseMimeType = 'application/json';
-      }
-      if (systemBlocks.length) {
-        // Use the native systemInstruction field rather than concatenating
-        // into the user prompt. Cleaner + better implicit prefix caching.
-        body.systemInstruction = { parts: systemBlocks.map(b => ({ text: b.text })) };
-      }
-
-      const res = await fetch(
-        `https://generativelanguage.googleapis.com/v1beta/models/${geminiModel}:generateContent?key=${encodeURIComponent(key)}`,
-        {
-          method: 'POST',
-          headers: { 'content-type': 'application/json' },
-          body: JSON.stringify(body),
-        }
-      );
-      if (!res.ok) {
-        const err = await res.json().catch(()=>({ error:{ message: res.statusText } }));
-        const e = new Error(err.error?.message || `Gemini ${res.status}`);
-        // 5xx + 429 are transient (overload, "busy") — let the retry
-        // layer take another swing at thinkingLevel='minimal'. 4xx is
-        // a real bug in the request and won't improve on retry.
-        e.permanent = res.status < 500 && res.status !== 429;
-        throw e;
-      }
-      const data = await res.json();
-
-      // Defensive extraction. Gemini can legitimately return:
-      //  - no candidates at all (prompt-level safety block)
-      //  - a candidate with finishReason != STOP (SAFETY/RECITATION/OTHER)
-      //  - a candidate whose parts have no `text` (thinking-only/MAX_TOKENS)
-      // Bucket the failures so the retry layer knows which are recoverable
-      // by disabling thinking and which are permanent (safety/recitation).
-      const cand = data.candidates?.[0];
-      if (!cand) {
-        const block = data.promptFeedback?.blockReason;
-        const e = new Error(block ? `Gemini blocked prompt: ${block}` : 'Gemini returned no candidates');
-        e.permanent = true;
-        throw e;
-      }
-      const text = cand.content?.parts?.find(p => typeof p.text === 'string' && p.text.length)?.text;
-      if (!text) {
-        const reason = cand.finishReason || 'unknown';
-        const e = new Error(reason === 'MAX_TOKENS'
-          ? 'Gemini hit max tokens before producing visible output'
-          : `Gemini returned empty content (${reason})`);
-        // MAX_TOKENS / unknown / STOP-with-empty-content can all be fixed
-        // by retrying without thinking. SAFETY / RECITATION cannot.
-        e.permanent = (reason === 'SAFETY' || reason === 'RECITATION');
-        throw e;
-      }
-      return text;
-    };
-
-    try {
-      return await attempt(thinkingLevel, maxTokens);
-    } catch (err) {
-      // Fallback: thinkingLevel='minimal', smaller cap. Only retry if
-      // the failure was recoverable AND we weren't already at minimal.
-      if (err.permanent || thinkingLevel === 'minimal') throw err;
-      // If the fallback also fails, surface the original error — it
-      // describes the actual problem (the fallback's error is usually
-      // just a downstream symptom).
-      try { return await attempt('minimal', mode === 'commit' ? 4096 : 8192); }
-      catch { throw err; }
-    }
-
-  } else {
-    const key = getClaudeKey();
-    const body = {
-      model: 'claude-haiku-4-5-20251001',
-      max_tokens: maxTokens,
-      messages: [{ role:'user', content: prompt }],
-    };
-    if (systemBlocks.length) {
-      // Mark the LAST cacheable block with cache_control — that breakpoint
-      // caches everything up to and including it. One breakpoint covers all
-      // preceding stable blocks while keeping us well under the 4-breakpoint
-      // limit.
-      const blocks = systemBlocks.map(b => ({ type: 'text', text: b.text }));
-      for (let i = blocks.length - 1; i >= 0; i--) {
-        if (systemBlocks[i].cache) {
-          blocks[i].cache_control = { type: 'ephemeral' };
-          break;
+    block('Workout', d.cardio.workout).forEach(n => c.appendChild(n));
+    if (d.cardio.targets) {
+      c.appendChild($('div', { class: 'label' }, 'Targets'));
+      const grid = $('div', { class: 'targets' });
+      const t = d.cardio.targets;
+      for (const [k, v] of [['Pace', t.pace], ['HR', t.hr], ['Cadence', t.cadence]]) {
+        if (v) {
+          grid.appendChild($('div', { class: 'k' }, k));
+          grid.appendChild($('div', null, v));
         }
       }
-      body.system = blocks;
+      c.appendChild(grid);
     }
-    const res = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: {
-        'x-api-key': key,
-        'anthropic-version': '2023-06-01',
-        'anthropic-dangerous-direct-browser-access': 'true',
-        'content-type': 'application/json',
-      },
-      body: JSON.stringify(body),
-    });
-    if (!res.ok) {
-      const err = await res.json().catch(()=>({ error:{ message: res.statusText } }));
-      throw new Error(err.error?.message || `Claude ${res.status}`);
+    block('Warmup', d.cardio.warmup).forEach(n => c.appendChild(n));
+    block('Cooldown', d.cardio.cooldown).forEach(n => c.appendChild(n));
+    if (d.cardio.cues && d.cardio.cues.length) {
+      c.appendChild($('div', { class: 'label' }, 'Cues'));
+      const ul = $('ul');
+      for (const q of d.cardio.cues) ul.appendChild($('li', null, q));
+      c.appendChild(ul);
     }
-    const data = await res.json();
-    return data.content[0].text;
-  }
-}
-
-// ═══════════════════════════════════════════
-// GITHUB FILE FETCH
-// ═══════════════════════════════════════════
-
-async function fetchGitHubFile(path) {
-  const cfg = getCfg();
-  const res = await fetch(`https://api.github.com/repos/${cfg.repo}/contents/${path}?ref=${cfg.branch}`, {
-    headers: { 'Authorization': `token ${cfg.token}`, 'Accept': 'application/vnd.github.v3+json' },
-  });
-  if (!res.ok) throw new Error(`Can't fetch ${path}: ${res.status}`);
-  const data = await res.json();
-  return decodeURIComponent(escape(atob(data.content.replace(/\n/g,''))));
-}
-
-// ═══════════════════════════════════════════
-// TOAST
-// ═══════════════════════════════════════════
-
-function showToast(msg, type='green') {
-  const el = document.getElementById('toast');
-  el.textContent = msg;
-  el.className = 'toast ' + type;
-  el.style.display = 'block';
-  clearTimeout(el._t);
-  requestAnimationFrame(() => el.classList.add('visible'));
-  el._t = setTimeout(() => {
-    el.classList.remove('visible');
-    setTimeout(() => { el.style.display = 'none'; }, 200);
-  }, 3500);
-}
-
-// ═══════════════════════════════════════════
-// GLOBALS — week cache, tracker cache, AI counter
-// ═══════════════════════════════════════════
-
-let weekLogCache  = {};   // { dow: { logged, snippet, dateStr } }
-let trackerCache  = null; // raw Tracker.md string, fetched on home load
-
-// ═══════════════════════════════════════════
-// WEEK GRID
-// ═══════════════════════════════════════════
-
-const DNAMES_FULL = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
-
-function renderWeekGrid(t) {
-  const DNAMES = ['S','M','T','W','T','F','S'];
-
-  const typeToClass = type => type==='rest'?'rest':type==='both'?'both':type==='run'?'run':'lift';
-
-  // This week — prefer AI brief, fall back to weekLogCache regex, then DAY_META.
-  const el = document.getElementById('hm-week');
-  if (el) {
-    el.innerHTML = DNAMES.map((dn,i) => {
-      const aiDay = currentBrief?.thisWeek?.[i];
-      const dm    = getDayMeta(i);
-      const log   = weekLogCache[i];
-      // AI inference is authoritative for "is this day logged?"
-      const isLogged = aiDay ? !!aiDay.isLogged : !!log;
-      const type     = aiDay?.type || log?.sessionType || dm.type;
-      const cls      = typeToClass(type);
-      return `<div class="day-col" onclick="showDaySheet(${i}, 0)">
-        <div class="day-name">${dn}</div>
-        <div class="day-dot ${cls}${i===t.dow?' today':''}">●</div>
-        ${isLogged ? `<div class="day-logged">✓</div>` : ''}
-      </div>`;
-    }).join('');
+    app.appendChild(c);
   }
 
-  // Next week — same priority order, no isLogged (future days).
-  const elNext = document.getElementById('hm-week-next');
-  if (elNext) {
-    elNext.innerHTML = DNAMES.map((dn,i) => {
-      const aiDay = currentBrief?.nextWeek?.[i];
-      const dm    = getDayMeta(i);
-      const type  = aiDay?.type || dm.type;
-      const cls   = typeToClass(type);
-      return `<div class="day-col" onclick="showDaySheet(${i}, 1)">
-        <div class="day-name">${dn}</div>
-        <div class="day-dot ${cls}">●</div>
-      </div>`;
-    }).join('');
-  }
-}
-
-function detectSessionType(snippet) {
-  if (/hypertrophy|hyp\s*[ab]\b/i.test(snippet)) return 'both';
-  if (/\b(run|row|cardio|threshold|VO2|Z1|Z2|Z3|easy run|long run)\b/i.test(snippet)) return 'run';
-  return null; // unknown — fall back to DAY_META
-}
-
-function parseWeekLogs(trackerMd) {
-  const today  = new Date();
-  const sunOff = today.getDay();
-  const pad    = n => String(n).padStart(2, '0');
-  const result = {};
-  // This week (keys: 0-6) and next week (keys: 'next-0' … 'next-6')
-  for (let weekOffset = 0; weekOffset <= 1; weekOffset++) {
-    for (let i = 0; i < 7; i++) {
-      const d       = new Date(today);
-      d.setDate(today.getDate() - sunOff + i + weekOffset * 7);
-      // Use local date to match todayInfo() — avoids UTC/local timezone mismatch
-      const dateStr = `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
-      // Match only section headers (### ... YYYY-MM-DD) to avoid false positives from plan notes
-      const headerRe = new RegExp(`^#{1,4}[^\\n]*${dateStr}`, 'm');
-      const match = headerRe.exec(trackerMd);
-      if (!match) continue;
-      const idx     = match.index;
-      const snippet = trackerMd.slice(idx, idx + 500).trim();
-      const key     = weekOffset === 0 ? i : `next-${i}`;
-      result[key]   = { logged: true, snippet, dateStr, sessionType: detectSessionType(snippet) };
+  if (d.week_ahead) {
+    const w = d.week_ahead;
+    const c = $('section', { class: 'card week' });
+    c.appendChild($('h2', null, `${w.week || 'Week'} ahead${w.phase ? ' · ' + w.phase : ''}`));
+    if (w.summary) c.appendChild($('div', { class: 'summary' }, w.summary));
+    const wrap = $('div', { class: 'table-wrap' });
+    const tbl = $('table');
+    const thead = $('thead');
+    const tr = $('tr');
+    ['Day', 'Session', 'Note'].forEach(t => tr.appendChild($('th', null, t)));
+    thead.appendChild(tr);
+    tbl.appendChild(thead);
+    const tbody = $('tbody');
+    for (const dd of (w.days || [])) {
+      const r = $('tr', { class: dd.status || '' });
+      r.appendChild($('td', { class: 'day' }, `${dd.day} ${dd.date ? dd.date.slice(5) : ''}`.trim()));
+      r.appendChild($('td', { class: 'session' }, dd.session || ''));
+      r.appendChild($('td', { class: 'note' }, dd.note || ''));
+      tbody.appendChild(r);
     }
-  }
-  return result;
-}
-
-// ═══════════════════════════════════════════
-// DAY SHEET
-// ═══════════════════════════════════════════
-
-function showDaySheet(dow, weekOffset = 0) {
-  const dm  = getDayMeta(dow);
-  const key = weekOffset === 0 ? dow : `next-${dow}`;
-  const log = weekLogCache[key];
-  const t   = todayInfo();
-  const d   = new Date();
-  d.setDate(d.getDate() - t.dow + dow + weekOffset * 7);
-  const dateLabel = d.toLocaleDateString('en-US', { weekday:'long', month:'short', day:'numeric' });
-  const sheetWeek = currentWeek() + weekOffset;
-
-  // Pull AI brief data for this specific day, with priority over the regex
-  // weekLogCache (which can false-positive on consult notes).
-  const aiDay = weekOffset === 0
-    ? currentBrief?.thisWeek?.[dow]
-    : currentBrief?.nextWeek?.[dow];
-
-  const effectiveType  = aiDay?.type || log?.sessionType || dm.type;
-  const effectiveLabel = aiDay?.label || dm.label;
-  const effectiveDesc  = aiDay?.description || dm.desc;
-  const effectiveIcon  = aiDay?.icon || dm.icon;
-  const typeColor = effectiveType==='rest'?'var(--text-dim)':effectiveType==='both'?'var(--yellow)':effectiveType==='run'?'var(--green)':'var(--accent)';
-
-  // AI inference for isLogged. Only show "logged" content when AI confirms it
-  // (this prevents the consult-note false positive from showing up here too).
-  const aiLogged = !!aiDay?.isLogged;
-
-  let logSection = '';
-  if (aiLogged && aiDay?.loggedSummary) {
-    logSection = `<div class="sheet-log-label">✓ Logged</div>
-    <div class="sheet-log-snippet">${escHtml(aiDay.loggedSummary)}</div>`;
-  } else if (!aiDay && log) {
-    // Brief not loaded — fall back to regex snippet
-    logSection = `<div class="sheet-log-label">✓ Logged</div>
-    <div class="sheet-log-snippet">${escHtml(log.snippet)}</div>`;
-  } else if (weekOffset === 0 && dow < t.dow) {
-    logSection = `<div style="font-size:13px;color:var(--text-muted);margin-bottom:14px">No log found for this day.</div>`;
-  } else if (weekOffset === 1) {
-    logSection = `<div style="font-size:13px;color:var(--text-muted);margin-bottom:14px">Scheduled — nothing logged yet.</div>`;
+    tbl.appendChild(tbody);
+    wrap.appendChild(tbl);
+    c.appendChild(wrap);
+    app.appendChild(c);
   }
 
-  let actionBtns = '';
-  const isToday = weekOffset === 0 && dow === t.dow;
-  if (isToday && effectiveType !== 'rest') {
-    const wkPrefix = effectiveType === 'run'  ? 'cardio'
-                   : effectiveType === 'lift' ? 'lift'
-                   : 'both';
-    const label = effectiveType === 'run'
-      ? (aiLogged ? '+ Log Additional Cardio' : 'Log Cardio Session')
-      : (aiLogged ? '+ Log Additional Workout' : "Log Today's Workout");
-    actionBtns = `<button class="btn btn-primary" onclick="closeDaySheet();showWorkout('${wkPrefix}-${dow}')">${escHtml(label)}</button>`;
-  }
-
-  document.getElementById('day-sheet-content').innerHTML = `
-    <div class="sheet-day-title" style="color:${typeColor}">${effectiveIcon} ${dateLabel}</div>
-    <div style="font-size:12px;font-weight:700;color:${typeColor};margin-bottom:6px;text-transform:uppercase;letter-spacing:0.06em">W${sheetWeek} · ${escHtml(effectiveLabel)}</div>
-    <div class="sheet-day-sub">${escHtml(effectiveDesc)}</div>
-    ${logSection}
-    ${actionBtns}`;
-
-  document.getElementById('sheet-overlay').classList.add('open');
-}
-
-function closeDaySheet(e) {
-  if (e && e.target !== document.getElementById('sheet-overlay')) return;
-  document.getElementById('sheet-overlay').classList.remove('open');
-}
-
-// ═══════════════════════════════════════════
-// UPDATE HOME FROM AI BRIEF
-// ═══════════════════════════════════════════
-
-function updateHomeFromBrief(data) {
-  const week  = data.currentWeek ?? getWeek();
-  const phase = data.phase       ?? getPhase(week);
-  const t     = todayInfo();
-
-  // Week badge — AI-derived so it adapts when the tracker advances a week
-  const badgeEl = document.getElementById('hm-badge');
-  if (badgeEl) badgeEl.textContent = `W${week}`;
-
-  // Today card — date label uses AI's icon + label when available
-  const dateEl = document.getElementById('hm-date');
-  if (dateEl) {
-    const icon = data.today?.icon || getDayMeta(t.dow).icon;
-    const label = data.today?.shortLabel || data.today?.sessionTitle || getDayMeta(t.dow).label;
-    dateEl.innerHTML = `${icon} ${escHtml(t.display)} · <span style="color:var(--text)">${escHtml(label)}</span>`;
-  }
-
-  // Re-render today's action button(s) using AI brief as source of truth
-  renderHomeActions(t);
-
-  // Re-render week grid using AI brief's thisWeek / nextWeek payload
-  renderWeekGrid(t);
-
-  // Pills
-  const pillsEl = document.getElementById('hm-pills');
-  if (pillsEl) {
-    const basePills = `<span class="pill orange">Phase A · ${phase}</span><span class="pill green">W${week}/W25</span>`;
-    const aiPills = (data.statusPills || []).map(p =>
-      `<span class="pill ${p.color}">${escHtml(p.text)}</span>`).join('');
-    pillsEl.innerHTML = basePills + aiPills;
-  }
-
-  // Checklist / phase gate. Accept both the new shape (phaseBGate.criteria
-  // with closedAt) and the legacy flat phaseGate[] for back-compat in case
-  // the AI emits the old shape during the schema-version transition.
-  const checkEl = document.getElementById('hm-checklist');
-  const gateCriteria = data.phaseBGate?.criteria || data.phaseGate;
-  if (checkEl && gateCriteria?.length) {
-    const items = gateCriteria.map(item => {
-      const icon = item.done ? '✅' : '⬜';
-      const detail = item.detail ? `<span style="color:var(--text-muted);font-size:12px;margin-left:auto">${escHtml(item.detail)}</span>` : '';
-      return `<div class="checklist-item">${icon} <span style="flex:1">${escHtml(item.text)}</span>${detail}</div>`;
-    }).join('');
-    const closedAt = data.phaseBGate?.closedAt;
-    const header = closedAt
-      ? `Phase B Gate — closed ${escHtml(closedAt)} · §7.B reintro active`
-      : 'Phase B Gate (Running Reintro)';
-    checkEl.innerHTML = `<div class="section-label" style="margin-top:8px">${header}</div>${items}`;
-  }
-
-  // Current loads
-  const loadsEl = document.getElementById('hm-loads');
-  if (loadsEl && data.currentLoads?.length) {
-    loadsEl.innerHTML = data.currentLoads.map(l =>
-      `<tr><td>${escHtml(l.name)}</td><td>${escHtml(l.load)}${l.note ? `<div style="font-size:11px;color:var(--text-dim);font-weight:400">${escHtml(l.note)}</div>` : ''}</td></tr>`
-    ).join('');
-  }
-}
-
-// ═══════════════════════════════════════════
-// HAMBURGER DRAWER
-// ═══════════════════════════════════════════
-
-function toggleDrawer() {
-  const overlay = document.getElementById('drawer-overlay');
-  const drawer  = document.getElementById('drawer');
-  const open    = drawer.classList.contains('open');
-  if (open) { closeDrawer(); } else {
-    overlay.classList.add('open');
-    drawer.classList.add('open');
-  }
-}
-
-function closeDrawer() {
-  document.getElementById('drawer-overlay').classList.remove('open');
-  document.getElementById('drawer').classList.remove('open');
-}
-
-// ═══════════════════════════════════════════
-// AI CONSULT CHAT
-// ═══════════════════════════════════════════
-
-let consultHistory = []; // [{role:'user'|'ai', text}]
-let consultContext = ''; // loaded program + tracker context
-
-async function showConsult() {
-  const badge = document.getElementById('consult-provider-badge');
-  if (badge) {
-    const prov = getAIProvider();
-    badge.textContent = prov === 'gemini' ? '✨ Gemini' : prov === 'claude' ? '✨ Claude' : 'No AI';
-  }
-  showScreen('consult');
-  const msgsEl = document.getElementById('chat-messages');
-  if (consultHistory.length === 0) {
-    msgsEl.innerHTML = `<div class="chat-msg ai">Hi! I'm your training assistant. Ask me anything about your program, loads, injury status, phase gate, or next steps — I'll have access to your Tracker.md and program. What's on your mind?</div>`;
-    // Pre-load context silently
-    loadConsultContext();
-  } else {
-    rerenderChat();
-  }
-}
-
-async function loadConsultContext() {
-  if (consultContext || !getCfg().token) return;
-  try {
-    const [prog, tracker] = await Promise.all([
-      fetchGitHubFile('program.md'),
-      trackerCache ? Promise.resolve(trackerCache) : fetchGitHubFile('Tracker.md'),
-    ]);
-    if (!trackerCache) trackerCache = tracker;
-    const week = currentWeek(), phase = currentPhase();
-    const t = todayInfo();
-    consultContext = `You are a personal running + lifting coach assistant. The athlete can ask you anything about their training. Be specific, cite numbers from their tracker, and give actionable advice.
-
-TODAY: ${t.display}, Week ${week} (${phase} phase)
-
-════ TRACKER.MD ════
-${tracker}
-
-════ PROGRAM.MD ════
-${prog}`;
-  } catch { /* context will load on first send if not ready */ }
-}
-
-async function sendConsult() {
-  if (!hasAnyAI()) { showToast('No AI key configured', 'red'); return; }
-  const input = document.getElementById('chat-input');
-  const text  = input.value.trim();
-  if (!text) return;
-
-  input.value = '';
-  input.style.height = '';
-  consultHistory.push({ role: 'user', text });
-  rerenderChat();
-
-  const sendBtn = document.getElementById('chat-send-btn');
-  sendBtn.disabled = true;
-
-  // Loading indicator
-  const msgsEl = document.getElementById('chat-messages');
-  const loadEl = document.createElement('div');
-  loadEl.className = 'chat-msg ai loading';
-  loadEl.textContent = '…';
-  msgsEl.appendChild(loadEl);
-  msgsEl.scrollTop = msgsEl.scrollHeight;
-
-  try {
-    if (!consultContext) await loadConsultContext();
-
-    // Build conversation for AI
-    const history = consultHistory.slice(0, -1).map(m =>
-      `${m.role === 'user' ? 'Athlete' : 'Coach'}: ${m.text}`).join('\n\n');
-    const prompt = `${consultContext}
-
-${history ? `CONVERSATION SO FAR:\n${history}\n\n` : ''}Athlete: ${text}
-
-Coach:`;
-
-    const resp = await callAI(prompt);
-    loadEl.remove();
-    consultHistory.push({ role: 'ai', text: resp.trim() });
-    rerenderChat();
-
-    // Show commit bar after 2+ AI responses (decisions may have been made)
-    if (consultHistory.filter(m => m.role === 'ai').length >= 2) {
-      document.getElementById('commit-bar').classList.add('visible');
+  if (d.currentLoads && d.currentLoads.length) {
+    const c = $('section', { class: 'card' });
+    c.appendChild($('h2', null, 'Current Working Loads'));
+    const det = $('details');
+    det.appendChild($('summary', null, `${d.currentLoads.length} exercises`));
+    const wrap = $('div', { class: 'table-wrap' });
+    const tbl = $('table', { class: 'loads' });
+    const thead = $('thead');
+    const tr = $('tr');
+    ['Exercise', 'Load', 'Last verified', 'Note'].forEach(t => tr.appendChild($('th', null, t)));
+    thead.appendChild(tr);
+    tbl.appendChild(thead);
+    const tbody = $('tbody');
+    for (const row of d.currentLoads) {
+      const r = $('tr');
+      r.appendChild($('td', { class: 'ex' }, row.exercise || ''));
+      r.appendChild($('td', { class: 'load' }, row.load || ''));
+      r.appendChild($('td', null, row.lastVerified || ''));
+      r.appendChild($('td', { class: 'note' }, row.note || ''));
+      tbody.appendChild(r);
     }
-  } catch(err) {
-    loadEl.remove();
-    consultHistory.push({ role: 'ai', text: `Error: ${err.message}` });
-    rerenderChat();
+    tbl.appendChild(tbody);
+    wrap.appendChild(tbl);
+    det.appendChild(wrap);
+    c.appendChild(det);
+    app.appendChild(c);
   }
-  sendBtn.disabled = false;
-  document.getElementById('chat-messages').scrollTop = 99999;
-}
+};
 
-function rerenderChat() {
-  const msgsEl = document.getElementById('chat-messages');
-  msgsEl.innerHTML = consultHistory.map(m =>
-    `<div class="chat-msg ${m.role === 'user' ? 'user' : 'ai'}">${escHtml(m.text)}</div>`
-  ).join('');
-  msgsEl.scrollTop = 99999;
-}
+const empty = msg => {
+  const app = document.getElementById('app');
+  app.innerHTML = '';
+  const e = $('div', { class: 'empty' });
+  e.appendChild($('h1', null, 'No brief yet'));
+  e.appendChild($('div', null, 'Ask Claude for today’s workout — it caches the result here.'));
+  if (msg) e.appendChild($('div', { class: 'err' }, msg));
+  app.appendChild(e);
+};
 
-function chatKeydown(e) {
-  if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendConsult(); }
-}
-
-function dismissCommitBar() {
-  document.getElementById('commit-bar').classList.remove('visible');
-}
-
-async function commitConsultToTracker() {
-  if (!hasAnyAI()) { showToast('No AI key', 'red'); return; }
-  const btn = document.querySelector('#commit-bar .btn-green');
-  btn.disabled = true; btn.textContent = 'Committing…';
-
-  try {
-    const cfg = getCfg();
-    const t   = todayInfo();
-    const week = currentWeek(), phase = currentPhase();
-
-    // Build a readable transcript of decisions
-    const transcript = consultHistory.map(m =>
-      `${m.role === 'user' ? 'Q' : 'A'}: ${m.text}`).join('\n\n');
-
-    // Ask AI to extract decisions and format for Tracker.md
-    const extractPrompt = `You are formatting a training decision log entry for a Markdown tracker file.
-
-The following is a coaching consultation transcript. Extract any concrete decisions, adjustments, carry-forwards, or action items discussed. Ignore general Q&A that didn't produce a decision.
-
-TODAY: ${t.dateStr}, Week ${week} (${phase} phase)
-
-TRANSCRIPT:
-${transcript}
-
-CURRENT TRACKER.MD:
-${trackerCache || '(not loaded)'}
-
-Return ONLY the Markdown text to append to the Tracker.md. Format it as a concise note block like:
-
-### Consult Note — ${t.dateStr}
-> **Decisions / Carry-forwards:**
-> - [decision 1]
-> - [decision 2]
-
-If there are no concrete decisions worth logging, return exactly: NOTHING_TO_COMMIT`;
-
-    const raw = await callAI(extractPrompt, 'commit');
-    if (raw.trim() === 'NOTHING_TO_COMMIT') {
-      showToast('No concrete decisions to log', 'blue');
-      btn.disabled = false; btn.textContent = 'Commit to Tracker →';
-      return;
-    }
-
-    await smartCommitToTracker(raw.trim(), t, 'consult note');
-    trackerCache = null;
-    // Refresh week grid immediately so the day sheet shows the updated note
-    fetchGitHubFile('Tracker.md').then(raw => {
-      trackerCache = raw;
-      weekLogCache = parseWeekLogs(raw);
-      renderWeekGrid(todayInfo());
-    }).catch(() => {});
-    showToast('✓ Committed to Tracker.md', 'green');
-    dismissCommitBar();
-    btn.disabled = false; btn.textContent = 'Commit to Tracker →';
-  } catch(err) {
-    showToast('Error: ' + err.message.slice(0, 60), 'red');
-    btn.disabled = false; btn.textContent = 'Commit to Tracker →';
-  }
-}
-
-// ═══════════════════════════════════════════
-// SMART TRACKER COMMIT (AI-assisted placement)
-// ═══════════════════════════════════════════
-
-async function generateTrackerUpdate(newContent, t, contentType) {
-  const cfg = getCfg();
-  const apiBase = `https://api.github.com/repos/${cfg.repo}/contents/Tracker.md`;
-  const hdrs    = {
-    'Authorization': `token ${cfg.token}`,
-    'Accept': 'application/vnd.github.v3+json',
-    'Content-Type': 'application/json',
+(async () => {
+  const fetchJSON = async path => {
+    try {
+      const r = await fetch(path + '?t=' + Date.now(), { cache: 'no-store' });
+      return r.ok ? await r.json() : null;
+    } catch { return null; }
   };
-
-  // Fetch current file
-  const res = await fetch(`${apiBase}?ref=${cfg.branch}`, { headers: hdrs });
-  if (!res.ok) throw new Error(`GitHub ${res.status}`);
-  const file    = await res.json();
-  const current = decodeURIComponent(escape(atob(file.content.replace(/\n/g,''))));
-  const sha     = file.sha;
-
-  // Ask AI to apply the new content AND propagate all related changes across the file
-  const placementPrompt = `You are maintaining a Markdown training tracker file. A new log entry or note has been produced. Your job is to return the COMPLETE updated Tracker.md that:
-1. Inserts the new content in the correct location
-2. Propagates ALL implied changes to every other relevant section of the file
-
-NEW CONTENT:
-${newContent}
-
-CONTENT TYPE: ${contentType}
-DATE: ${t.dateStr}
-
-CURRENT TRACKER.MD:
-${current}
-
-INSERTION RULES:
-- Lifting log entries (### Wn ...): append at the BOTTOM of ## Lifting Log, before the next ## heading
-- Cardio log rows (| ... |): append as the LAST ROW of the cardio table in ## Cardio Log
-- Consult notes / decisions: append at the bottom of ## Adjustments or ## Notes section; create it if absent
-- NEVER insert in the middle of a table
-
-PROPAGATION RULES — apply ALL that are relevant:
-- If loads changed (e.g. "bumped incline to 135"): update the current loads / reference table with the new load
-- If SI/injury status changed (e.g. "day 6 symptom-free", "SI flared"): update the SI log and any symptom-free streak counter
-- If a phase gate criterion was met or un-met: update the Phase B Gate checklist or equivalent section
-- If a carry-forward or adjustment was noted (e.g. "hold pushdown at 42.5 next session"): add or update the Adjustments / Carry-Forwards section
-- If a PR or load milestone was hit: note it in any PRs / Milestones section if one exists
-- If the workout schedule changed (session swapped, skipped, moved, or a rest day added): update the weekly plan table or schedule section to reflect the change
-- If today's workout note conflicts with a previous carry-forward, resolve the conflict in the Adjustments section
-
-Return ONLY the complete updated Tracker.md. No explanation, no code fences, no preamble.`;
-
-  const updatedMd = await callAI(placementPrompt, 'commit');
-  return { updatedMd: updatedMd.trim(), sha, current };
-}
-
-async function pushTrackerUpdate({ updatedMd, sha, contentType, t }) {
-  const cfg = getCfg();
-  const apiBase = `https://api.github.com/repos/${cfg.repo}/contents/Tracker.md`;
-  const hdrs    = {
-    'Authorization': `token ${cfg.token}`,
-    'Accept': 'application/vnd.github.v3+json',
-    'Content-Type': 'application/json',
-  };
-  const putRes = await fetch(apiBase, {
-    method: 'PUT', headers: hdrs,
-    body: JSON.stringify({
-      message: `${contentType} — ${t.dateStr}`,
-      content: btoa(unescape(encodeURIComponent(updatedMd))),
-      sha, branch: cfg.branch,
-    }),
-  });
-  if (!putRes.ok) throw new Error(`GitHub write ${putRes.status}`);
-}
-
-async function smartCommitToTracker(newContent, t, contentType) {
-  const { updatedMd, sha } = await generateTrackerUpdate(newContent, t, contentType);
-  await pushTrackerUpdate({ updatedMd, sha, contentType, t });
-}
-
-// ═══════════════════════════════════════════
-// API USAGE SCREEN
-// ═══════════════════════════════════════════
-
-function showApiUsage() {
-  showScreen('api-usage');
-}
-
-// ═══════════════════════════════════════════
-// FILES SCREEN
-// ═══════════════════════════════════════════
-
-function renderMarkdown(md) {
-  const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-  const lines = md.split('\n');
-  let html = '';
-  let i = 0;
-  while (i < lines.length) {
-    const line = lines[i];
-
-    // Fenced code block
-    if (/^```/.test(line)) {
-      let code = '';
-      i++;
-      while (i < lines.length && !/^```/.test(lines[i])) { code += esc(lines[i]) + '\n'; i++; }
-      html += `<pre><code>${code}</code></pre>`;
-      i++; continue;
-    }
-    // HR
-    if (/^---+$/.test(line.trim())) { html += '<hr>'; i++; continue; }
-    // Headings
-    const hm = line.match(/^(#{1,4})\s+(.*)/);
-    if (hm) { const lvl = hm[1].length; html += `<h${lvl}>${inlinemd(esc(hm[2]))}</h${lvl}>`; i++; continue; }
-    // Blockquote
-    if (/^>/.test(line)) {
-      let bq = '';
-      while (i < lines.length && /^>/.test(lines[i])) { bq += lines[i].replace(/^>\s?/,'') + '\n'; i++; }
-      html += `<blockquote>${inlinemd(esc(bq.trim()))}</blockquote>`; continue;
-    }
-    // Table (detect by | in first cell)
-    if (/^\|/.test(line) && i+1 < lines.length && /^\|[-| :]+\|/.test(lines[i+1])) {
-      const headers = line.split('|').filter((_,j,a)=>j>0&&j<a.length-1).map(c=>c.trim());
-      i += 2; // skip separator
-      let tbody = '';
-      while (i < lines.length && /^\|/.test(lines[i])) {
-        const cells = lines[i].split('|').filter((_,j,a)=>j>0&&j<a.length-1).map(c=>c.trim());
-        tbody += '<tr>' + cells.map(c=>`<td>${inlinemd(esc(c))}</td>`).join('') + '</tr>';
-        i++;
-      }
-      html += '<table><thead><tr>' + headers.map(h=>`<th>${inlinemd(esc(h))}</th>`).join('') + '</tr></thead><tbody>' + tbody + '</tbody></table>';
-      continue;
-    }
-    // Unordered list
-    if (/^[-*+]\s/.test(line)) {
-      let items = '';
-      while (i < lines.length && /^[-*+]\s/.test(lines[i])) { items += `<li>${inlinemd(esc(lines[i].replace(/^[-*+]\s/,'')))}</li>`; i++; }
-      html += `<ul>${items}</ul>`; continue;
-    }
-    // Ordered list
-    if (/^\d+\.\s/.test(line)) {
-      let items = '';
-      while (i < lines.length && /^\d+\.\s/.test(lines[i])) { items += `<li>${inlinemd(esc(lines[i].replace(/^\d+\.\s/,'')))}</li>`; i++; }
-      html += `<ol>${items}</ol>`; continue;
-    }
-    // Blank line
-    if (line.trim() === '') { i++; continue; }
-    // Paragraph
-    html += `<p>${inlinemd(esc(line))}</p>`;
-    i++;
-  }
-  return html;
-}
-
-function inlinemd(s) {
-  return s
-    .replace(/`([^`]+)`/g, '<code>$1</code>')
-    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
-    .replace(/\*([^*]+)\*/g, '<em>$1</em>')
-    .replace(/__([^_]+)__/g, '<strong>$1</strong>')
-    .replace(/_([^_]+)_/g, '<em>$1</em>');
-}
-
-let filesCache = { program: null, tracker: null };
-let filesActiveTab = 'program';
-
-async function showFiles() {
-  showScreen('files');
-  await loadFilesTab(filesActiveTab);
-}
-
-async function loadFilesTab(tab) {
-  const loading = document.getElementById('files-loading');
-  const content = document.getElementById('files-content');
-  const div = document.getElementById('files-text');
-
-  if (filesCache[tab]) {
-    div.innerHTML = renderMarkdown(filesCache[tab]);
-    loading.style.display = 'none';
-    content.style.display = 'block';
-    return;
-  }
-
-  loading.style.display = 'block';
-  content.style.display = 'none';
-  loading.textContent = 'Loading…';
-
-  try {
-    const filename = tab === 'program' ? 'program.md' : 'Tracker.md';
-    const text = await fetchGitHubFile(filename);
-    filesCache[tab] = text;
-    div.innerHTML = renderMarkdown(text);
-    loading.style.display = 'none';
-    content.style.display = 'block';
-  } catch (e) {
-    loading.textContent = 'Failed to load file. Check your connection and GitHub token.';
-  }
-}
-
-function switchFilesTab(tab) {
-  filesActiveTab = tab;
-  document.querySelectorAll('.files-tab').forEach(b => b.classList.remove('active'));
-  document.getElementById('tab-' + tab).classList.add('active');
-  loadFilesTab(tab);
-}
-
-function refreshFiles() {
-  filesCache[filesActiveTab] = null;
-  loadFilesTab(filesActiveTab);
-}
-
-// ═══════════════════════════════════════════
-// IOS COMPATIBILITY
-// ═══════════════════════════════════════════
-
-(function iosCompat() {
-  // Prevent double-tap zoom on buttons without disabling pinch-zoom.
-  // Must be same target — otherwise tapping an input then a button within
-  // 300ms cancels the button's synthetic click on iOS.
-  let lastTap = { time: 0, target: null };
-  document.addEventListener('touchend', e => {
-    const now = Date.now();
-    const sameTarget = lastTap.target === e.target;
-    if (sameTarget && now - lastTap.time < 300 && e.target.tagName !== 'INPUT' && e.target.tagName !== 'TEXTAREA') {
-      e.preventDefault();
-    }
-    lastTap = { time: now, target: e.target };
-  }, { passive: false });
-
-  // Scroll active input into view when iOS keyboard opens
-  // iOS fires a resize-like visual viewport change
-  if (window.visualViewport) {
-    window.visualViewport.addEventListener('resize', () => {
-      const active = document.activeElement;
-      if (active && (active.tagName === 'INPUT' || active.tagName === 'TEXTAREA')) {
-        setTimeout(() => active.scrollIntoView({ behavior: 'smooth', block: 'center' }), 100);
-      }
-    });
-  }
-})();
-
-// ═══════════════════════════════════════════
-// BOOT
-// ═══════════════════════════════════════════
-
-(function(){
-  document.getElementById('setup-login-block').addEventListener('submit', e => {
-    e.preventDefault();
-    connectGitHub();
-  });
-  const cfg = getCfg();
-  if (cfg.token) {
-    loadBuiltInConfig().then(showHome);
-  } else {
-    showScreen('setup');
-  }
+  const [brief, week] = await Promise.all([
+    fetchJSON('latest-workout.json'),
+    fetchJSON('week-ahead.json'),
+  ]);
+  if (!brief && !week) return empty();
+  render({ ...(brief || {}), week_ahead: week });
 })();
 </script>
 </body>
