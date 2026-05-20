@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0a0a">
+<title>Workout</title>
+<style>
+  :root {
+    --bg: #0a0a0a;
+    --card: #161616;
+    --text: #e8e8e8;
+    --muted: #8a8a8a;
+    --accent: #ff7a00;
+    --border: #262626;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); -webkit-text-size-adjust: 100%; }
+  body {
+    font: 16px/1.5 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 16px; }
+  header { padding: 8px 0 20px; }
+  h1 { font-size: 22px; margin: 0 0 4px; font-weight: 600; letter-spacing: -0.01em; }
+  .meta { color: var(--muted); font-size: 13px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 16px;
+    margin-bottom: 14px;
+  }
+  .card h2 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    margin: 0 0 12px;
+    font-weight: 600;
+  }
+  .intro p { margin: 0 0 8px; }
+  .intro p:last-child { margin-bottom: 0; }
+  .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0 -16px; padding: 0 16px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th {
+    color: var(--muted);
+    font-weight: 500;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    white-space: nowrap;
+  }
+  tr:last-child td { border-bottom: 0; }
+  td.ex { font-weight: 500; white-space: nowrap; }
+  td.load { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .label {
+    color: var(--muted);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-top: 14px;
+    margin-bottom: 4px;
+    font-weight: 600;
+  }
+  .label:first-child { margin-top: 0; }
+  ul { margin: 4px 0 0; padding-left: 18px; }
+  ul li { margin: 4px 0; }
+  .flag { color: var(--accent); }
+  .targets {
+    display: grid;
+    grid-template-columns: 72px 1fr;
+    gap: 4px 12px;
+    margin-top: 4px;
+    font-size: 14px;
+  }
+  .targets .k { color: var(--muted); }
+  details summary {
+    cursor: pointer;
+    color: var(--muted);
+    font-size: 13px;
+    user-select: none;
+    list-style: none;
+  }
+  details summary::-webkit-details-marker { display: none; }
+  details summary::after { content: " ▾"; }
+  details[open] summary::after { content: " ▴"; }
+  details[open] summary { margin-bottom: 10px; }
+  .loads td.note { color: var(--muted); font-size: 13px; }
+  .week td.day { font-weight: 500; white-space: nowrap; width: 1%; }
+  .week td.session { white-space: nowrap; }
+  .week td.note { color: var(--muted); font-size: 13px; }
+  .week tr.done td { color: var(--muted); }
+  .week tr.done td.day::before { content: "✓ "; color: var(--muted); }
+  .week tr.today td { color: var(--accent); font-weight: 500; }
+  .week tr.today td.day::before { content: "→ "; }
+  .week .summary { font-size: 13px; color: var(--muted); margin-bottom: 10px; }
+  .empty {
+    color: var(--muted);
+    text-align: center;
+    padding: 40px 16px;
+  }
+  .empty h1 { font-size: 18px; margin: 0 0 8px; color: var(--text); }
+  .err { color: #ff6b6b; font-size: 13px; margin-top: 8px; }
+  a { color: var(--accent); }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #fafafa;
+      --card: #fff;
+      --text: #111;
+      --muted: #666;
+      --border: #e5e5e5;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="wrap" id="app"></div>
+<script>
+const $ = (tag, attrs, ...kids) => {
+  const e = document.createElement(tag);
+  if (attrs) for (const k in attrs) {
+    if (k === 'class') e.className = attrs[k];
+    else if (k === 'html') e.innerHTML = attrs[k];
+    else e.setAttribute(k, attrs[k]);
+  }
+  for (const c of kids) if (c != null) e.appendChild(typeof c === 'string' ? document.createTextNode(c) : c);
+  return e;
+};
+
+const fmtAge = iso => {
+  const then = new Date(iso);
+  const mins = Math.round((Date.now() - then.getTime()) / 60000);
+  if (mins < 1) return 'just now';
+  if (mins < 60) return mins + ' min ago';
+  const hrs = Math.round(mins / 60);
+  if (hrs < 24) return hrs + ' h ago';
+  return then.toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' });
+};
+
+const block = (label, content) => content ? [$('div', { class: 'label' }, label), $('div', null, content)] : [];
+
+const render = d => {
+  const app = document.getElementById('app');
+  app.innerHTML = '';
+
+  const h = $('header');
+  if (d.sessionName) {
+    h.appendChild($('h1', null, `${d.week} ${d.day} ${d.date} — ${d.sessionName}`));
+    h.appendChild($('div', { class: 'meta' }, `Generated ${fmtAge(d.generatedAt)}${d.phase ? ' · ' + d.phase : ''}`));
+  } else {
+    h.appendChild($('h1', null, 'No brief for today yet'));
+    h.appendChild($('div', { class: 'meta' }, 'Ask Claude for today’s workout.'));
+  }
+  app.appendChild(h);
+
+  if (d.intro && d.intro.length) {
+    const c = $('section', { class: 'card intro' });
+    c.appendChild($('h2', null, 'Today'));
+    for (const line of d.intro) c.appendChild($('p', null, line));
+    app.appendChild(c);
+  }
+
+  if (d.lift) {
+    const c = $('section', { class: 'card' });
+    c.appendChild($('h2', null, 'Lift'));
+    const wrap = $('div', { class: 'table-wrap' });
+    const tbl = $('table');
+    const thead = $('thead');
+    const tr = $('tr');
+    ['Exercise', 'Sets×Reps', 'Load', 'RIR', 'Rest', 'Cue'].forEach(t => tr.appendChild($('th', null, t)));
+    thead.appendChild(tr);
+    tbl.appendChild(thead);
+    const tbody = $('tbody');
+    for (const row of d.lift.table) {
+      const r = $('tr');
+      r.appendChild($('td', { class: 'ex' }, row.exercise || ''));
+      r.appendChild($('td', null, row.setsReps || ''));
+      r.appendChild($('td', { class: 'load' }, row.load || ''));
+      r.appendChild($('td', null, row.rir || ''));
+      r.appendChild($('td', null, row.rest || ''));
+      r.appendChild($('td', null, row.cue || ''));
+      tbody.appendChild(r);
+    }
+    tbl.appendChild(tbody);
+    wrap.appendChild(tbl);
+    c.appendChild(wrap);
+    block('Warmup', d.lift.warmup).forEach(n => c.appendChild(n));
+    block('Cooldown', d.lift.cooldown).forEach(n => c.appendChild(n));
+    app.appendChild(c);
+  }
+
+  if (d.cardio) {
+    const c = $('section', { class: 'card' });
+    c.appendChild($('h2', null, 'Cardio'));
+    if (d.cardio.flags && d.cardio.flags.length) {
+      c.appendChild($('div', { class: 'label' }, 'Flags'));
+      const ul = $('ul');
+      for (const f of d.cardio.flags) ul.appendChild($('li', { class: 'flag' }, f));
+      c.appendChild(ul);
+    }
+    block('Workout', d.cardio.workout).forEach(n => c.appendChild(n));
+    if (d.cardio.targets) {
+      c.appendChild($('div', { class: 'label' }, 'Targets'));
+      const grid = $('div', { class: 'targets' });
+      const t = d.cardio.targets;
+      for (const [k, v] of [['Pace', t.pace], ['HR', t.hr], ['Cadence', t.cadence]]) {
+        if (v) {
+          grid.appendChild($('div', { class: 'k' }, k));
+          grid.appendChild($('div', null, v));
+        }
+      }
+      c.appendChild(grid);
+    }
+    block('Warmup', d.cardio.warmup).forEach(n => c.appendChild(n));
+    block('Cooldown', d.cardio.cooldown).forEach(n => c.appendChild(n));
+    if (d.cardio.cues && d.cardio.cues.length) {
+      c.appendChild($('div', { class: 'label' }, 'Cues'));
+      const ul = $('ul');
+      for (const q of d.cardio.cues) ul.appendChild($('li', null, q));
+      c.appendChild(ul);
+    }
+    app.appendChild(c);
+  }
+
+  if (d.week_ahead) {
+    const w = d.week_ahead;
+    const c = $('section', { class: 'card week' });
+    c.appendChild($('h2', null, `${w.week || 'Week'} ahead${w.phase ? ' · ' + w.phase : ''}`));
+    if (w.summary) c.appendChild($('div', { class: 'summary' }, w.summary));
+    const wrap = $('div', { class: 'table-wrap' });
+    const tbl = $('table');
+    const thead = $('thead');
+    const tr = $('tr');
+    ['Day', 'Session', 'Note'].forEach(t => tr.appendChild($('th', null, t)));
+    thead.appendChild(tr);
+    tbl.appendChild(thead);
+    const tbody = $('tbody');
+    for (const dd of (w.days || [])) {
+      const r = $('tr', { class: dd.status || '' });
+      r.appendChild($('td', { class: 'day' }, `${dd.day} ${dd.date ? dd.date.slice(5) : ''}`.trim()));
+      r.appendChild($('td', { class: 'session' }, dd.session || ''));
+      r.appendChild($('td', { class: 'note' }, dd.note || ''));
+      tbody.appendChild(r);
+    }
+    tbl.appendChild(tbody);
+    wrap.appendChild(tbl);
+    c.appendChild(wrap);
+    app.appendChild(c);
+  }
+
+  if (d.currentLoads && d.currentLoads.length) {
+    const c = $('section', { class: 'card' });
+    c.appendChild($('h2', null, 'Current Working Loads'));
+    const det = $('details');
+    det.appendChild($('summary', null, `${d.currentLoads.length} exercises`));
+    const wrap = $('div', { class: 'table-wrap' });
+    const tbl = $('table', { class: 'loads' });
+    const thead = $('thead');
+    const tr = $('tr');
+    ['Exercise', 'Load', 'Last verified', 'Note'].forEach(t => tr.appendChild($('th', null, t)));
+    thead.appendChild(tr);
+    tbl.appendChild(thead);
+    const tbody = $('tbody');
+    for (const row of d.currentLoads) {
+      const r = $('tr');
+      r.appendChild($('td', { class: 'ex' }, row.exercise || ''));
+      r.appendChild($('td', { class: 'load' }, row.load || ''));
+      r.appendChild($('td', null, row.lastVerified || ''));
+      r.appendChild($('td', { class: 'note' }, row.note || ''));
+      tbody.appendChild(r);
+    }
+    tbl.appendChild(tbody);
+    wrap.appendChild(tbl);
+    det.appendChild(wrap);
+    c.appendChild(det);
+    app.appendChild(c);
+  }
+};
+
+const empty = msg => {
+  const app = document.getElementById('app');
+  app.innerHTML = '';
+  const e = $('div', { class: 'empty' });
+  e.appendChild($('h1', null, 'No brief yet'));
+  e.appendChild($('div', null, 'Ask Claude for today’s workout — it caches the result here.'));
+  if (msg) e.appendChild($('div', { class: 'err' }, msg));
+  app.appendChild(e);
+};
+
+(async () => {
+  const fetchJSON = async path => {
+    try {
+      const r = await fetch(path + '?t=' + Date.now(), { cache: 'no-store' });
+      return r.ok ? await r.json() : null;
+    } catch { return null; }
+  };
+  const [brief, week] = await Promise.all([
+    fetchJSON('latest-workout.json'),
+    fetchJSON('week-ahead.json'),
+  ]);
+  if (!brief && !week) return empty();
+  render({ ...(brief || {}), week_ahead: week });
+})();
+</script>
+</body>
+</html>

@@ -1,9 +1,10 @@
 # Workout Tracking
 
-Two markdown files, driven by Claude Code chats. No app, no UI, no build.
+Two markdown files + a tiny read-only dash, all driven by Claude Code chats. No backend, no build.
 
 - **`program.md`** — the prescribed 25-week Sub-20 5K + hypertrophy program. The plan.
 - **`Tracker.md`** — what's actually been done: status, current working loads, carry-forwards, lifting/cardio logs. The record.
+- **`index.html`** — a static, mobile-friendly view of today's brief + the week ahead. Renders `latest-workout.json` and `week-ahead.json`, both written by Claude.
 
 `CLAUDE.md` tells Claude how to behave in this repo.
 
@@ -51,6 +52,22 @@ Full prescription in `program.md`. Current execution state in `Tracker.md`.
 |---|---|
 | `program.md` | 25-week plan (prescription, source of truth) |
 | `Tracker.md` | Execution log: status, current loads, carry-forwards, lifting/cardio logs |
+| `index.html` | Read-only dash — fetches the two JSON caches and renders them |
+| `latest-workout.json` | Cached daily brief (written by Claude each morning) |
+| `week-ahead.json` | Cached 7-day glance for the current program week (written by Claude) |
 | `CLAUDE.md` | Behavior instructions for Claude Code |
 | `README.md` | This file |
 | `LICENSE` | MIT |
+
+---
+
+## Dash setup (one-time)
+
+The dash is just `index.html` + the two JSON files in this repo. To put it on the web:
+
+1. Repo **Settings → Pages**
+2. Source: **Deploy from a branch**
+3. Branch: `main` (or whichever branch you merge to) / `/(root)`
+4. Save → wait a minute → open the Pages URL
+
+No secrets, no workflow, no build. Every morning Claude writes the fresh JSON, commits it, and the dash picks it up on the next load.

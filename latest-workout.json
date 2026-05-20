@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-05-20T07:30:00-04:00",
+  "week": "W5",
+  "day": "Wed",
+  "date": "2026-05-20",
+  "phase": "Base",
+  "sessionName": "Z1 easy run 25 min",
+  "intro": [
+    "W5 Wed is 25 min Z1 easy per §4.C — recovery aerobic between yesterday's T-run and Fri's quality.",
+    "Nasal-gate the effort (Adj #9): off-191 HR cap (≤155) will look exceeded; trust nasal + RPE until MHR retest.",
+    "Watch for delayed SI / soreness from Tue's off-protocol lift-first ordering (Adj #16). Abort and walk back on any flare in the first half mile."
+  ],
+  "lift": null,
+  "cardio": {
+    "flags": [
+      "Nasal-gate Z1 per Adj #9 — HR will run 165–180 on nasal-clean easy; not a stop signal",
+      "First easy day after Tue's off-protocol lift-first T-run — start slow, abort on SI signal"
+    ],
+    "workout": "25 min continuous Z1 easy",
+    "targets": {
+      "pace": "9:45–10:45/mi (§4.A Z1 band)",
+      "hr": "nasal-gated; off-191 numbers skew high — likely 165–180 on steady effort",
+      "cadence": "165–172 spm acceptable; don't force 180 at easy"
+    },
+    "warmup": "5 min walk → 1–2 min easy build into Z1 pace",
+    "cooldown": "3–5 min walk + daily SI prehab (Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1)",
+    "cues": [
+      "Nasal breathing throughout — if mouth opens, slow down",
+      "Don't chase pace; if HR climbs without effort change, accept the drift",
+      "Cadence stays natural — no metronome at easy effort",
+      "Abort and walk back on any SI signal in first half mile"
+    ]
+  },
+  "currentLoads": [
+    { "exercise": "Incline BB", "load": "135 working / TM 165", "lastVerified": "W5 Tue 5/19", "note": "Clean entry RIR 3/2/2 on new TM 165 @ 82%; +5 lb next Tue if clean" },
+    { "exercise": "Lat pulldown", "load": "130 → 135 next Sat", "lastVerified": "W4 Sat 5/16", "note": "Clean 4×10 RIR 3 — bump-eligible" },
+    { "exercise": "Chest-supp row", "load": "80", "lastVerified": "W4 Sat 5/16", "note": "Set 3 dropped to 7 reps; hold 80" },
+    { "exercise": "Cable lateral (Tue)", "load": "12.5", "lastVerified": "W2 Mon", "note": "Anchor all 4 sets" },
+    { "exercise": "Cable lateral (Sat)", "load": "15/side uni → bump next Sat", "lastVerified": "W4 Sat 5/16", "note": "Clean RIR 1 across 3×12 — bump-eligible" },
+    { "exercise": "Preacher curl uni", "load": "50/arm → bump next Sat", "lastVerified": "W5 Tue 5/19", "note": "Clean RIR 2 set 3 — hold-50 satisfied, bump-eligible (Adj #13)" },
+    { "exercise": "Triceps pushdown", "load": "50 → bump next Sat", "lastVerified": "W5 Tue 5/19", "note": "Clean RIR 2 set 3 — hold-until-clean satisfied, bump-eligible (Adj #3)" },
+    { "exercise": "Rear-delt fly", "load": "125", "lastVerified": "W5 Tue 5/19", "note": "125×15 RIR 4/3 — holding clean since W4 Tue bump" },
+    { "exercise": "Seated calf", "load": "315 → bump next Sat", "lastVerified": "W4 Sat 5/16", "note": "Clean RIR 2 across 4×15 — bump +10–20 lb next Sat (Adj #4)" },
+    { "exercise": "Cable crunch", "load": "65 (working top set)", "lastVerified": "W5 Tue 5/19", "note": "Pyramid 50/57.5/65 RIR 5+/5+/3 — new working floor (was 42.5)" },
+    { "exercise": "Hanging straight-leg raise", "load": "BW", "lastVerified": "W4 Sat 5/16", "note": "Subbed for hanging knee; progress reps or add load" },
+    { "exercise": "Soleus wall-sit", "load": "BW · 45s × 3", "lastVerified": "W5 Tue 5/19", "note": "45s × 3 RIR 5 restored (Adj #14) — push to 50–60s or deeper knee next" },
+    { "exercise": "Chest Fly", "load": "130", "lastVerified": "W4 Sat 5/16", "note": "Accessory — holding 130" }
+  ]
+}

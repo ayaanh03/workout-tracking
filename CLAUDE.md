@@ -4,13 +4,15 @@ This repo is a two-file training system driven by Claude Code chats. No app, no 
 
 - `program.md` — the prescribed 25-week Sub-20 5K + hypertrophy program. Source of truth for what's *prescribed*.
 - `Tracker.md` — the running log: status, current working loads, carry-forwards, lifting/cardio logs. Source of truth for what's *been executed* and current state.
+- `latest-workout.json` — machine-readable cache of today's brief. Rendered by `index.html` (GitHub Pages) for at-the-gym viewing.
+- `week-ahead.json` — machine-readable cache of the current program week (7-day glance). Also rendered by `index.html`.
 
 Each day has two interactions:
 
-1. **Morning** — user asks for today's workout. You read both md files and output the brief.
-2. **Post-session** — user dumps what they did. You append a structured entry to `Tracker.md`, update load/carry-forward tables, commit, and push.
+1. **Morning** — user asks for today's workout. You read both md files, output the brief in chat, AND write `latest-workout.json` + (when needed) `week-ahead.json`, then commit + push so the dash reflects the new brief.
+2. **Post-session** — user dumps what they did. You append a structured entry to `Tracker.md`, update load/carry-forward tables, regenerate the affected JSON caches, commit, and push.
 
-The conversation IS the interface. Be terse. Tables over prose. Numbers over adjectives. No emoji, no encouragement, no "let me know how it goes".
+The conversation IS the interface for input; the dash is the read-only output surface at the gym. Be terse. Tables over prose. Numbers over adjectives. No emoji, no encouragement, no "let me know how it goes".
 
 ---
 
@@ -26,7 +28,10 @@ Triggers: "what's today", "today's workout", "workout of the day", "give me the 
 4. Look up today's session via `program.md §2` (weekly template) + the phase-specific section (`§4.B` Reset / `§4.C` Base / `§4.D` Build / `§4.E` Sharpen / `§2.C` Taper for cardio; `§3.A`/`§3.B` for lifts).
 5. Pull **loads from `Tracker.md ## Current Working Loads`**, never from program.md projections.
 6. Apply any **carry-forwards** from `Tracker.md ## Adjustments / Carry-forwards` that touch today (bump-eligible loads, ordering rules, exercise subs, paused additions, etc.).
-7. Output in the exact format below.
+7. Output the brief in chat in the exact format below.
+8. **Write `latest-workout.json`** matching the schema in the "JSON caches" section. Include the full current-loads table from Tracker.md so the dash has everything in one fetch.
+9. **If `week-ahead.json` is stale** (different week than today, or any day's status is wrong relative to current state), regenerate it too.
+10. **Commit & push** the JSON change(s) on the current branch. Commit message: `Cache brief — {YYYY-MM-DD}` (and `+ week-ahead` suffix if both updated). No PR.
 
 ### Output format (strict)
 
@@ -95,9 +100,12 @@ Triggers: user reports what they did — could be a structured dump, a paragraph
 5. **Update `## Weekly Summary`** — mark today's day in the current week's row (`✓ {Session} {date}`). Add a new row if it's a new week.
 6. **Update `## SI / Sciatica Log`** if SI status was reported (AM / pre / during / post / notes).
 7. **Update `## Incline BB Progression`** Actual column if today was an Incline BB session.
-8. **Commit & push:**
+8. **Regenerate `latest-workout.json` and `week-ahead.json`:**
+   - In `latest-workout.json`: refresh `currentLoads` to match Tracker.md after your updates.
+   - In `week-ahead.json`: flip today's `status` from `today` to `done`, update its `note` with what actually happened (e.g. "Logged — lat 130→135 clean RIR 3 ×4"), and bump tomorrow's status to `today`. Update `summary` if a major carry-forward flipped (a bump landed, a hold satisfied, a new flare, etc.).
+9. **Commit & push:**
    - Branch: keep working on whatever branch the session started on (typically `claude/rebuild-workout-dashboard-403SR` or whatever is current).
-   - Commit message format, matching existing history: `Log W{wk} {Day} {Session} — {YYYY-MM-DD}` (e.g. `Log W5 Sat Hyp B — 2026-05-23`).
+   - Commit message format, matching existing history: `Log W{wk} {Day} {Session} — {YYYY-MM-DD}` (e.g. `Log W5 Sat Hyp B — 2026-05-23`). The JSON updates go in the same commit as the Tracker.md update.
    - `git push -u origin <branch>`.
 
 ### What NOT to do
@@ -132,6 +140,76 @@ Phase determines the cardio prescription:
 - Taper W23–W25 → `§2.C`
 
 Lift volume/prescription is in `§3.A` (Tue) and `§3.B` (Sat).
+
+---
+
+## JSON caches
+
+Two files at the repo root, both consumed by `index.html` (which is served on GitHub Pages).
+
+### `latest-workout.json`
+
+One file, overwritten each morning. The dash renders sections only if present, so set `lift: null` on cardio-only days and `cardio: null` on lift-only days.
+
+```json
+{
+  "generatedAt": "2026-05-20T07:30:00-04:00",
+  "week": "W5",
+  "day": "Wed",
+  "date": "2026-05-20",
+  "phase": "Base",
+  "sessionName": "Z1 easy run 25 min",
+  "intro": ["line 1", "line 2"],
+  "lift": {
+    "table": [
+      { "exercise": "Incline BB", "setsReps": "3×5", "load": "135", "rir": "2", "rest": "2–3 min", "cue": "RPE 7; +5 lb next Tue if clean" }
+    ],
+    "warmup": "Incline BB: bar×8, 95×5, 115×3, then working. General: 1–2 min band pull-aparts.",
+    "cooldown": "SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1"
+  },
+  "cardio": {
+    "flags": ["..."],
+    "workout": "4×5 min @ T (1 min jog rec), 1% incline",
+    "targets": { "pace": "7:55–8:10/mi", "hr": "...", "cadence": "175–182 spm" },
+    "warmup": "1.0–1.5 mi easy build to T pace",
+    "cooldown": "1.0 mi easy / Z1",
+    "cues": ["...", "..."]
+  },
+  "currentLoads": [
+    { "exercise": "Incline BB", "load": "135 working / TM 165", "lastVerified": "W5 Tue 5/19", "note": "..." }
+  ]
+}
+```
+
+Rules:
+- Strings only — no markdown formatting in field values (the dash renders plain text).
+- `intro` is an array of paragraphs.
+- `flags` and `cues` are arrays of bullet strings.
+- `currentLoads` mirrors `Tracker.md ## Current Working Loads` row-for-row (Exercise, Load, Last verified, Note) at the time of generation.
+
+### `week-ahead.json`
+
+One file, regenerated when the week rolls over or when status changes (a session got logged, a flag got resolved).
+
+```json
+{
+  "generatedAt": "2026-05-20T07:30:00-04:00",
+  "week": "W5",
+  "phase": "Base",
+  "summary": "Base W5 — ~14 mpw, polarized 85% Z1. Sat is high-bump day...",
+  "days": [
+    { "date": "2026-05-18", "day": "Mon", "session": "Z1 easy 30 min", "note": "Logged — strides skipped", "status": "done" },
+    { "date": "2026-05-20", "day": "Wed", "session": "Z1 easy 25 min", "note": "Recovery aerobic; nasal-gate (Adj #9)", "status": "today" },
+    { "date": "2026-05-23", "day": "Sat", "session": "Long Z1 + Hyp B", "note": "Bumps: lat 130→135, calf +10–20...", "status": "upcoming" }
+  ]
+}
+```
+
+Rules:
+- `days` covers the current program week, Mon → Sun (7 entries always — include Sun as "Off / SI prehab" even though it's a rest day).
+- `status` is one of: `done`, `today`, `upcoming`.
+- `note` is short (one line). For done days, summarize what actually happened. For upcoming days, surface flags / bumps / orderings.
+- `summary` is one paragraph capturing the week's theme + the biggest flags.
 
 ---
 
