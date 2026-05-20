@@ -1,0 +1,227 @@
+{
+  "version": 4,
+  "date": "2026-05-19",
+  "dow": 2,
+  "generatedAt": "2026-05-20T03:42:25.143Z",
+  "data": {
+    "currentWeek": 5,
+    "phase": "Base",
+    "today": {
+      "sessionTitle": "Threshold Run + Hypertrophy A",
+      "type": "both",
+      "icon": "🏃‍♂️",
+      "shortLabel": "Threshold + Hyp A (Done)",
+      "isLogged": true,
+      "loggedSummary": "Hyp A: Incline 135lb, Preacher 50lb, Pushdown 50lb, Crunch 65lb; T-run: 4×5 min @ 8:00/mi (Treadmill, lift-first)."
+    },
+    "keyTargets": [
+      "Restore standard run AM/lift PM schedule (≥6h gap) to ensure accurate T-run RPE/HR signal.",
+      "Execute run-MHR retest (W5-W6) to validate true HR zones; ignore off-191 bpm bands for now.",
+      "Push soleus wall-sit duration toward 50-60s per session.",
+      "Bump cable lateral + preacher curl + triceps pushdown loads in next scheduled session."
+    ],
+    "warnings": [
+      "Lift-first ordering today confounded RPE/HR signal for T-run; avoid back-to-back ordering.",
+      "HR data remains elevated vs. easy effort — monitor for potential over-reach.",
+      "Watch for signs of Accutane-related muscle fatigue or rhabdo-risk signs (dark urine, persistent soreness)."
+    ],
+    "highlights": [
+      "Phase B running gate cleared 2026-05-13.",
+      "Incline BB working load 135lb (TM 165) successful start.",
+      "Cable crunch working load established at 65lb (pyramid testing)."
+    ],
+    "exercises": [],
+    "cardio": {
+      "prescription": "4×5 min @ T (Threshold) pace",
+      "paceTarget": "8:00/mi (8:05–8:10 if RPE >7)",
+      "hrTarget": "Trust RPE/pace (191-off MHR invalid)",
+      "notes": "Lift-first ordering induced higher RPE/HR; restore AM-run/PM-lift sequence for future Tue."
+    },
+    "statusPills": [
+      {
+        "color": "green",
+        "text": "Phase B Gate Cleared"
+      },
+      {
+        "color": "orange",
+        "text": "Run-MHR Retest Pending"
+      },
+      {
+        "color": "blue",
+        "text": "Base Phase (W5)"
+      }
+    ],
+    "phaseBGate": {
+      "closedAt": "2026-05-13",
+      "criteria": [
+        {
+          "done": true,
+          "text": "7 consecutive symptom-free days",
+          "detail": "Cleared 5/13 (8-day streak)"
+        },
+        {
+          "done": true,
+          "text": "SI provocation tests negative",
+          "detail": "Verified 5/6"
+        },
+        {
+          "done": true,
+          "text": "SL bridge 30s/side pain-free",
+          "detail": "Verified 5/6"
+        }
+      ]
+    },
+    "currentLoads": [
+      {
+        "name": "Incline BB",
+        "load": "135 lb",
+        "note": "TM 165"
+      },
+      {
+        "name": "Lat pulldown",
+        "load": "130 lb",
+        "note": "Bump to 135 next"
+      },
+      {
+        "name": "Cable crunch",
+        "load": "65 lb",
+        "note": "New floor"
+      },
+      {
+        "name": "Seated calf",
+        "load": "315 lb",
+        "note": "Bump next"
+      }
+    ],
+    "thisWeek": [
+      {
+        "dow": 0,
+        "dateStr": "2026-05-17",
+        "label": "Rest + Prehab",
+        "type": "rest",
+        "icon": "🧘",
+        "description": "Rest day. Tyler twists, McGill Big 3, clamshells, daily SI prehab.",
+        "isLogged": false,
+        "loggedSummary": ""
+      },
+      {
+        "dow": 1,
+        "dateStr": "2026-05-18",
+        "label": "Easy Run",
+        "type": "run",
+        "icon": "🏃",
+        "description": "Z1 easy run 30 min. Sustained aerobic pace.",
+        "isLogged": true,
+        "loggedSummary": "3.22 mi, 30 min, avg 9:21/mi. Nasal breathing clean."
+      },
+      {
+        "dow": 2,
+        "dateStr": "2026-05-19",
+        "label": "Threshold + Hyp A",
+        "type": "both",
+        "icon": "🏋️",
+        "description": "Threshold run + Hyp A circuit. Incline BB 135lb.",
+        "isLogged": true,
+        "loggedSummary": "Hyp A: 135lb incline, 65lb crunch. T-run: 4×5 min @ 8:00/mi."
+      },
+      {
+        "dow": 3,
+        "dateStr": "2026-05-20",
+        "label": "Easy Run",
+        "type": "run",
+        "icon": "🏃",
+        "description": "Z1 easy 30–50 min. Optional strides.",
+        "isLogged": false,
+        "loggedSummary": ""
+      },
+      {
+        "dow": 4,
+        "dateStr": "2026-05-21",
+        "label": "Easy Run or Rest",
+        "type": "run",
+        "icon": "🧘",
+        "description": "Z1 easy 25–40 min or full rest. Listen to body.",
+        "isLogged": false,
+        "loggedSummary": ""
+      },
+      {
+        "dow": 5,
+        "dateStr": "2026-05-22",
+        "label": "VO2max Session",
+        "type": "run",
+        "icon": "🔥",
+        "description": "Quality run. Intervals or easy+strides per fatigue.",
+        "isLogged": false,
+        "loggedSummary": ""
+      },
+      {
+        "dow": 6,
+        "dateStr": "2026-05-23",
+        "label": "Long Run + Hyp B",
+        "type": "both",
+        "icon": "⛰️",
+        "description": "AM: Long run Z1. PM: Hyp B circuit (≥6h gap).",
+        "isLogged": false,
+        "loggedSummary": ""
+      }
+    ],
+    "nextWeek": [
+      {
+        "dow": 0,
+        "dateStr": "2026-05-24",
+        "label": "Rest + Prehab",
+        "type": "rest",
+        "icon": "🧘",
+        "description": "Rest + McGill Big 3, Tyler twists, SI prehab."
+      },
+      {
+        "dow": 1,
+        "dateStr": "2026-05-25",
+        "label": "Easy Run + Hill Strides",
+        "type": "run",
+        "icon": "🏃",
+        "description": "Z1 run + 6–8×12s hill strides @ 4-6% grade."
+      },
+      {
+        "dow": 2,
+        "dateStr": "2026-05-26",
+        "label": "Threshold + Hyp A",
+        "type": "both",
+        "icon": "🏋️",
+        "description": "AM: Threshold run. PM: Hyp A circuit (≥6h gap)."
+      },
+      {
+        "dow": 3,
+        "dateStr": "2026-05-27",
+        "label": "Easy Run",
+        "type": "run",
+        "icon": "🏃",
+        "description": "Z1 easy 30–50 min + optional strides."
+      },
+      {
+        "dow": 4,
+        "dateStr": "2026-05-28",
+        "label": "Easy Run or Rest",
+        "type": "run",
+        "icon": "🧘",
+        "description": "Z1 easy or recovery rest day."
+      },
+      {
+        "dow": 5,
+        "dateStr": "2026-05-29",
+        "label": "VO2max Session",
+        "type": "run",
+        "icon": "🔥",
+        "description": "Quality run or row."
+      },
+      {
+        "dow": 6,
+        "dateStr": "2026-05-30",
+        "label": "Long Run + Hyp B",
+        "type": "both",
+        "icon": "⛰️",
+        "description": "AM: Long Z1 run. PM: Hyp B circuit (≥6h gap)."
+      }
+    ]
+  }
+}
