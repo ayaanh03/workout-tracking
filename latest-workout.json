@@ -1,20 +1,35 @@
 {
-  "generatedAt": "2026-05-20T07:30:00-04:00",
+  "generatedAt": "2026-05-21T07:30:00-04:00",
   "week": "W5",
-  "day": "Wed",
-  "date": "2026-05-20",
+  "day": "Thu",
+  "date": "2026-05-21",
   "phase": "Base",
-  "sessionName": "Z1 easy run 25 min",
+  "sessionName": "Z1 easy 25 min AM + Hyp B PM (≥6h gap)",
   "intro": [
-    "W5 Wed is 25 min Z1 easy per §4.C — recovery aerobic between yesterday's T-run and Fri's quality.",
-    "Nasal-gate the effort (Adj #9): off-191 HR cap (≤155) will look exceeded; trust nasal + RPE until MHR retest.",
-    "Watch for delayed SI / soreness from Tue's off-protocol lift-first ordering (Adj #16). Abort and walk back on any flare in the first half mile."
+    "Combined day per week-ahead plan: Wed easy punted to AM, Hyp B pulled forward from Sat to PM (≥6h gap) to clear Sat night for birthday.",
+    "Five bumps live on Hyp B today — lat 130→135 (Adj #10), seated calf 315 +10–20 (Adj #4), preacher 50→55/arm (Adj #13), tri pushdown 50→55 (Adj #3), cable lateral (Sat) 15→17.5/side (Adj #11).",
+    "Standard run-AM / lift-PM ordering restored vs Tue's off-protocol lift-first (Adj #16)."
   ],
-  "lift": null,
+  "lift": {
+    "table": [
+      { "exercise": "Lat pulldown (neutral)", "setsReps": "4×8–10", "load": "135", "rir": "1 last set", "rest": "90–120s", "cue": "Bump from 130 per Adj #10; clean RIR 3 last Sat" },
+      { "exercise": "Chest-supp row", "setsReps": "3×10", "load": "80", "rir": "1", "rest": "90–120s", "cue": "Hold per Adj #12; set 3 dropped reps last Sat" },
+      { "exercise": "Cable lateral (uni)", "setsReps": "3×12", "load": "17.5/side", "rir": "1", "rest": "60–90s", "cue": "Bump from 15 per Adj #11; drop back to 15 if set 1 misses RIR 1" },
+      { "exercise": "Preacher curl uni", "setsReps": "3×12", "load": "55/arm", "rir": "1", "rest": "60–90s", "cue": "Bump from 50 — Adj #13 satisfied Tue 5/19" },
+      { "exercise": "Triceps pushdown (rope)", "setsReps": "3×12–15", "load": "55", "rir": "1", "rest": "60–90s", "cue": "Bump from 50 — Adj #3 satisfied Tue 5/19; rope vs Tue's V-bar" },
+      { "exercise": "Hanging straight-leg raise", "setsReps": "3×10–12", "load": "BW", "rir": "1–2", "rest": "60–90s", "cue": "Progress reps per Adj #5 — target 12 if last Sat's 10 was RIR 3+" },
+      { "exercise": "Seated calf", "setsReps": "4×12–15", "load": "325–335", "rir": "0–1 last set", "rest": "90s", "cue": "+10–20 lb per Adj #4; last set to failure" },
+      { "exercise": "Soleus wall-sit", "setsReps": "3×50–60s", "load": "BW", "rir": "—", "rest": "60s", "cue": "Push duration or deeper knee per Adj #14 (45s was RIR 5)" },
+      { "exercise": "Chest fly (accessory)", "setsReps": "2×12", "load": "130", "rir": "2", "rest": "—", "cue": "Hold" }
+    ],
+    "warmup": "Lat pulldown ramp: 90×8, 115×5, 135 working. General: band pull-aparts 2×15, scap pulls 2×8, 1 min hip openers.",
+    "cooldown": "SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1"
+  },
   "cardio": {
     "flags": [
-      "Nasal-gate Z1 per Adj #9 — HR will run 165–180 on nasal-clean easy; not a stop signal",
-      "First easy day after Tue's off-protocol lift-first T-run — start slow, abort on SI signal"
+      "Nasal-gate Z1 per Adj #9 — off-191 HR cap (≤155) will read exceeded; nasal-clean = aerobic",
+      "Run AM, lift PM ≥6h gap — restores §2.A standard ordering vs Tue's lift-first (Adj #16)",
+      "This is Wed's punted 25 min — eat between sessions, protect the ≥6h gap"
     ],
     "workout": "25 min continuous Z1 easy",
     "targets": {
@@ -22,13 +37,13 @@
       "hr": "nasal-gated; off-191 numbers skew high — likely 165–180 on steady effort",
       "cadence": "165–172 spm acceptable; don't force 180 at easy"
     },
-    "warmup": "5 min walk → 1–2 min easy build into Z1 pace",
-    "cooldown": "3–5 min walk + daily SI prehab (Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1)",
+    "warmup": "5 min walk → 1–2 min easy build into Z1",
+    "cooldown": "3–5 min walk; daily SI prehab carries through to PM session",
     "cues": [
       "Nasal breathing throughout — if mouth opens, slow down",
-      "Don't chase pace; if HR climbs without effort change, accept the drift",
-      "Cadence stays natural — no metronome at easy effort",
-      "Abort and walk back on any SI signal in first half mile"
+      "Don't chase pace; accept HR drift on steady effort",
+      "Eat between sessions; protect ≥6h gap before lifting",
+      "Abort and walk back on any SI signal — Tue was off-protocol, watch for delayed flare"
     ]
   },
   "currentLoads": [
