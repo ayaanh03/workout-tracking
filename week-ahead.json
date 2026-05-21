@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-05-20T07:30:00-04:00",
+  "generatedAt": "2026-05-20T20:30:00-04:00",
   "week": "W5",
   "phase": "Base",
-  "summary": "Base W5 — ~14 mpw, polarized 85% Z1, weekly threshold returns. Sat is high-bump day: lat / calf / preacher / pushdown all bump-eligible. Tue ordering needs restoring (run AM, lift PM ≥6h gap) per Adj #16.",
+  "summary": "Base W5 — rearranged for birthday Sat night. Wed easy punted to Thu; Hyp B pulled forward from Sat to Thu PM (≥6h gap). Thu becomes a stacked day (easy AM + Hyp B PM). Sat is now long run only — light day before drinking. Sun stays off. Sat bumps move with Hyp B to Thu: lat 130→135, calf 315 + 10–20, preacher 50→55/arm, tri pushdown 50→55, cable lateral (Sat) 15→bump. Tue ordering still needs restoring per Adj #16.",
   "days": [
     { "date": "2026-05-18", "day": "Mon", "session": "Z1 easy 30 min", "note": "Logged — strides skipped; HR ran hot (179/189) nasal-clean", "status": "done" },
     { "date": "2026-05-19", "day": "Tue", "session": "T 4×5 min @ T (1 min rec) + Hyp A PM", "note": "Logged — off-protocol lift-first; Tri pushdown + Preacher hold-until-clean both satisfied", "status": "done" },
-    { "date": "2026-05-20", "day": "Wed", "session": "Z1 easy 25 min", "note": "Recovery aerobic; nasal-gate (Adj #9); watch SI from Tue", "status": "today" },
-    { "date": "2026-05-21", "day": "Thu", "session": "Z1 easy 25–40 min OR rest", "note": "Discretionary per §2.A", "status": "upcoming" },
-    { "date": "2026-05-22", "day": "Fri", "session": "25 min easy + 6×20s strides", "note": "Phase B+ — flat strides (hill strides not yet — gated on SI clean ≥3 wks)", "status": "upcoming" },
-    { "date": "2026-05-23", "day": "Sat", "session": "Long Z1 45 min + Hyp B PM (≥6h gap)", "note": "Bumps: lat 130→135, calf 315→325-335, preacher 50→55/arm, tri pushdown 50→55", "status": "upcoming" },
-    { "date": "2026-05-24", "day": "Sun", "session": "Off / SI prehab", "note": "Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3", "status": "upcoming" }
+    { "date": "2026-05-20", "day": "Wed", "session": "Rest (Z1 25 min punted to Thu)", "note": "Punted — rolled into Thu's combined day", "status": "done" },
+    { "date": "2026-05-21", "day": "Thu", "session": "Z1 easy 25 min AM + Hyp B PM (≥6h gap)", "note": "Combined day — punted Wed easy + Hyp B pulled forward from Sat. Bumps live on Hyp B: lat 130→135, calf 315 + 10–20, preacher 50→55/arm, tri pushdown 50→55, cable lateral (Sat) 15→bump (per Adj #3, #4, #10, #11, #13)", "status": "today" },
+    { "date": "2026-05-22", "day": "Fri", "session": "25 min easy + 6×20s strides", "note": "Unchanged — flat strides (hill strides gated on SI clean ≥3 wks)", "status": "upcoming" },
+    { "date": "2026-05-23", "day": "Sat", "session": "Long Z1 45 min only", "note": "Hyp B moved to Thu — light day before birthday night. No PM lift. Run AM so day is clear by evening.", "status": "upcoming" },
+    { "date": "2026-05-24", "day": "Sun", "session": "Off / SI prehab", "note": "Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3. Expect compromised recovery from Sat night — treat as a real rest day.", "status": "upcoming" }
   ]
 }
