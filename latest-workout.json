@@ -1,64 +1,63 @@
 {
-  "generatedAt": "2026-05-21T07:30:00-04:00",
+  "generatedAt": "2026-05-21T20:30:00-04:00",
   "week": "W5",
   "day": "Thu",
   "date": "2026-05-21",
   "phase": "Base",
-  "sessionName": "Z1 easy 25 min AM + Hyp B PM (≥6h gap)",
+  "sessionName": "Z1 easy 25 min AM + Hyp B PM (≥6h gap) — LOGGED",
   "intro": [
-    "Combined day per week-ahead plan: Wed easy punted to AM, Hyp B pulled forward from Sat to PM (≥6h gap) to clear Sat night for birthday.",
-    "Five bumps live on Hyp B today — lat 130→135 (Adj #10), seated calf 315 +10–20 (Adj #4), preacher 50→55/arm (Adj #13), tri pushdown 50→55 (Adj #3), cable lateral (Sat) 15→17.5/side (Adj #11).",
-    "Standard run-AM / lift-PM ordering restored vs Tue's off-protocol lift-first (Adj #16)."
+    "Combined day executed clean — four bumps landed, two partial bumps held, soleus skipped.",
+    "Bumps: lat 130→140 (past planned 135, clean RIR 1 set 3), chest-supp row 80 hold cleared (Adj #12), cable lateral 15→17.5 clean RIR 1×3 (Adj #11), seated calf 315→325 clean RIR 1×4 (Adj #4). All four bump-eligible next Sat (lat 145, row 85, cable lat 20, calf 335).",
+    "Holds: tri pushdown landed 52.5 (not planned 55) RIR 2/1/0 → hold 52.5 until clean (Adj #20); preacher 50→55 sets 2-3 dropped reps with failure → hold 55 until clean (Adj #21). Soleus SKIPPED — Adj #14 still owed."
   ],
   "lift": {
     "table": [
-      { "exercise": "Lat pulldown (neutral)", "setsReps": "4×8–10", "load": "135", "rir": "1 last set", "rest": "90–120s", "cue": "Bump from 130 per Adj #10; clean RIR 3 last Sat" },
-      { "exercise": "Chest-supp row", "setsReps": "3×10", "load": "80", "rir": "1", "rest": "90–120s", "cue": "Hold per Adj #12; set 3 dropped reps last Sat" },
-      { "exercise": "Cable lateral (uni)", "setsReps": "3×12", "load": "17.5/side", "rir": "1", "rest": "60–90s", "cue": "Bump from 15 per Adj #11; drop back to 15 if set 1 misses RIR 1" },
-      { "exercise": "Preacher curl uni", "setsReps": "3×12", "load": "55/arm", "rir": "1", "rest": "60–90s", "cue": "Bump from 50 — Adj #13 satisfied Tue 5/19" },
-      { "exercise": "Triceps pushdown (rope)", "setsReps": "3×12–15", "load": "55", "rir": "1", "rest": "60–90s", "cue": "Bump from 50 — Adj #3 satisfied Tue 5/19; rope vs Tue's V-bar" },
-      { "exercise": "Hanging straight-leg raise", "setsReps": "3×10–12", "load": "BW", "rir": "1–2", "rest": "60–90s", "cue": "Progress reps per Adj #5 — target 12 if last Sat's 10 was RIR 3+" },
-      { "exercise": "Seated calf", "setsReps": "4×12–15", "load": "325–335", "rir": "0–1 last set", "rest": "90s", "cue": "+10–20 lb per Adj #4; last set to failure" },
-      { "exercise": "Soleus wall-sit", "setsReps": "3×50–60s", "load": "BW", "rir": "—", "rest": "60s", "cue": "Push duration or deeper knee per Adj #14 (45s was RIR 5)" },
-      { "exercise": "Chest fly (accessory)", "setsReps": "2×12", "load": "130", "rir": "2", "rest": "—", "cue": "Hold" }
+      { "exercise": "Lat pulldown (neutral)", "setsReps": "3×8–10 (prescribed 4)", "load": "140", "rir": "2/2/1", "rest": "90–120s", "cue": "Bumped past planned 135 — clean RIR 1 set 3; bump-eligible 145 next Sat; restore 4th set" },
+      { "exercise": "Chest-supp row", "setsReps": "3×10", "load": "80", "rir": "1/1/1", "rest": "90–120s", "cue": "Adj #12 hold cleared — clean across 3; bump 85 next Sat" },
+      { "exercise": "Cable lateral (uni)", "setsReps": "3×12", "load": "17.5/side", "rir": "1/1/1", "rest": "60–90s", "cue": "Bumped 15→17.5 clean (Adj #11 satisfied); bump 20/side next Sat" },
+      { "exercise": "Preacher curl uni", "setsReps": "3×12/11/10", "load": "55/arm", "rir": "2/0/0", "rest": "60–90s", "cue": "Bumped 50→55; sets 2-3 dropped reps + failure — hold 55 until clean (Adj #21)" },
+      { "exercise": "Triceps pushdown", "setsReps": "3×12", "load": "52.5", "rir": "2/1/0", "rest": "60–90s", "cue": "Bumped 50→52.5 (not planned 55); set 3 failure — hold 52.5 until clean (Adj #20)" },
+      { "exercise": "Hanging straight-leg raise", "setsReps": "3×10", "load": "BW", "rir": "1/1/1", "rest": "60–90s", "cue": "Tightened vs last Sat (RIR 3-5 → RIR 1); progress to 12 reps next" },
+      { "exercise": "Seated calf", "setsReps": "4×12/12/14/12", "load": "325", "rir": "1/1/1/0", "rest": "90s", "cue": "Bumped 315→325 clean ×4 (Adj #4 satisfied); set 3 hit 14 reps; bump 335 next Sat" },
+      { "exercise": "Soleus wall-sit", "setsReps": "—", "load": "—", "rir": "—", "rest": "—", "cue": "SKIPPED — Adj #14 still owed; restore + push duration/knee next Sat" },
+      { "exercise": "Chest fly (accessory)", "setsReps": "2×12", "load": "130", "rir": "3/1", "rest": "—", "cue": "Hold — clean accessory" }
     ],
     "warmup": "Lat pulldown ramp: 90×8, 115×5, 135 working. General: band pull-aparts 2×15, scap pulls 2×8, 1 min hip openers.",
     "cooldown": "SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1"
   },
   "cardio": {
     "flags": [
-      "Nasal-gate Z1 per Adj #9 — off-191 HR cap (≤155) will read exceeded; nasal-clean = aerobic",
-      "Run AM, lift PM ≥6h gap — restores §2.A standard ordering vs Tue's lift-first (Adj #16)",
-      "This is Wed's punted 25 min — eat between sessions, protect the ≥6h gap"
+      "Nasal-only confirmed aerobic — HR avg 167 / peak 175 lower than W5 Mon outdoor (179/189) on slower treadmill pace",
+      "Standard ordering restored (Adj #16) — AM run + PM lift with ≥6h gap; formal T-pace re-test still pending W6 Tue",
+      "No SI status reported — watch AM 5/22 for delayed flare"
     ],
-    "workout": "25 min continuous Z1 easy",
+    "workout": "25 min continuous Z1 easy (treadmill 0%)",
     "targets": {
-      "pace": "9:45–10:45/mi (§4.A Z1 band)",
-      "hr": "nasal-gated; off-191 numbers skew high — likely 165–180 on steady effort",
-      "cadence": "165–172 spm acceptable; don't force 180 at easy"
+      "pace": "10:43/mi (slow end of §4.A Z1 band 9:45–10:45)",
+      "hr": "avg 167, peak 175, low 130 (nasal-gated aerobic)",
+      "cadence": "170 spm (floor of natural Z1 165–172)"
     },
-    "warmup": "5 min walk → 1–2 min easy build into Z1",
-    "cooldown": "3–5 min walk; daily SI prehab carries through to PM session",
+    "warmup": "5 min walk → easy build into Z1",
+    "cooldown": "3–5 min walk; daily SI prehab",
     "cues": [
-      "Nasal breathing throughout — if mouth opens, slow down",
-      "Don't chase pace; accept HR drift on steady effort",
-      "Eat between sessions; protect ≥6h gap before lifting",
-      "Abort and walk back on any SI signal — Tue was off-protocol, watch for delayed flare"
+      "Nasal breathing held throughout — aerobic confirmed",
+      "Cadence at floor of natural band, pace at slow end of Z1 — clean recovery aerobic execution",
+      "HR signal aligns with effort + pace (no anomalous drift like W5 Mon)"
     ]
   },
   "currentLoads": [
     { "exercise": "Incline BB", "load": "135 working / TM 165", "lastVerified": "W5 Tue 5/19", "note": "Clean entry RIR 3/2/2 on new TM 165 @ 82%; +5 lb next Tue if clean" },
-    { "exercise": "Lat pulldown", "load": "130 → 135 next Sat", "lastVerified": "W4 Sat 5/16", "note": "Clean 4×10 RIR 3 — bump-eligible" },
-    { "exercise": "Chest-supp row", "load": "80", "lastVerified": "W4 Sat 5/16", "note": "Set 3 dropped to 7 reps; hold 80" },
+    { "exercise": "Lat pulldown", "load": "140 → 145 next Sat", "lastVerified": "W5 Thu 5/21", "note": "Bumped past planned 135 → 140 clean RIR 1 set 3; only 3 sets done — restore 4 next" },
+    { "exercise": "Chest-supp row", "load": "80 → 85 next Sat", "lastVerified": "W5 Thu 5/21", "note": "Adj #12 hold cleared — clean RIR 1 × 3; bump 85 next" },
     { "exercise": "Cable lateral (Tue)", "load": "12.5", "lastVerified": "W2 Mon", "note": "Anchor all 4 sets" },
-    { "exercise": "Cable lateral (Sat)", "load": "15/side uni → bump next Sat", "lastVerified": "W4 Sat 5/16", "note": "Clean RIR 1 across 3×12 — bump-eligible" },
-    { "exercise": "Preacher curl uni", "load": "50/arm → bump next Sat", "lastVerified": "W5 Tue 5/19", "note": "Clean RIR 2 set 3 — hold-50 satisfied, bump-eligible (Adj #13)" },
-    { "exercise": "Triceps pushdown", "load": "50 → bump next Sat", "lastVerified": "W5 Tue 5/19", "note": "Clean RIR 2 set 3 — hold-until-clean satisfied, bump-eligible (Adj #3)" },
+    { "exercise": "Cable lateral (Sat)", "load": "17.5/side uni → 20 next Sat", "lastVerified": "W5 Thu 5/21", "note": "Bumped 15→17.5 clean RIR 1×3 (Adj #11 satisfied)" },
+    { "exercise": "Preacher curl uni", "load": "55/arm hold-until-clean", "lastVerified": "W5 Thu 5/21", "note": "Bumped 50→55; sets 2-3 dropped reps + failure — hold 55 until clean RIR 1 set 3 (Adj #21)" },
+    { "exercise": "Triceps pushdown", "load": "52.5 hold-until-clean", "lastVerified": "W5 Thu 5/21", "note": "Bumped 50→52.5 (not planned 55); set 3 failure — hold 52.5 until clean RIR 1 set 3 (Adj #20)" },
     { "exercise": "Rear-delt fly", "load": "125", "lastVerified": "W5 Tue 5/19", "note": "125×15 RIR 4/3 — holding clean since W4 Tue bump" },
-    { "exercise": "Seated calf", "load": "315 → bump next Sat", "lastVerified": "W4 Sat 5/16", "note": "Clean RIR 2 across 4×15 — bump +10–20 lb next Sat (Adj #4)" },
+    { "exercise": "Seated calf", "load": "325 → 335 next Sat", "lastVerified": "W5 Thu 5/21", "note": "Adj #4 satisfied — bumped 315→325 clean ×4 (set 3 hit 14 reps); bump 335 next" },
     { "exercise": "Cable crunch", "load": "65 (working top set)", "lastVerified": "W5 Tue 5/19", "note": "Pyramid 50/57.5/65 RIR 5+/5+/3 — new working floor (was 42.5)" },
-    { "exercise": "Hanging straight-leg raise", "load": "BW", "lastVerified": "W4 Sat 5/16", "note": "Subbed for hanging knee; progress reps or add load" },
-    { "exercise": "Soleus wall-sit", "load": "BW · 45s × 3", "lastVerified": "W5 Tue 5/19", "note": "45s × 3 RIR 5 restored (Adj #14) — push to 50–60s or deeper knee next" },
-    { "exercise": "Chest Fly", "load": "130", "lastVerified": "W4 Sat 5/16", "note": "Accessory — holding 130" }
+    { "exercise": "Hanging straight-leg raise", "load": "BW (progress to 12 reps next)", "lastVerified": "W5 Thu 5/21", "note": "Tightened from BW×10 RIR 3-5 → BW×10 RIR 1; progress reps to 12 or add load" },
+    { "exercise": "Soleus wall-sit", "load": "BW · skipped W5 Thu", "lastVerified": "W5 Tue 5/19", "note": "Adj #14 still owed — restore 45s+ and push duration/knee next Sat" },
+    { "exercise": "Chest Fly", "load": "130", "lastVerified": "W5 Thu 5/21", "note": "Accessory — holding 130" }
   ]
 }
