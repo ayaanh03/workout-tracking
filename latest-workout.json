@@ -1,48 +1,36 @@
 {
-  "generatedAt": "2026-05-21T20:30:00-04:00",
+  "generatedAt": "2026-05-22T07:30:00-04:00",
   "week": "W5",
-  "day": "Thu",
-  "date": "2026-05-21",
+  "day": "Fri",
+  "date": "2026-05-22",
   "phase": "Base",
-  "sessionName": "Z1 easy 25 min AM + Hyp B PM (≥6h gap) — LOGGED",
+  "sessionName": "Z1 easy 25 min + 6×20 s strides",
   "intro": [
-    "Combined day executed clean — four bumps landed, two partial bumps held, soleus skipped.",
-    "Bumps: lat 130→140 (past planned 135, clean RIR 1 set 3), chest-supp row 80 hold cleared (Adj #12), cable lateral 15→17.5 clean RIR 1×3 (Adj #11), seated calf 315→325 clean RIR 1×4 (Adj #4). All four bump-eligible next Sat (lat 145, row 85, cable lat 20, calf 335).",
-    "Holds: tri pushdown landed 52.5 (not planned 55) RIR 2/1/0 → hold 52.5 until clean (Adj #20); preacher 50→55 sets 2-3 dropped reps with failure → hold 55 until clean (Adj #21). Soleus SKIPPED — Adj #14 still owed."
+    "Cardio-only day, Base block. No lift. Easy + strides per §4.C W5 Fri.",
+    "Mon strides were skipped — today is this week's only stride dose; get them in.",
+    "Adj #9 still active: anchor effort to nasal-gate + §4.A pace + RPE, not the off-191 HR zones (zones skew low for run; true run MHR likely ≥195–200). Formal run-MHR retest still pending W6 Tue."
   ],
-  "lift": {
-    "table": [
-      { "exercise": "Lat pulldown (neutral)", "setsReps": "3×8–10 (prescribed 4)", "load": "140", "rir": "2/2/1", "rest": "90–120s", "cue": "Bumped past planned 135 — clean RIR 1 set 3; bump-eligible 145 next Sat; restore 4th set" },
-      { "exercise": "Chest-supp row", "setsReps": "3×10", "load": "80", "rir": "1/1/1", "rest": "90–120s", "cue": "Adj #12 hold cleared — clean across 3; bump 85 next Sat" },
-      { "exercise": "Cable lateral (uni)", "setsReps": "3×12", "load": "17.5/side", "rir": "1/1/1", "rest": "60–90s", "cue": "Bumped 15→17.5 clean (Adj #11 satisfied); bump 20/side next Sat" },
-      { "exercise": "Preacher curl uni", "setsReps": "3×12/11/10", "load": "55/arm", "rir": "2/0/0", "rest": "60–90s", "cue": "Bumped 50→55; sets 2-3 dropped reps + failure — hold 55 until clean (Adj #21)" },
-      { "exercise": "Triceps pushdown", "setsReps": "3×12", "load": "52.5", "rir": "2/1/0", "rest": "60–90s", "cue": "Bumped 50→52.5 (not planned 55); set 3 failure — hold 52.5 until clean (Adj #20)" },
-      { "exercise": "Hanging straight-leg raise", "setsReps": "3×10", "load": "BW", "rir": "1/1/1", "rest": "60–90s", "cue": "Tightened vs last Sat (RIR 3-5 → RIR 1); progress to 12 reps next" },
-      { "exercise": "Seated calf", "setsReps": "4×12/12/14/12", "load": "325", "rir": "1/1/1/0", "rest": "90s", "cue": "Bumped 315→325 clean ×4 (Adj #4 satisfied); set 3 hit 14 reps; bump 335 next Sat" },
-      { "exercise": "Soleus wall-sit", "setsReps": "—", "load": "—", "rir": "—", "rest": "—", "cue": "SKIPPED — Adj #14 still owed; restore + push duration/knee next Sat" },
-      { "exercise": "Chest fly (accessory)", "setsReps": "2×12", "load": "130", "rir": "3/1", "rest": "—", "cue": "Hold — clean accessory" }
-    ],
-    "warmup": "Lat pulldown ramp: 90×8, 115×5, 135 working. General: band pull-aparts 2×15, scap pulls 2×8, 1 min hip openers.",
-    "cooldown": "SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1"
-  },
+  "lift": null,
   "cardio": {
     "flags": [
-      "Nasal-only confirmed aerobic — HR avg 167 / peak 175 lower than W5 Mon outdoor (179/189) on slower treadmill pace",
-      "Standard ordering restored (Adj #16) — AM run + PM lift with ≥6h gap; formal T-pace re-test still pending W6 Tue",
-      "No SI status reported — watch AM 5/22 for delayed flare"
+      "Adj #9 — off-191 HR zones too low for run; anchor to nasal + pace + RPE",
+      "Mon strides skipped — 6×20 s flat strides today is the catch-up",
+      "FLAT strides only — hill strides are Mon-only per §2.A",
+      "No SI status reported AM 5/22 — flag any morning-after symptoms from Thu combined day before starting"
     ],
-    "workout": "25 min continuous Z1 easy (treadmill 0%)",
+    "workout": "25 min continuous Z1 easy + 6×20 s flat strides post-run (full walk/jog recovery between reps)",
     "targets": {
-      "pace": "10:43/mi (slow end of §4.A Z1 band 9:45–10:45)",
-      "hr": "avg 167, peak 175, low 130 (nasal-gated aerobic)",
-      "cadence": "170 spm (floor of natural Z1 165–172)"
+      "pace": "Easy 9:45–10:45/mi (§4.A Z1 band); strides ~mile-pace effort feel (~6:00–6:30/mi-ish, fast but smooth, NOT sprint)",
+      "hr": "Nasal-gated — don't chase a number (Adj #9). Off-191 Z1 cap ≤155 will read too low; trust nasal + RPE",
+      "cadence": "165–172 spm easy; 178–182 spm on strides"
     },
-    "warmup": "5 min walk → easy build into Z1",
-    "cooldown": "3–5 min walk; daily SI prehab",
+    "warmup": "First 5 min walk → ease into Z1 (built into the 25 min)",
+    "cooldown": "3–5 min walk + SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1",
     "cues": [
-      "Nasal breathing held throughout — aerobic confirmed",
-      "Cadence at floor of natural band, pace at slow end of Z1 — clean recovery aerobic execution",
-      "HR signal aligns with effort + pace (no anomalous drift like W5 Mon)"
+      "Nasal breathing held throughout easy block — drop pace if you have to mouth-breathe",
+      "Strides: relax shoulders, knees up, smooth turnover — accelerate over first 5 s, hold 10 s, float-down last 5 s; full walk/jog back between reps",
+      "Strides on flat ground only; abort any rep that feels jarring to right SI",
+      "If legs feel cooked from Thu, dial easy pace toward 10:45 not 9:45 — recovery aerobic is the point"
     ]
   },
   "currentLoads": [
