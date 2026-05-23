@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-05-22T13:35:00-04:00",
+  "generatedAt": "2026-05-23T07:30:00-04:00",
   "week": "W5",
-  "day": "Fri",
-  "date": "2026-05-22",
+  "day": "Sat",
+  "date": "2026-05-23",
   "phase": "Base",
-  "sessionName": "Z1 easy 25 min + 6×20 s strides — LOGGED",
+  "sessionName": "Long Z1 45 min",
   "intro": [
-    "Easy + strides done. Easy 25:00 @ 9:35/mi avg, HR 161, cadence 171 spm — HR markedly cooler than W5 Mon's anomalous 179 on similar pace; supports Mon high HR being outdoor-specific (heat/stop-go) not cardiac drift.",
-    "Strides (catch-up for skipped Mon dose): 6×20s w/ ~60s walk recovery between (matches §2.A full-recovery rule). Cadence overshoot reps 3-4 (195/201 spm vs 178–182 target) — sprinting territory, broke 'fast but smooth' cue. New Adj #24 to anchor cadence next time.",
-    "Pace creep on easy continues: 9:35/mi sits below §4.A Z1 floor (9:45). Nasal-gate not reported. HR signal otherwise normal."
+    "Long run only — Hyp B already executed Thu 5/21 as a combined day, so today is the durability piece in isolation (light day before tonight per week-ahead context).",
+    "Phase Base W5, polarized Z1 work; carry-forwards on lift loads are queued for next Sat (W6).",
+    "HR signal still suspect per Adj #9 — anchor to RPE + nasal gate, not the off-191 ≤155 cap."
   ],
   "lift": null,
   "cardio": {
     "flags": [
-      "Easy pace 9:35/mi below §4.A Z1 floor (9:45) — pace creep continues but HR 161 normalized vs Mon 179",
-      "Stride cadence overshoot reps 3-4 (195/201 spm vs 178–182 target) — Adj #24 logged",
-      "Mon stride catch-up dose completed — 6×20s flat w/ ~60s walk recovery",
-      "No SI status reported, no nasal-gate confirmation"
+      "§4.A HR zones off rower-191 skew low for running (Adj #9) — nasal-breathing gate is the physiological reference, not the ≤155 cap",
+      "Easy pace creep trend (W4 Sat 10:38 → W5 Mon 9:21 → W5 Fri 9:35) — hold honest Z1 floor today, don't ride the 9:30s on a 45-min long run",
+      "No SI status reported overnight — do the screen before stepping out (Fortin, single-leg bridge); per §11.C if anything's off, downgrade not skip",
+      "Light day before tonight — keep effort honest, no Strava-induced ramp"
     ],
-    "workout": "25:00 continuous Z1 easy + 6×20 s strides w/ ~60s walk recovery between (flat)",
+    "workout": "45:00 continuous Z1 easy (~4.5 mi at 10:00/mi)",
     "targets": {
-      "pace": "Easy 9:35/mi (below §4.A Z1 floor 9:45–10:45); strides 5:53–8:11/mi range (rep 1 gauge slow, reps 2 & 6 hit ~mile-pace effort target)",
-      "hr": "Easy avg 161 (cooler than W5 Mon 179, closer to W4 Sat 167); strides flat 163–170 = neuromuscular not aerobic",
-      "cadence": "Easy 171 spm (ceiling of natural Z1 band 165–172); strides 177 / 184 / 195 / 201 / 184 / 190 — reps 3-4 overshot"
+      "pace": "9:45–10:45/mi (§4.A Z1 band — sit mid-band ~10:00, not on the floor)",
+      "hr": "Nasal-clean throughout = aerobic ✓; ignore off-191 ≤155 cap per Adj #9",
+      "cadence": "165–172 spm natural Z1 (don't force 180 at conversational pace)"
     },
-    "warmup": "Built into the 25 min easy block",
-    "cooldown": "Implicit in walk recoveries; SI prehab status not reported",
+    "warmup": "5 min walk → easy build into Z1 pace within the 45-min block",
+    "cooldown": "5–10 min easy walk + SI prehab (Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1)",
     "cues": [
-      "Next stride session: anchor cadence at 180 and let pace settle to ~6:00/mi feel — don't push cadence into sprint territory",
-      "Rep 1 (177 spm, 8:11/mi) was under-paced gauge rep — fine to ramp from there",
-      "Easy HR pattern normalized this session — Mon outdoor was the outlier, not a drift trend",
-      "Watch AM 5/23 for SI / soreness before long run"
+      "Nasal breathing is the gate — if mouth opens at conversational pace, slow down regardless of HR",
+      "Talk-test in full sentences = Z1 ✓",
+      "Flat terrain preferred (Hudson loop fine); no intentional hills per §7.B (W10 hill embargo)",
+      "Watch AM 5/24 for delayed SI / soreness — Sun is real rest"
     ]
   },
   "currentLoads": [
