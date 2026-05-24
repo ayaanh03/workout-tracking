@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-24T18:00:00-04:00",
+  "generatedAt": "2026-05-24T18:30:00-04:00",
   "week": "W6",
   "day": "Mon",
   "date": "2026-05-25",
@@ -7,15 +7,15 @@
   "sessionName": "Z1 easy run 35 min + strides",
   "intro": [
     "Tomorrow opens W6 (Base) — easy aerobic + flat strides, no lift. Mileage steps ~14 → ~17 mpw (~10% bump, §11.D).",
-    "Hill strides stay HELD: §11.D bars adding a new lower-body exercise the same week mileage bumps, and the 3-consecutive-SI-clean-weeks gate only lands this week. Flat strides per §2.A.",
+    "SI confirmed clean the whole way (≥3 consecutive clean weeks), so the hill-stride SI gate is now satisfied. Holding hill strides one more week anyway: don't stack a new NM stimulus on the first mileage-bump week (§11.D) and re-establish flat-stride cadence first (Adj #24). Hill strides come online W7 Mon — flat strides per §2.A today.",
     "One job on the strides — cadence discipline. Adj #24 flagged reps 3-4 overshooting to 195/201 spm last Fri. Cap ~180 and let pace settle to ~6:00/mi feel."
   ],
   "lift": null,
   "cardio": {
     "flags": [
-      "Hill strides HELD (§11.D mileage-bump week + 3-wk SI-clean gate only landing this week) — flat strides only",
+      "SI gate satisfied (clean ≥3 consecutive weeks) — hill strides eligible W7; held W6 for §11.D (first mileage-bump week) + flat-stride cadence reset. Flat strides only today",
       "§4.A HR zones off rower-191 skew low for running (Adj #9) — nasal gate is the reference, not the off-191 ≤155 cap",
-      "Report SI status — unlogged the last 3 sessions (Thu/Fri/Sat); the hill-stride gate needs a confirmed clean streak"
+      "SI clean throughout, confirmed through today 5/24 — keep logging daily status so the streak stays on record"
     ],
     "workout": "35:00 continuous Z1 easy + 4×20s flat strides (full walk/jog recovery between)",
     "targets": {
