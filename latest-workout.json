@@ -1,40 +1,39 @@
 {
-  "generatedAt": "2026-05-23T17:00:00-04:00",
-  "week": "W5",
-  "day": "Sat",
-  "date": "2026-05-23",
+  "generatedAt": "2026-05-24T18:00:00-04:00",
+  "week": "W6",
+  "day": "Mon",
+  "date": "2026-05-25",
   "phase": "Base",
-  "sessionName": "Long Z1 45 min",
+  "sessionName": "Z1 easy run 35 min + strides",
   "intro": [
-    "Long run only — Hyp B already executed Thu 5/21 as a combined day, so today is the durability piece in isolation (light day before tonight per week-ahead context).",
-    "Phase Base W5, polarized Z1 work; carry-forwards on lift loads are queued for next Sat (W6).",
-    "HR signal still suspect per Adj #9 — anchor to RPE + nasal gate, not the off-191 ≤155 cap."
+    "Tomorrow opens W6 (Base) — easy aerobic + flat strides, no lift. Mileage steps ~14 → ~17 mpw (~10% bump, §11.D).",
+    "Hill strides stay HELD: §11.D bars adding a new lower-body exercise the same week mileage bumps, and the 3-consecutive-SI-clean-weeks gate only lands this week. Flat strides per §2.A.",
+    "One job on the strides — cadence discipline. Adj #24 flagged reps 3-4 overshooting to 195/201 spm last Fri. Cap ~180 and let pace settle to ~6:00/mi feel."
   ],
   "lift": null,
   "cardio": {
     "flags": [
-      "§4.A HR zones off rower-191 skew low for running (Adj #9) — nasal-breathing gate is the physiological reference, not the ≤155 cap",
-      "Easy pace creep trend (W4 Sat 10:38 → W5 Mon 9:21 → W5 Fri 9:35) — hold honest Z1 floor today, don't ride the 9:30s on a 45-min long run",
-      "No SI status reported overnight — do the screen before stepping out (Fortin, single-leg bridge); per §11.C if anything's off, downgrade not skip",
-      "Light day before tonight — keep effort honest, no Strava-induced ramp"
+      "Hill strides HELD (§11.D mileage-bump week + 3-wk SI-clean gate only landing this week) — flat strides only",
+      "§4.A HR zones off rower-191 skew low for running (Adj #9) — nasal gate is the reference, not the off-191 ≤155 cap",
+      "Report SI status — unlogged the last 3 sessions (Thu/Fri/Sat); the hill-stride gate needs a confirmed clean streak"
     ],
-    "workout": "45:00 continuous Z1 easy (~4.5 mi at 10:00/mi)",
+    "workout": "35:00 continuous Z1 easy + 4×20s flat strides (full walk/jog recovery between)",
     "targets": {
-      "pace": "9:45–10:45/mi (§4.A Z1 band — sit mid-band ~10:00, not on the floor)",
-      "hr": "Nasal-clean throughout = aerobic ✓; ignore off-191 ≤155 cap per Adj #9",
-      "cadence": "165–172 spm natural Z1 (don't force 180 at conversational pace)"
+      "pace": "9:45–10:45/mi (§4.A Z1 band); strides ~6:00/mi feel (mile-pace effort, not sprint)",
+      "hr": "Nasal-clean = aerobic ✓; ignore off-191 ≤155 cap (Adj #9)",
+      "cadence": "easy 165–172 spm; strides ≤180 (Adj #24) — fast but smooth"
     },
-    "warmup": "5 min walk → easy build into Z1 pace within the 45-min block",
-    "cooldown": "5–10 min easy walk + SI prehab (Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1)",
+    "warmup": "5 min walk → easy build into Z1 pace within the 35-min block",
+    "cooldown": "5–10 min easy + SI prehab (Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1)",
     "cues": [
-      "Nasal breathing is the gate — if mouth opens at conversational pace, slow down regardless of HR",
-      "Talk-test in full sentences = Z1 ✓",
-      "Flat terrain preferred (Hudson loop fine); no intentional hills per §7.B (W10 hill embargo)",
-      "Watch AM 5/24 for delayed SI / soreness — Sun is real rest"
+      "Strides: hold cadence ~180, let pace settle to ~6:00/mi — don't chase the 5:50s like Fri's reps 3-4 (Adj #24)",
+      "Nasal gate on the easy block — if mouth opens at conversational pace, slow down regardless of HR",
+      "Flat terrain only; no intentional hills (§7.B W10 embargo)",
+      "Check AM SI / soreness from Sat PM long run before heading out (§11.C)"
     ]
   },
   "currentLoads": [
-    { "exercise": "Incline BB", "load": "135 working / TM 165", "lastVerified": "W5 Tue 5/19", "note": "Clean entry RIR 3/2/2 on new TM 165 @ 82%; +5 lb next Tue if clean" },
+    { "exercise": "Incline BB", "load": "135 working / TM 165", "lastVerified": "W5 Tue 5/19", "note": "Clean entry RIR 3/2/2 on new TM 165 @ 82%; +5 lb (→140) next Tue if clean" },
     { "exercise": "Lat pulldown", "load": "140 → 145 next Sat", "lastVerified": "W5 Thu 5/21", "note": "Bumped past planned 135 → 140 clean RIR 1 set 3; only 3 sets done — restore 4 next" },
     { "exercise": "Chest-supp row", "load": "80 → 85 next Sat", "lastVerified": "W5 Thu 5/21", "note": "Adj #12 hold cleared — clean RIR 1 × 3; bump 85 next" },
     { "exercise": "Cable lateral (Tue)", "load": "12.5", "lastVerified": "W2 Mon", "note": "Anchor all 4 sets" },
@@ -45,7 +44,7 @@
     { "exercise": "Seated calf", "load": "325 → 335 next Sat", "lastVerified": "W5 Thu 5/21", "note": "Adj #4 satisfied — bumped 315→325 clean ×4 (set 3 hit 14 reps); bump 335 next" },
     { "exercise": "Cable crunch", "load": "65 (working top set)", "lastVerified": "W5 Tue 5/19", "note": "Pyramid 50/57.5/65 RIR 5+/5+/3 — new working floor (was 42.5)" },
     { "exercise": "Hanging straight-leg raise", "load": "BW (progress to 12 reps next)", "lastVerified": "W5 Thu 5/21", "note": "Tightened from BW×10 RIR 3-5 → BW×10 RIR 1; progress reps to 12 or add load" },
-    { "exercise": "Soleus wall-sit", "load": "BW · skipped W5 Thu", "lastVerified": "W5 Tue 5/19", "note": "Adj #14 still owed — restore 45s+ and push duration/knee next Sat" },
+    { "exercise": "Soleus wall-sit", "load": "BW · skipped W5 Thu", "lastVerified": "W5 Tue 5/19", "note": "Adj #14/#23 owed — restore 45s+ and push duration/knee next Sat" },
     { "exercise": "Chest Fly", "load": "130", "lastVerified": "W5 Thu 5/21", "note": "Accessory — holding 130" }
   ]
 }
