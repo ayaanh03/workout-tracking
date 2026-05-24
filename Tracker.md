@@ -6,7 +6,7 @@ Companion to `program.md` (v4.2 effective W3, week of 2026-05-04). Race: Sat 202
 
 ## Status
 
-**Phase: A → B eligible.** Phase B running gate **cleared 2026-05-13** (8 consecutive SI-clean days 5/6–5/13; SI tests negative 5/6; single-leg bridge 30s/side clean 5/6). Ready to start §7.B treadmill walk-jog sequence.
+**Phase B — running re-established.** Phase B gate **cleared 2026-05-13** (8 consecutive SI-clean days 5/6–5/13; SI tests negative 5/6; single-leg bridge 30s/side clean 5/6); §7.B walk-jog sequence completed, now in §4.C Base run progression (W6 ≈ 17 mpw). **SI clean every day since the 5/5 reset → 3 consecutive SI-clean weeks banked as of 2026-05-24** (see SI log), satisfying the §3.C / §11.A hill-stride gate. Hill strides eligible **W7 Mon** (held W6 to reset flat-stride cadence per Adj #24).
 
 Max HR **191 bpm** locked W3 Fri 2026-05-08 (rower, peak on effort 1). True running max likely 195–200 (modality penalty + first-test CNS pullback). Re-test W6–W8 on the run (treadmill 1% or 1500m all-out).
 
@@ -227,6 +227,14 @@ Max HR **191 bpm** locked W3 Fri 2026-05-08 (rower, peak on effort 1). True runn
 |2026-05-13|clean|—|—|—|day 8 clean; Phase B sequence eligible|
 |2026-05-15|—|—|clean (T-run)|clean|"No SI flare" per Fri T-run log; off-protocol Fri run tolerated|
 |2026-05-16|—|—|clean (Hyp B + Z1 run, chest-supp row + soleus)|—|check AM 5/17 for delayed SI/soreness|
+|2026-05-17|clean|—|—|clean|W4 Sun rest/prehab; delayed-soreness check from Sat clean — no flare|
+|2026-05-18|clean|—|clean (W5 Mon Z1 run)|clean|easy run; no SI|
+|2026-05-19|clean|—|clean (Hyp A + T-run back-to-back)|clean|lift-first + immediate T-run tolerated; no SI|
+|2026-05-20|clean|—|—|clean|W5 Wed punt/rest|
+|2026-05-21|clean|—|clean (Z1 run AM + Hyp B PM, ≥6h gap)|clean|combined day; chest-supp row done, soleus skipped — no SI|
+|2026-05-22|clean|—|clean (Z1 + 6×20s strides)|clean|stride cadence overshoot (Adj #24) but no SI|
+|2026-05-23|clean|—|clean (Long Z1 4.47 mi PM)|clean|outdoor PM; no flare|
+|2026-05-24|clean|—|—|clean|W5 Sun off/SI prehab — clean (confirmed). **3 consecutive SI-clean weeks banked → §3.C hill-stride gate met**|
 
 ---
 
@@ -264,4 +272,4 @@ Break-in: Vomero first run (Tue Z1) OK. Zoom Fly 6 needs 20–30 min easy break-
 |W2|✓ Incline 4-27|✓ Z1 run 4-28|Off|✓ Squat 4-30|✓ Threshold 5-1|✓ Sumo + bike 5-2|complete|
 |W3|✓ Squat 5-4|✓ Z1 row 5-5|✓ Incline 5-6|✓ REST 5-7|✓ Max HR 191 5-8|✓ Long Z1 5-9|complete (Hyp B done Sun 5/10)|
 |W4|✓ Z1 row 5-11|✓ Hyp A + Z1 run 5-12|✓ AMRAP 5-13 (TM → 165)|—|✓ T-run 4×3 min 5-15|✓ Hyp B + Z1 run 5-16|complete|
-|W5|✓ Z1 run 5-18 (strides skipped)|✓ Hyp A + T-run 4×5 min 5-19 (lift-first)|punted → Thu|✓ Z1 run + Hyp B 5-21 (combined; 4 bumps + 2 holds)|✓ Z1 + 6×20s strides 5-22 (Mon catch-up)|✓ Long Z1 4.47 mi @ 10:04 5-23 (PM)|complete pending Sun|
+|W5|✓ Z1 run 5-18 (strides skipped)|✓ Hyp A + T-run 4×5 min 5-19 (lift-first)|punted → Thu|✓ Z1 run + Hyp B 5-21 (combined; 4 bumps + 2 holds)|✓ Z1 + 6×20s strides 5-22 (Mon catch-up)|✓ Long Z1 4.47 mi @ 10:04 5-23 (PM)|complete (Sun 5-24 off/prehab, SI clean — 3-wk clean streak banked)|
