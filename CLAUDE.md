@@ -67,7 +67,7 @@ Triggers: "what's today", "today's workout", "workout of the day", "give me the 
   - Hypertrophy mid-rep (8–12, RIR 2): 90–120s
   - Accessories / iso (12–15, RIR 1–2): 60–90s
   - Soleus wall-sit between holds: 60s
-- **Lift warmup** for the day's compound (currently Incline BB on Tue):
+- **Lift warmup** for the day's compound (currently Incline BB on Wed):
   - bar × 8, 95 × 5, 115 × 3, then working sets
 - **General lift warmup:** 1–2 min dynamic (band pull-aparts, scap push-ups, hip openers — pick what fits the day).
 - **Run cooldown:** 5–10 min easy + SI prehab on quality days.
@@ -125,9 +125,9 @@ Cross-reference against `program.md §2`:
 |---|---|
 | Sun | Off / SI prehab (Tyler twists, reverse Tyler, McGill Big 3) |
 | Mon | Z1 easy run + strides (hill strides Phase B+) |
-| Tue | Threshold (run or row) + **Hyp A** PM (≥6h gap) |
-| Wed | Z1 easy run |
-| Thu | Z1 easy run **or** full rest |
+| Tue | Threshold (run or row) — run only |
+| Wed | **Hyp A** lift (no run; upper-dominant + soleus wall-sit) |
+| Thu | Z1 easy run (revert to rest on yellow/red days per §11.C) |
 | Fri | VO2max / Quality (T session in Base; intervals in Build) |
 | Sat | Long run AM + **Hyp B** PM (≥6h gap; push to Sun if hard) |
 
@@ -139,7 +139,7 @@ Phase determines the cardio prescription:
 - Sharpen W19–W22 → `§4.E`
 - Taper W23–W25 → `§2.C`
 
-Lift volume/prescription is in `§3.A` (Tue) and `§3.B` (Sat).
+Lift volume/prescription is in `§3.A` (Wed) and `§3.B` (Sat).
 
 ---
 
