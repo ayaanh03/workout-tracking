@@ -1,50 +1,31 @@
 {
-  "generatedAt": "2026-05-26T07:30:00-04:00",
+  "generatedAt": "2026-05-27T07:30:00-04:00",
   "week": "W6",
-  "day": "Tue",
-  "date": "2026-05-26",
+  "day": "Wed",
+  "date": "2026-05-27",
   "phase": "Base",
-  "sessionName": "Threshold 5×5 min @ T + Hypertrophy A",
+  "sessionName": "Hypertrophy A (lift, no run)",
   "intro": [
-    "Quality day #1, Base (§4.C W6 Tue). Formal T-pace re-test under restored standard ordering — run AM, lift PM ≥6h gap (Adj #16). W5 Tue was lift-first back-to-back with no WU, which junked the RPE/HR signal; today is the clean read.",
-    "Hold 7:55–8:10/mi and gate on RPE: 8:00/mi should feel RPE 7 (could do 2 more reps). If it's harder than that with a proper warmup, drop to 8:05–8:10 (Adj #9/#16).",
-    "Incline BB steps 135 → 140 (clean W5 entry RIR 3/2/2, +5 per §5). Run-MHR retest still owed (Adj #9) — capture peak HR today."
+    "First standalone Wed Hyp A under the §2.A revision (2026-05-27) — the lift is decoupled from the Tue threshold, no run today.",
+    "Incline BB steps 135 → 140: W5 Tue entry was clean (135×5 RIR 3/2/2) and Tue's T-run was run-only, so Incline hasn't been touched since — +5 per §5.",
+    "Two hold-until-clean accessories ride from W5 Thu: triceps pushdown 52.5 (Adj #20) and preacher 55 (Adj #21) — RIR 1 on set 3 makes either bump-eligible. Soleus still owed (Adj #14/#23): restore 45s+ and push duration."
   ],
   "lift": {
     "table": [
-      { "exercise": "Incline BB", "setsReps": "3×5", "load": "140", "rir": "2–3 (RPE 7)", "rest": "2–3 min", "cue": "+5 from 135 (clean W5 entry, §5); clean → +5 next Tue" },
+      { "exercise": "Incline BB", "setsReps": "3×5", "load": "140", "rir": "2–3 (RPE 7)", "rest": "2–3 min", "cue": "+5 from clean 135 entry (§5); clean → +5 next Wed" },
       { "exercise": "DB lateral raise", "setsReps": "4×12", "load": "25", "rir": "1, last to failure", "rest": "60–90s", "cue": "Was soft RIR 3-4 — push to RIR 1; all 4 clean → bump 27.5 next" },
       { "exercise": "Preacher curl uni", "setsReps": "3×10", "load": "55/arm", "rir": "1 target", "rest": "60–90s", "cue": "Hold-until-clean (Adj #21): RIR 1 set 3 → bump-eligible. Was 55×12/11/10 RIR 2/0/0" },
       { "exercise": "Triceps pushdown (V-bar)", "setsReps": "3×12", "load": "52.5", "rir": "1 target", "rest": "60–90s", "cue": "Hold-until-clean (Adj #20): RIR 1 set 3 → bump-eligible. Was 52.5×12/12/12 RIR 2/1/0" },
       { "exercise": "Cable crunch", "setsReps": "3×12", "load": "65", "rir": "2 (RPE 8)", "rest": "60–90s", "cue": "New working floor (Adj #15); 65×12 RIR 3 baseline" },
-      { "exercise": "Soleus wall-sit", "setsReps": "3×45–60s", "load": "BW", "rir": "RPE 7–8", "rest": "60s", "cue": "Push duration 50–60s or deeper knee from 45s RIR 5 (Adj #14/#23 owed); knee ~80°, drive forefoot" },
+      { "exercise": "Soleus wall-sit", "setsReps": "3×45–60s", "load": "BW", "rir": "RPE 7–8", "rest": "60s", "cue": "Owed (Adj #14/#23) — push duration 50–60s or deeper knee from 45s RIR 5; knee ~80°, drive forefoot" },
       { "exercise": "Rear-delt fly", "setsReps": "2×15", "load": "125", "rir": "3–4 (RPE 7)", "rest": "60–90s", "cue": "Optional; holding clean since W4 Tue" }
     ],
     "warmup": "Incline BB: bar×8, 95×5, 115×3, 130×2, then working. General: 1–2 min band pull-aparts + scap push-ups. Pre-lift wrist-extensor isometric 3×30s/arm (§10.A).",
     "cooldown": "SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1"
   },
-  "cardio": {
-    "flags": [
-      "Standard ordering restored: run AM, lift PM ≥6h gap (Adj #16) — this is the re-test, don't compress it",
-      "Off-191 HR zones skew low for running (Adj #9) — anchor to RPE + pace, not the ≤155 cap; peak will likely run 178–188 (prior T-runs), don't chase a number",
-      "Run-MHR retest still priority (Adj #9) — log peak HR; formal max test (treadmill 1% or 1500m all-out) can slot W6–W8"
-    ],
-    "workout": "5×5 min @ T, 1 min jog rec, treadmill 1% incline (or flat outdoor)",
-    "targets": {
-      "pace": "7:55–8:10/mi (§4.A T band)",
-      "hr": "Don't anchor to off-191 zones (Adj #9); expect ~178–188 peak, trust RPE/pace",
-      "cadence": "175–182 spm"
-    },
-    "warmup": "1.0–1.5 mi easy build to T pace (formal WU — W5 Tue entered cold)",
-    "cooldown": "1.0 mi easy / Z1 + SI prehab",
-    "cues": [
-      "RPE gate is the whole point: 8:00/mi at RPE 7 = pace confirmed; >RPE 7 with proper WU → slow to 8:05–8:10 (Adj #9/#16)",
-      "Zoom Fly 6 first wear (threshold shoe, 0 mi) — carbon plate needs break-in, 6mm drop vs Vaporfly/Invincible; watch calves/Achilles, note hot spots",
-      "Even pacing across reps (±5s); rec jog, don't walk"
-    ]
-  },
+  "cardio": null,
   "currentLoads": [
-    { "exercise": "Incline BB", "load": "135 working / TM 165", "lastVerified": "W5 Tue 5/19", "note": "Clean entry RIR 3/2/2 on new TM 165 @ 82%; +5 lb (→140) this Tue if clean" },
+    { "exercise": "Incline BB", "load": "135 working / TM 165", "lastVerified": "W5 Tue 5/19", "note": "Clean entry RIR 3/2/2 on new TM 165 @ 82%; +5 lb (→140) this Wed if clean" },
     { "exercise": "Lat pulldown", "load": "140 → 145 next Sat", "lastVerified": "W5 Thu 5/21", "note": "Bumped past planned 135 → 140 clean RIR 1 set 3; only 3 sets done — restore 4 next" },
     { "exercise": "Chest-supp row", "load": "80 → 85 next Sat", "lastVerified": "W5 Thu 5/21", "note": "Adj #12 hold cleared — clean RIR 1 × 3; bump 85 next" },
     { "exercise": "Cable lateral (Tue)", "load": "12.5", "lastVerified": "W2 Mon", "note": "Anchor all 4 sets" },
