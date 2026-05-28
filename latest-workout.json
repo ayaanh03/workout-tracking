@@ -1,29 +1,36 @@
 {
-  "generatedAt": "2026-05-27T07:30:00-04:00",
+  "generatedAt": "2026-05-28T07:30:00-04:00",
   "week": "W6",
-  "day": "Wed",
-  "date": "2026-05-27",
+  "day": "Thu",
+  "date": "2026-05-28",
   "phase": "Base",
-  "sessionName": "Hypertrophy A (lift, no run)",
+  "sessionName": "Z1 easy run 30 min",
   "intro": [
-    "First standalone Wed Hyp A under the §2.A revision (2026-05-27) — the lift is decoupled from the Tue threshold, no run today.",
-    "Incline BB steps 135 → 140: W5 Tue entry was clean (135×5 RIR 3/2/2) and Tue's T-run was run-only, so Incline hasn't been touched since — +5 per §5.",
-    "Two hold-until-clean accessories ride from W5 Thu: triceps pushdown 52.5 (Adj #20) and preacher 55 (Adj #21) — RIR 1 on set 3 makes either bump-eligible. Soleus still owed (Adj #14/#23): restore 45s+ and push duration."
+    "First Thursday recovery Z1 under the §2.A revision (2026-05-27) — Hyp A is now Wed (logged 5/27), Wed is rest, and Thu is the relocated midweek easy run (no longer flex-rest unless yellow/red per §11.C).",
+    "Pace honesty is the watch-item: short Z1 runs have crept past the §4.A floor (W5 Mon 9:21, W5 Fri 9:35) while the W5 Sat long held 10:04. Aim mid-band today (Adj #9 — also: HR off-191 zones skew low; nasal-gate is the physiological reference)."
   ],
-  "lift": {
-    "table": [
-      { "exercise": "Incline BB", "setsReps": "3×5", "load": "140", "rir": "2–3 (RPE 7)", "rest": "2–3 min", "cue": "+5 from clean 135 entry (§5); clean → +5 next Wed" },
-      { "exercise": "DB lateral raise", "setsReps": "4×12", "load": "25", "rir": "1, last to failure", "rest": "60–90s", "cue": "Was soft RIR 3-4 — push to RIR 1; all 4 clean → bump 27.5 next" },
-      { "exercise": "Preacher curl uni", "setsReps": "3×10", "load": "55/arm", "rir": "1 target", "rest": "60–90s", "cue": "Hold-until-clean (Adj #21): RIR 1 set 3 → bump-eligible. Was 55×12/11/10 RIR 2/0/0" },
-      { "exercise": "Triceps pushdown (V-bar)", "setsReps": "3×12", "load": "52.5", "rir": "1 target", "rest": "60–90s", "cue": "Hold-until-clean (Adj #20): RIR 1 set 3 → bump-eligible. Was 52.5×12/12/12 RIR 2/1/0" },
-      { "exercise": "Cable crunch", "setsReps": "3×12", "load": "65", "rir": "2 (RPE 8)", "rest": "60–90s", "cue": "New working floor (Adj #15); 65×12 RIR 3 baseline" },
-      { "exercise": "Soleus wall-sit", "setsReps": "3×45–60s", "load": "BW", "rir": "RPE 7–8", "rest": "60s", "cue": "Owed (Adj #14/#23) — push duration 50–60s or deeper knee from 45s RIR 5; knee ~80°, drive forefoot" },
-      { "exercise": "Rear-delt fly", "setsReps": "2×15", "load": "125", "rir": "3–4 (RPE 7)", "rest": "60–90s", "cue": "Optional; holding clean since W4 Tue" }
+  "lift": null,
+  "cardio": {
+    "flags": [
+      "Pace honesty — keep inside §4.A Z1 9:45–10:45/mi, target ~10:00–10:30/mi; if you drift under 9:45, ease back (Adj #9 — pace-creep pattern, no MHR retest yet).",
+      "Nasal-gate breathing is the Z1 reference until MHR retest (Adj #9). HR will run above the off-191 ≤155 cap — that's the rower-test artifact, not a real ceiling. If nasal breaks, slow down.",
+      "Yellow/red AM → revert to rest (§11.C / §2.A revision); today's first-Thu-run status doesn't override the daily check."
     ],
-    "warmup": "Incline BB: bar×8, 95×5, 115×3, 130×2, then working. General: 1–2 min band pull-aparts + scap push-ups. Pre-lift wrist-extensor isometric 3×30s/arm (§10.A).",
-    "cooldown": "SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1"
+    "workout": "30 min continuous Z1, treadmill 1% or flat outdoor",
+    "targets": {
+      "pace": "9:45–10:45/mi (aim 10:00–10:30 to fight creep)",
+      "hr": "Nasal-clean throughout (numbers reference only — Adj #9; off-191 ≤155 cap is artifact)",
+      "cadence": "165–172 spm (don't force 180 at easy)"
+    },
+    "warmup": "Built-in — first 3–5 min ease into Z1 from walk",
+    "cooldown": "3–5 min easy walk; Tyler twists 3×15 + reverse Tyler 3×15 (SI prehab; McGill optional, not a quality day)",
+    "cues": [
+      "Nasal breathing is the gate — if it breaks, you're not Z1, slow",
+      "Hold pace ≥9:45/mi; the recent 9:21–9:35 drift is the failure mode to avoid",
+      "Cadence natural 165–172 at easy; quality-day 178–182 doesn't apply",
+      "Report AM / during / post SI status post-session"
+    ]
   },
-  "cardio": null,
   "currentLoads": [
     { "exercise": "Incline BB", "load": "140 working / TM 165", "lastVerified": "W6 Wed 5/27", "note": "145×5 RIR 0 by mistake, then 140×5/5 RIR 2/1; 140 done at prescribed reps (last set RIR 1, above RPE 7). +5 → 145 next Wed (§5), expect RPE 8-9 — near top of LP, AMRAP/TM re-test due ~W8" },
     { "exercise": "Lat pulldown", "load": "140 → 145 next Sat", "lastVerified": "W5 Thu 5/21", "note": "Bumped past planned 135 → 140 clean RIR 1 set 3; only 3 sets done — restore 4 next" },
