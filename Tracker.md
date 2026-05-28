@@ -18,18 +18,18 @@ Max HR **191 bpm** locked W3 Fri 2026-05-08 (rower, peak on effort 1). True runn
 
 |Exercise|Load|Last verified|Note|
 |---|---|---|---|
-|Incline BB|135 working / TM 165|W5 Tue 5/19 (135×5 RIR 3/2/2)|first session new TM 165 @ 82% — clean entry; +5 lb next Tue if clean|
+|Incline BB|140 working / TM 165|W6 Wed 5/27 (145×5 RIR 0 by mistake, then 140×5/5 RIR 2/1)|140 completed at prescribed reps (last set RIR 1, above RPE 7 target); accidental 145×5 to failure previews next step → +5 to 145 next Wed per §5, expect RPE 8-9 — near top of LP, AMRAP/TM re-test due ~W8|
 |Lat pulldown|140 → 145 next Sat|W5 Thu 5/21 (140×8/10/9 RIR 2/2/1, 3 sets)|bumped past planned 135 → 140, clean RIR 1 set 3 — bump-eligible; restore full 4 sets next|
 |Chest-supp row|80 → 85 next Sat|W5 Thu 5/21 (80×10 RIR 1 ×3)|hold cleared (Adj #18) — clean RIR 1 across 3; bump 85 next|
-|Cable lateral (Tue)|12.5|W2 Mon|anchor all 4 sets|
+|DB lateral raise (Wed Hyp A)|25 → 27.5 next Wed|W6 Wed 5/27 (25×12/12/12/16 RIR 3/3/3/0)|sets 1-3 soft RIR 3 (target RIR 1) + last set 16 reps to failure = light; bump 27.5 (Adj #29)|
 |Cable lateral (Sat)|17.5/side uni → 20 next Sat|W5 Thu 5/21 (17.5×12 RIR 1 ×3)|bumped 15→17.5 clean RIR 1×3 — bump-eligible 20|
-|Preacher curl uni|55/arm hold-until-clean|W5 Thu 5/21 (55×12/11/10 RIR 2/0/0)|bumped 50→55; sets 2-3 dropped reps + failure — hold 55 until clean RIR 1 set 3|
-|Triceps pushdown|52.5 hold-until-clean|W5 Thu 5/21 (52.5×12/12/12 RIR 2/1/0)|bumped 50→52.5 (not planned 55); set 3 failure — hold 52.5 until clean RIR 1 set 3|
-|Rear-delt fly|125|W5 Tue 5/19 (125×15 RIR 4/3)|holding clean since W4 Tue bump|
+|Preacher curl uni|55/arm hold-until-clean|W6 Wed 5/27 (55×10/10/10 RIR 2/1/0)|reps held 10/10/10 (improved from 12/11/10) but set 3 still failure — hold 55 until clean RIR 1 set 3 (Adj #21/#30 open)|
+|Triceps pushdown|52.5 → 55 next|W6 Wed 5/27 (52.5×12/12/12 RIR 2/1/1)|Adj #20 hold satisfied — clean RIR 1 set 3, no failure; bump 55 next (Adj #28)|
+|Rear-delt fly|125|W6 Wed 5/27 (125×15 RIR 2/1)|holding clean since W4 Tue bump; tighter than prior (RIR 4/3 → 2/1)|
 |Seated calf|325 → 335 next Sat|W5 Thu 5/21 (325×12/12/14/12 RIR 1/1/1/0)|bumped 315→325 clean ×4 (set 3 hit 14 reps, Adj #22); bump 335 next|
-|Cable crunch|65 (working top set)|W5 Tue 5/19 (50/57.5/65 ×12 RIR 5+/5+/3)|pyramid up revealed real load; new working top at 65×12 RIR 3 (was held at 42.5)|
+|Cable crunch|65 (working top set)|W6 Wed 5/27 (65×12 RIR 4/3/2)|clean — set 3 RIR 2 on target; openers soft → bump-eligible 70 next if set 3 ≥RIR 2 (Adj #32)|
 |Hanging straight-leg raise|BW (progress to 12 reps next)|W5 Thu 5/21 (BW×10 RIR 1 ×3)|tightened vs last Sat (RIR 3-5 → RIR 1); progress reps to 12 or add load next|
-|Soleus wall-sit|BW · skipped W5 Thu|W5 Tue 5/19 (45s × 3 RIR 5)|still owed (Adj #23) — restore 45s+ + push duration/knee angle next|
+|Soleus wall-sit|BW · 60s|W6 Wed 5/27 (60s × 3 "pretty easy")|Adj #14/#23 satisfied — restored + pushed to 60s; still low RPE, deepen knee ~80° or add load next|
 |Chest Fly|130|W5 Thu 5/21 (130×12 RIR 3/1)|accessory holding|
 
 ---
@@ -52,6 +52,12 @@ Max HR **191 bpm** locked W3 Fri 2026-05-08 (rower, peak on effort 1). True runn
 23. **Soleus wall-sit SKIPPED W5 Thu 5/21** — carry-forward (push duration to 50–60s or deeper knee from 45s RIR 5 baseline) unresolved; restore + push next Sat.
 25. **Stride cadence W6 Mon 5/25:** 4×20s flat strides cadence 180 / 178 / 196 / 180 spm vs ≤180 (178–182) target — reps 1/2/4 held the band, **rep 4 textbook (180 spm @ 6:00/mi mile-pace effort).** Rep 3 overshot to 196 spm (5:35/mi, 329W) = sprint territory, same failure mode as Fri 5/22 reps 3-4, but improvement (1 of 4 overshooting vs 2 of 6). Cue persists: on middle reps hold cadence ≤180, don't dip pace under ~6:00/mi. **Hill strides come online W7 Mon (SI gate met)** — carry this flat-stride cadence cap into them. (Stride 4 watch-glitched: logged 15:54/mi + 108 spm, user-corrected to 6:00/mi + 180 spm; rep-4 power 171W also unreliable.)
 26. **T-pace re-test W6 Tue 5/26 (Adj #9):** 5×5 min @ T at 8:00/mi, cadence 180 spm, HR by rep 167 / 177 / 179 / 180 / 183 (peak 183). Standalone Tuesday run, no same-day lift → **per the §2.A revision (2026-05-27) Hyp A moved Tue → Wed, so Tuesday is threshold-only and the prior run/lift ordering friction is structurally retired** (no future same-day Tue lift to confound the T-run; W5 Tue's lift-first back-to-back can't recur). **Peak 183 is the lowest T-effort peak in the log** (W5 Tue 188, W4 Fri 181) despite 25 min work; controlled opener (167) confirms a proper WU. HR evidence supports **holding 8:00/mi as legit threshold** — don't slow to 8:05–8:10. **RPE reported as 7 (RIR 2, "could do at most 2 more reps") = matches the W4 Fri T-run feel and clears the RPE gate (≤7) → 8:00/mi locked as current T pace.** Peak 183 = 96% of rower max 191 on a threshold effort → continues to support true run MHR > 191 (Adj #9); formal MHR retest still owed W6–W8.
+27. **Incline BB W6 Wed 5/27 — accidental 145 opener, 140 working.** Did 145×5 RIR 0 (mistook for the working load, taken to failure) then dropped to 140×5/5 RIR 2/1. 140 completed at prescribed reps but RIR ran to 1 on the last set (above the RPE 7 / RIR 2-3 target); 145×5 already previewed to failure. **→ +5 to 145 next Wed per §5**, but flag near the top of linear LP — expect RPE 8-9. Next AMRAP/TM re-test due **~W8 deload** (§5 Base 4-wk cadence; last AMRAP W4 → TM 165).
+28. **Triceps pushdown hold satisfied W6 Wed 5/27** (52.5×12/12/12 RIR 2/1/1) — clean RIR 1 on set 3 with no failure; **Adj #20 satisfied** → bump 55 next.
+29. **DB lateral raise (Wed Hyp A) bump-indicated W6 Wed 5/27** (25×12/12/12/16 RIR 3/3/3/0) — sets 1-3 soft at RIR 3 (target RIR 1) and the last set ran 16 reps to failure = load clearly light; **bump 27.5 next Wed**.
+30. **Preacher curl uni hold persists W6 Wed 5/27** (55×10/10/10 RIR 2/1/0) — reps held 10/10/10 (improved from W5 Thu 12/11/10) but set 3 still hit failure (RIR 0); **Adj #21 hold-until-clean NOT satisfied** — hold 55 until clean RIR 1 set 3.
+31. **Soleus wall-sit owed dose satisfied W6 Wed 5/27** (60s × 3, "pretty easy") — restored and pushed duration to 60s from the skipped W5 Thu / 45s RIR 5 baseline; **Adj #14/#23 satisfied**. Still low RPE → deepen knee angle (~80°) or add load/duration next.
+32. **Cable crunch clean at 65 W6 Wed 5/27** (65×12 RIR 4/3/2) — set 3 hit the RIR 2 target; openers soft (RIR 4/3) → **bump-eligible 70 next Wed** if set 3 stays ≥RIR 2.
 
 ---
 
@@ -165,6 +171,20 @@ Max HR **191 bpm** locked W3 Fri 2026-05-08 (rower, peak on effort 1). True runn
 
 > AI: Combined day executed clean. Four bumps landed: lat pulldown 140 (past the planned 135 — RIR 2/2/1 clean) → bump-eligible 145, chest-supp row 80 hold cleared (Adj #12 satisfied) → bump 85, cable lateral (Sat) uni 15→17.5 clean RIR 1×3 (Adj #11 satisfied) → bump 20, seated calf 315→325 clean RIR 1×4 with set 3 hitting 14 reps (Adj #4 satisfied) → bump 335. Two partial bumps held: triceps pushdown taken to 52.5 (not the planned 55) → set 3 failure, hold 52.5 (Adj #3 superseded by Adj #20); preacher 55 set 1 clean RIR 2 but sets 2-3 dropped to 11/10 with failure → hold 55 (Adj #13 superseded by Adj #21). Hanging straight-leg raise tightened from BW×10 RIR 3-5 to BW×10 RIR 1 — progress reps to 12 next. Soleus SKIPPED — Adj #14 still owed; restore + push next Sat. Chest fly 130 holding. Lat pulldown done in 3 sets vs prescribed 4 — minor under-volume; restore 4th set next. Ordering note: AM Z1 run + PM Hyp B ≥6h gap = §2.A standard restored (Adj #16 satisfied for non-quality session — formal T-pace re-test under standard ordering still pending W6 Tue).
 
+### W6 Wed 2026-05-27 — Hypertrophy A (first standalone Wed lift, §2.A revision)
+
+|Exercise|Sets|Notes|
+|---|---|---|
+|Incline BB|145×5 RIR 0 / 140×5 RIR 2 / 140×5 RIR 1|**145 first set by mistake** (prescribed 140) — taken to failure RIR 0; dropped to working 140 for sets 2-3 = full 5 reps RIR 2/1. 140 completed at prescribed reps but RIR ran to 1 on the last set (above the RPE 7 / RIR 2-3 target). 145×5 already previewed (to failure) → +5 to 145 next Wed per §5, but flag near the top of linear LP — expect RPE 8-9; next AMRAP/TM re-test due ~W8 deload (§5)|
+|DB lateral raise|25×12 RIR 3 / 25×12 RIR 3 / 25×12 RIR 3 / 25×16 RIR 0|sets 1-3 soft at RIR 3 again (target RIR 1) + last set 16 reps to failure = load clearly light → **bump 27.5 next Wed**|
+|Triceps pushdown (V-bar)|52.5×12 RIR 2 / 52.5×12 RIR 1 / 52.5×12 RIR 1|**clean RIR 1 set 3, no failure** — Adj #20 hold satisfied (was 52.5×12/12/12 RIR 2/1/0 W5 Thu); bump-eligible 55 next|
+|Preacher curl uni|55×10 RIR 2 / 55×10 RIR 1 / 55×10 RIR 0|reps held 10/10/10 (improved from W5 Thu 12/11/10) but **set 3 still to failure RIR 0** — Adj #21 hold-until-clean NOT satisfied; hold 55 until clean RIR 1 set 3|
+|Cable crunch|65×12 RIR 4 / 65×12 RIR 3 / 65×12 RIR 2|clean at 65 — set 3 hit the RIR 2 target; openers soft (RIR 4/3) → bump-eligible 70 next if set 3 stays ≥RIR 2|
+|Soleus wall-sit|BW×60s / BW×60s / BW×60s|"pretty easy" — **restored and pushed duration to 60s** from skipped W5 Thu / 45s RIR 5 baseline; Adj #14/#23 satisfied. Still low RPE → deepen knee ~80° or add load/duration next|
+|Rear-delt fly|125×15 RIR 2 / 125×15 RIR 1|holding 125; tighter than W5 Tue (RIR 4/3 → 2/1) but clean, no failure|
+
+> AI: First standalone Wed Hyp A under the §2.A revision — clean, two carry-forwards resolved and one persists. Incline messy on bookkeeping: 145 went on the bar by mistake for set 1 (prescribed 140) and was taken to failure (RIR 0); dropped to 140 for sets 2-3 = full 5 reps RIR 2/1. 140 is completed at prescribed reps, but RIR ran to 1 on the last set (above the RPE 7 target) and the accidental 145×5 was a grind to failure — so +5 to 145 next Wed per §5 is the call, but expect RPE 8-9; this is near the top of linear LP and the next AMRAP/TM re-test is due ~W8 deload. Triceps pushdown 52.5 landed RIR 2/1/1 = clean RIR 1 on set 3 with no failure → Adj #20 hold satisfied, bump 55 next. Preacher 55 held reps at 10/10/10 (better than the W5 Thu 12/11/10 drop) but set 3 still hit failure (RIR 0) → Adj #21 hold-until-clean still open, hold 55. DB lateral raise still soft (sets 1-3 RIR 3 vs RIR 1 target) and the last set ran 16 reps to failure = load light → bump 27.5 next Wed. Soleus restored and pushed to 3×60s "pretty easy" → Adj #14/#23 satisfied; still low RPE, so deepen knee angle (~80°) or add load/duration next. Cable crunch 65×12 RIR 4/3/2 clean with set 3 on the RIR 2 target — openers soft, bump-eligible 70 next. Rear-delt 125 tighter than prior but clean. No run today per §2.A (Wed is lift-only).
+
 ---
 
 ## Cardio Log
@@ -236,7 +256,7 @@ Max HR **191 bpm** locked W3 Fri 2026-05-08 (rower, peak on effort 1). True runn
 |---|---|---|
 |W3|3×5 @ 155 RPE 7|125×8 RIR 2-3/2/2 (Wed 5/6) — TM held|
 |W4|3×5 @ TM (155) + AMRAP test — re-set TM from AMRAP result|**145×1 RIR 2/3 (top set skipped); 125×14 AMRAP RIR 0 → new TM 165**|
-|W5–W7|3×5 @ TM|—|
+|W5–W7|3×5 @ TM|W5 Tue 135×5 RIR 3/2/2; W6 Wed 140×5/5 RIR 2/1 (+ accidental 145×5 RIR 0)|
 |W8 deload|2×5 @ TM−10|—|
 
 ---
@@ -263,4 +283,4 @@ Break-in: Vomero first run (Tue Z1) OK. Zoom Fly 6 needs 20–30 min easy break-
 |W3|✓ Squat 5-4|✓ Z1 row 5-5|✓ Incline 5-6|✓ REST 5-7|✓ Max HR 191 5-8|✓ Long Z1 5-9|complete (Hyp B done Sun 5/10)|
 |W4|✓ Z1 row 5-11|✓ Hyp A + Z1 run 5-12|✓ AMRAP 5-13 (TM → 165)|—|✓ T-run 4×3 min 5-15|✓ Hyp B + Z1 run 5-16|complete|
 |W5|✓ Z1 run 5-18 (strides skipped)|✓ Hyp A + T-run 4×5 min 5-19 (lift-first)|punted → Thu|✓ Z1 run + Hyp B 5-21 (combined; 4 bumps + 2 holds)|✓ Z1 + 6×20s strides 5-22 (Mon catch-up)|✓ Long Z1 4.47 mi @ 10:04 5-23 (PM)|complete (Sun 5-24 off/prehab, SI clean — 3-wk clean streak banked)|
-|W6|✓ Z1 + 4×20s strides 5-25 (cadence 180/178/196/180; Adj #24 mostly held, rep 4 textbook)|✓ T-run 5×5 @ 8:00 5-26 (re-test, RPE 7, peak 183; run-only per §2.A revision — Hyp A → Wed)|—|—|—|—|in progress|
+|W6|✓ Z1 + 4×20s strides 5-25 (cadence 180/178/196/180; Adj #24 mostly held, rep 4 textbook)|✓ T-run 5×5 @ 8:00 5-26 (re-test, RPE 7, peak 183; run-only per §2.A revision — Hyp A → Wed)|✓ Hyp A 5-27 (Incline 140 +accidental 145; tri 52.5 cleared→bump 55, preacher 55 held, DB lat→bump 27.5, soleus 60s)|—|—|—|in progress|
