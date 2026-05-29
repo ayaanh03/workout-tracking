@@ -14,6 +14,8 @@ Each day has two interactions:
 
 The conversation IS the interface for input; the dash is the read-only output surface at the gym. Be terse. Tables over prose. Numbers over adjectives. No emoji, no encouragement, no "let me know how it goes".
 
+> **TIME ZONE — always operate in US Eastern (America/New_York, EST/EDT).** The athlete trains on Eastern time. The system-context date may be UTC and can be a calendar day *ahead* in the evening (e.g. UTC shows Friday while it is still Thursday night ET). **Before resolving today's date or day-of-week, convert the system timestamp to America/New_York and use that.** When in doubt, derive ET explicitly (e.g. `TZ="America/New_York" date "+%Y-%m-%d %A"`) rather than trusting the raw system date. Every `{YYYY-MM-DD}`, `{Day}`, commit-message date, and JSON `date`/`generatedAt` field uses ET. `generatedAt` carries the ET offset (`-04:00` EDT / `-05:00` EST).
+
 ---
 
 ## Morning brief
@@ -22,7 +24,7 @@ Triggers: "what's today", "today's workout", "workout of the day", "give me the 
 
 ### Steps
 
-1. Resolve **today's date and day-of-week** from the system context.
+1. Resolve **today's date and day-of-week** in **US Eastern time** (America/New_York) — convert the system-context timestamp to ET first; do not trust a raw UTC date, which can read one day ahead in the evening.
 2. Read `program.md` and `Tracker.md` **in full** (not partial — context matters).
 3. Determine **week number and phase** from `Tracker.md ## Status` + most-recent log entries cross-referenced against `program.md §1`.
 4. Look up today's session via `program.md §2` (weekly template) + the phase-specific section (`§4.B` Reset / `§4.C` Base / `§4.D` Build / `§4.E` Sharpen / `§2.C` Taper for cardio; `§3.A`/`§3.B` for lifts).
