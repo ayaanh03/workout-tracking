@@ -1,33 +1,35 @@
 {
-  "generatedAt": "2026-05-28T07:30:00-04:00",
+  "generatedAt": "2026-05-29T13:38:00-04:00",
   "week": "W6",
-  "day": "Thu",
-  "date": "2026-05-28",
+  "day": "Fri",
+  "date": "2026-05-29",
   "phase": "Base",
-  "sessionName": "Z1 easy run 30 min",
+  "sessionName": "30 min progression run (last 10 @ M)",
   "intro": [
-    "First Thursday recovery Z1 under the §2.A revision (2026-05-27) — Hyp A is now Wed (logged 5/27), Wed is rest, and Thu is the relocated midweek easy run (no longer flex-rest unless yellow/red per §11.C).",
-    "Pace honesty is the watch-item: short Z1 runs have crept past the §4.A floor (W5 Mon 9:21, W5 Fri 9:35) while the W5 Sat long held 10:04. Aim mid-band today (Adj #9 — also: HR off-191 zones skew low; nasal-gate is the physiological reference)."
+    "W6 Fri quality day #2 per §4.C — 30 min progression: ease in at Z1, build down, hold the last 10 min at Marathon pace (8:30/mi, §4.A). No VO2max in Base yet; this is the controlled aerobic-power session.",
+    "No lift today (Wed is the standalone Hyp A under the §2.A revision; Sat is Hyp B). Cardio only.",
+    "Discipline is the negative split — don't open at M. Build into it so the last 10 min is the only hard part. Anchor M to pace + RPE, not HR (Adj #9 — off-191 zones skew low for running)."
   ],
   "lift": null,
   "cardio": {
     "flags": [
-      "Pace honesty — keep inside §4.A Z1 9:45–10:45/mi, target ~10:00–10:30/mi; if you drift under 9:45, ease back (Adj #9 — pace-creep pattern, no MHR retest yet).",
-      "Nasal-gate breathing is the Z1 reference until MHR retest (Adj #9). HR will run above the off-191 ≤155 cap — that's the rower-test artifact, not a real ceiling. If nasal breaks, slow down.",
-      "Yellow/red AM → revert to rest (§11.C / §2.A revision); today's first-Thu-run status doesn't override the daily check."
+      "Anchor the M block to pace 8:30/mi + RPE, not HR (Adj #9). HR will run above the off-191 ≤155 cap — that's the rower-test artifact; expect ~165–178 on the M finish by feel, don't chase a number. MHR retest still owed W6–W8.",
+      "Progression, not a tempo from the gun — first ~20 min build easy → M; hold 8:30/mi only for the last 10. Pace honesty held Thu (10:30/mi); open this one honest at the Z1 floor.",
+      "Optional: this is the Fri tempo slot — good first outing to break in the Zoom Fly 6 (0 mi; carbon plate wants 20–30 min easy first, which the build portion covers). Watch calves/Achilles (6mm drop). Or keep the Vomero if you'd rather not test shoes on a quality day.",
+      "Yellow/red AM → downgrade to easy 30 min, push quality to Sat-adjacent or skip (§11.C). Daily check overrides the prescription."
     ],
-    "workout": "30 min continuous Z1, treadmill 1% or flat outdoor",
+    "workout": "30 min progression: ~20 min build from Z1 down to M, then last 10 min @ M pace. Treadmill 1% or flat outdoor.",
     "targets": {
-      "pace": "9:45–10:45/mi (aim 10:00–10:30 to fight creep)",
-      "hr": "Nasal-clean throughout (numbers reference only — Adj #9; off-191 ≤155 cap is artifact)",
-      "cadence": "165–172 spm (don't force 180 at easy)"
+      "pace": "build 10:15 → 8:30/mi over first 20 min; last 10 min @ 8:30/mi (M, §4.A)",
+      "hr": "by pace/RPE not HR (Adj #9); M block ~165–178 expected by feel; off-191 ≤155 cap is artifact",
+      "cadence": "165–172 easy build → 175–182 on the M block (§2.A)"
     },
-    "warmup": "Built-in — first 3–5 min ease into Z1 from walk",
-    "cooldown": "3–5 min easy walk; Tyler twists 3×15 + reverse Tyler 3×15 (SI prehab; McGill optional, not a quality day)",
+    "warmup": "Built-in — first 3–5 min walk into easy Z1, then begin the build. No separate WU needed for a progression.",
+    "cooldown": "5–10 min easy / Z1; Tyler twists 3×15 + reverse Tyler 3×15 + McGill Big 3 5-3-1 (SI prehab on quality days)",
     "cues": [
-      "Nasal breathing is the gate — if it breaks, you're not Z1, slow",
-      "Hold pace ≥9:45/mi; the recent 9:21–9:35 drift is the failure mode to avoid",
-      "Cadence natural 165–172 at easy; quality-day 178–182 doesn't apply",
+      "Negative-split it — every 5 min a touch quicker; the M block should feel earned, not survived",
+      "M pace 8:30 = 'comfortably hard', RPE ~6, breathing rhythmic — if it's RPE 7+ you've drifted toward T, ease to 8:30",
+      "Cadence climbs with pace: 165–172 easy → 175–182 on the M finish, don't force it early",
       "Report AM / during / post SI status post-session"
     ]
   },
