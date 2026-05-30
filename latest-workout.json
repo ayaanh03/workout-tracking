@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T06:30:00-04:00",
+  "generatedAt": "2026-05-30T15:10:00-04:00",
   "week": "W6",
   "day": "Sat",
   "date": "2026-05-30",
@@ -48,17 +48,17 @@
   },
   "currentLoads": [
     { "exercise": "Incline BB", "load": "140 working / TM 165", "lastVerified": "W6 Wed 5/27", "note": "145×5 RIR 0 by mistake, then 140×5/5 RIR 2/1; 140 done at prescribed reps (last set RIR 1, above RPE 7). +5 → 145 next Wed (§5), expect RPE 8-9 — near top of LP, AMRAP/TM re-test due ~W8" },
-    { "exercise": "Lat pulldown", "load": "140 → 145 next Sat", "lastVerified": "W5 Thu 5/21", "note": "Bumped past planned 135 → 140 clean RIR 1 set 3; only 3 sets done — restore 4 next" },
-    { "exercise": "Chest-supp row", "load": "80 → 85 next Sat", "lastVerified": "W5 Thu 5/21", "note": "Adj #12 hold cleared — clean RIR 1 × 3; bump 85 next" },
+    { "exercise": "Lat pulldown", "load": "145 → 150 next Sat", "lastVerified": "W6 Sat 5/30", "note": "145×8/8/8/9 RIR 2/2/1/0 — bumped 140→145, full 4 sets restored (Adj #17 satisfied), clean RIR 1 set 3, set 4 last-set push; bump 150 next" },
+    { "exercise": "Chest-supp row", "load": "85 attempted / 80 working — hold, reassess", "lastVerified": "W6 Sat 5/30", "note": "85×8 RIR 0 then 80×8/8 RIR 0/0 — 85 bump to failure, 80 also failure (regressed vs W5 Thu 80×10 clean); long-run-AM fatigue. Adj #18 NOT satisfied (Adj #36)" },
     { "exercise": "DB lateral raise (Wed Hyp A)", "load": "25 → 27.5 next Wed", "lastVerified": "W6 Wed 5/27", "note": "25×12/12/12/16 RIR 3/3/3/0 — sets 1-3 soft (target RIR 1) + last set 16 reps to failure = light; bump 27.5 (Adj #29)" },
-    { "exercise": "Cable lateral (Sat)", "load": "17.5/side uni → 20 next Sat", "lastVerified": "W5 Thu 5/21", "note": "Bumped 15→17.5 clean RIR 1×3 (Adj #11 satisfied)" },
-    { "exercise": "Preacher curl uni", "load": "55/arm hold-until-clean", "lastVerified": "W6 Wed 5/27", "note": "55×10/10/10 RIR 2/1/0 — reps held 10/10/10 (improved) but set 3 still failure — hold 55 until clean RIR 1 set 3 (Adj #21/#30)" },
-    { "exercise": "Triceps pushdown", "load": "52.5 → 55 next", "lastVerified": "W6 Wed 5/27", "note": "52.5×12/12/12 RIR 2/1/1 — Adj #20 hold satisfied (clean RIR 1 set 3, no failure); bump 55 next (Adj #28)" },
+    { "exercise": "Cable lateral (Sat)", "load": "17.5/side — capped until clean", "lastVerified": "W6 Sat 5/30", "note": "20×12 RIR 0; 17.5×12/12 RIR 0/0 — 20 bump failed, 17.5 also to failure. User directive: permanently 17.5 until clean (Adj #19 reverted, Adj #37)" },
+    { "exercise": "Preacher curl uni", "load": "55/arm hold-until-clean", "lastVerified": "W6 Sat 5/30", "note": "55×12/12/10 RIR 2/1/0 — reps improved sets 1-2 (12/12 vs W6 Wed 10/10) but set 3 still failure — hold 55 until clean RIR 1 set 3 (Adj #21/#30 open)" },
+    { "exercise": "Triceps pushdown", "load": "55 hold-until-clean", "lastVerified": "W6 Sat 5/30", "note": "55×12/12/12 RIR 0/0/0 — bumped 52.5→55, reps held but all 3 sets to failure; hold 55 until clean RIR 1 set 3 (Adj #38)" },
     { "exercise": "Rear-delt fly", "load": "125", "lastVerified": "W6 Wed 5/27", "note": "125×15 RIR 2/1 — holding clean since W4 Tue bump; tighter than prior" },
-    { "exercise": "Seated calf", "load": "325 (HOLD — 335 bump deferred, Achilles)", "lastVerified": "W5 Thu 5/21", "note": "Adj #22 bump to 335 HELD until Achilles AM-clean (Adj #34); keep 325, no last-set-to-failure" },
+    { "exercise": "Seated calf", "load": "325 (335 bump HELD — Achilles)", "lastVerified": "W6 Sat 5/30", "note": "325×12/9/11 RIR 2/0/0 — Adj #34/#40; 335 bump deferred until Achilles AM-clean; set 1 on target but sets 2-3 ran to failure vs the no-failure instruction" },
     { "exercise": "Cable crunch", "load": "65 (working top set)", "lastVerified": "W6 Wed 5/27", "note": "65×12 RIR 4/3/2 — set 3 RIR 2 on target; openers soft → bump-eligible 70 next if set 3 ≥RIR 2 (Adj #32)" },
-    { "exercise": "Hanging straight-leg raise", "load": "BW (progress to 12 reps next)", "lastVerified": "W5 Thu 5/21", "note": "Tightened from BW×10 RIR 3-5 → BW×10 RIR 1; progress reps to 12 or add load" },
-    { "exercise": "Soleus wall-sit", "load": "BW · 60s (HOLD progression, Achilles)", "lastVerified": "W6 Wed 5/27", "note": "Keep 60s × 3; Adj #31 deepen-knee/add-load DEFERRED until Achilles AM-clean (Adj #34) — isometric is tendon-friendly, kept" },
+    { "exercise": "Hanging straight-leg raise", "load": "BW @ 12 reps (progress load next)", "lastVerified": "W6 Sat 5/30", "note": "BW×12 ×3 — progressed 10→12 reps (Adj #41 satisfied); add load or progress further next" },
+    { "exercise": "Soleus wall-sit", "load": "BW · 60s (HOLD progression, Achilles)", "lastVerified": "W6 Wed 5/27", "note": "Skipped W6 Sat (Adj #42); keep 60s × 3, Adj #31 deepen-knee/add-load DEFERRED until Achilles AM-clean (Adj #34) — isometric is tendon-friendly" },
     { "exercise": "Chest Fly", "load": "130", "lastVerified": "W5 Thu 5/21", "note": "Accessory — holding 130" }
   ]
 }
