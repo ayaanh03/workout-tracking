@@ -1,36 +1,49 @@
 {
-  "generatedAt": "2026-05-29T13:38:00-04:00",
+  "generatedAt": "2026-05-30T06:30:00-04:00",
   "week": "W6",
-  "day": "Fri",
-  "date": "2026-05-29",
+  "day": "Sat",
+  "date": "2026-05-30",
   "phase": "Base",
-  "sessionName": "30 min progression run (last 10 @ M)",
+  "sessionName": "Long Z1 ~40 min (Vomero, flat) AM + Hyp B PM — Achilles-modified",
   "intro": [
-    "W6 Fri quality day #2 per §4.C — 30 min progression: ease in at Z1, build down, hold the last 10 min at Marathon pace (8:30/mi, §4.A). No VO2max in Base yet; this is the controlled aerobic-power session.",
-    "No lift today (Wed is the standalone Hyp A under the §2.A revision; Sat is Hyp B). Cardio only.",
-    "Discipline is the negative split — don't open at M. Build into it so the last 10 min is the only hard part. Anchor M to pace + RPE, not HR (Adj #9 — off-191 zones skew low for running)."
+    "Achilles AM soreness today — moderate, dull, bilateral, present with both shoes (Adj #33/#34). Not sharp, not worsening = load-intolerant, not injured. Path is load management, not rest: strip today's Achilles spikes, keep the isometric, reassess Sun AM (24-hour rule).",
+    "Long run trimmed 55 → ~40 min, flat Z1, no strides/surge — and in the Vomero, not the Zoom Fly 6 (higher drop = less Achilles strain; Adj #34). Hyp B keeps the seated calf light/no-failure and holds the soleus progression; everything non-Achilles bumps as planned.",
+    "Reassess Sun AM: no worse than today → dose was right; worse → step down (cross-train Z1, drop calf work). Accutane raises tendon risk (§11.E) — escalate on sharp pain / swelling / sudden weakness."
   ],
-  "lift": null,
+  "lift": {
+    "table": [
+      { "exercise": "Lat pulldown", "setsReps": "4×8–10", "load": "145", "rir": "1 (last set)", "rest": "90–120s", "cue": "Bump 140→145 (Adj #17); restore full 4 sets" },
+      { "exercise": "Chest-supp row", "setsReps": "3×10", "load": "85", "rir": "1–2", "rest": "90–120s", "cue": "Bump 80→85 (Adj #18)" },
+      { "exercise": "Cable lateral (uni)", "setsReps": "3×12–15", "load": "20/side", "rir": "1", "rest": "60–90s", "cue": "Bump 17.5→20/side (Adj #19)" },
+      { "exercise": "Preacher curl (uni)", "setsReps": "3×12", "load": "55/arm", "rir": "1–2", "rest": "60–90s", "cue": "Hold 55 until clean RIR 1 set 3 (Adj #21/#30)" },
+      { "exercise": "Triceps pushdown (rope)", "setsReps": "3×12–15", "load": "55", "rir": "1–2", "rest": "60–90s", "cue": "Bump 52.5→55 (Adj #28)" },
+      { "exercise": "Hanging straight-leg raise", "setsReps": "3×12", "load": "BW", "rir": "1", "rest": "60–90s", "cue": "Progress reps 10→12" },
+      { "exercise": "Seated calf raise", "setsReps": "3×12", "load": "325 (HOLD — no 335 bump)", "rir": "2–3", "rest": "60–90s", "cue": "ACHILLES: hold 325, NO last-set-to-failure, controlled eccentric (Adj #34); 335 bump held until AM-clean" },
+      { "exercise": "Soleus wall-sit", "setsReps": "3×60s", "load": "BW", "rir": "—", "rest": "60s", "cue": "ACHILLES: keep 60s, HOLD progression — no deeper knee / no added load (Adj #34); isometric is tendon-friendly" },
+      { "exercise": "Chest fly", "setsReps": "2×12", "load": "130", "rir": "1–2", "rest": "60–90s", "cue": "Optional accessory; drop first if time-capped" }
+    ],
+    "warmup": "General: 1–2 min band pull-aparts, scap push-ups. Wrist-extensor isometric 3×30s/arm pre-lift (§10.A).",
+    "cooldown": "SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1"
+  },
   "cardio": {
     "flags": [
-      "Anchor the M block to pace 8:30/mi + RPE, not HR (Adj #9). HR will run above the off-191 ≤155 cap — that's the rower-test artifact; expect ~165–178 on the M finish by feel, don't chase a number. MHR retest still owed W6–W8.",
-      "Progression, not a tempo from the gun — first ~20 min build easy → M; hold 8:30/mi only for the last 10. Pace honesty held Thu (10:30/mi); open this one honest at the Z1 floor.",
-      "Optional: this is the Fri tempo slot — good first outing to break in the Zoom Fly 6 (0 mi; carbon plate wants 20–30 min easy first, which the build portion covers). Watch calves/Achilles (6mm drop). Or keep the Vomero if you'd rather not test shoes on a quality day.",
-      "Yellow/red AM → downgrade to easy 30 min, push quality to Sat-adjacent or skip (§11.C). Daily check overrides the prescription."
+      "ACHILLES (Adj #34): long run trimmed 55 → ~40 min, flat, Z1 only, NO strides / surge / hills. Energy-storage loads spike the tendon most — keep it boring.",
+      "SHOE: Vomero Plus, NOT the Zoom Fly 6 (Adj #34). Higher stack + 8mm drop vs the Zoom Fly's 6mm = less Achilles dorsiflexion strain. Reserve the carbon/low-drop shoe for short tempo while reactive.",
+      "Anchor Z1 by pace/RPE, not HR (Adj #9 — off-191 zones skew low for running). HR will read above the ≤155 cap; that's the rower-test artifact.",
+      "Reassess Sun AM (24-h rule): no worse → dose was right; worse → cross-train Z1 / drop calf work, and per §11.E flag sharp pain / swelling / sudden weakness (Accutane tendon risk)."
     ],
-    "workout": "30 min progression: ~20 min build from Z1 down to M, then last 10 min @ M pace. Treadmill 1% or flat outdoor.",
+    "workout": "~40 min easy continuous, flat, Vomero Plus (trimmed from 55 min, Adj #34). No strides.",
     "targets": {
-      "pace": "build 10:15 → 8:30/mi over first 20 min; last 10 min @ 8:30/mi (M, §4.A)",
-      "hr": "by pace/RPE not HR (Adj #9); M block ~165–178 expected by feel; off-191 ≤155 cap is artifact",
-      "cadence": "165–172 easy build → 175–182 on the M block (§2.A)"
+      "pace": "9:45–10:45/mi (§4.A Z1) — honest floor, no creep",
+      "hr": "by pace/RPE not HR (Adj #9); off-191 ≤155 cap is artifact",
+      "cadence": "165–172 spm (natural Z1 band)"
     },
-    "warmup": "Built-in — first 3–5 min walk into easy Z1, then begin the build. No separate WU needed for a progression.",
-    "cooldown": "5–10 min easy / Z1; Tyler twists 3×15 + reverse Tyler 3×15 + McGill Big 3 5-3-1 (SI prehab on quality days)",
+    "warmup": "3–5 min walk into easy Z1; built-in, no separate WU.",
+    "cooldown": "5 min easy walk; SI prehab if not done after the lift. Gentle, no aggressive calf stretching on a reactive tendon.",
     "cues": [
-      "Negative-split it — every 5 min a touch quicker; the M block should feel earned, not survived",
-      "M pace 8:30 = 'comfortably hard', RPE ~6, breathing rhythmic — if it's RPE 7+ you've drifted toward T, ease to 8:30",
-      "Cadence climbs with pace: 165–172 easy → 175–182 on the M finish, don't force it early",
-      "Report AM / during / post SI status post-session"
+      "Keep it flat and easy — this is a recovery-dose long run today, not a pace day",
+      "Stop the run if soreness turns sharp or worsens mid-run (Achilles, not normal easy-run dullness)",
+      "Report AM / during / post Achilles + SI status post-session — the Sun AM read drives the next call"
     ]
   },
   "currentLoads": [
@@ -42,10 +55,10 @@
     { "exercise": "Preacher curl uni", "load": "55/arm hold-until-clean", "lastVerified": "W6 Wed 5/27", "note": "55×10/10/10 RIR 2/1/0 — reps held 10/10/10 (improved) but set 3 still failure — hold 55 until clean RIR 1 set 3 (Adj #21/#30)" },
     { "exercise": "Triceps pushdown", "load": "52.5 → 55 next", "lastVerified": "W6 Wed 5/27", "note": "52.5×12/12/12 RIR 2/1/1 — Adj #20 hold satisfied (clean RIR 1 set 3, no failure); bump 55 next (Adj #28)" },
     { "exercise": "Rear-delt fly", "load": "125", "lastVerified": "W6 Wed 5/27", "note": "125×15 RIR 2/1 — holding clean since W4 Tue bump; tighter than prior" },
-    { "exercise": "Seated calf", "load": "325 → 335 next Sat", "lastVerified": "W5 Thu 5/21", "note": "Adj #4 satisfied — bumped 315→325 clean ×4 (set 3 hit 14 reps); bump 335 next" },
+    { "exercise": "Seated calf", "load": "325 (HOLD — 335 bump deferred, Achilles)", "lastVerified": "W5 Thu 5/21", "note": "Adj #22 bump to 335 HELD until Achilles AM-clean (Adj #34); keep 325, no last-set-to-failure" },
     { "exercise": "Cable crunch", "load": "65 (working top set)", "lastVerified": "W6 Wed 5/27", "note": "65×12 RIR 4/3/2 — set 3 RIR 2 on target; openers soft → bump-eligible 70 next if set 3 ≥RIR 2 (Adj #32)" },
     { "exercise": "Hanging straight-leg raise", "load": "BW (progress to 12 reps next)", "lastVerified": "W5 Thu 5/21", "note": "Tightened from BW×10 RIR 3-5 → BW×10 RIR 1; progress reps to 12 or add load" },
-    { "exercise": "Soleus wall-sit", "load": "BW · 60s", "lastVerified": "W6 Wed 5/27", "note": "Adj #14/#23 satisfied — restored + pushed to 60s 'pretty easy'; deepen knee ~80° or add load next" },
+    { "exercise": "Soleus wall-sit", "load": "BW · 60s (HOLD progression, Achilles)", "lastVerified": "W6 Wed 5/27", "note": "Keep 60s × 3; Adj #31 deepen-knee/add-load DEFERRED until Achilles AM-clean (Adj #34) — isometric is tendon-friendly, kept" },
     { "exercise": "Chest Fly", "load": "130", "lastVerified": "W5 Thu 5/21", "note": "Accessory — holding 130" }
   ]
 }

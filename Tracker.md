@@ -59,6 +59,12 @@ Max HR **191 bpm** locked W3 Fri 2026-05-08 (rower, peak on effort 1). True runn
 31. **Soleus wall-sit owed dose satisfied W6 Wed 5/27** (60s × 3, "pretty easy") — restored and pushed duration to 60s from the skipped W5 Thu / 45s RIR 5 baseline; **Adj #14/#23 satisfied**. Still low RPE → deepen knee angle (~80°) or add load/duration next.
 32. **Cable crunch clean at 65 W6 Wed 5/27** (65×12 RIR 4/3/2) — set 3 hit the RIR 2 target; openers soft (RIR 4/3) → **bump-eligible 70 next Wed** if set 3 stays ≥RIR 2.
 33. **Zoom Fly 6 first run W6 Fri 5/29** — 30-min progression (3.26 mi) was the shoe's debut (0 → 3.26 mi); 30 min satisfies the 20–30 min carbon-plate break-in per the Shoe Rotation note. **Fit clean** (no heel-slip / hot spots / forefoot issues). 6mm drop vs 8mm Vaporfly / 9mm Invincible. **Achilles: low-grade bilateral soreness reported — but present with BOTH shoes (Vomero + Zoom Fly 6), so NOT a Zoom Fly 6 break-in artifact.** It's a standing bilateral Achilles load signal, not shoe-specific — likely the mileage ramp (~14→17 mpw) + soleus wall-sit dosing loading the calf/Achilles complex. Not acute, no sharp/AM-stiffness pain reported. **Monitor:** if it climbs to sharp pain or AM stiffness, hold soleus progression and check mileage bump (§11.D). Shoe-attribution closed — Zoom Fly 6 cleared for the Fri slot.
+34. **Achilles AM soreness — moderate, load-managed W6 Sat 5/30.** Morning soreness now present (the Adj #33 monitor trigger fired): **bilateral, dull, lingers through the morning, NOT sharp, not tender-to-pinch, not clearly worse than yesterday** = moderate / load-intolerant, not injured. Path = **load management, not rest** (tendons decondition + worsen on full rest); strip today's Achilles *spikes*, keep isometric load, reassess Sun AM via the 24-hour pain-response rule. Today's modifications:
+    - **Long run (AM):** trim 55 → ~40 min, flat, **Z1 only**, **no strides/surge/hills**; **shoe = Vomero Plus, NOT Zoom Fly 6** (higher stack + 8mm drop vs 6mm = less Achilles dorsiflexion strain).
+    - **Seated calf raise (Hyp B):** **HOLD 335 bump (Adj #22 held) — keep 325, 3×12 RIR 2–3, NO last-set-to-failure**, controlled eccentric. Biggest direct Achilles spike of the week → neutered, not skipped.
+    - **Soleus wall-sit:** **KEEP 60s × 3, HOLD progression** (defer the Adj #31 deepen-knee/add-load) — isometric is tendon-friendly, worth keeping.
+    - **All non-Achilles bumps proceed:** lat 145 + restore 4 sets (Adj #17), chest-supp row 85 (Adj #18), cable lat 20/side (Adj #19), preacher 55 hold (Adj #21), tri pushdown 55 (Adj #28), hanging SLR → 12.
+    - **Shoe rule:** Zoom Fly 6 reserved for short tempo only while Achilles reactive; long/easy runs in Vomero. **Mileage:** don't bump W7 mileage while reactive (§11.D). **Accutane (§11.E):** bilateral tendon soreness on isotretinoin — monitor; escalate on sharp pain / swelling / sudden weakness / muscle pain >72h. Holds (calf bump, soleus progression) persist until Achilles is AM-clean.
 
 ---
 
@@ -270,7 +276,7 @@ Max HR **191 bpm** locked W3 Fri 2026-05-08 (rower, peak on effort 1). True runn
 |---|---|---|---|---|
 |Vaporfly Next% 2|pre-program|~3|~150|race day only|
 |Vomero Plus|2026-05-03|0|~450|daily trainer (Tue easy / Sat long / recovery)|
-|Zoom Fly 6|2026-05-03|~3|~300|tempo / threshold (Fri) — first run W6 Fri 5/29 (carbon break-in done; watch calf/Achilles AM)|
+|Zoom Fly 6|2026-05-03|~3|~300|tempo / threshold (Fri) — first run W6 Fri 5/29; **short tempo only while Achilles reactive (Adj #34)** — long/easy in Vomero|
 |Invincible 3|pre-program|~200|RETIRED|foam suspect-dead|
 
 Break-in: Vomero first run (Tue Z1) OK. Zoom Fly 6 needs 20–30 min easy break-in (carbon plate). 6mm drop on new vs 8mm Vaporfly / 9mm Invincible — watch calves/Achilles W3-W4. Track per shoe: heel hold, forefoot fit, hot spots, next-AM soreness.
