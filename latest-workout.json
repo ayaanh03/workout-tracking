@@ -4,23 +4,23 @@
   "day": "Mon",
   "date": "2026-06-01",
   "phase": "Base",
-  "sessionName": "Z1 easy run 40 min + strides — Achilles-gated; hill-stride debut decision",
+  "sessionName": "Z1 easy ~35 min + 4×20s flat strides (Achilles load-managed)",
   "intro": [
-    "W7 Mon, Base (§4.C W7): Z1 easy run + strides, no lift. This is the first scheduled hill-stride session — the §3.C/§11.A SI gate is met (3 consecutive clean weeks banked 5/24) and they were held W6 to reset flat-stride cadence (Adj #25).",
-    "GATING FLAG — Achilles still reactive (Adj #34). The Sun AM 5/31 24-hour recheck (Adj #43) that decides today's call is not in the log yet — report it (AM no-worse vs worse) before deciding. Recommended default while reactive: HOLD the hill-stride debut and keep mileage ~35 min, not the prescribed 40. Hill strides are concentric calf/Achilles load, and §11.D bars adding a new lower-body NM stressor in the same week as a mileage bump — so defer them until the Achilles is AM-clean, consistent with the calf 335 / soleus holds (Adj #34/#40/#42).",
-    "If Sun/this-AM Achilles is no-worse: easy Z1, flat, Vomero Plus, ~35 min, flat strides only (per Adj #25 cadence cap). If worse: cross-train Z1 or shorten, drop strides, and per §11.E flag sharp pain / swelling / sudden weakness (Accutane tendon risk)."
+    "W7 Mon, Base (§4.C W7): Z1 easy run + strides, no lift.",
+    "Achilles AM read in (Adj #43): slight waking soreness that cleared once walking started = no-worse / improving vs W6 Sat's lingering soreness. Per the 24-hour rule (Adj #34) the load-management dose held → green to run. GO: ~35 min easy, flat Z1, Vomero Plus, plus 4×20s flat strides.",
+    "HILL STRIDES STILL HELD. The §3.C/§11.A SI gate is met (3 clean weeks banked 5/24) and they're scheduled W7 Mon, but 'clears with walking' is improving, not strictly AM-clean, and W7 is a mileage-bump week (§11.D bars a new lower-body NM stressor the same week as a mileage bump). Defer the debut until a clean AM — same bar as the calf 335 / soleus holds (Adj #40/#42). Mileage held ~35, not the prescribed 40, while still slightly reactive."
   ],
   "lift": null,
   "cardio": {
     "flags": [
-      "ACHILLES GATE (Adj #34/#43): report the Sun AM 5/31 recheck + this morning's status first. No-worse → run the load-managed dose below; worse → cross-train Z1 / shorten, drop strides (Adj #43), escalate per §11.E on sharp pain / swelling / sudden weakness.",
-      "HILL STRIDES — HOLD recommended this week. W7 Mon is the scheduled debut (SI gate met) but the Achilles is reactive and W7 is a mileage-ramp week; §11.D = no new lower-body NM exercise the same week as a mileage bump. Defer until Achilles AM-clean. Keep flat strides only if strides are run at all.",
-      "MILEAGE: hold ~35 min (do NOT bump to the prescribed 40) while Achilles reactive — mileage held W6 for the same reason (§11.D).",
+      "ACHILLES (Adj #34/#43): AM read in — slightly sore, cleared on walking = no-worse / improving. Dose held → run the load-managed session. Stop and reassess if soreness turns sharp or worsens mid-run; escalate per §11.E on swelling / sudden weakness (Accutane tendon risk).",
+      "HILL STRIDES — HELD. W7 Mon is the scheduled debut (SI gate met) but 'clears with walking' is improving, not strictly AM-clean, and W7 is a mileage-ramp week; §11.D = no new lower-body NM exercise the same week as a mileage bump. Defer until a clean AM. Flat strides today instead.",
+      "MILEAGE: held ~35 min (not the prescribed 40) while still slightly reactive — same call as W6 (§11.D).",
       "SHOE: Vomero Plus, not the Zoom Fly 6 (Adj #34) — higher stack + 8mm drop = less Achilles dorsiflexion strain. Reserve the carbon/low-drop shoe for short tempo while reactive.",
-      "STRIDES (only if Achilles no-worse and you run flat strides): cadence cap ≤180 spm (178–182 band), don't dip pace under ~6:00/mi — rep-3 overshoot to 196 spm has recurred (Adj #25).",
+      "STRIDES (flat, 4×20s): cadence cap ≤180 spm (178–182 band), don't dip pace under ~6:00/mi — rep-3 overshoot to 196 spm has recurred (Adj #25).",
       "Anchor Z1 by pace/RPE, not HR — off-191 zones skew low for running (Adj #9). Run-MHR retest still owed W6–W8 (now W7)."
     ],
-    "workout": "~35 min easy continuous, flat, Z1, Vomero Plus (held under the prescribed 40 while Achilles reactive). Hill strides HELD; flat strides 4×20s only if Achilles no-worse, else none.",
+    "workout": "~35 min easy continuous, flat, Z1, Vomero Plus (held under the prescribed 40 while Achilles reactive) + 4×20s flat strides. Hill strides HELD until AM-clean.",
     "targets": {
       "pace": "9:45–10:45/mi (§4.A Z1) — honest floor, no creep",
       "hr": "by pace/RPE not HR (Adj #9); off-191 ≤155 cap is a rower-test artifact",
