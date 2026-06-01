@@ -1,49 +1,37 @@
 {
-  "generatedAt": "2026-05-30T15:10:00-04:00",
-  "week": "W6",
-  "day": "Sat",
-  "date": "2026-05-30",
+  "generatedAt": "2026-06-01T11:05:00-04:00",
+  "week": "W7",
+  "day": "Mon",
+  "date": "2026-06-01",
   "phase": "Base",
-  "sessionName": "Long Z1 ~40 min (Vomero, flat) AM + Hyp B PM — Achilles-modified",
+  "sessionName": "Z1 easy run 40 min + strides — Achilles-gated; hill-stride debut decision",
   "intro": [
-    "Achilles AM soreness today — moderate, dull, bilateral, present with both shoes (Adj #33/#34). Not sharp, not worsening = load-intolerant, not injured. Path is load management, not rest: strip today's Achilles spikes, keep the isometric, reassess Sun AM (24-hour rule).",
-    "Long run trimmed 55 → ~40 min, flat Z1, no strides/surge — and in the Vomero, not the Zoom Fly 6 (higher drop = less Achilles strain; Adj #34). Hyp B keeps the seated calf light/no-failure and holds the soleus progression; everything non-Achilles bumps as planned.",
-    "Reassess Sun AM: no worse than today → dose was right; worse → step down (cross-train Z1, drop calf work). Accutane raises tendon risk (§11.E) — escalate on sharp pain / swelling / sudden weakness."
+    "W7 Mon, Base (§4.C W7): Z1 easy run + strides, no lift. This is the first scheduled hill-stride session — the §3.C/§11.A SI gate is met (3 consecutive clean weeks banked 5/24) and they were held W6 to reset flat-stride cadence (Adj #25).",
+    "GATING FLAG — Achilles still reactive (Adj #34). The Sun AM 5/31 24-hour recheck (Adj #43) that decides today's call is not in the log yet — report it (AM no-worse vs worse) before deciding. Recommended default while reactive: HOLD the hill-stride debut and keep mileage ~35 min, not the prescribed 40. Hill strides are concentric calf/Achilles load, and §11.D bars adding a new lower-body NM stressor in the same week as a mileage bump — so defer them until the Achilles is AM-clean, consistent with the calf 335 / soleus holds (Adj #34/#40/#42).",
+    "If Sun/this-AM Achilles is no-worse: easy Z1, flat, Vomero Plus, ~35 min, flat strides only (per Adj #25 cadence cap). If worse: cross-train Z1 or shorten, drop strides, and per §11.E flag sharp pain / swelling / sudden weakness (Accutane tendon risk)."
   ],
-  "lift": {
-    "table": [
-      { "exercise": "Lat pulldown", "setsReps": "4×8–10", "load": "145", "rir": "1 (last set)", "rest": "90–120s", "cue": "Bump 140→145 (Adj #17); restore full 4 sets" },
-      { "exercise": "Chest-supp row", "setsReps": "3×10", "load": "85", "rir": "1–2", "rest": "90–120s", "cue": "Bump 80→85 (Adj #18)" },
-      { "exercise": "Cable lateral (uni)", "setsReps": "3×12–15", "load": "20/side", "rir": "1", "rest": "60–90s", "cue": "Bump 17.5→20/side (Adj #19)" },
-      { "exercise": "Preacher curl (uni)", "setsReps": "3×12", "load": "55/arm", "rir": "1–2", "rest": "60–90s", "cue": "Hold 55 until clean RIR 1 set 3 (Adj #21/#30)" },
-      { "exercise": "Triceps pushdown (rope)", "setsReps": "3×12–15", "load": "55", "rir": "1–2", "rest": "60–90s", "cue": "Bump 52.5→55 (Adj #28)" },
-      { "exercise": "Hanging straight-leg raise", "setsReps": "3×12", "load": "BW", "rir": "1", "rest": "60–90s", "cue": "Progress reps 10→12" },
-      { "exercise": "Seated calf raise", "setsReps": "3×12", "load": "325 (HOLD — no 335 bump)", "rir": "2–3", "rest": "60–90s", "cue": "ACHILLES: hold 325, NO last-set-to-failure, controlled eccentric (Adj #34); 335 bump held until AM-clean" },
-      { "exercise": "Soleus wall-sit", "setsReps": "3×60s", "load": "BW", "rir": "—", "rest": "60s", "cue": "ACHILLES: keep 60s, HOLD progression — no deeper knee / no added load (Adj #34); isometric is tendon-friendly" },
-      { "exercise": "Chest fly", "setsReps": "2×12", "load": "130", "rir": "1–2", "rest": "60–90s", "cue": "Optional accessory; drop first if time-capped" }
-    ],
-    "warmup": "General: 1–2 min band pull-aparts, scap push-ups. Wrist-extensor isometric 3×30s/arm pre-lift (§10.A).",
-    "cooldown": "SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1"
-  },
+  "lift": null,
   "cardio": {
     "flags": [
-      "ACHILLES (Adj #34): long run trimmed 55 → ~40 min, flat, Z1 only, NO strides / surge / hills. Energy-storage loads spike the tendon most — keep it boring.",
-      "SHOE: Vomero Plus, NOT the Zoom Fly 6 (Adj #34). Higher stack + 8mm drop vs the Zoom Fly's 6mm = less Achilles dorsiflexion strain. Reserve the carbon/low-drop shoe for short tempo while reactive.",
-      "Anchor Z1 by pace/RPE, not HR (Adj #9 — off-191 zones skew low for running). HR will read above the ≤155 cap; that's the rower-test artifact.",
-      "Reassess Sun AM (24-h rule): no worse → dose was right; worse → cross-train Z1 / drop calf work, and per §11.E flag sharp pain / swelling / sudden weakness (Accutane tendon risk)."
+      "ACHILLES GATE (Adj #34/#43): report the Sun AM 5/31 recheck + this morning's status first. No-worse → run the load-managed dose below; worse → cross-train Z1 / shorten, drop strides (Adj #43), escalate per §11.E on sharp pain / swelling / sudden weakness.",
+      "HILL STRIDES — HOLD recommended this week. W7 Mon is the scheduled debut (SI gate met) but the Achilles is reactive and W7 is a mileage-ramp week; §11.D = no new lower-body NM exercise the same week as a mileage bump. Defer until Achilles AM-clean. Keep flat strides only if strides are run at all.",
+      "MILEAGE: hold ~35 min (do NOT bump to the prescribed 40) while Achilles reactive — mileage held W6 for the same reason (§11.D).",
+      "SHOE: Vomero Plus, not the Zoom Fly 6 (Adj #34) — higher stack + 8mm drop = less Achilles dorsiflexion strain. Reserve the carbon/low-drop shoe for short tempo while reactive.",
+      "STRIDES (only if Achilles no-worse and you run flat strides): cadence cap ≤180 spm (178–182 band), don't dip pace under ~6:00/mi — rep-3 overshoot to 196 spm has recurred (Adj #25).",
+      "Anchor Z1 by pace/RPE, not HR — off-191 zones skew low for running (Adj #9). Run-MHR retest still owed W6–W8 (now W7)."
     ],
-    "workout": "~40 min easy continuous, flat, Vomero Plus (trimmed from 55 min, Adj #34). No strides.",
+    "workout": "~35 min easy continuous, flat, Z1, Vomero Plus (held under the prescribed 40 while Achilles reactive). Hill strides HELD; flat strides 4×20s only if Achilles no-worse, else none.",
     "targets": {
       "pace": "9:45–10:45/mi (§4.A Z1) — honest floor, no creep",
-      "hr": "by pace/RPE not HR (Adj #9); off-191 ≤155 cap is artifact",
-      "cadence": "165–172 spm (natural Z1 band)"
+      "hr": "by pace/RPE not HR (Adj #9); off-191 ≤155 cap is a rower-test artifact",
+      "cadence": "165–172 spm easy; strides (if run) ≤180 spm"
     },
     "warmup": "3–5 min walk into easy Z1; built-in, no separate WU.",
-    "cooldown": "5 min easy walk; SI prehab if not done after the lift. Gentle, no aggressive calf stretching on a reactive tendon.",
+    "cooldown": "5 min easy walk; SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1. Gentle, no aggressive calf stretching on a reactive tendon.",
     "cues": [
-      "Keep it flat and easy — this is a recovery-dose long run today, not a pace day",
-      "Stop the run if soreness turns sharp or worsens mid-run (Achilles, not normal easy-run dullness)",
-      "Report AM / during / post Achilles + SI status post-session — the Sun AM read drives the next call"
+      "Keep it flat and easy — recovery aerobic, not a pace day",
+      "Stop if Achilles soreness turns sharp or worsens mid-run (vs normal easy-run dullness)",
+      "Report AM / during / post Achilles + SI status post-session — the AM read drives the hill-stride and mileage calls for the rest of W7"
     ]
   },
   "currentLoads": [
