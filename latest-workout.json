@@ -16,13 +16,14 @@
       "ACHILLES (Adj #34/#43): AM read in — slightly sore, cleared on walking = no-worse / improving. Dose held → run the load-managed session. Stop and reassess if soreness turns sharp or worsens mid-run; escalate per §11.E on swelling / sudden weakness (Accutane tendon risk).",
       "HILL STRIDES — HELD. W7 Mon is the scheduled debut (SI gate met) but 'clears with walking' is improving, not strictly AM-clean, and W7 is a mileage-ramp week; §11.D = no new lower-body NM exercise the same week as a mileage bump. Defer until a clean AM. Flat strides today instead.",
       "MILEAGE: held ~35 min (not the prescribed 40) while still slightly reactive — same call as W6 (§11.D).",
+      "SURFACE: treadmill 0% preferred today over outdoor — softer belt + reduced push-off + flat = less Achilles load (reactive), and it locks Z1 pace (outdoor easy keeps creeping under the 9:45 floor) and avoids the outdoor HR/heat noise (§11.E Accutane heat). Run 0%, NOT the usual 1%.",
       "SHOE: Vomero Plus, not the Zoom Fly 6 (Adj #34) — higher stack + 8mm drop = less Achilles dorsiflexion strain. Reserve the carbon/low-drop shoe for short tempo while reactive.",
       "STRIDES (flat, 4×20s): cadence cap ≤180 spm (178–182 band), don't dip pace under ~6:00/mi — rep-3 overshoot to 196 spm has recurred (Adj #25).",
       "Anchor Z1 by pace/RPE, not HR — off-191 zones skew low for running (Adj #9). Run-MHR retest still owed W6–W8 (now W7)."
     ],
-    "workout": "~35 min easy continuous, flat, Z1, Vomero Plus (held under the prescribed 40 while Achilles reactive) + 4×20s flat strides. Hill strides HELD until AM-clean.",
+    "workout": "~35 min easy continuous, TREADMILL 0% (flat — cuts Achilles dorsiflexion strain + locks Z1 pace; softer belt, less push-off than concrete), Vomero Plus. 4×20s flat strides after — outdoors/flat path if convenient, else on the belt or drop. Hill strides HELD until AM-clean.",
     "targets": {
-      "pace": "9:45–10:45/mi (§4.A Z1) — honest floor, no creep",
+      "pace": "9:45–10:45/mi (§4.A Z1) — lock the belt at the floor, no creep",
       "hr": "by pace/RPE not HR (Adj #9); off-191 ≤155 cap is a rower-test artifact",
       "cadence": "165–172 spm easy; strides (if run) ≤180 spm"
     },
