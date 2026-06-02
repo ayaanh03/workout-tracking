@@ -1,41 +1,31 @@
 {
-  "generatedAt": "2026-06-02T00:15:00-04:00",
+  "generatedAt": "2026-06-02T07:30:00-04:00",
   "week": "W7",
   "day": "Tue",
   "date": "2026-06-02",
   "phase": "Base",
-  "sessionName": "Threshold 3×8 min @ T (90 s rec) + MHR retest finisher",
+  "sessionName": "Hypertrophy A (swapped from Wed)",
   "intro": [
-    "W7 Tue, Base (§4.C W7): threshold run, 3×8 min @ T (90 s jog rec) — longer reps than W6's 5×5. Run only — Hyp A is Wed per §2.A. No lift today.",
-    "RUN-MHR RETEST folded into today (Adj #45/#9). Owed since W6–W8; after the 3×8 T work + a short easy jog, finish with a max-HR effort and capture peak HR. Treat the number as a FLOOR, not a ceiling — a max effort at the end of T work may under-read (W1 rower test: effort 2 couldn't re-hit the effort-1 peak under fatigue).",
-    "Achilles trending clean (Adj #44): Mon read clean during/post — first non-reactive report since the flare. Check the AM read first. The MHR ramp adds concentric calf/Achilles load — if the tendon's sore AM or flares during, drop the finisher (the T work is the priority; MHR can move to a fresh standalone day)."
+    "W7 Tue, Base. SWAP per athlete: lift today, run tomorrow. Hyp A pulled Wed → today; the threshold 3×8 @ T + MHR-retest finisher (Adj #45) moves to Wed with the run. Still no same-day lift/run — Tue is just the no-run day this week instead of Wed, so no §2.A ordering friction.",
+    "Incline BB bumps 140 → 145 today (Adj #27, §5) — expect RPE 8-9, near the top of linear LP; AMRAP/TM re-test due ~W8 deload.",
+    "Soleus progression is Achilles-gated (Adj #44): if the AM Achilles read is clean, deepen knee to ~80° (releases Adj #31); if AM-sore, hold 60s × 3 flat. Calf 335 is a Sat item, not today, and stays held until Achilles AM-clean regardless (Adj #40)."
   ],
-  "lift": null,
-  "cardio": {
-    "flags": [
-      "RUN-MHR RETEST (Adj #45/#9): capture peak HR off the finisher. Floor, not ceiling. If it reads only marginally over 191 → a clean standalone 1500m all-out (or fresh-day treadmill ramp) stays the gold-standard follow-up. If it confirms ≥195–205 → recompute Z2 (≈170–177) / Z3 (≈184–192) per Adj #9 and lift the off-191 Z1 cap. Strong prior evidence already points >191 (W5 Tue T-peak 188, W5 Mon easy-peak 189 nasal-clean, W6 Tue T-peak 183 = 96% of 191).",
-      "T PACE LOCKED 8:00/mi (Adj #26) — don't slow to 8:05–8:10. RPE 7 / RIR 2 and the coolest T-peak in the log (183) confirmed it legit threshold. Hold it even across all three 8-min reps.",
-      "ACHILLES (Adj #44/#34): AM-clean read pending — if clean today it releases the calf 335 / soleus-progression holds at Wed Hyp A. The MHR ramp is a calf/Achilles spike; skip the finisher if AM-sore or if it provokes sharp pain. Escalate per §11.E on swelling / sudden weakness (Accutane tendon risk).",
-      "HR (Adj #9): anchor the T reps by pace/RPE, not the off-191 ≤155 cap (rower-test artifact). Only the finisher is HR-driven.",
-      "SHOE: Zoom Fly 6 acceptable for this short tempo if the Achilles is AM-tolerant (Adj #34 — carbon/low-drop reserved for short tempo); Vomero Plus the conservative pick if reactive. Treadmill 1% needed for the MHR ramp regardless."
+  "lift": {
+    "table": [
+      { "exercise": "Incline BB", "setsReps": "3×5", "load": "145", "rir": "2 (RPE 7)", "rest": "2–3 min", "cue": "+5 from 140 (Adj #27); expect RPE 8-9, top of LP; AMRAP/TM re-test ~W8" },
+      { "exercise": "DB lateral raise", "setsReps": "4×12", "load": "27.5", "rir": "1, last set to failure", "rest": "60–90s", "cue": "bump 25→27.5 (Adj #29); was soft RIR 3 + 16-rep failure" },
+      { "exercise": "Preacher curl uni", "setsReps": "3×10", "load": "55/arm", "rir": "1–2", "rest": "60–90s", "cue": "hold 55 until clean RIR 1 set 3 (Adj #21/#30/#39)" },
+      { "exercise": "Triceps pushdown (V-bar)", "setsReps": "3×12", "load": "55", "rir": "1–2", "rest": "60–90s", "cue": "hold 55 until clean RIR 1 set 3 (Adj #38)" },
+      { "exercise": "Cable crunch", "setsReps": "3×12", "load": "70", "rir": "2", "rest": "60–90s", "cue": "bump 65→70 (Adj #32) only if set 3 holds ≥RIR 2; openers soft" },
+      { "exercise": "Soleus wall-sit", "setsReps": "3×60s", "load": "BW", "rir": "7–8 RPE", "rest": "60s", "cue": "keep 60s; deepen knee ~80° only if Achilles AM-clean (Adj #31 deferred per #34/#44)" },
+      { "exercise": "Rear-delt fly (optional)", "setsReps": "2×15", "load": "125", "rir": "2", "rest": "60–90s", "cue": "holding clean since W4 Tue bump" }
     ],
-    "workout": "3×8 min @ T (8:00/mi), 90 s jog rec → ~3–5 min easy jog → MHR finisher: treadmill 1% incline, ~2–3 min progressive build (climb pace/grade), last 30–60 s flat-out, capture peak HR.",
-    "targets": {
-      "pace": "8:00/mi (T reps) — locked, don't slow (Adj #26)",
-      "hr": "T reps by pace/RPE not HR (Adj #9); finisher = record the peak HR",
-      "cadence": "180 spm on the T work"
-    },
-    "warmup": "1.0–1.5 mi easy build to T pace (§4.A). A proper opener matters — W6 Tue's controlled 167 opener came from a real WU vs W5 Tue's cold 127→180 ramp.",
-    "cooldown": "1.0 mi easy / Z1 after the finisher; SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1. Gentle on the tendon, no aggressive calf stretching.",
-    "cues": [
-      "Hold 8:00/mi even across all three reps — don't let the longer 8-min reps drift fast early.",
-      "Cadence 180 spm on the T work.",
-      "Finisher: build progressively, only the last 30–60 s truly flat-out; get the peak HR number.",
-      "Skip the finisher if the Achilles is reactive AM or flares during — the T session is the deliverable."
-    ]
+    "warmup": "Incline BB ramp: bar×8, 95×5, 115×3, then working. General 1–2 min band pull-aparts / scap push-ups. Pre-lift wrist-extensor isometric 3×30s each arm + Tyler/reverse Tyler (§10.A).",
+    "cooldown": "SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1"
   },
+  "cardio": null,
   "currentLoads": [
-    { "exercise": "Incline BB", "load": "140 working / TM 165", "lastVerified": "W6 Wed 5/27", "note": "145×5 RIR 0 by mistake, then 140×5/5 RIR 2/1; 140 done at prescribed reps (last set RIR 1, above RPE 7). +5 → 145 next Wed (§5), expect RPE 8-9 — near top of LP, AMRAP/TM re-test due ~W8" },
+    { "exercise": "Incline BB", "load": "140 working / TM 165", "lastVerified": "W6 Wed 5/27", "note": "145×5 RIR 0 by mistake, then 140×5/5 RIR 2/1; 140 done at prescribed reps (last set RIR 1, above RPE 7). +5 → 145 this session (§5), expect RPE 8-9 — near top of LP, AMRAP/TM re-test due ~W8" },
     { "exercise": "Lat pulldown", "load": "145 → 150 next Sat", "lastVerified": "W6 Sat 5/30", "note": "145×8/8/8/9 RIR 2/2/1/0 — bumped 140→145, full 4 sets restored (Adj #17 satisfied), clean RIR 1 set 3, set 4 last-set push; bump 150 next" },
     { "exercise": "Chest-supp row", "load": "85 attempted / 80 working — hold, reassess", "lastVerified": "W6 Sat 5/30", "note": "85×8 RIR 0 then 80×8/8 RIR 0/0 — 85 bump to failure, 80 also failure (regressed vs W5 Thu 80×10 clean); long-run-AM fatigue. Adj #18 NOT satisfied (Adj #36)" },
     { "exercise": "DB lateral raise (Wed Hyp A)", "load": "25 → 27.5 next Wed", "lastVerified": "W6 Wed 5/27", "note": "25×12/12/12/16 RIR 3/3/3/0 — sets 1-3 soft (target RIR 1) + last set 16 reps to failure = light; bump 27.5 (Adj #29)" },
@@ -44,7 +34,7 @@
     { "exercise": "Triceps pushdown", "load": "55 hold-until-clean", "lastVerified": "W6 Sat 5/30", "note": "55×12/12/12 RIR 0/0/0 — bumped 52.5→55, reps held but all 3 sets to failure; hold 55 until clean RIR 1 set 3 (Adj #38)" },
     { "exercise": "Rear-delt fly", "load": "125", "lastVerified": "W6 Wed 5/27", "note": "125×15 RIR 2/1 — holding clean since W4 Tue bump; tighter than prior" },
     { "exercise": "Seated calf", "load": "325 (335 bump HELD — Achilles)", "lastVerified": "W6 Sat 5/30", "note": "325×12/9/11 RIR 2/0/0 — Adj #34/#40; 335 bump deferred until Achilles AM-clean; set 1 on target but sets 2-3 ran to failure vs the no-failure instruction" },
-    { "exercise": "Cable crunch", "load": "65 (working top set)", "lastVerified": "W6 Wed 5/27", "note": "65×12 RIR 4/3/2 — set 3 RIR 2 on target; openers soft → bump-eligible 70 next if set 3 ≥RIR 2 (Adj #32)" },
+    { "exercise": "Cable crunch", "load": "65 (working top set)", "lastVerified": "W6 Wed 5/27", "note": "65×12 RIR 4/3/2 — set 3 RIR 2 on target; openers soft → bump-eligible 70 this session if set 3 ≥RIR 2 (Adj #32)" },
     { "exercise": "Hanging straight-leg raise", "load": "BW @ 12 reps (progress load next)", "lastVerified": "W6 Sat 5/30", "note": "BW×12 ×3 — progressed 10→12 reps (Adj #41 satisfied); add load or progress further next" },
     { "exercise": "Soleus wall-sit", "load": "BW · 60s (HOLD progression, Achilles)", "lastVerified": "W6 Wed 5/27", "note": "Skipped W6 Sat (Adj #42); keep 60s × 3, Adj #31 deepen-knee/add-load DEFERRED until Achilles AM-clean (Adj #34) — isometric is tendon-friendly" },
     { "exercise": "Chest Fly", "load": "130", "lastVerified": "W5 Thu 5/21", "note": "Accessory — holding 130" }
