@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-06-01T11:05:00-04:00",
+  "generatedAt": "2026-06-02T00:15:00-04:00",
   "week": "W7",
-  "day": "Mon",
-  "date": "2026-06-01",
+  "day": "Tue",
+  "date": "2026-06-02",
   "phase": "Base",
-  "sessionName": "Z1 easy ~35 min + 4×20s flat strides (Achilles load-managed)",
+  "sessionName": "Threshold 3×8 min @ T (90 s rec) + MHR retest finisher",
   "intro": [
-    "W7 Mon, Base (§4.C W7): Z1 easy run + strides, no lift.",
-    "Achilles AM read in (Adj #43): slight waking soreness that cleared once walking started = no-worse / improving vs W6 Sat's lingering soreness. Per the 24-hour rule (Adj #34) the load-management dose held → green to run. GO: ~35 min easy, flat Z1, Vomero Plus, plus 4×20s flat strides.",
-    "HILL STRIDES STILL HELD. The §3.C/§11.A SI gate is met (3 clean weeks banked 5/24) and they're scheduled W7 Mon, but 'clears with walking' is improving, not strictly AM-clean, and W7 is a mileage-bump week (§11.D bars a new lower-body NM stressor the same week as a mileage bump). Defer the debut until a clean AM — same bar as the calf 335 / soleus holds (Adj #40/#42). Mileage held ~35, not the prescribed 40, while still slightly reactive."
+    "W7 Tue, Base (§4.C W7): threshold run, 3×8 min @ T (90 s jog rec) — longer reps than W6's 5×5. Run only — Hyp A is Wed per §2.A. No lift today.",
+    "RUN-MHR RETEST folded into today (Adj #45/#9). Owed since W6–W8; after the 3×8 T work + a short easy jog, finish with a max-HR effort and capture peak HR. Treat the number as a FLOOR, not a ceiling — a max effort at the end of T work may under-read (W1 rower test: effort 2 couldn't re-hit the effort-1 peak under fatigue).",
+    "Achilles trending clean (Adj #44): Mon read clean during/post — first non-reactive report since the flare. Check the AM read first. The MHR ramp adds concentric calf/Achilles load — if the tendon's sore AM or flares during, drop the finisher (the T work is the priority; MHR can move to a fresh standalone day)."
   ],
   "lift": null,
   "cardio": {
     "flags": [
-      "ACHILLES (Adj #34/#43): AM read in — slightly sore, cleared on walking = no-worse / improving. Dose held → run the load-managed session. Stop and reassess if soreness turns sharp or worsens mid-run; escalate per §11.E on swelling / sudden weakness (Accutane tendon risk).",
-      "HILL STRIDES — HELD. W7 Mon is the scheduled debut (SI gate met) but 'clears with walking' is improving, not strictly AM-clean, and W7 is a mileage-ramp week; §11.D = no new lower-body NM exercise the same week as a mileage bump. Defer until a clean AM. Flat strides today instead.",
-      "MILEAGE: held ~35 min (not the prescribed 40) while still slightly reactive — same call as W6 (§11.D).",
-      "SHOE: Vomero Plus, not the Zoom Fly 6 (Adj #34) — higher stack + 8mm drop = less Achilles dorsiflexion strain. Reserve the carbon/low-drop shoe for short tempo while reactive.",
-      "STRIDES (flat, 4×20s): cadence cap ≤180 spm (178–182 band), don't dip pace under ~6:00/mi — rep-3 overshoot to 196 spm has recurred (Adj #25).",
-      "Anchor Z1 by pace/RPE, not HR — off-191 zones skew low for running (Adj #9). Run-MHR retest still owed W6–W8 (now W7)."
+      "RUN-MHR RETEST (Adj #45/#9): capture peak HR off the finisher. Floor, not ceiling. If it reads only marginally over 191 → a clean standalone 1500m all-out (or fresh-day treadmill ramp) stays the gold-standard follow-up. If it confirms ≥195–205 → recompute Z2 (≈170–177) / Z3 (≈184–192) per Adj #9 and lift the off-191 Z1 cap. Strong prior evidence already points >191 (W5 Tue T-peak 188, W5 Mon easy-peak 189 nasal-clean, W6 Tue T-peak 183 = 96% of 191).",
+      "T PACE LOCKED 8:00/mi (Adj #26) — don't slow to 8:05–8:10. RPE 7 / RIR 2 and the coolest T-peak in the log (183) confirmed it legit threshold. Hold it even across all three 8-min reps.",
+      "ACHILLES (Adj #44/#34): AM-clean read pending — if clean today it releases the calf 335 / soleus-progression holds at Wed Hyp A. The MHR ramp is a calf/Achilles spike; skip the finisher if AM-sore or if it provokes sharp pain. Escalate per §11.E on swelling / sudden weakness (Accutane tendon risk).",
+      "HR (Adj #9): anchor the T reps by pace/RPE, not the off-191 ≤155 cap (rower-test artifact). Only the finisher is HR-driven.",
+      "SHOE: Zoom Fly 6 acceptable for this short tempo if the Achilles is AM-tolerant (Adj #34 — carbon/low-drop reserved for short tempo); Vomero Plus the conservative pick if reactive. Treadmill 1% needed for the MHR ramp regardless."
     ],
-    "workout": "~35 min easy continuous, flat, Z1, Vomero Plus (held under the prescribed 40 while Achilles reactive) + 4×20s flat strides. Hill strides HELD until AM-clean.",
+    "workout": "3×8 min @ T (8:00/mi), 90 s jog rec → ~3–5 min easy jog → MHR finisher: treadmill 1% incline, ~2–3 min progressive build (climb pace/grade), last 30–60 s flat-out, capture peak HR.",
     "targets": {
-      "pace": "9:45–10:45/mi (§4.A Z1) — honest floor, no creep",
-      "hr": "by pace/RPE not HR (Adj #9); off-191 ≤155 cap is a rower-test artifact",
-      "cadence": "165–172 spm easy; strides (if run) ≤180 spm"
+      "pace": "8:00/mi (T reps) — locked, don't slow (Adj #26)",
+      "hr": "T reps by pace/RPE not HR (Adj #9); finisher = record the peak HR",
+      "cadence": "180 spm on the T work"
     },
-    "warmup": "3–5 min walk into easy Z1; built-in, no separate WU.",
-    "cooldown": "5 min easy walk; SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1. Gentle, no aggressive calf stretching on a reactive tendon.",
+    "warmup": "1.0–1.5 mi easy build to T pace (§4.A). A proper opener matters — W6 Tue's controlled 167 opener came from a real WU vs W5 Tue's cold 127→180 ramp.",
+    "cooldown": "1.0 mi easy / Z1 after the finisher; SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1. Gentle on the tendon, no aggressive calf stretching.",
     "cues": [
-      "Keep it flat and easy — recovery aerobic, not a pace day",
-      "Stop if Achilles soreness turns sharp or worsens mid-run (vs normal easy-run dullness)",
-      "Report AM / during / post Achilles + SI status post-session — the AM read drives the hill-stride and mileage calls for the rest of W7"
+      "Hold 8:00/mi even across all three reps — don't let the longer 8-min reps drift fast early.",
+      "Cadence 180 spm on the T work.",
+      "Finisher: build progressively, only the last 30–60 s truly flat-out; get the peak HR number.",
+      "Skip the finisher if the Achilles is reactive AM or flares during — the T session is the deliverable."
     ]
   },
   "currentLoads": [
