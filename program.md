@@ -23,10 +23,10 @@ Running > everything. When goals conflict (e.g. lift volume vs run quality), run
 - **Plyometrics (jumps, bounding, depth jumps), running drills (A/B skips, butt kicks, high knees)** — out for this macrocycle. Speed-specificity evidence (Llanos-Lagos 2024) shows benefit at ≤12 km/h, not at sub-20 race pace; landing impact is SI-incompatible.
 - **OHP** — out (doesn't serve incline bench or any priority muscle).
 - **Free-weight curls, overhead triceps extensions** — out per §10.A tennis elbow (preacher / pushdown only).
+- **Soleus wall-sit isometric** — **retired W7 (2026-06-02) per athlete directive.** Was the Phase A lower-body NM stimulus (Wed + Sat circuits); dropped from both circuits and the volume audit. Hill strides remain the Phase B+ lower-body NM work.
 
 ### What's phase-gated optional (see §3.C and §11.A advance/revert thresholds)
 
-- **Soleus wall-sit isometric** — start now (Phase A safe; zero SI shear, knee-bent).
 - **Hill strides** — start when SI clean ≥3 consecutive weeks AND running has been re-introduced (Phase B+).
 - **Single-leg glute bridge progression to B-stance hip thrust (light)** — start when SI clean ≥4 weeks of running.
 - **Reverse Nordic, Spanish squat / wall sit** — opt-in additions Phase C if Phase B additions were tolerated.
@@ -41,7 +41,7 @@ Running > everything. When goals conflict (e.g. lift volume vs run quality), run
 | **Base** | W5–W12 | Jun 2 – Jul 27 | Aerobic capacity, mileage build, weekly threshold | 14 → 25 mpw | 2 | + Hill strides 1×/wk (gated on SI clean ≥3 wks) |
 | **Build** | W13–W18 | Jul 28 – Sep 7 | Add VO2max intervals; polarized 80/20 | 26 → 35 mpw, peak 38 W17 | 2 | + Optional B-stance hip thrust, reverse Nordic, Spanish squat (gated on Phase B clean) |
 | **Sharpen** | W19–W22 | Sep 8 – Oct 5 | Race-pace specificity | 32–35 mpw | 2 (reduced volume) | Maintain Phase B additions; **no new exercises** |
-| **Taper** | W23–W25 | Oct 6 – Oct 24 | Volume cut 30 → 50%, intensity preserved | 28 → 22 → 14 (race wk) | 1 (W23 only) | Drop hill strides last 10 days; soleus + calf 1×/wk only |
+| **Taper** | W23–W25 | Oct 6 – Oct 24 | Volume cut 30 → 50%, intensity preserved | 28 → 22 → 14 (race wk) | 1 (W23 only) | Drop hill strides last 10 days; seated calf 1×/wk only |
 
 ### 1.1 Test targets W25
 
@@ -61,10 +61,10 @@ Running > everything. When goals conflict (e.g. lift volume vs run quality), run
 |---|---|---|
 | **Mon** | Z1 easy run 30–50 min + 4×20 s strides; **Phase B+: hill strides 6–8 × 10–12 s @ 4–6% grade replaces flat strides 1×/wk** | Recovery aerobic + neuromuscular |
 | **Tue** | **Threshold session** (run or row) — see §4 | Quality day #1 (run only; Hyp A moved to Wed) |
-| **Wed** | **Hypertrophy A** circuit (~40 min) including soleus wall-sit isometric — no run | Lift day. Upper-dominant, so it won't tax Fri's legs |
+| **Wed** | **Hypertrophy A** circuit (~40 min) — no run | Lift day. Upper-dominant, so it won't tax Fri's legs |
 | **Thu** | AM Z1 easy run 25–40 min (the relocated midweek recovery run) | Recovery aerobic. Revert to rest on yellow/red mornings (§11.C) |
 | **Fri** | **VO2max session** (run or row) — see §4 | Quality day #2 |
-| **Sat** | AM Long run. PM (≥6 h gap) **Hypertrophy B** circuit (~40 min) including seated calf + soleus wall-sit | Volume day. Lift well after run, or push to Sun if run was hard |
+| **Sat** | AM Long run. PM (≥6 h gap) **Hypertrophy B** circuit (~40 min) including seated calf | Volume day. Lift well after run, or push to Sun if run was hard |
 | **Sun** | Off, mobility, Tyler twists 3×15 + reverse Tyler 3×15, McGill Big 3 5-3-1 pyramid, daily SI prehab | Walking is fine |
 
 *Revised 2026-05-27 (W6): Hyp A moved Tue → Wed to decouple the lift from the Tue threshold (resolves the recurring Adj #16 same-day lift/run friction); the midweek Z1 easy run moved Wed → Thu. Thu is no longer a flex-rest day — revert to rest only on yellow/red mornings (§11.C). Hyp A stays upper-dominant + soleus (no Fri-leg cost); reassess if a lower-body add lands in the Wed slot (§3.C). Sat double (long run AM + Hyp B PM) unchanged.*
@@ -85,7 +85,7 @@ Same shape, slightly reduced lift volume (drop one circuit/wk if running mileage
 | Quality | 1 T session 3×1 mi + 1 race-pace 5×600m @ 5K pace | 1 short VO2max 5×3 min + 1 race-pace primer 3×800m @ 5K pace | Tue 3×800m @ 5K pace; Thu 4×200m @ goal pace; Fri 20 min EZ + 4 strides |
 | Long run | 50 min Z1 | 40 min Z1 | None |
 | Lift | Wed: 1 top set incline @ ~75% × 3, no accessories. Sat: half-volume hypertrophy B | None | None |
-| Lower-body NM | Hill strides 1× early week only | Drop hill strides; soleus + seated calf 1× | None |
+| Lower-body NM | Hill strides 1× early week only | Drop hill strides; seated calf 1× | None |
 
 ---
 
@@ -102,7 +102,6 @@ Total volume per priority muscle/week is in §6. Logic: 2 sessions/wk × 4–6 s
 | Biceps | Preacher curl machine (§10.A) | 3×10 | RPE 8 | **Biceps** |
 | Triceps | Cable pushdown, V-bar (§10.A) | 3×12 | RPE 8 | **Triceps** |
 | Abs | Cable crunch | 3×12 | RPE 8 | **Abs** |
-| Lower NM | **Soleus wall-sit isometric** | 3×30–45 s | Knee bent ~80°, push through forefoot, RPE 7–8 | Soleus / RE |
 | Optional | Rear-delt fly (cable or pec deck reverse) | 2×15 | RPE 7 | Rear delt (joint health) |
 
 ### 3.B Hypertrophy B (Sat, ~40 min, well-spaced from long run — ideally PM after AM long run, or push to Sun)
@@ -116,12 +115,11 @@ Total volume per priority muscle/week is in §6. Logic: 2 sessions/wk × 4–6 s
 | Triceps | Cable pushdown, rope (vary attachment vs Tue) (§10.A) | 3×12–15 | RPE 8 | **Triceps** |
 | Abs | Hanging knee raise (or decline crunch) | 3×10 | RPE 8 | **Abs** |
 | Calves | Seated calf raise | 4×12–15 | RPE 9, last set to failure | **Calves** |
-| Lower NM | **Soleus wall-sit isometric** | 3×30–45 s | Same as Tue | Soleus / RE |
 | Optional | DB flye or pec deck | 2×12 | RPE 7 | Chest (joint health) |
 
 **Notes:**
 - **Calves are on Sat only** to keep the legs fresh for the Tue threshold. Sat long run is followed by 24 h rest (Sun), so calf soreness clears well before Tue.
-- Total Sat lift time should not exceed 40 min. If it does, drop the optional chest set first; soleus and chest-supported row are protected.
+- Total Sat lift time should not exceed 40 min. If it does, drop the optional chest set first; the chest-supported row is protected.
 - **Both circuits substitute the row** for the threshold/VO2max if SI flares (§7) — the lift schedule does not change.
 
 ### 3.C Phase B/C Optional Lower-Body Adds (gated on §11.A thresholds)
@@ -254,7 +252,7 @@ See §2.C above. Race day Sat Oct 24:
 | **Triceps** | 6–8 | Wed 3 (V-bar pushdown) + Sat 3 (rope pushdown) + 5–8 incidental from incline pressing | MAV; pushdowns only (§10.A) |
 | **Abs** | 6 | Wed 3 (cable crunch) + Sat 3 (hanging knee raise) + Sun McGill Big 3 (counts as 1, not in lift sets) | MEV |
 | **Lats** | 7 (Phase B+) | Sat 4 (lat pulldown) + Sat 3 (chest-supported row, Phase B+) | MEV–MAV; chest-supp row dual-purposes for rear delt |
-| **Calves** | 4 + soleus iso | Sat 4 (seated calf) + 6 sets/wk soleus wall-sit (Wed 3 + Sat 3) | Direct calf MEV; soleus iso adds RE-specific stimulus (Bohm 2021 ~4% RE) |
+| **Calves** | 4 | Sat 4 (seated calf) | Direct calf MEV. (Soleus wall-sit retired W7 per athlete directive — was +6 sets/wk soleus iso for RE; no longer programmed.) |
 | Rear delts (joint health) | 5 | Wed 2 (rear-delt fly) + Sat 3 (chest-supp row overlap) | Health zone |
 | Chest (joint health, growth from incline) | 5–7 | Wed 3 (incline) + Sat 2 (DB flye, optional) | Incidental; will grow despite not being a priority |
 | **Lower-body durability/RE** (Phase B+) | 4–8 sets equivalent | Daily SI prehab (clamshell, single-leg bridge, bird-dog, side-lying abd) + Mon hill strides + opt-in Phase C (B-stance hip thrust, reverse Nordic, Spanish squat) | SI durability + glute max + RE; replaces what dropped squat/trap-bar would have provided |
@@ -262,8 +260,8 @@ See §2.C above. Race day Sat Oct 24:
 **Rules:**
 - 8–15 reps, RPE 8–9, RIR 1–2; last set RIR 0–1 on isolation.
 - Double progression on isolation (8–10 reps clean → +2.5 lb).
-- Rotate accessory exercises every 4–6 wks **except biceps** (locked to preacher per §10.A) and **soleus** (the isometric stimulus is the point; don't rotate).
-- If running quality slips for 2 consecutive weeks, **first cut**: chest (DB flye) and rear-delt fly. **Last to cut**: side delts, calves, biceps, lats, triceps, soleus.
+- Rotate accessory exercises every 4–6 wks **except biceps** (locked to preacher per §10.A).
+- If running quality slips for 2 consecutive weeks, **first cut**: chest (DB flye) and rear-delt fly. **Last to cut**: side delts, calves, biceps, lats, triceps.
 
 ---
 
@@ -294,7 +292,7 @@ Saturday long stays on rower until 2 weeks of pain-free Z1 running. Friday quali
 ### 7.C Flare response during build
 - **Mild** (<3/10, no positive tests): drop one quality session, replace with row, continue.
 - **Moderate** (3–6/10, 1–2 positive tests): full row substitution 5–7 days; restart run progression at –1 step. **Pause all Phase B/C lower-body adds** for the return-to-run weeks.
-- **Severe** (>6/10 or 3+ positive tests): return to Phase 0; consult sports med; **goal downgrades to 21:30**. Drop all lower-body adds; restart from Phase A soleus only.
+- **Severe** (>6/10 or 3+ positive tests): return to Phase 0; consult sports med; **goal downgrades to 21:30**. Drop all lower-body adds; restart from Phase A (upper hypertrophy + daily SI prehab) only.
 
 ---
 
@@ -343,7 +341,7 @@ Goal: keep tendon out of reactive flare while continuing tensile loading.
 - Plyometrics (jumps, bounding, depth jumps).
 - Running drills (A/B skips, butt kicks, high knees).
 
-**Phase-gated allowed** (per §3.C and §11.A): single-leg bridge, B-stance hip thrust (light), reverse Nordic, Spanish squat / wall sit, soleus wall-sit, hill strides on grade ≤6%.
+**Phase-gated allowed** (per §3.C and §11.A): single-leg bridge, B-stance hip thrust (light), reverse Nordic, Spanish squat / wall sit, hill strides on grade ≤6%. (Soleus wall-sit retired W7 — see §0.)
 
 ---
 
@@ -373,7 +371,7 @@ Goal: keep tendon out of reactive flare while continuing tensile loading.
 
 | Phase | Eligible additions | Advance criterion | Revert trigger |
 |---|---|---|---|
-| **A** (now → first run) | Soleus wall-sit only | 3 consecutive SI-clean weeks AND running re-introduced (Phase B per §7.B) | Any SI flare → stay in Phase A |
+| **A** (now → first run) | (was soleus wall-sit — retired W7, see §0) | 3 consecutive SI-clean weeks AND running re-introduced (Phase B per §7.B) | Any SI flare → stay in Phase A |
 | **B** (running re-established) | + Hill strides 1×/wk | 4 consecutive SI-clean weeks of running | SI flare moderate+ → drop hill strides for 2 wks, retry |
 | **C** (Phase B tolerated 4+ wks) | Opt-in: B-stance hip thrust, reverse Nordic, Spanish squat (one at a time, 48-hr test each) | Holds through Sharpen | Any SI symptoms within 48h of new add → drop that exercise |
 | **D** (Sharpen+) | **No new exercises**; maintain only what's working | n/a | Drop new adds last 10 days of taper regardless |
@@ -408,11 +406,11 @@ Sleep 7.5–8 h. Protein 1.6–1.8 g/kg. Carbs 0.5–1 g/kg pre, 1+ g/kg post on
 WEEKLY LANDSCAPE (Base / Build / Sharpen)
 Mon  Easy run + strides (or hill strides Phase B+)
 Tue  THRESHOLD run (or row)           run only
-Wed  Hypertrophy A circuit (no run)   includes soleus wall-sit
+Wed  Hypertrophy A circuit (no run)
 Thu  Easy run                         (revert to rest on yellow/red days)
 Fri  VO2max run (or row)
 Sat  LONG RUN (AM)                  + Hypertrophy B circuit (PM, ≥6h)
-                                      includes seated calf + soleus wall-sit
+                                      includes seated calf
 Sun  Off + Tyler + McGill + clamshells + daily SI prehab
 
 ZONE CROSSWALK (3-zone Seiler ↔ Apple 5-zone)
@@ -437,8 +435,8 @@ Strides:    4–8×~20s controlled-fast, full rec, after easy runs
 Hill strides (Phase B+): 6–8×10–12s @ 4–6% grade, walk down
 
 LOWER-BODY NM PROGRESSION (gates in §11.A)
-Phase A: soleus wall-sit only (Tue + Sat, 3×30–45s)
-Phase B: + hill strides 1×/wk (Mon)
+Phase A: (soleus wall-sit retired W7 — see §0)
+Phase B: hill strides 1×/wk (Mon)
 Phase C: + opt-in B-stance hip thrust / reverse Nordic / Spanish squat
          (one at a time, 48-hr test each)
 Phase D (Sharpen+/Taper): no new exercises
@@ -463,7 +461,6 @@ PERMANENT PROHIBITIONS (this macrocycle)
 - Sauna (Accutane)
 
 PHASE-GATED ALLOWED
-- Soleus wall-sit (now)
 - Hill strides ≤6% grade (Phase B+)
 - Single-leg bridge / B-stance hip thrust light (Phase B+)
 - Reverse Nordic, Spanish squat (Phase C opt-in)
