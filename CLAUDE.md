@@ -37,30 +37,67 @@ Triggers: "what's today", "today's workout", "workout of the day", "give me the 
 
 ### Output format (strict)
 
+The brief is **three tables — Warmup, Work, Cooldown** — each readable row-by-row into the Apple Watch workout app. No multi-line intro, no Targets/Cues paragraphs, no per-exercise Cue column. The only non-table lines are an optional one-line flag at the top and an optional one-line **Notes** at the bottom — each kept *only* when a carry-forward materially changes today, otherwise omitted entirely. Detail/cues get discussed at logging anyway, so don't pre-load them here.
+
+Each block uses **the modality's own columns**. Lift days are unchanged from before; cardio days carry pace/HR/cadence on *every* segment (warmup and cooldown included, not just the work set).
+
+**Lift day** — Warmup/Cooldown use `Segment | Time/Sets | Target`; Work uses `Exercise | Sets×Reps | Load | RIR | Rest`:
+
 ```
 **{Wk} {Day} {YYYY-MM-DD} — {Session name}**
 
-{1–3 line intro: what today is, phase context, key flags from carry-forwards relevant to today. No fluff. Cite Adj # for flags.}
+{Optional ONE line — only if a carry-forward changes today (a bump landing, an ordering rule, a flare caveat). Cite Adj #. Omit otherwise.}
 
-## Lift  (omit if no lift today)
+## Warmup
 
-| Exercise | Sets×Reps | Load | RIR | Rest | Cue |
-|---|---|---|---|---|---|
-| ... | ... | ... | ... | ... | ... |
+| Segment | Time/Sets | Target |
+|---|---|---|
+| ... | ... | ... |
 
-**Warmup:** {ramp sets for any compound + 1–2 min general dynamic}
-**Cooldown:** {SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1}
+## Work
 
-## Cardio  (omit if no cardio today)
+| Exercise | Sets×Reps | Load | RIR | Rest |
+|---|---|---|---|---|
+| ... | ... | ... | ... | ... |
 
-**Flags:** {carry-forward flags — ordering, surface, HR caveats, nasal gate, etc. Cite Adj #.}
-**Workout:** {structure — e.g. "4×5 min @ T, 1 min jog rec, 1% incline"}
-**Targets:** pace {…}, HR {… with caveat if applicable}, cadence {…}
-**Warmup:** {WU prescription per §4.A — e.g. "1.0–1.5 mi easy build to T pace"}
-**Cooldown:** {CD prescription — e.g. "1.0 mi easy / Z1"}
-**Cues:**
-- {2–4 bullets — pacing, form, breathing}
+## Cooldown
+
+| Segment | Time/Sets | Target |
+|---|---|---|
+| ... | ... | ... |
+
+**Notes:** {one line, only if important — bump-eligibility test ("clean RIR 2 on set 3 → bump next"), ordering rule, flare flag. Cite Adj #. Omit if nothing material. Never restate a table.}
 ```
+
+**Cardio day** — all three blocks use `Segment | Time/Dist | Pace | HR | Cadence`; fill pace/HR/cadence on the WU build and CD jog rows too:
+
+```
+**{Wk} {Day} {YYYY-MM-DD} — {Session name}**
+
+{Optional ONE line — carry-forward flag. Cite Adj #. Omit otherwise.}
+
+## Warmup
+
+| Segment | Time/Dist | Pace | HR | Cadence |
+|---|---|---|---|---|
+| ... | ... | ... | ... | ... |
+
+## Work
+
+| Segment | Time/Dist | Pace | HR | Cadence |
+|---|---|---|---|---|
+| ... | ... | ... | ... | ... |
+
+## Cooldown
+
+| Segment | Time/Dist | Pace | HR | Cadence |
+|---|---|---|---|---|
+| ... | ... | ... | ... | ... |
+
+**Notes:** {one line, only if important — surface/nasal-gate caveat, HR caveat, ordering. Cite Adj #. Omit if nothing material.}
+```
+
+**Combined Sat (lift + cardio):** split each block by modality — `### Warmup — Cardio` (cardio columns) + `### Warmup — Lift` (lift columns); two Work tables `### Work — Cardio` / `### Work — Lift`; same for Cooldown.
 
 ### Defaults to apply
 
@@ -76,9 +113,9 @@ Triggers: "what's today", "today's workout", "workout of the day", "give me the 
 
 ### Carry-forward application rules
 
-- A "→ bump next" entry in Current Working Loads that targets today's session **becomes** today's prescribed load — output the new load, note it in the Cue column, and call out the bump in the intro.
-- An "ordering" or "off-protocol" Adjustment that touches today (e.g. Adj #16 "restore run AM, lift PM ≥6h gap") → surface as a Flag in the intro and the relevant section.
-- A "hold-until-clean" Adjustment whose testing instance is today → mark it in the Cue and tell the user what "clean" means here (e.g. "clean RIR 2 on set 3 → bump-eligible next").
+- A "→ bump next" entry in Current Working Loads that targets today's session **becomes** today's prescribed load — output the new load directly in the Load column and call out the bump in the top flag line.
+- An "ordering" or "off-protocol" Adjustment that touches today (e.g. Adj #16 "restore run AM, lift PM ≥6h gap") → surface in the top flag line.
+- A "hold-until-clean" Adjustment whose testing instance is today → put it in **Notes** and state what "clean" means here (e.g. "clean RIR 2 on set 3 → bump-eligible next").
 
 ---
 
@@ -88,7 +125,14 @@ Triggers: user reports what they did — could be a structured dump, a paragraph
 
 ### Steps
 
-1. **Parse** exercise-by-exercise, set-by-set. If a critical number is missing (load, reps, RIR on a bump-eligible lift), **ask once** rather than guess.
+1. **Parse** exercise-by-exercise, set-by-set.
+1a. **Ask about what's worth logging but missing.** Before writing anything, scan the dump for gaps in the metrics that matter and ask them back in **one batched message** (don't interrogate set-by-set across turns). Worth asking when absent:
+   - Per working set: **RPE / RIR** — especially on bump-eligible lifts.
+   - Lifts: actual load/reps where a set is ambiguous; **soleus wall-sit hold time**.
+   - Runs: **avg/split pace, avg & max HR, cadence, surface** (treadmill/road/track).
+   - **SI / sciatica status** (AM / pre / during / post) when a flare or prehab is in play.
+   - Anything a carry-forward says to **test today** (the "clean" condition).
+   Skip questions the dump already answers, and don't block on truly soft context (a missing accessory cue). If the user still doesn't have a number after asking, log it as "not recorded" — never guess.
 2. **Append a new entry** under `## Lifting Log` and/or `## Cardio Log`:
    - Header: `### W{wk} {Day} {YYYY-MM-DD} — {Session Name}`
    - Lift table columns (match existing): `|Exercise|Sets|Notes|`
@@ -113,7 +157,7 @@ Triggers: user reports what they did — could be a structured dump, a paragraph
 ### What NOT to do
 
 - **Don't reformat unrelated sections** of `Tracker.md`. Append/update only what today's session warrants.
-- **Don't create the entry** without the data — if reps/loads are missing for an exercise that needs them, ask. (You don't need to ask for SI status, accessory cues, or other soft context.)
+- **Don't create the entry** without the data — ask for the loggable metrics in step 1a (RPE/RIR, pace/HR/cadence, soleus hold, SI status, any "clean" test) in one batched message first. Don't interrogate over accessory cues or other soft context.
 - **Don't summarize on the user's behalf.** The `> AI:` line should reflect what actually happened, not a coaching pep talk.
 - **Don't open a PR** unless the user explicitly asks.
 
@@ -185,8 +229,7 @@ One file, overwritten each morning. The dash renders sections only if present, s
 
 Rules:
 - Strings only — no markdown formatting in field values (the dash renders plain text).
-- `intro` is an array of paragraphs.
-- `flags` and `cues` are arrays of bullet strings.
+- Keep the JSON as lean as the chat brief. `intro` holds at most the one top-flag line (`[]` if nothing material). `cues` and `flags` are `[]` unless a cue/flag is genuinely important — don't pad them. The dash renders these only when non-empty.
 - `currentLoads` mirrors `Tracker.md ## Current Working Loads` row-for-row (Exercise, Load, Last verified, Note) at the time of generation.
 
 ### `week-ahead.json`
@@ -221,6 +264,6 @@ Rules:
 - Cite **Adj #** when applying a carry-forward.
 - Numbers over adjectives. `RIR 2`, not "hard". `8:00/mi`, not "fast".
 - No emoji. No exclamation marks. No "great session!" / "you got this".
-- Tables are the default unit for prescribed work. Bullets only for cues/flags/warmups/cooldowns.
+- The brief is three tables — **Warmup, Work, Cooldown**. The only non-table lines are the optional top flag and optional **Notes**, one line each, kept only when a carry-forward materially changes today. No intro paragraph, no cues/targets bullets.
 - Loads from `Current Working Loads`, never from `program.md` projection tables.
-- The brief is for execution. Strip anything the user doesn't need at the gym.
+- The brief is for execution. Strip anything the user doesn't need at the gym — detail gets covered at logging.
