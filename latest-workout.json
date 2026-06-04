@@ -1,37 +1,34 @@
 {
-  "generatedAt": "2026-06-03T07:30:00-04:00",
+  "generatedAt": "2026-06-04T07:30:00-04:00",
   "week": "W7",
-  "day": "Wed",
-  "date": "2026-06-03",
+  "day": "Thu",
+  "date": "2026-06-04",
   "phase": "Base",
-  "sessionName": "Threshold 3×8 min @ T + MHR retest (run only)",
+  "sessionName": "Z1 easy run 30 min",
   "intro": [
-    "W7 Wed threshold + MHR retest (Adj #46 Tue↔Wed swap — Hyp A was logged Tue 6/2; no lift today). §4.C W7 quality day: longer reps than W6 (3×8 vs 5×5), same locked 8:00/mi.",
-    "Run-MHR retest folded onto the end of this session (Adj #45/#9): after the 3×8 work + 3–5 min easy jog, run a max-HR finisher (treadmill 1%, 2–3 min progressive build, last 30–60 s flat-out) and capture peak HR. Treat it as a FLOOR — end-of-session fatigue may cap it; a fresh standalone 1500m all-out stays the gold-standard follow-up. If it confirms ≥195–205, recompute Z2 (85–88%) / Z3 (92–96%) and lift the off-191 Z1 cap.",
-    "Achilles read clean during/post Mon's run (Adj #44) — first non-reactive report since the flare, but the hold bar is an AM-clean read; calf 335 / hill-stride holds stay until then. Zoom Fly 6 OK for this short tempo if the Achilles tolerates; long/easy stays Vomero (Adj #34)."
+    "W7 Thu midweek recovery Z1 (§4.C / §2.A) — easy day after Wed's T-run + MHR retest (Adj #53). No lift. Vomero Plus, NOT Zoom Fly 6, and hold to 30 min / no strides while the Achilles is reactive (Adj #34/#44, §11.D). Revert to rest on a yellow/red morning (§11.C)."
   ],
   "lift": null,
   "cardio": {
     "flags": [
-      "Swap (Adj #46): threshold moved Tue → Wed; Tue was the no-run day this week. Default §2.A ordering (Tue T / Wed Hyp A) resumes W8.",
-      "Hold 8:00/mi — locked T pace (Adj #26, confirmed W6 Tue at RPE 7 / RIR 2). Don't drift to 8:05–8:10.",
-      "Anchor RPE + pace, not HR (Adj #9): off-191 zones skew low for running. T-effort HR will read high (W6 Tue peaked 183, W5 Tue 188) — expected, not over-threshold.",
-      "MHR retest finisher (Adj #45): treat the captured peak as a FLOOR; if ≥195–205, recompute Z2/Z3 per Adj #9.",
-      "Achilles / shoe: Zoom Fly 6 OK for this short tempo if tolerated; long/easy stays Vomero (Adj #34). Hold mileage while it settles (§11.D)."
+      "Recovery Z1 — strictly easy after the hard Wed (T + MHR). Don't let pace creep; hold the honest §4.A Z1 floor (recent reads 10:30–10:45/mi).",
+      "Shoe: Vomero Plus (long/easy). Zoom Fly 6 is short-tempo-only while the Achilles is reactive (Adj #34).",
+      "Mileage hold while the Achilles settles — keep 30 min, no strides, no extension (§11.D, Adj #44).",
+      "Anchor RPE + pace, not HR (Adj #9): off-191 zones skew low for running, so easy HR will read ~157–162. Nasal-clean = aerobic confirmation.",
+      "Yellow/red morning → revert to rest (§11.C)."
     ],
-    "workout": "3×8 min @ T, 90 s jog recovery, treadmill 1% (or flat outdoor). Then 3–5 min easy jog → MHR finisher: treadmill 1%, 2–3 min progressive pace/grade build, last 30–60 s flat-out, capture peak HR.",
+    "workout": "30 min continuous Z1 easy, flat. Conversational / nasal-breathing throughout.",
     "targets": {
-      "pace": "8:00/mi (T band 7:55–8:10, locked Adj #26)",
-      "hr": "expect ~178–185 on the reps; anchor by RPE 7 (\"could do ~2 more\"), not the off-191 zones (Adj #9)",
-      "cadence": "175–182 spm (180 has been the consistent T read)"
+      "pace": "9:45–10:45/mi (hold the honest floor; recent honest reads 10:30–10:45)",
+      "hr": "≤155 nominal; runs ~157–162 on this course — anchor by RPE/nasal, not the off-191 cap (Adj #9)",
+      "cadence": "165–172 spm (natural easy band; don't force 180 at conversational pace)"
     },
-    "warmup": "1.0–1.5 mi easy building to T pace. Run it honestly — the W5 Tue cold-start (127→180 ramp, \"quite hard\") was a no-WU artifact; a proper opener kept W6 Tue's rep 1 at 167.",
-    "cooldown": "After the MHR finisher: 1.0 mi easy / Z1 + SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1.",
+    "warmup": "5 min walk building to easy run pace — let HR climb gradually, no cold start.",
+    "cooldown": "5 min easy walk + light SI prehab (clamshells, single-leg bridge). Full Tyler/McGill pyramid is the Sun dose.",
     "cues": [
-      "Controlled opener — let HR sit ~167–172 on rep 1; climb across reps is normal cardiac drift.",
-      "8 min reps reward patience — hold 8:00, don't bank time early.",
-      "Nasal-check the recovery jogs — should clear to conversational by the 90 s.",
-      "Save something for the finisher — the retest needs a true max, not a drained one."
+      "Easy means easy — this is the recovery between Wed quality and Fri strides; resist the pace creep.",
+      "Nasal-check throughout — if you can't hold nasal breathing, slow down.",
+      "Log the AM Achilles read: an AM-clean Thu continues the trend that releases the calf 335 / hill-stride holds (Adj #44)."
     ]
   },
   "currentLoads": [
