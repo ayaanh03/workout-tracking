@@ -1,36 +1,15 @@
 {
-  "generatedAt": "2026-06-04T07:30:00-04:00",
+  "generatedAt": "2026-06-04T12:58:00-04:00",
   "week": "W7",
   "day": "Thu",
   "date": "2026-06-04",
   "phase": "Base",
-  "sessionName": "Z1 easy run 30 min",
+  "sessionName": "Off — break/rest day (Z1 easy skipped)",
   "intro": [
-    "W7 Thu midweek recovery Z1 (§4.C / §2.A) — easy day after Wed's T-run + MHR retest (Adj #53). No lift. Vomero Plus, NOT Zoom Fly 6, and hold to 30 min / no strides while the Achilles is reactive (Adj #34/#44, §11.D). Revert to rest on a yellow/red morning (§11.C)."
+    "W7 Thu Z1 easy run SKIPPED — break/rest day per athlete call. Recovery slot, no quality lost; trims aerobic volume only and fits the Achilles-settle / mileage-hold posture (Adj #34/#44). Next session: Fri 35 min easy + 6×20s strides."
   ],
   "lift": null,
-  "cardio": {
-    "flags": [
-      "Recovery Z1 — strictly easy after the hard Wed (T + MHR). Don't let pace creep; hold the honest §4.A Z1 floor (recent reads 10:30–10:45/mi).",
-      "Shoe: Vomero Plus (long/easy). Zoom Fly 6 is short-tempo-only while the Achilles is reactive (Adj #34).",
-      "Mileage hold while the Achilles settles — keep 30 min, no strides, no extension (§11.D, Adj #44).",
-      "Anchor RPE + pace, not HR (Adj #9): off-191 zones skew low for running, so easy HR will read ~157–162. Nasal-clean = aerobic confirmation.",
-      "Yellow/red morning → revert to rest (§11.C)."
-    ],
-    "workout": "30 min continuous Z1 easy, flat. Conversational / nasal-breathing throughout.",
-    "targets": {
-      "pace": "9:45–10:45/mi (hold the honest floor; recent honest reads 10:30–10:45)",
-      "hr": "≤155 nominal; runs ~157–162 on this course — anchor by RPE/nasal, not the off-191 cap (Adj #9)",
-      "cadence": "165–172 spm (natural easy band; don't force 180 at conversational pace)"
-    },
-    "warmup": "5 min walk building to easy run pace — let HR climb gradually, no cold start.",
-    "cooldown": "5 min easy walk + light SI prehab (clamshells, single-leg bridge). Full Tyler/McGill pyramid is the Sun dose.",
-    "cues": [
-      "Easy means easy — this is the recovery between Wed quality and Fri strides; resist the pace creep.",
-      "Nasal-check throughout — if you can't hold nasal breathing, slow down.",
-      "Log the AM Achilles read: an AM-clean Thu continues the trend that releases the calf 335 / hill-stride holds (Adj #44)."
-    ]
-  },
+  "cardio": null,
   "currentLoads": [
     { "exercise": "Incline BB", "load": "140 working / 145 missed — repeat 145 next / TM 165", "lastVerified": "W7 Tue 6/2", "note": "145×5/4 RIR 0/0, then 140×4 RIR 0 — 145 bump missed (set 1 hit 5 reps but to failure, not RPE 7); §5 miss #1 → repeat 145 next Wed (two misses → cut TM). Top of LP; AMRAP/TM re-test ~W8 deload (Adj #47)" },
     { "exercise": "Lat pulldown", "load": "145 → 150 next Sat", "lastVerified": "W6 Sat 5/30", "note": "145×8/8/8/9 RIR 2/2/1/0 — bumped 140→145, full 4 sets restored (Adj #17 satisfied), clean RIR 1 set 3, set 4 last-set push; bump 150 next" },
