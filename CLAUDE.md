@@ -44,27 +44,29 @@ The brief is **three tables — Warmup, Work, Cooldown** — each readable row-b
 
 {Optional ONE line — only if a carry-forward changes today (a bump landing, an ordering rule, a flare caveat). Cite Adj #. Omit otherwise.}
 
+All three tables use the **modality's columns** so pace/HR/cadence ride along on every cardio segment — warmup and cooldown included, not just the work set:
+
+- **Cardio columns:** `Segment | Time/Dist | Pace | HR | Cadence` — use for Warmup, Work, and Cooldown on a run day. Fill pace/HR/cadence on warmup and cooldown rows too (e.g. easy-pace + Z1 HR + cadence target for a WU build / CD jog).
+- **Lift columns:** Warmup/Cooldown → `Segment | Time/Sets | Target`; Work → `Exercise | Sets×Reps | Load | RIR | Rest`.
+- **Combined Sat (lift + cardio):** split each block by modality — e.g. `### Warmup — Cardio` (cardio columns) and `### Warmup — Lift` (lift columns); two Work tables `### Work — Cardio` / `### Work — Lift`; same for Cooldown.
+
 ## Warmup
 
-| Segment | Time/Sets | Target |
-|---|---|---|
-| ... | ... | ... |
+| Segment | Time/Dist | Pace | HR | Cadence |
+|---|---|---|---|---|
+| ... | ... | ... | ... | ... |
 
 ## Work
 
-Lift columns:   Exercise | Sets×Reps | Load | RIR | Rest
-Cardio columns: Segment | Time/Dist | Pace | HR | Cadence
-Combined Sat (lift + cardio): emit two tables, `### Work — Cardio` and `### Work — Lift`, each with its own columns.
-
-| Exercise | Sets×Reps | Load | RIR | Rest |
+| Segment | Time/Dist | Pace | HR | Cadence |
 |---|---|---|---|---|
 | ... | ... | ... | ... | ... |
 
 ## Cooldown
 
-| Segment | Time/Sets | Target |
-|---|---|---|
-| ... | ... | ... |
+| Segment | Time/Dist | Pace | HR | Cadence |
+|---|---|---|---|---|
+| ... | ... | ... | ... | ... |
 
 **Notes:** {one line, only if important — a bump-eligibility test ("clean RIR 2 on set 3 → bump next"), an ordering rule, a surface/nasal-gate caveat, a flare flag. Cite Adj #. Omit the whole line if nothing material. Never restate what a table already says.}
 ```
