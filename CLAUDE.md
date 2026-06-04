@@ -39,16 +39,42 @@ Triggers: "what's today", "today's workout", "workout of the day", "give me the 
 
 The brief is **three tables — Warmup, Work, Cooldown** — each readable row-by-row into the Apple Watch workout app. No multi-line intro, no Targets/Cues paragraphs, no per-exercise Cue column. The only non-table lines are an optional one-line flag at the top and an optional one-line **Notes** at the bottom — each kept *only* when a carry-forward materially changes today, otherwise omitted entirely. Detail/cues get discussed at logging anyway, so don't pre-load them here.
 
+Each block uses **the modality's own columns**. Lift days are unchanged from before; cardio days carry pace/HR/cadence on *every* segment (warmup and cooldown included, not just the work set).
+
+**Lift day** — Warmup/Cooldown use `Segment | Time/Sets | Target`; Work uses `Exercise | Sets×Reps | Load | RIR | Rest`:
+
 ```
 **{Wk} {Day} {YYYY-MM-DD} — {Session name}**
 
 {Optional ONE line — only if a carry-forward changes today (a bump landing, an ordering rule, a flare caveat). Cite Adj #. Omit otherwise.}
 
-All three tables use the **modality's columns** so pace/HR/cadence ride along on every cardio segment — warmup and cooldown included, not just the work set:
+## Warmup
 
-- **Cardio columns:** `Segment | Time/Dist | Pace | HR | Cadence` — use for Warmup, Work, and Cooldown on a run day. Fill pace/HR/cadence on warmup and cooldown rows too (e.g. easy-pace + Z1 HR + cadence target for a WU build / CD jog).
-- **Lift columns:** Warmup/Cooldown → `Segment | Time/Sets | Target`; Work → `Exercise | Sets×Reps | Load | RIR | Rest`.
-- **Combined Sat (lift + cardio):** split each block by modality — e.g. `### Warmup — Cardio` (cardio columns) and `### Warmup — Lift` (lift columns); two Work tables `### Work — Cardio` / `### Work — Lift`; same for Cooldown.
+| Segment | Time/Sets | Target |
+|---|---|---|
+| ... | ... | ... |
+
+## Work
+
+| Exercise | Sets×Reps | Load | RIR | Rest |
+|---|---|---|---|---|
+| ... | ... | ... | ... | ... |
+
+## Cooldown
+
+| Segment | Time/Sets | Target |
+|---|---|---|
+| ... | ... | ... |
+
+**Notes:** {one line, only if important — bump-eligibility test ("clean RIR 2 on set 3 → bump next"), ordering rule, flare flag. Cite Adj #. Omit if nothing material. Never restate a table.}
+```
+
+**Cardio day** — all three blocks use `Segment | Time/Dist | Pace | HR | Cadence`; fill pace/HR/cadence on the WU build and CD jog rows too:
+
+```
+**{Wk} {Day} {YYYY-MM-DD} — {Session name}**
+
+{Optional ONE line — carry-forward flag. Cite Adj #. Omit otherwise.}
 
 ## Warmup
 
@@ -68,8 +94,10 @@ All three tables use the **modality's columns** so pace/HR/cadence ride along on
 |---|---|---|---|---|
 | ... | ... | ... | ... | ... |
 
-**Notes:** {one line, only if important — a bump-eligibility test ("clean RIR 2 on set 3 → bump next"), an ordering rule, a surface/nasal-gate caveat, a flare flag. Cite Adj #. Omit the whole line if nothing material. Never restate what a table already says.}
+**Notes:** {one line, only if important — surface/nasal-gate caveat, HR caveat, ordering. Cite Adj #. Omit if nothing material.}
 ```
+
+**Combined Sat (lift + cardio):** split each block by modality — `### Warmup — Cardio` (cardio columns) + `### Warmup — Lift` (lift columns); two Work tables `### Work — Cardio` / `### Work — Lift`; same for Cooldown.
 
 ### Defaults to apply
 
