@@ -1,15 +1,29 @@
 {
-  "generatedAt": "2026-06-04T12:58:00-04:00",
+  "generatedAt": "2026-06-05T07:30:00-04:00",
   "week": "W7",
-  "day": "Thu",
-  "date": "2026-06-04",
+  "day": "Fri",
+  "date": "2026-06-05",
   "phase": "Base",
-  "sessionName": "Off — break/rest day (Z1 easy skipped)",
+  "sessionName": "Z1 easy 35 min + 6×20s flat strides",
   "intro": [
-    "W7 Thu Z1 easy run SKIPPED — break/rest day per athlete call. Recovery slot, no quality lost; trims aerobic volume only and fits the Achilles-settle / mileage-hold posture (Adj #34/#44). Next session: Fri 35 min easy + 6×20s strides."
+    "Flat strides — cadence cap ≤180 spm (178–182 band), hold ~6:00/mi mile-pace effort, don't overshoot to sprint (Adj #25). Vomero Plus, not Zoom Fly — Achilles still reactive (Adj #34)."
   ],
   "lift": null,
-  "cardio": null,
+  "cardio": {
+    "flags": [],
+    "workout": "35 min easy Z1 + 6×20s flat strides (~60s walk recovery between), full rec",
+    "targets": {
+      "pace": "Easy 9:45–10:45/mi; strides ~6:00/mi",
+      "hr": "Easy aerobic / nasal-clean (anchor pace+RPE, not the off-191 HR cap — Adj #9); strides neuromuscular, HR irrelevant",
+      "cadence": "Easy 165–172 spm; strides 178–182 spm (cap ≤180)"
+    },
+    "warmup": "First 5 min of the easy block as a build, 10:45 → 10:00/mi, Z1",
+    "cooldown": "5 min easy jog Z1; light SI prehab",
+    "cues": [
+      "Strides: 6×20s 'fast but smooth' at ~mile-pace effort (~6:00/mi), full walk recovery — not sprint. Hold cadence ≤180; don't dip pace under 6:00 (Adj #25 — rep 3 overshot to 196 spm last two stride sessions).",
+      "Anchor the easy block by pace + RPE + nasal gate; off-191 Z1 HR cap (≤155) skews low for running until the MHR retest (Adj #9)."
+    ]
+  },
   "currentLoads": [
     { "exercise": "Incline BB", "load": "140 working / 145 missed — repeat 145 next / TM 165", "lastVerified": "W7 Tue 6/2", "note": "145×5/4 RIR 0/0, then 140×4 RIR 0 — 145 bump missed (set 1 hit 5 reps but to failure, not RPE 7); §5 miss #1 → repeat 145 next Wed (two misses → cut TM). Top of LP; AMRAP/TM re-test ~W8 deload (Adj #47)" },
     { "exercise": "Lat pulldown", "load": "145 → 150 next Sat", "lastVerified": "W6 Sat 5/30", "note": "145×8/8/8/9 RIR 2/2/1/0 — bumped 140→145, full 4 sets restored (Adj #17 satisfied), clean RIR 1 set 3, set 4 last-set push; bump 150 next" },
