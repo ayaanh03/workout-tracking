@@ -1,34 +1,21 @@
 {
-  "generatedAt": "2026-06-05T21:25:00-04:00",
+  "generatedAt": "2026-06-06T14:05:00-04:00",
   "week": "W7",
-  "day": "Fri",
-  "date": "2026-06-05",
+  "day": "Sat",
+  "date": "2026-06-06",
   "phase": "Base",
-  "sessionName": "Hypertrophy B + Z1 easy 35 min + 6×20s strides (logged) — pulled from Sat, run fresh",
+  "sessionName": "Long Z1 60 min (long-run-only — Hyp B pulled to Fri)",
   "intro": [
-    "Logged. Hyp B run fresh (no AM long run) + the Fri easy run/strides were done after all (not chucked). Cleared under fresh conditions: lat 150 (bump 155 next), chest-supp row 85 (Adj #36 satisfied, bump 90), cable lat 17.5 (Adj #37 cleared, re-attempt 20). Hold: preacher 60, tri 55. Seated calf SKIPPED (forgot). Strides 6×180/6:00 zero overshoot."
+    "Long-run-only per Adj #54 (Hyp B → Fri). Vomero Plus, flat Z1, no strides; trim 60→~45 if AM Achilles not clean (Adj #34)."
   ],
-  "lift": {
-    "table": [
-      { "exercise": "Lat pulldown (neutral)", "setsReps": "4×8–10", "load": "150", "rir": "2/2/1/0", "rest": "2–3 min", "cue": "Bumped 145→150 clean (Adj #35), set 3 RIR 1, set 4 last-set push to failure; bump 155 next (Adj #55)" },
-      { "exercise": "Chest-supp row", "setsReps": "3×10", "load": "85", "rir": "2/1/1", "rest": "90–120s", "cue": "85 hold SATISFIED under fresh conditions — clean 3×10 no failure (Adj #18/#36 cleared); bump 90 next (Adj #56)" },
-      { "exercise": "Cable lateral (Sat) uni", "setsReps": "3×12", "load": "17.5/side", "rir": "2/2/1", "rest": "60–90s", "cue": "Clean RIR 1 set 3, no failure — clears the Adj #37 cap; re-attempt 20/side next (Adj #57)" },
-      { "exercise": "Preacher curl uni", "setsReps": "3×12", "load": "60/arm", "rir": "1/0/0", "rest": "60–90s", "cue": "Bumped 55→60; reps strong 12/12/10 but sets 2-3 to failure — hold 60 until clean RIR 1 set 3 (Adj #58)" },
-      { "exercise": "Triceps pushdown (rope)", "setsReps": "3×12–15", "load": "55", "rir": "1/1/0", "rest": "60–90s", "cue": "Improved (RIR 1/1 sets 1-2) but set 3 still to failure (13 reps) — hold-until-clean NOT satisfied (Adj #50/#59)" },
-      { "exercise": "Hanging straight-leg raise", "setsReps": "3×12", "load": "BW", "rir": "3/3/3", "rest": "60–90s", "cue": "RIR 3 across = clearly light; reps held 12 — add load or progress to 15 next (Adj #60)" },
-      { "exercise": "Seated calf", "setsReps": "—", "load": "—", "rir": "—", "rest": "—", "cue": "SKIPPED (forgot) — owed next; 335 bump stays held until AM-clean Achilles (Adj #40/#61)" },
-      { "exercise": "Chest fly", "setsReps": "2×12", "load": "130", "rir": "1/1", "rest": "60–90s", "cue": "Accessory — tighter than prior but clean; hold 130" }
-    ],
-    "warmup": "Band pull-aparts + scap pull-downs 1–2 min. Wrist-extensor isometric 3×30s/arm (§8 pre-lift). Lat pulldown ramp 100×8, 130×5, then working.",
-    "cooldown": "Tyler twists 3×15 + reverse Tyler 3×15 (§8 daily). Light mobility / SI prehab 5 min."
-  },
+  "lift": null,
   "cardio": {
-    "flags": ["Run NOT chucked — done fresh same day as Hyp B (Adj #54 had tentatively dropped it)."],
-    "workout": "5 min WU @ 10:45/mi → 30 min @ 10:00/mi easy + 6×20s strides @ 6:00/mi, treadmill 1% incline",
-    "targets": { "pace": "10:00/mi easy (mid Z1 9:45–10:45); strides 6:00/mi", "hr": "easy avg 168 (ran hot — top Z2, anchor by pace per Adj #9)", "cadence": "easy 168 spm; strides 180 spm" },
-    "warmup": "5 min @ 10:45/mi build",
-    "cooldown": "—",
-    "cues": ["Strides 6×20s all at 180 spm @ 6:00/mi = Adj #25 cue nailed, zero overshoot (cleanest of the block)", "SI okay; Achilles very minor/okay during — AM check tomorrow (Adj #40/#44)"]
+    "flags": ["Report AM Achilles status — it gates today's trim and the held 335 calf bump (Adj #40)."],
+    "workout": "60 min continuous Z1 long run, flat. Vomero Plus (Achilles reactive, Adj #34). No strides (hill strides held, Adj #44).",
+    "targets": { "pace": "9:45–10:45/mi (hold honest floor)", "hr": "aerobic / nasal-clean — anchor pace, not the off-191 cap (Adj #9)", "cadence": "165–172 spm" },
+    "warmup": "5–10 min easy build @ 10:45/mi into Z1",
+    "cooldown": "5 min easy walk/jog + SI prehab",
+    "cues": ["Flat surface only; Zoom Fly parked while Achilles reactive (Adj #34)", "Trim 60→~45 min if AM Achilles not clean"]
   },
   "currentLoads": [
     { "exercise": "Incline BB", "load": "140 working / 145 missed — repeat 145 next / TM 165", "lastVerified": "W7 Tue 6/2", "note": "145×5/4 RIR 0/0, then 140×4 RIR 0 — 145 bump missed (set 1 hit 5 reps but to failure, not RPE 7); §5 miss #1 → repeat 145 next Wed (two misses → cut TM). Top of LP; AMRAP/TM re-test ~W8 deload (Adj #47)" },
