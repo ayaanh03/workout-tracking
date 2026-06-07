@@ -101,7 +101,7 @@ Total volume per priority muscle/week is in §6. Logic: 2 sessions/wk × 4–6 s
 | Side delts | DB lateral raise | 4×12 | RPE 9, last set to failure | **Side delt** |
 | Biceps | Preacher curl machine (§10.A) | 3×10 | RPE 8 | **Biceps** |
 | Triceps | Cable pushdown, V-bar (§10.A) | 3×12 | RPE 8 | **Triceps** |
-| Abs | Cable crunch | 3×12 | RPE 8 | **Abs** |
+| Abs | Decline crunch | 3×12 | RPE 8 | **Abs** |
 | Optional | Rear-delt fly (cable or pec deck reverse) | 2×15 | RPE 7 | Rear delt (joint health) |
 
 ### 3.B Hypertrophy B (Sat, ~40 min, well-spaced from long run — ideally PM after AM long run, or push to Sun)
@@ -113,7 +113,7 @@ Total volume per priority muscle/week is in §6. Logic: 2 sessions/wk × 4–6 s
 | Side delts | Cable lateral raise | 3×12–15 | RPE 9 | **Side delt** |
 | Biceps | Preacher curl machine, semi-supinated grip if available (§10.A) | 3×12 | RPE 8 | **Biceps** |
 | Triceps | Cable pushdown, rope (vary attachment vs Tue) (§10.A) | 3×12–15 | RPE 8 | **Triceps** |
-| Abs | Hanging knee raise (or decline crunch) | 3×10 | RPE 8 | **Abs** |
+| Abs | Decline crunch | 3×10 | RPE 8 | **Abs** |
 | Calves | Seated calf raise | 4×12–15 | RPE 9, last set to failure | **Calves** |
 | Optional | DB flye or pec deck | 2×12 | RPE 7 | Chest (joint health) |
 
@@ -250,7 +250,7 @@ See §2.C above. Race day Sat Oct 24:
 | **Side delts** | 10–14 | Wed 4 (DB lat) + Sat 3 (cable lat) + 3 incidental on incline + 1 rear-delt overlap | Inside MAV; growth zone |
 | **Biceps** | 6 | Wed 3 (preacher) + Sat 3 (preacher, varied grip) | MEV–MAV; preacher only until tennis elbow clears (§10.A). Bias toward maintenance — biceps grow slowly under run mileage |
 | **Triceps** | 6–8 | Wed 3 (V-bar pushdown) + Sat 3 (rope pushdown) + 5–8 incidental from incline pressing | MAV; pushdowns only (§10.A) |
-| **Abs** | 6 | Wed 3 (cable crunch) + Sat 3 (hanging knee raise) + Sun McGill Big 3 (counts as 1, not in lift sets) | MEV |
+| **Abs** | 6 | Wed 3 (decline crunch) + Sat 3 (decline crunch) + Sun McGill Big 3 (counts as 1, not in lift sets) | MEV |
 | **Lats** | 7 (Phase B+) | Sat 4 (lat pulldown) + Sat 3 (chest-supported row, Phase B+) | MEV–MAV; chest-supp row dual-purposes for rear delt |
 | **Calves** | 4 | Sat 4 (seated calf) | Direct calf MEV. (Soleus wall-sit retired W7 per athlete directive — was +6 sets/wk soleus iso for RE; no longer programmed.) |
 | Rear delts (joint health) | 5 | Wed 2 (rear-delt fly) + Sat 3 (chest-supp row overlap) | Health zone |
