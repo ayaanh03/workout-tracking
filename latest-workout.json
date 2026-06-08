@@ -1,34 +1,34 @@
 {
-  "generatedAt": "2026-06-07T15:58:05-04:00",
-  "week": "W7",
-  "day": "Sat",
-  "date": "2026-06-06",
+  "generatedAt": "2026-06-07T22:43:00-04:00",
+  "week": "W8",
+  "day": "Mon",
+  "date": "2026-06-08",
   "phase": "Base",
-  "sessionName": "Long Z1 60 min (long-run-only — Hyp B pulled to Fri)",
+  "sessionName": "Z1 easy run 30 min (deload)",
   "intro": [
-    "Long-run-only per Adj #54 (Hyp B → Fri). Vomero Plus, flat Z1, no strides; trim 60→~45 if AM Achilles not clean (Adj #34)."
+    "W8 deload (v4.3, Adj #67) — keep it truly easy. Vomero Plus, flat Z1; both tendons reactive (L Achilles AM-stiff Adj #63 / R patellar Adj #64) — revert to rest on a red/walking-pain AM (§11.C). No strides this Mon (hill strides held, Adj #44)."
   ],
   "lift": null,
   "cardio": {
-    "flags": ["Report AM Achilles status — it gates today's trim and the held 335 calf bump (Adj #40)."],
-    "workout": "60 min continuous Z1 long run, flat. Vomero Plus (Achilles reactive, Adj #34). No strides (hill strides held, Adj #44).",
-    "targets": { "pace": "9:45–10:45/mi (hold honest floor)", "hr": "aerobic / nasal-clean — anchor pace, not the off-191 cap (Adj #9)", "cadence": "165–172 spm" },
-    "warmup": "5–10 min easy build @ 10:45/mi into Z1",
-    "cooldown": "5 min easy walk/jog + SI prehab",
-    "cues": ["Flat surface only; Zoom Fly parked while Achilles reactive (Adj #34)", "Trim 60→~45 min if AM Achilles not clean"]
+    "flags": ["Both tendons reactive — go to rest, not run, on a red or walking-pain >2/10 AM (§11.C)."],
+    "workout": "30 min continuous Z1 easy, flat. Vomero Plus (Achilles + patellar reactive, Adj #34/#63/#64). No strides (deload + hill strides held, §11.B / Adj #44).",
+    "targets": { "pace": "9:45–10:45/mi (hold the honest easy floor)", "hr": "aerobic / conversational — anchor pace, not the off-191 cap; easy reads hot (Adj #9)", "cadence": "165–172 spm" },
+    "warmup": "5 min easy walk/jog build into Z1",
+    "cooldown": "5 min easy + SI prehab (clamshell, single-leg bridge, bird-dog)",
+    "cues": ["Truly easy — deload, conversational pace; this is recovery, not a workout (Adj #67)", "Flat surface only; Zoom Fly parked while tendons reactive (Adj #34)"]
   },
   "currentLoads": [
-    { "exercise": "Incline BB", "load": "140 working / 145 missed — repeat 145 next / TM 165", "lastVerified": "W7 Tue 6/2", "note": "145×5/4 RIR 0/0, then 140×4 RIR 0 — 145 bump missed (set 1 hit 5 reps but to failure, not RPE 7); §5 miss #1 → repeat 145 next Wed (two misses → cut TM). Top of LP; AMRAP/TM re-test ~W8 deload (Adj #47)" },
+    { "exercise": "Incline BB", "load": "140 working / 145 missed — repeat 145 next / TM 165", "lastVerified": "W7 Tue 6/2", "note": "145×5/4 RIR 0/0, then 140×4 RIR 0 — 145 bump missed (set 1 hit 5 reps but to failure, not RPE 7); §5 miss #1 → repeat 145 next Wed (two misses → cut TM). Top of LP; AMRAP/TM re-test due THIS W8 deload Wed (§5 Base 4-wk cadence; last AMRAP W4 → TM 165) — Adj #47/#27" },
     { "exercise": "Lat pulldown", "load": "150 → 155 next", "lastVerified": "W7 Fri 6/5", "note": "150×8/10/8/8 RIR 2/2/1/0 — bumped 145→150 clean under fresh conditions (Adj #35 landed), set 3 RIR 1, set 4 last-set push; bump 155 next (Adj #55)" },
     { "exercise": "Chest-supp row", "load": "85 working → 90 next", "lastVerified": "W7 Fri 6/5", "note": "85×10/10/10 RIR 2/1/1 — 85 hold SATISFIED under fresh conditions, no failure (Adj #18/#36 cleared after the W6 Sat long-run-AM failure); bump 90 next (Adj #56)" },
-    { "exercise": "DB lateral raise (Wed Hyp A)", "load": "30 working", "lastVerified": "W7 Tue 6/2", "note": "30×12/12/12/12 RIR 2/1/1/0 — jumped 25→30 (no 27.5 DB, skipped Adj #29 step); set 3 RIR 1 on RPE 9 target, last set to failure = clean. Hold/reassess next (Adj #48)" },
+    { "exercise": "DB lateral raise (Wed Hyp A)", "load": "30 working", "lastVerified": "W7 Tue 6/2", "note": "30×12/12/12/12 RIR 2/1/1/0 — jumped 25→30 (no 27.5 DB, skipped Adj #29 step); set 3 RIR 1 on RPE 9 target, last set to failure = clean. Wed Hyp A now 6×12 (audit raised side-delt volume 4→6 sets, Adj #68); hold/reassess load next (Adj #48)" },
     { "exercise": "DB lateral raise (Sat Hyp B)", "load": "establish next — start ~25–30 (12–15 reps RPE 9)", "lastVerified": "W7 Sun 6/7 (swap)", "note": "NEW — replaces cable lateral per athlete directive 6/7 (better growth, cable was a pain); program.md §3.B/§6 updated. Cable 17.5/side + its 20/side re-attempt (Adj #57) retired (Adj #69). Same movement as Wed DB lat (30 at 12 reps); Sat runs 12–15 reps so dial load to land the range, last set to failure" },
-    { "exercise": "Preacher curl uni", "load": "60/arm — hold until clean", "lastVerified": "W7 Fri 6/5", "note": "60×12/12/10 RIR 1/0/0 — bumped 55→60 (Adj #49); reps strong (12/12/10) but sets 2-3 to failure (set 3 RIR 0); hold 60 until clean RIR 1 set 3 (Adj #58)" },
-    { "exercise": "Triceps pushdown", "load": "55 hold-until-clean", "lastVerified": "W7 Fri 6/5", "note": "55×12/12/13 RIR 1/1/0 (rope) — improved (sets 1-2 RIR 1 vs W6 Sat rope 0/0/0) but set 3 still to failure (13 reps RIR 0); hold 55 until clean RIR 1 set 3 (Adj #38/#50/#59)" },
+    { "exercise": "Preacher curl uni", "load": "60/arm — hold until clean", "lastVerified": "W7 Fri 6/5", "note": "60×12/12/10 RIR 1/0/0 — bumped 55→60 (Adj #49); reps strong (12/12/10) but sets 2-3 to failure (set 3 RIR 0); hold 60 until clean RIR 1 set 3 (Adj #58). Wed + Sat now 4 sets each (biceps growth dose 6→8, Adj #68)" },
+    { "exercise": "Triceps pushdown", "load": "55 hold-until-clean", "lastVerified": "W7 Fri 6/5", "note": "55×12/12/13 RIR 1/1/0 (rope) — improved (sets 1-2 RIR 1 vs W6 Sat rope 0/0/0) but set 3 still to failure (13 reps RIR 0); hold 55 until clean RIR 1 set 3 (Adj #38/#50/#59). Wed + Sat now 4 sets each (triceps growth dose 6→8, Adj #68)" },
     { "exercise": "Rear-delt fly", "load": "125", "lastVerified": "W7 Tue 6/2", "note": "125×15 RIR 3/1 — holding clean since W4 Tue bump" },
-    { "exercise": "Seated calf", "load": "325 (335 bump HELD — Achilles)", "lastVerified": "W6 Sat 5/30", "note": "SKIPPED W7 Fri 6/5 (forgot) — owed next; 335 bump deferred until Achilles AM-clean — confirmed NOT AM-clean W7 Sat 6/6 (AM stiffness, Adj #63) so 335 stays held (Adj #34/#40/#61). Last performed W6 Sat: set 1 on target, sets 2-3 ran to failure vs the no-failure instruction" },
+    { "exercise": "Seated calf", "load": "325 (335 bump HELD — Achilles)", "lastVerified": "W6 Sat 5/30", "note": "SKIPPED W7 Fri 6/5 (forgot) — owed next Sat; 335 bump deferred until Achilles AM-clean — confirmed NOT AM-clean W7 Sat 6/6 (AM stiffness, Adj #63) so 335 stays held (Adj #34/#40/#61). Held at 4 sets/wk maintenance — reactive Achilles bars added calf load, revisit ~6 once AM-clean (Adj #68)" },
     { "exercise": "Decline crunch", "load": "BW (no added weight) — start", "lastVerified": "W7 Sun 6/7", "note": "NEW — replaces cable crunch (Wed) + hanging leg raise (Sat) per athlete directive 6/7; program.md §3.A/§3.B/§6 updated. Bodyweight start both days (Wed 3×12, Sat 3×10); add load once set 3 ≥RIR 2 clean. Prior cable-crunch (Adj #51) and hanging-leg-raise (Adj #60) progressions moot (Adj #66)" },
     { "exercise": "Soleus wall-sit", "load": "RETIRED", "lastVerified": "W7 Tue 6/2", "note": "Permanently dropped from the program per athlete directive (program.md updated); Adj #31/#42 carry-forwards moot (Adj #52)" },
-    { "exercise": "Chest Fly", "load": "130", "lastVerified": "W7 Fri 6/5", "note": "130×12/12 RIR 1/1 — accessory holding, tighter than W5 Thu (RIR 3/1 → 1/1)" }
+    { "exercise": "Chest Fly", "load": "130", "lastVerified": "W7 Fri 6/5", "note": "130×12/12 RIR 1/1 — accessory holding. Sat optional DB flye CUT by default to fund the side-delt bump within the 40-min cap (§6 cut order; Adj #68)" }
   ]
 }
