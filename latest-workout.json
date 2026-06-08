@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T20:55:00-04:00",
+  "generatedAt": "2026-06-07T15:58:05-04:00",
   "week": "W7",
   "day": "Sat",
   "date": "2026-06-06",
@@ -27,8 +27,7 @@
     { "exercise": "Triceps pushdown", "load": "55 hold-until-clean", "lastVerified": "W7 Fri 6/5", "note": "55×12/12/13 RIR 1/1/0 (rope) — improved (sets 1-2 RIR 1 vs W6 Sat rope 0/0/0) but set 3 still to failure (13 reps RIR 0); hold 55 until clean RIR 1 set 3 (Adj #38/#50/#59)" },
     { "exercise": "Rear-delt fly", "load": "125", "lastVerified": "W7 Tue 6/2", "note": "125×15 RIR 3/1 — holding clean since W4 Tue bump" },
     { "exercise": "Seated calf", "load": "325 (335 bump HELD — Achilles)", "lastVerified": "W6 Sat 5/30", "note": "SKIPPED W7 Fri 6/5 (forgot) — owed next; 335 bump deferred until Achilles AM-clean — confirmed NOT AM-clean W7 Sat 6/6 (AM stiffness, Adj #63) so 335 stays held (Adj #34/#40/#61). Last performed W6 Sat: set 1 on target, sets 2-3 ran to failure vs the no-failure instruction" },
-    { "exercise": "Cable crunch", "load": "70 → 75 next", "lastVerified": "W7 Tue 6/2", "note": "70×12 RIR 4/3/2 — bumped 65→70 clean (Adj #32 satisfied), set 3 RIR 2 on target, openers soft → bump 75 next if set 3 ≥RIR 2 (Adj #51)" },
-    { "exercise": "Hanging straight-leg raise", "load": "BW @ 12 reps — add load / progress next", "lastVerified": "W7 Fri 6/5", "note": "BW×12/12/12 RIR 3/3/3 — RIR 3 across = clearly light; reps held 12 (Adj #41); add load or progress to 15 reps next (Adj #60)" },
+    { "exercise": "Decline crunch", "load": "BW (no added weight) — start", "lastVerified": "W7 Sun 6/7", "note": "NEW — replaces cable crunch (Wed) + hanging leg raise (Sat) per athlete directive 6/7; program.md §3.A/§3.B/§6 updated. Bodyweight start both days (Wed 3×12, Sat 3×10); add load once set 3 ≥RIR 2 clean. Prior cable-crunch (Adj #51) and hanging-leg-raise (Adj #60) progressions moot (Adj #66)" },
     { "exercise": "Soleus wall-sit", "load": "RETIRED", "lastVerified": "W7 Tue 6/2", "note": "Permanently dropped from the program per athlete directive (program.md updated); Adj #31/#42 carry-forwards moot (Adj #52)" },
     { "exercise": "Chest Fly", "load": "130", "lastVerified": "W7 Fri 6/5", "note": "130×12/12 RIR 1/1 — accessory holding, tighter than W5 Thu (RIR 3/1 → 1/1)" }
   ]
