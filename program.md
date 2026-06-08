@@ -112,7 +112,7 @@ Total volume per priority muscle/week is in §6. Logic: 2 sessions/wk × 4–6 s
 |---|---|---|---|---|
 | Lats | Lat pulldown, neutral grip | 4×8–10 | RPE 8, last set to RIR 1 | **Lats** |
 | Lats / rear delt | **Chest-supported row** (Phase B+, dual-purpose for lat growth + rear delt) | 3×10 | RPE 8 | **Lats** + rear delt |
-| Side delts | Cable lateral raise | 4×12–15 | RPE 9 | **Side delt** (growth) |
+| Side delts | DB lateral raise | 4×12–15 | RPE 9, last set to failure | **Side delt** (growth) |
 | Biceps | Preacher curl machine, semi-supinated grip if available (§10.A) | 4×12 | RPE 8 | **Biceps** (growth) |
 | Triceps | Cable pushdown, rope (vary attachment vs Wed) (§10.A) | 4×12–15 | RPE 8 | **Triceps** (growth) |
 | Abs | Decline crunch | 3×10 | RPE 8 | **Abs** |
@@ -249,7 +249,7 @@ See §2.C above. Race day Sat Oct 24:
 
 | Muscle/system | Sets/wk target | Source | Notes |
 |---|---|---|---|
-| **Side delts** | **10 direct** | Wed 6 (DB lat) + Sat 4 (cable lat), 2×/wk | **Growth** — direct lateral work raised 7→10 (2026-06-08 audit); the old "10–14" over-counted press incidental as side-delt. Tolerates more — can climb to 12–14 if time allows |
+| **Side delts** | **10 direct** | Wed 6 (DB lat) + Sat 4 (DB lat), 2×/wk | **Growth** — direct lateral work raised 7→10 (2026-06-08 audit); the old "10–14" over-counted press incidental as side-delt. Tolerates more — can climb to 12–14 if time allows |
 | **Biceps** | **8** | Wed 4 (preacher) + Sat 4 (preacher, varied grip) | **Growth dose** (6→8, 2026-06-08 audit); **preacher-only cap** until tennis elbow 4 wks symptom-free (§10.A) — then add a 2nd movement (incline DB / hammer) and push to 10–12 |
 | **Triceps** | **8 direct** (~12 w/ press carryover) | Wed 4 (V-bar pushdown) + Sat 4 (rope pushdown) + incline-press carryover | **Growth dose** (6→8, 2026-06-08 audit); pushdowns only (§10.A — no overhead) |
 | **Abs** | 6 | Wed 3 (decline crunch) + Sat 3 (decline crunch) + Sun McGill Big 3 (counts as 1, not in lift sets) | MEV |
