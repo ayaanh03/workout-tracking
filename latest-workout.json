@@ -1,30 +1,31 @@
 {
-  "generatedAt": "2026-06-09T07:30:00-04:00",
+  "generatedAt": "2026-06-09T08:15:00-04:00",
   "week": "W8",
   "day": "Tue",
   "date": "2026-06-09",
   "phase": "Base",
-  "sessionName": "Threshold 3×6 min @ T (deload)",
+  "sessionName": "Hypertrophy A (deload, standalone — no run)",
   "intro": [
-    "W8 deload (§11.B) — T held at 3×6 min, quality preserved while easy volume is cut. Run-only; §2.A default Tue-T / Wed-Hyp-A ordering resumed (Adj #53)."
+    "One-week Tue↔Wed swap (athlete call) — Hyp A pulled to today; threshold 3×6 @ T pushed to Wed 6/10. Mirrors Adj #46; default §2.A ordering resumes W9."
   ],
-  "lift": null,
-  "cardio": {
-    "flags": [],
-    "workout": "3×6 min @ T (1 min jog recovery between reps), treadmill 1% or flat road, Vomero.",
-    "targets": { "pace": "8:00/mi T (WU/CD easy 9:45–10:45)", "hr": "T effort ~180 — off-191 zones read high, anchor pace not HR (Adj #9); easy ≤155", "cadence": "175–182 at T; 165–172 easy WU/CD" },
-    "warmup": "10 min easy jog building from 9:45–10:45 to 8:00/mi T pace",
-    "cooldown": "8 min easy / Z1",
-    "cues": [
-      "Hold 8:00/mi — confirmed legit T (RPE 7 / RIR 2, Adj #26); ran quick W7 (7:44–7:56) so possible room, but don't recalibrate before the W12 VDOT gate (Adj #53)",
-      "Report AM Achilles + R patellar status (Adj #63/#64) — the W8→W9 reads gate the mileage step-up (Adj #65)"
-    ]
+  "lift": {
+    "table": [
+      { "exercise": "Incline BB — AMRAP/TM re-test", "setsReps": "1×AMRAP to RIR 0", "load": "135", "rir": "0", "rest": "—", "cue": "§5 4-wk re-test (last W4 → TM 165); supersedes the 145 repeat (Adj #47/#27). TM 165 not 5-rep-able (W7 missed 145×5) → go straight to AMRAP @ 135 → new TM = 90% × Epley e1RM. Warm-up bar×8/95×5/115×3 first" },
+      { "exercise": "DB lateral raise", "setsReps": "6×12", "load": "30", "rir": "RPE 9; last 2 to failure", "rest": "60–90s", "cue": "Audit raised side-delt volume 4→6 sets (Adj #68); 30 working (Adj #48)" },
+      { "exercise": "Preacher curl (machine, uni)", "setsReps": "4×10", "load": "60/arm", "rir": "last set RIR 0–1", "rest": "60–90s", "cue": "Hold-until-clean — clean RIR 1 set 3 clears it (Adj #58); biceps growth dose 3→4 sets (Adj #68); preacher-only per §10.A" },
+      { "exercise": "Cable pushdown (V-bar)", "setsReps": "4×12", "load": "55", "rir": "last set RIR 0–1", "rest": "60–90s", "cue": "Hold-until-clean — clean RIR 1 set 3 clears it (Adj #59); triceps growth dose 3→4 sets (Adj #68); pushdown-only per §10.A" },
+      { "exercise": "Decline crunch", "setsReps": "3×12", "load": "BW", "rir": "RPE 8", "rest": "60s", "cue": "New — replaces cable crunch (Adj #66); BW start, add load once set 3 ≥RIR 2 clean" },
+      { "exercise": "Rear-delt fly (optional)", "setsReps": "2×15", "load": "125", "rir": "RPE 7", "rest": "60s", "cue": "Joint health; holding clean" }
+    ],
+    "warmup": "Incline BB ramp: bar×8, 95×5, 115×3. Pre-lift §10.A: wrist-extensor isometric 3×30s/arm. General: 1–2 min band pull-aparts, scap push-ups.",
+    "cooldown": "SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1"
   },
+  "cardio": null,
   "currentLoads": [
-    { "exercise": "Incline BB", "load": "140 working / 145 missed — repeat 145 next / TM 165", "lastVerified": "W7 Tue 6/2", "note": "145×5/4 RIR 0/0, then 140×4 RIR 0 — 145 bump missed (set 1 hit 5 reps but to failure, not RPE 7); §5 miss #1 → repeat 145 next Wed (two misses → cut TM). Top of LP; AMRAP/TM re-test due THIS W8 deload Wed (§5 Base 4-wk cadence; last AMRAP W4 → TM 165) — Adj #47/#27" },
+    { "exercise": "Incline BB", "load": "140 working / 145 missed — repeat 145 next / TM 165", "lastVerified": "W7 Tue 6/2", "note": "145×5/4 RIR 0/0, then 140×4 RIR 0 — 145 bump missed (set 1 hit 5 reps but to failure, not RPE 7); §5 miss #1. AMRAP/TM re-test due THIS W8 deload (today, via swap) will recalibrate the 165 TM and supersede the 145 repeat (Adj #47/#27)" },
     { "exercise": "Lat pulldown", "load": "150 → 155 next", "lastVerified": "W7 Fri 6/5", "note": "150×8/10/8/8 RIR 2/2/1/0 — bumped 145→150 clean under fresh conditions (Adj #35 landed), set 3 RIR 1, set 4 last-set push; bump 155 next (Adj #55)" },
     { "exercise": "Chest-supp row", "load": "85 working → 90 next", "lastVerified": "W7 Fri 6/5", "note": "85×10/10/10 RIR 2/1/1 — 85 hold SATISFIED under fresh conditions, no failure (Adj #18/#36 cleared after the W6 Sat long-run-AM failure); bump 90 next (Adj #56)" },
-    { "exercise": "DB lateral raise (Wed Hyp A)", "load": "30 working", "lastVerified": "W7 Tue 6/2", "note": "30×12/12/12/12 RIR 2/1/1/0 — jumped 25→30 (no 27.5 DB, skipped Adj #29 step); set 3 RIR 1 on RPE 9 target, last set to failure = clean. Wed Hyp A now 6×12 (audit raised side-delt volume 4→6 sets, Adj #68); hold/reassess load next (Adj #48)" },
+    { "exercise": "DB lateral raise (Wed Hyp A)", "load": "30 working", "lastVerified": "W7 Tue 6/2", "note": "30×12/12/12/12 RIR 2/1/1/0 — jumped 25→30 (no 27.5 DB, skipped Adj #29 step); set 3 RIR 1 on RPE 9 target, last set to failure = clean. Hyp A now 6×12 (audit raised side-delt volume 4→6 sets, Adj #68); hold/reassess load next (Adj #48)" },
     { "exercise": "DB lateral raise (Sat Hyp B)", "load": "establish next — start ~25–30 (12–15 reps RPE 9)", "lastVerified": "W7 Sun 6/7 (swap)", "note": "NEW — replaces cable lateral per athlete directive 6/7 (better growth, cable was a pain); program.md §3.B/§6 updated. Cable 17.5/side + its 20/side re-attempt (Adj #57) retired (Adj #69). Same movement as Wed DB lat (30 at 12 reps); Sat runs 12–15 reps so dial load to land the range, last set to failure" },
     { "exercise": "Preacher curl uni", "load": "60/arm — hold until clean", "lastVerified": "W7 Fri 6/5", "note": "60×12/12/10 RIR 1/0/0 — bumped 55→60 (Adj #49); reps strong (12/12/10) but sets 2-3 to failure (set 3 RIR 0); hold 60 until clean RIR 1 set 3 (Adj #58). Wed + Sat now 4 sets each (biceps growth dose 6→8, Adj #68)" },
     { "exercise": "Triceps pushdown", "load": "55 hold-until-clean", "lastVerified": "W7 Fri 6/5", "note": "55×12/12/13 RIR 1/1/0 (rope) — improved (sets 1-2 RIR 1 vs W6 Sat rope 0/0/0) but set 3 still to failure (13 reps RIR 0); hold 55 until clean RIR 1 set 3 (Adj #38/#50/#59). Wed + Sat now 4 sets each (triceps growth dose 6→8, Adj #68)" },
