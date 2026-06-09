@@ -1,21 +1,24 @@
 {
-  "generatedAt": "2026-06-08T19:55:00-04:00",
+  "generatedAt": "2026-06-09T07:30:00-04:00",
   "week": "W8",
-  "day": "Mon",
-  "date": "2026-06-08",
+  "day": "Tue",
+  "date": "2026-06-09",
   "phase": "Base",
-  "sessionName": "Z1 easy run 30 min (deload) — LOGGED",
+  "sessionName": "Threshold 3×6 min @ T (deload)",
   "intro": [
-    "Logged W8 Mon deload easy — 30 min, treadmill 1%, 10:45/mi, cadence 168, HR avg 160/peak 168. SI clean; L Achilles pain-free during, R knee quiet (first no-signal read since Adj #63) — but AM read not given, so calf 335 / hill-stride / W9-step-up holds persist on an AM-clean gate (Adj #65/#70). Next: Tue threshold 3×6 @ T."
+    "W8 deload (§11.B) — T held at 3×6 min, quality preserved while easy volume is cut. Run-only; §2.A default Tue-T / Wed-Hyp-A ordering resumed (Adj #53)."
   ],
   "lift": null,
   "cardio": {
     "flags": [],
-    "workout": "Logged — 30 min continuous Z1 easy, treadmill 1% incline, Vomero Plus. No strides (deload, §11.B). 10:45/mi at the §4.A Z1 ceiling = honest recovery floor.",
-    "targets": { "pace": "10:45/mi (Z1 ceiling — honest easy)", "hr": "avg 160 / peak 168 (runs hot vs off-191 cap; anchor by pace, Adj #9)", "cadence": "168 spm (mid natural Z1 band)" },
-    "warmup": "5 min easy walk/jog build into Z1",
-    "cooldown": "5 min easy + SI prehab (clamshell, single-leg bridge, bird-dog)",
-    "cues": ["SI clean; L Achilles pain-free during, R patellar quiet — encouraging, but AM read still owed; holds gate on AM-clean (Adj #70)", "Deload opener — collect AM tendon reads through the week for the W8→W9 call (Adj #65)"]
+    "workout": "3×6 min @ T (1 min jog recovery between reps), treadmill 1% or flat road, Vomero.",
+    "targets": { "pace": "8:00/mi T (WU/CD easy 9:45–10:45)", "hr": "T effort ~180 — off-191 zones read high, anchor pace not HR (Adj #9); easy ≤155", "cadence": "175–182 at T; 165–172 easy WU/CD" },
+    "warmup": "10 min easy jog building from 9:45–10:45 to 8:00/mi T pace",
+    "cooldown": "8 min easy / Z1",
+    "cues": [
+      "Hold 8:00/mi — confirmed legit T (RPE 7 / RIR 2, Adj #26); ran quick W7 (7:44–7:56) so possible room, but don't recalibrate before the W12 VDOT gate (Adj #53)",
+      "Report AM Achilles + R patellar status (Adj #63/#64) — the W8→W9 reads gate the mileage step-up (Adj #65)"
+    ]
   },
   "currentLoads": [
     { "exercise": "Incline BB", "load": "140 working / 145 missed — repeat 145 next / TM 165", "lastVerified": "W7 Tue 6/2", "note": "145×5/4 RIR 0/0, then 140×4 RIR 0 — 145 bump missed (set 1 hit 5 reps but to failure, not RPE 7); §5 miss #1 → repeat 145 next Wed (two misses → cut TM). Top of LP; AMRAP/TM re-test due THIS W8 deload Wed (§5 Base 4-wk cadence; last AMRAP W4 → TM 165) — Adj #47/#27" },
