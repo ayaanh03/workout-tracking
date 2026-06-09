@@ -2,7 +2,7 @@
 
 This repo is a two-file training system driven by Claude Code chats. No app, no UI.
 
-- `program.md` — the prescribed 25-week Sub-20 5K + hypertrophy program. Source of truth for what's *prescribed*.
+- `program.md` — the prescribed 27-week Sub-20 5K + hypertrophy program (v4.4 re-anchor; race = W27 Sat Oct 24). Source of truth for what's *prescribed*.
 - `Tracker.md` — the running log: status, current working loads, carry-forwards, lifting/cardio logs. Source of truth for what's *been executed* and current state.
 - `latest-workout.json` — machine-readable cache of today's brief. Rendered by `index.html` (GitHub Pages) for at-the-gym viewing.
 - `week-ahead.json` — machine-readable cache of the current program week (7-day glance). Also rendered by `index.html`.
@@ -105,7 +105,6 @@ Each block uses **the modality's own columns**. Lift days are unchanged from bef
   - Strength (Incline BB, 3×5–8): 2–3 min
   - Hypertrophy mid-rep (8–12, RIR 2): 90–120s
   - Accessories / iso (12–15, RIR 1–2): 60–90s
-  - Soleus wall-sit between holds: 60s
 - **Lift warmup** for the day's compound (currently Incline BB on Wed):
   - bar × 8, 95 × 5, 115 × 3, then working sets
 - **General lift warmup:** 1–2 min dynamic (band pull-aparts, scap push-ups, hip openers — pick what fits the day).
@@ -128,7 +127,7 @@ Triggers: user reports what they did — could be a structured dump, a paragraph
 1. **Parse** exercise-by-exercise, set-by-set.
 1a. **Ask about what's worth logging but missing.** Before writing anything, scan the dump for gaps in the metrics that matter and ask them back in **one batched message** (don't interrogate set-by-set across turns). Worth asking when absent:
    - Per working set: **RPE / RIR** — especially on bump-eligible lifts.
-   - Lifts: actual load/reps where a set is ambiguous; **soleus wall-sit hold time**.
+   - Lifts: actual load/reps where a set is ambiguous; **tennis-elbow status** (any symptoms on preacher/pushdown — tracks the §10.A 4-wk clock, Adj #72).
    - Runs: **avg/split pace, avg & max HR, cadence, surface** (treadmill/road/track).
    - **SI / sciatica status** (AM / pre / during / post) when a flare or prehab is in play.
    - Anything a carry-forward says to **test today** (the "clean" condition).
@@ -180,10 +179,10 @@ Cross-reference against `program.md §2`:
 Phase determines the cardio prescription:
 
 - Reset W1–W4 → `§4.B`
-- Base W5–W12 → `§4.C`
-- Build W13–W18 → `§4.D`
-- Sharpen W19–W22 → `§4.E`
-- Taper W23–W25 → `§2.C`
+- Base W5–W14 → `§4.C` (v4.4 re-anchor, Adj #71)
+- Build W15–W20 → `§4.D`
+- Sharpen W21–W24 → `§4.E`
+- Taper W25–W27 → `§2.C` (race = W27 Sat Oct 24)
 
 Lift volume/prescription is in `§3.A` (Wed) and `§3.B` (Sat).
 
