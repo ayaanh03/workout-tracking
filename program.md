@@ -102,7 +102,7 @@ Total volume per priority muscle/week is in §6. Logic: 2 sessions/wk × 4–6 s
 | Strength | **Incline BB** | 3×5–8 (TM progression — see §5) | RPE 7, +5 lb/wk if reps clean | Chest (incidental), front delt, triceps |
 | Side delts | DB lateral raise | 6×12 | RPE 9, last 2 sets to failure | **Side delt** (growth) |
 | Biceps | Preacher curl machine (§10.A) | 4×10 | RPE 8, last set RIR 0–1 | **Biceps** (growth) |
-| Triceps | Cable pushdown, V-bar (§10.A) | 4×12 | RPE 8, last set RIR 0–1 | **Triceps** (growth) |
+| Triceps | Cable pushdown, unilateral (§10.A) | 4×12 | RPE 8, last set RIR 0–1 | **Triceps** (growth) |
 | Abs | Decline crunch | 3×12 | RPE 8 | **Abs** |
 | Optional | Rear-delt fly (cable or pec deck reverse) | 2×15 | RPE 7 | Rear delt (joint health) |
 
@@ -114,7 +114,7 @@ Total volume per priority muscle/week is in §6. Logic: 2 sessions/wk × 4–6 s
 | Lats / rear delt | **Chest-supported row** (Phase B+, dual-purpose for lat growth + rear delt) | 3×10 | RPE 8 | **Lats** + rear delt |
 | Side delts | DB lateral raise | 4×12–15 | RPE 9, last set to failure | **Side delt** (growth) |
 | Biceps | Preacher curl machine, semi-supinated grip if available (§10.A) | 4×12 | RPE 8 | **Biceps** (growth) |
-| Triceps | Cable pushdown, rope (vary attachment vs Wed) (§10.A) | 4×12–15 | RPE 8 | **Triceps** (growth) |
+| Triceps | Cable pushdown, unilateral (§10.A) | 4×12–15 | RPE 8 | **Triceps** (growth) |
 | Abs | Decline crunch | 3×10 | RPE 8 | **Abs** |
 | Calves | Seated calf raise | 4×12–15 | RPE 9, last set to failure | **Calves** |
 | Optional | DB flye or pec deck | 2×12 | RPE 7 | Chest (joint health) |
@@ -251,7 +251,7 @@ See §2.C above. Race day Sat Oct 24:
 |---|---|---|---|
 | **Side delts** | **10 direct** | Wed 6 (DB lat) + Sat 4 (DB lat), 2×/wk | **Growth** — direct lateral work raised 7→10 (2026-06-08 audit); the old "10–14" over-counted press incidental as side-delt. Tolerates more — can climb to 12–14 if time allows |
 | **Biceps** | **8** | Wed 4 (preacher) + Sat 4 (preacher, varied grip) | **Growth dose** (6→8, 2026-06-08 audit); **preacher-only cap** until tennis elbow 4 wks symptom-free (§10.A) — then add a 2nd movement (incline DB / hammer) and push to 10–12 |
-| **Triceps** | **8 direct** (~12 w/ press carryover) | Wed 4 (V-bar pushdown) + Sat 4 (rope pushdown) + incline-press carryover | **Growth dose** (6→8, 2026-06-08 audit); pushdowns only (§10.A — no overhead) |
+| **Triceps** | **8 direct** (~12 w/ press carryover) | Wed 4 (uni cable pushdown) + Sat 4 (uni cable pushdown) + incline-press carryover | **Growth dose** (6→8, 2026-06-08 audit); pushdowns only (§10.A — no overhead); **unilateral across the board (2026-06-09 — bilateral attachments aggravated the lateral elbow)** |
 | **Abs** | 6 | Wed 3 (decline crunch) + Sat 3 (decline crunch) + Sun McGill Big 3 (counts as 1, not in lift sets) | MEV |
 | **Lats** | 7 (Phase B+) | Sat 4 (lat pulldown) + Sat 3 (chest-supported row, Phase B+) | MEV–MAV; chest-supp row dual-purposes for rear delt. **Held at maintenance (1×/wk) per 2026-06-08 audit** (athlete chose to grow arms/side delts, maintain the rest) — to grow later, add a Wed neutral-grip pulldown for 2× freq |
 | **Calves** | 4 | Sat 4 (seated calf) | Direct calf MEV. **Held at maintenance (2026-06-08 audit) — the reactive Achilles (Adj #63) bars added calf load now; revisit to ~6 once AM-clean.** (Soleus wall-sit retired W7 per athlete directive — was +6 sets/wk soleus iso for RE; no longer programmed.) |

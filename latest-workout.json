@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T08:15:00-04:00",
+  "generatedAt": "2026-06-09T22:45:00-04:00",
   "week": "W8",
   "day": "Tue",
   "date": "2026-06-09",
@@ -22,16 +22,16 @@
   },
   "cardio": null,
   "currentLoads": [
-    { "exercise": "Incline BB", "load": "140 working / 145 missed — repeat 145 next / TM 165", "lastVerified": "W7 Tue 6/2", "note": "145×5/4 RIR 0/0, then 140×4 RIR 0 — 145 bump missed (set 1 hit 5 reps but to failure, not RPE 7); §5 miss #1. AMRAP/TM re-test due THIS W8 deload (today, via swap) will recalibrate the 165 TM and supersede the 145 repeat (Adj #47/#27)" },
+    { "exercise": "Incline BB", "load": "140 working / 145 repeat next (miss #1) / TM 162", "lastVerified": "W8 Tue 6/9", "note": "AMRAP/TM re-test DONE — 135×10 true failure (no 11th attempted) → e1RM 180 → new TM 162 (was 165; W4 e1RM 183 ≈ held). Adj #47 miss-#1 stands: repeat 145 next Wed, two misses → cut TM 5–7% off 162 (Adj #71)" },
     { "exercise": "Lat pulldown", "load": "150 → 155 next", "lastVerified": "W7 Fri 6/5", "note": "150×8/10/8/8 RIR 2/2/1/0 — bumped 145→150 clean under fresh conditions (Adj #35 landed), set 3 RIR 1, set 4 last-set push; bump 155 next (Adj #55)" },
     { "exercise": "Chest-supp row", "load": "85 working → 90 next", "lastVerified": "W7 Fri 6/5", "note": "85×10/10/10 RIR 2/1/1 — 85 hold SATISFIED under fresh conditions, no failure (Adj #18/#36 cleared after the W6 Sat long-run-AM failure); bump 90 next (Adj #56)" },
-    { "exercise": "DB lateral raise (Wed Hyp A)", "load": "30 working", "lastVerified": "W7 Tue 6/2", "note": "30×12/12/12/12 RIR 2/1/1/0 — jumped 25→30 (no 27.5 DB, skipped Adj #29 step); set 3 RIR 1 on RPE 9 target, last set to failure = clean. Hyp A now 6×12 (audit raised side-delt volume 4→6 sets, Adj #68); hold/reassess load next (Adj #48)" },
+    { "exercise": "DB lateral raise (Wed Hyp A)", "load": "30 working", "lastVerified": "W8 Tue 6/9", "note": "First 6-set growth dose (Adj #68): 30×12/12/12/12/12/10 RIR 3/3/2/2/0/0 — last 2 to failure per prescription, set 6 dropped to 10; openers soft but the dose accumulates; hold 30 (Adj #72)" },
     { "exercise": "DB lateral raise (Sat Hyp B)", "load": "establish next — start ~25–30 (12–15 reps RPE 9)", "lastVerified": "W7 Sun 6/7 (swap)", "note": "NEW — replaces cable lateral per athlete directive 6/7 (better growth, cable was a pain); program.md §3.B/§6 updated. Cable 17.5/side + its 20/side re-attempt (Adj #57) retired (Adj #69). Same movement as Wed DB lat (30 at 12 reps); Sat runs 12–15 reps so dial load to land the range, last set to failure" },
-    { "exercise": "Preacher curl uni", "load": "60/arm — hold until clean", "lastVerified": "W7 Fri 6/5", "note": "60×12/12/10 RIR 1/0/0 — bumped 55→60 (Adj #49); reps strong (12/12/10) but sets 2-3 to failure (set 3 RIR 0); hold 60 until clean RIR 1 set 3 (Adj #58). Wed + Sat now 4 sets each (biceps growth dose 6→8, Adj #68)" },
-    { "exercise": "Triceps pushdown", "load": "55 hold-until-clean", "lastVerified": "W7 Fri 6/5", "note": "55×12/12/13 RIR 1/1/0 (rope) — improved (sets 1-2 RIR 1 vs W6 Sat rope 0/0/0) but set 3 still to failure (13 reps RIR 0); hold 55 until clean RIR 1 set 3 (Adj #38/#50/#59). Wed + Sat now 4 sets each (triceps growth dose 6→8, Adj #68)" },
-    { "exercise": "Rear-delt fly", "load": "125", "lastVerified": "W7 Tue 6/2", "note": "125×15 RIR 3/1 — holding clean since W4 Tue bump" },
+    { "exercise": "Preacher curl uni", "load": "60/arm — hold until clean", "lastVerified": "W8 Tue 6/9", "note": "First 4-set dose (Adj #68): 60×10/10/10/8 RIR 2/1/0/n-r — set 3 to failure again, set 4 dropped to 8 reps; Adj #58 hold-until-clean NOT satisfied, hold 60 until clean RIR 1 set 3 (Adj #73)" },
+    { "exercise": "Cable pushdown uni", "load": "20/arm — bump-eligible 22.5–25 next (pain-gated)", "lastVerified": "W8 Tue 6/9", "note": "SWAPPED bilateral → unilateral across the board (athlete directive 6/9 — bilateral aggravated the lateral elbow, §10.A); bilateral 55 + its hold chain retired. First outing clean: 20/arm×12/12/12/10 RIR 2/2/1/0, set 3 RIR 1, last set to failure (Adj #74)" },
+    { "exercise": "Rear-delt fly", "load": "125", "lastVerified": "W8 Tue 6/9", "note": "125×15/15 RIR 3/3 — holding clean since W4 Tue bump" },
     { "exercise": "Seated calf", "load": "325 (335 bump HELD — Achilles)", "lastVerified": "W6 Sat 5/30", "note": "SKIPPED W7 Fri 6/5 (forgot) — owed next Sat; 335 bump deferred until Achilles AM-clean — confirmed NOT AM-clean W7 Sat 6/6 (AM stiffness, Adj #63) so 335 stays held (Adj #34/#40/#61). Held at 4 sets/wk maintenance — reactive Achilles bars added calf load, revisit ~6 once AM-clean (Adj #68)" },
-    { "exercise": "Decline crunch", "load": "BW (no added weight) — start", "lastVerified": "W7 Sun 6/7", "note": "NEW — replaces cable crunch (Wed) + hanging leg raise (Sat) per athlete directive 6/7; program.md §3.A/§3.B/§6 updated. Bodyweight start both days (Wed 3×12, Sat 3×10); add load once set 3 ≥RIR 2 clean. Prior cable-crunch (Adj #51) and hanging-leg-raise (Adj #60) progressions moot (Adj #66)" },
+    { "exercise": "Decline crunch", "load": "BW (no added weight)", "lastVerified": "W8 Tue 6/9", "note": "Wed-slot debut of the Adj #66 swap: BW×12/12/12 RIR 2/1/0 — add-load gate (set 3 ≥RIR 2) NOT met, set 3 to failure; hold BW. Sat slot (3×10) still to debut" },
     { "exercise": "Soleus wall-sit", "load": "RETIRED", "lastVerified": "W7 Tue 6/2", "note": "Permanently dropped from the program per athlete directive (program.md updated); Adj #31/#42 carry-forwards moot (Adj #52)" },
     { "exercise": "Chest Fly", "load": "130", "lastVerified": "W7 Fri 6/5", "note": "130×12/12 RIR 1/1 — accessory holding. Sat optional DB flye CUT by default to fund the side-delt bump within the 40-min cap (§6 cut order; Adj #68)" }
   ]
