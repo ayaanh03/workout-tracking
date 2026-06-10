@@ -31,7 +31,7 @@ Max HR **191 bpm** locked W3 Fri 2026-05-08 (rower, peak on effort 1). True runn
 |Seated calf|325 (335 bump HELD — Achilles)|W6 Sat 5/30 (325×12/9/11 RIR 2/0/0)|**SKIPPED W7 Fri (forgot)** — owed next; 335 bump deferred until Achilles AM-clean — **Achilles confirmed NOT AM-clean W7 Sat 6/6 (AM stiffness, Adj #63) so 335 stays held** (Adj #34/#40/#61). Last performed W6 Sat: set 1 on target, sets 2-3 ran to failure against the no-failure instruction|
 |Decline crunch|BW (no added weight) — start|W7 Sun 6/7 (swap, not yet performed)|**NEW — replaces cable crunch (Wed) + hanging leg raise (Sat) per athlete directive 6/7**; program.md §3.A/§3.B/§6 updated. Bodyweight start both days (Wed 3×12, Sat 3×10); add load once set 3 ≥RIR 2 clean. Prior cable-crunch (Adj #51) and hanging-leg-raise (Adj #60) progressions moot (Adj #66)|
 |Soleus wall-sit|RETIRED|W7 Tue 6/2|**permanently dropped from the program per athlete directive** (program.md updated); Adj #31 deepen-knee / Adj #42 owed-dose carry-forwards moot (Adj #52)|
-|Chest Fly|130|W5 Thu 5/21 (130×12 RIR 3/1)|accessory holding|
+|Chest Fly|130|W7 Fri 6/5 (130×12/12 RIR 1/1)|accessory holding — tighter than W5 Thu (RIR 3/1 → 1/1) but clean; hold 130|
 
 ---
 
