@@ -1,24 +1,22 @@
 {
-  "generatedAt": "2026-06-10T19:05:00-04:00",
+  "generatedAt": "2026-06-11T10:45:00-04:00",
   "week": "W8",
-  "day": "Wed",
-  "date": "2026-06-10",
+  "day": "Thu",
+  "date": "2026-06-11",
   "phase": "Base",
-  "sessionName": "Threshold 3x6 min @ T (deload; swapped from Tue)",
+  "sessionName": "Z1 easy run 25 min (deload)",
   "intro": [
-    "All-green AM incl. first AM-clean L Achilles of the deload (Adj #76 trend) — calf 335 / hill-stride / W9 step-up holds (Adj #40/#44/#65) still resolve at the Sun 6/14 boundary check, not today."
+    "Deload easy day — Vomero Plus, flat, no strides (Adj #34; §11.B). Yellow/red AM → rest per §11.C."
   ],
   "lift": null,
   "cardio": {
     "flags": [],
-    "workout": "3x6 min @ T, 1 min jog recovery (deload — §4.C W8 Tue, run today via the Tue↔Wed swap)",
-    "targets": { "pace": "8:00/mi", "hr": "171–180 on work reps — anchor RPE 7 / RIR 2, not the off-191 zones (Adj #9)", "cadence": "178–182 spm" },
-    "warmup": "10 min easy jog 10:00–10:45/mi (cadence 165–172), then 2–3 min build 8:30 → 8:00/mi",
-    "cooldown": "5–10 min easy jog 10:00–10:45/mi, HR descending",
+    "workout": "25 min continuous Z1 easy (§4.C W8 Thu, deload — trimmed recovery dose)",
+    "targets": { "pace": "10:00–10:45/mi — honest end, no creep", "hr": "~155–165 expected; anchor by pace/RPE, off-191 zones skew low (Adj #9)", "cadence": "165–172 spm" },
+    "warmup": "3–5 min brisk walk into an easy jog build to 10:45/mi",
+    "cooldown": "3–5 min walk, HR descending",
     "cues": [
-      "Hold 8:00 even if it runs quick at RPE ≤7 — W7 ran 7:44–7:56 at RPE 7; defer recalibration to the W12 VDOT update (Adj #53)",
-      "No MHR finisher today — the standalone fresh-day max test is still owed (Adj #9)",
-      "Zoom Fly 6 cleared for this short-tempo slot (Adj #34)"
+      "Report AM tendon reads (L Achilles + R patellar) — they feed the Sun 6/14 W8→W9 boundary check (Adj #70/#76)"
     ]
   },
   "currentLoads": [
