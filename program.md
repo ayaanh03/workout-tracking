@@ -117,11 +117,11 @@ Total volume per priority muscle/week is in §6. Logic: 2 sessions/wk × 4–6 s
 | Triceps | Cable pushdown, unilateral (§10.A) | 4×12–15 | RPE 8 | **Triceps** (growth) |
 | Abs | Decline crunch | 3×10 | RPE 8 | **Abs** |
 | Calves | Seated calf raise | 4×12–15 | RPE 9, last set to failure | **Calves** |
-| Optional | DB flye or pec deck | 2×12 | RPE 7 | Chest (joint health) |
+| Chest | **Chest flye** (DB or pec deck) | 2×12 | RPE 7 | Chest (joint health; reintroduced 2026-06-13 per athlete directive, Adj #88) |
 
 **Notes:**
 - **Calves are on Sat only** to keep the legs fresh for the Tue threshold. Sat long run is followed by 24 h rest (Sun), so calf soreness clears well before Tue.
-- Total Sat lift time should not exceed 40 min. Post-audit the optional DB flye is **cut by default** to fund the side-delt bump (chest is non-priority, §6 cut order); if still over, trim a triceps or biceps set before the laterals — the chest-supported row is protected.
+- Total Sat lift time should not exceed 40 min. The chest flye was **reintroduced 2026-06-13** (athlete directive, Adj #88) after the 2026-06-08 audit had cut it to fund the side-delt bump — it now runs as a kept slot. If Sat exceeds 40 min the §6 cut order still applies (chest flye first, then a triceps or biceps set before the laterals — the chest-supported row is protected).
 - **Both circuits substitute the row** for the threshold/VO2max if SI flares (§7) — the lift schedule does not change.
 
 ### 3.C Phase B/C Optional Lower-Body Adds (gated on §11.A thresholds)
@@ -256,7 +256,7 @@ See §2.C above. Race day Sat Oct 24:
 | **Lats** | 7 (Phase B+) | Sat 4 (lat pulldown) + Sat 3 (chest-supported row, Phase B+) | MEV–MAV; chest-supp row dual-purposes for rear delt. **Held at maintenance (1×/wk) per 2026-06-08 audit** (athlete chose to grow arms/side delts, maintain the rest) — to grow later, add a Wed neutral-grip pulldown for 2× freq |
 | **Calves** | 4 | Sat 4 (seated calf) | Direct calf MEV. **Held at maintenance (2026-06-08 audit) — the reactive Achilles (Adj #63) bars added calf load now; revisit to ~6 once AM-clean.** (Soleus wall-sit retired W7 per athlete directive — was +6 sets/wk soleus iso for RE; no longer programmed.) |
 | Rear delts (joint health) | 5 | Wed 2 (rear-delt fly) + Sat 3 (chest-supp row overlap) | Health zone |
-| Chest (joint health, growth from incline) | 5–7 | Wed 3 (incline) + Sat 2 (DB flye, optional) | Incidental; will grow despite not being a priority |
+| Chest (joint health, growth from incline) | 5–7 | Wed 3 (incline) + Sat 2 (chest flye) | Incidental; will grow despite not being a priority. Flye reintroduced 2026-06-13 (Adj #88) |
 | **Lower-body durability/RE** (Phase B+) | 4–8 sets equivalent | Daily SI prehab (clamshell, single-leg bridge, bird-dog, side-lying abd) + Mon hill strides + opt-in Phase C (B-stance hip thrust, reverse Nordic, Spanish squat) | SI durability + glute max + RE; replaces what dropped squat/trap-bar would have provided |
 
 **Rules:**
