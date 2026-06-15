@@ -1,44 +1,46 @@
 {
-  "generatedAt": "2026-06-15T07:30:00-04:00",
+  "generatedAt": "2026-06-15T16:10:00-04:00",
   "week": "W9",
   "day": "Mon",
   "date": "2026-06-15",
   "phase": "Base",
-  "sessionName": "Z1 easy 35 min + 4×20s flat strides",
+  "sessionName": "Z1 easy 35 min + hill strides 6×10–12s @ 4–6%",
   "intro": [
-    "Shallow W9 step pending Sun 6/14 AM tendon read (Adj #87); hill-stride debut held — flat strides only (Adj #44)."
+    "Sun 6/14 AM both clean (Adj #89) — W9 step-up greenlit, hill-stride debut RELEASED (Adj #44). If already ran flat today, debut lands W10 Mon."
   ],
   "lift": null,
   "cardio": {
     "flags": [
-      "Hill-stride debut HELD — flat strides only until L Achilles + R patellar both AM-clean (Adj #44/#87)",
-      "Vomero Plus while Achilles reactive (Adj #34); Zoom Fly 6 reserved for short tempo only"
+      "Hill-stride debut eligible today (Adj #44/#89) — replaces flat strides on Mon per §2.A; walk-down recovery",
+      "Calf 335 bump released for Sat (Adj #40/#89)",
+      "Vomero Plus on the easy portion; debut strides cautious (low grade end of 4–6%, 6 reps not 8)"
     ],
-    "workout": "Z1 easy 35 min continuous + 4×20s flat strides at ~mile-pace effort, full walk/jog recovery",
+    "workout": "Z1 easy 35 min continuous + hill strides 6×10–12s @ 4–6% grade, walk-down recovery",
     "targets": {
-      "pace": "Easy 10:00–10:30/mi (Z1 band 9:45–10:45, anchor by pace per Adj #9); strides ~6:00/mi mile-pace effort, not sprint",
-      "hr": "≤155 (top of Z1 off 191); treadmill runs hot — anchor by pace",
-      "cadence": "165–172 easy; strides ≤180 (178–182)"
+      "pace": "Easy 10:00–10:30/mi (Z1 9:45–10:45, anchor by pace per Adj #9); strides controlled-fast, not sprint",
+      "hr": "≤155 easy (top of Z1 off 191); treadmill runs hot — anchor by pace",
+      "cadence": "165–172 easy; strides ≤180 (178–182) — carry the flat-stride cadence cap into the hills (Adj #25/#62)"
     },
     "warmup": "5 min walk → easy build to 10:30/mi",
     "cooldown": "3–5 min easy jog → walk + SI prehab (clamshell 3×15/side, single-leg bridge 3×8/side, bird-dog 3×8/side)",
     "cues": [
-      "Cadence cap ≤180 on strides — don't dip pace under ~6:00/mi (Adj #25/#62)",
-      "Report AM tendon reads (L Achilles + R patellar) to close the W8→W9 boundary call (Adj #87)"
+      "Hill-stride debut: start at the LOW end of 4–6% grade, 6 reps not 8 — first concentric calf/Achilles dose on the reactive stretch",
+      "Walk down between reps — no jogging recovery on hills",
+      "Report knee + Achilles during/post (knee went bilateral mid-run Sat — watch it)"
     ]
   },
   "currentLoads": [
-    { "exercise": "Incline BB", "load": "140 working / 145 repeat next (miss #1) / TM 162", "lastVerified": "W8 Tue 6/9", "note": "AMRAP/TM re-test DONE — 135x10 true failure → e1RM 180 → new TM 162 (was 165). Adj #47 miss-#1 stands: repeat 145 next Wed, two misses → cut TM 5–7% off 162 (Adj #71)" },
+    { "exercise": "Incline BB", "load": "140 working / 145 repeat next (miss #1) / TM 162", "lastVerified": "W8 Tue 6/9", "note": "AMRAP/TM re-test DONE — 135x10 true failure → e1RM 180 → new TM 162. Adj #47 miss-#1 stands: repeat 145 next Wed, two misses → cut TM 5–7% off 162 (Adj #71)" },
     { "exercise": "Lat pulldown", "load": "155 — hold until clean", "lastVerified": "W8 Fri 6/12", "note": "Bumped 150→155 (Adj #55 landed) — reps held 8 across the full 4 sets but set 3 to failure; hold 155 until clean RIR 1 set 3 (Adj #80)" },
-    { "exercise": "Chest-supp row", "load": "85 working (90 FAILED)", "lastVerified": "W8 Fri 6/12", "note": "90 bump FAILED under fresh conditions — 90x8/4/5 all RIR 0, set 2 collapsed to 4 reps, no long-run-AM alibi = true load ceiling (Adj #81); revert 85, re-attempt 90 only after 85 reads clean with reps to spare" },
-    { "exercise": "DB lateral raise (Wed Hyp A)", "load": "30 working", "lastVerified": "W8 Tue 6/9", "note": "First 6-set growth dose (Adj #68): 30x12/12/12/12/12/10 RIR 3/3/2/2/0/0 — last 2 to failure per prescription; hold 30 (Adj #72)" },
+    { "exercise": "Chest-supp row", "load": "85 working (90 FAILED)", "lastVerified": "W8 Fri 6/12", "note": "90 bump FAILED under fresh conditions — true load ceiling (Adj #81); revert 85, re-attempt 90 only after 85 reads clean with reps to spare" },
+    { "exercise": "DB lateral raise (Wed Hyp A)", "load": "30 working", "lastVerified": "W8 Tue 6/9", "note": "First 6-set growth dose (Adj #68): 30x12/12/12/12/12/10 RIR 3/3/2/2/0/0; hold 30 (Adj #72)" },
     { "exercise": "DB lateral raise (Sat Hyp B)", "load": "30 working", "lastVerified": "W8 Fri 6/12", "note": "ESTABLISHED at 30 (Adj #69 resolved): 30x12/13/12/12 RIR 2/1/1/0; push reps toward 15 before adding load (Adj #82)" },
-    { "exercise": "Preacher curl uni", "load": "60/arm → bump 65 next", "lastVerified": "W8 Fri 6/12", "note": "Hold-until-clean SATISFIED — 60x12/12/12/12 RIR 2/2/1/0, set 3 clean RIR 1 no failure; clears Adj #58/#73 → bump-eligible 65 next (Adj #83)" },
-    { "exercise": "Cable pushdown uni", "load": "22.5/arm — hold until clean (pain-gated)", "lastVerified": "W8 Fri 6/12", "note": "Bumped 20→22.5 (Adj #74) — 22.5x12/12/11/12 RIR 2/1/0/0, set 3 to failure → hold 22.5 until clean RIR 1 set 3. Elbow mild ≤4/10 during; Adj #75 clock stays reset (Adj #84)" },
+    { "exercise": "Preacher curl uni", "load": "60/arm → bump 65 next", "lastVerified": "W8 Fri 6/12", "note": "Hold-until-clean SATISFIED — 60x12/12/12/12 RIR 2/2/1/0; bump-eligible 65 next (Adj #83)" },
+    { "exercise": "Cable pushdown uni", "load": "22.5/arm — hold until clean (pain-gated)", "lastVerified": "W8 Fri 6/12", "note": "Bumped 20→22.5 (Adj #74) — set 3 to failure → hold 22.5 until clean RIR 1 set 3. Elbow mild ≤4/10; Adj #75 clock stays reset (Adj #84)" },
     { "exercise": "Rear-delt fly", "load": "125", "lastVerified": "W8 Tue 6/9", "note": "125x15/15 RIR 3/3 — holding clean since W4 Tue bump" },
-    { "exercise": "Seated calf", "load": "325 (335 bump HELD — boundary Sun 6/14)", "lastVerified": "W8 Sat 6/13", "note": "Owed dose landed: 325x12/12/11 RIR 1/1/0 — sets 1–2 clean, set 3 to failure against the no-last-set-to-failure instruction; NO Achilles pain during — first clean calf-loaded read of the reactive stretch. 335 held pending the Sun 6/14 AM boundary (Adj #40/#87)" },
-    { "exercise": "Decline crunch", "load": "BW (no added weight)", "lastVerified": "W8 Sat 6/13", "note": "Both slots BW — Sat-slot debut (Adj #66/#85): BWx10/10/10 RIR 3/2/0; add-load gate NOT met; hold BW" },
+    { "exercise": "Seated calf", "load": "325 → bump 335 next Sat", "lastVerified": "W8 Sat 6/13", "note": "Owed dose landed: 325x12/12/11 RIR 1/1/0; NO Achilles pain during — first clean calf-loaded read of the reactive stretch. 335 bump RELEASED by Sun 6/14 both-clean AM (Adj #89) — eligible W9 Sat under standard 4-set prescription" },
+    { "exercise": "Decline crunch", "load": "BW (no added weight)", "lastVerified": "W8 Sat 6/13", "note": "Both slots BW (Adj #66/#85): BWx10/10/10 RIR 3/2/0; add-load gate NOT met; hold BW" },
     { "exercise": "Soleus wall-sit", "load": "RETIRED", "lastVerified": "W7 Tue 6/2", "note": "Permanently dropped per athlete directive (Adj #52)" },
-    { "exercise": "Chest Fly", "load": "130", "lastVerified": "W8 Sat 6/13", "note": "REINTRODUCED into Hyp B per athlete directive (Adj #88): 130x12/10 RIR 2/0, set 2 to failure on post-long-run legs; hold 130" }
+    { "exercise": "Chest Fly", "load": "130", "lastVerified": "W8 Sat 6/13", "note": "REINTRODUCED into Hyp B per athlete directive (Adj #88): 130x12/10 RIR 2/0; hold 130" }
   ]
 }
