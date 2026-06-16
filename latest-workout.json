@@ -1,32 +1,27 @@
 {
-  "generatedAt": "2026-06-15T16:10:00-04:00",
+  "generatedAt": "2026-06-16T07:30:00-04:00",
   "week": "W9",
-  "day": "Mon",
-  "date": "2026-06-15",
+  "day": "Tue",
+  "date": "2026-06-16",
   "phase": "Base",
-  "sessionName": "Z1 easy 35 min + hill strides 6×10–12s @ 4–6%",
+  "sessionName": "Threshold 4×8 min @ T (90s rec)",
   "intro": [
-    "Sun 6/14 AM both clean (Adj #89) — W9 step-up greenlit, hill-stride debut RELEASED (Adj #44). If already ran flat today, debut lands W10 Mon."
+    "T target nudged to 7:50–7:55/mi (Adj #77/#89) — anchor RPE ≤7; fall back to 8:00 if any rep reads RPE 8+."
   ],
   "lift": null,
   "cardio": {
-    "flags": [
-      "Hill-stride debut eligible today (Adj #44/#89) — replaces flat strides on Mon per §2.A; walk-down recovery",
-      "Calf 335 bump released for Sat (Adj #40/#89)",
-      "Vomero Plus on the easy portion; debut strides cautious (low grade end of 4–6%, 6 reps not 8)"
-    ],
-    "workout": "Z1 easy 35 min continuous + hill strides 6×10–12s @ 4–6% grade, walk-down recovery",
+    "flags": [],
+    "workout": "4×8 min @ T (90s jog recovery), treadmill 1% or flat road",
     "targets": {
-      "pace": "Easy 10:00–10:30/mi (Z1 9:45–10:45, anchor by pace per Adj #9); strides controlled-fast, not sprint",
-      "hr": "≤155 easy (top of Z1 off 191); treadmill runs hot — anchor by pace",
-      "cadence": "165–172 easy; strides ≤180 (178–182) — carry the flat-stride cadence cap into the hills (Adj #25/#62)"
+      "pace": "7:50–7:55/mi work reps (Adj #77 nudge); RIR 2 / RPE 7. Fall back to 8:00 if RPE 8+",
+      "hr": "~175–183 on work reps; reads hot vs the off-191 Z1 cap — anchor by pace/RPE per Adj #9",
+      "cadence": "175–182 spm on work reps; 168–175 easy"
     },
-    "warmup": "5 min walk → easy build to 10:30/mi",
-    "cooldown": "3–5 min easy jog → walk + SI prehab (clamshell 3×15/side, single-leg bridge 3×8/side, bird-dog 3×8/side)",
+    "warmup": "1.0–1.5 mi easy build to T pace (~10–12 min); Zoom Fly 6 (short-tempo slot, Adj #34)",
+    "cooldown": "1.0 mi easy Z1 (~10 min) + SI prehab (clamshell, single-leg bridge, bird-dog)",
     "cues": [
-      "Hill-stride debut: start at the LOW end of 4–6% grade, 6 reps not 8 — first concentric calf/Achilles dose on the reactive stretch",
-      "Walk down between reps — no jogging recovery on hills",
-      "Report knee + Achilles during/post (knee went bilateral mid-run Sat — watch it)"
+      "Watch right patellar/knee — went bilateral during-run Sat 6/13, stayed clean on Mon's hill strides (Adj #87/#91)",
+      "If 7:50–7:55 reads RPE 8+, drop to the 8:00 lock"
     ]
   },
   "currentLoads": [
