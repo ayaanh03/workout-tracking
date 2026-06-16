@@ -57,19 +57,21 @@ Running > everything. When goals conflict (e.g. lift volume vs run quality), run
 ## 2. Weekly Template (run-priority)
 
 ### 2.A Base / Build template (W5–W22)
-5 days running, 2 lifting (Wed Hyp A standalone, Sat Hyp B after the long run), 1 off (Sun). Wed is lift-only — no run.
+4 days running, 2 lifting (Tue Hyp A standalone, Sat Hyp B after the long run), 2 off (Thu, Sun). Tue is lift-only — no run.
 
 | Day | Session | Notes |
 |---|---|---|
-| **Mon** | Z1 easy run 30–50 min + 4×20 s strides; **Phase B+: hill strides 6–8 × 10–12 s @ 4–6% grade replaces flat strides 1×/wk** | Recovery aerobic + neuromuscular |
-| **Tue** | **Threshold session** (run or row) — see §4 | Quality day #1 (run only; Hyp A moved to Wed) |
-| **Wed** | **Hypertrophy A** circuit (~40 min) — no run | Lift day. Upper-dominant, so it won't tax Fri's legs |
-| **Thu** | AM Z1 easy run 25–40 min (the relocated midweek recovery run) | Recovery aerobic. Revert to rest on yellow/red mornings (§11.C) |
-| **Fri** | **VO2max session** (run or row) — see §4 | Quality day #2 |
+| **Mon** | Z1 easy run 30–50 min + 4×20 s strides; **Phase B+: hill strides 6–8 × 10–12 s @ 4–6% grade replaces flat strides 1×/wk** | Recovery aerobic + neuromuscular; may extend slightly to partly offset the dropped Thu run |
+| **Tue** | **Hypertrophy A** circuit (~45 min) — no run | Lift day. Upper-dominant, 3 days clear of Fri's legs |
+| **Wed** | **Threshold session** (run or row) — see §4 | Quality day #1 (run only; relocated from Tue) |
+| **Thu** | **Off** — mobility / walk, daily SI prehab | Permanently off per athlete directive 2026-06-16 |
+| **Fri** | **VO2max session** (run or row) — see §4 | Quality day #2 (Base: easy + strides until VO2max starts W13) |
 | **Sat** | AM Long run. PM (≥6 h gap) **Hypertrophy B** circuit (~40 min) including seated calf | Volume day. Lift well after run, or push to Sun if run was hard |
 | **Sun** | Off, mobility, Tyler twists 3×15 + reverse Tyler 3×15, McGill Big 3 5-3-1 pyramid, daily SI prehab | Walking is fine |
 
 *Revised 2026-05-27 (W6): Hyp A moved Tue → Wed to decouple the lift from the Tue threshold (resolves the recurring Adj #16 same-day lift/run friction); the midweek Z1 easy run moved Wed → Thu. Thu is no longer a flex-rest day — revert to rest only on yellow/red mornings (§11.C). Hyp A stays upper-dominant + soleus (no Fri-leg cost); reassess if a lower-body add lands in the Wed slot (§3.C). Sat double (long run AM + Hyp B PM) unchanged.*
+
+*Revised 2026-06-16 (W9, athlete directive — Adj #92): Hyp A moved Wed → **Tue**; threshold moved Tue → **Wed**; **Thu permanently off** (was the midweek Z1 easy run). Lift and quality run stay on separate days (Tue lift / Wed T), so no same-day lift/run friction is reintroduced — the 2026-05-27 decoupling holds. Tradeoffs accepted by the athlete: (a) running drops from 5 to 4 days/wk — the Thu easy run (~25–35 min) is deleted, cutting ~2.5–3.5 mpw; Mon and/or the Sat long may extend slightly to recoup, tendons permitting; (b) in Build+, the two quality days now sit **48 h apart (Wed→Fri)** vs the prior 72 h (Tue→Fri), with only Mon easy + Sat long as non-quality run days — the intensity fraction rises, so keep Mon and the Sat long genuinely easy. Watch the two reactive tendons (L Achilles, R patellar — Adj #63/#64) against the tighter quality spacing. Sat double (long run AM + Hyp B PM) unchanged.*
 
 **Strides** (flat): 4–8 × ~20 s "fast but smooth" (~mile pace effort, not sprint), full walk/jog recovery. 2–3× /wk in base, 1–2× /wk in peak/taper.
 
@@ -86,8 +88,10 @@ Same shape, slightly reduced lift volume (drop one circuit/wk if running mileage
 | Run volume vs peak | –30% | –45% | –55% |
 | Quality | 1 T session 3×1 mi + 1 race-pace 5×600m @ 5K pace | 1 short VO2max 5×3 min + 1 race-pace primer 3×800m @ 5K pace | Tue 3×800m @ 5K pace; Thu 4×200m @ goal pace; Fri 20 min EZ + 4 strides |
 | Long run | 50 min Z1 | 40 min Z1 | None |
-| Lift | Wed: 1 top set incline @ ~75% × 3, no accessories. Sat: half-volume hypertrophy B | None | None |
+| Lift | Tue: 1 top set incline @ ~75% × 3, no accessories. Sat: half-volume hypertrophy B | None | None |
 | Lower-body NM | Hill strides 1× early week only | Drop hill strides; seated calf 1× | None |
+
+*Taper note: the W24–W25 micro-schedule above (Tue/Thu/Fri quality placements) is **race-anchored** to the Sat Oct 24 race and is a bespoke layout that supersedes the standard Tue-lift / Wed-T / Thu-off template (§2.A). Finalize exact day placement at taper.*
 
 ---
 
@@ -95,7 +99,7 @@ Same shape, slightly reduced lift volume (drop one circuit/wk if running mileage
 
 Total volume per priority muscle/week is in §6. Logic: 2 sessions/wk × 4–6 sets/session. Most priority muscles sit at maintenance/MEV (≈6–8 sets/wk) to protect running recovery; the **2026-06-08 audit lifts side delts, biceps, triceps into the growth band** (10 / 8 / 8 sets/wk) now that the v4.3 mileage cut (Adj #67) freed recovery headroom. **Lats, calves, abs stay at maintenance per athlete directive.** All landmarks per RP volume (MEV/MAV) + Schoenfeld dose-response metas.
 
-### 3.A Hypertrophy A (Wed, ~45 min post-audit, standalone — no same-day run)
+### 3.A Hypertrophy A (Tue, ~45 min post-audit, standalone — no same-day run)
 
 | Block | Movement | Sets×reps | Load/RPE | Priority muscle |
 |---|---|---|---|---|
@@ -120,7 +124,7 @@ Total volume per priority muscle/week is in §6. Logic: 2 sessions/wk × 4–6 s
 | Chest | **Chest flye** (DB or pec deck) | 2×12 | RPE 7 | Chest (joint health; reintroduced 2026-06-13 per athlete directive, Adj #88) |
 
 **Notes:**
-- **Calves are on Sat only** to keep the legs fresh for the Tue threshold. Sat long run is followed by 24 h rest (Sun), so calf soreness clears well before Tue.
+- **Calves are on Sat only** to keep the legs fresh for the Wed threshold. Sat long run is followed by Sun rest, so calf soreness clears well before Wed.
 - Total Sat lift time should not exceed 40 min. The chest flye was **reintroduced 2026-06-13** (athlete directive, Adj #88) after the 2026-06-08 audit had cut it to fund the side-delt bump — it now runs as a kept slot. If Sat exceeds 40 min the §6 cut order still applies (chest flye first, then a triceps or biceps set before the laterals — the chest-supported row is protected).
 - **Both circuits substitute the row** for the threshold/VO2max if SI flares (§7) — the lift schedule does not change.
 
@@ -137,7 +141,7 @@ These are *opt-in*, low-shear, low-SI-risk additions for marginal RE and durabil
 
 **Decision rule throughout:** if any new addition triggers SI symptoms within 48h → drop it. Keep what works, don't add what doesn't.
 
-**Slot note (post-2026-05-27):** Hyp A is now Wed, two days before Fri quality. Prefer the **Sat** slot for any lower-body add; if using the Wed slot, keep the load light enough that Fri's legs are unaffected.
+**Slot note (post-2026-06-16):** Hyp A is now Tue, three days before Fri quality (and a day before Wed threshold). Prefer the **Sat** slot for any lower-body add; if using the Tue slot, keep the load light enough that Wed's threshold and Fri's quality are unaffected.
 
 **What's NOT on this list and why:**
 - Step-ups, split squats, Bulgarian splits — too much SI shear even unloaded for an athlete with active history.
@@ -173,18 +177,18 @@ Rower runs ~20–35 s/500m faster than equivalent run pace at the same HR (non-w
 | W4 | 25 min easy outdoor | 4×3 min @ T (run or row) + 1 min jog rec | 35–40 min easy | Strides 4×20 s after Tue |
 
 ### 4.C Base (W5–W12) — polarized, no VO2max yet
-Polarized, weekly volume 14 → 24 mpw (v4.3 cap). Midweek easy run is **Thu** (Wed = Hyp A lift, no run; see §2.A revision). **W9+ easy/long minutes trimmed per the v4.3 reshape — keep easy days truly easy; quality (Tue T) unchanged.**
+Polarized, weekly volume ~12 → 20 mpw (v4.3 cap, further trimmed by the 2026-06-16 Thu-off change, Adj #92). Threshold is now **Wed** (Tue = Hyp A lift, no run; Thu off — see §2.A revision 2026-06-16). **W9+ easy/long minutes trimmed per the v4.3 reshape — keep easy days truly easy; quality (Wed T) unchanged.**
 
-| Wk | Mon EZ | Tue T | Thu EZ | Fri Quality | Sat Long | Total |
-|---|---|---|---|---|---|---|
-| W5 | 30 min | 4×5 min @ T (1 min rec) | 25 min | 25 min easy + 6×20 s strides | 45 min | ~14 mi |
-| W6 | 35 min (+ hill strides if SI clean ≥3 wks) | 5×5 min @ T (1 min rec) | 30 min | 30 min progression (last 10 @ M) | 55 min | ~17 mi |
-| W7 | 40 min (+ hill strides) | 3×8 min @ T (90 s rec) | 30 min | 35 min easy + 6 strides | 60 min | ~19 mi |
-| W8 (deload) | 30 min | 3×6 min @ T (1 min rec) | 25 min | 25 min easy + 4 strides | 45 min | ~14 mi |
-| W9 | 35 min (+ hill strides) | 4×8 min @ T (90 s rec) | 30 min | 40 min easy + 6 strides | 60 min | ~20 mi |
-| W10 | 40 min (+ hill strides) | 2×15 min @ T (3 min rec) | 30 min | 35 min progression (last 15 @ M) | 60 min | ~21 mi |
-| W11 | 40 min (+ hill strides) | 5×6 min @ T (1 min rec) cruise intervals | 35 min | 40 min easy + 6 strides | 65 min | ~23 mi |
-| W12 (test) | 30 min | 30 min + 4 strides | 25 min | **5K TT** (Fri or Sat) — see §10 | 30 min easy day-after | ~16 + race |
+| Wk | Mon EZ | Wed T | Fri Quality | Sat Long | Total |
+|---|---|---|---|---|---|
+| W5 | 30 min | 4×5 min @ T (1 min rec) | 25 min easy + 6×20 s strides | 45 min | ~12 mi |
+| W6 | 35 min (+ hill strides if SI clean ≥3 wks) | 5×5 min @ T (1 min rec) | 30 min progression (last 10 @ M) | 55 min | ~14 mi |
+| W7 | 40 min (+ hill strides) | 3×8 min @ T (90 s rec) | 35 min easy + 6 strides | 60 min | ~16 mi |
+| W8 (deload) | 30 min | 3×6 min @ T (1 min rec) | 25 min easy + 4 strides | 45 min | ~12 mi |
+| W9 | 35 min (+ hill strides) | 4×8 min @ T (90 s rec) | 40 min easy + 6 strides | 60 min | ~17 mi |
+| W10 | 40 min (+ hill strides) | 2×15 min @ T (3 min rec) | 35 min progression (last 15 @ M) | 60 min | ~18 mi |
+| W11 | 40 min (+ hill strides) | 5×6 min @ T (1 min rec) cruise intervals | 40 min easy + 6 strides | 65 min | ~20 mi |
+| W12 (test) | 30 min | 30 min + 4 strides | **5K TT** (Fri or Sat) — see §10 | 30 min easy day-after | ~14 + race |
 
 **Row equivalents:**
 - Easy run → Z1 row, same minutes, HR ≤75% MHR, ~2:15–2:25/500m
@@ -192,16 +196,16 @@ Polarized, weekly volume 14 → 24 mpw (v4.3 cap). Midweek easy run is **Thu** (
 - Long run → row same minutes, Z1, can break into 2 segments with 2 min walk
 
 ### 4.D Build (W13–W18) — add VO2max
-Polarized (Stöggl 2014). The v4.3 cap trims easy volume but holds the quality work intact, so the easy fraction lands nearer ~75% (vs the textbook 80%) — acceptable and intended for a 5K peak; keep the easy days genuinely easy so the two quality sessions stay the only hard work.
+Polarized (Stöggl 2014). The v4.3 cap trims easy volume but holds the quality work intact, so the easy fraction lands nearer ~75% (vs the textbook 80%) — acceptable and intended for a 5K peak; keep the easy days genuinely easy so the two quality sessions stay the only hard work. **With the 2026-06-16 template change (Thu off, T moved to Wed; Adj #92) the two quality days now sit 48 h apart (Wed→Fri) and the only non-quality run days are Mon easy + Sat long — the intensity fraction rises further. This is an explicit athlete-accepted tradeoff; protect it by keeping Mon and the Sat long genuinely easy, and watch the reactive tendons (Adj #63/#64) against the tighter Wed→Fri spacing.**
 
-| Wk | Mon EZ | Tue T | Thu EZ | Fri VO2max | Sat Long | Total |
-|---|---|---|---|---|---|---|
-| W13 | 35 min (+ hill strides) | 4×6 min @ T (90 s) | 30 min | 5×3 min @ I (3 min rec) | 60 min | ~23 |
-| W14 | 35 min (+ hill strides) | **3K TT or 4×1 mi @ T** (mid-build test) | 30 min | 6×3 min @ I (2:30 rec) | 60 min | ~23 |
-| W15 | 40 min (+ hill strides) | 2×15 min @ T | 30 min | 5×4 min @ I (3 min rec) | 65 min | ~25 |
-| W16 (deload) | 30 min | 3×6 min @ T | 25 min | 4×3 min @ I | 50 min | ~17 |
-| W17 | 40 min (+ hill strides) | 6×1 K @ T (60 s rec) | 35 min | **5×1000m @ I (90 s rec)** — gold standard 5K VO2max session | 70 min | ~28 (peak) |
-| W18 | 40 min (+ hill strides) | 4×1 mi @ T (90 s) | 35 min | 8×800m @ I (90 s rec) | 65 min | ~27 |
+| Wk | Mon EZ | Wed T | Fri VO2max | Sat Long | Total |
+|---|---|---|---|---|---|
+| W13 | 35 min (+ hill strides) | 4×6 min @ T (90 s) | 5×3 min @ I (3 min rec) | 60 min | ~20 |
+| W14 | 35 min (+ hill strides) | **3K TT or 4×1 mi @ T** (mid-build test) | 6×3 min @ I (2:30 rec) | 60 min | ~20 |
+| W15 | 40 min (+ hill strides) | 2×15 min @ T | 5×4 min @ I (3 min rec) | 65 min | ~22 |
+| W16 (deload) | 30 min | 3×6 min @ T | 4×3 min @ I | 50 min | ~14 |
+| W17 | 40 min (+ hill strides) | 6×1 K @ T (60 s rec) | **5×1000m @ I (90 s rec)** — gold standard 5K VO2max session | 70 min | ~25 (peak) |
+| W18 | 40 min (+ hill strides) | 4×1 mi @ T (90 s) | 8×800m @ I (90 s rec) | 65 min | ~24 |
 
 5×1000m @ I-pace is the most cited VO2max session for 5K (Daniels; LetsRun forum consensus; PMC10099854 — 4×4 min and 5×1K class show largest VO2max gains).
 
@@ -213,12 +217,12 @@ Polarized (Stöggl 2014). The v4.3 cap trims easy volume but holds the quality w
 ### 4.E Sharpen (W19–W22) — race-pace specificity
 Volume holds 30–35 mpw, intensity gets specific. **No new lower-body exercises.**
 
-| Wk | Mon EZ | Tue Quality | Thu EZ | Fri Quality | Sat Long |
-|---|---|---|---|---|---|
-| W19 | 35 min (+ hill strides) | 6×800m @ 5K pace (90 s rec) | 30 min | 5×3 min @ I (2 min rec) + 4×200m R | 60 min |
-| W20 | 40 min (+ hill strides) | **Cut-down: 1 mi @ M / 1 mi @ T / 1 mi @ 5K** | 30 min | 4×1 K @ 5K pace (2 min rec) | 60 min |
-| W21 | 40 min | 5×1 K @ 5K pace (90 s rec) | 30 min | **Tune-up race or solo 5K TT (target 20:30–20:45)** | 50 min easy day-after |
-| W22 (deload) | 30 min | 3×1 K @ 5K pace | 25 min | 5×3 min @ I | 50 min |
+| Wk | Mon EZ | Wed Quality | Fri Quality | Sat Long |
+|---|---|---|---|---|
+| W19 | 35 min (+ hill strides) | 6×800m @ 5K pace (90 s rec) | 5×3 min @ I (2 min rec) + 4×200m R | 60 min |
+| W20 | 40 min (+ hill strides) | **Cut-down: 1 mi @ M / 1 mi @ T / 1 mi @ 5K** | 4×1 K @ 5K pace (2 min rec) | 60 min |
+| W21 | 40 min | 5×1 K @ 5K pace (90 s rec) | **Tune-up race or solo 5K TT (target 20:30–20:45)** | 50 min easy day-after |
+| W22 (deload) | 30 min | 3×1 K @ 5K pace | 5×3 min @ I | 50 min |
 
 ### 4.F Taper (W23–W25)
 See §2.C above. Race day Sat Oct 24:
@@ -235,10 +239,10 @@ See §2.C above. Race day Sat Oct 24:
 | Phase | Day | Sets/Reps | Notes |
 |---|---|---|---|
 | Reset (W1–W4) | Tue | 3×5 @ TM, +5 lb/wk if reps clean RPE 7 | Conservative LP |
-| Base (W5–W12) | Wed | 3×5 @ TM. Every 4 wks: 1×5 @ TM + 1×AMRAP @ 80% (test set) → set new TM at 90% of e1RM | Linear progression continues; expect TM 175–185 by W12 |
-| Build (W13–W18) | Wed | 1×5 @ TM + 1×AMRAP @ 80% | Single top + back-off; preserves stimulus without burning Wed afternoon |
-| Sharpen (W19–W22) | Wed | 1×5 @ TM, no AMRAP, no PR attempts | Maintenance |
-| Taper W23 | 1×3 @ 75% Wed, then stop until post-race | — |
+| Base (W5–W12) | Tue | 3×5 @ TM. Every 4 wks: 1×5 @ TM + 1×AMRAP @ 80% (test set) → set new TM at 90% of e1RM | Linear progression continues; expect TM 175–185 by W12 |
+| Build (W13–W18) | Tue | 1×5 @ TM + 1×AMRAP @ 80% | Single top + back-off; preserves stimulus without burning the lift day |
+| Sharpen (W19–W22) | Tue | 1×5 @ TM, no AMRAP, no PR attempts | Maintenance |
+| Taper W23 | 1×3 @ 75% Tue, then stop until post-race | — |
 | Taper W24–W25 | None | — |
 
 **Progression rule:** all reps clean at prescribed RPE → +5 lb next session. Miss → repeat. Two misses → cut TM 5–7%.
@@ -405,12 +409,12 @@ Sleep 7.5–8 h. Protein 1.6–1.8 g/kg. Carbs 0.5–1 g/kg pre, 1+ g/kg post on
 ## 12. Quick Reference Card
 
 ```
-WEEKLY LANDSCAPE (Base / Build / Sharpen)
+WEEKLY LANDSCAPE (Base / Build / Sharpen) — template revised 2026-06-16 (Adj #92)
 Mon  Easy run + strides (or hill strides Phase B+)
-Tue  THRESHOLD run (or row)           run only
-Wed  Hypertrophy A circuit (no run)
-Thu  Easy run                         (revert to rest on yellow/red days)
-Fri  VO2max run (or row)
+Tue  Hypertrophy A circuit (no run)
+Wed  THRESHOLD run (or row)           quality #1, relocated from Tue
+Thu  Off (mobility / walk)            permanently off
+Fri  VO2max run (or row)              quality #2 (Base: easy + strides until W13)
 Sat  LONG RUN (AM)                  + Hypertrophy B circuit (PM, ≥6h)
                                       includes seated calf
 Sun  Off + Tyler + McGill + clamshells + daily SI prehab

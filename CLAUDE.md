@@ -171,9 +171,9 @@ Cross-reference against `program.md §2`:
 |---|---|
 | Sun | Off / SI prehab (Tyler twists, reverse Tyler, McGill Big 3) |
 | Mon | Z1 easy run + strides (hill strides Phase B+) |
-| Tue | Threshold (run or row) — run only |
-| Wed | **Hyp A** lift (no run; upper-dominant + soleus wall-sit) |
-| Thu | Z1 easy run (revert to rest on yellow/red days per §11.C) |
+| Tue | **Hyp A** lift (no run; upper-dominant) |
+| Wed | Threshold (run or row) — run only (relocated from Tue, per §2.A 2026-06-16) |
+| Thu | **Off** — mobility / walk, daily SI prehab (permanently off per §2.A 2026-06-16) |
 | Fri | VO2max / Quality (T session in Base; intervals in Build) |
 | Sat | Long run AM + **Hyp B** PM (≥6h gap; push to Sun if hard) |
 
