@@ -1,26 +1,29 @@
 {
-  "generatedAt": "2026-06-16T17:15:00-04:00",
+  "generatedAt": "2026-06-17T19:32:00-04:00",
   "week": "W9",
-  "day": "Tue",
-  "date": "2026-06-16",
+  "day": "Wed",
+  "date": "2026-06-17",
   "phase": "Base",
-  "sessionName": "Hypertrophy A (standalone, no run)",
+  "sessionName": "Threshold 4×8 min @ T (90s rec)",
   "intro": [
-    "Schedule change live (Adj #92): Tue is now the Hyp A lift day; threshold moves to Wed, Thu is off. Today = Hyp A."
+    "T target nudged 8:00 → 7:50–7:55/mi today (Adj #77/#89) — anchor RPE ≤7."
   ],
-  "lift": {
-    "table": [
-      { "exercise": "Incline BB", "setsReps": "3×5", "load": "145", "rir": "2", "rest": "2–3 min", "cue": "Repeat 145 — miss #1 (Adj #47/#71); 2nd miss → cut TM 5–7% off 162. Near LP top, expect RPE 8–9" },
-      { "exercise": "DB lateral raise", "setsReps": "6×12", "load": "30", "rir": "RPE 9 / last 2 to failure", "rest": "60–90s", "cue": "Hold 30 (Adj #72) — don't bump on soft openers while the 6-set dose beds in" },
-      { "exercise": "Preacher curl uni", "setsReps": "4×10", "load": "65/arm", "rir": "8 / last set RIR 0–1", "rest": "60–90s", "cue": "BUMP 60→65 (Adj #83). Preacher-only per §10.A; tennis-elbow clock reset W8" },
-      { "exercise": "Cable pushdown uni", "setsReps": "4×12", "load": "22.5/arm", "rir": "8 / last set RIR 0–1", "rest": "60–90s", "cue": "Hold 22.5 until clean RIR 1 set 3 (Adj #84); pain-gated — >4/10 → drop 20%, double Tyler" },
-      { "exercise": "Decline crunch", "setsReps": "3×12", "load": "BW", "rir": "2", "rest": "60s", "cue": "Hold BW; add load once set 3 ≥RIR 2 clean (Adj #66/#85)" },
-      { "exercise": "Rear-delt fly (optional)", "setsReps": "2×15", "load": "125", "rir": "3", "rest": "60s", "cue": "Holding clean since W4" }
-    ],
-    "warmup": "Pre-lift: wrist-extensor isometric 3×30s/arm + Tyler 3×15 / reverse Tyler 3×15 (§10.A). Incline BB: bar×8, 95×5, 115×3, then working. General: 1–2 min band pull-aparts.",
-    "cooldown": "SI prehab — clamshell, single-leg bridge, bird-dog, McGill side plank. No run today (lift-only)."
+  "lift": null,
+  "cardio": {
+    "flags": ["T target nudged 8:00 → 7:50–7:55/mi (Adj #77/#89); anchor RPE ≤7"],
+    "workout": "4×8 min @ T (90s jog rec)",
+    "targets": {
+      "pace": "7:50–7:55/mi",
+      "hr": "~175–183 (anchor by pace/RPE — off-191 zones skew low, Adj #9)",
+      "cadence": "178–182 spm"
+    },
+    "warmup": "1.0–1.5 mi easy build to T pace",
+    "cooldown": "1.0 mi easy / Z1 + SI prehab (quality-day)",
+    "cues": [
+      "If 7:50–7:55 reads RPE 8+, fall back to the 8:00 lock (Adj #77)",
+      "Zoom Fly 6 (short-tempo slot, Adj #34); watch R patellar / L Achilles on the new Wed→Fri spacing (Adj #87/#92)"
+    ]
   },
-  "cardio": null,
   "currentLoads": [
     { "exercise": "Incline BB", "load": "140 working / 145 repeat next (miss #1) / TM 162", "lastVerified": "W8 Tue 6/9", "note": "AMRAP/TM re-test DONE — 135x10 true failure → e1RM 180 → new TM 162. Adj #47 miss-#1 stands: repeat 145, two misses → cut TM 5–7% off 162 (Adj #71)" },
     { "exercise": "Lat pulldown", "load": "155 — hold until clean", "lastVerified": "W8 Fri 6/12", "note": "Bumped 150→155 (Adj #55 landed) — reps held 8 across the full 4 sets but set 3 to failure; hold 155 until clean RIR 1 set 3 (Adj #80)" },
