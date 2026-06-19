@@ -1,27 +1,29 @@
 {
-  "generatedAt": "2026-06-17T23:55:00-04:00",
+  "generatedAt": "2026-06-19T02:35:00-04:00",
   "week": "W9",
-  "day": "Wed",
-  "date": "2026-06-17",
+  "day": "Fri",
+  "date": "2026-06-19",
   "phase": "Base",
-  "sessionName": "Threshold 4×8 min @ T (90s rec)",
+  "sessionName": "Z1 easy 40 min + 6×20s strides",
   "intro": [
-    "T target nudged 8:00 → 7:50–7:55/mi today (Adj #77/#89) — anchor RPE ≤7."
+    "Owed fresh-day run-MHR test (standalone 1500m all-out / treadmill ramp) strongly indicated W9 Fri or W10 (Adj #93) — your call: run it today (fresh, Thu off) or take easy + strides and slot the test W10."
   ],
   "lift": null,
   "cardio": {
-    "flags": ["T target nudged 8:00 → 7:50–7:55/mi (Adj #77/#89); anchor RPE ≤7"],
-    "workout": "4×8 min @ T (90s jog rec)",
+    "flags": [
+      "Run-MHR test owed (Adj #9/#53/#93) — Wed's 4×8 hit peak 190 at RIR 2–3; today is a fresh day. Run as its own session if elected, not a finisher (Adj #53)"
+    ],
+    "workout": "40 min Z1 easy + 6×20s strides (flat)",
     "targets": {
-      "pace": "7:50–7:55/mi",
-      "hr": "~175–183 (anchor by pace/RPE — off-191 zones skew low, Adj #9)",
-      "cadence": "178–182 spm"
+      "pace": "Easy 9:45–10:45/mi; strides ~6:00/mi (smooth, not sprint)",
+      "hr": "Easy ≤155 nominal — anchor by pace, off-191 zones skew low (Adj #9); treadmill reads ~160–168 hot",
+      "cadence": "Easy 165–172; strides ≤180 (178–182 cap, Adj #25/#62)"
     },
-    "warmup": "1.0–1.5 mi easy build to T pace",
-    "cooldown": "1.0 mi easy / Z1 + SI prehab (quality-day)",
+    "warmup": "5 min easy build 10:45 → 10:00/mi",
+    "cooldown": "5 min easy Z1 jog + SI prehab (clamshell / bird-dog / side plank)",
     "cues": [
-      "If 7:50–7:55 reads RPE 8+, fall back to the 8:00 lock (Adj #77)",
-      "Zoom Fly 6 (short-tempo slot, Adj #34); watch R patellar / L Achilles on the new Wed→Fri spacing (Adj #87/#92)"
+      "Flat strides, cadence cap ≤180 — held zero-overshoot the last two outings (Adj #25/#62); full walk/jog recovery",
+      "Vomero Plus (easy in the daily trainer, Adj #34). Keep genuinely easy — Wed→Fri quality spacing raises intensity fraction (Adj #92); watch L Achilles / R patellar"
     ]
   },
   "currentLoads": [
