@@ -1,29 +1,42 @@
 {
-  "generatedAt": "2026-06-19T02:35:00-04:00",
+  "generatedAt": "2026-06-20T12:55:00-04:00",
   "week": "W9",
-  "day": "Fri",
-  "date": "2026-06-19",
+  "day": "Sat",
+  "date": "2026-06-20",
   "phase": "Base",
-  "sessionName": "Z1 easy 40 min + 6×20s strides",
+  "sessionName": "Long Z1 60 min (AM) + Hypertrophy B (PM)",
   "intro": [
-    "Owed fresh-day run-MHR test (standalone 1500m all-out / treadmill ramp) strongly indicated W9 Fri or W10 (Adj #93) — your call: run it today (fresh, Thu off) or take easy + strides and slot the test W10."
+    "Seated calf 335 bump LANDS today (Adj #40/#89) — released by the Sun 6/14 both-clean AM read; standard 4-set prescription, no special Achilles hold."
   ],
-  "lift": null,
+  "lift": {
+    "table": [
+      { "exercise": "Lat pulldown (neutral grip)", "setsReps": "4×8–10", "load": "155", "rir": "RPE 8; last set RIR 1", "rest": "90–120s", "cue": "Hold until clean — set 3 went to failure at 155 last out (Adj #80); clean RIR 1 set 3 → bump 160" },
+      { "exercise": "Chest-supported row", "setsReps": "3×10", "load": "85", "rir": "RPE 8 (RIR ~2)", "rest": "90–120s", "cue": "Reverted from failed 90 (true ceiling, Adj #81); re-attempt 90 only after 85 reads clean with reps to spare" },
+      { "exercise": "DB lateral raise", "setsReps": "4×12–15", "load": "30", "rir": "RPE 9; last set to failure", "rest": "60–90s", "cue": "Push reps toward 15 before adding load (Adj #82)" },
+      { "exercise": "Preacher curl (uni)", "setsReps": "4×12", "load": "65/arm", "rir": "RPE 8", "rest": "60–90s", "cue": "Hold 65 until reps recover toward 10 w/ cleaner set-3 (Adj #94)" },
+      { "exercise": "Cable pushdown (uni)", "setsReps": "4×12–15", "load": "20/arm", "rir": "RPE 8", "rest": "60–90s", "cue": "Reverted from 22.5 (form/pre-fatigue). Pain-gated §10.A: >4/10 on a working set → drop 20%, double Tyler that night. Re-attempt 22.5 once 20 runs clean" },
+      { "exercise": "Decline crunch", "setsReps": "3×10", "load": "BW", "rir": "RPE 8", "rest": "60–90s", "cue": "Hold BW — add-load gate (set 3 ≥RIR 2) not yet met (Adj #66/#94)" },
+      { "exercise": "Seated calf", "setsReps": "4×12–15", "load": "335", "rir": "RPE 9; last set to failure", "rest": "60–90s", "cue": "BUMP 325→335 (Adj #40/#89). Standard prescription back ON — Achilles AM-clean; report Achilles during/post" },
+      { "exercise": "Chest flye (DB or pec deck)", "setsReps": "2×12", "load": "130", "rir": "RPE 7", "rest": "60–90s", "cue": "Kept slot (Adj #88). Cut first if Sat overruns 40 min (§6)" }
+    ],
+    "warmup": "Pre-lift wrist-extensor isometric 3×30s/arm (§10.A, elbow still not symptom-free). General: 1–2 min band pull-aparts / scap push-ups.",
+    "cooldown": "Tyler twist 3×15 + reverse Tyler 3×15 (FlexBar, §10.A dailies). Daily SI prehab."
+  },
   "cardio": {
     "flags": [
-      "Run-MHR test owed (Adj #9/#53/#93) — Wed's 4×8 hit peak 190 at RIR 2–3; today is a fresh day. Run as its own session if elected, not a finisher (Adj #53)"
+      "Keep the long genuinely easy — Fri ran 8:59/mi @ HR 171 (not truly easy); the Wed→Fri tighter spacing (Adj #92) + v4.3 reshape raise the intensity fraction, so dial this back to 9:45–10:45/mi (Adj #96)."
     ],
-    "workout": "40 min Z1 easy + 6×20s strides (flat)",
+    "workout": "Long run 60 min Z1 (flat / light rolling OK post-W7)",
     "targets": {
-      "pace": "Easy 9:45–10:45/mi; strides ~6:00/mi (smooth, not sprint)",
-      "hr": "Easy ≤155 nominal — anchor by pace, off-191 zones skew low (Adj #9); treadmill reads ~160–168 hot",
-      "cadence": "Easy 165–172; strides ≤180 (178–182 cap, Adj #25/#62)"
+      "pace": "9:45–10:45/mi (Z1 floor 9:45 — do not run quick)",
+      "hr": "≤155 nominal; anchor by pace/nasal, off-191 zones skew low (Adj #9)",
+      "cadence": "165–172 (natural easy band)"
     },
-    "warmup": "5 min easy build 10:45 → 10:00/mi",
-    "cooldown": "5 min easy Z1 jog + SI prehab (clamshell / bird-dog / side plank)",
+    "warmup": "5–10 min easy build 10:45 → 10:15/mi",
+    "cooldown": "5–10 min easy Z1 jog + SI prehab (clamshell / bird-dog / side plank)",
     "cues": [
-      "Flat strides, cadence cap ≤180 — held zero-overshoot the last two outings (Adj #25/#62); full walk/jog recovery",
-      "Vomero Plus (easy in the daily trainer, Adj #34). Keep genuinely easy — Wed→Fri quality spacing raises intensity fraction (Adj #92); watch L Achilles / R patellar"
+      "Vomero Plus (long/easy in the daily trainer — Achilles-protective higher stack / 8mm drop, Adj #34; Zoom Fly 6 reserved for short tempo)",
+      "Watch L Achilles + R patellar — both quiet Mon→Wed→Fri; report AM and during/post reads at logging"
     ]
   },
   "currentLoads": [
@@ -35,7 +48,7 @@
     { "exercise": "Preacher curl uni", "load": "65/arm working", "lastVerified": "W9 Tue 6/16 (65×10/10/8/9 RIR 1/0/0/0)", "note": "Bump 60→65 landed (Adj #83); soft back half attributed to under-fuelling not load (§11.F); keep 65, hold until reps recover toward 10 w/ cleaner set-3 RIR (Adj #94)" },
     { "exercise": "Cable pushdown uni", "load": "20/arm (reverted from 22.5 — form/pre-fatigue)", "lastVerified": "W9 Tue 6/16 (22.5×12/11/6/7 RIR 1/0/0/0)", "note": "Form broke at 22.5 (set 3 fell to 6 reps) — likely incline-press tricep pre-fatigue + under-fuelling, NOT a true ceiling and NOT the elbow (no §10.A action, 4-wk clock unaffected). Re-attempt 22.5 once 20 runs clean (Adj #74/#84/#94)" },
     { "exercise": "Rear-delt fly", "load": "125 → 130 next", "lastVerified": "W9 Tue 6/16 (125×15/15 RIR 4+/4)", "note": "Joint-health RPE 7 slot; bump 130 next Tue (W10) — 125 ran RIR 4+, under the RPE 7 target; role unchanged, not a growth promotion (Adj #95)" },
-    { "exercise": "Seated calf", "load": "325 → bump 335 next Sat", "lastVerified": "W8 Sat 6/13", "note": "Owed dose landed: 325x12/12/11 RIR 1/1/0; NO Achilles pain during. 335 bump RELEASED by Sun 6/14 both-clean AM (Adj #89) — eligible W9 Sat under standard 4-set prescription" },
+    { "exercise": "Seated calf", "load": "325 → bump 335 this Sat", "lastVerified": "W8 Sat 6/13", "note": "Owed dose landed: 325x12/12/11 RIR 1/1/0; NO Achilles pain during. 335 bump RELEASED by Sun 6/14 both-clean AM (Adj #89) — eligible W9 Sat under standard 4-set prescription" },
     { "exercise": "Decline crunch", "load": "BW (no added weight)", "lastVerified": "W9 Tue 6/16 (BW×12/12/9 RIR 2/2/0)", "note": "Both slots BW (Adj #66); Tue set 3 to failure (9), add-load gate NOT met; hold BW (Adj #94)" },
     { "exercise": "Soleus wall-sit", "load": "RETIRED", "lastVerified": "W7 Tue 6/2", "note": "Permanently dropped per athlete directive (Adj #52)" },
     { "exercise": "Chest Fly", "load": "130", "lastVerified": "W8 Sat 6/13", "note": "REINTRODUCED into Hyp B per athlete directive (Adj #88): 130x12/10 RIR 2/0; hold 130" }
