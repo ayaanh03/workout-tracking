@@ -1,30 +1,17 @@
 {
-  "generatedAt": "2026-06-20T19:42:00-04:00",
+  "generatedAt": "2026-06-21T16:01:45-04:00",
   "week": "W9",
-  "day": "Sat",
-  "date": "2026-06-20",
+  "day": "Sun",
+  "date": "2026-06-21",
   "phase": "Base",
-  "sessionName": "Hypertrophy B (logged) — long run PUNTED to Sun (Achilles AM-sore, cleared pre-lift)",
+  "sessionName": "Long run 60 min Z1 (punted from Sat, Adj #104)",
   "intro": [
-    "Hyp B logged; long run moved to Sun 6/21 (Adj #104). Calf 335 bump landed clean (no Achilles during/post); lat 155 hold cleared (bump 160); row reset 85→75 and preacher reset 65→60 on a fed regression."
+    "Punted §4.C W9 Sat long → today (Adj #104); Sat AM-sore L Achilles cleared before yesterday's Hyp B."
   ],
-  "lift": {
-    "table": [
-      { "exercise": "Lat pulldown (neutral grip)", "setsReps": "4×8–10", "load": "155", "rir": "RPE 8; last set RIR 1", "rest": "90–120s", "cue": "Hold until clean — set 3 went to failure at 155 last out (Adj #80); clean RIR 1 set 3 → bump 160" },
-      { "exercise": "Chest-supported row", "setsReps": "3×10", "load": "85", "rir": "RPE 8 (RIR ~2)", "rest": "90–120s", "cue": "Reverted from failed 90 (true ceiling, Adj #81); re-attempt 90 only after 85 reads clean with reps to spare" },
-      { "exercise": "DB lateral raise", "setsReps": "4×12–15", "load": "30", "rir": "RPE 9; last set to failure", "rest": "60–90s", "cue": "Push reps toward 15 before adding load (Adj #82)" },
-      { "exercise": "Preacher curl (uni)", "setsReps": "4×12", "load": "65/arm", "rir": "RPE 8", "rest": "60–90s", "cue": "Hold 65 until reps recover toward 10 w/ cleaner set-3 (Adj #94)" },
-      { "exercise": "Cable pushdown (uni)", "setsReps": "4×12–15", "load": "20/arm", "rir": "RPE 8", "rest": "60–90s", "cue": "Reverted from 22.5 (form/pre-fatigue). Pain-gated §10.A: >4/10 on a working set → drop 20%, double Tyler that night. Re-attempt 22.5 once 20 runs clean" },
-      { "exercise": "Decline crunch", "setsReps": "3×10", "load": "BW", "rir": "RPE 8", "rest": "60–90s", "cue": "Hold BW — add-load gate (set 3 ≥RIR 2) not yet met (Adj #66/#94)" },
-      { "exercise": "Seated calf", "setsReps": "4×12–15", "load": "335", "rir": "RPE 9; last set to failure", "rest": "60–90s", "cue": "BUMP 325→335 (Adj #40/#89). Standard prescription back ON — Achilles AM-clean; report Achilles during/post" },
-      { "exercise": "Chest flye (DB or pec deck)", "setsReps": "2×12", "load": "130", "rir": "RPE 7", "rest": "60–90s", "cue": "Kept slot (Adj #88). Cut first if Sat overruns 40 min (§6)" }
-    ],
-    "warmup": "Pre-lift wrist-extensor isometric 3×30s/arm (§10.A, elbow still not symptom-free). General: 1–2 min band pull-aparts / scap push-ups.",
-    "cooldown": "Tyler twist 3×15 + reverse Tyler 3×15 (FlexBar, §10.A dailies). Daily SI prehab."
-  },
+  "lift": null,
   "cardio": {
     "flags": [
-      "Keep the long genuinely easy — Fri ran 8:59/mi @ HR 171 (not truly easy); the Wed→Fri tighter spacing (Adj #92) + v4.3 reshape raise the intensity fraction, so dial this back to 9:45–10:45/mi (Adj #96)."
+      "Keep it genuinely easy — Fri ran 8:59/mi @ HR 171 (not truly easy); the Wed→Fri tighter spacing (Adj #92) + v4.3 reshape raise the intensity fraction, so hold the Z1 floor 9:45–10:45/mi (Adj #96)."
     ],
     "workout": "Long run 60 min Z1 (flat / light rolling OK post-W7)",
     "targets": {
@@ -33,10 +20,11 @@
       "cadence": "165–172 (natural easy band)"
     },
     "warmup": "5–10 min easy build 10:45 → 10:15/mi",
-    "cooldown": "5–10 min easy Z1 jog + SI prehab (clamshell / bird-dog / side plank)",
+    "cooldown": "5–10 min easy Z1 jog → walk + Sun SI prehab (Tyler 3×15 + reverse Tyler 3×15, McGill Big 3 5-3-1, daily clamshell / bird-dog / side plank)",
     "cues": [
       "Vomero Plus (long/easy in the daily trainer — Achilles-protective higher stack / 8mm drop, Adj #34; Zoom Fly 6 reserved for short tempo)",
-      "Watch L Achilles + R patellar — both quiet Mon→Wed→Fri; report AM and during/post reads at logging"
+      "Watch L Achilles + R patellar — both quiet Mon→Wed→Fri; report AM and during/post reads at logging",
+      "NOT the owed fresh-day run-MHR max test (that rolls to W10) — this is the easy punted long, run it easy"
     ]
   },
   "currentLoads": [
