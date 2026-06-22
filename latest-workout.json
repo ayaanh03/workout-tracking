@@ -1,30 +1,31 @@
 {
-  "generatedAt": "2026-06-21T19:15:00-04:00",
-  "week": "W9",
-  "day": "Sun",
-  "date": "2026-06-21",
+  "generatedAt": "2026-06-22T12:47:00-04:00",
+  "week": "W10",
+  "day": "Mon",
+  "date": "2026-06-22",
   "phase": "Base",
-  "sessionName": "Long run 60 min Z1 (punted from Sat, Adj #104)",
+  "sessionName": "Z1 easy 40 min + hill strides",
   "intro": [
-    "Punted §4.C W9 Sat long → today (Adj #104); Sat AM-sore L Achilles cleared before yesterday's Hyp B."
+    "Hill strides live (Adj #91 debut clean @ 4% / 6 reps) — progress cautiously to 7–8 × 10–12s @ 4–5% grade, hold cadence ≤180 (Adj #25/#62); keep the easy block honest 9:45–10:45 (Fri ran 8:59 hot, Adj #96/#105)."
   ],
   "lift": null,
   "cardio": {
     "flags": [
-      "Keep it genuinely easy — Fri ran 8:59/mi @ HR 171 (not truly easy); the Wed→Fri tighter spacing (Adj #92) + v4.3 reshape raise the intensity fraction, so hold the Z1 floor 9:45–10:45/mi (Adj #96)."
+      "Keep it genuinely easy — Fri ran 8:59/mi @ HR 171 (not truly easy); the Wed→Fri tighter spacing (Adj #92) + v4.3 reshape raise the intensity fraction, so hold the Z1 floor 9:45–10:45/mi (Adj #96/#105)."
     ],
-    "workout": "Long run 60 min Z1 (flat / light rolling OK post-W7)",
+    "workout": "Z1 easy 40 min (flat / light rolling OK post-W7) + hill strides 7–8 × 10–12s @ 4–5% grade, walk-down recovery",
     "targets": {
-      "pace": "9:45–10:45/mi (Z1 floor 9:45 — do not run quick)",
+      "pace": "Easy 9:45–10:45/mi (Z1 floor 9:45 — do not run quick); hill strides 6:00/mi effort (mile-pace, not sprint)",
       "hr": "≤155 nominal; anchor by pace/nasal, off-191 zones skew low (Adj #9)",
-      "cadence": "165–172 (natural easy band)"
+      "cadence": "Easy 165–172 (natural band); hill strides ≤180 (178–182 cap, Adj #25/#62)"
     },
-    "warmup": "5–10 min easy build 10:45 → 10:15/mi",
-    "cooldown": "5–10 min easy Z1 jog → walk + Sun SI prehab (Tyler 3×15 + reverse Tyler 3×15, McGill Big 3 5-3-1, daily clamshell / bird-dog / side plank)",
+    "warmup": "5–10 min easy build 10:45 → 10:15/mi before the strides",
+    "cooldown": "5 min easy Z1 jog → walk + daily SI prehab (clamshell, bird-dog, side-lying abduction, side plank)",
     "cues": [
-      "Vomero Plus (long/easy in the daily trainer — Achilles-protective higher stack / 8mm drop, Adj #34; Zoom Fly 6 reserved for short tempo)",
-      "Watch L Achilles + R patellar — both quiet Mon→Wed→Fri; report AM and during/post reads at logging",
-      "NOT the owed fresh-day run-MHR max test (that rolls to W10) — this is the easy punted long, run it easy"
+      "Vomero Plus (easy in the daily trainer — Achilles-protective higher stack / 8mm drop, Adj #34; Zoom Fly 6 reserved for short tempo)",
+      "Hill strides debuted clean W9 Mon at the cautious end (4% / 6 reps, Adj #91) — step up toward 7–8 reps and/or 4–5% grade, hold cadence ≤180 (last set ran 183 quick of the cap)",
+      "Owed fresh-day run-MHR max test (1500m all-out / treadmill ramp) rolls to W10 — run as its own session this week, NOT a finisher (Adj #9/#53/#93)",
+      "Watch L Achilles AM read — during-only/resolving all of late W9 (Adj #105); report AM and during/post at logging"
     ]
   },
   "currentLoads": [
