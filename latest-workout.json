@@ -1,30 +1,30 @@
 {
-  "generatedAt": "2026-06-24T07:30:00-04:00",
+  "generatedAt": "2026-06-24T22:59:00-04:00",
   "week": "W10",
   "day": "Wed",
   "date": "2026-06-24",
   "phase": "Base",
   "sessionName": "Threshold 2×15 min @ T (3 min rec)",
   "intro": [
-    "Hold 8:00/mi — Adj #77/#93 7:50–7:55 nudge held (cooler-weather confounder); anchor RPE ≤7. Vomero Plus (Adj #34)."
+    "Logged — work reps 7:49/7:38/mi, RPE 7/RIR 2-3, 4th straight T quick of the 7:50–7:55 nudge (Adj #77/#93). L Achilles mild dull soreness AFTER (below Adj #34 trigger) — Adj #113."
   ],
   "lift": null,
   "cardio": {
     "flags": [
-      "Hold 8:00/mi — the Adj #77/#93 nudge to 7:50–7:55 stays held on the cooler-weather confounder; anchor RPE ≤7. Vomero Plus (Adj #34, Achilles-protective)."
+      "Done — Zoom Fly 6, road. Work 1: 7:49/mi, HR avg 179, power 256W, cadence 171. Work 2: 7:38/mi, HR avg 177, power 263W, cadence 176 (1.63 mi/12:30). RPE 7/RIR 2-3 both reps.",
+      "L Achilles mild (1-3/10) dull soreness AFTER, not during/AM — below Adj #34 monitor trigger, no holds reversed. Recheck AM Fri."
     ],
-    "workout": "2×15 min @ T (3 min jog recovery), treadmill 1% or flat road",
+    "workout": "2×15 min @ T (3 min jog recovery) — COMPLETED, work sets only logged per athlete",
     "targets": {
-      "pace": "7:55–8:10/mi (8:00 lock)",
-      "hr": "~172–183 work (anchor RPE/pace — off-191 zones skew low for running, Adj #9)",
-      "cadence": "175–182 spm"
+      "pace": "7:55–8:10/mi (8:00 lock) — actual 7:49/7:38",
+      "hr": "~172–183 work (anchor RPE/pace — off-191 zones skew low for running, Adj #9) — actual avg 179/177",
+      "cadence": "175–182 spm — actual 171/176"
     },
     "warmup": "1.0–1.5 mi easy build to T pace (9:30 → 8:00/mi), cadence building to ~178",
     "cooldown": "1.0 mi easy Z1 (9:45–10:45/mi) + SI prehab (clamshell, single-leg bridge, bird-dog, side plank)",
     "cues": [
-      "Anchor RPE ≤7 — if 8:00 reads RPE 8+, ease off; pace recalibration defers to the W12 5K-TT (§10).",
-      "Owed fresh-day run-MHR max test is NOT today — run it as its own session (Fri or standalone), not a finisher (Adj #9/#53/#93).",
-      "Report L Achilles AM read (during-only/resolving through late W9, Adj #105/#106)."
+      "Carry-forward → Adj #113: pace continues to outrun the lock at controlled RPE; recalibration still deferred to W12 5K-TT (§10).",
+      "Owed fresh-day run-MHR max test still rolls forward — Fri or standalone, not a finisher (Adj #9/#53/#93)."
     ]
   },
   "currentLoads": [
