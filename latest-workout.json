@@ -13,13 +13,13 @@
     "flags": [
       "AM-gated session — check L Achilles before choosing path (Adj #113)."
     ],
-    "workout": "Run-MHR max test: 12 min easy build, 8 min ramp 8:00→6:30/mi, 60–90s max effort flat-out (capture peak HR vs 191 lock), 8–10 min easy cooldown. Treadmill, Vomero Plus.",
+    "workout": "Run-MHR max test: 10–12 min easy build + 3×20s strides, then 1500m all-out (capture peak HR vs 191 lock), 8–10 min easy cooldown. Road/track, Vomero Plus.",
     "targets": {
-      "pace": "Ramp 8:00→6:30/mi stepped, then all-out max effort",
+      "pace": "1500m all-out — even or negative split, max sustainable effort",
       "hr": "Capture peak — target >191 (current rower-test lock); off-191 zones skew low for running (Adj #9)",
-      "cadence": "178–185 spm on the ramp, uncapped on the max effort"
+      "cadence": "175–180 spm on the build/strides, uncapped on the 1500m"
     },
-    "warmup": "12 min easy build 10:30→8:30/mi, cadence building to 172–178 spm",
+    "warmup": "10–12 min easy build 10:30→9:00/mi + 3×20s strides (full recovery walk), cadence building to ~175 spm",
     "cooldown": "8–10 min easy jog/walk, 10:30–11:30/mi, falling to Z1",
     "cues": [
       "Fallback if AM Achilles not clean: §4.C 35 min progression — 20 min easy build (9:45→8:30/mi) + last 15 min @ M 8:30/mi; defer test again (Adj #106).",
