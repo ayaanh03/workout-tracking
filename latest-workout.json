@@ -1,30 +1,29 @@
 {
-  "generatedAt": "2026-06-24T22:59:00-04:00",
+  "generatedAt": "2026-06-25T20:14:00-04:00",
   "week": "W10",
-  "day": "Wed",
-  "date": "2026-06-24",
+  "day": "Fri",
+  "date": "2026-06-26",
   "phase": "Base",
-  "sessionName": "Threshold 2×15 min @ T (3 min rec)",
+  "sessionName": "Run-MHR max test (AM-gated) / fallback progression",
   "intro": [
-    "Logged — work reps 7:49/7:38/mi, RPE 7/RIR 2-3, 4th straight T quick of the 7:50–7:55 nudge (Adj #77/#93). L Achilles mild dull soreness AFTER (below Adj #34 trigger) — Adj #113."
+    "AM-gated: clean L Achilles → standalone run-MHR max test below, owed since W7, named for W10 Fri (Adj #9/#53/#93/#106). Not clean → fallback progression (see cues)."
   ],
   "lift": null,
   "cardio": {
     "flags": [
-      "Done — Zoom Fly 6, road. Work 1: 7:49/mi, HR avg 179, power 256W, cadence 171. Work 2: 7:38/mi, HR avg 177, power 263W, cadence 176 (1.63 mi/12:30). RPE 7/RIR 2-3 both reps.",
-      "L Achilles mild (1-3/10) dull soreness AFTER, not during/AM — below Adj #34 monitor trigger, no holds reversed. Recheck AM Fri."
+      "AM-gated session — check L Achilles before choosing path (Adj #113)."
     ],
-    "workout": "2×15 min @ T (3 min jog recovery) — COMPLETED, work sets only logged per athlete",
+    "workout": "Run-MHR max test: 12 min easy build, 8 min ramp 8:00→6:30/mi, 60–90s max effort flat-out (capture peak HR vs 191 lock), 8–10 min easy cooldown. Treadmill, Vomero Plus.",
     "targets": {
-      "pace": "7:55–8:10/mi (8:00 lock) — actual 7:49/7:38",
-      "hr": "~172–183 work (anchor RPE/pace — off-191 zones skew low for running, Adj #9) — actual avg 179/177",
-      "cadence": "175–182 spm — actual 171/176"
+      "pace": "Ramp 8:00→6:30/mi stepped, then all-out max effort",
+      "hr": "Capture peak — target >191 (current rower-test lock); off-191 zones skew low for running (Adj #9)",
+      "cadence": "178–185 spm on the ramp, uncapped on the max effort"
     },
-    "warmup": "1.0–1.5 mi easy build to T pace (9:30 → 8:00/mi), cadence building to ~178",
-    "cooldown": "1.0 mi easy Z1 (9:45–10:45/mi) + SI prehab (clamshell, single-leg bridge, bird-dog, side plank)",
+    "warmup": "12 min easy build 10:30→8:30/mi, cadence building to 172–178 spm",
+    "cooldown": "8–10 min easy jog/walk, 10:30–11:30/mi, falling to Z1",
     "cues": [
-      "Carry-forward → Adj #113: pace continues to outrun the lock at controlled RPE; recalibration still deferred to W12 5K-TT (§10).",
-      "Owed fresh-day run-MHR max test still rolls forward — Fri or standalone, not a finisher (Adj #9/#53/#93)."
+      "Fallback if AM Achilles not clean: §4.C 35 min progression — 20 min easy build (9:45→8:30/mi) + last 15 min @ M 8:30/mi; defer test again (Adj #106).",
+      "Vomero Plus regardless of path — Zoom Fly 6 stays short-tempo-only while Achilles reactive (Adj #34)."
     ]
   },
   "currentLoads": [
