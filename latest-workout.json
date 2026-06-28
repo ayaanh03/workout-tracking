@@ -1,41 +1,28 @@
 {
-  "generatedAt": "2026-06-27T19:15:00-04:00",
+  "generatedAt": "2026-06-28T13:10:00-04:00",
   "week": "W10",
-  "day": "Sat",
-  "date": "2026-06-27",
+  "day": "Sun",
+  "date": "2026-06-28",
   "phase": "Base",
-  "sessionName": "Hypertrophy B (logged) — long run PUNTED to Sun",
+  "sessionName": "Long Z1 60 min (punted from Sat, Adj #123)",
   "intro": [
-    "Hyp B logged; long run moves to Sun 6/28 (Adj #123). Rough session — lat pulldown 160 partial (sets 3-4 fell to 6), preacher collapsed even on the proven-clean 60 (Tue 4x10 vs Sat 4x12 mismatch, Adj #118), seated calf 335 backoff also failed (Adj #120). Wins: chest-supp row set 1 RIR 2 (first headroom since reset) and DB lateral best in-band spread yet."
+    "Punted W10 long run, Sat→Sun (Adj #123) — mirrors last week's punt (Adj #104). Hyp B already done Sat; no lift today."
   ],
-  "lift": {
-    "table": [
-      { "exercise": "Lat pulldown", "setsReps": "4×8–10", "load": "160", "rir": "2, last set 1", "rest": "90–120s", "cue": "Bump 155→160 (Adj #97); last set to failure" },
-      { "exercise": "Chest-supp row", "setsReps": "3×10", "load": "75", "rir": "2", "rest": "90–120s", "cue": "Reset hold at 75, rebuilding (Adj #98)" },
-      { "exercise": "DB lateral raise", "setsReps": "4×12–15", "load": "30", "rir": "1, last set 0", "rest": "60–90s", "cue": "Hold 30; push reps toward 15 before adding load (Adj #99)" },
-      { "exercise": "Preacher curl uni", "setsReps": "4×12", "load": "65/arm", "rir": "2 (gate: clean set 3)", "rest": "60–90s", "cue": "Re-attempt 65/arm; clean set-3 RIR confirms, hold 60 if it slides (Adj #109)" },
-      { "exercise": "Cable pushdown uni", "setsReps": "4×12–15", "load": "22.5/arm", "rir": "2", "rest": "60–90s", "cue": "Re-attempt 22.5/arm; pain-gated, drop 20% if any set >4/10 (Adj #110)" },
-      { "exercise": "Decline crunch", "setsReps": "3×10", "load": "BW", "rir": "2", "rest": "60–90s", "cue": "Hold BW; add load only if set 3 ≥RIR 2 (Adj #111)" },
-      { "exercise": "Seated calf raise", "setsReps": "4×12–15", "load": "345 → hold 335 if AM sore/stiff", "rir": "1, last set 0", "rest": "60–90s", "cue": "345 only on a clean AM Achilles read today; else hold 335 (Adj #102/#113)" },
-      { "exercise": "Chest flye", "setsReps": "2×12", "load": "130", "rir": "3", "rest": "60–90s", "cue": "Hold 130; bump-eligible on a clean RIR 2 set 2 (Adj #103)" }
-    ],
-    "warmup": "General: 1–2 min band pull-aparts, scap push-ups, hip openers. Light ramp set before lat pulldown 160.",
-    "cooldown": "2–3 min static stretch — lats, chest, biceps/triceps, calves."
-  },
+  "lift": null,
   "cardio": {
     "flags": [
-      "Seated calf 345 attempt (PM) gated on today's own AM Achilles read — hold 335 if sore/stiff (Adj #102/#113)."
+      "AM Achilles/knee/SI status wasn't recorded yesterday — report it today (Adj #120/#123)."
     ],
     "workout": "60 min Z1 long run: 5 min easy build, 50 min steady Z1, 5 min easy cooldown.",
     "targets": {
-      "pace": "9:45–10:45/mi (§4.A Z1 band)",
-      "hr": "≤155 (Run Z1 cap, off-191 lock)",
-      "cadence": "165–172 spm natural — don't force 180 at easy pace (§2.A)"
+      "pace": "9:45–10:45/mi (§4.A Z1 band) — hold the honest ~10:45 ceiling, no creep (Adj #96/#106)",
+      "hr": "≤155 (Run Z1 cap, off-191 lock) — anchor by pace per Adj #9, zones skew low for running",
+      "cadence": "165–172 spm natural — don't force"
     },
     "warmup": "5 min easy build 10:30→9:45/mi, cadence building toward 165–172",
-    "cooldown": "5 min easy jog/walk, 10:30–11:00/mi, falling to Z1",
+    "cooldown": "5 min easy/walk 10:30–11:00/mi, falling to Z1",
     "cues": [
-      "≥6h gap before Hyp B; push Hyp B to Sun if the long run was hard (§2.A)."
+      "Vomero Plus, not Zoom Fly 6 — long-run shoe rule while Achilles occasionally reactive (Adj #34)."
     ]
   },
   "currentLoads": [
