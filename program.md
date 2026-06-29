@@ -43,7 +43,7 @@ Running > everything. When goals conflict (e.g. lift volume vs run quality), run
 | **Sharpen** | W19–W22 | Sep 8 – Oct 5 | Race-pace specificity | 26–28 mpw | 2 (reduced volume) | Maintain Phase B additions; **no new exercises** |
 | **Taper** | W23–W25 | Oct 6 – Oct 24 | Volume cut 30 → 55%, intensity preserved | 20 → 15 → 12 (race wk) | 1 (W23 only) | Drop hill strides last 10 days; seated calf 1×/wk only |
 
-> **v4.3 mileage reshape (W8, 2026-06-08) — junk-volume cut, quality preserved.** Peak mileage cut **38 → 28 mpw**; easy/recovery-run minutes and long-run length trimmed across Base W9+, Build, Sharpen, and the taper. **Every quality session is unchanged** — Tue threshold, Fri VO2max, and the Sharpen race-pace work keep their exact rep schemes and paces, because those (not easy volume) drive 5K performance. Rationale: current VDOT ~45–48 (Adj #9) is already on a sub-20 trajectory at ≤19 mpw with 4.5 months to go; the high-mileage tail was the largest cost against goal-2 hypertrophy (concurrent-training interference + energy drain — athlete reports feeling muscle loss) and the largest injury exposure (two reactive tendons surfaced at W7, ≤19 mpw — Adj #63–65). Capping easy volume raises the intensity fraction modestly vs the old ~80/20 — acceptable and intended for a 5K peak; **keep true easy days truly easy.** Resolves the Adj #65 deferred mileage call (Adj #67). The W12 5K TT (§10) is still the hard gate: hit ≤21:30 on the capped plan and the extra volume was never needed. Lift schedule/volume unchanged (already lean MEV–MAV, §6).
+> **v4.3 mileage reshape (2026-06-08):** peak mileage cut 38 → 28 mpw; quality sessions unchanged. Rationale in `program-history.md`.
 
 ### 1.1 Test targets W25
 
@@ -69,9 +69,7 @@ Running > everything. When goals conflict (e.g. lift volume vs run quality), run
 | **Sat** | AM Long run. PM (≥6 h gap) **Hypertrophy B** circuit (~40 min) including seated calf | Volume day. Lift well after run, or push to Sun if run was hard |
 | **Sun** | Off, mobility, Tyler twists 3×15 + reverse Tyler 3×15, McGill Big 3 5-3-1 pyramid, daily SI prehab | Walking is fine |
 
-*Revised 2026-05-27 (W6): Hyp A moved Tue → Wed to decouple the lift from the Tue threshold (resolves the recurring Adj #16 same-day lift/run friction); the midweek Z1 easy run moved Wed → Thu. Thu is no longer a flex-rest day — revert to rest only on yellow/red mornings (§11.C). Hyp A stays upper-dominant + soleus (no Fri-leg cost); reassess if a lower-body add lands in the Wed slot (§3.C). Sat double (long run AM + Hyp B PM) unchanged.*
-
-*Revised 2026-06-16 (W9, athlete directive — Adj #92): Hyp A moved Wed → **Tue**; threshold moved Tue → **Wed**; **Thu permanently off** (was the midweek Z1 easy run). Lift and quality run stay on separate days (Tue lift / Wed T), so no same-day lift/run friction is reintroduced — the 2026-05-27 decoupling holds. Tradeoffs accepted by the athlete: (a) running drops from 5 to 4 days/wk — the Thu easy run (~25–35 min) is deleted, cutting ~2.5–3.5 mpw; Mon and/or the Sat long may extend slightly to recoup, tendons permitting; (b) in Build+, the two quality days now sit **48 h apart (Wed→Fri)** vs the prior 72 h (Tue→Fri), with only Mon easy + Sat long as non-quality run days — the intensity fraction rises, so keep Mon and the Sat long genuinely easy. Watch the two reactive tendons (L Achilles, R patellar — Adj #63/#64) against the tighter quality spacing. Sat double (long run AM + Hyp B PM) unchanged.*
+*Template revision history (2026-05-27 Tue↔Wed decoupling; 2026-06-16 permanent Tue-lift/Wed-T/Thu-off change, Adj #92) in `program-history.md`.*
 
 **Strides** (flat): 4–8 × ~20 s "fast but smooth" (~mile pace effort, not sprint), full walk/jog recovery. 2–3× /wk in base, 1–2× /wk in peak/taper.
 
