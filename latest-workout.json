@@ -1,24 +1,22 @@
 {
-  "generatedAt": "2026-06-28T19:30:00-04:00",
-  "week": "W10",
-  "day": "Sun",
-  "date": "2026-06-28",
+  "generatedAt": "2026-06-29T14:18:00-04:00",
+  "week": "W11",
+  "day": "Mon",
+  "date": "2026-06-29",
   "phase": "Base",
-  "sessionName": "Long Z1 50 min (punted from Sat, Adj #123)",
-  "intro": [
-    "Logged — 50 min road @ 10:00/mi, Vomero Plus, HR avg 165/peak 173, cadence 172. AM Achilles clean, no pain anywhere during/post (Adj #124). Ran short of the §4.C-prescribed 60 min."
-  ],
+  "sessionName": "Z1 easy 40 min + hill strides 8 × @ 4.5%",
+  "intro": [],
   "lift": null,
   "cardio": {
     "flags": [],
-    "workout": "50 min Z1 long run @ 10:00/mi, road, Vomero Plus.",
+    "workout": "40 min Z1 easy + 8 × 10–12 s hill strides @ 4.5% grade (walk-down rec). Step up from W10 Mon's 7×@4.5% within the §2.A 6–8 range (Adj #106).",
     "targets": {
-      "pace": "9:45–10:45/mi (§4.A Z1 band)",
+      "pace": "10:00–10:45/mi easy; ~6:00/mi effort on strides",
       "hr": "≤155 (Run Z1 cap, off-191 lock)",
-      "cadence": "165–172 spm natural"
+      "cadence": "165–172 spm easy / 175–182 spm strides"
     },
-    "warmup": "n/a — logged as continuous run",
-    "cooldown": "n/a — logged as continuous run",
+    "warmup": "5 min easy build 11:00→10:30/mi (HR ≤145, cadence 165–170)",
+    "cooldown": "5 min easy walk",
     "cues": []
   },
   "currentLoads": [
