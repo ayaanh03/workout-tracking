@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-06-29T23:30:00-04:00",
+  "generatedAt": "2026-06-30T19:30:00-04:00",
   "week": "W11",
-  "day": "Mon",
-  "date": "2026-06-29",
+  "day": "Tue",
+  "date": "2026-06-30",
   "phase": "Base",
-  "sessionName": "Z1 easy 40 min + hill strides 8 × @ 4.5%",
-  "intro": [],
-  "lift": null,
-  "cardio": {
-    "flags": [],
-    "workout": "40 min Z1 easy + 8 × 10–12 s hill strides @ 4.5% grade (walk-down rec). Step up from W10 Mon's 7×@4.5% within the §2.A 6–8 range (Adj #106).",
-    "targets": {
-      "pace": "10:00–10:45/mi easy; ~6:00/mi effort on strides",
-      "hr": "≤155 (Run Z1 cap, off-191 lock)",
-      "cadence": "165–172 spm easy / 175–182 spm strides"
-    },
-    "warmup": "5 min easy build 11:00→10:30/mi (HR ≤145, cadence 165–170)",
-    "cooldown": "5 min easy walk",
-    "cues": []
+  "sessionName": "Hyp A (standalone, no run)",
+  "intro": ["W11 reshape: lifting ~24h post Mon's off-protocol long T-progression (Adj #125) — autoregulate openers; soft openers != a load issue."],
+  "lift": {
+    "table": [
+      { "exercise": "Incline BB", "setsReps": "3×5", "load": "145", "rir": "RPE 7 (RIR 2-3)", "rest": "2-3 min", "cue": "+5 → 150 only on cleaner set-3 RIR ≥1 (Adj #107). TM 162 stands; next §5 re-test ~W12." },
+      { "exercise": "DB lateral raise", "setsReps": "6×12", "load": "30", "rir": "RPE 9, last 2 to fail", "rest": "90-120 s", "cue": "Hold 30 — don't bump on soft openers (Adj #108)." },
+      { "exercise": "Preacher curl (uni)", "setsReps": "4×10", "load": "60/arm", "rir": "last set RIR 0-1", "rest": "60-90 s", "cue": "Optional 65 test only if set 1 leaves RIR 1-2 (Sat 65 failed at 4×12; Tue ask is the easier 4×10, Adj #118)." },
+      { "exercise": "Cable pushdown (uni)", "setsReps": "4×12", "load": "22.5/arm", "rir": "last set RIR 0-1", "rest": "60-90 s", "cue": "Hold-until-clean continues — log elbow pain; §10.A 4-wk clock still reset (Adj #119)." },
+      { "exercise": "Decline crunch", "setsReps": "3×12", "load": "BW", "rir": "RPE 8", "rest": "60-90 s", "cue": "Add-load gate = set 3 RIR ≥2 clean (Adj #122)." },
+      { "exercise": "Rear-delt fly", "setsReps": "2×15", "load": "130", "rir": "RPE 7", "rest": "60 s", "cue": "Bump landed, hold; joint-health slot (Adj #112)." }
+    ],
+    "warmup": "Dynamic 1-2 min (band pull-aparts, scap push-ups, hip openers). §10.A pre-lift: wrist-extensor isometric 3×30 s/arm. Incline BB ramp: bar×8, 95×5, 115×3.",
+    "cooldown": "§10.A tennis elbow daily — Tyler twist + reverse Tyler (FlexBar), 3×15 each, eccentric 4 s. §9 daily SI prehab — clamshell 3×15/side, side-lying hip abd 3×12/side, single-leg glute bridge 3×8/side, bird-dog 3×8/side, McGill side plank 3×20-30 s/side."
   },
+  "cardio": null,
   "currentLoads": [
     { "exercise": "Incline BB", "load": "145 working → 150 on cleaner RIR / TM 162", "lastVerified": "W10 Tue 6/23 (145×5/5/5 RIR 1/1/0)", "note": "Hold 145 — reps cleared 3×5 again (set 2 nudged RIR 1 vs W9's 0) but set 3 still to failure (RIR 0) vs the RPE 7 / RIR 2-3 target; top of linear LP (e1RM ~163 ≈ TM), +5 to 150 only on a cleaner set-3 RIR. TM 162 stands; next §5 re-test ~W12 (Adj #107)" },
     { "exercise": "Lat pulldown", "load": "160 attempted → hold-until-clean", "lastVerified": "W10 Sat 6/27 (160×8/8/6/6 RIR 2/1/0/0)", "note": "160 bump partial — sets 1-2 held the 8-rep floor, sets 3-4 collapsed to 6 reps RIR 0, below the 4×8-10 floor. Hold-until-clean NOT met → hold 160, re-attempt clean set 3 (Adj #115)" },
