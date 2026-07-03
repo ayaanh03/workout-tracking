@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-07-01T09:20:00-04:00",
+  "generatedAt": "2026-07-03T16:11:00-04:00",
   "week": "W11",
-  "day": "Wed",
-  "date": "2026-07-01",
+  "day": "Fri",
+  "date": "2026-07-03",
   "phase": "Base",
-  "sessionName": "RESHAPED — Z1 easy 30–35 min + 6–8 hill strides @ 4–6%",
-  "intro": ["W11 reshape: Wed T dropped, paid by Mon's off-protocol T-progression (Adj #125). Recheck AM Achilles before hill strides — first concentric dose since W10 Mon; sub flat strides if not clean (Adj #132/#106)."],
+  "sessionName": "Z1 easy 40 min + 6×20s strides",
+  "intro": [],
   "lift": null,
   "cardio": {
     "flags": [],
-    "workout": "Z1 easy 20–25 min continuous + 6–8 hill strides 10–12s @ 4–6% grade, walk-down recovery",
-    "targets": { "pace": "9:45–10:45/mi Z1; hill strides fast but smooth, not sprint", "hr": "≤155 (off-191 zones; anchor easy portion by pace, not HR)", "cadence": "165–172 spm easy; 175–180 spm hill strides (cap ≤180, Adj #25/#62)" },
+    "workout": "Z1 easy 30 min continuous + 6×20 s strides (flat, controlled-fast)",
+    "targets": { "pace": "9:45–10:45/mi Z1; strides ~mile-pace effort, not sprint", "hr": "≤155 (off-191 zones; anchor by pace, not HR)", "cadence": "165–172 spm easy; 175–182 spm strides" },
     "warmup": "5 min walk/jog build to Z1",
-    "cooldown": "5 min easy jog / Z1; Tyler twists 3×15, reverse Tyler 3×15",
+    "cooldown": "5 min easy jog/walk / Z1; Tyler twists 3×15, reverse Tyler 3×15",
     "cues": []
   },
   "currentLoads": [
