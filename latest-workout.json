@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-07-06T11:50:00-04:00",
-  "week": "W11",
-  "day": "Wed",
-  "date": "2026-07-01",
+  "generatedAt": "2026-07-06T12:30:00-04:00",
+  "week": "W12",
+  "day": "Mon",
+  "date": "2026-07-06",
   "phase": "Base",
-  "sessionName": "RESHAPED — Z1 easy 30–35 min + 6–8 hill strides @ 4–6%",
-  "intro": ["W11 reshape: Wed T dropped, paid by Mon's off-protocol T-progression (Adj #125). Recheck AM Achilles before hill strides — first concentric dose since W10 Mon; sub flat strides if not clean (Adj #132/#106)."],
+  "sessionName": "Z1 easy run 30 min (test-week opener)",
+  "intro": ["First run since Wed 7-1 (Fri skipped per athlete 7-6 — Adj #141 partially resolved). Check AM Achilles before running — Sat's 345 seated-calf 4×12 all-to-failure was the biggest calf dose of the cycle, during/post not reported (Adj #135); not clean → row Z1 30 min."],
   "lift": null,
   "cardio": {
     "flags": [],
-    "workout": "Z1 easy 20–25 min continuous + 6–8 hill strides 10–12s @ 4–6% grade, walk-down recovery",
-    "targets": { "pace": "9:45–10:45/mi Z1; hill strides fast but smooth, not sprint", "hr": "≤155 (off-191 zones; anchor easy portion by pace, not HR)", "cadence": "165–172 spm easy; 175–180 spm hill strides (cap ≤180, Adj #25/#62)" },
-    "warmup": "5 min walk/jog build to Z1",
-    "cooldown": "5 min easy jog / Z1; Tyler twists 3×15, reverse Tyler 3×15",
+    "workout": "Z1 easy 30 min continuous, flat, Vomero Plus. No strides — §4.C W12 keeps Mon plain; pre-TT strides are Wed. 5K TT is Fri.",
+    "targets": { "pace": "9:45–10:45/mi, honest-easy", "hr": "≤155 (off-191 zones)", "cadence": "165–172 spm, natural" },
+    "warmup": "5 min brisk walk → jog build to Z1",
+    "cooldown": "5 min walk; Tyler twists 3×15, reverse Tyler 3×15",
     "cues": []
   },
   "currentLoads": [
