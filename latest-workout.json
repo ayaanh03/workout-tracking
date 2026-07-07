@@ -1,20 +1,25 @@
 {
-  "generatedAt": "2026-07-06T12:30:00-04:00",
+  "generatedAt": "2026-07-07T10:23:00-04:00",
   "week": "W12",
-  "day": "Mon",
-  "date": "2026-07-06",
+  "day": "Tue",
+  "date": "2026-07-07",
   "phase": "Base",
-  "sessionName": "Z1 easy run 30 min (test-week opener)",
-  "intro": ["First run since Wed 7-1 (Fri skipped per athlete 7-6 — Adj #141 partially resolved). Check AM Achilles before running — Sat's 345 seated-calf 4×12 all-to-failure was the biggest calf dose of the cycle, during/post not reported (Adj #135); not clean → row Z1 30 min."],
-  "lift": null,
-  "cardio": {
-    "flags": [],
-    "workout": "Z1 easy 30 min continuous, flat, Vomero Plus. No strides — §4.C W12 keeps Mon plain; pre-TT strides are Wed. 5K TT is Fri.",
-    "targets": { "pace": "9:45–10:45/mi, honest-easy", "hr": "≤155 (off-191 zones)", "cadence": "165–172 spm, natural" },
-    "warmup": "5 min brisk walk → jog build to Z1",
-    "cooldown": "5 min walk; Tyler twists 3×15, reverse Tyler 3×15",
-    "cues": []
+  "sessionName": "Hypertrophy A + incline §5 AMRAP/TM re-test",
+  "intro": ["Test day: incline §5 AMRAP/TM re-test due (Adj #126) — top set 1×5 @ 145, then AMRAP @ 130 (80% TM 162), new TM = 90% of e1RM. Bumps: rear-delt fly 130→135 (Adj #130), decline crunch BW → +10 lb DB or 25 lb plate (Adj #131), pushdown 22.5→25 re-attempt pain-gated (Adj #136). TT week — nothing unprescribed before Fri (Adj #142)."],
+  "lift": {
+    "table": [
+      { "exercise": "Incline BB — test top set", "setsReps": "1×5", "load": "145", "rir": "2", "rest": "3 min", "cue": "Cleanest-opener feel from W11 (RIR 2); RPE 7" },
+      { "exercise": "Incline BB — AMRAP @ 80% TM", "setsReps": "1×max", "load": "130", "rir": "0", "rest": "—", "cue": "Stop at form breakdown; new TM = 90% of e1RM (Adj #126). W8 benchmark: 135×10" },
+      { "exercise": "DB lateral raise", "setsReps": "6×12", "load": "30", "rir": "last 2 sets → 0", "rest": "60–90s", "cue": "Hold 30 — openers soft, back half tightening (Adj #127)" },
+      { "exercise": "Preacher curl machine, unilateral", "setsReps": "4×10", "load": "65/arm", "rir": "2 → last set 0–1", "rest": "90–120s", "cue": "Tue slot holds 65 (Adj #128)" },
+      { "exercise": "Cable pushdown, unilateral", "setsReps": "4×12", "load": "25/arm — pain-gated", "rir": "2 → last set 0–1", "rest": "60–90s", "cue": "Re-attempt (Adj #136). Any elbow symptom in warmup or set 1 → stay 22.5; §10.A clock started 7-4, protect it" },
+      { "exercise": "Decline crunch", "setsReps": "3×12", "load": "BW + 10 lb DB (or 25 lb plate)", "rir": "set 3 ≥1–2", "rest": "60–90s", "cue": "Add-load gate cleared (Adj #131)" },
+      { "exercise": "Rear-delt fly", "setsReps": "2×15", "load": "135", "rir": "3", "rest": "60s", "cue": "Intensity correction 130→135 (Adj #130); lands ≥RIR 3 → hold" }
+    ],
+    "warmup": "General: 1–2 min band pull-aparts + scap push-ups. Wrist-extensor isometric 3×30 s/arm (§10.A pre-lift). Incline BB: bar×8, 95×5, 115×3, 135×2, then 145 top set.",
+    "cooldown": "Tyler twists 3×15 + reverse Tyler 3×15 (4 s eccentric); daily SI prehab as usual."
   },
+  "cardio": null,
   "currentLoads": [
     { "exercise": "Incline BB", "load": "145 working → 150 on cleaner RIR / TM 162", "lastVerified": "W11 Tue 6/30 (145×5/4/4 RIR 2/0/0)", "note": "Hold 145 — set 1 RIR 2 = cleanest opener of the top-of-LP hold, but sets 2-3 dropped reps 5→4 both RIR 0. Not a §5 miss — <24 h post Mon's 6-mi T progression, predicted fatigue-carryover shape. +5→150 gate still wants a cleaner set-3 RIR. TM 162 stands; §5 AMRAP/TM re-test due ~W12 (Adj #126)" },
     { "exercise": "Lat pulldown", "load": "160 working (bump landed) → bump-eligible 165 next Sat", "lastVerified": "W11 Sat 7/4 (160×8/8/8/8 RIR 2/2/1/0)", "note": "160 BUMP LANDED — set 3 clean RIR 1 at 8 reps = the Adj #115 gate met; all 4 sets held the 8-rep floor, same clean-landing shape as the 155 bump. Bump-eligible 165 on a clean set 3 (Adj #133)" },
