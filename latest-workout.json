@@ -5,14 +5,14 @@
   "date": "2026-07-11",
   "phase": "Base",
   "sessionName": "Hypertrophy B — full circuit (5K TT moved to Sun)",
-  "intro": ["Athlete call (Adj #146): full Hyp B incl. seated calf today, 5K TT tomorrow AM. Calf 345: sets 1-3 keep RIR 1+, last set ONLY to failure — zero headroom (Adj #135) and the TT is <24 h out. AM Achilles read before lifting. Tue 7-7 dump owed (Adj #147)."],
+  "intro": ["Athlete call (Adj #146): full Hyp B incl. seated calf today, 5K TT tomorrow AM. Calf 345: sets 1-3 keep RIR 1+, last set ONLY to failure — zero headroom (Adj #135) and the TT is <24 h out. AM Achilles read before lifting. Pushdown now works 25 — landed Tue with a clean elbow (Adj #151)."],
   "lift": {
     "table": [
       { "exercise": "Lat pulldown, neutral grip", "setsReps": "4×8–10", "load": "165 (bump attempt)", "rir": "2 → last set 1", "rest": "90–120s", "cue": "Bump lands on a clean set 3 (RIR 1) holding the 8-rep floor (Adj #133)" },
       { "exercise": "Chest-supported row", "setsReps": "3×10", "load": "75", "rir": "2", "rest": "90–120s", "cue": "Hold — rebuild needs sets 1-2 both RIR 1+ (Adj #134)" },
       { "exercise": "DB lateral raise", "setsReps": "4×12–15", "load": "35 (bump)", "rir": "last set 0", "rest": "60–90s", "cue": "Bump per Adj #137; stay inside the 12-15 band" },
       { "exercise": "Preacher curl machine, unilateral (semi-supinated if available)", "setsReps": "4×12", "load": "60/arm", "rir": "1-2 → last set 0-1", "rest": "90–120s", "cue": "Hold 60 — 65 needs a full clean outing (Adj #139)" },
-      { "exercise": "Cable pushdown, unilateral", "setsReps": "4×12–15", "load": "22.5/arm (25 pain-gated if not attempted Tue)", "rir": "2 → last set 0-1", "rest": "60–90s", "cue": "Adj #136 — any elbow symptom in warmup or set 1 → stay 22.5; §10.A clock running from 7-4" },
+      { "exercise": "Cable pushdown, unilateral", "setsReps": "4×12–15", "load": "25/arm", "rir": "2 → last set 0-1", "rest": "60–90s", "cue": "Landed Tue at 4×12 (12/12/9/8, elbow clean) — hold-until-clean: set 3 RIR 1+ at 12; any elbow symptom → drop to 22.5 (Adj #151)" },
       { "exercise": "Decline crunch", "setsReps": "3×10", "load": "BW + 10 lb DB (or 25 lb plate)", "rir": "set 3 ≥1-2", "rest": "60–90s", "cue": "Sat add-load gate cleared (Adj #138)" },
       { "exercise": "Seated calf raise", "setsReps": "4×12–15", "load": "345", "rir": "sets 1-3 ≥1; last set only to failure", "rest": "60–90s", "cue": "Zero-headroom hold — TT tomorrow; do NOT run all sets to failure (Adj #135/#146)" },
       { "exercise": "Chest flye (DB or pec deck)", "setsReps": "2×12", "load": "130", "rir": "3 (RPE 7)", "rest": "60s", "cue": "First to cut if the session runs past 40 min (§6); Adj #140 re-evaluate" }
@@ -22,17 +22,17 @@
   },
   "cardio": null,
   "currentLoads": [
-    { "exercise": "Incline BB", "load": "145 working → 150 on cleaner RIR / TM 162", "lastVerified": "W11 Tue 6/30 (145×5/4/4 RIR 2/0/0)", "note": "Hold 145 — Tue 7-7 session done but dump owed (Adj #147); §5 AMRAP/TM re-test outcome unknown, TM 162 possibly stale (Adj #126)" },
+    { "exercise": "Incline BB", "load": "150 next (bump) / TM 168", "lastVerified": "W12 Tue 7/7 (§5 re-test: 145×5 RIR 2 top + AMRAP 130×13 RIR 0)", "note": "§5 re-test executed — e1RM ~186 → TM 162→168. Three-week 145 hold converts: bump 150 at W13 Tue, Build scheme opens (1×5 @ working + AMRAP @ 80% TM = 135); if 150×5 lands ≤RIR 1 → back to 145 (Adj #148)" },
     { "exercise": "Lat pulldown", "load": "160 working (bump landed) → bump-eligible 165 today", "lastVerified": "W11 Sat 7/4 (160×8/8/8/8 RIR 2/2/1/0)", "note": "160 BUMP LANDED — set 3 clean RIR 1 at 8 reps met the Adj #115 gate; bump 165 today on a clean set 3 (Adj #133)" },
     { "exercise": "Chest-supp row", "load": "75 working", "lastVerified": "W11 Sat 7/4 (75×10/8/8 RIR 0/0/0)", "note": "Regression — all three sets to failure on a fresh + fed day. Hold 75; ladder needs sets 1-2 both RIR 1+ (Adj #134)" },
-    { "exercise": "DB lateral raise (Tue Hyp A)", "load": "30 working", "lastVerified": "W11 Tue 6/30 (30×12/12/12/12/12/14 RIR 3/3/3/3/2/0)", "note": "6-set growth dose; hold 30 — openers soft, back half tightening (Adj #127). Tue 7-7 outcome pending dump (Adj #147)" },
+    { "exercise": "DB lateral raise (Tue Hyp A)", "load": "30 working", "lastVerified": "W12 Tue 7/7 (30×12/12/12/12/12/14 RIR 4/2/2/2/0/0)", "note": "Mid-block tightened (3/3/3 → 2/2/2), both closers to failure — but the opener softened to RIR 4. Hold 30; don't bump on a soft opener (Adj #127/#149)" },
     { "exercise": "DB lateral raise (Sat Hyp B)", "load": "30 working → bump 35 today", "lastVerified": "W11 Sat 7/4 (30×12/12/14/14 RIR 3/3/1/0)", "note": "In-band spread repeated = Adj #117 condition met; bump 35 today, 5-lb jumps (Adj #137)" },
-    { "exercise": "Preacher curl uni (Tue Hyp A)", "load": "65/arm working (bump landed)", "lastVerified": "W11 Tue 6/30 (65×10/10/10/9 RIR 2/1/0/0, fed)", "note": "Tue slot holds 65 (Adj #128). Tue 7-7 outcome pending dump (Adj #147)" },
+    { "exercise": "Preacher curl uni (Tue Hyp A)", "load": "65/arm working → bump-eligible 70 next Tue", "lastVerified": "W12 Tue 7/7 (65×10/10/10/11 RIR 3/3/1/0, fed)", "note": "Cleanest 65 outing — openers RIR 3/3, set 3 clean RIR 1, set 4 pushed 11. Double progression met → bump 70 next Tue; Sat slot unaffected (Adj #150)" },
     { "exercise": "Preacher curl uni (Sat Hyp B)", "load": "60/arm working (65 unconfirmed)", "lastVerified": "W11 Sat 7/4 (60×12/11/9/8 RIR 1/0/0/0)", "note": "Opener finally clean but back half fell to failure. Hold 60 today; 65 re-attempt needs a full clean outing (Adj #139)" },
-    { "exercise": "Cable pushdown uni", "load": "22.5/arm working → 25 re-attempt eligible, pain-gated", "lastVerified": "W11 Sat 7/4 (22.5×12/12/12/11 RIR 2/2/1/0)", "note": "Hold-until-clean satisfied; 25 pain-gated (Adj #136). Whether Tue 7-7 attempted it is unknown until the dump (Adj #147) — reconcile there" },
-    { "exercise": "Rear-delt fly", "load": "130 working → 135 was slated for Tue 7-7", "lastVerified": "W11 Tue 6/30 (130×15/15 RIR 4/4)", "note": "Intensity correction 130→135 was on the Tue slate (Adj #130) — outcome pending the dump (Adj #147)" },
+    { "exercise": "Cable pushdown uni", "load": "25/arm working (landed-on-reps hold)", "lastVerified": "W12 Tue 7/7 (25×12/12/9/8 RIR 1/0/0/0)", "note": "25 re-attempt fired, elbow fully clean — sets 1-2 held the 12 floor, back half fell to failure (same shape as the 22.5 debut). Hold 25 both slots; hold-until-clean = set 3 RIR 1+ at 12 (Adj #151)" },
+    { "exercise": "Rear-delt fly", "load": "135 working (bump landed)", "lastVerified": "W12 Tue 7/7 (135×15/15 RIR 3/1)", "note": "135 landed — set 1 RIR 3 = the prescribed RPE 7 target. Hold (Adj #153)" },
     { "exercise": "Seated calf", "load": "345 working (bump landed — zero headroom)", "lastVerified": "W11 Sat 7/4 (345×12/12/12/12 RIR 0/0/0/0)", "note": "Hold 345 — no 355 until sets 1-3 show RIR 1+. Today: last set ONLY to failure, TT is <24 h out (Adj #135/#146)" },
-    { "exercise": "Decline crunch", "load": "BW → add small load BOTH slots (~10 lb DB / 25 lb plate)", "lastVerified": "W11 Sat 7/4 (BW×12/10/10 RIR 3/3/2)", "note": "Both slots gated through; Sat slot adds load today at 3×10, target set 3 RIR 1-2 (Adj #138). Tue-slot outcome pending dump (Adj #131/#147)" },
+    { "exercise": "Decline crunch", "load": "Tue slot: BW+10 lb (hold, rebuild to 3×12); Sat slot: BW → add ~10 lb today", "lastVerified": "Tue: W12 Tue 7/7 (+10×12/8/8 RIR 2/0/0); Sat: W11 Sat 7/4 (BW×12/10/10 RIR 3/3/2)", "note": "Tue +10 debut proved the load (set 1 = 12 @ RIR 2) but bled to 8/8 to failure — hold +10, rebuild. Sat debuts +10 at 3×10 today; expect a similar back-half cost (Adj #152/#138)" },
     { "exercise": "Soleus wall-sit", "load": "RETIRED", "lastVerified": "W7 Tue 6/2", "note": "Permanently dropped per athlete directive (Adj #52)" },
     { "exercise": "Chest Fly", "load": "130", "lastVerified": "W10 Sat 6/27 (130×12/12 RIR 0/0)", "note": "Skipped W11 Sat per the §6 cut order — Adj #121 regression read untested. Hold 130, re-evaluate today (Adj #140)" }
   ]
