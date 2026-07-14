@@ -1,26 +1,20 @@
 {
-  "generatedAt": "2026-07-11T19:20:00-04:00",
-  "week": "W12",
-  "day": "Sat",
-  "date": "2026-07-11",
-  "phase": "Base",
-  "sessionName": "Hypertrophy B — full circuit (5K TT moved to Sun)",
-  "intro": ["LOGGED — fed, no issues anywhere, elbow clean 3rd straight (Adj #163). Calf ran to the cap: headroom restored, 355 bump-eligible next Sat AM-gated (Adj #160); row bump-eligible 80 (Adj #156). Tomorrow: 5K TT — pre-TT AM Achilles read is the last gate (Adj #146)."],
-  "lift": {
-    "table": [
-      { "exercise": "Lat pulldown, neutral grip", "setsReps": "4×8–10", "load": "165 (bump attempt)", "rir": "2 → last set 1", "rest": "90–120s", "cue": "Bump lands on a clean set 3 (RIR 1) holding the 8-rep floor (Adj #133)" },
-      { "exercise": "Chest-supported row", "setsReps": "3×10", "load": "75", "rir": "2", "rest": "90–120s", "cue": "Hold — rebuild needs sets 1-2 both RIR 1+ (Adj #134)" },
-      { "exercise": "DB lateral raise", "setsReps": "4×12–15", "load": "35 (bump)", "rir": "last set 0", "rest": "60–90s", "cue": "Bump per Adj #137; stay inside the 12-15 band" },
-      { "exercise": "Preacher curl machine, unilateral (semi-supinated if available)", "setsReps": "4×12", "load": "60/arm", "rir": "1-2 → last set 0-1", "rest": "90–120s", "cue": "Hold 60 — 65 needs a full clean outing (Adj #139)" },
-      { "exercise": "Cable pushdown, unilateral", "setsReps": "4×12–15", "load": "25/arm", "rir": "2 → last set 0-1", "rest": "60–90s", "cue": "Landed Tue at 4×12 (12/12/9/8, elbow clean) — hold-until-clean: set 3 RIR 1+ at 12; any elbow symptom → drop to 22.5 (Adj #151)" },
-      { "exercise": "Decline crunch", "setsReps": "3×10", "load": "BW + 10 lb DB (or 25 lb plate)", "rir": "set 3 ≥1-2", "rest": "60–90s", "cue": "Sat add-load gate cleared (Adj #138)" },
-      { "exercise": "Seated calf raise", "setsReps": "4×12–15", "load": "345", "rir": "sets 1-3 ≥1; last set only to failure", "rest": "60–90s", "cue": "Zero-headroom hold — TT tomorrow; do NOT run all sets to failure (Adj #135/#146)" },
-      { "exercise": "Chest flye (DB or pec deck)", "setsReps": "2×12", "load": "130", "rir": "3 (RPE 7)", "rest": "60s", "cue": "First to cut if the session runs past 40 min (§6); Adj #140 re-evaluate" }
-    ],
-    "warmup": "General: 1–2 min band pull-aparts + scap push-ups. Wrist-extensor isometric 3×30 s/arm (§10.A pre-lift).",
-    "cooldown": "Tyler twists 3×15 + reverse Tyler 3×15 (4 s eccentric); daily SI prehab. Early night — 5K TT tomorrow AM."
+  "generatedAt": "2026-07-13T22:45:00-04:00",
+  "week": "W13",
+  "day": "Mon",
+  "date": "2026-07-13",
+  "phase": "Build",
+  "sessionName": "5K TIME TRIAL (displaced W12 §10 test) — DONE: 23:23",
+  "intro": ["LOGGED — 23:23 @ 7:32/mi, road, 85°F, no pain anywhere. TIER C LOCKS: goal sub-21:30 (Adj #164; heat-adjusted ~22:40-22:55, still >22:30). T pace holds 7:50-7:55 (Adj #166); MHR relocked 193 (Adj #165). Tomorrow: Hyp A — incline 150 debut + Build scheme."],
+  "lift": null,
+  "cardio": {
+    "flags": [],
+    "workout": "5K TT — 23:23 (7:32/mi avg; splits not recorded), road, flat, Vomero Plus, 85°F, fed",
+    "targets": { "pace": "actual 7:32/mi avg", "hr": "actual avg 189 / peak 193 (MHR relock 191 -> 193, Adj #165)", "cadence": "actual 173 spm" },
+    "warmup": "Done — 15 min easy + 4x20 s strides (first stride dose since W10 Mon 6-22)",
+    "cooldown": "Easy jog + daily SI prehab",
+    "cues": []
   },
-  "cardio": null,
   "currentLoads": [
     { "exercise": "Incline BB", "load": "150 next (bump) / TM 168", "lastVerified": "W12 Tue 7/7 (§5 re-test: 145×5 RIR 2 top + AMRAP 130×13 RIR 0)", "note": "§5 re-test executed — e1RM ~186 → TM 162→168. Three-week 145 hold converts: bump 150 at W13 Tue, Build scheme opens (1×5 @ working + AMRAP @ 80% TM = 135); if 150×5 lands ≤RIR 1 → back to 145 (Adj #148)" },
     { "exercise": "Lat pulldown", "load": "165 working (bump taken via 170 mis-start)", "lastVerified": "W12 Sat 7/11 (170×8/7 RIR 1/0 by mistake → 165×8/6 RIR 0/0)", "note": "Started at 170 by mistake — the 170 opener hit a clean 8 @ RIR 1 (ceiling evidence), then set 2 lost the 8-floor and the intended 165 ran both sets to failure. Hold 165 — bump-eligible 170 on a clean 4×8 with set 3 RIR 1 (Adj #155)" },
@@ -31,7 +25,7 @@
     { "exercise": "Preacher curl uni (Sat Hyp B)", "load": "60/arm working (65 unconfirmed)", "lastVerified": "W12 Sat 7/11 (60×12/12/12/8 RIR 3/2/0/0)", "note": "Best Sat outing of the cycle — sets 1-3 all at the 12 target with real reserve up front, back half still to failure. Hold 60; the clean-with-reps-to-spare condition stands (Adj #158)" },
     { "exercise": "Cable pushdown uni", "load": "25/arm working (landed-on-reps hold)", "lastVerified": "W12 Sat 7/11 (25×12/12/9/8 RIR 2/2/0/0)", "note": "Front half cleaner than Tue (RIR 2/2 vs 1/0), same 12/12/9/8 shape — hold-until-clean (set 3 RIR 1+ at 12) not met. Hold 25 both slots; elbow clean 3rd straight session (Adj #159)" },
     { "exercise": "Rear-delt fly", "load": "135 working (bump landed)", "lastVerified": "W12 Tue 7/7 (135×15/15 RIR 3/1)", "note": "135 landed — set 1 RIR 3 = the prescribed RPE 7 target. Hold (Adj #153)" },
-    { "exercise": "Seated calf", "load": "345 working → bump-eligible 355 next Sat (AM-gated)", "lastVerified": "W12 Sat 7/11 (345×12/12/12/13 RIR 2/1/1/0)", "note": "Headroom RESTORED — ran exactly to the cap (sets 1-3 RIR 1+, last set only to failure at 13). Adj #135 condition met → bump 355 next Sat on a clean lift-day AM Achilles read (Adj #160)" },
+    { "exercise": "Seated calf", "load": "345 working → bump-eligible 355 next Sat (AM-gated)", "lastVerified": "W12 Sat 7/11 (345×12/12/12/13 RIR 2/1/1/0)", "note": "Headroom RESTORED — ran exactly to the cap (sets 1-3 RIR 1+, last set only to failure at 13). Adj #135 condition met → bump 355 next Sat on a clean lift-day AM Achilles read (Adj #160). Achilles clean through the 7-13 maximal TT (Adj #164)" },
     { "exercise": "Decline crunch", "load": "BW+10 lb at BOTH slots (hold, rebuild) — Tue to 3×12, Sat to 3×10", "lastVerified": "Tue: W12 Tue 7/7 (+10×12/8/8 RIR 2/0/0); Sat: W12 Sat 7/11 (+10×10/8/5 RIR 0/0/0)", "note": "Sat +10 debut rougher than Tue's — set 1 zero reserve, sets 2-3 fell 8/5, all to failure. Hold +10 both slots, rebuild to slot rep targets with set 3 RIR 1-2; no revert to BW (Adj #152/#161)" },
     { "exercise": "Soleus wall-sit", "load": "RETIRED", "lastVerified": "W7 Tue 6/2", "note": "Permanently dropped per athlete directive (Adj #52)" },
     { "exercise": "Chest Fly", "load": "130", "lastVerified": "W12 Sat 7/11 (130×12/8, RIR 0/0 athlete-assumed)", "note": "Re-read confounded — ran out of time, both sets back-to-back with no rest. Hold 130; re-evaluate on a rested outing (Adj #162)" }
