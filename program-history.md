@@ -27,3 +27,11 @@ Hyp A moved Wed → **Tue**; threshold moved Tue → **Wed**; **Thu permanently 
 **Tradeoffs accepted by the athlete:** (a) running drops from 5 to 4 days/wk — the Thu easy run (~25–35 min) is deleted, cutting ~2.5–3.5 mpw; Mon and/or the Sat long may extend slightly to recoup, tendons permitting; (b) in Build+, the two quality days now sit **48 h apart (Wed→Fri)** vs the prior 72 h (Tue→Fri), with only Mon easy + Sat long as non-quality run days — the intensity fraction rises, so keep Mon and the Sat long genuinely easy. Watch the two reactive tendons (L Achilles, R patellar — Adj #63/#64) against the tighter quality spacing. Sat double (long run AM + Hyp B PM) unchanged.
 
 This is the current template — reflected in `program.md` §2.A and CLAUDE.md's "Determining today's session" table.
+
+---
+
+## 2026-07-13 — Goal tier locked: Tier C, sub-21:30 (§0, §1.1, §4.A, §4.E, §4.F, §10, §12; Adj #164–#166)
+
+The W12 §10 5K TT — displaced Fri→Sun→Mon (Adj #146/#164) — ran 2026-07-13: **23:23** (road, 85°F, full WU, no pain anywhere; HR peak 193 → MHR relock, Adj #165). Per the §10 ladder (22:31–23:30) the goal locks at **Tier C — sub-21:30 (6:55/mi, 4:18/km)**. The 85°F heat cost (~2–3%, ~25–40 s over 5K) puts the fair-conditions equivalent at ~22:40–22:55 — still >22:30, so the tier call is heat-robust; per §10 the tier is not renegotiated later.
+
+Prescription changes: goal and race pace updated throughout (title, §0, §1.1, §4.F, §12); the §10 W12 row marked done/locked; the W21 tune-up target rescaled 20:30–20:45 → **22:00–22:15** (the same ~2.5–3.75% over goal pace), with the miss threshold >21:00 → **>22:35** and the downgrade target 20:59 → **~21:59** (one tier down, even splits). §4.A reference paces recalibrated off VDOT 41.5 raw / ~42.5–43 heat-adjusted (Adj #166): **T 7:50–8:00** (the standing 7:50–7:55 nudge validated by 5 straight RPE ≤7 sessions — RPE ≤7 stays the anchor; the W14 test arbitrates), **I 7:10–7:25** for the Build VO2max work, R ~6:40, M ~8:50; easy band unchanged. Sub-20 remains a possible race-day outcome, not the plan — the program trains to 21:30; the W14/W18/W21 tests can only tighten pacing, not reopen the tier.

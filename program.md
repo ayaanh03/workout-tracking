@@ -1,6 +1,6 @@
-# Six-Month Sub-20 5K Program v4.3
+# Six-Month 5K Program v4.3 — Goal: sub-21:30 (Tier C, locked 2026-07-13)
 
-**Effective:** v4.3 mileage reshape W8 (week of 2026-06-08); base program v4.2 week of May 4, 2026
+**Effective:** v4.3 mileage reshape W8 (week of 2026-06-08); base program v4.2 week of May 4, 2026; goal tier locked at the W12 §10 TT (23:23, 2026-07-13)
 **Race day:** Saturday October 24, 2026 (W25)
 
 ---
@@ -8,7 +8,7 @@
 ## 0. Goal Hierarchy
 
 **Goal order (locked):**
-1. **Running** — sub-20:00 5K on Oct 24, 2026
+1. **Running** — **sub-21:30** 5K on Oct 24, 2026 (**Tier C, locked at the W12 §10 TT — 23:23, 2026-07-13**; was sub-20:00. *Rationale in program-history.md 2026-07-13.*)
 2. **Hypertrophy** — maintain or grow: side delts, biceps, triceps, abs, lats, calves
 3. **Strength** — grow incline bench
 
@@ -47,9 +47,9 @@ Running > everything. When goals conflict (e.g. lift volume vs run quality), run
 
 ### 1.1 Test targets W25
 
-| Test | Day | Tier A target |
+| Test | Day | Locked target (Tier C) |
 |---|---|---|
-| 5K race | Sat Oct 24 | **sub-20:00 (6:26/mi)** |
+| 5K race | Sat Oct 24 | **sub-21:30 (6:55/mi)** |
 | Incline BB 1RM | (no formal test — track via AMRAP at deloads) | TM 175+ |
 
 ---
@@ -158,11 +158,13 @@ Train at **current** VDOT, not goal VDOT. Update after every test (§10).
 | Pace | Run | Row 500m split |
 |---|---|---|
 | Easy / Z1 | 9:45–10:45 /mi | 2:15–2:25 (RPE 4–5; can talk in full sentences) |
-| Marathon (M) | 8:30 /mi | ~2:05 |
-| Threshold (T, Z2 Seiler) | 7:55–8:10 /mi | 1:55–2:00 |
-| Interval (I, Z3 Seiler, ~vVO2max) | 7:00–7:15 /mi | 1:45–1:50 |
-| Repetition (R) | 6:30 /mi | 1:38–1:42 |
-| **Goal 5K race pace** | 6:26 /mi | ~1:35 |
+| Marathon (M) | ~8:50 /mi | ~2:10 |
+| Threshold (T, Z2 Seiler) | 7:50–8:00 /mi | 1:55–2:00 |
+| Interval (I, Z3 Seiler, ~vVO2max) | 7:10–7:25 /mi | 1:48–1:52 |
+| Repetition (R) | ~6:40 /mi | 1:40–1:44 |
+| **Goal 5K race pace** | 6:55 /mi | ~1:42 |
+
+*Recalibrated 2026-07-13 off the W12 §10 TT — 23:23 @ 85°F, VDOT 41.5 raw / ~42.5–43 heat-adjusted (Adj #166). Anchor T by RPE ≤7 (the 7:50–7:55 nudge carries 5 straight RPE ≤7 sessions); the W14 test arbitrates.*
 
 Rower runs ~20–35 s/500m faster than equivalent run pace at the same HR (non-weight-bearing, more upper-body recruitment). **Anchor row substitutions to HR + RPE, not pace.** After W1 Fri Max-HR test: threshold ≈ 85–88% MaxHR; VO2max ≈ 92–96% MaxHR; easy ≤75% MaxHR.
 
@@ -219,13 +221,13 @@ Volume holds 30–35 mpw, intensity gets specific. **No new lower-body exercises
 |---|---|---|---|---|
 | W19 | 35 min (+ hill strides) | 6×800m @ 5K pace (90 s rec) | 5×3 min @ I (2 min rec) + 4×200m R | 60 min |
 | W20 | 40 min (+ hill strides) | **Cut-down: 1 mi @ M / 1 mi @ T / 1 mi @ 5K** | 4×1 K @ 5K pace (2 min rec) | 60 min |
-| W21 | 40 min | 5×1 K @ 5K pace (90 s rec) | **Tune-up race or solo 5K TT (target 20:30–20:45)** | 50 min easy day-after |
+| W21 | 40 min | 5×1 K @ 5K pace (90 s rec) | **Tune-up race or solo 5K TT (target 22:00–22:15, Tier C)** | 50 min easy day-after |
 | W22 (deload) | 30 min | 3×1 K @ 5K pace | 5×3 min @ I | 50 min |
 
 ### 4.F Taper (W23–W25)
 See §2.C above. Race day Sat Oct 24:
 - WU: 15 min easy + 4×100m strides + 5 min standing/dynamic
-- Race: goal pace 6:26/mi (3:59/km), even-split or –1 s/mi negative split
+- Race: goal pace 6:55/mi (4:18/km), even-split or –1 s/mi negative split
 - CD: 10–15 min walk
 
 ---
@@ -355,16 +357,16 @@ Goal: keep tendon out of reactive flare while continuing tensile loading.
 |---|---|---|---|
 | W1 Fri (May 8) | **Max-HR field test** on rower (3 min build → 2 min all-out, last 30 s flat-out) | Peak HR recorded | Fallback: (220 – age)×0.95; retest W4 on the run |
 | W4 (~May 25) | First continuous outdoor run | Pain-free during + 24h post | Restart Phase B at –1 step |
-| **W12 (Aug 1–2)** | **5K time trial** — flat course or treadmill 1%, racing intent | **≤21:30 = sub-20 trajectory**; 21:31–22:30 = downgrade to 20:59; >22:30 = downgrade to 21:30 | **Goal locks here. Do not renegotiate later.** |
+| **W12 — DONE 2026-07-13** | **5K time trial** — ran road, 85°F (displaced Fri→Sun→Mon, Adj #146/#164) | **RESULT: 23:23 → Tier C — goal LOCKED sub-21:30** (heat-adjusted ~22:40–22:55, still >22:30) | **Locked. Not renegotiated.** |
 | W14 (Aug 15) | 3K TT or 4×1 mi @ T | T pace from W12 should feel exactly RPE 7 | If RPE 8+: drop paces 10 s/mi |
 | W18 (Sep 5) | 5K-pace cut-down (1 mi M / 1 mi T / 1 mi 5K) | Final mile @ goal pace = RPE 8–9 | If RPE 10 / can't sustain: downgrade goal one tier |
-| **W21 (Sep 26)** | **Tune-up race or solo 5K TT, target 20:30–20:45** | Hits target ± 10 s | If >21:00: downgrade to 20:59 final, race-day = even splits not negative |
-| **W25 Sat Oct 24** | **RACE: sub-20:00 5K** | n/a | n/a |
+| **W21 (Sep 26)** | **Tune-up race or solo 5K TT, target 22:00–22:15** (rescaled to Tier C, 2026-07-13) | Hits target ± 10 s | If >22:35: downgrade to ~21:59 final, race-day = even splits not negative |
+| **W25 Sat Oct 24** | **RACE: sub-21:30 5K (Tier C)** | n/a | n/a |
 
-**Goal tier ladder (locked at W12):**
+**Goal tier ladder (LOCKED 2026-07-13 — W12 TT 23:23 → Tier C):**
 - **Tier A (sub-20)**: W12 ≤ 21:30
 - **Tier B (sub-21)**: W12 21:31 – 22:30
-- **Tier C (sub-21:30)**: W12 22:31 – 23:30
+- **Tier C (sub-21:30)**: W12 22:31 – 23:30 ← **LOCKED (23:23)**
 - **Tier D (PR-only ~22:00)**: W12 > 23:30 — pivot to "build base, race tune-up, save sub-20 for spring 2027"
 
 ---
@@ -423,8 +425,8 @@ Z2 thresh = Apple Z3 + low Z4      (~85–88% MHR)
 Z3 VO2max = Apple high Z4 + Z5     (92–96% MHR)
 
 KEY PACES (update from Tracker.md after every test — train at current VDOT, not goal VDOT)
-  Easy / T / I / R paces: see §4.A pace table
-  Goal race pace 6:26/mi
+  Easy / T / I / R paces: see §4.A pace table (recal 2026-07-13)
+  Goal race pace 6:55/mi (Tier C)
 
 SESSION TYPES
 Threshold:  3–5×6–8 min @ T, 60–90s rec  (cruise intervals)
@@ -469,10 +471,10 @@ PHASE-GATED ALLOWED
 - Single-leg bridge / B-stance hip thrust light (Phase B+)
 - Reverse Nordic, Spanish squat (Phase C opt-in)
 
-GOAL TIER (locked at W12)
+GOAL TIER — LOCKED 2026-07-13: C (W12 TT 23:23 @ 85°F)
 A: sub-20:00  if W12 ≤ 21:30
 B: sub-21:00  if W12 21:31–22:30
-C: sub-21:30  if W12 22:31–23:30
+C: sub-21:30  if W12 22:31–23:30   <-- LOCKED (23:23)
 D: PR-only    if W12 > 23:30
 ```
 
