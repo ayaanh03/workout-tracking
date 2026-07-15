@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T12:41:00-04:00",
+  "generatedAt": "2026-07-15T18:05:00-04:00",
   "week": "W13",
   "day": "Wed",
   "date": "2026-07-15",
@@ -8,11 +8,11 @@
   "intro": ["48 h post-maximal 5K TT — run the §11.C morning check honestly; yellow → easy 30-40 min and the week's T is forfeited, Thu is permanently off (Adj #167)."],
   "lift": null,
   "cardio": {
-    "flags": [],
+    "flags": ["Pace + RPE only as of today — exercise HR retired, watch HR display-only (Adj #175); paces recalculated, easy band now 9:15-10:30 (Adj #176)"],
     "workout": "4×6 min @ T (90 s jog rec) — §4.D W13",
-    "targets": { "pace": "7:50-7:55/mi (Adj #166)", "hr": "164-170 (Z2 off MHR 193, Adj #165)", "cadence": "175-182 spm" },
-    "warmup": "1.0-1.5 mi easy build (9:45-10:45, HR ≤155), last 2-3 min drifting toward T pace",
-    "cooldown": "5-10 min easy jog + daily SI prehab (quality day)",
+    "targets": { "pace": "7:50-7:55/mi, RPE ≤7 (Adj #166, re-confirmed Adj #176)", "hr": "display-only — do not pace to it (Adj #175)", "cadence": "175-182 spm" },
+    "warmup": "1.0-1.5 mi easy build (9:15-10:30, RPE 4-5), last 2-3 min drifting toward T pace",
+    "cooldown": "5-10 min easy jog (9:15-10:30) + daily SI prehab (quality day)",
     "cues": ["RPE ≤7 anchor — if 7:50-7:55 reads RPE 8+ today, blame the 48 h post-race, don't re-drop pace; the W14 test arbitrates (Adj #166)", "Zoom Fly 6 — short tempo only while Achilles reactive (Adj #34)"]
   },
   "currentLoads": [
