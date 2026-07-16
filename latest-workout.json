@@ -1,25 +1,20 @@
 {
-  "generatedAt": "2026-07-14T20:55:00-04:00",
+  "generatedAt": "2026-07-15T18:05:00-04:00",
   "week": "W13",
-  "day": "Tue",
-  "date": "2026-07-14",
+  "day": "Wed",
+  "date": "2026-07-15",
   "phase": "Build",
-  "sessionName": "Hypertrophy A — incline 150 debut (Build scheme)",
-  "intro": ["Logged 7-14: incline 150 landed (RIR 3) + AMRAP 135x12 — bump 155 next Tue (Adj #168); preacher 70 landed (Adj #170)."],
-  "lift": {
-    "table": [
-      { "exercise": "Incline BB — top set", "setsReps": "1x5", "load": "150", "rir": "2-3", "rest": "2-3 min", "cue": "DONE — 150x5 RIR 3, bump landed; 155 next Tue (Adj #168)" },
-      { "exercise": "Incline BB — AMRAP", "setsReps": "1xmax", "load": "135", "rir": "0-1", "rest": "2-3 min", "cue": "DONE — 135x12 RIR 0; e1RM ~189, TM 168 stands" },
-      { "exercise": "DB lateral raise", "setsReps": "6x12", "load": "30", "rir": "1; last 2 sets 0", "rest": "60-90 s", "cue": "DONE — 12x5+13 RIR 3/3/2/1/1/0; hold 30, opener still soft (Adj #169)" },
-      { "exercise": "Preacher curl machine (uni)", "setsReps": "4x10", "load": "70/arm", "rir": "2; last set 0-1", "rest": "60-90 s", "cue": "DONE — 10/10/10/8 RIR 2/1/0/0; 70 landed (Adj #170)" },
-      { "exercise": "Cable pushdown (uni)", "setsReps": "4x12", "load": "25/arm", "rir": "2; last set 0-1", "rest": "60-90 s", "cue": "DONE — 12/12/11/6 RIR 2/1/0/0; hold 25 (Adj #171)" },
-      { "exercise": "Decline crunch", "setsReps": "3x12", "load": "BW+10", "rir": "2", "rest": "60-90 s", "cue": "DONE — 10/10/6 RIR 1/0/0; rebuild continues (Adj #172)" },
-      { "exercise": "Rear-delt fly", "setsReps": "2x15", "load": "135", "rir": "3", "rest": "60-90 s", "cue": "DONE — 15/15 RIR 4/2; hold, nudge 140 on a repeat soft opener (Adj #173)" }
-    ],
-    "warmup": "General: 1-2 min band pull-aparts, scap push-ups. Wrist-extensor isometric 3x30 s/arm (§10.A). Incline BB: bar x8, 95 x5, 115 x3, then working.",
-    "cooldown": "Tyler twist 3x15 + reverse Tyler 3x15 (4 s eccentric). Daily SI prehab: clamshell 3x15/side, side-lying abd 3x12/side, SL bridge 3x8/side, bird-dog 3x8/side, side plank 3x20-30 s/side."
+  "sessionName": "Threshold 4×6 min @ T (90 s rec)",
+  "intro": ["48 h post-maximal 5K TT — run the §11.C morning check honestly; yellow → easy 30-40 min and the week's T is forfeited, Thu is permanently off (Adj #167)."],
+  "lift": null,
+  "cardio": {
+    "flags": ["Pace + RPE only as of today — exercise HR retired, watch HR display-only (Adj #175); paces recalculated, easy band now 9:15-10:30 (Adj #176)"],
+    "workout": "4×6 min @ T (90 s jog rec) — §4.D W13",
+    "targets": { "pace": "7:50-7:55/mi, RPE ≤7 (Adj #166, re-confirmed Adj #176)", "hr": "display-only — do not pace to it (Adj #175)", "cadence": "175-182 spm" },
+    "warmup": "1.0-1.5 mi easy build (9:15-10:30, RPE 4-5), last 2-3 min drifting toward T pace",
+    "cooldown": "5-10 min easy jog (9:15-10:30) + daily SI prehab (quality day)",
+    "cues": ["RPE ≤7 anchor — if 7:50-7:55 reads RPE 8+ today, blame the 48 h post-race, don't re-drop pace; the W14 test arbitrates (Adj #166)", "Zoom Fly 6 — short tempo only while Achilles reactive (Adj #34)"]
   },
-  "cardio": null,
   "currentLoads": [
     { "exercise": "Incline BB", "load": "155 next (bump) / TM 168", "lastVerified": "W13 Tue 7/14 (Build debut: 150×5 RIR 3 top + AMRAP 135×12 RIR 0)", "note": "150 BUMP LANDED at the RPE 7 target — two clicks clear of the ≤RIR 1 revert (Adj #148 resolved); AMRAP 135×12 → e1RM ~189, TM 168 stands. §5 clean-reps rule → bump 155 next Tue (1×5 @ 155 + AMRAP @ 135); if 155×5 lands ≤RIR 1 → back to 150 (Adj #168)" },
     { "exercise": "Lat pulldown", "load": "165 working (bump taken via 170 mis-start)", "lastVerified": "W12 Sat 7/11 (170×8/7 RIR 1/0 by mistake → 165×8/6 RIR 0/0)", "note": "Started at 170 by mistake — the 170 opener hit a clean 8 @ RIR 1 (ceiling evidence), then set 2 lost the 8-floor and the intended 165 ran both sets to failure. Hold 165 — bump-eligible 170 on a clean 4×8 with set 3 RIR 1 (Adj #155)" },
