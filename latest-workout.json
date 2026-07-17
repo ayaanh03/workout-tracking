@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-07-15T18:05:00-04:00",
+  "generatedAt": "2026-07-17T17:05:00-04:00",
   "week": "W13",
-  "day": "Wed",
-  "date": "2026-07-15",
+  "day": "Fri",
+  "date": "2026-07-17",
   "phase": "Build",
-  "sessionName": "Threshold 4×6 min @ T (90 s rec)",
-  "intro": ["48 h post-maximal 5K TT — run the §11.C morning check honestly; yellow → easy 30-40 min and the week's T is forfeited, Thu is permanently off (Adj #167)."],
+  "sessionName": "VO2max 5×3 min @ I (3 min jog rec) — first of the cycle",
+  "intro": ["First I-pace work of the cycle — start reps at the slow end 7:20-7:25, RPE 9 anchor (Adj #166); pace + RPE only, watch HR display-only (Adj #175)."],
   "lift": null,
   "cardio": {
-    "flags": ["Pace + RPE only as of today — exercise HR retired, watch HR display-only (Adj #175); paces recalculated, easy band now 9:15-10:30 (Adj #176)"],
-    "workout": "4×6 min @ T (90 s jog rec) — §4.D W13",
-    "targets": { "pace": "7:50-7:55/mi, RPE ≤7 (Adj #166, re-confirmed Adj #176)", "hr": "display-only — do not pace to it (Adj #175)", "cadence": "175-182 spm" },
-    "warmup": "1.0-1.5 mi easy build (9:15-10:30, RPE 4-5), last 2-3 min drifting toward T pace",
+    "flags": [],
+    "workout": "5×3 min @ I (3 min jog rec) — §4.D W13, first VO2max session of the cycle",
+    "targets": { "pace": "7:10-7:25/mi — start 7:20-7:25 (Adj #166)", "hr": "display-only — do not pace to it (Adj #175)", "cadence": "175-182 spm on reps; recovery jog natural" },
+    "warmup": "1.0-1.5 mi easy (9:15-10:30, RPE 4-5) + 4×20 s strides (6:40-6:50 effort, fast-but-smooth, full recovery)",
     "cooldown": "5-10 min easy jog (9:15-10:30) + daily SI prehab (quality day)",
-    "cues": ["RPE ≤7 anchor — if 7:50-7:55 reads RPE 8+ today, blame the 48 h post-race, don't re-drop pace; the W14 test arbitrates (Adj #166)", "Zoom Fly 6 — short tempo only while Achilles reactive (Adj #34)"]
+    "cues": ["RPE 9 anchor — last rep hard but repeatable; a rep at RPE 10 → sit at 7:25 and hold, don't chase the fast end on the debut", "Treadmill → 1% incline (Adj #177)"]
   },
   "currentLoads": [
     { "exercise": "Incline BB", "load": "155 next (bump) / TM 168", "lastVerified": "W13 Tue 7/14 (Build debut: 150×5 RIR 3 top + AMRAP 135×12 RIR 0)", "note": "150 BUMP LANDED at the RPE 7 target — two clicks clear of the ≤RIR 1 revert (Adj #148 resolved); AMRAP 135×12 → e1RM ~189, TM 168 stands. §5 clean-reps rule → bump 155 next Tue (1×5 @ 155 + AMRAP @ 135); if 155×5 lands ≤RIR 1 → back to 150 (Adj #168)" },
