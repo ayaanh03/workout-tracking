@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-18T17:50:00-04:00",
+  "generatedAt": "2026-07-18T18:05:00-04:00",
   "week": "W13",
   "day": "Sat",
   "date": "2026-07-18",
   "phase": "Build",
-  "sessionName": "Long run 60 min Z1 AM + Hyp B PM (>=6 h gap)",
-  "intro": ["Bumps today (Hyp B): chest-supp row 75->80 (Adj #156); seated calf 345->355 ONLY on a clean lift-day AM Achilles read, else stay 345 (Adj #160). Lift >=6 h after the long run, or push to Sun if the run was hard."],
+  "sessionName": "Hyp B — long run punted to Sun 7-19",
+  "intro": ["Long run 60 min punted to Sun 7-19 (athlete call; per 2.A push-to-Sun allowance). Bumps today: chest-supp row 75->80 (Adj #156); seated calf 345->355 ONLY on a clean lift-day AM Achilles read, else stay 345 (Adj #160)."],
   "lift": {
     "table": [
       { "exercise": "Lat pulldown, neutral grip", "setsReps": "4x8-10", "load": "165", "rir": "2, last set 1", "rest": "90-120s", "cue": "Clean 4x8 with set 3 RIR 1 -> bump-eligible 170 next Sat (Adj #155)" },
@@ -20,14 +20,7 @@
     "warmup": "Pre-lift wrist-extensor isometric 3x30 s/arm (10.A). 1-2 min dynamic: band pull-aparts, scap push-ups.",
     "cooldown": "Tyler twists 3x15 + reverse Tyler 3x15 (daily dose). Daily SI prehab."
   },
-  "cardio": {
-    "flags": [],
-    "workout": "Long run 60 min Z1 (4.D W13) — road, Vomero Plus",
-    "targets": { "pace": "9:15-10:30/mi, conversation-gated top end", "hr": "display-only — do not pace to it (Adj #175)", "cadence": "165-172 natural; don't force 180" },
-    "warmup": "First 10 min at the slow end (10:00-10:30) as rolling warmup",
-    "cooldown": "5-10 min walk; daily SI prehab",
-    "cues": []
-  },
+  "cardio": null,
   "currentLoads": [
     { "exercise": "Incline BB", "load": "155 next (bump) / TM 168", "lastVerified": "W13 Tue 7/14 (Build debut: 150×5 RIR 3 top + AMRAP 135×12 RIR 0)", "note": "150 BUMP LANDED at the RPE 7 target — two clicks clear of the ≤RIR 1 revert (Adj #148 resolved); AMRAP 135×12 → e1RM ~189, TM 168 stands. §5 clean-reps rule → bump 155 next Tue (1×5 @ 155 + AMRAP @ 135); if 155×5 lands ≤RIR 1 → back to 150 (Adj #168)" },
     { "exercise": "Lat pulldown", "load": "165 working (bump taken via 170 mis-start)", "lastVerified": "W12 Sat 7/11 (170×8/7 RIR 1/0 by mistake → 165×8/6 RIR 0/0)", "note": "Started at 170 by mistake — the 170 opener hit a clean 8 @ RIR 1 (ceiling evidence), then set 2 lost the 8-floor and the intended 165 ran both sets to failure. Hold 165 — bump-eligible 170 on a clean 4×8 with set 3 RIR 1 (Adj #155)" },
