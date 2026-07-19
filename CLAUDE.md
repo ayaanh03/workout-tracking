@@ -128,11 +128,11 @@ Triggers: user reports what they did — could be a structured dump, a paragraph
 ### Steps
 
 1. **Parse** exercise-by-exercise, set-by-set.
-1a. **Default-fill the gaps — don't ask (Adj #188, athlete directive 2026-07-19).** Log straight from the dump. For anything loggable the dump doesn't state, assume it matches the last comparable session and mark it as assumed:
-   - **No-news-is-clean:** SI / tendon / pain status not mentioned logs as clean — including AM-read and pain-gated conditions. The athlete reports exceptions, not confirmations; an unmentioned gate reads as passed.
-   - **Fed** assumed unless stated. **Shoe / surface / WU / CD** assumed to match the last comparable session or the prescription.
-   - **Unreported numbers** (RPE/RIR, HR, cadence, splits, hold times) log as "n/r" — never invented. Loads/reps not stated on an exercise that appeared last time: assume the last verified load, note the assumption.
-   - Ask a question **only for a genuine blocker** — an ambiguity that changes a bump/hold/gate decision (e.g. "135×5 across" on a day 140 was prescribed). One short question, never a batch, never over soft context.
+1a. **Default-fill context, prompt for numbers (Adj #188/#190, athlete directives 2026-07-19).** Log from the dump without interrogating over context — but do collect missing metrics:
+   - **No-news-is-clean:** SI / tendon / pain status not mentioned logs as clean — including AM-read and pain-gated conditions. The athlete reports exceptions, not confirmations; an unmentioned gate reads as passed. Never ask about status.
+   - **Fed** assumed unless stated. **Shoe / surface / WU / CD** assumed to match the last comparable session or the prescription. Never ask about these either.
+   - **Missing numbers ARE prompted (Adj #190):** metrics absent from the dump that belong in the log — RPE/RIR on working sets (especially bump-eligible lifts), ambiguous loads/reps, pace/splits, HR, cadence, hold times — get **one compact message listing them all** before the entry is written. Whatever the athlete doesn't have logs as "n/r" — never invented.
+   - Beyond that one numbers prompt, ask only for a **genuine blocker** — an ambiguity that changes a bump/hold/gate decision (e.g. "135×5 across" on a day 140 was prescribed).
 2. **Append a new entry to `Tracker-history.md`** under `## Lifting Log` and/or `## Cardio Log` (not to the lean `Tracker.md` — that file holds no session-by-session detail):
    - Header: `### W{wk} {Day} {YYYY-MM-DD} — {Session Name}`
    - Lift table columns (match existing): `|Exercise|Sets|Notes|`
@@ -170,7 +170,7 @@ If a session's outcome warrants changing `program.md` itself (a permanent templa
 
 - **Don't reformat unrelated sections** of `Tracker.md` or `Tracker-history.md`. Append/update only what today's session warrants.
 - **Don't let session-by-session detail accumulate in `Tracker.md`.** Full logs, the full Adjustments ledger, and full weekly history belong in `Tracker-history.md` only — `Tracker.md` stays lean.
-- **Don't interrogate.** Default-fill per step 1a (assume-same-as-last, no-news-is-clean, unreported numbers "n/r"). A question is allowed only when an ambiguity changes a bump/hold/gate decision — one short question, never a batched checklist.
+- **Don't interrogate over context.** Statuses and conditions default-fill per step 1a (assume-same-as-last, no-news-is-clean). Missing numbers get exactly one compact prompt (Adj #190); anything still unknown logs "n/r". No status questions, no soft-context questions, no set-by-set back-and-forth across turns.
 - **Don't summarize on the user's behalf.** The `> AI:` line should reflect what actually happened, not a coaching pep talk.
 - **Don't open a PR** unless the user explicitly asks.
 
