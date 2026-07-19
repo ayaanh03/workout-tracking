@@ -1,6 +1,6 @@
 # Program History — Sub-20 5K
 
-Chronological changelog of programming rationale pulled out of `program.md` (the lean, current-prescription file) to keep it readable. `program.md` always reflects the **current** prescription; this file explains *why* it changed, in order. Cross-reference the Adj # against `Tracker-history.md`'s Adjustments ledger for the athlete-side evidence that drove each change.
+Chronological changelog of programming rationale pulled out of `program.md` (the lean, current-prescription file) to keep it readable. `program.md` always reflects the **current** prescription; this file explains *why* it changed, in order. Cross-reference the Adj # against the `history/` adjustments ledger (`grep -rn '^N\. ' history/`) for the athlete-side evidence that drove each change.
 
 ---
 

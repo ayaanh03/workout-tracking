@@ -2,13 +2,13 @@
 
 Companion to `program.md` (lean, current prescription) + `program-history.md` (rationale/changelog). Race: Sat 2026-10-24 (W25). RIR preferred over RPE.
 
-**This is the lean, current-state file** — only what's needed to generate the next workout: status, current working loads, active flags, shoe rotation, and the latest Incline BB / Weekly Summary rows. The full Adjustments ledger, full Lifting Log, full Cardio Log, full SI/Sciatica Log, and full historical detail all live in `Tracker-history.md` — look there for rationale, supersession chains, and session-by-session detail behind any Adj # cited below.
+**This is the lean, current-state file** — only what's needed to generate the next workout: status, current working loads, active flags, shoe rotation, and the latest Incline BB / Weekly Summary rows. The full Adjustments ledger, full Lifting Log, full Cardio Log, full SI/Sciatica Log, and full historical detail all live in the `history/` files (live = current phase; completed phases in `history/archive/`) — to resolve any Adj #N cited below: `grep -rn '^N\. ' history/`.
 
 ---
 
 ## Status
 
-**Phase C — Build (program.md §1), W13 — opened 2026-07-13 with the twice-displaced §10 5K TT: 23:23 (road, 85°F, 7:32/mi avg) → GOAL TIER LOCKED — TIER C, sub-21:30 (Adj #164).** Heat-adjusted equivalent ~22:40–22:55 (85°F ≈ 2–3%) — still >22:30, so the tier is heat-robust; per §10 it is not renegotiated. VDOT 41.5 raw / ~42.5–43 heat-adjusted; **formal T-pace recalibration DONE — T holds 7:50–7:55/mi, RPE ≤7 anchor (Adj #166)**; Build I pace 7:10–7:25/mi. **No pain anywhere AM/during/post through the maximal effort** — the Adj #146 two-day read requirement closed clean (Adj #164). The TT consumed the W13 Mon slot; hill strides remain unperformed since W10 Mon 6-22 — next slot W14 Mon (Adj #167). **Tue Hyp A DONE 7-14 — incline 150 landed + Build scheme debut → 155 next Tue (Adj #168); preacher 70 landed (Adj #170).** **Wed T DONE 7-15 — treadmill sub for AQI 128: 4×6 @ 7:56 set pace, RPE 7 across, §11.C green, all clean (Adj #177).** **Fri VO2max debut DONE 7-17 — 5×3 min: reps 1–4 @ 7:20, rep 5 pushed ~7:00, RPE 9 on-anchor, §11.C green, all clean (Adj #178).** **Sat Hyp B DONE 7-18 (long punted to Sun 7-19) — row 80 + calf 355 both landed on load (Adj #180/#185); pushdown hold-until-clean satisfied → 27.5 pain-gated W14 Tue (Adj #183); chest fly 130 confirmed on the rested re-read (Adj #186); all clean AM/PM.** **Sun 7-19 punted long DONE — 60 min treadmill @ 10:31/mi, 0.5% incline; no pain reported → clean by default incl. the Adj #185 Achilles recheck — W13 COMPLETE (Adj #189).** W14 opens Mon 7-20: easy + hill strides (Adj #167). **Logging default changed 7-19: assume-same-as-last, no-news-is-clean (Adj #188).** Elbow §10.A clock running from 7-4 — 5 consecutive clean sessions. SI clear; running at the v4.3 28-mpw ceiling (Adj #67). **Calendar audit (Adj #167): contiguous W13→W25 ends 10-11 vs race Sat 10-24 — two spare weeks to place; decide by the W14 test.** Full phase-gate history in `Tracker-history.md`.
+**Phase C — Build (program.md §1), W13 — opened 2026-07-13 with the twice-displaced §10 5K TT: 23:23 (road, 85°F, 7:32/mi avg) → GOAL TIER LOCKED — TIER C, sub-21:30 (Adj #164).** Heat-adjusted equivalent ~22:40–22:55 (85°F ≈ 2–3%) — still >22:30, so the tier is heat-robust; per §10 it is not renegotiated. VDOT 41.5 raw / ~42.5–43 heat-adjusted; **formal T-pace recalibration DONE — T holds 7:50–7:55/mi, RPE ≤7 anchor (Adj #166)**; Build I pace 7:10–7:25/mi. **No pain anywhere AM/during/post through the maximal effort** — the Adj #146 two-day read requirement closed clean (Adj #164). The TT consumed the W13 Mon slot; hill strides remain unperformed since W10 Mon 6-22 — next slot W14 Mon (Adj #167). **Tue Hyp A DONE 7-14 — incline 150 landed + Build scheme debut → 155 next Tue (Adj #168); preacher 70 landed (Adj #170).** **Wed T DONE 7-15 — treadmill sub for AQI 128: 4×6 @ 7:56 set pace, RPE 7 across, §11.C green, all clean (Adj #177).** **Fri VO2max debut DONE 7-17 — 5×3 min: reps 1–4 @ 7:20, rep 5 pushed ~7:00, RPE 9 on-anchor, §11.C green, all clean (Adj #178).** **Sat Hyp B DONE 7-18 (long punted to Sun 7-19) — row 80 + calf 355 both landed on load (Adj #180/#185); pushdown hold-until-clean satisfied → 27.5 pain-gated W14 Tue (Adj #183); chest fly 130 confirmed on the rested re-read (Adj #186); all clean AM/PM.** **Sun 7-19 punted long DONE — 60 min treadmill @ 10:31/mi, 0.5% incline; no pain reported → clean by default incl. the Adj #185 Achilles recheck — W13 COMPLETE (Adj #189).** W14 opens Mon 7-20: easy + hill strides (Adj #167). **Logging default changed 7-19: assume-same-as-last, no-news-is-clean (Adj #188).** Elbow §10.A clock running from 7-4 — 5 consecutive clean sessions. SI clear; running at the v4.3 28-mpw ceiling (Adj #67). **Calendar audit (Adj #167): contiguous W13→W25 ends 10-11 vs race Sat 10-24 — two spare weeks to place; decide by the W14 test.** Full phase-gate history in `history/`.
 
 **Max HR 193 bpm (relocked W13 Mon 2026-07-13, Adj #165)** — stays on record as a datum, but **as of 2026-07-15 exercise HR gates nothing (Adj #175)**.
 
@@ -40,7 +40,7 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 
 ## Active Flags
 
-Open items that affect the next session. Full rationale/citations for every Adj # below are in `Tracker-history.md`'s Adjustments / Carry-forwards ledger.
+Open items that affect the next session. Full rationale/citations for every Adj # below are in `history/adjustments.md` (Build) / `history/archive/adjustments-009-163.md` (earlier) — grep the number.
 
 - **TIER C LOCKED (Adj #164):** W12 §10 TT ran Mon 7-13 (2nd displacement) — 23:23 @ 85°F, road → goal locks **sub-21:30 (6:55/mi, 4:18/km)**; heat-adjusted ~22:40–22:55, still >22:30, so the call is heat-robust. program.md updated throughout (§0/§1.1/§4.A/§4.F/§10/§12; W21 tune-up target rescaled 22:00–22:15). Not renegotiated later (§10).
 - **Treadmill quality at 1% (Adj #177):** the W13 Wed T ran as a treadmill sub (AQI 128) at 0% incline — set 1% on future treadmill quality sessions for road equivalence. The Adj #167 48 h-post-TT caution resolved clean (§11.C green, RPE 7 across).
@@ -79,13 +79,13 @@ Break-in: Vomero first run (Tue Z1) OK. Zoom Fly 6 needs 20–30 min easy break-
 |---|---|---|
 |W13 (Build opens)|1×5 @ 150 + AMRAP @ 135 (80% TM 168)|W13 Tue **150×5 RIR 3 — BUMP LANDED** at the §3.A RPE 7 target (Adj #148 resolved) + AMRAP 135×12 RIR 0 → e1RM ~189, **TM 168 stands** (no re-test in Build, §5) — §5 clean-reps rule → **bump 155 next Tue** (1×5 @ 155 + AMRAP @ 135); if 155×5 lands ≤RIR 1 → back to 150 (Adj #168)|
 
-*Forecast only — current load always comes from Current Working Loads above. Full meso history in `Tracker-history.md`.*
+*Forecast only — current load always comes from Current Working Loads above. Full meso history in `history/incline-bb.md`.*
 
 ---
 
 ## Weekly Summary
 
-Latest completed week only — full W1–W9 history in `Tracker-history.md`. A new row starts here when a new week begins; fold the completed row into `Tracker-history.md` once the week closes.
+Current week only — completed weeks live in `history/weekly-summary.md` (W13+) and `history/archive/weekly-summary-W01-W12.md`. A new row starts here when a new week begins; append the completed row to `history/weekly-summary.md` once the week closes.
 
 |Wk|Mon|Tue|Wed|Thu|Fri|Sat|Status|
 |---|---|---|---|---|---|---|---|
