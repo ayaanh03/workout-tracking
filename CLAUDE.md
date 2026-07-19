@@ -128,13 +128,11 @@ Triggers: user reports what they did — could be a structured dump, a paragraph
 ### Steps
 
 1. **Parse** exercise-by-exercise, set-by-set.
-1a. **Ask about what's worth logging but missing.** Before writing anything, scan the dump for gaps in the metrics that matter and ask them back in **one batched message** (don't interrogate set-by-set across turns). Worth asking when absent:
-   - Per working set: **RPE / RIR** — especially on bump-eligible lifts.
-   - Lifts: actual load/reps where a set is ambiguous; **soleus wall-sit hold time**.
-   - Runs: **avg/split pace, avg & max HR, cadence, surface** (treadmill/road/track).
-   - **SI / sciatica status** (AM / pre / during / post) when a flare or prehab is in play.
-   - Anything a carry-forward says to **test today** (the "clean" condition).
-   Skip questions the dump already answers, and don't block on truly soft context (a missing accessory cue). If the user still doesn't have a number after asking, log it as "not recorded" — never guess.
+1a. **Default-fill the gaps — don't ask (Adj #188, athlete directive 2026-07-19).** Log straight from the dump. For anything loggable the dump doesn't state, assume it matches the last comparable session and mark it as assumed:
+   - **No-news-is-clean:** SI / tendon / pain status not mentioned logs as clean — including AM-read and pain-gated conditions. The athlete reports exceptions, not confirmations; an unmentioned gate reads as passed.
+   - **Fed** assumed unless stated. **Shoe / surface / WU / CD** assumed to match the last comparable session or the prescription.
+   - **Unreported numbers** (RPE/RIR, HR, cadence, splits, hold times) log as "n/r" — never invented. Loads/reps not stated on an exercise that appeared last time: assume the last verified load, note the assumption.
+   - Ask a question **only for a genuine blocker** — an ambiguity that changes a bump/hold/gate decision (e.g. "135×5 across" on a day 140 was prescribed). One short question, never a batch, never over soft context.
 2. **Append a new entry to `Tracker-history.md`** under `## Lifting Log` and/or `## Cardio Log` (not to the lean `Tracker.md` — that file holds no session-by-session detail):
    - Header: `### W{wk} {Day} {YYYY-MM-DD} — {Session Name}`
    - Lift table columns (match existing): `|Exercise|Sets|Notes|`
@@ -172,7 +170,7 @@ If a session's outcome warrants changing `program.md` itself (a permanent templa
 
 - **Don't reformat unrelated sections** of `Tracker.md` or `Tracker-history.md`. Append/update only what today's session warrants.
 - **Don't let session-by-session detail accumulate in `Tracker.md`.** Full logs, the full Adjustments ledger, and full weekly history belong in `Tracker-history.md` only — `Tracker.md` stays lean.
-- **Don't create the entry** without the data — ask for the loggable metrics in step 1a (RPE/RIR, pace/HR/cadence, soleus hold, SI status, any "clean" test) in one batched message first. Don't interrogate over accessory cues or other soft context.
+- **Don't interrogate.** Default-fill per step 1a (assume-same-as-last, no-news-is-clean, unreported numbers "n/r"). A question is allowed only when an ambiguity changes a bump/hold/gate decision — one short question, never a batched checklist.
 - **Don't summarize on the user's behalf.** The `> AI:` line should reflect what actually happened, not a coaching pep talk.
 - **Don't open a PR** unless the user explicitly asks.
 
