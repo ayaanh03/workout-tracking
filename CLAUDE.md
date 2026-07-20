@@ -1,18 +1,19 @@
 # CLAUDE.md — Workout Tracking via Claude Code
 
-This repo is a four-file training system driven by Claude Code chats. No app, no UI.
+This repo is a training system driven by Claude Code chats — two lean files (`program.md`, `Tracker.md`), per-stream history files under `history/`, and two JSON caches. No app, no UI.
 
 - `program.md` — **lean, current prescription only.** The 25-week Sub-20 5K + hypertrophy program: macrocycle table, weekly template, phase-by-phase run progression, lift circuits, strength progression, rules (SI, tennis elbow, autoregulation), quick reference. Source of truth for what's *prescribed right now*. Historical rationale for why the prescription changed lives in `program-history.md`, cited via a one-line pointer at each revision point.
 - `program-history.md` — **everything historical for the program side.** Chronological changelog of *why* the prescription changed (template revisions, mileage reshapes, etc.), newest at the bottom, ordered by date. `program.md` never holds this prose — it only holds short pointers into this file.
 - `Tracker.md` — **lean, current-state only.** Status, Current Working Loads, Active Flags, Shoe Rotation, the latest Incline BB Progression row, the latest Weekly Summary row. Source of truth for what's *true right now*. This is the file the morning brief reads for loads/flags — it carries no session-by-session log detail.
-- `Tracker-history.md` — **everything historical for the tracker side.** The full append-only Adjustments/Carry-forwards ledger, the full Lifting Log, full Cardio Log, full SI/Sciatica Log, and full Weekly Summary table (every week, not just the latest). `Tracker.md` cites an Adj # or week; look here for the underlying detail.
+- `history/` — **everything historical for the tracker side, one append-only file per stream; live files hold only the current phase (Build W13+):** `history/adjustments.md` (the numbered ledger, Adj #164+), `history/lifting-log.md`, `history/cardio-log.md`, `history/si-log.md`, `history/weekly-summary.md` (completed weeks), `history/incline-bb.md` (current meso, whole). Every live file's append point is **end of file**. Completed phases live verbatim in `history/archive/`. `Tracker.md` cites an Adj # or week; to resolve a cited Adj #N: `grep -rn '^N\. ' history/` — **never read a history file in full.**
+- `Tracker-history.md` — **pointer stub only** (kept because hundreds of immutable old entries cite it by name; it maps old sections to their new homes). Never append here.
 - `latest-workout.json` — machine-readable cache of today's brief. Rendered by `index.html` (GitHub Pages) for at-the-gym viewing.
 - `week-ahead.json` — machine-readable cache of the current program week (7-day glance). Also rendered by `index.html`.
 
 Each day has two interactions:
 
 1. **Morning** — user asks for today's workout. You read the two **lean** files (`program.md` + `Tracker.md`) in full — the history files are not needed to generate a brief. Output the brief in chat, write `latest-workout.json` + (when needed) `week-ahead.json`, then commit + push so the dash reflects the new brief.
-2. **Post-session** — user dumps what they did. You append the structured session entry (Lifting Log / Cardio Log / SI Log / new Adjustments) to **`Tracker-history.md`**, then update `Tracker.md`'s current-state sections (Current Working Loads, Active Flags, latest Incline BB row, latest Weekly Summary row) to match, regenerate the affected JSON caches, commit, and push.
+2. **Post-session** — user dumps what they did. You append the structured session entry to the matching **`history/` files** (lifting-log / cardio-log / si-log / adjustments), then update `Tracker.md`'s current-state sections (Current Working Loads, Active Flags, latest Incline BB row, current Weekly Summary row) to match, regenerate the affected JSON caches, commit, and push.
 
 The conversation IS the interface for input; the dash is the read-only output surface at the gym. Be terse. Tables over prose. Numbers over adjectives. No emoji, no encouragement, no "let me know how it goes".
 
@@ -31,7 +32,7 @@ Triggers: "what's today", "today's workout", "workout of the day", "give me the 
 3. Determine **week number and phase** from `Tracker.md ## Status`.
 4. Look up today's session via `program.md §2` (weekly template) + the phase-specific section (`§4.B` Reset / `§4.C` Base / `§4.D` Build / `§4.E` Sharpen / `§2.C` Taper for cardio; `§3.A`/`§3.B` for lifts).
 5. Pull **loads from `Tracker.md ## Current Working Loads`**, never from program.md projections.
-6. Apply any **active flags** from `Tracker.md ## Active Flags` that touch today (bump-eligible loads, ordering rules, exercise subs, paused additions, etc.). If a cited Adj # needs fuller context, look it up in `Tracker-history.md`.
+6. Apply any **active flags** from `Tracker.md ## Active Flags` that touch today (bump-eligible loads, ordering rules, exercise subs, paused additions, etc.). If a cited Adj # needs fuller context, grep for it: `grep -rn '^{n}\. ' history/` (hits the live ledger or the archive — don't read either in full).
 7. Output the brief in chat in the exact format below.
 8. **Write `latest-workout.json`** matching the schema in the "JSON caches" section. Include the full current-loads table from Tracker.md so the dash has everything in one fetch.
 9. **If `week-ahead.json` is stale** (different week than today, or any day's status is wrong relative to current state), regenerate it too.
@@ -128,36 +129,33 @@ Triggers: user reports what they did — could be a structured dump, a paragraph
 ### Steps
 
 1. **Parse** exercise-by-exercise, set-by-set.
-1a. **Ask about what's worth logging but missing.** Before writing anything, scan the dump for gaps in the metrics that matter and ask them back in **one batched message** (don't interrogate set-by-set across turns). Worth asking when absent:
-   - Per working set: **RPE / RIR** — especially on bump-eligible lifts.
-   - Lifts: actual load/reps where a set is ambiguous; **soleus wall-sit hold time**.
-   - Runs: **avg/split pace, avg & max HR, cadence, surface** (treadmill/road/track).
-   - **SI / sciatica status** (AM / pre / during / post) when a flare or prehab is in play.
-   - Anything a carry-forward says to **test today** (the "clean" condition).
-   Skip questions the dump already answers, and don't block on truly soft context (a missing accessory cue). If the user still doesn't have a number after asking, log it as "not recorded" — never guess.
-2. **Append a new entry to `Tracker-history.md`** under `## Lifting Log` and/or `## Cardio Log` (not to the lean `Tracker.md` — that file holds no session-by-session detail):
-   - Header: `### W{wk} {Day} {YYYY-MM-DD} — {Session Name}`
-   - Lift table columns (match existing): `|Exercise|Sets|Notes|`
-   - Cardio table: append a row under the existing `## Cardio Log` table (don't make a new sub-table for one session).
-   - End the entry with a `> AI: {one paragraph}` summary — what bumped, what held, what carried forward, anything off-protocol. Match the prose style and density of existing summaries (read the last 2–3 to calibrate).
-3. **Update `## Adjustments / Carry-forwards` in `Tracker-history.md`**:
-   - Add new numbered entries for anything that carries into the next session.
+1a. **Default-fill context, prompt for numbers (Adj #188/#190, athlete directives 2026-07-19).** Log from the dump without interrogating over context — but do collect missing metrics:
+   - **No-news-is-clean:** SI / tendon / pain status not mentioned logs as clean — including AM-read and pain-gated conditions. The athlete reports exceptions, not confirmations; an unmentioned gate reads as passed. Never ask about status.
+   - **Fed** assumed unless stated. **Shoe / surface / WU / CD** assumed to match the last comparable session or the prescription. Never ask about these either.
+   - **Missing numbers ARE prompted (Adj #190):** metrics absent from the dump that belong in the log — RPE/RIR on working sets (especially bump-eligible lifts), ambiguous loads/reps, pace/splits, HR, cadence, hold times — get **one compact message listing them all** before the entry is written. Whatever the athlete doesn't have logs as "n/r" — never invented.
+   - Beyond that one numbers prompt, ask only for a **genuine blocker** — an ambiguity that changes a bump/hold/gate decision (e.g. "135×5 across" on a day 140 was prescribed).
+2. **Append the session entry to the live history file(s)** — every live file's append point is **end of file** (not to the lean `Tracker.md` — that file holds no session-by-session detail):
+   - Lift session → end of `history/lifting-log.md`. Header: `### W{wk} {Day} {YYYY-MM-DD} — {Session Name}`; table columns (match existing): `|Exercise|Sets|Notes|`.
+   - Cardio session → append a row at the end of `history/cardio-log.md` (the log table is the last block in that file; don't make a new sub-table for one session).
+   - End a lift entry with a `> AI: {one paragraph}` summary — what bumped, what held, what carried forward, anything off-protocol. Match the prose style and density of existing summaries (read the last 2–3 to calibrate).
+3. **Append new numbered entries to the end of `history/adjustments.md`**:
+   - Add entries for anything that carries into the next session.
    - When a new entry resolves an existing one, cite it ("Adj #3 hold-until-clean **satisfied**" style — match existing wording).
-   - Don't renumber or delete old entries; the list is append-only and entries become historical context.
-4. **Update `## SI / Sciatica Log` in `Tracker-history.md`** if SI status was reported (AM / pre / during / post / notes).
-5. **Update `## Incline BB Progression` in `Tracker-history.md`** — append today's actual to the existing forecast table if today was an Incline BB session.
-6. **Update `## Weekly Summary` in `Tracker-history.md`** — mark today's day in the current week's row (`✓ {Session} {date}`). Add a new row if it's a new week.
+   - Don't renumber or delete old entries; the ledger is append-only and entries become historical context (completed phases rotate to `history/archive/`, never get pruned).
+4. **Append a row to the end of `history/si-log.md`** if SI/tendon status was actually reported (AM / pre / during / post / notes) — no-news-is-clean days get no row (Adj #188).
+5. **Update `history/incline-bb.md`** — fill today's actual in the forecast table if today was an Incline BB session.
+6. **Mark today in `Tracker.md ## Weekly Summary`** (`✓ {Session} {date}` in the current week's row — this is the only place the in-progress week is tracked). **When a week closes** (its last session logs), append the completed row to the end of `history/weekly-summary.md` and start the new week's row in `Tracker.md`.
 7. **Sync the lean `Tracker.md`** so it reflects the new current state — this is the only writing `Tracker.md` itself gets:
    - **`## Current Working Loads`**: update any load that bumped, held, or changed status. Update "Last verified" to today and rewrite the Note column with what just happened.
    - **`## Active Flags`**: add/remove/reword bullets so the list matches what's actually open after today (resolved flags drop off; new ones get added, citing the new Adj #).
    - **`## Status`**: update if the phase/week boundary or a locked value (HR, mileage ceiling, etc.) changed today.
-   - **`## Incline BB Progression`** and **`## Weekly Summary`**: overwrite the single latest row with today's update (mirroring what you just appended to `Tracker-history.md`) — `Tracker.md` keeps only the current/latest row, never a growing history.
+   - **`## Incline BB Progression`**: overwrite the single latest row (mirroring `history/incline-bb.md`) — `Tracker.md` keeps only the current/latest row, never a growing history. (`## Weekly Summary` was already handled in step 6.)
 8. **Regenerate `latest-workout.json` and `week-ahead.json`:**
    - In `latest-workout.json`: refresh `currentLoads` to match Tracker.md after your updates.
    - In `week-ahead.json`: flip today's `status` from `today` to `done`, update its `note` with what actually happened (e.g. "Logged — lat 130→135 clean RIR 3 ×4"), and bump tomorrow's status to `today`. Update `summary` if a major carry-forward flipped (a bump landed, a hold satisfied, a new flare, etc.).
 9. **Commit & push:**
    - Branch: keep working on whatever branch the session started on (typically `claude/rebuild-workout-dashboard-403SR` or whatever is current).
-   - Commit message format, matching existing history: `Log W{wk} {Day} {Session} — {YYYY-MM-DD}` (e.g. `Log W5 Sat Hyp B — 2026-05-23`). The `Tracker.md` + `Tracker-history.md` + JSON updates go in the same commit.
+   - Commit message format, matching existing history: `Log W{wk} {Day} {Session} — {YYYY-MM-DD}` (e.g. `Log W5 Sat Hyp B — 2026-05-23`). The `Tracker.md` + touched `history/` files + JSON updates go in the same commit.
    - `git push -u origin <branch>`.
 
 ### Changing the prescription (rare)
@@ -165,14 +163,22 @@ Triggers: user reports what they did — could be a structured dump, a paragraph
 If a session's outcome warrants changing `program.md` itself (a permanent template change, a mileage reshape, a phase boundary move — not a routine load bump, which is a `Tracker.md` carry-forward, not a prescription change):
 
 1. Edit `program.md` directly so it reflects the **new** prescription — it always describes what's current, never what used to be true.
-2. Add a new dated entry to the bottom of `program-history.md` explaining what changed and why (cite the driving Adj # from `Tracker-history.md`).
+2. Add a new dated entry to the bottom of `program-history.md` explaining what changed and why (cite the driving Adj # from `history/adjustments.md`).
 3. Leave a short one-line pointer in `program.md` at the revision point (e.g. `*Template revision history ... in program-history.md.*`) rather than inline rationale prose.
+
+### History files — rotation
+
+- **At each phase boundary** (Build→Sharpen after the last W18 log; Sharpen→Taper after W22; post-race), move the completed phase's content **verbatim** out of each live `history/` file into `history/archive/{stream}-W{a}-W{b}.md` (the ledger archives by number range: `adjustments-{first}-{last}.md`). Update the live file's header to state the new archived ranges, and record the rotation as a new Adj #. `history/incline-bb.md` rotates whole at meso boundaries, not phase boundaries.
+- **Backstop:** if any live history file grows past **~40 KB** mid-phase, roll its oldest completed weeks into that phase's archive file early — same mechanics.
+- **Moves are line-range cut/paste (sed/awk), byte-verbatim** — never retype, reformat, or summarize content while moving it. Verify with checksums/`cmp` before committing.
 
 ### What NOT to do
 
-- **Don't reformat unrelated sections** of `Tracker.md` or `Tracker-history.md`. Append/update only what today's session warrants.
-- **Don't let session-by-session detail accumulate in `Tracker.md`.** Full logs, the full Adjustments ledger, and full weekly history belong in `Tracker-history.md` only — `Tracker.md` stays lean.
-- **Don't create the entry** without the data — ask for the loggable metrics in step 1a (RPE/RIR, pace/HR/cadence, soleus hold, SI status, any "clean" test) in one batched message first. Don't interrogate over accessory cues or other soft context.
+- **Don't reformat unrelated sections** of `Tracker.md` or the `history/` files. Append/update only what today's session warrants.
+- **Don't let session-by-session detail accumulate in `Tracker.md`.** Full logs, the full Adjustments ledger, and full weekly history belong in `history/` only — `Tracker.md` stays lean.
+- **Don't read any history file in full** — grep for the Adj #, date, or exercise you need; read only the matching lines plus a little context (the last 2–3 entries for style calibration are fine).
+- **Don't append to `Tracker-history.md`** — it's a pointer stub only.
+- **Don't interrogate over context.** Statuses and conditions default-fill per step 1a (assume-same-as-last, no-news-is-clean). Missing numbers get exactly one compact prompt (Adj #190); anything still unknown logs "n/r". No status questions, no soft-context questions, no set-by-set back-and-forth across turns.
 - **Don't summarize on the user's behalf.** The `> AI:` line should reflect what actually happened, not a coaching pep talk.
 - **Don't open a PR** unless the user explicitly asks.
 
