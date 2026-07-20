@@ -62,14 +62,16 @@ Open items that affect the next session. Full rationale/citations for every Adj 
 
 ## Shoe Rotation
 
+Two-shoe rotation as of 2026-07-20 (Adj #192): Vomero Plus for all training, Vaporfly for race day + scheduled pre-race exposures.
+
 |Shoe|Purchased|Miles|Retire at|Role|
 |---|---|---|---|---|
-|Vaporfly Next% 2|pre-program|~3|~150|race day only|
-|Vomero Plus|2026-05-03|0|~450|daily trainer (Tue easy / Sat long / recovery)|
-|Zoom Fly 6|2026-05-03|~3|~300|tempo / threshold (Wed) — first run W6 Fri 5/29; **short tempo only while Achilles reactive (Adj #34)** — long/easy in Vomero|
+|Vaporfly Next% 2|pre-program|~3|~150|race day + 3–4 pre-race exposures: first W19–W20 short quality (partial — WU/CD in Vomero), W21 tune-up (full), one R/I touch W22–W23, then park (Adj #192)|
+|Vomero Plus|2026-05-03|n/r (stale — true up from watch)|~450|sole trainer — all sessions incl. Wed T / Fri VO2 (Adj #192)|
+|Zoom Fly 6|2026-05-03|~3 (first run W6 Fri 5/29)|DROPPED 2026-07-20|dropped — uncomfortable, effectively unused; sell/return, essentially new (Adj #192; Adj #34 short-tempo-only rule moot)|
 |Invincible 3|pre-program|~200|RETIRED|foam suspect-dead|
 
-Break-in: Vomero first run (Tue Z1) OK. Zoom Fly 6 needs 20–30 min easy break-in (carbon plate). 6mm drop on new vs 8mm Vaporfly / 9mm Invincible — watch calves/Achilles W3-W4. Track per shoe: heel hold, forefoot fit, hot spots, next-AM soreness.
+Vomero Miles column was stale at 0 — it has carried nearly all program mileage since 5/03; replacement call before Taper if the true-up runs near ~450 (don't repeat the Invincible 3 dead-foam risk). Vaporfly exposures: each first-of-phase exposure gets a next-AM Achilles read — 8mm drop + plate load the calf–Achilles differently than the Vomero (Adj #34/#113 history). Track per shoe: heel hold, forefoot fit, hot spots, next-AM soreness.
 
 ---
 
