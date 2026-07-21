@@ -4,16 +4,16 @@
   "day": "Mon",
   "date": "2026-07-20",
   "phase": "Build",
-  "sessionName": "Z1 easy 35 min + hill strides",
-  "intro": ["Hill strides return — first dose since W10 Mon 6-22; the W13 Mon slot was consumed by the TT (Adj #167). Start at 6 x 10-12 s."],
+  "sessionName": "Z1 easy 35 min + hill strides (treadmill)",
+  "intro": ["Hill strides return — first dose since W10 Mon 6-22 (Adj #167), as treadmill incline surges. Start at 6 x 10-12 s."],
   "lift": null,
   "cardio": {
     "flags": [],
-    "workout": "35 min Z1 easy, then hill strides 6-8 x 10-12 s @ 4-6% grade, walk-down recovery",
-    "targets": { "pace": "9:15-10:30/mi easy, RPE 4-5; strides fast-but-smooth (not a sprint)", "hr": "display-only (Adj #175)", "cadence": "165-172 easy; 175-182 on strides" },
-    "warmup": "5 min walk -> easy jog build into Z1",
-    "cooldown": "5 min easy jog -> walk",
-    "cues": ["Start at 6 reps after 4 weeks off strides; conversation test gates the top of the easy band (Adj #176)"]
+    "workout": "35 min Z1 easy @ 0.5-1% incline, then incline surges 6-8 x 10-12 s @ 4-6%, straddle/walk recovery 60-90 s",
+    "targets": { "pace": "Easy 5.7-6.5 mph (9:15-10:30/mi), RPE 4-5; surges start ~7.5 mph, adjust to fast-but-smooth (not a sprint)", "hr": "display-only (Adj #175)", "cadence": "165-172 easy; 175-182 on surges" },
+    "warmup": "5 min walk -> jog build to ~5.7 mph @ 0.5%",
+    "cooldown": "5 min jog -> walk @ 0%",
+    "cues": ["Surges: leave speed+incline set, straddle the belt to rest, hop on for each 10-12 s rep — don't ramp the belt every rep", "Start at 6 reps after 4 weeks off strides; conversation test gates the top of the easy band (Adj #176)"]
   },
   "currentLoads": [
     { "exercise": "Incline BB", "load": "155 next (bump) / TM 168", "lastVerified": "W13 Tue 7/14 (Build debut: 150×5 RIR 3 top + AMRAP 135×12 RIR 0)", "note": "150 BUMP LANDED at the RPE 7 target — two clicks clear of the ≤RIR 1 revert (Adj #148 resolved); AMRAP 135×12 → e1RM ~189, TM 168 stands. §5 clean-reps rule → bump 155 next Tue (1×5 @ 155 + AMRAP @ 135); if 155×5 lands ≤RIR 1 → back to 150 (Adj #168)" },
