@@ -1,24 +1,20 @@
 {
-  "generatedAt": "2026-07-21T20:05:00-04:00",
+  "generatedAt": "2026-07-22T15:20:00-04:00",
   "week": "W14",
-  "day": "Tue",
-  "date": "2026-07-21",
+  "day": "Wed",
+  "date": "2026-07-22",
   "phase": "Build",
-  "sessionName": "Hyp A — incline 155 bump + pushdown 27.5 attempt (LOGGED)",
-  "intro": ["Logged 7-21: incline 155x5 RIR 2 landed -> 160 next Tue (Adj #195); pushdown 27.5 landed pain-clean (Adj #198); rear-delt repeat RIR 4/4 -> nudge 140 next Tue (Adj #200)."],
-  "lift": {
-    "table": [
-      { "exercise": "Incline BB", "setsReps": "1x5 + AMRAP @ 135", "load": "155 (bump)", "rir": "top set ~3 (RPE 7); AMRAP 0", "rest": "2-3 min", "cue": "Done: 155x5 RIR 2 + AMRAP 135x11 RIR 0 — bump landed, 160 next Tue (Adj #195)" },
-      { "exercise": "DB lateral raise", "setsReps": "6x12", "load": "30", "rir": "1-2, last 2 sets 0", "rest": "60-90s", "cue": "Done: 12/12/12/12/14/12 RIR 3/3/2/2/0/0 — opener soft a third week, hold 30 (Adj #196)" },
-      { "exercise": "Preacher curl machine, unilateral", "setsReps": "4x10", "load": "70/arm", "rir": "2, last set 0-1", "rest": "60-90s", "cue": "Done: 10/10/8/7 RIR 1/1/0/0 — step back from the debut, hold 70 (Adj #197)" },
-      { "exercise": "Cable pushdown, unilateral", "setsReps": "4x12", "load": "27.5/arm (pain-gated)", "rir": "2, last set 0-1", "rest": "60-90s", "cue": "Done: 12/11/8/7 RIR 1/0/0/0, no elbow signal — landed, both slots run 27.5 (Adj #198)" },
-      { "exercise": "Decline crunch", "setsReps": "3x12", "load": "BW+10", "rir": "2", "rest": "60-90s", "cue": "Done: 12/8/8 RIR 1/0/0 — first Tue 12, gate not met, keep rebuilding (Adj #199)" },
-      { "exercise": "Rear-delt fly", "setsReps": "2x15", "load": "135", "rir": "3 (RPE 7)", "rest": "60-90s", "cue": "Done: 15/15 RIR 4/4 — repeat RIR 4 opener, nudge fires: 140 next Tue (Adj #200)" }
-    ],
-    "warmup": "Pre-lift wrist-extensor isometric 3x30 s/arm (10.A). 1-2 min dynamic: band pull-aparts, scap push-ups. Incline BB: bar x8, 95x5, 115x3, then working.",
-    "cooldown": "Tyler twists 3x15 + reverse Tyler 3x15 (daily dose). Daily SI prehab."
+  "sessionName": "W14 Test — 3K TT (§10, athlete-chosen)",
+  "intro": ["W14 test (§10): 3K TT chosen over 4x1 mi @ T — result recalcs VDOT + all paces at logging (Adj #166/#176). First quality outing in the Vomero Plus (Adj #193); if treadmill, 1% incline (Adj #177)."],
+  "lift": null,
+  "cardio": {
+    "flags": ["First quality outing in the Vomero Plus (Adj #193)", "Treadmill → 1% incline (Adj #177)", "Record finish time + temp/surface — heat adjustment applied at logging (as at W12)"],
+    "workout": "3K TT (1.86 mi) — target 13:30-13:55, even or slight negative split",
+    "targets": { "pace": "7:15-7:28/mi (4:30-4:38/km)", "hr": "display-only (Adj #175)", "cadence": "175-182 spm" },
+    "warmup": "1.5 mi easy (9:15-10:30) + 4x20 s strides + 2-3 min walk/jog before the start",
+    "cooldown": "1 mi easy (9:15-10:30) + SI prehab (quality day)",
+    "cues": ["Open at ~7:28/mi, hold through 2K, empty the last 1K — do not open at 7:15", "RPE 8 by 1K, 9 by 2K, 10 at the line", "Result recalcs all paces + decides the Adj #167 calendar call at logging"]
   },
-  "cardio": null,
   "currentLoads": [
     { "exercise": "Incline BB", "load": "160 next (bump) / TM 168", "lastVerified": "W14 Tue 7/21 (155×5 RIR 2 top + AMRAP 135×11 RIR 0)", "note": "155 BUMP LANDED one click clear of the ≤RIR 1 revert (Adj #168 resolved) — second consecutive Build-scheme bump landing; AMRAP slipped 12→11 → e1RM ~185, TM 168 stands. §5 clean-reps rule → bump 160 next Tue (1×5 @ 160 + AMRAP @ 135); if 160×5 lands ≤RIR 1 → back to 155 (Adj #195)" },
     { "exercise": "Lat pulldown", "load": "165 working (hold)", "lastVerified": "W13 Sat 7/18 (165×8/8/8/6 RIR 2/1/0/0)", "note": "First clean read at 165 proper (W12's ran behind the 170 mis-load) — sets 1-3 held the 8 floor with a clean front half, but set 3 ran to failure and set 4 fell to 6. Hold 165 — bump-eligible 170 on a clean 4×8 with set 3 RIR 1 (Adj #155/#179)" },
