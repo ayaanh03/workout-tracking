@@ -154,18 +154,18 @@ These are *opt-in*, low-shear, low-SI-risk additions for marginal RE and durabil
 
 Train at **current** VDOT, not goal VDOT. Update after every test (§10). **All run/row intensity is governed by pace + RPE only — exercise HR is display-only (retired 2026-07-15, Adj #175; rationale in program-history.md).** The §11.C morning check is unaffected (HRV/RHR are resting metrics).
 
-**Reference paces (recalculated 2026-07-15 off the W12 TT — 23:23 raw / 22:40–22:55 heat-adjusted, VDOT 41.5 / ~42.5–43; Adj #176):**
+**Reference paces (recalculated 2026-07-22 off the W14 3K TT — 13:13 raw / ~12:57–13:01 heat-adjusted, VDOT 42.85 / ~43.5; Adj #202):**
 | Pace | Run | RPE anchor | Row 500m split |
 |---|---|---|---|
 | Easy / Z1 (incl. long run) | 9:15–10:30 /mi | 4–5 — full sentences; conversation test gates the top end | 2:15–2:25 |
-| Marathon (M) | 8:20–8:30 /mi | 6 | ~2:07 |
-| Threshold (T, Z2 Seiler) | 7:50–7:55 /mi | ≤7 | 1:55–2:00 |
-| Interval (I, Z3 Seiler, ~vVO2max) | 7:10–7:25 /mi | 9 | 1:48–1:52 |
-| Repetition (R) | 6:40–6:50 /mi | fast-but-smooth, not a sprint | 1:40–1:44 |
-| Current 5K race pace | 7:32 raw / ~7:20 heat-adj | 10 | ~1:47 |
+| Marathon (M) | 8:15–8:25 /mi | 6 | ~2:06 |
+| Threshold (T, Z2 Seiler) | 7:45–7:50 /mi | ≤7 | 1:54–1:59 |
+| Interval (I, Z3 Seiler, ~vVO2max) | 7:00–7:15 /mi | 9 | 1:46–1:50 |
+| Repetition (R) | 6:35–6:45 /mi | fast-but-smooth, not a sprint | 1:39–1:43 |
+| Current 5K race pace | ~7:19 raw / ~7:12 heat-adj (Riegel off the W14 3K) | 10 | ~1:45 |
 | **Goal 5K race pace** | 6:55 /mi | — | ~1:42 |
 
-*T and I carry over unchanged from the 2026-07-13 recalibration (Adj #166) — the recalc brackets both (T 7:46–8:07, I 7:01–7:22 across raw↔heat-adjusted); the W14 test arbitrates T (RPE 8+ there → drop 10 s/mi). Easy raised from 9:45–10:45 and M from ~8:50 (Adj #176) — the old bands sat below the fair Daniels range for this VDOT.*
+*The W14 3K TT (13:13, 2026-07-22) closed the Adj #166 arbitration — T/I/M/R dropped 5–10 s/mi, T's RPE ≤7 anchor unchanged, easy holds (Adj #202). Recalc history (Adj #166/#176/#202) in program-history.md. Next §10 arbitration: W18 cut-down.*
 
 Rower runs ~20–35 s/500m faster than equivalent run pace at the same effort (non-weight-bearing, more upper-body recruitment). **Anchor row substitutions to 500m split + RPE, not HR** — use the split column above at the same RPE anchor as the run session it replaces.
 
@@ -359,7 +359,7 @@ Goal: keep tendon out of reactive flare while continuing tensile loading.
 | W1 Fri (May 8) | **Max-HR field test** on rower (3 min build → 2 min all-out, last 30 s flat-out) | Peak HR recorded | Fallback: (220 – age)×0.95; retest W4 on the run |
 | W4 (~May 25) | First continuous outdoor run | Pain-free during + 24h post | Restart Phase B at –1 step |
 | **W12 — DONE 2026-07-13** | **5K time trial** — ran road, 85°F (displaced Fri→Sun→Mon, Adj #146/#164) | **RESULT: 23:23 → Tier C — goal LOCKED sub-21:30** (heat-adjusted ~22:40–22:55, still >22:30) | **Locked. Not renegotiated.** |
-| W14 (Aug 15) | 3K TT or 4×1 mi @ T | T pace from W12 should feel exactly RPE 7 | If RPE 8+: drop paces 10 s/mi |
+| **W14 — DONE 2026-07-22** | **3K TT** (chosen over 4×1 mi @ T) — road, 80°F | **RESULT: 13:13 (7:05/mi) — VDOT 42.85 raw / ~43.5 heat-adj; 5K equiv 22:43 = Tier C read confirmed** | **Passed — paces recalced 5–10 s/mi faster (Adj #202)** |
 | W18 (Sep 5) | 5K-pace cut-down (1 mi M / 1 mi T / 1 mi 5K) | Final mile @ goal pace = RPE 8–9 | If RPE 10 / can't sustain: downgrade goal one tier |
 | **W21 (Sep 26)** | **Tune-up race or solo 5K TT, target 22:00–22:15** (rescaled to Tier C, 2026-07-13) | Hits target ± 10 s | If >22:35: downgrade to ~21:59 final, race-day = even splits not negative |
 | **W25 Sat Oct 24** | **RACE: sub-21:30 5K (Tier C)** | n/a | n/a |
@@ -422,13 +422,13 @@ Sun  Off + Tyler + McGill + clamshells + daily SI prehab
 
 INTENSITY GOVERNANCE (pace + RPE only — exercise HR retired 2026-07-15, Adj #175)
 Z1 easy   = 9:15–10:30/mi    RPE 4–5, full sentences
-Z2 thresh = 7:50–7:55/mi     RPE ≤7
-Z3 VO2max = 7:10–7:25/mi     RPE 9
+Z2 thresh = 7:45–7:50/mi     RPE ≤7
+Z3 VO2max = 7:00–7:15/mi     RPE 9
 Watch HR is display-only — log it, never pace to it.
 §11.C morning check (HRV/RHR, resting) unchanged.
 
 KEY PACES (update from Tracker.md after every test — train at current VDOT, not goal VDOT)
-  Easy / M / T / I / R paces: see §4.A pace table (recal 2026-07-15)
+  Easy / M / T / I / R paces: see §4.A pace table (recal 2026-07-22, W14 3K TT)
   Goal race pace 6:55/mi (Tier C)
 
 SESSION TYPES
