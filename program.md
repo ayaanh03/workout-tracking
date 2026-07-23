@@ -1,7 +1,7 @@
 # Six-Month 5K Program v4.3 — Goal: sub-21:30 (Tier C, locked 2026-07-13)
 
 **Effective:** v4.3 mileage reshape W8 (week of 2026-06-08); base program v4.2 week of May 4, 2026; goal tier locked at the W12 §10 TT (23:23, 2026-07-13)
-**Race day:** Saturday October 24, 2026 (W25)
+**Race day:** Saturday October 24, 2026 (W27 — renumbered from W25 with the Build extension, Adj #204)
 
 ---
 
@@ -33,19 +33,19 @@ Running > everything. When goals conflict (e.g. lift volume vs run quality), run
 
 ---
 
-## 1. Macrocycle Overview (25 weeks, May 6 → Oct 24, 2026)
+## 1. Macrocycle Overview (27 weeks, May 4 → Oct 24, 2026 — extended +2 Build weeks 2026-07-22, Adj #204)
 
 | Block | Weeks | Dates | Theme | Run mileage | Lift days | Lower-body neuromuscular work |
 |---|---|---|---|---|---|---|
 | **Reset / Reintro** | W1–W4 | May 6 – Jun 1 | SI clearance, run reintroduction | 0 → 12 mpw | 2 (upper only) | Soleus wall-sit 2×/wk; daily SI prehab |
 | **Base** | W5–W12 | Jun 2 – Jul 27 | Aerobic capacity, mileage build, weekly threshold | 14 → 24 mpw | 2 | + Hill strides 1×/wk (gated on SI clean ≥3 wks) |
-| **Build** | W13–W18 | Jul 28 – Sep 7 | Add VO2max intervals; polarized | 23 → 28 mpw, peak 28 W17 | 2 | + Optional B-stance hip thrust, reverse Nordic, Spanish squat (gated on Phase B clean) |
-| **Sharpen** | W19–W22 | Sep 8 – Oct 5 | Race-pace specificity | 26–28 mpw | 2 (reduced volume) | Maintain Phase B additions; **no new exercises** |
-| **Taper** | W23–W25 | Oct 6 – Oct 24 | Volume cut 30 → 55%, intensity preserved | 20 → 15 → 12 (race wk) | 1 (W23 only) | Drop hill strides last 10 days; seated calf 1×/wk only |
+| **Build** | W13–W20 | Jul 13 – Sep 6 | Add VO2max intervals; polarized; +2 wks (1 load + 1 deload) per Adj #204 | 23 → 28 mpw, peak 28 cap (W17/W19 ~25) | 2 | + Optional B-stance hip thrust, reverse Nordic, Spanish squat (gated on Phase B clean) |
+| **Sharpen** | W21–W24 | Sep 7 – Oct 4 | Race-pace specificity | 26–28 mpw | 2 (reduced volume) | Maintain Phase B additions; **no new exercises** |
+| **Taper** | W25–W27 | Oct 5 – Oct 24 | Volume cut 30 → 55%, intensity preserved | 20 → 15 → 12 (race wk) | 1 (W25 only) | Drop hill strides last 10 days; seated calf 1×/wk only |
 
 > **v4.3 mileage reshape (2026-06-08):** peak mileage cut 38 → 28 mpw; quality sessions unchanged. Rationale in `program-history.md`.
 
-### 1.1 Test targets W25
+### 1.1 Test targets W27
 
 | Test | Day | Locked target (Tier C) |
 |---|---|---|
@@ -56,7 +56,7 @@ Running > everything. When goals conflict (e.g. lift volume vs run quality), run
 
 ## 2. Weekly Template (run-priority)
 
-### 2.A Base / Build template (W5–W22)
+### 2.A Base / Build template (W5–W24)
 4 days running, 2 lifting (Tue Hyp A standalone, Sat Hyp B after the long run), 2 off (Thu, Sun). Tue is lift-only — no run.
 
 | Day | Session | Notes |
@@ -77,11 +77,11 @@ Running > everything. When goals conflict (e.g. lift volume vs run quality), run
 
 **Cadence**: target 175–182 spm at quality pace; 165–172 at easy is fine if natural. Don't force 180 at conversational pace.
 
-### 2.B Sharpen template (W19–W22)
+### 2.B Sharpen template (W21–W24)
 Same shape, slightly reduced lift volume (drop one circuit/wk if running mileage hits 35+). **No new lower-body exercises this phase** — only maintain what's working from Phase B.
 
-### 2.C Taper template (W23–W25)
-| | W23 | W24 | W25 (race wk) |
+### 2.C Taper template (W25–W27)
+| | W25 | W26 | W27 (race wk) |
 |---|---|---|---|
 | Run volume vs peak | –30% | –45% | –55% |
 | Quality | 1 T session 3×1 mi + 1 race-pace 5×600m @ 5K pace | 1 short VO2max 5×3 min + 1 race-pace primer 3×800m @ 5K pace | Tue 3×800m @ 5K pace; Thu 4×200m @ goal pace; Fri 20 min EZ + 4 strides |
@@ -89,7 +89,7 @@ Same shape, slightly reduced lift volume (drop one circuit/wk if running mileage
 | Lift | Tue: 1 top set incline @ ~75% × 3, no accessories. Sat: half-volume hypertrophy B | None | None |
 | Lower-body NM | Hill strides 1× early week only | Drop hill strides; seated calf 1× | None |
 
-*Taper note: the W24–W25 micro-schedule above (Tue/Thu/Fri quality placements) is **race-anchored** to the Sat Oct 24 race and is a bespoke layout that supersedes the standard Tue-lift / Wed-T / Thu-off template (§2.A). Finalize exact day placement at taper.*
+*Taper note: the W26–W27 micro-schedule above (Tue/Thu/Fri quality placements) is **race-anchored** to the Sat Oct 24 race and is a bespoke layout that supersedes the standard Tue-lift / Wed-T / Thu-off template (§2.A). Finalize exact day placement at taper.*
 
 ---
 
@@ -154,18 +154,18 @@ These are *opt-in*, low-shear, low-SI-risk additions for marginal RE and durabil
 
 Train at **current** VDOT, not goal VDOT. Update after every test (§10). **All run/row intensity is governed by pace + RPE only — exercise HR is display-only (retired 2026-07-15, Adj #175; rationale in program-history.md).** The §11.C morning check is unaffected (HRV/RHR are resting metrics).
 
-**Reference paces (recalculated 2026-07-15 off the W12 TT — 23:23 raw / 22:40–22:55 heat-adjusted, VDOT 41.5 / ~42.5–43; Adj #176):**
+**Reference paces (recalculated 2026-07-22 off the W14 3K TT — 13:13 raw / ~12:57–13:01 heat-adjusted, VDOT 42.85 / ~43.5; Adj #202):**
 | Pace | Run | RPE anchor | Row 500m split |
 |---|---|---|---|
 | Easy / Z1 (incl. long run) | 9:15–10:30 /mi | 4–5 — full sentences; conversation test gates the top end | 2:15–2:25 |
-| Marathon (M) | 8:20–8:30 /mi | 6 | ~2:07 |
-| Threshold (T, Z2 Seiler) | 7:50–7:55 /mi | ≤7 | 1:55–2:00 |
-| Interval (I, Z3 Seiler, ~vVO2max) | 7:10–7:25 /mi | 9 | 1:48–1:52 |
-| Repetition (R) | 6:40–6:50 /mi | fast-but-smooth, not a sprint | 1:40–1:44 |
-| Current 5K race pace | 7:32 raw / ~7:20 heat-adj | 10 | ~1:47 |
+| Marathon (M) | 8:15–8:25 /mi | 6 | ~2:06 |
+| Threshold (T, Z2 Seiler) | 7:45–7:50 /mi | ≤7 | 1:54–1:59 |
+| Interval (I, Z3 Seiler, ~vVO2max) | 7:00–7:15 /mi | 9 | 1:46–1:50 |
+| Repetition (R) | 6:35–6:45 /mi | fast-but-smooth, not a sprint | 1:39–1:43 |
+| Current 5K race pace | ~7:19 raw / ~7:12 heat-adj (Riegel off the W14 3K) | 10 | ~1:45 |
 | **Goal 5K race pace** | 6:55 /mi | — | ~1:42 |
 
-*T and I carry over unchanged from the 2026-07-13 recalibration (Adj #166) — the recalc brackets both (T 7:46–8:07, I 7:01–7:22 across raw↔heat-adjusted); the W14 test arbitrates T (RPE 8+ there → drop 10 s/mi). Easy raised from 9:45–10:45 and M from ~8:50 (Adj #176) — the old bands sat below the fair Daniels range for this VDOT.*
+*The W14 3K TT (13:13, 2026-07-22) closed the Adj #166 arbitration — T/I/M/R dropped 5–10 s/mi, T's RPE ≤7 anchor unchanged, easy holds (Adj #202). Recalc history (Adj #166/#176/#202) in program-history.md. Next §10 arbitration: W19 cut-down (renumbered from W18, Adj #204).*
 
 Rower runs ~20–35 s/500m faster than equivalent run pace at the same effort (non-weight-bearing, more upper-body recruitment). **Anchor row substitutions to 500m split + RPE, not HR** — use the split column above at the same RPE anchor as the run session it replaces.
 
@@ -196,7 +196,7 @@ Polarized, weekly volume ~12 → 20 mpw (v4.3 cap, further trimmed by the 2026-0
 - T session → row same work-time at ~1:55–2:00 split (e.g., 5×5 min @ ~1:58, 1 min rec)
 - Long run → row same minutes, Z1, can break into 2 segments with 2 min walk
 
-### 4.D Build (W13–W18) — add VO2max
+### 4.D Build (W13–W20) — add VO2max (+2 wks 2026-07-22, Adj #204)
 Polarized (Stöggl 2014). The v4.3 cap trims easy volume but holds the quality work intact, so the easy fraction lands nearer ~75% (vs the textbook 80%) — acceptable and intended for a 5K peak; keep the easy days genuinely easy so the two quality sessions stay the only hard work. **With the 2026-06-16 template change (Thu off, T moved to Wed; Adj #92) the two quality days now sit 48 h apart (Wed→Fri) and the only non-quality run days are Mon easy + Sat long — the intensity fraction rises further. This is an explicit athlete-accepted tradeoff; protect it by keeping Mon and the Sat long genuinely easy, and watch the reactive tendons (Adj #63/#64) against the tighter Wed→Fri spacing.**
 
 | Wk | Mon EZ | Wed T | Fri VO2max | Sat Long | Total |
@@ -207,6 +207,8 @@ Polarized (Stöggl 2014). The v4.3 cap trims easy volume but holds the quality w
 | W16 (deload) | 30 min | 3×6 min @ T | 4×3 min @ I | 50 min | ~14 |
 | W17 | 40 min (+ hill strides) | 6×1 K @ T (60 s rec) | **5×1000m @ I (90 s rec)** — gold standard 5K VO2max session | 70 min | ~25 (peak) |
 | W18 | 40 min (+ hill strides) | 4×1 mi @ T (90 s) | 8×800m @ I (90 s rec) | 65 min | ~24 |
+| W19 | 40 min (+ hill strides) | **5K-pace cut-down test (§10)** | 5×1000m @ I (90 s rec) — 2nd exposure | 70 min | ~25 |
+| W20 (deload) | 30 min | 3×6 min @ T | 4×3 min @ I | 50 min | ~14 |
 
 5×1000m @ I-pace is the most cited VO2max session for 5K (Daniels; LetsRun forum consensus; PMC10099854 — 4×4 min and 5×1K class show largest VO2max gains).
 
@@ -215,17 +217,17 @@ Polarized (Stöggl 2014). The v4.3 cap trims easy volume but holds the quality w
 - Fri VO2max: row 5×3 min @ ~1:45–1:50 (3 min very easy rec), or 12×30 s @ ~1:35 / 30 s rec @ 2:30
 - *Caveat*: row VO2max transfers ~70–80% to running (Tanaka 1994 cross-training meta), maintains fitness on flare days but doesn't develop running economy/pacing rhythm. Use as substitute, not replacement.
 
-### 4.E Sharpen (W19–W22) — race-pace specificity
+### 4.E Sharpen (W21–W24) — race-pace specificity
 Volume holds 30–35 mpw, intensity gets specific. **No new lower-body exercises.**
 
 | Wk | Mon EZ | Wed Quality | Fri Quality | Sat Long |
 |---|---|---|---|---|
-| W19 | 35 min (+ hill strides) | 6×800m @ 5K pace (90 s rec) | 5×3 min @ I (2 min rec) + 4×200m R | 60 min |
-| W20 | 40 min (+ hill strides) | **Cut-down: 1 mi @ M / 1 mi @ T / 1 mi @ 5K** | 4×1 K @ 5K pace (2 min rec) | 60 min |
-| W21 | 40 min | 5×1 K @ 5K pace (90 s rec) | **Tune-up race or solo 5K TT (target 22:00–22:15, Tier C)** | 50 min easy day-after |
-| W22 (deload) | 30 min | 3×1 K @ 5K pace | 5×3 min @ I | 50 min |
+| W21 | 35 min (+ hill strides) | 6×800m @ 5K pace (90 s rec) | 5×3 min @ I (2 min rec) + 4×200m R | 60 min |
+| W22 | 40 min (+ hill strides) | **Cut-down: 1 mi @ M / 1 mi @ T / 1 mi @ 5K** | 4×1 K @ 5K pace (2 min rec) | 60 min |
+| W23 | 40 min | 5×1 K @ 5K pace (90 s rec) | **Tune-up race or solo 5K TT (target 22:00–22:15, Tier C)** | 50 min easy day-after |
+| W24 (deload) | 30 min | 3×1 K @ 5K pace | 5×3 min @ I | 50 min |
 
-### 4.F Taper (W23–W25)
+### 4.F Taper (W25–W27)
 See §2.C above. Race day Sat Oct 24:
 - WU: 15 min easy + 4×100m strides + 5 min standing/dynamic
 - Race: goal pace 6:55/mi (4:18/km), even-split or –1 s/mi negative split
@@ -241,10 +243,10 @@ See §2.C above. Race day Sat Oct 24:
 |---|---|---|---|
 | Reset (W1–W4) | Tue | 3×5 @ TM, +5 lb/wk if reps clean RPE 7 | Conservative LP |
 | Base (W5–W12) | Tue | 3×5 @ TM. Every 4 wks: 1×5 @ TM + 1×AMRAP @ 80% (test set) → set new TM at 90% of e1RM | Linear progression continues; expect TM 175–185 by W12 |
-| Build (W13–W18) | Tue | 1×5 @ TM + 1×AMRAP @ 80% | Single top + back-off; preserves stimulus without burning the lift day |
-| Sharpen (W19–W22) | Tue | 1×5 @ TM, no AMRAP, no PR attempts | Maintenance |
-| Taper W23 | 1×3 @ 75% Tue, then stop until post-race | — |
-| Taper W24–W25 | None | — |
+| Build (W13–W20) | Tue | 1×5 @ TM + 1×AMRAP @ 80% | Single top + back-off; preserves stimulus without burning the lift day |
+| Sharpen (W21–W24) | Tue | 1×5 @ TM, no AMRAP, no PR attempts | Maintenance |
+| Taper W25 | 1×3 @ 75% Tue, then stop until post-race | — |
+| Taper W26–W27 | None | — |
 
 **Progression rule:** all reps clean at prescribed RPE → +5 lb next session. Miss → repeat. Two misses → cut TM 5–7%.
 
@@ -359,10 +361,10 @@ Goal: keep tendon out of reactive flare while continuing tensile loading.
 | W1 Fri (May 8) | **Max-HR field test** on rower (3 min build → 2 min all-out, last 30 s flat-out) | Peak HR recorded | Fallback: (220 – age)×0.95; retest W4 on the run |
 | W4 (~May 25) | First continuous outdoor run | Pain-free during + 24h post | Restart Phase B at –1 step |
 | **W12 — DONE 2026-07-13** | **5K time trial** — ran road, 85°F (displaced Fri→Sun→Mon, Adj #146/#164) | **RESULT: 23:23 → Tier C — goal LOCKED sub-21:30** (heat-adjusted ~22:40–22:55, still >22:30) | **Locked. Not renegotiated.** |
-| W14 (Aug 15) | 3K TT or 4×1 mi @ T | T pace from W12 should feel exactly RPE 7 | If RPE 8+: drop paces 10 s/mi |
-| W18 (Sep 5) | 5K-pace cut-down (1 mi M / 1 mi T / 1 mi 5K) | Final mile @ goal pace = RPE 8–9 | If RPE 10 / can't sustain: downgrade goal one tier |
-| **W21 (Sep 26)** | **Tune-up race or solo 5K TT, target 22:00–22:15** (rescaled to Tier C, 2026-07-13) | Hits target ± 10 s | If >22:35: downgrade to ~21:59 final, race-day = even splits not negative |
-| **W25 Sat Oct 24** | **RACE: sub-21:30 5K (Tier C)** | n/a | n/a |
+| **W14 — DONE 2026-07-22** | **3K TT** (chosen over 4×1 mi @ T) — road, 80°F | **RESULT: 13:13 (7:05/mi) — VDOT 42.85 raw / ~43.5 heat-adj; 5K equiv 22:43 = Tier C read confirmed** | **Passed — paces recalced 5–10 s/mi faster (Adj #202)** |
+| W19 (Wed Aug 26 — was W18 pre-extension, Adj #204) | 5K-pace cut-down (1 mi M / 1 mi T / 1 mi 5K) | Final mile @ goal pace = RPE 8–9 | If RPE 10 / can't sustain: downgrade goal one tier |
+| **W23 (Fri Sep 25 — was W21 pre-extension, Adj #204)** | **Tune-up race or solo 5K TT, target 22:00–22:15** (rescaled to Tier C, 2026-07-13) | Hits target ± 10 s | If >22:35: downgrade to ~21:59 final, race-day = even splits not negative |
+| **W27 Sat Oct 24 (was W25 pre-extension, Adj #204)** | **RACE: sub-21:30 5K (Tier C)** | n/a | n/a |
 
 **Goal tier ladder (LOCKED 2026-07-13 — W12 TT 23:23 → Tier C):**
 - **Tier A (sub-20)**: W12 ≤ 21:30
@@ -384,7 +386,7 @@ Goal: keep tendon out of reactive flare while continuing tensile loading.
 | **D** (Sharpen+) | **No new exercises**; maintain only what's working | n/a | Drop new adds last 10 days of taper regardless |
 
 ### 11.B Scheduled deloads
-W8, W16, W22 (every 4 wks Build, embedded in Sharpen). Run volume –30 to –40%, intensity preserved on quality. Lift: same exercises, sets cut 30–50%, intensity 80% of normal. Hill strides held during deload weeks.
+W8, W16, W20, W24 (every 4 wks — W20 added with the Build extension, Adj #204; W24 embedded in Sharpen). Run volume –30 to –40%, intensity preserved on quality. Lift: same exercises, sets cut 30–50%, intensity 80% of normal. Hill strides held during deload weeks.
 
 ### 11.C Daily green/yellow/red check (on waking)
 - HRV (Apple/Oura) > rolling 7-day avg AND RHR ≤ avg+3 AND SI screen clean → **green** (run as scheduled)
@@ -422,13 +424,13 @@ Sun  Off + Tyler + McGill + clamshells + daily SI prehab
 
 INTENSITY GOVERNANCE (pace + RPE only — exercise HR retired 2026-07-15, Adj #175)
 Z1 easy   = 9:15–10:30/mi    RPE 4–5, full sentences
-Z2 thresh = 7:50–7:55/mi     RPE ≤7
-Z3 VO2max = 7:10–7:25/mi     RPE 9
+Z2 thresh = 7:45–7:50/mi     RPE ≤7
+Z3 VO2max = 7:00–7:15/mi     RPE 9
 Watch HR is display-only — log it, never pace to it.
 §11.C morning check (HRV/RHR, resting) unchanged.
 
 KEY PACES (update from Tracker.md after every test — train at current VDOT, not goal VDOT)
-  Easy / M / T / I / R paces: see §4.A pace table (recal 2026-07-15)
+  Easy / M / T / I / R paces: see §4.A pace table (recal 2026-07-22, W14 3K TT)
   Goal race pace 6:55/mi (Tier C)
 
 SESSION TYPES

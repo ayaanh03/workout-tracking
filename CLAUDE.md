@@ -168,7 +168,7 @@ If a session's outcome warrants changing `program.md` itself (a permanent templa
 
 ### History files — rotation
 
-- **At each phase boundary** (Build→Sharpen after the last W18 log; Sharpen→Taper after W22; post-race), move the completed phase's content **verbatim** out of each live `history/` file into `history/archive/{stream}-W{a}-W{b}.md` (the ledger archives by number range: `adjustments-{first}-{last}.md`). Update the live file's header to state the new archived ranges, and record the rotation as a new Adj #. `history/incline-bb.md` rotates whole at meso boundaries, not phase boundaries.
+- **At each phase boundary** (Build→Sharpen after the last W20 log; Sharpen→Taper after W24; post-race — renumbered per Adj #204), move the completed phase's content **verbatim** out of each live `history/` file into `history/archive/{stream}-W{a}-W{b}.md` (the ledger archives by number range: `adjustments-{first}-{last}.md`). Update the live file's header to state the new archived ranges, and record the rotation as a new Adj #. `history/incline-bb.md` rotates whole at meso boundaries, not phase boundaries.
 - **Backstop:** if any live history file grows past **~40 KB** mid-phase, roll its oldest completed weeks into that phase's archive file early — same mechanics.
 - **Moves are line-range cut/paste (sed/awk), byte-verbatim** — never retype, reformat, or summarize content while moving it. Verify with checksums/`cmp` before committing.
 
@@ -202,9 +202,9 @@ Phase determines the cardio prescription:
 
 - Reset W1–W4 → `§4.B`
 - Base W5–W12 → `§4.C`
-- Build W13–W18 → `§4.D`
-- Sharpen W19–W22 → `§4.E`
-- Taper W23–W25 → `§2.C`
+- Build W13–W20 → `§4.D`
+- Sharpen W21–W24 → `§4.E`
+- Taper W25–W27 → `§2.C`
 
 Lift volume/prescription is in `§3.A` (Wed) and `§3.B` (Sat).
 

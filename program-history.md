@@ -45,3 +45,19 @@ Athlete directive mid-W13: HR-based gating is not working — 180 bpm reads "eas
 **Governance change:** all run/row intensity is now anchored to **pace + RPE only**; exercise HR is display-only (log it, never pace to it). The §12 HR zone crosswalk is replaced with a pace/RPE governance block; row substitutions anchor to 500m split + RPE (§4.A); the §11.C morning check is unaffected (HRV/RHR are resting metrics on a different signal path). MHR 193 stays on record as a datum.
 
 **Pace recalc (Adj #176)** off the 23:23 TT (VDOT 41.5 raw / ~42.5–43 heat-adjusted): easy/long **9:15–10:30/mi** (raised from 9:45–10:45 — the old band sat in the bottom half of the fair Daniels E range; conversation test still gates the top end), M **8:20–8:30** (from ~8:50), **T holds 7:50–7:55 RPE ≤7** and **I holds 7:10–7:25 RPE 9** (both confirmed by the recalc — Adj #166 unchanged; the W14 test still arbitrates T), R **6:40–6:50**. Current 5K race pace on record: 7:32 raw / ~7:20 heat-adjusted. Next recalc at the W14 test.
+
+---
+
+## 2026-07-22 — W14 §10 test: paces recalculated off the 3K TT (§4.A, §10, §12; Adj #201–#203)
+
+The W14 mid-build test ran as the 3K TT (athlete's choice over 4×1 mi @ T): **13:13** — 7:05/mi, road, 80°F, cadence 179, HR avg 182 / peak 195 (display-only; the peak updates the MHR datum 193 → 195, Adj #203); no pain reported → clean by default (Adj #188). The Riegel 5K equivalent, 22:43 raw, sits dead center of the W12 heat-adjusted estimate (22:40–22:55), so the Tier C read is confirmed in near-fair conditions — and the W12 tension between the TT-implied VDOT (41.5 raw) and six straight RPE ≤7 threshold sessions resolves in the sessions' favor: **VDOT 42.85 raw / ~43.5 heat-adjusted (80°F ≈ 1.5–2%)**.
+
+**Prescription changes (Adj #202):** §4.A reference paces recalculated — **T 7:50–7:55 → 7:45–7:50 (RPE ≤7 anchor unchanged; raw-implied exactly 7:45, heat-adjusted ~7:40 held in reserve — the same conservative posture as Adj #166)**, **I 7:10–7:25 → 7:00–7:15 RPE 9**, M 8:15–8:25, R 6:35–6:45; easy/long holds 9:15–10:30 (the honest-easy posture is load-bearing against the 48 h Wed→Fri quality spacing). Row splits shift ~1–2 s/500m; current 5K race pace on record ~7:19 raw / ~7:12 heat-adjusted. §10 W14 row marked done; §12 card updated. Next §10 arbitration: the W18 cut-down. The Adj #167 calendar-placement call now has its input and is due before the W16 deload.
+
+---
+
+## 2026-07-22 — Macrocycle extended +2 Build weeks; downstream phases renumbered (§1, §2, §4.D–§4.F, §5, §10, §11.B; Adj #204)
+
+Athlete call the evening of the W14 test ("extra build — feeling good and recovered") resolves the two-spare-week calendar question (Adj #167): both weeks go to **Build**, placed as **one added loading week + one added deload** rather than two loading weeks — two consecutive additions would have run 7 loading weeks into the Sharpen-embedded deload, against the §11.B every-4-weeks cadence with two reactive tendons on watch.
+
+**New macrocycle (27 weeks, contiguous to race day):** Build **W13–W20** (Jul 13 – Sep 6), Sharpen **W21–W24** (Sep 7 – Oct 4), Taper **W25–W27** (Oct 5 – Oct 24), race **W27 Sat Oct 24**. The added **W19** (~25 mi) carries the §10 5K-pace cut-down test on Wed (relocated from old-W18; now Aug 26), a second exposure of the gold-standard 5×1000m @ I on Fri, and a 70 min long; the added **W20** deload mirrors W16 so Build hands off fresh. Deloads now W8/W16/W20/W24. The 28-mpw peak ceiling is unchanged (Adj #67) — the extension adds training time, not mileage. Renumber map for future weeks (W13–W18 unchanged): old Sharpen W19–W22 → W21–W24 (tune-up now W23 Fri Sep 25), old Taper W23–W25 → W25–W27. History entries written before this date reference the old numbering — resolve via Adj #204.
