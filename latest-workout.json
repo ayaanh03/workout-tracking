@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-07-22T15:20:00-04:00",
+  "generatedAt": "2026-07-24T16:04:00-04:00",
   "week": "W14",
-  "day": "Wed",
-  "date": "2026-07-22",
+  "day": "Fri",
+  "date": "2026-07-24",
   "phase": "Build",
-  "sessionName": "W14 Test — 3K TT (§10, athlete-chosen)",
-  "intro": ["W14 test (§10): 3K TT chosen over 4x1 mi @ T — result recalcs VDOT + all paces at logging (Adj #166/#176). First quality outing in the Vomero Plus (Adj #193); if treadmill, 1% incline (Adj #177)."],
+  "sessionName": "VO2max 6x3 min @ I (2:30 rec)",
+  "intro": ["First VO2 dose at the recalced band (Adj #202): all six reps at the slow end 7:10-7:15 — no off-band closer (Adj #178). 48 h post-maximal 3K — honest §11.C morning check decides."],
   "lift": null,
   "cardio": {
-    "flags": ["First quality outing in the Vomero Plus (Adj #193)", "Treadmill → 1% incline (Adj #177)", "Record finish time + temp/surface — heat adjustment applied at logging (as at W12)"],
-    "workout": "3K TT (1.86 mi) — target 13:30-13:55, even or slight negative split",
-    "targets": { "pace": "7:15-7:28/mi (4:30-4:38/km)", "hr": "display-only (Adj #175)", "cadence": "175-182 spm" },
-    "warmup": "1.5 mi easy (9:15-10:30) + 4x20 s strides + 2-3 min walk/jog before the start",
+    "flags": ["Run the slow end 7:10-7:15 — the fast end (7:00) is earned after this lands (Adj #178/#202)", "§11.C yellow → easy 30-40 min, push quality (48 h post-maximal 3K)", "Treadmill → 1% incline (Adj #177)"],
+    "workout": "6x3 min @ I (2:30 jog rec) — second I-pace session; shorter recoveries do the progressing vs the 5x3 debut",
+    "targets": { "pace": "7:10-7:15/mi (band 7:00-7:15, Adj #202)", "hr": "display-only (Adj #175)", "cadence": "175-182 spm" },
+    "warmup": "1.5 mi easy (9:15-10:30) + 4x20 s strides + 2-3 min walk/jog before rep 1",
     "cooldown": "1 mi easy (9:15-10:30) + SI prehab (quality day)",
-    "cues": ["Open at ~7:28/mi, hold through 2K, empty the last 1K — do not open at 7:15", "RPE 8 by 1K, 9 by 2K, 10 at the line", "Result recalcs all paces + decides the Adj #167 calendar call at logging"]
+    "cues": ["Reps in-band start to finish — rep 6 is not a closer (Adj #178)", "RPE 9 anchor; recoveries a genuinely easy 2:30 jog"]
   },
   "currentLoads": [
     { "exercise": "Incline BB", "load": "160 next (bump) / TM 168", "lastVerified": "W14 Tue 7/21 (155×5 RIR 2 top + AMRAP 135×11 RIR 0)", "note": "155 BUMP LANDED one click clear of the ≤RIR 1 revert (Adj #168 resolved) — second consecutive Build-scheme bump landing; AMRAP slipped 12→11 → e1RM ~185, TM 168 stands. §5 clean-reps rule → bump 160 next Tue (1×5 @ 160 + AMRAP @ 135); if 160×5 lands ≤RIR 1 → back to 155 (Adj #195)" },
