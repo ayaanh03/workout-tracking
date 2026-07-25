@@ -1,19 +1,32 @@
 {
-  "generatedAt": "2026-07-24T16:04:00-04:00",
+  "generatedAt": "2026-07-25T18:05:00-04:00",
   "week": "W14",
-  "day": "Fri",
-  "date": "2026-07-24",
+  "day": "Sat",
+  "date": "2026-07-25",
   "phase": "Build",
-  "sessionName": "VO2max 6x3 min @ I (2:30 rec)",
-  "intro": ["First VO2 dose at the recalced band (Adj #202): all six reps at the slow end 7:10-7:15 — no off-band closer (Adj #178). 48 h post-maximal 3K — honest §11.C morning check decides."],
-  "lift": null,
+  "sessionName": "Long 60 min Z1 AM + Hyp B PM",
+  "intro": ["No scheduled bump — all holds/rebuilds; pushdown Sat slot runs 27.5 for the first time (landed Tue through the pain gate, Adj #198). Lift PM >=6h after the run; push to Sun if the run was hard."],
+  "lift": {
+    "table": [
+      { "exercise": "Lat pulldown (neutral)", "setsReps": "4x8-10", "load": "165", "rir": "2, last set 1", "rest": "90-120s", "cue": "Clean 4x8 with set 3 RIR 1 -> 170 next (Adj #179)" },
+      { "exercise": "Chest-supported row", "setsReps": "3x10", "load": "80", "rir": "2", "rest": "90-120s", "cue": "Full 3x10 with sets 1-2 >=RIR 1 re-earns the ladder toward 85 (Adj #180)" },
+      { "exercise": "DB lateral raise", "setsReps": "4x12-15", "load": "35", "rir": "2, last set to failure", "rest": "60-90s", "cue": "Rebuild — all 4 sets in the 12-15 band before any move (Adj #181)" },
+      { "exercise": "Preacher curl (semi-sup)", "setsReps": "4x12", "load": "60/arm", "rir": "2", "rest": "60-90s", "cue": "Clean-with-reps-to-spare condition stands for 65 (Adj #118/#182)" },
+      { "exercise": "Cable pushdown (uni)", "setsReps": "4x12-15", "load": "27.5/arm", "rir": "2, last set 0-1", "rest": "60-90s", "cue": "First Sat outing at 27.5; set 3 >=RIR 1 at full 12 before 30 (Adj #198)" },
+      { "exercise": "Decline crunch", "setsReps": "3x10", "load": "BW+10", "rir": "2", "rest": "60-90s", "cue": "Sat gate rests on set 3 >=RIR 1-2 (Adj #184)" },
+      { "exercise": "Seated calf", "setsReps": "4x12-15", "load": "355", "rir": "2, last set to failure", "rest": "60-90s", "cue": "Sets 1-3 >=RIR 1 before 365; future bumps AM-gated (Adj #185)" },
+      { "exercise": "Chest flye", "setsReps": "2x12", "load": "130", "rir": "3", "rest": "60-90s", "cue": "RIR 3 is the target, not headroom to spend (Adj #186)" }
+    ],
+    "warmup": "General: 1-2 min band pull-aparts / scap push-ups. Wrist-extensor isometric 3x30 s/arm pre-lift (§10.A).",
+    "cooldown": "Tyler twist 3x15 + reverse Tyler 3x15 (4 s eccentric); daily SI prehab round."
+  },
   "cardio": {
-    "flags": ["Run the slow end 7:10-7:15 — the fast end (7:00) is earned after this lands (Adj #178/#202)", "§11.C yellow → easy 30-40 min, push quality (48 h post-maximal 3K)", "Treadmill → 1% incline (Adj #177)"],
-    "workout": "6x3 min @ I (2:30 jog rec) — second I-pace session; shorter recoveries do the progressing vs the 5x3 debut",
-    "targets": { "pace": "7:10-7:15/mi (band 7:00-7:15, Adj #202)", "hr": "display-only (Adj #175)", "cadence": "175-182 spm" },
-    "warmup": "1.5 mi easy (9:15-10:30) + 4x20 s strides + 2-3 min walk/jog before rep 1",
-    "cooldown": "1 mi easy (9:15-10:30) + SI prehab (quality day)",
-    "cues": ["Reps in-band start to finish — rep 6 is not a closer (Adj #178)", "RPE 9 anchor; recoveries a genuinely easy 2:30 jog"]
+    "flags": ["Lift PM >=6h after the run — push to Sun if the run was hard"],
+    "workout": "Long run 60 min Z1",
+    "targets": { "pace": "9:15-10:30/mi, conversation-gated", "hr": "display-only (Adj #175)", "cadence": "165-172 spm (easy — don't force 180)" },
+    "warmup": "5 min easy build from ~10:30/mi",
+    "cooldown": "5 min walk",
+    "cues": ["Keep it genuinely easy — Mon + Sat easy days protect the polarized split (§4.D)"]
   },
   "currentLoads": [
     { "exercise": "Incline BB", "load": "160 next (bump) / TM 168", "lastVerified": "W14 Tue 7/21 (155×5 RIR 2 top + AMRAP 135×11 RIR 0)", "note": "155 BUMP LANDED one click clear of the ≤RIR 1 revert (Adj #168 resolved) — second consecutive Build-scheme bump landing; AMRAP slipped 12→11 → e1RM ~185, TM 168 stands. §5 clean-reps rule → bump 160 next Tue (1×5 @ 160 + AMRAP @ 135); if 160×5 lands ≤RIR 1 → back to 155 (Adj #195)" },
