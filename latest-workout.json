@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-07-26T15:30:00-04:00",
-  "week": "W14",
-  "day": "Sun",
-  "date": "2026-07-26",
+  "generatedAt": "2026-07-27T13:45:00-04:00",
+  "week": "W15",
+  "day": "Mon",
+  "date": "2026-07-27",
   "phase": "Build",
-  "sessionName": "Long run 60 min Z1 (punted from Sat — closes W14)",
-  "intro": ["Punted long closes W14 (Adj #213); W15 Mon easy + hill strides follows back-to-back — keep this genuinely easy."],
+  "sessionName": "Z1 easy 50 min + hill strides",
+  "intro": ["Extended 40→50 min to partly absorb the skipped W14 long (Adj #214). Hill strides return — first performance since W10 Mon 6-22 (Adj #194)."],
   "lift": null,
   "cardio": {
-    "flags": ["Outdoor or treadmill — athlete's call. Outdoor: late-July afternoon heat, §11.E prefers <70F for summer longs — treadmill is the cooler option."],
-    "workout": "60 min continuous Z1. Outdoor: 9:15-10:30/mi, conversation-gated top end. Treadmill: 5.7-6.0 mph (10:31-10:00/mi) @ 0.5% incline — matches the last two easy treadmill sessions.",
-    "targets": { "pace": "Outdoor 9:15-10:30/mi (conversation-gated) / treadmill 5.7-6.0 mph @ 0.5%", "hr": "display-only (Adj #175)", "cadence": "165-172 spm natural — don't force 180" },
-    "warmup": "First 5 min of the 60 — easy build from ~10:30/mi (treadmill: start 5.7 mph)",
-    "cooldown": "5 min walk; then Sunday dailies — Tyler twist 3x15 + reverse Tyler 3x15, McGill Big 3 5-3-1, daily SI prehab",
-    "cues": ["Vomero Plus. No strides on the long. RPE 4-5 — full sentences the whole way."]
+    "flags": [],
+    "workout": "50 min continuous Z1, then hill strides 6-8 x 10-12 s @ 4-6% grade, walk-down recovery",
+    "targets": { "pace": "Easy 9:15-10:30/mi, conversation-gated; strides fast-but-smooth (~mile effort), not a sprint", "hr": "display-only (Adj #175)", "cadence": "165-172 spm easy, natural — don't force 180" },
+    "warmup": "First 5 min of the 50 — easy build from ~10:30/mi",
+    "cooldown": "5 min easy jog / walk after the last stride",
+    "cues": ["Vomero Plus. Keep the easy minutes genuinely easy (§4.D). Treadmill version: 5.7-6.0 mph @ 0.5%, strides at 4-6% incline."]
   },
   "currentLoads": [
     { "exercise": "Incline BB", "load": "160 next (bump) / TM 168", "lastVerified": "W14 Tue 7/21 (155×5 RIR 2 top + AMRAP 135×11 RIR 0)", "note": "155 BUMP LANDED one click clear of the ≤RIR 1 revert (Adj #168 resolved) — second consecutive Build-scheme bump landing; AMRAP slipped 12→11 → e1RM ~185, TM 168 stands. §5 clean-reps rule → bump 160 next Tue (1×5 @ 160 + AMRAP @ 135); if 160×5 lands ≤RIR 1 → back to 155 (Adj #195)" },
