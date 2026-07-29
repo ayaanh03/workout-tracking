@@ -1,25 +1,20 @@
 {
-  "generatedAt": "2026-07-28T19:10:00-04:00",
+  "generatedAt": "2026-07-29T14:55:00-04:00",
   "week": "W15",
-  "day": "Tue",
-  "date": "2026-07-28",
+  "day": "Wed",
+  "date": "2026-07-29",
   "phase": "Build",
-  "sessionName": "Hypertrophy A — incline 160 attempt",
-  "intro": ["Incline bump attempt: 1x5 @ 160 + AMRAP @ 135 — if 160x5 lands <=RIR 1 → back to 155 (Adj #195). Rear-delt 140 debut, 2x15 target RIR 3 (Adj #200)."],
-  "lift": {
-    "table": [
-      { "exercise": "Incline BB — top set", "setsReps": "1x5", "load": "160", "rir": "2-3 (<=1 → revert 155)", "rest": "2-3 min", "cue": "" },
-      { "exercise": "Incline BB — AMRAP", "setsReps": "1xAMRAP", "load": "135", "rir": "0", "rest": "—", "cue": "" },
-      { "exercise": "DB lateral raise", "setsReps": "6x12", "load": "30", "rir": "1; last 2 sets to failure", "rest": "60-90 s", "cue": "" },
-      { "exercise": "Preacher curl (uni, machine)", "setsReps": "4x10", "load": "70/arm", "rir": "2; last set 0-1", "rest": "90-120 s", "cue": "" },
-      { "exercise": "Cable pushdown (uni)", "setsReps": "4x12", "load": "27.5/arm", "rir": "2; last set 0-1", "rest": "60-90 s", "cue": "" },
-      { "exercise": "Decline crunch", "setsReps": "3x12", "load": "BW+10", "rir": "2", "rest": "60-90 s", "cue": "" },
-      { "exercise": "Rear-delt fly", "setsReps": "2x15", "load": "140", "rir": "3", "rest": "60-90 s", "cue": "" }
-    ],
-    "warmup": "General: 1-2 min band pull-aparts + scap push-ups. Wrist-extensor isometric 3x30 s/arm (§10.A). Incline BB ramp: bar x8, 95x5, 115x3, then working.",
-    "cooldown": "Tyler twist 3x15 + reverse Tyler 3x15 (FlexBar, 4 s eccentric). Daily SI prehab: clamshell, side-lying abduction, SL glute bridge, bird-dog, side plank."
+  "sessionName": "Threshold 2x15 min @ T",
+  "intro": ["First T outing at the recalced 7:45-7:50 band — RPE <=7 still governs; HR display-only (Adj #202/#175)."],
+  "lift": null,
+  "cardio": {
+    "flags": [],
+    "workout": "2x15 min @ T (3 min jog rec)",
+    "targets": { "pace": "7:45-7:50/mi", "hr": "display-only (Adj #175)", "cadence": "175-182 spm" },
+    "warmup": "1.0-1.5 mi easy (9:15-10:30), last 2-3 min building toward T pace",
+    "cooldown": "1.0 mi / 5-10 min easy Z1 + SI prehab",
+    "cues": ["Treadmill sub runs at 1% incline (Adj #177)", "If RPE breaks 7 mid-rep, slow within the band — the <=7 anchor governs, not the split"]
   },
-  "cardio": null,
   "currentLoads": [
     { "exercise": "Incline BB", "load": "155 next (revert) / TM 168", "lastVerified": "W15 Tue 7/28 (160×4 RIR 0 top MISS + AMRAP 135×10 RIR 0)", "note": "160 MISS — first Build-scheme miss (4 of 5, at failure; beyond the Adj #195 ≤RIR 1 revert line) → revert 155 next Tue (1×5 @ 155 + AMRAP @ 135); re-attempt 160 on a 155×5 ≥RIR 2. AMRAP slipped 11→10 → e1RM ~180, TM 168 stands (one miss; §5 cuts TM only at two) (Adj #216)" },
     { "exercise": "Lat pulldown", "load": "165 working (hold)", "lastVerified": "W14 Sat 7/25 (165×8/8/7/7 RIR 2/1/0/0)", "note": "Same 30-rep total as W13, reshuffled — front half identical (8 @ RIR 2 / 8 @ RIR 1), set 3 gave up the 8 floor (7, to failure), set 4 gained 6→7. Hold 165 — bump-eligible 170 on a clean 4×8 with set 3 RIR 1 (Adj #155/#179/#206)" },
