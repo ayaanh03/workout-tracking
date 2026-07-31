@@ -17,6 +17,19 @@
       { "exercise": "Seated calf", "setsReps": "4×12–15", "load": "355 (HOLD — no 365)", "rir": "last set 0", "rest": "60–90s", "cue": "365 held at the reshape — re-queued W17 Sat AM-gated (Adj #223)" },
       { "exercise": "Chest flye", "setsReps": "2×12", "load": "130", "rir": "3", "rest": "60–90s", "cue": "RPE 7 ask — don't spend to RIR 1 (Adj #186)" }
     ],
+    "lastWeek": {
+      "label": "Hyp B W14 Sat 7/25",
+      "table": [
+        { "exercise": "Lat pulldown (neutral)", "load": "165", "reps": "8/8/7/7", "rir": "2/1/0/0" },
+        { "exercise": "Chest-supported row", "load": "80", "reps": "10/8/8", "rir": "1/0/0" },
+        { "exercise": "DB lateral raise", "load": "35", "reps": "12/12/11/11", "rir": "2/1/0/0" },
+        { "exercise": "Preacher curl (semi-sup)", "load": "60/arm", "reps": "12/11/12/10", "rir": "3/0/0/0" },
+        { "exercise": "Cable pushdown (uni)", "load": "27.5/arm", "reps": "12/12/10/8", "rir": "3/0/0/0" },
+        { "exercise": "Decline crunch", "load": "BW+10", "reps": "10/10/10", "rir": "2/1/0" },
+        { "exercise": "Seated calf", "load": "355", "reps": "12/12/12/12", "rir": "3/2/1/0" },
+        { "exercise": "Chest flye", "load": "130", "reps": "12/12", "rir": "3/1" }
+      ]
+    },
     "warmup": "1–2 min dynamic (band pull-aparts, scap push-ups) + wrist-extensor isometric 3×30 s/arm (§10.A pre-lift)",
     "cooldown": "Tyler twist 3×15 + reverse Tyler 3×15 (daily §10.A dose)"
   },

@@ -58,6 +58,7 @@
   tr:last-child td { border-bottom: 0; }
   td.ex { font-weight: 500; white-space: nowrap; }
   td.load { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  table.lastweek th, table.lastweek td { color: var(--muted); font-size: 13px; }
   .label {
     color: var(--muted);
     font-size: 11px;
@@ -189,6 +190,28 @@ const render = d => {
     tbl.appendChild(tbody);
     wrap.appendChild(tbl);
     c.appendChild(wrap);
+    if (d.lift.lastWeek && d.lift.lastWeek.table && d.lift.lastWeek.table.length) {
+      c.appendChild($('div', { class: 'label' }, 'Last week' + (d.lift.lastWeek.label ? ' — ' + d.lift.lastWeek.label : '')));
+      const lwrap = $('div', { class: 'table-wrap' });
+      const ltbl = $('table', { class: 'lastweek' });
+      const lthead = $('thead');
+      const ltr = $('tr');
+      ['Exercise', 'Load', 'Reps', 'RIR'].forEach(t => ltr.appendChild($('th', null, t)));
+      lthead.appendChild(ltr);
+      ltbl.appendChild(lthead);
+      const ltbody = $('tbody');
+      for (const row of d.lift.lastWeek.table) {
+        const r = $('tr');
+        r.appendChild($('td', { class: 'ex' }, row.exercise || ''));
+        r.appendChild($('td', { class: 'load' }, row.load || ''));
+        r.appendChild($('td', null, row.reps || ''));
+        r.appendChild($('td', null, row.rir || ''));
+        ltbody.appendChild(r);
+      }
+      ltbl.appendChild(ltbody);
+      lwrap.appendChild(ltbl);
+      c.appendChild(lwrap);
+    }
     block('Warmup', d.lift.warmup).forEach(n => c.appendChild(n));
     block('Cooldown', d.lift.cooldown).forEach(n => c.appendChild(n));
     app.appendChild(c);
