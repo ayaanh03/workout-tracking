@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-07-29T14:55:00-04:00",
+  "generatedAt": "2026-07-31T13:55:00-04:00",
   "week": "W15",
-  "day": "Wed",
-  "date": "2026-07-29",
+  "day": "Fri",
+  "date": "2026-07-31",
   "phase": "Build",
-  "sessionName": "Threshold 2x15 min @ T",
-  "intro": ["First T outing at the recalced 7:45-7:50 band — RPE <=7 still governs; HR display-only (Adj #202/#175)."],
+  "sessionName": "VO2max 5x4 min @ I",
+  "intro": ["Fast end EARNED (Adj #205) — I band 7:00-7:15 open toward 7:00 today; RPE 9 still governs."],
   "lift": null,
   "cardio": {
     "flags": [],
-    "workout": "2x15 min @ T (3 min jog rec)",
-    "targets": { "pace": "7:45-7:50/mi", "hr": "display-only (Adj #175)", "cadence": "175-182 spm" },
-    "warmup": "1.0-1.5 mi easy (9:15-10:30), last 2-3 min building toward T pace",
-    "cooldown": "1.0 mi / 5-10 min easy Z1 + SI prehab",
-    "cues": ["Treadmill sub runs at 1% incline (Adj #177)", "If RPE breaks 7 mid-rep, slow within the band — the <=7 anchor governs, not the split"]
+    "workout": "5x4 min @ I (3 min jog rec)",
+    "targets": { "pace": "7:00-7:15/mi (TM 8.3-8.6 mph @ 1%)", "hr": "display-only (Adj #175)", "cadence": "175-182 spm" },
+    "warmup": "1.0-1.5 mi easy (9:15-10:30) + 3x20 s pickups building to ~7:15",
+    "cooldown": "5-10 min easy Z1 + SI prehab (Tyler 3x15 + reverse Tyler 3x15, McGill Big 3 5-3-1)",
+    "cues": ["Open rep 1 at 7:15, cut toward 7:00 only if RPE holds <=9 — don't repeat Wed's hot open (Adj #222)", "Treadmill sub runs at 1% incline (Adj #177)"]
   },
   "currentLoads": [
     { "exercise": "Incline BB", "load": "155 next (revert) / TM 168", "lastVerified": "W15 Tue 7/28 (160×4 RIR 0 top MISS + AMRAP 135×10 RIR 0)", "note": "160 MISS — first Build-scheme miss (4 of 5, at failure; beyond the Adj #195 ≤RIR 1 revert line) → revert 155 next Tue (1×5 @ 155 + AMRAP @ 135); re-attempt 160 on a 155×5 ≥RIR 2. AMRAP slipped 11→10 → e1RM ~180, TM 168 stands (one miss; §5 cuts TM only at two) (Adj #216)" },
