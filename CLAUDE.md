@@ -31,7 +31,7 @@ Triggers: "what's today", "today's workout", "workout of the day", "give me the 
 2. Read `program.md` and `Tracker.md` **in full** (the lean files — not partial, and the history files aren't needed for this).
 3. Determine **week number and phase** from `Tracker.md ## Status`.
 4. Look up today's session via `program.md §2` (weekly template) + the phase-specific section (`§4.B` Reset / `§4.C` Base / `§4.D` Build / `§4.E` Sharpen / `§2.C` Taper for cardio; `§3.A`/`§3.B` for lifts).
-5. Pull **loads from `Tracker.md ## Current Working Loads`**, never from program.md projections.
+5. Pull **loads from `Tracker.md ## Current Working Loads`**, never from program.md projections. **On a lift day, also collect each exercise's last same-slot actuals** (previous Hyp A outing for a Hyp A brief, previous Hyp B outing for a Hyp B brief): load, reps per set, RIR per set — usually already in the row's "Last verified" column; for a shared row whose latest outing is the *other* slot (e.g. the pushdown), grep `history/lifting-log.md` for the last same-slot session header instead of reading the file. These feed the **Last week** table (athlete directive 2026-07-31, Adj #224).
 6. Apply any **active flags** from `Tracker.md ## Active Flags` that touch today (bump-eligible loads, ordering rules, exercise subs, paused additions, etc.). If a cited Adj # needs fuller context, grep for it: `grep -rn '^{n}\. ' history/` (hits the live ledger or the archive — don't read either in full).
 7. Output the brief in chat in the exact format below.
 8. **Write `latest-workout.json`** matching the schema in the "JSON caches" section. Include the full current-loads table from Tracker.md so the dash has everything in one fetch.
@@ -42,7 +42,7 @@ Triggers: "what's today", "today's workout", "workout of the day", "give me the 
 
 The brief is **three tables — Warmup, Work, Cooldown** — each readable row-by-row into the Apple Watch workout app. No multi-line intro, no Targets/Cues paragraphs, no per-exercise Cue column. The only non-table lines are an optional one-line flag at the top and an optional one-line **Notes** at the bottom — each kept *only* when a carry-forward materially changes today, otherwise omitted entirely. Detail/cues get discussed at logging anyway, so don't pre-load them here.
 
-Each block uses **the modality's own columns**. Lift days are unchanged from before; cardio days carry pace/HR/cadence on *every* segment (warmup and cooldown included, not just the work set).
+Each block uses **the modality's own columns**. Cardio days carry pace/HR/cadence on *every* segment (warmup and cooldown included, not just the work set). **Lift days add a fourth table — `## Last week` — directly below Work** (athlete directive 2026-07-31, Adj #224): the previous same-slot session's actuals (Hyp A briefs show the last Hyp A, Hyp B the last Hyp B), titled with the source session + date. Chat and dash both carry it. Reference-only — it never replaces the Notes line and Notes never restates it.
 
 **Lift day** — Warmup/Cooldown use `Segment | Time/Sets | Target`; Work uses `Exercise | Sets×Reps | Load | RIR | Rest`:
 
@@ -62,6 +62,12 @@ Each block uses **the modality's own columns**. Lift days are unchanged from bef
 | Exercise | Sets×Reps | Load | RIR | Rest |
 |---|---|---|---|---|
 | ... | ... | ... | ... | ... |
+
+## Last week ({Session} {M/D})
+
+| Exercise | Load | Reps | RIR |
+|---|---|---|---|
+| ... | ... | ... | ... |
 
 ## Cooldown
 
@@ -100,7 +106,7 @@ Each block uses **the modality's own columns**. Lift days are unchanged from bef
 **Notes:** {one line, only if important — surface/nasal-gate caveat, HR caveat, ordering. Cite Adj #. Omit if nothing material.}
 ```
 
-**Combined Sat (lift + cardio):** split each block by modality — `### Warmup — Cardio` (cardio columns) + `### Warmup — Lift` (lift columns); two Work tables `### Work — Cardio` / `### Work — Lift`; same for Cooldown.
+**Combined Sat (lift + cardio):** split each block by modality — `### Warmup — Cardio` (cardio columns) + `### Warmup — Lift` (lift columns); two Work tables `### Work — Cardio` / `### Work — Lift`; same for Cooldown. The `## Last week` table follows `### Work — Lift`.
 
 ### Defaults to apply
 
@@ -231,6 +237,12 @@ One file, overwritten each morning. The dash renders sections only if present, s
     "table": [
       { "exercise": "Incline BB", "setsReps": "3×5", "load": "135", "rir": "2", "rest": "2–3 min", "cue": "RPE 7; +5 lb next Tue if clean" }
     ],
+    "lastWeek": {
+      "label": "Hyp A W5 Tue 5/19",
+      "table": [
+        { "exercise": "Incline BB", "load": "135", "reps": "5/5/5", "rir": "2/2/1" }
+      ]
+    },
     "warmup": "Incline BB: bar×8, 95×5, 115×3, then working. General: 1–2 min band pull-aparts.",
     "cooldown": "SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1"
   },
@@ -252,6 +264,7 @@ Rules:
 - Strings only — no markdown formatting in field values (the dash renders plain text).
 - Keep the JSON as lean as the chat brief. `intro` holds at most the one top-flag line (`[]` if nothing material). `cues` and `flags` are `[]` unless a cue/flag is genuinely important — don't pad them. The dash renders these only when non-empty.
 - `currentLoads` mirrors `Tracker.md ## Current Working Loads` row-for-row (Exercise, Load, Last verified, Note) at the time of generation.
+- On lift days `lift.lastWeek` is required (Adj #224): `label` = the source session + date (same-slot — last Hyp A for a Hyp A brief, last Hyp B for Hyp B), `table` = one row per exercise with the actuals (load, reps per set, RIR per set; "n/r" where unrecorded, "first exposure" for a new exercise). The dash renders it as a muted table below the work table.
 
 ### `week-ahead.json`
 
@@ -285,6 +298,6 @@ Rules:
 - Cite **Adj #** when applying a carry-forward.
 - Numbers over adjectives. `RIR 2`, not "hard". `8:00/mi`, not "fast".
 - No emoji. No exclamation marks. No "great session!" / "you got this".
-- The brief is three tables — **Warmup, Work, Cooldown**. The only non-table lines are the optional top flag and optional **Notes**, one line each, kept only when a carry-forward materially changes today. No intro paragraph, no cues/targets bullets.
+- The brief is three tables — **Warmup, Work, Cooldown** — plus **Last week** below Work on lift days (Adj #224). The only non-table lines are the optional top flag and optional **Notes**, one line each, kept only when a carry-forward materially changes today. No intro paragraph, no cues/targets bullets.
 - Loads from `Current Working Loads`, never from `program.md` projection tables.
 - The brief is for execution. Strip anything the user doesn't need at the gym — detail gets covered at logging.
