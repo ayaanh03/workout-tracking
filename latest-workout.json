@@ -1,39 +1,20 @@
 {
-  "generatedAt": "2026-07-31T21:45:00-04:00",
+  "generatedAt": "2026-08-01T15:13:00-04:00",
   "week": "W15",
-  "day": "Fri",
-  "date": "2026-07-31",
+  "day": "Sat",
+  "date": "2026-08-01",
   "phase": "Build",
-  "sessionName": "Hyp B (Sat slot moved up — Adj #223)",
-  "intro": ["Reshape (Adj #223): T ran Thu, so Hyp B moves to today; VO2 5x4 @ I slides to Sat AM, long 65 to Sun. Calf HOLDS 355 — the 365 bump re-queues W17 Sat (VO2 <24h out tomorrow)."],
-  "lift": {
-    "table": [
-      { "exercise": "Lat pulldown (neutral)", "setsReps": "4×8–10", "load": "165", "rir": "2 → last set 1", "rest": "90–120s", "cue": "Bump-eligible 170 on a clean 4×8 with set 3 RIR 1 (Adj #206)" },
-      { "exercise": "Chest-supported row", "setsReps": "3×10", "load": "80", "rir": "2 (sets 1–2 ≥1 gates the ladder)", "rest": "90–120s", "cue": "Full 3×10 with sets 1–2 ≥RIR 1 before the next 5-lb step (Adj #207)" },
-      { "exercise": "DB lateral raise", "setsReps": "4×12–15", "load": "35", "rir": "last set 0", "rest": "60–90s", "cue": "Rebuild — all 4 sets at 12+ in-band before any move (Adj #208)" },
-      { "exercise": "Preacher curl (semi-supinated)", "setsReps": "4×12", "load": "60/arm", "rir": "2", "rest": "60–90s", "cue": "Clean-with-reps-to-spare condition stands (Adj #209)" },
-      { "exercise": "Cable pushdown (unilateral)", "setsReps": "4×12–15", "load": "27.5/arm", "rir": "2, set 3 ≥1 at 12 = gate", "rest": "60–90s", "cue": "Hold-until-clean open by one rep (Adj #219)" },
-      { "exercise": "Decline crunch", "setsReps": "3×10", "load": "BW+10", "rir": "2, set 3 ≥1 = gate", "rest": "60–90s", "cue": "Set-3 gate missed by one click last Sat (Adj #212)" },
-      { "exercise": "Seated calf", "setsReps": "4×12–15", "load": "355 (HOLD — no 365)", "rir": "last set 0", "rest": "60–90s", "cue": "365 held at the reshape — re-queued W17 Sat AM-gated (Adj #223)" },
-      { "exercise": "Chest flye", "setsReps": "2×12", "load": "130", "rir": "3", "rest": "60–90s", "cue": "RPE 7 ask — don't spend to RIR 1 (Adj #186)" }
-    ],
-    "lastWeek": {
-      "label": "Hyp B W14 Sat 7/25",
-      "table": [
-        { "exercise": "Lat pulldown (neutral)", "load": "165", "reps": "8/8/7/7", "rir": "2/1/0/0" },
-        { "exercise": "Chest-supported row", "load": "80", "reps": "10/8/8", "rir": "1/0/0" },
-        { "exercise": "DB lateral raise", "load": "35", "reps": "12/12/11/11", "rir": "2/1/0/0" },
-        { "exercise": "Preacher curl (semi-sup)", "load": "60/arm", "reps": "12/11/12/10", "rir": "3/0/0/0" },
-        { "exercise": "Cable pushdown (uni)", "load": "27.5/arm", "reps": "12/12/10/8", "rir": "3/0/0/0" },
-        { "exercise": "Decline crunch", "load": "BW+10", "reps": "10/10/10", "rir": "2/1/0" },
-        { "exercise": "Seated calf", "load": "355", "reps": "12/12/12/12", "rir": "3/2/1/0" },
-        { "exercise": "Chest flye", "load": "130", "reps": "12/12", "rir": "3/1" }
-      ]
-    },
-    "warmup": "1–2 min dynamic (band pull-aparts, scap push-ups) + wrist-extensor isometric 3×30 s/arm (§10.A pre-lift)",
-    "cooldown": "Tyler twist 3×15 + reverse Tyler 3×15 (daily §10.A dose)"
+  "sessionName": "VO2max 5x4 min @ I (3 min rec) — AM (moved from Fri, Adj #223)",
+  "intro": ["Fast end EARNED (Adj #205): band 7:00–7:15, RPE 9 governs — pushing toward 7:00 available, not required. Treadmill → 1% incline (Adj #177). No lift today (Hyp B ran Fri)."],
+  "lift": null,
+  "cardio": {
+    "flags": [],
+    "workout": "5x4 min @ I (7:00–7:15/mi), 3 min jog recovery between reps — per §4.D W15 Fri slot, run Sat AM per the Adj #223 reshape",
+    "targets": { "pace": "7:00–7:15/mi (fast end toward 7:00 available, Adj #205)", "hr": "display-only (Adj #175)", "cadence": "175–182 spm on reps" },
+    "warmup": "1.0–1.5 mi easy (9:15–10:30) + 3x20 s pickups building to I pace, full recovery",
+    "cooldown": "5–10 min easy jog (9:15–10:30) + SI prehab (quality day)",
+    "cues": ["First run <24 h after Fri's calf 355 sweep — Achilles AM/during/post read feeds the W17 365 gate (Adj #230); no-news-is-clean."]
   },
-  "cardio": null,
   "currentLoads": [
     { "exercise": "Incline BB", "load": "155 next (revert) / TM 168", "lastVerified": "W15 Tue 7/28 (160×4 RIR 0 top MISS + AMRAP 135×10 RIR 0)", "note": "160 MISS — first Build-scheme miss (4 of 5, at failure; beyond the Adj #195 ≤RIR 1 revert line) → revert 155 next Tue (1×5 @ 155 + AMRAP @ 135); re-attempt 160 on a 155×5 ≥RIR 2. AMRAP slipped 11→10 → e1RM ~180, TM 168 stands (one miss; §5 cuts TM only at two) (Adj #216)" },
     { "exercise": "Lat pulldown", "load": "165 working (hold)", "lastVerified": "W15 Fri 7/31 (165×8/7/7/6 RIR 1/0/0/0)", "note": "First regression at 165 — 28 total vs the two 30s: opener lost its click, set 2 gave up the 8 floor, set 4 back to 6; plausibly the ~24h post-T Fri placement. Hold 165 — bump-eligible 170 on a clean 4×8 with set 3 RIR 1; no revert on one outing (Adj #155/#179/#206/#225)" },
