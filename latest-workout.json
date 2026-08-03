@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-08-01T15:13:00-04:00",
-  "week": "W15",
-  "day": "Sat",
-  "date": "2026-08-01",
-  "phase": "Build",
-  "sessionName": "VO2max 5x4 min @ I (3 min rec) — AM (moved from Fri, Adj #223)",
-  "intro": ["Fast end EARNED (Adj #205): band 7:00–7:15, RPE 9 governs — pushing toward 7:00 available, not required. Treadmill → 1% incline (Adj #177). No lift today (Hyp B ran Fri)."],
+  "generatedAt": "2026-08-03T17:05:00-04:00",
+  "week": "W16",
+  "day": "Mon",
+  "date": "2026-08-03",
+  "phase": "Build (deload)",
+  "sessionName": "Z1 row 65 min — long-run equivalent (Adj #234) + hill strides",
+  "intro": ["W15 Sun long skipped — W15 closed short, no make-up (Adj #233); today's deload 30-min EZ becomes a 65-min Z1 indoor row, the long-run equivalent per athlete directive (Adj #234); hill strides follow on the treadmill (Adj #215)."],
   "lift": null,
   "cardio": {
     "flags": [],
-    "workout": "5x4 min @ I (7:00–7:15/mi), 3 min jog recovery between reps — per §4.D W15 Fri slot, run Sat AM per the Adj #223 reshape",
-    "targets": { "pace": "7:00–7:15/mi (fast end toward 7:00 available, Adj #205)", "hr": "display-only (Adj #175)", "cadence": "175–182 spm on reps" },
-    "warmup": "1.0–1.5 mi easy (9:15–10:30) + 3x20 s pickups building to I pace, full recovery",
-    "cooldown": "5–10 min easy jog (9:15–10:30) + SI prehab (quality day)",
-    "cues": ["First run <24 h after Fri's calf 355 sweep — Achilles AM/during/post read feeds the W17 365 gate (Adj #230); no-news-is-clean."]
+    "workout": "65 min Z1 row total: 5 min build-in, 55 min @ 2:15–2:25/500m RPE 4–5 (may split 2×27–28 min with 2 min walk between), 5 min easy CD. Then hill strides 6×10–12 s @ 4–6% treadmill incline, walk-down recovery (§4.C row equivalent; Adj #234/#215).",
+    "targets": { "pace": "2:15–2:25/500m split, RPE 4–5 (split + RPE govern, §4.A)", "hr": "display-only (Adj #175)", "cadence": "18–22 spm stroke rate" },
+    "warmup": "5 min easy row, build to the Z1 split by the end (~2:30 → 2:25/500m)",
+    "cooldown": "5 min very easy row (2:30+/500m)",
+    "cues": ["Hill strides: first hill-specific dose since W10 Mon 6-22 (Adj #215) — fast-but-smooth (~R effort), not a sprint; treadmill 4–6% is the standing no-hill substitute."]
   },
   "currentLoads": [
     { "exercise": "Incline BB", "load": "155 next (revert) / TM 168", "lastVerified": "W15 Tue 7/28 (160×4 RIR 0 top MISS + AMRAP 135×10 RIR 0)", "note": "160 MISS — first Build-scheme miss (4 of 5, at failure; beyond the Adj #195 ≤RIR 1 revert line) → revert 155 next Tue (1×5 @ 155 + AMRAP @ 135); re-attempt 160 on a 155×5 ≥RIR 2. AMRAP slipped 11→10 → e1RM ~180, TM 168 stands (one miss; §5 cuts TM only at two) (Adj #216)" },
