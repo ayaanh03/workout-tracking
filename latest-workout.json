@@ -1,20 +1,35 @@
 {
-  "generatedAt": "2026-08-03T17:05:00-04:00",
+  "generatedAt": "2026-08-04T15:35:00-04:00",
   "week": "W16",
-  "day": "Mon",
-  "date": "2026-08-03",
+  "day": "Tue",
+  "date": "2026-08-04",
   "phase": "Build (deload)",
-  "sessionName": "Z1 row 65 min — long-run equivalent (Adj #234) + hill strides",
-  "intro": ["W15 Sun long skipped — W15 closed short, no make-up (Adj #233); today's deload 30-min EZ becomes a 65-min Z1 indoor row, the long-run equivalent per athlete directive (Adj #234); hill strides follow on the treadmill (Adj #215)."],
-  "lift": null,
-  "cardio": {
-    "flags": [],
-    "workout": "65 min Z1 row total: 5 min build-in, 55 min @ 2:15–2:25/500m RPE 4–5 (may split 2×27–28 min with 2 min walk between), 5 min easy CD. Then hill strides 6×10–12 s @ 4–6% treadmill incline, walk-down recovery (§4.C row equivalent; Adj #234/#215).",
-    "targets": { "pace": "2:15–2:25/500m split, RPE 4–5 (split + RPE govern, §4.A)", "hr": "display-only (Adj #175)", "cadence": "18–22 spm stroke rate" },
-    "warmup": "5 min easy row, build to the Z1 split by the end (~2:30 → 2:25/500m)",
-    "cooldown": "5 min very easy row (2:30+/500m)",
-    "cues": ["Hill strides: first hill-specific dose since W10 Mon 6-22 (Adj #215) — fast-but-smooth (~R effort), not a sprint; treadmill 4–6% is the standing no-hill substitute."]
+  "sessionName": "Hypertrophy A (deload) — incline reverts 155",
+  "intro": ["Deload (§11.B): sets cut ~1/3, no bumps, accessories stay shy of failure; incline reverts to 155 (1×5 + AMRAP @ 135) after the W15 160 miss (Adj #216)."],
+  "lift": {
+    "table": [
+      { "exercise": "Incline BB (§5 Build)", "setsReps": "1×5 + 1×AMRAP", "load": "155 / 135", "rir": "2 / 0", "rest": "2–3 min", "cue": "155×5 at >=RIR 2 reopens the 160 re-attempt W17 Tue (Adj #216)" },
+      { "exercise": "DB lateral raise", "setsReps": "3×12", "load": "30", "rir": "2–3", "rest": "60–90s", "cue": "deload — no failure sets (normally 6×12)" },
+      { "exercise": "Preacher curl (uni)", "setsReps": "3×10", "load": "70/arm", "rir": "2–3", "rest": "60–90s", "cue": "deload — no failure sets (normally 4×10)" },
+      { "exercise": "Cable pushdown (uni)", "setsReps": "3×12", "load": "27.5/arm", "rir": "2–3", "rest": "60–90s", "cue": "deload — hold 27.5; 2nd-movement decision at the W17 Tue brief (Adj #229)" },
+      { "exercise": "Decline crunch", "setsReps": "2×12", "load": "+10 lb", "rir": "2–3", "rest": "60–90s", "cue": "deload — 2 sets (normally 3)" },
+      { "exercise": "Rear-delt fly", "setsReps": "1×15", "load": "140", "rir": "3", "rest": "60s", "cue": "deload — 1 set (normally 2)" }
+    ],
+    "lastWeek": {
+      "label": "Hyp A W15 Tue 7/28",
+      "table": [
+        { "exercise": "Incline BB", "load": "160 / 135", "reps": "4 (top MISS) / 10", "rir": "0 / 0" },
+        { "exercise": "DB lateral raise", "load": "30", "reps": "12/12/12/12/15/12", "rir": "3/3/3/3/0/0" },
+        { "exercise": "Preacher curl (uni)", "load": "70/arm", "reps": "10/10/10/9", "rir": "2/1/0/0" },
+        { "exercise": "Cable pushdown (uni)", "load": "27.5/arm", "reps": "12/12/11/8", "rir": "3/1/0/0" },
+        { "exercise": "Decline crunch", "load": "+10 lb", "reps": "12/9/12", "rir": "3/0/0" },
+        { "exercise": "Rear-delt fly", "load": "140", "reps": "15/15", "rir": "4/0" }
+      ]
+    },
+    "warmup": "Wrist-extensor isometric 3×30 s/arm (§8 pre-lift). Incline BB: bar×8, 95×5, 115×3, then 155. General: 1–2 min band pull-aparts / scap push-ups.",
+    "cooldown": "Tyler twist 3×15 + reverse Tyler 3×15 (4 s eccentric, §8 daily); daily SI prehab — clamshell, side-lying abduction, single-leg glute bridge, bird-dog, side plank (§9)."
   },
+  "cardio": null,
   "currentLoads": [
     { "exercise": "Incline BB", "load": "155 next (revert) / TM 168", "lastVerified": "W15 Tue 7/28 (160×4 RIR 0 top MISS + AMRAP 135×10 RIR 0)", "note": "160 MISS — first Build-scheme miss (4 of 5, at failure; beyond the Adj #195 ≤RIR 1 revert line) → revert 155 next Tue (1×5 @ 155 + AMRAP @ 135); re-attempt 160 on a 155×5 ≥RIR 2. AMRAP slipped 11→10 → e1RM ~180, TM 168 stands (one miss; §5 cuts TM only at two) (Adj #216)" },
     { "exercise": "Lat pulldown", "load": "165 working (hold)", "lastVerified": "W15 Fri 7/31 (165×8/7/7/6 RIR 1/0/0/0)", "note": "First regression at 165 — 28 total vs the two 30s: opener lost its click, set 2 gave up the 8 floor, set 4 back to 6; plausibly the ~24h post-T Fri placement. Hold 165 — bump-eligible 170 on a clean 4×8 with set 3 RIR 1; no revert on one outing (Adj #155/#179/#206/#225)" },
