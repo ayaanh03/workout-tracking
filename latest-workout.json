@@ -1,35 +1,20 @@
 {
-  "generatedAt": "2026-08-04T20:20:00-04:00",
+  "generatedAt": "2026-08-05T11:52:00-04:00",
   "week": "W16",
-  "day": "Tue",
-  "date": "2026-08-04",
+  "day": "Wed",
+  "date": "2026-08-05",
   "phase": "Build (deload)",
-  "sessionName": "Hypertrophy A (deload) — incline reverts 155",
-  "intro": ["Deload (§11.B): sets cut ~1/3, no bumps, accessories stay shy of failure; incline reverts to 155 (1×5 + AMRAP @ 135) after the W15 160 miss (Adj #216)."],
-  "lift": {
-    "table": [
-      { "exercise": "Incline BB (§5 Build)", "setsReps": "1×5 + 1×AMRAP", "load": "155 / 135", "rir": "2 / 0", "rest": "2–3 min", "cue": "155×5 at >=RIR 2 reopens the 160 re-attempt W17 Tue (Adj #216)" },
-      { "exercise": "DB lateral raise", "setsReps": "3×12", "load": "30", "rir": "2–3", "rest": "60–90s", "cue": "deload — no failure sets (normally 6×12)" },
-      { "exercise": "Preacher curl (uni)", "setsReps": "3×10", "load": "70/arm", "rir": "2–3", "rest": "60–90s", "cue": "deload — no failure sets (normally 4×10)" },
-      { "exercise": "Cable pushdown (uni)", "setsReps": "3×12", "load": "27.5/arm", "rir": "2–3", "rest": "60–90s", "cue": "deload — hold 27.5; 2nd-movement decision at the W17 Tue brief (Adj #229)" },
-      { "exercise": "Decline crunch", "setsReps": "2×12", "load": "+10 lb", "rir": "2–3", "rest": "60–90s", "cue": "deload — 2 sets (normally 3)" },
-      { "exercise": "Rear-delt fly", "setsReps": "1×15", "load": "140", "rir": "3", "rest": "60s", "cue": "deload — 1 set (normally 2)" }
-    ],
-    "lastWeek": {
-      "label": "Hyp A W15 Tue 7/28",
-      "table": [
-        { "exercise": "Incline BB", "load": "160 / 135", "reps": "4 (top MISS) / 10", "rir": "0 / 0" },
-        { "exercise": "DB lateral raise", "load": "30", "reps": "12/12/12/12/15/12", "rir": "3/3/3/3/0/0" },
-        { "exercise": "Preacher curl (uni)", "load": "70/arm", "reps": "10/10/10/9", "rir": "2/1/0/0" },
-        { "exercise": "Cable pushdown (uni)", "load": "27.5/arm", "reps": "12/12/11/8", "rir": "3/1/0/0" },
-        { "exercise": "Decline crunch", "load": "+10 lb", "reps": "12/9/12", "rir": "3/0/0" },
-        { "exercise": "Rear-delt fly", "load": "140", "reps": "15/15", "rir": "4/0" }
-      ]
-    },
-    "warmup": "Wrist-extensor isometric 3×30 s/arm (§8 pre-lift). Incline BB: bar×8, 95×5, 115×3, then 155. General: 1–2 min band pull-aparts / scap push-ups.",
-    "cooldown": "Tyler twist 3×15 + reverse Tyler 3×15 (4 s eccentric, §8 daily); daily SI prehab — clamshell, side-lying abduction, single-leg glute bridge, bird-dog, side plank (§9)."
+  "sessionName": "Threshold 3×6 min @ T (deload)",
+  "intro": ["Deload T (§11.B): open at the 7:50 slow end, RPE ≤7 governs — a second over-anchor outing executed at the slow end reopens the band toward 7:50–7:55 (Adj #222)."],
+  "lift": null,
+  "cardio": {
+    "flags": ["Open at 7:50, RPE ≤7 governs (Adj #222)"],
+    "workout": "3×6 min @ T (1 min jog rec) — deload dose; intensity preserved, volume cut (§11.B)",
+    "targets": { "pace": "7:50/mi (slow end of the 7:45–7:50 band)", "hr": "display-only (Adj #175)", "cadence": "175–182 spm" },
+    "warmup": "1.0–1.5 mi easy 9:15–10:30 + 2–3×30 s pickups building to T pace",
+    "cooldown": "1.0 mi easy Z1 + SI prehab (quality day)",
+    "cues": ["Treadmill sub → 1% incline (Adj #177)", "Cadence watch: last two quality outings averaged 170–171, sub-band — target 175–182 (Adj #232)"]
   },
-  "cardio": null,
   "currentLoads": [
     { "exercise": "Incline BB", "load": "155 working (hold) / TM 168", "lastVerified": "W16 Tue 8/4 (155×5 RIR 0 top + AMRAP 135×10 RIR 0, deload slot)", "note": "Revert outing GROUND — all 5 landed but at failure (not a §5 miss), three clicks under W14's RIR 2 at the load; the Adj #216 re-attempt condition (155×5 ≥RIR 2) NOT met → repeat 155 next Tue W17; 160 only on a ≥RIR 2 five. AMRAP repeated 10 → e1RM ~180, TM 168 stands (Adj #237)" },
     { "exercise": "Lat pulldown", "load": "165 working (hold)", "lastVerified": "W15 Fri 7/31 (165×8/7/7/6 RIR 1/0/0/0)", "note": "First regression at 165 — 28 total vs the two 30s: opener lost its click, set 2 gave up the 8 floor, set 4 back to 6; plausibly the ~24h post-T Fri placement. Hold 165 — bump-eligible 170 on a clean 4×8 with set 3 RIR 1; no revert on one outing (Adj #155/#179/#206/#225)" },
