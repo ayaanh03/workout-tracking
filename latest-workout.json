@@ -1,31 +1,50 @@
 {
-  "generatedAt": "2026-08-05T11:52:00-04:00",
+  "generatedAt": "2026-08-07T13:20:00-04:00",
   "week": "W16",
-  "day": "Wed",
-  "date": "2026-08-05",
+  "day": "Fri",
+  "date": "2026-08-07",
   "phase": "Build (deload)",
-  "sessionName": "Threshold 3×6 min @ T (deload)",
-  "intro": ["Deload T (§11.B): open at the 7:50 slow end, RPE ≤7 governs — a second over-anchor outing executed at the slow end reopens the band toward 7:50–7:55 (Adj #222)."],
-  "lift": null,
-  "cardio": {
-    "flags": ["Open at 7:50, RPE ≤7 governs (Adj #222)"],
-    "workout": "3×6 min @ T (1 min jog rec) — deload dose; intensity preserved, volume cut (§11.B)",
-    "targets": { "pace": "7:50/mi (slow end of the 7:45–7:50 band)", "hr": "display-only (Adj #175)", "cadence": "175–182 spm" },
-    "warmup": "1.0–1.5 mi easy 9:15–10:30 + 2–3×30 s pickups building to T pace",
-    "cooldown": "1.0 mi easy Z1 + SI prehab (quality day)",
-    "cues": ["Treadmill sub → 1% incline (Adj #177)", "Cadence watch: last two quality outings averaged 170–171, sub-band — target 175–182 (Adj #232)"]
+  "sessionName": "Hypertrophy B (deload) — lift only",
+  "intro": ["Lift only today — the Fri/Sat swap put Hyp B here (Adj #242) and the long then moved to Sun (Adj #243). Deload doses, no bumps (§11.B)."],
+  "lift": {
+    "table": [
+      { "exercise": "Lat pulldown (neutral)", "setsReps": "3×8–10", "load": "165", "rir": "1–2", "rest": "90–120s", "cue": "Deload 3 of 4 — hold 165, no revert (Adj #225)" },
+      { "exercise": "Chest-supp row", "setsReps": "2×10", "load": "80", "rir": "1–2", "rest": "90–120s", "cue": "Deload 2 of 3 — hold 80 (Adj #226)" },
+      { "exercise": "DB lateral raise", "setsReps": "3×12", "load": "35", "rir": "2–3", "rest": "60–90s", "cue": "Deload 3 of 4 — 40 fires W17 Sat, not today (Adj #227)" },
+      { "exercise": "Preacher curl uni", "setsReps": "3×12", "load": "60/arm", "rir": "2", "rest": "60–90s", "cue": "Deload 3 of 4 — hold 60 (Adj #228)" },
+      { "exercise": "Cable pushdown uni", "setsReps": "3×12", "load": "27.5/arm", "rir": "2", "rest": "60–90s", "cue": "Deload 3 of 4 — hold 27.5, no 30 (Adj #239)" },
+      { "exercise": "Decline crunch", "setsReps": "2×10", "load": "BW+10", "rir": "2", "rest": "60–90s", "cue": "Deload 2 of 3 — hold +10 (Adj #231)" },
+      { "exercise": "Seated calf", "setsReps": "3×12", "load": "355", "rir": "1–2", "rest": "60–90s", "cue": "Deload 3 of 4 — 365 fires W17 Sat, AM-gated (Adj #230)" },
+      { "exercise": "Chest fly", "setsReps": "1×12", "load": "130", "rir": "3", "rest": "60–90s", "cue": "Deload 1 of 2 — hold 130 (Adj #186)" }
+    ],
+    "lastWeek": {
+      "label": "Hyp B W15 Fri 7/31",
+      "table": [
+        { "exercise": "Lat pulldown", "load": "165", "reps": "8/7/7/6", "rir": "1/0/0/0" },
+        { "exercise": "Chest-supp row", "load": "80", "reps": "10/10/9", "rir": "2/2/0" },
+        { "exercise": "DB lateral raise", "load": "35", "reps": "12/12/12/12", "rir": "3/2/1/0" },
+        { "exercise": "Preacher curl uni", "load": "60/arm", "reps": "12/12/12/10", "rir": "2/1/0/0" },
+        { "exercise": "Cable pushdown uni", "load": "27.5/arm", "reps": "12/12/10/8", "rir": "2/1/0/0" },
+        { "exercise": "Decline crunch", "load": "BW+10", "reps": "10/10/8", "rir": "2/1/0" },
+        { "exercise": "Seated calf", "load": "355", "reps": "12/12/12/12", "rir": "1/1/1/0" },
+        { "exercise": "Chest fly", "load": "130", "reps": "12/12", "rir": "2/2" }
+      ]
+    },
+    "warmup": "Pre-lift wrist-extensor isometric 3×30 s/arm (§10.A). General: 1–2 min band pull-aparts + scap push-ups.",
+    "cooldown": "SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1"
   },
+  "cardio": null,
   "currentLoads": [
     { "exercise": "Incline BB", "load": "155 working (hold) / TM 168", "lastVerified": "W16 Tue 8/4 (155×5 RIR 0 top + AMRAP 135×10 RIR 0, deload slot)", "note": "Revert outing GROUND — all 5 landed but at failure (not a §5 miss), three clicks under W14's RIR 2 at the load; the Adj #216 re-attempt condition (155×5 ≥RIR 2) NOT met → repeat 155 next Tue W17; 160 only on a ≥RIR 2 five. AMRAP repeated 10 → e1RM ~180, TM 168 stands (Adj #237)" },
     { "exercise": "Lat pulldown", "load": "165 working (hold)", "lastVerified": "W15 Fri 7/31 (165×8/7/7/6 RIR 1/0/0/0)", "note": "First regression at 165 — 28 total vs the two 30s: opener lost its click, set 2 gave up the 8 floor, set 4 back to 6; plausibly the ~24h post-T Fri placement. Hold 165 — bump-eligible 170 on a clean 4×8 with set 3 RIR 1; no revert on one outing (Adj #155/#179/#206/#225)" },
     { "exercise": "Chest-supp row", "load": "80 working (hold — front half earned)", "lastVerified": "W15 Fri 7/31 (80×10/10/9 RIR 2/2/0)", "note": "Best shape at 80 — the sets-1-2 half of the ladder condition MET for the first time (both 10s @ RIR 2); set 3 one rep short (9, to failure); 29 total vs 26/27. Hold 80; full 3×10 with sets 1-2 ≥RIR 1 (open by set 3's one rep) gates the next 5-lb step toward 85 (Adj #180/#207/#226)" },
     { "exercise": "DB lateral raise (Tue Hyp A)", "load": "30 working", "lastVerified": "W16 Tue 8/4 (30×12/12/12 RIR 3/3/3, deload 3 of 6)", "note": "Deload outing exactly on the RIR 2–3 ask — even RIR 3 across, no failure sets by design; the soft-opener conversation (four straight full-dose weeks) carries to W17 unjudged. Hold 30 — a firm opener (≤RIR 2) at the full dose opens the bump conversation (Adj #127/#149/#169/#196/#217/#238)" },
-    { "exercise": "DB lateral raise (Sat Hyp B)", "load": "35 working — rebuild COMPLETE → 40 bump-eligible W17 Sat", "lastVerified": "W15 Fri 7/31 (35×12/12/12/12 RIR 3/2/1/0)", "note": "Adj #181/#208 condition MET — first all-4-in-band outing at 35 (48 total: 44→44→46→48), descending headroom, only the closer at failure. 40 fires W17 Sat 8-15 (W16 Sat is deload, not a bump week); Tue slot unaffected (Adj #157/#181/#208/#227)" },
+    { "exercise": "DB lateral raise (Sat Hyp B)", "load": "35 working — rebuild COMPLETE → 40 bump-eligible W17 Sat", "lastVerified": "W15 Fri 7/31 (35×12/12/12/12 RIR 3/2/1/0)", "note": "Adj #181/#208 condition MET — first all-4-in-band outing at 35 (48 total: 44→44→46→48), descending headroom, only the closer at failure. 40 fires W17 Sat 8-15 (W16's lift is deload, not a bump week — now on Fri per Adj #242); Tue slot unaffected (Adj #157/#181/#208/#227)" },
     { "exercise": "Preacher curl uni (Tue Hyp A)", "load": "70/arm working (hold)", "lastVerified": "W16 Tue 8/4 (70×10/10/10 RIR 2/1/0, deload 3 of 4)", "note": "Same front-three line as W15 — all three held the 10 floor; set 3 ran to failure past the deload stay-shy ask. The Adj #150-shape 75-condition (openers ≥RIR 3, set 3 clean RIR 1) untestable at 3 sets — hold 70; Sat slot unaffected (Adj #170/#197/#218/#238)" },
     { "exercise": "Preacher curl uni (Sat Hyp B)", "load": "60/arm working (65 unconfirmed)", "lastVerified": "W15 Fri 7/31 (60×12/12/12/10 RIR 2/1/0/0)", "note": "Best Sat total a second week (46) — first Sat 3×12 front; set 3 at failure, set 4 two under the floor. Hold 60; the clean-with-reps-to-spare condition stands. Trajectory: 12/12/12/8 → 12/11/12/10 → 12/12/12/10 (Adj #118/#209/#228)" },
     { "exercise": "Cable pushdown uni", "load": "27.5/arm working (hold-until-clean)", "lastVerified": "W16 Tue 8/4 (27.5×12/12/11 RIR 3/2/0, deload 3 of 4)", "note": "Best front pair at the load either slot (12 @ RIR 3 / 12 @ RIR 2); set 3 11 @ RIR 0, one under the floor — hold-until-clean (set 3 ≥RIR 1 at the full 12) untestable on the cut dose. Hold 27.5 both slots; no 30. Elbow 10th consecutive clean (post-gate — §10.A gate MET 7-31); 2nd-movement decision at the W17 Tue brief (Adj #198/#210/#219/#229/#239)" },
     { "exercise": "Rear-delt fly", "load": "140 working", "lastVerified": "W16 Tue 8/4 (140×15 RIR 2, deload 1 of 2)", "note": "First opener off RIR 4 in four sessions — 15 @ RIR 2, one click deep of the RIR 3 ask; the chronic under-load signal absent at 140, thin single-set read. 2×15 target RIR 3 resumes W17; next nudge (145) only on a repeat RIR 4/4 outing per Adj #95/#153 (Adj #221/#240)" },
-    { "exercise": "Seated calf", "load": "355 working (hold) → 365 queued W17 Sat (AM-gated)", "lastVerified": "W15 Fri 7/31 (355×12/12/12/12 RIR 1/1/1/0)", "note": "Held by design at the reshape (Adj #223) — third consecutive 4×12 sweep; headroom thinner than the Adj #211 read (1/1/1 vs 3/2/1), consistent with the ~24h post-T placement, not read as regression. 365 fires W17 Sat 8-15 on a clean lift-day AM Achilles read (W16 Sat is deload) (Adj #160/#185/#211/#223/#230)" },
+    { "exercise": "Seated calf", "load": "355 working (hold) → 365 queued W17 Sat (AM-gated)", "lastVerified": "W15 Fri 7/31 (355×12/12/12/12 RIR 1/1/1/0)", "note": "Held by design at the reshape (Adj #223) — third consecutive 4×12 sweep; headroom thinner than the Adj #211 read (1/1/1 vs 3/2/1), consistent with the ~24h post-T placement, not read as regression. 365 fires W17 Sat 8-15 on a clean lift-day AM Achilles read (W16's lift is deload) (Adj #160/#185/#211/#223/#230)" },
     { "exercise": "Decline crunch", "load": "BW+10 lb at BOTH slots (hold, rebuild) — Tue to 3×12, Sat set-3 gate", "lastVerified": "Tue: W16 Tue 8/4 (+10×12/12 RIR 2/0, deload 2 of 3); Sat slot: W15 Fri 7/31 (+10×10/10/8 RIR 2/1/0)", "note": "Tue: first back-to-back 12s since the +10 add (W15 went 12/9/12); set 2 at failure; the Adj #172 3×12 target untestable at 2 sets (Adj #238). Sat slot: set-3 gate further away (Adj #231). Hold +10 at both slots; no revert to BW" },
     { "exercise": "Soleus wall-sit", "load": "RETIRED", "lastVerified": "W7 Tue 6/2", "note": "Permanently dropped per athlete directive (Adj #52)" },
     { "exercise": "Chest Fly", "load": "130 working (confirmed)", "lastVerified": "W15 Fri 7/31 (130×12/12 RIR 2/2)", "note": "Both sets at the 12 target @ RIR 2 — one click deeper than the RIR 3 ask but even across (vs W14's 3/1). Hold 130 — no open item (Adj #186)" }
