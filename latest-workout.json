@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-07T12:55:00-04:00",
+  "generatedAt": "2026-08-07T13:20:00-04:00",
   "week": "W16",
   "day": "Fri",
   "date": "2026-08-07",
   "phase": "Build (deload)",
-  "sessionName": "Long 50 min Z1 AM + Hypertrophy B PM (deload) — swapped from Sat (Adj #242)",
-  "intro": ["Back half swapped by athlete directive — Fri takes the long + Hyp B, Sat takes the 4×3 @ I (Adj #242). Deload doses, no bumps (§11.B)."],
+  "sessionName": "Hypertrophy B (deload) — lift only",
+  "intro": ["Lift only today — the Fri/Sat swap put Hyp B here (Adj #242) and the long then moved to Sun (Adj #243). Deload doses, no bumps (§11.B)."],
   "lift": {
     "table": [
       { "exercise": "Lat pulldown (neutral)", "setsReps": "3×8–10", "load": "165", "rir": "1–2", "rest": "90–120s", "cue": "Deload 3 of 4 — hold 165, no revert (Adj #225)" },
@@ -33,14 +33,7 @@
     "warmup": "Pre-lift wrist-extensor isometric 3×30 s/arm (§10.A). General: 1–2 min band pull-aparts + scap push-ups.",
     "cooldown": "SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1"
   },
-  "cardio": {
-    "flags": ["≥6h gap between the AM long and the PM lift (§2.A) — if it can't be made, the lift slides to Sun; Sat VO2 stays put (Adj #242)"],
-    "workout": "Long run 50 min Z1 (deload dose, §4.D W16)",
-    "targets": { "pace": "9:15–10:30/mi — conversation-gated", "hr": "display-only (Adj #175)", "cadence": "165–172 spm natural at easy" },
-    "warmup": "5 min walk into the easy pace; no strides today",
-    "cooldown": "5–10 min easy walk + SI prehab",
-    "cues": ["Genuinely easy — full sentences; the deload's aerobic dose, not a tempo (§11.B)", "Third consecutive slip would fire the long-run placement conversation at the W17 Mon brief (Adj #233)"]
-  },
+  "cardio": null,
   "currentLoads": [
     { "exercise": "Incline BB", "load": "155 working (hold) / TM 168", "lastVerified": "W16 Tue 8/4 (155×5 RIR 0 top + AMRAP 135×10 RIR 0, deload slot)", "note": "Revert outing GROUND — all 5 landed but at failure (not a §5 miss), three clicks under W14's RIR 2 at the load; the Adj #216 re-attempt condition (155×5 ≥RIR 2) NOT met → repeat 155 next Tue W17; 160 only on a ≥RIR 2 five. AMRAP repeated 10 → e1RM ~180, TM 168 stands (Adj #237)" },
     { "exercise": "Lat pulldown", "load": "165 working (hold)", "lastVerified": "W15 Fri 7/31 (165×8/7/7/6 RIR 1/0/0/0)", "note": "First regression at 165 — 28 total vs the two 30s: opener lost its click, set 2 gave up the 8 floor, set 4 back to 6; plausibly the ~24h post-T Fri placement. Hold 165 — bump-eligible 170 on a clean 4×8 with set 3 RIR 1; no revert on one outing (Adj #155/#179/#206/#225)" },
