@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-07T19:10:00-04:00",
+  "generatedAt": "2026-08-08T23:45:00-04:00",
   "week": "W16",
   "phase": "Build (deload)",
-  "summary": "Build W16 deload — run volume cut 30–40% (~14 mi target), intensity preserved on quality (§11.B). Back half RESHAPED by two athlete directives 8-7 (Adj #242 swap, Adj #243 long push): Fri was deload Hyp B only, Sat takes the 4×3 min @ I, Sun takes the 50-min long. Mon ran as the Z1 row long-run equivalent (57:47, Adj #235); Tue Hyp A — incline revert GROUND, repeat 155 W17 Tue (Adj #237); Wed T logged — 3×6 @ 7:48 at the slow end, RPE 7 maybe 8: band stands, reopen armed for W17 Wed (Adj #241), cadence watch cleared; Fri Hyp B logged on the full cut dose with no bumps (Adj #245–#249) — the lat's Adj #225 regression did not repeat, the pushdown posted its deepest RIR line at 27.5 in either slot (headroom, not reps — hold both slots), and the elbow logged an 11th consecutive clean session. Both W17 Sat bumps are intact and unaffected by the deload: DB lateral 40 (Adj #227/#248) and seated calf 365 (Adj #211/#249). Left this week, both under v4.3: Sat 4×3 @ I and Sun's 50-min long — the third consecutive week the long sits outside its programmed slot, and the Sun punt is the slot that went unperformed W14 and W15. PROGRAM REVISED TO v4.4 by athlete directive 8-7 (Adj #244), effective W17 Mon 8-10 — three-run week: Mon LONG + hill strides / Tue Hyp A / Wed T / Thu OFF / Fri VO2 / Sat Hyp B lift-only / Sun OFF. W16 is explicitly unaffected and finishes as reshaped, Sun 8-9 long included. From W17 the Mon easy run and the Sat run are both gone, the long is permanently on Monday, Thu + Sun are permanent full rest, and the AM Achilles gate for calf bumps moves to Mon AM. Peak mileage drops 28 to ~20-21 mpw; the Mon long becomes the week's entire easy fraction. Lifting is untouched — all W17 gates stand: incline repeats 155 Tue (Adj #237), elbow 2nd-movement decision at the Tue brief (Adj #229).",
+  "summary": "Build W16 deload — run volume cut 30–40% (~14 mi target), intensity preserved on quality (§11.B). Back half reshaped twice: Adj #242/#243 on 8-7 (Fri = deload Hyp B only, Sat = 4×3 @ I, Sun = 50-min long), then Adj #250 on 8-8 — the Sat VO2 went unperformed and moves to Sun by athlete directive, and the 50-min long is DROPPED. There is no slot left for it: W17 Mon 8-10 opens v4.4 on the 70-min long, and §11.D does not repay missed easy volume (same posture as Adj #214/#233). The week's long-run equivalent was already banked Mon 8-3 as the 57:47 Z1 row (Adj #235), so the loss is ~5 mi of easy running, not the long — but W16 still closes with two runs and zero easy running, ~9–10 mi against the ~14 target. Logged this week: Tue Hyp A — incline revert ground, repeat 155 W17 Tue (Adj #237); Wed T 3×6 @ 7:48 at the slow end, RPE 7 maybe 8 — band stands, reopen armed for W17 Wed (Adj #241), cadence watch cleared; Fri Hyp B on the full cut dose with no bumps (Adj #245–#249) — the lat's Adj #225 regression did not repeat, the pushdown posted its deepest RIR line at 27.5 in either slot (headroom, not reps — hold both slots), elbow 11th consecutive clean. Both W17 Sat bumps are intact: DB lateral 40 (Adj #248) and seated calf 365 (Adj #249). Watch point Sun→Mon: the deload VO2 now sits the day before the 70-min long that opens v4.4, and that long is the week's entire easy fraction — a yellow Monday (§11.C) trims it in minutes, it does not move, because Sunday is off by rule from W17 and there is no punt slot. PROGRAM REVISED TO v4.4 (Adj #244), effective W17 Mon 8-10 — three-run week: Mon LONG + hill strides / Tue Hyp A / Wed T / Thu OFF / Fri VO2 / Sat Hyp B lift-only / Sun OFF. Peak mileage drops 28 to ~20-21 mpw; the AM Achilles gate for calf bumps moves to Mon AM. Lifting untouched — incline repeats 155 W17 Tue, elbow 2nd-movement decision at the Tue brief (Adj #229).",
   "days": [
     {
       "date": "2026-08-03",
@@ -42,16 +42,16 @@
     {
       "date": "2026-08-08",
       "day": "Sat",
-      "session": "VO2max 4×3 min @ I (deload) — swapped from Fri (Adj #242)",
-      "note": "May open at the 7:00 fast end — RPE 9 governs, W19 arbitrates (Adj #232). 72 h off the Wed T. AM Achilles read lands <24 h after the Fri calf sweep — a repeat of the clean Adj #232 read, not a bump gate (Adj #249).",
-      "status": "today"
+      "session": "VO2max 4×3 min @ I (deload) — MISSED",
+      "note": "Unperformed. Moved to Sun 8-9 by athlete directive (Adj #250); the 50-min long that held Sunday is dropped, no slot left before v4.4 opens Mon on the 70-min long (§11.D, no make-up).",
+      "status": "done"
     },
     {
       "date": "2026-08-09",
       "day": "Sun",
-      "session": "Long 50 min Z1 — pushed from Fri (Adj #243); replaces the off day",
-      "note": "Easy volume the day after the I session — keep it genuinely conversational. Sun off day gone; Thu was the week's only other rest. Last long in a Sunday slot — from W17 the long is permanently on Monday and Sunday is a full off day (Adj #244). Daily SI prehab still owed: Tyler 3×15 + reverse Tyler 3×15, McGill Big 3 5-3-1.",
-      "status": "upcoming"
+      "session": "VO2max 4×3 min @ I (deload) — moved from Sat (Adj #250)",
+      "note": "3 min jog recoveries. Fast end available (7:00 edge) — RPE 9 governs, W19 arbitrates (Adj #232). Treadmill 1% if indoors (Adj #177). AM Achilles read lands ~40 h post the Fri calf sweep — repeat read, not a bump gate (Adj #249). The 50-min long that held this slot is dropped. Daily SI prehab still owed: Tyler 3×15 + reverse Tyler 3×15, McGill Big 3 5-3-1.",
+      "status": "today"
     }
   ]
 }
