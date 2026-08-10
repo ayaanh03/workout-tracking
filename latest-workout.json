@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-08-08T23:45:00-04:00",
-  "week": "W16",
-  "day": "Sun",
-  "date": "2026-08-09",
-  "phase": "Build (deload)",
-  "sessionName": "VO2max 4×3 min @ I (deload) — moved from Sat",
+  "generatedAt": "2026-08-10T12:45:00-04:00",
+  "week": "W17",
+  "day": "Mon",
+  "date": "2026-08-10",
+  "phase": "Build",
+  "sessionName": "Long run 70 min Z1 + 4–6 hill strides",
   "intro": [
-    "Moved off the missed Sat 8-8 slot (Adj #250). The 50-min long that held today is dropped — no slot left before v4.4 opens Mon on the 70-min long (§11.D)."
+    "First v4.4 week (Adj #244): this long is W17's entire easy fraction and does not move; hill strides fire post-long — unperformed since W10 Mon 6-22, treadmill 4–6% substitutes (Adj #236)."
   ],
   "lift": null,
   "cardio": {
     "flags": [],
-    "workout": "4×3 min @ I, 3 min jog recoveries",
+    "workout": "70 min Z1 long run, then 4–6 hill strides × 10–12 s @ 4–6% grade, walk-down recovery",
     "targets": {
-      "pace": "7:00–7:15/mi (fast end available — Adj #232)",
+      "pace": "9:15–10:30/mi, conversation-gated (70 min ≈ 6.7–7.6 mi)",
       "hr": "display-only (Adj #175)",
-      "cadence": "175–182 spm"
+      "cadence": "165–172 spm at easy"
     },
-    "warmup": "1.0 mi easy 9:45–10:30, then 0.25–0.5 mi build 8:15 → 7:15",
-    "cooldown": "1.0 mi easy Z1 9:45–10:30, then SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1",
+    "warmup": "3–5 min walk + dynamic (hip openers, leg swings, calf raises), then the first 10 min of the 70 as an easy build 10:30 → 10:00/mi",
+    "cooldown": "5–10 min easy jog / walk at ≥10:30, then SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1",
     "cues": [
-      "RPE 9 governs the pace, not the clock — fast end is available, not required.",
-      "Treadmill at 1% if indoors (Adj #177): 8.3 mph = 7:14, 8.5 mph = 7:04."
+      "A yellow §11.C read trims this in minutes — it does not move; Sun is off by rule and there is no punt slot (Adj #244).",
+      "Cut stride reps before cutting the stride slot (§2.A) — it is the week's only lower-body NM dose."
     ]
   },
   "currentLoads": [
@@ -53,7 +53,7 @@
       "exercise": "DB lateral raise (Sat Hyp B)",
       "load": "35 working — rebuild COMPLETE → 40 fires W17 Sat 8-15",
       "lastVerified": "W16 Fri 8/7 (35×12/12/12 RIR 2/2/1, deload 3 of 4)",
-      "note": "Cut-dose outing clean, no failure set by design — nothing disturbs the completed rebuild. 40 goes in W17 Sat 8-15; a deload is not a bump week (Adj #248)."
+      "note": "Cut-dose outing clean, no failure set by design — nothing disturbs the completed rebuild. 40 goes in W17 Sat 8-15 (Adj #248)."
     },
     {
       "exercise": "Preacher curl uni (Tue Hyp A)",
@@ -83,7 +83,7 @@
       "exercise": "Seated calf",
       "load": "355 working (hold) → 365 FIRES W17 Sat 8-15; AM gate reads Mon 8-17",
       "lastVerified": "W16 Fri 8/7 (355×12/12/12 RIR 2/1/0, deload 3 of 4)",
-      "note": "Held by design — no bumps in a deload. The Adj #185/#211 condition stays met → 365 goes in W17 Sat. Per Adj #244 the AM Achilles gate reads Mon 8-17; today's Sun AM read is a repeat read ~40 h post-sweep, not a gate (Adj #249/#250)."
+      "note": "Held by design in the deload. The Adj #185/#211 condition stays met → 365 goes in W17 Sat. Per Adj #244 the AM Achilles gate for it reads Mon 8-17, the first run after the Sat sweep (Adj #249)."
     },
     {
       "exercise": "Decline crunch",
