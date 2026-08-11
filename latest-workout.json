@@ -1,110 +1,50 @@
 {
-  "generatedAt": "2026-08-10T21:30:00-04:00",
+  "generatedAt": "2026-08-11T17:20:00-04:00",
   "week": "W17",
-  "day": "Mon",
-  "date": "2026-08-10",
+  "day": "Tue",
+  "date": "2026-08-11",
   "phase": "Build",
-  "sessionName": "Long run 70 min Z1 — LOGGED (70:42 / 7.39 mi)",
+  "sessionName": "Hypertrophy A (lift only — no run)",
   "intro": [
-    "Logged — 70:42 / 7.39 mi @ 9:34/mi, RPE \"very easy\". First v4.4 session, delivered in full; first long in its programmed slot since W13 (Adj #254).",
-    "Hill strides REMOVED from the program by athlete directive — program.md now v4.5 (Adj #255). No stride slot exists in any future brief."
+    "Incline repeats 155 — 160 only on a ≥RIR 2 five (Adj #237). Elbow 2nd-movement decision is due at this brief — §10.A 4-wk gate met 7-31, 11 consecutive clean sessions (Adj #229/#246)."
   ],
-  "lift": null,
-  "cardio": {
-    "flags": [
-      "Miles 7–8 (~1.4 mi) run below the easy band by choice — 8:36 / 9:04, power 232/233 W, HR 176/179. Deliberate pickup, RPE still very easy. Watch, no action; read again at the W18 Mon long (Adj #256)."
+  "lift": {
+    "table": [
+      { "exercise": "Incline BB (top)", "setsReps": "1×5", "load": "155", "rir": "target ≥2", "rest": "2–3 min", "cue": "" },
+      { "exercise": "Incline BB (AMRAP)", "setsReps": "1×AMRAP", "load": "135 (80% TM 168)", "rir": "0", "rest": "—", "cue": "" },
+      { "exercise": "DB lateral raise", "setsReps": "6×12", "load": "30", "rir": "1–2, last 2 sets to failure", "rest": "60–90s", "cue": "" },
+      { "exercise": "Preacher curl uni", "setsReps": "4×10", "load": "70/arm", "rir": "2, last set 0–1", "rest": "90–120s", "cue": "" },
+      { "exercise": "Cable pushdown uni", "setsReps": "4×12", "load": "27.5/arm", "rir": "2, last set 0–1", "rest": "60–90s", "cue": "" },
+      { "exercise": "Decline crunch", "setsReps": "3×12", "load": "BW+10", "rir": "2", "rest": "60–90s", "cue": "" },
+      { "exercise": "Rear-delt fly", "setsReps": "2×15", "load": "140", "rir": "3", "rest": "60–90s", "cue": "" }
     ],
-    "workout": "Long run 70 min Z1 — DONE: 70:42 / 7.39 mi, 9:34/mi avg. Splits 9:15 / 9:16 / 9:48 / 10:04 / 10:16 / 9:55 / 8:36 / 9:04 (0.39 mi). Hill strides not performed — removed from the program (Adj #255).",
-    "targets": {
-      "pace": "9:15–10:30/mi — miles 1–6 in band, miles 7–8 below by choice",
-      "hr": "146 / 161 / 168 / 168 / 171 / 172 / 176 / 179 — display-only (Adj #175)",
-      "cadence": "169 / 166 / 165 / 166 / 166 / 169 / 171 / 166 — inside the 165–172 easy allowance"
+    "lastWeek": {
+      "label": "Hyp A W16 Tue 8/4 (deload — sets cut ~1/3)",
+      "table": [
+        { "exercise": "Incline BB", "load": "155 / AMRAP 135", "reps": "5 / 10", "rir": "0 / 0" },
+        { "exercise": "DB lateral raise", "load": "30", "reps": "12/12/12", "rir": "3/3/3" },
+        { "exercise": "Preacher curl uni", "load": "70", "reps": "10/10/10", "rir": "2/1/0" },
+        { "exercise": "Cable pushdown uni", "load": "27.5", "reps": "12/12/11", "rir": "3/2/0" },
+        { "exercise": "Decline crunch", "load": "+10", "reps": "12/12", "rir": "2/0" },
+        { "exercise": "Rear-delt fly", "load": "140", "reps": "15", "rir": "2" }
+      ]
     },
-    "warmup": "Folded into the continuous run as prescribed",
-    "cooldown": "Folded into the continuous run; SI prehab per §9 daily",
-    "cues": [
-      "Power by mile 214 / 216 / 204 / 199 / 196 / 202 / 232 / 233 W — datum only, display-only like HR (Adj #251).",
-      "Road, Vomero Plus (+7.4 mi → ~138), fed; all clean by default. The calf 365 AM Achilles gate still reads Mon 8-17 (Adj #249)."
-    ]
+    "warmup": "Incline BB: bar×8, 95×5, 115×3, then working. General: 1–2 min band pull-aparts + scap push-ups. Pre-lift wrist-extensor isometric 3×30 s/arm (§10.A).",
+    "cooldown": "Tyler twists 3×15 + reverse Tyler 3×15 (daily, §8); daily SI prehab — clamshell, side-lying abduction, single-leg bridge, bird-dog."
   },
+  "cardio": null,
   "currentLoads": [
-    {
-      "exercise": "Incline BB",
-      "load": "155 working (hold) / TM 168",
-      "lastVerified": "W16 Tue 8/4 (155×5 RIR 0 top + AMRAP 135×10 RIR 0, deload slot)",
-      "note": "Revert outing ground — all 5 landed but at failure (not a §5 miss). The Adj #216 re-attempt condition (155×5 ≥RIR 2) NOT met → repeat 155 W17 Tue; 160 only on a ≥RIR 2 five. AMRAP repeated 10 → e1RM ~180, TM 168 stands (Adj #237)."
-    },
-    {
-      "exercise": "Lat pulldown",
-      "load": "165 working (hold)",
-      "lastVerified": "W16 Fri 8/7 (165×8/8/7 RIR 2/1/0, deload 3 of 4)",
-      "note": "The Adj #225 regression did NOT repeat — a rep up and a click cleaner at every set vs W15, ties W14 Sat. Hold 165; 170 bump-eligible on a full-dose clean 4×8 (Adj #245)."
-    },
-    {
-      "exercise": "Chest-supp row",
-      "load": "80 working (hold)",
-      "lastVerified": "W16 Fri 8/7 (80×10/10 RIR 2/0, deload 2 of 3)",
-      "note": "Both 10s held the floor but set 2 gave up its click — the Adj #226 sets-1-2 condition not repeated. Hold 80; full 3×10 with sets 1-2 ≥RIR 1 gates the next 5-lb step (Adj #247)."
-    },
-    {
-      "exercise": "DB lateral raise (Tue Hyp A)",
-      "load": "30 working",
-      "lastVerified": "W16 Tue 8/4 (30×12/12/12 RIR 3/3/3, deload 3 of 6)",
-      "note": "Deload outing exactly on the RIR 2–3 ask; the soft-opener conversation carries to W17 unjudged. Hold 30 — a firm opener (≤RIR 2) at full dose opens the bump conversation (Adj #238)."
-    },
-    {
-      "exercise": "DB lateral raise (Sat Hyp B)",
-      "load": "35 working — rebuild COMPLETE → 40 fires W17 Sat 8-15",
-      "lastVerified": "W16 Fri 8/7 (35×12/12/12 RIR 2/2/1, deload 3 of 4)",
-      "note": "Cut-dose outing clean, no failure set by design — nothing disturbs the completed rebuild. 40 goes in W17 Sat 8-15 (Adj #248)."
-    },
-    {
-      "exercise": "Preacher curl uni (Tue Hyp A)",
-      "load": "70/arm working (hold)",
-      "lastVerified": "W16 Tue 8/4 (70×10/10/10 RIR 2/1/0, deload 3 of 4)",
-      "note": "Same front-three line as W15; the Adj #150-shape 75-condition untestable at 3 sets. Hold 70 (Adj #238)."
-    },
-    {
-      "exercise": "Preacher curl uni (Sat Hyp B)",
-      "load": "60/arm working (65 unconfirmed)",
-      "lastVerified": "W16 Fri 8/7 (60×12/12/10 RIR 2/1/0, deload 3 of 4)",
-      "note": "Front two repeat W15 exactly; set 3 gave back two reps, reversing the 7-31 gain. Hold 60 (Adj #247)."
-    },
-    {
-      "exercise": "Cable pushdown uni",
-      "load": "27.5/arm working (hold-until-clean)",
-      "lastVerified": "W16 Fri 8/7 (27.5×12/12/10 RIR 1/0/0, deload 3 of 4)",
-      "note": "Deepest RIR line at the load in either slot; front pair still held the 12 floor = headroom loss, not rep loss. Hold 27.5 both slots, no 30; next real read is the full-dose W17 Sat. Elbow 11th consecutive clean — 2nd-movement decision at the W17 Tue brief (Adj #246)."
-    },
-    {
-      "exercise": "Rear-delt fly",
-      "load": "140 working",
-      "lastVerified": "W16 Tue 8/4 (140×15 RIR 2, deload 1 of 2)",
-      "note": "First opener off RIR 4 in four sessions, thin single-set read. 2×15 target RIR 3 resumes W17; next nudge (145) only on a repeat RIR 4/4 (Adj #240)."
-    },
-    {
-      "exercise": "Seated calf",
-      "load": "355 working (hold) → 365 FIRES W17 Sat 8-15; AM gate reads Mon 8-17",
-      "lastVerified": "W16 Fri 8/7 (355×12/12/12 RIR 2/1/0, deload 3 of 4)",
-      "note": "Held by design in the deload. The Adj #185/#211 condition stays met → 365 goes in W17 Sat. Per Adj #244 the AM Achilles gate for it reads Mon 8-17, the first run after the Sat sweep (Adj #249)."
-    },
-    {
-      "exercise": "Decline crunch",
-      "load": "BW+10 at both slots (hold, rebuild)",
-      "lastVerified": "Tue: W16 Tue 8/4 (+10×12/12 RIR 2/0); Sat slot: W16 Fri 8/7 (+10×10/10 RIR 2/1)",
-      "note": "Tue: first back-to-back 12s since the +10 add. Sat slot: front two repeat exactly for a third consecutive outing; set-3 gate untestable at 2 sets. Hold +10 both slots, no revert to BW (Adj #247)."
-    },
-    {
-      "exercise": "Soleus wall-sit",
-      "load": "RETIRED",
-      "lastVerified": "W7 Tue 6/2",
-      "note": "Permanently dropped from the program per athlete directive (Adj #52)."
-    },
-    {
-      "exercise": "Chest Fly",
-      "load": "130 working (confirmed)",
-      "lastVerified": "W16 Fri 8/7 (130×12 RIR 3, deload 1 of 2)",
-      "note": "Single deload set at the 12 target exactly on the §3.B RPE 7 ask — cleanest read at the load. Hold 130, no open item (Adj #247)."
-    }
+    { "exercise": "Incline BB", "load": "155 working (hold) / TM 168", "lastVerified": "W16 Tue 8/4 (155×5 RIR 0 top + AMRAP 135×10, deload slot)", "note": "Revert outing ground — all 5 landed but at failure (not a §5 miss). Adj #216 re-attempt condition (155×5 ≥RIR 2) NOT met → repeat 155 today; 160 only on a ≥RIR 2 five. AMRAP repeated 10 → e1RM ~180, TM 168 stands (Adj #237)" },
+    { "exercise": "Lat pulldown", "load": "165 working (hold)", "lastVerified": "W16 Fri 8/7 (165×8/8/7 RIR 2/1/0, deload 3 of 4)", "note": "The Adj #225 regression did NOT repeat — a rep up and a click cleaner at every set vs W15, ties W14 Sat. Hold 165; 170 bump-eligible on a full-dose clean 4×8 (Adj #245)" },
+    { "exercise": "Chest-supp row", "load": "80 working (hold)", "lastVerified": "W16 Fri 8/7 (80×10/10 RIR 2/0, deload 2 of 3)", "note": "Both 10s held the floor but set 2 gave up its click — Adj #226 sets-1-2 condition not repeated. Hold 80; full 3×10 with sets 1-2 ≥RIR 1 gates the next 5-lb step (Adj #247)" },
+    { "exercise": "DB lateral raise (Tue Hyp A)", "load": "30 working", "lastVerified": "W16 Tue 8/4 (30×12/12/12 RIR 3/3/3, deload 3 of 6)", "note": "Deload outing exactly on the RIR 2–3 ask — not a read. The soft-opener conversation carries to today unjudged; a firm opener (≤RIR 2) at the full 6-set dose opens the bump conversation (Adj #217/#238)" },
+    { "exercise": "DB lateral raise (Sat Hyp B)", "load": "35 working — 40 fires W17 Sat 8-15", "lastVerified": "W16 Fri 8/7 (35×12/12/12 RIR 2/2/1, deload 3 of 4)", "note": "Cut-dose outing clean; nothing disturbs the completed rebuild. 40 goes in Sat 8-15 (Adj #227/#248). Tue slot unaffected" },
+    { "exercise": "Preacher curl uni (Tue Hyp A)", "load": "70/arm working (hold)", "lastVerified": "W16 Tue 8/4 (70×10/10/10 RIR 2/1/0, deload 3 of 4)", "note": "Same front-three line as W15, all holding the 10 floor; set 3 to failure. Adj #150-shape 75-condition (openers ≥RIR 3, set 3 clean RIR 1) untestable at 3 sets — hold 70, testable today at the full 4×10 (Adj #218/#238)" },
+    { "exercise": "Preacher curl uni (Sat Hyp B)", "load": "60/arm working (65 unconfirmed)", "lastVerified": "W16 Fri 8/7 (60×12/12/10 RIR 2/1/0, deload 3 of 4)", "note": "Front two repeat W15 exactly; set 3 gave back two reps. Adj #118 clean-with-reps-to-spare untestable at 3 sets — hold 60 (Adj #247)" },
+    { "exercise": "Cable pushdown uni", "load": "27.5/arm working (hold-until-clean)", "lastVerified": "W16 Fri 8/7 (27.5×12/12/10 RIR 1/0/0, deload 3 of 4)", "note": "Deepest RIR line at the load in either slot; front pair held the 12 floor = headroom loss, not rep loss. Hold-until-clean not met and untestable at 3 sets — hold 27.5 both slots, no 30; today is the first full-dose Tue read since 7-28. Elbow 11th consecutive clean; §10.A 2nd-movement decision due at this brief (Adj #229/#239/#246)" },
+    { "exercise": "Rear-delt fly", "load": "140 working", "lastVerified": "W16 Tue 8/4 (140×15 RIR 2, deload 1 of 2)", "note": "First opener off RIR 4 in four sessions — thin single-set read. 2×15 target RIR 3 resumes today; next nudge (145) only on a repeat RIR 4/4 (Adj #221/#240)" },
+    { "exercise": "Seated calf", "load": "355 working (hold) → 365 fires W17 Sat 8-15", "lastVerified": "W16 Fri 8/7 (355×12/12/12 RIR 2/1/0, deload 3 of 4)", "note": "Held by design (§11.B), not by read. Adj #185/#211 condition stays met → 365 goes Sat 8-15; the AM Achilles gate for it reads MON 8-17, ~40 h after the sweep (Adj #244/#249)" },
+    { "exercise": "Decline crunch", "load": "BW+10 lb at both slots (hold, rebuild)", "lastVerified": "Tue: W16 Tue 8/4 (+10×12/12 RIR 2/0); Sat: W16 Fri 8/7 (+10×10/10 RIR 2/1)", "note": "Tue: first back-to-back 12s since the +10 add; the Adj #172 3×12 target untestable at 2 sets — testable today. Sat front two repeat exactly a third straight outing. Hold +10 both slots (Adj #231/#238/#247)" },
+    { "exercise": "Chest Fly", "load": "130 working (confirmed)", "lastVerified": "W16 Fri 8/7 (130×12 RIR 3, deload 1 of 2)", "note": "Single deload set exactly on the §3.B RPE 7 ask — cleanest read at the load. Hold 130, no open item (Adj #186/#247)" }
   ]
 }
