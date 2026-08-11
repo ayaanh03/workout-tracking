@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-08-10T12:45:00-04:00",
+  "generatedAt": "2026-08-10T21:30:00-04:00",
   "week": "W17",
   "phase": "Build",
-  "summary": "W17 is the first v4.4 three-run week (Adj #244): Mon LONG 70 min + 4-6 hill strides / Tue Hyp A / Wed T 6×1K / Thu OFF / Fri VO2 5×1000m @ I / Sat Hyp B lift-only / Sun OFF. Target ~20 mpw, the peak under the new template. Monday carries the whole week — it is W17's entire easy fraction, so a yellow §11.C read trims it in minutes and never moves it; Sun is off by rule and there is no punt slot. Hill strides fire post-long, unperformed since W10 Mon 6-22, treadmill 4-6% substitutable (Adj #236). Two live pace questions land this week: Wed's 6×1K @ T opens at the 7:50 slow end and a firm over-anchor read reopens the band toward 7:50-7:55 (Adj #241); Fri's 5×1000m @ I is the decisive band test — open at the 7:00 fast end, run the prescribed 90 s JOG recoveries after Sunday's walked ones, full ~17.5 min dose, and a sub-anchor read with the confound removed reopens the band ahead of the W19 cut-down (Adj #251/#252). Cadence watch re-armed at I, next read Fri (Adj #253). Lift side: Tue repeats incline 155, 160 only on a ≥RIR 2 five (Adj #237), and the elbow 2nd-movement decision surfaces at the Tue brief (Adj #229); Sat is the first full-dose lift since the deload and fires both held bumps — DB lateral 35→40 (Adj #248) and seated calf 355→365 (Adj #249), whose AM Achilles gate reads Mon 8-17.",
+  "summary": "W17 is the first v4.4 three-run week (Adj #244): Mon LONG 70 min / Tue Hyp A / Wed T 6×1K / Thu OFF / Fri VO2 5×1000m @ I / Sat Hyp B lift-only / Sun OFF. Target ~20 mpw, the peak under the new template. Monday carries the whole week — it is W17's entire easy fraction, so a yellow §11.C read trims it in minutes and never moves it; Sun is off by rule and there is no punt slot. MONDAY DELIVERED: 70:42 / 7.39 mi @ 9:34/mi, RPE \"very easy\" — the first v4.4 session run in full, and the first long in its programmed slot since W13 after three straight weeks lost (Adj #254). HILL STRIDES REMOVED from the program the same day by athlete directive — program.md now v4.5, no stride slot exists in any future brief, and §6 carries no lower-body neuromuscular work at all (Adj #255). One watch off the long: miles 7-8 ran 8:36/9:04 below the easy band by choice, at roughly threshold cardiac cost — noise once, a conversation if it repeats at the W18 Mon long, since v4.4 leaves exactly one easy run in the week (Adj #256). Two live pace questions land this week: Wed's 6×1K @ T opens at the 7:50 slow end and a firm over-anchor read reopens the band toward 7:50-7:55 (Adj #241); Fri's 5×1000m @ I is the decisive band test — open at the 7:00 fast end, run the prescribed 90 s JOG recoveries after Sunday's walked ones, full ~17.5 min dose, and a sub-anchor read with the confound removed reopens the band ahead of the W19 cut-down (Adj #251/#252). Cadence watch re-armed at I, next read Fri (Adj #253). Lift side: Tue repeats incline 155, 160 only on a ≥RIR 2 five (Adj #237), and the elbow 2nd-movement decision surfaces at the Tue brief (Adj #229); Sat is the first full-dose lift since the deload and fires both held bumps — DB lateral 35→40 (Adj #248) and seated calf 355→365 (Adj #249), whose AM Achilles gate reads Mon 8-17.",
   "days": [
     {
       "date": "2026-08-10",
       "day": "Mon",
-      "session": "Long run 70 min Z1 + 4–6 hill strides",
-      "note": "The week's entire easy fraction — 9:15–10:30 conversation-gated, ~6.7–7.6 mi. Strides post-long at 4–6% (Adj #236); a yellow read trims minutes, it does not move (Adj #244).",
-      "status": "today"
+      "session": "Long run 70 min Z1 (hill strides removed same day — Adj #255)",
+      "note": "Logged — 70:42 / 7.39 mi @ 9:34/mi avg, RPE \"very easy\"; splits 9:15/9:16/9:48/10:04/10:16/9:55/8:36/9:04(0.39). HR 146→179, power 214→233 W, cadence 165–171 all display-only/in-allowance. First long in its programmed slot since W13 (Adj #254). Miles 7–8 a deliberate sub-band pickup — watch, no action (Adj #256). Hill strides not done → REMOVED from the program (Adj #255). All clean by default.",
+      "status": "done"
     },
     {
       "date": "2026-08-11",
       "day": "Tue",
       "session": "Hyp A (full dose — no run)",
       "note": "Incline repeats 155, 160 only on a ≥RIR 2 five (Adj #237). Elbow 2nd-movement decision surfaces at this brief — §10.A gate met 7-31 (Adj #229). Rear-delt back to 2×15 @ 140.",
-      "status": "upcoming"
+      "status": "today"
     },
     {
       "date": "2026-08-12",

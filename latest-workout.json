@@ -1,27 +1,30 @@
 {
-  "generatedAt": "2026-08-10T12:45:00-04:00",
+  "generatedAt": "2026-08-10T21:30:00-04:00",
   "week": "W17",
   "day": "Mon",
   "date": "2026-08-10",
   "phase": "Build",
-  "sessionName": "Long run 70 min Z1 + 4–6 hill strides",
+  "sessionName": "Long run 70 min Z1 — LOGGED (70:42 / 7.39 mi)",
   "intro": [
-    "First v4.4 week (Adj #244): this long is W17's entire easy fraction and does not move; hill strides fire post-long — unperformed since W10 Mon 6-22, treadmill 4–6% substitutes (Adj #236)."
+    "Logged — 70:42 / 7.39 mi @ 9:34/mi, RPE \"very easy\". First v4.4 session, delivered in full; first long in its programmed slot since W13 (Adj #254).",
+    "Hill strides REMOVED from the program by athlete directive — program.md now v4.5 (Adj #255). No stride slot exists in any future brief."
   ],
   "lift": null,
   "cardio": {
-    "flags": [],
-    "workout": "70 min Z1 long run, then 4–6 hill strides × 10–12 s @ 4–6% grade, walk-down recovery",
+    "flags": [
+      "Miles 7–8 (~1.4 mi) run below the easy band by choice — 8:36 / 9:04, power 232/233 W, HR 176/179. Deliberate pickup, RPE still very easy. Watch, no action; read again at the W18 Mon long (Adj #256)."
+    ],
+    "workout": "Long run 70 min Z1 — DONE: 70:42 / 7.39 mi, 9:34/mi avg. Splits 9:15 / 9:16 / 9:48 / 10:04 / 10:16 / 9:55 / 8:36 / 9:04 (0.39 mi). Hill strides not performed — removed from the program (Adj #255).",
     "targets": {
-      "pace": "9:15–10:30/mi, conversation-gated (70 min ≈ 6.7–7.6 mi)",
-      "hr": "display-only (Adj #175)",
-      "cadence": "165–172 spm at easy"
+      "pace": "9:15–10:30/mi — miles 1–6 in band, miles 7–8 below by choice",
+      "hr": "146 / 161 / 168 / 168 / 171 / 172 / 176 / 179 — display-only (Adj #175)",
+      "cadence": "169 / 166 / 165 / 166 / 166 / 169 / 171 / 166 — inside the 165–172 easy allowance"
     },
-    "warmup": "3–5 min walk + dynamic (hip openers, leg swings, calf raises), then the first 10 min of the 70 as an easy build 10:30 → 10:00/mi",
-    "cooldown": "5–10 min easy jog / walk at ≥10:30, then SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1",
+    "warmup": "Folded into the continuous run as prescribed",
+    "cooldown": "Folded into the continuous run; SI prehab per §9 daily",
     "cues": [
-      "A yellow §11.C read trims this in minutes — it does not move; Sun is off by rule and there is no punt slot (Adj #244).",
-      "Cut stride reps before cutting the stride slot (§2.A) — it is the week's only lower-body NM dose."
+      "Power by mile 214 / 216 / 204 / 199 / 196 / 202 / 232 / 233 W — datum only, display-only like HR (Adj #251).",
+      "Road, Vomero Plus (+7.4 mi → ~138), fed; all clean by default. The calf 365 AM Achilles gate still reads Mon 8-17 (Adj #249)."
     ]
   },
   "currentLoads": [
