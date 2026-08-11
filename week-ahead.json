@@ -1,57 +1,57 @@
 {
-  "generatedAt": "2026-08-09T19:45:00-04:00",
-  "week": "W16",
-  "phase": "Build (deload)",
-  "summary": "W16 CLOSED 8-9 (Build deload). Delivered 2 runs (~8.7 mi) + 1 Z1 row + 2 lifts — both quality sessions and both lifts banked, ZERO easy running, against a ~14 mi deload target. The back half reshaped twice: Adj #242/#243 on 8-7, then Adj #250 on 8-8 when the Sat VO2 went unperformed and moved to Sun, dropping the 50-min long (§11.D, no slot before v4.4). Sun's VO2 ran 4×3 @ I at 6:41/6:44/7:03/7:00 — reps 1-2 inside the R band — with WALKED recoveries (14:32/13:45/17:00) instead of the prescribed jog, and the athlete read it as \"pretty easy, could've done 3 more at 7:00\" against a 9 anchor. That is the third consecutive sub-anchor I read and the strongest, but it is doubly confounded by the walked recoveries (Adj #252) and the shortest I dose of the Build, so the band 7:00–7:15 STANDS per the Adj #202 no-recalc-outside-tests posture. The decisive test is W17 Fri 8-14: 5×1000m @ I, open at the 7:00 fast end, 90 s JOG recoveries, full dose — sub-anchor there reopens the band ahead of the W19 cut-down (Adj #251). Cadence came back sub-band at I (173/174/168/171) — the Adj #241 clear reads threshold-specific, watch re-armed (Adj #253). Running power on record for the first time (294/284/280/286 W), datum only. All clean by default — ninth straight quality outing clean; the ~40 h post-sweep Achilles read closed clean and the calf 365 gate reads Mon 8-17. W17 opens Mon 8-10 as the first v4.4 three-run week: Mon LONG 70 min + 4-6 hill strides / Tue Hyp A / Wed T 6×1K / Thu OFF / Fri VO2 5×1000m / Sat Hyp B lift-only / Sun OFF. Monday is the week's entire easy fraction and does not move; hill strides fire post-long, unperformed since W10 (Adj #236). Lift gates into W17: incline repeats 155 Tue (Adj #237), elbow 2nd-movement decision at the Tue brief (Adj #229), DB lateral 40 and seated calf 365 both fire Sat 8-15 (Adj #248/#249).",
+  "generatedAt": "2026-08-10T21:30:00-04:00",
+  "week": "W17",
+  "phase": "Build",
+  "summary": "W17 is the first v4.4 three-run week (Adj #244): Mon LONG 70 min / Tue Hyp A / Wed T 6×1K / Thu OFF / Fri VO2 5×1000m @ I / Sat Hyp B lift-only / Sun OFF. Target ~20 mpw, the peak under the new template. Monday carries the whole week — it is W17's entire easy fraction, so a yellow §11.C read trims it in minutes and never moves it; Sun is off by rule and there is no punt slot. MONDAY DELIVERED: 70:42 / 7.39 mi @ 9:34/mi, RPE \"very easy\" — the first v4.4 session run in full, and the first long in its programmed slot since W13 after three straight weeks lost (Adj #254). HILL STRIDES REMOVED from the program the same day by athlete directive — program.md now v4.5, no stride slot exists in any future brief, and §6 carries no lower-body neuromuscular work at all (Adj #255). One watch off the long: miles 7-8 ran 8:36/9:04 below the easy band by choice, at roughly threshold cardiac cost — noise once, a conversation if it repeats at the W18 Mon long, since v4.4 leaves exactly one easy run in the week (Adj #256). Two live pace questions land this week: Wed's 6×1K @ T opens at the 7:50 slow end and a firm over-anchor read reopens the band toward 7:50-7:55 (Adj #241); Fri's 5×1000m @ I is the decisive band test — open at the 7:00 fast end, run the prescribed 90 s JOG recoveries after Sunday's walked ones, full ~17.5 min dose, and a sub-anchor read with the confound removed reopens the band ahead of the W19 cut-down (Adj #251/#252). Cadence watch re-armed at I, next read Fri (Adj #253). Lift side: Tue repeats incline 155, 160 only on a ≥RIR 2 five (Adj #237), and the elbow 2nd-movement decision surfaces at the Tue brief (Adj #229); Sat is the first full-dose lift since the deload and fires both held bumps — DB lateral 35→40 (Adj #248) and seated calf 355→365 (Adj #249), whose AM Achilles gate reads Mon 8-17.",
   "days": [
     {
-      "date": "2026-08-03",
+      "date": "2026-08-10",
       "day": "Mon",
-      "session": "Z1 row 65 min (long-run equivalent) + hill strides",
-      "note": "Logged — 57:47 Z1 row (Adj #235): split 2:15–2:25 + rate 18–22 held in-band (exacts n/r), RPE 4–5, HR 153/165 display-only; ~7 min under the 65 ask, dropped (§11.D). Hill strides SKIPPED — next slot W17 Mon (Adj #236).",
+      "session": "Long run 70 min Z1 (hill strides removed same day — Adj #255)",
+      "note": "Logged — 70:42 / 7.39 mi @ 9:34/mi avg, RPE \"very easy\"; splits 9:15/9:16/9:48/10:04/10:16/9:55/8:36/9:04(0.39). HR 146→179, power 214→233 W, cadence 165–171 all display-only/in-allowance. First long in its programmed slot since W13 (Adj #254). Miles 7–8 a deliberate sub-band pickup — watch, no action (Adj #256). Hill strides not done → REMOVED from the program (Adj #255). All clean by default.",
       "status": "done"
     },
     {
-      "date": "2026-08-04",
+      "date": "2026-08-11",
       "day": "Tue",
-      "session": "Hyp A (deload — sets cut 30–50%, §11.B)",
-      "note": "Logged — incline revert GROUND: 155×5 RIR 0 + AMRAP 135×10 (TM 168 stands) → repeat 155 W17 Tue, 160 only on a ≥RIR 2 five (Adj #237); elbow 10th consecutive clean (Adj #239); rear-delt first non-RIR-4 opener — 15 @ RIR 2 (Adj #240); cut-dose accessories hold (Adj #238).",
-      "status": "done"
+      "session": "Hyp A (full dose — no run)",
+      "note": "Incline repeats 155, 160 only on a ≥RIR 2 five (Adj #237). Elbow 2nd-movement decision surfaces at this brief — §10.A gate met 7-31 (Adj #229). Rear-delt back to 2×15 @ 140.",
+      "status": "today"
     },
     {
-      "date": "2026-08-05",
+      "date": "2026-08-12",
       "day": "Wed",
-      "session": "Threshold 3×6 min @ T (deload)",
-      "note": "Logged — 3×6 @ 7:48 (7.7 mph, 1% incline), RPE 7 maybe 8 at the slow end: band stands, reopen armed for W17 Wed (Adj #241); cadence 176/177/178 in-band — watch cleared; all clean by default.",
-      "status": "done"
+      "session": "Threshold 6×1K @ T, 60 s rec",
+      "note": "Opens at the 7:50 slow end; RPE ≤7 anchor governs. A firm over-anchor read reopens the band toward 7:50–7:55 ahead of the W19 arbitration (Adj #241). Treadmill at 1% if indoors (Adj #177).",
+      "status": "upcoming"
     },
     {
-      "date": "2026-08-06",
+      "date": "2026-08-13",
       "day": "Thu",
       "session": "Off — mobility / walk + daily SI prehab",
-      "note": "Permanently off per §2.A.",
-      "status": "done"
+      "note": "Permanent full rest under v4.4 (§2.A).",
+      "status": "upcoming"
     },
     {
-      "date": "2026-08-07",
+      "date": "2026-08-14",
       "day": "Fri",
-      "session": "Hyp B (deload — sets cut ~30%, §11.B) — swapped from Sat (Adj #242), lift only (Adj #243)",
-      "note": "Logged — deload Hyp B, full cut dose (3/2/3/3/3/3/2/1), no bumps (§11.B). Lat 165×8/8/7 RIR 2/1/0 — the Adj #225 regression did NOT repeat, a rep up and a click cleaner at every set vs W15, ties W14 Sat (Adj #245). Pushdown 27.5×12/12/10 RIR 1/0/0 — deepest line at the load in either slot, front pair still held the 12 floor = headroom loss not rep loss; hold both slots; elbow 11th consecutive clean (Adj #246). Lateral 35×12/12/12 RIR 2/2/1 → 40 fires W17 Sat (Adj #248). Calf held 355 ×12/12/12 RIR 2/1/0 → 365 fires W17 Sat, AM gate now Mon 8-17 (Adj #249). Row 10/10 RIR 2/0, preacher 12/12/10, crunch 10/10 RIR 2/1, fly 130×12 RIR 3 — all hold (Adj #247). All clean by default.",
-      "status": "done"
+      "session": "VO2max 5×1000m @ I, 90 s rec — gold standard",
+      "note": "The decisive band test: open at the 7:00 fast end, 90 s JOG recoveries (not walked — Adj #252), full dose. Sub-anchor here reopens the band; RPE 9 closes the question (Adj #251). Cadence watch re-armed (Adj #253).",
+      "status": "upcoming"
     },
     {
-      "date": "2026-08-08",
+      "date": "2026-08-15",
       "day": "Sat",
-      "session": "VO2max 4×3 min @ I (deload) — MISSED",
-      "note": "Unperformed. Moved to Sun 8-9 by athlete directive (Adj #250); the 50-min long that held Sunday is dropped, no slot left before v4.4 opens Mon on the 70-min long (§11.D, no make-up).",
-      "status": "done"
+      "session": "Hyp B — lift only, no run",
+      "note": "First full dose since the deload; both held bumps fire — DB lateral 35→40 (Adj #248) and seated calf 355→365 (Adj #249). The 365 AM Achilles gate reads Mon 8-17, ~40 h after the sweep (Adj #244).",
+      "status": "upcoming"
     },
     {
-      "date": "2026-08-09",
+      "date": "2026-08-16",
       "day": "Sun",
-      "session": "VO2max 4×3 min @ I (deload) — moved from Sat (Adj #250)",
-      "note": "Logged — 4.42 mi road: reps 6:41/6:44/7:03/7:00 (reps 1-2 inside the R band 6:35-6:45), RPE far under the 9 anchor (\"could've done 3 more at 7:00\") = third consecutive sub-anchor I read, but confounded — recoveries WALKED not jogged (Adj #252) and the shortest I dose of the Build. Band 7:00-7:15 STANDS; W17 Fri 5×1000m @ I is the honest test (Adj #251). Cadence 173/174/168/171 sub-band — watch re-armed (Adj #253). HR 165/173/179/179 and power 294/284/280/286 W both display-only. All clean by default; the ~40 h Achilles read closed clean. W16 CLOSES.",
-      "status": "done"
+      "session": "Off — Tyler 3×15 + reverse Tyler 3×15, McGill Big 3, daily SI prehab",
+      "note": "Permanent full rest under v4.4 — no punt slot (§2.A).",
+      "status": "upcoming"
     }
   ]
 }
