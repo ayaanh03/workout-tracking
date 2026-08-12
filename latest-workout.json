@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-11T19:45:00-04:00",
+  "generatedAt": "2026-08-11T20:05:00-04:00",
   "week": "W17",
   "day": "Tue",
   "date": "2026-08-11",
   "phase": "Build",
   "sessionName": "Hypertrophy A (lift only — no run) — LOGGED",
   "intro": [
-    "Logged. Three bumps now fire W18 Tue: incline 155×5 RIR 2 clears the re-attempt gate → 160 (Adj #257), rear-delt RIR 4/4 repeats the under-load pattern → 145 (Adj #258), and DB lateral Tue 30 → 35 by athlete directive (Adj #265). The §10.A 2nd biceps/triceps movement is deferred indefinitely — no longer surfaces at briefs (Adj #264)."
+    "Logged. Three bumps now fire W18 Tue: incline 155×5 RIR 2 clears the re-attempt gate → 160 (Adj #257), rear-delt RIR 4/4 repeats the under-load pattern → 145 (Adj #258), and DB lateral Tue 30 → 35 by athlete directive (Adj #265). The §10.A 2nd biceps/triceps movement is paused short-term — it re-surfaces at the W19 Tue brief 8-25 (Adj #264/#266)."
   ],
   "lift": {
     "table": [
@@ -159,7 +159,7 @@
       "exercise": "Cable pushdown uni",
       "load": "27.5/arm working (hold-until-clean)",
       "lastVerified": "W17 Tue 8/11 (27.5×12/12/8/8 RIR 2/0/0/0, full dose)",
-      "note": "Back half COLLAPSED — 40 total, worst at the load in either slot (W15 Tue 43): set 2 lost two clicks, set 3 fell 11→8. Hold-until-clean further away than at any point since the debut, and this was the most favorable context the slot gets → durability limit at 27.5, not placement. Hold both slots, no 30; next read W17 Sat 8-15, and a second consecutive collapse becomes a load/set-count conversation. Elbow 12th consecutive clean; the §10.A 2nd-movement add is DEFERRED indefinitely by athlete directive — gate stays met, eligibility banked, no brief line (Adj #259/#264)"
+      "note": "Back half COLLAPSED — 40 total, worst at the load in either slot (W15 Tue 43): set 2 lost two clicks, set 3 fell 11→8. Hold-until-clean further away than at any point since the debut, and this was the most favorable context the slot gets → durability limit at 27.5, not placement. Hold both slots, no 30; next read W17 Sat 8-15, and a second consecutive collapse becomes a load/set-count conversation. Elbow 12th consecutive clean; the §10.A 2nd-movement add is PAUSED short-term by athlete directive and re-surfaces at the W19 Tue brief 8-25 — gate stays met, eligibility banked, no brief line until then. These three full-dose reads (W17 Sat, W18 Tue, W18 Sat) are what the pause is buying (Adj #259/#264/#266)"
     },
     {
       "exercise": "Rear-delt fly",
