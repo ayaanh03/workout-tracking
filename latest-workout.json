@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-11T19:15:00-04:00",
+  "generatedAt": "2026-08-11T19:45:00-04:00",
   "week": "W17",
   "day": "Tue",
   "date": "2026-08-11",
   "phase": "Build",
   "sessionName": "Hypertrophy A (lift only — no run) — LOGGED",
   "intro": [
-    "Logged. Two bumps fire W18 Tue: incline 155×5 RIR 2 clears the re-attempt gate → 160 (Adj #257), and rear-delt RIR 4/4 repeats the under-load pattern → 145 (Adj #258). Elbow 12th consecutive clean, but both arm movements regressed — the §10.A 2nd-movement decision is held to the W18 Tue brief (Adj #259/#260)."
+    "Logged. Three bumps now fire W18 Tue: incline 155×5 RIR 2 clears the re-attempt gate → 160 (Adj #257), rear-delt RIR 4/4 repeats the under-load pattern → 145 (Adj #258), and DB lateral Tue 30 → 35 by athlete directive (Adj #265). The §10.A 2nd biceps/triceps movement is deferred indefinitely — no longer surfaces at briefs (Adj #264)."
   ],
   "lift": {
     "table": [
@@ -32,7 +32,7 @@
         "load": "30",
         "rir": "4/3/3/3/3/3",
         "rest": "60–90s",
-        "cue": "Opener soft a 5th week; closers off failure — hold 30, gate to W18 brief (Adj #261)"
+        "cue": "Opener soft a 5th week; closers off failure — bumped 35 by athlete directive, gate retired (Adj #265)"
       },
       {
         "exercise": "Preacher curl uni",
@@ -133,9 +133,9 @@
     },
     {
       "exercise": "DB lateral raise (Tue Hyp A)",
-      "load": "30 working (hold by rule — gate itself under review W18 Tue)",
+      "load": "30 → 35 fires W18 Tue 8-18 (athlete directive 8-11)",
       "lastVerified": "W17 Tue 8/11 (30×12 RIR 4 / ×12 RIR 3 ×5, full 6-set dose)",
-      "note": "Softest full-dose outing of the run — opener RIR 4 (5th consecutive soft opener) and the first time sets 5-6 came off failure against the last-2-to-failure ask; 72 total. Held 30 by the letter of Adj #169, but the gate has gone five full-dose weeks unresolved while the opener drifts softer. Decision at the W18 Tue brief: bump 35, enforce the failure ask for a week, or restate the gate (Adj #261)"
+      "note": "Bumped on accumulated evidence, not on the gate — the Adj #127/#149/#169 opener-RIR condition went five full-dose weeks unresolved while the opener drifted softer (RIR 2→3→3→4), which is circular; that condition is RETIRED and does not carry to 35. Dose unchanged: §3.A 6×12, RPE 9, last 2 sets to failure. Read at 35 — lands if the front four hold the 12 floor with the closers run to failure; revert 30 only if the front four can't hold 12. W17's closers-off-failure flag is an execution read, not a load read. Same number as the Sat slot but not the same dose; the two are independent (Adj #261/#265)"
     },
     {
       "exercise": "DB lateral raise (Sat Hyp B)",
@@ -159,7 +159,7 @@
       "exercise": "Cable pushdown uni",
       "load": "27.5/arm working (hold-until-clean)",
       "lastVerified": "W17 Tue 8/11 (27.5×12/12/8/8 RIR 2/0/0/0, full dose)",
-      "note": "Back half COLLAPSED — 40 total, worst at the load in either slot (W15 Tue 43): set 2 lost two clicks, set 3 fell 11→8. Hold-until-clean further away than at any point since the debut, and this was the most favorable context the slot gets → durability limit at 27.5, not placement. Hold both slots, no 30; next read W17 Sat 8-15. Elbow 12th consecutive clean; §10.A 2nd-movement decision carried to the W18 Tue brief (Adj #259/#260)"
+      "note": "Back half COLLAPSED — 40 total, worst at the load in either slot (W15 Tue 43): set 2 lost two clicks, set 3 fell 11→8. Hold-until-clean further away than at any point since the debut, and this was the most favorable context the slot gets → durability limit at 27.5, not placement. Hold both slots, no 30; next read W17 Sat 8-15, and a second consecutive collapse becomes a load/set-count conversation. Elbow 12th consecutive clean; the §10.A 2nd-movement add is DEFERRED indefinitely by athlete directive — gate stays met, eligibility banked, no brief line (Adj #259/#264)"
     },
     {
       "exercise": "Rear-delt fly",
