@@ -1,117 +1,29 @@
 {
-  "generatedAt": "2026-08-11T20:05:00-04:00",
+  "generatedAt": "2026-08-12T12:58:00-04:00",
   "week": "W17",
-  "day": "Tue",
-  "date": "2026-08-11",
+  "day": "Wed",
+  "date": "2026-08-12",
   "phase": "Build",
-  "sessionName": "Hypertrophy A (lift only — no run) — LOGGED",
+  "sessionName": "Threshold 6×1K @ T (60 s rec)",
   "intro": [
-    "Logged. Three bumps now fire W18 Tue: incline 155×5 RIR 2 clears the re-attempt gate → 160 (Adj #257), rear-delt RIR 4/4 repeats the under-load pattern → 145 (Adj #258), and DB lateral Tue 30 → 35 by athlete directive (Adj #265). The §10.A 2nd biceps/triceps movement is paused short-term — it re-surfaces at the W19 Tue brief 8-25 (Adj #264/#266)."
+    "Opens at the 7:50 slow end; RPE ≤7 anchor governs. The reopen condition stays armed — a firm over-anchor read here reopens the band toward 7:50–7:55 ahead of the W19 arbitration (Adj #241/#222)."
   ],
-  "lift": {
-    "table": [
-      {
-        "exercise": "Incline BB (top)",
-        "setsReps": "1×5",
-        "load": "155",
-        "rir": "2",
-        "rest": "2–3 min",
-        "cue": "Re-attempt gate MET → 160 next Tue (Adj #257)"
-      },
-      {
-        "exercise": "Incline BB (AMRAP)",
-        "setsReps": "1×11",
-        "load": "135 (80% TM 168)",
-        "rir": "0",
-        "rest": "—",
-        "cue": "10→11, e1RM ~185; TM 168 stands"
-      },
-      {
-        "exercise": "DB lateral raise",
-        "setsReps": "6×12",
-        "load": "30",
-        "rir": "4/3/3/3/3/3",
-        "rest": "60–90s",
-        "cue": "Opener soft a 5th week; closers off failure — bumped 35 by athlete directive, gate retired (Adj #265)"
-      },
-      {
-        "exercise": "Preacher curl uni",
-        "setsReps": "10/10/10/8",
-        "load": "70/arm",
-        "rir": "1/1/0/0",
-        "rest": "90–120s",
-        "cue": "Opener gave back its click — hold 70 (Adj #263)"
-      },
-      {
-        "exercise": "Cable pushdown uni",
-        "setsReps": "12/12/8/8",
-        "load": "27.5/arm",
-        "rir": "2/0/0/0",
-        "rest": "60–90s",
-        "cue": "Back half collapsed, 40 total — hold 27.5 both slots (Adj #259)"
-      },
-      {
-        "exercise": "Decline crunch",
-        "setsReps": "3×12",
-        "load": "BW+10",
-        "rir": "3/1/0",
-        "rest": "60–90s",
-        "cue": "First full Tue 3×12 at +10 — reps met, set-3 headroom owed (Adj #262)"
-      },
-      {
-        "exercise": "Rear-delt fly",
-        "setsReps": "2×15",
-        "load": "140",
-        "rir": "4/4",
-        "rest": "60–90s",
-        "cue": "Repeat RIR 4/4 → 145 next Tue (Adj #258)"
-      }
-    ],
-    "lastWeek": {
-      "label": "Hyp A W16 Tue 8/4 (deload — sets cut ~1/3)",
-      "table": [
-        {
-          "exercise": "Incline BB",
-          "load": "155 / AMRAP 135",
-          "reps": "5 / 10",
-          "rir": "0 / 0"
-        },
-        {
-          "exercise": "DB lateral raise",
-          "load": "30",
-          "reps": "12/12/12",
-          "rir": "3/3/3"
-        },
-        {
-          "exercise": "Preacher curl uni",
-          "load": "70",
-          "reps": "10/10/10",
-          "rir": "2/1/0"
-        },
-        {
-          "exercise": "Cable pushdown uni",
-          "load": "27.5",
-          "reps": "12/12/11",
-          "rir": "3/2/0"
-        },
-        {
-          "exercise": "Decline crunch",
-          "load": "+10",
-          "reps": "12/12",
-          "rir": "2/0"
-        },
-        {
-          "exercise": "Rear-delt fly",
-          "load": "140",
-          "reps": "15",
-          "rir": "2"
-        }
-      ]
+  "lift": null,
+  "cardio": {
+    "flags": [],
+    "workout": "6×1000m @ T, 60 s jog recoveries. Reps ~4:52 each (7:50/mi = 7.7 mph at 1% on a treadmill, the nearest tick to the slow-end ask). WU 1.0–1.25 mi easy + 2–3 min build to T; CD 1.0 mi easy. Total ~6.4 mi.",
+    "targets": {
+      "pace": "7:50/mi on the reps (band 7:45–7:50); WU/CD 9:15–10:30/mi; jog rec 10:00–10:30/mi",
+      "hr": "display-only — logs, never paces (Adj #175)",
+      "cadence": "175–182 spm on the reps; 165–172 easy"
     },
-    "warmup": "Incline BB: bar×8, 95×5, 115×3, then working. General: 1–2 min band pull-aparts + scap push-ups. Pre-lift wrist-extensor isometric 3×30 s/arm (§10.A).",
-    "cooldown": "Tyler twists 3×15 + reverse Tyler 3×15 (daily, §8); daily SI prehab — clamshell, side-lying abduction, single-leg bridge, bird-dog."
+    "warmup": "1.0–1.25 mi easy jog, then 2–3 min building 8:15 → 7:50/mi.",
+    "cooldown": "1.0 mi easy Z1 + 5–8 min SI prehab.",
+    "cues": [
+      "Run all six at 7:50 — a fast open invalidates the test (Adj #222 pattern); a firm over-anchor read at the slow end is what reopens the band.",
+      "Treadmill sets 1% incline for road equivalence (Adj #177)."
+    ]
   },
-  "cardio": null,
   "currentLoads": [
     {
       "exercise": "Incline BB",
