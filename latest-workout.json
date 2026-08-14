@@ -1,31 +1,30 @@
 {
-  "generatedAt": "2026-08-12T22:55:00-04:00",
+  "generatedAt": "2026-08-14T02:40:00-04:00",
   "week": "W17",
-  "day": "Wed",
-  "date": "2026-08-12",
+  "day": "Fri",
+  "date": "2026-08-14",
   "phase": "Build",
-  "sessionName": "Threshold 6×1K @ T (60 s rec) — LOGGED",
+  "sessionName": "VO2max 5×1000m @ I (90 s rec) — gold standard",
   "intro": [
-    "Logged. RPE 7 flat across all six reps at the 7:50 slow-end ask, athlete \"mega easy\" — the Adj #241 reopen-toward-slower does NOT fire and disarms (Adj #267).",
-    "T BAND STEPPED by athlete directive the same evening: 7:45–7:50 → 7:40–7:45, releasing the heat-adjusted reserve Adj #166/#202 withheld. RPE ≤7 anchor unchanged; row split 1:52–1:57. I stays 7:00–7:15 pending Friday; the W19 cut-down still arbitrates both. First outing: W18 Wed 4×1 mi, opened on pace — RPE 8+ or a died rep reverts (Adj #271)."
+    "Decisive I-band test: open at the 7:00 fast end and run 90 s JOG recoveries — the walked-recovery pattern is two-for-two and this is the session where it invalidates the read (Adj #251/#252/#270)."
   ],
   "lift": null,
   "cardio": {
     "flags": [
-      "T band STEPPED 7:45–7:50 → 7:40–7:45 (athlete directive, Adj #271). W18 Wed's 4×1 mi is the first outing — open on pace, RPE ≤7 governs, RPE 8+ or a died rep reverts.",
-      "Cadence 168 throughout — the Adj #241 clear was treadmill-specific, not threshold-specific; watch armed at both modalities, next read Fri 8-14 (Adj #269)."
+      "Recoveries are 90 s JOG, not walked (Adj #252/#270). Jogging holds ventilation up so the reps accumulate time near VO2max; walking turns the session into five independent efforts and is the confound blocking the band question.",
+      "Full dose, no trimming — ~17.5 min of I work is what makes this read honest against W16 Sun's 12 min (Adj #251)."
     ],
-    "workout": "6×1000m @ T, 60 s rec — DONE. Reps 7:35 / 7:51 / 7:39 / 7:47 / 7:48 / 7:47 (4:42 / 4:52 / 4:45 / 4:50 / 4:50 / 4:50); work avg 7:44/mi over 28:49. RPE 7 / 7 / 7 / 7 / 7 / 7. Recoveries 11:21 / 11:38 / 12:14 / 13:42 / 15:46 / 18:29 — walking by rec 5–6. ~5.7 mi total, ~55 min; road, Vomero Plus.",
+    "workout": "5×1000m @ I, 90 s jog recovery. Rep target 4:21–4:30 (7:00–7:15/mi), opened at the 7:00 fast end.",
     "targets": {
-      "pace": "Asked 7:50/mi (band 7:45–7:50) — delivered 7:44/mi avg; rep 1 opened 7:35, reps 4–6 held 7:47/7:48/7:47",
-      "hr": "Reps 166 / 180 / 181 / 184 / 185 / 186; recoveries 177–185; CD 157 — display-only, 20 bpm drift at flat pace and flat RPE (Adj #175)",
-      "cadence": "168 throughout vs the 175–182 band — sub-band (Adj #269)"
+      "pace": "7:00–7:15/mi (4:21–4:30 per 1000m), open 7:00; recoveries jog 10:00–11:00/mi",
+      "hr": "Display-only — log it, never pace to it (Adj #175)",
+      "cadence": "175–182 spm at I; 165–172 easy. Watch is armed at both modalities, this is the next read (Adj #253/#269)"
     },
-    "warmup": "1.0 mi easy (pace n/r).",
-    "cooldown": "10:01 @ 17:46/mi — walked (0.56 mi).",
+    "warmup": "1.0–1.5 mi easy 9:15–10:30, then final 200m building to ~7:00.",
+    "cooldown": "1.0 mi / ~10 min easy 9:15–10:30, then SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3.",
     "cues": [
-      "Third consecutive fast open (rep 1 7:35) but reps 4–6 sat inside a 1-second window — pacing habit, not hazard; W18's 1-mile reps punish it less forgivingly, so open on pace (Adj #268).",
-      "Fri 5×1000m @ I: 90 s JOG recoveries, full dose, opened at 7:00 — the walked-recovery pattern is now two-for-two and Friday is the session where it matters (Adj #270/#252)."
+      "RPE 9 governs. Sub-anchor across the full dose with jog recoveries reopens the band ahead of the W19 cut-down (Wed 8-26); RPE 9 closes the question (Adj #251).",
+      "Fast opens are the standing pattern (three straight T sessions, plus Sunday's R-pace opener) — open on pace at 7:00, do not run rep 1 into the R band."
     ]
   },
   "currentLoads": [
@@ -55,7 +54,7 @@
     },
     {
       "exercise": "DB lateral raise (Sat Hyp B)",
-      "load": "35 working — 40 fires W17 Sat 8-15",
+      "load": "35 working — 40 fires W17 Sat 8-15 (tomorrow)",
       "lastVerified": "W16 Fri 8/7 (35×12/12/12 RIR 2/2/1, deload 3 of 4)",
       "note": "Cut-dose outing clean; nothing disturbs the completed rebuild. 40 goes in Sat 8-15 (Adj #227/#248). Tue slot unaffected"
     },
@@ -85,7 +84,7 @@
     },
     {
       "exercise": "Seated calf",
-      "load": "355 working (hold) → 365 fires W17 Sat 8-15",
+      "load": "355 working (hold) → 365 fires W17 Sat 8-15 (tomorrow)",
       "lastVerified": "W16 Fri 8/7 (355×12/12/12 RIR 2/1/0, deload 3 of 4)",
       "note": "Held by design (§11.B), not by read. Adj #185/#211 condition stays met → 365 goes Sat 8-15; the AM Achilles gate for it reads MON 8-17, ~40 h after the sweep (Adj #244/#249)"
     },
