@@ -175,13 +175,13 @@ Train at **current** VDOT, not goal VDOT. Update after every test (§10). **All 
 |---|---|---|---|
 | Easy / Z1 (incl. long run) | 9:15–10:30 /mi | 4–5 — full sentences; conversation test gates the top end | 2:15–2:25 |
 | Marathon (M) | 8:15–8:25 /mi | 6 | ~2:06 |
-| Threshold (T, Z2 Seiler) | 7:45–7:50 /mi | ≤7 | 1:54–1:59 |
+| Threshold (T, Z2 Seiler) | **7:40–7:45 /mi** | ≤7 | 1:52–1:57 |
 | Interval (I, Z3 Seiler, ~vVO2max) | 7:00–7:15 /mi | 9 | 1:46–1:50 |
 | Repetition (R) | 6:35–6:45 /mi | fast-but-smooth, not a sprint | 1:39–1:43 |
 | Current 5K race pace | ~7:19 raw / ~7:12 heat-adj (Riegel off the W14 3K) | 10 | ~1:45 |
 | **Goal 5K race pace** | 6:55 /mi | — | ~1:42 |
 
-*The W14 3K TT (13:13, 2026-07-22) closed the Adj #166 arbitration — T/I/M/R dropped 5–10 s/mi, T's RPE ≤7 anchor unchanged, easy holds (Adj #202). Recalc history (Adj #166/#176/#202) in program-history.md. Next §10 arbitration: W19 cut-down (renumbered from W18, Adj #204).*
+*The W14 3K TT (13:13, 2026-07-22) closed the Adj #166 arbitration — T/I/M/R dropped 5–10 s/mi, T's RPE ≤7 anchor unchanged, easy holds (Adj #202). **T stepped again 2026-08-12 (athlete directive, Adj #271): 7:45–7:50 → 7:40–7:45, releasing the heat-adjusted reserve Adj #166/#202 held back — RPE ≤7 anchor unchanged, all other paces untouched.** Recalc history (Adj #166/#176/#202/#271) in program-history.md. Next §10 arbitration: W19 cut-down (renumbered from W18, Adj #204).*
 
 Rower runs ~20–35 s/500m faster than equivalent run pace at the same effort (non-weight-bearing, more upper-body recruitment). **Anchor row substitutions to 500m split + RPE, not HR** — use the split column above at the same RPE anchor as the run session it replaces.
 
@@ -448,7 +448,7 @@ Achilles/calf AM read is now MON AM (first run after Sat's calf sweep, ~40 h).
 
 INTENSITY GOVERNANCE (pace + RPE only — exercise HR retired 2026-07-15, Adj #175)
 Z1 easy   = 9:15–10:30/mi    RPE 4–5, full sentences
-Z2 thresh = 7:45–7:50/mi     RPE ≤7
+Z2 thresh = 7:40–7:45/mi     RPE ≤7   (stepped 8-12-26, Adj #271)
 Z3 VO2max = 7:00–7:15/mi     RPE 9
 Watch HR is display-only — log it, never pace to it.
 §11.C morning check (HRV/RHR, resting) unchanged.
