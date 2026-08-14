@@ -1,17 +1,18 @@
 {
-  "generatedAt": "2026-08-12T22:15:00-04:00",
+  "generatedAt": "2026-08-12T22:55:00-04:00",
   "week": "W17",
   "day": "Wed",
   "date": "2026-08-12",
   "phase": "Build",
   "sessionName": "Threshold 6×1K @ T (60 s rec) — LOGGED",
   "intro": [
-    "Logged. RPE 7 flat across all six reps at the 7:50 slow-end ask, athlete \"mega easy\" — the Adj #241 reopen-toward-slower does NOT fire and disarms. Band 7:45–7:50 STANDS, but its slow end now reads sub-anchor on the Build's longest T dose, so T joins I as possibly conservative and the W19 cut-down (Wed 8-26) arbitrates both (Adj #267)."
+    "Logged. RPE 7 flat across all six reps at the 7:50 slow-end ask, athlete \"mega easy\" — the Adj #241 reopen-toward-slower does NOT fire and disarms (Adj #267).",
+    "T BAND STEPPED by athlete directive the same evening: 7:45–7:50 → 7:40–7:45, releasing the heat-adjusted reserve Adj #166/#202 withheld. RPE ≤7 anchor unchanged; row split 1:52–1:57. I stays 7:00–7:15 pending Friday; the W19 cut-down still arbitrates both. First outing: W18 Wed 4×1 mi, opened on pace — RPE 8+ or a died rep reverts (Adj #271)."
   ],
   "lift": null,
   "cardio": {
     "flags": [
-      "T band 7:45–7:50 STANDS; the Adj #241/#222 reopen arm is DEAD, not deferred (Adj #267). W18 Wed's 4×1 mi opens at 7:45.",
+      "T band STEPPED 7:45–7:50 → 7:40–7:45 (athlete directive, Adj #271). W18 Wed's 4×1 mi is the first outing — open on pace, RPE ≤7 governs, RPE 8+ or a died rep reverts.",
       "Cadence 168 throughout — the Adj #241 clear was treadmill-specific, not threshold-specific; watch armed at both modalities, next read Fri 8-14 (Adj #269)."
     ],
     "workout": "6×1000m @ T, 60 s rec — DONE. Reps 7:35 / 7:51 / 7:39 / 7:47 / 7:48 / 7:47 (4:42 / 4:52 / 4:45 / 4:50 / 4:50 / 4:50); work avg 7:44/mi over 28:49. RPE 7 / 7 / 7 / 7 / 7 / 7. Recoveries 11:21 / 11:38 / 12:14 / 13:42 / 15:46 / 18:29 — walking by rec 5–6. ~5.7 mi total, ~55 min; road, Vomero Plus.",
