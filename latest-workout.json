@@ -1,27 +1,30 @@
 {
-  "generatedAt": "2026-08-12T12:58:00-04:00",
+  "generatedAt": "2026-08-12T22:15:00-04:00",
   "week": "W17",
   "day": "Wed",
   "date": "2026-08-12",
   "phase": "Build",
-  "sessionName": "Threshold 6×1K @ T (60 s rec)",
+  "sessionName": "Threshold 6×1K @ T (60 s rec) — LOGGED",
   "intro": [
-    "Opens at the 7:50 slow end; RPE ≤7 anchor governs. The reopen condition stays armed — a firm over-anchor read here reopens the band toward 7:50–7:55 ahead of the W19 arbitration (Adj #241/#222)."
+    "Logged. RPE 7 flat across all six reps at the 7:50 slow-end ask, athlete \"mega easy\" — the Adj #241 reopen-toward-slower does NOT fire and disarms. Band 7:45–7:50 STANDS, but its slow end now reads sub-anchor on the Build's longest T dose, so T joins I as possibly conservative and the W19 cut-down (Wed 8-26) arbitrates both (Adj #267)."
   ],
   "lift": null,
   "cardio": {
-    "flags": [],
-    "workout": "6×1000m @ T, 60 s jog recoveries. Reps ~4:52 each (7:50/mi = 7.7 mph at 1% on a treadmill, the nearest tick to the slow-end ask). WU 1.0–1.25 mi easy + 2–3 min build to T; CD 1.0 mi easy. Total ~6.4 mi.",
+    "flags": [
+      "T band 7:45–7:50 STANDS; the Adj #241/#222 reopen arm is DEAD, not deferred (Adj #267). W18 Wed's 4×1 mi opens at 7:45.",
+      "Cadence 168 throughout — the Adj #241 clear was treadmill-specific, not threshold-specific; watch armed at both modalities, next read Fri 8-14 (Adj #269)."
+    ],
+    "workout": "6×1000m @ T, 60 s rec — DONE. Reps 7:35 / 7:51 / 7:39 / 7:47 / 7:48 / 7:47 (4:42 / 4:52 / 4:45 / 4:50 / 4:50 / 4:50); work avg 7:44/mi over 28:49. RPE 7 / 7 / 7 / 7 / 7 / 7. Recoveries 11:21 / 11:38 / 12:14 / 13:42 / 15:46 / 18:29 — walking by rec 5–6. ~5.7 mi total, ~55 min; road, Vomero Plus.",
     "targets": {
-      "pace": "7:50/mi on the reps (band 7:45–7:50); WU/CD 9:15–10:30/mi; jog rec 10:00–10:30/mi",
-      "hr": "display-only — logs, never paces (Adj #175)",
-      "cadence": "175–182 spm on the reps; 165–172 easy"
+      "pace": "Asked 7:50/mi (band 7:45–7:50) — delivered 7:44/mi avg; rep 1 opened 7:35, reps 4–6 held 7:47/7:48/7:47",
+      "hr": "Reps 166 / 180 / 181 / 184 / 185 / 186; recoveries 177–185; CD 157 — display-only, 20 bpm drift at flat pace and flat RPE (Adj #175)",
+      "cadence": "168 throughout vs the 175–182 band — sub-band (Adj #269)"
     },
-    "warmup": "1.0–1.25 mi easy jog, then 2–3 min building 8:15 → 7:50/mi.",
-    "cooldown": "1.0 mi easy Z1 + 5–8 min SI prehab.",
+    "warmup": "1.0 mi easy (pace n/r).",
+    "cooldown": "10:01 @ 17:46/mi — walked (0.56 mi).",
     "cues": [
-      "Run all six at 7:50 — a fast open invalidates the test (Adj #222 pattern); a firm over-anchor read at the slow end is what reopens the band.",
-      "Treadmill sets 1% incline for road equivalence (Adj #177)."
+      "Third consecutive fast open (rep 1 7:35) but reps 4–6 sat inside a 1-second window — pacing habit, not hazard; W18's 1-mile reps punish it less forgivingly, so open on pace (Adj #268).",
+      "Fri 5×1000m @ I: 90 s JOG recoveries, full dose, opened at 7:00 — the walked-recovery pattern is now two-for-two and Friday is the session where it matters (Adj #270/#252)."
     ]
   },
   "currentLoads": [
