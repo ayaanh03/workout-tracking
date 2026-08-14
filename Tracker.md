@@ -40,7 +40,7 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 
 ## Active Flags
 
-Open items that affect the next session. Full rationale/citations for every Adj # below are in `history/adjustments.md` (Build) / `history/archive/adjustments-009-163.md` (earlier) — grep the number.
+Open items that affect the next session. Full rationale/citations for every Adj # below are in `history/adjustments.md` (live, #254+) / `history/archive/adjustments-164-253.md` (Build W13–W16) / `history/archive/adjustments-009-163.md` (Reset + Base) — grep the number: `grep -rn '^N\. ' history/` finds it wherever it lives (Adj #272).
 
 - **TIER C LOCKED (Adj #164):** W12 §10 TT ran Mon 7-13 (2nd displacement) — 23:23 @ 85°F, road → goal locks **sub-21:30 (6:55/mi, 4:18/km)**; heat-adjusted ~22:40–22:55, still >22:30, so the call is heat-robust. program.md updated throughout (§0/§1.1/§4.A/§4.F/§10/§12; tune-up target rescaled 22:00–22:15 — that test is now W23, Adj #204). Not renegotiated later (§10).
 - **Treadmill quality at 1% (Adj #177):** the W13 Wed T ran as a treadmill sub (AQI 128) at 0% incline — set 1% on future treadmill quality sessions for road equivalence. **First applied W14 Fri 7-24 (Adj #205).**
