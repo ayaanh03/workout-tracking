@@ -1,33 +1,137 @@
 {
-  "generatedAt": "2026-08-12T22:55:00-04:00",
+  "generatedAt": "2026-08-14T03:05:00-04:00",
   "week": "W17",
-  "day": "Wed",
-  "date": "2026-08-12",
+  "day": "Fri",
+  "date": "2026-08-14",
   "phase": "Build",
-  "sessionName": "Threshold 6×1K @ T (60 s rec) — LOGGED",
+  "sessionName": "Hypertrophy B (full dose) — swapped from Sat, athlete directive",
   "intro": [
-    "Logged. RPE 7 flat across all six reps at the 7:50 slow-end ask, athlete \"mega easy\" — the Adj #241 reopen-toward-slower does NOT fire and disarms (Adj #267).",
-    "T BAND STEPPED by athlete directive the same evening: 7:45–7:50 → 7:40–7:45, releasing the heat-adjusted reserve Adj #166/#202 withheld. RPE ≤7 anchor unchanged; row split 1:52–1:57. I stays 7:00–7:15 pending Friday; the W19 cut-down still arbitrates both. First outing: W18 Wed 4×1 mi, opened on pace — RPE 8+ or a died rep reverts (Adj #271)."
+    "Back half swapped (Adj #273): Fri = Hyp B, Sat = VO2. Both held bumps fire tonight — DB lateral 35→40 (Adj #248), seated calf 355→365 (Adj #249); the session-day AM Achilles gate reads today and is clean by default."
   ],
-  "lift": null,
-  "cardio": {
-    "flags": [
-      "T band STEPPED 7:45–7:50 → 7:40–7:45 (athlete directive, Adj #271). W18 Wed's 4×1 mi is the first outing — open on pace, RPE ≤7 governs, RPE 8+ or a died rep reverts.",
-      "Cadence 168 throughout — the Adj #241 clear was treadmill-specific, not threshold-specific; watch armed at both modalities, next read Fri 8-14 (Adj #269)."
+  "lift": {
+    "table": [
+      {
+        "exercise": "Lat pulldown",
+        "setsReps": "4×8–10",
+        "load": "165",
+        "rir": "2, last set 1",
+        "rest": "90–120s",
+        "cue": "170 bump-eligible on a full-dose clean 4×8 (Adj #245)"
+      },
+      {
+        "exercise": "Chest-supp row",
+        "setsReps": "3×10",
+        "load": "80",
+        "rir": "1–2",
+        "rest": "90–120s",
+        "cue": "Full 3×10 with sets 1-2 at RIR 1+ gates the next 5-lb step (Adj #247)"
+      },
+      {
+        "exercise": "DB lateral raise",
+        "setsReps": "4×12–15",
+        "load": "40 — BUMP from 35",
+        "rir": "last set to failure",
+        "rest": "60–90s",
+        "cue": "Rebuild complete; first outing at 40 (Adj #227/#248)"
+      },
+      {
+        "exercise": "Preacher curl uni",
+        "setsReps": "4×12",
+        "load": "60/arm",
+        "rir": "1–2",
+        "rest": "60–90s",
+        "cue": "Hold 60 (Adj #247)"
+      },
+      {
+        "exercise": "Cable pushdown uni",
+        "setsReps": "4×12–15",
+        "load": "27.5/arm",
+        "rir": "1–2",
+        "rest": "60–90s",
+        "cue": "The re-read on Tuesday's back-half collapse, in the most rested slot Hyp B gets (Adj #259)"
+      },
+      {
+        "exercise": "Decline crunch",
+        "setsReps": "3×10",
+        "load": "BW+10",
+        "rir": "1–2",
+        "rest": "60–90s",
+        "cue": "Set-3 headroom is the open gate (Adj #247)"
+      },
+      {
+        "exercise": "Seated calf",
+        "setsReps": "4×12–15",
+        "load": "365 — BUMP from 355",
+        "rir": "last set to failure",
+        "rest": "60–90s",
+        "cue": "AM gate clean → fires. Sat AM read becomes the gate (Adj #273)"
+      },
+      {
+        "exercise": "Chest fly",
+        "setsReps": "2×12",
+        "load": "130",
+        "rir": "3",
+        "rest": "60–90s",
+        "cue": "Hold 130, no open item (Adj #247)"
+      }
     ],
-    "workout": "6×1000m @ T, 60 s rec — DONE. Reps 7:35 / 7:51 / 7:39 / 7:47 / 7:48 / 7:47 (4:42 / 4:52 / 4:45 / 4:50 / 4:50 / 4:50); work avg 7:44/mi over 28:49. RPE 7 / 7 / 7 / 7 / 7 / 7. Recoveries 11:21 / 11:38 / 12:14 / 13:42 / 15:46 / 18:29 — walking by rec 5–6. ~5.7 mi total, ~55 min; road, Vomero Plus.",
-    "targets": {
-      "pace": "Asked 7:50/mi (band 7:45–7:50) — delivered 7:44/mi avg; rep 1 opened 7:35, reps 4–6 held 7:47/7:48/7:47",
-      "hr": "Reps 166 / 180 / 181 / 184 / 185 / 186; recoveries 177–185; CD 157 — display-only, 20 bpm drift at flat pace and flat RPE (Adj #175)",
-      "cadence": "168 throughout vs the 175–182 band — sub-band (Adj #269)"
+    "lastWeek": {
+      "label": "Hyp B W16 Fri 8/7 (deload — cut dose, 3/2/3/3/3/2/3/1)",
+      "table": [
+        {
+          "exercise": "Lat pulldown",
+          "load": "165",
+          "reps": "8/8/7",
+          "rir": "2/1/0"
+        },
+        {
+          "exercise": "Chest-supp row",
+          "load": "80",
+          "reps": "10/10",
+          "rir": "2/0"
+        },
+        {
+          "exercise": "DB lateral raise",
+          "load": "35",
+          "reps": "12/12/12",
+          "rir": "2/2/1"
+        },
+        {
+          "exercise": "Preacher curl uni",
+          "load": "60",
+          "reps": "12/12/10",
+          "rir": "2/1/0"
+        },
+        {
+          "exercise": "Cable pushdown uni",
+          "load": "27.5",
+          "reps": "12/12/10",
+          "rir": "1/0/0"
+        },
+        {
+          "exercise": "Decline crunch",
+          "load": "+10",
+          "reps": "10/10",
+          "rir": "2/1"
+        },
+        {
+          "exercise": "Seated calf",
+          "load": "355",
+          "reps": "12/12/12",
+          "rir": "2/1/0"
+        },
+        {
+          "exercise": "Chest fly",
+          "load": "130",
+          "reps": "12",
+          "rir": "3"
+        }
+      ]
     },
-    "warmup": "1.0 mi easy (pace n/r).",
-    "cooldown": "10:01 @ 17:46/mi — walked (0.56 mi).",
-    "cues": [
-      "Third consecutive fast open (rep 1 7:35) but reps 4–6 sat inside a 1-second window — pacing habit, not hazard; W18's 1-mile reps punish it less forgivingly, so open on pace (Adj #268).",
-      "Fri 5×1000m @ I: 90 s JOG recoveries, full dose, opened at 7:00 — the walked-recovery pattern is now two-for-two and Friday is the session where it matters (Adj #270/#252)."
-    ]
+    "warmup": "Wrist-extensor isometric 3×30 s/arm (§8, pre-lift). 1–2 min dynamic — band pull-aparts, scap push-ups. Lat pulldown ramp 1×10 @ ~115.",
+    "cooldown": "SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3."
   },
+  "cardio": null,
   "currentLoads": [
     {
       "exercise": "Incline BB",
@@ -55,9 +159,9 @@
     },
     {
       "exercise": "DB lateral raise (Sat Hyp B)",
-      "load": "35 working — 40 fires W17 Sat 8-15",
+      "load": "35 → 40 FIRES TODAY, Fri 8-14 (slot swapped off Sat, Adj #273)",
       "lastVerified": "W16 Fri 8/7 (35×12/12/12 RIR 2/2/1, deload 3 of 4)",
-      "note": "Cut-dose outing clean; nothing disturbs the completed rebuild. 40 goes in Sat 8-15 (Adj #227/#248). Tue slot unaffected"
+      "note": "Cut-dose outing clean; nothing disturbs the completed rebuild. 40 goes TONIGHT, Fri 8-14 — the Adj #273 swap moves the slot, not the dose or the bump (Adj #227/#248/#273). Tue slot unaffected"
     },
     {
       "exercise": "Preacher curl uni (Tue Hyp A)",
@@ -85,9 +189,9 @@
     },
     {
       "exercise": "Seated calf",
-      "load": "355 working (hold) → 365 fires W17 Sat 8-15",
+      "load": "355 → 365 FIRES TODAY, Fri 8-14; post-sweep read compresses to SAT AM and becomes a gate (Adj #273)",
       "lastVerified": "W16 Fri 8/7 (355×12/12/12 RIR 2/1/0, deload 3 of 4)",
-      "note": "Held by design (§11.B), not by read. Adj #185/#211 condition stays met → 365 goes Sat 8-15; the AM Achilles gate for it reads MON 8-17, ~40 h after the sweep (Adj #244/#249)"
+      "note": "Adj #185/#211 condition stays met and the session-day AM gate reads today, clean by default → 365 fires. What the swap changes is the post-sweep read: the first run after tonight's sweep is Saturday's VO2 at ~18 h and maximal I intensity, not Monday's easy long at ~40 h, so Adj #244's Mon-AM re-pointing is suspended this week — SAT AM 8-15 is the gate, Mon 8-17 the confirming second read. Symptomatic Sat AM → protect the VO2 (the decisive band test) and revert 355 at W18 Sat. Precedent: the identical Fri-sweep → Sat-I shape ran clean at 355 on 7-31/8-1 (Adj #230/#232/#273)"
     },
     {
       "exercise": "Decline crunch",
