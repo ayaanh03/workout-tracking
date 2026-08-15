@@ -1,137 +1,29 @@
 {
-  "generatedAt": "2026-08-14T23:20:00-04:00",
+  "generatedAt": "2026-08-15T16:30:00-04:00",
   "week": "W17",
-  "day": "Fri",
-  "date": "2026-08-14",
+  "day": "Sat",
+  "date": "2026-08-15",
   "phase": "Build",
-  "sessionName": "Hypertrophy B (full dose) — swapped from Sat, athlete directive",
+  "sessionName": "VO2max 5×1000m @ I, 90 s jog rec — gold standard (swapped from Fri, Adj #273)",
   "intro": [
-    "Back half swapped (Adj #273): Fri = Hyp B, Sat = VO2. Both held bumps fire tonight — DB lateral 35→40 (Adj #248), seated calf 355→365 (Adj #249); the session-day AM Achilles gate reads today and is clean by default."
+    "Achilles gate reads this AM — ~18 h after Friday's 365 calf sweep, which only partially landed; symptomatic → protect this session and revert 355 at W18 Sat (Adj #276), run itself on the §12 go/no-go."
   ],
-  "lift": {
-    "table": [
-      {
-        "exercise": "Lat pulldown",
-        "setsReps": "4×8–10",
-        "load": "165",
-        "rir": "2, last set 1",
-        "rest": "90–120s",
-        "cue": "170 bump-eligible on a full-dose clean 4×8 (Adj #245)"
-      },
-      {
-        "exercise": "Chest-supp row",
-        "setsReps": "3×10",
-        "load": "80",
-        "rir": "1–2",
-        "rest": "90–120s",
-        "cue": "Full 3×10 with sets 1-2 at RIR 1+ gates the next 5-lb step (Adj #247)"
-      },
-      {
-        "exercise": "DB lateral raise",
-        "setsReps": "4×12–15",
-        "load": "40 — BUMP from 35",
-        "rir": "last set to failure",
-        "rest": "60–90s",
-        "cue": "Rebuild complete; first outing at 40 (Adj #227/#248)"
-      },
-      {
-        "exercise": "Preacher curl uni",
-        "setsReps": "4×12",
-        "load": "60/arm",
-        "rir": "1–2",
-        "rest": "60–90s",
-        "cue": "Hold 60 (Adj #247)"
-      },
-      {
-        "exercise": "Cable pushdown uni",
-        "setsReps": "4×12–15",
-        "load": "27.5/arm",
-        "rir": "1–2",
-        "rest": "60–90s",
-        "cue": "The re-read on Tuesday's back-half collapse, in the most rested slot Hyp B gets (Adj #259)"
-      },
-      {
-        "exercise": "Decline crunch",
-        "setsReps": "3×10",
-        "load": "BW+10",
-        "rir": "1–2",
-        "rest": "60–90s",
-        "cue": "Set-3 headroom is the open gate (Adj #247)"
-      },
-      {
-        "exercise": "Seated calf",
-        "setsReps": "4×12–15",
-        "load": "365 — BUMP from 355",
-        "rir": "last set to failure",
-        "rest": "60–90s",
-        "cue": "AM gate clean → fires. Sat AM read becomes the gate (Adj #273)"
-      },
-      {
-        "exercise": "Chest fly",
-        "setsReps": "2×12",
-        "load": "130",
-        "rir": "3",
-        "rest": "60–90s",
-        "cue": "Hold 130, no open item (Adj #247)"
-      }
-    ],
-    "lastWeek": {
-      "label": "Hyp B W16 Fri 8/7 (deload — cut dose, 3/2/3/3/3/2/3/1)",
-      "table": [
-        {
-          "exercise": "Lat pulldown",
-          "load": "165",
-          "reps": "8/8/7",
-          "rir": "2/1/0"
-        },
-        {
-          "exercise": "Chest-supp row",
-          "load": "80",
-          "reps": "10/10",
-          "rir": "2/0"
-        },
-        {
-          "exercise": "DB lateral raise",
-          "load": "35",
-          "reps": "12/12/12",
-          "rir": "2/2/1"
-        },
-        {
-          "exercise": "Preacher curl uni",
-          "load": "60",
-          "reps": "12/12/10",
-          "rir": "2/1/0"
-        },
-        {
-          "exercise": "Cable pushdown uni",
-          "load": "27.5",
-          "reps": "12/12/10",
-          "rir": "1/0/0"
-        },
-        {
-          "exercise": "Decline crunch",
-          "load": "+10",
-          "reps": "10/10",
-          "rir": "2/1"
-        },
-        {
-          "exercise": "Seated calf",
-          "load": "355",
-          "reps": "12/12/12",
-          "rir": "2/1/0"
-        },
-        {
-          "exercise": "Chest fly",
-          "load": "130",
-          "reps": "12",
-          "rir": "3"
-        }
-      ]
+  "lift": null,
+  "cardio": {
+    "flags": [],
+    "workout": "5×1000m @ I, 90 s jog recovery. Open rep 1 at the 7:00 fast end (4:21); reps 2–5 in band 7:00–7:15 (4:21–4:30). Full ~17.5 min of work — RPE 9 governs.",
+    "targets": {
+      "pace": "7:00–7:15/mi (1000m = 4:21–4:30); open at 7:00",
+      "hr": "display-only — never pace to it (Adj #175)",
+      "cadence": "175–182 spm at I; 165–172 easy"
     },
-    "warmup": "Wrist-extensor isometric 3×30 s/arm (§8, pre-lift). 1–2 min dynamic — band pull-aparts, scap push-ups. Lat pulldown ramp 1×10 @ ~115.",
-    "cooldown": "SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3."
+    "warmup": "1.0 mi easy jog 9:45–10:30, then 0.25–0.5 mi build to I pace, then 2–3 min standing dynamic.",
+    "cooldown": "1.0 mi easy / Z1 9:45–10:30, then SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3.",
+    "cues": [
+      "Recoveries are 90 s JOG, not walked — Sunday's were walked and Wednesday's decayed to walking; at 90 s there is no walking version that keeps the session honest (Adj #252/#270).",
+      "Sub-anchor across the full dose with the confound removed reopens the I band ahead of the W19 cut-down (Adj #251)."
+    ]
   },
-  "cardio": null,
   "currentLoads": [
     {
       "exercise": "Incline BB",
