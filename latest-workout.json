@@ -1,135 +1,121 @@
 {
-  "generatedAt": "2026-08-14T23:20:00-04:00",
-  "week": "W17",
-  "day": "Fri",
-  "date": "2026-08-14",
+  "generatedAt": "2026-08-18T07:30:00-04:00",
+  "week": "W18",
+  "day": "Tue",
+  "date": "2026-08-18",
   "phase": "Build",
-  "sessionName": "Hypertrophy B (full dose) — swapped from Sat, athlete directive",
+  "sessionName": "Hypertrophy A (full dose — no run)",
   "intro": [
-    "Back half swapped (Adj #273): Fri = Hyp B, Sat = VO2. Both held bumps fire tonight — DB lateral 35→40 (Adj #248), seated calf 355→365 (Adj #249); the session-day AM Achilles gate reads today and is clean by default."
+    "Three bumps fire — incline 155→160 (Adj #257), DB lateral 30→35 at the full 6×12 with the opener-RIR gate retired (Adj #265), rear-delt 140→145 (Adj #258): the busiest Tuesday of the cycle."
   ],
   "lift": {
     "table": [
       {
-        "exercise": "Lat pulldown",
-        "setsReps": "4×8–10",
-        "load": "165",
-        "rir": "2, last set 1",
-        "rest": "90–120s",
-        "cue": "170 bump-eligible on a full-dose clean 4×8 (Adj #245)"
+        "exercise": "Incline BB — top set",
+        "setsReps": "1×5",
+        "load": "160 — BUMP from 155",
+        "rir": "2",
+        "rest": "2–3 min",
+        "cue": "§5 Build scheme; 160 owns miss #1 — ≤RIR 1 reverts 155 (Adj #257)"
       },
       {
-        "exercise": "Chest-supp row",
-        "setsReps": "3×10",
-        "load": "80",
-        "rir": "1–2",
-        "rest": "90–120s",
-        "cue": "Full 3×10 with sets 1-2 at RIR 1+ gates the next 5-lb step (Adj #247)"
+        "exercise": "Incline BB — AMRAP",
+        "setsReps": "1×AMRAP",
+        "load": "135 (80% TM 168)",
+        "rir": "0",
+        "rest": "2–3 min",
+        "cue": "Back-off test set; 11 last week → e1RM ~185, TM 168 stands (Adj #257)"
       },
       {
         "exercise": "DB lateral raise",
-        "setsReps": "4×12–15",
-        "load": "40 — BUMP from 35",
-        "rir": "last set to failure",
+        "setsReps": "6×12",
+        "load": "35 — BUMP from 30",
+        "rir": "1; last 2 sets to failure",
         "rest": "60–90s",
-        "cue": "Rebuild complete; first outing at 40 (Adj #227/#248)"
+        "cue": "Lands if the front four hold the 12 floor with the closers actually run to failure (Adj #265)"
       },
       {
         "exercise": "Preacher curl uni",
-        "setsReps": "4×12",
-        "load": "60/arm",
-        "rir": "1–2",
+        "setsReps": "4×10",
+        "load": "70/arm",
+        "rir": "1–2; last set 0–1",
         "rest": "60–90s",
-        "cue": "Hold 60 (Adj #247)"
+        "cue": "Hold 70 — 75 needs openers ≥RIR 3 with set 3 clean (Adj #263)"
       },
       {
         "exercise": "Cable pushdown uni",
-        "setsReps": "4×12–15",
+        "setsReps": "4×12",
         "load": "27.5/arm",
-        "rir": "1–2",
+        "rir": "1–2; last set 0–1",
         "rest": "60–90s",
-        "cue": "The re-read on Tuesday's back-half collapse, in the most rested slot Hyp B gets (Adj #259)"
+        "cue": "Read 2 of 3 on the Adj #264/#266 pause — set 3 at the 12 floor is the watch (Adj #277)"
       },
       {
         "exercise": "Decline crunch",
-        "setsReps": "3×10",
-        "load": "BW+10",
+        "setsReps": "3×12",
+        "load": "+10",
         "rir": "1–2",
         "rest": "60–90s",
-        "cue": "Set-3 headroom is the open gate (Adj #247)"
+        "cue": "Tue slot holds +10 — reps met, set-3 headroom still owed (Adj #262)"
       },
       {
-        "exercise": "Seated calf",
-        "setsReps": "4×12–15",
-        "load": "365 — BUMP from 355",
-        "rir": "last set to failure",
-        "rest": "60–90s",
-        "cue": "AM gate clean → fires. Sat AM read becomes the gate (Adj #273)"
-      },
-      {
-        "exercise": "Chest fly",
-        "setsReps": "2×12",
-        "load": "130",
+        "exercise": "Rear-delt fly",
+        "setsReps": "2×15",
+        "load": "145 — BUMP from 140",
         "rir": "3",
         "rest": "60–90s",
-        "cue": "Hold 130, no open item (Adj #247)"
+        "cue": "Joint-health slot, RPE 7; ≥RIR 3 holds, another 4/4 nudges again (Adj #258)"
       }
     ],
     "lastWeek": {
-      "label": "Hyp B W16 Fri 8/7 (deload — cut dose, 3/2/3/3/3/2/3/1)",
+      "label": "Hyp A W17 Tue 8/11",
       "table": [
         {
-          "exercise": "Lat pulldown",
-          "load": "165",
-          "reps": "8/8/7",
-          "rir": "2/1/0"
+          "exercise": "Incline BB — top set",
+          "load": "155",
+          "reps": "5",
+          "rir": "2"
         },
         {
-          "exercise": "Chest-supp row",
-          "load": "80",
-          "reps": "10/10",
-          "rir": "2/0"
+          "exercise": "Incline BB — AMRAP",
+          "load": "135",
+          "reps": "11",
+          "rir": "0"
         },
         {
           "exercise": "DB lateral raise",
-          "load": "35",
-          "reps": "12/12/12",
-          "rir": "2/2/1"
+          "load": "30",
+          "reps": "12/12/12/12/12/12",
+          "rir": "4/3/3/3/3/3"
         },
         {
           "exercise": "Preacher curl uni",
-          "load": "60",
-          "reps": "12/12/10",
-          "rir": "2/1/0"
+          "load": "70/arm",
+          "reps": "10/10/10/8",
+          "rir": "1/1/0/0"
         },
         {
           "exercise": "Cable pushdown uni",
-          "load": "27.5",
-          "reps": "12/12/10",
-          "rir": "1/0/0"
+          "load": "27.5/arm",
+          "reps": "12/12/8/8",
+          "rir": "2/0/0/0"
         },
         {
           "exercise": "Decline crunch",
           "load": "+10",
-          "reps": "10/10",
-          "rir": "2/1"
-        },
-        {
-          "exercise": "Seated calf",
-          "load": "355",
           "reps": "12/12/12",
-          "rir": "2/1/0"
+          "rir": "3/1/0"
         },
         {
-          "exercise": "Chest fly",
-          "load": "130",
-          "reps": "12",
-          "rir": "3"
+          "exercise": "Rear-delt fly",
+          "load": "140",
+          "reps": "15/15",
+          "rir": "4/4"
         }
       ]
     },
-    "warmup": "Wrist-extensor isometric 3×30 s/arm (§8, pre-lift). 1–2 min dynamic — band pull-aparts, scap push-ups. Lat pulldown ramp 1×10 @ ~115.",
-    "cooldown": "SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3."
+    "warmup": "General: 1–2 min dynamic — band pull-aparts, scap push-ups, hip openers. Incline BB ramp: bar×8, 95×5, 115×3, then the 160 top set.",
+    "cooldown": "SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1 pyramid"
   },
   "cardio": null,
   "currentLoads": [
