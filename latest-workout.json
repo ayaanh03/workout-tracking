@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T07:30:00-04:00",
+  "generatedAt": "2026-08-18T22:15:00-04:00",
   "week": "W18",
   "day": "Tue",
   "date": "2026-08-18",
@@ -121,74 +121,80 @@
   "currentLoads": [
     {
       "exercise": "Incline BB",
-      "load": "155 verified → 160 fires W18 Tue 8-18 / TM 168",
-      "lastVerified": "W17 Tue 8/11 (155×5 RIR 2 top + AMRAP 135×11, full dose)",
-      "note": "Re-attempt condition MET — reproduces the W14 line exactly, three clicks up on W16's ground-out RIR 0. Bump 160 next Tue; guard re-registers tighter (160 owns §5 miss #1): ≤RIR 1 → revert 155 again, <5 reps = miss #2 → cut TM 5–7%. AMRAP 10→11 → e1RM ~185, TM 168 stands (Adj #257)"
+      "load": "160 working — HOLD 160 W19 Tue 8-25 (athlete directive) / TM 168",
+      "lastVerified": "W18 Tue 8/18",
+      "note": "COMPLETED, NOT MISSED — all five reps landed at 160, the load that took §5 miss #1 at W15. §5 counts a miss as failing the rep prescription, so this is the W16 reading (155×5 RIR 0 = ground out, not a miss): miss #1 stands alone, TM 168 untouched, no cut. But RIR 1 is one click under the §3.A RPE 7 ask and sits exactly on the Adj #257 ≤RIR 1 revert-155 line. Athlete directive at logging — leave it at 160 — overrides that branch, which was a Tracker-level overlay tightened because 160 owned miss #1; plain §5 (miss → repeat) is what a completed-but-heavy five calls for, and repeating 160 measures the load in question where a fourth 155 outing would re-measure a load already bracketed three times. AMRAP 11 ties W17 → e1RM ~185, third straight reading in the 180–185 band. W19 Tue: 1×5 @ 160 + AMRAP @ 135. Guard: ≥RIR 2 → 165 fires; ≤RIR 1 again → revert conversation reopens on two full-dose reads; <5 reps = §5 miss #2 → cut TM 5–7% (Adj #285)"
     },
     {
       "exercise": "Lat pulldown",
       "load": "165 working (hold)",
-      "lastVerified": "W17 Fri 8/14 (165×8/8/8/7 RIR 2/1/0/0, full 4-set dose)",
-      "note": "BEST OUTING AT 165 — 31 total, past the W13 Sat debut-proper (30) and seven clear of the W15 Fri regression (28). Set 3 held the 8 floor for only the second time at the load; set 4 came up 6→7. The Adj #155/#179 gate (clean 4×8 with set 3 RIR 1) stays open on two terms — set 3 ran to failure, set 4 is one rep short — but this is the closest the load has been. Hold 165; 170 bump-eligible on the full clean 4×8 (Adj #279)"
+      "lastVerified": "W17 Fri 8/14",
+      "note": "Best outing at 165 — 31 total, past the W13 Sat debut-proper (30) and seven clear of the W15 Fri regression (28). Set 3 held the 8 floor for only the second time at the load; set 4 came up 6→7. The Adj #155/#179 gate (clean 4×8 with set 3 RIR 1) is open on two terms — set 3 ran to failure, set 4 one rep short — but this is the closest the load has been, posted in the rested Fri placement. Hold 165; 170 bump-eligible on the full clean 4×8 (Adj #279)"
     },
     {
       "exercise": "Chest-supp row",
       "load": "80 working (hold — front half earned twice)",
-      "lastVerified": "W17 Fri 8/14 (80×10/10/9 RIR 2/1/0, full 3×10 dose)",
-      "note": "29 total — the rep line repeats W15 Fri exactly (10/10/9), the best shape at the load, set 2 a click deeper. Both front sets held the 10 floor with reserve → the sets-1-2 half of the Adj #180/#226 ladder condition is met a second time; set 3 one rep short of the full 3×10 for the second time. Hold 80; the 5-lb step toward 85 fires on the full 3×10 with sets 1-2 ≥RIR 1 (Adj #281)"
+      "lastVerified": "W17 Fri 8/14",
+      "note": "29 total — the rep line repeats W15 Fri exactly (10/10/9), best shape at the load, set 2 a click deeper. Both front sets held the 10 floor with reserve → the sets-1-2 half of the Adj #180/#226 ladder condition met a second time; set 3 one rep short of the full 3×10 for the second time. Hold 80; the 5-lb step toward the pre-reset 85 fires on the full 3×10 with sets 1-2 ≥RIR 1 (Adj #281)"
     },
     {
       "exercise": "DB lateral raise (Tue Hyp A)",
-      "load": "30 → 35 fires W18 Tue 8-18 (athlete directive 8-11)",
-      "lastVerified": "W17 Tue 8/11 (30×12 RIR 4 / ×12 RIR 3 ×5, full 6-set dose)",
-      "note": "Bumped on accumulated evidence, not on the gate — the Adj #127/#149/#169 opener-RIR condition went five full-dose weeks unresolved while the opener drifted softer (RIR 2→3→3→4), which is circular; that condition is RETIRED and does not carry to 35. Dose unchanged: §3.A 6×12, RPE 9, last 2 sets to failure. Read at 35 — lands if the front four hold the 12 floor with the closers run to failure; revert 30 only if the front four can't hold 12. W17's closers-off-failure flag is an execution read, not a load read. Same number as the Sat slot but not the same dose; the two are independent (Adj #261/#265). The Sat slot's 40 debut MISSED 8-14 (Adj #275) — it does not carry here: 35 is proven at 4×12 in the Sat slot, this is a 6×12 dose, and the miss was at a load one step higher"
+      "load": "35 working — BUMP LANDED; hold 35",
+      "lastVerified": "W18 Tue 8/18",
+      "note": "Landed on the debut on the exact terms Adj #265 wrote — all six sets at the 12 floor (72 total), front four holding with reserve (2/2/1/1), revert branch nowhere in play. The read is not the total (identical to W17's 72 at 30) but that the RIR line is five clicks deeper across the session (2/2/1/1/1/0 vs 4/3/3/3/3/3): same completed work at a real intensity, exactly what the retired opener-RIR gate was structurally unable to produce. Opener RIR 2 is the firmest first set the slot has posted at any load. One term owed — set 5 came off failure at RIR 1 against the last-2-to-failure ask (improved on W17's two; an execution read, not a load read). Hold 35; 40 gates on a repeat 6×12 with the front four ≥RIR 2 and BOTH closers run to failure. Sat slot independent (Adj #286)"
     },
     {
       "exercise": "DB lateral raise (Sat Hyp B)",
-      "load": "40 — debut MISSED; hold 40 one more exposure W18 Sat 8-22, revert 35 on a repeat",
-      "lastVerified": "W17 Fri 8/14 (40×11/8/8/9 RIR 0/0/0/0, full 4-set dose)",
-      "note": "BUMP MISSED — no set reached the 12 floor and all four ran to failure. 36 total vs 48 at 35 (W15 Fri 12/12/12/12 RIR 3/2/1/0). Opener one short at 11, sets 2-3 collapsed to 8, set 4 rebounded to 9. Part load, part the Adj #118 pre-fatigue mechanism — running the front three to failure against a last-set-to-failure prescription. No revert on a single debut (Adj #225 posture); 35 itself rebuilt over four weeks (44→44→46→48). W18 Sat re-specifies the dose: sets 1-3 at RIR 1–2, only set 4 to failure. Front two under 11 there → revert 35. Tue slot independent — 35 still fires W18 Tue (Adj #275)"
+      "load": "40 — DEBUT MISSED; hold 40 one more exposure W18 Sat 8-22 with corrected execution, revert 35 on a repeat",
+      "lastVerified": "W17 Fri 8/14",
+      "note": "Bump missed — no set reached the 12 floor and all four ran to failure. 36 total vs 48 at 35. Part load, part the Adj #118 pre-fatigue mechanism (front three run to failure against a last-set-to-failure ask). No revert on a single debut. W18 Sat re-specifies the dose: sets 1-3 at RIR 1–2, only set 4 to failure. Front two under 11 there → revert 35. Tue slot independent — 35 landed W18 Tue (Adj #275/#286)"
     },
     {
       "exercise": "Preacher curl uni (Tue Hyp A)",
-      "load": "70/arm working (hold)",
-      "lastVerified": "W17 Tue 8/11 (70×10/10/10/8 RIR 1/1/0/0, full dose)",
-      "note": "38 total — front three held the 10 floor a third straight full-dose outing, but the opener gave back the RIR 2 it regained at W15 and set 4 slipped 9→8. Adj #150-shape 75-condition moved away on both terms — hold 70 (Adj #263)"
+      "load": "70 verified → 75 FIRES W19 Tue 8-25",
+      "lastVerified": "W18 Tue 8/18",
+      "note": "FIRST FULL 4×10 AT 70 — 40 total, best in the slot's history (38 → 35 → 39 → 38 → 40) — and set 3 finally held the 10 floor clean at RIR 1, the single term Adj #197/#218/#263 each cited as the blocker across four consecutive full-dose reads. Opener back to RIR 3, set 4 completes the dose at the prescribed RIR 0–1, clean descending 3/2/1/0 for the first time. Shortfall on record: set 2 at RIR 2 vs the 3/3 openers of the Adj #150 precedent. Fired anyway on the Adj #261 lesson — a gate that keeps not firing while completion improves is measuring the wrong thing. 75/arm W19 Tue, dose unchanged; revert guard: front three under the 10 floor at 75 → back to 70. Sat slot unaffected (Adj #287)"
     },
     {
       "exercise": "Preacher curl uni (Sat Hyp B)",
       "load": "60/arm working (65 unconfirmed — condition now rests on set 3 alone)",
-      "lastVerified": "W17 Fri 8/14 (60×12/12/12/10 RIR 3/2/0/0, full 4×12 dose)",
-      "note": "TIES THE BEST SAT TOTAL (46) ON THE CLEANEST RIR LINE 60 HAS PRODUCED — rep line reproduces W15 Fri exactly with both front sets a click better (3/2 vs 2/1); the 3×12 front repeats a second time. Sets 3-4 unmoved. The Adj #118 clean-with-reps-to-spare condition narrows to set 3 — a repeat of this line with set 3 ≥RIR 1 opens 65. Hold 60 (Adj #280)"
+      "lastVerified": "W17 Fri 8/14",
+      "note": "Ties the best Sat total (46) on the cleanest RIR line 60 has produced — rep line reproduces W15 Fri exactly (12/12/12/10) with both front sets a click better (3/2 vs 2/1); 3×12 front repeats a second time. Sets 3-4 unmoved. The Adj #118 clean-with-reps-to-spare condition narrows to set 3 — a repeat of this line with set 3 ≥RIR 1 opens 65. Hold 60; Tue slot unaffected (Adj #280)"
     },
     {
       "exercise": "Cable pushdown uni",
-      "load": "27.5/arm working (hold-until-clean) — DURABILITY LIMIT CONFIRMED",
-      "lastVerified": "W17 Fri 8/14 (27.5×12/12/8/9 RIR 3/0/0/0, full dose)",
-      "note": "SECOND consecutive back-half collapse — 41 total vs Tue's 40 and W15 Tue's 43; set 3 fell to 8 again, three under the floor. Adj #273 put this outing 48 h post-threshold with nothing in front of it — the most rested slot Hyp B can get — expressly to test placement, and the shape reproduced: placement is REMOVED and the Adj #259 durability reading is CONFIRMED. The opener's RIR 3 is the best first set at 27.5 in either slot, so the front end is fine; the load will not hold four sets. Hold 27.5 both slots, no 30. Elbow 13th consecutive clean. Read 1 of the 3 the Adj #264/#266 pause buys (W17 Fri collapsed / W18 Tue / W18 Sat) — two-for-two points the W19 Tue conversation at load or set count, not expansion (Adj #277)"
+      "load": "27.5/arm working (hold) — DURABILITY LIMIT ESCALATING; W19 Tue is a LOAD-OR-SET-COUNT call",
+      "lastVerified": "W18 Tue 8/18",
+      "note": "THIRD consecutive back-half collapse and by distance the worst — 36 total vs 40 (W17 Tue), 41 (W17 Fri), 43 (W15 Tue, the best). Set 3 fell to 6: six under the floor, two below the 8 both prior collapses posted, set 4 matching. Front pair held 12 a click deeper than Tuesday's (2/1 vs 2/0) — the front end is fine, the back half is failing, deeper each time. Read 2 of the 3 the Adj #264/#266 pause buys (W17 Fri, W18 Tue, W18 Sat). The trend spans three sessions across both slots — normal Tue, the most rested Hyp B placement Adj #273 could build, normal Tue again — and is worsening, not oscillating. Placement was removed at Adj #277; volume tolerance is the only reading left: 27.5 holds two working sets, not four. Hold 27.5 W18 Sat — read 3 is a formality. W19 Tue 8-25 is a load-or-set-count conversation (drop to 25, or cut to three sets) — the 2nd-movement expansion is off the table. Elbow 14th consecutive clean: the tendon is not the constraint, the dose is (Adj #288)"
     },
     {
       "exercise": "Rear-delt fly",
-      "load": "140 → 145 fires W18 Tue 8-18",
-      "lastVerified": "W17 Tue 8/11 (140×15/15 RIR 4/4, full 2×15)",
-      "note": "NUDGE CONDITION MET — repeat RIR 4/4 at the full dose, the same under-load signature behind both prior nudges (125→130, 135→140). Four reps in reserve vs the §3.A RPE 7 / RIR 3 ask; W16's lone deload set at RIR 2 confirmed as a cut-dose artifact. Bump 145, role unchanged; at 145 ≥RIR 3 → hold, another 4/4 → one more nudge (Adj #258)"
+      "load": "145 working — BUMP LANDED; hold 145, chain closed",
+      "lastVerified": "W18 Tue 8/18",
+      "note": "Landed on the target intensity. Adj #258 registered ≥RIR 3 → hold; another 4/4 → one more nudge — the first branch fires. RIR 3 is the §3.A ask verbatim (RPE 7, joint-health role), making 145 the first load in the 125→130→135→140→145 chain to arrive on-target rather than short of it; every prior step was diagnosed by a repeat RIR 4/4. The slot is correctly loaded for the first time since W9. Hold 145, role unchanged (2×15, RPE 7, health zone per §6). No open gate and no scheduled read — it re-enters the nudge protocol only if a future full-dose outing drifts back to RIR 4/4 (Adj #290)"
     },
     {
       "exercise": "Seated calf",
-      "load": "365 working — bump PARTIALLY LANDED; hold 365 W18 Sat 8-22 to rebuild. Achilles read CLOSED CLEAN Mon 8-17 — no revert",
-      "lastVerified": "W17 Fri 8/14 (365×12/12/10/10 RIR 1/1/0/0, full 4-set dose)",
-      "note": "Front pair held the 12 floor with a click of reserve each; back pair fell two short at failure. 44 total vs 355's two 48s. Weaker on the sweep than 355's own debut but carrying reserve that landing never had (RIR 1/1 vs 1/0) — in range, short of the sweep. Hold 365 and rebuild toward the 4×12; 375 gates on a clean 4×12 sweep with headroom, AM-gated. Achilles RESOLVED: the Adj #276 compressed Sat-AM gate never ran (the VO2 was missed, Adj #282), so the read reverted to the ~66 h Z1 shape Adj #244/#249 designed — the Mon 8-17 long, 65 min @ 9:59, no pain reported, clean AM/during/post by default. 365's first exposure produced no Achilles signal at any read; the symptomatic-revert-355 branch is dead. W18 Sat is a hold, not a gated bump, so no session-day AM gate is required; the standing first-run-after read returns Mon 8-24 (Adj #284)"
+      "load": "365 working — bump PARTIALLY LANDED; hold 365 W18 Sat 8-22 to rebuild. Achilles read CLOSED CLEAN Mon 8-17 — no revert (Adj #284)",
+      "lastVerified": "W17 Fri 8/14",
+      "note": "Front pair held the 12 floor with a click of reserve each; back pair fell two short at failure. 44 total vs 355's two 48s. Weaker on the sweep than 355's own debut but carrying reserve that landing never had — in range, short of the sweep. Hold 365 and rebuild toward the 4×12; 375 gates on a clean 4×12 sweep with headroom, AM-gated. Achilles resolved: 365's first exposure produced no signal at any read, the revert-355 branch is dead, and the standing first-run-after read returns Mon 8-24 (Adj #276/#284)"
     },
     {
       "exercise": "Decline crunch",
-      "load": "Sat slot: +10 → +15 FIRES W18 Sat 8-22 (gate MET). Tue slot: +10 hold",
-      "lastVerified": "Sat: W17 Fri 8/14 (+10×10/10/10 RIR 3/2/1, full 3×10); Tue: W17 Tue 8/11 (+10×12/12/12 RIR 3/1/0, full dose)",
-      "note": "SAT: GATE MET — the rebuild is complete. The Adj #184/#212/#231 condition asks a full 3×10 at +10 with set 3 ≥RIR 1–2, and this is the first outing to deliver both: all three at the 10 target and set 3 clean at RIR 1, the whole line a click above the best previous. Bump +15 at W18 Sat, dose unchanged 3×10 — full 3×10 with a click at set 3 holds it, losing the 10 floor on sets 1-2 reverts (Adj #278). TUE: first full 3×12 at +10 (36 total) — rep half of the Adj #152/#172 gate met, set-3 headroom still owed; hold +10, not carried by the Sat bump (Adj #262). No revert to BW at either slot"
+      "load": "Sat slot: +10 → +15 FIRES W18 Sat 8-22 (GATE MET). Tue slot: +10 hold — set 3 REGRESSED 8-18",
+      "lastVerified": "Sat: W17 Fri 8/14; Tue: W18 Tue 8/18",
+      "note": "SAT: gate met — first outing to deliver a full 3×10 at +10 with set 3 clean at RIR 1. Bump +15 at W18 Sat, dose unchanged 3×10; losing the 10 floor on sets 1-2 reverts (Adj #278). TUE: first regression of the +10 rebuild — 34 total (12/12/10 RIR 2/2/0) vs W17's 36. Front pair repeated the 12s a click flatter (2/2 vs 3/1); the whole loss is the closer, 12 → 10 at failure. Rebuild reads 28 → 26 → 33 → 36 → 34. The Adj #152/#172 gate owed only headroom a week ago and now owes reps as well — hold +10, not carried by the Sat bump (Adj #289). No revert to BW at either slot"
+    },
+    {
+      "exercise": "Soleus wall-sit",
+      "load": "RETIRED",
+      "lastVerified": "W7 Tue 6/2",
+      "note": "Permanently dropped from the program per athlete directive; Adj #31/#42 carry-forwards moot (Adj #52)"
     },
     {
       "exercise": "Chest Fly",
       "load": "130 working (confirmed)",
-      "lastVerified": "W17 Fri 8/14 (130×12/12 RIR 3/1, full 2×12)",
+      "lastVerified": "W17 Fri 8/14",
       "note": "Reproduces W14 Sat exactly and sits on the §3.B RPE 7 ask — opener with three in reserve, set 2 spent to a click. Hold 130 — no open item (Adj #281)"
     }
   ]
