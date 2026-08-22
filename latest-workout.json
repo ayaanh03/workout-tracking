@@ -1,29 +1,138 @@
 {
-  "generatedAt": "2026-08-21T00:30:00-04:00",
+  "generatedAt": "2026-08-22T01:15:00-04:00",
   "week": "W18",
-  "day": "Fri",
-  "date": "2026-08-21",
+  "day": "Sat",
+  "date": "2026-08-22",
   "phase": "Build",
-  "sessionName": "VO2max 8×800m @ I, 90 s rec",
+  "sessionName": "Hypertrophy B (lift only, no run)",
   "intro": [
-    "Decisive I-band read — unread since 8-9 and the walked-recovery confound never removed: open at the 7:00 fast end, 90 s JOG recoveries, full dose (Adj #282/#251/#252)."
+    "Decline crunch +10 -> +15 fires (Adj #278); DB lateral holds 40 with sets 1-3 at RIR 1-2 and only set 4 to failure (Adj #275)."
   ],
-  "lift": null,
-  "cardio": {
-    "flags": [],
-    "workout": "8×800m @ I (7:00–7:15), 90 s jog recovery between reps",
-    "targets": {
-      "pace": "open 7:00, band 7:00–7:15/mi (~3:30 per 800m), RPE 9",
-      "hr": "display-only — do not pace to it (Adj #175)",
-      "cadence": "175–182 spm"
+  "lift": {
+    "table": [
+      {
+        "exercise": "Lat pulldown (neutral)",
+        "setsReps": "4×8–10",
+        "load": "165",
+        "rir": "2, last 1",
+        "rest": "90–120s",
+        "cue": ""
+      },
+      {
+        "exercise": "Chest-supp row",
+        "setsReps": "3×10",
+        "load": "80",
+        "rir": "1–2",
+        "rest": "90–120s",
+        "cue": ""
+      },
+      {
+        "exercise": "DB lateral raise",
+        "setsReps": "4×12–15",
+        "load": "40",
+        "rir": "1–2 on sets 1-3, set 4 to failure",
+        "rest": "60–90s",
+        "cue": ""
+      },
+      {
+        "exercise": "Preacher curl uni",
+        "setsReps": "4×12",
+        "load": "60/arm",
+        "rir": "1–2",
+        "rest": "60–90s",
+        "cue": ""
+      },
+      {
+        "exercise": "Cable pushdown uni",
+        "setsReps": "4×12–15",
+        "load": "27.5/arm",
+        "rir": "1–2, last 0–1",
+        "rest": "60–90s",
+        "cue": ""
+      },
+      {
+        "exercise": "Decline crunch",
+        "setsReps": "3×10",
+        "load": "+15",
+        "rir": "1–2",
+        "rest": "60–90s",
+        "cue": ""
+      },
+      {
+        "exercise": "Seated calf",
+        "setsReps": "4×12–15",
+        "load": "365",
+        "rir": "1–2, last to failure",
+        "rest": "60–90s",
+        "cue": ""
+      },
+      {
+        "exercise": "Chest flye",
+        "setsReps": "2×12",
+        "load": "130",
+        "rir": "3",
+        "rest": "60–90s",
+        "cue": ""
+      }
+    ],
+    "lastWeek": {
+      "label": "Hyp B W17 Fri 8/14",
+      "table": [
+        {
+          "exercise": "Lat pulldown",
+          "load": "165",
+          "reps": "8/8/8/7",
+          "rir": "2/1/0/0"
+        },
+        {
+          "exercise": "Chest-supp row",
+          "load": "80",
+          "reps": "10/10/9",
+          "rir": "2/1/0"
+        },
+        {
+          "exercise": "DB lateral raise",
+          "load": "40",
+          "reps": "11/8/8/9",
+          "rir": "0/0/0/0"
+        },
+        {
+          "exercise": "Preacher curl uni",
+          "load": "60/arm",
+          "reps": "12/12/12/10",
+          "rir": "3/2/0/0"
+        },
+        {
+          "exercise": "Cable pushdown uni",
+          "load": "27.5/arm",
+          "reps": "12/12/8/9",
+          "rir": "3/0/0/0"
+        },
+        {
+          "exercise": "Decline crunch",
+          "load": "+10",
+          "reps": "10/10/10",
+          "rir": "3/2/1"
+        },
+        {
+          "exercise": "Seated calf",
+          "load": "365",
+          "reps": "12/12/10/10",
+          "rir": "1/1/0/0"
+        },
+        {
+          "exercise": "Chest flye",
+          "load": "130",
+          "reps": "12/12",
+          "rir": "3/1"
+        }
+      ]
     },
-    "warmup": "1.0–1.5 mi easy 9:15–10:30/mi, building the last 2–3 min toward I",
-    "cooldown": "1.0 mi easy Z1 9:15–10:30/mi + SI prehab (Tyler 3×15, reverse Tyler 3×15, McGill Big 3)",
-    "cues": [
-      "Recoveries are 90 s JOG, not walked — the confound has to be absent for the band read to count (Adj #252/#293).",
-      "RPE 9 governs. Sub-anchor across the full dose reopens the band toward faster ahead of the W19 cut-down (Wed 8-26, §10)."
-    ]
+    "warmup": "1–2 min dynamic (band pull-aparts, scap push-ups, hip openers); wrist-extensor isometric 3×30 s/arm (§10.A); lat pulldown ramp 1×10 @ 100",
+    "cooldown": "SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1",
+    "notes": "Pushdown is read 3 of 3 at 27.5 — set 3 at 8+ or W19 Tue goes load-or-set-count (Adj #288); calf 365 rebuilds toward the full 4×12, DB lateral front two under 11 reverts 35 (Adj #276/#275)."
   },
+  "cardio": null,
   "currentLoads": [
     {
       "exercise": "Incline BB",
