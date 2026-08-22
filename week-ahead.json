@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-21T23:55:00-04:00",
+  "generatedAt": "2026-08-22T20:05:00-04:00",
   "week": "W18",
   "phase": "Build",
-  "summary": "W18 is the peak load week of the Build (~21 mi, §4.D), the second full v4.4 three-run week, and the FIRST week of the Build to bank all three runs of the template: Mon LONG 65 min delivered in full (every mile inside the easy band — Adj #256 watch closed, and the calf-365 Achilles read closed clean at ~66 h, Adj #283/#284); Tue Hyp A landed all three bumps and fired preacher 75 for W19, against a third straight pushdown back-half collapse (Adj #285–#290); Wed T validated the stepped 7:40–7:45 band on its first outing (4×1 mi at 7:41 avg, RPE 7 across, opened on pace, recoveries jogged — Adj #291–#294); Fri VO2 SETTLED the I band (8×800m at 7:07/mi avg, RPE to 10, pace decaying to the slow edge on the full dose with the walked-recovery confound removed — 7:00–7:15 confirmed correct, nothing reopens, Adj #296–#300). Both pace questions the Build has carried resolved in the same week and in opposite directions: T stepped 5 s/mi faster and held, I held where it was — so the W19 cut-down (Wed 8-26, §10) arbitrates T alone. Sat Hyp B is the only session left: calf holds 365 to rebuild toward the 4×12, DB lateral holds 40 with sets 1-3 at RIR 1–2 and only set 4 to failure, decline crunch +15 fires, and the pushdown takes read 3 of 3 before W19 Tue turns into a load-or-set-count call.",
+  "summary": "W18 CLOSED 8-22 as the FIRST COMPLETE v4.4 WEEK of the Build — 3 runs (~19.6 mi) + 2 lifts, every programmed session banked, nothing missed, moved or under-filled (Adj #308), the first such week since the three-run template went live at W17. Mon long 6.70 mi delivered in full with every mile inside the easy band (Adj #283) and the calf-365 Achilles read clean at ~66 h (Adj #284); Tue Hyp A landed all three bumps and fired preacher 75 for W19 (Adj #285–#290); Wed T validated the stepped 7:40–7:45 band on its first outing (Adj #291–#294); Fri VO2 SETTLED the I band at 7:00–7:15 (Adj #296–#300); Sat Hyp B met the lat gate (170 fires W19 Sat) and advanced the calf rebuild to 46, against a DB lateral revert to 35, a missed +15 crunch debut, and the pushdown switched to a two-handed rope with its dose question pushed to W19 Tue (Adj #301–#307). Both pace questions the Build has carried since W15 resolved in the same week and in opposite directions — T stepped 5 s/mi faster and held, I held where it was — so the W19 cut-down (Wed 8-26, §10) arbitrates T alone. W19 opens Mon 8-24: the added Build load week (~25 mi, Adj #204) and the last full week before the W20 deload.",
   "days": [
     {
       "date": "2026-08-17",
@@ -43,15 +43,15 @@
       "date": "2026-08-22",
       "day": "Sat",
       "session": "Hyp B — lift only (no run under v4.4)",
-      "note": "Calf HOLDS 365 to rebuild toward the full 4×12 — the Achilles read closed clean Mon, so no revert and no session-day gate (Adj #276/#284). DB lateral HOLDS 40 with the dose re-specified: sets 1-3 at RIR 1–2, only set 4 to failure; front two under 11 reverts to 35 (Adj #275). Decline crunch +15 fires off the cleared 3×10 gate (Adj #278). Pushdown 27.5 is read 3 of 3 on the Adj #264/#266 pause — but after read 2 came back worse on Tuesday (36 total, set 3 at 6), it is a formality rather than a decision point: W19 Tue is already settled as a load-or-set-count conversation, not the 2nd-movement expansion (Adj #288). Holds elsewhere — lat 165, row 80, Sat preacher 60, fly 130.",
-      "status": "today"
+      "note": "Logged — full §3.B dose on all eight movements. Lat pulldown 165×8/8/8/8 RIR 2/2/1/0: the first full clean 4×8 at the load, 32 total, closing both terms of the Adj #155/#179 gate (set 3 at the floor with a click, set 4 completing it) → 170 fires W19 Sat 8-29 with a front-three revert guard (Adj #301). Seated calf 365×12/12/11/11 RIR 2/0/0/0 = 46, up from 44 — back pair up a rep each on the best opener 365 has posted, two off the 4×12 sweep; hold and rebuild, Achilles clean at every read a second full-dose exposure (Adj #306). DB lateral 40×10/9/8/9 all to failure = 36 — front two under 11, so the Adj #275 revert trigger fires and 35 comes back W19 Sat (Adj #302). Decline crunch 13.2×12/8/6 = 26 — the +15 debut missed off an opener run two reps past the 10 target, so it gets one more exposure with the opener capped at 10 and a hard revert to +10 if sets 1-2 lose the floor (Adj #305). Cable pushdown switched to a two-handed rope by athlete directive (program.md v4.6, Adj #303): 55×10/8/8/7 all to failure = 33, lowest in the series and the first at this per-arm load whose front pair did not hold 12 → W19 Tue is a load-or-set-count call on the rope, expansion off the table (Adj #304); elbow watch registered since the switch reintroduces the bilateral attachment removed 2026-06-09. Holds: row 80×10/9/8 = 27 (first regression at the load), Sat preacher 60×12/12/10/11 = 45 (set 3 broke its 12 floor), fly 130×12/12 RIR 3/3 (cleanest line at the load, a repeat opens 135) — Adj #307. All clean by default; elbow 15th consecutive clean.",
+      "status": "done"
     },
     {
       "date": "2026-08-23",
       "day": "Sun",
       "session": "Off — Tyler 3×15 + reverse Tyler 3×15, McGill Big 3, daily SI prehab",
-      "note": "Permanent full rest under v4.4 — no punt slot (§2.A). Mon 8-24 AM is the standing first-run-after read on the Sat calf sweep (Adj #244/#284).",
-      "status": "upcoming"
+      "note": "Off by rule (v4.4). W18 CLOSED 8-22 — the first complete v4.4 week of the Build: 3 runs (~19.6 mi) + 2 lifts, every programmed session banked (Adj #308). W19 opens Mon 8-24 with the 70-min long, which also carries the standing first-run-after Achilles read at ~40 h from Saturday's calf sweep (Adj #306).",
+      "status": "today"
     }
   ]
 }
