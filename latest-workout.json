@@ -1,26 +1,27 @@
 {
-  "generatedAt": "2026-08-19T15:30:00-04:00",
+  "generatedAt": "2026-08-21T00:30:00-04:00",
   "week": "W18",
-  "day": "Wed",
-  "date": "2026-08-19",
+  "day": "Fri",
+  "date": "2026-08-21",
   "phase": "Build",
-  "sessionName": "Threshold 4×1 mi @ T, 90 s rest",
+  "sessionName": "VO2max 8×800m @ I, 90 s rec",
   "intro": [
-    "First outing at the stepped T band 7:40–7:45 — open ON PACE, RPE 8+ or a died rep reverts to 7:45–7:50 on the spot (Adj #271/#268)."
+    "Decisive I-band read — unread since 8-9 and the walked-recovery confound never removed: open at the 7:00 fast end, 90 s JOG recoveries, full dose (Adj #282/#251/#252)."
   ],
   "lift": null,
   "cardio": {
     "flags": [],
-    "workout": "4×1 mi @ T (7:40–7:45), 90 s jog recovery between reps",
+    "workout": "8×800m @ I (7:00–7:15), 90 s jog recovery between reps",
     "targets": {
-      "pace": "7:40–7:45/mi (rep split 7:40–7:45), RPE ≤7",
+      "pace": "open 7:00, band 7:00–7:15/mi (~3:30 per 800m), RPE 9",
       "hr": "display-only — do not pace to it (Adj #175)",
       "cadence": "175–182 spm"
     },
-    "warmup": "1.0–1.5 mi easy 9:15–10:30/mi, building the last 2–3 min toward T",
+    "warmup": "1.0–1.5 mi easy 9:15–10:30/mi, building the last 2–3 min toward I",
     "cooldown": "1.0 mi easy Z1 9:15–10:30/mi + SI prehab (Tyler 3×15, reverse Tyler 3×15, McGill Big 3)",
     "cues": [
-      "Recoveries are 90 s JOG, not walked — walked/decayed recoveries two sessions running (Adj #270/#252)."
+      "Recoveries are 90 s JOG, not walked — the confound has to be absent for the band read to count (Adj #252/#293).",
+      "RPE 9 governs. Sub-anchor across the full dose reopens the band toward faster ahead of the W19 cut-down (Wed 8-26, §10)."
     ]
   },
   "currentLoads": [
