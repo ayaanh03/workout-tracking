@@ -1,9 +1,11 @@
 # Six-Month 5K Program v4.5 — Goal: sub-21:30 (Tier C, locked 2026-07-13)
 
-**Effective:** v4.5 strides removal 2026-08-10; v4.4 three-run week from W17 (Mon 2026-08-10); v4.3 mileage reshape W8 (week of 2026-06-08); base program v4.2 week of May 4, 2026; goal tier locked at the W12 §10 TT (23:23, 2026-07-13)
+**Effective:** v4.6 rope pushdown 2026-08-22; v4.5 strides removal 2026-08-10; v4.4 three-run week from W17 (Mon 2026-08-10); v4.3 mileage reshape W8 (week of 2026-06-08); base program v4.2 week of May 4, 2026; goal tier locked at the W12 §10 TT (23:23, 2026-07-13)
 **Race day:** Saturday October 24, 2026 (W27 — renumbered from W25 with the Build extension, Adj #204)
 
 > **v4.4 (2026-08-07, Adj #244) — three-run week, athlete directive.** Running drops 4 days → **3 days (Mon long / Wed threshold / Fri VO2)**; **Thu and Sun are permanent full off days**; **Sat becomes lift-only** (the long run moves to Mon). Lifting is unchanged: Tue Hyp A, Sat Hyp B. Effective W17 Mon 2026-08-10 — **W16 runs to completion under v4.3.** Rationale in `program-history.md`.
+>
+> **v4.6 (2026-08-22, Adj #303) — cable pushdown switched to a two-handed rope, athlete directive.** Both slots (§3.A Tue, §3.B Sat) run the **rope with both hands** instead of unilateral, on the athlete's report that the form is materially cleaner. Doses, rep targets and RPE are unchanged; the stack number changes meaning (55 both-handed ≈ the prior 27.5/arm), so **the load line restarts at a new baseline.** **This reverses the 2026-06-09 unilateral spec, which existed because bilateral attachments aggravated the lateral elbow — any lateral-elbow symptom at the rope reverts to unilateral on the spot.** Rationale in `program-history.md`.
 >
 > **v4.5 (2026-08-10, Adj #255) — hill strides removed, athlete directive.** All stride work (hill and flat) is **out of the program permanently** — Mon post-long block, every `(+ hill strides)` table entry, and the §7.B/§9/§11.A/§11.B/§11.C references. Unperformed since W10 Mon 6-22 across five consecutive slots, so this makes the prescription match the practice. **Consequence on record: §6 now carries no lower-body neuromuscular work at all.** Rationale in `program-history.md`.
 
@@ -120,7 +122,7 @@ Total volume per priority muscle/week is in §6. Logic: 2 sessions/wk × 4–6 s
 | Strength | **Incline BB** | 3×5–8 (TM progression — see §5) | RPE 7, +5 lb/wk if reps clean | Chest (incidental), front delt, triceps |
 | Side delts | DB lateral raise | 6×12 | RPE 9, last 2 sets to failure | **Side delt** (growth) |
 | Biceps | Preacher curl machine (§10.A) | 4×10 | RPE 8, last set RIR 0–1 | **Biceps** (growth) |
-| Triceps | Cable pushdown, unilateral (§10.A) | 4×12 | RPE 8, last set RIR 0–1 | **Triceps** (growth) |
+| Triceps | Cable pushdown, **two-handed rope** (§10.A; unilateral until 2026-08-22 — v4.6, Adj #303) | 4×12 | RPE 8, last set RIR 0–1 | **Triceps** (growth) |
 | Abs | Decline crunch | 3×12 | RPE 8 | **Abs** |
 | Optional | Rear-delt fly (cable or pec deck reverse) | 2×15 | RPE 7 | Rear delt (joint health) |
 
@@ -132,7 +134,7 @@ Total volume per priority muscle/week is in §6. Logic: 2 sessions/wk × 4–6 s
 | Lats / rear delt | **Chest-supported row** (Phase B+, dual-purpose for lat growth + rear delt) | 3×10 | RPE 8 | **Lats** + rear delt |
 | Side delts | DB lateral raise | 4×12–15 | RPE 9, last set to failure | **Side delt** (growth) |
 | Biceps | Preacher curl machine, semi-supinated grip if available (§10.A) | 4×12 | RPE 8 | **Biceps** (growth) |
-| Triceps | Cable pushdown, unilateral (§10.A) | 4×12–15 | RPE 8 | **Triceps** (growth) |
+| Triceps | Cable pushdown, **two-handed rope** (§10.A; unilateral until 2026-08-22 — v4.6, Adj #303) | 4×12–15 | RPE 8 | **Triceps** (growth) |
 | Abs | Decline crunch | 3×10 | RPE 8 | **Abs** |
 | Calves | Seated calf raise | 4×12–15 | RPE 9, last set to failure | **Calves** |
 | Chest | **Chest flye** (DB or pec deck) | 2×12 | RPE 7 | Chest (joint health; reintroduced 2026-06-13 per athlete directive, Adj #88) |
@@ -278,7 +280,7 @@ See §2.C above. Race day Sat Oct 24:
 |---|---|---|---|
 | **Side delts** | **10 direct** | Wed 6 (DB lat) + Sat 4 (DB lat), 2×/wk | **Growth** — direct lateral work raised 7→10 (2026-06-08 audit); the old "10–14" over-counted press incidental as side-delt. Tolerates more — can climb to 12–14 if time allows |
 | **Biceps** | **8** | Wed 4 (preacher) + Sat 4 (preacher, varied grip) | **Growth dose** (6→8, 2026-06-08 audit); **preacher-only cap** until tennis elbow 4 wks symptom-free (§10.A) — then add a 2nd movement (incline DB / hammer) and push to 10–12 |
-| **Triceps** | **8 direct** (~12 w/ press carryover) | Wed 4 (uni cable pushdown) + Sat 4 (uni cable pushdown) + incline-press carryover | **Growth dose** (6→8, 2026-06-08 audit); pushdowns only (§10.A — no overhead); **unilateral across the board (2026-06-09 — bilateral attachments aggravated the lateral elbow)** |
+| **Triceps** | **8 direct** (~12 w/ press carryover) | Wed 4 (rope pushdown) + Sat 4 (rope pushdown) + incline-press carryover | **Growth dose** (6→8, 2026-06-08 audit); pushdowns only (§10.A — no overhead); **two-handed rope since 2026-08-22 (v4.6, Adj #303 — athlete directive, cleaner mechanics). This reverses the 2026-06-09 unilateral spec, which existed because bilateral attachments aggravated the lateral elbow: any lateral-elbow symptom at the rope reverts to unilateral on the spot** |
 | **Abs** | 6 | Wed 3 (decline crunch) + Sat 3 (decline crunch) + Sun McGill Big 3 (counts as 1, not in lift sets) | MEV |
 | **Lats** | 7 (Phase B+) | Sat 4 (lat pulldown) + Sat 3 (chest-supported row, Phase B+) | MEV–MAV; chest-supp row dual-purposes for rear delt. **Held at maintenance (1×/wk) per 2026-06-08 audit** (athlete chose to grow arms/side delts, maintain the rest) — to grow later, add a Wed neutral-grip pulldown for 2× freq |
 | **Calves** | 4 | Sat 4 (seated calf) | Direct calf MEV. **Held at maintenance (2026-06-08 audit) — the reactive Achilles (Adj #63) bars added calf load now; revisit to ~6 once AM-clean.** (Soleus wall-sit retired W7 per athlete directive — was +6 sets/wk soleus iso for RE; no longer programmed.) |
