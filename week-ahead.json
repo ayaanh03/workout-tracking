@@ -1,57 +1,57 @@
 {
-  "generatedAt": "2026-08-22T20:05:00-04:00",
-  "week": "W18",
+  "generatedAt": "2026-08-24T14:30:00-04:00",
+  "week": "W19",
   "phase": "Build",
-  "summary": "W18 CLOSED 8-22 as the FIRST COMPLETE v4.4 WEEK of the Build — 3 runs (~19.6 mi) + 2 lifts, every programmed session banked, nothing missed, moved or under-filled (Adj #308), the first such week since the three-run template went live at W17. Mon long 6.70 mi delivered in full with every mile inside the easy band (Adj #283) and the calf-365 Achilles read clean at ~66 h (Adj #284); Tue Hyp A landed all three bumps and fired preacher 75 for W19 (Adj #285–#290); Wed T validated the stepped 7:40–7:45 band on its first outing (Adj #291–#294); Fri VO2 SETTLED the I band at 7:00–7:15 (Adj #296–#300); Sat Hyp B met the lat gate (170 fires W19 Sat) and advanced the calf rebuild to 46, against a DB lateral revert to 35, a missed +15 crunch debut, and the pushdown switched to a two-handed rope with its dose question pushed to W19 Tue (Adj #301–#307). Both pace questions the Build has carried since W15 resolved in the same week and in opposite directions — T stepped 5 s/mi faster and held, I held where it was — so the W19 cut-down (Wed 8-26, §10) arbitrates T alone. W19 opens Mon 8-24: the added Build load week (~25 mi, Adj #204) and the last full week before the W20 deload.",
+  "summary": "W19 — the added Build load week (Adj #204, ~25 mi) and the last full week before the W20 deload. It carries the §10 5K-pace cut-down test Wed 8-26, which now arbitrates T alone: W18 validated the stepped 7:40–7:45 band on its first outing (Adj #291) and settled the I band at 7:00–7:15 outright (Adj #296), so the only open pace question is whether T's second consecutive sub-anchor RPE read means the band has more room. Cut-down validity rests on hitting the M and T miles on pace before the goal-pace mile (Adj #292). Fri runs the 2nd exposure of 5×1000m @ I, opened at 7:00 with 90 s jog recoveries. Mon's 70-min long is the week's entire easy fraction and carries the standing first-run-after Achilles read at ~40 h off Saturday's calf 365 dose. Four lift decisions fire across the two lift days: lat 170 and DB lateral back to 35 Sat, preacher 75 Tue, plus a load-or-set-count call on the new two-handed rope pushdown Tue.",
   "days": [
     {
-      "date": "2026-08-17",
+      "date": "2026-08-24",
       "day": "Mon",
-      "session": "Long run 65 min Z1 (§4.D W18)",
-      "note": "Logged — 65:00 / 6.50 mi @ 9:59/mi + 0.20 mi walked CD (6.70 mi, 69:11). Delivered in full on the 65-min ask; second consecutive long in its programmed slot and the week's entire easy fraction. Splits 10:05 / 9:30 / 9:56 / 10:07 / 9:56 / 10:21 + 0.50 mi @ ~10:10, RPE 5. Adj #256 watch CLOSES on direct evidence — every mile inside the 9:15–10:30 easy band, fastest 9:30, per-mile power 195/212/201/205/196/193 W nowhere near W17's 232/233 W pickup miles, HR 154→174 flattening at 173. Cadence 168 inside the 165–172 easy allowance; HR and power display-only. Road, Vomero Plus; all clean by default — first run after the Fri 365 calf sweep at ~66 h, Achilles read CLOSED CLEAN, no revert (Adj #284).",
-      "status": "done"
+      "session": "Long run 70 min Z1 (§4.D W19)",
+      "note": "The week's entire easy fraction — 9:15–10:30, conversation-gated, RPE 4–5; standing first-run-after Achilles read at ~40 h from the 8-22 calf sweep, not a gate (Adj #306).",
+      "status": "today"
     },
     {
-      "date": "2026-08-18",
+      "date": "2026-08-25",
       "day": "Tue",
       "session": "Hyp A (full dose — no run)",
-      "note": "Logged — all three bumps LANDED and a fourth was earned, but the pushdown collapsed a third straight session. Incline 160×5 RIR 1 + AMRAP 135×11 RIR 0: completed, not missed (all five reps at the load that owns §5 miss #1, the same reading as W16's ground-out 155×5 RIR 0), so the TM is untouched at 168 and there is no cut — but RIR 1 is one click under the RPE 7 ask and sits exactly on the Adj #257 revert line. Athlete directive at logging holds 160 rather than reverting to 155, which overrides that overlay and restores plain §5 (miss → repeat); W19 Tue repeats 1×5 @ 160 + AMRAP @ 135, with ≥RIR 2 taking 165 and under five reps counting as miss #2. AMRAP 11 ties W17 → e1RM ~185, a third straight reading in the 180–185 band (Adj #285). DB lateral 35 landed on its debut — all six sets at the 12 floor, front four with reserve, and the RIR line five clicks deeper than W17's identical 72 total at 30, which is exactly the evidence the retired opener-RIR gate could never produce (Adj #286). Rear-delt 145 landed at RIR 3/3, the §3.A ask on the nose and the first load in the 125→145 nudge chain to arrive on-target rather than short of it — hold, chain closed (Adj #290). Preacher posted its first full 4×10 at 70 (40 total, best in the slot's history) with set 3 finally clean at RIR 1, the term that blocked 75 at all four prior full-dose reads → 75 fires W19 Tue with a front-three revert guard (Adj #287). Against those: pushdown read 2 of 3 came back worse than read 1 — 27.5×12/12/6/6 = 36, set 3 six under the floor and two below what both prior collapses posted — so the trend now spans three sessions across both slots and is worsening, not oscillating (Adj #288). Decline crunch Tue posted the +10 rebuild's first regression, 12/12/10 vs W17's 12/12/12 (Adj #289). All clean by default; elbow 14th consecutive clean.",
-      "status": "done"
+      "note": "Incline repeats 1×5 @ 160 + AMRAP @ 135 — ≥RIR 2 → 165, <5 reps = §5 miss #2 (Adj #285); preacher 75 FIRES (Adj #287); pushdown is a load-or-set-count call on the two-handed rope — 45–50 for four sets or 55 for three (Adj #304); DB lateral 35, rear-delt 145, crunch +10 hold.",
+      "status": "upcoming"
     },
     {
-      "date": "2026-08-19",
+      "date": "2026-08-26",
       "day": "Wed",
-      "session": "Threshold 4×1 mi @ T, 90 s rest",
-      "note": "Logged — 4×1 mi @ 7:41 / 7:44 / 7:41 / 7:38, work avg 7:41/mi over 30:44, 90 s recoveries, RPE 7 across (\"7 for sure, maybe even lower but 7 at most\"). THE STEPPED BAND 7:40–7:45 IS VALIDATED ON ITS FIRST OUTING: all four reps inside the band, the fastest one last, the ≤7 anchor never broken — every term of the Adj #271 test came back on the hold side, so the revert-to-7:45–7:50 branch is dead and the directive step is now banked on evidence rather than on directive. Caveat carried forward: RPE 7 \"maybe lower\" is sub-anchor for the second consecutive T outing, so the band moved 5 s/mi faster and the effort reading did not move with it — T stays a candidate for conservative alongside I, and no recalc happens outside tests, so the W19 cut-down on 8-26 arbitrates both (Adj #291). Two execution patterns broke the same session: the run opened ON PACE at 7:41 and negative-split, ending the three-session fast-open pattern and rehearsing exactly the discipline the cut-down's M → T → 5K progression needs (Adj #292); and the three 90 s recoveries were JOGGED at 11:36 / 10:23 / 13:36 with no decay, breaking the two-for-two walked pattern one session before Friday's 90 s jog ask becomes load-bearing (Adj #293). Cadence 171/169/173/170 is sub-band a third consecutive road outing and did not rise with the faster pace — the extra 5 s/mi came from stride length, not turnover; next read Friday at I (Adj #294). HR 170/179/178/182 (peak 182 vs W17's 186 while 3 s/mi faster) and power 261/255/256/260 W are display-only. WU 1.30 mi @ 10:20, CD walked 1 mi. Road, Vomero Plus; all clean by default — eleventh consecutive quality outing clean.",
-      "status": "done"
+      "session": "§10 cut-down test — 1 mi M / 1 mi T / 1 mi @ goal 5K pace",
+      "note": "Final mile at 6:55 reading RPE 8–9 passes; RPE 10 or can't sustain downgrades a tier. Arbitrates T alone now that I is settled (Adj #291/#296); validity rests on hitting the M (8:15–8:25) and T (7:40–7:45) miles on pace (Adj #292).",
+      "status": "upcoming"
     },
     {
-      "date": "2026-08-20",
+      "date": "2026-08-27",
       "day": "Thu",
-      "session": "Off — mobility / walk + daily SI prehab",
-      "note": "Off — permanent full rest under v4.4 (§2.A); mobility / walk + daily SI prehab.",
-      "status": "done"
+      "session": "Off — mobility / walk, daily SI prehab",
+      "note": "Permanent full rest (§2.A).",
+      "status": "upcoming"
     },
     {
-      "date": "2026-08-21",
+      "date": "2026-08-28",
       "day": "Fri",
-      "session": "VO2max 8×800m @ I, 90 s rec",
-      "note": "Logged — 8×800m @ I: 7:02 / 7:00 / 7:02 / 7:09 / 7:06 / 7:08 / 7:15 / 7:15, work avg 7:07/mi over 28:28, RPE 8/8/8/9/9/10 vs the 9 anchor, peak HR 194. THE I BAND IS SETTLED — 7:00–7:15 confirmed correct and the reopen-toward-faster branch is dead (Adj #296): every term of the ask was met for the first time (full dose, opened at the 7:00 fast end, recoveries JOGGED at 11:47–13:47), and with the cheap-dose and walked-recovery objections gone the effort read moved the other way — anchor reached at rep 4, passed by rep 6, pace decayed 15 s/mi to the slow edge. W19 Fri's 5×1000m runs 7:00–7:15 opened at 7:00; the 8-26 cut-down now arbitrates T alone. Cadence 174–186 — first road quality outing in band (Adj #299). Clean by default, 12th straight quality outing.",
-      "status": "done"
+      "session": "VO2max 5×1000m @ I (90 s rec) — 2nd exposure",
+      "note": "Open at 7:00, band 7:00–7:15, RPE 9 governs; recoveries JOGGED at 90 s. Smaller total dose than W18's 8×800m so the fast-end open stays correct (Adj #296/#298).",
+      "status": "upcoming"
     },
     {
-      "date": "2026-08-22",
+      "date": "2026-08-29",
       "day": "Sat",
-      "session": "Hyp B — lift only (no run under v4.4)",
-      "note": "Logged — full §3.B dose on all eight movements. Lat pulldown 165×8/8/8/8 RIR 2/2/1/0: the first full clean 4×8 at the load, 32 total, closing both terms of the Adj #155/#179 gate (set 3 at the floor with a click, set 4 completing it) → 170 fires W19 Sat 8-29 with a front-three revert guard (Adj #301). Seated calf 365×12/12/11/11 RIR 2/0/0/0 = 46, up from 44 — back pair up a rep each on the best opener 365 has posted, two off the 4×12 sweep; hold and rebuild, Achilles clean at every read a second full-dose exposure (Adj #306). DB lateral 40×10/9/8/9 all to failure = 36 — front two under 11, so the Adj #275 revert trigger fires and 35 comes back W19 Sat (Adj #302). Decline crunch 13.2×12/8/6 = 26 — the +15 debut missed off an opener run two reps past the 10 target, so it gets one more exposure with the opener capped at 10 and a hard revert to +10 if sets 1-2 lose the floor (Adj #305). Cable pushdown switched to a two-handed rope by athlete directive (program.md v4.6, Adj #303): 55×10/8/8/7 all to failure = 33, lowest in the series and the first at this per-arm load whose front pair did not hold 12 → W19 Tue is a load-or-set-count call on the rope, expansion off the table (Adj #304); elbow watch registered since the switch reintroduces the bilateral attachment removed 2026-06-09. Holds: row 80×10/9/8 = 27 (first regression at the load), Sat preacher 60×12/12/10/11 = 45 (set 3 broke its 12 floor), fly 130×12/12 RIR 3/3 (cleanest line at the load, a repeat opens 135) — Adj #307. All clean by default; elbow 15th consecutive clean.",
-      "status": "done"
+      "session": "Hyp B (lift only, no run)",
+      "note": "Lat 170 FIRES — front three under the 8 floor reverts 165 (Adj #301); DB lateral REVERTS 35 (Adj #302); crunch one more exposure at 13.2/+15 with the opener capped at 10 (Adj #305); calf holds 365 to finish the rebuild toward the 4×12 (Adj #306); row 80, preacher 60, fly 130 hold.",
+      "status": "upcoming"
     },
     {
-      "date": "2026-08-23",
+      "date": "2026-08-30",
       "day": "Sun",
-      "session": "Off — Tyler 3×15 + reverse Tyler 3×15, McGill Big 3, daily SI prehab",
-      "note": "Off by rule (v4.4). W18 CLOSED 8-22 — the first complete v4.4 week of the Build: 3 runs (~19.6 mi) + 2 lifts, every programmed session banked (Adj #308). W19 opens Mon 8-24 with the 70-min long, which also carries the standing first-run-after Achilles read at ~40 h from Saturday's calf sweep (Adj #306).",
-      "status": "today"
+      "session": "Off / SI prehab",
+      "note": "Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1; walking is fine.",
+      "status": "upcoming"
     }
   ]
 }
