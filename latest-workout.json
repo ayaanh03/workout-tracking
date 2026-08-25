@@ -1,138 +1,28 @@
 {
-  "generatedAt": "2026-08-22T20:05:00-04:00",
-  "week": "W18",
-  "day": "Sat",
-  "date": "2026-08-22",
+  "generatedAt": "2026-08-24T21:55:00-04:00",
+  "week": "W19",
+  "day": "Mon",
+  "date": "2026-08-24",
   "phase": "Build",
-  "sessionName": "Hypertrophy B (lift only, no run)",
+  "sessionName": "Long run 70 min Z1 (§4.D W19)",
   "intro": [
-    "Decline crunch +10 -> +15 fires (Adj #278); DB lateral holds 40 with sets 1-3 at RIR 1-2 and only set 4 to failure (Adj #275)."
+    "Standing first-run-after Achilles read at ~40 h from the 8-22 seated calf 365 sweep — read it AM and during; not a gate, clean by default (Adj #306/§2.A)."
   ],
-  "lift": {
-    "table": [
-      {
-        "exercise": "Lat pulldown (neutral)",
-        "setsReps": "4×8–10",
-        "load": "165",
-        "rir": "2, last 1",
-        "rest": "90–120s",
-        "cue": ""
-      },
-      {
-        "exercise": "Chest-supp row",
-        "setsReps": "3×10",
-        "load": "80",
-        "rir": "1–2",
-        "rest": "90–120s",
-        "cue": ""
-      },
-      {
-        "exercise": "DB lateral raise",
-        "setsReps": "4×12–15",
-        "load": "40",
-        "rir": "1–2 on sets 1-3, set 4 to failure",
-        "rest": "60–90s",
-        "cue": ""
-      },
-      {
-        "exercise": "Preacher curl uni",
-        "setsReps": "4×12",
-        "load": "60/arm",
-        "rir": "1–2",
-        "rest": "60–90s",
-        "cue": ""
-      },
-      {
-        "exercise": "Cable pushdown uni",
-        "setsReps": "4×12–15",
-        "load": "27.5/arm",
-        "rir": "1–2, last 0–1",
-        "rest": "60–90s",
-        "cue": ""
-      },
-      {
-        "exercise": "Decline crunch",
-        "setsReps": "3×10",
-        "load": "+15",
-        "rir": "1–2",
-        "rest": "60–90s",
-        "cue": ""
-      },
-      {
-        "exercise": "Seated calf",
-        "setsReps": "4×12–15",
-        "load": "365",
-        "rir": "1–2, last to failure",
-        "rest": "60–90s",
-        "cue": ""
-      },
-      {
-        "exercise": "Chest flye",
-        "setsReps": "2×12",
-        "load": "130",
-        "rir": "3",
-        "rest": "60–90s",
-        "cue": ""
-      }
-    ],
-    "lastWeek": {
-      "label": "Hyp B W17 Fri 8/14",
-      "table": [
-        {
-          "exercise": "Lat pulldown",
-          "load": "165",
-          "reps": "8/8/8/7",
-          "rir": "2/1/0/0"
-        },
-        {
-          "exercise": "Chest-supp row",
-          "load": "80",
-          "reps": "10/10/9",
-          "rir": "2/1/0"
-        },
-        {
-          "exercise": "DB lateral raise",
-          "load": "40",
-          "reps": "11/8/8/9",
-          "rir": "0/0/0/0"
-        },
-        {
-          "exercise": "Preacher curl uni",
-          "load": "60/arm",
-          "reps": "12/12/12/10",
-          "rir": "3/2/0/0"
-        },
-        {
-          "exercise": "Cable pushdown uni",
-          "load": "27.5/arm",
-          "reps": "12/12/8/9",
-          "rir": "3/0/0/0"
-        },
-        {
-          "exercise": "Decline crunch",
-          "load": "+10",
-          "reps": "10/10/10",
-          "rir": "3/2/1"
-        },
-        {
-          "exercise": "Seated calf",
-          "load": "365",
-          "reps": "12/12/10/10",
-          "rir": "1/1/0/0"
-        },
-        {
-          "exercise": "Chest flye",
-          "load": "130",
-          "reps": "12/12",
-          "rir": "3/1"
-        }
-      ]
+  "lift": null,
+  "cardio": {
+    "flags": [],
+    "workout": "70 min Z1 long run — 10 min easy build inside the 70, then ~60 min at the easy band (~6.7–7.6 mi total)",
+    "targets": {
+      "pace": "9:15–10:30/mi, conversation-gated, RPE 4–5",
+      "hr": "display-only (Adj #175)",
+      "cadence": "165–172 spm at easy"
     },
-    "warmup": "1–2 min dynamic (band pull-aparts, scap push-ups, hip openers); wrist-extensor isometric 3×30 s/arm (§10.A); lat pulldown ramp 1×10 @ 100",
-    "cooldown": "SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1",
-    "notes": "Pushdown is read 3 of 3 at 27.5 — set 3 at 8+ or W19 Tue goes load-or-set-count (Adj #288); calf 365 rebuilds toward the full 4×12, DB lateral front two under 11 reverts 35 (Adj #276/#275)."
+    "warmup": "3–5 min walk + dynamic (hip openers, leg swings, calf raises), then the first 10 min of the 70 as an easy build 10:30 → 10:00/mi",
+    "cooldown": "5–10 min easy jog / walk at ≥10:30, then SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1",
+    "cues": [
+      "This is W19's entire easy fraction — genuinely conversational end to end; a yellow §11.C read trims it in minutes, it does not move (§4.D/Adj #244)."
+    ]
   },
-  "cardio": null,
   "currentLoads": [
     {
       "exercise": "Incline BB",
@@ -190,9 +80,9 @@
     },
     {
       "exercise": "Seated calf",
-      "load": "365 working (hold — rebuild advancing). Standing Achilles read Mon 8-24",
+      "load": "365 working (hold — rebuild advancing). Mon 8-24 Achilles read CLOSED CLEAN at ~40 h (Adj #310)",
       "lastVerified": "W18 Sat 8/22 (365×12/12/11/11 RIR 2/0/0/0, full 4-set dose)",
-      "note": "REBUILD ADVANCING — 46 total, up from 44 at the 8-14 debut (12/12/10/10 RIR 1/1/0/0), two reps off the 4×12 sweep (48, which 355 posted twice). The back pair each took a rep (10 → 11) and the opener is the best first set 365 has produced (RIR 2); set 2 traded its click for the same 12. Same one-to-four-week rebuild every calf step since 345 has run. Hold 365 W19 Sat; 375 gates on a clean 4×12 sweep with headroom, AM-gated. Achilles: clean by default at every read today — 365 has now taken two full-dose exposures with no signal at any read (session-day, post, first-run-after), so the load is established, not provisional. W19 Sat is a hold, not a gated bump, so no session-day AM gate is required; the standing first-run-after read is Mon 8-24's long (~40 h) (Adj #135/#160/#185/#211/#230/#244/#249/#276/#284/#306)"
+      "note": "REBUILD ADVANCING — 46 total, up from 44 at the 8-14 debut (12/12/10/10 RIR 1/1/0/0), two reps off the 4×12 sweep (48, which 355 posted twice). The back pair each took a rep (10 → 11) and the opener is the best first set 365 has produced (RIR 2); set 2 traded its click for the same 12. Same one-to-four-week rebuild every calf step since 345 has run. Hold 365 W19 Sat; 375 gates on a clean 4×12 sweep with headroom, AM-gated. Standing read DONE 8-24 — the Mon long at ~40 h post-dose closed clean at every read (Adj #310), the second consecutive clean first-run-after read at this load and the first at the tighter v4.4 spacing; no revert, rebuild continues. Achilles: clean by default at every read today — 365 has now taken two full-dose exposures with no signal at any read (session-day, post, first-run-after), so the load is established, not provisional. W19 Sat is a hold, not a gated bump, so no session-day AM gate is required; the standing first-run-after read is Mon 8-24's long (~40 h) (Adj #135/#160/#185/#211/#230/#244/#249/#276/#284/#306)"
     },
     {
       "exercise": "Decline crunch",
