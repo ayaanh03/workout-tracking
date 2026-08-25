@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-08-24T14:30:00-04:00",
+  "generatedAt": "2026-08-24T21:55:00-04:00",
   "week": "W19",
   "phase": "Build",
-  "summary": "W19 — the added Build load week (Adj #204, ~25 mi) and the last full week before the W20 deload. It carries the §10 5K-pace cut-down test Wed 8-26, which now arbitrates T alone: W18 validated the stepped 7:40–7:45 band on its first outing (Adj #291) and settled the I band at 7:00–7:15 outright (Adj #296), so the only open pace question is whether T's second consecutive sub-anchor RPE read means the band has more room. Cut-down validity rests on hitting the M and T miles on pace before the goal-pace mile (Adj #292). Fri runs the 2nd exposure of 5×1000m @ I, opened at 7:00 with 90 s jog recoveries. Mon's 70-min long is the week's entire easy fraction and carries the standing first-run-after Achilles read at ~40 h off Saturday's calf 365 dose. Four lift decisions fire across the two lift days: lat 170 and DB lateral back to 35 Sat, preacher 75 Tue, plus a load-or-set-count call on the new two-handed rope pushdown Tue.",
+  "summary": "W19 — the added Build load week (Adj #204) and the last full week before the W20 deload. Mon's long is banked but under-filled: 60:00 ran against the 70-min ask (Adj #309), so the week lands ~24 mi and its entire easy fraction is ~14% short — no make-up, §11.D drops missed easy volume and no slot exists to repay it into. What ran was the best-quality long of the v4.4 era: every full mile inside the easy band at RPE 4, 10 s/mi quicker than W18 at a lower effort read, and the standing Achilles read at ~40 h off Saturday's calf 365 dose CLOSED CLEAN, so 365 holds Sat (Adj #310). The week's centerpiece is the §10 5K-pace cut-down Wed 8-26, which now arbitrates T alone: W18 validated the stepped 7:40–7:45 band (Adj #291) and settled I at 7:00–7:15 outright (Adj #296). Validity rests on hitting the M and T miles on pace before the goal-pace mile (Adj #292). Fri runs the 2nd exposure of 5×1000m @ I, opened at 7:00 with 90 s jog recoveries. Four lift decisions fire across the two lift days: preacher 75 and the rope pushdown dose call Tue, lat 170 and the DB lateral revert to 35 Sat.",
   "days": [
     {
       "date": "2026-08-24",
       "day": "Mon",
       "session": "Long run 70 min Z1 (§4.D W19)",
-      "note": "The week's entire easy fraction — 9:15–10:30, conversation-gated, RPE 4–5; standing first-run-after Achilles read at ~40 h from the 8-22 calf sweep, not a gate (Adj #306).",
-      "status": "today"
+      "note": "Logged — 60:00 / 6.10 mi @ 9:49/mi + 0.43 mi / 4:02 jogged CD = 6.53 mi / 64:02. UNDER-FILLED: the work interval was set to 60:00 against the 70-min ask, ~10 min / ~1.0 mi short — dropped, not repaid (§11.D), W19 lands ~24 mi. Splits 9:24 / 9:27 / 9:46 / 10:20 / 10:16 / 9:46 + 0.54 mi @ 9:14/mi, RPE 4 — all six full miles inside the 9:15–10:30 band, fastest 9 s/mi clear of the fast edge, so the Adj #256/#283 pickup pattern stays closed. Ran 10 s/mi quicker than W18 at a lower effort read, HR 164 work avg (5 under W18), power 203 W, cadence 167–170 inside the easy allowance; CD jogged at 9:17/mi, the first jogged CD on a v4.4 long. Road, Vomero Plus; all clean by default — first run after the 8-22 calf 365 dose at ~40 h, the standing Achilles read CLOSED CLEAN, 365 holds W19 Sat (Adj #309/#310).",
+      "status": "done"
     },
     {
       "date": "2026-08-25",
       "day": "Tue",
       "session": "Hyp A (full dose — no run)",
       "note": "Incline repeats 1×5 @ 160 + AMRAP @ 135 — ≥RIR 2 → 165, <5 reps = §5 miss #2 (Adj #285); preacher 75 FIRES (Adj #287); pushdown is a load-or-set-count call on the two-handed rope — 45–50 for four sets or 55 for three (Adj #304); DB lateral 35, rear-delt 145, crunch +10 hold.",
-      "status": "upcoming"
+      "status": "today"
     },
     {
       "date": "2026-08-26",
