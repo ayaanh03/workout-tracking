@@ -1,28 +1,117 @@
 {
-  "generatedAt": "2026-08-24T21:55:00-04:00",
+  "generatedAt": "2026-08-25T15:50:00-04:00",
   "week": "W19",
-  "day": "Mon",
-  "date": "2026-08-24",
+  "day": "Tue",
+  "date": "2026-08-25",
   "phase": "Build",
-  "sessionName": "Long run 70 min Z1 (§4.D W19)",
+  "sessionName": "Hypertrophy A (full dose — no run)",
   "intro": [
-    "Standing first-run-after Achilles read at ~40 h from the 8-22 seated calf 365 sweep — read it AM and during; not a gate, clean by default (Adj #306/§2.A)."
+    "Three decisions today: incline repeats 1×5 @ 160 + AMRAP @ 135 (Adj #285), preacher 75 fires (Adj #287), and the rope pushdown drops to 45 to hold the four-set dose (Adj #304)."
   ],
-  "lift": null,
-  "cardio": {
-    "flags": [],
-    "workout": "70 min Z1 long run — 10 min easy build inside the 70, then ~60 min at the easy band (~6.7–7.6 mi total)",
-    "targets": {
-      "pace": "9:15–10:30/mi, conversation-gated, RPE 4–5",
-      "hr": "display-only (Adj #175)",
-      "cadence": "165–172 spm at easy"
+  "lift": {
+    "table": [
+      {
+        "exercise": "Incline BB — top set",
+        "setsReps": "1×5",
+        "load": "160",
+        "rir": "2",
+        "rest": "2–3 min",
+        "cue": "≥RIR 2 → 165 next Tue; <5 reps = §5 miss #2 → TM cut"
+      },
+      {
+        "exercise": "Incline BB — AMRAP back-off",
+        "setsReps": "1×AMRAP",
+        "load": "135",
+        "rir": "0",
+        "rest": "—",
+        "cue": "e1RM read; 11 the last two outings"
+      },
+      {
+        "exercise": "DB lateral raise",
+        "setsReps": "6×12",
+        "load": "35",
+        "rir": "2 → 0",
+        "rest": "60–90s",
+        "cue": "Front four ≥RIR 2, BOTH closers to failure — that combination gates 40"
+      },
+      {
+        "exercise": "Preacher curl uni",
+        "setsReps": "4×10",
+        "load": "75/arm",
+        "rir": "0–1 last set",
+        "rest": "60–90s",
+        "cue": "Front three under the 10 floor → revert 70"
+      },
+      {
+        "exercise": "Cable pushdown — two-handed rope",
+        "setsReps": "4×12",
+        "load": "45",
+        "rir": "0–1 last set",
+        "rest": "60–90s",
+        "cue": "Dose call: 45 for four sets. Opener runs past 14 clean → 50 next"
+      },
+      {
+        "exercise": "Decline crunch",
+        "setsReps": "3×12",
+        "load": "+10",
+        "rir": "1–2",
+        "rest": "60–90s",
+        "cue": "Set 3 at 12 with a click reopens the bump"
+      },
+      {
+        "exercise": "Rear-delt fly",
+        "setsReps": "2×15",
+        "load": "145",
+        "rir": "3",
+        "rest": "60–90s",
+        "cue": "Hold — chain closed, joint-health dose"
+      }
+    ],
+    "lastWeek": {
+      "label": "Hyp A W18 Tue 8/18",
+      "table": [
+        {
+          "exercise": "Incline BB",
+          "load": "160 / AMRAP 135",
+          "reps": "5 / 11",
+          "rir": "1 / 0"
+        },
+        {
+          "exercise": "DB lateral raise",
+          "load": "35",
+          "reps": "12/12/12/12/12/12",
+          "rir": "2/2/1/1/1/0"
+        },
+        {
+          "exercise": "Preacher curl uni",
+          "load": "70",
+          "reps": "10/10/10/10",
+          "rir": "3/2/1/0"
+        },
+        {
+          "exercise": "Cable pushdown",
+          "load": "27.5 uni (pre-rope)",
+          "reps": "12/12/6/6",
+          "rir": "2/1/0/0"
+        },
+        {
+          "exercise": "Decline crunch",
+          "load": "+10",
+          "reps": "12/12/10",
+          "rir": "2/2/0"
+        },
+        {
+          "exercise": "Rear-delt fly",
+          "load": "145",
+          "reps": "15/15",
+          "rir": "3/3"
+        }
+      ]
     },
-    "warmup": "3–5 min walk + dynamic (hip openers, leg swings, calf raises), then the first 10 min of the 70 as an easy build 10:30 → 10:00/mi",
-    "cooldown": "5–10 min easy jog / walk at ≥10:30, then SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1",
-    "cues": [
-      "This is W19's entire easy fraction — genuinely conversational end to end; a yellow §11.C read trims it in minutes, it does not move (§4.D/Adj #244)."
-    ]
+    "warmup": "Wrist-extensor isometric 3×30 s each arm (§8). 1–2 min band pull-aparts + scap push-ups. Incline BB: bar×8, 95×5, 115×3, then the 160 top set.",
+    "cooldown": "SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1"
   },
+  "cardio": null,
   "currentLoads": [
     {
       "exercise": "Incline BB",
