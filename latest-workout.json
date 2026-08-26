@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-08-26T15:50:00-04:00",
+  "generatedAt": "2026-08-26T19:55:00-04:00",
   "week": "W19",
   "day": "Wed",
   "date": "2026-08-26",
   "phase": "Build",
   "sessionName": "§10 5K-pace cut-down test — 1 mi M / 1 mi T / 1 mi @ goal",
   "intro": [
-    "Test arbitrates T alone — W18 validated the stepped 7:40–7:45 band (Adj #291) and settled I at 7:00–7:15 outright (Adj #296); validity rests on hitting the M and T miles ON PACE, not fast (Adj #292)."
+    "Logged 8-26 — §10 CUT-DOWN PASSED. 8:22 RPE 4 / 7:43 RPE 7 / 6:51 RPE 9: the goal-pace mile ran 4 s/mi FASTER than 6:55 at RPE 9, inside the 8–9 pass band, so Tier C is confirmed and the downgrade branch is dead (Adj #320). T settled at 7:40–7:45 — mile 2's flat RPE 7 is the first read ON the anchor, and with I closed at the W18 8×800m both pace questions of the Build are shut (Adj #321). Riegel off the final mile → ~22:47, within 4 s of the W14 3K: ~75–80 s still to find, no recalc, W23 tune-up (Fri 9-25) arbitrates next (Adj #322)."
   ],
   "lift": null,
   "cardio": {
     "flags": [],
-    "workout": "1 mi @ M (8:15–8:25) / 90 s jog / 1 mi @ T (7:40–7:45) / 90 s jog / 1 mi @ goal 5K pace (6:55)",
+    "workout": "DONE — 1 mi @ M 8:22 (RPE 4) / 1:30 jog / 1 mi @ T 7:43 (RPE 7) / 1:30 jog / 1 mi @ goal 6:51 (RPE 9). Work 3.00 mi in 22:56; WU 15:08, CD 5:38; total 46:42.",
     "targets": {
-      "pace": "M 8:15–8:25 — T 7:40–7:45 — final mile 6:55",
-      "hr": "display-only (retired as governor, Adj #175)",
-      "cadence": "175–182 spm on the miles; 155–165 on the jog recoveries"
+      "pace": "M 8:22 in band 8:15–8:25 — T 7:43 in band 7:40–7:45 — final mile 6:51 vs goal 6:55",
+      "hr": "154 / 176 / 178 / 183 / 183 / 185 / 178 by segment; avg 171, peak 189 — display-only (Adj #175)",
+      "cadence": "157 / 173 / 166 / 170 / 161 / 179 / 160 — the goal mile at 179 is in the 175–182 band; M and T sub-band, turnover rising with effort (Adj #324)"
     },
     "warmup": "1.0–1.5 mi easy build, 9:15–10:30, cadence 165–172; 2 min standing/dynamic before mile 1",
     "cooldown": "5–10 min easy jog 9:15–10:30 + SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1",
     "cues": [
-      "§10 pass criterion: final mile at 6:55 reading RPE 8–9. RPE 10 or can't sustain → downgrade one tier.",
-      "90 s JOGGED recoveries — §10 states no rest, this is the standing default from Adj #293/#298. Report RPE per mile."
+      "§10 PASS: final mile at RPE 9, 4 s/mi under goal pace — Tier C holds, no tier downgrade (Adj #320).",
+      "Power 212 / 242 / 213 / 257 / 187 / 283 / 156 W, +41 W from M to goal pace — display-only. All clean by default; 13th consecutive quality outing clean."
     ]
   },
   "currentLoads": [
