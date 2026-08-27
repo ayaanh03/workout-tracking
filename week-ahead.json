@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-26T15:30:00-04:00",
+  "generatedAt": "2026-08-26T19:55:00-04:00",
   "week": "W19",
   "phase": "Build",
-  "summary": "W19 — the added Build load week (Adj #204) and the last full week before the W20 deload. Mon's long is banked but under-filled: 60:00 ran against the 70-min ask (Adj #309), so the week lands ~24 mi and its entire easy fraction is ~14% short — no make-up, §11.D drops missed easy volume and no slot exists to repay it into. What ran was the best-quality long of the v4.4 era: every full mile inside the easy band at RPE 4, 10 s/mi quicker than W18 at a lower effort read, and the standing Achilles read at ~40 h off Saturday's calf 365 dose CLOSED CLEAN, so 365 holds Sat (Adj #310). The week's centerpiece is the §10 5K-pace cut-down Wed 8-26, which now arbitrates T alone: W18 validated the stepped 7:40–7:45 band (Adj #291) and settled I at 7:00–7:15 outright (Adj #296). Validity rests on hitting the M and T miles on pace before the goal-pace mile (Adj #292). Fri runs the 2nd exposure of 5×1000m @ I, opened at 7:00 with 90 s jog recoveries. Tuesday is banked and was the best accessory session of the Build: the rope pushdown's load drop to 47.5 produced the movement's first completed 4×12 and cleared the set-3 condition (Adj #315), and both the DB lateral and the Tue decline crunch met their gates — 40 and +15 fire W21 Tue, held past the W20 deload (Adj #313/#317). The preacher's 75 debut survived its revert guard (Adj #314). The incline stalled a second week at 160 (RIR 0, completed not missed, TM 168 stands) and its linear progression is called at its ceiling — Sharpen puts the lift on maintenance from W21 (Adj #312). Saturday still fires lat 170 and reverts the Sat DB lateral to 35.",
+  "summary": "W19 — the added Build load week (Adj #204) and the last full week before the W20 deload. Three of five sessions banked. Wednesday's §10 cut-down is the headline and it PASSED: 8:22 RPE 4 / 7:43 RPE 7 / 6:51 RPE 9, with the goal-pace mile 4 s/mi faster than 6:55 at RPE 9 — inside the 8–9 pass band, so Tier C sub-21:30 is confirmed and the downgrade branch never fired (Adj #320). It also settled the T band at 7:40–7:45 with no recalc: mile 2's flat RPE 7 is the first T read of the Build to sit ON the ≤7 anchor rather than under it, and it came pre-fatigued as rep 2 of the cut-down. With I confirmed at the W18 8×800m (Adj #296), both pace questions the Build has carried since W15 are now shut (Adj #321). The gap is unchanged and on the record: Riegel off the final mile puts the 5K equivalent at ~22:47, within 4 s of the W14 3K's 22:43, so ~75–80 s separates current fitness from the goal — Sharpen's job, arbitrated next at the W23 tune-up (Fri 9-25, target 22:00–22:15). Monday's long was banked but under-filled at 60:00 against the 70-min ask (Adj #309), so the week lands ~24 mi; the standing Achilles read at ~40 h closed clean and the calf holds 365 (Adj #310). Tuesday was the best accessory session of the Build — the rope pushdown's drop to 47.5 produced its first completed 4×12 and cleared the set-3 condition (Adj #315), and the DB lateral and Tue crunch both met their gates, with 40 and +15 held to W21 past the deload (Adj #313/#317). The incline stalled a second week at 160 and its linear progression is called at its ceiling (Adj #312). Remaining: Fri 5×1000m @ I opened at 7:00 with 90 s jog recoveries, and Sat Hyp B, where lat 170 fires and the Sat DB lateral reverts to 35.",
   "days": [
     {
       "date": "2026-08-24",
@@ -22,15 +22,15 @@
       "date": "2026-08-26",
       "day": "Wed",
       "session": "§10 cut-down test — 1 mi M / 1 mi T / 1 mi @ goal 5K pace",
-      "note": "Final mile at 6:55 reading RPE 8–9 passes; RPE 10 or can't sustain downgrades a tier. Arbitrates T alone now that I is settled (Adj #291/#296); validity rests on hitting the M (8:15–8:25) and T (7:40–7:45) miles on pace (Adj #292).",
-      "status": "today"
+      "note": "Logged — PASSED. 8:22 RPE 4 / 7:43 RPE 7 / 6:51 RPE 9, 1:30 jogged between; work 3.00 mi in 22:56, WU 15:08, CD 5:38, total 46:42. The criterion is the final mile at goal pace reading RPE 8–9 — it ran 4 s/mi FASTER than goal at RPE 9, so Tier C is confirmed and the downgrade branch is dead (Adj #320). T BAND SETTLED at 7:40–7:45, no recalc: mile 2's flat RPE 7 is the first T read of the Build to land ON the ≤7 anchor, and it came pre-fatigued as rep 2 — with I closed at the W18 8×800m, both pace questions are shut (Adj #321). On record: Riegel off the final mile → 5K equiv ~22:47, within 4 s of the W14 3K's 22:43 — ~75–80 s still to find, no VDOT recalc from a 1-mile rep, and the 6:51 does not reopen I (Adj #322). Cadence 173/170/179, recoveries jogged at ~11:00/mi, HR avg 171 peak 189, power up to 283 W — display-only. All clean by default, 13th consecutive quality outing clean.",
+      "status": "done"
     },
     {
       "date": "2026-08-27",
       "day": "Thu",
       "session": "Off — mobility / walk, daily SI prehab",
       "note": "Permanent full rest (§2.A).",
-      "status": "upcoming"
+      "status": "today"
     },
     {
       "date": "2026-08-28",

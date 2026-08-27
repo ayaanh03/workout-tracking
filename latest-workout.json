@@ -1,117 +1,29 @@
 {
-  "generatedAt": "2026-08-26T15:30:00-04:00",
+  "generatedAt": "2026-08-26T19:55:00-04:00",
   "week": "W19",
-  "day": "Tue",
-  "date": "2026-08-25",
+  "day": "Wed",
+  "date": "2026-08-26",
   "phase": "Build",
-  "sessionName": "Hypertrophy A (full dose — no run)",
+  "sessionName": "§10 5K-pace cut-down test — 1 mi M / 1 mi T / 1 mi @ goal",
   "intro": [
-    "Logged 8-25. The rope pushdown's drop to 47.5 produced the movement's first completed 4x12 (48 total, set 3 at RIR 1) and both accessory gates were met — DB lateral 40 and crunch +15 fire W21 Tue, held past the W20 deload (Adj #313/#315/#317). Incline 160x5 RIR 0 — completed, TM 168 stands, progression called at its ceiling (Adj #312)."
+    "Logged 8-26 — §10 CUT-DOWN PASSED. 8:22 RPE 4 / 7:43 RPE 7 / 6:51 RPE 9: the goal-pace mile ran 4 s/mi FASTER than 6:55 at RPE 9, inside the 8–9 pass band, so Tier C is confirmed and the downgrade branch is dead (Adj #320). T settled at 7:40–7:45 — mile 2's flat RPE 7 is the first read ON the anchor, and with I closed at the W18 8×800m both pace questions of the Build are shut (Adj #321). Riegel off the final mile → ~22:47, within 4 s of the W14 3K: ~75–80 s still to find, no recalc, W23 tune-up (Fri 9-25) arbitrates next (Adj #322)."
   ],
-  "lift": {
-    "table": [
-      {
-        "exercise": "Incline BB — top set",
-        "setsReps": "1×5",
-        "load": "160",
-        "rir": "2",
-        "rest": "2–3 min",
-        "cue": "≥RIR 2 → 165 next Tue; <5 reps = §5 miss #2 → TM cut"
-      },
-      {
-        "exercise": "Incline BB — AMRAP back-off",
-        "setsReps": "1×AMRAP",
-        "load": "135",
-        "rir": "0",
-        "rest": "—",
-        "cue": "e1RM read; 11 the last two outings"
-      },
-      {
-        "exercise": "DB lateral raise",
-        "setsReps": "6×12",
-        "load": "35",
-        "rir": "2 → 0",
-        "rest": "60–90s",
-        "cue": "Front four ≥RIR 2, BOTH closers to failure — that combination gates 40"
-      },
-      {
-        "exercise": "Preacher curl uni",
-        "setsReps": "4×10",
-        "load": "75/arm",
-        "rir": "0–1 last set",
-        "rest": "60–90s",
-        "cue": "Front three under the 10 floor → revert 70"
-      },
-      {
-        "exercise": "Cable pushdown — two-handed rope",
-        "setsReps": "4×12",
-        "load": "45",
-        "rir": "0–1 last set",
-        "rest": "60–90s",
-        "cue": "Dose call: 45 for four sets. Opener runs past 14 clean → 50 next"
-      },
-      {
-        "exercise": "Decline crunch",
-        "setsReps": "3×12",
-        "load": "+10",
-        "rir": "1–2",
-        "rest": "60–90s",
-        "cue": "Set 3 at 12 with a click reopens the bump"
-      },
-      {
-        "exercise": "Rear-delt fly",
-        "setsReps": "2×15",
-        "load": "145",
-        "rir": "3",
-        "rest": "60–90s",
-        "cue": "Hold — chain closed, joint-health dose"
-      }
-    ],
-    "lastWeek": {
-      "label": "Hyp A W18 Tue 8/18",
-      "table": [
-        {
-          "exercise": "Incline BB",
-          "load": "160 / AMRAP 135",
-          "reps": "5 / 11",
-          "rir": "1 / 0"
-        },
-        {
-          "exercise": "DB lateral raise",
-          "load": "35",
-          "reps": "12/12/12/12/12/12",
-          "rir": "2/2/1/1/1/0"
-        },
-        {
-          "exercise": "Preacher curl uni",
-          "load": "70",
-          "reps": "10/10/10/10",
-          "rir": "3/2/1/0"
-        },
-        {
-          "exercise": "Cable pushdown",
-          "load": "27.5 uni (pre-rope)",
-          "reps": "12/12/6/6",
-          "rir": "2/1/0/0"
-        },
-        {
-          "exercise": "Decline crunch",
-          "load": "+10",
-          "reps": "12/12/10",
-          "rir": "2/2/0"
-        },
-        {
-          "exercise": "Rear-delt fly",
-          "load": "145",
-          "reps": "15/15",
-          "rir": "3/3"
-        }
-      ]
+  "lift": null,
+  "cardio": {
+    "flags": [],
+    "workout": "DONE — 1 mi @ M 8:22 (RPE 4) / 1:30 jog / 1 mi @ T 7:43 (RPE 7) / 1:30 jog / 1 mi @ goal 6:51 (RPE 9). Work 3.00 mi in 22:56; WU 15:08, CD 5:38; total 46:42.",
+    "targets": {
+      "pace": "M 8:22 in band 8:15–8:25 — T 7:43 in band 7:40–7:45 — final mile 6:51 vs goal 6:55",
+      "hr": "154 / 176 / 178 / 183 / 183 / 185 / 178 by segment; avg 171, peak 189 — display-only (Adj #175)",
+      "cadence": "157 / 173 / 166 / 170 / 161 / 179 / 160 — the goal mile at 179 is in the 175–182 band; M and T sub-band, turnover rising with effort (Adj #324)"
     },
-    "warmup": "Wrist-extensor isometric 3×30 s each arm (§8). 1–2 min band pull-aparts + scap push-ups. Incline BB: bar×8, 95×5, 115×3, then the 160 top set.",
-    "cooldown": "SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1"
+    "warmup": "1.0–1.5 mi easy build, 9:15–10:30, cadence 165–172; 2 min standing/dynamic before mile 1",
+    "cooldown": "5–10 min easy jog 9:15–10:30 + SI prehab — Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1",
+    "cues": [
+      "§10 PASS: final mile at RPE 9, 4 s/mi under goal pace — Tier C holds, no tier downgrade (Adj #320).",
+      "Power 212 / 242 / 213 / 257 / 187 / 283 / 156 W, +41 W from M to goal pace — display-only. All clean by default; 13th consecutive quality outing clean."
+    ]
   },
-  "cardio": null,
   "currentLoads": [
     {
       "exercise": "Incline BB",
