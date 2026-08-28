@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-28T11:46:00-04:00",
+  "generatedAt": "2026-08-28T18:30:00-04:00",
   "week": "W19",
   "phase": "Build",
-  "summary": "W19 — the added Build load week (Adj #204) and the last full week before the W20 deload. Four of five sessions banked after today. Wednesday's §10 cut-down PASSED: goal-pace mile ran 4 s/mi faster than 6:55 at RPE 9, so Tier C is confirmed, both pace questions shut (Adj #320/#321). Tuesday was the best accessory session of the Build — the pushdown's load drop produced its first completed 4x12 (Adj #315), and both DB lateral and crunch gates met (Adj #313/#317). Monday's long was under-filled at 60:00 of the 70-min ask (Adj #309). Fri/Sat swapped by athlete directive (4th instance of the shape): Fri = Hyp B (lat 170 fires, DB lateral reverts 35, pushdown takes 47.5 on the rope), Sat = VO2 5x1000m @ I. The incline stalled a second week at 160 and its linear progression is called at its ceiling (Adj #312). Fitness gap unchanged: ~22:45 equivalent against a 21:30 goal, ~75-80 s for Sharpen to find, arbitrated next at the W23 tune-up Fri 9-25.",
+  "summary": "W19 — the added Build load week (Adj #204) and the last full week before the W20 deload. Four of five sessions banked after today. Wednesday's §10 cut-down PASSED: goal-pace mile ran 4 s/mi faster than 6:55 at RPE 9, so Tier C is confirmed, both pace questions shut (Adj #320/#321). Tuesday was the best accessory session of the Build — the pushdown's load drop produced its first completed 4x12 (Adj #315), and both DB lateral and crunch gates met (Adj #313/#317). Monday's long was under-filled at 60:00 of the 70-min ask (Adj #309). Friday's Hyp B (4th Fri/Sat swap) produced four bumps firing W21 Sat — DB lateral 40, Sat preacher 65, fly 135, and calf 375 AM-gated — while the lat 170 debut missed and reverts to 165 (Adj #327-#336). The pushdown confirmed at 47.5 on its Sat-slot debut (second 4x12). Elbow 17th consecutive clean. Fitness gap unchanged: ~22:45 equivalent against a 21:30 goal, ~75-80 s for Sharpen to find, arbitrated next at the W23 tune-up Fri 9-25.",
   "days": [
     {
       "date": "2026-08-24",
@@ -36,15 +36,15 @@
       "date": "2026-08-28",
       "day": "Fri",
       "session": "Hyp B (Fri/Sat swap — lift today)",
-      "note": "SWAPPED by athlete directive (4th run of Adj #223/#242/#273 shape). Lat 170 fires; DB lateral reverts 35; pushdown first Sat outing at rope 47.5; crunch 13.2 opener capped at 10; calf holds 365; row 80, preacher 60, fly 130 hold.",
-      "status": "today"
+      "note": "Logged — lat 170 debut MISSED, revert 165 (Adj #328). DB lateral 35 rebuild exceeded (52 total) -> 40 fires W21 Sat (Adj #329). Preacher 60 gate met -> 65 fires W21 Sat (Adj #330). Pushdown 47.5 confirmed, second 4x12, Sat debut (Adj #331). Fly nudge met -> 135 fires W21 Sat (Adj #333). Calf 365 sweep complete (48 total) -> 375 eligible W21 Sat AM-gated (Adj #334). Crunch 13.2 improved, hold (Adj #335). Elbow 17th clean (Adj #336).",
+      "status": "done"
     },
     {
       "date": "2026-08-29",
       "day": "Sat",
       "session": "VO2max 5x1000m @ I (Fri/Sat swap — run tomorrow)",
       "note": "SWAPPED to Sat. Open at 7:00, band 7:00-7:15, 90 s JOG recoveries, RPE 9 governs. Smaller total dose than W18's 8x800m so the fast-end open stays correct (Adj #296). First run post-calf 365 sweep at ~18 h — compressed Achilles read; 365 established.",
-      "status": "upcoming"
+      "status": "today"
     },
     {
       "date": "2026-08-30",

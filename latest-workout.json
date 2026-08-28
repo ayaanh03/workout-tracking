@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T11:46:00-04:00",
+  "generatedAt": "2026-08-28T18:30:00-04:00",
   "week": "W19",
   "day": "Fri",
   "date": "2026-08-28",
@@ -45,15 +45,15 @@
     },
     {
       "exercise": "Lat pulldown",
-      "load": "170 (BUMP from 165 — fires today)",
-      "lastVerified": "W18 Sat 8/22 (165x8/8/8/8 RIR 2/2/1/0, full 4x8 dose — gate met)",
-      "note": "GATE MET — first full clean 4x8 at 165, 32 total. 170 fires today; revert guard: front three under the 8 floor -> back to 165 (Adj #301)"
+      "load": "165 working — 170 debut MISSED, revert guard fired -> 165 comes back W21 Sat",
+      "lastVerified": "W19 Fri 8/28 (170x8/8/7 + 165x5, RIR 2/1/0/0, full 4-set dose)",
+      "note": "170 debut failed — set 3 at 7 (under the 8 floor, at failure), athlete dropped to 165 for set 4. One qualifying sweep at 165 was thin for a 5-lb step. 165 comes back W21 Sat; re-entry to 170 gates on a repeat clean 4x8 with set 3 >= RIR 1 (Adj #328)"
     },
     {
       "exercise": "Chest-supp row",
-      "load": "80 working (hold — first regression at the load)",
-      "lastVerified": "W18 Sat 8/22 (80x10/9/8 RIR 1/0/0, full 3x10 dose)",
-      "note": "27 total against 29 twice. Hold 80; 85 needs full 3x10 with sets 1-2 >= RIR 1 (Adj #307)"
+      "load": "80 working (hold — second regression, worst at the load)",
+      "lastVerified": "W19 Fri 8/28 (80x10/7/7 RIR 1/0/0, full 3x10 dose)",
+      "note": "WORST EVER at 80 — 24 total. Sets 2-3 collapsed to 7 behind the lat's heaviest block ever (170). Upstream fatigue context. Hold 80; 85 still needs full 3x10 with sets 1-2 >= RIR 1 (Adj #332)"
     },
     {
       "exercise": "DB lateral raise (Tue Hyp A)",
@@ -63,9 +63,9 @@
     },
     {
       "exercise": "DB lateral raise (Sat Hyp B)",
-      "load": "35 (REVERT from 40 — fires today)",
-      "lastVerified": "W18 Sat 8/22 (40x10/9/8/9 RIR 0/0/0/0, full 4-set dose)",
-      "note": "Adj #275 revert trigger fired — two exposures at 40, no movement, 36 vs 48 at 35. Re-entry to 40 gates on rebuilding the 48 sweep (Adj #302)"
+      "load": "35 verified -> 40 FIRES W21 Sat 9-12 (not W20 — deload)",
+      "lastVerified": "W19 Fri 8/28 (35x12/12/15/13 RIR 3/3/1/0, full 4-set dose)",
+      "note": "REBUILD EXCEEDED — 52 total, best Sat-slot total ever, four clear of the 48 target. 40 fires W21 Sat; revert guard: front two under 11 floor -> 35 (Adj #329)"
     },
     {
       "exercise": "Preacher curl uni (Tue Hyp A)",
@@ -75,15 +75,15 @@
     },
     {
       "exercise": "Preacher curl uni (Sat Hyp B)",
-      "load": "60/arm working (hold)",
-      "lastVerified": "W18 Sat 8/22 (60x12/12/10/11 RIR 2/1/0/0, full 4x12 dose)",
-      "note": "45 total. Hold 60; 65 needs 12/12/12 front with set 3 >= RIR 1 (Adj #307)"
+      "load": "60/arm verified -> 65 FIRES W21 Sat 9-12 (not W20 — deload)",
+      "lastVerified": "W19 Fri 8/28 (60x12/12/12/7 RIR 2/1/1/0, full 4x12 dose)",
+      "note": "GATE MET — set 3 held the 12 floor at RIR 1 for the first time ever at 60 in the Sat slot. 65 fires W21 Sat; revert guard: 12/12/12 front can't hold with set 3 >= RIR 1 -> 60 (Adj #330)"
     },
     {
       "exercise": "Cable pushdown — TWO-HANDED ROPE",
-      "load": "47.5 working (Tue confirmed; first Sat outing today)",
-      "lastVerified": "W19 Tue 8/25 (47.5x12/12/12/12 RIR 3/3/1/0, full 4x12 dose)",
-      "note": "First completed 4x12 in the movement's history. Hold 47.5 and confirm; 50 gates on a repeat with set 3 >= RIR 1. Elbow watch: any lateral symptom at the rope -> revert unilateral (Adj #315)"
+      "load": "47.5 working — CONFIRMED in both slots; hold and keep confirming",
+      "lastVerified": "W19 Fri 8/28 (47.5x12/12/12/12 RIR 0/2/2/1, full 4x12 dose — Sat-slot debut)",
+      "note": "Second completed 4x12 (48 total, matching Tue), both slots verified. RIR line inverted (groove, not fatigue). 50 not met — set 4 at RIR 1, not to failure. Hold 47.5. Elbow 17th clean, 3rd at rope (Adj #331/#336)"
     },
     {
       "exercise": "Rear-delt fly",
@@ -93,21 +93,21 @@
     },
     {
       "exercise": "Seated calf",
-      "load": "365 working (hold — rebuild advancing)",
-      "lastVerified": "W18 Sat 8/22 (365x12/12/11/11 RIR 2/0/0/0, full 4-set dose)",
-      "note": "46 total, up from 44 debut. Two reps off the 4x12 sweep. Hold 365; 375 gates on clean 4x12 sweep. First run post-today's sweep: tomorrow's VO2 at ~18 h — compressed read; 365 established on two clean exposures (Adj #306/#310)"
+      "load": "365 verified — 4x12 SWEEP COMPLETE; 375 bump-eligible W21 Sat AM-gated",
+      "lastVerified": "W19 Fri 8/28 (365x12/12/12/12 RIR 2/1/0/0, full 4x12 dose)",
+      "note": "SWEEP COMPLETE — 48 total, rebuilt 44->46->48 in three exposures. Front pair RIR 2/1 (headroom), back pair RIR 0/0 (marginal vs 355's 3/2/1/0). 375 eligible W21 Sat AM-gated. First run post-sweep is Sat VO2 ~18 h — observational, not a gate (Adj #334)"
     },
     {
       "exercise": "Decline crunch",
-      "load": "Tue: +15 FIRES W21 Tue. Sat: 13.2 (+15) — one more exposure today, opener capped at 10",
-      "lastVerified": "Tue: W19 Tue 8/25 (+10x12/12/12 RIR 4/2/2); Sat: W18 Sat 8/22 (13.2x12/8/6 RIR 2/0/0)",
-      "note": "Tue gate met on both terms. Sat: cap opener at 10; sets 1-2 under the 10 floor -> hard revert +10 (Adj #305/#317)"
+      "load": "Tue: +15 FIRES W21 Tue. Sat: 13.2 (+15) — hard revert NOT fired, hold and rebuild",
+      "lastVerified": "Tue: W19 Tue 8/25 (+10x12/12/12 RIR 4/2/2); Sat: W19 Fri 8/28 (13.2x10/10/8 RIR 2/1/0)",
+      "note": "Tue gate met on both terms. Sat: improved from debut (26->28), sets 1-2 held the floor, set 3 improved 6->8. Hold 13.2, rebuild toward full 3x10 (Adj #305/#317/#335)"
     },
     {
       "exercise": "Chest Fly",
-      "load": "130 working (nudge condition registered)",
-      "lastVerified": "W18 Sat 8/22 (130x12/12 RIR 3/3, full 2x12)",
-      "note": "Cleanest line 130 has produced. A repeat 12/12 RIR 3/3 opens 135 (Adj #307)"
+      "load": "130 verified -> 135 FIRES W21 Sat 9-12 (not W20 — deload)",
+      "lastVerified": "W19 Fri 8/28 (130x12/12 RIR 3/3, full 2x12)",
+      "note": "NUDGE CONDITION MET — second consecutive 12/12 RIR 3/3. 135 fires W21 Sat; role and dose unchanged (2x12, RPE 7, joint health) (Adj #333)"
     }
   ]
 }
