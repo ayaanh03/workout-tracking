@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-08-26T19:55:00-04:00",
+  "generatedAt": "2026-08-28T11:46:00-04:00",
   "week": "W19",
   "phase": "Build",
-  "summary": "W19 — the added Build load week (Adj #204) and the last full week before the W20 deload. Three of five sessions banked. Wednesday's §10 cut-down is the headline and it PASSED: 8:22 RPE 4 / 7:43 RPE 7 / 6:51 RPE 9, with the goal-pace mile 4 s/mi faster than 6:55 at RPE 9 — inside the 8–9 pass band, so Tier C sub-21:30 is confirmed and the downgrade branch never fired (Adj #320). It also settled the T band at 7:40–7:45 with no recalc: mile 2's flat RPE 7 is the first T read of the Build to sit ON the ≤7 anchor rather than under it, and it came pre-fatigued as rep 2 of the cut-down. With I confirmed at the W18 8×800m (Adj #296), both pace questions the Build has carried since W15 are now shut (Adj #321). The gap is unchanged and on the record: Riegel off the final mile puts the 5K equivalent at ~22:47, within 4 s of the W14 3K's 22:43, so ~75–80 s separates current fitness from the goal — Sharpen's job, arbitrated next at the W23 tune-up (Fri 9-25, target 22:00–22:15). Monday's long was banked but under-filled at 60:00 against the 70-min ask (Adj #309), so the week lands ~24 mi; the standing Achilles read at ~40 h closed clean and the calf holds 365 (Adj #310). Tuesday was the best accessory session of the Build — the rope pushdown's drop to 47.5 produced its first completed 4×12 and cleared the set-3 condition (Adj #315), and the DB lateral and Tue crunch both met their gates, with 40 and +15 held to W21 past the deload (Adj #313/#317). The incline stalled a second week at 160 and its linear progression is called at its ceiling (Adj #312). Remaining: Fri 5×1000m @ I opened at 7:00 with 90 s jog recoveries, and Sat Hyp B, where lat 170 fires and the Sat DB lateral reverts to 35.",
+  "summary": "W19 — the added Build load week (Adj #204) and the last full week before the W20 deload. Four of five sessions banked after today. Wednesday's §10 cut-down PASSED: goal-pace mile ran 4 s/mi faster than 6:55 at RPE 9, so Tier C is confirmed, both pace questions shut (Adj #320/#321). Tuesday was the best accessory session of the Build — the pushdown's load drop produced its first completed 4x12 (Adj #315), and both DB lateral and crunch gates met (Adj #313/#317). Monday's long was under-filled at 60:00 of the 70-min ask (Adj #309). Fri/Sat swapped by athlete directive (4th instance of the shape): Fri = Hyp B (lat 170 fires, DB lateral reverts 35, pushdown takes 47.5 on the rope), Sat = VO2 5x1000m @ I. The incline stalled a second week at 160 and its linear progression is called at its ceiling (Adj #312). Fitness gap unchanged: ~22:45 equivalent against a 21:30 goal, ~75-80 s for Sharpen to find, arbitrated next at the W23 tune-up Fri 9-25.",
   "days": [
     {
       "date": "2026-08-24",
       "day": "Mon",
       "session": "Long run 70 min Z1 (§4.D W19)",
-      "note": "Logged — 60:00 / 6.10 mi @ 9:49/mi + 0.43 mi / 4:02 jogged CD = 6.53 mi / 64:02. UNDER-FILLED: the work interval was set to 60:00 against the 70-min ask, ~10 min / ~1.0 mi short — dropped, not repaid (§11.D), W19 lands ~24 mi. Splits 9:24 / 9:27 / 9:46 / 10:20 / 10:16 / 9:46 + 0.54 mi @ 9:14/mi, RPE 4 — all six full miles inside the 9:15–10:30 band, fastest 9 s/mi clear of the fast edge, so the Adj #256/#283 pickup pattern stays closed. Ran 10 s/mi quicker than W18 at a lower effort read, HR 164 work avg (5 under W18), power 203 W, cadence 167–170 inside the easy allowance; CD jogged at 9:17/mi, the first jogged CD on a v4.4 long. Road, Vomero Plus; all clean by default — first run after the 8-22 calf 365 dose at ~40 h, the standing Achilles read CLOSED CLEAN, 365 holds W19 Sat (Adj #309/#310).",
+      "note": "Logged — 60:00 / 6.10 mi @ 9:49/mi + 0.43 mi jogged CD = 6.53 mi / 64:02. UNDER-FILLED at 60:00 against the 70-min ask, ~10 min short, dropped not repaid. All six full miles inside the 9:15-10:30 band, RPE 4. Achilles read at ~40 h CLOSED CLEAN, 365 holds (Adj #309/#310).",
       "status": "done"
     },
     {
       "date": "2026-08-25",
       "day": "Tue",
       "session": "Hyp A (full dose — no run)",
-      "note": "Logged — full §3.A dose on all six. Pushdown 47.5 on the rope: 12/12/12/12 RIR 3/3/1/0 = 48, the first completed 4×12 in the movement's history and the set-3 hold-until-clean condition met at last — the constraint was the load, not the tendon (Adj #315); hold 47.5, 50 on a repeat. DB lateral 35 × 12/12/12/12/13/12 RIR 3/3/3/3/0/0 = 73, gate met in full → 40 fires (Adj #313). Crunch +10 × 12/12/12 RIR 4/2/2 = 36, gate met on both terms → +15 fires (Adj #317). Both held to W21 Tue — W20 is a deload, §11.B takes no bumps. Preacher 75 debut survived its revert guard (10/10/10/6 RIR 2/1/0/0; front three held the floor) → hold and rebuild (Adj #314). Incline 160×5 RIR 0 + AMRAP 135×11 — completed not missed, TM 168 stands, but a second ≤RIR 1 read: e1RM ~185 a fourth straight time and 160 is ~98% of the predicted 5RM, so hold 160 and call the linear progression at its ceiling (Adj #312). Rear-delt 145 at RIR 1/0 vs last week's on-ask 3/3 — execution read, hold, stop at RIR 3 (Adj #318). All clean by default — elbow 16th consecutive clean session.",
+      "note": "Logged — pushdown 47.5 on the rope: first completed 4x12 (48 total, set-3 condition met, Adj #315). DB lateral 35 gate met (73 total -> 40 fires W21, Adj #313). Crunch +10 gate met -> +15 fires W21 (Adj #317). Preacher 75 debut survived guard (Adj #314). Incline 160x5 RIR 0, hold — ceiling (Adj #312). Elbow 16th consecutive clean.",
       "status": "done"
     },
     {
       "date": "2026-08-26",
       "day": "Wed",
       "session": "§10 cut-down test — 1 mi M / 1 mi T / 1 mi @ goal 5K pace",
-      "note": "Logged — PASSED. 8:22 RPE 4 / 7:43 RPE 7 / 6:51 RPE 9, 1:30 jogged between; work 3.00 mi in 22:56, WU 15:08, CD 5:38, total 46:42. The criterion is the final mile at goal pace reading RPE 8–9 — it ran 4 s/mi FASTER than goal at RPE 9, so Tier C is confirmed and the downgrade branch is dead (Adj #320). T BAND SETTLED at 7:40–7:45, no recalc: mile 2's flat RPE 7 is the first T read of the Build to land ON the ≤7 anchor, and it came pre-fatigued as rep 2 — with I closed at the W18 8×800m, both pace questions are shut (Adj #321). On record: Riegel off the final mile → 5K equiv ~22:47, within 4 s of the W14 3K's 22:43 — ~75–80 s still to find, no VDOT recalc from a 1-mile rep, and the 6:51 does not reopen I (Adj #322). Cadence 173/170/179, recoveries jogged at ~11:00/mi, HR avg 171 peak 189, power up to 283 W — display-only. All clean by default, 13th consecutive quality outing clean.",
+      "note": "Logged — PASSED. 8:22 RPE 4 / 7:43 RPE 7 / 6:51 RPE 9. Tier C confirmed, T band settled at 7:40-7:45, both pace questions shut (Adj #320/#321). 13th consecutive quality outing clean.",
       "status": "done"
     },
     {
@@ -30,27 +30,27 @@
       "day": "Thu",
       "session": "Off — mobility / walk, daily SI prehab",
       "note": "Permanent full rest (§2.A).",
-      "status": "today"
+      "status": "done"
     },
     {
       "date": "2026-08-28",
       "day": "Fri",
-      "session": "VO2max 5×1000m @ I (90 s rec) — 2nd exposure",
-      "note": "Open at 7:00, band 7:00–7:15, RPE 9 governs; recoveries JOGGED at 90 s. Smaller total dose than W18's 8×800m so the fast-end open stays correct (Adj #296/#298).",
-      "status": "upcoming"
+      "session": "Hyp B (Fri/Sat swap — lift today)",
+      "note": "SWAPPED by athlete directive (4th run of Adj #223/#242/#273 shape). Lat 170 fires; DB lateral reverts 35; pushdown first Sat outing at rope 47.5; crunch 13.2 opener capped at 10; calf holds 365; row 80, preacher 60, fly 130 hold.",
+      "status": "today"
     },
     {
       "date": "2026-08-29",
       "day": "Sat",
-      "session": "Hyp B (lift only, no run)",
-      "note": "Lat 170 FIRES — front three under the 8 floor reverts 165 (Adj #301); DB lateral REVERTS 35 (Adj #302); pushdown takes the same drop the Tue slot just validated — 47.5 on the rope for the full 4×12–15 (Adj #315); crunch one more exposure at 13.2/+15 with the opener capped at 10 (Adj #305); calf holds 365 to finish the rebuild toward the 4×12 (Adj #306); row 80, preacher 60, fly 130 hold.",
+      "session": "VO2max 5x1000m @ I (Fri/Sat swap — run tomorrow)",
+      "note": "SWAPPED to Sat. Open at 7:00, band 7:00-7:15, 90 s JOG recoveries, RPE 9 governs. Smaller total dose than W18's 8x800m so the fast-end open stays correct (Adj #296). First run post-calf 365 sweep at ~18 h — compressed Achilles read; 365 established.",
       "status": "upcoming"
     },
     {
       "date": "2026-08-30",
       "day": "Sun",
       "session": "Off / SI prehab",
-      "note": "Tyler twists 3×15, reverse Tyler 3×15, McGill Big 3 5-3-1; walking is fine.",
+      "note": "Tyler twists 3x15, reverse Tyler 3x15, McGill Big 3 5-3-1; walking is fine.",
       "status": "upcoming"
     }
   ]
