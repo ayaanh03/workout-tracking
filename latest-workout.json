@@ -1,59 +1,40 @@
 {
-  "generatedAt": "2026-08-28T18:30:00-04:00",
+  "generatedAt": "2026-08-29T23:55:00-04:00",
   "week": "W19",
-  "day": "Fri",
-  "date": "2026-08-28",
+  "day": "Sun",
+  "date": "2026-08-30",
   "phase": "Build",
-  "sessionName": "Hyp B (Fri/Sat swap — lift today, VO2 tomorrow)",
+  "sessionName": "VO2max 5x1000m @ I (pushed from Sat)",
   "intro": [
-    "Fri/Sat swap (4th instance of the Adj #223/#242/#273 shape). Lat 170 fires; pushdown first Sat outing at rope 47.5; DB lateral reverts 35. Calf/Achilles: first run post-365 is tomorrow's VO2 at ~18 h — compressed read; 365 is established on two clean exposures, hold not a gated bump."
+    "Pushed from Sat to Sun by athlete directive. Post-calf gap widens ~18 h to ~42 h — back to the v4.4 standard spacing; the compressed Achilles read (Adj #334) is moot."
   ],
-  "lift": {
-    "table": [
-      { "exercise": "Lat pulldown (neutral)", "setsReps": "4x8-10", "load": "170", "rir": "2 -> 1", "rest": "90-120s", "cue": "BUMP from 165. Revert guard: front three under the 8 floor -> back to 165 (Adj #301)" },
-      { "exercise": "Chest-supported row", "setsReps": "3x10", "load": "80", "rir": "2", "rest": "90-120s", "cue": "Hold. 85 needs full 3x10 with sets 1-2 >= RIR 1" },
-      { "exercise": "DB lateral raise", "setsReps": "4x12-15", "load": "35", "rir": "2 -> 0", "rest": "60-90s", "cue": "REVERT from 40 (Adj #302). Rebuild toward 48 sweep for re-entry to 40" },
-      { "exercise": "Preacher curl (semi-sup)", "setsReps": "4x12", "load": "60", "rir": "2 -> 0", "rest": "60-90s", "cue": "Hold. 65 needs 12/12/12 front with set 3 >= RIR 1" },
-      { "exercise": "Cable pushdown (rope, both hands)", "setsReps": "4x12-15", "load": "47.5", "rir": "2 -> 0", "rest": "60-90s", "cue": "First Sat at rope 47.5. Tue ran 12/12/12/12 RIR 3/3/1/0 = 48 (Adj #315). Elbow watch: any lateral symptom -> revert unilateral" },
-      { "exercise": "Decline crunch", "setsReps": "3x10", "load": "13.2 (+15)", "rir": "2", "rest": "60-90s", "cue": "Cap opener at 10 — not past. Sets 1-2 under the 10 floor -> hard revert +10 (Adj #305)" },
-      { "exercise": "Seated calf raise", "setsReps": "4x12-15", "load": "365", "rir": "2 -> 0", "rest": "60-90s", "cue": "Hold — rebuild advancing (46 last, 48 target). 375 gates on clean 4x12 sweep" },
-      { "exercise": "Chest flye", "setsReps": "2x12", "load": "130", "rir": "3", "rest": "60-90s", "cue": "A repeat 12/12 RIR 3/3 opens a nudge to 135" }
-    ],
-    "lastWeek": {
-      "label": "Hyp B W18 Sat 8/22",
-      "table": [
-        { "exercise": "Lat pulldown", "load": "165", "reps": "8/8/8/8", "rir": "2/2/1/0" },
-        { "exercise": "Chest-supp row", "load": "80", "reps": "10/9/8", "rir": "1/0/0" },
-        { "exercise": "DB lateral", "load": "40", "reps": "10/9/8/9", "rir": "0/0/0/0" },
-        { "exercise": "Preacher curl", "load": "60", "reps": "12/12/10/11", "rir": "2/1/0/0" },
-        { "exercise": "Cable pushdown (rope)", "load": "55", "reps": "10/8/8/7", "rir": "0/0/0/0" },
-        { "exercise": "Decline crunch", "load": "13.2", "reps": "12/8/6", "rir": "2/0/0" },
-        { "exercise": "Seated calf", "load": "365", "reps": "12/12/11/11", "rir": "2/0/0/0" },
-        { "exercise": "Chest flye", "load": "130", "reps": "12/12", "rir": "3/3" }
-      ]
-    },
-    "warmup": "Dynamic: 1-2 min band pull-aparts, scap push-ups, hip openers. Pre-lift: wrist-extensor isometric 3x30 s/arm (section 10.A).",
-    "cooldown": "SI prehab — Tyler twists 3x15, reverse Tyler 3x15, McGill Big 3 5-3-1 pyramid"
+  "lift": null,
+  "cardio": {
+    "flags": [],
+    "workout": "5x1000m @ I (7:00-7:15/mi), 90 s jog rec, open at 7:00 (fast end)",
+    "targets": { "pace": "7:00-7:15/mi", "hr": "display-only", "cadence": "175-182 spm" },
+    "warmup": "1.0-1.5 mi easy build, 9:30 to 8:00/mi",
+    "cooldown": "5-10 min easy jog + SI prehab (Tyler 3x15, rev Tyler 3x15, McGill Big 3 5-3-1)",
+    "cues": []
   },
-  "cardio": null,
   "currentLoads": [
     {
       "exercise": "Incline BB",
-      "load": "160 working — HOLD 160 W20 Tue 9-1 / TM 168. The linear progression has reached its ceiling",
+      "load": "160 working — HOLD 160 W20 Tue 9-1 / TM 168",
       "lastVerified": "W19 Tue 8/25 (160x5 RIR 0 top + AMRAP 135x11 RIR 0, full dose)",
-      "note": "COMPLETED, NOT MISSED a second consecutive week. e1RM ~185 a fourth straight reading. Hold 160; W20 repeats 1x5 @ 160 + AMRAP @ 135. Only guard: <5 reps = miss #2 -> cut TM 5-7% (Adj #312)"
+      "note": "COMPLETED, NOT MISSED a second consecutive week. e1RM ~185 fourth straight reading. Hold 160; W20 repeats 1x5 @ 160 + AMRAP @ 135. Only guard: <5 reps = miss #2 -> cut TM 5-7% (Adj #312)"
     },
     {
       "exercise": "Lat pulldown",
       "load": "165 working — 170 debut MISSED, revert guard fired -> 165 comes back W21 Sat",
       "lastVerified": "W19 Fri 8/28 (170x8/8/7 + 165x5, RIR 2/1/0/0, full 4-set dose)",
-      "note": "170 debut failed — set 3 at 7 (under the 8 floor, at failure), athlete dropped to 165 for set 4. One qualifying sweep at 165 was thin for a 5-lb step. 165 comes back W21 Sat; re-entry to 170 gates on a repeat clean 4x8 with set 3 >= RIR 1 (Adj #328)"
+      "note": "170 debut failed — set 3 at 7 (under the 8 floor, at failure), athlete dropped to 165 for set 4. 165 comes back W21 Sat; re-entry to 170 gates on a repeat clean 4x8 with set 3 >= RIR 1 (Adj #328)"
     },
     {
       "exercise": "Chest-supp row",
       "load": "80 working (hold — second regression, worst at the load)",
       "lastVerified": "W19 Fri 8/28 (80x10/7/7 RIR 1/0/0, full 3x10 dose)",
-      "note": "WORST EVER at 80 — 24 total. Sets 2-3 collapsed to 7 behind the lat's heaviest block ever (170). Upstream fatigue context. Hold 80; 85 still needs full 3x10 with sets 1-2 >= RIR 1 (Adj #332)"
+      "note": "WORST EVER at 80 — 24 total. Hold 80; 85 still needs full 3x10 with sets 1-2 >= RIR 1 (Adj #332)"
     },
     {
       "exercise": "DB lateral raise (Tue Hyp A)",
@@ -65,7 +46,7 @@
       "exercise": "DB lateral raise (Sat Hyp B)",
       "load": "35 verified -> 40 FIRES W21 Sat 9-12 (not W20 — deload)",
       "lastVerified": "W19 Fri 8/28 (35x12/12/15/13 RIR 3/3/1/0, full 4-set dose)",
-      "note": "REBUILD EXCEEDED — 52 total, best Sat-slot total ever, four clear of the 48 target. 40 fires W21 Sat; revert guard: front two under 11 floor -> 35 (Adj #329)"
+      "note": "REBUILD EXCEEDED — 52 total. 40 fires W21 Sat; revert guard: front two under 11 floor -> 35 (Adj #329)"
     },
     {
       "exercise": "Preacher curl uni (Tue Hyp A)",
@@ -77,13 +58,13 @@
       "exercise": "Preacher curl uni (Sat Hyp B)",
       "load": "60/arm verified -> 65 FIRES W21 Sat 9-12 (not W20 — deload)",
       "lastVerified": "W19 Fri 8/28 (60x12/12/12/7 RIR 2/1/1/0, full 4x12 dose)",
-      "note": "GATE MET — set 3 held the 12 floor at RIR 1 for the first time ever at 60 in the Sat slot. 65 fires W21 Sat; revert guard: 12/12/12 front can't hold with set 3 >= RIR 1 -> 60 (Adj #330)"
+      "note": "GATE MET — set 3 held the 12 floor at RIR 1. 65 fires W21 Sat; revert guard: 12/12/12 front can't hold with set 3 >= RIR 1 -> 60 (Adj #330)"
     },
     {
       "exercise": "Cable pushdown — TWO-HANDED ROPE",
       "load": "47.5 working — CONFIRMED in both slots; hold and keep confirming",
       "lastVerified": "W19 Fri 8/28 (47.5x12/12/12/12 RIR 0/2/2/1, full 4x12 dose — Sat-slot debut)",
-      "note": "Second completed 4x12 (48 total, matching Tue), both slots verified. RIR line inverted (groove, not fatigue). 50 not met — set 4 at RIR 1, not to failure. Hold 47.5. Elbow 17th clean, 3rd at rope (Adj #331/#336)"
+      "note": "Second completed 4x12 (48 total, matching Tue), both slots verified. Hold 47.5. Elbow 17th clean, 3rd at rope (Adj #331/#336)"
     },
     {
       "exercise": "Rear-delt fly",
@@ -95,19 +76,19 @@
       "exercise": "Seated calf",
       "load": "365 verified — 4x12 SWEEP COMPLETE; 375 bump-eligible W21 Sat AM-gated",
       "lastVerified": "W19 Fri 8/28 (365x12/12/12/12 RIR 2/1/0/0, full 4x12 dose)",
-      "note": "SWEEP COMPLETE — 48 total, rebuilt 44->46->48 in three exposures. Front pair RIR 2/1 (headroom), back pair RIR 0/0 (marginal vs 355's 3/2/1/0). 375 eligible W21 Sat AM-gated. First run post-sweep is Sat VO2 ~18 h — observational, not a gate (Adj #334)"
+      "note": "SWEEP COMPLETE — 48 total. 375 eligible W21 Sat AM-gated. Achilles clean on three full-dose exposures (Adj #334)"
     },
     {
       "exercise": "Decline crunch",
-      "load": "Tue: +15 FIRES W21 Tue. Sat: 13.2 (+15) — hard revert NOT fired, hold and rebuild",
+      "load": "Tue: +15 FIRES W21 Tue. Sat: 13.2 (+15) — hold and rebuild",
       "lastVerified": "Tue: W19 Tue 8/25 (+10x12/12/12 RIR 4/2/2); Sat: W19 Fri 8/28 (13.2x10/10/8 RIR 2/1/0)",
-      "note": "Tue gate met on both terms. Sat: improved from debut (26->28), sets 1-2 held the floor, set 3 improved 6->8. Hold 13.2, rebuild toward full 3x10 (Adj #305/#317/#335)"
+      "note": "Tue gate met on both terms. Sat: improved from debut (26->28), hold and rebuild (Adj #305/#317/#335)"
     },
     {
       "exercise": "Chest Fly",
       "load": "130 verified -> 135 FIRES W21 Sat 9-12 (not W20 — deload)",
       "lastVerified": "W19 Fri 8/28 (130x12/12 RIR 3/3, full 2x12)",
-      "note": "NUDGE CONDITION MET — second consecutive 12/12 RIR 3/3. 135 fires W21 Sat; role and dose unchanged (2x12, RPE 7, joint health) (Adj #333)"
+      "note": "NUDGE CONDITION MET — second consecutive 12/12 RIR 3/3. 135 fires W21 Sat (Adj #333)"
     }
   ]
 }

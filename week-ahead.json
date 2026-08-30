@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-28T18:30:00-04:00",
+  "generatedAt": "2026-08-29T23:55:00-04:00",
   "week": "W19",
   "phase": "Build",
-  "summary": "W19 — the added Build load week (Adj #204) and the last full week before the W20 deload. Four of five sessions banked after today. Wednesday's §10 cut-down PASSED: goal-pace mile ran 4 s/mi faster than 6:55 at RPE 9, so Tier C is confirmed, both pace questions shut (Adj #320/#321). Tuesday was the best accessory session of the Build — the pushdown's load drop produced its first completed 4x12 (Adj #315), and both DB lateral and crunch gates met (Adj #313/#317). Monday's long was under-filled at 60:00 of the 70-min ask (Adj #309). Friday's Hyp B (4th Fri/Sat swap) produced four bumps firing W21 Sat — DB lateral 40, Sat preacher 65, fly 135, and calf 375 AM-gated — while the lat 170 debut missed and reverts to 165 (Adj #327-#336). The pushdown confirmed at 47.5 on its Sat-slot debut (second 4x12). Elbow 17th consecutive clean. Fitness gap unchanged: ~22:45 equivalent against a 21:30 goal, ~75-80 s for Sharpen to find, arbitrated next at the W23 tune-up Fri 9-25.",
+  "summary": "W19 — the added Build load week (Adj #204) and the last full week before the W20 deload. Four of five sessions banked. Wednesday's section 10 cut-down PASSED: goal-pace mile ran 4 s/mi faster than 6:55 at RPE 9, so Tier C is confirmed, both pace questions shut (Adj #320/#321). Tuesday was the best accessory session of the Build — the pushdown's load drop produced its first completed 4x12 (Adj #315), and both DB lateral and crunch gates met (Adj #313/#317). Monday's long was under-filled at 60:00 of the 70-min ask (Adj #309). Friday's Hyp B (4th Fri/Sat swap) produced four bumps firing W21 Sat — DB lateral 40, Sat preacher 65, fly 135, and calf 375 AM-gated — while the lat 170 debut missed and reverts to 165 (Adj #327-#336). The pushdown confirmed at 47.5 on its Sat-slot debut (second 4x12). Elbow 17th consecutive clean. VO2 pushed from Sat to Sun by athlete directive — post-calf gap widens ~18 h to ~42 h, back to the standard v4.4 spacing.",
   "days": [
     {
       "date": "2026-08-24",
       "day": "Mon",
-      "session": "Long run 70 min Z1 (§4.D W19)",
+      "session": "Long run 70 min Z1 (section 4.D W19)",
       "note": "Logged — 60:00 / 6.10 mi @ 9:49/mi + 0.43 mi jogged CD = 6.53 mi / 64:02. UNDER-FILLED at 60:00 against the 70-min ask, ~10 min short, dropped not repaid. All six full miles inside the 9:15-10:30 band, RPE 4. Achilles read at ~40 h CLOSED CLEAN, 365 holds (Adj #309/#310).",
       "status": "done"
     },
@@ -21,7 +21,7 @@
     {
       "date": "2026-08-26",
       "day": "Wed",
-      "session": "§10 cut-down test — 1 mi M / 1 mi T / 1 mi @ goal 5K pace",
+      "session": "Section 10 cut-down test — 1 mi M / 1 mi T / 1 mi @ goal 5K pace",
       "note": "Logged — PASSED. 8:22 RPE 4 / 7:43 RPE 7 / 6:51 RPE 9. Tier C confirmed, T band settled at 7:40-7:45, both pace questions shut (Adj #320/#321). 13th consecutive quality outing clean.",
       "status": "done"
     },
@@ -29,7 +29,7 @@
       "date": "2026-08-27",
       "day": "Thu",
       "session": "Off — mobility / walk, daily SI prehab",
-      "note": "Permanent full rest (§2.A).",
+      "note": "Permanent full rest (section 2.A).",
       "status": "done"
     },
     {
@@ -42,16 +42,16 @@
     {
       "date": "2026-08-29",
       "day": "Sat",
-      "session": "VO2max 5x1000m @ I (Fri/Sat swap — run tomorrow)",
-      "note": "SWAPPED to Sat. Open at 7:00, band 7:00-7:15, 90 s JOG recoveries, RPE 9 governs. Smaller total dose than W18's 8x800m so the fast-end open stays correct (Adj #296). First run post-calf 365 sweep at ~18 h — compressed Achilles read; 365 established.",
-      "status": "today"
+      "session": "Off (VO2 pushed to Sun by athlete directive)",
+      "note": "VO2 originally swapped here from the Fri/Sat swap; pushed to Sun — post-calf gap widens ~18 h to ~42 h, back to the standard v4.4 spacing.",
+      "status": "done"
     },
     {
       "date": "2026-08-30",
       "day": "Sun",
-      "session": "Off / SI prehab",
-      "note": "Tyler twists 3x15, reverse Tyler 3x15, McGill Big 3 5-3-1; walking is fine.",
-      "status": "upcoming"
+      "session": "VO2max 5x1000m @ I (pushed from Sat)",
+      "note": "Open at 7:00, band 7:00-7:15, 90 s JOG recoveries, RPE 9 governs. 2nd exposure at the shape (Adj #296). First run post-calf 365 sweep at ~42 h — observational, not a gate (Adj #334).",
+      "status": "today"
     }
   ]
 }
