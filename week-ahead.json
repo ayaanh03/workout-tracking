@@ -1,57 +1,15 @@
 {
-  "generatedAt": "2026-08-29T23:55:00-04:00",
-  "week": "W19",
+  "generatedAt": "2026-08-30T21:05:00-04:00",
+  "week": "W20",
   "phase": "Build",
-  "summary": "W19 — the added Build load week (Adj #204) and the last full week before the W20 deload. Four of five sessions banked. Wednesday's section 10 cut-down PASSED: goal-pace mile ran 4 s/mi faster than 6:55 at RPE 9, so Tier C is confirmed, both pace questions shut (Adj #320/#321). Tuesday was the best accessory session of the Build — the pushdown's load drop produced its first completed 4x12 (Adj #315), and both DB lateral and crunch gates met (Adj #313/#317). Monday's long was under-filled at 60:00 of the 70-min ask (Adj #309). Friday's Hyp B (4th Fri/Sat swap) produced four bumps firing W21 Sat — DB lateral 40, Sat preacher 65, fly 135, and calf 375 AM-gated — while the lat 170 debut missed and reverts to 165 (Adj #327-#336). The pushdown confirmed at 47.5 on its Sat-slot debut (second 4x12). Elbow 17th consecutive clean. VO2 pushed from Sat to Sun by athlete directive — post-calf gap widens ~18 h to ~42 h, back to the standard v4.4 spacing.",
+  "summary": "W20 — Build deload (section 11.B, mirroring W16, Adj #204). The last week before Sharpen opens at W21. Three runs (~14 mi target) + two lifts, all on cut doses with no bumps and no additions. Seven W21 bumps are held past this deload: Tue -- DB lateral 40 (Adj #313), crunch +15 (Adj #317), section 10.A 2nd-movement re-surfaces (Adj #316); Sat -- DB lateral 40 (Adj #329), preacher 65 (Adj #330), fly 135 (Adj #333), calf 375 AM-gated (Adj #334), lat re-gates 165 (Adj #328). Quality-outing streak at 14; elbow at 17 consecutive clean.",
   "days": [
-    {
-      "date": "2026-08-24",
-      "day": "Mon",
-      "session": "Long run 70 min Z1 (section 4.D W19)",
-      "note": "Logged — 60:00 / 6.10 mi @ 9:49/mi + 0.43 mi jogged CD = 6.53 mi / 64:02. UNDER-FILLED at 60:00 against the 70-min ask, ~10 min short, dropped not repaid. All six full miles inside the 9:15-10:30 band, RPE 4. Achilles read at ~40 h CLOSED CLEAN, 365 holds (Adj #309/#310).",
-      "status": "done"
-    },
-    {
-      "date": "2026-08-25",
-      "day": "Tue",
-      "session": "Hyp A (full dose — no run)",
-      "note": "Logged — pushdown 47.5 on the rope: first completed 4x12 (48 total, set-3 condition met, Adj #315). DB lateral 35 gate met (73 total -> 40 fires W21, Adj #313). Crunch +10 gate met -> +15 fires W21 (Adj #317). Preacher 75 debut survived guard (Adj #314). Incline 160x5 RIR 0, hold — ceiling (Adj #312). Elbow 16th consecutive clean.",
-      "status": "done"
-    },
-    {
-      "date": "2026-08-26",
-      "day": "Wed",
-      "session": "Section 10 cut-down test — 1 mi M / 1 mi T / 1 mi @ goal 5K pace",
-      "note": "Logged — PASSED. 8:22 RPE 4 / 7:43 RPE 7 / 6:51 RPE 9. Tier C confirmed, T band settled at 7:40-7:45, both pace questions shut (Adj #320/#321). 13th consecutive quality outing clean.",
-      "status": "done"
-    },
-    {
-      "date": "2026-08-27",
-      "day": "Thu",
-      "session": "Off — mobility / walk, daily SI prehab",
-      "note": "Permanent full rest (section 2.A).",
-      "status": "done"
-    },
-    {
-      "date": "2026-08-28",
-      "day": "Fri",
-      "session": "Hyp B (Fri/Sat swap — lift today)",
-      "note": "Logged — lat 170 debut MISSED, revert 165 (Adj #328). DB lateral 35 rebuild exceeded (52 total) -> 40 fires W21 Sat (Adj #329). Preacher 60 gate met -> 65 fires W21 Sat (Adj #330). Pushdown 47.5 confirmed, second 4x12, Sat debut (Adj #331). Fly nudge met -> 135 fires W21 Sat (Adj #333). Calf 365 sweep complete (48 total) -> 375 eligible W21 Sat AM-gated (Adj #334). Crunch 13.2 improved, hold (Adj #335). Elbow 17th clean (Adj #336).",
-      "status": "done"
-    },
-    {
-      "date": "2026-08-29",
-      "day": "Sat",
-      "session": "Off (VO2 pushed to Sun by athlete directive)",
-      "note": "VO2 originally swapped here from the Fri/Sat swap; pushed to Sun — post-calf gap widens ~18 h to ~42 h, back to the standard v4.4 spacing.",
-      "status": "done"
-    },
-    {
-      "date": "2026-08-30",
-      "day": "Sun",
-      "session": "VO2max 5x1000m @ I (pushed from Sat)",
-      "note": "Open at 7:00, band 7:00-7:15, 90 s JOG recoveries, RPE 9 governs. 2nd exposure at the shape (Adj #296). First run post-calf 365 sweep at ~42 h — observational, not a gate (Adj #334).",
-      "status": "today"
-    }
+    { "date": "2026-08-31", "day": "Mon", "session": "Long 50 min Z1 (section 4.D deload)", "note": "50-min ask (reduced from the 70-min load-week prescription). The week's entire easy fraction under v4.4.", "status": "today" },
+    { "date": "2026-09-01", "day": "Tue", "session": "Hyp A deload (cut dose, section 11.B)", "note": "Incline 1x5 @ 160 + AMRAP @ 135 (<5 = miss #2 -> TM cut, Adj #312). All accessories at working loads on cut sets. No bumps -- DB lateral 40, crunch +15 held to W21 Tue.", "status": "upcoming" },
+    { "date": "2026-09-02", "day": "Wed", "session": "3x6 min @ T (deload)", "note": "T 7:40-7:45, RPE <=7. Band settled (Adj #321). Deload dose -- 18 min of work.", "status": "upcoming" },
+    { "date": "2026-09-03", "day": "Thu", "session": "Off -- mobility / walk, daily SI prehab", "note": "Permanent full rest (section 2.A).", "status": "upcoming" },
+    { "date": "2026-09-04", "day": "Fri", "session": "4x3 min @ I (deload VO2)", "note": "I 7:00-7:15, RPE 9 governs. Band settled (Adj #296). Deload dose -- 12 min of work, 3 min jog rec.", "status": "upcoming" },
+    { "date": "2026-09-05", "day": "Sat", "session": "Hyp B deload (cut dose, section 11.B)", "note": "All accessories at working loads on cut sets. No bumps. Seven bumps fire W21 Sat: DB lateral 40, preacher 65, fly 135, calf 375 AM-gated; lat re-gates 165.", "status": "upcoming" },
+    { "date": "2026-09-06", "day": "Sun", "session": "Off", "note": "Permanent full rest (v4.4, Adj #244).", "status": "upcoming" }
   ]
 }
