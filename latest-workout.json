@@ -1,22 +1,38 @@
 {
-  "generatedAt": "2026-08-31T07:30:00-04:00",
+  "generatedAt": "2026-09-01T07:00:00-04:00",
   "week": "W20",
-  "day": "Mon",
-  "date": "2026-08-31",
+  "day": "Tue",
+  "date": "2026-09-01",
   "phase": "Build",
-  "sessionName": "Long Z1 50 min (deload)",
+  "sessionName": "Hyp A deload",
   "intro": [
-    "Set the watch interval to 50:00 -- last week under-filled at 60:00 on a 70-min ask (Adj #309)."
+    "Deload week -- section 11.B, sets cut ~50%, all loads at working. No bumps; DB lateral 40, crunch +15 held to W21 Tue (Adj #313/#317)."
   ],
-  "lift": null,
-  "cardio": {
-    "flags": [],
-    "workout": "50 min Z1 easy continuous (deload -- section 11.B, reduced from 70 min)",
-    "targets": { "pace": "9:15-10:30/mi", "hr": "display-only", "cadence": "165-172 spm" },
-    "warmup": "5 min walk to easy jog build",
-    "cooldown": "5-10 min easy jog / walk",
-    "cues": []
+  "lift": {
+    "table": [
+      { "exercise": "Incline BB", "setsReps": "1x5 + 1xAMRAP", "load": "160 / 135", "rir": "RPE 7", "rest": "2-3 min", "cue": "<5 reps at 160 = miss #2 -> cut TM 5-7% (Adj #312)" },
+      { "exercise": "DB lateral raise", "setsReps": "3x12", "load": "35", "rir": "RPE 9", "rest": "60-90s", "cue": "" },
+      { "exercise": "Preacher curl machine", "setsReps": "3x10", "load": "75", "rir": "RPE 8", "rest": "60-90s", "cue": "" },
+      { "exercise": "Cable pushdown (rope, both hands)", "setsReps": "3x12", "load": "47.5", "rir": "RPE 8", "rest": "60-90s", "cue": "" },
+      { "exercise": "Decline crunch", "setsReps": "2x12", "load": "+10", "rir": "RPE 8", "rest": "60-90s", "cue": "" },
+      { "exercise": "Rear-delt fly", "setsReps": "1x15", "load": "145", "rir": "RPE 7", "rest": "-", "cue": "Stop at RIR 3 (Adj #318)" }
+    ],
+    "lastWeek": {
+      "label": "Hyp A W19 Tue 8/25",
+      "table": [
+        { "exercise": "Incline BB (top)", "load": "160", "reps": "5", "rir": "0" },
+        { "exercise": "Incline BB (AMRAP)", "load": "135", "reps": "11", "rir": "0" },
+        { "exercise": "DB lateral raise", "load": "35", "reps": "12/12/12/12/13/12", "rir": "3/3/3/3/0/0" },
+        { "exercise": "Preacher curl", "load": "75", "reps": "10/10/10/6", "rir": "2/1/0/0" },
+        { "exercise": "Cable pushdown (rope)", "load": "47.5", "reps": "12/12/12/12", "rir": "3/3/1/0" },
+        { "exercise": "Decline crunch", "load": "+10", "reps": "12/12/12", "rir": "4/2/2" },
+        { "exercise": "Rear-delt fly", "load": "145", "reps": "15/15", "rir": "1/0" }
+      ]
+    },
+    "warmup": "Incline BB: bar x 8, 95 x 5, 115 x 3, then working. General: 1-2 min band pull-aparts, scap push-ups.",
+    "cooldown": "SI prehab -- Tyler twists 3x15, reverse Tyler 3x15, McGill Big 3 5-3-1"
   },
+  "cardio": null,
   "currentLoads": [
     {
       "exercise": "Incline BB",
