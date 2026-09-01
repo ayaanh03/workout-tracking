@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-08-30T21:05:00-04:00",
-  "week": "W19",
-  "day": "Sun",
-  "date": "2026-08-30",
+  "generatedAt": "2026-08-31T07:30:00-04:00",
+  "week": "W20",
+  "day": "Mon",
+  "date": "2026-08-31",
   "phase": "Build",
-  "sessionName": "VO2max 5x1000m @ I (pushed from Sat)",
+  "sessionName": "Long Z1 50 min (deload)",
   "intro": [
-    "Pushed from Sat to Sun by athlete directive. Post-calf gap widens ~18 h to ~42 h -- back to the v4.4 standard spacing; the compressed Achilles read (Adj #334) is moot."
+    "Set the watch interval to 50:00 -- last week under-filled at 60:00 on a 70-min ask (Adj #309)."
   ],
   "lift": null,
   "cardio": {
     "flags": [],
-    "workout": "5x1000m @ I (7:00-7:15/mi), 90 s jog rec, open at 7:00 (fast end)",
-    "targets": { "pace": "7:00-7:15/mi", "hr": "display-only", "cadence": "175-182 spm" },
-    "warmup": "1.0-1.5 mi easy build, 9:30 to 8:00/mi",
-    "cooldown": "5-10 min easy jog + SI prehab (Tyler 3x15, rev Tyler 3x15, McGill Big 3 5-3-1)",
+    "workout": "50 min Z1 easy continuous (deload -- section 11.B, reduced from 70 min)",
+    "targets": { "pace": "9:15-10:30/mi", "hr": "display-only", "cadence": "165-172 spm" },
+    "warmup": "5 min walk to easy jog build",
+    "cooldown": "5-10 min easy jog / walk",
     "cues": []
   },
   "currentLoads": [
