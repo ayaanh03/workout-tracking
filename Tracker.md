@@ -41,9 +41,7 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 Open items that affect the next session. Full rationale in `history/adjustments.md` (live #309+) / `history/archive/` — grep: `grep -rn '^N\. ' history/`.
 
 - **§10.A 2nd biceps/triceps movement** — premise removed (pushdown completed its dose, Adj #315). Decision window: W21 Tue 9-8. Counterweights: (a) confirm 47.5 first, (b) §11.A Phase D "no new exercises" from Sharpen on. Re-surfaces at the W21 Tue brief (Adj #316).
-- **Tennis elbow (§10.A):** 18 consecutive clean sessions, 4th at the rope. Gate met 7-31 (Adj #229). **Rope watch:** bilateral reintroduced 8-22 (Adj #303) — any lateral-elbow symptom → revert unilateral immediately. Dailies: Tyler 3×15, reverse Tyler 3×15, pre-lift wrist-extensor iso 3×30 s/arm.
 - **L Achilles:** reactive tendon. 365 established (3 full-dose exposures, all clean). 375 AM-gated W21 Sat — clean first-run-after read required (Mon AM under v4.4). After-only soreness pattern (Adj #113/#125) has not recurred. (Adj #34/#135/#284/#306/#334)
-- **R patellar tendon:** ongoing watch. Clean through maximal 5K TT. No restriction; escalate if it sharpens or shows AM stiffness. (Adj #64/#132/#143)
 - **Treadmill quality at 1%** for road equivalence (Adj #177).
 - **Running power:** display-only, governs nothing (Adj #251). Log when the watch reports it.
 - **Logging default (Adj #188/#190):** assume-same-as-last for context, no-news-is-clean for SI/tendon/pain. Missing numbers get one compact prompt; unknowns log "n/r".
@@ -82,4 +80,4 @@ Current week only — completed weeks live in `history/weekly-summary.md` (W13+)
 
 |Wk|Mon|Tue|Wed|Thu|Fri|Sat|Status|
 |---|---|---|---|---|---|---|---|
-|W20 (Build deload, §11.B)|✓ Long 52:41 8-31 (5.44 mi, RPE 3–4; Adj #339)|✓ Hyp A deload 9-1 (incline 160×5 RIR 0 + 135×11; elbow 18th clean; Adj #340)|3×6 @ T 9-2|Off (§2.A)|4×3 @ I 9-4|Hyp B deload 9-5|in progress|
+|W20 (Build deload, §11.B)|✓ Long 52:41 8-31 (5.44 mi, RPE 3–4; Adj #339)|✓ Hyp A deload 9-1 (incline 160×5 RIR 0 + 135×11; elbow 18th clean; Adj #340)|✓ T deload 3×6 9-3 (7:38/mi avg, RPE 5; 15th quality clean; Adj #341)|Off (§2.A)|4×3 @ I 9-4|Hyp B deload 9-5|in progress|
