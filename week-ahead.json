@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T19:00:00-04:00",
+  "generatedAt": "2026-09-04T07:00:00-04:00",
   "week": "W20",
   "phase": "Build",
   "summary": "W20 -- Build deload (section 11.B, mirroring W16, Adj #204). The last week before Sharpen opens at W21. Three runs (~14 mi target) + two lifts, all on cut doses with no bumps and no additions. Seven W21 bumps are held past this deload: Tue -- DB lateral 40 (Adj #313), crunch +15 (Adj #317), section 10.A 2nd-movement re-surfaces (Adj #316); Sat -- DB lateral 40 (Adj #329), preacher 65 (Adj #330), fly 135 (Adj #333), calf 375 AM-gated (Adj #334), lat re-gates 165 (Adj #328). Quality-outing streak at 15; elbow at 18 consecutive clean.",
@@ -7,8 +7,8 @@
     { "date": "2026-08-31", "day": "Mon", "session": "Long 50 min Z1 (section 4.D deload)", "note": "Logged -- 52:41 / 5.44 mi @ 9:41/mi, RPE 3-4; 4th consecutive long in its slot; mile 1 at 9:08 (7 s below fast edge), rest in band; all clean (Adj #339)", "status": "done" },
     { "date": "2026-09-01", "day": "Tue", "session": "Hyp A deload (cut dose, section 11.B)", "note": "Logged -- incline 160x5 RIR 0 last rep not clean, AMRAP 135x11 flat (ceiling confirmed, Build's final full-weight read); all deload cuts held; elbow 18th clean (Adj #340)", "status": "done" },
     { "date": "2026-09-02", "day": "Wed", "session": "3x6 min @ T (deload)", "note": "Logged 9-3 -- 7:39/7:37/7:39 avg 7:38/mi, RPE 5; slight overpace 1-3 s/mi below fast edge, sub-anchor; 18 min work; 15th quality outing clean (Adj #341)", "status": "done" },
-    { "date": "2026-09-03", "day": "Thu", "session": "Off -- mobility / walk, daily SI prehab", "note": "Permanent full rest (section 2.A).", "status": "today" },
-    { "date": "2026-09-04", "day": "Fri", "session": "4x3 min @ I (deload VO2)", "note": "I 7:00-7:15, RPE 9 governs. Band settled (Adj #296). Deload dose -- 12 min of work, 3 min jog rec.", "status": "upcoming" },
+    { "date": "2026-09-03", "day": "Thu", "session": "Off -- mobility / walk, daily SI prehab", "note": "Permanent full rest (section 2.A).", "status": "done" },
+    { "date": "2026-09-04", "day": "Fri", "session": "4x3 min @ I (deload VO2)", "note": "I 7:00-7:15, RPE 9 governs. Band settled (Adj #296). Deload dose -- 12 min of work, 3 min jog rec.", "status": "today" },
     { "date": "2026-09-05", "day": "Sat", "session": "Hyp B deload (cut dose, section 11.B)", "note": "All accessories at working loads on cut sets. No bumps. Seven bumps fire W21 Sat: DB lateral 40, preacher 65, fly 135, calf 375 AM-gated; lat re-gates 165.", "status": "upcoming" },
     { "date": "2026-09-06", "day": "Sun", "session": "Off", "note": "Permanent full rest (v4.4, Adj #244).", "status": "upcoming" }
   ]
