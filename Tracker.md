@@ -45,6 +45,7 @@ Open items that affect the next session. Full rationale in `history/adjustments.
 - **Treadmill quality at 1%** for road equivalence (Adj #177).
 - **Running power:** display-only, governs nothing (Adj #251). Log when the watch reports it.
 - **Logging default (Adj #188/#190):** assume-same-as-last for context, no-news-is-clean for SI/tendon/pain. Missing numbers get one compact prompt; unknowns log "n/r".
+- **One-time swap Fri 9-4 / Mon 9-7 (Adj #342):** Fri 9-4 = long 60 min Z1 (from W21 Mon); Mon 9-7 = 4×3 @ I deload VO2 (from W20 Fri). Template reverts to normal from W21 Wed onward.
 
 ---
 
