@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-09-04T07:00:00-04:00",
+  "generatedAt": "2026-09-04T00:05:00-04:00",
   "week": "W20",
   "day": "Fri",
   "date": "2026-09-04",
   "phase": "Build",
-  "sessionName": "VO2max deload 4x3 min @ I",
-  "intro": [],
+  "sessionName": "Long 60 min Z1 (swapped from Mon W21, Adj #342)",
+  "intro": ["One-time swap: W21 long moved to Fri 9-4, W20 deload VO2 moves to Mon 9-7 (Adj #342)."],
   "lift": null,
   "cardio": {
     "flags": [],
-    "workout": "4x3 min @ I (7:00-7:15/mi), 3 min jog rec. Deload dose -- 12 min of work (per section 4.D W20, section 11.B).",
-    "targets": { "pace": "7:00-7:15/mi", "hr": "display-only", "cadence": "175-182 spm" },
-    "warmup": "1.0-1.5 mi easy build to I pace, 10:00 -> 8:00/mi",
-    "cooldown": "5-10 min easy jog (9:30-10:30/mi) + SI prehab (Tyler twists 3x15, reverse Tyler 3x15)",
+    "workout": "60 min Z1 easy (section 4.E W21 long, run early per Adj #342). Conversation-gated -- genuinely conversational end to end.",
+    "targets": { "pace": "9:15-10:30/mi", "hr": "display-only", "cadence": "165-172 spm (easy natural)" },
+    "warmup": "5 min walk, then build into easy pace over first 0.5 mi",
+    "cooldown": "5-10 min easy jog + SI prehab (Tyler twists 3x15, reverse Tyler 3x15)",
     "cues": []
   },
   "currentLoads": [
