@@ -21,18 +21,18 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 |Exercise|Load|Last verified|Note|
 |---|---|---|---|
 |Incline BB|160 working / TM 168|W20 Tue 9/1 (160×5 RIR 0 + AMRAP 135×11)|Build closed. W21 Sharpen: 1×5 @ TM maintenance, no AMRAP. <5 reps = miss #2 → cut TM 5–7% (Adj #312/#340)|
-|Lat pulldown|165 working|W19 Fri 8/28 (170×8/8/7+165×5)|170 debut missed → revert 165 W21 Sat. Re-entry: repeat clean 4×8, set 3 ≥RIR 1 (Adj #328)|
-|Chest-supp row|80 working|W19 Fri 8/28 (10/7/7 RIR 1/0/0)|Hold unconditional. 85 needs full 3×10, sets 1-2 ≥RIR 1 (Adj #332)|
+|Lat pulldown|165 working|W20 Sat 9/5 (165×10/8 RIR 2/0, deload 2-set)|170 debut missed → revert 165 W21 Sat. Re-entry: repeat clean 4×8, set 3 ≥RIR 1 (Adj #328)|
+|Chest-supp row|80 working|W20 Sat 9/5 (10/10 RIR 3/1, deload 2-set)|Hold unconditional. 85 needs full 3×10, sets 1-2 ≥RIR 1 (Adj #332)|
 |DB lateral raise (Tue)|35 → **40 fires W21 Tue**|W19 Tue 8/25 (73 total, 6×12)|Revert: front four can't hold 12 floor → 35 (Adj #313)|
-|DB lateral raise (Sat)|35 → **40 fires W21 Sat**|W19 Fri 8/28 (52 total, 4-set)|Revert: front two under 11 floor → 35 (Adj #329)|
+|DB lateral raise (Sat)|35 → **40 fires W21 Sat**|W20 Sat 9/5 (15/15 RIR 3/2, deload 2-set)|Revert: front two under 11 floor → 35 (Adj #329)|
 |Preacher curl uni (Tue)|75/arm working|W19 Tue 8/25 (75 debut: 10/10/10/6 RIR 2/1/0/0)|Hold, rebuild. 80 gates on full 4×10, set 3 ≥RIR 1 (Adj #314)|
-|Preacher curl uni (Sat)|60/arm → **65 fires W21 Sat**|W19 Fri 8/28 (12/12/12/7 RIR 2/1/1/0)|Gate met. Revert: front three lose 12 floor or set 3 <RIR 1 → 60 (Adj #330)|
-|Cable pushdown (rope, both-handed)|47.5 working|W19 Fri 8/28 (2nd 4×12, both slots verified)|Confirmed. 50 gates on 4×12, set 3 ≥RIR 1 + set 4 to failure (Adj #315/#331)|
+|Preacher curl uni (Sat)|60/arm → **65 fires W21 Sat**|W20 Sat 9/5 (12/12 RIR 2/2, deload 2-set)|Gate met. Revert: front three lose 12 floor or set 3 <RIR 1 → 60 (Adj #330)|
+|Cable pushdown (rope, both-handed)|47.5 working|W20 Sat 9/5 (12/13 RIR 2/0, deload 2-set)|Confirmed. 50 gates on 4×12, set 3 ≥RIR 1 + set 4 to failure (Adj #315/#331)|
 |Rear-delt fly|145 working|W19 Tue 8/25 (15/15 RIR 1/0)|Hold. Execution: stop at RIR 3 — joint-health slot, not growth (Adj #318)|
-|Seated calf|365 → **375 eligible W21 Sat, AM-gated**|W19 Fri 8/28 (365 sweep: 12/12/12/12 = 48)|Sweep complete, 3 clean exposures. Achilles clean at every read (Adj #334)|
+|Seated calf|365 → **375 eligible W21 Sat, AM-gated**|W20 Sat 9/5 (12/12 RIR 1/0, deload 2-set)|Sweep complete, 3 clean exposures. Achilles clean at every read (Adj #334)|
 |Decline crunch (Tue)|+10 → **+15 fires W21 Tue**|W19 Tue 8/25 (+10: 12/12/12 RIR 4/2/2)|Gate met both terms (Adj #317)|
-|Decline crunch (Sat)|13.2/+15 working|W19 Fri 8/28 (10/10/8 RIR 2/1/0)|Hold, rebuild toward full 3×10 (Adj #335)|
-|Chest fly|130 → **135 fires W21 Sat**|W19 Fri 8/28 (12/12 RIR 3/3)|Second consecutive clean read. 2×12 RPE 7 joint-health (Adj #333)|
+|Decline crunch (Sat)|13.2/+15 working|W20 Sat 9/5 (10/10 RIR 2/2, deload 2-set)|Hold, rebuild toward full 3×10 (Adj #335)|
+|Chest fly|130 → **135 fires W21 Sat**|W20 Sat 9/5 (12 RIR 3, deload 1-set)|Second consecutive clean read. 2×12 RPE 7 joint-health (Adj #333)|
 
 ---
 
@@ -81,4 +81,4 @@ Current week only — completed weeks live in `history/weekly-summary.md` (W13+)
 
 |Wk|Mon|Tue|Wed|Thu|Fri|Sat|Status|
 |---|---|---|---|---|---|---|---|
-|W20 (Build deload, §11.B)|✓ Long 52:41 8-31 (5.44 mi, RPE 3–4; Adj #339)|✓ Hyp A deload 9-1 (incline 160×5 RIR 0 + 135×11; elbow 18th clean; Adj #340)|✓ T deload 3×6 9-3 (7:38/mi avg, RPE 5; 15th quality clean; Adj #341)|Off (§2.A)|✓ Long 60 min Z1 9-4 (6.89 mi, 8:39/mi RPE 8, off-prescription; Adj #343)|Hyp B deload 9-5|in progress|
+|W20 (Build deload, §11.B)|✓ Long 52:41 8-31 (5.44 mi, RPE 3–4; Adj #339)|✓ Hyp A deload 9-1 (incline 160×5 RIR 0 + 135×11; elbow 18th clean; Adj #340)|✓ T deload 3×6 9-3 (7:38/mi avg, RPE 5; 15th quality clean; Adj #341)|Off (§2.A)|✓ Long 60 min Z1 9-4 (6.89 mi, 8:39/mi RPE 8, off-prescription; Adj #343)|✓ Hyp B deload 9-5 (clean on cut, elbow 19th clean; Adj #344)|in progress|
