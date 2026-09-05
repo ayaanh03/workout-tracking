@@ -81,4 +81,4 @@ Current week only — completed weeks live in `history/weekly-summary.md` (W13+)
 
 |Wk|Mon|Tue|Wed|Thu|Fri|Sat|Status|
 |---|---|---|---|---|---|---|---|
-|W20 (Build deload, §11.B)|✓ Long 52:41 8-31 (5.44 mi, RPE 3–4; Adj #339)|✓ Hyp A deload 9-1 (incline 160×5 RIR 0 + 135×11; elbow 18th clean; Adj #340)|✓ T deload 3×6 9-3 (7:38/mi avg, RPE 5; 15th quality clean; Adj #341)|Off (§2.A)|4×3 @ I 9-4|Hyp B deload 9-5|in progress|
+|W20 (Build deload, §11.B)|✓ Long 52:41 8-31 (5.44 mi, RPE 3–4; Adj #339)|✓ Hyp A deload 9-1 (incline 160×5 RIR 0 + 135×11; elbow 18th clean; Adj #340)|✓ T deload 3×6 9-3 (7:38/mi avg, RPE 5; 15th quality clean; Adj #341)|Off (§2.A)|✓ Long 60 min Z1 9-4 (6.89 mi, 8:39/mi RPE 8, off-prescription; Adj #343)|Hyp B deload 9-5|in progress|
