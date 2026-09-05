@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-04T19:45:00-04:00",
+  "generatedAt": "2026-09-05T18:00:00-04:00",
   "week": "W20",
   "phase": "Build",
-  "summary": "W20 -- Build deload (section 11.B, mirroring W16, Adj #204). The last week before Sharpen opens at W21. Three runs (~14 mi target) + two lifts, all on cut doses with no bumps and no additions. Seven W21 bumps are held past this deload: Tue -- DB lateral 40 (Adj #313), crunch +15 (Adj #317), section 10.A 2nd-movement re-surfaces (Adj #316); Sat -- DB lateral 40 (Adj #329), preacher 65 (Adj #330), fly 135 (Adj #333), calf 375 AM-gated (Adj #334), lat re-gates 165 (Adj #328). Quality-outing streak at 15; elbow at 18 consecutive clean. NOTE: Fri long ran off-prescription at ~M pace / RPE 8 (Adj #343).",
+  "summary": "W20 -- Build deload (section 11.B, mirroring W16, Adj #204). The last week before Sharpen opens at W21. Three runs (~14 mi target) + two lifts, all on cut doses with no bumps and no additions. Seven W21 bumps held past the deload: Tue -- DB lateral 40 (Adj #313), crunch +15 (Adj #317), section 10.A 2nd-movement re-surfaces (Adj #316); Sat -- DB lateral 40 (Adj #329), preacher 65 (Adj #330), fly 135 (Adj #333), calf 375 AM-gated (Adj #334), lat re-gates 165 (Adj #328). Quality-outing streak at 15; elbow at 19 consecutive clean. NOTE: Fri long ran off-prescription at ~M pace / RPE 8 (Adj #343). W20 deload VO2 swapped to Mon 9-7 (Adj #342).",
   "days": [
     { "date": "2026-08-31", "day": "Mon", "session": "Long 50 min Z1 (section 4.D deload)", "note": "Logged -- 52:41 / 5.44 mi @ 9:41/mi, RPE 3-4; 4th consecutive long in its slot; mile 1 at 9:08 (7 s below fast edge), rest in band; all clean (Adj #339)", "status": "done" },
     { "date": "2026-09-01", "day": "Tue", "session": "Hyp A deload (cut dose, section 11.B)", "note": "Logged -- incline 160x5 RIR 0 last rep not clean, AMRAP 135x11 flat (ceiling confirmed, Build's final full-weight read); all deload cuts held; elbow 18th clean (Adj #340)", "status": "done" },
     { "date": "2026-09-02", "day": "Wed", "session": "3x6 min @ T (deload)", "note": "Logged 9-3 -- 7:39/7:37/7:39 avg 7:38/mi, RPE 5; slight overpace 1-3 s/mi below fast edge, sub-anchor; 18 min work; 15th quality outing clean (Adj #341)", "status": "done" },
     { "date": "2026-09-03", "day": "Thu", "session": "Off -- mobility / walk, daily SI prehab", "note": "Permanent full rest (section 2.A).", "status": "done" },
     { "date": "2026-09-04", "day": "Fri", "session": "Long 60 min Z1 (swapped from Mon W21, Adj #342)", "note": "Logged -- 6.89 mi / 59:37 @ 8:39/mi, RPE 8, HR 179 avg; off-prescription (every mile below easy band, ~M pace); 85F heat (Adj #343)", "status": "done" },
-    { "date": "2026-09-05", "day": "Sat", "session": "Hyp B deload (cut dose, section 11.B)", "note": "All accessories at working loads on cut sets. No bumps. Seven bumps fire W21 Sat: DB lateral 40, preacher 65, fly 135, calf 375 AM-gated; lat re-gates 165.", "status": "today" },
-    { "date": "2026-09-06", "day": "Sun", "session": "Off", "note": "Permanent full rest (v4.4, Adj #244).", "status": "upcoming" }
+    { "date": "2026-09-05", "day": "Sat", "session": "Hyp B deload (cut dose, section 11.B)", "note": "Logged -- clean on cut (15 sets, 53% of normal); elbow 19th clean (5th at rope); all W21 Sat bumps held unchanged (Adj #344)", "status": "done" },
+    { "date": "2026-09-06", "day": "Sun", "session": "Off", "note": "Permanent full rest (v4.4, Adj #244). Mon 9-7 carries the W20 deload VO2 (4x3 @ I, Adj #342 swap).", "status": "upcoming" }
   ]
 }
