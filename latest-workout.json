@@ -1,39 +1,20 @@
 {
-  "generatedAt": "2026-09-05T18:00:00-04:00",
-  "week": "W20",
-  "day": "Sat",
-  "date": "2026-09-05",
-  "phase": "Build",
-  "sessionName": "Hypertrophy B (deload, section 11.B)",
-  "intro": [],
-  "lift": {
-    "table": [
-      { "exercise": "Lat pulldown (neutral)", "setsReps": "2x8-10", "load": "165", "rir": "2+", "rest": "90-120s", "cue": "" },
-      { "exercise": "Chest-supported row", "setsReps": "2x10", "load": "80", "rir": "2+", "rest": "90-120s", "cue": "" },
-      { "exercise": "DB lateral raise", "setsReps": "2x12-15", "load": "35", "rir": "2+", "rest": "60-90s", "cue": "" },
-      { "exercise": "Preacher curl (uni)", "setsReps": "2x12", "load": "60/arm", "rir": "2+", "rest": "60-90s", "cue": "" },
-      { "exercise": "Cable pushdown (rope, both-handed)", "setsReps": "2x12-15", "load": "47.5", "rir": "2+", "rest": "60-90s", "cue": "" },
-      { "exercise": "Decline crunch", "setsReps": "2x10", "load": "13.2", "rir": "2+", "rest": "60-90s", "cue": "" },
-      { "exercise": "Seated calf raise", "setsReps": "2x12-15", "load": "365", "rir": "2+", "rest": "60-90s", "cue": "" },
-      { "exercise": "Chest flye", "setsReps": "1x12", "load": "130", "rir": "3+", "rest": "60-90s", "cue": "" }
-    ],
-    "lastWeek": {
-      "label": "Hyp B W19 Fri 8/28",
-      "table": [
-        { "exercise": "Lat pulldown", "load": "170->165", "reps": "8/8/7/5", "rir": "2/1/0/0" },
-        { "exercise": "Chest-supp row", "load": "80", "reps": "10/7/7", "rir": "1/0/0" },
-        { "exercise": "DB lateral raise", "load": "35", "reps": "12/12/15/13", "rir": "3/3/1/0" },
-        { "exercise": "Preacher curl (uni)", "load": "60/arm", "reps": "12/12/12/7", "rir": "2/1/1/0" },
-        { "exercise": "Cable pushdown (rope)", "load": "47.5", "reps": "12/12/12/12", "rir": "0/2/2/1" },
-        { "exercise": "Decline crunch", "load": "13.2", "reps": "10/10/8", "rir": "2/1/0" },
-        { "exercise": "Seated calf", "load": "365", "reps": "12/12/12/12", "rir": "2/1/0/0" },
-        { "exercise": "Chest flye", "load": "130", "reps": "12/12", "rir": "3/3" }
-      ]
-    },
-    "warmup": "General: 1-2 min dynamic (band pull-aparts, hip openers).",
-    "cooldown": "SI prehab -- Tyler twists 3x15, reverse Tyler 3x15, McGill Big 3 5-3-1"
+  "generatedAt": "2026-09-07T07:30:00-04:00",
+  "week": "W21",
+  "day": "Mon",
+  "date": "2026-09-07",
+  "phase": "Sharpen",
+  "sessionName": "VO2 deload 4x3 min @ I (W20 Fri swap, Adj #342)",
+  "intro": ["One-time swap: W20 deload VO2 displaced from Fri 9-4 to today (Adj #342). Template reverts to normal W21 Wed onward."],
+  "lift": null,
+  "cardio": {
+    "flags": [],
+    "workout": "4x3 min @ I (3 min jog rec) -- deload dose (section 4.D W20)",
+    "targets": { "pace": "7:00-7:15/mi", "hr": "display-only", "cadence": "175-182 spm" },
+    "warmup": "1.0-1.5 mi easy build (10:00 -> 8:30/mi)",
+    "cooldown": "1.0 mi easy / Z1 + SI prehab",
+    "cues": ["Treadmill at 1% if indoors (Adj #177)"]
   },
-  "cardio": null,
   "currentLoads": [
     { "exercise": "Incline BB", "load": "160 working / TM 168", "lastVerified": "W20 Tue 9/1 (160x5 RIR 0 + AMRAP 135x11)", "note": "Build closed. W21 Sharpen: 1x5 @ TM maintenance, no AMRAP. <5 reps = miss #2 -> cut TM 5-7% (Adj #312/#340)" },
     { "exercise": "Lat pulldown", "load": "165 working", "lastVerified": "W20 Sat 9/5 (165x10/8 RIR 2/0, deload 2-set)", "note": "170 debut missed -> revert 165 W21 Sat. Re-entry: repeat clean 4x8, set 3 >= RIR 1 (Adj #328)" },
