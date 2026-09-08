@@ -8,7 +8,7 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 
 ## Status
 
-**Phase C — Build W20 (deload, §11.B).** Build spans W13–W20 (Adj #204). Race: Sat 2026-10-24 (W27). Tier C locked: sub-21:30 / 6:55/mi (Adj #164, not renegotiated). Template: v4.4 three-run week — Mon long / Tue Hyp A / Wed T / Thu OFF / Fri VO2 / Sat Hyp B lift-only / Sun OFF (Adj #244, program.md v4.4+).
+**Phase D — Sharpen W21 (§4.E).** Sharpen spans W21–W24. Race: Sat 2026-10-24 (W27). Tier C locked: sub-21:30 / 6:55/mi (Adj #164, not renegotiated). Template: v4.4 three-run week — Mon long / Tue Hyp A / Wed quality / Thu OFF / Fri quality / Sat Hyp B lift-only / Sun OFF (§2.B, Adj #244). Build closed 9-7 (Adj #346).
 
 **Pace bands (all confirmed, Adj #202/#271/#296/#321):** easy 9:15–10:30 (conversation-gated), M 8:15–8:25, T 7:40–7:45 RPE ≤7, I 7:00–7:15 RPE 9, R 6:35–6:45. Row: T 1:52–1:57, I 1:46–1:50, R 1:39–1:43, M ~2:06. Next recalc: W23 tune-up 5K, Fri Sep 25 — target 22:00–22:15 (Adj #322).
 
@@ -45,7 +45,7 @@ Open items that affect the next session. Full rationale in `history/adjustments.
 - **Treadmill quality at 1%** for road equivalence (Adj #177).
 - **Running power:** display-only, governs nothing (Adj #251). Log when the watch reports it.
 - **Logging default (Adj #188/#190):** assume-same-as-last for context, no-news-is-clean for SI/tendon/pain. Missing numbers get one compact prompt; unknowns log "n/r".
-- **One-time swap Fri 9-4 / Mon 9-7 (Adj #342):** Fri 9-4 = long 60 min Z1 (from W21 Mon); Mon 9-7 = 4×3 @ I deload VO2 (from W20 Fri). Template reverts to normal from W21 Wed onward.
+
 
 ---
 
@@ -81,4 +81,4 @@ Current week only — completed weeks live in `history/weekly-summary.md` (W13+)
 
 |Wk|Mon|Tue|Wed|Thu|Fri|Sat|Status|
 |---|---|---|---|---|---|---|---|
-|W20 (Build deload, §11.B)|✓ Long 52:41 8-31 (5.44 mi, RPE 3–4; Adj #339)|✓ Hyp A deload 9-1 (incline 160×5 RIR 0 + 135×11; elbow 18th clean; Adj #340)|✓ T deload 3×6 9-3 (7:38/mi avg, RPE 5; 15th quality clean; Adj #341)|Off (§2.A)|✓ Long 60 min Z1 9-4 (6.89 mi, 8:39/mi RPE 8, off-prescription; Adj #343)|✓ Hyp B deload 9-5 (clean on cut, elbow 19th clean; Adj #344)|in progress|
+|W21 (Sharpen, §4.E)|— (long displaced to W20 Fri 9-4, Adj #342)|—|—|Off (§2.A)|—|—|in progress|

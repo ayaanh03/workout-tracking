@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-05T18:00:00-04:00",
-  "week": "W20",
-  "phase": "Build",
-  "summary": "W20 -- Build deload (section 11.B, mirroring W16, Adj #204). The last week before Sharpen opens at W21. Three runs (~14 mi target) + two lifts, all on cut doses with no bumps and no additions. Seven W21 bumps held past the deload: Tue -- DB lateral 40 (Adj #313), crunch +15 (Adj #317), section 10.A 2nd-movement re-surfaces (Adj #316); Sat -- DB lateral 40 (Adj #329), preacher 65 (Adj #330), fly 135 (Adj #333), calf 375 AM-gated (Adj #334), lat re-gates 165 (Adj #328). Quality-outing streak at 15; elbow at 19 consecutive clean. NOTE: Fri long ran off-prescription at ~M pace / RPE 8 (Adj #343). W20 deload VO2 swapped to Mon 9-7 (Adj #342).",
+  "generatedAt": "2026-09-07T07:30:00-04:00",
+  "week": "W21",
+  "phase": "Sharpen",
+  "summary": "W21 -- Sharpen opens (section 4.E). Race-pace specificity begins; three-run template holds (Mon long / Wed quality / Fri quality). Today carries the displaced W20 deload VO2 (Adj #342); normal template from Wed. Seven bumps land: Tue -- DB lateral 40 (Adj #313), decline crunch +15 (Adj #317), section 10.A 2nd-movement decision window (Adj #316); Sat -- DB lateral 40 (Adj #329), preacher 65 (Adj #330), chest fly 135 (Adj #333), seated calf 375 AM-gated (Adj #334). Quality-outing streak at 15; elbow at 19 consecutive clean.",
   "days": [
-    { "date": "2026-08-31", "day": "Mon", "session": "Long 50 min Z1 (section 4.D deload)", "note": "Logged -- 52:41 / 5.44 mi @ 9:41/mi, RPE 3-4; 4th consecutive long in its slot; mile 1 at 9:08 (7 s below fast edge), rest in band; all clean (Adj #339)", "status": "done" },
-    { "date": "2026-09-01", "day": "Tue", "session": "Hyp A deload (cut dose, section 11.B)", "note": "Logged -- incline 160x5 RIR 0 last rep not clean, AMRAP 135x11 flat (ceiling confirmed, Build's final full-weight read); all deload cuts held; elbow 18th clean (Adj #340)", "status": "done" },
-    { "date": "2026-09-02", "day": "Wed", "session": "3x6 min @ T (deload)", "note": "Logged 9-3 -- 7:39/7:37/7:39 avg 7:38/mi, RPE 5; slight overpace 1-3 s/mi below fast edge, sub-anchor; 18 min work; 15th quality outing clean (Adj #341)", "status": "done" },
-    { "date": "2026-09-03", "day": "Thu", "session": "Off -- mobility / walk, daily SI prehab", "note": "Permanent full rest (section 2.A).", "status": "done" },
-    { "date": "2026-09-04", "day": "Fri", "session": "Long 60 min Z1 (swapped from Mon W21, Adj #342)", "note": "Logged -- 6.89 mi / 59:37 @ 8:39/mi, RPE 8, HR 179 avg; off-prescription (every mile below easy band, ~M pace); 85F heat (Adj #343)", "status": "done" },
-    { "date": "2026-09-05", "day": "Sat", "session": "Hyp B deload (cut dose, section 11.B)", "note": "Logged -- clean on cut (15 sets, 53% of normal); elbow 19th clean (5th at rope); all W21 Sat bumps held unchanged (Adj #344)", "status": "done" },
-    { "date": "2026-09-06", "day": "Sun", "session": "Off", "note": "Permanent full rest (v4.4, Adj #244). Mon 9-7 carries the W20 deload VO2 (4x3 @ I, Adj #342 swap).", "status": "upcoming" }
+    { "date": "2026-09-07", "day": "Mon", "session": "VO2 deload 4x3 min @ I (W20 Fri swap, Adj #342)", "note": "Logged -- 6:59/7:00/6:46/6:43 RPE 6, overpaced; W20 closed, Build done (Adj #345/#346)", "status": "done" },
+    { "date": "2026-09-08", "day": "Tue", "session": "Hyp A (Sharpen, section 3.A)", "note": "Bumps: DB lateral 40 (Adj #313), decline crunch +15 (Adj #317). Incline 1x5 @ TM maintenance only (section 5 Sharpen). Section 10.A 2nd-movement decision window (Adj #316).", "status": "today" },
+    { "date": "2026-09-09", "day": "Wed", "session": "6x800m @ 5K pace (90 s rec) -- first Sharpen quality (section 4.E)", "note": "Race-pace specificity. Current 5K pace ~7:15-7:20/mi.", "status": "upcoming" },
+    { "date": "2026-09-10", "day": "Thu", "session": "Off -- mobility / walk, daily SI prehab", "note": "Permanent full rest (section 2.A).", "status": "upcoming" },
+    { "date": "2026-09-11", "day": "Fri", "session": "5x3 min @ I (2 min rec) + 4x200m R (section 4.E)", "note": "VO2 + R reps; second Sharpen quality.", "status": "upcoming" },
+    { "date": "2026-09-12", "day": "Sat", "session": "Hyp B (Sharpen, section 3.B)", "note": "Bumps: DB lateral 40 (Adj #329), preacher 65 (Adj #330), chest fly 135 (Adj #333). Calf 375 AM-gated -- Mon AM Achilles read required (Adj #334). Lat 165 re-gates (Adj #328).", "status": "upcoming" },
+    { "date": "2026-09-13", "day": "Sun", "session": "Off / SI prehab", "note": "Permanent full rest (v4.4, Adj #244).", "status": "upcoming" }
   ]
 }
