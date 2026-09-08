@@ -4,8 +4,8 @@
   "phase": "Sharpen",
   "summary": "W21 -- Sharpen opens (section 4.E). Race-pace specificity begins; three-run template holds (Mon long / Wed quality / Fri quality). Today carries the displaced W20 deload VO2 (Adj #342); normal template from Wed. Seven bumps land: Tue -- DB lateral 40 (Adj #313), decline crunch +15 (Adj #317), section 10.A 2nd-movement decision window (Adj #316); Sat -- DB lateral 40 (Adj #329), preacher 65 (Adj #330), chest fly 135 (Adj #333), seated calf 375 AM-gated (Adj #334). Quality-outing streak at 15; elbow at 19 consecutive clean.",
   "days": [
-    { "date": "2026-09-07", "day": "Mon", "session": "VO2 deload 4x3 min @ I (W20 Fri swap, Adj #342)", "note": "Last deload session; W20 closes after this. Template reverts to normal Wed onward.", "status": "today" },
-    { "date": "2026-09-08", "day": "Tue", "session": "Hyp A (Sharpen, section 3.A)", "note": "Bumps: DB lateral 40 (Adj #313), decline crunch +15 (Adj #317). Incline 1x5 @ TM maintenance only (section 5 Sharpen). Section 10.A 2nd-movement decision window (Adj #316).", "status": "upcoming" },
+    { "date": "2026-09-07", "day": "Mon", "session": "VO2 deload 4x3 min @ I (W20 Fri swap, Adj #342)", "note": "Logged -- 6:59/7:00/6:46/6:43 RPE 6, overpaced; W20 closed, Build done (Adj #345/#346)", "status": "done" },
+    { "date": "2026-09-08", "day": "Tue", "session": "Hyp A (Sharpen, section 3.A)", "note": "Bumps: DB lateral 40 (Adj #313), decline crunch +15 (Adj #317). Incline 1x5 @ TM maintenance only (section 5 Sharpen). Section 10.A 2nd-movement decision window (Adj #316).", "status": "today" },
     { "date": "2026-09-09", "day": "Wed", "session": "6x800m @ 5K pace (90 s rec) -- first Sharpen quality (section 4.E)", "note": "Race-pace specificity. Current 5K pace ~7:15-7:20/mi.", "status": "upcoming" },
     { "date": "2026-09-10", "day": "Thu", "session": "Off -- mobility / walk, daily SI prehab", "note": "Permanent full rest (section 2.A).", "status": "upcoming" },
     { "date": "2026-09-11", "day": "Fri", "session": "5x3 min @ I (2 min rec) + 4x200m R (section 4.E)", "note": "VO2 + R reps; second Sharpen quality.", "status": "upcoming" },
