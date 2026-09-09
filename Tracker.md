@@ -20,17 +20,17 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 
 |Exercise|Load|Last verified|Note|
 |---|---|---|---|
-|Incline BB|160 working / TM 168|W20 Tue 9/1 (160×5 RIR 0 + AMRAP 135×11)|Build closed. W21 Sharpen: 1×5 @ TM maintenance, no AMRAP. <5 reps = miss #2 → cut TM 5–7% (Adj #312/#340)|
+|Incline BB|160 working / TM 168|W21 Tue 9/8 (160×5 RIR 1)|Sharpen maintenance. RIR 1 vs W20's RIR 0. <5 reps = miss #2 → cut TM 5–7% (Adj #312/#340)|
 |Lat pulldown|165 working|W20 Sat 9/5 (165×10/8 RIR 2/0, deload 2-set)|170 debut missed → revert 165 W21 Sat. Re-entry: repeat clean 4×8, set 3 ≥RIR 1 (Adj #328)|
 |Chest-supp row|80 working|W20 Sat 9/5 (10/10 RIR 3/1, deload 2-set)|Hold unconditional. 85 needs full 3×10, sets 1-2 ≥RIR 1 (Adj #332)|
-|DB lateral raise (Tue)|35 → **40 fires W21 Tue**|W19 Tue 8/25 (73 total, 6×12)|Revert: front four can't hold 12 floor → 35 (Adj #313)|
+|DB lateral raise (Tue)|35 working|W21 Tue 9/8 (40 debut: 12/12/12/10/9/8 RIR 3/2/1/0/0/0)|40 reverted — set 4 at 10, under 12 floor. Re-attempt 40: full front four at 12, set 4 ≥RIR 1 (Adj #348)|
 |DB lateral raise (Sat)|35 → **40 fires W21 Sat**|W20 Sat 9/5 (15/15 RIR 3/2, deload 2-set)|Revert: front two under 11 floor → 35 (Adj #329)|
-|Preacher curl uni (Tue)|75/arm working|W19 Tue 8/25 (75 debut: 10/10/10/6 RIR 2/1/0/0)|Hold, rebuild. 80 gates on full 4×10, set 3 ≥RIR 1 (Adj #314)|
+|Preacher curl uni (Tue)|75 → **80 fires W22 Tue**|W21 Tue 9/8 (75: 10/10/10/10 RIR 2/2/1/0)|Adj #314 satisfied. Revert: front three lose 10 floor or set 3 <RIR 1 → 75 (Adj #349)|
 |Preacher curl uni (Sat)|60/arm → **65 fires W21 Sat**|W20 Sat 9/5 (12/12 RIR 2/2, deload 2-set)|Gate met. Revert: front three lose 12 floor or set 3 <RIR 1 → 60 (Adj #330)|
-|Cable pushdown (rope, both-handed)|47.5 working|W20 Sat 9/5 (12/13 RIR 2/0, deload 2-set)|Confirmed. 50 gates on 4×12, set 3 ≥RIR 1 + set 4 to failure (Adj #315/#331)|
-|Rear-delt fly|145 working|W19 Tue 8/25 (15/15 RIR 1/0)|Hold. Execution: stop at RIR 3 — joint-health slot, not growth (Adj #318)|
+|Cable pushdown (rope, both-handed)|47.5 working|W21 Tue 9/8 (12/12/12/10 RIR 2/2/2/0)|Hold. Set 4 short of 12. 50 gates on 4×12, set 3 ≥RIR 1 + set 4 to failure (Adj #315/#331/#350)|
+|Rear-delt fly|145 working|W21 Tue 9/8 (15/15 RIR 3/3)|Hold. Execution: stop at RIR 3 — joint-health slot, not growth (Adj #318)|
 |Seated calf|365 → **375 eligible W21 Sat, AM-gated**|W20 Sat 9/5 (12/12 RIR 1/0, deload 2-set)|Sweep complete, 3 clean exposures. Achilles clean at every read (Adj #334)|
-|Decline crunch (Tue)|+10 → **+15 fires W21 Tue**|W19 Tue 8/25 (+10: 12/12/12 RIR 4/2/2)|Gate met both terms (Adj #317)|
+|Decline crunch (Tue)|+15 working|W21 Tue 9/8 (+15 debut: 12/8/8 RIR 2/0/0)|Hold, rebuild toward 3×12. Sets 2-3 collapsed on debut (Adj #351)|
 |Decline crunch (Sat)|13.2/+15 working|W20 Sat 9/5 (10/10 RIR 2/2, deload 2-set)|Hold, rebuild toward full 3×10 (Adj #335)|
 |Chest fly|130 → **135 fires W21 Sat**|W20 Sat 9/5 (12 RIR 3, deload 1-set)|Second consecutive clean read. 2×12 RPE 7 joint-health (Adj #333)|
 
@@ -40,7 +40,6 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 
 Open items that affect the next session. Full rationale in `history/adjustments.md` (live #309+) / `history/archive/` — grep: `grep -rn '^N\. ' history/`.
 
-- **§10.A 2nd biceps/triceps movement** — premise removed (pushdown completed its dose, Adj #315). Decision window: W21 Tue 9-8. Counterweights: (a) confirm 47.5 first, (b) §11.A Phase D "no new exercises" from Sharpen on. Re-surfaces at the W21 Tue brief (Adj #316).
 - **L Achilles:** reactive tendon. 365 established (3 full-dose exposures, all clean). 375 AM-gated W21 Sat — clean first-run-after read required (Mon AM under v4.4). After-only soreness pattern (Adj #113/#125) has not recurred. (Adj #34/#135/#284/#306/#334)
 - **Treadmill quality at 1%** for road equivalence (Adj #177).
 - **Running power:** display-only, governs nothing (Adj #251). Log when the watch reports it.
@@ -68,8 +67,7 @@ Vaporfly exposures: each first-of-phase gets a next-AM Achilles read (Adj #34/#1
 
 |Wk|Projected target|Actual|
 |---|---|---|
-|W19|1×5 @ 160 (repeat) + AMRAP @ 135|160×5 RIR 0 + 135×11 (3rd consecutive) → e1RM ~185. Hold — ceiling (Adj #312)|
-|W20 (deload)|1×5 @ 160 + AMRAP @ 135 (Build's final)|160×5 RIR 0 + 135×11 (4th consecutive) → e1RM ~185. Meso done. W21: 1×5 @ TM maintenance (Adj #340)|
+|W21 (Sharpen)|1×5 @ 160 (TM maintenance, no AMRAP)|160×5 RIR 1 — reserve returned vs W20's RIR 0. TM 168 stands (Adj #312/#340)|
 
 *Forecast only — current load always comes from Current Working Loads above. Full meso history in `history/incline-bb.md`.*
 
@@ -81,4 +79,4 @@ Current week only — completed weeks live in `history/weekly-summary.md` (W13+)
 
 |Wk|Mon|Tue|Wed|Thu|Fri|Sat|Status|
 |---|---|---|---|---|---|---|---|
-|W21 (Sharpen, §4.E)|— (long displaced to W20 Fri 9-4, Adj #342)|—|—|Off (§2.A)|—|—|in progress|
+|W21 (Sharpen, §4.E)|— (long displaced to W20 Fri 9-4, Adj #342)|✓ Hyp A 9/8 (bench 160×5 RIR 1; lat 40 reverted→35; preacher 75→80 gate met; Adj #348–#352)|—|Off (§2.A)|—|—|in progress|
