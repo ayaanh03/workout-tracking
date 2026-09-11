@@ -79,4 +79,4 @@ Current week only — completed weeks live in `history/weekly-summary.md` (W13+)
 
 |Wk|Mon|Tue|Wed|Thu|Fri|Sat|Status|
 |---|---|---|---|---|---|---|---|
-|W21 (Sharpen, §4.E)|— (long displaced to W20 Fri 9-4, Adj #342)|✓ Hyp A 9/8 (bench 160×5 RIR 1; lat 40 reverted→35; preacher 75→80 gate met; Adj #348–#352)|—|Off (§2.A)|—|—|in progress|
+|W21 (Sharpen, §4.E)|— (long displaced to W20 Fri 9-4, Adj #342)|✓ Hyp A 9/8 (bench 160×5 RIR 1; lat 40 reverted→35; preacher 75→80 gate met; Adj #348–#352)|✓ 6×800m @ 5K 9/9 (7:24/mi avg, RPE 7→10; 17th quality clean; Adj #353)|Off (§2.A)|—|—|in progress|
