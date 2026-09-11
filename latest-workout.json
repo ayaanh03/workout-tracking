@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-09-10T08:00:00-04:00",
+  "generatedAt": "2026-09-11T07:30:00-04:00",
   "week": "W21",
-  "day": "Wed",
-  "date": "2026-09-09",
+  "day": "Fri",
+  "date": "2026-09-11",
   "phase": "Sharpen",
-  "sessionName": "6x800m @ 5K pace (90 s rec) -- LOGGED",
+  "sessionName": "5x3 min @ I (2 min rec) + 4x200m R",
   "intro": [],
   "lift": null,
   "cardio": {
     "flags": [],
-    "workout": "6x800m @ 5K pace: 7:11/7:15/~7:19/7:19/7:51/7:29 (avg 7:24/mi), RPE 7/8/8/9/10/10. 4 of 6 inside 5K band. 17th quality clean.",
-    "targets": { "pace": "7:15-7:20/mi (~3:37-3:39/800m)", "hr": "display-only", "cadence": "175-182 spm" },
-    "warmup": "1.85 mi / 19:00 @ 10:16/mi",
-    "cooldown": "~1.0 mi jogged",
+    "workout": "5x3 min @ I (7:00-7:15/mi, 2 min jog rec) + 4x200m @ R (6:35-6:45/mi, 200m jog rec)",
+    "targets": { "pace": "I 7:00-7:15/mi, R 6:35-6:45/mi", "hr": "display-only", "cadence": "175-182 spm" },
+    "warmup": "1.0-1.5 mi easy build 10:00->8:30/mi",
+    "cooldown": "1.0 mi easy + SI prehab",
     "cues": []
   },
   "currentLoads": [
