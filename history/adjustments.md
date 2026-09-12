@@ -15,3 +15,19 @@
 352. **§10.A 2nd biceps/triceps movement — CLOSED, flag retires.** Decision window W21 Tue 9-8 reached (Adj #316). Both counterweights stand: (a) pushdown 47.5 not fully confirmed — set 4 still dropping short of 12 (Adj #350), (b) §11.A Phase D bars new exercises from Sharpen on. **No 2nd movement added. Flag drops from Active Flags.** The premise (pushdown completing its dose, Adj #315) was removed before this window; the two counterweights made the call moot.
 
 353. **W21 Wed 6×800m @ 5K pace — first Sharpen quality: 17th consecutive quality outing clean.** Reps 1–4 inside the band (7:11/7:15/~7:19/7:19, RPE 7/8/8/9), reps 5–6 decayed (7:51/7:29, RPE 10/10). The rep-5 miss (32 s/mi off target) is the sharpest in-session decay in the log but followed a ~17 min watch-glitch stop after rep 3 — groove loss, not fitness collapse: rep 6 partially recovered to 7:29 still at RPE 10, and power/cadence stayed stable through the back four. Peak HR 193, 2 under the MHR datum. Recoveries jogged throughout (Adj #298). **No pace recalc; W23 tune-up (Fri 9-25) arbitrates (Adj #322).** W21 Fri carries the second Sharpen quality: 5×3 min @ I (2 min rec) + 4×200m R (§4.E).
+
+354. **Lat pulldown 165 hold — 170 re-entry gate partially met.** 4×(8/8/8/7) RIR 2/2/1/0 — 31 total. Set 3 at RIR 1 meets the headroom term (Adj #328: set 3 ≥RIR 1), but set 4 at 7 misses the 8-floor (needs clean 4×8). **Hold 165, repeat.** The re-entry condition stands unchanged: clean 4×8, set 3 ≥RIR 1 (Adj #328).
+
+355. **DB lateral raise (Sat) 40 debut HOLDS — Adj #329 revert does not fire.** 4×(12/12/12/10) RIR 2/1/0/0 — 46 total. Front two both at 12 (≥11 floor) — the only condition the revert guard tested. Front three held the 12 floor but set 3 ran to failure (RIR 0); set 4 at 10 at failure. **40 established at the Sat slot.** Repeat to confirm; the Tue slot remains at 35 (Adj #348, independent gate).
+
+356. **Preacher curl (Sat) 65 debut REVERTS → 60.** 4×(12/12/8/8) RIR 2/0/0/0 — 40 total. Set 3 at 8 (under the 12 floor) AND RIR 0 (<RIR 1) — double trigger on the Adj #330 revert guard. **60 returns W22 Sat.** The same back-half collapse pattern as the Tue lateral-40 revert (Adj #348). Tue slot (75→80 W22 Tue, Adj #349) unaffected; the Sat gate to re-attempt 65 restates Adj #330: front three hold the 12 floor with set 3 ≥RIR 1 at 60.
+
+357. **Cable pushdown 47.5 → 50 fires W22 Tue — GATE MET (Adj #315/#331/#350 satisfied).** 4×(12/12/12/13) RIR 4/3/2/0 — 49 total, all-time best. All three terms: 4×12 complete (12/12/12/13), set 3 RIR 2 (≥1), set 4 RIR 0 (to failure). Set 4 at 13 breaks the 10/11/10 ceiling across three prior full-dose outings. **Revert for 50: front three lose 12 floor or set 3 <RIR 1 → 47.5.** Elbow 21st consecutive clean, 7th at the rope — Adj #303 bilateral-attachment watch unchanged.
+
+358. **Seated calf 375 debut — AM gate clean, hold and rebuild.** 4×(12/11/12/10) RIR 1/0/0/0 — 45 total. Not a clean 4×12 (set 2 at 11, set 4 at 10). First exposure at the new load; the reactive-Achilles read moves to Mon AM (first run after tonight's sweep, ~40+ h per v4.4). **Hold 375, rebuild toward clean 4×12.** The bump to 385 gates on a clean 4×12 sweep with headroom, AM-gated (same structure as 365→375, Adj #334).
+
+359. **Decline crunch (Sat) +15 — regression, hold.** 3×(10/10/6) RIR 2/0/0 — 26 total, down from 28 (10/10/8 W19 Fri, Adj #335). Set 3 fell from 8 to 6. Hold +15, rebuild toward 3×10 — no revert (Adj #335 terms unchanged).
+
+360. **Chest-supp row 80 hold — 85 gate double-failed.** 3×(10/10/8) RIR 2/0/0 — 28 total. 85 gate needs full 3×10 with sets 1-2 ≥RIR 1 (Adj #332): set 3 at 8 (not 10) AND set 2 at RIR 0 (not ≥RIR 1). Hold 80 unconditional.
+
+361. **Chest fly 135 debut clean — established.** 2×(12/12) RIR 4/3 — joint-health dose on spec (§3.B 2×12 RPE 7). Both sets above the target with reserve. 135 is the working load.
