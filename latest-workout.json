@@ -1,13 +1,20 @@
 {
-  "generatedAt": "2026-09-12T17:30:00-04:00",
-  "week": "W21",
-  "day": "Sat",
-  "date": "2026-09-12",
+  "generatedAt": "2026-09-14T07:30:00-04:00",
+  "week": "W22",
+  "day": "Mon",
+  "date": "2026-09-14",
   "phase": "Sharpen",
-  "sessionName": "VO2max 5x3 min @ I + 4x200m R -- LOGGED",
+  "sessionName": "Long Run 60 min Z1",
   "intro": [],
   "lift": null,
-  "cardio": null,
+  "cardio": {
+    "flags": [],
+    "workout": "60 min Z1 easy, conversation-gated",
+    "targets": { "pace": "9:15-10:30/mi", "hr": "display-only", "cadence": "165-172 spm" },
+    "warmup": "5 min walk to easy jog build",
+    "cooldown": "5 min easy jog to walk",
+    "cues": []
+  },
   "currentLoads": [
     { "exercise": "Incline BB", "load": "160 working / TM 168", "lastVerified": "W21 Tue 9/8 (160x5 RIR 1)", "note": "Sharpen maintenance. <5 reps = miss #2 -> cut TM 5-7% (Adj #312/#340)" },
     { "exercise": "Lat pulldown", "load": "165 working", "lastVerified": "W21 Fri 9/11 (8/8/8/7 RIR 2/2/1/0)", "note": "Set 3 headroom met; set 4 at 7 misses 8-floor. 170 re-entry: clean 4x8, set 3 >= RIR 1 (Adj #328/#354)" },
