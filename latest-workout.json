@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-15T14:07:00-04:00",
+  "generatedAt": "2026-09-15T18:00:00-04:00",
   "week": "W22",
   "day": "Tue",
   "date": "2026-09-15",
   "phase": "Sharpen",
-  "sessionName": "Hypertrophy A (Sharpen)",
-  "intro": ["Preacher 75->80 (Adj #349), pushdown 47.5->50 (Adj #357) fire today."],
+  "sessionName": "Hypertrophy A (Sharpen) -- logged",
+  "intro": [],
   "lift": {
     "table": [
-      { "exercise": "Incline BB (Sharpen maint.)", "setsReps": "1x5", "load": "160", "rir": "--", "rest": "2-3 min", "cue": "<5 reps = miss #2 -> TM cut 5-7% (Adj #312)" },
-      { "exercise": "DB lateral raise", "setsReps": "6x12", "load": "35", "rir": "last 2 to failure", "rest": "60-90s", "cue": "40 reverted (Adj #348)" },
-      { "exercise": "Preacher curl", "setsReps": "4x10", "load": "80", "rir": "last set RIR 0-1", "rest": "90-120s", "cue": "Debut. Revert if front three <10 or set 3 <RIR 1 (Adj #349)" },
-      { "exercise": "Cable pushdown (rope)", "setsReps": "4x12", "load": "50", "rir": "last set RIR 0-1", "rest": "60-90s", "cue": "Debut. Revert if front three <12 or set 3 <RIR 1 (Adj #350)" },
-      { "exercise": "Decline crunch", "setsReps": "3x12", "load": "+15", "rir": "2", "rest": "60-90s", "cue": "Rebuild toward 3x12 (Adj #351)" },
-      { "exercise": "Rear-delt fly", "setsReps": "2x15", "load": "145", "rir": "3", "rest": "60-90s", "cue": "Stop at RIR 3 -- joint health (Adj #318)" }
+      { "exercise": "Incline BB (Sharpen maint.)", "setsReps": "1x5", "load": "160", "rir": "1", "rest": "2-3 min", "cue": "" },
+      { "exercise": "DB lateral raise", "setsReps": "6x12", "load": "35", "rir": "3/3/3/3/0/0", "rest": "60-90s", "cue": "12/12/12/12/16/13. 40 fires W23 Tue (Adj #365)" },
+      { "exercise": "Preacher curl", "setsReps": "4x10", "load": "80", "rir": "1/0/0/0", "rest": "90-120s", "cue": "10/10/10/6. Reverted to 75 (Adj #366)" },
+      { "exercise": "Cable pushdown (rope)", "setsReps": "4x12", "load": "50", "rir": "3/2/0/0", "rest": "60-90s", "cue": "12/12/10/10. Reverted to 47.5 (Adj #367)" },
+      { "exercise": "Decline crunch", "setsReps": "3x12", "load": "+15", "rir": "2/0/0", "rest": "60-90s", "cue": "12/9/8. Rebuild (Adj #368)" },
+      { "exercise": "Rear-delt fly", "setsReps": "2x15", "load": "145", "rir": "2/0", "rest": "60-90s", "cue": "15/15" }
     ],
     "lastWeek": {
       "label": "Hyp A W21 Tue 9/8",
@@ -31,17 +31,17 @@
   },
   "cardio": null,
   "currentLoads": [
-    { "exercise": "Incline BB", "load": "160 working / TM 168", "lastVerified": "W21 Tue 9/8 (160x5 RIR 1)", "note": "Sharpen maintenance. <5 reps = miss #2 -> cut TM 5-7% (Adj #312/#340)" },
+    { "exercise": "Incline BB", "load": "160 working / TM 168", "lastVerified": "W22 Tue 9/15 (160x5 RIR 1)", "note": "Sharpen maintenance. Two consecutive RIR 1 reads. <5 reps = miss #2 -> cut TM 5-7% (Adj #312/#340)" },
     { "exercise": "Lat pulldown", "load": "165 working", "lastVerified": "W21 Fri 9/11 (8/8/8/7 RIR 2/2/1/0)", "note": "Set 3 headroom met; set 4 at 7 misses 8-floor. 170 re-entry: clean 4x8, set 3 >= RIR 1 (Adj #328/#354)" },
     { "exercise": "Chest-supp row", "load": "80 working", "lastVerified": "W21 Fri 9/11 (10/10/8 RIR 2/0/0)", "note": "85 gate: full 3x10 + sets 1-2 >= RIR 1 -- both terms failed (Adj #332/#360)" },
-    { "exercise": "DB lateral raise (Tue)", "load": "35 working", "lastVerified": "W21 Tue 9/8 (40 debut reverted)", "note": "Re-attempt 40: full front four at 12, set 4 >= RIR 1 (Adj #348)" },
+    { "exercise": "DB lateral raise (Tue)", "load": "35 -> 40 fires W23 Tue", "lastVerified": "W22 Tue 9/15 (35: 12/12/12/12/16/13 RIR 3/3/3/3/0/0)", "note": "Adj #348 satisfied. Revert at 40: front four at 12, set 4 >= RIR 1 (Adj #365)" },
     { "exercise": "DB lateral raise (Sat)", "load": "40 working", "lastVerified": "W21 Fri 9/11 (40 debut: 12/12/12/10 RIR 2/1/0/0)", "note": "40 holds -- front two >= 11. Repeat to confirm (Adj #355)" },
-    { "exercise": "Preacher curl uni (Tue)", "load": "75 -> 80 fires W22 Tue", "lastVerified": "W21 Tue 9/8 (10/10/10/10 RIR 2/2/1/0)", "note": "Adj #314 satisfied. Revert: front three lose 10 floor or set 3 < RIR 1 -> 75 (Adj #349)" },
+    { "exercise": "Preacher curl uni (Tue)", "load": "75 working", "lastVerified": "W22 Tue 9/15 (80 debut: 10/10/10/6 RIR 1/0/0/0)", "note": "80 reverted -- set 3 RIR 0. Re-attempt: front three hold 10 floor, set 3 >= RIR 1 (Adj #366)" },
     { "exercise": "Preacher curl uni (Sat)", "load": "60/arm working", "lastVerified": "W21 Fri 9/11 (65 debut reverted: 12/12/8/8)", "note": "65 reverted -- sets 3-4 collapsed (Adj #330/#356). Hold 60, rebuild" },
-    { "exercise": "Cable pushdown (rope, both-handed)", "load": "47.5 -> 50 fires W22 Tue", "lastVerified": "W21 Fri 9/11 (12/12/12/13 RIR 4/3/2/0)", "note": "Gate met: 4x12, set 3 RIR 2, set 4 to failure (Adj #357). Revert for 50: front three lose 12 floor or set 3 < RIR 1 -> 47.5" },
-    { "exercise": "Rear-delt fly", "load": "145 working", "lastVerified": "W21 Tue 9/8 (15/15 RIR 3/3)", "note": "Hold. Stop at RIR 3 -- joint-health slot (Adj #318)" },
+    { "exercise": "Cable pushdown (rope, both-handed)", "load": "47.5 working", "lastVerified": "W22 Tue 9/15 (50 debut: 12/12/10/10 RIR 3/2/0/0)", "note": "50 reverted -- set 3 at 10 under 12 floor. Re-attempt: front three hold 12 floor, set 3 >= RIR 1 (Adj #367)" },
+    { "exercise": "Rear-delt fly", "load": "145 working", "lastVerified": "W22 Tue 9/15 (15/15 RIR 2/0)", "note": "Hold. Stop at RIR 3 -- joint-health slot (Adj #318). Set 2 drifted to failure; resume RIR 3 stop" },
     { "exercise": "Seated calf", "load": "375 working", "lastVerified": "W21 Fri 9/11 (375 debut: 12/11/12/10 RIR 1/0/0/0)", "note": "AM gate clean. First exposure, not clean 4x12. Hold, rebuild (Adj #358)" },
-    { "exercise": "Decline crunch (Tue)", "load": "+15 working", "lastVerified": "W21 Tue 9/8 (+15 debut: 12/8/8 RIR 2/0/0)", "note": "Hold, rebuild toward 3x12 (Adj #351)" },
+    { "exercise": "Decline crunch (Tue)", "load": "+15 working", "lastVerified": "W22 Tue 9/15 (12/9/8 RIR 2/0/0)", "note": "Rebuild progressing (29 total, +1 vs debut). Hold, rebuild toward 3x12 (Adj #368)" },
     { "exercise": "Decline crunch (Sat)", "load": "+15 working", "lastVerified": "W21 Fri 9/11 (10/10/6 RIR 2/0/0)", "note": "Set 3 regressed. Hold, rebuild toward 3x10 (Adj #335/#359)" },
     { "exercise": "Chest fly", "load": "135 working", "lastVerified": "W21 Fri 9/11 (135 debut: 12/12 RIR 4/3)", "note": "Established clean. Joint-health 2x12 RPE 7 (Adj #361)" }
   ]
