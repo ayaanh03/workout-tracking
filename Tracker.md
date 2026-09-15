@@ -79,4 +79,4 @@ Current week only — completed weeks live in `history/weekly-summary.md` (W13+)
 
 |Wk|Mon|Tue|Wed|Thu|Fri|Sat|Status|
 |---|---|---|---|---|---|---|---|
-|W22 (Sharpen, §4.E)|—|—|—|Off (§2.A)|—|—|in progress|
+|W22 (Sharpen, §4.E)|✓ Long 9/14 (6.03 mi 9:56/mi RPE 3; Adj #364)|—|—|Off (§2.A)|—|—|in progress|
