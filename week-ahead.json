@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-12T17:30:00-04:00",
+  "generatedAt": "2026-09-15T07:00:00-04:00",
   "week": "W22",
   "phase": "Sharpen",
-  "summary": "W22 -- Sharpen (section 4.E). Pushdown 50 + preacher 80 fire Tue (Adj #349/#357). Mon long 60 min Z1. Wed cut-down 1 mi M / 1 mi T / 1 mi 5K. Fri 4x1K @ 5K pace (2 min rec). Elbow 21 consecutive clean. Quality 18. W23 tune-up 5K (Fri 9-25) is the next pace arbitration (Adj #322).",
+  "summary": "W22 -- Sharpen (section 4.E). Mon long banked (6.03 mi, 9:56/mi, RPE 3 -- Adj #364). Pushdown 50 + preacher 80 fire Tue (Adj #349/#357). Wed cut-down 1 mi M / 1 mi T / 1 mi 5K. Fri 4x1K @ 5K pace (2 min rec). W23 tune-up 5K (Fri 9-25) is the next pace arbitration (Adj #322).",
   "days": [
-    { "date": "2026-09-14", "day": "Mon", "session": "Long run 60 min Z1 (section 4.E)", "note": "The week's entire easy fraction. Achilles read after W21 Sat calf 375 sweep (~40 h, normal timing).", "status": "upcoming" },
-    { "date": "2026-09-15", "day": "Tue", "session": "Hyp A (Sharpen, section 3.A)", "note": "Pushdown 50 debut + preacher 80 debut (Adj #349/#357). Incline 160x5 maintenance.", "status": "upcoming" },
+    { "date": "2026-09-14", "day": "Mon", "session": "Long run 60 min Z1 (section 4.E)", "note": "Logged -- 6.03 mi 9:56/mi RPE 3, 6th consecutive long banked (Adj #364)", "status": "done" },
+    { "date": "2026-09-15", "day": "Tue", "session": "Hyp A (Sharpen, section 3.A)", "note": "Pushdown 50 debut + preacher 80 debut (Adj #349/#357). Incline 160x5 maintenance.", "status": "today" },
     { "date": "2026-09-16", "day": "Wed", "session": "Cut-down: 1 mi M / 1 mi T / 1 mi 5K (section 4.E)", "note": "Quality #1. Race-pace specificity.", "status": "upcoming" },
     { "date": "2026-09-17", "day": "Thu", "session": "Off -- mobility / walk, daily SI prehab", "note": "Permanent full rest (section 2.A).", "status": "upcoming" },
     { "date": "2026-09-18", "day": "Fri", "session": "4x1K @ 5K pace (2 min rec) (section 4.E)", "note": "Quality #2.", "status": "upcoming" },
