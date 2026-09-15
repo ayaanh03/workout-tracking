@@ -1,12 +1,34 @@
 {
-  "generatedAt": "2026-09-15T07:00:00-04:00",
+  "generatedAt": "2026-09-15T14:07:00-04:00",
   "week": "W22",
-  "day": "Mon",
-  "date": "2026-09-14",
+  "day": "Tue",
+  "date": "2026-09-15",
   "phase": "Sharpen",
-  "sessionName": "Long Run 60 min Z1 -- LOGGED",
-  "intro": [],
-  "lift": null,
+  "sessionName": "Hypertrophy A (Sharpen)",
+  "intro": ["Preacher 75->80 (Adj #349), pushdown 47.5->50 (Adj #357) fire today."],
+  "lift": {
+    "table": [
+      { "exercise": "Incline BB (Sharpen maint.)", "setsReps": "1x5", "load": "160", "rir": "--", "rest": "2-3 min", "cue": "<5 reps = miss #2 -> TM cut 5-7% (Adj #312)" },
+      { "exercise": "DB lateral raise", "setsReps": "6x12", "load": "35", "rir": "last 2 to failure", "rest": "60-90s", "cue": "40 reverted (Adj #348)" },
+      { "exercise": "Preacher curl", "setsReps": "4x10", "load": "80", "rir": "last set RIR 0-1", "rest": "90-120s", "cue": "Debut. Revert if front three <10 or set 3 <RIR 1 (Adj #349)" },
+      { "exercise": "Cable pushdown (rope)", "setsReps": "4x12", "load": "50", "rir": "last set RIR 0-1", "rest": "60-90s", "cue": "Debut. Revert if front three <12 or set 3 <RIR 1 (Adj #350)" },
+      { "exercise": "Decline crunch", "setsReps": "3x12", "load": "+15", "rir": "2", "rest": "60-90s", "cue": "Rebuild toward 3x12 (Adj #351)" },
+      { "exercise": "Rear-delt fly", "setsReps": "2x15", "load": "145", "rir": "3", "rest": "60-90s", "cue": "Stop at RIR 3 -- joint health (Adj #318)" }
+    ],
+    "lastWeek": {
+      "label": "Hyp A W21 Tue 9/8",
+      "table": [
+        { "exercise": "Incline BB", "load": "160", "reps": "5", "rir": "1" },
+        { "exercise": "DB lateral raise", "load": "40", "reps": "12/12/12/10/9/8", "rir": "3/2/1/0/0/0" },
+        { "exercise": "Preacher curl", "load": "75", "reps": "10/10/10/10", "rir": "2/2/1/0" },
+        { "exercise": "Cable pushdown", "load": "47.5", "reps": "12/12/12/10", "rir": "2/2/2/0" },
+        { "exercise": "Decline crunch", "load": "+15", "reps": "12/8/8", "rir": "2/0/0" },
+        { "exercise": "Rear-delt fly", "load": "145", "reps": "15/15", "rir": "3/3" }
+      ]
+    },
+    "warmup": "Dynamic: 1-2 min band pull-aparts, scap push-ups. Wrist-extensor iso 3x30s/arm (pre-lift). Incline BB: bar x 8, 95 x 5, 115 x 3, then working.",
+    "cooldown": "Tyler twists 3x15 + reverse Tyler 3x15 (eccentric 4s). SI prehab: clamshells, bridges, bird-dog, McGill."
+  },
   "cardio": null,
   "currentLoads": [
     { "exercise": "Incline BB", "load": "160 working / TM 168", "lastVerified": "W21 Tue 9/8 (160x5 RIR 1)", "note": "Sharpen maintenance. <5 reps = miss #2 -> cut TM 5-7% (Adj #312/#340)" },
