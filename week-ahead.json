@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-15T18:00:00-04:00",
+  "generatedAt": "2026-09-16T19:00:00-04:00",
   "week": "W22",
   "phase": "Sharpen",
-  "summary": "W22 -- Sharpen (section 4.E). Mon long banked (6.03 mi, RPE 3). Tue Hyp A logged -- preacher 80 and pushdown 50 both reverted on debut; lateral 40 gate met for W23 Tue. Wed cut-down 1 mi M / 1 mi T / 1 mi 5K. Fri 4x1K @ 5K pace (2 min rec). W23 tune-up 5K (Fri 9-25) is the next pace arbitration (Adj #322).",
+  "summary": "W22 -- Sharpen (section 4.E). Mon long banked (6.03 mi, RPE 3). Tue Hyp A logged -- preacher 80 and pushdown 50 both reverted on debut; lateral 40 gate met for W23 Tue. Wed cut-down logged -- M 8:19 / T 7:40 / 5K 7:17, all inside bands, RPE 7/8/9; 19th consecutive quality clean. Fri 4x1K @ 5K pace (2 min rec). W23 tune-up 5K (Fri 9-25) is the next pace arbitration (Adj #322).",
   "days": [
     { "date": "2026-09-14", "day": "Mon", "session": "Long run 60 min Z1 (section 4.E)", "note": "Logged -- 6.03 mi 9:56/mi RPE 3, 6th consecutive long banked (Adj #364)", "status": "done" },
     { "date": "2026-09-15", "day": "Tue", "session": "Hyp A (Sharpen, section 3.A)", "note": "Logged -- preacher 80/pushdown 50 reverted; lat 40 gate met (Adj #365-368)", "status": "done" },
-    { "date": "2026-09-16", "day": "Wed", "session": "Cut-down: 1 mi M / 1 mi T / 1 mi 5K (section 4.E)", "note": "Quality #1. Race-pace specificity.", "status": "today" },
-    { "date": "2026-09-17", "day": "Thu", "session": "Off -- mobility / walk, daily SI prehab", "note": "Permanent full rest (section 2.A).", "status": "upcoming" },
-    { "date": "2026-09-18", "day": "Fri", "session": "4x1K @ 5K pace (2 min rec) (section 4.E)", "note": "Quality #2.", "status": "upcoming" },
+    { "date": "2026-09-16", "day": "Wed", "session": "Cut-down: 1 mi M / 1 mi T / 1 mi 5K (section 4.E)", "note": "Logged -- M 8:19 / T 7:40 / 5K 7:17, RPE 7/8/9; all inside bands (Adj #369)", "status": "done" },
+    { "date": "2026-09-17", "day": "Thu", "session": "Off -- mobility / walk, daily SI prehab", "note": "Permanent full rest (section 2.A).", "status": "today" },
+    { "date": "2026-09-18", "day": "Fri", "session": "4x1K @ 5K pace (2 min rec) (section 4.E)", "note": "Quality #2. Race-pace specificity.", "status": "upcoming" },
     { "date": "2026-09-19", "day": "Sat", "session": "Hyp B (Sharpen, section 3.B)", "note": "Calf 375 sweep. DB lateral 40 confirm. Preacher 60 rebuild.", "status": "upcoming" },
     { "date": "2026-09-20", "day": "Sun", "session": "Off / SI prehab", "note": "Permanent full rest (v4.4, Adj #244).", "status": "upcoming" }
   ]
