@@ -47,3 +47,5 @@
 368. **Decline crunch (Tue) +15 — rebuild progressing.** 12/9/8 RIR 2/0/0 — 29 total (up from 28: 12/8/8, Adj #351). Set 2 gained one rep (8→9); set 3 held at 8. Hold +15, rebuild toward 3×12 unchanged.
 
 369. **W22 Wed cut-down logged — all three miles inside bands, RPE 7/8/9.** M 8:19 (band 8:15–8:25), T 7:40 (fast edge 7:40–7:45), 5K 7:17 (band ~7:15–7:20). Power 233 → 253 → 267 W, cadence 173 → 176 → 181. T mile RPE 8 (vs ≤7 standalone anchor) — cumulative cut-down fatigue, non-actionable. **19th consecutive quality outing clean.** No carry-forward; W23 tune-up (Fri 9-25) arbitrates (Adj #322).
+
+370. **Fri/Sat swap, 6th instance — Hyp B lifts Fri 9/18; 4×1K @ 5K pace moves to Sat 9/19.** Same pattern as Adj #308/#327/#362. Calf sweep displaces from Sat → Fri; first-run-after read moves from Mon AM (~40 h) to Sat AM (~24 h, compressed). The W21 swap produced a clean ~24 h read (Adj #363).
