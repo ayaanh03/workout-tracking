@@ -80,4 +80,4 @@ Current week only — completed weeks live in `history/weekly-summary.md` (W13+)
 
 |Wk|Mon|Tue|Wed|Thu|Fri|Sat|Status|
 |---|---|---|---|---|---|---|---|
-|W22 (Sharpen, §4.E)|✓ Long 9/14 (6.03 mi 9:56/mi RPE 3; Adj #364)|✓ Hyp A 9/15 (80/50 reverted; lat 40 gate met; Adj #365-368)|—|Off (§2.A)|—|—|in progress|
+|W22 (Sharpen, §4.E)|✓ Long 9/14 (6.03 mi 9:56/mi RPE 3; Adj #364)|✓ Hyp A 9/15 (80/50 reverted; lat 40 gate met; Adj #365-368)|✓ Cut-down 9/16 (M 8:19 / T 7:40 / 5K 7:17, RPE 7/8/9; Adj #369)|Off (§2.A)|—|—|in progress|

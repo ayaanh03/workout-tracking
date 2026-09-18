@@ -1,35 +1,20 @@
 {
-  "generatedAt": "2026-09-15T18:00:00-04:00",
+  "generatedAt": "2026-09-16T19:00:00-04:00",
   "week": "W22",
-  "day": "Tue",
-  "date": "2026-09-15",
+  "day": "Fri",
+  "date": "2026-09-18",
   "phase": "Sharpen",
-  "sessionName": "Hypertrophy A (Sharpen) -- logged",
+  "sessionName": "4x1K @ 5K pace (2 min rec)",
   "intro": [],
-  "lift": {
-    "table": [
-      { "exercise": "Incline BB (Sharpen maint.)", "setsReps": "1x5", "load": "160", "rir": "1", "rest": "2-3 min", "cue": "" },
-      { "exercise": "DB lateral raise", "setsReps": "6x12", "load": "35", "rir": "3/3/3/3/0/0", "rest": "60-90s", "cue": "12/12/12/12/16/13. 40 fires W23 Tue (Adj #365)" },
-      { "exercise": "Preacher curl", "setsReps": "4x10", "load": "80", "rir": "1/0/0/0", "rest": "90-120s", "cue": "10/10/10/6. Reverted to 75 (Adj #366)" },
-      { "exercise": "Cable pushdown (rope)", "setsReps": "4x12", "load": "50", "rir": "3/2/0/0", "rest": "60-90s", "cue": "12/12/10/10. Reverted to 47.5 (Adj #367)" },
-      { "exercise": "Decline crunch", "setsReps": "3x12", "load": "+15", "rir": "2/0/0", "rest": "60-90s", "cue": "12/9/8. Rebuild (Adj #368)" },
-      { "exercise": "Rear-delt fly", "setsReps": "2x15", "load": "145", "rir": "2/0", "rest": "60-90s", "cue": "15/15" }
-    ],
-    "lastWeek": {
-      "label": "Hyp A W21 Tue 9/8",
-      "table": [
-        { "exercise": "Incline BB", "load": "160", "reps": "5", "rir": "1" },
-        { "exercise": "DB lateral raise", "load": "40", "reps": "12/12/12/10/9/8", "rir": "3/2/1/0/0/0" },
-        { "exercise": "Preacher curl", "load": "75", "reps": "10/10/10/10", "rir": "2/2/1/0" },
-        { "exercise": "Cable pushdown", "load": "47.5", "reps": "12/12/12/10", "rir": "2/2/2/0" },
-        { "exercise": "Decline crunch", "load": "+15", "reps": "12/8/8", "rir": "2/0/0" },
-        { "exercise": "Rear-delt fly", "load": "145", "reps": "15/15", "rir": "3/3" }
-      ]
-    },
-    "warmup": "Dynamic: 1-2 min band pull-aparts, scap push-ups. Wrist-extensor iso 3x30s/arm (pre-lift). Incline BB: bar x 8, 95 x 5, 115 x 3, then working.",
-    "cooldown": "Tyler twists 3x15 + reverse Tyler 3x15 (eccentric 4s). SI prehab: clamshells, bridges, bird-dog, McGill."
+  "lift": null,
+  "cardio": {
+    "flags": [],
+    "workout": "4x1K @ 5K pace (2 min jog rec) -- race-pace specificity (section 4.E W22)",
+    "targets": { "pace": "7:15-7:20/mi", "hr": "display-only", "cadence": "178-182 spm" },
+    "warmup": "1.0-1.5 mi easy build",
+    "cooldown": "1.0 mi easy + SI prehab",
+    "cues": []
   },
-  "cardio": null,
   "currentLoads": [
     { "exercise": "Incline BB", "load": "160 working / TM 168", "lastVerified": "W22 Tue 9/15 (160x5 RIR 1)", "note": "Sharpen maintenance. Two consecutive RIR 1 reads. <5 reps = miss #2 -> cut TM 5-7% (Adj #312/#340)" },
     { "exercise": "Lat pulldown", "load": "165 working", "lastVerified": "W21 Fri 9/11 (8/8/8/7 RIR 2/2/1/0)", "note": "Set 3 headroom met; set 4 at 7 misses 8-floor. 170 re-entry: clean 4x8, set 3 >= RIR 1 (Adj #328/#354)" },

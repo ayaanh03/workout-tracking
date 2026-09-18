@@ -45,3 +45,5 @@
 367. **Cable pushdown (Tue) 50 debut REVERTS → 47.5 (Adj #357 revert fires).** 12/12/10/10 RIR 3/2/0/0 — set 3 at 10 (under the 12 floor, revert condition met). 44 total vs the 49 that earned the bump at 47.5 (Adj #357). Front pair at RIR 3/2 shows 50 is light for two sets; the fatigue curve collapses at set 3 exactly as 47.5 did pre-breakthrough. **47.5 returns W23 Tue.** Re-attempt at 50: front three hold 12 floor, set 3 ≥RIR 1 (same gate as Adj #357). **Elbow 22nd consecutive clean, 8th at the rope** — Adj #303 bilateral-attachment watch unchanged.
 
 368. **Decline crunch (Tue) +15 — rebuild progressing.** 12/9/8 RIR 2/0/0 — 29 total (up from 28: 12/8/8, Adj #351). Set 2 gained one rep (8→9); set 3 held at 8. Hold +15, rebuild toward 3×12 unchanged.
+
+369. **W22 Wed cut-down logged — all three miles inside bands, RPE 7/8/9.** M 8:19 (band 8:15–8:25), T 7:40 (fast edge 7:40–7:45), 5K 7:17 (band ~7:15–7:20). Power 233 → 253 → 267 W, cadence 173 → 176 → 181. T mile RPE 8 (vs ≤7 standalone anchor) — cumulative cut-down fatigue, non-actionable. **19th consecutive quality outing clean.** No carry-forward; W23 tune-up (Fri 9-25) arbitrates (Adj #322).
