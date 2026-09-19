@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-09-19T03:44:00-04:00",
+  "generatedAt": "2026-09-19T07:35:00-04:00",
   "week": "W22",
   "day": "Sat",
   "date": "2026-09-19",
   "phase": "Sharpen",
-  "sessionName": "4x1K @ 5K pace (2 min rec)",
-  "intro": ["Swapped from Fri per Adj #370. Achilles AM read at ~24 h (clean at ~24 h in W21, Adj #363)."],
+  "sessionName": "4x1K @ 5K pace (2 min rec) -- LOGGED",
+  "intro": ["Swapped from Fri per Adj #370. RPE 6 at 7:02/mi avg (band 7:12-7:20). 20th quality clean. W22 closed."],
   "lift": null,
   "cardio": {
     "flags": [],
-    "workout": "4x1K @ 5K pace (2 min jog rec)",
-    "targets": { "pace": "7:12-7:20/mi", "hr": "display-only", "cadence": "175-182 spm" },
-    "warmup": "1.0-1.5 mi easy build to 5K pace",
-    "cooldown": "1.0 mi easy + SI prehab",
+    "workout": "4x1K @ 5K pace (2 min jog rec) -- 7:20/7:09/7:00/6:41, avg 7:02/mi, RPE 6",
+    "targets": { "pace": "7:12-7:20/mi (actual 7:02 avg)", "hr": "display-only (avg 172, peak 180)", "cadence": "175-182 spm (actual 178-181)" },
+    "warmup": "1.70 mi / 15:45 @ 9:14/mi (separate recording)",
+    "cooldown": "0.53 mi / 4:57 @ 9:13/mi",
     "cues": []
   },
   "currentLoads": [

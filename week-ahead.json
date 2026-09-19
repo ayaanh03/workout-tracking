@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-18T21:00:00-04:00",
-  "week": "W22",
+  "generatedAt": "2026-09-19T07:35:00-04:00",
+  "week": "W23",
   "phase": "Sharpen",
-  "summary": "W22 -- Sharpen (section 4.E). Mon long banked (6.03 mi, RPE 3). Tue Hyp A: preacher 80 and pushdown 50 both reverted; lateral 40 gate met for W23 Tue. Wed cut-down: M 8:19 / T 7:40 / 5K 7:17, all inside bands, RPE 7/8/9; 19th consecutive quality clean. Fri Hyp B (swap, Adj #370): lat 170 re-entry fires W23 Sat (Adj #371); pushdown 50 re-fires W23 Tue (Adj #374). W23 tune-up 5K (Fri 9-25) is the next pace arbitration (Adj #322).",
+  "summary": "W23 -- Sharpen tune-up week (section 4.E). Mon long trimmed to 50 min (4 days out from Fri's TT). Tue Hyp A: lat 40 and pushdown 50 fire. Wed 5x1K @ 5K pace (90 s rec). FRI 9-25 TUNE-UP 5K TT -- target 22:00-22:15, the next pace arbitration (Adj #322). Sat Hyp B: lat 170 fires (Adj #371). Quality streak at 20; two consecutive RPE 6 reads at race-pace and I-pace doses heading in.",
   "days": [
-    { "date": "2026-09-14", "day": "Mon", "session": "Long run 60 min Z1 (section 4.E)", "note": "Logged -- 6.03 mi 9:56/mi RPE 3, 6th consecutive long banked (Adj #364)", "status": "done" },
-    { "date": "2026-09-15", "day": "Tue", "session": "Hyp A (Sharpen, section 3.A)", "note": "Logged -- preacher 80/pushdown 50 reverted; lat 40 gate met (Adj #365-368)", "status": "done" },
-    { "date": "2026-09-16", "day": "Wed", "session": "Cut-down: 1 mi M / 1 mi T / 1 mi 5K (section 4.E)", "note": "Logged -- M 8:19 / T 7:40 / 5K 7:17, RPE 7/8/9; all inside bands (Adj #369)", "status": "done" },
-    { "date": "2026-09-17", "day": "Thu", "session": "Off -- mobility / walk, daily SI prehab", "note": "Permanent full rest (section 2.A).", "status": "done" },
-    { "date": "2026-09-18", "day": "Fri", "session": "Hyp B (swapped from Sat, Adj #370)", "note": "Logged -- lat 170 fires W23 Sat; pushdown 50 re-fires W23 Tue; lat-40 confirmed; row regressed (Adj #371-378)", "status": "done" },
-    { "date": "2026-09-19", "day": "Sat", "session": "4x1K @ 5K pace (2 min rec) (swapped from Fri, Adj #370)", "note": "Race-pace specificity. First-run-after-calf read (~24 h). 20th quality outing.", "status": "today" },
-    { "date": "2026-09-20", "day": "Sun", "session": "Off / SI prehab", "note": "Permanent full rest (v4.4, Adj #244).", "status": "upcoming" }
+    { "date": "2026-09-21", "day": "Mon", "session": "Long 50 min Z1 (section 4.E, tune-up week)", "note": "Trimmed from 60 min -- Mon is 4 days out from Fri tune-up TT", "status": "upcoming" },
+    { "date": "2026-09-22", "day": "Tue", "session": "Hyp A (Sharpen, section 3.A)", "note": "Bumps: lat 40 fires (Adj #365), pushdown 50 re-fires (Adj #374)", "status": "upcoming" },
+    { "date": "2026-09-23", "day": "Wed", "session": "5x1K @ 5K pace, 90 s rec (section 4.E)", "note": "Race-pace specificity", "status": "upcoming" },
+    { "date": "2026-09-24", "day": "Thu", "session": "Off -- mobility / walk, daily SI prehab", "note": "Permanent full rest (section 2.A)", "status": "upcoming" },
+    { "date": "2026-09-25", "day": "Fri", "session": "TUNE-UP 5K TT (section 10, section 4.E W23)", "note": "Target 22:00-22:15 (Tier C, Adj #322). Next pace arbitration. Vaporfly exposure.", "status": "upcoming" },
+    { "date": "2026-09-26", "day": "Sat", "session": "Hyp B (Sharpen, section 3.B)", "note": "Bumps: lat 170 fires (Adj #371). Calf sweep (normal schedule).", "status": "upcoming" },
+    { "date": "2026-09-27", "day": "Sun", "session": "Off / SI prehab", "note": "Permanent full rest (v4.4, Adj #244)", "status": "upcoming" }
   ]
 }

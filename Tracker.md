@@ -8,7 +8,7 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 
 ## Status
 
-**Phase D — Sharpen W22 (§4.E).** Sharpen spans W21–W24. Race: Sat 2026-10-24 (W27). Tier C locked: sub-21:30 / 6:55/mi (Adj #164, not renegotiated). Template: v4.4 three-run week — Mon long / Tue Hyp A / Wed quality / Thu OFF / Fri quality / Sat Hyp B lift-only / Sun OFF (§2.B, Adj #244). W21 closed 9-12 (Adj #363).
+**Phase D — Sharpen W23 (§4.E).** Sharpen spans W21–W24. Race: Sat 2026-10-24 (W27). Tier C locked: sub-21:30 / 6:55/mi (Adj #164, not renegotiated). Template: v4.4 three-run week — Mon long / Tue Hyp A / Wed quality / Thu OFF / Fri quality / Sat Hyp B lift-only / Sun OFF (§2.B, Adj #244). W22 closed 9-19 (Adj #379).
 
 **Pace bands (all confirmed, Adj #202/#271/#296/#321):** easy 9:15–10:30 (conversation-gated), M 8:15–8:25, T 7:40–7:45 RPE ≤7, I 7:00–7:15 RPE 9, R 6:35–6:45. Row: T 1:52–1:57, I 1:46–1:50, R 1:39–1:43, M ~2:06. Next recalc: W23 tune-up 5K, Fri Sep 25 — target 22:00–22:15 (Adj #322).
 
@@ -40,7 +40,7 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 
 Open items that affect the next session. Full rationale in `history/adjustments.md` (live #309+) / `history/archive/` — grep: `grep -rn '^N\. ' history/`.
 
-- **L Achilles:** reactive tendon. 375 holds — calf sweep Fri 9/18 (swap, Adj #370). Next read: Sat 9/19 AM (~24 h, compressed per swap; clean at ~24 h in W21, Adj #363). After-only soreness pattern (Adj #113/#125) has not recurred. (Adj #34/#135/#284/#306/#334/#358/#377)
+- **L Achilles:** reactive tendon. 375 holds — clean at ~24 h, 2nd consecutive swap read (Adj #363/#379). Next sweep: W23 Sat 9/26. Next read: W23 Mon AM (~40 h, normal design). After-only soreness pattern (Adj #113/#125) has not recurred. (Adj #34/#135/#284/#306/#334/#358/#377/#379)
 - **Treadmill quality at 1%** for road equivalence (Adj #177).
 - **Running power:** display-only, governs nothing (Adj #251). Log when the watch reports it.
 - **Logging default (Adj #188/#190):** assume-same-as-last for context, no-news-is-clean for SI/tendon/pain. Missing numbers get one compact prompt; unknowns log "n/r".
@@ -80,4 +80,4 @@ Current week only — completed weeks live in `history/weekly-summary.md` (W13+)
 
 |Wk|Mon|Tue|Wed|Thu|Fri|Sat|Status|
 |---|---|---|---|---|---|---|---|
-|W22 (Sharpen, §4.E)|✓ Long 9/14 (6.03 mi 9:56/mi RPE 3; Adj #364)|✓ Hyp A 9/15 (80/50 reverted; lat 40 gate met; Adj #365-368)|✓ Cut-down 9/16 (M 8:19 / T 7:40 / 5K 7:17, RPE 7/8/9; Adj #369)|Off (§2.A)|✓ Hyp B 9/18 (lat 170 fires; pushdown 50 re-fires; Adj #371-378)|—|in progress|
+|W23 (Sharpen, §4.E — tune-up week)|—|—|—|Off (§2.A)|—|—|in progress|
