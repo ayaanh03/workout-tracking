@@ -21,18 +21,18 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 |Exercise|Load|Last verified|Note|
 |---|---|---|---|
 |Incline BB|160 working / TM 168|W22 Tue 9/15 (160×5 RIR 1)|Sharpen maintenance. Two consecutive RIR 1 reads. <5 reps = miss #2 → cut TM 5–7% (Adj #312/#340)|
-|Lat pulldown|165 working|W21 Fri 9/11 (165×8/8/8/7 RIR 2/2/1/0)|Set 3 headroom met (RIR 1); set 4 at 7 misses 8-floor. 170 re-entry: clean 4×8, set 3 ≥RIR 1 (Adj #328/#354)|
-|Chest-supp row|80 working|W21 Fri 9/11 (10/10/8 RIR 2/0/0)|85 gate: full 3×10 + sets 1-2 ≥RIR 1 — both terms failed (Adj #332/#360)|
+|Lat pulldown|165 → **170 fires W23 Sat**|W22 Fri 9/18 (165×8/8/8/8 RIR 2/2/1/0)|Adj #354 gate met. Revert at 170: any set under 8 or set 3 <RIR 1 → 165 (Adj #371)|
+|Chest-supp row|80 working|W22 Fri 9/18 (10/10/6 RIR 1/0/0)|Set 3 regressed (8→6). 85 gate: full 3×10 + sets 1-2 ≥RIR 1 — double-failed (Adj #373)|
 |DB lateral raise (Tue)|35 → **40 fires W23 Tue**|W22 Tue 9/15 (35: 12/12/12/12/16/13 RIR 3/3/3/3/0/0)|Adj #348 satisfied. Revert at 40: front four at 12, set 4 ≥RIR 1 (Adj #365)|
-|DB lateral raise (Sat)|40 working|W21 Fri 9/11 (40 debut: 12/12/12/10 RIR 2/1/0/0)|40 holds — front two ≥11, Adj #329 revert not fired. Repeat to confirm (Adj #355)|
+|DB lateral raise (Sat)|40 working|W22 Fri 9/18 (40: 12/12/12/11 RIR 2/2/1/0)|40 confirmed (2nd clean outing, Adj #372). Bump to 42.5: clean 4×12 + set 4 ≥RIR 1|
 |Preacher curl uni (Tue)|75 working|W22 Tue 9/15 (80 debut: 10/10/10/6 RIR 1/0/0/0)|80 reverted — set 3 RIR 0. Re-attempt: front three hold 10 floor, set 3 ≥RIR 1 (Adj #366)|
-|Preacher curl uni (Sat)|60/arm working|W21 Fri 9/11 (65 debut: 12/12/8/8 RIR 2/0/0/0)|65 reverted — sets 3-4 collapsed (Adj #330/#356). Hold 60, rebuild|
-|Cable pushdown (rope, both-handed)|47.5 working|W22 Tue 9/15 (50 debut: 12/12/10/10 RIR 3/2/0/0)|50 reverted — set 3 at 10 under 12 floor. Re-attempt: front three hold 12 floor, set 3 ≥RIR 1 (Adj #367)|
+|Preacher curl uni (Sat)|60/arm working|W22 Fri 9/18 (12/12/12/9 RIR 3/2/1/0)|Rebuild progressing. 65 re-attempt: clean 4×12, set 3 ≥RIR 1 (Adj #375)|
+|Cable pushdown (rope, both-handed)|47.5 → **50 re-fires W23 Tue**|W22 Fri 9/18 (47.5: 12/12/12/14 RIR 3/2/1/0)|Adj #367 gate met again (Sat 2-for-2). Revert: front three lose 12 floor or set 3 <RIR 1 → 47.5 (Adj #374)|
 |Rear-delt fly|145 working|W22 Tue 9/15 (15/15 RIR 2/0)|Hold. Stop at RIR 3 — joint-health slot (Adj #318). Set 2 drifted to failure; resume RIR 3 stop|
-|Seated calf|375 working|W21 Fri 9/11 (375 debut: 12/11/12/10 RIR 1/0/0/0)|AM gate clean. First exposure, not clean 4×12. Hold, rebuild (Adj #358)|
+|Seated calf|375 working|W22 Fri 9/18 (12/11/12/13 RIR 2/0/0/0)|Improving (+3 total vs debut). Not clean 4×12. Hold, rebuild (Adj #377)|
 |Decline crunch (Tue)|+15 working|W22 Tue 9/15 (12/9/8 RIR 2/0/0)|Rebuild progressing (29 total, +1 vs debut). Hold, rebuild toward 3×12 (Adj #368)|
-|Decline crunch (Sat)|+15 working|W21 Fri 9/11 (10/10/6 RIR 2/0/0)|Set 3 regressed (8→6). Hold, rebuild toward 3×10 (Adj #335/#359)|
-|Chest fly|135 working|W21 Fri 9/11 (135 debut: 12/12 RIR 4/3)|Established clean. Joint-health 2×12 RPE 7 (Adj #333/#361)|
+|Decline crunch (Sat)|+15 working|W22 Fri 9/18 (10/10/7 RIR 2/1/0)|Rebuild progressing (27 total, +1). Hold, rebuild toward 3×10 (Adj #376)|
+|Chest fly|135 working|W22 Fri 9/18 (12/12 RIR 2/2)|RIR tightened (4/3→2/2). Joint-health 2×12 RPE 7. Hold (Adj #378)|
 
 ---
 
@@ -40,7 +40,7 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 
 Open items that affect the next session. Full rationale in `history/adjustments.md` (live #309+) / `history/archive/` — grep: `grep -rn '^N\. ' history/`.
 
-- **L Achilles:** reactive tendon. 375 holds — first-run-after read Sat 9/12 ~24 h, clean (displaced from Mon by swap, Adj #363). Next sweep: W22 Sat, read W22 Mon AM (~40 h, normal v4.4 timing). After-only soreness pattern (Adj #113/#125) has not recurred. (Adj #34/#135/#284/#306/#334/#358/#363)
+- **L Achilles:** reactive tendon. 375 holds — calf sweep Fri 9/18 (swap, Adj #370). Next read: Sat 9/19 AM (~24 h, compressed per swap; clean at ~24 h in W21, Adj #363). After-only soreness pattern (Adj #113/#125) has not recurred. (Adj #34/#135/#284/#306/#334/#358/#377)
 - **Treadmill quality at 1%** for road equivalence (Adj #177).
 - **Running power:** display-only, governs nothing (Adj #251). Log when the watch reports it.
 - **Logging default (Adj #188/#190):** assume-same-as-last for context, no-news-is-clean for SI/tendon/pain. Missing numbers get one compact prompt; unknowns log "n/r".
@@ -80,4 +80,4 @@ Current week only — completed weeks live in `history/weekly-summary.md` (W13+)
 
 |Wk|Mon|Tue|Wed|Thu|Fri|Sat|Status|
 |---|---|---|---|---|---|---|---|
-|W22 (Sharpen, §4.E)|✓ Long 9/14 (6.03 mi 9:56/mi RPE 3; Adj #364)|✓ Hyp A 9/15 (80/50 reverted; lat 40 gate met; Adj #365-368)|✓ Cut-down 9/16 (M 8:19 / T 7:40 / 5K 7:17, RPE 7/8/9; Adj #369)|Off (§2.A)|—|—|in progress|
+|W22 (Sharpen, §4.E)|✓ Long 9/14 (6.03 mi 9:56/mi RPE 3; Adj #364)|✓ Hyp A 9/15 (80/50 reverted; lat 40 gate met; Adj #365-368)|✓ Cut-down 9/16 (M 8:19 / T 7:40 / 5K 7:17, RPE 7/8/9; Adj #369)|Off (§2.A)|✓ Hyp B 9/18 (lat 170 fires; pushdown 50 re-fires; Adj #371-378)|—|in progress|
