@@ -49,3 +49,19 @@
 369. **W22 Wed cut-down logged — all three miles inside bands, RPE 7/8/9.** M 8:19 (band 8:15–8:25), T 7:40 (fast edge 7:40–7:45), 5K 7:17 (band ~7:15–7:20). Power 233 → 253 → 267 W, cadence 173 → 176 → 181. T mile RPE 8 (vs ≤7 standalone anchor) — cumulative cut-down fatigue, non-actionable. **19th consecutive quality outing clean.** No carry-forward; W23 tune-up (Fri 9-25) arbitrates (Adj #322).
 
 370. **Fri/Sat swap, 6th instance — Hyp B lifts Fri 9/18; 4×1K @ 5K pace moves to Sat 9/19.** Same pattern as Adj #308/#327/#362. Calf sweep displaces from Sat → Fri; first-run-after read moves from Mon AM (~40 h) to Sat AM (~24 h, compressed). The W21 swap produced a clean ~24 h read (Adj #363).
+
+371. **Lat pulldown 165 → 170 fires W23 Sat — GATE MET (Adj #328/#354 satisfied).** 4×(8/8/8/8) RIR 2/2/1/0 — 32 total. Set 4 improved 7→8 (three consecutive outings at 7 broken). Clean 4×8 + set 3 RIR 1 — both terms met. **Revert at 170: any set under 8 or set 3 <RIR 1 → 165.**
+
+372. **DB lateral raise (Sat) 40 CONFIRMED — 2nd clean outing (Adj #355 satisfied).** 4×(12/12/12/11) RIR 2/2/1/0 — 47 total (+1 vs debut). Front two at 12 (≥11), revert not fired, repeat confirmed. 40 established. Bump to 42.5: clean 4×12 + set 4 ≥RIR 1.
+
+373. **Chest-supp row 80 — set 3 regressed (8→6), hold.** 3×(10/10/6) RIR 1/0/0 — 26 total (down from 28, Adj #360). Set 3 dropped 2 reps; set 1 tightened RIR 2→1. 85 gate double-failed again. Hold 80 unconditional.
+
+374. **Cable pushdown 47.5 → 50 RE-FIRES W23 Tue — gate met 2nd time from Sat slot (Adj #367 satisfied).** 4×(12/12/12/14) RIR 3/2/1/0 — 50 total (new all-time best, +1 vs the 49 that earned the first bump, Adj #357). Sat slot: 2-for-2 on the gate. Tue slot: 0-for-1 (reverted Adj #367). **50 fires W23 Tue. Revert unchanged: front three lose 12 floor or set 3 <RIR 1 → 47.5.** Elbow 23rd consecutive clean, 9th at the rope — Adj #303 unchanged.
+
+375. **Preacher curl (Sat) 60 — rebuild progressing.** 4×(12/12/12/9) RIR 3/2/1/0 — 45 total. Sets 1-3 all at the 12 floor with descending reserve (3/2/1); set 4 at 9 — improvement over the 65 debut's 12/12/8/8 collapse (Adj #356). Hold 60, rebuild. 65 re-attempt: clean 4×12, set 3 ≥RIR 1.
+
+376. **Decline crunch (Sat) +15 — rebuild progressing (27 total, +1 vs W21 Fri).** 3×(10/10/7) RIR 2/1/0 — set 3 improved 6→7; set 2 improved RIR 0→1. Hold +15, rebuild toward 3×10 (Adj #335/#359 terms unchanged).
+
+377. **Seated calf 375 — improving, not clean 4×12; Achilles read Sat AM (~24 h per swap).** 4×(12/11/12/13) RIR 2/0/0/0 — 48 total (+3 vs debut, Adj #358). Set 4 surged 10→13; set 1 RIR improved 1→2. Set 2 still at 11 — the same set that dipped at the debut. Hold 375, rebuild. Calf sweep ran Fri 9/18 (swap, Adj #370); first-run-after is Sat's 4×1K (~24 h, compressed per Adj #362/#363 precedent).
+
+378. **Chest fly 135 — RIR tightened (4/3→2/2), hold.** 2×(12/12) RIR 2/2. Joint-health dose (§3.B 2×12 RPE 7). RIR shift from the debut's 4/3 to 2/2. Hold 135, monitor.
