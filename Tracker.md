@@ -40,7 +40,7 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 
 Open items that affect the next session. Full rationale in `history/adjustments.md` (live #309+) / `history/archive/` — grep: `grep -rn '^N\. ' history/`.
 
-- **L Achilles:** reactive tendon. 375 holds — clean at ~24 h, 2nd consecutive swap read (Adj #363/#379). Next sweep: W23 Sat 9/26. Next read: W23 Mon AM (~40 h, normal design). After-only soreness pattern (Adj #113/#125) has not recurred. (Adj #34/#135/#284/#306/#334/#358/#377/#379)
+- **L Achilles:** reactive tendon. 375 holds — clean at ~46 h, 3rd consecutive clean post-sweep read (Adj #363/#379/#380). Next sweep: W23 Sat 9/26. Next read: W24 Mon AM (~40 h, normal design). After-only soreness pattern (Adj #113/#125) has not recurred. (Adj #34/#135/#284/#306/#334/#358/#377/#379/#380)
 - **Treadmill quality at 1%** for road equivalence (Adj #177).
 - **Running power:** display-only, governs nothing (Adj #251). Log when the watch reports it.
 - **Logging default (Adj #188/#190):** assume-same-as-last for context, no-news-is-clean for SI/tendon/pain. Missing numbers get one compact prompt; unknowns log "n/r".
@@ -80,4 +80,4 @@ Current week only — completed weeks live in `history/weekly-summary.md` (W13+)
 
 |Wk|Mon|Tue|Wed|Thu|Fri|Sat|Status|
 |---|---|---|---|---|---|---|---|
-|W23 (Sharpen, §4.E — tune-up week)|—|—|—|Off (§2.A)|—|—|in progress|
+|W23 (Sharpen, §4.E — tune-up week)|✓ Long 9/21 (~6.0 mi ~58 min Z1, over-filled vs 50-min ask; Adj #380)|—|—|Off (§2.A)|—|—|in progress|
