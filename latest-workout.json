@@ -1,20 +1,35 @@
 {
-  "generatedAt": "2026-09-21T19:46:00-04:00",
+  "generatedAt": "2026-09-21T21:52:00-04:00",
   "week": "W23",
-  "day": "Mon",
-  "date": "2026-09-21",
+  "day": "Tue",
+  "date": "2026-09-22",
   "phase": "Sharpen",
-  "sessionName": "Long Z1 50 min",
-  "intro": [],
-  "lift": null,
-  "cardio": {
-    "flags": [],
-    "workout": "50 min Z1 steady (tune-up week, trimmed from 60 min per section 4.E W23)",
-    "targets": { "pace": "9:15-10:30/mi", "hr": "display-only", "cadence": "165-172 spm" },
-    "warmup": "3 min walk, 5 min build to Z1",
-    "cooldown": "3-5 min walk, SI prehab daily set",
-    "cues": []
+  "sessionName": "Hyp A (Sharpen)",
+  "intro": ["Bumps land: lat raise 35->40 (Adj #365), rope pushdown 47.5->50 (Adj #374)."],
+  "lift": {
+    "table": [
+      { "exercise": "Incline BB", "setsReps": "1x5", "load": "160", "rir": "maint", "rest": "2-3 min", "cue": "Sharpen maintenance (section 5). <5 reps = miss #2 -> cut TM 5-7% (Adj #312/#340)" },
+      { "exercise": "DB lateral raise", "setsReps": "6x12", "load": "40", "rir": "2 (last 2 to failure)", "rest": "60-90s", "cue": "Bump from 35 (Adj #365). Revert: front four at 12, set 4 >= RIR 1" },
+      { "exercise": "Preacher curl machine", "setsReps": "4x10", "load": "75", "rir": "2 (last set RIR 0-1)", "rest": "60-90s", "cue": "80 reverted. Re-attempt gate: front three hold 10, set 3 >= RIR 1 (Adj #366)" },
+      { "exercise": "Cable pushdown (rope, both-handed)", "setsReps": "4x12", "load": "50", "rir": "2 (last set RIR 0-1)", "rest": "60-90s", "cue": "Bump from 47.5 (Adj #374). Revert: front three hold 12, set 3 >= RIR 1" },
+      { "exercise": "Decline crunch", "setsReps": "3x12", "load": "+15", "rir": "2", "rest": "60-90s", "cue": "Rebuild toward 3x12 (Adj #368)" },
+      { "exercise": "Rear-delt fly", "setsReps": "2x15", "load": "145", "rir": "3 (stop)", "rest": "60-90s", "cue": "Joint-health slot -- stop at RIR 3 (Adj #318)" }
+    ],
+    "lastWeek": {
+      "label": "Hyp A W22 Tue 9/15",
+      "table": [
+        { "exercise": "Incline BB", "load": "160", "reps": "5", "rir": "1" },
+        { "exercise": "DB lateral raise", "load": "35", "reps": "12/12/12/12/16/13", "rir": "3/3/3/3/0/0" },
+        { "exercise": "Preacher curl", "load": "80", "reps": "10/10/10/6", "rir": "1/0/0/0" },
+        { "exercise": "Cable pushdown (rope)", "load": "50", "reps": "12/12/10/10", "rir": "3/2/0/0" },
+        { "exercise": "Decline crunch", "load": "+15", "reps": "12/9/8", "rir": "2/0/0" },
+        { "exercise": "Rear-delt fly", "load": "145", "reps": "15/15", "rir": "2/0" }
+      ]
+    },
+    "warmup": "Incline BB: bar x 8, 95 x 5, 115 x 3, then working. General: 1-2 min band pull-aparts, scap push-ups.",
+    "cooldown": "SI prehab -- Tyler twists 3x15, reverse Tyler 3x15, McGill Big 3 5-3-1"
   },
+  "cardio": null,
   "currentLoads": [
     { "exercise": "Incline BB", "load": "160 working / TM 168", "lastVerified": "W22 Tue 9/15 (160x5 RIR 1)", "note": "Sharpen maintenance. Two consecutive RIR 1 reads. <5 reps = miss #2 -> cut TM 5-7% (Adj #312/#340)" },
     { "exercise": "Lat pulldown", "load": "165 -> 170 fires W23 Sat", "lastVerified": "W22 Fri 9/18 (165x8/8/8/8 RIR 2/2/1/0)", "note": "Adj #354 gate met. Revert at 170: any set under 8 or set 3 <RIR 1 -> 165 (Adj #371)" },
