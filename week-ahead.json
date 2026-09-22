@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-21T07:30:00-04:00",
+  "generatedAt": "2026-09-21T19:46:00-04:00",
   "week": "W23",
   "phase": "Sharpen",
-  "summary": "W23 -- Sharpen tune-up week (section 4.E). Mon long trimmed to 50 min (4 days out from Fri's TT). Tue Hyp A: lat 40 and pushdown 50 fire. Wed 5x1K @ 5K pace (90 s rec). FRI 9-25 TUNE-UP 5K TT -- target 22:00-22:15, the next pace arbitration (Adj #322). Sat Hyp B: lat 170 fires (Adj #371). Quality streak at 20; two consecutive RPE 6 reads at race-pace and I-pace doses heading in.",
+  "summary": "W23 -- Sharpen tune-up week (section 4.E). Mon long banked (~6.0 mi, over-filled vs 50-min ask). Tue Hyp A: lat 40 and pushdown 50 fire. Wed 5x1K @ 5K pace (90 s rec). FRI 9-25 TUNE-UP 5K TT -- target 22:00-22:15, the next pace arbitration (Adj #322). Sat Hyp B: lat 170 fires (Adj #371). Quality streak at 20; Achilles 3rd consecutive clean post-sweep read.",
   "days": [
-    { "date": "2026-09-21", "day": "Mon", "session": "Long 50 min Z1 (section 4.E, tune-up week)", "note": "Trimmed from 60 min -- Mon is 4 days out from Fri tune-up TT", "status": "today" },
-    { "date": "2026-09-22", "day": "Tue", "session": "Hyp A (Sharpen, section 3.A)", "note": "Bumps: lat 40 fires (Adj #365), pushdown 50 re-fires (Adj #374)", "status": "upcoming" },
+    { "date": "2026-09-21", "day": "Mon", "session": "Long 50 min Z1 (section 4.E, tune-up week)", "note": "Logged -- ~6.0 mi ~58 min Z1, over-filled vs 50-min ask; all miles in-band; Achilles ~46 h clean (Adj #380)", "status": "done" },
+    { "date": "2026-09-22", "day": "Tue", "session": "Hyp A (Sharpen, section 3.A)", "note": "Bumps: lat 40 fires (Adj #365), pushdown 50 re-fires (Adj #374)", "status": "today" },
     { "date": "2026-09-23", "day": "Wed", "session": "5x1K @ 5K pace, 90 s rec (section 4.E)", "note": "Race-pace specificity", "status": "upcoming" },
     { "date": "2026-09-24", "day": "Thu", "session": "Off -- mobility / walk, daily SI prehab", "note": "Permanent full rest (section 2.A)", "status": "upcoming" },
     { "date": "2026-09-25", "day": "Fri", "session": "TUNE-UP 5K TT (section 10, section 4.E W23)", "note": "Target 22:00-22:15 (Tier C, Adj #322). Next pace arbitration. Vaporfly exposure.", "status": "upcoming" },
