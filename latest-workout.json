@@ -41,7 +41,7 @@
     { "exercise": "Cable pushdown (rope, both-handed)", "load": "50 -> 47.5 reverts W23 Sat", "lastVerified": "W23 Tue 9/22 (50: 12/12/12/10 RIR 3/1/0/0)", "note": "Revert fired (set 3 RIR 0). 50 re-fires on 4x12, set 3 >=RIR 1, set 4 to failure (Adj #384)" },
     { "exercise": "Rear-delt fly", "load": "145 working", "lastVerified": "W23 Tue 9/22 (15/15 RIR 4/2)", "note": "Hold. Stop at RIR 3 -- joint-health slot (Adj #318/#386)" },
     { "exercise": "Seated calf", "load": "375 working", "lastVerified": "W22 Fri 9/18 (12/11/12/13 RIR 2/0/0/0)", "note": "Improving (+3 total vs debut). Not clean 4x12. Hold, rebuild (Adj #377)" },
-    { "exercise": "Decline crunch (Tue)", "load": "BW (reset from +15)", "lastVerified": "W23 Tue 9/22 (+15x8 RIR 0 / +10x6 RIR 0)", "note": "L lower ab strain -- reset to BW, rebuild load on clean sets (Adj #385)" },
+    { "exercise": "Decline crunch (Tue)", "load": "BW (reset from +15)", "lastVerified": "W23 Tue 9/22 (+15x8 / +10x6 / BWx~12)", "note": "L lower ab strain -- reset to BW, rebuild load on clean sets (Adj #385)" },
     { "exercise": "Decline crunch (Sat)", "load": "BW (reset from +15)", "lastVerified": "W22 Fri 9/18 (10/10/7 RIR 2/1/0)", "note": "L lower ab strain (W23 Tue) -- reset to BW, rebuild load on clean sets (Adj #385)" },
     { "exercise": "Chest fly", "load": "135 working", "lastVerified": "W22 Fri 9/18 (12/12 RIR 2/2)", "note": "RIR tightened (4/3->2/2). Joint-health 2x12 RPE 7. Hold (Adj #378)" }
   ]

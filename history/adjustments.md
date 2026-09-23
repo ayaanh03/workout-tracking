@@ -78,6 +78,6 @@
 
 384. **Cable pushdown 50 re-attempt REVERTS → 47.5 (Adj #374 revert fires).** 12/12/12/10 RIR 3/1/0/0 (load not stated — logged at the prescribed 50) — front three held 12, set 3 at RIR 0 (<RIR 1). 46 total (+2 vs W22 Tue's 44 at 50, Adj #367). Tue slot 0-for-2; Sat slot 2-for-2. **47.5 for W23 Sat.** 50 re-fires on the Adj #367 gate: 4×12, set 3 ≥RIR 1, set 4 to failure. Elbow 24th consecutive clean, 10th at the rope — Adj #303 unchanged.
 
-385. **Decline crunch — L lower ab strain; RESET TO BODYWEIGHT both slots (athlete directive 2026-09-22).** +15×8 RIR 0 / +10×6 RIR 0 — athlete reports the lower left ab feels stretched; trimmed to 2 sets. Supersedes the +15 rebuilds (Adj #368 Tue, #376 Sat). Crunch runs BW in both slots; rebuild load from BW on clean sets. Athlete reports symptom changes; no-news-is-clean otherwise (Adj #188).
+385. **Decline crunch — L lower ab strain; RESET TO BODYWEIGHT both slots (athlete directive 2026-09-22).** +15×8 RIR 0 / +10×6 RIR 0 / BW×~12 RIR n/r — athlete reports the lower left ab feels stretched; stepped down to BW by set 3. Supersedes the +15 rebuilds (Adj #368 Tue, #376 Sat). Crunch runs BW in both slots; rebuild load from BW on clean sets. Athlete reports symptom changes; no-news-is-clean otherwise (Adj #188).
 
 386. **Rear-delt fly 145 — hold.** 15/15 RIR 4/2 — set 2 one click past the RIR 3 stop (improved from W22's RIR 0). Hold 145; stop at RIR 3 (Adj #318).

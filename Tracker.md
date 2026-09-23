@@ -30,7 +30,7 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 |Cable pushdown (rope, both-handed)|50 → **47.5 reverts W23 Sat**|W23 Tue 9/22 (50: 12/12/12/10 RIR 3/1/0/0)|Revert fired (set 3 RIR 0). 50 re-fires on 4×12, set 3 ≥RIR 1, set 4 to failure (Adj #384)|
 |Rear-delt fly|145 working|W23 Tue 9/22 (15/15 RIR 4/2)|Hold. Stop at RIR 3 — joint-health slot (Adj #318/#386)|
 |Seated calf|375 working|W22 Fri 9/18 (12/11/12/13 RIR 2/0/0/0)|Improving (+3 total vs debut). Not clean 4×12. Hold, rebuild (Adj #377)|
-|Decline crunch (Tue)|**BW** (reset from +15)|W23 Tue 9/22 (+15×8 RIR 0 / +10×6 RIR 0)|L lower ab strain — reset to BW, rebuild load on clean sets (Adj #385)|
+|Decline crunch (Tue)|**BW** (reset from +15)|W23 Tue 9/22 (+15×8 / +10×6 / BW×~12)|L lower ab strain — reset to BW, rebuild load on clean sets (Adj #385)|
 |Decline crunch (Sat)|**BW** (reset from +15)|W22 Fri 9/18 (10/10/7 RIR 2/1/0)|L lower ab strain (W23 Tue) — reset to BW, rebuild load on clean sets (Adj #385)|
 |Chest fly|135 working|W22 Fri 9/18 (12/12 RIR 2/2)|RIR tightened (4/3→2/2). Joint-health 2×12 RPE 7. Hold (Adj #378)|
 
