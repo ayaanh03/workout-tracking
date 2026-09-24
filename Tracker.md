@@ -80,4 +80,4 @@ Current week only — completed weeks live in `history/weekly-summary.md` (W13+)
 
 |Wk|Mon|Tue|Wed|Thu|Fri|Sat|Status|
 |---|---|---|---|---|---|---|---|
-|W23 (Sharpen, §4.E — tune-up week)|✓ Long 9/21 (~6.0 mi ~58 min Z1, over-filled vs 50-min ask; Adj #380)|✓ Hyp A 9/22 (160×5 RIR 1; lat 40→35 + pushdown 50→47.5 reverted; crunch → BW, L ab strain; Adj #381–#386)|—|Off (§2.A)|—|—|in progress|
+|W23 (Sharpen, §4.E — tune-up week)|✓ Long 9/21 (~6.0 mi ~58 min Z1, over-filled vs 50-min ask; Adj #380)|✓ Hyp A 9/22 (160×5 RIR 1; lat 40→35 + pushdown 50→47.5 reverted; crunch → BW, L ab strain; Adj #381–#386)|✓ 5×1K 9/23 (7:09 avg RPE 6–7; 21st quality clean; Adj #387)|Off (§2.A)|—|—|in progress|
