@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T20:00:00-04:00",
+  "generatedAt": "2026-09-25T07:30:00-04:00",
   "week": "W23",
   "phase": "Sharpen",
   "summary": "W23 -- Sharpen tune-up week (section 4.E). Mon long banked (~58 min, over-filled). Tue Hyp A: lat 40 and pushdown 50 both reverted (Adj #382/#384); crunch reset to BW for L lower ab strain (Adj #385). Wed 5x1K banked -- 7:09 avg RPE 6-7, 21st quality clean (Adj #387). FRI 9-25 TUNE-UP 5K TT -- target 22:00-22:15, the next pace arbitration (Adj #322). Sat Hyp B: lat 170 fires (Adj #371), pushdown 47.5, crunch BW. Quality streak at 21; Achilles 3rd consecutive clean post-sweep read.",
@@ -7,8 +7,8 @@
     { "date": "2026-09-21", "day": "Mon", "session": "Long 50 min Z1 (section 4.E, tune-up week)", "note": "Logged -- ~6.0 mi ~58 min Z1, over-filled vs 50-min ask; all miles in-band; Achilles ~46 h clean (Adj #380)", "status": "done" },
     { "date": "2026-09-22", "day": "Tue", "session": "Hyp A (Sharpen, section 3.A)", "note": "Logged -- incline 160x5 RIR 1; lat 40->35 and pushdown 50->47.5 reverted; crunch -> BW (L ab strain) (Adj #381-#386)", "status": "done" },
     { "date": "2026-09-23", "day": "Wed", "session": "5x1K @ 5K pace, 90 s rec (section 4.E)", "note": "Logged -- 7:09 avg RPE 6/6/6/7/7, all 5 inside or faster than 5K band, 21st quality clean (Adj #387)", "status": "done" },
-    { "date": "2026-09-24", "day": "Thu", "session": "Off -- mobility / walk, daily SI prehab", "note": "Permanent full rest (section 2.A)", "status": "today" },
-    { "date": "2026-09-25", "day": "Fri", "session": "TUNE-UP 5K TT (section 10, section 4.E W23)", "note": "Target 22:00-22:15 (Tier C, Adj #322). Next pace arbitration. Vaporfly exposure.", "status": "upcoming" },
+    { "date": "2026-09-24", "day": "Thu", "session": "Off -- mobility / walk, daily SI prehab", "note": "Rest day (section 2.A)", "status": "done" },
+    { "date": "2026-09-25", "day": "Fri", "session": "TUNE-UP 5K TT (section 10, section 4.E W23)", "note": "Target ~21:30 (conditions-adjusted: cool + Vaporfly, Adj #322). Vaporfly full-distance debut; Sat AM Achilles read.", "status": "today" },
     { "date": "2026-09-26", "day": "Sat", "session": "Hyp B (Sharpen, section 3.B)", "note": "Lat 170 fires (Adj #371); pushdown 47.5 (Adj #384); crunch BW (Adj #385). Calf sweep (normal schedule).", "status": "upcoming" },
     { "date": "2026-09-27", "day": "Sun", "session": "Off / SI prehab", "note": "Permanent full rest (v4.4, Adj #244)", "status": "upcoming" }
   ]
