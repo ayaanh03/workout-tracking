@@ -1,24 +1,31 @@
 {
-  "generatedAt": "2026-09-23T20:00:00-04:00",
+  "generatedAt": "2026-09-25T07:30:00-04:00",
   "week": "W23",
-  "day": "Wed",
-  "date": "2026-09-23",
+  "day": "Fri",
+  "date": "2026-09-25",
   "phase": "Sharpen",
-  "sessionName": "5x1K @ 5K pace (90 s rec)",
-  "intro": [],
+  "sessionName": "Tune-up 5K TT (target 22:00-22:15)",
+  "intro": ["Vaporfly: first full-distance exposure (Adj #192); Sat AM L Achilles read required (Adj #34/#113)"],
   "lift": null,
   "cardio": {
     "flags": [],
-    "workout": "5x1K @ 5K pace (90 s jog rec) -- if treadmill, 1% (Adj #177)",
+    "workout": "5K TT -- even to slight negative split, target 22:00-22:15 (Tier C, Adj #322)",
     "targets": {
-      "pace": "7:12-7:20/mi",
-      "hr": "display-only",
+      "pace": "~7:05/mi avg (7:10 start -> 6:58 close)",
+      "hr": "display-only (near max)",
       "cadence": "175-182 spm"
     },
-    "warmup": "1.0-1.5 mi easy 9:15-10:30/mi (RPE 4-5, 165-172 spm), last 2 min build to 5K pace",
-    "cooldown": "1.0 mi easy 9:15-10:30/mi + SI prehab",
+    "warmup": "15 min easy 9:30-10:00/mi, 4x100m strides (R effort, walk-back), 5 min standing/dynamic",
+    "cooldown": "10-15 min easy 9:30-10:30/mi + SI prehab",
     "cues": [
-      "Hold the band, no faster than 7:12 -- tune-up TT is Fri 9-25 (W22 rep 4 ran 6:41, Adj #379/#322)"
+      "0.5mi: 3:35 cumul (7:10/mi) -- settle, no faster",
+      "1.0mi: 7:09 cumul (7:08/mi) -- lock in",
+      "1.5mi: 10:42 cumul (7:06/mi)",
+      "2.0mi: 14:14 cumul (7:04/mi) -- checkpoint",
+      "2.5mi: 17:45 cumul (7:02/mi) -- start closing",
+      "3.0mi: 21:14 cumul (6:58/mi) -- push",
+      "3.1mi: ~22:00 -- all-out to finish",
+      "Vaporfly debut -- Sat AM L Achilles read"
     ]
   },
   "currentLoads": [
