@@ -42,6 +42,7 @@ Open items that affect the next session. Full rationale in `history/adjustments.
 
 - **L Achilles:** reactive tendon. 375 holds — clean at ~46 h, 3rd consecutive clean post-sweep read (Adj #363/#379/#380). **Sat 9/26 AM: Vaporfly first-exposure Achilles read (Adj #34/#113/#388) + pre-Hyp B calf sweep.** Next normal read: W24 Mon AM (~40 h). After-only soreness pattern (Adj #113/#125) has not recurred. (Adj #34/#113/#135/#284/#306/#334/#358/#377/#379/#380/#388)
 - **L lower ab strain (W23 Tue):** decline crunch reset to BW both slots; rebuild on clean sets (Adj #385).
+- **Race-day shoe decision DEFERRED:** one more Vaporfly exposure at the W24–W25 R/I touch; if off again → race in Vomero Plus (Adj #389).
 - **Treadmill quality at 1%** for road equivalence (Adj #177).
 - **Running power:** display-only, governs nothing (Adj #251). Log when the watch reports it.
 - **Logging default (Adj #188/#190):** assume-same-as-last for context, no-news-is-clean for SI/tendon/pain. Missing numbers get one compact prompt; unknowns log "n/r".
