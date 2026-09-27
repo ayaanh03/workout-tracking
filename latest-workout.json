@@ -1,24 +1,39 @@
 {
-  "generatedAt": "2026-09-25T19:00:00-04:00",
+  "generatedAt": "2026-09-27T11:24:00-04:00",
   "week": "W23",
-  "day": "Fri",
-  "date": "2026-09-25",
+  "day": "Sat",
+  "date": "2026-09-26",
   "phase": "Sharpen",
-  "sessionName": "Tune-up 5K TT -- 22:29 RPE 9-10 (LOGGED)",
-  "intro": ["Section 10 near-miss: 22:29 vs 22:00-22:15 target. Paces hold, Tier C holds (Adj #388). Vaporfly first exposure; Sat AM Achilles read."],
-  "lift": null,
-  "cardio": {
-    "flags": [],
-    "workout": "5K TT -- 3.11 mi in 22:29, 7:14/mi avg, RPE 9-10. Vaporfly Next% 2.",
-    "targets": {
-      "pace": "7:14/mi avg (target was 22:00-22:15)",
-      "hr": "work 182 avg, peak ~190 -- display-only",
-      "cadence": "184 spm work"
+  "sessionName": "Hypertrophy B (section 3.B)",
+  "intro": ["Lat pulldown 170 bump lands (Adj #371); pushdown reverts to 47.5 (Adj #384); Vaporfly first-exposure Achilles read AM (Adj #388)."],
+  "lift": {
+    "table": [
+      { "exercise": "Lat pulldown (neutral)", "setsReps": "4x8-10", "load": "170", "rir": "2, last 1", "rest": "90-120s", "cue": "Bump debut. Revert: any set <8 or set 3 <RIR 1 -> 165 (Adj #371)" },
+      { "exercise": "Chest-supp row", "setsReps": "3x10", "load": "80", "rir": "2", "rest": "90-120s", "cue": "" },
+      { "exercise": "DB lateral raise", "setsReps": "4x12-15", "load": "40", "rir": "1, last 0", "rest": "60-90s", "cue": "" },
+      { "exercise": "Preacher curl (semi-sup)", "setsReps": "4x12", "load": "60/arm", "rir": "2", "rest": "60-90s", "cue": "" },
+      { "exercise": "Cable pushdown (rope)", "setsReps": "4x12-15", "load": "47.5", "rir": "2", "rest": "60-90s", "cue": "Reverted from 50. 50 re-fires: 4x12, set 3 >=RIR 1, set 4 to failure (Adj #384)" },
+      { "exercise": "Decline crunch", "setsReps": "3x10", "load": "BW", "rir": "2", "rest": "60-90s", "cue": "L ab strain -- reset from +15, rebuild on clean sets (Adj #385)" },
+      { "exercise": "Seated calf", "setsReps": "4x12-15", "load": "375", "rir": "1, last 0", "rest": "60-90s", "cue": "" },
+      { "exercise": "Chest fly", "setsReps": "2x12", "load": "135", "rir": "3", "rest": "60-90s", "cue": "Joint-health slot" }
+    ],
+    "lastWeek": {
+      "label": "Hyp B W22 Fri 9/18",
+      "table": [
+        { "exercise": "Lat pulldown", "load": "165", "reps": "8/8/8/8", "rir": "2/2/1/0" },
+        { "exercise": "Chest-supp row", "load": "80", "reps": "10/10/6", "rir": "1/0/0" },
+        { "exercise": "DB lateral raise", "load": "40", "reps": "12/12/12/11", "rir": "2/2/1/0" },
+        { "exercise": "Preacher curl", "load": "60/arm", "reps": "12/12/12/9", "rir": "3/2/1/0" },
+        { "exercise": "Cable pushdown", "load": "47.5", "reps": "12/12/12/14", "rir": "3/2/1/0" },
+        { "exercise": "Decline crunch", "load": "+15", "reps": "10/10/7", "rir": "2/1/0" },
+        { "exercise": "Seated calf", "load": "375", "reps": "12/11/12/13", "rir": "2/0/0/0" },
+        { "exercise": "Chest fly", "load": "135", "reps": "12/12", "rir": "2/2" }
+      ]
     },
-    "warmup": "1.56 mi / 14:17, 9:06/mi, 144 bpm, 172 spm, 210 W",
-    "cooldown": "0.59 mi / 8:48, 14:55/mi, 166 bpm, 160 spm, 163 W",
-    "cues": []
+    "warmup": "General: 1-2 min dynamic (band pull-aparts, hip openers).",
+    "cooldown": "SI prehab -- Tyler twists 3x15, reverse Tyler 3x15, McGill Big 3 5-3-1"
   },
+  "cardio": null,
   "currentLoads": [
     {
       "exercise": "Incline BB",
