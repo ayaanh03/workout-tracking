@@ -8,7 +8,7 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 
 ## Status
 
-**Phase D — Sharpen W23 (§4.E).** Sharpen spans W21–W24. Race: Sat 2026-10-24 (W27). Tier C locked: sub-21:30 / 6:55/mi (Adj #164, not renegotiated). Template: v4.4 three-run week — Mon long / Tue Hyp A / Wed quality / Thu OFF / Fri quality / Sat Hyp B lift-only / Sun OFF (§2.B, Adj #244). W22 closed 9-19 (Adj #379).
+**Phase D — Sharpen W23 (§4.E).** Sharpen spans W21–W24. Race: Sat 2026-10-24 (W27). Tier C locked: sub-21:30 / 6:55/mi (Adj #164, not renegotiated). Template: v4.4 three-run week — Mon long / Tue Hyp A / Wed quality / Thu OFF / Fri quality / Sat Hyp B lift-only / Sun OFF (§2.B, Adj #244). W23 closed 9-26 (Adj #399).
 
 **Pace bands (all confirmed, Adj #202/#271/#296/#321/#388):** easy 9:15–10:30 (conversation-gated), M 8:15–8:25, T 7:40–7:45 RPE ≤7, I 7:00–7:15 RPE 9, R 6:35–6:45. Row: T 1:52–1:57, I 1:46–1:50, R 1:39–1:43, M ~2:06. Recalc DONE: W23 tune-up 5K 22:29 RPE 9–10 — near-miss, paces hold, Tier C holds (Adj #388).
 
@@ -21,18 +21,18 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 |Exercise|Load|Last verified|Note|
 |---|---|---|---|
 |Incline BB|160 working / TM 168|W23 Tue 9/22 (160×5 RIR 1)|Sharpen maintenance. Three consecutive RIR 1 reads. <5 reps = miss #2 → cut TM 5–7% (Adj #312/#340/#381)|
-|Lat pulldown|165 → **170 fires W23 Sat**|W22 Fri 9/18 (165×8/8/8/8 RIR 2/2/1/0)|Adj #354 gate met. Revert at 170: any set under 8 or set 3 <RIR 1 → 165 (Adj #371)|
-|Chest-supp row|80 working|W22 Fri 9/18 (10/10/6 RIR 1/0/0)|Set 3 regressed (8→6). 85 gate: full 3×10 + sets 1-2 ≥RIR 1 — double-failed (Adj #373)|
+|Lat pulldown|**170 working (athlete directive)**|W23 Sat 9/26 (170×8/8/8/6 RIR 2/1/0/0)|Adj #371 revert fired but overridden — hold to stop the yoyo. Rebuild toward clean 4×8. No auto-revert (Adj #390)|
+|Chest-supp row|80 working|W23 Sat 9/26 (10/10/8 RIR 2/0/0)|Set 3 improved (6→8). 85 gate: full 3×10 + sets 1-2 ≥RIR 1 — double-failed (Adj #394)|
 |DB lateral raise (Tue)|40 → **35 reverts W24 Tue**|W23 Tue 9/22 (40: 12/12/12/10/10/9 RIR 3/2/0/0/0/0)|Revert fired (set 4 at 10). Re-attempt 40: front four at 12, set 4 ≥RIR 1 at 35 (Adj #382)|
-|DB lateral raise (Sat)|40 working|W22 Fri 9/18 (40: 12/12/12/11 RIR 2/2/1/0)|40 confirmed (2nd clean outing, Adj #372). Bump to 42.5: clean 4×12 + set 4 ≥RIR 1|
+|DB lateral raise (Sat)|40 working|W23 Sat 9/26 (40: 12/12/12/12 RIR 2/2/1/0)|First clean 4×12, load established. 42.5: clean 4×12 + set 4 ≥RIR 1 (Adj #395)|
 |Preacher curl uni (Tue)|75 working|W23 Tue 9/22 (75: 10/10/10/8 RIR 2/1/0/0)|Hold. 80 re-attempt: front three hold 10 floor, set 3 ≥RIR 1 (Adj #383)|
-|Preacher curl uni (Sat)|60/arm working|W22 Fri 9/18 (12/12/12/9 RIR 3/2/1/0)|Rebuild progressing. 65 re-attempt: clean 4×12, set 3 ≥RIR 1 (Adj #375)|
-|Cable pushdown (rope, both-handed)|50 → **47.5 reverts W23 Sat**|W23 Tue 9/22 (50: 12/12/12/10 RIR 3/1/0/0)|Revert fired (set 3 RIR 0). 50 re-fires on 4×12, set 3 ≥RIR 1, set 4 to failure (Adj #384)|
+|Preacher curl uni (Sat)|60/arm → **65 fires W24 Sat**|W23 Sat 9/26 (60: 12/12/12/12 RIR 2/2/1/0)|Adj #375 gate met. Revert at 65: set 3 <12 or <RIR 1 → 60 (Adj #392)|
+|Cable pushdown (rope, both-handed)|47.5 → **50 fires W24 Tue**|W23 Sat 9/26 (47.5: 12/12/12/13 RIR 2/2/1/0)|Adj #384 gate met (Sat slot 3-for-3). Revert at 50: front three lose 12 floor or set 3 <RIR 1 → 47.5 (Adj #391)|
 |Rear-delt fly|145 working|W23 Tue 9/22 (15/15 RIR 4/2)|Hold. Stop at RIR 3 — joint-health slot (Adj #318/#386)|
-|Seated calf|375 working|W22 Fri 9/18 (12/11/12/13 RIR 2/0/0/0)|Improving (+3 total vs debut). Not clean 4×12. Hold, rebuild (Adj #377)|
+|Seated calf|375 working|W23 Sat 9/26 (12/12/12/12 RIR 2/2/1/0)|First clean 4×12. Achilles-managed, hold 375 (Adj #393)|
 |Decline crunch (Tue)|**BW** (reset from +15)|W23 Tue 9/22 (+15×8 / +10×6 / BW×~12)|L lower ab strain — reset to BW, rebuild load on clean sets (Adj #385)|
-|Decline crunch (Sat)|**BW** (reset from +15)|W22 Fri 9/18 (10/10/7 RIR 2/1/0)|L lower ab strain (W23 Tue) — reset to BW, rebuild load on clean sets (Adj #385)|
-|Chest fly|135 working|W22 Fri 9/18 (12/12 RIR 2/2)|RIR tightened (4/3→2/2). Joint-health 2×12 RPE 7. Hold (Adj #378)|
+|Decline crunch (Sat)|**BW** (reset from +15)|W23 Sat 9/26 (BW: 10/10/10 RIR n/r)|Clean, no pain. Hold BW, rebuild (Adj #385/#396)|
+|Chest fly|135 working|W22 Fri 9/18 (12/12 RIR 2/2)|W23 Sat skipped. Joint-health 2×12 RPE 7. Hold (Adj #378/#397)|
 
 ---
 
@@ -40,7 +40,7 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 
 Open items that affect the next session. Full rationale in `history/adjustments.md` (live #309+) / `history/archive/` — grep: `grep -rn '^N\. ' history/`.
 
-- **L Achilles:** reactive tendon. 375 holds — clean at ~46 h, 3rd consecutive clean post-sweep read (Adj #363/#379/#380). **Sat 9/26 AM: Vaporfly first-exposure Achilles read (Adj #34/#113/#388) + pre-Hyp B calf sweep.** Next normal read: W24 Mon AM (~40 h). After-only soreness pattern (Adj #113/#125) has not recurred. (Adj #34/#113/#135/#284/#306/#334/#358/#377/#379/#380/#388)
+- **L Achilles:** reactive tendon. 375 holds — first clean 4×12 (Adj #393). Sat 9/26 Vaporfly read + calf sweep both CLEAN (Adj #398). **Next read: W24 Mon AM (~40 h).** One more Vaporfly exposure (R/I touch W24–W25) before race-day decision (Adj #389). (Adj #34/#113/#135/#284/#306/#334/#358/#377/#379/#380/#388/#393/#398)
 - **L lower ab strain (W23 Tue):** decline crunch reset to BW both slots; rebuild on clean sets (Adj #385).
 - **Race-day shoe decision DEFERRED:** one more Vaporfly exposure at the W24–W25 R/I touch; if off again → race in Vomero Plus (Adj #389).
 - **Treadmill quality at 1%** for road equivalence (Adj #177).
@@ -81,4 +81,4 @@ Current week only — completed weeks live in `history/weekly-summary.md` (W13+)
 
 |Wk|Mon|Tue|Wed|Thu|Fri|Sat|Status|
 |---|---|---|---|---|---|---|---|
-|W23 (Sharpen, §4.E — tune-up week)|✓ Long 9/21 (~6.0 mi ~58 min Z1, over-filled vs 50-min ask; Adj #380)|✓ Hyp A 9/22 (160×5 RIR 1; lat 40→35 + pushdown 50→47.5 reverted; crunch → BW, L ab strain; Adj #381–#386)|✓ 5×1K 9/23 (7:09 avg RPE 6–7; 21st quality clean; Adj #387)|Off (§2.A)|✓ Tune-up 5K 9/25 (22:29 RPE 9–10; §10 near-miss, paces hold; Vaporfly; Adj #388)|—|in progress|
+|W24 (Sharpen, §4.E — final Sharpen)|—|—|—|Off (§2.A)|—|—|in progress|
