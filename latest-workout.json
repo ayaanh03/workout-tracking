@@ -1,32 +1,23 @@
 {
-  "generatedAt": "2026-09-25T07:30:00-04:00",
+  "generatedAt": "2026-09-25T19:00:00-04:00",
   "week": "W23",
   "day": "Fri",
   "date": "2026-09-25",
   "phase": "Sharpen",
-  "sessionName": "Tune-up 5K TT (target ~21:30, conditions-adjusted)",
-  "intro": ["Vaporfly: first full-distance exposure (Adj #192); Sat AM L Achilles read required (Adj #34/#113)"],
+  "sessionName": "Tune-up 5K TT -- 22:29 RPE 9-10 (LOGGED)",
+  "intro": ["Section 10 near-miss: 22:29 vs 22:00-22:15 target. Paces hold, Tier C holds (Adj #388). Vaporfly first exposure; Sat AM Achilles read."],
   "lift": null,
   "cardio": {
     "flags": [],
-    "workout": "5K TT -- even to slight negative split, target ~21:30 (conditions-adjusted: cool weather + Vaporfly, Adj #322)",
+    "workout": "5K TT -- 3.11 mi in 22:29, 7:14/mi avg, RPE 9-10. Vaporfly Next% 2.",
     "targets": {
-      "pace": "~6:55/mi avg (7:02 start -> 6:50 close)",
-      "hr": "display-only (near max)",
-      "cadence": "175-182 spm"
+      "pace": "7:14/mi avg (target was 22:00-22:15)",
+      "hr": "work 182 avg, peak ~190 -- display-only",
+      "cadence": "184 spm work"
     },
-    "warmup": "15 min easy 9:30-10:00/mi, 4x100m strides (R effort, walk-back), 5 min standing/dynamic",
-    "cooldown": "10-15 min easy 9:30-10:30/mi + SI prehab",
-    "cues": [
-      "0.5mi: 3:31 cumul (7:02/mi) -- settle, Vaporfly makes this feel easy",
-      "1.0mi: 7:00 cumul (6:58/mi) -- lock in",
-      "1.5mi: 10:28 cumul (6:56/mi)",
-      "2.0mi: 13:55 cumul (6:54/mi) -- RPE check: under 8 = close hard",
-      "2.5mi: 17:21 cumul (6:52/mi) -- closing",
-      "3.0mi: 20:46 cumul (6:50/mi) -- push",
-      "3.1mi: ~21:30 -- all-out to finish",
-      "Vaporfly debut -- Sat AM L Achilles read"
-    ]
+    "warmup": "1.56 mi / 14:17, 9:06/mi, 144 bpm, 172 spm, 210 W",
+    "cooldown": "0.59 mi / 8:48, 14:55/mi, 166 bpm, 160 spm, 163 W",
+    "cues": []
   },
   "currentLoads": [
     {

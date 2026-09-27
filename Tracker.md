@@ -10,7 +10,7 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 
 **Phase D — Sharpen W23 (§4.E).** Sharpen spans W21–W24. Race: Sat 2026-10-24 (W27). Tier C locked: sub-21:30 / 6:55/mi (Adj #164, not renegotiated). Template: v4.4 three-run week — Mon long / Tue Hyp A / Wed quality / Thu OFF / Fri quality / Sat Hyp B lift-only / Sun OFF (§2.B, Adj #244). W22 closed 9-19 (Adj #379).
 
-**Pace bands (all confirmed, Adj #202/#271/#296/#321):** easy 9:15–10:30 (conversation-gated), M 8:15–8:25, T 7:40–7:45 RPE ≤7, I 7:00–7:15 RPE 9, R 6:35–6:45. Row: T 1:52–1:57, I 1:46–1:50, R 1:39–1:43, M ~2:06. Next recalc: W23 tune-up 5K, Fri Sep 25 — target 22:00–22:15 (Adj #322).
+**Pace bands (all confirmed, Adj #202/#271/#296/#321/#388):** easy 9:15–10:30 (conversation-gated), M 8:15–8:25, T 7:40–7:45 RPE ≤7, I 7:00–7:15 RPE 9, R 6:35–6:45. Row: T 1:52–1:57, I 1:46–1:50, R 1:39–1:43, M ~2:06. Recalc DONE: W23 tune-up 5K 22:29 RPE 9–10 — near-miss, paces hold, Tier C holds (Adj #388).
 
 **Max HR 195 bpm (Adj #203) — display-only.** Exercise HR retired (Adj #175); all intensity by pace + RPE. Mileage ~20–21 mpw peak; 28 mpw ceiling no longer binding (Adj #244).
 
@@ -40,8 +40,9 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 
 Open items that affect the next session. Full rationale in `history/adjustments.md` (live #309+) / `history/archive/` — grep: `grep -rn '^N\. ' history/`.
 
-- **L Achilles:** reactive tendon. 375 holds — clean at ~46 h, 3rd consecutive clean post-sweep read (Adj #363/#379/#380). Next sweep: W23 Sat 9/26. Next read: W24 Mon AM (~40 h, normal design). After-only soreness pattern (Adj #113/#125) has not recurred. (Adj #34/#135/#284/#306/#334/#358/#377/#379/#380)
+- **L Achilles:** reactive tendon. 375 holds — clean at ~46 h, 3rd consecutive clean post-sweep read (Adj #363/#379/#380). **Sat 9/26 AM: Vaporfly first-exposure Achilles read (Adj #34/#113/#388) + pre-Hyp B calf sweep.** Next normal read: W24 Mon AM (~40 h). After-only soreness pattern (Adj #113/#125) has not recurred. (Adj #34/#113/#135/#284/#306/#334/#358/#377/#379/#380/#388)
 - **L lower ab strain (W23 Tue):** decline crunch reset to BW both slots; rebuild on clean sets (Adj #385).
+- **Race-day shoe decision DEFERRED:** one more Vaporfly exposure at the W24–W25 R/I touch; if off again → race in Vomero Plus (Adj #389).
 - **Treadmill quality at 1%** for road equivalence (Adj #177).
 - **Running power:** display-only, governs nothing (Adj #251). Log when the watch reports it.
 - **Logging default (Adj #188/#190):** assume-same-as-last for context, no-news-is-clean for SI/tendon/pain. Missing numbers get one compact prompt; unknowns log "n/r".
@@ -55,7 +56,7 @@ Two-shoe rotation as of 2026-07-20 (Adj #192/#193): Vomero Plus for all training
 
 |Shoe|Purchased|Miles|Retire at|Role|
 |---|---|---|---|---|
-|Vaporfly Next% 2|pre-program|~3|~150|race day + 3–4 pre-race exposures: first W21–W22 short quality (partial), W23 tune-up (full), one R/I touch W24–W25, then park (Adj #192)|
+|Vaporfly Next% 2|pre-program|~8|~150|race day + 3–4 pre-race exposures: W23 tune-up 9/25 (full, first exposure — Adj #388), one R/I touch W24–W25, then park (Adj #192)|
 |Vomero Plus|2026-05-03|~190|~450|sole trainer — all sessions incl. quality (Adj #192)|
 |Zoom Fly 6|2026-05-03|~49|DROPPED|dropped — uncomfortable (Adj #192)|
 |Invincible 3|pre-program|~200|RETIRED|foam suspect-dead|
@@ -80,4 +81,4 @@ Current week only — completed weeks live in `history/weekly-summary.md` (W13+)
 
 |Wk|Mon|Tue|Wed|Thu|Fri|Sat|Status|
 |---|---|---|---|---|---|---|---|
-|W23 (Sharpen, §4.E — tune-up week)|✓ Long 9/21 (~6.0 mi ~58 min Z1, over-filled vs 50-min ask; Adj #380)|✓ Hyp A 9/22 (160×5 RIR 1; lat 40→35 + pushdown 50→47.5 reverted; crunch → BW, L ab strain; Adj #381–#386)|✓ 5×1K 9/23 (7:09 avg RPE 6–7; 21st quality clean; Adj #387)|Off (§2.A)|—|—|in progress|
+|W23 (Sharpen, §4.E — tune-up week)|✓ Long 9/21 (~6.0 mi ~58 min Z1, over-filled vs 50-min ask; Adj #380)|✓ Hyp A 9/22 (160×5 RIR 1; lat 40→35 + pushdown 50→47.5 reverted; crunch → BW, L ab strain; Adj #381–#386)|✓ 5×1K 9/23 (7:09 avg RPE 6–7; 21st quality clean; Adj #387)|Off (§2.A)|✓ Tune-up 5K 9/25 (22:29 RPE 9–10; §10 near-miss, paces hold; Vaporfly; Adj #388)|—|in progress|
