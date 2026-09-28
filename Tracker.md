@@ -40,7 +40,7 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 
 Open items that affect the next session. Full rationale in `history/adjustments.md` (live #309+) / `history/archive/` — grep: `grep -rn '^N\. ' history/`.
 
-- **L Achilles:** reactive tendon. 375 holds — first clean 4×12 (Adj #393). Sat 9/26 Vaporfly read + calf sweep both CLEAN (Adj #398). **Next read: W24 Mon AM (~40 h).** One more Vaporfly exposure (R/I touch W24–W25) before race-day decision (Adj #389). (Adj #34/#113/#135/#284/#306/#334/#358/#377/#379/#380/#388/#393/#398)
+- **L Achilles:** reactive tendon. 375 holds. W24 Mon 9/28 AM read CLEAN — 4th consecutive post-sweep (Adj #400). Next sweep W24 Sat 10/3; read Mon 10/5 AM (~40 h). One more Vaporfly exposure (R/I touch W24–W25) before race-day decision (Adj #389). (Adj #34/#113/#135/#284/#306/#334/#358/#377/#379/#380/#388/#393/#398/#400)
 - **L lower ab strain (W23 Tue):** decline crunch reset to BW both slots; rebuild on clean sets (Adj #385).
 - **Race-day shoe decision DEFERRED:** one more Vaporfly exposure at the W24–W25 R/I touch; if off again → race in Vomero Plus (Adj #389).
 - **Treadmill quality at 1%** for road equivalence (Adj #177).
@@ -81,4 +81,4 @@ Current week only — completed weeks live in `history/weekly-summary.md` (W13+)
 
 |Wk|Mon|Tue|Wed|Thu|Fri|Sat|Status|
 |---|---|---|---|---|---|---|---|
-|W24 (Sharpen, §4.E — final Sharpen)|—|—|—|Off (§2.A)|—|—|in progress|
+|W24 (Sharpen, §4.E — final Sharpen)|✓ Long 9/28 (5.28 mi 9:27/mi RPE very easy; Achilles clean 4th; Adj #400)|—|—|Off (§2.A)|—|—|in progress|

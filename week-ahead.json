@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-27T17:22:00-04:00",
-  "week": "W23",
+  "generatedAt": "2026-09-28T07:30:00-04:00",
+  "week": "W24",
   "phase": "Sharpen",
-  "summary": "W23 COMPLETE -- Sharpen tune-up week (section 4.E). All 5 sessions banked, ~17 mi. Highlights: Fri 5K TT 22:29 (near-miss, paces hold, Tier C holds); Sat Hyp B lat 170 held by athlete directive, preacher 65 + pushdown 50 fire, calf first clean 4x12. Quality streak at 22; elbow 25. W24 final Sharpen opens Mon 9/28.",
+  "summary": "W24 Sharpen deload -- final Sharpen week before taper. ~14 mpw target. Bumps landing: pushdown 50 Tue (Adj #391), lat raise reverts 35 Tue (Adj #382), preacher 65 Sat (Adj #392). Achilles Mon AM read. L ab strain BW rebuild continues.",
   "days": [
-    { "date": "2026-09-21", "day": "Mon", "session": "Long 50 min Z1 (section 4.E, tune-up week)", "note": "Logged -- ~6.0 mi ~58 min Z1, over-filled vs 50-min ask; all miles in-band; Achilles ~46 h clean (Adj #380)", "status": "done" },
-    { "date": "2026-09-22", "day": "Tue", "session": "Hyp A (Sharpen, section 3.A)", "note": "Logged -- incline 160x5 RIR 1; lat 40->35 and pushdown 50->47.5 reverted; crunch -> BW (L ab strain) (Adj #381-#386)", "status": "done" },
-    { "date": "2026-09-23", "day": "Wed", "session": "5x1K @ 5K pace, 90 s rec (section 4.E)", "note": "Logged -- 7:09 avg RPE 6/6/6/7/7, all 5 inside or faster than 5K band, 21st quality clean (Adj #387)", "status": "done" },
-    { "date": "2026-09-24", "day": "Thu", "session": "Off -- mobility / walk, daily SI prehab", "note": "Rest day (section 2.A)", "status": "done" },
-    { "date": "2026-09-25", "day": "Fri", "session": "Tune-up 5K TT (section 10, section 4.E W23)", "note": "Logged -- 22:29 RPE 9-10, 7:14/mi avg. Section 10 near-miss; paces hold, Tier C holds. Vaporfly first exposure. 22nd quality clean (Adj #388)", "status": "done" },
-    { "date": "2026-09-26", "day": "Sat", "session": "Hyp B (Sharpen, section 3.B)", "note": "Logged -- lat 170 hold (athlete directive, Adj #390); preacher 65 + pushdown 50 fire; calf first clean 4x12; fly skipped (Adj #390-#397)", "status": "done" },
-    { "date": "2026-09-27", "day": "Sun", "session": "Off / SI prehab", "note": "Permanent full rest (v4.4, Adj #244)", "status": "today" }
+    { "date": "2026-09-28", "day": "Mon", "session": "Long 50 min Z1 (deload, section 4.E)", "note": "Logged -- 5.28 mi 9:27/mi RPE very easy; Achilles clean 4th consecutive (Adj #400)", "status": "done" },
+    { "date": "2026-09-29", "day": "Tue", "session": "Hyp A (Sharpen deload, section 3.A)", "note": "Pushdown 50 lands (Adj #391); lat raise reverts 35 (Adj #382). Incline 160 maintenance.", "status": "today" },
+    { "date": "2026-09-30", "day": "Wed", "session": "3x1 K @ 5K pace, 90 s rec (section 4.E W24)", "note": "Deload quality. 5K pace ~7:12-7:19/mi.", "status": "upcoming" },
+    { "date": "2026-10-01", "day": "Thu", "session": "Off -- mobility / walk, daily SI prehab", "note": "Permanent full rest (section 2.A)", "status": "upcoming" },
+    { "date": "2026-10-02", "day": "Fri", "session": "5x3 min @ I, 2 min rec (section 4.E W24)", "note": "Deload VO2. I-pace 7:00-7:15/mi.", "status": "upcoming" },
+    { "date": "2026-10-03", "day": "Sat", "session": "Hyp B (Sharpen deload, section 3.B)", "note": "Preacher 65 lands (Adj #392); lat raise 42.5 gate (Adj #395). Calf 375 hold.", "status": "upcoming" },
+    { "date": "2026-10-04", "day": "Sun", "session": "Off / SI prehab", "note": "Permanent full rest (v4.4, Adj #244)", "status": "upcoming" }
   ]
 }
