@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T07:30:00-04:00",
+  "generatedAt": "2026-09-29T18:00:00-04:00",
   "week": "W24",
   "day": "Tue",
   "date": "2026-09-29",
@@ -34,8 +34,8 @@
     {
       "exercise": "Incline BB",
       "load": "160 working / TM 168",
-      "lastVerified": "W23 Tue 9/22 (160x5 RIR 1)",
-      "note": "Sharpen maintenance. Three consecutive RIR 1 reads. <5 reps = miss #2 -> cut TM 5-7% (Adj #312/#340/#381)"
+      "lastVerified": "W24 Tue 9/29 (deload: 130x5 RIR 4)",
+      "note": "Sharpen maintenance. Last full-weight: W23 160x5 RIR 1 (three consecutive). <5 reps = miss #2 -> cut TM 5-7% (Adj #312/#340/#381)"
     },
     {
       "exercise": "Lat pulldown",
@@ -51,9 +51,9 @@
     },
     {
       "exercise": "DB lateral raise (Tue)",
-      "load": "40 -> 35 reverts W24 Tue",
-      "lastVerified": "W23 Tue 9/22 (40: 12/12/12/10/10/9 RIR 3/2/0/0/0/0)",
-      "note": "Revert fired (set 4 at 10). Re-attempt 40: front four at 12, set 4 >=RIR 1 at 35 (Adj #382)"
+      "load": "35 working",
+      "lastVerified": "W24 Tue 9/29 (deload: 30x12/12/12/12 RIR 5/3/3/3)",
+      "note": "Revert landed (Adj #382). Last Tue accessories -- no further full-intensity test"
     },
     {
       "exercise": "DB lateral raise (Sat)",
@@ -64,8 +64,8 @@
     {
       "exercise": "Preacher curl uni (Tue)",
       "load": "75 working",
-      "lastVerified": "W23 Tue 9/22 (75: 10/10/10/8 RIR 2/1/0/0)",
-      "note": "Hold. 80 re-attempt: front three hold 10 floor, set 3 >=RIR 1 (Adj #383)"
+      "lastVerified": "W24 Tue 9/29 (deload: 60x10/10 RIR 3/3)",
+      "note": "Last Tue accessories -- hold 75 (Adj #383)"
     },
     {
       "exercise": "Preacher curl uni (Sat)",
@@ -75,14 +75,14 @@
     },
     {
       "exercise": "Cable pushdown (rope, both-handed)",
-      "load": "47.5 -> 50 fires W24 Tue",
-      "lastVerified": "W23 Sat 9/26 (47.5: 12/12/12/13 RIR 2/2/1/0)",
-      "note": "Adj #384 gate met (Sat slot 3-for-3). Revert at 50: front three lose 12 floor or set 3 <RIR 1 -> 47.5 (Adj #391)"
+      "load": "50 working",
+      "lastVerified": "W24 Tue 9/29 (deload: 42.5x12/12 RIR 3/3)",
+      "note": "Bump landed (Adj #391). Next full test W24 Sat (deload) / W25 Sat (half-vol). Revert at 50: front three lose 12 floor or set 3 <RIR 1 -> 47.5"
     },
     {
       "exercise": "Rear-delt fly",
       "load": "145 working",
-      "lastVerified": "W23 Tue 9/22 (15/15 RIR 4/2)",
+      "lastVerified": "W24 Tue 9/29 (deload: 115x15 RIR 3)",
       "note": "Hold. Stop at RIR 3 -- joint-health slot (Adj #318/#386)"
     },
     {
@@ -94,8 +94,8 @@
     {
       "exercise": "Decline crunch (Tue)",
       "load": "BW (reset from +15)",
-      "lastVerified": "W23 Tue 9/22 (+15x8 / +10x6 / BWx~12)",
-      "note": "L lower ab strain -- reset to BW, rebuild load on clean sets (Adj #385)"
+      "lastVerified": "W24 Tue 9/29 (BW: 12/12 RIR 4/3)",
+      "note": "Third consecutive clean. BW rebuild continues (Adj #385)"
     },
     {
       "exercise": "Decline crunch (Sat)",
@@ -106,8 +106,8 @@
     {
       "exercise": "Chest fly",
       "load": "135 working",
-      "lastVerified": "W22 Fri 9/18 (12/12 RIR 2/2)",
-      "note": "W23 Sat skipped. Joint-health 2x12 RPE 7. Hold (Adj #378/#397)"
+      "lastVerified": "W24 Tue 9/29 (135: 12/12 RIR 3/3)",
+      "note": "Joint-health 2x12 RPE 7. Hold (Adj #378)"
     }
   ]
 }
