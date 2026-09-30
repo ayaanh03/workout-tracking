@@ -1,18 +1,24 @@
 {
-  "generatedAt": "2026-09-28T19:30:00-04:00",
+  "generatedAt": "2026-09-30T08:00:00-04:00",
   "week": "W24",
-  "day": "Mon",
-  "date": "2026-09-28",
+  "day": "Wed",
+  "date": "2026-09-30",
   "phase": "Sharpen",
-  "sessionName": "Long run 50 min Z1 (deload)",
-  "intro": ["Achilles Mon AM read due (~40 h post-Sat calf sweep, clean 9/26 -- Adj #398)."],
+  "sessionName": "3×1K @ 5K pace, 90 s rec (deload)",
+  "intro": [
+    "Tue 9/29 Hyp A not logged; Wed run unaffected (Adj #391/#382 bumps roll to next Hyp A)."
+  ],
   "lift": null,
   "cardio": {
     "flags": [],
-    "workout": "50 min Z1 easy (conversation-gated end to end)",
-    "targets": { "pace": "9:15-10:30/mi", "hr": "display-only", "cadence": "165-172 spm" },
-    "warmup": "5 min walk, 5 min build to Z1",
-    "cooldown": "5 min easy jog to walk",
+    "workout": "3×1K @ 5K pace, 90 s jog rec, 1% incline if treadmill (§4.E W24)",
+    "targets": {
+      "pace": "7:12-7:20/mi (W23 reps avg 7:09, RPE 6-7)",
+      "hr": "display-only",
+      "cadence": "179-184 spm"
+    },
+    "warmup": "1.0 mi easy 9:00-9:30/mi, 170-172 spm",
+    "cooldown": "0.9 mi easy 9:45-10:15/mi, 166-170 spm",
     "cues": []
   },
   "currentLoads": [
