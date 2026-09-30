@@ -1,26 +1,41 @@
 {
-  "generatedAt": "2026-09-28T19:30:00-04:00",
+  "generatedAt": "2026-09-29T18:00:00-04:00",
   "week": "W24",
-  "day": "Mon",
-  "date": "2026-09-28",
+  "day": "Tue",
+  "date": "2026-09-29",
   "phase": "Sharpen",
-  "sessionName": "Long run 50 min Z1 (deload)",
-  "intro": ["Achilles Mon AM read due (~40 h post-Sat calf sweep, clean 9/26 -- Adj #398)."],
-  "lift": null,
-  "cardio": {
-    "flags": [],
-    "workout": "50 min Z1 easy (conversation-gated end to end)",
-    "targets": { "pace": "9:15-10:30/mi", "hr": "display-only", "cadence": "165-172 spm" },
-    "warmup": "5 min walk, 5 min build to Z1",
-    "cooldown": "5 min easy jog to walk",
-    "cues": []
+  "sessionName": "Hyp A (deload, section 3.A / section 11.B)",
+  "intro": ["W24 deload (section 11.B): sets -30-50%, intensity 80%. Pushdown 47.5->50 lands (Adj #391); lat raise 40->35 revert lands (Adj #382). Both at deload intensity today."],
+  "lift": {
+    "table": [
+      { "exercise": "Incline BB", "setsReps": "1x5", "load": "130", "rir": "3+", "rest": "2 min", "cue": "" },
+      { "exercise": "DB lateral raise", "setsReps": "4x12", "load": "30", "rir": "3+", "rest": "60-90s", "cue": "" },
+      { "exercise": "Preacher curl", "setsReps": "2x10", "load": "60", "rir": "3+", "rest": "60-90s", "cue": "" },
+      { "exercise": "Cable pushdown (rope)", "setsReps": "2x12", "load": "40", "rir": "3+", "rest": "60-90s", "cue": "" },
+      { "exercise": "Decline crunch", "setsReps": "2x12", "load": "BW", "rir": "3+", "rest": "60s", "cue": "" },
+      { "exercise": "Rear-delt fly", "setsReps": "1x15", "load": "115", "rir": "3+", "rest": "60s", "cue": "" }
+    ],
+    "lastWeek": {
+      "label": "Hyp A W23 Tue 9/22",
+      "table": [
+        { "exercise": "Incline BB", "load": "160", "reps": "5", "rir": "1" },
+        { "exercise": "DB lateral raise", "load": "40", "reps": "12/12/12/10/10/9", "rir": "3/2/0/0/0/0" },
+        { "exercise": "Preacher curl", "load": "75", "reps": "10/10/10/8", "rir": "2/1/0/0" },
+        { "exercise": "Cable pushdown (rope)", "load": "50", "reps": "12/12/12/10", "rir": "3/1/0/0" },
+        { "exercise": "Decline crunch", "load": "+15/+10/BW", "reps": "8/6/~12", "rir": "0/0/n/r" },
+        { "exercise": "Rear-delt fly", "load": "145", "reps": "15/15", "rir": "4/2" }
+      ]
+    },
+    "warmup": "Dynamic: 1-2 min band pull-aparts, scap push-ups. Wrist-extensor iso 3x30 s/arm (section 8). Incline BB: bar x 8, 95 x 5, 115 x 3.",
+    "cooldown": "Tyler twists 3x15, reverse Tyler 3x15 (FlexBar eccentric 4 s)"
   },
+  "cardio": null,
   "currentLoads": [
     {
       "exercise": "Incline BB",
       "load": "160 working / TM 168",
-      "lastVerified": "W23 Tue 9/22 (160x5 RIR 1)",
-      "note": "Sharpen maintenance. Three consecutive RIR 1 reads. <5 reps = miss #2 -> cut TM 5-7% (Adj #312/#340/#381)"
+      "lastVerified": "W24 Tue 9/29 (deload: 130x5 RIR 4)",
+      "note": "Sharpen maintenance. Last full-weight: W23 160x5 RIR 1 (three consecutive). <5 reps = miss #2 -> cut TM 5-7% (Adj #312/#340/#381)"
     },
     {
       "exercise": "Lat pulldown",
@@ -36,9 +51,9 @@
     },
     {
       "exercise": "DB lateral raise (Tue)",
-      "load": "40 -> 35 reverts W24 Tue",
-      "lastVerified": "W23 Tue 9/22 (40: 12/12/12/10/10/9 RIR 3/2/0/0/0/0)",
-      "note": "Revert fired (set 4 at 10). Re-attempt 40: front four at 12, set 4 >=RIR 1 at 35 (Adj #382)"
+      "load": "35 working",
+      "lastVerified": "W24 Tue 9/29 (deload: 30x12/12/12/12 RIR 5/3/3/3)",
+      "note": "Revert landed (Adj #382). Last Tue accessories -- no further full-intensity test"
     },
     {
       "exercise": "DB lateral raise (Sat)",
@@ -49,8 +64,8 @@
     {
       "exercise": "Preacher curl uni (Tue)",
       "load": "75 working",
-      "lastVerified": "W23 Tue 9/22 (75: 10/10/10/8 RIR 2/1/0/0)",
-      "note": "Hold. 80 re-attempt: front three hold 10 floor, set 3 >=RIR 1 (Adj #383)"
+      "lastVerified": "W24 Tue 9/29 (deload: 60x10/10 RIR 3/3)",
+      "note": "Last Tue accessories -- hold 75 (Adj #383)"
     },
     {
       "exercise": "Preacher curl uni (Sat)",
@@ -60,14 +75,14 @@
     },
     {
       "exercise": "Cable pushdown (rope, both-handed)",
-      "load": "47.5 -> 50 fires W24 Tue",
-      "lastVerified": "W23 Sat 9/26 (47.5: 12/12/12/13 RIR 2/2/1/0)",
-      "note": "Adj #384 gate met (Sat slot 3-for-3). Revert at 50: front three lose 12 floor or set 3 <RIR 1 -> 47.5 (Adj #391)"
+      "load": "50 working",
+      "lastVerified": "W24 Tue 9/29 (deload: 42.5x12/12 RIR 3/3)",
+      "note": "Bump landed (Adj #391). Next full test W24 Sat (deload) / W25 Sat (half-vol). Revert at 50: front three lose 12 floor or set 3 <RIR 1 -> 47.5"
     },
     {
       "exercise": "Rear-delt fly",
       "load": "145 working",
-      "lastVerified": "W23 Tue 9/22 (15/15 RIR 4/2)",
+      "lastVerified": "W24 Tue 9/29 (deload: 115x15 RIR 3)",
       "note": "Hold. Stop at RIR 3 -- joint-health slot (Adj #318/#386)"
     },
     {
@@ -79,8 +94,8 @@
     {
       "exercise": "Decline crunch (Tue)",
       "load": "BW (reset from +15)",
-      "lastVerified": "W23 Tue 9/22 (+15x8 / +10x6 / BWx~12)",
-      "note": "L lower ab strain -- reset to BW, rebuild load on clean sets (Adj #385)"
+      "lastVerified": "W24 Tue 9/29 (BW: 12/12 RIR 4/3)",
+      "note": "Third consecutive clean. BW rebuild continues (Adj #385)"
     },
     {
       "exercise": "Decline crunch (Sat)",
@@ -91,8 +106,8 @@
     {
       "exercise": "Chest fly",
       "load": "135 working",
-      "lastVerified": "W22 Fri 9/18 (12/12 RIR 2/2)",
-      "note": "W23 Sat skipped. Joint-health 2x12 RPE 7. Hold (Adj #378/#397)"
+      "lastVerified": "W24 Tue 9/29 (135: 12/12 RIR 3/3)",
+      "note": "Joint-health 2x12 RPE 7. Hold (Adj #378)"
     }
   ]
 }

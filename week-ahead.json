@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-28T07:30:00-04:00",
+  "generatedAt": "2026-09-29T18:00:00-04:00",
   "week": "W24",
   "phase": "Sharpen",
-  "summary": "W24 Sharpen deload -- final Sharpen week before taper. ~14 mpw target. Bumps landing: pushdown 50 Tue (Adj #391), lat raise reverts 35 Tue (Adj #382), preacher 65 Sat (Adj #392). Achilles Mon AM read. L ab strain BW rebuild continues.",
+  "summary": "W24 Sharpen deload -- final Sharpen week before taper. ~14 mpw target. Pushdown 50 + lat raise 35 landed Tue (Adj #401); preacher 65 Sat (Adj #392). Achilles 4th consecutive clean. L ab strain BW third consecutive clean.",
   "days": [
     { "date": "2026-09-28", "day": "Mon", "session": "Long 50 min Z1 (deload, section 4.E)", "note": "Logged -- 5.28 mi 9:27/mi RPE very easy; Achilles clean 4th consecutive (Adj #400)", "status": "done" },
-    { "date": "2026-09-29", "day": "Tue", "session": "Hyp A (Sharpen deload, section 3.A)", "note": "Pushdown 50 lands (Adj #391); lat raise reverts 35 (Adj #382). Incline 160 maintenance.", "status": "today" },
-    { "date": "2026-09-30", "day": "Wed", "session": "3x1 K @ 5K pace, 90 s rec (section 4.E W24)", "note": "Deload quality. 5K pace ~7:12-7:19/mi.", "status": "upcoming" },
+    { "date": "2026-09-29", "day": "Tue", "session": "Hyp A (Sharpen deload, section 3.A)", "note": "Logged -- deload 80%, all RIR 3-5; pushdown 50 + lat 35 landed; chest fly makeup (Adj #401)", "status": "done" },
+    { "date": "2026-09-30", "day": "Wed", "session": "3x1 K @ 5K pace, 90 s rec (section 4.E W24)", "note": "Deload quality. 5K pace ~7:12-7:19/mi.", "status": "today" },
     { "date": "2026-10-01", "day": "Thu", "session": "Off -- mobility / walk, daily SI prehab", "note": "Permanent full rest (section 2.A)", "status": "upcoming" },
     { "date": "2026-10-02", "day": "Fri", "session": "5x3 min @ I, 2 min rec (section 4.E W24)", "note": "Deload VO2. I-pace 7:00-7:15/mi.", "status": "upcoming" },
     { "date": "2026-10-03", "day": "Sat", "session": "Hyp B (Sharpen deload, section 3.B)", "note": "Preacher 65 lands (Adj #392); lat raise 42.5 gate (Adj #395). Calf 375 hold.", "status": "upcoming" },
