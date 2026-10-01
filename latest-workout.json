@@ -1,104 +1,136 @@
 {
-  "generatedAt": "2026-09-30T08:00:00-04:00",
+  "generatedAt": "2026-10-01T19:05:00-04:00",
   "week": "W24",
-  "day": "Wed",
-  "date": "2026-09-30",
+  "day": "Thu",
+  "date": "2026-10-01",
   "phase": "Sharpen",
-  "sessionName": "3×1K @ 5K pace, 90 s rec (deload)",
+  "sessionName": "Hyp B (moved from Sat, deload cut)",
   "intro": [
-    "Tue 9/29 Hyp A not logged; Wed run unaffected (Adj #391/#382 bumps roll to next Hyp A)."
+    "Reshuffle (Adj #401): Hyp B tonight, 3×1K Fri, 5×3 @ I Sat. Deload cut per §11.B; preacher 65 + pushdown 50 land."
   ],
-  "lift": null,
-  "cardio": {
-    "flags": [],
-    "workout": "3×1K @ 5K pace, 90 s jog rec, 1% incline if treadmill (§4.E W24)",
-    "targets": {
-      "pace": "7:12-7:20/mi (W23 reps avg 7:09, RPE 6-7)",
-      "hr": "display-only",
-      "cadence": "179-184 spm"
+  "lift": {
+    "table": [
+      {
+        "exercise": "Lat pulldown, neutral",
+        "setsReps": "2×8-10",
+        "load": "170",
+        "rir": "2 / 1",
+        "rest": "90-120 s",
+        "cue": ""
+      },
+      {
+        "exercise": "Chest-supp row",
+        "setsReps": "2×10",
+        "load": "80",
+        "rir": "2 / 1",
+        "rest": "90-120 s",
+        "cue": ""
+      },
+      {
+        "exercise": "DB lateral raise",
+        "setsReps": "2×12-15",
+        "load": "40",
+        "rir": "2 / 0",
+        "rest": "60-90 s",
+        "cue": ""
+      },
+      {
+        "exercise": "Preacher curl uni",
+        "setsReps": "2×12",
+        "load": "65/arm",
+        "rir": "2 / 1",
+        "rest": "60-90 s",
+        "cue": "bump lands (Adj #392)"
+      },
+      {
+        "exercise": "Cable pushdown, rope",
+        "setsReps": "2×12-15",
+        "load": "50",
+        "rir": "2 / 0",
+        "rest": "60-90 s",
+        "cue": "bump lands (Adj #391)"
+      },
+      {
+        "exercise": "Decline crunch",
+        "setsReps": "2×10",
+        "load": "BW",
+        "rir": "2",
+        "rest": "60-90 s",
+        "cue": ""
+      },
+      {
+        "exercise": "Seated calf",
+        "setsReps": "2×12-15",
+        "load": "375",
+        "rir": "2 / 0",
+        "rest": "60-90 s",
+        "cue": ""
+      },
+      {
+        "exercise": "Chest fly",
+        "setsReps": "1×12",
+        "load": "135",
+        "rir": "3",
+        "rest": "60-90 s",
+        "cue": ""
+      }
+    ],
+    "lastWeek": {
+      "label": "Hyp B W23 Sat 9/26",
+      "table": [
+        {
+          "exercise": "Lat pulldown",
+          "load": "170",
+          "reps": "8/8/8/6",
+          "rir": "2/1/0/0"
+        },
+        {
+          "exercise": "Chest-supp row",
+          "load": "80",
+          "reps": "10/10/8",
+          "rir": "2/0/0"
+        },
+        {
+          "exercise": "DB lateral raise",
+          "load": "40",
+          "reps": "12/12/12/12",
+          "rir": "2/2/1/0"
+        },
+        {
+          "exercise": "Preacher curl uni",
+          "load": "60/arm",
+          "reps": "12/12/12/12",
+          "rir": "2/2/1/0"
+        },
+        {
+          "exercise": "Cable pushdown, rope",
+          "load": "47.5",
+          "reps": "12/12/12/13",
+          "rir": "2/2/1/0"
+        },
+        {
+          "exercise": "Decline crunch",
+          "load": "BW",
+          "reps": "10/10/10",
+          "rir": "n/r"
+        },
+        {
+          "exercise": "Seated calf",
+          "load": "375",
+          "reps": "12/12/12/12",
+          "rir": "2/2/1/0"
+        },
+        {
+          "exercise": "Chest fly",
+          "load": "skipped (W22 Fri 9/18: 135)",
+          "reps": "12/12",
+          "rir": "2/2"
+        }
+      ]
     },
-    "warmup": "1.0 mi easy 9:00-9:30/mi, 170-172 spm",
-    "cooldown": "0.9 mi easy 9:45-10:15/mi, 166-170 spm",
-    "cues": []
+    "warmup": "Wrist-extensor iso 3×30 s/arm (§8); band pull-aparts + scap push-ups 1-2 min; lat pulldown 1×10 @ ~100.",
+    "cooldown": "SI prehab — clamshell 3×15/side, side-lying abd 3×12/side, SL bridge 3×8/side, bird-dog 3×8/side, McGill side plank 3×20-30 s/side"
   },
-  "currentLoads": [
-    {
-      "exercise": "Incline BB",
-      "load": "160 working / TM 168",
-      "lastVerified": "W23 Tue 9/22 (160x5 RIR 1)",
-      "note": "Sharpen maintenance. Three consecutive RIR 1 reads. <5 reps = miss #2 -> cut TM 5-7% (Adj #312/#340/#381)"
-    },
-    {
-      "exercise": "Lat pulldown",
-      "load": "170 working (athlete directive)",
-      "lastVerified": "W23 Sat 9/26 (170x8/8/8/6 RIR 2/1/0/0)",
-      "note": "Adj #371 revert fired but overridden -- hold to stop the yoyo. Rebuild toward clean 4x8. No auto-revert (Adj #390)"
-    },
-    {
-      "exercise": "Chest-supp row",
-      "load": "80 working",
-      "lastVerified": "W23 Sat 9/26 (10/10/8 RIR 2/0/0)",
-      "note": "Set 3 improved (6->8). 85 gate: full 3x10 + sets 1-2 >=RIR 1 -- double-failed (Adj #394)"
-    },
-    {
-      "exercise": "DB lateral raise (Tue)",
-      "load": "40 -> 35 reverts W24 Tue",
-      "lastVerified": "W23 Tue 9/22 (40: 12/12/12/10/10/9 RIR 3/2/0/0/0/0)",
-      "note": "Revert fired (set 4 at 10). Re-attempt 40: front four at 12, set 4 >=RIR 1 at 35 (Adj #382)"
-    },
-    {
-      "exercise": "DB lateral raise (Sat)",
-      "load": "40 working",
-      "lastVerified": "W23 Sat 9/26 (40: 12/12/12/12 RIR 2/2/1/0)",
-      "note": "First clean 4x12, load established. 42.5: clean 4x12 + set 4 >=RIR 1 (Adj #395)"
-    },
-    {
-      "exercise": "Preacher curl uni (Tue)",
-      "load": "75 working",
-      "lastVerified": "W23 Tue 9/22 (75: 10/10/10/8 RIR 2/1/0/0)",
-      "note": "Hold. 80 re-attempt: front three hold 10 floor, set 3 >=RIR 1 (Adj #383)"
-    },
-    {
-      "exercise": "Preacher curl uni (Sat)",
-      "load": "60/arm -> 65 fires W24 Sat",
-      "lastVerified": "W23 Sat 9/26 (60: 12/12/12/12 RIR 2/2/1/0)",
-      "note": "Adj #375 gate met. Revert at 65: set 3 <12 or <RIR 1 -> 60 (Adj #392)"
-    },
-    {
-      "exercise": "Cable pushdown (rope, both-handed)",
-      "load": "47.5 -> 50 fires W24 Tue",
-      "lastVerified": "W23 Sat 9/26 (47.5: 12/12/12/13 RIR 2/2/1/0)",
-      "note": "Adj #384 gate met (Sat slot 3-for-3). Revert at 50: front three lose 12 floor or set 3 <RIR 1 -> 47.5 (Adj #391)"
-    },
-    {
-      "exercise": "Rear-delt fly",
-      "load": "145 working",
-      "lastVerified": "W23 Tue 9/22 (15/15 RIR 4/2)",
-      "note": "Hold. Stop at RIR 3 -- joint-health slot (Adj #318/#386)"
-    },
-    {
-      "exercise": "Seated calf",
-      "load": "375 working",
-      "lastVerified": "W23 Sat 9/26 (12/12/12/12 RIR 2/2/1/0)",
-      "note": "First clean 4x12. Achilles-managed, hold 375 (Adj #393)"
-    },
-    {
-      "exercise": "Decline crunch (Tue)",
-      "load": "BW (reset from +15)",
-      "lastVerified": "W23 Tue 9/22 (+15x8 / +10x6 / BWx~12)",
-      "note": "L lower ab strain -- reset to BW, rebuild load on clean sets (Adj #385)"
-    },
-    {
-      "exercise": "Decline crunch (Sat)",
-      "load": "BW (reset from +15)",
-      "lastVerified": "W23 Sat 9/26 (BW: 10/10/10 RIR n/r)",
-      "note": "Clean, no pain. Hold BW, rebuild (Adj #385/#396)"
-    },
-    {
-      "exercise": "Chest fly",
-      "load": "135 working",
-      "lastVerified": "W22 Fri 9/18 (12/12 RIR 2/2)",
-      "note": "W23 Sat skipped. Joint-health 2x12 RPE 7. Hold (Adj #378/#397)"
-    }
-  ]
+  "cardio": null,
+  "currentLoads": []
 }

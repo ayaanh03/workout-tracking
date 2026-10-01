@@ -26,7 +26,7 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 |DB lateral raise (Tue)|40 → **35 reverts W24 Tue**|W23 Tue 9/22 (40: 12/12/12/10/10/9 RIR 3/2/0/0/0/0)|Revert fired (set 4 at 10). Re-attempt 40: front four at 12, set 4 ≥RIR 1 at 35 (Adj #382)|
 |DB lateral raise (Sat)|40 working|W23 Sat 9/26 (40: 12/12/12/12 RIR 2/2/1/0)|First clean 4×12, load established. 42.5: clean 4×12 + set 4 ≥RIR 1 (Adj #395)|
 |Preacher curl uni (Tue)|75 working|W23 Tue 9/22 (75: 10/10/10/8 RIR 2/1/0/0)|Hold. 80 re-attempt: front three hold 10 floor, set 3 ≥RIR 1 (Adj #383)|
-|Preacher curl uni (Sat)|60/arm → **65 fires W24 Sat**|W23 Sat 9/26 (60: 12/12/12/12 RIR 2/2/1/0)|Adj #375 gate met. Revert at 65: set 3 <12 or <RIR 1 → 60 (Adj #392)|
+|Preacher curl uni (Sat)|60/arm → **65 fires W24 Thu 10/1 (moved, Adj #401)**|W23 Sat 9/26 (60: 12/12/12/12 RIR 2/2/1/0)|Adj #375 gate met. Revert at 65: set 3 <12 or <RIR 1 → 60 (Adj #392)|
 |Cable pushdown (rope, both-handed)|47.5 → **50 fires W24 Tue**|W23 Sat 9/26 (47.5: 12/12/12/13 RIR 2/2/1/0)|Adj #384 gate met (Sat slot 3-for-3). Revert at 50: front three lose 12 floor or set 3 <RIR 1 → 47.5 (Adj #391)|
 |Rear-delt fly|145 working|W23 Tue 9/22 (15/15 RIR 4/2)|Hold. Stop at RIR 3 — joint-health slot (Adj #318/#386)|
 |Seated calf|375 working|W23 Sat 9/26 (12/12/12/12 RIR 2/2/1/0)|First clean 4×12. Achilles-managed, hold 375 (Adj #393)|
@@ -40,7 +40,7 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 
 Open items that affect the next session. Full rationale in `history/adjustments.md` (live #309+) / `history/archive/` — grep: `grep -rn '^N\. ' history/`.
 
-- **L Achilles:** reactive tendon. 375 holds. W24 Mon 9/28 AM read CLEAN — 4th consecutive post-sweep (Adj #400). Next sweep W24 Sat 10/3; read Mon 10/5 AM (~40 h). One more Vaporfly exposure (R/I touch W24–W25) before race-day decision (Adj #389). (Adj #34/#113/#135/#284/#306/#334/#358/#377/#379/#380/#388/#393/#398/#400)
+- **L Achilles:** reactive tendon. 375 holds. W24 Mon 9/28 AM read CLEAN — 4th consecutive post-sweep (Adj #400). Next sweep W24 **Thu 10/1** (moved from Sat, Adj #401); read **Fri 10/2 AM (~24 h)**. One more Vaporfly exposure (R/I touch W24–W25) before race-day decision (Adj #389). (Adj #34/#113/#135/#284/#306/#334/#358/#377/#379/#380/#388/#393/#398/#400)
 - **L lower ab strain (W23 Tue):** decline crunch reset to BW both slots; rebuild on clean sets (Adj #385).
 - **Race-day shoe decision DEFERRED:** one more Vaporfly exposure at the W24–W25 R/I touch; if off again → race in Vomero Plus (Adj #389).
 - **Treadmill quality at 1%** for road equivalence (Adj #177).
@@ -81,4 +81,4 @@ Current week only — completed weeks live in `history/weekly-summary.md` (W13+)
 
 |Wk|Mon|Tue|Wed|Thu|Fri|Sat|Status|
 |---|---|---|---|---|---|---|---|
-|W24 (Sharpen, §4.E — final Sharpen)|✓ Long 9/28 (5.28 mi 9:27/mi RPE very easy; Achilles clean 4th; Adj #400)|—|—|Off (§2.A)|—|—|in progress|
+|W24 (Sharpen, §4.E — final Sharpen)|✓ Long 9/28 (5.28 mi 9:27/mi RPE very easy; Achilles clean 4th; Adj #400)|—|→ Fri (Adj #401)|—|—|—|in progress|
