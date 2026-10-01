@@ -21,3 +21,4 @@
 |W21 (Sharpen)|1×5 @ 160 (TM maintenance, §5 Sharpen — no AMRAP)|W21 Tue **160×5 RIR 1 — maintenance hold.** A click of reserve returned vs three consecutive RIR 0s (W18 RIR 1, W19 RIR 0, W20 RIR 0 → W21 RIR 1). The deload + Sharpen's drop from 3×5/1×5+AMRAP to 1×5-only both contributed. TM 168 stands. Guard: <5 reps = miss #2 → cut TM 5–7% (Adj #312/#340)|
 |W22 (Sharpen)|1×5 @ 160 (TM maintenance, no AMRAP)|160×5 RIR 1 — matches W21 exactly. TM 168 stands (Adj #312/#340)|
 |W23 (Sharpen)|1×5 @ 160 (TM maintenance, no AMRAP)|160×5 RIR 1 — third consecutive RIR 1; athlete-rated cleaner than W22. TM 168 stands (Adj #312/#340/#381)|
+|W24 (Sharpen deload)|1×5 @ 130 (deload, 80% of 160)|130×5 RIR 4 — deload. Working 160/TM 168 unchanged (Adj #312/#340/#381/#401)|

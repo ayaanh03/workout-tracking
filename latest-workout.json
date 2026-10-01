@@ -1,78 +1,78 @@
 {
-  "generatedAt": "2026-10-01T19:05:00-04:00",
+  "generatedAt": "2026-10-01T19:20:00-04:00",
   "week": "W24",
   "day": "Thu",
   "date": "2026-10-01",
   "phase": "Sharpen",
-  "sessionName": "Hyp B (moved from Sat, deload cut)",
+  "sessionName": "Hyp B (moved from Sat, deload)",
   "intro": [
-    "Reshuffle (Adj #401): Hyp B tonight, 3×1K Fri, 5×3 @ I Sat. Deload cut per §11.B; preacher 65 + pushdown 50 land."
+    "Reshuffle (Adj #402): Hyp B tonight, 3×1K Fri, 5×3 @ I Sat. §11.B deload at ~80%, matching Tue (Adj #401)."
   ],
   "lift": {
     "table": [
       {
         "exercise": "Lat pulldown, neutral",
         "setsReps": "2×8-10",
-        "load": "170",
-        "rir": "2 / 1",
+        "load": "135",
+        "rir": "3",
         "rest": "90-120 s",
-        "cue": ""
+        "cue": "80% of 170"
       },
       {
         "exercise": "Chest-supp row",
         "setsReps": "2×10",
-        "load": "80",
-        "rir": "2 / 1",
+        "load": "65",
+        "rir": "3",
         "rest": "90-120 s",
-        "cue": ""
+        "cue": "80% of 80"
       },
       {
         "exercise": "DB lateral raise",
         "setsReps": "2×12-15",
-        "load": "40",
-        "rir": "2 / 0",
+        "load": "32.5",
+        "rir": "3",
         "rest": "60-90 s",
-        "cue": ""
+        "cue": "80% of 40"
       },
       {
         "exercise": "Preacher curl uni",
         "setsReps": "2×12",
-        "load": "65/arm",
-        "rir": "2 / 1",
+        "load": "50/arm",
+        "rir": "3",
         "rest": "60-90 s",
-        "cue": "bump lands (Adj #392)"
+        "cue": "80% of 65 (Adj #392)"
       },
       {
         "exercise": "Cable pushdown, rope",
         "setsReps": "2×12-15",
-        "load": "50",
-        "rir": "2 / 0",
+        "load": "42.5",
+        "rir": "3",
         "rest": "60-90 s",
-        "cue": "bump lands (Adj #391)"
+        "cue": "80% of 50 (Adj #401)"
       },
       {
         "exercise": "Decline crunch",
         "setsReps": "2×10",
         "load": "BW",
-        "rir": "2",
+        "rir": "3",
         "rest": "60-90 s",
         "cue": ""
       },
       {
         "exercise": "Seated calf",
         "setsReps": "2×12-15",
-        "load": "375",
-        "rir": "2 / 0",
+        "load": "300",
+        "rir": "3",
         "rest": "60-90 s",
-        "cue": ""
+        "cue": "80% of 375"
       },
       {
         "exercise": "Chest fly",
         "setsReps": "1×12",
-        "load": "135",
+        "load": "110",
         "rir": "3",
         "rest": "60-90 s",
-        "cue": ""
+        "cue": "80% of 135"
       }
     ],
     "lastWeek": {
@@ -122,9 +122,9 @@
         },
         {
           "exercise": "Chest fly",
-          "load": "skipped (W22 Fri 9/18: 135)",
-          "reps": "12/12",
-          "rir": "2/2"
+          "load": "skipped",
+          "reps": "-",
+          "rir": "-"
         }
       ]
     },

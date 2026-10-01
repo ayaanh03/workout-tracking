@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-01T19:05:00-04:00",
+  "generatedAt": "2026-10-01T19:20:00-04:00",
   "week": "W24",
   "phase": "Sharpen",
-  "summary": "W24 Sharpen deload — final Sharpen week. Reshuffled (Adj #401): Hyp B Thu, 3×1K @ 5K pace Fri, 5×3 @ I Sat (back-to-back quality, deload doses). Calf sweep Thu → Achilles read Fri AM (~24 h). Preacher 65 + pushdown 50 land Thu. Tue Hyp A unlogged.",
+  "summary": "W24 Sharpen deload — final Sharpen week. Reshuffled (Adj #402): Hyp B Thu, 3×1K @ 5K pace Fri, 5×3 @ I Sat (back-to-back quality, deload doses). Calf sweep Thu → Achilles read Fri AM (~24 h). Lifts at §11.B ~80% (Adj #401).",
   "days": [
     {
       "date": "2026-09-28",
@@ -15,35 +15,35 @@
       "date": "2026-09-29",
       "day": "Tue",
       "session": "Hyp A (Sharpen deload, section 3.A)",
-      "note": "Not logged — no report",
+      "note": "Logged -- deload 80%, all RIR 3-5; pushdown 50 + lat 35 landed; chest fly makeup (Adj #401)",
       "status": "done"
     },
     {
       "date": "2026-09-30",
       "day": "Wed",
       "session": "3x1 K @ 5K pace, 90 s rec (section 4.E W24)",
-      "note": "Not run — 3×1K moved to Fri (Adj #401)",
+      "note": "Not run — 3×1K moved to Fri (Adj #402)",
       "status": "done"
     },
     {
       "date": "2026-10-01",
       "day": "Thu",
-      "session": "Hyp B (moved from Sat, §3.B deload cut)",
-      "note": "Preacher 65 (Adj #392), pushdown 50 (Adj #391) land; calf 375 sweep.",
+      "session": "Hyp B (moved from Sat, §3.B deload)",
+      "note": "~80% loads, cut sets; preacher working 65 (Adj #392). Calf sweep 300.",
       "status": "today"
     },
     {
       "date": "2026-10-02",
       "day": "Fri",
       "session": "3×1K @ 5K pace, 90 s rec (moved from Wed, §4.E W24)",
-      "note": "5K pace 7:12-7:20/mi. Achilles AM read ~24 h post-sweep (Adj #401).",
+      "note": "5K pace 7:12-7:20/mi. Achilles AM read ~24 h post-sweep (Adj #402).",
       "status": "upcoming"
     },
     {
       "date": "2026-10-03",
       "day": "Sat",
       "session": "5×3 min @ I, 2 min rec (moved from Fri, §4.E W24)",
-      "note": "I-pace 7:00-7:15/mi. 24 h after Fri quality (Adj #401).",
+      "note": "I-pace 7:00-7:15/mi. 24 h after Fri quality (Adj #402).",
       "status": "upcoming"
     },
     {
