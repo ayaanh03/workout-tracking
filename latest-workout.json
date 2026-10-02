@@ -1,137 +1,28 @@
 {
-  "generatedAt": "2026-10-01T21:05:00-04:00",
+  "generatedAt": "2026-10-01T23:30:00-04:00",
   "week": "W24",
-  "day": "Thu",
-  "date": "2026-10-01",
+  "day": "Fri",
+  "date": "2026-10-02",
   "phase": "Sharpen",
-  "sessionName": "Hyp B (moved from Sat, deload)",
+  "sessionName": "3x1K @ 5K pace, 90 s rec (moved from Wed)",
   "intro": [
-    "Reshuffle (Adj #402): Hyp B tonight, 3×1K Fri, 5×3 @ I Sat. §11.B deload at ~80%, matching Tue (Adj #401)."
+    "Achilles AM read ~24 h post-sweep (calf 300 Thu) gates today; back-to-back with Sat 5x3 @ I (Adj #402/#403)."
   ],
-  "lift": {
-    "table": [
-      {
-        "exercise": "Lat pulldown, neutral",
-        "setsReps": "2×8-10",
-        "load": "135",
-        "rir": "3",
-        "rest": "90-120 s",
-        "cue": "80% of 170"
-      },
-      {
-        "exercise": "Chest-supp row",
-        "setsReps": "2×10",
-        "load": "65",
-        "rir": "3",
-        "rest": "90-120 s",
-        "cue": "80% of 80"
-      },
-      {
-        "exercise": "DB lateral raise",
-        "setsReps": "2×12-15",
-        "load": "32.5",
-        "rir": "3",
-        "rest": "60-90 s",
-        "cue": "80% of 40"
-      },
-      {
-        "exercise": "Preacher curl uni",
-        "setsReps": "2×12",
-        "load": "50/arm",
-        "rir": "3",
-        "rest": "60-90 s",
-        "cue": "80% of 65 (Adj #392)"
-      },
-      {
-        "exercise": "Cable pushdown, rope",
-        "setsReps": "2×12-15",
-        "load": "42.5",
-        "rir": "3",
-        "rest": "60-90 s",
-        "cue": "80% of 50 (Adj #401)"
-      },
-      {
-        "exercise": "Decline crunch",
-        "setsReps": "2×10",
-        "load": "BW",
-        "rir": "3",
-        "rest": "60-90 s",
-        "cue": ""
-      },
-      {
-        "exercise": "Seated calf",
-        "setsReps": "2×12-15",
-        "load": "300",
-        "rir": "3",
-        "rest": "60-90 s",
-        "cue": "80% of 375"
-      },
-      {
-        "exercise": "Chest fly",
-        "setsReps": "1×12",
-        "load": "110",
-        "rir": "3",
-        "rest": "60-90 s",
-        "cue": "80% of 135"
-      }
-    ],
-    "lastWeek": {
-      "label": "Hyp B W23 Sat 9/26",
-      "table": [
-        {
-          "exercise": "Lat pulldown",
-          "load": "170",
-          "reps": "8/8/8/6",
-          "rir": "2/1/0/0"
-        },
-        {
-          "exercise": "Chest-supp row",
-          "load": "80",
-          "reps": "10/10/8",
-          "rir": "2/0/0"
-        },
-        {
-          "exercise": "DB lateral raise",
-          "load": "40",
-          "reps": "12/12/12/12",
-          "rir": "2/2/1/0"
-        },
-        {
-          "exercise": "Preacher curl uni",
-          "load": "60/arm",
-          "reps": "12/12/12/12",
-          "rir": "2/2/1/0"
-        },
-        {
-          "exercise": "Cable pushdown, rope",
-          "load": "47.5",
-          "reps": "12/12/12/13",
-          "rir": "2/2/1/0"
-        },
-        {
-          "exercise": "Decline crunch",
-          "load": "BW",
-          "reps": "10/10/10",
-          "rir": "n/r"
-        },
-        {
-          "exercise": "Seated calf",
-          "load": "375",
-          "reps": "12/12/12/12",
-          "rir": "2/2/1/0"
-        },
-        {
-          "exercise": "Chest fly",
-          "load": "skipped",
-          "reps": "-",
-          "rir": "-"
-        }
-      ]
+  "lift": null,
+  "cardio": {
+    "flags": [],
+    "workout": "3x1K @ 5K pace (90 s jog rec) -- if treadmill, 1% (Adj #177)",
+    "targets": {
+      "pace": "7:12-7:20/mi",
+      "hr": "display-only",
+      "cadence": "175-182 spm"
     },
-    "warmup": "Wrist-extensor iso 3×30 s/arm (§8); band pull-aparts + scap push-ups 1-2 min; lat pulldown 1×10 @ ~100.",
-    "cooldown": "SI prehab — clamshell 3×15/side, side-lying abd 3×12/side, SL bridge 3×8/side, bird-dog 3×8/side, McGill side plank 3×20-30 s/side"
+    "warmup": "1.0 mi easy 9:15-10:30/mi (RPE 4-5, 165-172 spm), last 2 min build to 5K pace",
+    "cooldown": "1.0 mi easy 9:15-10:30/mi (165-172 spm) + SI prehab",
+    "cues": [
+      "Deload dose -- hold the band, don't run under 7:12; Sat I session is 24 h out (Adj #402)"
+    ]
   },
-  "cardio": null,
   "currentLoads": [
     {
       "exercise": "Incline BB",
