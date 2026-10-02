@@ -21,18 +21,18 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 |Exercise|Load|Last verified|Note|
 |---|---|---|---|
 |Incline BB|160 working / TM 168|W24 Tue 9/29 (deload: 130×5 RIR 4)|Sharpen maintenance. Last full-weight: W23 160×5 RIR 1 (three consecutive). <5 reps = miss #2 → cut TM 5–7% (Adj #312/#340/#381)|
-|Lat pulldown|**170 working (athlete directive)**|W23 Sat 9/26 (170×8/8/8/6 RIR 2/1/0/0)|Adj #371 revert fired but overridden — hold to stop the yoyo. Rebuild toward clean 4×8. No auto-revert (Adj #390)|
-|Chest-supp row|80 working|W23 Sat 9/26 (10/10/8 RIR 2/0/0)|Set 3 improved (6→8). 85 gate: full 3×10 + sets 1-2 ≥RIR 1 — double-failed (Adj #394)|
+|Lat pulldown|**170 working (athlete directive)**|W24 Thu 10/1 (deload: 135×10/10 RIR 5/5)|Adj #371 revert fired but overridden — hold to stop the yoyo. Rebuild toward clean 4×8. No auto-revert (Adj #390)|
+|Chest-supp row|80 working|W24 Thu 10/1 (deload: 70×10/10 RIR 3/3)|Hold. Last full: W23 10/10/8 RIR 2/0/0. 85 gate: full 3×10 + sets 1-2 ≥RIR 1 — double-failed (Adj #394)|
 |DB lateral raise (Tue)|35 working|W24 Tue 9/29 (deload: 30×12/12/12/12 RIR 5/3/3/3)|Revert landed (Adj #382). Last Tue accessories — no further full-intensity test|
-|DB lateral raise (Sat)|40 working|W23 Sat 9/26 (40: 12/12/12/12 RIR 2/2/1/0)|First clean 4×12, load established. 42.5: clean 4×12 + set 4 ≥RIR 1 (Adj #395)|
+|DB lateral raise (Sat)|40 working|W24 Thu 10/1 (deload: 35×15/13 RIR 3/3)|Hold. Last full: W23 clean 4×12. 42.5: clean 4×12 + set 4 ≥RIR 1 (Adj #395)|
 |Preacher curl uni (Tue)|75 working|W24 Tue 9/29 (deload: 60×10/10 RIR 3/3)|Last Tue accessories — hold 75 (Adj #383)|
-|Preacher curl uni (Sat)|60/arm → **65 fires W24 Thu 10/1 (moved, Adj #402)**|W23 Sat 9/26 (60: 12/12/12/12 RIR 2/2/1/0)|Adj #375 gate met. Revert at 65: set 3 <12 or <RIR 1 → 60 (Adj #392)|
-|Cable pushdown (rope, both-handed)|50 working|W24 Tue 9/29 (deload: 42.5×12/12 RIR 3/3)|Bump landed (Adj #391). Next full test W24 Sat (deload) / W25 Sat (half-vol). Revert at 50: front three lose 12 floor or set 3 <RIR 1 → 47.5|
+|Preacher curl uni (Sat)|65/arm working|W24 Thu 10/1 (deload: 50×12/12 RIR 3/3)|First full test W25 Sat half-vol (Adj #403). Revert at 65: set 3 <12 or <RIR 1 → 60 (Adj #392)|
+|Cable pushdown (rope, both-handed)|50 working|W24 Thu 10/1 (deload: 45×12/13 RIR 3/3)|Bump landed (Adj #391). Next full test W25 Sat (half-vol). Revert at 50: front three lose 12 floor or set 3 <RIR 1 → 47.5|
 |Rear-delt fly|145 working|W24 Tue 9/29 (deload: 115×15 RIR 3)|Hold. Stop at RIR 3 — joint-health slot (Adj #318/#386)|
-|Seated calf|375 working|W23 Sat 9/26 (12/12/12/12 RIR 2/2/1/0)|First clean 4×12. Achilles-managed, hold 375 (Adj #393)|
+|Seated calf|375 working|W24 Thu 10/1 (deload sweep: 300×12/12 RIR 3/3)|Achilles-managed, hold 375. Read Fri 10/2 AM (Adj #393/#403)|
 |Decline crunch (Tue)|**BW** (reset from +15)|W24 Tue 9/29 (BW: 12/12 RIR 4/3)|Third consecutive clean. BW rebuild continues (Adj #385)|
-|Decline crunch (Sat)|**BW** (reset from +15)|W23 Sat 9/26 (BW: 10/10/10 RIR n/r)|Clean, no pain. Hold BW, rebuild (Adj #385/#396)|
-|Chest fly|135 working|W24 Tue 9/29 (135: 12/12 RIR 3/3)|Joint-health 2×12 RPE 7. Hold (Adj #378)|
+|Decline crunch (Sat)|**BW** (reset from +15)|W24 Thu 10/1 (BW: 10/10 RIR 3/3)|Fourth consecutive clean. Hold BW, rebuild (Adj #385/#403)|
+|Chest fly|135 working|W24 Thu 10/1 (deload: 110×12 RIR n/r)|Joint-health 2×12 RPE 7. Hold (Adj #378)|
 
 ---
 
@@ -40,8 +40,8 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 
 Open items that affect the next session. Full rationale in `history/adjustments.md` (live #309+) / `history/archive/` — grep: `grep -rn '^N\. ' history/`.
 
-- **L Achilles:** reactive tendon. 375 holds. W24 Mon 9/28 AM read CLEAN — 4th consecutive post-sweep (Adj #400). Next sweep W24 **Thu 10/1** (moved from Sat, Adj #402); read **Fri 10/2 AM (~24 h)**. One more Vaporfly exposure (R/I touch W24–W25) before race-day decision (Adj #389). (Adj #34/#113/#135/#284/#306/#334/#358/#377/#379/#380/#388/#393/#398/#400)
-- **L lower ab strain (W23 Tue):** decline crunch BW both slots; third consecutive clean (W23 Sat + W24 Tue). Rebuild continues (Adj #385).
+- **L Achilles:** reactive tendon. 375 holds. W24 Mon 9/28 AM read CLEAN — 4th consecutive post-sweep (Adj #400). Sweep done W24 Thu 10/1 at 300 (deload); read **Fri 10/2 AM (~24 h)** (Adj #402/#403). One more Vaporfly exposure (R/I touch W24–W25) before race-day decision (Adj #389). (Adj #34/#113/#135/#284/#306/#334/#358/#377/#379/#380/#388/#393/#398/#400)
+- **L lower ab strain (W23 Tue):** decline crunch BW both slots; fourth consecutive clean (W24 Thu). Rebuild continues (Adj #385/#403).
 - **Race-day shoe decision DEFERRED:** one more Vaporfly exposure at the W24–W25 R/I touch; if off again → race in Vomero Plus (Adj #389).
 - **Treadmill quality at 1%** for road equivalence (Adj #177).
 - **Running power:** display-only, governs nothing (Adj #251). Log when the watch reports it.
@@ -82,4 +82,4 @@ Current week only — completed weeks live in `history/weekly-summary.md` (W13+)
 
 |Wk|Mon|Tue|Wed|Thu|Fri|Sat|Status|
 |---|---|---|---|---|---|---|---|
-|W24 (Sharpen, §4.E — final Sharpen)|✓ Long 9/28 (5.28 mi 9:27/mi RPE very easy; Achilles clean 4th; Adj #400)|✓ Hyp A 9/29 (deload 80%; all RIR 3–5; Adj #401)|→ Fri (Adj #402)|—|—|—|in progress|
+|W24 (Sharpen, §4.E — final Sharpen)|✓ Long 9/28 (5.28 mi 9:27/mi RPE very easy; Achilles clean 4th; Adj #400)|✓ Hyp A 9/29 (deload 80%; all RIR 3–5; Adj #401)|→ Fri (Adj #402)|✓ Hyp B 10/1 (moved from Sat; deload ~80%, RIR 3–5; Adj #403)|—|—|in progress|

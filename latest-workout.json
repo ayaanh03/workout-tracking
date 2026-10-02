@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T19:20:00-04:00",
+  "generatedAt": "2026-10-01T21:05:00-04:00",
   "week": "W24",
   "day": "Thu",
   "date": "2026-10-01",
@@ -132,5 +132,84 @@
     "cooldown": "SI prehab — clamshell 3×15/side, side-lying abd 3×12/side, SL bridge 3×8/side, bird-dog 3×8/side, McGill side plank 3×20-30 s/side"
   },
   "cardio": null,
-  "currentLoads": []
+  "currentLoads": [
+    {
+      "exercise": "Incline BB",
+      "load": "160 working / TM 168",
+      "lastVerified": "W24 Tue 9/29 (deload: 130×5 RIR 4)",
+      "note": "Sharpen maintenance. Last full-weight: W23 160×5 RIR 1 (three consecutive). <5 reps = miss #2 → cut TM 5–7% (Adj #312/#340/#381)"
+    },
+    {
+      "exercise": "Lat pulldown",
+      "load": "170 working (athlete directive)",
+      "lastVerified": "W24 Thu 10/1 (deload: 135×10/10 RIR 5/5)",
+      "note": "Adj #371 revert fired but overridden — hold to stop the yoyo. Rebuild toward clean 4×8. No auto-revert (Adj #390)"
+    },
+    {
+      "exercise": "Chest-supp row",
+      "load": "80 working",
+      "lastVerified": "W24 Thu 10/1 (deload: 70×10/10 RIR 3/3)",
+      "note": "Hold. Last full: W23 10/10/8 RIR 2/0/0. 85 gate: full 3×10 + sets 1-2 ≥RIR 1 — double-failed (Adj #394)"
+    },
+    {
+      "exercise": "DB lateral raise (Tue)",
+      "load": "35 working",
+      "lastVerified": "W24 Tue 9/29 (deload: 30×12/12/12/12 RIR 5/3/3/3)",
+      "note": "Revert landed (Adj #382). Last Tue accessories — no further full-intensity test"
+    },
+    {
+      "exercise": "DB lateral raise (Sat)",
+      "load": "40 working",
+      "lastVerified": "W24 Thu 10/1 (deload: 35×15/13 RIR 3/3)",
+      "note": "Hold. Last full: W23 clean 4×12. 42.5: clean 4×12 + set 4 ≥RIR 1 (Adj #395)"
+    },
+    {
+      "exercise": "Preacher curl uni (Tue)",
+      "load": "75 working",
+      "lastVerified": "W24 Tue 9/29 (deload: 60×10/10 RIR 3/3)",
+      "note": "Last Tue accessories — hold 75 (Adj #383)"
+    },
+    {
+      "exercise": "Preacher curl uni (Sat)",
+      "load": "65/arm working",
+      "lastVerified": "W24 Thu 10/1 (deload: 50×12/12 RIR 3/3)",
+      "note": "First full test W25 Sat half-vol (Adj #403). Revert at 65: set 3 <12 or <RIR 1 → 60 (Adj #392)"
+    },
+    {
+      "exercise": "Cable pushdown (rope, both-handed)",
+      "load": "50 working",
+      "lastVerified": "W24 Thu 10/1 (deload: 45×12/13 RIR 3/3)",
+      "note": "Bump landed (Adj #391). Next full test W25 Sat (half-vol). Revert at 50: front three lose 12 floor or set 3 <RIR 1 → 47.5"
+    },
+    {
+      "exercise": "Rear-delt fly",
+      "load": "145 working",
+      "lastVerified": "W24 Tue 9/29 (deload: 115×15 RIR 3)",
+      "note": "Hold. Stop at RIR 3 — joint-health slot (Adj #318/#386)"
+    },
+    {
+      "exercise": "Seated calf",
+      "load": "375 working",
+      "lastVerified": "W24 Thu 10/1 (deload sweep: 300×12/12 RIR 3/3)",
+      "note": "Achilles-managed, hold 375. Read Fri 10/2 AM (Adj #393/#403)"
+    },
+    {
+      "exercise": "Decline crunch (Tue)",
+      "load": "BW (reset from +15)",
+      "lastVerified": "W24 Tue 9/29 (BW: 12/12 RIR 4/3)",
+      "note": "Third consecutive clean. BW rebuild continues (Adj #385)"
+    },
+    {
+      "exercise": "Decline crunch (Sat)",
+      "load": "BW (reset from +15)",
+      "lastVerified": "W24 Thu 10/1 (BW: 10/10 RIR 3/3)",
+      "note": "Fourth consecutive clean. Hold BW, rebuild (Adj #385/#403)"
+    },
+    {
+      "exercise": "Chest fly",
+      "load": "135 working",
+      "lastVerified": "W24 Thu 10/1 (deload: 110×12 RIR n/r)",
+      "note": "Joint-health 2×12 RPE 7. Hold (Adj #378)"
+    }
+  ]
 }

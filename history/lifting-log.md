@@ -182,3 +182,18 @@
 |Chest fly|**135×12 RIR 3 / ×12 RIR 3**|Makeup for W23 Sat skip (Adj #397 resolved). Joint-health 2×12 RPE 7. 24 total|
 
 > AI: Textbook deload — all loads at §11.B 80% intensity with reduced sets, RIR 3–5 across the board. Incline 130×5 RIR 4 (vs three consecutive RIR 1 reads at working 160) confirms accumulated fatigue being absorbed. Pushdown 50 bump (Adj #391) and lat raise 35 revert (Adj #382) are the new working loads; tested today at deload intensity only (42.5 and 30 respectively) — no gate evaluation applies. Pushdown used 42.5 (nearest cable stack increment to the prescribed 40). L lower ab strain BW rebuild: third consecutive clean session with no pain (W23 Sat 10/10/10, W24 Tue 12/12 RIR 4/3). Chest fly makeup from the skipped W23 Sat (Adj #397) logged at the joint-health dose (135×12/12 RIR 3/3). Elbow 26th consecutive clean, 12th at the rope. Last Tue accessories before taper — W25 Tue is 1×3 incline @ ~75% TM, no accessories (§2.C). Logged under Adj #188/#190 defaults — fed assumed, no pain reported, all clean by default.
+
+### W24 Thu 2026-10-01 — Hypertrophy B (Sharpen deload, moved from Sat, §3.B/§11.B, Adj #402)
+
+|Exercise|Sets|Notes|
+|---|---|---|
+|Lat pulldown|**135×10 RIR 5 / ×10 RIR 5**|Deload (80% of 170 working, Adj #390). 20 total|
+|Chest-supp row|**70×10 RIR 3 / ×10 RIR 3**|Deload (prescribed 65; used 70 ≈ 88% of 80). 20 total|
+|DB lateral raise|**35×15 RIR 3 / ×13 RIR 3**|Deload (prescribed 32.5; used 35 ≈ 88% of 40). 28 total|
+|Cable pushdown, two-handed rope|**45×12 RIR 3 / ×13 RIR 3**|Deload (prescribed 42.5; used 45 = 90% of 50). 25 total. **Elbow 27th consecutive clean, 13th at the rope** — Adj #303 unchanged|
+|Preacher curl uni|**50×12 RIR 3 / ×12 RIR 3**|Deload (≈77% of 65 working, Adj #392). 24 total. No gate evaluation|
+|Decline crunch|**BW×10 RIR 3 / ×10 RIR 3**|L ab strain rebuild — fourth consecutive clean, no pain (Adj #385)|
+|Seated calf|**300×12 RIR 3 / ×12 RIR 3**|Deload sweep (80% of 375). Achilles read Fri 10/2 AM ~24 h (Adj #402)|
+|Chest fly|**110×12 RIR n/r**|Deload (≈81% of 135)|
+
+> AI: Deload delivered on the §11.B dose, moved Sat→Thu per the reshuffle (Adj #402). Row, lateral and pushdown ran one stack step above the prescribed deload loads (70/35/45 vs 65/32.5/42.5) at RIR 3 — still deload intensity, no gate evaluation; all working loads hold at their pre-deload values (lat 170, row 80, lateral 40, preacher 65, pushdown 50, calf 375, fly 135). Lat 135 at RIR 5 ×2 — wide reserve. Preacher 65 is the working load (Adj #392); its first full test moves to W25 Sat half-vol. L ab strain BW rebuild fourth consecutive clean. Calf sweep at 300 — Achilles first-run-after read Fri 10/2 AM at ~24 h (compressed, Adj #402). **Elbow 27th consecutive clean, 13th at the rope.** Fly RIR not reported (n/r). Logged under Adj #188/#190 defaults — fed assumed, no pain reported, all clean by default.

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T19:20:00-04:00",
+  "generatedAt": "2026-10-01T21:05:00-04:00",
   "week": "W24",
   "phase": "Sharpen",
   "summary": "W24 Sharpen deload — final Sharpen week. Reshuffled (Adj #402): Hyp B Thu, 3×1K @ 5K pace Fri, 5×3 @ I Sat (back-to-back quality, deload doses). Calf sweep Thu → Achilles read Fri AM (~24 h). Lifts at §11.B ~80% (Adj #401).",
@@ -29,15 +29,15 @@
       "date": "2026-10-01",
       "day": "Thu",
       "session": "Hyp B (moved from Sat, §3.B deload)",
-      "note": "~80% loads, cut sets; preacher working 65 (Adj #392). Calf sweep 300.",
-      "status": "today"
+      "note": "Logged — deload ~80%, RIR 3–5; all working loads hold; calf sweep 300 (Adj #403)",
+      "status": "done"
     },
     {
       "date": "2026-10-02",
       "day": "Fri",
       "session": "3×1K @ 5K pace, 90 s rec (moved from Wed, §4.E W24)",
       "note": "5K pace 7:12-7:20/mi. Achilles AM read ~24 h post-sweep (Adj #402).",
-      "status": "upcoming"
+      "status": "today"
     },
     {
       "date": "2026-10-03",
