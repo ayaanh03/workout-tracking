@@ -32,7 +32,7 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 |Seated calf|375 working|W24 Thu 10/1 (deload sweep: 300×12/12 RIR 3/3)|Achilles-managed, hold 375. Read Fri 10/2 AM (Adj #393/#403)|
 |Decline crunch (Tue)|**BW** (reset from +15)|W24 Tue 9/29 (BW: 12/12 RIR 4/3)|Third consecutive clean. BW rebuild continues (Adj #385)|
 |Decline crunch (Sat)|**BW** (reset from +15)|W24 Thu 10/1 (BW: 10/10 RIR 3/3)|Fourth consecutive clean. Hold BW, rebuild (Adj #385/#403)|
-|Chest fly|135 working|W24 Thu 10/1 (deload: 110×12 RIR n/r)|Joint-health 2×12 RPE 7. Hold (Adj #378)|
+|Chest fly|135 working|W24 Thu 10/1 (deload: 110×12 RIR 3)|Joint-health 2×12 RPE 7. Hold (Adj #378)|
 
 ---
 
