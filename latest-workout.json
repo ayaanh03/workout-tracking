@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-10-01T23:30:00-04:00",
+  "generatedAt": "2026-10-02T20:20:00-04:00",
   "week": "W24",
-  "day": "Fri",
-  "date": "2026-10-02",
+  "day": "Sat",
+  "date": "2026-10-03",
   "phase": "Sharpen",
-  "sessionName": "3x1K @ 5K pace, 90 s rec (moved from Wed)",
+  "sessionName": "5x3 min @ I, 2 min rec (moved from Fri)",
   "intro": [
-    "Achilles AM read ~24 h post-sweep (calf 300 Thu) gates today; back-to-back with Sat 5x3 @ I (Adj #402/#403)."
+    "Vaporfly today — the Adj #389 R/I touch: clicks → race in Vaporfly; feels off → Vomero Plus. Achilles read Sun AM (Adj #34/#113)."
   ],
   "lift": null,
   "cardio": {
     "flags": [],
-    "workout": "3x1K @ 5K pace (90 s jog rec) -- if treadmill, 1% (Adj #177)",
+    "workout": "5x3 min @ I (2 min jog rec) -- if treadmill, 1% (Adj #177)",
     "targets": {
-      "pace": "7:12-7:20/mi",
+      "pace": "7:00-7:15/mi",
       "hr": "display-only",
       "cadence": "175-182 spm"
     },
-    "warmup": "1.0 mi easy 9:15-10:30/mi (RPE 4-5, 165-172 spm), last 2 min build to 5K pace",
+    "warmup": "1.0 mi easy 9:15-10:30/mi (RPE 4-5, 165-172 spm), last 2 min build to I pace",
     "cooldown": "1.0 mi easy 9:15-10:30/mi (165-172 spm) + SI prehab",
     "cues": [
-      "Deload dose -- hold the band, don't run under 7:12; Sat I session is 24 h out (Adj #402)"
+      "~24 h after Fri 3x1K: if legs flat, hold 7:15 and stop at 4 reps rather than chase pace (Adj #402)"
     ]
   },
   "currentLoads": [
