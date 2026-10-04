@@ -40,7 +40,7 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 
 Open items that affect the next session. Full rationale in `history/adjustments.md` (live #406+) / `history/archive/` — grep: `grep -rn '^N\. ' history/`.
 
-- **L Achilles:** reactive tendon. 375 holds. W24 Thu 300 sweep → Fri 10/2 read CLEAN at ~24 h — 5th consecutive post-sweep (Adj #404). Next calf dose W25 Sat half-vol. Vaporfly R/I touch W24 Sat 10/3 → Sun 10/4 AM read (Adj #34/#113/#405). (Adj #34/#113/#135/#284/#306/#334/#358/#377/#379/#380/#388/#393/#398/#400)
+- **L Achilles:** reactive tendon. 375 holds. W24 Thu 300 sweep → Fri 10/2 read CLEAN at ~24 h — 5th consecutive post-sweep (Adj #404). Next calf dose W25 Sat half-vol. (Adj #34/#113/#135/#284/#306/#334/#358/#377/#379/#380/#388/#393/#398/#400)
 - **L lower ab strain (W23 Tue):** decline crunch BW both slots; fourth consecutive clean (W24 Thu). Rebuild continues (Adj #385/#403).
 - **Treadmill quality at 1%** for road equivalence (Adj #177).
 - **Running power:** display-only, governs nothing (Adj #251). Log when the watch reports it.
@@ -55,7 +55,7 @@ Vomero Plus for all training and race day (Adj #405); Vaporfly parked.
 
 |Shoe|Purchased|Miles|Retire at|Role|
 |---|---|---|---|---|
-|Vaporfly Next% 2|pre-program|~10|~150|PARKED — not the race shoe (athlete directive, Adj #405). Exposures: W23 tune-up 9/25, W24 Sat 5×3 @ I 10/3|
+|Vaporfly Next% 2|pre-program|~8|~150|PARKED — not the race shoe (athlete directive, Adj #405). Exposures: W23 tune-up 9/25 only (Adj #407)|
 |Vomero Plus|2026-05-03|~190|~450|sole trainer + **race day** (Adj #192/#405)|
 |Zoom Fly 6|2026-05-03|~49|DROPPED|dropped — uncomfortable (Adj #192)|
 |Invincible 3|pre-program|~200|RETIRED|foam suspect-dead|
