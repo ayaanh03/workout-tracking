@@ -8,7 +8,7 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 
 ## Status
 
-**Phase D — Sharpen W23 (§4.E).** Sharpen spans W21–W24. Race: Sat 2026-10-24 (W27). Tier C locked: sub-21:30 / 6:55/mi (Adj #164, not renegotiated). Template: v4.4 three-run week — Mon long / Tue Hyp A / Wed quality / Thu OFF / Fri quality / Sat Hyp B lift-only / Sun OFF (§2.B, Adj #244). W23 closed 9-26 (Adj #399).
+**Phase E — Taper W25 (§2.C), opens Mon 10/5.** Taper spans W25–W27. Sharpen W21–W24 closed 10/3 (Adj #405). Race: Sat 2026-10-24 (W27), in Vomero Plus (Adj #405). Tier C locked: sub-21:30 / 6:55/mi (Adj #164, not renegotiated). Template: v4.4 three-run week — Mon long / Tue Hyp A / Wed quality / Thu OFF / Fri quality / Sat Hyp B lift-only / Sun OFF (§2.B, Adj #244). W24 closed 10-3 (Adj #405).
 
 **Pace bands (all confirmed, Adj #202/#271/#296/#321/#388):** easy 9:15–10:30 (conversation-gated), M 8:15–8:25, T 7:40–7:45 RPE ≤7, I 7:00–7:15 RPE 9, R 6:35–6:45. Row: T 1:52–1:57, I 1:46–1:50, R 1:39–1:43, M ~2:06. Recalc DONE: W23 tune-up 5K 22:29 RPE 9–10 — near-miss, paces hold, Tier C holds (Adj #388).
 
@@ -38,11 +38,10 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 
 ## Active Flags
 
-Open items that affect the next session. Full rationale in `history/adjustments.md` (live #309+) / `history/archive/` — grep: `grep -rn '^N\. ' history/`.
+Open items that affect the next session. Full rationale in `history/adjustments.md` (live #406+) / `history/archive/` — grep: `grep -rn '^N\. ' history/`.
 
-- **L Achilles:** reactive tendon. 375 holds. W24 Thu 300 sweep → Fri 10/2 read CLEAN at ~24 h — 5th consecutive post-sweep (Adj #404). Next calf dose W25 Sat half-vol. One more Vaporfly exposure (R/I touch W24–W25) before race-day decision (Adj #389). (Adj #34/#113/#135/#284/#306/#334/#358/#377/#379/#380/#388/#393/#398/#400)
+- **L Achilles:** reactive tendon. 375 holds. W24 Thu 300 sweep → Fri 10/2 read CLEAN at ~24 h — 5th consecutive post-sweep (Adj #404). Next calf dose W25 Sat half-vol. Vaporfly R/I touch W24 Sat 10/3 → Sun 10/4 AM read (Adj #34/#113/#405). (Adj #34/#113/#135/#284/#306/#334/#358/#377/#379/#380/#388/#393/#398/#400)
 - **L lower ab strain (W23 Tue):** decline crunch BW both slots; fourth consecutive clean (W24 Thu). Rebuild continues (Adj #385/#403).
-- **Race-day shoe decision DEFERRED:** one more Vaporfly exposure at the W24–W25 R/I touch; if off again → race in Vomero Plus (Adj #389).
 - **Treadmill quality at 1%** for road equivalence (Adj #177).
 - **Running power:** display-only, governs nothing (Adj #251). Log when the watch reports it.
 - **Logging default (Adj #188/#190):** assume-same-as-last for context, no-news-is-clean for SI/tendon/pain. Missing numbers get one compact prompt; unknowns log "n/r".
@@ -52,12 +51,12 @@ Open items that affect the next session. Full rationale in `history/adjustments.
 
 ## Shoe Rotation
 
-Two-shoe rotation as of 2026-07-20 (Adj #192/#193): Vomero Plus for all training, Vaporfly for race day + scheduled pre-race exposures.
+Vomero Plus for all training and race day (Adj #405); Vaporfly parked.
 
 |Shoe|Purchased|Miles|Retire at|Role|
 |---|---|---|---|---|
-|Vaporfly Next% 2|pre-program|~8|~150|race day + 3–4 pre-race exposures: W23 tune-up 9/25 (full, first exposure — Adj #388), one R/I touch W24–W25, then park (Adj #192)|
-|Vomero Plus|2026-05-03|~190|~450|sole trainer — all sessions incl. quality (Adj #192)|
+|Vaporfly Next% 2|pre-program|~10|~150|PARKED — not the race shoe (athlete directive, Adj #405). Exposures: W23 tune-up 9/25, W24 Sat 5×3 @ I 10/3|
+|Vomero Plus|2026-05-03|~190|~450|sole trainer + **race day** (Adj #192/#405)|
 |Zoom Fly 6|2026-05-03|~49|DROPPED|dropped — uncomfortable (Adj #192)|
 |Invincible 3|pre-program|~200|RETIRED|foam suspect-dead|
 
@@ -82,4 +81,4 @@ Current week only — completed weeks live in `history/weekly-summary.md` (W13+)
 
 |Wk|Mon|Tue|Wed|Thu|Fri|Sat|Status|
 |---|---|---|---|---|---|---|---|
-|W24 (Sharpen, §4.E — final Sharpen)|✓ Long 9/28 (5.28 mi 9:27/mi RPE very easy; Achilles clean 4th; Adj #400)|✓ Hyp A 9/29 (deload 80%; all RIR 3–5; Adj #401)|→ Fri (Adj #402)|✓ Hyp B 10/1 (moved from Sat; deload ~80%, RIR 3–5; Adj #403)|✓ 3×1K 10/2 (7:12/7:12/7:11 RPE 6/7/8; Achilles clean 5th; Adj #404)|—|in progress|
+|W25 (Taper, §2.C)|—|—|—|—|—|—|in progress|

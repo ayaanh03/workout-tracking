@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-02T20:20:00-04:00",
+  "generatedAt": "2026-10-03T20:45:00-04:00",
   "week": "W24",
   "phase": "Sharpen",
-  "summary": "W24 Sharpen deload — final Sharpen week. Reshuffled (Adj #402): Hyp B Thu, 3×1K Fri (on pace, Achilles clean ~24 h post-sweep, Adj #404), 5×3 @ I Sat at ~24 h. Lifts at §11.B ~80% (Adj #401). Vaporfly R/I touch still open (Adj #389).",
+  "summary": "W24 Sharpen deload closed — ~15.5 mi, all quality on pace (Adj #404/#405). Race shoe decided: Vomero Plus (Adj #405). Sun off + Achilles AM read; Taper W25 (§2.C) opens Mon 10/5.",
   "days": [
     {
       "date": "2026-09-28",
@@ -43,15 +43,15 @@
       "date": "2026-10-03",
       "day": "Sat",
       "session": "5×3 min @ I, 2 min rec (moved from Fri, §4.E W24)",
-      "note": "I-pace 7:00-7:15/mi RPE 9, Vaporfly race-shoe test (Adj #389); 24 h after Fri (Adj #402)",
-      "status": "today"
+      "note": "Logged — 7:00 avg RPE 6-8; race shoe → Vomero Plus (Adj #405)",
+      "status": "done"
     },
     {
       "date": "2026-10-04",
       "day": "Sun",
       "session": "Off / SI prehab",
       "note": "Off. Achilles AM read after Vaporfly (Adj #34/#113)",
-      "status": "upcoming"
+      "status": "today"
     }
   ]
 }
