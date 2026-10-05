@@ -1,6 +1,6 @@
 # Six-Month 5K Program v4.5 — Goal: sub-21:30 (Tier C, locked 2026-07-13)
 
-**Effective:** v4.6 rope pushdown 2026-08-22; v4.5 strides removal 2026-08-10; v4.4 three-run week from W17 (Mon 2026-08-10); v4.3 mileage reshape W8 (week of 2026-06-08); base program v4.2 week of May 4, 2026; goal tier locked at the W12 §10 TT (23:23, 2026-07-13)
+**Effective:** v4.7 taper lifting 2026-10-05; v4.6 rope pushdown 2026-08-22; v4.5 strides removal 2026-08-10; v4.4 three-run week from W17 (Mon 2026-08-10); v4.3 mileage reshape W8 (week of 2026-06-08); base program v4.2 week of May 4, 2026; goal tier locked at the W12 §10 TT (23:23, 2026-07-13)
 **Race day:** Saturday October 24, 2026 (W27 — renumbered from W25 with the Build extension, Adj #204)
 
 > **v4.4 (2026-08-07, Adj #244) — three-run week, athlete directive.** Running drops 4 days → **3 days (Mon long / Wed threshold / Fri VO2)**; **Thu and Sun are permanent full off days**; **Sat becomes lift-only** (the long run moves to Mon). Lifting is unchanged: Tue Hyp A, Sat Hyp B. Effective W17 Mon 2026-08-10 — **W16 runs to completion under v4.3.** Rationale in `program-history.md`.
@@ -47,7 +47,7 @@ Running > everything. When goals conflict (e.g. lift volume vs run quality), run
 | **Base** | W5–W12 | Jun 2 – Jul 27 | Aerobic capacity, mileage build, weekly threshold | 14 → 24 mpw | 2 | Hill strides 1×/wk *(ran W6–W10; removed from the program 2026-08-10, Adj #255)* |
 | **Build** | W13–W20 | Jul 13 – Sep 6 | Add VO2max intervals; polarized; +2 wks (1 load + 1 deload) per Adj #204 | W13–W16 23 → 28 mpw (4-run, v4.3); **W17–W20 ~20 mpw peak (3-run, v4.4)** | 2 | **None programmed from 2026-08-10 (Adj #255).** Optional B-stance hip thrust, reverse Nordic, Spanish squat remain available (§3.C) |
 | **Sharpen** | W21–W24 | Sep 7 – Oct 4 | Race-pace specificity | **~18 mpw (~14 deload W24)** | 2 (reduced volume) | **None programmed**; maintain any §3.C add taken; **no new exercises** |
-| **Taper** | W25–W27 | Oct 5 – Oct 24 | Volume cut 30 → 55%, intensity preserved | **~16 → ~13 → ~13 incl. race** | 1 (W25 only) | Seated calf 1×/wk only |
+| **Taper** | W25–W27 | Oct 5 – Oct 24 | Volume cut 30 → 55%, intensity preserved | **~16 → ~13 → ~13 incl. race** | 2 half-volume (W25–W26); 1 light upper (W27 Tue) | Seated calf 1×/wk only |
 
 > **v4.3 mileage reshape (2026-06-08):** peak mileage cut 38 → 28 mpw; quality sessions unchanged. Rationale in `program-history.md`.
 
@@ -102,8 +102,10 @@ Three runs per week holds through the taper; Thu and Sun stay off. **Race week (
 | **Wed** | T session 3×1 mi | VO2max 5×3 min | 15–20 min EZ + 4×200m @ goal pace |
 | **Fri** | Race-pace 5×600m @ 5K pace | Race-pace primer 3×800m @ 5K pace | 12 min shakeout + 4 strides *(race-week priming — kept, see note)* |
 | **Sat** | Half-volume Hypertrophy B (lift only) | None | **RACE — sub-21:30** |
-| Lift | Tue: 1 top set incline @ ~75% × 3, no accessories. Sat: half-volume hypertrophy B | None | None |
+| Lift | Tue: half-volume Hyp A (incline 1×3 @ ~75% TM). Sat: half-volume Hyp B (last calf dose) | Tue + Sat: half-volume Hyp A / Hyp B, working loads, RIR 2–3, **no calves** | Tue only: light upper, 1 set/exercise, RIR 3+. Nothing after Tue |
 | Lower-body NM | None (Adj #255) | None; seated calf 1× (Sat W25 was the last) | None |
+
+*Taper lifting revised 2026-10-05 (v4.7, Adj #408) — rationale in program-history.md.*
 
 *Taper note: W27's Mon/Wed/Fri/Sat layout is **race-anchored** to Sat Oct 24. It keeps Thu and Sun off per v4.4 and holds three pre-race runs; the race is the fourth session and is not counted against the three-run rule. Finalize exact day placement at taper.*
 
@@ -267,8 +269,9 @@ See §2.C above. Race day Sat Oct 24:
 | Base (W5–W12) | Tue | 3×5 @ TM. Every 4 wks: 1×5 @ TM + 1×AMRAP @ 80% (test set) → set new TM at 90% of e1RM | Linear progression continues; expect TM 175–185 by W12 |
 | Build (W13–W20) | Tue | 1×5 @ TM + 1×AMRAP @ 80% | Single top + back-off; preserves stimulus without burning the lift day |
 | Sharpen (W21–W24) | Tue | 1×5 @ TM, no AMRAP, no PR attempts | Maintenance |
-| Taper W25 | 1×3 @ 75% Tue, then stop until post-race | — |
-| Taper W26–W27 | None | — |
+| Taper W25 | Tue | 1×3 @ ~75% TM (125), inside half-volume Hyp A |
+| Taper W26 | Tue | 1×3 @ working, RIR 2–3, inside half-volume Hyp A |
+| Taper W27 | Tue | Light upper only, 1 set, RIR 3+ — then stop until post-race (v4.7, Adj #408) |
 
 **Progression rule:** all reps clean at prescribed RPE → +5 lb next session. Miss → repeat. Two misses → cut TM 5–7%.
 
