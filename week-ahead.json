@@ -1,57 +1,57 @@
 {
-  "generatedAt": "2026-10-03T20:45:00-04:00",
-  "week": "W24",
-  "phase": "Sharpen",
-  "summary": "W24 Sharpen deload closed — ~15.5 mi, all quality on pace (Adj #404/#405). Race shoe decided: Vomero Plus (Adj #405). Sun off; Taper W25 (§2.C) opens Mon 10/5.",
+  "generatedAt": "2026-10-05T02:15:00-04:00",
+  "week": "W25",
+  "phase": "Taper",
+  "summary": "Taper W25 — run volume -30% (~16 mi), intensity preserved (§2.C). Mon long 50, Wed T 3×1 mi, Fri 5×600m @ 5K pace; Tue incline 1×3 @ ~75% only, Sat half-vol Hyp B with the macrocycle's last calf dose. Race Sat 10/24 in Vomero Plus (Adj #405).",
   "days": [
     {
-      "date": "2026-09-28",
+      "date": "2026-10-05",
       "day": "Mon",
-      "session": "Long 50 min Z1 (deload, section 4.E)",
-      "note": "Logged -- 5.28 mi 9:27/mi RPE very easy; Achilles clean 4th consecutive (Adj #400)",
-      "status": "done"
+      "session": "Long 50 min Z1 (§2.C W25)",
+      "note": "Easy band 9:15-10:30/mi, conversational",
+      "status": "today"
     },
     {
-      "date": "2026-09-29",
+      "date": "2026-10-06",
       "day": "Tue",
-      "session": "Hyp A (Sharpen deload, section 3.A)",
-      "note": "Logged -- deload 80%, all RIR 3-5; pushdown 50 + lat 35 landed; chest fly makeup (Adj #401)",
-      "status": "done"
+      "session": "Incline 1×3 @ ~75% TM, no accessories (§2.C, §5)",
+      "note": "~125 lb (75% of TM 168); last lift before post-race except Sat",
+      "status": "upcoming"
     },
     {
-      "date": "2026-09-30",
+      "date": "2026-10-07",
       "day": "Wed",
-      "session": "3x1 K @ 5K pace, 90 s rec (section 4.E W24)",
-      "note": "Not run — 3×1K moved to Fri (Adj #402)",
-      "status": "done"
+      "session": "T 3×1 mi (§2.C W25)",
+      "note": "T 7:40-7:45/mi RPE ≤7",
+      "status": "upcoming"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-08",
       "day": "Thu",
-      "session": "Hyp B (moved from Sat, §3.B deload)",
-      "note": "Logged — deload ~80%, RIR 3–5; all working loads hold; calf sweep 300 (Adj #403)",
-      "status": "done"
+      "session": "Off / mobility",
+      "note": "Permanent full rest (v4.4, Adj #244)",
+      "status": "upcoming"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-09",
       "day": "Fri",
-      "session": "3×1K @ 5K pace, 90 s rec (moved from Wed, §4.E W24)",
-      "note": "Logged — 7:12/7:12/7:11 RPE 6/7/8; Achilles clean 5th at ~24 h (Adj #404)",
-      "status": "done"
+      "session": "Race-pace 5×600m @ 5K pace (§2.C W25)",
+      "note": "5K pace 7:12-7:20/mi",
+      "status": "upcoming"
     },
     {
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "day": "Sat",
-      "session": "5×3 min @ I, 2 min rec (moved from Fri, §4.E W24)",
-      "note": "Logged — 7:00 avg RPE 6-8; race shoe → Vomero Plus (Adj #405)",
-      "status": "done"
+      "session": "Half-volume Hyp B (§2.C W25)",
+      "note": "Preacher 65 / pushdown 50 first full tests; last calf dose (Adj #403/#404)",
+      "status": "upcoming"
     },
     {
-      "date": "2026-10-04",
+      "date": "2026-10-11",
       "day": "Sun",
       "session": "Off / SI prehab",
       "note": "Permanent full rest (v4.4, Adj #244)",
-      "status": "today"
+      "status": "upcoming"
     }
   ]
 }

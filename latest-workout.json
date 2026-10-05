@@ -1,27 +1,23 @@
 {
-  "generatedAt": "2026-10-02T20:20:00-04:00",
-  "week": "W24",
-  "day": "Sat",
-  "date": "2026-10-03",
-  "phase": "Sharpen",
-  "sessionName": "5x3 min @ I, 2 min rec (moved from Fri)",
-  "intro": [
-    "Vaporfly today — the Adj #389 R/I touch: clicks → race in Vaporfly; feels off → Vomero Plus. Achilles read Sun AM (Adj #34/#113)."
-  ],
+  "generatedAt": "2026-10-05T02:15:00-04:00",
+  "week": "W25",
+  "day": "Mon",
+  "date": "2026-10-05",
+  "phase": "Taper",
+  "sessionName": "Long 50 min Z1 (section 2.C W25)",
+  "intro": [],
   "lift": null,
   "cardio": {
     "flags": [],
-    "workout": "5x3 min @ I (2 min jog rec) -- if treadmill, 1% (Adj #177)",
+    "workout": "50 min continuous Z1, conversational",
     "targets": {
-      "pace": "7:00-7:15/mi",
+      "pace": "9:15-10:30/mi",
       "hr": "display-only",
-      "cadence": "175-182 spm"
+      "cadence": "165-172 spm"
     },
-    "warmup": "1.0 mi easy 9:15-10:30/mi (RPE 4-5, 165-172 spm), last 2 min build to I pace",
-    "cooldown": "1.0 mi easy 9:15-10:30/mi (165-172 spm) + SI prehab",
-    "cues": [
-      "Hold 7:00-7:15, no faster -- ~24 h after Fri 3x1K (Adj #402)"
-    ]
+    "warmup": "5 min easy walk-jog 10:00-10:30/mi, 165-172 spm",
+    "cooldown": "3-5 min easy jog/walk 10:00+/mi + SI prehab",
+    "cues": []
   },
   "currentLoads": [
     {
