@@ -82,4 +82,4 @@ Current week only — completed weeks live in `history/weekly-summary.md` (W13+)
 
 |Wk|Mon|Tue|Wed|Thu|Fri|Sat|Status|
 |---|---|---|---|---|---|---|---|
-|W25 (Taper, §2.C)|—|—|—|—|—|—|in progress|
+|W25 (Taper, §2.C)|✓ Long 10/5 (5.82 mi ~9:08/mi RPE 3–4; Adj #409)|—|—|—|—|—|in progress|
