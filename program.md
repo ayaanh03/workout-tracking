@@ -102,7 +102,7 @@ Three runs per week holds through the taper; Thu and Sun stay off. **Race week (
 | **Wed** | T session 3×1 mi | VO2max 5×3 min | 15–20 min EZ + 4×200m @ goal pace |
 | **Fri** | Race-pace 5×600m @ 5K pace | Race-pace primer 3×800m @ 5K pace | 12 min shakeout + 4 strides *(race-week priming — kept, see note)* |
 | **Sat** | Half-volume Hypertrophy B (lift only) | None | **RACE — sub-21:30** |
-| Lift | Tue: half-volume Hyp A (incline 1×3 @ ~75% TM). Sat: half-volume Hyp B (last calf dose) | Tue + Sat: half-volume Hyp A / Hyp B, working loads, RIR 2–3, **no calves** | Tue only: light upper, 1 set/exercise, RIR 3+. Nothing after Tue |
+| Lift | Tue: half-volume Hyp A (incline 1×3 @ working 160). Sat: half-volume Hyp B (last calf dose) | Tue + Sat: half-volume Hyp A / Hyp B, working loads, RIR 2–3, **no calves** | Tue only: light upper, 1 set/exercise, RIR 3+. Nothing after Tue |
 | Lower-body NM | None (Adj #255) | None; seated calf 1× (Sat W25 was the last) | None |
 
 *Taper lifting revised 2026-10-05 (v4.7, Adj #408) — rationale in program-history.md.*
@@ -269,7 +269,7 @@ See §2.C above. Race day Sat Oct 24:
 | Base (W5–W12) | Tue | 3×5 @ TM. Every 4 wks: 1×5 @ TM + 1×AMRAP @ 80% (test set) → set new TM at 90% of e1RM | Linear progression continues; expect TM 175–185 by W12 |
 | Build (W13–W20) | Tue | 1×5 @ TM + 1×AMRAP @ 80% | Single top + back-off; preserves stimulus without burning the lift day |
 | Sharpen (W21–W24) | Tue | 1×5 @ TM, no AMRAP, no PR attempts | Maintenance |
-| Taper W25 | Tue | 1×3 @ ~75% TM (125), inside half-volume Hyp A |
+| Taper W25 | Tue | 1×3 @ working (160), RIR 2–3, inside half-volume Hyp A (Adj #410) |
 | Taper W26 | Tue | 1×3 @ working, RIR 2–3, inside half-volume Hyp A |
 | Taper W27 | Tue | Light upper only, 1 set, RIR 3+ — then stop until post-race (v4.7, Adj #408) |
 

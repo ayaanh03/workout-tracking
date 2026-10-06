@@ -70,7 +70,7 @@ Vaporfly exposures: each first-of-phase gets a next-AM Achilles read (Adj #34/#1
 |Wk|Projected target|Actual|
 |---|---|---|
 |W23 (Sharpen)|1×5 @ 160 (TM maintenance, no AMRAP)|160×5 RIR 1 — third consecutive RIR 1; athlete-rated cleaner. TM 168 stands (Adj #381)|
-|W24 (Sharpen deload)|1×5 @ 130 (deload, 80% of 160)|130×5 RIR 4 — deload. Working 160/TM 168 unchanged (Adj #401)|
+|W25 (Taper)|1×3 @ 160 (working, RIR 2–3; Adj #410)|—|
 
 *Forecast only — current load always comes from Current Working Loads above. Full meso history in `history/incline-bb.md`.*
 

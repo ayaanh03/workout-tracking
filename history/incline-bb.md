@@ -22,3 +22,4 @@
 |W22 (Sharpen)|1×5 @ 160 (TM maintenance, no AMRAP)|160×5 RIR 1 — matches W21 exactly. TM 168 stands (Adj #312/#340)|
 |W23 (Sharpen)|1×5 @ 160 (TM maintenance, no AMRAP)|160×5 RIR 1 — third consecutive RIR 1; athlete-rated cleaner than W22. TM 168 stands (Adj #312/#340/#381)|
 |W24 (Sharpen deload)|1×5 @ 130 (deload, 80% of 160)|130×5 RIR 4 — deload. Working 160/TM 168 unchanged (Adj #312/#340/#381/#401)|
+|W25 (Taper)|1×3 @ 160 (working, RIR 2–3; v4.7, Adj #410)||
