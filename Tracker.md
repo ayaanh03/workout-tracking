@@ -82,4 +82,4 @@ Current week only — completed weeks live in `history/weekly-summary.md` (W13+)
 
 |Wk|Mon|Tue|Wed|Thu|Fri|Sat|Status|
 |---|---|---|---|---|---|---|---|
-|W25 (Taper, §2.C)|✓ Long 10/5 (5.82 mi ~9:08/mi RPE 3–4; Adj #409)|✓ Hyp A 10/6 (half vol; incline 160×3 RIR 1; Adj #411)|—|—|—|—|in progress|
+|W25 (Taper, §2.C)|✓ Long 10/5 (5.82 mi ~9:08/mi RPE 3–4; Adj #409)|✓ Hyp A 10/6 (half vol; incline 160×3 RIR 1; Adj #411)|✓ T 3×1 mi 10/7 (7:25/7:27/7:34 RPE 7; Adj #412)|—|—|—|in progress|

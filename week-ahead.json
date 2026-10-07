@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T19:10:00-04:00",
+  "generatedAt": "2026-10-07T19:35:00-04:00",
   "week": "W25",
   "phase": "Taper",
   "summary": "Taper W25 — run volume -30% (~16 mi), intensity preserved (§2.C). Mon long 50, Wed T 3×1 mi, Fri 5×600m @ 5K pace. Lifting kept at half volume through W26 (v4.7, Adj #408): Tue Hyp A, Sat Hyp B with the last calf dose. Race Sat 10/24 in Vomero Plus (Adj #405).",
@@ -22,15 +22,15 @@
       "date": "2026-10-07",
       "day": "Wed",
       "session": "T 3×1 mi (§2.C W25)",
-      "note": "T 7:40-7:45/mi RPE ≤7",
-      "status": "today"
+      "note": "Logged — 7:25/7:27/7:34 at RPE 7, faster than the 7:40-7:45 band (Adj #412)",
+      "status": "done"
     },
     {
       "date": "2026-10-08",
       "day": "Thu",
       "session": "Off / mobility",
       "note": "Permanent full rest (v4.4, Adj #244)",
-      "status": "upcoming"
+      "status": "today"
     },
     {
       "date": "2026-10-09",
