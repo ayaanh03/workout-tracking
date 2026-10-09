@@ -10,6 +10,7 @@
   "cardio": {
     "flags": [],
     "workout": "5x600m @ 2:35-2:41 per rep, 90 s jog rec -- if treadmill, 1% (Adj #177)",
+    "workoutFile": "runs/2026-10-09.workout",
     "targets": {
       "pace": "6:55-7:12/mi",
       "hr": "display-only",

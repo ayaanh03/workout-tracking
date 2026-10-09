@@ -1,0 +1,7 @@
+# W25 Fri 2026-10-09 — 5x600m @ 6:55-7:12/mi (§2.C W25, Adj #413)
+name: W25 Fri 5x600m
+warmup: 1mi @ 9:15-10:30/mi
+repeat 5
+  work: 600m @ current 6:55-7:12/mi
+  recovery: 1:30
+cooldown: 1mi @ 9:15-10:30/mi
