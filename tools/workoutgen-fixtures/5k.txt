@@ -1,0 +1,4 @@
+name: 5K
+warmup: open
+work: 3.11mi @ 7:00/mi
+cooldown: open

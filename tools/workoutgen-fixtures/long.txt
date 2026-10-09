@@ -1,0 +1,4 @@
+name: Long
+warmup: 5:00
+work: 50:00 @ 9:10-10:30/mi
+cooldown: 5:00

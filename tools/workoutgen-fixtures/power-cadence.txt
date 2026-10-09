@@ -1,0 +1,13 @@
+name: 2 work
+warmup: open
+work: 2.01km
+work: 7:03
+recovery: open
+recovery: 0.25mi
+recovery: 5min
+work: open
+work: 4.24mi @ current 7:00/mi
+work: 0.25mi @ 120-150bpm
+work: 0.25mi @ 170spm
+work: 0.25mi @ 200-205w
+cooldown: open

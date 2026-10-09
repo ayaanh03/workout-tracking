@@ -1,0 +1,7 @@
+name: New Custom Workout
+work: open @ zone 1
+work: open @ zone 2
+work: open @ zone 3
+work: open @ zone 4
+work: open @ zone 5
+work: open @ 130-150bpm
