@@ -6,7 +6,8 @@ Four markdown files + a tiny read-only dash, all driven by Claude Code chats. No
 - **`program-history.md`** — chronological rationale for *why* the prescription changed (template revisions, mileage reshapes). `program.md` points here instead of carrying the prose inline.
 - **`Tracker.md`** — lean, **current** state only: status, current working loads, active flags, shoe rotation, latest Incline BB row, latest Weekly Summary row. The record of what's true right now.
 - **`history/`** — everything historical, one append-only file per stream (adjustments ledger, lifting log, cardio log, SI log, weekly summaries, incline-BB meso table). Live files hold the current phase; completed phases sit verbatim in `history/archive/`. `Tracker.md` cites an Adj # or week; the detail lives here. (`Tracker-history.md` is a pointer stub left over from the pre-split layout.)
-- **`index.html`** — a static, mobile-friendly view of today's brief + the week ahead. Renders `latest-workout.json` and `week-ahead.json`, both written by Claude.
+- **`index.html`** — a static, mobile-friendly view of today's brief + the week ahead. Renders `latest-workout.json` and `week-ahead.json`, both written by Claude. Run days get an **Add to Apple Watch** button; lift days get a **Log lift** form.
+- **`runs/`** — the day's run as an Apple Watch workout (`.workout`), built by `tools/workoutgen.py` from a small text spec.
 
 `CLAUDE.md` tells Claude how to behave in this repo.
 
@@ -20,7 +21,9 @@ Four markdown files + a tiny read-only dash, all driven by Claude Code chats. No
 
 Claude reads the two **lean** files — `program.md` + `Tracker.md` — figures out the week / phase / day, applies current working loads and any active flags, and outputs a tight brief: intro line, lift table (sets × reps × load × RIR × rest × cue), warmup, cooldown. Cardio gets its own block — flags, workout, targets, cues. The history files aren't needed to generate a brief.
 
-**Post-session:** dump what you did.
+On run days the brief also builds `runs/{date}.workout` — tap **Add to Apple Watch** on the dash (or open the file Claude sends) and it lands in the Workout app with the warmup, reps, recoveries and pace alerts already set.
+
+**Post-session:** dump what you did — or on lift days fill in the **Log lift** card on the dash (loads prefilled from the prescription, targets shown as placeholders, **Fill targets** for sets that went to plan) and tap **Copy for Claude**.
 
 > "Hyp A done. Incline 135×5/5/5 RIR 3/2/2. Lat raise 25×12 across RIR 3. Preacher 50×10 across RIR 4/3/2. Pushdown 50×12 across RIR 4/3/2…"
 
@@ -57,7 +60,10 @@ Full current prescription in `program.md`; why it changed in `program-history.md
 | `Tracker.md` | Lean, current state: status, current loads, active flags, shoe rotation, latest forecast/summary rows |
 | `history/` | Full Adjustments ledger, lifting/cardio/SI logs, weekly summaries — live files = current phase, older phases in `history/archive/` |
 | `Tracker-history.md` | Pointer stub mapping the old single-file layout to `history/` |
-| `index.html` | Read-only dash — fetches the two JSON caches and renders them |
+| `index.html` | Dash — renders the two JSON caches; Add to Apple Watch link + Log lift form |
+| `runs/` | Per-day Apple Watch run workouts (`.txt` spec + built `.workout`) |
+| `tools/workoutgen.py` | Builds/decodes Workout app `.workout` files (stdlib only) |
+| `tools/test_workoutgen.py` | Regression test against real app exports in `tools/workoutgen-fixtures/` |
 | `latest-workout.json` | Cached daily brief (written by Claude each morning) |
 | `week-ahead.json` | Cached 7-day glance for the current program week (written by Claude) |
 | `CLAUDE.md` | Behavior instructions for Claude Code |
