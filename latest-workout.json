@@ -1,23 +1,25 @@
 {
-  "generatedAt": "2026-10-07T16:06:00-04:00",
+  "generatedAt": "2026-10-09T00:50:00-04:00",
   "week": "W25",
-  "day": "Wed",
-  "date": "2026-10-07",
+  "day": "Fri",
+  "date": "2026-10-09",
   "phase": "Taper",
-  "sessionName": "T 3x1 mi (section 2.C W25)",
+  "sessionName": "5x600m @ 5K pace (section 2.C W25)",
   "intro": [],
   "lift": null,
   "cardio": {
     "flags": [],
-    "workout": "3x1 mi @ T, 90 s jog rec -- if treadmill, 1% (Adj #177)",
+    "workout": "5x600m @ 5K pace (2:41-2:44 per rep), 90 s jog rec -- if treadmill, 1% (Adj #177)",
     "targets": {
-      "pace": "7:40-7:45/mi (RPE <=7)",
+      "pace": "7:12-7:20/mi",
       "hr": "display-only",
       "cadence": "175-182 spm"
     },
-    "warmup": "1.0 mi easy 9:15-10:30/mi (165-172 spm), last 2 min build to T pace",
+    "warmup": "1.0 mi easy 9:15-10:30/mi (165-172 spm), last 2 min build to 5K pace",
     "cooldown": "1.0 mi easy 9:15-10:30/mi (165-172 spm) + SI prehab",
-    "cues": []
+    "cues": [
+      "Hold 7:12-7:20; no faster -- last three runs ran faster than band (Adj #412)"
+    ]
   },
   "currentLoads": [
     {
