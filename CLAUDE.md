@@ -1,6 +1,6 @@
 # CLAUDE.md — Workout Tracking via Claude Code
 
-This repo is a training system driven by Claude Code chats — two lean files (`program.md`, `Tracker.md`), per-stream history files under `history/`, and two JSON caches. No app, no UI.
+This repo is a training system driven by Claude Code chats — two lean files (`program.md`, `Tracker.md`), per-stream history files under `history/`, two JSON caches, Apple Watch run files under `runs/`, and a static dash (`index.html`) with a lift-logging form.
 
 - `program.md` — **lean, current prescription only.** The 25-week Sub-20 5K + hypertrophy program: macrocycle table, weekly template, phase-by-phase run progression, lift circuits, strength progression, rules (SI, tennis elbow, autoregulation), quick reference. Source of truth for what's *prescribed right now*. Historical rationale for why the prescription changed lives in `program-history.md`, cited via a one-line pointer at each revision point.
 - `program-history.md` — **everything historical for the program side.** Chronological changelog of *why* the prescription changed (template revisions, mileage reshapes, etc.), newest at the bottom, ordered by date. `program.md` never holds this prose — it only holds short pointers into this file.
@@ -8,6 +8,8 @@ This repo is a training system driven by Claude Code chats — two lean files (`
 - `history/` — **everything historical for the tracker side, one append-only file per stream; live files hold the current phase, trimmed by the ~40 KB backstop:** `history/adjustments.md` (the numbered ledger, **Adj #406+** — #164–#253 rotated to `archive/adjustments-164-253.md` 2026-08-12, Adj #272; #254–#282 rotated to `archive/adjustments-254-282.md` 2026-08-19, Adj #295; #283–#308 rotated to `archive/adjustments-283-308.md` 2026-08-24, Adj #311; #309–#346 rotated to `archive/adjustments-309-346.md` 2026-09-07, Adj #347; #347–#405 rotated to `archive/adjustments-347-405.md` 2026-10-03, Adj #406), `history/lifting-log.md` (**W25+** — W13–W16 rotated to `archive/lifting-log-W13-W16.md`, same pass; W17 rotated to `archive/lifting-log-W17.md` 2026-08-26, Adj #319; W18–W24 rotated to `archive/lifting-log-W18-W24.md` 2026-10-03, Adj #406), `history/cardio-log.md` (**W25+** — W13–W16 plus the 5K/3K TT detail entries rotated to `archive/cardio-log-W13-W16.md` 2026-08-26, Adj #326; W17–W24 to `archive/cardio-log-W17-W24.md` 2026-10-03, Adj #406), SI log and weekly summary W13–W24 to `archive/si-log-W13-W24.md` / `archive/weekly-summary-W13-W24.md` (Adj #406), `history/si-log.md`, `history/weekly-summary.md` (completed weeks), `history/incline-bb.md` (current meso, whole). Every live file's append point is **end of file**. Completed phases live verbatim in `history/archive/`. `Tracker.md` cites an Adj # or week; to resolve a cited Adj #N: `grep -rn '^N\. ' history/` — **never read a history file in full.**
 - `Tracker-history.md` — **pointer stub only** (kept because hundreds of immutable old entries cite it by name; it maps old sections to their new homes). Never append here.
 - `latest-workout.json` — machine-readable cache of today's brief. Rendered by `index.html` (GitHub Pages) for at-the-gym viewing.
+- `runs/` — one Apple Watch workout per run day: `{YYYY-MM-DD}.txt` (spec) + `{YYYY-MM-DD}.workout` (built). Built by `tools/workoutgen.py`; see "Apple Watch run file" below.
+- `index.html` also has a **Log lift** form (prefilled from `latest-workout.json`) that produces the post-session dump — see "Logging the session".
 - `week-ahead.json` — machine-readable cache of the current program week (7-day glance). Also rendered by `index.html`.
 
 Each day has two interactions:
@@ -15,7 +17,7 @@ Each day has two interactions:
 1. **Morning** — user asks for today's workout. You read the two **lean** files (`program.md` + `Tracker.md`) in full — the history files are not needed to generate a brief. Output the brief in chat, write `latest-workout.json` + (when needed) `week-ahead.json`, then commit + push so the dash reflects the new brief.
 2. **Post-session** — user dumps what they did. You append the structured session entry to the matching **`history/` files** (lifting-log / cardio-log / si-log / adjustments), then update `Tracker.md`'s current-state sections (Current Working Loads, Active Flags, latest Incline BB row, current Weekly Summary row) to match, regenerate the affected JSON caches, commit, and push.
 
-The conversation IS the interface for input; the dash is the read-only output surface at the gym. Be terse. Tables over prose. Numbers over adjectives. No emoji, no encouragement, no "let me know how it goes".
+The conversation IS the interface for input; the dash is the output surface at the gym (plus the Log lift form, which only formats a dump for the athlete to paste here — it never writes to the repo). Be terse. Tables over prose. Numbers over adjectives. No emoji, no encouragement, no "let me know how it goes".
 
 > **TIME ZONE — always operate in US Eastern (America/New_York, EST/EDT).** The athlete trains on Eastern time. The system-context date may be UTC and can be a calendar day *ahead* in the evening (e.g. UTC shows Friday while it is still Thursday night ET). **Before resolving today's date or day-of-week, convert the system timestamp to America/New_York and use that.** When in doubt, derive ET explicitly (e.g. `TZ="America/New_York" date "+%Y-%m-%d %A"`) rather than trusting the raw system date. Every `{YYYY-MM-DD}`, `{Day}`, commit-message date, and JSON `date`/`generatedAt` field uses ET. `generatedAt` carries the ET offset (`-04:00` EDT / `-05:00` EST).
 
@@ -35,8 +37,10 @@ Triggers: "what's today", "today's workout", "workout of the day", "give me the 
 6. Apply any **active flags** from `Tracker.md ## Active Flags` that touch today (bump-eligible loads, ordering rules, exercise subs, paused additions, etc.). If a cited Adj # needs fuller context, grep for it: `grep -rn '^{n}\. ' history/` (hits the live ledger or the archive — don't read either in full).
 7. Output the brief in chat in the exact format below.
 8. **Write `latest-workout.json`** matching the schema in the "JSON caches" section. Include the full current-loads table from Tracker.md so the dash has everything in one fetch.
+8a. **Cardio day with a run → build the Apple Watch file** per "Apple Watch run file" below, and set `cardio.workoutFile`.
 9. **If `week-ahead.json` is stale** (different week than today, or any day's status is wrong relative to current state), regenerate it too.
-10. **Commit & push** the JSON change(s) on the current branch. Commit message: `Cache brief — {YYYY-MM-DD}` (and `+ week-ahead` suffix if both updated). No PR.
+10. **Commit & push** the JSON change(s) — plus `runs/{YYYY-MM-DD}.txt` + `.workout` on run days — on the current branch. Commit message: `Cache brief — {YYYY-MM-DD}` (and `+ week-ahead` suffix if both updated; `+ run file` if a `.workout` was built). No PR.
+11. **Run days: hand over the file.** End the chat brief with one line: `Watch: runs/{YYYY-MM-DD}.workout` (also on the dash as "Add to Apple Watch"). If a file-sending tool is available (e.g. SendUserFile), send the `.workout` too so it opens straight from the phone.
 
 ### Output format (strict)
 
@@ -126,6 +130,24 @@ Each block uses **the modality's own columns**. Cardio days carry pace/HR/cadenc
 - An "ordering" or "off-protocol" Adjustment that touches today (e.g. Adj #16 "restore run AM, lift PM ≥6h gap") → surface in the top flag line.
 - A "hold-until-clean" Adjustment whose testing instance is today → put it in **Notes** and state what "clean" means here (e.g. "clean RIR 2 on set 3 → bump-eligible next").
 
+### Apple Watch run file
+
+Every run brief also becomes a `.workout` file the iPhone Workout app imports (verified on-device 2026-10-09). `tools/workoutgen.py` is a dependency-free encoder for the app's format; its docstring has the spec syntax. Running/outdoor only.
+
+1. Write `runs/{YYYY-MM-DD}.txt` from the brief's Warmup / Work / Cooldown tables:
+   - `name:` `{Wk} {Day} {short session}` — ≤ 24 chars (e.g. `W25 Fri 5x600m`). First line a `#` comment with the full session name + § / Adj cite.
+   - **Goals** mirror the brief: distance (`1mi`, `600m`, `2km`) when prescribed by distance, time (`5:00`, `50:00`) when by time; `open` only if the brief has no number.
+   - **Alerts — pace only** (HR and power are display-only, Adj #175 / #251). One alert per step:
+     - Quality reps (T / I / R / race pace / strides): `@ current {fast}-{slow}/mi` using the rep band.
+     - Easy / Z1 / long / WU / CD: `@ {fast}-{slow}/mi` (average pace) with the easy band.
+     - Recoveries / jog rest: no alert.
+   - Repeats → `repeat N` with the rep + recovery indented. A WU "build" or other unquantified nuance stays in the brief, not the file.
+   - A single-value pace in the brief → use the band from Tracker.md's pace bands, not a made-up range.
+2. Build: `python3 tools/workoutgen.py build runs/{YYYY-MM-DD}.txt` → `runs/{YYYY-MM-DD}.workout`. Never hand-edit a `.workout`.
+3. Set `latest-workout.json` → `cardio.workoutFile: "runs/{YYYY-MM-DD}.workout"`.
+4. **Skip the file** (set `workoutFile: null`) on row / bike / treadmill-only sessions — indoor and non-running types aren't mapped yet. A run with an "if treadmill" fallback still gets the outdoor file.
+5. If the script rejects something ("hasn't been seen in a real export yet"), drop that alert from the file rather than guessing, and tell the athlete which app export would unlock it. Each verified variant is a fixture in `tools/workoutgen-fixtures/`; after any change to the script run `python3 tools/test_workoutgen.py` (must be all `ok`).
+
 ---
 
 ## Logging the session
@@ -135,6 +157,15 @@ Triggers: user reports what they did — could be a structured dump, a paragraph
 ### Steps
 
 1. **Parse** exercise-by-exercise, set-by-set.
+   - **Dash-form dumps** (from the Log lift card in `index.html`) arrive as:
+     ```
+     Log W26 Tue 2026-10-13 — Hypertrophy A
+     Incline BB: 160×3 RIR 1
+     DB lateral raise: 35×12 RIR 2 / 35×12 RIR 2 / 35×12 RIR 1
+     Preacher curl machine: skipped
+     Notes: ...
+     ```
+     One line per exercise, sets separated by ` / ` as `{load}×{reps} RIR {rir}`; `skipped` = not done; `n/r` = not recorded; `?` load = athlete left it blank. The header carries week/day/date/session — use it, don't re-derive. Same step 1a rules apply (prompt once for missing numbers on bump-relevant lifts).
 1a. **Default-fill context, prompt for numbers (Adj #188/#190, athlete directives 2026-07-19).** Log from the dump without interrogating over context — but do collect missing metrics:
    - **No-news-is-clean:** SI / tendon / pain status not mentioned logs as clean — including AM-read and pain-gated conditions. The athlete reports exceptions, not confirmations; an unmentioned gate reads as passed. Never ask about status.
    - **Fed** assumed unless stated. **Shoe / surface / WU / CD** assumed to match the last comparable session or the prescription. Never ask about these either.
@@ -252,7 +283,8 @@ One file, overwritten each morning. The dash renders sections only if present, s
     "targets": { "pace": "7:55–8:10/mi", "hr": "...", "cadence": "175–182 spm" },
     "warmup": "1.0–1.5 mi easy build to T pace",
     "cooldown": "1.0 mi easy / Z1",
-    "cues": ["...", "..."]
+    "cues": ["...", "..."],
+    "workoutFile": "runs/2026-05-20.workout"
   },
   "currentLoads": [
     { "exercise": "Incline BB", "load": "135 working / TM 165", "lastVerified": "W5 Tue 5/19", "note": "..." }
@@ -264,6 +296,7 @@ Rules:
 - Strings only — no markdown formatting in field values (the dash renders plain text).
 - Keep the JSON as lean as the chat brief. `intro` holds at most the one top-flag line (`[]` if nothing material). `cues` and `flags` are `[]` unless a cue/flag is genuinely important — don't pad them. The dash renders these only when non-empty.
 - `currentLoads` mirrors `Tracker.md ## Current Working Loads` row-for-row (Exercise, Load, Last verified, Note) at the time of generation.
+- `cardio.workoutFile` = repo-relative path of today's built `.workout` (see "Apple Watch run file"), or `null` when none was built. The dash shows it as an "Add to Apple Watch" button.
 - On lift days `lift.lastWeek` is required (Adj #224): `label` = the source session + date (same-slot — last Hyp A for a Hyp A brief, last Hyp B for Hyp B), `table` = one row per exercise with the actuals (load, reps per set, RIR per set; "n/r" where unrecorded, "first exposure" for a new exercise). The dash renders it as a muted table below the work table.
 
 ### `week-ahead.json`

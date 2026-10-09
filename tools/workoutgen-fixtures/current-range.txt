@@ -1,0 +1,6 @@
+name: 10/03
+warmup: open
+repeat 5
+  work: 3:00 @ current 7:00-7:20/mi
+  recovery: 2:00
+cooldown: open

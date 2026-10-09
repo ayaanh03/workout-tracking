@@ -1,0 +1,6 @@
+name: 10/07
+warmup: open
+repeat 3
+  work: 1mi @ 7:40/mi
+  recovery: 1:30
+cooldown: open
