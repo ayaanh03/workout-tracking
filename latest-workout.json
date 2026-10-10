@@ -1,27 +1,137 @@
 {
-  "generatedAt": "2026-10-09T01:00:00-04:00",
+  "generatedAt": "2026-10-10T11:10:00-04:00",
   "week": "W25",
-  "day": "Fri",
-  "date": "2026-10-09",
+  "day": "Sat",
+  "date": "2026-10-10",
   "phase": "Taper",
-  "sessionName": "5x600m @ 6:55-7:12/mi (section 2.C W25, Adj #413)",
-  "intro": [],
-  "lift": null,
-  "cardio": {
-    "flags": [],
-    "workout": "5x600m @ 2:35-2:41 per rep, 90 s jog rec -- if treadmill, 1% (Adj #177)",
-    "workoutFile": "runs/2026-10-09.workout",
-    "targets": {
-      "pace": "6:55-7:12/mi",
-      "hr": "display-only",
-      "cadence": "175-182 spm"
+  "sessionName": "Hyp B half volume (v4.7, Adj #408)",
+  "intro": [
+    "Taper half volume: working loads, stop every set at RIR 2-3 even if short of the rep target -- no gate tests (Adj #408/#411)."
+  ],
+  "lift": {
+    "table": [
+      {
+        "exercise": "Lat pulldown, neutral",
+        "setsReps": "2×8",
+        "load": "170",
+        "rir": "2-3",
+        "rest": "90-120 s",
+        "cue": ""
+      },
+      {
+        "exercise": "Chest-supp row",
+        "setsReps": "2×10",
+        "load": "80",
+        "rir": "2-3",
+        "rest": "90-120 s",
+        "cue": ""
+      },
+      {
+        "exercise": "DB lateral raise",
+        "setsReps": "2×12-15",
+        "load": "40",
+        "rir": "2-3",
+        "rest": "60-90 s",
+        "cue": ""
+      },
+      {
+        "exercise": "Preacher curl uni",
+        "setsReps": "2×12",
+        "load": "65/arm",
+        "rir": "2-3",
+        "rest": "60-90 s",
+        "cue": ""
+      },
+      {
+        "exercise": "Cable pushdown, rope",
+        "setsReps": "2×12-15",
+        "load": "50",
+        "rir": "2-3",
+        "rest": "60-90 s",
+        "cue": ""
+      },
+      {
+        "exercise": "Decline crunch",
+        "setsReps": "2×10",
+        "load": "BW",
+        "rir": "2-3",
+        "rest": "60-90 s",
+        "cue": ""
+      },
+      {
+        "exercise": "Seated calf",
+        "setsReps": "2×12-15",
+        "load": "375",
+        "rir": "2-3",
+        "rest": "60-90 s",
+        "cue": ""
+      },
+      {
+        "exercise": "Chest fly",
+        "setsReps": "1×12",
+        "load": "135",
+        "rir": "3",
+        "rest": "60-90 s",
+        "cue": ""
+      }
+    ],
+    "lastWeek": {
+      "label": "Hyp B W24 Thu 10/1 (deload)",
+      "table": [
+        {
+          "exercise": "Lat pulldown, neutral",
+          "load": "135",
+          "reps": "10/10",
+          "rir": "5/5"
+        },
+        {
+          "exercise": "Chest-supp row",
+          "load": "70",
+          "reps": "10/10",
+          "rir": "3/3"
+        },
+        {
+          "exercise": "DB lateral raise",
+          "load": "35",
+          "reps": "15/13",
+          "rir": "3/3"
+        },
+        {
+          "exercise": "Preacher curl uni",
+          "load": "50",
+          "reps": "12/12",
+          "rir": "3/3"
+        },
+        {
+          "exercise": "Cable pushdown, rope",
+          "load": "45",
+          "reps": "12/13",
+          "rir": "3/3"
+        },
+        {
+          "exercise": "Decline crunch",
+          "load": "BW",
+          "reps": "10/10",
+          "rir": "3/3"
+        },
+        {
+          "exercise": "Seated calf",
+          "load": "300",
+          "reps": "12/12",
+          "rir": "3/3"
+        },
+        {
+          "exercise": "Chest fly",
+          "load": "110",
+          "reps": "12",
+          "rir": "3"
+        }
+      ]
     },
-    "warmup": "1.0 mi easy 9:15-10:30/mi (165-172 spm), last 2 min build to rep pace",
-    "cooldown": "1.0 mi easy 9:15-10:30/mi (165-172 spm) + SI prehab",
-    "cues": [
-      "Cap at 2:35 per rep (goal race pace 6:55) -- nothing faster (Adj #413)"
-    ]
+    "warmup": "Wrist-extensor iso 3x30 s/arm (section 8); band pull-aparts + scap push-ups 1-2 min; lat pulldown 1x10 @ ~100.",
+    "cooldown": "Tyler twists 3x15 + reverse Tyler 3x15; SI prehab -- clamshell, side-lying abd, SL bridge, bird-dog, McGill side plank"
   },
+  "cardio": null,
   "currentLoads": [
     {
       "exercise": "Incline BB",
