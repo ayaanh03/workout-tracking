@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T01:00:00-04:00",
+  "generatedAt": "2026-10-09T21:45:00-04:00",
   "week": "W25",
   "phase": "Taper",
   "summary": "Taper W25 — run volume -30% (~16 mi), intensity preserved (§2.C). Mon long 50, Wed T 3×1 mi, Fri 5×600m @ 5K pace. Lifting kept at half volume through W26 (v4.7, Adj #408): Tue Hyp A, Sat Hyp B with the last calf dose. Race Sat 10/24 in Vomero Plus (Adj #405).",
@@ -36,15 +36,15 @@
       "date": "2026-10-09",
       "day": "Fri",
       "session": "Race-pace 5×600m @ 5K pace (§2.C W25)",
-      "note": "2:35-2:41 per 600m (6:55-7:12/mi), cap at goal pace; 90 s jog rec (Adj #413)",
-      "status": "today"
+      "note": "Logged — 5x600m avg 2:33 (~6:50/mi) RPE 7-8; reps 2-5 under the 2:35 cap (Adj #414)",
+      "status": "done"
     },
     {
       "date": "2026-10-10",
       "day": "Sat",
       "session": "Half-volume Hyp B (§2.C W25)",
       "note": "Preacher 65 / pushdown 50 first full tests; last calf dose (Adj #403/#404)",
-      "status": "upcoming"
+      "status": "today"
     },
     {
       "date": "2026-10-11",
