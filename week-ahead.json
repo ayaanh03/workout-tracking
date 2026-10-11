@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-10T11:10:00-04:00",
+  "generatedAt": "2026-10-11T17:40:00-04:00",
   "week": "W25",
   "phase": "Taper",
-  "summary": "Taper W25 — run volume -30% (~16 mi), intensity preserved (§2.C). Mon long 50, Wed T 3×1 mi, Fri 5×600m @ 5K pace. Lifting kept at half volume through W26 (v4.7, Adj #408): Tue Hyp A, Sat Hyp B with the last calf dose. Race Sat 10/24 in Vomero Plus (Adj #405).",
+  "summary": "Taper W25 closed — ~15.3 mi, all three runs on or faster than target (Adj #409/#412/#414); half-volume lifting held every load (Adj #411/#415). Last calf dose Sat; Achilles read Mon 10/12 AM before the 40-min long. Race Sat 10/24 in Vomero Plus (Adj #405).",
   "days": [
     {
       "date": "2026-10-05",
@@ -43,15 +43,15 @@
       "date": "2026-10-10",
       "day": "Sat",
       "session": "Half-volume Hyp B (§2.C W25)",
-      "note": "Half volume at working loads, RIR 2-3, no gate tests; last calf dose (Adj #408/#411)",
-      "status": "today"
+      "note": "Logged — half vol, all rep targets hit; preacher 65x12/12 RIR 3/2; last calf dose (Adj #415)",
+      "status": "done"
     },
     {
       "date": "2026-10-11",
       "day": "Sun",
       "session": "Off / SI prehab",
       "note": "Permanent full rest (v4.4, Adj #244)",
-      "status": "upcoming"
+      "status": "today"
     }
   ]
 }

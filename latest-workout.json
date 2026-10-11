@@ -142,14 +142,14 @@
     {
       "exercise": "Lat pulldown",
       "load": "170 working (athlete directive)",
-      "lastVerified": "W24 Thu 10/1 (deload: 135×10/10 RIR 5/5)",
-      "note": "Adj #371 revert fired but overridden — hold to stop the yoyo. Rebuild toward clean 4×8. No auto-revert (Adj #390)"
+      "lastVerified": "W25 Sat 10/10 (170×8/8 RIR 2/0)",
+      "note": "Hold 170 at half volume through W26; no auto-revert (Adj #390/#415)"
     },
     {
       "exercise": "Chest-supp row",
       "load": "80 working",
-      "lastVerified": "W24 Thu 10/1 (deload: 70×10/10 RIR 3/3)",
-      "note": "Hold. Last full: W23 10/10/8 RIR 2/0/0. 85 gate: full 3×10 + sets 1-2 ≥RIR 1 — double-failed (Adj #394)"
+      "lastVerified": "W25 Sat 10/10 (80×10/10 RIR 2/0)",
+      "note": "Hold 80 at half volume through W26 (Adj #408/#415)"
     },
     {
       "exercise": "DB lateral raise (Tue)",
@@ -160,8 +160,8 @@
     {
       "exercise": "DB lateral raise (Sat)",
       "load": "40 working",
-      "lastVerified": "W24 Thu 10/1 (deload: 35×15/13 RIR 3/3)",
-      "note": "Hold. Last full: W23 clean 4×12. 42.5: clean 4×12 + set 4 ≥RIR 1 (Adj #395)"
+      "lastVerified": "W25 Sat 10/10 (40×12/12 RIR 2/1)",
+      "note": "Hold 40 at half volume through W26 (Adj #408/#415)"
     },
     {
       "exercise": "Preacher curl uni (Tue)",
@@ -172,14 +172,14 @@
     {
       "exercise": "Preacher curl uni (Sat)",
       "load": "65/arm working",
-      "lastVerified": "W24 Thu 10/1 (deload: 50×12/12 RIR 3/3)",
-      "note": "First full test W25 Sat half-vol (Adj #403). Revert at 65: set 3 <12 or <RIR 1 → 60 (Adj #392)"
+      "lastVerified": "W25 Sat 10/10 (65×12/12 RIR 3/2)",
+      "note": "65 holds — first full-weight read clean. Hold at half volume through W26 (Adj #392/#415)"
     },
     {
       "exercise": "Cable pushdown (rope, both-handed)",
       "load": "50 working",
-      "lastVerified": "W25 Tue 10/6 (50×12/12 RIR 3/1)",
-      "note": "Holds at Tue volume (Adj #411). Next: W25 Sat half-vol. Revert at 50: lose 12 floor or last set <RIR 1 → 47.5 (Adj #391)"
+      "lastVerified": "W25 Sat 10/10 (50×12/12 RIR 3/2)",
+      "note": "Holds both slots. Hold 50 at half volume through W26 (Adj #411/#415)"
     },
     {
       "exercise": "Rear-delt fly",
@@ -190,8 +190,8 @@
     {
       "exercise": "Seated calf",
       "load": "375 working",
-      "lastVerified": "W24 Thu 10/1 (deload sweep: 300×12/12 RIR 3/3)",
-      "note": "Achilles-managed, hold 375. Fri 10/2 read clean (5th). Next dose W25 Sat half-vol (Adj #404)"
+      "lastVerified": "W25 Sat 10/10 (375×12/12 RIR 2/1)",
+      "note": "Last dose of the cycle — no calves W26–W27 (v4.7). Achilles read Mon 10/12 AM (Adj #408/#415)"
     },
     {
       "exercise": "Decline crunch (Tue)",
@@ -202,14 +202,14 @@
     {
       "exercise": "Decline crunch (Sat)",
       "load": "BW (reset from +15)",
-      "lastVerified": "W24 Thu 10/1 (BW: 10/10 RIR 3/3)",
-      "note": "Fourth consecutive clean. Hold BW, rebuild (Adj #385/#403)"
+      "lastVerified": "W25 Sat 10/10 (BW: 10/10 RIR 3/3)",
+      "note": "Sixth consecutive clean. Hold BW through the taper (Adj #385/#415)"
     },
     {
       "exercise": "Chest fly",
       "load": "135 working",
-      "lastVerified": "W24 Thu 10/1 (deload: 110×12 RIR 3)",
-      "note": "Joint-health 2×12 RPE 7. Hold (Adj #378)"
+      "lastVerified": "W25 Sat 10/10 (135×12 RIR 3)",
+      "note": "Joint-health slot. Hold 135 at half volume (Adj #378/#415)"
     }
   ]
 }
