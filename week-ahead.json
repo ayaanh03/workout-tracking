@@ -1,57 +1,57 @@
 {
-  "generatedAt": "2026-10-11T17:40:00-04:00",
-  "week": "W25",
+  "generatedAt": "2026-10-12T10:00:00-04:00",
+  "week": "W26",
   "phase": "Taper",
-  "summary": "Taper W25 closed — ~15.3 mi, all three runs on or faster than target (Adj #409/#412/#414); half-volume lifting held every load (Adj #411/#415). Last calf dose Sat; Achilles read Mon 10/12 AM before the 40-min long. Race Sat 10/24 in Vomero Plus (Adj #405).",
+  "summary": "Taper W26 — run volume -45% (~13 mi, §2.C), intensity preserved: Mon long 40, Wed 5×3 min @ I, Fri 3×800m race-pace primer. Lifting half volume Tue/Sat at working loads, RIR 2-3, no calves (v4.7, Adj #408). Achilles read Mon AM after the last calf dose (Adj #415). Race Sat 10/24 in Vomero Plus.",
   "days": [
     {
-      "date": "2026-10-05",
+      "date": "2026-10-12",
       "day": "Mon",
-      "session": "Long 50 min Z1 (§2.C W25)",
-      "note": "Logged — 5.82 mi ~53 min, ~9:08/mi RPE 3–4 (Adj #409)",
-      "status": "done"
+      "session": "Long 40 min Z1 (§2.C W26)",
+      "note": "Achilles AM read before the run (Adj #415)",
+      "status": "today"
     },
     {
-      "date": "2026-10-06",
+      "date": "2026-10-13",
       "day": "Tue",
-      "session": "Hyp A half volume (v4.7, Adj #408)",
-      "note": "Logged — half vol; incline 160×3 RIR 1; all loads hold (Adj #411)",
-      "status": "done"
+      "session": "Hyp A half volume (v4.7)",
+      "note": "Incline 160×3; ~half sets at working loads, stop at RIR 2-3 (Adj #408/#410)",
+      "status": "upcoming"
     },
     {
-      "date": "2026-10-07",
+      "date": "2026-10-14",
       "day": "Wed",
-      "session": "T 3×1 mi (§2.C W25)",
-      "note": "Logged — 7:25/7:27/7:34 at RPE 7, faster than the 7:40-7:45 band (Adj #412)",
-      "status": "done"
+      "session": "VO2max 5×3 min @ I (§2.C W26)",
+      "note": "I-pace 7:00-7:15/mi, RPE 9 (§4.A)",
+      "status": "upcoming"
     },
     {
-      "date": "2026-10-08",
+      "date": "2026-10-15",
       "day": "Thu",
       "session": "Off / mobility",
-      "note": "Off",
-      "status": "done"
+      "note": "Permanent full rest (v4.4, Adj #244)",
+      "status": "upcoming"
     },
     {
-      "date": "2026-10-09",
+      "date": "2026-10-16",
       "day": "Fri",
-      "session": "Race-pace 5×600m @ 5K pace (§2.C W25)",
-      "note": "Logged — 5x600m avg 2:33 (~6:50/mi) RPE 7-8; reps 2-5 under the 2:35 cap (Adj #414)",
-      "status": "done"
+      "session": "Race-pace primer 3×800m @ 5K pace (§2.C W26)",
+      "note": "Band set at the brief: 5K pace vs goal-pace cap (Adj #413/#414)",
+      "status": "upcoming"
     },
     {
-      "date": "2026-10-10",
+      "date": "2026-10-17",
       "day": "Sat",
-      "session": "Half-volume Hyp B (§2.C W25)",
-      "note": "Logged — half vol, all rep targets hit; preacher 65x12/12 RIR 3/2; last calf dose (Adj #415)",
-      "status": "done"
+      "session": "Hyp B half volume, no calves (v4.7)",
+      "note": "Working loads, stop at RIR 2-3; no calves (Adj #408/#415)",
+      "status": "upcoming"
     },
     {
-      "date": "2026-10-11",
+      "date": "2026-10-18",
       "day": "Sun",
       "session": "Off / SI prehab",
       "note": "Permanent full rest (v4.4, Adj #244)",
-      "status": "today"
+      "status": "upcoming"
     }
   ]
 }

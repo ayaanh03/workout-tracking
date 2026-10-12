@@ -1,0 +1,5 @@
+# W26 Mon 2026-10-12 — Long 40 min Z1 (§2.C W26)
+name: W26 Mon Long 40
+warmup: 5:00 @ 9:15-10:30/mi
+work: 40:00 @ 9:15-10:30/mi
+cooldown: 5:00 @ 9:15-10:30/mi
