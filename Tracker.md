@@ -29,7 +29,7 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 |Preacher curl uni (Sat)|65/arm working|W25 Sat 10/10 (65×12/12 RIR 3/2)|65 holds — first full-weight read clean. Hold at half volume through W26 (Adj #392/#415)|
 |Cable pushdown (rope, both-handed)|50 working|W25 Sat 10/10 (50×12/12 RIR 3/2)|Holds both slots. Hold 50 at half volume through W26 (Adj #411/#415)|
 |Rear-delt fly|145 working|W25 Tue 10/6 (145×15 RIR 4)|Hold. Stop at RIR 3 — joint-health slot (Adj #318/#386)|
-|Seated calf|375 working|W25 Sat 10/10 (375×12/12 RIR 2/1)|Last dose of the cycle — no calves W26–W27 (v4.7). Achilles read Mon 10/12 AM (Adj #408/#415)|
+|Seated calf|375 working|W25 Sat 10/10 (375×12/12 RIR 2/1)|Last dose of the cycle — no calves W26–W27 (v4.7). Post-dose read Mon 10/12 clean (Adj #416)|
 |Decline crunch (Tue)|**BW** (reset from +15)|W25 Tue 10/6 (BW: 12/12 RIR 4/4)|Fifth consecutive clean. Hold BW through the taper (Adj #385/#411)|
 |Decline crunch (Sat)|**BW** (reset from +15)|W25 Sat 10/10 (BW: 10/10 RIR 3/3)|Sixth consecutive clean. Hold BW through the taper (Adj #385/#415)|
 |Chest fly|135 working|W25 Sat 10/10 (135×12 RIR 3)|Joint-health slot. Hold 135 at half volume (Adj #378/#415)|
@@ -40,7 +40,7 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 
 Open items that affect the next session. Full rationale in `history/adjustments.md` (live #406+) / `history/archive/` — grep: `grep -rn '^N\. ' history/`.
 
-- **L Achilles:** reactive tendon. 375 holds. Last calf dose of the cycle W25 Sat 10/10 (375×12/12 RIR 2/1) → read **Mon 10/12 AM (~40 h)** before the long (Adj #415). Prior read Fri 10/2 clean — 5th consecutive post-sweep (Adj #404). (Adj #34/#113/#135/#284/#306/#334/#358/#377/#379/#380/#388/#393/#398/#400)
+- **L Achilles:** reactive tendon. 375 holds. Last calf dose W25 Sat 10/10; post-dose read Mon 10/12 CLEAN — 6th consecutive (Adj #416). No calf work remains this cycle (v4.7). (Adj #34/#113/#135/#284/#306/#334/#358/#377/#379/#380/#388/#393/#398/#400)
 - **L lower ab strain (W23 Tue):** decline crunch BW both slots; sixth consecutive clean (W25 Sat). Hold BW through the taper (Adj #385/#415).
 - **Taper lifting (v4.7, Adj #408):** half-volume Hyp A/B W25–W26, working loads, RIR 2–3; no calves from W26 (last dose W25 Sat, Adj #415); W27 Tue light upper only.
 - **Race-pace reps:** W25 Fri 5×600m ran avg 2:33 (~6:50/mi) at RPE 7–8, reps 2–5 under the 2:35 goal-pace cap (Adj #413/#414). Set the band for the W26 Fri / W27 Mon 3×800m at those briefs.
@@ -83,4 +83,4 @@ Current week only — completed weeks live in `history/weekly-summary.md` (W13+)
 
 |Wk|Mon|Tue|Wed|Thu|Fri|Sat|Status|
 |---|---|---|---|---|---|---|---|
-|W26 (Taper, §2.C)|—|—|—|—|—|—|in progress|
+|W26 (Taper, §2.C)|✓ Long 10/12 (5.05 mi, work 9:50/mi RPE 4; Achilles clean; Adj #416)|—|—|—|—|—|in progress|
