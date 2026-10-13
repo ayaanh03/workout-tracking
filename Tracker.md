@@ -20,17 +20,17 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 
 |Exercise|Load|Last verified|Note|
 |---|---|---|---|
-|Incline BB|160 working / TM 168|W25 Tue 10/6 (160×3 RIR 1)|Taper: 1×3 @ 160 each Tue through W26, W27 light (Adj #410/#411). <3 reps = miss #2 → cut TM 5–7% (Adj #381)|
+|Incline BB|160 working / TM 168|W26 Tue 10/13 (160×3 RIR 1)|Full taper sets done. W27 Tue light, 1 set RIR 3+ (Adj #408/#417). <3 reps = miss #2 → cut TM 5–7% (Adj #381)|
 |Lat pulldown|**170 working (athlete directive)**|W25 Sat 10/10 (170×8/8 RIR 2/0)|Hold 170 at half volume through W26; no auto-revert (Adj #390/#415)|
 |Chest-supp row|80 working|W25 Sat 10/10 (80×10/10 RIR 2/0)|Hold 80 at half volume through W26 (Adj #408/#415)|
-|DB lateral raise (Tue)|35 working|W25 Tue 10/6 (35×12/12/12 RIR 3/3/2)|Hold 35 at half volume through W26 (Adj #408/#411)|
+|DB lateral raise (Tue)|35 working|W26 Tue 10/13 (35×12/12/12 RIR 3/3/3)|Hold 35. W27 Tue light, 1 set RIR 3+ (Adj #408/#417)|
 |DB lateral raise (Sat)|40 working|W25 Sat 10/10 (40×12/12 RIR 2/1)|Hold 40 at half volume through W26 (Adj #408/#415)|
-|Preacher curl uni (Tue)|75 working|W25 Tue 10/6 (75×10/10 RIR 2/1)|Hold 75 at half volume through W26 (Adj #408/#411)|
+|Preacher curl uni (Tue)|75 working|W26 Tue 10/13 (75×12/10 RIR 1/0)|Hold 75. Set 1 hit 12 — carry to the first post-race Hyp A; W27 Tue light (Adj #417)|
 |Preacher curl uni (Sat)|65/arm working|W25 Sat 10/10 (65×12/12 RIR 3/2)|65 holds — first full-weight read clean. Hold at half volume through W26 (Adj #392/#415)|
-|Cable pushdown (rope, both-handed)|50 working|W25 Sat 10/10 (50×12/12 RIR 3/2)|Holds both slots. Hold 50 at half volume through W26 (Adj #411/#415)|
-|Rear-delt fly|145 working|W25 Tue 10/6 (145×15 RIR 4)|Hold. Stop at RIR 3 — joint-health slot (Adj #318/#386)|
+|Cable pushdown (rope, both-handed)|50 working|W26 Tue 10/13 (50×12/12 RIR 3/3)|Holds both slots. Hold 50 at half volume through W26 (Adj #411/#417)|
+|Rear-delt fly|145 working|W26 Tue 10/13 (145×15 RIR 1)|Hold. Stop at RIR 3 — joint-health slot (Adj #318/#386/#417)|
 |Seated calf|375 working|W25 Sat 10/10 (375×12/12 RIR 2/1)|Last dose of the cycle — no calves W26–W27 (v4.7). Post-dose read Mon 10/12 clean (Adj #416)|
-|Decline crunch (Tue)|**BW** (reset from +15)|W25 Tue 10/6 (BW: 12/12 RIR 4/4)|Fifth consecutive clean. Hold BW through the taper (Adj #385/#411)|
+|Decline crunch (Tue)|**BW** (reset from +15)|W26 Tue 10/13 (BW: 12/12 RIR 3/3)|Seventh consecutive clean. Hold BW through the taper (Adj #385/#417)|
 |Decline crunch (Sat)|**BW** (reset from +15)|W25 Sat 10/10 (BW: 10/10 RIR 3/3)|Sixth consecutive clean. Hold BW through the taper (Adj #385/#415)|
 |Chest fly|135 working|W25 Sat 10/10 (135×12 RIR 3)|Joint-health slot. Hold 135 at half volume (Adj #378/#415)|
 
@@ -41,7 +41,7 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 Open items that affect the next session. Full rationale in `history/adjustments.md` (live #406+) / `history/archive/` — grep: `grep -rn '^N\. ' history/`.
 
 - **L Achilles:** reactive tendon. 375 holds. Last calf dose W25 Sat 10/10; post-dose read Mon 10/12 CLEAN — 6th consecutive (Adj #416). No calf work remains this cycle (v4.7). (Adj #34/#113/#135/#284/#306/#334/#358/#377/#379/#380/#388/#393/#398/#400)
-- **L lower ab strain (W23 Tue):** decline crunch BW both slots; sixth consecutive clean (W25 Sat). Hold BW through the taper (Adj #385/#415).
+- **L lower ab strain (W23 Tue):** decline crunch BW both slots; seventh consecutive clean (W26 Tue). Hold BW through the taper (Adj #385/#417).
 - **Taper lifting (v4.7, Adj #408):** half-volume Hyp A/B W25–W26, working loads, RIR 2–3; no calves from W26 (last dose W25 Sat, Adj #415); W27 Tue light upper only.
 - **Race-pace reps:** W25 Fri 5×600m ran avg 2:33 (~6:50/mi) at RPE 7–8, reps 2–5 under the 2:35 goal-pace cap (Adj #413/#414). Set the band for the W26 Fri / W27 Mon 3×800m at those briefs.
 - **Treadmill quality at 1%** for road equivalence (Adj #177).
@@ -71,7 +71,7 @@ Vaporfly exposures: each first-of-phase gets a next-AM Achilles read (Adj #34/#1
 |Wk|Projected target|Actual|
 |---|---|---|
 |W23 (Sharpen)|1×5 @ 160 (TM maintenance, no AMRAP)|160×5 RIR 1 — third consecutive RIR 1; athlete-rated cleaner. TM 168 stands (Adj #381)|
-|W25 (Taper)|1×3 @ 160 (working, RIR 2–3; Adj #410)|160×3 RIR 1 — completed; TM 168 stands (Adj #411)|
+|W26 (Taper)|1×3 @ 160 (working, RIR 2–3; Adj #410)|160×3 RIR 1 — completed, identical to W25; TM 168 stands (Adj #417)|
 
 *Forecast only — current load always comes from Current Working Loads above. Full meso history in `history/incline-bb.md`.*
 
@@ -83,4 +83,4 @@ Current week only — completed weeks live in `history/weekly-summary.md` (W13+)
 
 |Wk|Mon|Tue|Wed|Thu|Fri|Sat|Status|
 |---|---|---|---|---|---|---|---|
-|W26 (Taper, §2.C)|✓ Long 10/12 (5.05 mi, work 9:50/mi RPE 4; Achilles clean; Adj #416)|—|—|—|—|—|in progress|
+|W26 (Taper, §2.C)|✓ Long 10/12 (5.05 mi, work 9:50/mi RPE 4; Achilles clean; Adj #416)|✓ Hyp A 10/13 (half vol; incline 160×3 RIR 1; preacher 75×12/10; Adj #417)|—|—|—|—|in progress|

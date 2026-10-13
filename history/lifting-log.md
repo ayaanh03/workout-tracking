@@ -30,3 +30,16 @@
 |Chest fly|**135×12 RIR 3**|Half volume (1 of 2). Joint-health slot, clean|
 
 > AI: Second v4.7 taper lift — half volume at working loads, every set at its rep target. Four second sets ran under the RIR 2–3 stop (lat and row to failure at RIR 0, lateral and calf at RIR 1); the stop limits taper fatigue and is not a gate, so nothing changes on it. Preacher 65 gets its first full-weight read at 12/12 RIR 3/2 and holds; pushdown 50 holds its 12 floor in both slots this week. The last calf dose of the cycle is in at 375×12/12 with no symptom reported (no-news-is-clean, Adj #188); the Achilles read moves to Mon 10/12 AM before the long. Ab strain BW rebuild banks a sixth clean outing; elbow 29th consecutive clean. No gate evaluations in the taper; all working loads hold. W25 closes. Next Hyp A: W26 Tue 10/13 half volume; next Hyp B: W26 Sat 10/17 half volume, no calves (Adj #408).
+
+### W26 Tue 2026-10-13 — Hypertrophy A (Taper half volume, v4.7)
+
+|Exercise|Sets|Notes|
+|---|---|---|
+|Incline BB|**160×3 RIR 1**|Second taper set at 160 (Adj #410). Identical to W25 Tue — completed, not a §5 miss; one click under the RIR 2–3 ask. TM 168 stands. Last full taper set; W27 Tue is light (Adj #408)|
+|DB lateral raise|**35×12 RIR 3 / ×12 RIR 3 / ×12 RIR 3**|Half volume (3 of 6). Clean, inside the stop — one click looser than W25 Tue's set 3 (RIR 2). 36 total|
+|Preacher curl uni|**75×12 RIR 1 / ×10 RIR 0**|Half volume (2 of 4). Set 1 ran 12 at 75 — 2 over the 10 target, first 12 at 75; set 2 to failure. Both under the RIR 2–3 stop. Holds 75|
+|Cable pushdown, two-handed rope|**50×12 RIR 3 / ×12 RIR 3**|Half volume (2 of 4). Clean, inside the stop — set 2 two clicks looser than W25 Tue (RIR 1). Elbow 30th consecutive clean, 16th at the rope (Adj #303 unchanged)|
+|Decline crunch|**BW×12 RIR 3 / ×12 RIR 3**|L ab strain BW rebuild — seventh consecutive clean (Adj #385)|
+|Rear-delt fly|**145×15 RIR 1**|Half volume (1 of 2). Ran past the joint-health RIR 3 stop (Adj #318/#386). Holds 145|
+
+> AI: Second half-volume Hyp A of the taper. Laterals, pushdown and crunch all sat inside the RIR 2–3 stop and each came in looser than W25 Tue. Incline repeats 160×3 RIR 1 exactly — completed, TM 168 stands — and that closes the full-weight taper sets; W27 Tue is the light upper session. Preacher is the read of the day: 75×12 at RIR 1 on set 1, the first 12 at 75 and two over the target, worth carrying to the first post-race Hyp A; no gate tests in the taper, so 75 holds. Preacher and rear-delt ran past their stops (RIR 1/0 and RIR 1 vs 3) — fatigue control only, no change. Ab strain BW rebuild banks a seventh clean outing; no elbow symptom (no-news-is-clean, Adj #188). All working loads hold. Next: Wed 10/14 VO2 5×3 min @ I; next Hyp B W26 Sat 10/17 half volume, no calves (Adj #408).
