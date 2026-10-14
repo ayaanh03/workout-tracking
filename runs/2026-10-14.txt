@@ -1,0 +1,7 @@
+# W26 Wed 2026-10-14 — VO2max 5x3 min @ I, 2 min rec (§2.C W26)
+name: W26 Wed 5x3 I
+warmup: 1mi @ 9:15-10:30/mi
+repeat 5
+  work: 3:00 @ current 7:00-7:15/mi
+  recovery: 2:00
+cooldown: 1mi @ 9:15-10:30/mi
