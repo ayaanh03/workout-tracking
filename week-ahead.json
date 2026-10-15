@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T18:35:00-04:00",
+  "generatedAt": "2026-10-15T18:20:00-04:00",
   "week": "W26",
   "phase": "Taper",
   "summary": "Taper W26 — run volume -45% (~13 mi, §2.C), intensity preserved: Mon long 40, Wed 5×3 min @ I, Fri 3×800m race-pace primer. Lifting half volume Tue/Sat at working loads, RIR 2-3, no calves (v4.7, Adj #408). Achilles read Mon AM after the last calf dose (Adj #415). Race Sat 10/24 in Vomero Plus.",
@@ -22,15 +22,15 @@
       "date": "2026-10-14",
       "day": "Wed",
       "session": "VO2max 5×3 min @ I (§2.C W26)",
-      "note": "I-pace 7:00-7:15/mi, RPE 9 (§4.A)",
-      "status": "today"
+      "note": "Logged — 5x3 @ I 7:05/6:58/6:48/6:42/6:39 RPE 8/7/8/8/9 (Adj #418)",
+      "status": "done"
     },
     {
       "date": "2026-10-15",
       "day": "Thu",
       "session": "Off / mobility",
-      "note": "Permanent full rest (v4.4, Adj #244)",
-      "status": "upcoming"
+      "note": "Off",
+      "status": "today"
     },
     {
       "date": "2026-10-16",
