@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-10-14T00:56:00-04:00",
+  "generatedAt": "2026-10-15T18:25:00-04:00",
   "week": "W26",
-  "day": "Wed",
-  "date": "2026-10-14",
+  "day": "Fri",
+  "date": "2026-10-16",
   "phase": "Taper",
-  "sessionName": "VO2max 5x3 min @ I, 2 min rec (section 2.C W26)",
-  "intro": [],
+  "sessionName": "Race-pace primer 3x800m @ goal pace (section 2.C W26, Adj #419)",
+  "intro": [
+    "Reps at goal race pace: 3:24-3:29 per 800m (6:50-7:00/mi), nothing faster (Adj #419)."
+  ],
   "lift": null,
   "cardio": {
     "flags": [],
-    "workout": "5x3 min @ I, 2 min jog rec -- if treadmill, 1% (Adj #177)",
+    "workout": "3x800m @ 3:24-3:29 per rep, 90 s jog rec -- if treadmill, 1% (Adj #177)",
     "targets": {
-      "pace": "7:00-7:15/mi (RPE 9)",
+      "pace": "6:50-7:00/mi",
       "hr": "display-only",
       "cadence": "175-182 spm"
     },
-    "warmup": "1.0 mi easy 9:15-10:30/mi (165-172 spm), last 2 min build to I pace",
+    "warmup": "1.0 mi easy 9:15-10:30/mi (165-172 spm), last 2 min build to rep pace",
     "cooldown": "1.0 mi easy 9:15-10:30/mi (165-172 spm) + SI prehab",
-    "cues": [
-      "Band 7:00-7:15; nothing faster than 6:55 goal pace (Adj #413)"
-    ],
-    "workoutFile": "runs/2026-10-14.workout"
+    "cues": [],
+    "workoutFile": "runs/2026-10-16.workout"
   },
   "currentLoads": [
     {

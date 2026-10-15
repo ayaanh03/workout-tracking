@@ -1,0 +1,7 @@
+# W26 Fri 2026-10-16 — Race-pace primer 3x800m @ 6:50-7:00/mi (goal pace), 90 s rec (§2.C W26, Adj #419)
+name: W26 Fri 3x800m
+warmup: 1mi @ 9:15-10:30/mi
+repeat 3
+  work: 800m @ current 6:50-7:00/mi
+  recovery: 1:30
+cooldown: 1mi @ 9:15-10:30/mi
