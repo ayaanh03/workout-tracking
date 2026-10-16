@@ -43,7 +43,7 @@ Open items that affect the next session. Full rationale in `history/adjustments.
 - **L Achilles:** reactive tendon. 375 holds. Last calf dose W25 Sat 10/10; post-dose read Mon 10/12 CLEAN — 6th consecutive (Adj #416). No calf work remains this cycle (v4.7). (Adj #34/#113/#135/#284/#306/#334/#358/#377/#379/#380/#388/#393/#398/#400)
 - **L lower ab strain (W23 Tue):** decline crunch BW both slots; seventh consecutive clean (W26 Tue). Hold BW through the taper (Adj #385/#417).
 - **Taper lifting (v4.7, Adj #408):** half-volume Hyp A/B W25–W26, working loads, RIR 2–3; no calves from W26 (last dose W25 Sat, Adj #415); W27 Tue light upper only.
-- **Race-pace reps:** W26 Fri 3×800m band set at goal pace 6:50–7:00/mi, nothing faster (Adj #419). W27 Mon 3×800m: set the band at its brief.
+- **Race-pace reps:** W26 Fri 800s ran 3:27 / 3:18 / 3:17 vs the 3:24–3:29 band, reps 2–3 under it (Adj #419/#420). W27 Mon 3×800m: set the band at its brief.
 - **Treadmill quality at 1%** for road equivalence (Adj #177).
 - **Running power:** display-only, governs nothing (Adj #251). Log when the watch reports it.
 - **Logging default (Adj #188/#190):** assume-same-as-last for context, no-news-is-clean for SI/tendon/pain. Missing numbers get one compact prompt; unknowns log "n/r".
@@ -83,4 +83,4 @@ Current week only — completed weeks live in `history/weekly-summary.md` (W13+)
 
 |Wk|Mon|Tue|Wed|Thu|Fri|Sat|Status|
 |---|---|---|---|---|---|---|---|
-|W26 (Taper, §2.C)|✓ Long 10/12 (5.05 mi, work 9:50/mi RPE 4; Achilles clean; Adj #416)|✓ Hyp A 10/13 (half vol; incline 160×3 RIR 1; preacher 75×12/10; Adj #417)|✓ 5×3 @ I 10/14 (7:05→6:39, avg ~6:53/mi RPE 7–9; Adj #418)|—|—|—|in progress|
+|W26 (Taper, §2.C)|✓ Long 10/12 (5.05 mi, work 9:50/mi RPE 4; Achilles clean; Adj #416)|✓ Hyp A 10/13 (half vol; incline 160×3 RIR 1; preacher 75×12/10; Adj #417)|✓ 5×3 @ I 10/14 (7:05→6:39, avg ~6:53/mi RPE 7–9; Adj #418)|—|✓ 3×800m 10/16 (3:27/3:18/3:17 RPE 7/8/9; Adj #420)|—|in progress|
