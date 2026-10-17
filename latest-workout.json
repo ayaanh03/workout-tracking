@@ -1,27 +1,123 @@
 {
-  "generatedAt": "2026-10-15T18:25:00-04:00",
+  "generatedAt": "2026-10-17T11:43:00-04:00",
   "week": "W26",
-  "day": "Fri",
-  "date": "2026-10-16",
+  "day": "Sat",
+  "date": "2026-10-17",
   "phase": "Taper",
-  "sessionName": "Race-pace primer 3x800m @ goal pace (section 2.C W26, Adj #419)",
+  "sessionName": "Hyp B half volume, no calves (v4.7, Adj #408)",
   "intro": [
-    "Reps at goal race pace: 3:24-3:29 per 800m (6:50-7:00/mi), nothing faster (Adj #419)."
+    "No calves -- last dose was W25 Sat (Adj #415). Half volume at working loads; stop every set at RIR 2-3 (Adj #408)."
   ],
-  "lift": null,
-  "cardio": {
-    "flags": [],
-    "workout": "3x800m @ 3:24-3:29 per rep, 90 s jog rec -- if treadmill, 1% (Adj #177)",
-    "targets": {
-      "pace": "6:50-7:00/mi",
-      "hr": "display-only",
-      "cadence": "175-182 spm"
+  "lift": {
+    "table": [
+      {
+        "exercise": "Lat pulldown, neutral",
+        "setsReps": "2×8",
+        "load": "170",
+        "rir": "2-3",
+        "rest": "90-120 s",
+        "cue": ""
+      },
+      {
+        "exercise": "Chest-supp row",
+        "setsReps": "2×10",
+        "load": "80",
+        "rir": "2-3",
+        "rest": "90-120 s",
+        "cue": ""
+      },
+      {
+        "exercise": "DB lateral raise",
+        "setsReps": "2×12-15",
+        "load": "40",
+        "rir": "2-3",
+        "rest": "60-90 s",
+        "cue": ""
+      },
+      {
+        "exercise": "Preacher curl uni",
+        "setsReps": "2×12",
+        "load": "65/arm",
+        "rir": "2-3",
+        "rest": "60-90 s",
+        "cue": ""
+      },
+      {
+        "exercise": "Cable pushdown, rope",
+        "setsReps": "2×12-15",
+        "load": "50",
+        "rir": "2-3",
+        "rest": "60-90 s",
+        "cue": ""
+      },
+      {
+        "exercise": "Decline crunch",
+        "setsReps": "2×10",
+        "load": "BW",
+        "rir": "2-3",
+        "rest": "60-90 s",
+        "cue": ""
+      },
+      {
+        "exercise": "Chest fly",
+        "setsReps": "1×12",
+        "load": "135",
+        "rir": "3",
+        "rest": "60-90 s",
+        "cue": ""
+      }
+    ],
+    "lastWeek": {
+      "label": "Hyp B W25 Sat 10/10",
+      "table": [
+        {
+          "exercise": "Lat pulldown, neutral",
+          "load": "170",
+          "reps": "8/8",
+          "rir": "2/0"
+        },
+        {
+          "exercise": "Chest-supp row",
+          "load": "80",
+          "reps": "10/10",
+          "rir": "2/0"
+        },
+        {
+          "exercise": "DB lateral raise",
+          "load": "40",
+          "reps": "12/12",
+          "rir": "2/1"
+        },
+        {
+          "exercise": "Preacher curl uni",
+          "load": "65",
+          "reps": "12/12",
+          "rir": "3/2"
+        },
+        {
+          "exercise": "Cable pushdown, rope",
+          "load": "50",
+          "reps": "12/12",
+          "rir": "3/2"
+        },
+        {
+          "exercise": "Decline crunch",
+          "load": "BW",
+          "reps": "10/10",
+          "rir": "3/3"
+        },
+        {
+          "exercise": "Chest fly",
+          "load": "135",
+          "reps": "12",
+          "rir": "3"
+        }
+      ]
     },
-    "warmup": "1.0 mi easy 9:15-10:30/mi (165-172 spm), last 2 min build to rep pace",
-    "cooldown": "1.0 mi easy 9:15-10:30/mi (165-172 spm) + SI prehab",
-    "cues": [],
-    "workoutFile": "runs/2026-10-16.workout"
+    "warmup": "Wrist-extensor iso 3x30 s/arm; band pull-aparts + scap push-ups 1-2 min; lat pulldown 1x10 @ ~100.",
+    "cooldown": "Tyler twists 3x15 + reverse Tyler 3x15; SI prehab"
   },
+  "cardio": null,
   "currentLoads": [
     {
       "exercise": "Incline BB",
