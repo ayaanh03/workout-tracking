@@ -43,3 +43,17 @@
 |Rear-delt fly|**145×15 RIR 1**|Half volume (1 of 2). Ran past the joint-health RIR 3 stop (Adj #318/#386). Holds 145|
 
 > AI: Second half-volume Hyp A of the taper. Laterals, pushdown and crunch all sat inside the RIR 2–3 stop and each came in looser than W25 Tue. Incline repeats 160×3 RIR 1 exactly — completed, TM 168 stands — and that closes the full-weight taper sets; W27 Tue is the light upper session. Preacher is the read of the day: 75×12 at RIR 1 on set 1, the first 12 at 75 and two over the target, worth carrying to the first post-race Hyp A; no gate tests in the taper, so 75 holds. Preacher and rear-delt ran past their stops (RIR 1/0 and RIR 1 vs 3) — fatigue control only, no change. Ab strain BW rebuild banks a seventh clean outing; no elbow symptom (no-news-is-clean, Adj #188). All working loads hold. Next: Wed 10/14 VO2 5×3 min @ I; next Hyp B W26 Sat 10/17 half volume, no calves (Adj #408).
+
+### W26 Sat 2026-10-17 — Hypertrophy B (Taper half volume, no calves, v4.7)
+
+|Exercise|Sets|Notes|
+|---|---|---|
+|Lat pulldown|**170×8 RIR 2 / ×8 RIR 1**|Half volume (2 of 4). Set 2 one click looser than W25 Sat (RIR 0). Holds 170|
+|Chest-supp row|**80×10 RIR 2 / ×10 RIR 0**|Half volume (2 of 3). Identical to W25 Sat; set 2 to failure — under the RIR 2–3 stop. Holds 80|
+|DB lateral raise|**40×12 RIR 2 / ×12 RIR 1**|Half volume (2 of 4). Identical to W25 Sat. Holds 40|
+|Preacher curl uni|**65×12 RIR 3 / ×12 RIR 0**|Half volume (2 of 4). Set 2 to failure (W25 Sat RIR 2). Holds 65|
+|Cable pushdown, two-handed rope|**50×12 RIR 3 / ×12 RIR 2**|Half volume (2 of 4). Identical to W25 Sat, inside the stop. Elbow 31st consecutive clean, 17th at the rope (Adj #303 unchanged)|
+|Decline crunch|**BW×10 RIR 4 / ×10 RIR 4**|L ab strain: **athlete reports improving but not fully recovered** (Adj #385). Sets completed at RIR 4|
+|Chest fly|**135×12 RIR 3**|Half volume (1 of 2). Joint-health slot, clean|
+
+> AI: Last Hyp B before the race and the last half-volume session of the taper; no calves (last dose W25 Sat). Every set hit its rep target; lat, lateral, pushdown and fly sat at or near their W25 Sat numbers, with lat set 2 a click looser. Row and preacher second sets went to failure — under the RIR 2–3 stop, fatigue control only, no change. The athlete reports the L lower ab is getting better but not fully there, so the strain is improving, not resolved; crunch held at BW and ran at RIR 4. No elbow symptom (no-news-is-clean, Adj #188). All working loads hold. W26 closes. Lifting left before the race: W27 Tue light upper only, 1 set per exercise at RIR 3+ (Adj #408).

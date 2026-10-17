@@ -4,3 +4,4 @@
 
 |Date|AM|Pre|During|Post|Notes|
 |---|---|---|---|---|---|
+|2026-10-17|—|—|—|—|**L lower ab strain (W23 Tue): improving, not fully recovered — athlete report ("getting better but still not there yet").** Decline crunch BW×10/10 RIR 4/4 at W26 Sat Hyp B. No other site reported → clean by default (Adj #188). Adj #421|

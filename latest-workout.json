@@ -128,14 +128,14 @@
     {
       "exercise": "Lat pulldown",
       "load": "170 working (athlete directive)",
-      "lastVerified": "W25 Sat 10/10 (170×8/8 RIR 2/0)",
-      "note": "Hold 170 at half volume through W26; no auto-revert (Adj #390/#415)"
+      "lastVerified": "W26 Sat 10/17 (170×8/8 RIR 2/1)",
+      "note": "Hold 170. Post-race: rebuild toward clean 4×8, no auto-revert (Adj #390/#421)"
     },
     {
       "exercise": "Chest-supp row",
       "load": "80 working",
-      "lastVerified": "W25 Sat 10/10 (80×10/10 RIR 2/0)",
-      "note": "Hold 80 at half volume through W26 (Adj #408/#415)"
+      "lastVerified": "W26 Sat 10/17 (80×10/10 RIR 2/0)",
+      "note": "Hold 80. 85 gate (full 3×10 + sets 1–2 ≥RIR 1) resumes post-race (Adj #394/#421)"
     },
     {
       "exercise": "DB lateral raise (Tue)",
@@ -146,8 +146,8 @@
     {
       "exercise": "DB lateral raise (Sat)",
       "load": "40 working",
-      "lastVerified": "W25 Sat 10/10 (40×12/12 RIR 2/1)",
-      "note": "Hold 40 at half volume through W26 (Adj #408/#415)"
+      "lastVerified": "W26 Sat 10/17 (40×12/12 RIR 2/1)",
+      "note": "Hold 40. 42.5 gate (clean 4×12 + set 4 ≥RIR 1) resumes post-race (Adj #395/#421)"
     },
     {
       "exercise": "Preacher curl uni (Tue)",
@@ -158,14 +158,14 @@
     {
       "exercise": "Preacher curl uni (Sat)",
       "load": "65/arm working",
-      "lastVerified": "W25 Sat 10/10 (65×12/12 RIR 3/2)",
-      "note": "65 holds — first full-weight read clean. Hold at half volume through W26 (Adj #392/#415)"
+      "lastVerified": "W26 Sat 10/17 (65×12/12 RIR 3/0)",
+      "note": "65 holds. Revert rule (set 3 <12 or <RIR 1 → 60) resumes post-race (Adj #392/#421)"
     },
     {
       "exercise": "Cable pushdown (rope, both-handed)",
       "load": "50 working",
-      "lastVerified": "W26 Tue 10/13 (50×12/12 RIR 3/3)",
-      "note": "Holds both slots. Hold 50 at half volume through W26 (Adj #411/#417)"
+      "lastVerified": "W26 Sat 10/17 (50×12/12 RIR 3/2)",
+      "note": "Holds both slots. Post-race revert at 50: 12 floor lost or last set <RIR 1 → 47.5 (Adj #391/#421)"
     },
     {
       "exercise": "Rear-delt fly",
@@ -188,14 +188,14 @@
     {
       "exercise": "Decline crunch (Sat)",
       "load": "BW (reset from +15)",
-      "lastVerified": "W25 Sat 10/10 (BW: 10/10 RIR 3/3)",
-      "note": "Sixth consecutive clean. Hold BW through the taper (Adj #385/#415)"
+      "lastVerified": "W26 Sat 10/17 (BW: 10/10 RIR 4/4)",
+      "note": "Ab strain improving, not resolved (athlete report). Hold BW (Adj #385/#421)"
     },
     {
       "exercise": "Chest fly",
       "load": "135 working",
-      "lastVerified": "W25 Sat 10/10 (135×12 RIR 3)",
-      "note": "Joint-health slot. Hold 135 at half volume (Adj #378/#415)"
+      "lastVerified": "W26 Sat 10/17 (135×12 RIR 3)",
+      "note": "Joint-health slot. Hold 135 (Adj #378/#421)"
     }
   ]
 }
