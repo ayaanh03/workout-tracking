@@ -58,7 +58,7 @@ Vomero Plus for all training and race day (Adj #405); Vaporfly parked.
 |Shoe|Purchased|Miles|Retire at|Role|
 |---|---|---|---|---|
 |Vaporfly Next% 2|pre-program|~8|~150|PARKED — not the race shoe (athlete directive, Adj #405). Exposures: W23 tune-up 9/25 only (Adj #407)|
-|Vomero Plus|2026-05-03|~190|~450|sole trainer + **race day** (Adj #192/#405)|
+|Vomero Plus|2026-05-03|~340 (through 10/16, Adj #422)|~450|sole trainer + **race day** (Adj #192/#405)|
 |Zoom Fly 6|2026-05-03|~49|DROPPED|dropped — uncomfortable (Adj #192)|
 |Invincible 3|pre-program|~200|RETIRED|foam suspect-dead|
 
