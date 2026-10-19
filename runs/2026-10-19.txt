@@ -1,0 +1,7 @@
+# W27 Mon 2026-10-19 — 3x800m @ goal pace 6:50-7:00/mi, 90 s rec (§2.C W27, Adj #423)
+name: W27 Mon 3x800m
+warmup: 1mi @ 9:15-10:30/mi
+repeat 3
+  work: 800m @ current 6:50-7:00/mi
+  recovery: 1:30
+cooldown: 1mi @ 9:15-10:30/mi

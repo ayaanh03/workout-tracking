@@ -43,7 +43,7 @@ Open items that affect the next session. Full rationale in `history/adjustments.
 - **L Achilles:** reactive tendon. 375 holds. Last calf dose W25 Sat 10/10; post-dose read Mon 10/12 CLEAN — 6th consecutive (Adj #416). No calf work remains this cycle (v4.7). (Adj #34/#113/#135/#284/#306/#334/#358/#377/#379/#380/#388/#393/#398/#400)
 - **L lower ab strain (W23 Tue):** improving but not fully recovered (athlete report W26 Sat, Adj #421). Decline crunch at BW only; nothing heavier before the race (Adj #385).
 - **Taper lifting (v4.7, Adj #408):** half-volume W25–W26 done (Adj #421). W27 Tue light upper only — 1 set per exercise, RIR 3+; nothing after Tue. No calves.
-- **Race-pace reps:** W26 Fri 800s ran 3:27 / 3:18 / 3:17 vs the 3:24–3:29 band, reps 2–3 under it (Adj #419/#420). W27 Mon 3×800m: set the band at its brief.
+- **Race-pace reps:** W27 Mon 3×800m at 3:24–3:29 (6:50–7:00/mi), run even — Fri's reps 2–3 drifted fast (Adj #420/#423). Wed 4×200m @ goal pace (~52 s).
 - **Treadmill quality at 1%** for road equivalence (Adj #177).
 - **Running power:** display-only, governs nothing (Adj #251). Log when the watch reports it.
 - **Logging default (Adj #188/#190):** assume-same-as-last for context, no-news-is-clean for SI/tendon/pain. Missing numbers get one compact prompt; unknowns log "n/r".
