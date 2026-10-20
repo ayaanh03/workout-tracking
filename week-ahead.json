@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-20T13:45:00-04:00",
+  "generatedAt": "2026-10-20T19:49:00-04:00",
   "week": "W27",
   "phase": "Taper (race week)",
-  "summary": "Race week W27 (§2.C) — ~13 mi incl. the race. Mon 3x800m at goal pace, Tue 4x200m @ goal pace, Wed light upper (last lift) — Tue/Wed swapped (Adj #425). Fri shakeout + strides, Sat 10/24 5K: goal sub-21:30 at 6:55/mi even (§4.F), in Vomero Plus. Ab strain improving — BW crunch only (Adj #421).",
+  "summary": "Race week W27 (§2.C) — ~13 mi incl. the race. Race-pace work done: Mon 3x800m and Tue 4x200m, every rep under the cap (Adj #424/#426). Wed light upper (last lift; Tue/Wed swapped, Adj #425), Fri shakeout + strides, Sat 10/24 5K: goal sub-21:30 at 6:55/mi even (§4.F) — mile 1 is the risk. Vomero Plus. Ab strain improving — BW crunch only (Adj #421).",
   "days": [
     {
       "date": "2026-10-19",
@@ -15,15 +15,15 @@
       "date": "2026-10-20",
       "day": "Tue",
       "session": "15 min easy + 4×200m @ goal pace + 5 min CD (§2.C W27)",
-      "note": "Swapped from Wed (Adj #425); 200s at 51–52 s, nothing faster (Adj #423)",
-      "status": "today"
+      "note": "Logged — 200s 0:44/0:44/0:46/0:42 at RPE 7/7/7/6, all under the 51–52 s cap; ~3.5 mi (Adj #426)",
+      "status": "done"
     },
     {
       "date": "2026-10-21",
       "day": "Wed",
       "session": "Light upper (v4.7) — last lift",
       "note": "Swapped from Tue (Adj #425); 1 set per exercise, RIR 3+; no legs, no calves; BW crunch only (Adj #408/#421)",
-      "status": "upcoming"
+      "status": "today"
     },
     {
       "date": "2026-10-22",
