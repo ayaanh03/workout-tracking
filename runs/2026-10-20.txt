@@ -1,0 +1,7 @@
+# W27 Tue 2026-10-20 — 15 min easy + 4x200m @ goal pace 6:50-7:00/mi, 200m jog rec (§2.C W27, swapped from Wed, Adj #425)
+name: W27 Tue 4x200m
+warmup: 15:00 @ 9:15-10:30/mi
+repeat 4
+  work: 200m @ current 6:50-7:00/mi
+  recovery: 200m
+cooldown: 5:00 @ 9:15-10:30/mi

@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-10-19T00:05:00-04:00",
+  "generatedAt": "2026-10-20T13:45:00-04:00",
   "week": "W27",
-  "day": "Mon",
-  "date": "2026-10-19",
+  "day": "Tue",
+  "date": "2026-10-20",
   "phase": "Taper (race week)",
-  "sessionName": "3x800m @ goal pace (section 2.C W27, Adj #423)",
+  "sessionName": "15 min easy + 4x200m @ goal pace (section 2.C W27, swapped from Wed, Adj #425)",
   "intro": [
-    "Run the three 800s even at ~3:26 -- Friday's reps 2-3 drifted 18 s/mi fast (Adj #420/#423)."
+    "Swapped with Wed -- light upper moves to Wed 10/21 (Adj #425). 200s at 51-52 s, nothing faster (Adj #423)."
   ],
   "lift": null,
   "cardio": {
     "flags": [],
-    "workout": "3x800m @ 3:24-3:29 per rep, 90 s jog rec -- if treadmill, 1% (Adj #177)",
+    "workout": "4x200m @ 51-52 s per rep (6:50-7:00/mi), 200 m jog rec -- if treadmill, 1% (Adj #177)",
     "targets": {
       "pace": "6:50-7:00/mi",
       "hr": "display-only",
       "cadence": "175-182 spm"
     },
-    "warmup": "1.0 mi easy 9:15-10:30/mi (165-172 spm), last 2 min build to rep pace",
-    "cooldown": "1.0 mi easy 9:15-10:30/mi (165-172 spm) + SI prehab",
+    "warmup": "15 min easy 9:15-10:30/mi (165-172 spm)",
+    "cooldown": "5 min easy 9:15-10:30/mi (165-172 spm) + SI prehab",
     "cues": [],
-    "workoutFile": "runs/2026-10-19.workout"
+    "workoutFile": "runs/2026-10-20.workout"
   },
   "currentLoads": [
     {
       "exercise": "Incline BB",
       "load": "160 working / TM 168",
       "lastVerified": "W26 Tue 10/13 (160×3 RIR 1)",
-      "note": "Full taper sets done. W27 Tue light, 1 set RIR 3+ (Adj #408/#417). <3 reps = miss #2 → cut TM 5–7% (Adj #381)"
+      "note": "Full taper sets done. W27 Wed light (Tue↔Wed swap), 1 set RIR 3+ (Adj #408/#425). <3 reps = miss #2 → cut TM 5–7% (Adj #381)"
     },
     {
       "exercise": "Lat pulldown",
@@ -45,7 +45,7 @@
       "exercise": "DB lateral raise (Tue)",
       "load": "35 working",
       "lastVerified": "W26 Tue 10/13 (35×12/12/12 RIR 3/3/3)",
-      "note": "Hold 35. W27 Tue light, 1 set RIR 3+ (Adj #408/#417)"
+      "note": "Hold 35. W27 Wed light, 1 set RIR 3+ (Adj #408/#425)"
     },
     {
       "exercise": "DB lateral raise (Sat)",
@@ -57,7 +57,7 @@
       "exercise": "Preacher curl uni (Tue)",
       "load": "75 working",
       "lastVerified": "W26 Tue 10/13 (75×12/10 RIR 1/0)",
-      "note": "Hold 75. Set 1 hit 12 — carry to the first post-race Hyp A; W27 Tue light (Adj #417)"
+      "note": "Hold 75. Set 1 hit 12 — carry to the first post-race Hyp A; W27 Wed light (Adj #417/#425)"
     },
     {
       "exercise": "Preacher curl uni (Sat)",

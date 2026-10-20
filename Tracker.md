@@ -20,12 +20,12 @@ Companion to `program.md` (lean, current prescription) + `program-history.md` (r
 
 |Exercise|Load|Last verified|Note|
 |---|---|---|---|
-|Incline BB|160 working / TM 168|W26 Tue 10/13 (160×3 RIR 1)|Full taper sets done. W27 Tue light, 1 set RIR 3+ (Adj #408/#417). <3 reps = miss #2 → cut TM 5–7% (Adj #381)|
+|Incline BB|160 working / TM 168|W26 Tue 10/13 (160×3 RIR 1)|Full taper sets done. W27 Wed light (Tue↔Wed swap), 1 set RIR 3+ (Adj #408/#425). <3 reps = miss #2 → cut TM 5–7% (Adj #381)|
 |Lat pulldown|**170 working (athlete directive)**|W26 Sat 10/17 (170×8/8 RIR 2/1)|Hold 170. Post-race: rebuild toward clean 4×8, no auto-revert (Adj #390/#421)|
 |Chest-supp row|80 working|W26 Sat 10/17 (80×10/10 RIR 2/0)|Hold 80. 85 gate (full 3×10 + sets 1–2 ≥RIR 1) resumes post-race (Adj #394/#421)|
-|DB lateral raise (Tue)|35 working|W26 Tue 10/13 (35×12/12/12 RIR 3/3/3)|Hold 35. W27 Tue light, 1 set RIR 3+ (Adj #408/#417)|
+|DB lateral raise (Tue)|35 working|W26 Tue 10/13 (35×12/12/12 RIR 3/3/3)|Hold 35. W27 Wed light, 1 set RIR 3+ (Adj #408/#425)|
 |DB lateral raise (Sat)|40 working|W26 Sat 10/17 (40×12/12 RIR 2/1)|Hold 40. 42.5 gate (clean 4×12 + set 4 ≥RIR 1) resumes post-race (Adj #395/#421)|
-|Preacher curl uni (Tue)|75 working|W26 Tue 10/13 (75×12/10 RIR 1/0)|Hold 75. Set 1 hit 12 — carry to the first post-race Hyp A; W27 Tue light (Adj #417)|
+|Preacher curl uni (Tue)|75 working|W26 Tue 10/13 (75×12/10 RIR 1/0)|Hold 75. Set 1 hit 12 — carry to the first post-race Hyp A; W27 Wed light (Adj #417/#425)|
 |Preacher curl uni (Sat)|65/arm working|W26 Sat 10/17 (65×12/12 RIR 3/0)|65 holds. Revert rule (set 3 <12 or <RIR 1 → 60) resumes post-race (Adj #392/#421)|
 |Cable pushdown (rope, both-handed)|50 working|W26 Sat 10/17 (50×12/12 RIR 3/2)|Holds both slots. Post-race revert at 50: 12 floor lost or last set <RIR 1 → 47.5 (Adj #391/#421)|
 |Rear-delt fly|145 working|W26 Tue 10/13 (145×15 RIR 1)|Hold. Stop at RIR 3 — joint-health slot (Adj #318/#386/#417)|
@@ -42,8 +42,8 @@ Open items that affect the next session. Full rationale in `history/adjustments.
 
 - **L Achilles:** reactive tendon. 375 holds. Last calf dose W25 Sat 10/10; post-dose read Mon 10/12 CLEAN — 6th consecutive (Adj #416). No calf work remains this cycle (v4.7). (Adj #34/#113/#135/#284/#306/#334/#358/#377/#379/#380/#388/#393/#398/#400)
 - **L lower ab strain (W23 Tue):** improving but not fully recovered (athlete report W26 Sat, Adj #421). Decline crunch at BW only; nothing heavier before the race (Adj #385).
-- **Taper lifting (v4.7, Adj #408):** half-volume W25–W26 done (Adj #421). W27 Tue light upper only — 1 set per exercise, RIR 3+; nothing after Tue. No calves.
-- **Race-pace reps:** W27 Mon 800s ran 3:22 / 3:17 / 3:18 at RPE 6/6/7 — even, but under the 3:24 floor (Adj #424). Left: Wed 4×200m @ goal pace (~52 s), relaxed.
+- **Taper lifting (v4.7, Adj #408):** half-volume W25–W26 done (Adj #421). W27 light upper moved to **Wed 10/21** (Tue↔Wed swap, Adj #425) — 1 set per exercise, RIR 3+; nothing after Wed. No calves.
+- **Race-pace reps:** W27 Mon 800s ran 3:22 / 3:17 / 3:18 at RPE 6/6/7 — even, but under the 3:24 floor (Adj #424). Left: **Tue 10/20** 4×200m @ goal pace, 51–52 s, nothing faster (swapped from Wed, Adj #425).
 - **Treadmill quality at 1%** for road equivalence (Adj #177).
 - **Running power:** display-only, governs nothing (Adj #251). Log when the watch reports it.
 - **Logging default (Adj #188/#190):** assume-same-as-last for context, no-news-is-clean for SI/tendon/pain. Missing numbers get one compact prompt; unknowns log "n/r".
