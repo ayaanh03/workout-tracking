@@ -1,27 +1,109 @@
 {
-  "generatedAt": "2026-10-20T13:45:00-04:00",
+  "generatedAt": "2026-10-21T11:34:00-04:00",
   "week": "W27",
-  "day": "Tue",
-  "date": "2026-10-20",
+  "day": "Wed",
+  "date": "2026-10-21",
   "phase": "Taper (race week)",
-  "sessionName": "15 min easy + 4x200m @ goal pace (section 2.C W27, swapped from Wed, Adj #425)",
+  "sessionName": "Light upper -- last lift before the race (v4.7, swapped from Tue, Adj #425)",
   "intro": [
-    "Swapped with Wed -- light upper moves to Wed 10/21 (Adj #425). 200s at 51-52 s, nothing faster (Adj #423)."
+    "Last lift before the race: 1 set per exercise, nothing after today, no legs, no calves (section 2.C, Adj #408/#425)."
   ],
-  "lift": null,
-  "cardio": {
-    "flags": [],
-    "workout": "4x200m @ 51-52 s per rep (6:50-7:00/mi), 200 m jog rec -- if treadmill, 1% (Adj #177)",
-    "targets": {
-      "pace": "6:50-7:00/mi",
-      "hr": "display-only",
-      "cadence": "175-182 spm"
+  "lift": {
+    "table": [
+      {
+        "exercise": "Incline BB",
+        "setsReps": "1×1",
+        "load": "160",
+        "rir": "3+",
+        "rest": "2-3 min",
+        "cue": "160x3 ran RIR 1 at W25-W26, so RIR 3+ caps it at a single -- planned, not a miss (Adj #381)"
+      },
+      {
+        "exercise": "DB lateral raise",
+        "setsReps": "1×12",
+        "load": "35",
+        "rir": "3+",
+        "rest": "60-90 s",
+        "cue": ""
+      },
+      {
+        "exercise": "Preacher curl uni",
+        "setsReps": "1×8-10",
+        "load": "75",
+        "rir": "3+",
+        "rest": "60-90 s",
+        "cue": ""
+      },
+      {
+        "exercise": "Cable pushdown, rope",
+        "setsReps": "1×12",
+        "load": "50",
+        "rir": "3+",
+        "rest": "60-90 s",
+        "cue": ""
+      },
+      {
+        "exercise": "Decline crunch",
+        "setsReps": "1×12",
+        "load": "BW",
+        "rir": "3+",
+        "rest": "60-90 s",
+        "cue": ""
+      },
+      {
+        "exercise": "Rear-delt fly",
+        "setsReps": "1×12",
+        "load": "145",
+        "rir": "3+",
+        "rest": "-",
+        "cue": ""
+      }
+    ],
+    "lastWeek": {
+      "label": "Hyp A W26 Tue 10/13",
+      "table": [
+        {
+          "exercise": "Incline BB",
+          "load": "160",
+          "reps": "3",
+          "rir": "1"
+        },
+        {
+          "exercise": "DB lateral raise",
+          "load": "35",
+          "reps": "12/12/12",
+          "rir": "3/3/3"
+        },
+        {
+          "exercise": "Preacher curl uni",
+          "load": "75",
+          "reps": "12/10",
+          "rir": "1/0"
+        },
+        {
+          "exercise": "Cable pushdown, rope",
+          "load": "50",
+          "reps": "12/12",
+          "rir": "3/3"
+        },
+        {
+          "exercise": "Decline crunch",
+          "load": "BW",
+          "reps": "12/12",
+          "rir": "3/3"
+        },
+        {
+          "exercise": "Rear-delt fly",
+          "load": "145",
+          "reps": "15",
+          "rir": "1"
+        }
+      ]
     },
-    "warmup": "15 min easy 9:15-10:30/mi (165-172 spm)",
-    "cooldown": "5 min easy 9:15-10:30/mi (165-172 spm) + SI prehab",
-    "cues": [],
-    "workoutFile": "runs/2026-10-20.workout"
+    "warmup": "Wrist-extensor iso 3x30 s/arm; band pull-aparts 1-2 min. Incline: bar x8, 95x5, 115x3, 135x2, then 160x1.",
+    "cooldown": "Tyler twists 3x15 + reverse Tyler 3x15; SI prehab"
   },
+  "cardio": null,
   "currentLoads": [
     {
       "exercise": "Incline BB",
