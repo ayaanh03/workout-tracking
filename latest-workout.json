@@ -108,8 +108,8 @@
     {
       "exercise": "Incline BB",
       "load": "160 working / TM 168",
-      "lastVerified": "W26 Tue 10/13 (160×3 RIR 1)",
-      "note": "Full taper sets done. W27 Wed light (Tue↔Wed swap), 1 set RIR 3+ (Adj #408/#425). <3 reps = miss #2 → cut TM 5–7% (Adj #381)"
+      "lastVerified": "W27 Wed 10/21 (160×1 RIR 4, light)",
+      "note": "Taper done; no lifting until post-race (Adj #427). <3 reps on a prescribed ×3 = miss #2 → cut TM 5–7% (Adj #381)"
     },
     {
       "exercise": "Lat pulldown",
@@ -126,8 +126,8 @@
     {
       "exercise": "DB lateral raise (Tue)",
       "load": "35 working",
-      "lastVerified": "W26 Tue 10/13 (35×12/12/12 RIR 3/3/3)",
-      "note": "Hold 35. W27 Wed light, 1 set RIR 3+ (Adj #408/#425)"
+      "lastVerified": "W27 Wed 10/21 (35×12 RIR 5, light)",
+      "note": "Hold 35. Next: first post-race Hyp A (Adj #427)"
     },
     {
       "exercise": "DB lateral raise (Sat)",
@@ -138,8 +138,8 @@
     {
       "exercise": "Preacher curl uni (Tue)",
       "load": "75 working",
-      "lastVerified": "W26 Tue 10/13 (75×12/10 RIR 1/0)",
-      "note": "Hold 75. Set 1 hit 12 — carry to the first post-race Hyp A; W27 Wed light (Adj #417/#425)"
+      "lastVerified": "W27 Wed 10/21 (75×10 RIR 3, light)",
+      "note": "Hold 75. W26 set 1 hit 12 — carry to the first post-race Hyp A (Adj #417/#427)"
     },
     {
       "exercise": "Preacher curl uni (Sat)",
@@ -150,14 +150,14 @@
     {
       "exercise": "Cable pushdown (rope, both-handed)",
       "load": "50 working",
-      "lastVerified": "W26 Sat 10/17 (50×12/12 RIR 3/2)",
-      "note": "Holds both slots. Post-race revert at 50: 12 floor lost or last set <RIR 1 → 47.5 (Adj #391/#421)"
+      "lastVerified": "W27 Wed 10/21 (50×12 RIR 4, light)",
+      "note": "Holds both slots. Post-race revert at 50: 12 floor lost or last set <RIR 1 → 47.5 (Adj #391/#427)"
     },
     {
       "exercise": "Rear-delt fly",
       "load": "145 working",
-      "lastVerified": "W26 Tue 10/13 (145×15 RIR 1)",
-      "note": "Hold. Stop at RIR 3 — joint-health slot (Adj #318/#386/#417)"
+      "lastVerified": "W27 Wed 10/21 (145×12 RIR 4, light)",
+      "note": "Hold. Stop at RIR 3 — joint-health slot (Adj #318/#386/#427)"
     },
     {
       "exercise": "Seated calf",
@@ -168,8 +168,8 @@
     {
       "exercise": "Decline crunch (Tue)",
       "load": "BW (reset from +15)",
-      "lastVerified": "W26 Tue 10/13 (BW: 12/12 RIR 3/3)",
-      "note": "Seventh consecutive clean. Hold BW through the taper (Adj #385/#417)"
+      "lastVerified": "W27 Wed 10/21 (BW: 12 RIR 6)",
+      "note": "Ab strain improving, not resolved (Adj #421). Hold BW until it resolves (Adj #385/#427)"
     },
     {
       "exercise": "Decline crunch (Sat)",

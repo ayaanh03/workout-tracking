@@ -57,3 +57,27 @@
 |Chest fly|**135×12 RIR 3**|Half volume (1 of 2). Joint-health slot, clean|
 
 > AI: Last Hyp B before the race and the last half-volume session of the taper; no calves (last dose W25 Sat). Every set hit its rep target; lat, lateral, pushdown and fly sat at or near their W25 Sat numbers, with lat set 2 a click looser. Row and preacher second sets went to failure — under the RIR 2–3 stop, fatigue control only, no change. The athlete reports the L lower ab is getting better but not fully there, so the strain is improving, not resolved; crunch held at BW and ran at RIR 4. No elbow symptom (no-news-is-clean, Adj #188). All working loads hold. W26 closes. Lifting left before the race: W27 Tue light upper only, 1 set per exercise at RIR 3+ (Adj #408).
+
+### W27 Wed 2026-10-21 — Light upper (Taper race week, last lift before the race, v4.7)
+
+
+
+|Exercise|Sets|Notes|
+
+|---|---|---|
+
+|Incline BB|**160×1 RIR 4**|Planned single at working weight — RIR 3+ caps 160 at one rep after 160×3 RIR 1 at W25–W26 (Adj #408). Not a miss; TM 168 stands|
+
+|DB lateral raise|**35×12 RIR 5**|1 set, light. Past the RIR 3+ stop. Holds 35|
+
+|Preacher curl uni|**75×10 RIR 3**|1 set, light. At the RIR 3 stop. Holds 75|
+
+|Cable pushdown, two-handed rope|**50×12 RIR 4**|1 set, light. Elbow 32nd consecutive clean, 18th at the rope (Adj #303 unchanged)|
+
+|Decline crunch|**BW×12 RIR 6**|L ab strain: no symptom reported; last status improving, not resolved (Adj #421). BW only (Adj #385)|
+
+|Rear-delt fly|**145×12 RIR 4**|1 set, light. Joint-health slot, clean|
+
+
+
+> AI: Last lift before the race — the v4.7 light upper, swapped from Tue (Adj #425). One set per exercise at working loads, every set at or past the RIR 3+ stop: incline a planned single at 160 (RIR 4), laterals RIR 5, preacher RIR 3, pushdown RIR 4, rear-delt RIR 4, crunch RIR 6. No elbow or ab symptom reported (no-news-is-clean, Adj #188); the ab strain's last status stays improving, not resolved (Adj #421). All working loads hold. Taper lifting is done — nothing until after the race.

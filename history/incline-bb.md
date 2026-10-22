@@ -24,3 +24,4 @@
 |W24 (Sharpen deload)|1×5 @ 130 (deload, 80% of 160)|130×5 RIR 4 — deload. Working 160/TM 168 unchanged (Adj #312/#340/#381/#401)|
 |W25 (Taper)|1×3 @ 160 (working, RIR 2–3; v4.7, Adj #410)|160×3 RIR 1 — completed, two clicks under the RIR 2–3 ask. TM 168 stands (Adj #411)|
 |W26 (Taper)|1×3 @ 160 (working, RIR 2–3; v4.7, Adj #410)|160×3 RIR 1 — completed, identical to W25. TM 168 stands. Last full taper set; W27 Tue light (Adj #417)|
+|W27 (Taper race week)|1 set @ 160, RIR 3+ (light upper; v4.7, Adj #408)|160×1 RIR 4 — planned single at working weight (RIR 3+ caps 160 at one rep after 160×3 RIR 1 at W25–W26). Not a miss. TM 168 stands (Adj #427)|
