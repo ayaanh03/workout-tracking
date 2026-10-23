@@ -44,6 +44,7 @@ Open items that affect the next session. Full rationale in `history/adjustments.
 - **L lower ab strain (W23 Tue):** improving but not fully recovered (athlete report W26 Sat, Adj #421). Decline crunch at BW only; nothing heavier before the race (Adj #385).
 - **Taper lifting (v4.7, Adj #408):** done — W27 Wed light upper logged (Adj #427). No lifting until after the race.
 - **Race pacing:** W27 race-pace work done — Mon 800s 3:22 / 3:17 / 3:18 RPE 6/6/7 (Adj #424), Tue 200s 0:44 / 0:44 / 0:46 / 0:42 RPE 7/7/7/6 (Adj #426); every rep under the cap. Sat: 6:55/mi even (§4.F); mile 1 is the risk (Adj #387/#388/#426).
+- **Race morning:** Fri 10/23 taken off — shakeout dropped (athlete directive, Adj #428). The Sat warmup is the shakeout: 15 min easy + 4×100m strides + 5 min dynamic (§4.F).
 - **Treadmill quality at 1%** for road equivalence (Adj #177).
 - **Running power:** display-only, governs nothing (Adj #251). Log when the watch reports it.
 - **Logging default (Adj #188/#190):** assume-same-as-last for context, no-news-is-clean for SI/tendon/pain. Missing numbers get one compact prompt; unknowns log "n/r".
@@ -83,4 +84,4 @@ Current week only — completed weeks live in `history/weekly-summary.md` (W13+)
 
 |Wk|Mon|Tue|Wed|Thu|Fri|Sat|Status|
 |---|---|---|---|---|---|---|---|
-|W27 (Taper race week, §2.C)|✓ 3×800m 10/19 (3:22/3:17/3:18 RPE 6/6/7; Adj #424)|✓ 4×200m 10/20 (0:44/0:44/0:46/0:42 RPE 7/7/7/6; Adj #426)|✓ Light upper 10/21 (incline 160×1 RIR 4; every set RIR 3+; Adj #427)|—|—|—|in progress|
+|W27 (Taper race week, §2.C)|✓ 3×800m 10/19 (3:22/3:17/3:18 RPE 6/6/7; Adj #424)|✓ 4×200m 10/20 (0:44/0:44/0:46/0:42 RPE 7/7/7/6; Adj #426)|✓ Light upper 10/21 (incline 160×1 RIR 4; every set RIR 3+; Adj #427)|Off|Off — shakeout dropped (athlete directive; Adj #428)|—|in progress|

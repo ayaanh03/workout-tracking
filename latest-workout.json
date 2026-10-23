@@ -1,29 +1,15 @@
 {
-  "generatedAt": "2026-10-22T23:19:00-04:00",
+  "generatedAt": "2026-10-23T19:28:00-04:00",
   "week": "W27",
   "day": "Fri",
   "date": "2026-10-23",
   "phase": "Taper (race week)",
-  "sessionName": "12 min shakeout + 4 strides (section 2.C W27)",
+  "sessionName": "Off -- rest day before the race (Adj #428)",
   "intro": [
-    "Day before the race: short and easy; strides fast but relaxed (section 2.C, Adj #255 note)."
+    "Shakeout dropped; the race warmup is the shakeout: 15 min easy + 4x100m strides + 5 min dynamic (section 4.F, Adj #428)."
   ],
   "lift": null,
-  "cardio": {
-    "flags": [],
-    "workout": "4x20 s strides @ 6:35-6:45/mi (R), 60 s walk/easy jog between",
-    "targets": {
-      "pace": "6:35-6:45/mi",
-      "hr": "display-only",
-      "cadence": "175-182 spm"
-    },
-    "warmup": "12 min easy shakeout 9:15-10:30/mi (165-172 spm)",
-    "cooldown": "3 min walk/easy jog + SI prehab",
-    "cues": [
-      "Hold the shakeout at 9:15-10:30 -- Mon and Tue warmups ran 8:15 and 9:00/mi (Adj #424/#426)."
-    ],
-    "workoutFile": "runs/2026-10-23.workout"
-  },
+  "cardio": null,
   "currentLoads": [
     {
       "exercise": "Incline BB",
