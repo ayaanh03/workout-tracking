@@ -1,0 +1,7 @@
+# W27 Fri 2026-10-23 — 12 min shakeout + 4x20 s strides @ R 6:35-6:45/mi, 60 s walk/jog rec (§2.C W27; race-week priming strides, Adj #255 note)
+name: W27 Fri shakeout
+warmup: 12:00 @ 9:15-10:30/mi
+repeat 4
+  work: 20s @ current 6:35-6:45/mi
+  recovery: 1:00
+cooldown: 3:00

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T18:39:00-04:00",
+  "generatedAt": "2026-10-22T23:19:00-04:00",
   "week": "W27",
   "phase": "Taper (race week)",
   "summary": "Race week W27 (§2.C) — ~13 mi incl. the race. Race-pace work done (Mon 3x800m, Tue 4x200m — every rep under the cap, Adj #424/#426); taper lifting done (Wed light upper, Adj #427). Thu off, Fri shakeout + strides, Sat 10/24 5K: goal sub-21:30 at 6:55/mi even (§4.F) — mile 1 is the risk. Vomero Plus. Ab strain improving — BW crunch only (Adj #421).",
@@ -29,15 +29,15 @@
       "date": "2026-10-22",
       "day": "Thu",
       "session": "Off / mobility",
-      "note": "Permanent full rest (v4.4, Adj #244)",
-      "status": "today"
+      "note": "Off — full rest",
+      "status": "done"
     },
     {
       "date": "2026-10-23",
       "day": "Fri",
       "session": "12 min shakeout + 4 strides (§2.C W27)",
-      "note": "Race-week priming strides (Adj #255 note)",
-      "status": "upcoming"
+      "note": "Shakeout 9:15-10:30/mi; 4×20 s strides @ 6:35-6:45/mi, relaxed (Adj #255 note)",
+      "status": "today"
     },
     {
       "date": "2026-10-24",
