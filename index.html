@@ -383,7 +383,7 @@ const render = d => {
 
   if (d.intro && d.intro.length) {
     const c = $('section', { class: 'card intro' });
-    c.appendChild($('h2', null, 'Today'));
+    c.appendChild($('h2', null, d.preview ? 'For this session' : 'Today'));
     for (const line of d.intro) c.appendChild($('p', null, line));
     app.appendChild(c);
   }
@@ -502,7 +502,7 @@ const render = d => {
   if (d.week_ahead) {
     const w = d.week_ahead;
     const c = $('section', { class: 'card week' });
-    c.appendChild($('h2', null, `${w.week || 'Week'} ahead${w.phase ? ' · ' + w.phase : ''}`));
+    c.appendChild($('h2', null, `${w.week || 'Week'} ${w.preview ? 'preview' : 'ahead'}${w.phase ? ' · ' + w.phase : ''}`));
     if (w.summary) c.appendChild($('div', { class: 'summary' }, w.summary));
     const wrap = $('div', { class: 'table-wrap' });
     const tbl = $('table');

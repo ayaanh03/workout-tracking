@@ -1,57 +1,58 @@
 {
-  "generatedAt": "2026-10-24T17:31:55-04:00",
+  "generatedAt": "2026-10-24T17:35:16-04:00",
   "blockId": "hybrid-2026-10-26",
-  "week": "Pre-block",
-  "phase": "Hybrid v11 — transition",
-  "summary": "Transition week. Hybrid v11 starts Monday October 26 at stage A, with direct abs omitted. Matching lifts inherit previous working weights, adjusted for new reps/RIR; no new-block training or progression is credited. Post-race recovery remains pending.",
+  "preview": true,
+  "week": "W1",
+  "phase": "Hybrid v11 — Stage A",
+  "summary": "Preview: October 26–November 1. Stage A, about 3 RIR and 41 lifting sets with direct abs omitted. No sessions are completed. Run targets remain provisional until current post-race recovery is confirmed.",
   "days": [
     {
-      "date": "2026-10-19",
+      "date": "2026-10-26",
       "day": "Mon",
-      "session": "Prior block — 3×800 m",
-      "note": "Reported 3:22 / 3:17 / 3:18; archived adjustment #424.",
-      "status": "done"
+      "session": "Upper A",
+      "note": "9 sets; incline 145/135 lb; cable crunch omitted.",
+      "status": "upcoming"
     },
     {
-      "date": "2026-10-20",
+      "date": "2026-10-27",
       "day": "Tue",
-      "session": "Prior block — 4×200 m",
-      "note": "Reported 0:44 / 0:44 / 0:46 / 0:42; archived #426.",
-      "status": "done"
+      "session": "Intervals — planned, readiness pending",
+      "note": "If recovered: 3×4 min at 6:50/mi, 3 min between reps; final RPE ≤8.",
+      "status": "upcoming"
     },
     {
-      "date": "2026-10-21",
+      "date": "2026-10-28",
       "day": "Wed",
-      "session": "Prior block — light upper",
-      "note": "Reported incline 160×1 at RIR 4; archived #427.",
-      "status": "done"
+      "session": "Delts/arms A + bike",
+      "note": "7 sets, then 20 min easy bike; calf setup/status review before loading.",
+      "status": "upcoming"
     },
     {
-      "date": "2026-10-22",
+      "date": "2026-10-29",
       "day": "Thu",
-      "session": "Prior block — scheduled rest",
-      "note": "Scheduled rest; no additional training report.",
-      "status": "rest"
+      "session": "Upper B",
+      "note": "10 sets; incline volume has its own load; cable crunch omitted.",
+      "status": "upcoming"
     },
     {
-      "date": "2026-10-23",
+      "date": "2026-10-30",
       "day": "Fri",
-      "session": "Prior block — rest",
-      "note": "Shakeout removed by athlete directive; archived #428.",
-      "status": "rest"
+      "session": "Longer intervals — planned, readiness dependent",
+      "note": "If recovered: 3×6 min at 7:25/mi, 2 min between reps; final RPE ≤7.",
+      "status": "upcoming"
     },
     {
-      "date": "2026-10-24",
+      "date": "2026-10-31",
       "day": "Sat",
-      "session": "5K baseline report received",
-      "note": "21:30 athlete-reported; actual event date and recovery unreported. No Hybrid session scheduled.",
-      "status": "today"
+      "session": "Delts/arms B + bike",
+      "note": "6 sets; no forearms yet; then 20 min easy bike.",
+      "status": "upcoming"
     },
     {
-      "date": "2026-10-25",
+      "date": "2026-11-01",
       "day": "Sun",
-      "session": "Rest",
-      "note": "Pre-block rest; first Hybrid leg day is November 1.",
+      "session": "Legs + calves",
+      "note": "9 sets; hanging leg raise omitted; calibrate new movements.",
       "status": "upcoming"
     }
   ]

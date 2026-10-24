@@ -10,6 +10,7 @@
 |---|---|
 | `generatedAt` | Actual generation timestamp with `America/New_York` offset, including DST |
 | `week`, `day`, `date`, `phase`, `sessionName` | Strings; date is athlete-local ISO; `Pre-block` before October 26, then W1–W10 |
+| `preview` | Optional boolean; true for an explicitly requested future workout. Label `sessionName` as a preview and use the requested date/week |
 | `why` | String array: session/stage selection and relevant gates; concise |
 | `intro` | String array: current constraints, normally empty or one line |
 | `lift` | `null` or `{table, lastWeek?}` |
@@ -33,6 +34,8 @@ Wednesday/Saturday cardio says bike **after lifting**; `workoutFile` is null. Ru
 `week-ahead.json`: `{generatedAt, week, phase, summary, days}`. `days` has exactly seven consecutive Monday–Sunday rows `{date, day, session, note, status}`. Both caches describe the same current week and state snapshot; timestamps match when written together.
 
 Statuses: `done` only for reported completion; `today` for unresolved current-day work; `upcoming` for future work; `skipped`, `rest` or `unreported` for supported past outcomes. Before the start, keep the transition week and Sunday October 25 rest. Logging never silently replaces today with tomorrow's preview. A calendar rollover does not advance stages or clear recovery gates.
+
+When the athlete explicitly requests publishing a future preview, both caches may show that requested date/week with `preview: true`, a visible preview label, and actual generation time. All future days remain `upcoming`. Persist the exact prescription in the dated decision ledger; leave live calendar/activation, completed actuals and progression unchanged. A later current-day request replaces the preview normally.
 
 ## Lift logging
 

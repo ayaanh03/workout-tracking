@@ -1,44 +1,110 @@
 {
-  "generatedAt": "2026-10-24T17:31:55-04:00",
+  "generatedAt": "2026-10-24T17:35:16-04:00",
   "blockId": "hybrid-2026-10-26",
-  "week": "Pre-block",
-  "day": "Sat",
-  "date": "2026-10-24",
-  "phase": "Hybrid v11 — transition",
-  "sessionName": "Pre-block — 5K baseline recorded",
-  "intro": [
-    "Direct abs remain omitted. Current Achilles status and post-race recovery are unconfirmed."
-  ],
+  "prescriptionId": "hybrid-2026-10-26-mon-upper-a-431",
+  "preview": true,
+  "week": "W1",
+  "day": "Mon",
+  "date": "2026-10-26",
+  "phase": "Hybrid v11 — Stage A",
+  "sessionName": "Upper A — Monday preview",
   "why": [
-    "Hybrid v11 starts Monday, October 26; no new-block workout is scheduled today. Sunday, October 25 remains rest.",
-    "The reported 21:30 5K initializes Tuesday at 6:50/mi and Friday at 7:25/mi. Its actual event date and recovery are unknown."
+    "First week of the new block: 9 working sets at about 3 RIR. No earned progression yet; the week establishes the new loads and tolerance."
   ],
-  "lift": null,
+  "intro": [
+    "Cable crunch omitted while the ab strain is unresolved. For the two new exercises, select a load that fits the listed range at 3 RIR. Numeric loads are starting estimates; reduce if needed to preserve 3 RIR. Use the same legacy equipment/load notation; if 165 is unavailable on the pulldown, use the next lower setting."
+  ],
+  "lift": {
+    "table": [
+      {
+        "slotId": "M1a",
+        "exercise": "Incline BB — top set",
+        "setsReps": "1×4–6",
+        "load": "145 lb",
+        "rir": "3",
+        "rest": "3 min"
+      },
+      {
+        "slotId": "M1b",
+        "exercise": "Incline BB — back-off",
+        "setsReps": "1×6–8",
+        "load": "135 lb",
+        "rir": "3",
+        "rest": "3 min"
+      },
+      {
+        "slotId": "M2",
+        "exercise": "Incline DB curl",
+        "setsReps": "1×8–12",
+        "load": "Calibrate",
+        "rir": "3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "M3",
+        "exercise": "DB lateral raise",
+        "setsReps": "2×12–20",
+        "load": "35 lb",
+        "rir": "3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "M4",
+        "exercise": "Overhead cable triceps extension",
+        "setsReps": "2×10–15",
+        "load": "Calibrate",
+        "rir": "3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "M5",
+        "exercise": "Lat pulldown",
+        "setsReps": "1×8–12",
+        "load": "165 lb",
+        "rir": "3",
+        "rest": "3 min"
+      },
+      {
+        "slotId": "M7",
+        "exercise": "Chest-supported row",
+        "setsReps": "1×8–12",
+        "load": "80 lb",
+        "rir": "3",
+        "rest": "3 min"
+      }
+    ]
+  },
   "cardio": null,
   "adaptation": [
     {
-      "exercise": "Matching lifts — previous working weights",
-      "previous": "Incline 160; lateral raises 35 (Sat 40); pulldown 170; row 80; unilateral preacher 75; rope pushdown 50 lb.",
-      "decision": "Carry these starting baselines into 11 independent slots; adjust for the new reps/RIR.",
-      "reason": "Athlete-authorized carry-over. New-block progression starts at zero; inherited incline 160 does not validate 6–8 reps."
+      "exercise": "Incline — 145 / 135 lb",
+      "previous": "Oct 13: 160×3 at RIR 1. Oct 21 was a taper single.",
+      "decision": "145 lb top set; 135 lb back-off.",
+      "reason": "Lower load for 4–6 reps at RIR 3; back-off is 6.9% lighter. Provisional until performed."
     },
     {
-      "exercise": "M6 / T7 / L1 — direct abs",
-      "previous": "October 17: lower-ab strain improving but unresolved; no later clearance.",
-      "decision": "Omit pending symptom-informed review.",
-      "reason": "Unresolved ab symptoms keep these three slots omitted; entry week has 41 working sets rather than 47."
+      "exercise": "Pulldown — 165 lb",
+      "previous": "Oct 17: first set 170×8 at RIR 2.",
+      "decision": "Reduce to 165 lb for 8–12 reps.",
+      "reason": "Stage A requires about one more rep in reserve."
     },
     {
-      "exercise": "Tuesday / Friday runs",
-      "previous": "21:30 5K reported October 24; current recovery pending.",
-      "decision": "Initial targets set; first hard-run prescription awaits current readiness.",
-      "reason": "The 5K sets starting paces, but readiness must be confirmed before the first hard run. No interval credit has been earned."
+      "exercise": "Laterals / row — 35 / 80 lb",
+      "previous": "Oct 13 laterals: 35×12/12/12 at RIR 3. Oct 17 row: first set 80×10 at RIR 2.",
+      "decision": "Hold 35 and 80; stop at RIR 3 within the ranges.",
+      "reason": "Prior performance supports these starting loads; row may stop around 9 reps."
     },
     {
-      "exercise": "WE5 / L2 — calves",
-      "previous": "October 12 legacy clean label was inferred from silence, not explicitly reported.",
-      "decision": "Current status unknown; new setup needs calibration and symptom review when decision-critical.",
-      "reason": "Missing symptom reports do not establish recovery; the old seated-calf load and taper do not prescribe the new setup."
+      "exercise": "New curl / overhead extension",
+      "previous": "No established same-exercise loads.",
+      "decision": "Select the load at first exposure.",
+      "reason": "Preacher/pushdown weights do not transfer to these different movements."
+    },
+    {
+      "exercise": "Cable crunch",
+      "previous": "Oct 17: ab strain improving but unresolved; no clearance.",
+      "decision": "Omit both stage-A sets; total is 9.",
+      "reason": "The local restriction remains active. No substitute or catch-up sets."
     }
   ],
   "currentLoads": [
