@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T17:24:38-04:00",
+  "generatedAt": "2026-10-24T17:31:55-04:00",
   "blockId": "hybrid-2026-10-26",
   "week": "Pre-block",
   "day": "Sat",
@@ -17,10 +17,10 @@
   "cardio": null,
   "adaptation": [
     {
-      "exercise": "New lifting block",
-      "previous": "No comparable Hybrid v11 actuals. Old taper loads carry no progression credit.",
-      "decision": "Start stage A Monday; calibrate each slot separately.",
-      "reason": "Stage A requires a completed manageable week before advancement; none has been completed in this block."
+      "exercise": "Matching lifts — previous working weights",
+      "previous": "Incline 160; lateral raises 35 (Sat 40); pulldown 170; row 80; unilateral preacher 75; rope pushdown 50 lb.",
+      "decision": "Carry these starting baselines into 11 independent slots; adjust for the new reps/RIR.",
+      "reason": "Athlete-authorized carry-over. New-block progression starts at zero; inherited incline 160 does not validate 6–8 reps."
     },
     {
       "exercise": "M6 / T7 / L1 — direct abs",
@@ -45,16 +45,16 @@
     {
       "slotId": "M1a",
       "exercise": "M1a — Incline barbell bench, top set",
-      "load": "Calibrate",
-      "lastVerified": "No new-block exposure",
-      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+      "load": "160 lb baseline",
+      "lastVerified": "2026-10-21 (previous block)",
+      "note": "Inherited incline baseline; adjust for this slot’s reps/RIR. Back-offs and Thursday volume need separate effective loads."
     },
     {
       "slotId": "M1b",
       "exercise": "M1b — Incline barbell bench, back-offs",
-      "load": "Calibrate",
-      "lastVerified": "No new-block exposure",
-      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+      "load": "160 lb baseline",
+      "lastVerified": "2026-10-21 (previous block)",
+      "note": "Inherited incline baseline; adjust for this slot’s reps/RIR. Back-offs and Thursday volume need separate effective loads."
     },
     {
       "slotId": "M2",
@@ -66,9 +66,9 @@
     {
       "slotId": "M3",
       "exercise": "M3 — DB lateral raise",
-      "load": "Calibrate",
-      "lastVerified": "No new-block exposure",
-      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+      "load": "35 lb baseline",
+      "lastVerified": "2026-10-21 (previous block)",
+      "note": "Carried from the lighter lateral slot; retain independent progression and review against today’s RIR."
     },
     {
       "slotId": "M4",
@@ -80,9 +80,9 @@
     {
       "slotId": "M5",
       "exercise": "M5 — Lat pulldown",
-      "load": "Calibrate",
-      "lastVerified": "No new-block exposure",
-      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+      "load": "170 lb baseline",
+      "lastVerified": "2026-10-17 (previous block)",
+      "note": "Same pulldown station; adjust for new sets/reps/RIR."
     },
     {
       "slotId": "M6",
@@ -94,23 +94,23 @@
     {
       "slotId": "M7",
       "exercise": "M7 — Chest-supported row",
-      "load": "Calibrate",
-      "lastVerified": "No new-block exposure",
-      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+      "load": "80 lb baseline",
+      "lastVerified": "2026-10-17 (previous block)",
+      "note": "Same apparatus and legacy load notation; adjust for new sets/reps/RIR."
     },
     {
       "slotId": "WE1",
       "exercise": "WE1 — DB lateral raise",
-      "load": "Calibrate",
-      "lastVerified": "No new-block exposure",
-      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+      "load": "35 lb baseline",
+      "lastVerified": "2026-10-21 (previous block)",
+      "note": "Carried from the lighter lateral slot; retain independent progression and review against today’s RIR."
     },
     {
       "slotId": "WE2",
       "exercise": "WE2 — Unilateral machine preacher curl",
-      "load": "Calibrate",
-      "lastVerified": "No new-block exposure",
-      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+      "load": "75 lb baseline",
+      "lastVerified": "2026-10-21 (previous block)",
+      "note": "Same unilateral machine; 75 setting for each arm, independent new-block progression."
     },
     {
       "slotId": "WE3",
@@ -136,9 +136,9 @@
     {
       "slotId": "T1",
       "exercise": "T1 — Incline barbell bench",
-      "load": "Calibrate",
-      "lastVerified": "No new-block exposure",
-      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+      "load": "160 lb baseline",
+      "lastVerified": "2026-10-21 (previous block)",
+      "note": "Inherited incline baseline; adjust for this slot’s reps/RIR. Back-offs and Thursday volume need separate effective loads."
     },
     {
       "slotId": "T2",
@@ -150,9 +150,9 @@
     {
       "slotId": "T3",
       "exercise": "T3 — DB lateral raise",
-      "load": "Calibrate",
-      "lastVerified": "No new-block exposure",
-      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+      "load": "35 lb baseline",
+      "lastVerified": "2026-10-21 (previous block)",
+      "note": "Carried from the lighter lateral slot; retain independent progression and review against today’s RIR."
     },
     {
       "slotId": "T4",
@@ -164,9 +164,9 @@
     {
       "slotId": "T5",
       "exercise": "T5 — Cable pushdown",
-      "load": "Calibrate",
-      "lastVerified": "No new-block exposure",
-      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+      "load": "50 lb baseline",
+      "lastVerified": "2026-10-21 (previous block)",
+      "note": "Same cable station, bilateral rope; adjust for new sets/reps/RIR."
     },
     {
       "slotId": "T6",
@@ -192,9 +192,9 @@
     {
       "slotId": "S1",
       "exercise": "S1 — DB lateral raise",
-      "load": "Calibrate",
-      "lastVerified": "No new-block exposure",
-      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+      "load": "40 lb baseline",
+      "lastVerified": "2026-10-17 (previous block)",
+      "note": "Carried from Saturday; reduce if needed for stage-A RIR 3."
     },
     {
       "slotId": "S2",

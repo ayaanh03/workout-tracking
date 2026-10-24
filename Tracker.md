@@ -8,7 +8,7 @@ Block `hybrid-2026-10-26`, program v11.0: **October 26, 2026–January 3, 2027**
 | [lifting.json](state/lifting.json) | 33 independent loads, comparable actuals, qualification, dose changes, forearms, return limits |
 | [running.json](state/running.json) | Independent Tue/Fri targets, actuals, recovery/counters, return paths, carried adjustments, cycling |
 | [recovery.json](state/recovery.json) | Symptoms, omissions, pending gates, fatigue/observation and reduced-dose state |
-| [baseline.md](state/baseline.md) | Immutable tiny handoff; historical calibration references only |
+| [baseline.md](state/baseline.md) | Tiny handoff: dated evidence and authorized working-weight carry-over |
 
 JSON records are the mutable source of truth; this index is not a duplicate tracker. Null means unknown/not established, never clean, completed or zero-load. Day tables in [program.md](program.md) plus state determine the effective prescription.
 

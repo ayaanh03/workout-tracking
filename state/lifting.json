@@ -16,16 +16,24 @@
     "extra_sets": 0,
     "trial": null,
     "decline_case": null,
-    "handled_decline_windows": []
+    "handled_decline_windows": [],
+    "load_status": "uninitialized",
+    "load_source": null
   },
   "slots": {
     "M1a": {
       "exercise": "Incline barbell bench, top set",
-      "load": null
+      "load": 160,
+      "units": "lb",
+      "load_status": "carried_unvalidated",
+      "load_source": "incline"
     },
     "M1b": {
       "exercise": "Incline barbell bench, back-offs",
-      "load": null
+      "load": 160,
+      "units": "lb",
+      "load_status": "carried_unvalidated",
+      "load_source": "incline"
     },
     "M2": {
       "exercise": "Incline DB curl",
@@ -33,7 +41,10 @@
     },
     "M3": {
       "exercise": "DB lateral raise",
-      "load": null
+      "load": 35,
+      "units": "lb",
+      "load_status": "carried_unvalidated",
+      "load_source": "lateral-light"
     },
     "M4": {
       "exercise": "Overhead cable triceps extension",
@@ -41,7 +52,10 @@
     },
     "M5": {
       "exercise": "Lat pulldown",
-      "load": null
+      "load": 170,
+      "units": "lb",
+      "load_status": "carried_unvalidated",
+      "load_source": "pulldown"
     },
     "M6": {
       "exercise": "Cable crunch",
@@ -49,15 +63,24 @@
     },
     "M7": {
       "exercise": "Chest-supported row",
-      "load": null
+      "load": 80,
+      "units": "lb",
+      "load_status": "carried_unvalidated",
+      "load_source": "row"
     },
     "WE1": {
       "exercise": "DB lateral raise",
-      "load": null
+      "load": 35,
+      "units": "lb",
+      "load_status": "carried_unvalidated",
+      "load_source": "lateral-light"
     },
     "WE2": {
       "exercise": "Unilateral machine preacher curl",
-      "load": null
+      "load": 75,
+      "units": "lb",
+      "load_status": "carried_unvalidated",
+      "load_source": "preacher"
     },
     "WE3": {
       "exercise": "Reverse pec deck",
@@ -73,7 +96,10 @@
     },
     "T1": {
       "exercise": "Incline barbell bench",
-      "load": null
+      "load": 160,
+      "units": "lb",
+      "load_status": "carried_unvalidated",
+      "load_source": "incline"
     },
     "T2": {
       "exercise": "Cable curl",
@@ -81,7 +107,10 @@
     },
     "T3": {
       "exercise": "DB lateral raise",
-      "load": null
+      "load": 35,
+      "units": "lb",
+      "load_status": "carried_unvalidated",
+      "load_source": "lateral-light"
     },
     "T4": {
       "exercise": "Pull-up",
@@ -89,7 +118,10 @@
     },
     "T5": {
       "exercise": "Cable pushdown",
-      "load": null
+      "load": 50,
+      "units": "lb",
+      "load_status": "carried_unvalidated",
+      "load_source": "pushdown"
     },
     "T6": {
       "exercise": "Seated cable row",
@@ -105,7 +137,10 @@
     },
     "S1": {
       "exercise": "DB lateral raise",
-      "load": null
+      "load": 40,
+      "units": "lb",
+      "load_status": "carried_unvalidated",
+      "load_source": "lateral-saturday"
     },
     "S2": {
       "exercise": "Incline DB curl",
@@ -162,5 +197,68 @@
     "WE1": false,
     "WE2": false
   },
-  "return": null
+  "return": null,
+  "carryover_source_file": "../archive/pre-hybrid-2026-10-24/Tracker.md",
+  "carryover_sources": {
+    "incline": {
+      "exercise": "Incline BB",
+      "load": 160,
+      "units": "lb",
+      "last_verified": "2026-10-21",
+      "actual": "160×1, RIR 4; taper single",
+      "earlier_actual": "2026-10-13: 160×3, RIR 1",
+      "convention": "Total barbell load",
+      "review": "Adjust for new reps/RIR before prescribing. Derive M1b from effective M1a; set T1 independently."
+    },
+    "lateral-light": {
+      "exercise": "DB lateral raise (old Tue)",
+      "load": 35,
+      "units": "lb",
+      "last_verified": "2026-10-21",
+      "actual": "35×12, RIR 5; light",
+      "earlier_actual": "2026-10-13: 35×12/12/12, RIR 3/3/3",
+      "convention": "Same legacy dumbbell load notation"
+    },
+    "lateral-saturday": {
+      "exercise": "DB lateral raise (old Sat)",
+      "load": 40,
+      "units": "lb",
+      "last_verified": "2026-10-17",
+      "actual": "40×12/12, RIR 2/1",
+      "convention": "Same legacy dumbbell load notation",
+      "review": "Stage A requires about 3 RIR; reduce if needed to meet the new target."
+    },
+    "pulldown": {
+      "exercise": "Lat pulldown",
+      "load": 170,
+      "units": "lb",
+      "last_verified": "2026-10-17",
+      "actual": "170×8/8, RIR 2/1",
+      "convention": "Same legacy pulldown station/setting"
+    },
+    "row": {
+      "exercise": "Chest-supported row",
+      "load": 80,
+      "units": "lb",
+      "last_verified": "2026-10-17",
+      "actual": "80×10/10, RIR 2/0",
+      "convention": "Same legacy apparatus and notation; per-hand vs total not documented"
+    },
+    "preacher": {
+      "exercise": "Unilateral machine preacher curl (old Tue)",
+      "load": 75,
+      "units": "lb",
+      "last_verified": "2026-10-21",
+      "actual": "75×10, RIR 3",
+      "convention": "Same unilateral machine setting, each arm"
+    },
+    "pushdown": {
+      "exercise": "Cable pushdown",
+      "load": 50,
+      "units": "lb",
+      "last_verified": "2026-10-21",
+      "actual": "50×12, RIR 4",
+      "convention": "Same cable station; rope, both hands"
+    }
+  }
 }

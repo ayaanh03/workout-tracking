@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-24T17:24:38-04:00",
+  "generatedAt": "2026-10-24T17:31:55-04:00",
   "blockId": "hybrid-2026-10-26",
   "week": "Pre-block",
   "phase": "Hybrid v11 — transition",
-  "summary": "Transition week. Reported 21:30 establishes the pace baseline; recovery is pending. Hybrid v11 W1 begins Monday October 26 at stage A, with direct abs omitted. No new-block training has been completed.",
+  "summary": "Transition week. Hybrid v11 starts Monday October 26 at stage A, with direct abs omitted. Matching lifts inherit previous working weights, adjusted for new reps/RIR; no new-block training or progression is credited. Post-race recovery remains pending.",
   "days": [
     {
       "date": "2026-10-19",

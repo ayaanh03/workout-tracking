@@ -27,6 +27,6 @@ Read [schedule](program/schedule.md), [current state](Tracker.md), and only toda
 | Global fatigue and observation | [Fatigue](program/fatigue.md) |
 | Optional extra-set trials | [Set trials](program/set-trials.md) |
 
-Entry state: stage A; no earned new-block progression; 33 uninitialized lift loads. Reported 21:30 5K initializes Tuesday **3×4 min at 6:50/mi**, Friday **3×6 min at 7:25/mi**, subject to readiness. The first hard run needs recovery confirmation. Direct abs **M6/T7/L1 stay omitted** until reviewed. These are entry facts, not instructions to reset later state. [Baseline evidence](state/baseline.md).
+Entry state: stage A; no earned new-block progression. Matching lifts inherit previous working-weight baselines per athlete instruction; new/unmatched lifts require calibration. Each slot still uses the new reps/RIR and independent progression. Reported 21:30 5K initializes Tuesday **3×4 min at 6:50/mi**, Friday **3×6 min at 7:25/mi**, subject to readiness. The first hard run needs recovery confirmation. Direct abs **M6/T7/L1 stay omitted** until reviewed. These are entry facts, not instructions to reset later state. [Baseline evidence](state/baseline.md).
 
 For each generated workout: give **why today**, **exact prescription**, and **adaptation check** using dated comparable actuals and the rule applied. [Workflow](docs/workflow.md) · [Dashboard/Watch contract](docs/dashboard.md).

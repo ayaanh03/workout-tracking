@@ -22,6 +22,8 @@
 
 Use `setsReps: "2×8–12"` with an integer set-count prefix. Include only effective work, preserve separate incline top-set/back-off rows, and show unknown loads as `Calibrate`. Omitted abs are absent from the workout table; their restriction remains in state and the adaptation check. A literal zero RIR is `"0"`. Historical references do not become comparable new-block actuals; omit `lastWeek` until relevant actuals exist. If no work is prescribed, both modalities are `null`, with the reason shown.
 
+In `currentLoads`, label inherited unvalidated weights as `160 lb baseline` (for example), retaining the historical verification date and source. `lift.table.load` must contain the effective weight selected for that workout after rep/RIR review, not an unreviewed baseline. The adaptation check explains carry-over and any adjustment; neither establishes a new-block actual.
+
 The adaptation check must expose uncertainty: `previous: "First exposure; no comparable actuals"` and `decision: "Calibrate"` are valid. Do not label a prescription correctly adapted when the required performance or recovery evidence remains unknown. Include the affected date/slot, actual reps/RIR or pace/effort/recovery, and the gate that passed, failed or remains pending.
 
 Wednesday/Saturday cardio says bike **after lifting**; `workoutFile` is null. Runs retain exact warmup, work, between-rep recovery, cooldown and RPE cap. Lift cues/warmup/cooldown and cardio cues are not rendered.

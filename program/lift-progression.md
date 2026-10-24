@@ -1,6 +1,6 @@
 # Lift loading and progression
 
-Each of the 33 slots has independent load, equipment/setup, actuals and qualification state in [lifting state](../state/lifting.json). M1a/M1b/T1 and all four lateral slots are separate. Historical loads only inform calibration when equipment, notation and setup match; no legacy progression credit transfers. Unknown starting load means **Calibrate**, never an invented weight. Fix the incline angle; use 30° if the original is unknown.
+Each of the 33 slots has independent load, equipment/setup, actuals and qualification state in [lifting state](../state/lifting.json). M1a/M1b/T1 and all four lateral slots are separate. **Athlete-authorized carry-over:** reuse previous working weights for the same lift/equipment/notation, then adjust to the effective rep range and RIR. `carried_unvalidated` means an inherited starting baseline, not a demonstrated new-block prescription or progression anchor. Read its dated source before generating work; reduce when old performance does not support the new target. M1b uses 5–10% below the effective M1a load selected for that day; T1 needs an independent 6–8-rep load. Never copy the inherited 160 lb into all three incline prescriptions automatically. No legacy progression credit transfers. New/unmatched loads remain **Calibrate**. Fix the incline angle; use 30° if the original is unknown.
 
 ## Ordinary progression
 

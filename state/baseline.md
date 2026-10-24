@@ -1,6 +1,6 @@
 # Carry-forward evidence — 2026-10-24
 
-Immutable entry snapshot for `hybrid-2026-10-26`; later reports belong in current state/logs. Old progression credit, training max, pace bands and taper rules do not carry forward.
+Entry evidence for `hybrid-2026-10-26`; later actuals belong in current state/logs. The athlete subsequently authorized same-lift working-weight carry-over (#430). Old progression credit, training max, pace bands and taper rules do not carry forward.
 
 ## Performance
 
@@ -13,9 +13,9 @@ Immutable entry snapshot for `hybrid-2026-10-26`; later reports belong in curren
 - **Left Achilles:** reactive-tendon history. October 12 was recorded clean under the old **no-news-is-clean default** (#416), not an explicit current recovery report. Current status remains unknown; confirm when it affects a running/calf decision. The old calf taper expires; seated-calf weights cannot initialize leg-press calf raises.
 - Post-race recovery is pending; confirm readiness before the first hard run. Missing reports establish neither recovery nor fatigue. Old elbow/patellar watches are retired unless new symptoms warrant a restriction.
 
-## Calibration references only
+## Previous working weights
 
-Loads below retain legacy lb notation. Confirm equipment, per-hand/per-arm convention, range and setup before using any as a calibration reference. None is a new-block actual, working-load prescription or progression anchor; every new slot starts uninitialized.
+Carry these weights into matching lifts/equipment per athlete instruction; mappings are in [lifting state](lifting.json). Preserve legacy lb notation and adjust for the new reps/RIR. They are starting baselines, not new-block actuals or earned progression. New/unmatched setups remain uninitialized. Incline back-offs/volume need separate effective loads; the old 160 lb single does not validate 6–8 reps. Rear-delt 145 remains conditional until the reverse-pec-deck match is established.
 
 | Movement | Date (2026) | Legacy actual: load × reps; RIR |
 |---|---|---|
