@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-10-23T19:28:00-04:00",
+  "week": "W27",
+  "phase": "Taper (race week)",
+  "summary": "Race week W27 (§2.C). Race-pace work done (Mon 3x800m, Tue 4x200m — every rep under the cap, Adj #424/#426); taper lifting done (Adj #427); Fri off, shakeout dropped (Adj #428). Sat 10/24 5K: goal sub-21:30 at 6:55/mi even (§4.F) — mile 1 is the risk. Warmup 15 min easy + 4x100m strides + 5 min dynamic. Vomero Plus.",
+  "days": [
+    {
+      "date": "2026-10-19",
+      "day": "Mon",
+      "session": "3×800m @ goal pace (§2.C W27)",
+      "note": "Logged — 3:22/3:17/3:18 at RPE 6/6/7; same paces as Fri at ~2 RPE lower (Adj #424)",
+      "status": "done"
+    },
+    {
+      "date": "2026-10-20",
+      "day": "Tue",
+      "session": "15 min easy + 4×200m @ goal pace + 5 min CD (§2.C W27)",
+      "note": "Logged — 200s 0:44/0:44/0:46/0:42 at RPE 7/7/7/6, all under the 51–52 s cap; ~3.5 mi (Adj #426)",
+      "status": "done"
+    },
+    {
+      "date": "2026-10-21",
+      "day": "Wed",
+      "session": "Light upper (v4.7) — last lift",
+      "note": "Logged — light upper, incline 160×1 RIR 4, every set RIR 3+; last lift before the race (Adj #427)",
+      "status": "done"
+    },
+    {
+      "date": "2026-10-22",
+      "day": "Thu",
+      "session": "Off / mobility",
+      "note": "Off — full rest",
+      "status": "done"
+    },
+    {
+      "date": "2026-10-23",
+      "day": "Fri",
+      "session": "Off — rest",
+      "note": "Shakeout dropped (athlete directive); race warmup is the shakeout (Adj #428)",
+      "status": "done"
+    },
+    {
+      "date": "2026-10-24",
+      "day": "Sat",
+      "session": "RACE — 5K, goal sub-21:30",
+      "note": "6:55/mi even splits (§4.F); WU 15 min easy + 4×100m strides; Vomero Plus (Adj #405)",
+      "status": "today"
+    },
+    {
+      "date": "2026-10-25",
+      "day": "Sun",
+      "session": "Off",
+      "note": "Post-race rest",
+      "status": "upcoming"
+    }
+  ]
+}

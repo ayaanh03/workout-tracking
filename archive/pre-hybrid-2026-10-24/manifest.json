@@ -1,0 +1,217 @@
+[
+  {
+    "path": "program.md",
+    "bytes": 115580,
+    "sha256": "1d5a4cd86a594baccf9791eccf5a0ad056a2ca14051e760a71e8b5ef3725f513"
+  },
+  {
+    "path": "program-history.md",
+    "bytes": 25379,
+    "sha256": "5dcce0c11194bfa13b74462b75093284534354151d44e8839fec94e33275e547"
+  },
+  {
+    "path": "Tracker.md",
+    "bytes": 6846,
+    "sha256": "faab213cbef2da79fa32249441082515f79d53f7fddf5568b7ad34df19b89128"
+  },
+  {
+    "path": "Tracker-history.md",
+    "bytes": 1177,
+    "sha256": "2f72695dc7b5e955685f3b79b76e56f1529bf6644239a58f0602bf02237e6fe4"
+  },
+  {
+    "path": "CLAUDE.md",
+    "bytes": 28902,
+    "sha256": "80aad12b42b00820d9b262005e18843731f8e78a1b68a2f59ef2d92eb8165303"
+  },
+  {
+    "path": "README.md",
+    "bytes": 5384,
+    "sha256": "e05951d4b010f037212c62e3060db4527be92925b086f1669de19431087ef5b1"
+  },
+  {
+    "path": "latest-workout.json",
+    "bytes": 3538,
+    "sha256": "81533bb246062c72820927ba07181160c51ebe67b43370c4a265009f5d9a499c"
+  },
+  {
+    "path": "week-ahead.json",
+    "bytes": 1970,
+    "sha256": "61f23cf054d6a4983a2426fd3b10d167b6e209f014d0318985c4c48f803727f8"
+  },
+  {
+    "path": "history/adjustments.md",
+    "bytes": 16876,
+    "sha256": "e73e2163bb93e6d9727a1c07f8ed669aadb5595d56e08c6b4723df0989361fca"
+  },
+  {
+    "path": "history/archive/adjustments-009-163.md",
+    "bytes": 96705,
+    "sha256": "f1d651d56eaa0f174551c15dd3de71251d0ab181e7b7c701926ac3fd12299af8"
+  },
+  {
+    "path": "history/archive/adjustments-164-253.md",
+    "bytes": 77167,
+    "sha256": "b6a48137f29523663c76954492ff394a06c60f4c9283620fdcbb3a7c981e6954"
+  },
+  {
+    "path": "history/archive/adjustments-254-282.md",
+    "bytes": 42904,
+    "sha256": "937be90d01b914048feb71f0f92e1fbf3501dff2610da2dc96430155f7fc4a3e"
+  },
+  {
+    "path": "history/archive/adjustments-283-308.md",
+    "bytes": 41127,
+    "sha256": "509f07c44597c8eab836b2aacc1a47b8994185faa0f49ada9b2305f49a347473"
+  },
+  {
+    "path": "history/archive/adjustments-309-346.md",
+    "bytes": 50264,
+    "sha256": "10c0686dd8b9859a2b345eea4a7e7c48493a8761891e56fc317d1c57e3aad7e5"
+  },
+  {
+    "path": "history/archive/adjustments-347-405.md",
+    "bytes": 29319,
+    "sha256": "e55d78ffa0c3cf6a7e238fc1ca4ffabe4ce3a35ce29b69b0d4be04cb6f18a36f"
+  },
+  {
+    "path": "history/archive/cardio-log-W01-W12.md",
+    "bytes": 54933,
+    "sha256": "2a76af2a2f64507e50ad16a740b4bf5b27e1db3276d3828b3898b79e1987204d"
+  },
+  {
+    "path": "history/archive/cardio-log-W13-W16.md",
+    "bytes": 22411,
+    "sha256": "3a866800ac572f81adba54fa755ec1fe04c2495285671d6887101658535eb425"
+  },
+  {
+    "path": "history/archive/cardio-log-W17-W24.md",
+    "bytes": 44252,
+    "sha256": "5fe9d448061a657c7d58edeb46023e5b6898ef4ec50040c88fb3332b237de871"
+  },
+  {
+    "path": "history/archive/lifting-log-W03-W12.md",
+    "bytes": 62902,
+    "sha256": "def9477d75e9a09451385f3d302771c7d286109f84fc734dd77f65aa0a662a54"
+  },
+  {
+    "path": "history/archive/lifting-log-W13-W16.md",
+    "bytes": 33356,
+    "sha256": "1ce03258b6212863b2eccb4b35107ac8ebe4d655b0c6aa058fff64f288c5ed35"
+  },
+  {
+    "path": "history/archive/lifting-log-W17.md",
+    "bytes": 14442,
+    "sha256": "070cfd4926b4319eb5fe681ad4fd33dacd445f39ee694051451e331165abd30a"
+  },
+  {
+    "path": "history/archive/lifting-log-W18-W24.md",
+    "bytes": 69582,
+    "sha256": "f69613e6628c02e1b6698392c47177a41b285a73788f0436bdb7ec9057ed8f75"
+  },
+  {
+    "path": "history/archive/si-log-W01-W12.md",
+    "bytes": 16601,
+    "sha256": "39e67985dd0cc3aac81617169346e041193b36a2b3b831f328156041a2ef80c3"
+  },
+  {
+    "path": "history/archive/si-log-W13-W24.md",
+    "bytes": 3389,
+    "sha256": "4245b2e965f6f86b798ee0120348933df4573eb99739a19cb47f5f80ae0ed0c2"
+  },
+  {
+    "path": "history/archive/weekly-summary-W01-W12.md",
+    "bytes": 15507,
+    "sha256": "ca04410a9d391008d43a6b87763c546c4e44814b89187aadfe2cd142e2bb8096"
+  },
+  {
+    "path": "history/archive/weekly-summary-W13-W24.md",
+    "bytes": 29276,
+    "sha256": "947ea766560073c61bd921887fed469b3e853bbac498baf096df77997fcdb33f"
+  },
+  {
+    "path": "history/cardio-log.md",
+    "bytes": 11433,
+    "sha256": "9de6d404918fd92fb1aa5ed34263a030219cb79f53599d5577ddf7adf729b952"
+  },
+  {
+    "path": "history/incline-bb.md",
+    "bytes": 7595,
+    "sha256": "9ecca8c8a730d7d7d8413e20f766183e907d9ad2eed56ab239798ac8f13f598b"
+  },
+  {
+    "path": "history/lifting-log.md",
+    "bytes": 9035,
+    "sha256": "122603d921eedc466929da0efd025dc27ed99617c42761983ffb1a3e1ff03c7f"
+  },
+  {
+    "path": "history/si-log.md",
+    "bytes": 622,
+    "sha256": "a7b710d44c25aff83dfafdb03034a17d82a52c49bc574fc72aab723d30615b60"
+  },
+  {
+    "path": "history/weekly-summary.md",
+    "bytes": 1274,
+    "sha256": "df1e34ca639ed0dc1709be67a17ec11567218c283ad06e10918c3f2d95cda8e4"
+  },
+  {
+    "path": "runs/2026-10-09.txt",
+    "bytes": 210,
+    "sha256": "acf9e446b175a1ed130b3c27cb6cd9816b9f3648ec5905b25e0deb2991e2d6f9"
+  },
+  {
+    "path": "runs/2026-10-09.workout",
+    "bytes": 353,
+    "sha256": "132f5f3f4a8fe7d567177e8bf2d7eec8a3ec209282e94376d116697bbd87a59e"
+  },
+  {
+    "path": "runs/2026-10-12.txt",
+    "bytes": 162,
+    "sha256": "5a32ffbf23b94188afe5a248a868008394fb0381a338c3591f123caf3fce6e8e"
+  },
+  {
+    "path": "runs/2026-10-12.workout",
+    "bytes": 331,
+    "sha256": "7b7dce7dc72e4fa1eb49b30ebaddac38a1037a97667bfea2fb1b4c4505879883"
+  },
+  {
+    "path": "runs/2026-10-14.txt",
+    "bytes": 207,
+    "sha256": "840c3180d0a8d5725cf4798b9c8a0b0949e585350f5dc0940a18817f8cf122b1"
+  },
+  {
+    "path": "runs/2026-10-14.workout",
+    "bytes": 352,
+    "sha256": "8143448641513d7b457899c4514562132a39ddc32e872ce632dcb3d2a28d98d0"
+  },
+  {
+    "path": "runs/2026-10-16.txt",
+    "bytes": 249,
+    "sha256": "ccddfe0011acf30fb18d6630d5fa12429ab4ec930b392c30e294b290e8bbfef0"
+  },
+  {
+    "path": "runs/2026-10-16.workout",
+    "bytes": 353,
+    "sha256": "76410ca52e1ce18689144e861916d07b36db9828000e1ac93bf53dd10d331e88"
+  },
+  {
+    "path": "runs/2026-10-19.txt",
+    "bytes": 230,
+    "sha256": "62373b0a353048b80bae10adc4fd5d95b9773d33143cd4c59e854ccd0e8f1f72"
+  },
+  {
+    "path": "runs/2026-10-19.workout",
+    "bytes": 353,
+    "sha256": "1ee20ba464bcb82a7c9ace44ed68b66caeab66db8a359578202bbd6298e1a5b2"
+  },
+  {
+    "path": "runs/2026-10-20.txt",
+    "bytes": 269,
+    "sha256": "cb12ba473c9d44ff9bb02e45d5e5c5548a3f92116a4ab79b882fdbb37742ac17"
+  },
+  {
+    "path": "runs/2026-10-20.workout",
+    "bytes": 353,
+    "sha256": "93d91f721cd52ca2f4a467908311a6092ab0501ea4d481923d7bc312fa16f725"
+  }
+]

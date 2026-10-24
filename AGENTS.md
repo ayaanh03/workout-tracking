@@ -1,0 +1,12 @@
+# Workout tracking agent
+
+Read [program.md](program.md), [Tracker.md](Tracker.md), and [docs/workflow.md](docs/workflow.md), then only the relevant day/rule modules and state. Consult [docs/dashboard.md](docs/dashboard.md) when writing caches or Watch files.
+
+- Current user instructions and actual reports take precedence. Use America/New_York dates; logging does not advance the calendar.
+- Output only **why today**, **exact workout**, and **adaptation check**. No technique tutorials, research, nutrition advice, motivational filler, or routine lift warmup/cooldown tables. Retain prescribed run warmup/cooldown because they affect workload.
+- Prescription: `program/`. Current facts: `state/`. Actuals and decisions: `history/`. Caches are derived views; never promote a prescription to an actual.
+- Apply symptoms/recovery, return/assessment, achieved-stage limits, then earned progression. Preserve unknowns and persistent restrictions. Calendar rollover does not earn advancement.
+- Keep all 33 lift slots independent. Never inherit old training max or progression credit. `state/baseline.md` contains dated calibration references and entry evidence only.
+- Append current history and keep adjustment IDs increasing from #429. Preserve the archive verbatim. Search it only for a specific source question, using `rg --no-ignore` with a narrow path/query.
+- Update affected state, actuals/decisions and caches together. Verify arithmetic, links, JSON and adaptation evidence before reporting completion. Do not claim an automatic decision engine or completed workout exists.
+- Keep the current branch. For routine workout-generation/logging requests, preserve the existing commit-and-push workflow when a remote is available; verify success. Do not create a PR unless asked.

@@ -1,84 +1,27 @@
-# Workout Tracking
+# Workout tracking
 
-Four markdown files + a tiny read-only dash, all driven by Claude Code chats. No backend, no build.
+Hybrid v11 begins **Monday, October 26, 2026**, through January 3, 2027. The agent generates workouts and records results; the static dashboard displays them. No backend or build.
 
-- **`program.md`** — lean, **current** prescription only: the 25-week Sub-20 5K + hypertrophy program as it stands today. The plan.
-- **`program-history.md`** — chronological rationale for *why* the prescription changed (template revisions, mileage reshapes). `program.md` points here instead of carrying the prose inline.
-- **`Tracker.md`** — lean, **current** state only: status, current working loads, active flags, shoe rotation, latest Incline BB row, latest Weekly Summary row. The record of what's true right now.
-- **`history/`** — everything historical, one append-only file per stream (adjustments ledger, lifting log, cardio log, SI log, weekly summaries, incline-BB meso table). Live files hold the current phase; completed phases sit verbatim in `history/archive/`. `Tracker.md` cites an Adj # or week; the detail lives here. (`Tracker-history.md` is a pointer stub left over from the pre-split layout.)
-- **`index.html`** — a static, mobile-friendly view of today's brief + the week ahead. Renders `latest-workout.json` and `week-ahead.json`, both written by Claude. Run days get an **Add to Apple Watch** button; lift days get a **Log lift** form.
-- **`runs/`** — the day's run as an Apple Watch workout (`.workout`), built by `tools/workoutgen.py` from a small text spec.
+Every workout answers three questions:
 
-`CLAUDE.md` tells Claude how to behave in this repo.
+1. **Why this workout today?** Calendar slot, achieved stage, and evidence behind changes.
+2. **Exactly what do I do?** Ordered exercises, effective sets/reps/load/RIR/rest, or endurance duration, pace, effort and recovery.
+3. **Was the adaptation correct?** Previous comparable actuals → applicable rule → today's decision. Missing evidence stays pending.
 
----
+Ask for today's workout; afterward report actual load/reps/RIR per set or interval paces/final RPE, plus relevant symptoms and next-day recovery. The dashboard's lift form formats a report to paste into chat; it does not save records itself.
 
-## How it works
-
-**Morning:** ask for the workout.
-
-> "what's today"
-
-Claude reads the two **lean** files — `program.md` + `Tracker.md` — figures out the week / phase / day, applies current working loads and any active flags, and outputs a tight brief: intro line, lift table (sets × reps × load × RIR × rest × cue), warmup, cooldown. Cardio gets its own block — flags, workout, targets, cues. The history files aren't needed to generate a brief.
-
-On run days the brief also builds `runs/{date}.workout` — tap **Add to Apple Watch** on the dash (or open the file Claude sends) and it lands in the Workout app with the warmup, reps, recoveries and pace alerts already set.
-
-**Post-session:** dump what you did — or on lift days fill in the **Log lift** card on the dash (loads prefilled from the prescription, targets shown as placeholders, **Fill targets** for sets that went to plan) and tap **Copy for Claude**.
-
-> "Hyp A done. Incline 135×5/5/5 RIR 3/2/2. Lat raise 25×12 across RIR 3. Preacher 50×10 across RIR 4/3/2. Pushdown 50×12 across RIR 4/3/2…"
-
-Claude appends a structured entry to the matching `history/` files (lifting/cardio log, adjustments, SI log), then syncs `Tracker.md`'s current-state sections (Current Working Loads, Active Flags, latest Incline BB row, latest Weekly Summary row) to match, then commits and pushes. The next morning's brief reads the new lean state.
-
-That's the whole loop. Each session feeds context into the next; the history files keep that context lossless without bloating the files Claude has to read every morning.
-
----
-
-## The program at a glance
-
-25-week Sub-20 5K plan + 2×/wk hypertrophy. Phases: **Reset → Base → Build → Sharpen → Taper**, race day Sat Oct 24, 2026.
-
-| Day | Session |
+| Start here | Purpose |
 |---|---|
-| Sun | Off / SI prehab |
-| Mon | Z1 easy run + strides (hill strides Phase B+) |
-| Tue | Hyp A lift (no run; upper-dominant) |
-| Wed | Threshold (run or row) |
-| Thu | Off — permanent, mobility / walk + SI prehab |
-| Fri | Quality (T or VO2max) |
-| Sat | Long run + Hyp B (≥6h gap) |
+| [program.md](program.md) | Current prescription, split by decision and training day |
+| [Tracker.md](Tracker.md) | Entry point to current state |
+| [state/baseline.md](state/baseline.md) | Tiny carry-forward: dated loads, 5K result, unresolved injuries |
+| [history/](history/) | This block's actuals, injury reports and decisions |
+| [docs/workflow.md](docs/workflow.md) | Generate, log and verify adaptations |
+| [docs/dashboard.md](docs/dashboard.md) | Cache format and Watch export |
+| [archive/README.md](archive/README.md) | Old records and unabridged source; excluded from ordinary generation |
 
-Full current prescription in `program.md`; why it changed in `program-history.md`. Current execution state in `Tracker.md`; full session history in `history/`.
+Monday Upper A · Tuesday intervals · Wednesday delts/arms + bike · Thursday Upper B · Friday intervals · Saturday delts/arms + bike · Sunday legs.
 
----
+Each slot's load starts uninitialized and is calibrated to its reps/RIR. Historical weights are references, not compulsory starting prescriptions. Direct abs remain omitted pending review; the first hard run requires current recovery confirmation.
 
-## File map
-
-| File | Purpose |
-|---|---|
-| `program.md` | Lean, current 25-week plan (prescription, source of truth for what's prescribed now) |
-| `program-history.md` | Chronological rationale for past prescription changes |
-| `Tracker.md` | Lean, current state: status, current loads, active flags, shoe rotation, latest forecast/summary rows |
-| `history/` | Full Adjustments ledger, lifting/cardio/SI logs, weekly summaries — live files = current phase, older phases in `history/archive/` |
-| `Tracker-history.md` | Pointer stub mapping the old single-file layout to `history/` |
-| `index.html` | Dash — renders the two JSON caches; Add to Apple Watch link + Log lift form |
-| `runs/` | Per-day Apple Watch run workouts (`.txt` spec + built `.workout`) |
-| `tools/workoutgen.py` | Builds/decodes Workout app `.workout` files (stdlib only) |
-| `tools/test_workoutgen.py` | Regression test against real app exports in `tools/workoutgen-fixtures/` |
-| `latest-workout.json` | Cached daily brief (written by Claude each morning) |
-| `week-ahead.json` | Cached 7-day glance for the current program week (written by Claude) |
-| `CLAUDE.md` | Behavior instructions for Claude Code |
-| `README.md` | This file |
-| `LICENSE` | MIT |
-
----
-
-## Dash setup (one-time)
-
-The dash is just `index.html` + the two JSON files in this repo. To put it on the web:
-
-1. Repo **Settings → Pages**
-2. Source: **Deploy from a branch**
-3. Branch: `main` (or whichever branch you merge to) / `/(root)`
-4. Save → wait a minute → open the Pages URL
-
-No secrets, no workflow, no build. Every morning Claude writes the fresh JSON, commits it, and the dash picks it up on the next load.
+`index.html` reads `latest-workout.json` and `week-ahead.json`. Host the root on GitHub Pages (Settings → Pages → intended branch). `tools/workoutgen.py` builds Watch workouts in `runs/`; its fixtures/tests remain available. License: [LICENSE](LICENSE).

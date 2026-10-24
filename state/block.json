@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "block_id": "hybrid-2026-10-26",
+  "program_id": "hybrid-2026-10-26-v11",
+  "program_version": "11.0",
+  "start_date": "2026-10-26",
+  "end_date": "2027-01-03",
+  "timezone": "America/New_York",
+  "as_of": "2026-10-24",
+  "activation_status": "scheduled",
+  "calendar_week": "Pre-block",
+  "calendar_phase": "transition",
+  "lifting_stage": "A",
+  "last_tolerated_stage": null,
+  "latest_manageable_week": null,
+  "adoption": {
+    "status": "complete",
+    "steps_complete": [
+      "archive_verified",
+      "baseline_recorded",
+      "state_initialized",
+      "caches_validated"
+    ]
+  },
+  "baseline_result_id": "baseline-5k-reported-2026-10-24",
+  "last_adjustment_id": 429,
+  "assessments": {
+    "first_test_week": 5,
+    "first_test_attempted": false,
+    "attempts": [],
+    "applied_overrides": [],
+    "cancellation_or_reversion": null,
+    "final_test_week": 10
+  },
+  "completion": {}
+}

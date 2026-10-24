@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "block_id": "hybrid-2026-10-26",
+  "tuesday": {
+    "pace_seconds_per_mile": 410,
+    "normal_work_minutes": 12,
+    "normal_format": "3x4",
+    "rpe_cap": 8,
+    "temporary_prescription": null,
+    "last_successful_normal": null,
+    "last_completed": null,
+    "latest_actual": null,
+    "classification": null,
+    "hits": 0,
+    "misses": 0,
+    "comfortable_pair": [],
+    "next_day_recovery": null,
+    "poor_recovery_pattern": [],
+    "return": null,
+    "pending_validation": null,
+    "carried_adjustment": null
+  },
+  "friday": {
+    "pace_seconds_per_mile": 445,
+    "normal_work_minutes": 18,
+    "normal_format": "3x6",
+    "rpe_cap": 7,
+    "temporary_prescription": null,
+    "last_successful_normal": null,
+    "last_completed": null,
+    "latest_actual": null,
+    "classification": null,
+    "hits": 0,
+    "misses": 0,
+    "comfortable_pair": [],
+    "next_day_recovery": null,
+    "poor_recovery_pattern": [],
+    "return": null,
+    "pending_validation": null,
+    "carried_adjustment": null
+  },
+  "cycling": {
+    "wednesday": {
+      "last_completed": null,
+      "last_tolerated_minutes": null
+    },
+    "saturday": {
+      "last_completed": null,
+      "last_tolerated_minutes": null
+    }
+  }
+}

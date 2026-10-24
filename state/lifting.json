@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "block_id": "hybrid-2026-10-26",
+  "slot_defaults": {
+    "units": null,
+    "equipment": null,
+    "load_convention": null,
+    "setup": null,
+    "last_actual": null,
+    "qualifying_exposures": 0,
+    "comparable_sessions": [],
+    "first_set_anchor": null,
+    "new_exposure_count": 0,
+    "set_ceiling": null,
+    "near_failure_suspended": false,
+    "extra_sets": 0,
+    "trial": null,
+    "decline_case": null,
+    "handled_decline_windows": []
+  },
+  "slots": {
+    "M1a": {
+      "exercise": "Incline barbell bench, top set",
+      "load": null
+    },
+    "M1b": {
+      "exercise": "Incline barbell bench, back-offs",
+      "load": null
+    },
+    "M2": {
+      "exercise": "Incline DB curl",
+      "load": null
+    },
+    "M3": {
+      "exercise": "DB lateral raise",
+      "load": null
+    },
+    "M4": {
+      "exercise": "Overhead cable triceps extension",
+      "load": null
+    },
+    "M5": {
+      "exercise": "Lat pulldown",
+      "load": null
+    },
+    "M6": {
+      "exercise": "Cable crunch",
+      "load": null
+    },
+    "M7": {
+      "exercise": "Chest-supported row",
+      "load": null
+    },
+    "WE1": {
+      "exercise": "DB lateral raise",
+      "load": null
+    },
+    "WE2": {
+      "exercise": "Unilateral machine preacher curl",
+      "load": null
+    },
+    "WE3": {
+      "exercise": "Reverse pec deck",
+      "load": null
+    },
+    "WE4": {
+      "exercise": "Rope cable hammer curl",
+      "load": null
+    },
+    "WE5": {
+      "exercise": "Leg-press calf raise",
+      "load": null
+    },
+    "T1": {
+      "exercise": "Incline barbell bench",
+      "load": null
+    },
+    "T2": {
+      "exercise": "Cable curl",
+      "load": null
+    },
+    "T3": {
+      "exercise": "DB lateral raise",
+      "load": null
+    },
+    "T4": {
+      "exercise": "Pull-up",
+      "load": null
+    },
+    "T5": {
+      "exercise": "Cable pushdown",
+      "load": null
+    },
+    "T6": {
+      "exercise": "Seated cable row",
+      "load": null
+    },
+    "T7": {
+      "exercise": "Cable crunch",
+      "load": null
+    },
+    "T8": {
+      "exercise": "Straight-arm cable pulldown",
+      "load": null
+    },
+    "S1": {
+      "exercise": "DB lateral raise",
+      "load": null
+    },
+    "S2": {
+      "exercise": "Incline DB curl",
+      "load": null
+    },
+    "S3": {
+      "exercise": "Overhead cable triceps extension",
+      "load": null
+    },
+    "S4": {
+      "exercise": "Reverse pec deck",
+      "load": null
+    },
+    "S5": {
+      "exercise": "Cable reverse curl",
+      "load": null
+    },
+    "S6": {
+      "exercise": "Cable wrist curl",
+      "load": null
+    },
+    "L1": {
+      "exercise": "Hanging leg raise",
+      "load": null
+    },
+    "L2": {
+      "exercise": "Leg-press calf raise",
+      "load": null
+    },
+    "L3": {
+      "exercise": "Hack squat",
+      "load": null
+    },
+    "L4": {
+      "exercise": "Seated leg curl",
+      "load": null
+    },
+    "L5": {
+      "exercise": "Leg extension",
+      "load": null
+    },
+    "L6": {
+      "exercise": "Loaded 45-degree back extension",
+      "load": null
+    }
+  },
+  "forearms": {
+    "exposure_stage": "none",
+    "two_set_eligible": false,
+    "elbow_response": null,
+    "reviewed_on": null
+  },
+  "cross_day_cuts_used": {
+    "WE1": false,
+    "WE2": false
+  },
+  "return": null
+}

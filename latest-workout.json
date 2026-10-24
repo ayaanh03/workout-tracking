@@ -1,93 +1,277 @@
 {
-  "generatedAt": "2026-10-23T19:28:00-04:00",
-  "week": "W27",
-  "day": "Fri",
-  "date": "2026-10-23",
-  "phase": "Taper (race week)",
-  "sessionName": "Off -- rest day before the race (Adj #428)",
+  "generatedAt": "2026-10-24T17:24:38-04:00",
+  "blockId": "hybrid-2026-10-26",
+  "week": "Pre-block",
+  "day": "Sat",
+  "date": "2026-10-24",
+  "phase": "Hybrid v11 — transition",
+  "sessionName": "Pre-block — 5K baseline recorded",
   "intro": [
-    "Shakeout dropped; the race warmup is the shakeout: 15 min easy + 4x100m strides + 5 min dynamic (section 4.F, Adj #428)."
+    "Direct abs remain omitted. Current Achilles status and post-race recovery are unconfirmed."
+  ],
+  "why": [
+    "Hybrid v11 starts Monday, October 26; no new-block workout is scheduled today. Sunday, October 25 remains rest.",
+    "The reported 21:30 5K initializes Tuesday at 6:50/mi and Friday at 7:25/mi. Its actual event date and recovery are unknown."
   ],
   "lift": null,
   "cardio": null,
+  "adaptation": [
+    {
+      "exercise": "New lifting block",
+      "previous": "No comparable Hybrid v11 actuals. Old taper loads carry no progression credit.",
+      "decision": "Start stage A Monday; calibrate each slot separately.",
+      "reason": "Stage A requires a completed manageable week before advancement; none has been completed in this block."
+    },
+    {
+      "exercise": "M6 / T7 / L1 — direct abs",
+      "previous": "October 17: lower-ab strain improving but unresolved; no later clearance.",
+      "decision": "Omit pending symptom-informed review.",
+      "reason": "Unresolved ab symptoms keep these three slots omitted; entry week has 41 working sets rather than 47."
+    },
+    {
+      "exercise": "Tuesday / Friday runs",
+      "previous": "21:30 5K reported October 24; current recovery pending.",
+      "decision": "Initial targets set; first hard-run prescription awaits current readiness.",
+      "reason": "The 5K sets starting paces, but readiness must be confirmed before the first hard run. No interval credit has been earned."
+    },
+    {
+      "exercise": "WE5 / L2 — calves",
+      "previous": "October 12 legacy clean label was inferred from silence, not explicitly reported.",
+      "decision": "Current status unknown; new setup needs calibration and symptom review when decision-critical.",
+      "reason": "Missing symptom reports do not establish recovery; the old seated-calf load and taper do not prescribe the new setup."
+    }
+  ],
   "currentLoads": [
     {
-      "exercise": "Incline BB",
-      "load": "160 working / TM 168",
-      "lastVerified": "W27 Wed 10/21 (160×1 RIR 4, light)",
-      "note": "Taper done; no lifting until post-race (Adj #427). <3 reps on a prescribed ×3 = miss #2 → cut TM 5–7% (Adj #381)"
+      "slotId": "M1a",
+      "exercise": "M1a — Incline barbell bench, top set",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
     },
     {
-      "exercise": "Lat pulldown",
-      "load": "170 working (athlete directive)",
-      "lastVerified": "W26 Sat 10/17 (170×8/8 RIR 2/1)",
-      "note": "Hold 170. Post-race: rebuild toward clean 4×8, no auto-revert (Adj #390/#421)"
+      "slotId": "M1b",
+      "exercise": "M1b — Incline barbell bench, back-offs",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
     },
     {
-      "exercise": "Chest-supp row",
-      "load": "80 working",
-      "lastVerified": "W26 Sat 10/17 (80×10/10 RIR 2/0)",
-      "note": "Hold 80. 85 gate (full 3×10 + sets 1–2 ≥RIR 1) resumes post-race (Adj #394/#421)"
+      "slotId": "M2",
+      "exercise": "M2 — Incline DB curl",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
     },
     {
-      "exercise": "DB lateral raise (Tue)",
-      "load": "35 working",
-      "lastVerified": "W27 Wed 10/21 (35×12 RIR 5, light)",
-      "note": "Hold 35. Next: first post-race Hyp A (Adj #427)"
+      "slotId": "M3",
+      "exercise": "M3 — DB lateral raise",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
     },
     {
-      "exercise": "DB lateral raise (Sat)",
-      "load": "40 working",
-      "lastVerified": "W26 Sat 10/17 (40×12/12 RIR 2/1)",
-      "note": "Hold 40. 42.5 gate (clean 4×12 + set 4 ≥RIR 1) resumes post-race (Adj #395/#421)"
+      "slotId": "M4",
+      "exercise": "M4 — Overhead cable triceps extension",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
     },
     {
-      "exercise": "Preacher curl uni (Tue)",
-      "load": "75 working",
-      "lastVerified": "W27 Wed 10/21 (75×10 RIR 3, light)",
-      "note": "Hold 75. W26 set 1 hit 12 — carry to the first post-race Hyp A (Adj #417/#427)"
+      "slotId": "M5",
+      "exercise": "M5 — Lat pulldown",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
     },
     {
-      "exercise": "Preacher curl uni (Sat)",
-      "load": "65/arm working",
-      "lastVerified": "W26 Sat 10/17 (65×12/12 RIR 3/0)",
-      "note": "65 holds. Revert rule (set 3 <12 or <RIR 1 → 60) resumes post-race (Adj #392/#421)"
+      "slotId": "M6",
+      "exercise": "M6 — Cable crunch",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "Omitted pending documented ab review; do not restore on stage advancement."
     },
     {
-      "exercise": "Cable pushdown (rope, both-handed)",
-      "load": "50 working",
-      "lastVerified": "W27 Wed 10/21 (50×12 RIR 4, light)",
-      "note": "Holds both slots. Post-race revert at 50: 12 floor lost or last set <RIR 1 → 47.5 (Adj #391/#427)"
+      "slotId": "M7",
+      "exercise": "M7 — Chest-supported row",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
     },
     {
-      "exercise": "Rear-delt fly",
-      "load": "145 working",
-      "lastVerified": "W27 Wed 10/21 (145×12 RIR 4, light)",
-      "note": "Hold. Stop at RIR 3 — joint-health slot (Adj #318/#386/#427)"
+      "slotId": "WE1",
+      "exercise": "WE1 — DB lateral raise",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
     },
     {
-      "exercise": "Seated calf",
-      "load": "375 working",
-      "lastVerified": "W25 Sat 10/10 (375×12/12 RIR 2/1)",
-      "note": "Last dose of the cycle — no calves W26–W27 (v4.7). Post-dose read Mon 10/12 clean (Adj #416)"
+      "slotId": "WE2",
+      "exercise": "WE2 — Unilateral machine preacher curl",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
     },
     {
-      "exercise": "Decline crunch (Tue)",
-      "load": "BW (reset from +15)",
-      "lastVerified": "W27 Wed 10/21 (BW: 12 RIR 6)",
-      "note": "Ab strain improving, not resolved (Adj #421). Hold BW until it resolves (Adj #385/#427)"
+      "slotId": "WE3",
+      "exercise": "WE3 — Reverse pec deck",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
     },
     {
-      "exercise": "Decline crunch (Sat)",
-      "load": "BW (reset from +15)",
-      "lastVerified": "W26 Sat 10/17 (BW: 10/10 RIR 4/4)",
-      "note": "Ab strain improving, not resolved (athlete report). Hold BW (Adj #385/#421)"
+      "slotId": "WE4",
+      "exercise": "WE4 — Rope cable hammer curl",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
     },
     {
-      "exercise": "Chest fly",
-      "load": "135 working",
-      "lastVerified": "W26 Sat 10/17 (135×12 RIR 3)",
-      "note": "Joint-health slot. Hold 135 (Adj #378/#421)"
+      "slotId": "WE5",
+      "exercise": "WE5 — Leg-press calf raise",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "New calf setup; current Achilles status unknown. No old seated-calf load transfer."
+    },
+    {
+      "slotId": "T1",
+      "exercise": "T1 — Incline barbell bench",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+    },
+    {
+      "slotId": "T2",
+      "exercise": "T2 — Cable curl",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+    },
+    {
+      "slotId": "T3",
+      "exercise": "T3 — DB lateral raise",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+    },
+    {
+      "slotId": "T4",
+      "exercise": "T4 — Pull-up",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+    },
+    {
+      "slotId": "T5",
+      "exercise": "T5 — Cable pushdown",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+    },
+    {
+      "slotId": "T6",
+      "exercise": "T6 — Seated cable row",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+    },
+    {
+      "slotId": "T7",
+      "exercise": "T7 — Cable crunch",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "Omitted pending documented ab review; do not restore on stage advancement."
+    },
+    {
+      "slotId": "T8",
+      "exercise": "T8 — Straight-arm cable pulldown",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+    },
+    {
+      "slotId": "S1",
+      "exercise": "S1 — DB lateral raise",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+    },
+    {
+      "slotId": "S2",
+      "exercise": "S2 — Incline DB curl",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+    },
+    {
+      "slotId": "S3",
+      "exercise": "S3 — Overhead cable triceps extension",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+    },
+    {
+      "slotId": "S4",
+      "exercise": "S4 — Reverse pec deck",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+    },
+    {
+      "slotId": "S5",
+      "exercise": "S5 — Cable reverse curl",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "No forearm work in stage A; independent calibration when introduced."
+    },
+    {
+      "slotId": "S6",
+      "exercise": "S6 — Cable wrist curl",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "No forearm work in stage A; independent calibration when introduced."
+    },
+    {
+      "slotId": "L1",
+      "exercise": "L1 — Hanging leg raise",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "Omitted pending documented ab review; do not restore on stage advancement."
+    },
+    {
+      "slotId": "L2",
+      "exercise": "L2 — Leg-press calf raise",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "New calf setup; current Achilles status unknown. No old seated-calf load transfer."
+    },
+    {
+      "slotId": "L3",
+      "exercise": "L3 — Hack squat",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+    },
+    {
+      "slotId": "L4",
+      "exercise": "L4 — Seated leg curl",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+    },
+    {
+      "slotId": "L5",
+      "exercise": "L5 — Leg extension",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+    },
+    {
+      "slotId": "L6",
+      "exercise": "L6 — Loaded 45-degree back extension",
+      "load": "Calibrate",
+      "lastVerified": "No new-block exposure",
+      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
     }
   ]
 }

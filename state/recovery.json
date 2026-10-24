@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "block_id": "hybrid-2026-10-26",
+  "local_restrictions": [
+    {
+      "id": "left-lower-ab",
+      "status": "unresolved",
+      "last_reported_on": "2026-10-17",
+      "report": "Improving, not resolved",
+      "omitted_slots": [
+        "M6",
+        "T7",
+        "L1"
+      ],
+      "clearance": null,
+      "source": "baseline.md"
+    },
+    {
+      "id": "left-achilles",
+      "status": "history-current-status-unknown",
+      "last_explicit_current_report": null,
+      "legacy_record": "2026-10-12 clean label was inferred by old no-news-is-clean rule",
+      "affected_slots": [
+        "WE5",
+        "L2"
+      ],
+      "action": "Confirm when decision-critical; calibrate new calf setup; apply symptom rule",
+      "source": "baseline.md"
+    }
+  ],
+  "pending_gates": [
+    {
+      "id": "post-race-recovery",
+      "reported_on": null,
+      "status": "pending",
+      "blocks": "First hard run until current readiness confirmed; any progression or clearance requiring recovery evidence"
+    },
+    {
+      "id": "ab-review",
+      "reported_on": null,
+      "status": "pending",
+      "blocks": "Restoration of M6/T7/L1"
+    }
+  ],
+  "global_fatigue": null,
+  "observation": null,
+  "reduced_snapshot": null
+}

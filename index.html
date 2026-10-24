@@ -173,7 +173,7 @@ const $ = (tag, attrs, ...kids) => {
     else if (k === 'html') e.innerHTML = attrs[k];
     else e.setAttribute(k, attrs[k]);
   }
-  for (const c of kids) if (c != null) e.appendChild(typeof c === 'string' ? document.createTextNode(c) : c);
+  for (const c of kids) if (c != null) e.appendChild(typeof c === 'string' || typeof c === 'number' ? document.createTextNode(String(c)) : c);
   return e;
 };
 
@@ -190,8 +190,8 @@ const fmtAge = iso => {
 const block = (label, content) => content ? [$('div', { class: 'label' }, label), $('div', null, content)] : [];
 
 // --- Lift log form ---------------------------------------------------------
-// Fill in what you did, then Copy/Share the text into Claude Code. The draft
-// lives in this browser only (per date) — the repo is still written by Claude.
+// Fill in actuals, then copy/share them into chat. The draft lives in this
+// browser only; the assistant writes the training record after receiving it.
 
 const store = {
   get(k) { try { return JSON.parse(localStorage.getItem(k)); } catch { return null; } },
@@ -205,15 +205,20 @@ const parseSetsReps = s => {
   return m ? { sets: +m[1], reps: m[2] } : { sets: 1, reps: String(s || '') };
 };
 
+const loadLabel = value => value == null || /^(?:unknown|uninitialized|n\/r)$/i.test(String(value).trim()) ? 'Calibrate' : String(value);
+const logLoad = value => /calibrat|unknown|uninitialized|n\/r/i.test(String(value ?? '')) ? '' : String(value ?? '');
+const exactNumber = value => /^\d+(?:\.\d+)?$/.test(String(value ?? '').trim());
+const prescriptionKey = d => JSON.stringify(d.lift && d.lift.table || []);
+
 const prescribed = d => (d.lift && d.lift.table || []).map(r => {
   const sr = parseSetsReps(r.setsReps);
   return {
     exercise: r.exercise || '',
-    rx: [r.setsReps, r.load, r.rir ? 'RIR ' + r.rir : ''].filter(Boolean).join(' · '),
+    rx: [r.setsReps, loadLabel(r.load), r.rir != null ? 'RIR ' + r.rir : ''].filter(Boolean).join(' · '),
     skipped: false,
-    sets: Array.from({ length: sr.sets }, () => ({ load: r.load || '', reps: '', rir: '' })),
+    sets: Array.from({ length: sr.sets }, () => ({ load: logLoad(r.load), reps: '', rir: '' })),
     targetReps: sr.reps,
-    targetRir: r.rir || '',
+    targetRir: String(r.rir ?? ''),
   };
 });
 
@@ -224,7 +229,7 @@ const fmtLog = (d, st) => {
     if (ex.skipped) { lines.push(`${ex.exercise}: skipped`); continue; }
     const sets = ex.sets.filter(s => s.reps.trim() || s.rir.trim());
     if (!sets.length) { lines.push(`${ex.exercise}: n/r`); continue; }
-    const parts = sets.map(s => `${s.load.trim() || '?'}×${s.reps.trim() || 'n/r'} RIR ${s.rir.trim() || 'n/r'}`);
+    const parts = sets.map(s => `${logLoad(s.load).trim() || '?'}×${s.reps.trim() || 'n/r'} RIR ${s.rir.trim() || 'n/r'}`);
     lines.push(`${ex.exercise}: ${parts.join(' / ')}`);
   }
   if (st.notes.trim()) lines.push(`Notes: ${st.notes.trim()}`);
@@ -234,11 +239,15 @@ const fmtLog = (d, st) => {
 const logCard = d => {
   const key = 'liftlog:' + (d.date || 'undated');
   let st = store.get(key);
-  if (!st || !Array.isArray(st.exercises)) st = { exercises: prescribed(d), notes: '' };
+  if (!st || !Array.isArray(st.exercises)) st = { exercises: prescribed(d), notes: '', prescription: prescriptionKey(d) };
   const save = () => store.set(key, st);
 
   const c = $('section', { class: 'card log' });
   c.appendChild($('h2', null, 'Log lift'));
+  c.appendChild($('p', { class: 'meta' }, 'Enter completed reps and estimated RIR. Targets are placeholders; blank values stay unreported.'));
+  const draftNotice = $('p', { class: 'flag' });
+  if (st.prescription !== prescriptionKey(d)) draftNotice.textContent = 'This saved draft may use an older prescription. Preserve entered actuals, then compare with the workout above before copying or resetting.';
+  c.appendChild(draftNotice);
   const list = $('div');
   const status = $('div', { class: 'status' });
   const flash = msg => { status.textContent = msg; setTimeout(() => { if (status.textContent === msg) status.textContent = ''; }, 2500); };
@@ -286,9 +295,9 @@ const logCard = d => {
         b.addEventListener('click', () => { fn(); save(); draw(); });
         actions.appendChild(b);
       };
-      if (ex.targetReps) act('Fill targets', 'fill', () => ex.sets.forEach(s => {
-        if (!s.reps) s.reps = ex.targetReps;
-        if (!s.rir) s.rir = ex.targetRir;
+      if (exactNumber(ex.targetReps) || exactNumber(ex.targetRir)) act('Confirm exact targets', 'fill', () => ex.sets.forEach(s => {
+        if (!s.reps && exactNumber(ex.targetReps)) s.reps = ex.targetReps;
+        if (!s.rir && exactNumber(ex.targetRir)) s.rir = ex.targetRir;
       }));
       act('+ set', 'add-set', () => {
         const last = ex.sets[ex.sets.length - 1];
@@ -323,10 +332,10 @@ const logCard = d => {
   c.appendChild(notes);
 
   const out = $('div', { class: 'btn-row' });
-  const copy = $('button', { type: 'button', class: 'btn' }, 'Copy for Claude');
+  const copy = $('button', { type: 'button', class: 'btn' }, 'Copy for chat');
   copy.addEventListener('click', async () => {
     const text = fmtLog(d, st);
-    try { await navigator.clipboard.writeText(text); flash('Copied — paste it into Claude Code.'); }
+    try { await navigator.clipboard.writeText(text); flash('Copied — paste it into chat.'); }
     catch { window.prompt('Copy this:', text); }
   });
   out.appendChild(copy);
@@ -338,8 +347,9 @@ const logCard = d => {
   const reset = $('button', { type: 'button', class: 'btn ghost' }, 'Reset');
   reset.addEventListener('click', () => {
     store.del(key);
-    st = { exercises: prescribed(d), notes: '' };
+    st = { exercises: prescribed(d), notes: '', prescription: prescriptionKey(d) };
     notes.value = '';
+    draftNotice.textContent = '';
     draw(); flash('Reset to today’s prescription.');
   });
   out.appendChild(reset);
@@ -360,9 +370,16 @@ const render = d => {
     h.appendChild($('div', { class: 'meta' }, `Generated ${fmtAge(d.generatedAt)}${d.phase ? ' · ' + d.phase : ''}`));
   } else {
     h.appendChild($('h1', null, 'No brief for today yet'));
-    h.appendChild($('div', { class: 'meta' }, 'Ask Claude for today’s workout.'));
+    h.appendChild($('div', { class: 'meta' }, 'Ask for today’s workout in chat.'));
   }
   app.appendChild(h);
+
+  if (d.why && d.why.length) {
+    const c = $('section', { class: 'card intro' });
+    c.appendChild($('h2', null, 'Why this workout'));
+    for (const line of d.why) c.appendChild($('p', null, line));
+    app.appendChild(c);
+  }
 
   if (d.intro && d.intro.length) {
     const c = $('section', { class: 'card intro' });
@@ -378,7 +395,7 @@ const render = d => {
     const tbl = $('table');
     const thead = $('thead');
     const tr = $('tr');
-    ['Exercise', 'Sets×Reps', 'Load', 'RIR', 'Rest', 'Cue'].forEach(t => tr.appendChild($('th', null, t)));
+    ['Exercise', 'Sets×Reps', 'Load', 'RIR', 'Rest'].forEach(t => tr.appendChild($('th', null, t)));
     thead.appendChild(tr);
     tbl.appendChild(thead);
     const tbody = $('tbody');
@@ -386,17 +403,16 @@ const render = d => {
       const r = $('tr');
       r.appendChild($('td', { class: 'ex' }, row.exercise || ''));
       r.appendChild($('td', null, row.setsReps || ''));
-      r.appendChild($('td', { class: 'load' }, row.load || ''));
-      r.appendChild($('td', null, row.rir || ''));
+      r.appendChild($('td', { class: 'load' }, loadLabel(row.load)));
+      r.appendChild($('td', null, row.rir ?? ''));
       r.appendChild($('td', null, row.rest || ''));
-      r.appendChild($('td', null, row.cue || ''));
       tbody.appendChild(r);
     }
     tbl.appendChild(tbody);
     wrap.appendChild(tbl);
     c.appendChild(wrap);
     if (d.lift.lastWeek && d.lift.lastWeek.table && d.lift.lastWeek.table.length) {
-      c.appendChild($('div', { class: 'label' }, 'Last week' + (d.lift.lastWeek.label ? ' — ' + d.lift.lastWeek.label : '')));
+      c.appendChild($('div', { class: 'label' }, 'Previous comparable performance' + (d.lift.lastWeek.label ? ' — ' + d.lift.lastWeek.label : '')));
       const lwrap = $('div', { class: 'table-wrap' });
       const ltbl = $('table', { class: 'lastweek' });
       const lthead = $('thead');
@@ -410,15 +426,13 @@ const render = d => {
         r.appendChild($('td', { class: 'ex' }, row.exercise || ''));
         r.appendChild($('td', { class: 'load' }, row.load || ''));
         r.appendChild($('td', null, row.reps || ''));
-        r.appendChild($('td', null, row.rir || ''));
+        r.appendChild($('td', null, row.rir ?? ''));
         ltbody.appendChild(r);
       }
       ltbl.appendChild(ltbody);
       lwrap.appendChild(ltbl);
       c.appendChild(lwrap);
     }
-    block('Warmup', d.lift.warmup).forEach(n => c.appendChild(n));
-    block('Cooldown', d.lift.cooldown).forEach(n => c.appendChild(n));
     app.appendChild(c);
   }
 
@@ -441,7 +455,7 @@ const render = d => {
       c.appendChild($('div', { class: 'label' }, 'Targets'));
       const grid = $('div', { class: 'targets' });
       const t = d.cardio.targets;
-      for (const [k, v] of [['Pace', t.pace], ['HR', t.hr], ['Cadence', t.cadence]]) {
+      for (const [k, v] of [['Pace', t.pace], ['RPE cap', t.rpe]]) {
         if (v) {
           grid.appendChild($('div', { class: 'k' }, k));
           grid.appendChild($('div', null, v));
@@ -451,12 +465,26 @@ const render = d => {
     }
     block('Warmup', d.cardio.warmup).forEach(n => c.appendChild(n));
     block('Cooldown', d.cardio.cooldown).forEach(n => c.appendChild(n));
-    if (d.cardio.cues && d.cardio.cues.length) {
-      c.appendChild($('div', { class: 'label' }, 'Cues'));
-      const ul = $('ul');
-      for (const q of d.cardio.cues) ul.appendChild($('li', null, q));
-      c.appendChild(ul);
+    app.appendChild(c);
+  }
+
+  if (d.adaptation && d.adaptation.length) {
+    const c = $('section', { class: 'card' });
+    c.appendChild($('h2', null, 'Adaptation check'));
+    const wrap = $('div', { class: 'table-wrap' });
+    const tbl = $('table');
+    const head = $('tr');
+    ['Exercise / session', 'Previous evidence', 'Decision', 'Reason / rule'].forEach(t => head.appendChild($('th', null, t)));
+    tbl.appendChild($('thead', null, head));
+    const body = $('tbody');
+    for (const row of d.adaptation) {
+      const tr = $('tr');
+      [row.exercise, row.previous, row.decision, row.reason].forEach(v => tr.appendChild($('td', null, v ?? 'n/r')));
+      body.appendChild(tr);
     }
+    tbl.appendChild(body);
+    wrap.appendChild(tbl);
+    c.appendChild(wrap);
     app.appendChild(c);
   }
 
@@ -501,7 +529,7 @@ const render = d => {
     const c = $('section', { class: 'card' });
     c.appendChild($('h2', null, 'Current Working Loads'));
     const det = $('details');
-    det.appendChild($('summary', null, `${d.currentLoads.length} exercises`));
+    det.appendChild($('summary', null, `${d.currentLoads.length} exercise slots`));
     const wrap = $('div', { class: 'table-wrap' });
     const tbl = $('table', { class: 'loads' });
     const thead = $('thead');
@@ -513,7 +541,7 @@ const render = d => {
     for (const row of d.currentLoads) {
       const r = $('tr');
       r.appendChild($('td', { class: 'ex' }, row.exercise || ''));
-      r.appendChild($('td', { class: 'load' }, row.load || ''));
+      r.appendChild($('td', { class: 'load' }, loadLabel(row.load)));
       r.appendChild($('td', null, row.lastVerified || ''));
       r.appendChild($('td', { class: 'note' }, row.note || ''));
       tbody.appendChild(r);
@@ -531,7 +559,7 @@ const empty = msg => {
   app.innerHTML = '';
   const e = $('div', { class: 'empty' });
   e.appendChild($('h1', null, 'No brief yet'));
-  e.appendChild($('div', null, 'Ask Claude for today’s workout — it caches the result here.'));
+  e.appendChild($('div', null, 'Ask for today’s workout in chat — it will appear here.'));
   if (msg) e.appendChild($('div', { class: 'err' }, msg));
   app.appendChild(e);
 };
