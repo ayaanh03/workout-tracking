@@ -4,16 +4,45 @@
   "local_restrictions": [
     {
       "id": "left-lower-ab",
-      "status": "unresolved",
-      "last_reported_on": "2026-10-17",
-      "report": "Improving, not resolved",
-      "omitted_slots": [
-        "M6",
-        "T7",
-        "L1"
-      ],
+      "status": "recovering-bodyweight-only",
+      "last_reported_on": "2026-10-24",
+      "report": "Recovering; athlete requests ab work without added weight",
+      "omitted_slots": [],
       "clearance": null,
-      "source": "baseline.md"
+      "source": "../history/injury-log.md",
+      "reviewed_on": "2026-10-24",
+      "decision_id": 432,
+      "slot_overrides": {
+        "M6": {
+          "exercise": "Decline crunch",
+          "load": "BW",
+          "external_load_lb": 0,
+          "set_ceiling": 2,
+          "reps": "10–15",
+          "minimum_rir": 3,
+          "rest_seconds": 120
+        },
+        "T7": {
+          "exercise": "Decline crunch",
+          "load": "BW",
+          "external_load_lb": 0,
+          "set_ceiling": 2,
+          "reps": "10–15",
+          "minimum_rir": 3,
+          "rest_seconds": 120
+        },
+        "L1": {
+          "exercise": "Decline crunch",
+          "load": "BW",
+          "external_load_lb": 0,
+          "set_ceiling": 2,
+          "reps": "10–15",
+          "minimum_rir": 3,
+          "rest_seconds": 120
+        }
+      },
+      "response_status": "pending",
+      "progression_limit": "No added weight, extra sets or harder baseline ab exercise until symptom response is reviewed. Reduce or omit if the strain is aggravated."
     },
     {
       "id": "left-achilles",
@@ -36,10 +65,10 @@
       "blocks": "First hard run until current readiness confirmed; any progression or clearance requiring recovery evidence"
     },
     {
-      "id": "ab-review",
-      "reported_on": null,
+      "id": "ab-loading-review",
+      "reported_on": "2026-10-24",
       "status": "pending",
-      "blocks": "Restoration of M6/T7/L1"
+      "blocks": "Added load, more than 2 sets, or restoration of baseline cable crunch/hanging raise; bodyweight decline crunch is permitted by adjustment #432."
     }
   ],
   "global_fatigue": null,

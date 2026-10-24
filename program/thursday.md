@@ -13,4 +13,4 @@ Use [ramp/return](ramp-and-return.md), [progression](lift-progression.md) and cu
 | T7 | Cable crunch | 2 / 2 / 3 | 10–15 | 1–2 | 2 min |
 | T8 | Straight-arm cable pulldown | 1 / 2 / 2 | 10–15 | 1–2 | 2 min |
 
-Baseline totals: A 12, B 18, C/D 21. Recalculate after restrictions; T7 starts omitted pending the ab review. T1 has its own load, independent of Monday. T4 may use assistance to meet reps/RIR; added load still needs earned progression. T8 may be bilateral.
+Baseline totals: A 12, B 18, C/D 21. Apply the current T7 ab substitution/limits in [recovery state](../state/recovery.json) and recalculate after restrictions. T1 has its own load, independent of Monday. T4 may use assistance to meet reps/RIR; added load still needs earned progression. T8 may be bilateral.

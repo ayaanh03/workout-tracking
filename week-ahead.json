@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-10-24T17:35:16-04:00",
+  "generatedAt": "2026-10-24T17:38:51-04:00",
   "blockId": "hybrid-2026-10-26",
   "preview": true,
   "week": "W1",
   "phase": "Hybrid v11 — Stage A",
-  "summary": "Preview: October 26–November 1. Stage A, about 3 RIR and 41 lifting sets with direct abs omitted. No sessions are completed. Run targets remain provisional until current post-race recovery is confirmed.",
+  "summary": "Preview: October 26–November 1. Stage A, about 3 RIR and 47 lifting sets, including bodyweight-only ab substitutions Monday/Thursday/Sunday. Ab strain remains recovering; no sessions are completed. First hard run still needs current recovery confirmation.",
   "days": [
     {
       "date": "2026-10-26",
       "day": "Mon",
       "session": "Upper A",
-      "note": "9 sets; incline 145/135 lb; cable crunch omitted.",
+      "note": "11 sets; incline 145/135 lb; bodyweight decline crunch 2×10–15.",
       "status": "upcoming"
     },
     {
@@ -31,7 +31,7 @@
       "date": "2026-10-29",
       "day": "Thu",
       "session": "Upper B",
-      "note": "10 sets; incline volume has its own load; cable crunch omitted.",
+      "note": "12 sets; independent incline volume load; bodyweight decline crunch 2×10–15.",
       "status": "upcoming"
     },
     {
@@ -51,8 +51,8 @@
     {
       "date": "2026-11-01",
       "day": "Sun",
-      "session": "Legs + calves",
-      "note": "9 sets; hanging leg raise omitted; calibrate new movements.",
+      "session": "Legs, bodyweight abs + calves",
+      "note": "11 sets; bodyweight decline crunch replaces hanging raise; calibrate new leg movements.",
       "status": "upcoming"
     }
   ]

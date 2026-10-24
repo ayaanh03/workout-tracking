@@ -27,7 +27,7 @@ Warmups are excluded from totals. Two unilateral sets per arm count as two, not 
 | C/D | 19 | 14 | 21 | 11 + 2 | 18 | 85 |
 | Eligible D, W6+ forearms | 19 | 14 | 21 | 11 + 4 | 18 | 87 |
 
-With all initial direct-ab omissions still active, A is 9/7/10/6/9 = 41. These documented omissions do not invalidate a manageable week; restoration needs separate review.
+Use current ab limits in recovery state. The October 24 bodyweight-only substitution permits two sets in each ab slot: stage A is 11/7/12/6/11 = 47. Its two-set ceiling and minimum 3 RIR persist through stage advancement until reviewed; reduced-work rules may lower the dose further. Documented substitutions or omissions do not by themselves invalidate a manageable week.
 
 ## Assessment weeks
 

@@ -9,6 +9,8 @@ Entry evidence for `hybrid-2026-10-26`; later actuals belong in current state/lo
 
 ## Unresolved restrictions
 
+These are adoption-time observations. The October 24 update in [current recovery state](recovery.json) and decision #432 replaces the initial ab omission with bodyweight-only work; the strain remains recovering.
+
 - **Left lower ab:** athlete explicitly reported improving but unresolved on October 17 (#421); no later clearance. Temporarily omit **M6, T7, L1** pending symptom-informed review. Finishing a run or advancing a stage does not clear these slots.
 - **Left Achilles:** reactive-tendon history. October 12 was recorded clean under the old **no-news-is-clean default** (#416), not an explicit current recovery report. Current status remains unknown; confirm when it affects a running/calf decision. The old calf taper expires; seated-calf weights cannot initialize leg-press calf raises.
 - Post-race recovery is pending; confirm readiness before the first hard run. Missing reports establish neither recovery nor fatigue. Old elbow/patellar watches are retired unless new symptoms warrant a restriction.

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-24T17:35:16-04:00",
+  "generatedAt": "2026-10-24T17:38:51-04:00",
   "blockId": "hybrid-2026-10-26",
-  "prescriptionId": "hybrid-2026-10-26-mon-upper-a-431",
+  "prescriptionId": "hybrid-2026-10-26-mon-upper-a-432",
   "preview": true,
   "week": "W1",
   "day": "Mon",
@@ -9,10 +9,10 @@
   "phase": "Hybrid v11 — Stage A",
   "sessionName": "Upper A — Monday preview",
   "why": [
-    "First week of the new block: 9 working sets at about 3 RIR. No earned progression yet; the week establishes the new loads and tolerance."
+    "First week of the new block: 11 working sets at about 3 RIR. Your updated ab report restores bodyweight work; the strain remains recovering."
   ],
   "intro": [
-    "Cable crunch omitted while the ab strain is unresolved. For the two new exercises, select a load that fits the listed range at 3 RIR. Numeric loads are starting estimates; reduce if needed to preserve 3 RIR. Use the same legacy equipment/load notation; if 165 is unavailable on the pulldown, use the next lower setting."
+    "Abs: bodyweight only; reduce or stop if it aggravates the strain. For the two new exercises, select a load that fits the listed range at 3 RIR. Numeric loads are starting estimates; reduce if needed to preserve 3 RIR. Use the same legacy equipment/load notation; if 165 is unavailable on the pulldown, use the next lower setting."
   ],
   "lift": {
     "table": [
@@ -65,6 +65,14 @@
         "rest": "3 min"
       },
       {
+        "slotId": "M6",
+        "exercise": "Decline crunch — bodyweight",
+        "setsReps": "2×10–15",
+        "load": "BW",
+        "rir": "3",
+        "rest": "2 min"
+      },
+      {
         "slotId": "M7",
         "exercise": "Chest-supported row",
         "setsReps": "1×8–12",
@@ -101,10 +109,10 @@
       "reason": "Preacher/pushdown weights do not transfer to these different movements."
     },
     {
-      "exercise": "Cable crunch",
-      "previous": "Oct 17: ab strain improving but unresolved; no clearance.",
-      "decision": "Omit both stage-A sets; total is 9.",
-      "reason": "The local restriction remains active. No substitute or catch-up sets."
+      "exercise": "Abs — bodyweight decline crunch",
+      "previous": "October 24: recovering; you requested ab training without weight.",
+      "decision": "Add 2×10–15 at 3 RIR, 2 min rest, before the row. Monday total: 11 sets.",
+      "reason": "Temporary bodyweight substitute for cable crunch. Keep the strain active; no added weight or harder variation until response is reviewed."
     }
   ],
   "currentLoads": [
@@ -152,10 +160,10 @@
     },
     {
       "slotId": "M6",
-      "exercise": "M6 — Cable crunch",
-      "load": "Calibrate",
-      "lastVerified": "No new-block exposure",
-      "note": "Omitted pending documented ab review; do not restore on stage advancement."
+      "exercise": "M6 — Decline crunch (temporary)",
+      "load": "BW",
+      "lastVerified": "Bodyweight prescription updated 2026-10-24; no new-block actual",
+      "note": "Recovering ab strain: no added weight; cap 2 sets, at least 3 RIR; response pending."
     },
     {
       "slotId": "M7",
@@ -243,10 +251,10 @@
     },
     {
       "slotId": "T7",
-      "exercise": "T7 — Cable crunch",
-      "load": "Calibrate",
-      "lastVerified": "No new-block exposure",
-      "note": "Omitted pending documented ab review; do not restore on stage advancement."
+      "exercise": "T7 — Decline crunch (temporary)",
+      "load": "BW",
+      "lastVerified": "Bodyweight prescription updated 2026-10-24; no new-block actual",
+      "note": "Recovering ab strain: no added weight; cap 2 sets, at least 3 RIR; response pending."
     },
     {
       "slotId": "T8",
@@ -299,10 +307,10 @@
     },
     {
       "slotId": "L1",
-      "exercise": "L1 — Hanging leg raise",
-      "load": "Calibrate",
-      "lastVerified": "No new-block exposure",
-      "note": "Omitted pending documented ab review; do not restore on stage advancement."
+      "exercise": "L1 — Decline crunch (temporary)",
+      "load": "BW",
+      "lastVerified": "Bodyweight prescription updated 2026-10-24; no new-block actual",
+      "note": "Recovering ab strain: no added weight; cap 2 sets, at least 3 RIR; response pending."
     },
     {
       "slotId": "L2",

@@ -22,6 +22,6 @@ Ask for today's workout; afterward report actual load/reps/RIR per set or interv
 
 Monday Upper A · Tuesday intervals · Wednesday delts/arms + bike · Thursday Upper B · Friday intervals · Saturday delts/arms + bike · Sunday legs.
 
-Matching lifts carry over their previous working weights as starting loads, adjusted for the new reps/RIR. New or unmatched equipment stays uninitialized. Each slot progresses independently. Direct abs remain omitted pending review; the first hard run requires current recovery confirmation.
+Matching lifts carry over their previous working weights as starting loads, adjusted for the new reps/RIR. New or unmatched equipment stays uninitialized. Each slot progresses independently. While the ab strain recovers, use the bodyweight-only ab substitutions in recovery state; the first hard run still requires current recovery confirmation.
 
 `index.html` reads `latest-workout.json` and `week-ahead.json`. Host the root on GitHub Pages (Settings → Pages → intended branch). `tools/workoutgen.py` builds Watch workouts in `runs/`; its fixtures/tests remain available. License: [LICENSE](LICENSE).

@@ -11,4 +11,4 @@ Use [ramp/return](ramp-and-return.md), [progression](lift-progression.md) and cu
 | L5 | Leg extension | 2 / 2 / 3 | 10–15 | 1–2 | 2 min |
 | L6 | Loaded 45-degree back extension | 1 / 2 / 2 | 8–12 | About 2 | 2 min |
 
-Baseline totals: A 11, B 13, C/D 18. Recalculate after restrictions; L1 starts omitted pending the ab review. A captain's chair may replace hanging when grip/elbows limit the slot; record the setup change. Do not copy old seated-calf loads into L2/WE5. Use a suitable calf machine if secure leg-press positioning is unavailable and calibrate the changed equipment separately.
+Baseline totals: A 11, B 13, C/D 18. Apply the current L1 ab substitution/limits in [recovery state](../state/recovery.json) and recalculate after restrictions. When the baseline hanging exercise is restored, a captain's chair may replace hanging if grip/elbows limit the slot; record the setup change. Do not copy old seated-calf loads into L2/WE5. Use a suitable calf machine if secure leg-press positioning is unavailable and calibrate the changed equipment separately.
