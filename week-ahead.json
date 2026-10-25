@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T11:41:31-04:00",
+  "generatedAt": "2026-10-25T18:04:16-04:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "Opening",
@@ -7,14 +7,14 @@
   "window": "rolling-7-days",
   "rangeStart": "2026-10-25",
   "rangeEnd": "2026-10-31",
-  "summary": "October 25–31: first leg session today, then the regular weekday schedule. Recovery reported good; abs remain bodyweight-only. Today’s 11 sets are an opening session, separate from W1 October 26–November 1. Stay at stage A until a completed manageable week is reported.",
+  "summary": "October 25–31: opening Sunday’s 11 sets are logged; the regular weekday schedule is unchanged. Five leg/calf loads established, held at Stage A. Lower abs and Achilles felt fine during/after; abs stay bodyweight-only and next-day recovery is pending. W1 remains October 26–November 1.",
   "days": [
     {
       "date": "2026-10-25",
       "day": "Sun",
       "session": "Legs, bodyweight abs + calves",
-      "note": "First leg day: 11 sets, RIR 3; bodyweight abs; calibrate new loads. Not yet logged.",
-      "status": "today"
+      "note": "Logged all 11 sets: BW abs; calves 365, hack 95, curl 85, extension 100, back extension 25 lb. Rep/RIR targets met; lower abs and Achilles felt fine during/after.",
+      "status": "done"
     },
     {
       "date": "2026-10-26",

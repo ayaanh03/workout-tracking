@@ -164,27 +164,190 @@
     },
     "L1": {
       "exercise": "Hanging leg raise",
-      "load": null
+      "load": null,
+      "temporary_substitution": {
+        "exercise": "Decline crunch — bodyweight",
+        "load": "BW",
+        "units": "bodyweight",
+        "external_load_lb": 0,
+        "equipment": "Decline bench",
+        "setup": null,
+        "load_convention": "Bodyweight, no added weight",
+        "load_status": "established",
+        "last_actual": {
+          "date": "2026-10-25",
+          "session_id": "hybrid-2026-10-26-opening-2026-10-25",
+          "source": "../history/lifting-log.md#2026-10-25--hybrid-v11-opening",
+          "stage": "A",
+          "sets": [
+            {
+              "load": "BW",
+              "reps": 15,
+              "rir": 4
+            },
+            {
+              "load": "BW",
+              "reps": 15,
+              "rir": 3
+            }
+          ],
+          "progression_eligible": false,
+          "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+        },
+        "new_exposure_count": 1,
+        "qualifying_exposures": 0,
+        "note": "Substitute actual only; baseline hanging leg raise remains uninitialized. Athlete reports lower abs felt fine during/after; bodyweight-only limits retained."
+      }
     },
     "L2": {
       "exercise": "Leg-press calf raise",
-      "load": null
+      "load": 365,
+      "units": "lb",
+      "equipment": "Leg press",
+      "setup": null,
+      "load_convention": "Athlete-reported lb notation; machine model/settings and stack/plate/sled convention not reported. Retain the same setup and notation.",
+      "load_status": "established",
+      "load_source": "../history/lifting-log.md#2026-10-25--hybrid-v11-opening",
+      "last_actual": {
+        "date": "2026-10-25",
+        "session_id": "hybrid-2026-10-26-opening-2026-10-25",
+        "source": "../history/lifting-log.md#2026-10-25--hybrid-v11-opening",
+        "stage": "A",
+        "sets": [
+          {
+            "load": 365,
+            "reps": 10,
+            "rir": 3
+          },
+          {
+            "load": 365,
+            "reps": 10,
+            "rir": 3
+          }
+        ],
+        "progression_eligible": false,
+        "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+      },
+      "new_exposure_count": 1
     },
     "L3": {
       "exercise": "Hack squat",
-      "load": null
+      "load": 95,
+      "units": "lb",
+      "equipment": "Hack squat machine",
+      "setup": null,
+      "load_convention": "Athlete-reported lb notation; machine model/settings and stack/plate/sled convention not reported. Retain the same setup and notation.",
+      "load_status": "established",
+      "load_source": "../history/lifting-log.md#2026-10-25--hybrid-v11-opening",
+      "last_actual": {
+        "date": "2026-10-25",
+        "session_id": "hybrid-2026-10-26-opening-2026-10-25",
+        "source": "../history/lifting-log.md#2026-10-25--hybrid-v11-opening",
+        "stage": "A",
+        "sets": [
+          {
+            "load": 95,
+            "reps": 6,
+            "rir": 3
+          },
+          {
+            "load": 95,
+            "reps": 6,
+            "rir": 3
+          }
+        ],
+        "progression_eligible": false,
+        "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+      },
+      "new_exposure_count": 1
     },
     "L4": {
       "exercise": "Seated leg curl",
-      "load": null
+      "load": 85,
+      "units": "lb",
+      "equipment": "Seated leg curl machine",
+      "setup": null,
+      "load_convention": "Athlete-reported lb notation; machine model/settings and stack/plate/sled convention not reported. Retain the same setup and notation.",
+      "load_status": "established",
+      "load_source": "../history/lifting-log.md#2026-10-25--hybrid-v11-opening",
+      "last_actual": {
+        "date": "2026-10-25",
+        "session_id": "hybrid-2026-10-26-opening-2026-10-25",
+        "source": "../history/lifting-log.md#2026-10-25--hybrid-v11-opening",
+        "stage": "A",
+        "sets": [
+          {
+            "load": 85,
+            "reps": 8,
+            "rir": 3
+          },
+          {
+            "load": 85,
+            "reps": 8,
+            "rir": 3
+          }
+        ],
+        "progression_eligible": false,
+        "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+      },
+      "new_exposure_count": 1
     },
     "L5": {
       "exercise": "Leg extension",
-      "load": null
+      "load": 100,
+      "units": "lb",
+      "equipment": "Leg extension machine",
+      "setup": null,
+      "load_convention": "Athlete-reported lb notation; machine model/settings and stack/plate/sled convention not reported. Retain the same setup and notation.",
+      "load_status": "established",
+      "load_source": "../history/lifting-log.md#2026-10-25--hybrid-v11-opening",
+      "last_actual": {
+        "date": "2026-10-25",
+        "session_id": "hybrid-2026-10-26-opening-2026-10-25",
+        "source": "../history/lifting-log.md#2026-10-25--hybrid-v11-opening",
+        "stage": "A",
+        "sets": [
+          {
+            "load": 100,
+            "reps": 12,
+            "rir": 3
+          },
+          {
+            "load": 100,
+            "reps": 15,
+            "rir": 3
+          }
+        ],
+        "progression_eligible": false,
+        "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+      },
+      "new_exposure_count": 1
     },
     "L6": {
       "exercise": "Loaded 45-degree back extension",
-      "load": null
+      "load": 25,
+      "units": "lb",
+      "equipment": "45-degree back-extension bench",
+      "setup": null,
+      "load_convention": "Added load as reported; implement/position not reported.",
+      "load_status": "established",
+      "load_source": "../history/lifting-log.md#2026-10-25--hybrid-v11-opening",
+      "last_actual": {
+        "date": "2026-10-25",
+        "session_id": "hybrid-2026-10-26-opening-2026-10-25",
+        "source": "../history/lifting-log.md#2026-10-25--hybrid-v11-opening",
+        "stage": "A",
+        "sets": [
+          {
+            "load": 25,
+            "reps": 12,
+            "rir": 3
+          }
+        ],
+        "progression_eligible": false,
+        "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+      },
+      "new_exposure_count": 1
     }
   },
   "forearms": {

@@ -367,7 +367,7 @@ const render = d => {
   const h = $('header');
   if (d.sessionName) {
     h.appendChild($('h1', null, `${d.week} ${d.day} ${d.date} — ${d.sessionName}`));
-    h.appendChild($('div', { class: 'meta' }, `Generated ${fmtAge(d.generatedAt)}${d.phase ? ' · ' + d.phase : ''}`));
+    h.appendChild($('div', { class: 'meta' }, `${d.status === 'done' ? 'Completed · ' : ''}Generated ${fmtAge(d.generatedAt)}${d.phase ? ' · ' + d.phase : ''}`));
   } else {
     h.appendChild($('h1', null, 'No brief for today yet'));
     h.appendChild($('div', { class: 'meta' }, 'Ask for today’s workout in chat.'));
@@ -391,6 +391,31 @@ const render = d => {
   if (d.lift) {
     const c = $('section', { class: 'card' });
     c.appendChild($('h2', null, 'Lift'));
+    const performanceTable = (record, title, className) => {
+      if (!record || !record.table || !record.table.length) return;
+      c.appendChild($('div', { class: 'label' }, title + (record.label ? ' — ' + record.label : '')));
+      const wrap = $('div', { class: 'table-wrap' });
+      const tbl = $('table', { class: className });
+      const head = $('tr');
+      ['Exercise', 'Load', 'Reps', 'RIR'].forEach(t => head.appendChild($('th', null, t)));
+      tbl.appendChild($('thead', null, head));
+      const body = $('tbody');
+      for (const row of record.table) {
+        const tr = $('tr');
+        tr.appendChild($('td', { class: 'ex' }, row.exercise || ''));
+        tr.appendChild($('td', { class: 'load' }, row.load || ''));
+        tr.appendChild($('td', null, row.reps || ''));
+        tr.appendChild($('td', null, row.rir ?? ''));
+        body.appendChild(tr);
+      }
+      tbl.appendChild(body);
+      wrap.appendChild(tbl);
+      c.appendChild(wrap);
+    };
+    performanceTable(d.lift.actual, 'Logged results', 'actuals');
+    if (d.lift.actual && d.lift.actual.table && d.lift.actual.table.length) {
+      c.appendChild($('div', { class: 'label' }, 'Original prescription'));
+    }
     const wrap = $('div', { class: 'table-wrap' });
     const tbl = $('table');
     const thead = $('thead');
@@ -411,28 +436,7 @@ const render = d => {
     tbl.appendChild(tbody);
     wrap.appendChild(tbl);
     c.appendChild(wrap);
-    if (d.lift.lastWeek && d.lift.lastWeek.table && d.lift.lastWeek.table.length) {
-      c.appendChild($('div', { class: 'label' }, 'Previous comparable performance' + (d.lift.lastWeek.label ? ' — ' + d.lift.lastWeek.label : '')));
-      const lwrap = $('div', { class: 'table-wrap' });
-      const ltbl = $('table', { class: 'lastweek' });
-      const lthead = $('thead');
-      const ltr = $('tr');
-      ['Exercise', 'Load', 'Reps', 'RIR'].forEach(t => ltr.appendChild($('th', null, t)));
-      lthead.appendChild(ltr);
-      ltbl.appendChild(lthead);
-      const ltbody = $('tbody');
-      for (const row of d.lift.lastWeek.table) {
-        const r = $('tr');
-        r.appendChild($('td', { class: 'ex' }, row.exercise || ''));
-        r.appendChild($('td', { class: 'load' }, row.load || ''));
-        r.appendChild($('td', null, row.reps || ''));
-        r.appendChild($('td', null, row.rir ?? ''));
-        ltbody.appendChild(r);
-      }
-      ltbl.appendChild(ltbody);
-      lwrap.appendChild(ltbl);
-      c.appendChild(lwrap);
-    }
+    performanceTable(d.lift.lastWeek, 'Previous comparable performance', 'lastweek');
     app.appendChild(c);
   }
 
@@ -488,9 +492,10 @@ const render = d => {
     app.appendChild(c);
   }
 
-  if (d.lift) {
+  // Keep saved browser drafts intact; completed sessions use the logged results above.
+  if (d.status !== 'done' && d.lift) {
     app.appendChild(logCard(d));
-  } else if (d.sessionName) {
+  } else if (d.status !== 'done' && d.sessionName) {
     const det = $('details', { class: 'card' });
     det.appendChild($('summary', null, 'Log a lift'));
     det.addEventListener('toggle', () => {

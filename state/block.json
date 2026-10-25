@@ -23,7 +23,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 433,
+  "last_adjustment_id": 435,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -32,7 +32,17 @@
     "cancellation_or_reversion": null,
     "final_test_week": 10
   },
-  "completion": {},
+  "completion": {
+    "2026-10-25": {
+      "calendar_week": "Opening",
+      "session": "Legs, bodyweight abs and calves",
+      "status": "completed",
+      "stage": "A",
+      "working_sets": 11,
+      "actual_ref": "../history/lifting-log.md#2026-10-25--hybrid-v11-opening",
+      "recovery_status": "next-day-recovery-pending"
+    }
+  },
   "planned_start_date": "2026-10-26",
   "calendar_anchor_date": "2026-10-26",
   "opening_session": {
@@ -41,7 +51,9 @@
     "stage": "A",
     "decision_id": 433,
     "prescription_id": "hybrid-2026-10-26-sun-legs-433",
-    "status": "prescribed",
-    "note": "Early opening Sunday; Monday remains Upper A. W1 calendar October 26–November 1 and later dates remain unchanged. One opening session cannot establish a manageable week."
+    "status": "completed",
+    "note": "Early opening Sunday; Monday remains Upper A. W1 calendar October 26–November 1 and later dates remain unchanged. One opening session cannot establish a manageable week.",
+    "actual_ref": "../history/lifting-log.md#2026-10-25--hybrid-v11-opening",
+    "completion_decision_id": 434
   }
 }
