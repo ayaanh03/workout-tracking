@@ -1,6 +1,6 @@
 # Current training state
 
-Block `hybrid-2026-10-26`, program v11.0: **October 26, 2026–January 3, 2027**. W1 is October 26–November 1. Calendar dates never advance achieved stage automatically.
+Block `hybrid-2026-10-26`, program v11.0: **activated October 25, 2026**, ending January 3, 2027. The opening Sunday leg session precedes the unchanged W1 calendar, October 26–November 1. Calendar dates never advance achieved stage automatically.
 
 | Record | Read for |
 |---|---|

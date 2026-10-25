@@ -25,3 +25,18 @@ Adaptation review: October 13 incline 160×3 at RIR 1 estimates about 181 lb e1R
 ## 2026-10-24 — bodyweight ab work restored
 
 432. Athlete reports the ab strain is recovering and explicitly requests ab work without weight. Replace #431’s ab omission in the unperformed Monday preview with **M6: bodyweight decline crunch, 2×10–15, RIR 3, rest 2 min**, positioned between pulldown and chest-supported row. The other seven rows from #431 are unchanged: Monday is now **11 working sets**. Apply the same temporary bodyweight substitute to T7/L1 while recovering; stage-A Mon/Wed/Thu/Sat/Sun totals become **11/7/12/6/11 = 47**. Keep normal program cable/hanging exercise identities intact; effective substitutions, 2-set ceiling, minimum 3 RIR and no-added-load constraint live in `state/recovery.json`. Reduced-work rules may reduce further. This is a symptom-informed prescription update, not full injury clearance or a completed workout. Follow-up response remains pending; no added load, extra sets or harder baseline ab movement until reviewed. Do not transfer substitute performance into baseline exercise progression. Rebuild both preview caches and publish under the existing dashboard authorization.
+
+## 2026-10-25 — start on Sunday
+
+433. Athlete requests starting today, reports all recovery metrics good, and explicitly confirms Sunday should be the first leg day. Activate the existing block on October 25 and generate **Sunday Legs, bodyweight abs and calves**, stage A. This supersedes the old October 25 rest instruction. Preserve the stable block/program IDs and the October 26 calendar anchor: Monday remains Upper A, W1 is October 26–November 1, and later assessment/single/end dates do not shift. Today is a separate opening exposure, not completion of the November 1 leg session and not a completed manageable week. No stage, actuals, qualification or progression counts advance merely from activation. General recovery gate satisfied; bodyweight ab substitution and Achilles history retained.
+
+| Slot | Exercise | Sets × reps | Planned load | RIR | Rest |
+|---|---|---|---|---|---|
+| L1 | Decline crunch — bodyweight | 2×10–15 | BW | 3 | 2 min |
+| L2 | Leg-press calf raise | 2×10–15 | Calibrate | 3 | 2 min |
+| L3 | Hack squat | 2×6–10 | Calibrate | 3 | 3 min |
+| L4 | Seated leg curl | 2×8–12 | Calibrate | 3 | 2 min |
+| L5 | Leg extension | 2×10–15 | Calibrate | 3 | 2 min |
+| L6 | 45-degree back extension | 1×8–12 | Calibrate | 3 | 2 min |
+
+Total: **11 working sets**. All five other leg/calf slots are new setups with no supported starting weights; calibrate within the prescribed range at RIR 3, preserving actuals as unknown until reported. Do not transfer the old seated-calf stack. L1 uses the documented bodyweight decline-crunch override. No cardio today. The weekday schedule permits Monday Upper A and Tuesday intervals; actual leg/calf recovery can modify subsequent work. Publish today’s cache with a clearly dated seven-day forward window October 25–31. Monday’s complete unperformed prescription remains recorded in #431/#432; do not mark it completed or move it to today.

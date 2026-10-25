@@ -1,11 +1,21 @@
 {
-  "generatedAt": "2026-10-24T17:38:51-04:00",
+  "generatedAt": "2026-10-25T11:41:31-04:00",
   "blockId": "hybrid-2026-10-26",
-  "preview": true,
-  "week": "W1",
+  "preview": false,
+  "week": "Opening",
   "phase": "Hybrid v11 — Stage A",
-  "summary": "Preview: October 26–November 1. Stage A, about 3 RIR and 47 lifting sets, including bodyweight-only ab substitutions Monday/Thursday/Sunday. Ab strain remains recovering; no sessions are completed. First hard run still needs current recovery confirmation.",
+  "window": "rolling-7-days",
+  "rangeStart": "2026-10-25",
+  "rangeEnd": "2026-10-31",
+  "summary": "October 25–31: first leg session today, then the regular weekday schedule. Recovery reported good; abs remain bodyweight-only. Today’s 11 sets are an opening session, separate from W1 October 26–November 1. Stay at stage A until a completed manageable week is reported.",
   "days": [
+    {
+      "date": "2026-10-25",
+      "day": "Sun",
+      "session": "Legs, bodyweight abs + calves",
+      "note": "First leg day: 11 sets, RIR 3; bodyweight abs; calibrate new loads. Not yet logged.",
+      "status": "today"
+    },
     {
       "date": "2026-10-26",
       "day": "Mon",
@@ -16,15 +26,15 @@
     {
       "date": "2026-10-27",
       "day": "Tue",
-      "session": "Intervals — planned, readiness pending",
-      "note": "If recovered: 3×4 min at 6:50/mi, 3 min between reps; final RPE ≤8.",
+      "session": "Intervals",
+      "note": "3×4 min at 6:50/mi, 3 min between; final RPE ≤8. Adjust for the response to today’s legs.",
       "status": "upcoming"
     },
     {
       "date": "2026-10-28",
       "day": "Wed",
       "session": "Delts/arms A + bike",
-      "note": "7 sets, then 20 min easy bike; calf setup/status review before loading.",
+      "note": "7 sets, then 20 min easy bike; calf loads follow actual tolerance.",
       "status": "upcoming"
     },
     {
@@ -37,8 +47,8 @@
     {
       "date": "2026-10-30",
       "day": "Fri",
-      "session": "Longer intervals — planned, readiness dependent",
-      "note": "If recovered: 3×6 min at 7:25/mi, 2 min between reps; final RPE ≤7.",
+      "session": "Longer intervals",
+      "note": "3×6 min at 7:25/mi, 2 min between; final RPE ≤7, subject to current recovery.",
       "status": "upcoming"
     },
     {
@@ -46,13 +56,6 @@
       "day": "Sat",
       "session": "Delts/arms B + bike",
       "note": "6 sets; no forearms yet; then 20 min easy bike.",
-      "status": "upcoming"
-    },
-    {
-      "date": "2026-11-01",
-      "day": "Sun",
-      "session": "Legs, bodyweight abs + calves",
-      "note": "11 sets; bodyweight decline crunch replaces hanging raise; calibrate new leg movements.",
       "status": "upcoming"
     }
   ]

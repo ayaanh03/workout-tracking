@@ -53,17 +53,16 @@
         "WE5",
         "L2"
       ],
-      "action": "Confirm when decision-critical; calibrate new calf setup; apply symptom rule",
-      "source": "baseline.md"
+      "action": "Proceed with new-movement calibration using reported good overall recovery; retain Achilles history and respond to current symptoms. No old seated-calf load transfer.",
+      "source": "baseline.md",
+      "general_readiness_report": {
+        "date": "2026-10-25",
+        "status": "good",
+        "source": "athlete general recovery report"
+      }
     }
   ],
   "pending_gates": [
-    {
-      "id": "post-race-recovery",
-      "reported_on": null,
-      "status": "pending",
-      "blocks": "First hard run until current readiness confirmed; any progression or clearance requiring recovery evidence"
-    },
     {
       "id": "ab-loading-review",
       "reported_on": "2026-10-24",
@@ -73,5 +72,24 @@
   ],
   "global_fatigue": null,
   "observation": null,
-  "reduced_snapshot": null
+  "reduced_snapshot": null,
+  "general_readiness": {
+    "reported_on": "2026-10-25",
+    "status": "good",
+    "report": "All recovery metrics look good",
+    "provenance": "athlete report",
+    "decision_id": 433,
+    "numeric_metrics": null,
+    "scope": "Current overall readiness to start; existing bodyweight-only ab restriction and symptom monitoring remain."
+  },
+  "resolved_gates": [
+    {
+      "id": "post-race-recovery",
+      "status": "satisfied",
+      "reported_on": "2026-10-25",
+      "resolved_on": "2026-10-25",
+      "evidence": "Athlete reports all recovery metrics look good; requests starting today.",
+      "decision_id": 433
+    }
+  ]
 }

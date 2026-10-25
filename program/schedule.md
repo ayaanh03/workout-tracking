@@ -1,6 +1,6 @@
 # Schedule — Hybrid v11
 
-Block `hybrid-2026-10-26`; program `hybrid-2026-10-26-v11` (11.0). October 26, 2026–January 3, 2027; `America/New_York`.
+Block `hybrid-2026-10-26`; program `hybrid-2026-10-26-v11` (11.0). Activated October 25, 2026; regular calendar anchor October 26; end January 3, 2027; `America/New_York`.
 
 | Day | Prescription |
 |---|---|
@@ -12,7 +12,7 @@ Block `hybrid-2026-10-26`; program `hybrid-2026-10-26-v11` (11.0). October 26, 2
 | Saturday | [Delts and arms B](saturday.md), then easy bike |
 | Sunday | [Legs, abs, calves](sunday.md) |
 
-W1–W3 are calendar Ramp; W4–W9 Build; W10 Reduce. The **achieved lifting stage**, current reports and restrictions determine the actual dose. Calendar rollover never advances a stage. October 24–25 are pre-block; October 25 remains post-race rest. No automatic next-block prescription after January 3.
+W1–W3 are calendar Ramp; W4–W9 Build; W10 Reduce. The **achieved lifting stage**, current reports and restrictions determine the actual dose. Calendar rollover never advances a stage. At the athlete's request, **October 25 is the opening stage-A Sunday leg session** (#433); October 24 remains pre-block. Monday October 26 stays Upper A, W1 remains October 26–November 1, and later single/test/end dates are unchanged. Record the opening exposure separately: it does not complete the following Sunday's session or a manageable week. No automatic next-block prescription after January 3.
 
 ## Selection order
 

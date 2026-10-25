@@ -1,71 +1,23 @@
 {
-  "generatedAt": "2026-10-24T17:38:51-04:00",
+  "generatedAt": "2026-10-25T11:41:31-04:00",
   "blockId": "hybrid-2026-10-26",
-  "prescriptionId": "hybrid-2026-10-26-mon-upper-a-432",
-  "preview": true,
-  "week": "W1",
-  "day": "Mon",
-  "date": "2026-10-26",
+  "prescriptionId": "hybrid-2026-10-26-sun-legs-433",
+  "preview": false,
+  "week": "Opening",
+  "day": "Sun",
+  "date": "2026-10-25",
   "phase": "Hybrid v11 — Stage A",
-  "sessionName": "Upper A — Monday preview",
+  "sessionName": "Legs, bodyweight abs + calves",
   "why": [
-    "First week of the new block: 11 working sets at about 3 RIR. Your updated ab report restores bodyweight work; the strain remains recovering."
+    "You asked to start today, Sunday, and reported good recovery. Today uses the Sunday leg session: 11 working sets at about 3 RIR. Monday remains Upper A."
   ],
   "intro": [
-    "Abs: bodyweight only; reduce or stop if it aggravates the strain. For the two new exercises, select a load that fits the listed range at 3 RIR. Numeric loads are starting estimates; reduce if needed to preserve 3 RIR. Use the same legacy equipment/load notation; if 165 is unavailable on the pulldown, use the next lower setting."
+    "Choose each new exercise’s load within its listed rep range at 3 RIR, then record the weight used. Abs stay bodyweight-only while recovering; reduce or stop any movement that aggravates symptoms."
   ],
   "lift": {
     "table": [
       {
-        "slotId": "M1a",
-        "exercise": "Incline BB — top set",
-        "setsReps": "1×4–6",
-        "load": "145 lb",
-        "rir": "3",
-        "rest": "3 min"
-      },
-      {
-        "slotId": "M1b",
-        "exercise": "Incline BB — back-off",
-        "setsReps": "1×6–8",
-        "load": "135 lb",
-        "rir": "3",
-        "rest": "3 min"
-      },
-      {
-        "slotId": "M2",
-        "exercise": "Incline DB curl",
-        "setsReps": "1×8–12",
-        "load": "Calibrate",
-        "rir": "3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "M3",
-        "exercise": "DB lateral raise",
-        "setsReps": "2×12–20",
-        "load": "35 lb",
-        "rir": "3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "M4",
-        "exercise": "Overhead cable triceps extension",
-        "setsReps": "2×10–15",
-        "load": "Calibrate",
-        "rir": "3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "M5",
-        "exercise": "Lat pulldown",
-        "setsReps": "1×8–12",
-        "load": "165 lb",
-        "rir": "3",
-        "rest": "3 min"
-      },
-      {
-        "slotId": "M6",
+        "slotId": "L1",
         "exercise": "Decline crunch — bodyweight",
         "setsReps": "2×10–15",
         "load": "BW",
@@ -73,46 +25,66 @@
         "rest": "2 min"
       },
       {
-        "slotId": "M7",
-        "exercise": "Chest-supported row",
-        "setsReps": "1×8–12",
-        "load": "80 lb",
+        "slotId": "L2",
+        "exercise": "Leg-press calf raise",
+        "setsReps": "2×10–15",
+        "load": "Calibrate",
+        "rir": "3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "L3",
+        "exercise": "Hack squat",
+        "setsReps": "2×6–10",
+        "load": "Calibrate",
         "rir": "3",
         "rest": "3 min"
+      },
+      {
+        "slotId": "L4",
+        "exercise": "Seated leg curl",
+        "setsReps": "2×8–12",
+        "load": "Calibrate",
+        "rir": "3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "L5",
+        "exercise": "Leg extension",
+        "setsReps": "2×10–15",
+        "load": "Calibrate",
+        "rir": "3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "L6",
+        "exercise": "45-degree back extension",
+        "setsReps": "1×8–12",
+        "load": "Calibrate",
+        "rir": "3",
+        "rest": "2 min"
       }
     ]
   },
   "cardio": null,
   "adaptation": [
     {
-      "exercise": "Incline — 145 / 135 lb",
-      "previous": "Oct 13: 160×3 at RIR 1. Oct 21 was a taper single.",
-      "decision": "145 lb top set; 135 lb back-off.",
-      "reason": "Lower load for 4–6 reps at RIR 3; back-off is 6.9% lighter. Provisional until performed."
+      "exercise": "Start today",
+      "previous": "October 25: all recovery metrics reported good; you chose Sunday as the first leg day.",
+      "decision": "Start the Sunday session at stage A.",
+      "reason": "Readiness gate satisfied. No completed week or earned progression yet; Monday’s Upper A stays scheduled."
     },
     {
-      "exercise": "Pulldown — 165 lb",
-      "previous": "Oct 17: first set 170×8 at RIR 2.",
-      "decision": "Reduce to 165 lb for 8–12 reps.",
-      "reason": "Stage A requires about one more rep in reserve."
+      "exercise": "Legs and calves — first exposure",
+      "previous": "No matching working loads established for these five slots.",
+      "decision": "Calibrate loads to the prescribed reps at 3 RIR.",
+      "reason": "New machines/movements need their own loads; old seated-calf 375 does not transfer to leg-press calves."
     },
     {
-      "exercise": "Laterals / row — 35 / 80 lb",
-      "previous": "Oct 13 laterals: 35×12/12/12 at RIR 3. Oct 17 row: first set 80×10 at RIR 2.",
-      "decision": "Hold 35 and 80; stop at RIR 3 within the ranges.",
-      "reason": "Prior performance supports these starting loads; row may stop around 9 reps."
-    },
-    {
-      "exercise": "New curl / overhead extension",
-      "previous": "No established same-exercise loads.",
-      "decision": "Select the load at first exposure.",
-      "reason": "Preacher/pushdown weights do not transfer to these different movements."
-    },
-    {
-      "exercise": "Abs — bodyweight decline crunch",
-      "previous": "October 24: recovering; you requested ab training without weight.",
-      "decision": "Add 2×10–15 at 3 RIR, 2 min rest, before the row. Monday total: 11 sets.",
-      "reason": "Temporary bodyweight substitute for cable crunch. Keep the strain active; no added weight or harder variation until response is reviewed."
+      "exercise": "Abs — bodyweight only",
+      "previous": "October 24: strain recovering; you requested ab work without added weight.",
+      "decision": "2×10–15 bodyweight decline crunch, RIR 3.",
+      "reason": "Keep the temporary substitution. Good overall recovery does not revoke the specific no-added-weight instruction."
     }
   ],
   "currentLoads": [
@@ -205,7 +177,7 @@
       "exercise": "WE5 — Leg-press calf raise",
       "load": "Calibrate",
       "lastVerified": "No new-block exposure",
-      "note": "New calf setup; current Achilles status unknown. No old seated-calf load transfer."
+      "note": "Overall recovery reported good October 25; retain Achilles history. Calibrate this setup; no old seated-calf load transfer."
     },
     {
       "slotId": "T1",
@@ -317,7 +289,7 @@
       "exercise": "L2 — Leg-press calf raise",
       "load": "Calibrate",
       "lastVerified": "No new-block exposure",
-      "note": "New calf setup; current Achilles status unknown. No old seated-calf load transfer."
+      "note": "Overall recovery reported good October 25; retain Achilles history. Calibrate this setup; no old seated-calf load transfer."
     },
     {
       "slotId": "L3",

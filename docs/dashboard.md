@@ -9,7 +9,7 @@
 | Field | Shape / meaning |
 |---|---|
 | `generatedAt` | Actual generation timestamp with `America/New_York` offset, including DST |
-| `week`, `day`, `date`, `phase`, `sessionName` | Strings; date is athlete-local ISO; `Pre-block` before October 26, then W1–W10 |
+| `week`, `day`, `date`, `phase`, `sessionName` | Strings; date is athlete-local ISO; `Opening` on the authorized October 25 start, W1–W10 from the October 26 calendar anchor, earlier dates `Pre-block` |
 | `preview` | Optional boolean; true for an explicitly requested future workout. Label `sessionName` as a preview and use the requested date/week |
 | `why` | String array: session/stage selection and relevant gates; concise |
 | `intro` | String array: current constraints, normally empty or one line |
@@ -31,9 +31,9 @@ Wednesday/Saturday cardio says bike **after lifting**; `workoutFile` is null. Ru
 
 ## Week cache
 
-`week-ahead.json`: `{generatedAt, week, phase, summary, days}`. `days` has exactly seven consecutive Monday–Sunday rows `{date, day, session, note, status}`. Both caches describe the same current week and state snapshot; timestamps match when written together.
+`week-ahead.json`: `{generatedAt, week, phase, summary, days}`. `days` normally has seven consecutive Monday–Sunday rows `{date, day, session, note, status}`. For the opening Sunday, use a seven-day forward window October 25–31 with `window: "rolling-7-days"`, explicit `rangeStart`/`rangeEnd`, and dates in the summary; this includes today and the unchanged weekday schedule. Both caches describe the same state snapshot and calendar context; timestamps match when written together. Return to the usual W1 Monday–Sunday window on October 26.
 
-Statuses: `done` only for reported completion; `today` for unresolved current-day work; `upcoming` for future work; `skipped`, `rest` or `unreported` for supported past outcomes. Before the start, keep the transition week and Sunday October 25 rest. Logging never silently replaces today with tomorrow's preview. A calendar rollover does not advance stages or clear recovery gates.
+Statuses: `done` only for reported completion; `today` for unresolved current-day work; `upcoming` for future work; `skipped`, `rest` or `unreported` for supported past outcomes. October 25 is the athlete-authorized opening leg session, replacing the former rest plan. Logging never silently replaces today with tomorrow's preview. A calendar rollover does not advance stages or clear recovery gates.
 
 When the athlete explicitly requests publishing a future preview, both caches may show that requested date/week with `preview: true`, a visible preview label, and actual generation time. All future days remain `upcoming`. Persist the exact prescription in the dated decision ledger; leave live calendar/activation, completed actuals and progression unchanged. A later current-day request replaces the preview normally.
 

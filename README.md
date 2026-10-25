@@ -1,6 +1,6 @@
 # Workout tracking
 
-Hybrid v11 begins **Monday, October 26, 2026**, through January 3, 2027. The agent generates workouts and records results; the static dashboard displays them. No backend or build.
+Hybrid v11 starts **Sunday, October 25, 2026**, with the first leg session. The regular W1 calendar remains October 26–November 1, through January 3, 2027. The agent generates workouts and records results; the static dashboard displays them. No backend or build.
 
 Every workout answers three questions:
 
@@ -22,6 +22,6 @@ Ask for today's workout; afterward report actual load/reps/RIR per set or interv
 
 Monday Upper A · Tuesday intervals · Wednesday delts/arms + bike · Thursday Upper B · Friday intervals · Saturday delts/arms + bike · Sunday legs.
 
-Matching lifts carry over their previous working weights as starting loads, adjusted for the new reps/RIR. New or unmatched equipment stays uninitialized. Each slot progresses independently. While the ab strain recovers, use the bodyweight-only ab substitutions in recovery state; the first hard run still requires current recovery confirmation.
+Matching lifts carry over their previous working weights as starting loads, adjusted for the new reps/RIR. New or unmatched equipment stays uninitialized. Each slot progresses independently. While the ab strain recovers, use the bodyweight-only ab substitutions. Recovery was reported good October 25; subsequent actual response governs adjustments.
 
 `index.html` reads `latest-workout.json` and `week-ahead.json`. Host the root on GitHub Pages (Settings → Pages → intended branch). `tools/workoutgen.py` builds Watch workouts in `runs/`; its fixtures/tests remain available. License: [LICENSE](LICENSE).

@@ -3,13 +3,13 @@
   "block_id": "hybrid-2026-10-26",
   "program_id": "hybrid-2026-10-26-v11",
   "program_version": "11.0",
-  "start_date": "2026-10-26",
+  "start_date": "2026-10-25",
   "end_date": "2027-01-03",
   "timezone": "America/New_York",
-  "as_of": "2026-10-24",
-  "activation_status": "scheduled",
-  "calendar_week": "Pre-block",
-  "calendar_phase": "transition",
+  "as_of": "2026-10-25",
+  "activation_status": "active",
+  "calendar_week": "Opening",
+  "calendar_phase": "Ramp",
   "lifting_stage": "A",
   "last_tolerated_stage": null,
   "latest_manageable_week": null,
@@ -23,7 +23,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 432,
+  "last_adjustment_id": 433,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -32,5 +32,16 @@
     "cancellation_or_reversion": null,
     "final_test_week": 10
   },
-  "completion": {}
+  "completion": {},
+  "planned_start_date": "2026-10-26",
+  "calendar_anchor_date": "2026-10-26",
+  "opening_session": {
+    "date": "2026-10-25",
+    "session": "Legs, bodyweight abs and calves",
+    "stage": "A",
+    "decision_id": 433,
+    "prescription_id": "hybrid-2026-10-26-sun-legs-433",
+    "status": "prescribed",
+    "note": "Early opening Sunday; Monday remains Upper A. W1 calendar October 26–November 1 and later dates remain unchanged. One opening session cannot establish a manageable week."
+  }
 }
