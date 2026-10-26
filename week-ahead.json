@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-26T10:55:43-04:00",
+  "generatedAt": "2026-10-26T19:05:32-04:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W1",
   "phase": "Hybrid v11 — Stage A",
   "rangeStart": "2026-10-26",
   "rangeEnd": "2026-11-01",
-  "summary": "W1, October 26–November 1: Stage A, 47 planned lifting sets with bodyweight abs. Opening Sunday October 25 is logged separately; general recovery reported good October 26. Monday Upper A is today, not yet logged. Future sessions remain conditional on recovery; no automatic stage advancement.",
+  "summary": "W1, October 26–November 1: Monday Upper A completed, 11 sets. Stay at Stage A; bodyweight-only abs. Pulldown needs a small effort-calibration reduction; row note and post-session response pending. Opening Sunday remains separately logged; future sessions await their own recovery review.",
   "days": [
     {
       "date": "2026-10-26",
       "day": "Mon",
       "session": "Upper A",
-      "note": "11 sets, all RIR 3; incline 145/135, laterals 35, pulldown 165, row 80 lb; calibrate curls/extensions; bodyweight abs.",
-      "status": "today"
+      "note": "11 sets logged: incline 145×6/135×8, curl 20×12, lateral 35×15/12, extension 35×10/10, pulldown 165×8 RIR 2, BW abs 15/15, row 70×12 (note pending). Other sets RIR 3.",
+      "status": "done"
     },
     {
       "date": "2026-10-27",

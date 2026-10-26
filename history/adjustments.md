@@ -73,3 +73,15 @@ Mark October 25 opening completed; remain at A with no tolerated/manageable week
 October 25 bodyweight decline crunch 15/15 at RIR 4/3 felt fine during/after; good general recovery today supports repeating the permitted dose in M6. Keep BW, two-set ceiling and minimum 3 RIR; no transfer of Sunday actuals or progression credit into M6, no weighted/baseline ab restoration. All numeric carry-over prescriptions remain provisional until performed; no new actuals, qualification, anchors or stage advancement created.
 
 Publish current-day caches with Monday marked today and six upcoming W1 days, including a separate November 1 leg session. Preserve the October 25 actuals/opening completion and established lower-body loads. Future work remains subject to its current recovery review.
+
+## 2026-10-26 — Monday actuals logged
+
+437. Record all **11 sets** against #436: M1a 145×6 RIR 3; M1b 135×8 RIR 3; M2 20×12 RIR 3; M3 35×15/12 RIR 3/3; M4 35×10/10 RIR 3/3; M5 165×8 RIR 2; M6 BW×15/15 RIR 3/3; M7 70×12 RIR 3 with note “I misplaced this”. Detailed original prescription and actuals are in `history/lifting-log.md`. All rep ranges met; 10 of 11 sets met the intended RIR 3.
+
+Apply `program/ramp-and-return.md` and `program/lift-progression.md`: M1a/M1b carried 160 baselines → established **145/135**, M2 uninitialized → **20**, M3 carried 35 → established **35**, M4 uninitialized → **35**. Hold these appropriate loads; ceiling reps do not earn ramp progression credit. Raw exposure counts increment once; qualification/comparable/anchor state stays empty. No actuals or credits transfer to Thursday, Wednesday or Saturday slots.
+
+M5 carried 170 → performed **165**, but 8 reps at RIR 2 reached the floor with one fewer rep in reserve than prescribed. Save actual 165 separately from the next calibration proposal: **160 lb if available, otherwise next lower setting**, to meet 8–12 at RIR 3. Re-evaluate if the target changes. Do not count the proposed load as performed or classify one calibration mismatch as decline/fatigue.
+
+M7 carried/prescribed 80 → reported **70×12 RIR 3**. Preserve 70 as reported with clarification pending; do not infer an entry error, changed order or mid-session load reduction from “I misplaced this”. Ask once and hold final next-prescription judgment pending the answer. M6 stores separate temporary BW actuals; cable baseline remains uninitialized, with two-set/minimum-3-RIR/no-added-load limits intact. Monday ab response and next-day recovery remain pending; ask once for during/after ab symptoms.
+
+Mark Monday completed, keep Stage A, and preserve Sunday’s actuals/completion. No completed manageable week or progression award. Dashboard stays October 26, shows exact actuals alongside the unchanged #436 prescription, Monday done and six days upcoming.

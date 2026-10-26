@@ -23,7 +23,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 436,
+  "last_adjustment_id": 437,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -41,6 +41,16 @@
       "working_sets": 11,
       "actual_ref": "../history/lifting-log.md#2026-10-25--hybrid-v11-opening",
       "recovery_status": "next-day-general-recovery-reported-good"
+    },
+    "2026-10-26": {
+      "calendar_week": "W1",
+      "session": "Upper A",
+      "status": "completed",
+      "stage": "A",
+      "working_sets": 11,
+      "actual_ref": "../history/lifting-log.md#2026-10-26--hybrid-v11-w1-monday-upper-a",
+      "recovery_status": "pending",
+      "review_note": "M5 effort calibration required; M7 note clarification pending. No stage advancement."
     }
   },
   "planned_start_date": "2026-10-26",
