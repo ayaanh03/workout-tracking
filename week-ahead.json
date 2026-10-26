@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-10-26T19:05:32-04:00",
+  "generatedAt": "2026-10-26T19:24:19-04:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W1",
   "phase": "Hybrid v11 — Stage A",
   "rangeStart": "2026-10-26",
   "rangeEnd": "2026-11-01",
-  "summary": "W1, October 26–November 1: Monday Upper A completed, 11 sets. Stay at Stage A; bodyweight-only abs. Pulldown needs a small effort-calibration reduction; row note and post-session response pending. Opening Sunday remains separately logged; future sessions await their own recovery review.",
+  "summary": "W1, October 26–November 1: Monday Upper A completed, 11 sets. Stay at Stage A; bodyweight-only abs felt fine during/after. Row 70 lb confirmed as accidental loading; no make-up work. Pulldown calibration reduction retained; next-day recovery pending. Opening Sunday remains separately logged.",
   "days": [
     {
       "date": "2026-10-26",
       "day": "Mon",
       "session": "Upper A",
-      "note": "11 sets logged: incline 145×6/135×8, curl 20×12, lateral 35×15/12, extension 35×10/10, pulldown 165×8 RIR 2, BW abs 15/15, row 70×12 (note pending). Other sets RIR 3.",
+      "note": "11 sets logged: incline 145×6/135×8, curl 20×12, lateral 35×15/12, extension 35×10/10, pulldown 165×8 RIR 2, BW abs 15/15 (felt fine), row 70×12 (accidental load confirmed). Other sets RIR 3.",
       "status": "done"
     },
     {

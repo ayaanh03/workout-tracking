@@ -235,7 +235,7 @@
         },
         "new_exposure_count": 1,
         "qualifying_exposures": 0,
-        "note": "Substitute actual only; baseline cable crunch remains uninitialized. Monday symptom response pending; October 25 tolerance is historical."
+        "note": "Substitute actual only; baseline cable crunch remains uninitialized. Lower abs felt fine during/after Monday’s bodyweight work; bodyweight-only, two-set and minimum-3-RIR limits retained."
       }
     },
     "M7": {
@@ -246,7 +246,7 @@
       "load_source": "../history/lifting-log.md#2026-10-26--hybrid-v11-w1-monday-upper-a",
       "equipment": "Chest-supported row apparatus",
       "setup": null,
-      "load_convention": "Athlete-reported 70 lb notation; legacy per-hand vs total is undocumented. Meaning of “I misplaced this” pending clarification.",
+      "load_convention": "Athlete-reported 70 lb notation; legacy per-hand vs total is undocumented. Athlete confirms accidentally loading 70 instead of the prescribed 80.",
       "last_actual": {
         "date": "2026-10-26",
         "session_id": "hybrid-2026-10-26-w1-mon-2026-10-26",
@@ -261,20 +261,27 @@
         ],
         "progression_eligible": false,
         "reason": "Stage-A calibration; no ordinary progression or plateau credit.",
-        "athlete_note": "I misplaced this"
+        "athlete_note": "I misplaced this",
+        "clarification": "Accidentally loaded 70 lb instead of 80 lb, completed the reported set, then left the gym. No additional set reported."
       },
       "new_exposure_count": 1,
-      "clarification_pending": {
+      "next_action": {
+        "decision_id": 438,
+        "action": "hold-established-load-during-ramp",
+        "load": 70,
+        "units": "lb",
+        "target_reps": "8–12",
+        "target_rir": 3,
+        "reason": "Although selected by mistake, 70×12 at RIR 3 meets the ramp target. Hold the demonstrated appropriate load; original 80 remains an unperformed prescription for this session. No progression credit or make-up set.",
+        "review": "Re-evaluate against stage, effort target and recovery when generating the next M7 session."
+      },
+      "clarification": {
         "requested_on": "2026-10-26",
         "question": "Meaning of “I misplaced this”: order, logged value, or another issue?",
-        "answer": null
-      },
-      "next_action": {
-        "decision_id": 437,
-        "action": "hold-reported-load-pending-clarification",
-        "provisional_load": 70,
-        "units": "lb",
-        "reason": "70×12 at RIR 3 meets the reported range/effort; do not replace with prescribed 80 or assume a mid-session reduction/order change."
+        "answer": "I misloaded it. I loaded it as 70 by mistake and then Left the gym",
+        "answered_on": "2026-10-26",
+        "status": "resolved",
+        "decision_id": 438
       }
     },
     "WE1": {

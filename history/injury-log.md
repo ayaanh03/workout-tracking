@@ -25,3 +25,7 @@ Athlete: “Recovery metrics look good.” Record good general recovery/readines
 ## 2026-10-26 — Monday ab exposure; response pending
 
 Athlete reports bodyweight decline crunch 15/15 at RIR 3/3 in M6. No symptom response was included; asked how lower abs felt during and after today’s crunches. Preserve October 25’s tolerated response as historical, not evidence for this new exposure. Today’s during/after response and next-day recovery remain unknown; preworkout good recovery does not supply either. Keep bodyweight-only/two-set/minimum-3-RIR restrictions (decision #437).
+
+## 2026-10-26 — Monday ab-response follow-up
+
+Asked how lower abs felt during/after Monday’s bodyweight crunches; athlete: **“Felt fine.”** Record this exposure as tolerated, resolving the pending during/after response. Retain bodyweight-only, two-set ceiling and minimum 3 RIR; no full injury clearance or authorization for weighted/harder abs. Next-day recovery remains unknown (decision #438).

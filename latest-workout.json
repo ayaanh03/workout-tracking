@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T19:05:32-04:00",
+  "generatedAt": "2026-10-26T19:24:19-04:00",
   "blockId": "hybrid-2026-10-26",
   "prescriptionId": "hybrid-2026-10-26-mon-upper-a-436",
   "preview": false,
@@ -12,7 +12,7 @@
     "Monday starts W1 with Upper A: 11 working sets at about 3 RIR. You report good recovery after the opening leg session; that session stays separate from this week. Stage A continues until a completed manageable week is established."
   ],
   "intro": [
-    "Logged all 11 sets. All rep ranges were met; 10 sets met RIR 3. Pulldown was 165×8 at RIR 2, so plan a small reduction for the next 3-RIR exposure. Row is recorded as 70×12 at RIR 3; your note needs clarification. Today’s ab response and next-day recovery are pending."
+    "Logged all 11 sets. All rep ranges were met; 10 sets met RIR 3. Pulldown needs the planned small reduction for the next 3-RIR exposure. Row 70×12 at RIR 3 is confirmed: accidentally loaded 70 instead of 80, then left. No make-up work. Abs felt fine during/after; next-day recovery remains pending."
   ],
   "lift": {
     "table": [
@@ -183,15 +183,15 @@
     },
     {
       "exercise": "Decline crunch — M6 temporary substitute",
-      "previous": "October 26: BW×15/15 at RIR 3/3; today’s symptom response not yet supplied.",
-      "decision": "Keep bodyweight-only limits; response pending.",
-      "reason": "Record the temporary substitute separately from cable crunch. Two-set ceiling and minimum RIR 3 remain; reaching 15 does not authorize weight or restoration."
+      "previous": "October 26: BW×15/15 at RIR 3/3; lower abs felt fine during and after.",
+      "decision": "Continue bodyweight-only work within the current limits.",
+      "reason": "The temporary substitute was tolerated. Two-set ceiling and minimum RIR 3 remain; this response does not authorize added weight or restoration of cable crunch."
     },
     {
       "exercise": "Chest-supported row — M7",
-      "previous": "October 26: 70×12 at RIR 3, versus 80 lb prescribed; note: I misplaced this.",
-      "decision": "Record 70 lb exactly as reported; clarify the note before finalizing the next prescription.",
-      "reason": "Reported reps/RIR fit the target. Do not assume a load-entry correction, changed order or mid-session reduction; no automatic return to 80 or increase from 70."
+      "previous": "October 26: 70×12 at RIR 3. Athlete confirms accidentally loading 70 instead of the prescribed 80, then leaving the gym.",
+      "decision": "Keep the actual at 70 lb; hold this appropriate load during the ramp. No make-up set.",
+      "reason": "The loading mistake is resolved. Reported range/effort were met at 70; Stage A keeps appropriate loads stable. The original 80 lb prescription remains unperformed, with no progression or decline inferred."
     }
   ],
   "currentLoads": [
@@ -242,14 +242,14 @@
       "exercise": "M6 — Decline crunch (temporary)",
       "load": "BW",
       "lastVerified": "2026-10-26 (reported)",
-      "note": "Temporary BW decline crunch actual: 15/15 at RIR 3/3. Today’s symptom response pending; maximum 2 sets, no added weight. No cable-crunch progression credit."
+      "note": "Temporary BW decline crunch actual: 15/15 at RIR 3/3. Lower abs felt fine during/after Monday; maximum 2 sets, no added weight. No cable-crunch progression credit."
     },
     {
       "slotId": "M7",
       "exercise": "M7 — Chest-supported row",
       "load": "70 lb",
       "lastVerified": "2026-10-26 (reported)",
-      "note": "Actual reported 70×12 at RIR 3; “I misplaced this” awaiting clarification. Next prescription provisional; do not assume 80 was performed or force a return to it."
+      "note": "Confirmed 70×12 at RIR 3: accidentally loaded 70 instead of planned 80, then left. Hold 70 during the ramp; no make-up set or progression credit."
     },
     {
       "slotId": "WE1",
@@ -333,7 +333,7 @@
       "exercise": "T7 — Decline crunch (temporary)",
       "load": "BW",
       "lastVerified": "Bodyweight prescription updated 2026-10-24; no new-block actual",
-      "note": "Recovering ab strain: no added weight; cap 2 sets, at least 3 RIR. Sunday’s bodyweight substitute felt fine during/after; this slot has no actual yet."
+      "note": "Recovering ab strain: no added weight; cap 2 sets, at least 3 RIR. Sunday and Monday bodyweight substitutes felt fine during/after; this slot has no actual yet."
     },
     {
       "slotId": "T8",
