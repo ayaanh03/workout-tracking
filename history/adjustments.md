@@ -52,3 +52,24 @@ Store L1’s decline-crunch actual separately from the uninitialized hanging-leg
 Mark October 25 opening completed; remain at A with no tolerated/manageable week established. Monday Upper A and W1 October 26–November 1 remain unchanged. Preserve #433’s actual prescription in today’s dashboard, add the exact reported results, show Sunday done and update the working-load list. Do not advance the dashboard to tomorrow or mark any future session complete.
 
 435. Follow-up to #434, same date: asked how lower abs/Achilles felt during and after the opening session; athlete answers **“Both felt fine.”** Record both local responses as tolerated during/after this exposure, superseding the corresponding pending response fields. Continue the current permitted bodyweight ab dose and established L2 calf load, subject to later recovery. Keep the bodyweight-only instruction, 2-set ceiling and minimum 3 RIR; this report does not authorize weighted abs or baseline hanging/cable work. Retain Achilles history with the explicit current symptom-free exposure. Next-day recovery remains unknown, and no full manageable week, stage advancement or progression credit is established. Rule: `program/adjustments.md` (reported evidence and separate restoration review), `program/ramp-and-return.md` (manageable week).
+
+## 2026-10-26 — Monday Upper A
+
+436. Athlete reports **“Recovery metrics look good.”** Record next-day general recovery as good after the completed opening leg session; no numeric or new site-specific symptom report supplied. Keep October 25’s explicit tolerated ab/Achilles exposure and all active ab limits. Move the calendar to **W1 October 26–November 1**, with Stage A unchanged: one opening session does not establish a manageable week. Generate today’s **Monday Upper A**, not completed, prescription ID `hybrid-2026-10-26-mon-upper-a-436`.
+
+| Slot | Effective exercise | Sets × reps | Planned load | RIR | Rest |
+|---|---|---|---|---|---|
+| M1a | Incline barbell bench — top set | 1×4–6 | 145 lb | 3 | 3 min |
+| M1b | Incline barbell bench — back-off | 1×6–8 | 135 lb | 3 | 3 min |
+| M2 | Incline DB curl | 1×8–12 | Calibrate | 3 | 2 min |
+| M3 | DB lateral raise | 2×12–20 | 35 lb | 3 | 2 min |
+| M4 | Overhead cable triceps extension | 2×10–15 | Calibrate | 3 | 2 min |
+| M5 | Lat pulldown | 1×8–12 | 165 lb | 3 | 3 min |
+| M6 | Decline crunch — bodyweight | 2×10–15 | BW | 3 | 2 min |
+| M7 | Chest-supported row | 1×8–12 | 80 lb | 3 | 3 min |
+
+**11 working sets; no cardio.** Retain the effective Monday loads from #431/#432 after reconciling Sunday’s actuals and today’s recovery. Source/rule review: `program/monday.md`, `program/ramp-and-return.md`, `program/lift-progression.md` and dated carry-over sources in `state/lifting.json`. October 13 incline 160×3 at RIR 1 estimates 181.3 lb e1RM: provisionally choose 145 for 4–6 at RIR 3 and 135 for 6–8, a 6.9% back-off. October 17 pulldown 170×8 at RIR 2 supports 165 for extra reserve; use the next lower setting if 165 is unavailable. Retain lateral 35 (October 13, 3×12 at RIR 3) and row 80 (October 17 first set 10 at RIR 2), stopping at RIR 3; approximately 9 row reps is an estimate, not a recorded actual. M2/M4 need independent calibration. Preserve existing apparatus and load conventions.
+
+October 25 bodyweight decline crunch 15/15 at RIR 4/3 felt fine during/after; good general recovery today supports repeating the permitted dose in M6. Keep BW, two-set ceiling and minimum 3 RIR; no transfer of Sunday actuals or progression credit into M6, no weighted/baseline ab restoration. All numeric carry-over prescriptions remain provisional until performed; no new actuals, qualification, anchors or stage advancement created.
+
+Publish current-day caches with Monday marked today and six upcoming W1 days, including a separate November 1 leg session. Preserve the October 25 actuals/opening completion and established lower-body loads. Future work remains subject to its current recovery review.

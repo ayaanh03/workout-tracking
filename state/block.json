@@ -6,9 +6,9 @@
   "start_date": "2026-10-25",
   "end_date": "2027-01-03",
   "timezone": "America/New_York",
-  "as_of": "2026-10-25",
+  "as_of": "2026-10-26",
   "activation_status": "active",
-  "calendar_week": "Opening",
+  "calendar_week": "W1",
   "calendar_phase": "Ramp",
   "lifting_stage": "A",
   "last_tolerated_stage": null,
@@ -23,7 +23,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 435,
+  "last_adjustment_id": 436,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -40,7 +40,7 @@
       "stage": "A",
       "working_sets": 11,
       "actual_ref": "../history/lifting-log.md#2026-10-25--hybrid-v11-opening",
-      "recovery_status": "next-day-recovery-pending"
+      "recovery_status": "next-day-general-recovery-reported-good"
     }
   },
   "planned_start_date": "2026-10-26",

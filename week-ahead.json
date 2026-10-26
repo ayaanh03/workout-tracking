@@ -1,33 +1,25 @@
 {
-  "generatedAt": "2026-10-25T18:04:16-04:00",
+  "generatedAt": "2026-10-26T10:55:43-04:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
-  "week": "Opening",
+  "week": "W1",
   "phase": "Hybrid v11 — Stage A",
-  "window": "rolling-7-days",
-  "rangeStart": "2026-10-25",
-  "rangeEnd": "2026-10-31",
-  "summary": "October 25–31: opening Sunday’s 11 sets are logged; the regular weekday schedule is unchanged. Five leg/calf loads established, held at Stage A. Lower abs and Achilles felt fine during/after; abs stay bodyweight-only and next-day recovery is pending. W1 remains October 26–November 1.",
+  "rangeStart": "2026-10-26",
+  "rangeEnd": "2026-11-01",
+  "summary": "W1, October 26–November 1: Stage A, 47 planned lifting sets with bodyweight abs. Opening Sunday October 25 is logged separately; general recovery reported good October 26. Monday Upper A is today, not yet logged. Future sessions remain conditional on recovery; no automatic stage advancement.",
   "days": [
-    {
-      "date": "2026-10-25",
-      "day": "Sun",
-      "session": "Legs, bodyweight abs + calves",
-      "note": "Logged all 11 sets: BW abs; calves 365, hack 95, curl 85, extension 100, back extension 25 lb. Rep/RIR targets met; lower abs and Achilles felt fine during/after.",
-      "status": "done"
-    },
     {
       "date": "2026-10-26",
       "day": "Mon",
       "session": "Upper A",
-      "note": "11 sets; incline 145/135 lb; bodyweight decline crunch 2×10–15.",
-      "status": "upcoming"
+      "note": "11 sets, all RIR 3; incline 145/135, laterals 35, pulldown 165, row 80 lb; calibrate curls/extensions; bodyweight abs.",
+      "status": "today"
     },
     {
       "date": "2026-10-27",
       "day": "Tue",
       "session": "Intervals",
-      "note": "3×4 min at 6:50/mi, 3 min between; final RPE ≤8. Adjust for the response to today’s legs.",
+      "note": "3×4 min at 6:50/mi, 3 min between; final RPE ≤8. Confirm current recovery when generating the run.",
       "status": "upcoming"
     },
     {
@@ -56,6 +48,13 @@
       "day": "Sat",
       "session": "Delts/arms B + bike",
       "note": "6 sets; no forearms yet; then 20 min easy bike.",
+      "status": "upcoming"
+    },
+    {
+      "date": "2026-11-01",
+      "day": "Sun",
+      "session": "Legs, bodyweight abs + calves",
+      "note": "Stage-A plan: 11 sets; hold established loads 365/95/85/100/25 lb on the same setups; bodyweight abs. Review the week’s response before finalizing.",
       "status": "upcoming"
     }
   ]

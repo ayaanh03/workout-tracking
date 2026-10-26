@@ -17,3 +17,7 @@ Athlete reports the full 11-set session, including bodyweight decline crunch 15/
 ## 2026-10-25 — post-session symptom follow-up
 
 Asked how lower abs and Achilles felt during and after today’s session. Athlete: **“Both felt fine.”** Record no symptoms reported for either site during/after this exposure. The preceding pending during/after response is now answered; next-day recovery remains unknown. Keep bodyweight-only abs and existing set/RIR limits. Current tolerated exposure does not establish full injury resolution or authorize weighted/harder ab work (decision #435).
+
+## 2026-10-26 — next-day general recovery
+
+Athlete: “Recovery metrics look good.” Record good general recovery/readiness on the day after the opening leg session; numeric metrics were not supplied. This answers the pending general next-day recovery report. The most recent explicit local symptom report remains October 25: lower abs and Achilles felt fine during/after. No new site-specific symptom assessment or full injury clearance is inferred. Keep bodyweight-only abs, maximum two sets and minimum 3 RIR (decision #436).
