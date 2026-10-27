@@ -6,7 +6,7 @@
   "start_date": "2026-10-25",
   "end_date": "2027-01-03",
   "timezone": "America/New_York",
-  "as_of": "2026-10-26",
+  "as_of": "2026-10-27",
   "activation_status": "active",
   "calendar_week": "W1",
   "calendar_phase": "Ramp",
@@ -23,7 +23,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 438,
+  "last_adjustment_id": 439,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -49,7 +49,7 @@
       "stage": "A",
       "working_sets": 11,
       "actual_ref": "../history/lifting-log.md#2026-10-26--hybrid-v11-w1-monday-upper-a",
-      "recovery_status": "next-day-recovery-pending",
+      "recovery_status": "next-day-general-recovery-reported-good",
       "review_note": "M5 effort calibration required. M7 confirmed accidental 70 lb loading; actual unchanged. Abs felt fine during/after; no stage advancement."
     }
   },

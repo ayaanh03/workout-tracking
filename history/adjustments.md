@@ -89,3 +89,18 @@ Mark Monday completed, keep Stage A, and preserve Sunday’s actuals/completion.
 438. Resolve #437’s follow-ups: athlete clarifies **“I misloaded it. I loaded it as 70 by mistake and then Left the gym”** and reports lower abs **“Felt fine”** during/after Monday crunches. Keep M7 actual **70×12 at RIR 3**, preserve original prescribed 80, and clear the pending clarification. No extra set was reported or prescribed to compensate. `program/ramp-and-return.md`: keep an appropriate load stable during A–C, so hold demonstrated 70 at the next comparable ramp target; re-evaluate stage/recovery when generating it. The loading error alone does not require restoring 80, establish decline or earn progression.
 
 Update M6/current ab response to tolerated, retaining bodyweight-only, maximum two sets, minimum 3 RIR and the separate cable-crunch baseline. Next-day recovery remains pending. All actual set values, counts, original prescriptions, stage, pulldown correction and other slot progression remain unchanged. Refresh the dashboard to show both answers without stale pending-clarification/local-response labels.
+
+## 2026-10-27 — first Tuesday intervals
+
+439. Athlete asks for today’s workout and reports **“I’m over-recovered.”** Record good general next-day recovery after Monday and readiness for today; retain local restriction/clearance state. Generate **W1 Tuesday intervals**, prescription ID `hybrid-2026-10-26-tue-intervals-439`:
+
+- 10 minutes easy running, conversational (guide 8:30–9:30/mi or slower). Up to 5 extra warmup minutes if needed; the Watch file encodes the planned 10.
+- **3×4 minutes at 6:50/mi**, with **3 minutes easy jog/walk between reps only**: exactly two recoveries.
+- Final-rep **RPE ≤8/10**; slow an unsuitable target rather than exceed the cap.
+- **10 minutes easy jog/walk cooldown**. Planned total **38 minutes**, including **12 minutes of work** and **6 minutes of recovery**. No lifting or added running.
+
+Apply `program/endurance.md`, `program/run-progression.md` and `program/run-return.md`: the reported 21:30 5K initializes 410 s/mi; W1’s starting dose and ceiling are 3×4. Strong readiness supports the full initial dose, but there is no completed Tuesday exposure/hit/comfortable pair and W1/W2 allow no faster target. No speed, work-minute, lifting-stage or progression-credit increase. The first run remains prescribed, not performed; adaptation validation awaits rep-average paces, final-rep RPE, total distance and next-day recovery. Prior ab/Achilles tolerance is dated evidence, not new local clearance.
+
+Complete-week mileage audit includes Friday’s unchanged 3×6 at 7:25/mi with two 2-minute recoveries. Both runs with 10-minute warmups and cooldowns, easy running at 8:30/mi and work at exact target total **10.06541679428691 miles** as a planned upper estimate. Conservatively allowing both 5-minute warmup extensions and fast tolerance edges (Tuesday 6:45, Friday 7:20) gives **11.291146761734996 miles**, unrounded <15. Walking/slower easy running reduces running distance. No mileage cut.
+
+Write `runs/2026-10-27.txt` and `.workout`: warmup 10, twice (work 4 + recovery 3), final work 4, cooldown 10; work-only current-pace alerts 6:45–6:55/mi. Decode-check the export against the brief. Preserve actual logs, all lift/run counters and Monday done; Tuesday today and future days upcoming. Publish both caches and the Watch download.

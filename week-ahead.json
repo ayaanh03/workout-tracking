@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-26T19:24:19-04:00",
+  "generatedAt": "2026-10-27T12:01:03-04:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W1",
   "phase": "Hybrid v11 — Stage A",
   "rangeStart": "2026-10-26",
   "rangeEnd": "2026-11-01",
-  "summary": "W1, October 26–November 1: Monday Upper A completed, 11 sets. Stay at Stage A; bodyweight-only abs felt fine during/after. Row 70 lb confirmed as accidental loading; no make-up work. Pulldown calibration reduction retained; next-day recovery pending. Opening Sunday remains separately logged.",
+  "summary": "W1, October 26–November 1: Monday Upper A logged; Tuesday intervals are today. Strong recovery supports the full initial 3×4 at 6:50/mi, with no added pace or volume. Stage A and bodyweight-only ab limits remain. Complete-week running bound is about 11.29 miles, below 15; future sessions remain subject to recovery.",
   "days": [
     {
       "date": "2026-10-26",
@@ -19,8 +19,8 @@
       "date": "2026-10-27",
       "day": "Tue",
       "session": "Intervals",
-      "note": "3×4 min at 6:50/mi, 3 min between; final RPE ≤8. Confirm current recovery when generating the run.",
-      "status": "upcoming"
+      "note": "10 min easy + 3×4 min at 6:50/mi, two 3-min easy recoveries + 10 min easy. 38 min total; final RPE ≤8. Watch file ready; not yet logged.",
+      "status": "today"
     },
     {
       "date": "2026-10-28",
@@ -57,5 +57,12 @@
       "note": "Stage-A plan: 11 sets; hold established loads 365/95/85/100/25 lb on the same setups; bodyweight abs. Review the week’s response before finalizing.",
       "status": "upcoming"
     }
-  ]
+  ],
+  "runningMileageCheck": {
+    "decisionId": 439,
+    "kind": "planned-upper-bound-not-actual",
+    "upperMiles": 11.291146761734996,
+    "limitMiles": 15,
+    "assumptions": "Tue 3×4 at 6:45/mi and Fri 3×6 at 7:20/mi; both warmups up to 15 min, both cooldowns 10 min, all 6+4 recovery min jogged at 8:30/mi. Only the two prescribed runs."
+  }
 }

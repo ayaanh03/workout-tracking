@@ -1,197 +1,57 @@
 {
-  "generatedAt": "2026-10-26T19:24:19-04:00",
+  "generatedAt": "2026-10-27T12:01:03-04:00",
   "blockId": "hybrid-2026-10-26",
-  "prescriptionId": "hybrid-2026-10-26-mon-upper-a-436",
+  "prescriptionId": "hybrid-2026-10-26-tue-intervals-439",
   "preview": false,
   "week": "W1",
-  "day": "Mon",
-  "date": "2026-10-26",
+  "day": "Tue",
+  "date": "2026-10-27",
   "phase": "Hybrid v11 — Stage A",
-  "sessionName": "Upper A",
+  "sessionName": "Intervals — 3×4 min",
   "why": [
-    "Monday starts W1 with Upper A: 11 working sets at about 3 RIR. You report good recovery after the opening leg session; that session stays separate from this week. Stage A continues until a completed manageable week is established."
+    "Tuesday is the first interval session of W1. Your report of feeling very recovered supports the full starting dose: 12 minutes of work at 6:50/mi."
   ],
   "intro": [
-    "Logged all 11 sets. All rep ranges were met; 10 sets met RIR 3. Pulldown needs the planned small reduction for the next 3-RIR exposure. Row 70×12 at RIR 3 is confirmed: accidentally loaded 70 instead of 80, then left. No make-up work. Abs felt fine during/after; next-day recovery remains pending."
+    "38 minutes total: 10-minute warmup, 12 minutes of intervals, 6 minutes of between-rep recovery and 10-minute cooldown. No lifting today."
   ],
-  "lift": {
-    "table": [
-      {
-        "slotId": "M1a",
-        "exercise": "Incline barbell bench — top set",
-        "setsReps": "1×4–6",
-        "load": "145 lb",
-        "rir": "3",
-        "rest": "3 min"
-      },
-      {
-        "slotId": "M1b",
-        "exercise": "Incline barbell bench — back-off",
-        "setsReps": "1×6–8",
-        "load": "135 lb",
-        "rir": "3",
-        "rest": "3 min"
-      },
-      {
-        "slotId": "M2",
-        "exercise": "Incline DB curl",
-        "setsReps": "1×8–12",
-        "load": "Calibrate",
-        "rir": "3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "M3",
-        "exercise": "DB lateral raise",
-        "setsReps": "2×12–20",
-        "load": "35 lb",
-        "rir": "3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "M4",
-        "exercise": "Overhead cable triceps extension",
-        "setsReps": "2×10–15",
-        "load": "Calibrate",
-        "rir": "3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "M5",
-        "exercise": "Lat pulldown",
-        "setsReps": "1×8–12",
-        "load": "165 lb",
-        "rir": "3",
-        "rest": "3 min"
-      },
-      {
-        "slotId": "M6",
-        "exercise": "Decline crunch — bodyweight",
-        "setsReps": "2×10–15",
-        "load": "BW",
-        "rir": "3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "M7",
-        "exercise": "Chest-supported row",
-        "setsReps": "1×8–12",
-        "load": "80 lb",
-        "rir": "3",
-        "rest": "3 min"
-      }
+  "lift": null,
+  "cardio": {
+    "workout": "3×4 minutes at 6:50/mi. Take 3 minutes easy jog/walk between reps only: two recoveries, then go straight from the final rep into the cooldown.",
+    "warmup": "10 minutes easy running, conversational; guide 8:30–9:30/mi or slower. Up to 5 extra minutes if needed; the Watch file contains the planned 10 minutes.",
+    "cooldown": "10 minutes easy jog/walk, conversational; no pace target. This is included in the 38-minute plan.",
+    "targets": {
+      "pace": "6:50/mi for work reps; Watch alerts 6:45–6:55/mi.",
+      "rpe": "Final rep ≤8/10. Slow down if needed to stay within the cap."
+    },
+    "flags": [
+      "Keep the starting pace and three reps even if fresh. Log each rep’s average pace, final-rep RPE and total distance; report next-day recovery afterward."
     ],
-    "actual": {
-      "label": "2026-10-26 — reported results",
-      "table": [
-        {
-          "slotId": "M1a",
-          "exercise": "Incline barbell bench — top set",
-          "load": "145 lb",
-          "reps": "6",
-          "rir": "3"
-        },
-        {
-          "slotId": "M1b",
-          "exercise": "Incline barbell bench — back-off",
-          "load": "135 lb",
-          "reps": "8",
-          "rir": "3"
-        },
-        {
-          "slotId": "M2",
-          "exercise": "Incline DB curl",
-          "load": "20 lb",
-          "reps": "12",
-          "rir": "3"
-        },
-        {
-          "slotId": "M3",
-          "exercise": "DB lateral raise",
-          "load": "35 lb",
-          "reps": "15 / 12",
-          "rir": "3 / 3"
-        },
-        {
-          "slotId": "M4",
-          "exercise": "Overhead cable triceps extension",
-          "load": "35 lb",
-          "reps": "10 / 10",
-          "rir": "3 / 3"
-        },
-        {
-          "slotId": "M5",
-          "exercise": "Lat pulldown",
-          "load": "165 lb",
-          "reps": "8",
-          "rir": "2"
-        },
-        {
-          "slotId": "M6",
-          "exercise": "Decline crunch — bodyweight",
-          "load": "BW",
-          "reps": "15 / 15",
-          "rir": "3 / 3"
-        },
-        {
-          "slotId": "M7",
-          "exercise": "Chest-supported row",
-          "load": "70 lb",
-          "reps": "12",
-          "rir": "3"
-        }
-      ]
-    }
+    "workoutFile": "runs/2026-10-27.workout"
   },
-  "cardio": null,
   "adaptation": [
     {
-      "exercise": "Session and stage",
-      "previous": "October 26: all 11 working sets completed. All rep ranges met; 10 of 11 sets at the prescribed RIR 3.",
-      "decision": "Completed; remain at Stage A.",
-      "reason": "Ramp-and-return: a full manageable week is required for advancement. Ceiling reps during the ramp earn no ordinary load/plateau credit; post-session recovery remains pending."
+      "exercise": "Readiness and dose",
+      "previous": "October 27: “I’m over-recovered.” Sunday legs and Monday Upper A are logged; Monday general next-day recovery is now reported good.",
+      "decision": "Use the full W1 starting dose: 3×4 minutes. No extra reps or lifting.",
+      "reason": "Endurance and run-progression rules initialize Tuesday at 12 work minutes; the W1 ceiling is 3×4. Feeling fresh supports the planned dose but does not establish run progression credit."
     },
     {
-      "exercise": "Incline barbell bench — M1a/M1b",
-      "previous": "October 26: 145×6 at RIR 3; 135×8 at RIR 3.",
-      "decision": "Establish and hold 145/135 lb independently.",
-      "reason": "Both first-exposure estimates met the rep ceiling and intended effort. Stage A keeps appropriate loads stable; no automatic increase or transfer to Thursday."
+      "exercise": "Pace and effort",
+      "previous": "Reported October 24: 21:30 for 5 km. No completed new-block Tuesday interval session, hit or comfortable pair yet.",
+      "decision": "Keep 6:50/mi with final-rep RPE at most 8; slow an unsuitable target.",
+      "reason": "The reported baseline initializes 410 s/mi. W1/W2 do not increase pace; future adaptation needs rep-average paces, final effort and next-day recovery. First-exposure response remains unverified."
     },
     {
-      "exercise": "Incline DB curl — M2",
-      "previous": "October 26: 20×12 at RIR 3.",
-      "decision": "Establish and hold 20 lb in the reported dumbbell notation.",
-      "reason": "First calibration meets the ceiling at intended effort; ramp work earns no loading credit. Saturday remains independent."
+      "exercise": "Recovery context",
+      "previous": "Achilles felt fine during/after Sunday calves; lower abs felt fine during/after Sunday and Monday bodyweight crunches. Today’s report is general readiness.",
+      "decision": "Proceed with the planned run; retain the existing local restrictions and respond to any new symptoms.",
+      "reason": "Current reports support starting. General freshness does not establish full injury clearance or remove the bodyweight-only ab limit."
     },
     {
-      "exercise": "DB lateral raise — M3",
-      "previous": "October 26: 35×15/12 at RIR 3/3.",
-      "decision": "Establish and hold 35 lb for this slot.",
-      "reason": "Both sets meet range/effort. The within-session rep drop is not evidence of persistent decline; other lateral slots remain independent."
-    },
-    {
-      "exercise": "Overhead cable triceps extension — M4",
-      "previous": "October 26: 35×10/10 at RIR 3/3.",
-      "decision": "Establish and hold 35 lb on the same setup.",
-      "reason": "Both sets meet the rep floor at intended effort. This is first-exposure calibration; no change to Saturday’s independent slot."
-    },
-    {
-      "exercise": "Lat pulldown — M5",
-      "previous": "October 26: prescribed 165 lb for 8–12 at RIR 3; actual 165×8 at RIR 2.",
-      "decision": "Record 165 lb as performed; next 3-RIR exposure: 160 lb if available, otherwise the next lower setting.",
-      "reason": "The starting estimate was slightly too demanding at the rep floor. Correct the calibration to leave 3 reps in reserve; the lower load is proposed, not an actual or a fatigue rollback."
-    },
-    {
-      "exercise": "Decline crunch — M6 temporary substitute",
-      "previous": "October 26: BW×15/15 at RIR 3/3; lower abs felt fine during and after.",
-      "decision": "Continue bodyweight-only work within the current limits.",
-      "reason": "The temporary substitute was tolerated. Two-set ceiling and minimum RIR 3 remain; this response does not authorize added weight or restoration of cable crunch."
-    },
-    {
-      "exercise": "Chest-supported row — M7",
-      "previous": "October 26: 70×12 at RIR 3. Athlete confirms accidentally loading 70 instead of the prescribed 80, then leaving the gym.",
-      "decision": "Keep the actual at 70 lb; hold this appropriate load during the ramp. No make-up set.",
-      "reason": "The loading mistake is resolved. Reported range/effort were met at 70; Stage A keeps appropriate loads stable. The original 80 lb prescription remains unperformed, with no progression or decline inferred."
+      "exercise": "Weekly running volume",
+      "previous": "W1 includes Tuesday 3×4 at 6:50/mi and Friday 3×6 at 7:25/mi, with their warmups, recoveries and cooldowns.",
+      "decision": "No mileage cut: conservative complete-week bound is about 11.29 miles, below 15.",
+      "reason": "Bound uses both maximum 15-minute warmups, both 10-minute cooldowns, all recoveries jogged at 8:30/mi and work at the fast tolerance edges. Planned estimate, not completed distance."
     }
   ],
   "currentLoads": [
@@ -426,6 +286,5 @@
       "lastVerified": "2026-10-25 (reported)",
       "note": "Reported 12 reps at RIR 3; hold during Stage A. Retain the same setup and load notation."
     }
-  ],
-  "status": "done"
+  ]
 }

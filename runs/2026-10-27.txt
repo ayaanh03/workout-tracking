@@ -1,0 +1,9 @@
+# W1 Tuesday — decision 439. 38 min planned; final-rep RPE <=8.
+# Recoveries between reps only; no easy-section pace alerts.
+name: W1 Tue 3x4 - Oct 27
+warmup: 10:00
+repeat 2
+  work: 4:00 @ current 6:45-6:55/mi
+  recovery: 3:00
+work: 4:00 @ current 6:45-6:55/mi
+cooldown: 10:00

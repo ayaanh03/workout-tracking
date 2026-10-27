@@ -29,3 +29,7 @@ Athlete reports bodyweight decline crunch 15/15 at RIR 3/3 in M6. No symptom res
 ## 2026-10-26 — Monday ab-response follow-up
 
 Asked how lower abs felt during/after Monday’s bodyweight crunches; athlete: **“Felt fine.”** Record this exposure as tolerated, resolving the pending during/after response. Retain bodyweight-only, two-set ceiling and minimum 3 RIR; no full injury clearance or authorization for weighted/harder abs. Next-day recovery remains unknown (decision #438).
+
+## 2026-10-27 — strong general recovery
+
+Athlete: **“I’m over-recovered.”** Record feeling very recovered/current general readiness as good, including the next-day general recovery report after Monday Upper A. No numeric metrics or new site-specific symptom assessment supplied. Preserve Monday’s explicitly tolerated bodyweight abs and Sunday’s tolerated Achilles exposure without inventing full injury resolution. Existing bodyweight-only ab limits remain. Use the planned starting Tuesday run dose (decision #439).
