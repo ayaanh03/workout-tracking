@@ -1,117 +1,115 @@
 {
-  "generatedAt": "2026-10-27T22:25:07-04:00",
+  "generatedAt": "2026-10-28T10:32:37-04:00",
   "blockId": "hybrid-2026-10-26",
-  "prescriptionId": "hybrid-2026-10-26-tue-intervals-439",
+  "prescriptionId": "hybrid-2026-10-26-wed-delts-arms-a-442",
   "preview": false,
   "week": "W1",
-  "day": "Tue",
-  "date": "2026-10-27",
+  "day": "Wed",
+  "date": "2026-10-28",
   "phase": "Hybrid v11 — Stage A",
-  "sessionName": "Intervals — 3×4 min",
+  "sessionName": "Delts/arms A + bike",
   "why": [
-    "Tuesday is the first interval session of W1. Your report of feeling very recovered supports the full starting dose: 12 minutes of work at 6:50/mi."
+    "Wednesday is delts/arms A followed by cycling. Today’s great recovery supports the full Stage A dose: 7 working sets, then 20 minutes on the bike.",
+    "Stage A remains at 3 RIR until a completed manageable week supports advancing. Wednesday’s restrained effort also leaves room for Thursday Upper B."
   ],
   "intro": [
-    "Logged 4.27 miles in the Vomero Plus. Final effort corrected to 8/10, within the cap; you felt capable of two more reps at 6:50/mi. Completed work remains 3×4 minutes at 6:56, 6:41 and 6:28/mi. Recovery review is pending; the fast reps do not earn progression credit."
+    "Use the same machine/load notation for preacher curls and calves. Match the weaker arm’s load and reps on preacher curls. For Calibrate rows, choose a load that meets the rep range at 3 RIR."
   ],
-  "lift": null,
+  "lift": {
+    "table": [
+      {
+        "slotId": "WE1",
+        "exercise": "DB lateral raise",
+        "setsReps": "2×12–20",
+        "load": "35 lb",
+        "rir": "3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "WE2",
+        "exercise": "Unilateral machine preacher curl",
+        "setsReps": "1×8–12 per arm",
+        "load": "75 lb",
+        "rir": "3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "WE3",
+        "exercise": "Reverse pec deck",
+        "setsReps": "1×12–20",
+        "load": "Calibrate",
+        "rir": "3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "WE4",
+        "exercise": "Rope cable hammer curl",
+        "setsReps": "1×10–15",
+        "load": "Calibrate",
+        "rir": "3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "WE5",
+        "exercise": "Leg-press calf raise",
+        "setsReps": "2×10–15",
+        "load": "365 lb",
+        "rir": "3",
+        "rest": "2 min"
+      }
+    ]
+  },
   "cardio": {
-    "workout": "3×4 minutes at 6:50/mi. Take 3 minutes easy jog/walk between reps only: two recoveries, then go straight from the final rep into the cooldown.",
-    "warmup": "10 minutes easy running, conversational; guide 8:30–9:30/mi or slower. Up to 5 extra minutes if needed; the Watch file contains the planned 10 minutes.",
-    "cooldown": "10 minutes easy jog/walk, conversational; no pace target. This is included in the 38-minute plan.",
+    "workout": "After lifting: 20 minutes easy cycling at RPE 3/10 (2–4 acceptable), with comfortable full-sentence conversation.",
+    "warmup": null,
+    "cooldown": null,
     "targets": {
-      "pace": "6:50/mi for work reps; Watch alerts 6:45–6:55/mi.",
-      "rpe": "Final rep ≤8/10. Slow down if needed to stay within the cap."
+      "rpe": "3/10; acceptable range 2–4."
     },
-    "flags": [
-      "Keep the starting pace and three reps even if fresh. Log each rep’s average pace, final-rep RPE and total distance; report next-day recovery afterward."
-    ],
-    "workoutFile": "runs/2026-10-27.workout",
-    "actual": {
-      "label": "2026-10-27 — reported results",
-      "summary": "4.27 miles confirmed; 38:06 from interval times including 0:06 open. Final-rep RPE corrected to 8/10. Athlete felt capable of two more reps at 6:50/mi; these were not performed. Vomero Plus. Segment distances below are rounded display values.",
-      "table": [
-        {
-          "segment": "Warmup",
-          "time": "10:00",
-          "distance": "1.05 mi",
-          "pace": "9:28/mi"
-        },
-        {
-          "segment": "Work 1",
-          "time": "4:00",
-          "distance": "0.57 mi",
-          "pace": "6:56/mi"
-        },
-        {
-          "segment": "Recovery 1",
-          "time": "3:00",
-          "distance": "0.28 mi",
-          "pace": "10:35/mi"
-        },
-        {
-          "segment": "Work 2",
-          "time": "4:00",
-          "distance": "0.59 mi",
-          "pace": "6:41/mi"
-        },
-        {
-          "segment": "Recovery 2",
-          "time": "3:00",
-          "distance": "0.27 mi",
-          "pace": "10:52/mi"
-        },
-        {
-          "segment": "Work 3",
-          "time": "4:00",
-          "distance": "0.61 mi",
-          "pace": "6:28/mi"
-        },
-        {
-          "segment": "Cooldown",
-          "time": "10:00",
-          "distance": "0.86 mi",
-          "pace": "11:34/mi"
-        },
-        {
-          "segment": "Open",
-          "time": "0:06",
-          "distance": "33 ft",
-          "pace": "16:22/mi"
-        }
-      ]
-    }
+    "workoutFile": null
   },
   "adaptation": [
     {
-      "exercise": "Completed dose",
-      "previous": "October 27: 10-minute warmup, 3×4-minute work, two 3-minute recoveries, 10-minute cooldown and 6 seconds open; 4.27 miles confirmed.",
-      "decision": "Mark Tuesday completed; retain the original prescription for comparison.",
-      "reason": "The prescribed interval/recovery durations were delivered. Completion does not automatically establish a qualifying performance or normal next-day recovery."
+      "exercise": "Recovery and stage",
+      "previous": "October 28: “Great recovery today.” No completed manageable week yet; no new local symptom report.",
+      "decision": "Full Stage A Wednesday: 7 sets at 3 RIR; retain existing local restrictions.",
+      "reason": "Good general readiness supports the planned session. Stage advancement requires a completed manageable week; bodyweight-only ab limits remain in force for scheduled ab days."
     },
     {
-      "exercise": "Pace and effort",
-      "previous": "Target 6:50/mi (6:45–6:55 tolerance), final RPE ≤8. Actual reps: 6:56 / 6:41 / 6:28; final RPE corrected to 8.",
-      "decision": "Effort cap met. No-count candidate; final classification awaits next-day recovery.",
-      "reason": "Reps 2–3 were more than 5 s/mi fast at acceptable effort. This exclusion applies before considering rep 1’s slight slow miss; no effort-cap breach, hit, miss or comfortable credit awarded."
+      "exercise": "WE1 — DB lateral raise",
+      "previous": "Previous block: October 13, 35×12/12/12 at RIR 3/3/3; October 21, 35×12 at RIR 5. First WE1 exposure.",
+      "decision": "Start with 35 lb for 2×12–20 at 3 RIR.",
+      "reason": "The same-lift baseline supports this rep range and reserve. Wednesday actuals and progression remain independent of Monday."
     },
     {
-      "exercise": "Next Tuesday target",
-      "previous": "Corrected final RPE 8, with perceived capacity for two more reps at 6:50/mi. No additional reps were completed.",
-      "decision": "Hold 3×4 at 6:50/mi provisionally; review recovery before the next run.",
-      "reason": "The capacity report supports keeping the starting pace, but does not replace comparable completed work. Fast reps earn no progression credit, and W1/W2 allow no faster target. No pace reduction follows from RPE 8 alone."
+      "exercise": "WE2 — Machine preacher curl",
+      "previous": "October 21: unilateral machine setting 75 lb ×10 at RIR 3. First new-block WE2 exposure.",
+      "decision": "Start with 75 lb for 1×8–12 per arm at 3 RIR.",
+      "reason": "The carried load meets today’s range and effort on the same machine. Use the weaker arm’s load/reps for both; no inherited progression credit."
     },
     {
-      "exercise": "Recovery",
-      "previous": "Pre-run readiness was very good. Current run symptoms and next-day recovery have not been reported.",
-      "decision": "Keep recovery pending and existing local restrictions intact.",
-      "reason": "Do not reuse the pre-run report as post-run evidence or infer pain-free tolerance from completion. No new fatigue/injury diagnosis from effort alone."
+      "exercise": "WE3 / WE4 — Reverse pec deck / rope hammer curl",
+      "previous": "No applicable established load for these exercise/setup combinations.",
+      "decision": "Calibrate one set each: 12–20 and 10–15 reps respectively, at 3 RIR.",
+      "reason": "Unconfirmed machine identity and different curl exercises do not establish a starting load. Actual loads remain unknown until reported."
     },
     {
-      "exercise": "Vomero Plus mileage",
-      "previous": "Archived estimate 340 miles (335–345) through October 16, then 3.76 + 3.52 miles on October 19–20. Today’s 4.27 miles and shoe confirmed.",
-      "decision": "Add today once: approximately 352 tracked miles.",
-      "reason": "Estimate is 351.55 miles, with baseline range about 346.55–356.55. The unconfirmed later 5K/race extras remain excluded; prescribed mileage is never added."
+      "exercise": "WE5 — Leg-press calf raise",
+      "previous": "Sunday October 25, L2: 365×10/10 at RIR 3/3; Achilles felt fine during/after. Great general recovery today; first WE5 exposure.",
+      "decision": "Start with 365 lb for 2×10–15 at 3 RIR on the same setup; recalibrate if the setup differs or the target cannot be met.",
+      "reason": "Sunday’s same-lift result supplies a provisional load reference. It does not become a Wednesday actual or progression credit; retain Achilles history."
+    },
+    {
+      "exercise": "Bike",
+      "previous": "No completed Wednesday bike dose in this block.",
+      "decision": "20 minutes after lifting at RPE 3/10.",
+      "reason": "This is the W1 starting dose and ceiling. Log duration/effort; subsequent lifting/running tolerance governs later duration increases."
+    },
+    {
+      "exercise": "Tuesday run review",
+      "previous": "October 27: 3×4 at 6:56 / 6:41 / 6:28, final RPE 8; great next-day recovery reported October 28.",
+      "decision": "Finalize as no-count; hold normal Tuesday 3×4 at 6:50/mi.",
+      "reason": "The two fast reps at acceptable effort trigger the no-count rule before considering the slightly slow first rep. No progression credit or pace reduction; Friday stays independent."
     }
   ],
   "currentLoads": [
@@ -176,14 +174,14 @@
       "exercise": "WE1 — DB lateral raise",
       "load": "35 lb baseline",
       "lastVerified": "2026-10-21 (previous block)",
-      "note": "Carried from the lighter lateral slot; retain independent progression and review against today’s RIR."
+      "note": "Today’s first WE1 prescription: 35 lb, 2×12–20 at RIR 3, supported by October 13/21 carry-over. Not yet performed in this slot."
     },
     {
       "slotId": "WE2",
       "exercise": "WE2 — Unilateral machine preacher curl",
       "load": "75 lb baseline",
       "lastVerified": "2026-10-21 (previous block)",
-      "note": "Same unilateral machine; 75 setting for each arm, independent new-block progression."
+      "note": "Today’s first WE2 prescription: same unilateral machine setting 75 lb, 1×8–12 per arm at RIR 3. October 21 baseline; not yet performed in this block."
     },
     {
       "slotId": "WE3",
@@ -204,7 +202,7 @@
       "exercise": "WE5 — Leg-press calf raise",
       "load": "Calibrate",
       "lastVerified": "No new-block exposure",
-      "note": "Sunday calves felt fine during/after on October 25; retain Achilles history. This Wednesday slot remains unperformed and needs its own stage-specific calibration; no actual/credit transfer."
+      "note": "Today’s provisional starting load is 365 lb on Sunday’s setup, based on L2 October 25: 10/10 at RIR 3/3, Achilles felt fine. WE5 remains unperformed with no actual or progression credit."
     },
     {
       "slotId": "T1",
@@ -346,6 +344,5 @@
       "lastVerified": "2026-10-25 (reported)",
       "note": "Reported 12 reps at RIR 3; hold during Stage A. Retain the same setup and load notation."
     }
-  ],
-  "status": "done"
+  ]
 }

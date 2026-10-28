@@ -124,3 +124,27 @@ Dashboard: Tuesday done with exact results before original prescription; Monday 
 Apply `program/run-progression.md#classification`: corrected effort meets cap 8; reps 2–3 are >5 s/mi faster than target at acceptable effort, so **no-count** applies before the first rep’s slight slow miss. Final classification stays **pending next-day recovery**, with no-count as the candidate. No hit/miss increment, comfortable tag, last-successful-normal record, or progression award. The hypothetical extra reps do not meet the separate Tuesday comfortable threshold of final RPE ≤6 or establish additional completed minutes.
 
 Hold **3×4 at 6:50/mi** pending recovery; the corrected effort alone does not call for slowing. W1/W2 pace/volume limits and existing injury restrictions remain. Remove stale over-cap/RPE-9 conclusions from active state and dashboard; retain prior reports in append-only history with this explicit correction. No additional shoe mileage.
+
+## 2026-10-28 — recovery review and Wednesday delts/arms A
+
+442. Athlete reports **“Great recovery today. Let’s go. Update dash w today’s workout.”** Date is Wednesday October 28 in America/New_York. Record good next-day general recovery after October 27 intervals and current readiness; preserve unreported local symptoms and all bodyweight-only ab restrictions. Apply `program/run-progression.md#classification`: corrected final RPE 8 is within cap, but reps 2–3 were >5 s/mi fast, so finalize **pending → no-count** before considering the first rep’s slight slow miss. Hold Tuesday **3×4 at 6:50/mi**, zero hit/miss/comfortable credit, last successful normal null; no pace reduction, added mileage or extra completed reps. Friday remains independent and unchanged.
+
+Generate **W1 Wednesday, Stage A — Delts/arms A + bike**, prescription ID `hybrid-2026-10-26-wed-delts-arms-a-442`:
+
+| Slot | Exercise | Sets × reps | Planned load | RIR | Rest |
+|---|---|---|---|---|---|
+| WE1 | DB lateral raise | 2×12–20 | 35 lb | 3 | 2 min |
+| WE2 | Unilateral machine preacher curl | 1×8–12 per arm | 75 lb | 3 | 2 min |
+| WE3 | Reverse pec deck | 1×12–20 | Calibrate | 3 | 2 min |
+| WE4 | Rope cable hammer curl | 1×10–15 | Calibrate | 3 | 2 min |
+| WE5 | Leg-press calf raise | 2×10–15 | 365 lb on Sunday's setup | 3 | 2 min |
+
+**7 working sets**, counting the unilateral preacher set once. Use the weaker arm’s load/reps for both arms. **After lifting: 20 minutes easy cycling at RPE 3/10 (2–4 acceptable), full-sentence conversation.** No outdoor run or Watch export today. No ab slot is scheduled Wednesday; the existing BW-only overrides remain for M6/T7/L1.
+
+Load review under `program/wednesday.md`, `program/lift-progression.md` and `program/ramp-and-return.md`: WE1 inherits 35 from October 13 (3×12 at RIR 3) / October 21 (12 at RIR 5); WE2 inherits the same unilateral machine setting 75 from October 21 (10 at RIR 3). These support today's reps/effort. WE3 and WE4 have no confirmed matching load/setup and require calibration to their ranges at RIR 3; do not import an unconfirmed old rear-delt machine or another curl variant.
+
+WE5 is a first Wednesday exposure: use Sunday's **L2 October 25, 365×10/10 at RIR 3/3**, with Achilles fine during/after, as a provisional same-lift load reference only. Use the same setup and load notation; recalibrate if setup differs or the target cannot be met. Keep WE5's actual load/history/counts uninitialized until reported; no transfer of L2 actuals, anchors or qualification. Today's general recovery is good, but it is not a new site-specific Achilles assessment.
+
+Stage A remains unchanged: a completed manageable week is not yet established, and ramp work earns no ordinary progression credit. Bike 20 minutes is the W1 starting dose/ceiling under `program/endurance.md`; no previous completed Wednesday bike dose is fabricated. Maintain all 33 independent lift slots, existing actuals and local limits. Today's prescription is **not completed**.
+
+Publish both caches for October 28 from the same snapshot: Monday/Tuesday done, Wednesday today, Thursday–Sunday upcoming. Running mileage stays **4.27 actual + Friday planned upper bound = 10.136310160427808 miles**, unrounded <15; cycling adds no running/shoe miles. Original Tuesday prescription/Watch files and append-only actuals remain intact.

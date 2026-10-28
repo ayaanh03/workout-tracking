@@ -109,13 +109,13 @@
   "observation": null,
   "reduced_snapshot": null,
   "general_readiness": {
-    "reported_on": "2026-10-27",
+    "reported_on": "2026-10-28",
     "status": "good",
-    "report": "I’m over-recovered",
+    "report": "Great recovery today.",
     "provenance": "athlete report",
-    "decision_id": 439,
-    "numeric_metrics": null,
-    "scope": "Reports feeling very recovered before the first Tuesday interval session, on the day after Monday Upper A. General readiness only; no new site-specific symptom assessment or clearance of persistent ab limits."
+    "decision_id": 442,
+    "scope": "Good next-day general recovery after October 27 intervals and readiness for Wednesday. No new site-specific symptom assessment or clearance of persistent ab limits.",
+    "numeric_metrics": null
   },
   "resolved_gates": [
     {
@@ -133,10 +133,17 @@
     "completion": "reported",
     "lower_ab_response": null,
     "achilles_response": null,
-    "next_day_recovery": null,
+    "next_day_recovery": {
+      "reported_on": "2026-10-28",
+      "status": "good",
+      "report": "Great recovery today.",
+      "provenance": "athlete report",
+      "decision_id": 442,
+      "scope": "Next-day general recovery after October 27 intervals; no new site-specific symptom assessment."
+    },
     "followup_requested_on": "2026-10-27",
-    "status": "next-day-recovery-pending",
-    "decision_id": 441,
-    "note": "Final run effort corrected from 9 to 8/10, within cap. Athlete felt capable of two further reps at 6:50; this is perceived capacity, not completed work or a next-day recovery report. Symptoms/next-day recovery remain unknown."
+    "status": "next-day-general-recovery-reported-good",
+    "decision_id": 442,
+    "note": "October 28: athlete reports great recovery. General next-day recovery answered; run-specific lower-ab/Achilles responses were not supplied. Final RPE 8 and perceived extra capacity remain unchanged; existing local restrictions persist."
   }
 }

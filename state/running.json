@@ -93,7 +93,14 @@
       "surface": null,
       "recovery_mode": null,
       "extra_rest_reported": null,
-      "next_day_recovery": null,
+      "next_day_recovery": {
+        "reported_on": "2026-10-28",
+        "status": "good",
+        "report": "Great recovery today.",
+        "provenance": "athlete report",
+        "decision_id": 442,
+        "scope": "Next-day general recovery after October 27 intervals; no new site-specific symptom assessment."
+      },
       "effort_correction": {
         "reported_on": "2026-10-27",
         "previous_rpe": 9,
@@ -110,35 +117,43 @@
         "decision_id": 441
       }
     },
-    "classification": "pending",
+    "classification": "no-count",
     "hits": 0,
     "misses": 0,
     "comfortable_pair": [],
-    "next_day_recovery": null,
+    "next_day_recovery": {
+      "reported_on": "2026-10-28",
+      "status": "good",
+      "report": "Great recovery today.",
+      "provenance": "athlete report",
+      "decision_id": 442,
+      "scope": "Next-day general recovery after October 27 intervals; no new site-specific symptom assessment."
+    },
     "poor_recovery_pattern": [],
     "return": null,
     "pending_validation": null,
     "carried_adjustment": null,
     "classification_review": {
-      "decision_id": 441,
-      "status": "pending-next-day-recovery",
+      "decision_id": 442,
+      "status": "classified",
       "pace_offsets_seconds_per_mile": [
         6,
         -9,
         -22
       ],
       "effort_cap_exceeded": false,
-      "candidate_if_normally_recovered_and_comparable": "no-count",
-      "reason": "Corrected final RPE 8 meets cap 8. Reps 2 and 3 were more than 5 s/mi fast at acceptable effort, so the no-count exclusion applies before the first rep’s slight slow miss. Await next-day recovery before final classification; no effort miss or progression credit.",
-      "followup_requested_on": "2026-10-27"
+      "reason": "Great next-day general recovery reported October 28. Final RPE 8 meets cap; reps 2 and 3 were more than 5 s/mi fast at acceptable effort. The no-count exclusion applies before the first rep’s slight slow miss. No hit, miss, comfortable credit or successful-normal record awarded.",
+      "followup_requested_on": "2026-10-27",
+      "classified_on": "2026-10-28",
+      "classification": "no-count"
     },
     "next_action": {
-      "decision_id": 441,
-      "action": "hold-normal-prescription-pending-recovery",
+      "decision_id": 442,
+      "action": "hold-normal-prescription",
       "pace_seconds_per_mile": 410,
       "work_minutes": 12,
       "format": "3x4",
-      "reason": "Final effort is within cap and athlete reports capacity for two more reps at 6:50, but those reps were not performed. Hold normal 3×4 at 6:50 pending recovery: fast-rep no-count earns no progression and W1/W2 allow no faster target. No pace reduction is indicated by the corrected effort alone."
+      "reason": "Next-day general recovery is good. Fast-rep no-count earns no progression: hold 3×4 at 6:50/mi, also the W1/W2 ceiling. No slowdown follows from RPE 8 alone. Recheck readiness when prescribing the next run."
     }
   },
   "friday": {

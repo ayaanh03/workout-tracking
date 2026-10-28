@@ -30,3 +30,9 @@ Shoe mileage: today's confirmed 4.27 miles added once in `state/shoes.json`. Est
 Athlete: **“Honestly it was rpe 8 I went so fast that I could’ve just gone 6:50 for 2 more reps.”** Supersedes the earlier **RPE 9** report and its effort-cap breach/conditional-miss assessment: current final-rep effort is **8/10**, within the prescribed cap. Record perceived capacity for two more reps at 6:50/mi as subjective context only. Completed work remains **three 4-minute reps**, distance **4.27 miles**; all screenshot segments are unchanged.
 
 With acceptable effort, reps 2–3 being >5 s/mi fast trigger the program’s **no-count exclusion before pace misses**. Final classification remains pending next-day recovery, with **no-count** replacing the earlier eligible-miss candidate. No hit/miss/comfortable credit or successful-normal record is created. Hold the current 3×4 at 6:50 provisionally, with no slowdown required by RPE 8 alone; hypothetical extra reps do not earn more minutes or faster pace. This is not a new workout and adds no shoe mileage.
+
+### 2026-10-28 — next-day recovery and classification (#442)
+
+Athlete: **“Great recovery today.”** General next-day recovery is good; no new run-specific lower-ab/Achilles response supplied. Finalize October 27 as **no-count** under `program/run-progression.md#classification`: final RPE 8 meets the cap, while reps 2–3 are more than 5 s/mi fast. That exclusion applies before rep 1’s slight slow miss. This supersedes the preceding pending-recovery classification; all actual durations, paces, distance and effort remain unchanged.
+
+Hold normal Tuesday **3×4 at 6:50/mi**, hits/misses zero, no comfortable pair or last-successful-normal award. No additional performed reps or shoe mileage. Friday’s independent prescription/state remains unchanged. Good general recovery supports today’s scheduled Wednesday lifting/bike dose; no new injury clearance or completed manageable week is inferred.

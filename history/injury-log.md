@@ -41,3 +41,7 @@ Athlete confirms final-rep effort **9/10** for the completed 4.27-mile interval 
 ## 2026-10-27 — corrected run effort
 
 Athlete revises final-rep effort to **8/10**, within cap, and reports perceived capacity for two further reps at 6:50/mi. This supersedes the preceding RPE-9 entry; it adds no completed work or new symptom/recovery assessment. It remains the same local evening, so next-day recovery is still unknown. Existing ab/Achilles restrictions are unchanged (decision #441).
+
+## 2026-10-28 — great next-day recovery
+
+Athlete: **“Great recovery today. Let’s go. Update dash w today’s workout.”** Record good general next-day recovery after Tuesday intervals and readiness for Wednesday. This resolves the pending general recovery report from #441. Numeric metrics and new site-specific symptoms were not supplied: lower-ab tolerance remains explicitly reported October 26, Achilles tolerance October 25. Keep the bodyweight-only ab instruction, two-set ceiling and minimum 3 RIR; no full injury clearance or new fatigue flag. Prescribe the full Stage A Wednesday session and W1 bike dose (decision #442).

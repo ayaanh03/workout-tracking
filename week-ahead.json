@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-27T22:25:07-04:00",
+  "generatedAt": "2026-10-28T10:32:37-04:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W1",
   "phase": "Hybrid v11 — Stage A",
   "rangeStart": "2026-10-26",
   "rangeEnd": "2026-11-01",
-  "summary": "W1, October 26–November 1: Monday Upper A and Tuesday’s 4.27-mile interval run are logged. Tuesday final RPE corrected to 8, within cap; athlete felt capable of two more reps at 6:50. Fast reps give a no-count candidate, with next-day recovery still pending. Stage A and bodyweight-only abs remain.",
+  "summary": "W1, October 26–November 1: Monday and Tuesday completed. Great recovery reported today, Wednesday October 28. Today: 7 Stage A delts/arms/calf sets, then 20 min easy bike. Tuesday classified no-count for fast reps; run targets unchanged. Bodyweight-only ab limits remain.",
   "days": [
     {
       "date": "2026-10-26",
@@ -19,15 +19,15 @@
       "date": "2026-10-27",
       "day": "Tue",
       "session": "Intervals",
-      "note": "Completed 3×4 min at 6:56 / 6:41 / 6:28, two 3-min recoveries; 4.27 mi in Vomero Plus. Final RPE corrected to 8; felt capable of two more 6:50 reps. Next-day recovery pending.",
+      "note": "Completed 3×4 min at 6:56 / 6:41 / 6:28, final RPE 8; 4.27 mi in Vomero Plus. Great next-day recovery reported October 28. No-count for fast reps; no progression credit.",
       "status": "done"
     },
     {
       "date": "2026-10-28",
       "day": "Wed",
       "session": "Delts/arms A + bike",
-      "note": "7 sets, then 20 min easy bike; calf loads follow actual tolerance.",
-      "status": "upcoming"
+      "note": "7 sets at 3 RIR: lateral 35 lb, unilateral preacher 75 lb, pec deck/rope hammer calibrate, leg-press calf 365 lb on Sunday’s setup. Then 20 min bike at RPE 3.",
+      "status": "today"
     },
     {
       "date": "2026-10-29",
@@ -59,7 +59,7 @@
     }
   ],
   "runningMileageCheck": {
-    "decisionId": 440,
+    "decisionId": 442,
     "kind": "recorded-plus-planned-upper-bound",
     "recordedMiles": 4.27,
     "upperMiles": 10.136310160427808,
