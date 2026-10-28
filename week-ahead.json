@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-27T20:18:37-04:00",
+  "generatedAt": "2026-10-27T22:25:07-04:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W1",
   "phase": "Hybrid v11 — Stage A",
   "rangeStart": "2026-10-26",
   "rangeEnd": "2026-11-01",
-  "summary": "W1, October 26–November 1: Monday Upper A and Tuesday’s 4.27-mile interval run are logged. Tuesday final RPE 9 exceeded the cap; classification awaits next-day recovery, with no progression awarded. Stage A and bodyweight-only abs remain. Future sessions depend on current recovery.",
+  "summary": "W1, October 26–November 1: Monday Upper A and Tuesday’s 4.27-mile interval run are logged. Tuesday final RPE corrected to 8, within cap; athlete felt capable of two more reps at 6:50. Fast reps give a no-count candidate, with next-day recovery still pending. Stage A and bodyweight-only abs remain.",
   "days": [
     {
       "date": "2026-10-26",
@@ -19,7 +19,7 @@
       "date": "2026-10-27",
       "day": "Tue",
       "session": "Intervals",
-      "note": "Completed 3×4 min at 6:56 / 6:41 / 6:28, two 3-min recoveries; 4.27 mi in Vomero Plus. Final RPE 9; next-day recovery/classification pending.",
+      "note": "Completed 3×4 min at 6:56 / 6:41 / 6:28, two 3-min recoveries; 4.27 mi in Vomero Plus. Final RPE corrected to 8; felt capable of two more 6:50 reps. Next-day recovery pending.",
       "status": "done"
     },
     {

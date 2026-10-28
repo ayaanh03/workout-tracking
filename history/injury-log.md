@@ -37,3 +37,7 @@ Athlete: **“I’m over-recovered.”** Record feeling very recovered/current g
 ## 2026-10-27 — run completed; recovery pending
 
 Athlete confirms final-rep effort **9/10** for the completed 4.27-mile interval session. No new symptom or next-day recovery report supplied; it is still the evening of October 27 locally. Keep those observations unknown and retain prior dated ab/Achilles reports plus bodyweight-only ab limits. Earlier “over-recovered” describes pre-run readiness, not post-run response. Classification waits for next-day recovery; high effort alone does not diagnose fatigue/injury (decision #440).
+
+## 2026-10-27 — corrected run effort
+
+Athlete revises final-rep effort to **8/10**, within cap, and reports perceived capacity for two further reps at 6:50/mi. This supersedes the preceding RPE-9 entry; it adds no completed work or new symptom/recovery assessment. It remains the same local evening, so next-day recovery is still unknown. Existing ab/Achilles restrictions are unchanged (decision #441).

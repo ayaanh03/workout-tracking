@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T20:18:37-04:00",
+  "generatedAt": "2026-10-27T22:25:07-04:00",
   "blockId": "hybrid-2026-10-26",
   "prescriptionId": "hybrid-2026-10-26-tue-intervals-439",
   "preview": false,
@@ -12,7 +12,7 @@
     "Tuesday is the first interval session of W1. Your report of feeling very recovered supports the full starting dose: 12 minutes of work at 6:50/mi."
   ],
   "intro": [
-    "Logged 4.27 miles in the Vomero Plus. All 3×4-minute reps and two 3-minute recoveries were completed; paces were 6:56, 6:41 and 6:28/mi. Final effort 9/10 exceeded the 8/10 cap. Classification awaits next-day recovery; no progression awarded."
+    "Logged 4.27 miles in the Vomero Plus. Final effort corrected to 8/10, within the cap; you felt capable of two more reps at 6:50/mi. Completed work remains 3×4 minutes at 6:56, 6:41 and 6:28/mi. Recovery review is pending; the fast reps do not earn progression credit."
   ],
   "lift": null,
   "cardio": {
@@ -29,7 +29,7 @@
     "workoutFile": "runs/2026-10-27.workout",
     "actual": {
       "label": "2026-10-27 — reported results",
-      "summary": "4.27 miles confirmed; 38:06 from interval times including 0:06 open. Final-rep RPE 9/10. Vomero Plus. Segment distances below are rounded display values.",
+      "summary": "4.27 miles confirmed; 38:06 from interval times including 0:06 open. Final-rep RPE corrected to 8/10. Athlete felt capable of two more reps at 6:50/mi; these were not performed. Vomero Plus. Segment distances below are rounded display values.",
       "table": [
         {
           "segment": "Warmup",
@@ -91,15 +91,15 @@
     },
     {
       "exercise": "Pace and effort",
-      "previous": "Target 6:50/mi (6:45–6:55 tolerance), final RPE ≤8. Actual reps: 6:56 / 6:41 / 6:28; final RPE 9.",
-      "decision": "No progression; final classification pending next-day recovery.",
-      "reason": "Final effort exceeded the cap. With normal recovery/comparable conditions this is an eligible miss, not a hit or comfortable exposure; poor recovery or other exclusions take precedence. No miss is counted before recovery is known."
+      "previous": "Target 6:50/mi (6:45–6:55 tolerance), final RPE ≤8. Actual reps: 6:56 / 6:41 / 6:28; final RPE corrected to 8.",
+      "decision": "Effort cap met. No-count candidate; final classification awaits next-day recovery.",
+      "reason": "Reps 2–3 were more than 5 s/mi fast at acceptable effort. This exclusion applies before considering rep 1’s slight slow miss; no effort-cap breach, hit, miss or comfortable credit awarded."
     },
     {
       "exercise": "Next Tuesday target",
-      "previous": "No successful normal Tuesday established. The final rep was 22 s/mi faster than target at RPE 9.",
+      "previous": "Corrected final RPE 8, with perceived capacity for two more reps at 6:50/mi. No additional reps were completed.",
       "decision": "Hold 3×4 at 6:50/mi provisionally; review recovery before the next run.",
-      "reason": "The overspeed finish does not show that controlled 6:50 is unsuitable. Keep reps near the target, without a fast finish; slow if needed to keep final effort ≤8. W1/W2 earn no faster target."
+      "reason": "The capacity report supports keeping the starting pace, but does not replace comparable completed work. Fast reps earn no progression credit, and W1/W2 allow no faster target. No pace reduction follows from RPE 8 alone."
     },
     {
       "exercise": "Recovery",

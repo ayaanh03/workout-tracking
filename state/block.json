@@ -23,7 +23,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 440,
+  "last_adjustment_id": 441,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -60,7 +60,8 @@
       "distance_miles": 4.27,
       "actual_ref": "../history/cardio-log.md#2026-10-27--hybrid-v11-w1-tuesday-intervals",
       "classification": "pending",
-      "recovery_status": "next-day-recovery-pending"
+      "recovery_status": "next-day-recovery-pending",
+      "review_note": "Final RPE corrected to 8 (within cap); perceived capacity for two further 6:50 reps recorded, not performed. Fast-rep no-count candidate; next-day recovery pending."
     }
   },
   "planned_start_date": "2026-10-26",

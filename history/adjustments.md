@@ -116,3 +116,11 @@ Hold normal Tuesday **3×4 at 6:50/mi** provisionally. The 6:28 closer at RPE 9 
 Restore only the small relevant shoe handoff: archived #422 baseline **340 miles, range 335–345 through October 16**, plus logged October 19 **3.76**, October 20 **3.52**, and today's confirmed **4.27** gives **351.55 miles (346.55–356.55 baseline range)**. Preserve legacy attribution/estimate caveats. The 21:30 5K's event date/shoe and extra race running remain unconfirmed and excluded; no double counting or planned miles. `state/shoes.json` keys additions by session ID.
 
 Dashboard: Tuesday done with exact results before original prescription; Monday stays done and Wednesday onward upcoming. Complete-week running upper estimate becomes **10.136310160427808 miles** (Tuesday actual 4.27 + Friday's full maximum warmup/cooldown, recoveries and fast work tolerance), below 15. This includes all reported Tuesday distance conservatively; Friday remains unperformed.
+
+## 2026-10-27 — final-effort correction
+
+441. Athlete corrects Tuesday final-rep effort **9 → 8/10**, saying they could have completed **two more reps at 6:50/mi**. Update current actual effort and retain the exact report as perceived capacity, not performed work. Supersede #440’s effort-cap breach and conditional eligible-miss interpretation. Preserve all actual paces/durations/distance, original prescription, shoe accounting, completion and calendar.
+
+Apply `program/run-progression.md#classification`: corrected effort meets cap 8; reps 2–3 are >5 s/mi faster than target at acceptable effort, so **no-count** applies before the first rep’s slight slow miss. Final classification stays **pending next-day recovery**, with no-count as the candidate. No hit/miss increment, comfortable tag, last-successful-normal record, or progression award. The hypothetical extra reps do not meet the separate Tuesday comfortable threshold of final RPE ≤6 or establish additional completed minutes.
+
+Hold **3×4 at 6:50/mi** pending recovery; the corrected effort alone does not call for slowing. W1/W2 pace/volume limits and existing injury restrictions remain. Remove stale over-cap/RPE-9 conclusions from active state and dashboard; retain prior reports in append-only history with this explicit correction. No additional shoe mileage.

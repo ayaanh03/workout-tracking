@@ -26,7 +26,7 @@
         180,
         180
       ],
-      "final_rep_rpe": 9,
+      "final_rep_rpe": 8,
       "distance_miles": 4.27,
       "shoe": "Vomero Plus",
       "duration_seconds_from_segments": 2286,
@@ -93,7 +93,22 @@
       "surface": null,
       "recovery_mode": null,
       "extra_rest_reported": null,
-      "next_day_recovery": null
+      "next_day_recovery": null,
+      "effort_correction": {
+        "reported_on": "2026-10-27",
+        "previous_rpe": 9,
+        "corrected_rpe": 8,
+        "decision_id": 441,
+        "athlete_report": "Honestly it was rpe 8 I went so fast that I could’ve just gone 6:50 for 2 more reps.",
+        "scope": "Corrected final effort; two further reps are perceived capacity, not completed work."
+      },
+      "capacity_report": {
+        "additional_reps_perceived": 2,
+        "pace_seconds_per_mile": 410,
+        "performed": false,
+        "source": "athlete self-report",
+        "decision_id": 441
+      }
     },
     "classification": "pending",
     "hits": 0,
@@ -105,25 +120,25 @@
     "pending_validation": null,
     "carried_adjustment": null,
     "classification_review": {
-      "decision_id": 440,
+      "decision_id": 441,
       "status": "pending-next-day-recovery",
       "pace_offsets_seconds_per_mile": [
         6,
         -9,
         -22
       ],
-      "effort_cap_exceeded": true,
-      "candidate_if_normally_recovered_and_comparable": "miss",
-      "reason": "Final RPE 9 exceeds cap 8; rep 1 is 1 s/mi beyond the slow tolerance edge. The fast-rep no-count rule requires acceptable effort, so it cannot apply here. Poor recovery/other exclusions take precedence.",
+      "effort_cap_exceeded": false,
+      "candidate_if_normally_recovered_and_comparable": "no-count",
+      "reason": "Corrected final RPE 8 meets cap 8. Reps 2 and 3 were more than 5 s/mi fast at acceptable effort, so the no-count exclusion applies before the first rep’s slight slow miss. Await next-day recovery before final classification; no effort miss or progression credit.",
       "followup_requested_on": "2026-10-27"
     },
     "next_action": {
-      "decision_id": 440,
+      "decision_id": 441,
       "action": "hold-normal-prescription-pending-recovery",
       "pace_seconds_per_mile": 410,
       "work_minutes": 12,
       "format": "3x4",
-      "reason": "No earned progression. The 6:28 final rep at RPE 9 does not establish 6:50 as unsuitable; repeat controlled pacing if recovered. Slow or reduce if effort/recovery requires, and apply final classification before generating the next run."
+      "reason": "Final effort is within cap and athlete reports capacity for two more reps at 6:50, but those reps were not performed. Hold normal 3×4 at 6:50 pending recovery: fast-rep no-count earns no progression and W1/W2 allow no faster target. No pace reduction is indicated by the corrected effort alone."
     }
   },
   "friday": {
