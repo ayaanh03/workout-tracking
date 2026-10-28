@@ -23,7 +23,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 439,
+  "last_adjustment_id": 440,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -51,6 +51,16 @@
       "actual_ref": "../history/lifting-log.md#2026-10-26--hybrid-v11-w1-monday-upper-a",
       "recovery_status": "next-day-general-recovery-reported-good",
       "review_note": "M5 effort calibration required. M7 confirmed accidental 70 lb loading; actual unchanged. Abs felt fine during/after; no stage advancement."
+    },
+    "2026-10-27": {
+      "calendar_week": "W1",
+      "session": "Tuesday intervals",
+      "status": "completed",
+      "work_minutes": 12,
+      "distance_miles": 4.27,
+      "actual_ref": "../history/cardio-log.md#2026-10-27--hybrid-v11-w1-tuesday-intervals",
+      "classification": "pending",
+      "recovery_status": "next-day-recovery-pending"
     }
   },
   "planned_start_date": "2026-10-26",

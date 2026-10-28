@@ -443,6 +443,26 @@ const render = d => {
   if (d.cardio) {
     const c = $('section', { class: 'card' });
     c.appendChild($('h2', null, 'Cardio'));
+    const actual = d.cardio.actual;
+    if (actual && actual.table && actual.table.length) {
+      c.appendChild($('div', { class: 'label' }, 'Logged results' + (actual.label ? ' — ' + actual.label : '')));
+      if (actual.summary) c.appendChild($('p', null, actual.summary));
+      const wrap = $('div', { class: 'table-wrap' });
+      const tbl = $('table', { class: 'cardio-actuals' });
+      const head = $('tr');
+      ['Segment', 'Time', 'Distance', 'Pace'].forEach(t => head.appendChild($('th', null, t)));
+      tbl.appendChild($('thead', null, head));
+      const body = $('tbody');
+      for (const row of actual.table) {
+        const tr = $('tr');
+        ['segment', 'time', 'distance', 'pace'].forEach(k => tr.appendChild($('td', null, row[k] ?? 'n/r')));
+        body.appendChild(tr);
+      }
+      tbl.appendChild(body);
+      wrap.appendChild(tbl);
+      c.appendChild(wrap);
+      c.appendChild($('div', { class: 'label' }, 'Original prescription'));
+    }
     if (d.cardio.flags && d.cardio.flags.length) {
       c.appendChild($('div', { class: 'label' }, 'Flags'));
       const ul = $('ul');

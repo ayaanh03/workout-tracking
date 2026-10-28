@@ -18,7 +18,8 @@
 | `lift.table` | Rows `{exercise, setsReps, load, rir, rest}`; all strings. Optional `slotId` for identity |
 | `lift.actual` | Optional `{label, table}` for this dated session's reported results; rows `{exercise, load, reps, rir}` as strings, optional `slotId`. Separate set values with `/` in their reported order |
 | `lift.lastWeek` | Optional `{label, table}` with dated same-slot actual rows `{exercise, load, reps, rir}` |
-| `cardio` | `null` or `{workout, warmup, cooldown, flags?, targets?, workoutFile}` |
+| `cardio` | `null` or `{workout, warmup, cooldown, flags?, targets?, workoutFile, actual?}` |
+| `cardio.actual` | Optional `{label, summary?, table}` for this dated session's reported results; rows `{segment, time, distance, pace}` as strings. Preserve reported segment order and mark missing values `n/r` |
 | `cardio.targets` | Optional `{pace, rpe}` strings; no mandatory HR/cadence/power targets |
 | `adaptation` | Rows `{exercise, previous, decision, reason}`: dated actual evidence, hold/increase/reduce/omit/calibrate decision, and applicable rule |
 | `currentLoads` | Rows `{exercise, load, lastVerified, note}`, optional `slotId`; one per independent active slot |
@@ -26,6 +27,8 @@
 Use `setsReps: "2×8–12"` with an integer set-count prefix. Include only effective work, preserve separate incline top-set/back-off rows, and show unknown loads as `Calibrate`. Omitted abs are absent from the workout table; their restriction remains in state and the adaptation check. A literal zero RIR is `"0"`. Historical references do not become comparable new-block actuals; omit `lastWeek` until relevant actuals exist. If no work is prescribed, both modalities are `null`, with the reason shown.
 
 After logging, retain the dated original prescription in `lift.table` and add reported actuals under `lift.actual`; never replace calibration targets with completed weights retroactively. The dashboard shows Logged results before Original prescription. Set `status: "done"` only for reported completion and keep this session's date. Today's actuals are not `lastWeek` evidence for the same workout. Missing actual values remain `n/r`; completion alone does not clear recovery or progression gates.
+
+For completed cardio, add `cardio.actual` without overwriting `workout`, `warmup`, `cooldown`, `targets` or the prescribed Watch file. Logged results appear before Original prescription. Use `summary` to distinguish confirmed totals from estimates and pending effort/recovery; rounded segment distances do not establish an exact session total.
 
 In `currentLoads`, label inherited unvalidated weights as `160 lb baseline` (for example), retaining the historical verification date and source. `lift.table.load` must contain the effective weight selected for that workout after rep/RIR review, not an unreviewed baseline. The adaptation check explains carry-over and any adjustment; neither establishes a new-block actual.
 

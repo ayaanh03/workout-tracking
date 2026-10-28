@@ -33,3 +33,7 @@ Asked how lower abs felt during/after Monday’s bodyweight crunches; athlete: *
 ## 2026-10-27 — strong general recovery
 
 Athlete: **“I’m over-recovered.”** Record feeling very recovered/current general readiness as good, including the next-day general recovery report after Monday Upper A. No numeric metrics or new site-specific symptom assessment supplied. Preserve Monday’s explicitly tolerated bodyweight abs and Sunday’s tolerated Achilles exposure without inventing full injury resolution. Existing bodyweight-only ab limits remain. Use the planned starting Tuesday run dose (decision #439).
+
+## 2026-10-27 — run completed; recovery pending
+
+Athlete confirms final-rep effort **9/10** for the completed 4.27-mile interval session. No new symptom or next-day recovery report supplied; it is still the evening of October 27 locally. Keep those observations unknown and retain prior dated ab/Achilles reports plus bodyweight-only ab limits. Earlier “over-recovered” describes pre-run readiness, not post-run response. Classification waits for next-day recovery; high effort alone does not diagnose fatigue/injury (decision #440).

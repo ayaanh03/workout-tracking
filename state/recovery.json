@@ -128,20 +128,15 @@
     }
   ],
   "post_session": {
-    "date": "2026-10-26",
-    "session_id": "hybrid-2026-10-26-w1-mon-2026-10-26",
+    "date": "2026-10-27",
+    "session_id": "hybrid-2026-10-26-w1-tue-2026-10-27",
     "completion": "reported",
-    "lower_ab_response": "Felt fine during and after.",
-    "next_day_recovery": {
-      "reported_on": "2026-10-27",
-      "status": "good",
-      "report": "I’m over-recovered",
-      "scope": "General next-day recovery after Monday; numeric metrics and a new site-specific symptom assessment not supplied.",
-      "decision_id": 439
-    },
-    "followup_requested_on": "2026-10-26",
-    "status": "next-day-general-recovery-reported-good",
-    "decision_id": 439,
-    "response_reported_on": "2026-10-26"
+    "lower_ab_response": null,
+    "achilles_response": null,
+    "next_day_recovery": null,
+    "followup_requested_on": "2026-10-27",
+    "status": "next-day-recovery-pending",
+    "decision_id": 440,
+    "note": "Final run effort reported 9/10; symptoms and next-day recovery not yet reported. Pre-run “over-recovered” report is not post-run evidence."
   }
 }

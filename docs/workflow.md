@@ -17,6 +17,7 @@ Start with `program.md`, `state/block.json` and `state/recovery.json`. Lifting n
 ## Record actuals and decisions
 
 - Lift: load/reps/RIR per set and slot. Run: each rep's average pace, final RPE, reported distance and next-day recovery. Bike: minutes/effort. Symptoms: reported observations only. Ask once for decision-critical missing values; otherwise `n/r` in prose or null in JSON. HR/cadence and technique narration are not required.
+- When a run’s shoe and distance are confirmed, add it to `state/shoes.json` once by session ID. Preserve estimated baselines and unresolved mileage; never add a planned run or an unconfirmed race twice.
 - Append dated `Hybrid v11 Wn` actuals to the relevant history stream (`Hybrid v11 Opening` for October 25). Store the effective prescription alongside actuals or reference its durable dated ledger entry; an overwritten cache must not erase what was prescribed. Record every heavy single exposure.
 - Append numbered carried decisions to `history/adjustments.md`: source actuals, rule file/heading, previous → next dose/load, and pending gates. A hold cites the unmet gate. IDs increase after #429.
 - Update relevant slot/run state and current-week outcomes. Completion can coexist with pending classification. Dashboard ranges/placeholders are not actual values; exact athlete-confirmed completions are acceptable.

@@ -7,6 +7,7 @@ Block `hybrid-2026-10-26`, program v11.0: **activated October 25, 2026**, ending
 | [block.json](state/block.json) | Adoption, calendar, stage, manageable-week evidence, assessment choices, current-week outcomes |
 | [lifting.json](state/lifting.json) | 33 independent loads, comparable actuals, qualification, dose changes, forearms, return limits |
 | [running.json](state/running.json) | Independent Tue/Fri targets, actuals, recovery/counters, return paths, carried adjustments, cycling |
+| [shoes.json](state/shoes.json) | Current shoe mileage estimate, dated additions and unresolved mileage |
 | [recovery.json](state/recovery.json) | Symptoms, omissions, pending gates, fatigue/observation and reduced-dose state |
 | [baseline.md](state/baseline.md) | Tiny handoff: dated evidence and authorized working-weight carry-over |
 

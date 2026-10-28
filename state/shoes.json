@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-27",
+  "active_shoe": "Vomero Plus",
+  "purchased_on": "2026-05-03",
+  "estimated_miles": 351.55,
+  "estimated_range_miles": [
+    346.55,
+    356.55
+  ],
+  "review_mileage": 450,
+  "baseline": {
+    "through": "2026-10-16",
+    "estimated_miles": 340,
+    "range_miles": [
+      335,
+      345
+    ],
+    "source": "../archive/pre-hybrid-2026-10-24/history/adjustments.md, #422",
+    "basis": "Athlete-directed rebaseline of all logged running since purchase; includes estimated missing distances. Preserve this estimate rather than reassigning older runs."
+  },
+  "additions": [
+    {
+      "id": "legacy-2026-10-19",
+      "date": "2026-10-19",
+      "miles": 3.76,
+      "source": "../archive/pre-hybrid-2026-10-24/history/cardio-log.md",
+      "shoe_basis": "Legacy sole-trainer attribution, not separately reconfirmed."
+    },
+    {
+      "id": "legacy-2026-10-20",
+      "date": "2026-10-20",
+      "miles": 3.52,
+      "source": "../archive/pre-hybrid-2026-10-24/history/cardio-log.md",
+      "shoe_basis": "Legacy sole-trainer attribution, not separately reconfirmed."
+    },
+    {
+      "id": "hybrid-2026-10-26-w1-tue-2026-10-27",
+      "date": "2026-10-27",
+      "miles": 4.27,
+      "source": "../history/cardio-log.md#2026-10-27--hybrid-v11-w1-tuesday-intervals",
+      "shoe_basis": "Athlete explicitly confirmed Vomero Plus and total distance."
+    }
+  ],
+  "unresolved": "Reported 21:30 5K event date/shoe and any extra warmup/cooldown are unconfirmed; do not add until shown to be outside the baseline and attributed to this pair. Unlogged mileage excluded.",
+  "note": "Approximate tracked total, not an exact odometer. Add confirmed sessions once by ID; never add prescribed mileage."
+}
