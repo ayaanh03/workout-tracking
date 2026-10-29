@@ -49,3 +49,7 @@ Athlete: **“Great recovery today. Let’s go. Update dash w today’s workout.
 ## 2026-10-28 — Wednesday calf and bike exposure; response pending
 
 Athlete reports WE5 leg-press calves **365×11/11 at RIR 3/3** and **20:05 cycling**. No during/after Achilles response or next-day recovery was included. Asked once for current calf/bike Achilles response and recovery if already the next day. Keep the new response unknown; preserve October 25’s explicit tolerated Achilles exposure separately. The morning’s “Great recovery” is readiness before this session, not its post-session/next-day response. No ab work or new ab report; existing bodyweight-only/two-set/minimum-3-RIR restriction remains unchanged (decision #443).
+
+## 2026-10-28 — tentative calf/bike recovery follow-up
+
+Asked about Achilles during/after calves and bike, and next-day recovery if applicable. Athlete: **“Should be fine.”** Record the exact answer as a tentative expectation, not a confirmed observed symptom-free response or next-day recovery. It is still October 28 locally. Keep actual local tolerance and next-day recovery pending, without inferring poor recovery or changing restrictions; no repeat symptom question now (decision #444).

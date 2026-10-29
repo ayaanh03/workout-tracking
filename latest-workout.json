@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T20:32:44-04:00",
+  "generatedAt": "2026-10-28T21:16:24-04:00",
   "blockId": "hybrid-2026-10-26",
   "prescriptionId": "hybrid-2026-10-26-wed-delts-arms-a-442",
   "preview": false,
@@ -13,7 +13,7 @@
     "Stage A remains at 3 RIR until a completed manageable week supports advancing. Wednesday’s restrained effort also leaves room for Thursday Upper B."
   ],
   "intro": [
-    "Logged six lifting sets at RIR 3 plus 20:05 cycling at 130 W average. Reverse pec deck is n/r; whether skipped or performed without recorded results is pending. Bike effort displays 4/10."
+    "All 7 lifting sets logged at RIR 3, including reverse pec deck 145 lb ×12. Bike: 20:05 at 130 W average, displayed effort 4/10."
   ],
   "lift": {
     "table": [
@@ -59,7 +59,7 @@
       }
     ],
     "actual": {
-      "label": "2026-10-28 — reported results; reverse pec deck unresolved",
+      "label": "2026-10-28 — reported results",
       "table": [
         {
           "slotId": "WE1",
@@ -78,9 +78,9 @@
         {
           "slotId": "WE3",
           "exercise": "Reverse pec deck",
-          "load": "n/r",
-          "reps": "n/r",
-          "rir": "n/r"
+          "load": "145 lb",
+          "reps": "12",
+          "rir": "3"
         },
         {
           "slotId": "WE4",
@@ -123,15 +123,15 @@
   "adaptation": [
     {
       "exercise": "Reported lifting",
-      "previous": "October 28: lateral 35×15/12, unilateral preacher 75×8, rope hammer 50×11, calf raise 365×11/11; all RIR 3.",
-      "decision": "Establish Wednesday loads at 35 / 75 / 50 / 365 lb and hold them during the ramp.",
-      "reason": "All six reported sets met their rep ranges and intended reserve. Stage A earns no ordinary progression credit; other weekdays keep independent actuals and counts."
+      "previous": "October 28: lateral 35×15/12, unilateral preacher 75×8, reverse pec deck 145×12, rope hammer 50×11, calf raise 365×11/11; all RIR 3.",
+      "decision": "Establish Wednesday loads at 35 / 75 / 145 / 50 / 365 lb and hold them during the ramp.",
+      "reason": "All seven reported sets met their rep ranges and intended reserve. Stage A earns no ordinary progression credit; other weekdays keep independent actuals and counts."
     },
     {
       "exercise": "WE3 — Reverse pec deck",
-      "previous": "Prescribed 1×12–20 at RIR 3 with load to calibrate; athlete reports n/r.",
-      "decision": "Keep load and completion unknown; clarification requested.",
-      "reason": "n/r does not establish a skipped exercise or a completed set. No load, exposure count or full seven-set completion inferred."
+      "previous": "Originally reported n/r; athlete confirms 145 lb ×12 at RIR 3 on October 28.",
+      "decision": "Resolve missing results; establish WE3 at 145 lb and hold.",
+      "reason": "The confirmed set meets the 12–20 rep target and RIR 3. Record one raw exposure; no ordinary ramp progression credit or transfer to Saturday."
     },
     {
       "exercise": "Bike dose",
@@ -141,9 +141,9 @@
     },
     {
       "exercise": "Achilles and recovery",
-      "previous": "New October 28 calf/bike exposure reported without a symptom response. Latest explicit Achilles tolerance remains October 25; morning readiness was good.",
-      "decision": "Keep today’s local response and next-day recovery pending; retain current restrictions.",
-      "reason": "Pre-session readiness does not establish post-session tolerance. No new pain-free report, fatigue diagnosis or manageable week inferred."
+      "previous": "After October 28 calves/bike, athlete replies “Should be fine.” Latest explicit observed Achilles tolerance remains October 25.",
+      "decision": "Record the tentative expectation; keep observed local tolerance and next-day recovery pending.",
+      "reason": "It is still the same local evening. An expectation does not establish observed recovery or clear persistent restrictions; no poor recovery inferred."
     }
   ],
   "currentLoads": [
@@ -220,9 +220,9 @@
     {
       "slotId": "WE3",
       "exercise": "WE3 — Reverse pec deck",
-      "load": "Calibrate",
-      "lastVerified": "No confirmed new-block exposure",
-      "note": "October 28 reported n/r; skipped versus performed without recorded results is unresolved. No actual load or exposure inferred."
+      "load": "145 lb",
+      "lastVerified": "2026-10-28 (reported)",
+      "note": "Confirmed reverse pec deck 145×12 at RIR 3. Hold during Stage A; first actual in WE3, no ordinary progression credit or transfer to Saturday."
     },
     {
       "slotId": "WE4",

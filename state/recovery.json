@@ -73,7 +73,7 @@
         "WE5",
         "L2"
       ],
-      "action": "WE5 established at 365 lb ×11/11 at RIR 3 on October 28; current calf/bike symptom response pending. Hold appropriate Stage-A load subject to current symptoms; no escalation from silence. Keep October 25’s explicit tolerated L2 response as dated evidence.",
+      "action": "WE5 established at 365 lb ×11/11 at RIR 3 on October 28. Athlete says “Should be fine”; current calf/bike symptom response remains unconfirmed. Hold appropriate Stage-A load subject to current symptoms; retain October 25’s explicit tolerated L2 response as dated evidence.",
       "source": "baseline.md",
       "general_readiness_report": {
         "date": "2026-10-26",
@@ -94,6 +94,13 @@
         ],
         "source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
         "symptom_response": null
+      },
+      "latest_followup": {
+        "reported_on": "2026-10-28",
+        "report": "Should be fine",
+        "status": "tentative-expectation",
+        "decision_id": 444,
+        "scope": "Answer to combined Achilles/next-day recovery question; no explicit observed during/after symptom description. Still the same local evening, not next-day recovery."
       }
     }
   ],
@@ -130,13 +137,20 @@
   "post_session": {
     "date": "2026-10-28",
     "session_id": "hybrid-2026-10-26-w1-wed-2026-10-28",
-    "completion": "reported-with-WE3-unresolved",
+    "completion": "reported",
     "lower_ab_response": null,
     "achilles_response": null,
     "next_day_recovery": null,
     "followup_requested_on": "2026-10-28",
     "status": "local-response-and-next-day-recovery-pending",
-    "decision_id": 443,
-    "note": "Wednesday calf/bike response requested once. Morning’s great recovery report applies before this session, not after it. No new ab work or symptom report supplied."
+    "decision_id": 444,
+    "note": "All seven lifting sets now confirmed. Athlete answered “Should be fine” to the calf/bike Achilles and recovery question; record as a tentative expectation. Observed local tolerance and next-day recovery remain unconfirmed; no new injury clearance.",
+    "latest_followup": {
+      "reported_on": "2026-10-28",
+      "report": "Should be fine",
+      "status": "tentative-expectation",
+      "decision_id": 444,
+      "scope": "Answer to combined Achilles/next-day recovery question; no explicit observed during/after symptom description. Still the same local evening, not next-day recovery."
+    }
   }
 }
