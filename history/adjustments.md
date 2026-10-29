@@ -164,3 +164,26 @@ Current Achilles response and next-day recovery were not reported; follow-up req
 444. Resolve #443’s missing WE3 result from **“12 reps were done”** and **“145lb rir 3”**: reverse pec deck **145 lb ×12 at RIR 3**. The session now has **7 confirmed working sets**, all within prescribed ranges at RIR 3. WE3 uninitialized → established **145 lb**, one raw exposure; hold under `program/ramp-and-return.md` and `program/lift-progression.md`. No ordinary qualification, anchor, progression or credit transfer to Saturday. Preserve the original Calibrate prescription and every other actual.
 
 The athlete’s answer **“Should be fine”** to the combined Achilles/recovery question is tentative, with no explicit observed during/after symptoms; local time remains the same evening. Store the exact answer under current recovery, keep observed Achilles tolerance/next-day recovery and bike-duration validation pending, and retain existing restrictions. `program/adjustments.md#missing-evidence`: no assumed clearance or adverse recovery, no repeated symptom question. Update both caches with the complete lift results and resolved WE3 status; no calendar, stage, bike actual, run target or shoe mileage change.
+
+## 2026-10-28 — Thursday October 29 preview
+
+445. Athlete requests **“Just generate tomorrow’s workout. Recovery is fine.”** Current local date is Wednesday October 28; accept the explicit current general recovery report and publish **Thursday October 29, W1 Upper B — preview**, ID `hybrid-2026-10-26-thu-upper-b-445`. Keep live calendar `as_of` October 28, Stage A, prior actuals and all progression unchanged. The report is current same-evening recovery, not an invented next-day observation. No additional question or clearance blocks this preview.
+
+| Slot | Effective exercise | Sets × reps | Planned load | RIR | Rest |
+|---|---|---|---|---|---|
+| T1 | Incline barbell bench | 2×6–8 | 135 lb | 3 | 3 min |
+| T2 | Cable curl | 1×10–15 | Calibrate | 3 | 2 min |
+| T3 | DB lateral raise | 2×12–20 | 35 lb | 3 | 2 min |
+| T4 | Pull-up | 1×6–12 | Calibrate BW/assistance | 3 | 3 min |
+| T5 | Cable pushdown | 2×10–15 | 50 lb | 3 | 2 min |
+| T6 | Seated cable row | 1×8–12 | Calibrate | 3 | 3 min |
+| T7 | Decline crunch — bodyweight | 2×10–15 | BW | 3 | 2 min |
+| T8 | Straight-arm cable pulldown | 1×10–15 | Calibrate | 3 | 2 min |
+
+**12 working sets; no cardio.** Pull-ups use bodyweight or sufficient assistance for 6–12 reps at RIR 3, no added weight. All new/unmatched loads are calibrated to the prescribed reps/reserve. Use the same known apparatus/load conventions.
+
+Source/rule review: `program/thursday.md`, `program/ramp-and-return.md`, `program/lift-progression.md`, and recovery’s T7 override. **T1** inherited 160 lb is not a demonstrated 6–8-rep load: Monday October 26's 145×6 at RIR 3 followed by 135×8 at RIR 3 supports selecting **135 lb for two 6–8 sets**. This is a first Thursday load estimate, not an automatic linked increase or Monday actual/credit transfer. **T3** keeps 35 lb, supported by October 13's 3×12 at RIR 3 and October 26/28's 15/12 at RIR 3/3. **T5** keeps the same bilateral rope station's 50 lb from October 21, 12 reps at RIR 4; calibrate the second set to the current range/reserve. **T2/T4/T6/T8** have no matching established loads; do not copy hammer-curl, chest-supported-row or lat-pulldown settings into different exercises.
+
+**T7** repeats permitted BW decline crunch 2×10–15, minimum RIR 3 and no added load. Monday's BW15/15 at RIR 3/3 felt fine; T7 remains a distinct first exposure, with cable-crunch baseline/progression untouched. Current good recovery supports full Stage A, without establishing a completed manageable week or earning progression.
+
+Both caches use the actual generation timestamp and visible future-preview labels. Monday–Wednesday remain done; Thursday–Sunday upcoming. Preserve all 33 lift records, run/bike actuals, progression counters, Watch files and shoe mileage. Running upper estimate remains 10.136310160427808 miles including Tuesday actual plus Friday plan; Thursday adds none. The full original Wednesday prescription/actuals remain in the durable ledgers.

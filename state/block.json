@@ -23,7 +23,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 444,
+  "last_adjustment_id": 445,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -75,8 +75,8 @@
       "actual_ref": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
       "cardio_actual_ref": "../history/cardio-log.md#2026-10-28--hybrid-v11-w1-wednesday-bike",
       "cycling_duration_seconds": 1205,
-      "recovery_status": "local-response-and-next-day-recovery-pending",
-      "review_note": "All seven lifting sets confirmed within rep ranges at RIR 3, including reverse pec deck 145×12. Bike 20:05, 130 W average, displayed effort 4. “Should be fine” is a tentative recovery expectation; actual Achilles response and next-day recovery remain pending. No progression or stage advancement."
+      "recovery_status": "current-general-recovery-reported-good",
+      "review_note": "All seven lifting sets confirmed within rep ranges at RIR 3; bike 20:05 at average 130 W, displayed effort 4. Current general recovery explicitly reported fine October 28 evening. Stage A remains unchanged; Thursday is a future preview."
     }
   },
   "planned_start_date": "2026-10-26",

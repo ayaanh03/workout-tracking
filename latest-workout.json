@@ -1,24 +1,39 @@
 {
-  "generatedAt": "2026-10-28T21:16:24-04:00",
+  "generatedAt": "2026-10-28T22:33:53-04:00",
   "blockId": "hybrid-2026-10-26",
-  "prescriptionId": "hybrid-2026-10-26-wed-delts-arms-a-442",
-  "preview": false,
+  "prescriptionId": "hybrid-2026-10-26-thu-upper-b-445",
+  "preview": true,
   "week": "W1",
-  "day": "Wed",
-  "date": "2026-10-28",
+  "day": "Thu",
+  "date": "2026-10-29",
   "phase": "Hybrid v11 — Stage A",
-  "sessionName": "Delts/arms A + bike",
+  "sessionName": "Upper B — preview",
   "why": [
-    "Wednesday is delts/arms A followed by cycling. Today’s great recovery supports the full Stage A dose: 7 working sets, then 20 minutes on the bike.",
-    "Stage A remains at 3 RIR until a completed manageable week supports advancing. Wednesday’s restrained effort also leaves room for Thursday Upper B."
+    "Thursday, October 29 is Upper B. Your report that recovery is fine supports the full Stage A prescription: 12 working sets at 3 RIR."
   ],
   "intro": [
-    "All 7 lifting sets logged at RIR 3, including reverse pec deck 145 lb ×12. Bike: 20:05 at 130 W average, displayed effort 4/10."
+    "Calibrate the new exercises to their rep ranges at 3 RIR. Pull-ups use bodyweight or enough assistance to meet 6–12 reps at 3 RIR; no added weight. Abs stay bodyweight-only."
   ],
   "lift": {
     "table": [
       {
-        "slotId": "WE1",
+        "slotId": "T1",
+        "exercise": "Incline barbell bench",
+        "setsReps": "2×6–8",
+        "load": "135 lb",
+        "rir": "3",
+        "rest": "3 min"
+      },
+      {
+        "slotId": "T2",
+        "exercise": "Cable curl",
+        "setsReps": "1×10–15",
+        "load": "Calibrate",
+        "rir": "3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "T3",
         "exercise": "DB lateral raise",
         "setsReps": "2×12–20",
         "load": "35 lb",
@@ -26,124 +41,84 @@
         "rest": "2 min"
       },
       {
-        "slotId": "WE2",
-        "exercise": "Unilateral machine preacher curl",
-        "setsReps": "1×8–12 per arm",
-        "load": "75 lb",
-        "rir": "3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "WE3",
-        "exercise": "Reverse pec deck",
-        "setsReps": "1×12–20",
+        "slotId": "T4",
+        "exercise": "Pull-up",
+        "setsReps": "1×6–12",
         "load": "Calibrate",
         "rir": "3",
+        "rest": "3 min"
+      },
+      {
+        "slotId": "T5",
+        "exercise": "Cable pushdown",
+        "setsReps": "2×10–15",
+        "load": "50 lb",
+        "rir": "3",
         "rest": "2 min"
       },
       {
-        "slotId": "WE4",
-        "exercise": "Rope cable hammer curl",
+        "slotId": "T6",
+        "exercise": "Seated cable row",
+        "setsReps": "1×8–12",
+        "load": "Calibrate",
+        "rir": "3",
+        "rest": "3 min"
+      },
+      {
+        "slotId": "T7",
+        "exercise": "Decline crunch — bodyweight",
+        "setsReps": "2×10–15",
+        "load": "BW",
+        "rir": "3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "T8",
+        "exercise": "Straight-arm cable pulldown",
         "setsReps": "1×10–15",
         "load": "Calibrate",
         "rir": "3",
         "rest": "2 min"
-      },
-      {
-        "slotId": "WE5",
-        "exercise": "Leg-press calf raise",
-        "setsReps": "2×10–15",
-        "load": "365 lb",
-        "rir": "3",
-        "rest": "2 min"
       }
-    ],
-    "actual": {
-      "label": "2026-10-28 — reported results",
-      "table": [
-        {
-          "slotId": "WE1",
-          "exercise": "DB lateral raise",
-          "load": "35 lb",
-          "reps": "15 / 12",
-          "rir": "3 / 3"
-        },
-        {
-          "slotId": "WE2",
-          "exercise": "Unilateral machine preacher curl",
-          "load": "75 lb",
-          "reps": "8 per arm",
-          "rir": "3"
-        },
-        {
-          "slotId": "WE3",
-          "exercise": "Reverse pec deck",
-          "load": "145 lb",
-          "reps": "12",
-          "rir": "3"
-        },
-        {
-          "slotId": "WE4",
-          "exercise": "Rope cable hammer curl",
-          "load": "50 lb",
-          "reps": "11",
-          "rir": "3"
-        },
-        {
-          "slotId": "WE5",
-          "exercise": "Leg-press calf raise",
-          "load": "365 lb",
-          "reps": "11 / 11",
-          "rir": "3 / 3"
-        }
-      ]
-    }
+    ]
   },
-  "cardio": {
-    "workout": "After lifting: 20 minutes easy cycling at RPE 3/10 (2–4 acceptable), with comfortable full-sentence conversation.",
-    "warmup": null,
-    "cooldown": null,
-    "targets": {
-      "rpe": "3/10; acceptable range 2–4."
-    },
-    "workoutFile": null,
-    "actual": {
-      "label": "2026-10-28 — reported bike results",
-      "summary": "20:05 completed; average power 130 W (athlete report). Apple Fitness displays effort 4 — Moderate and average heart rate 143 bpm. Effort entry method is unknown; it is not inferred from heart rate. Recovery and subsequent lifting/running tolerance are pending.",
-      "table": [
-        {
-          "segment": "Bike",
-          "time": "20:05",
-          "distance": "n/r",
-          "pace": "n/r"
-        }
-      ]
-    }
-  },
+  "cardio": null,
   "adaptation": [
     {
-      "exercise": "Reported lifting",
-      "previous": "October 28: lateral 35×15/12, unilateral preacher 75×8, reverse pec deck 145×12, rope hammer 50×11, calf raise 365×11/11; all RIR 3.",
-      "decision": "Establish Wednesday loads at 35 / 75 / 145 / 50 / 365 lb and hold them during the ramp.",
-      "reason": "All seven reported sets met their rep ranges and intended reserve. Stage A earns no ordinary progression credit; other weekdays keep independent actuals and counts."
+      "exercise": "T1 — Incline barbell bench",
+      "previous": "Monday October 26: 145×6 at RIR 3, then 135×8 at RIR 3. Thursday has no completed exposure yet.",
+      "decision": "Use 135 lb for 2×6–8 at RIR 3.",
+      "reason": "The demonstrated 135 lb back-off supports the higher-rep, two-set starting prescription. It replaces the unvalidated 160 lb carry-over in this preview; Monday performance is a load reference, with no transfer of actuals or progression credit."
     },
     {
-      "exercise": "WE3 — Reverse pec deck",
-      "previous": "Originally reported n/r; athlete confirms 145 lb ×12 at RIR 3 on October 28.",
-      "decision": "Resolve missing results; establish WE3 at 145 lb and hold.",
-      "reason": "The confirmed set meets the 12–20 rep target and RIR 3. Record one raw exposure; no ordinary ramp progression credit or transfer to Saturday."
+      "exercise": "T3 — DB lateral raise",
+      "previous": "Previous block 35×12/12/12 at RIR 3; Monday October 26 and Wednesday October 28 both 35×15/12 at RIR 3/3. First Thursday exposure.",
+      "decision": "Use 35 lb for 2×12–20 at RIR 3.",
+      "reason": "Same-lift history supports the starting load. Thursday retains independent exposure/qualification state; Wednesday’s completed work does not earn a Thursday increase."
     },
     {
-      "exercise": "Bike dose",
-      "previous": "Prescribed 20 min at RPE 3, acceptable 2–4. Actual 20:05; 130 W average; displayed effort 4 and average HR 143.",
-      "decision": "Record completed duration and displayed effort; retain 20-minute plan pending tolerance.",
-      "reason": "Displayed effort is within the allowed range. Subsequent lifting/running response is still needed; power and heart rate do not independently earn progression."
+      "exercise": "T5 — Cable pushdown",
+      "previous": "October 21: same bilateral rope/cable station, 50×12 at RIR 4. First new-block Thursday exposure.",
+      "decision": "Use 50 lb for 2×10–15 at RIR 3.",
+      "reason": "The carried working load fits the prescribed range and reserve. The second set remains to be validated by actual performance; no inherited credit."
     },
     {
-      "exercise": "Achilles and recovery",
-      "previous": "After October 28 calves/bike, athlete replies “Should be fine.” Latest explicit observed Achilles tolerance remains October 25.",
-      "decision": "Record the tentative expectation; keep observed local tolerance and next-day recovery pending.",
-      "reason": "It is still the same local evening. An expectation does not establish observed recovery or clear persistent restrictions; no poor recovery inferred."
+      "exercise": "T2 / T4 / T6 / T8 — First exposures",
+      "previous": "No established matching loads for cable curl, pull-up assistance, seated cable row or straight-arm cable pulldown.",
+      "decision": "Calibrate to the listed reps at RIR 3. Pull-ups: bodyweight or assistance as needed.",
+      "reason": "Other curl, row and pulldown variants do not establish these loads; no guessed machine settings or added pull-up weight."
+    },
+    {
+      "exercise": "T7 — Bodyweight abs",
+      "previous": "Monday October 26: BW decline crunch 15/15 at RIR 3/3; abs felt fine during/after. Bodyweight-only restriction remains active.",
+      "decision": "Use BW decline crunch 2×10–15 at RIR 3.",
+      "reason": "Repeat the permitted substitute with its two-set ceiling and no added load. This is the first T7 exposure; baseline cable-crunch state stays separate."
+    },
+    {
+      "exercise": "Recovery and stage",
+      "previous": "October 28 evening: “Recovery is fine,” after seven Wednesday lifting sets and 20:05 cycling.",
+      "decision": "Full Stage A Upper B preview; no cardio on Thursday.",
+      "reason": "Current good recovery supports the scheduled dose. A completed manageable week is still required for stage advancement; this preview creates no completed work or progression credit."
     }
   ],
   "currentLoads": [
@@ -243,7 +218,7 @@
       "exercise": "T1 — Incline barbell bench",
       "load": "160 lb baseline",
       "lastVerified": "2026-10-21 (previous block)",
-      "note": "Inherited incline baseline; adjust for this slot’s reps/RIR. Back-offs and Thursday volume need separate effective loads."
+      "note": "October 29 preview selects 135 lb for 2×6–8 at RIR 3 using Monday’s 135×8 at RIR 3 as a load reference. The inherited 160 lb baseline is not the effective prescription; T1 remains unperformed."
     },
     {
       "slotId": "T2",
@@ -257,21 +232,21 @@
       "exercise": "T3 — DB lateral raise",
       "load": "35 lb baseline",
       "lastVerified": "2026-10-21 (previous block)",
-      "note": "Carried from the lighter lateral slot; retain independent progression and review against today’s RIR."
+      "note": "October 29 preview: 35 lb for 2×12–20 at RIR 3, supported by carried and Monday/Wednesday same-lift evidence. Thursday remains unperformed and independent."
     },
     {
       "slotId": "T4",
       "exercise": "T4 — Pull-up",
       "load": "Calibrate",
       "lastVerified": "No new-block exposure",
-      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+      "note": "October 29 preview: 1×6–12 at RIR 3 with bodyweight or assistance as needed; no added weight. Assistance/load convention awaits actual performance."
     },
     {
       "slotId": "T5",
       "exercise": "T5 — Cable pushdown",
       "load": "50 lb baseline",
       "lastVerified": "2026-10-21 (previous block)",
-      "note": "Same cable station, bilateral rope; adjust for new sets/reps/RIR."
+      "note": "October 29 preview: 50 lb for 2×10–15 at RIR 3 on the same bilateral rope station; October 21 baseline 12 at RIR 4. New-block actual still unknown."
     },
     {
       "slotId": "T6",
@@ -378,6 +353,5 @@
       "lastVerified": "2026-10-25 (reported)",
       "note": "Reported 12 reps at RIR 3; hold during Stage A. Retain the same setup and load notation."
     }
-  ],
-  "status": "done"
+  ]
 }

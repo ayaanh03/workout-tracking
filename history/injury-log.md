@@ -53,3 +53,7 @@ Athlete reports WE5 leg-press calves **365×11/11 at RIR 3/3** and **20:05 cycli
 ## 2026-10-28 — tentative calf/bike recovery follow-up
 
 Asked about Achilles during/after calves and bike, and next-day recovery if applicable. Athlete: **“Should be fine.”** Record the exact answer as a tentative expectation, not a confirmed observed symptom-free response or next-day recovery. It is still October 28 locally. Keep actual local tolerance and next-day recovery pending, without inferring poor recovery or changing restrictions; no repeat symptom question now (decision #444).
+
+## 2026-10-28 — recovery confirmed fine for Thursday preview
+
+Athlete: **“Just generate tomorrow’s workout. Recovery is fine.”** Accept this as an explicit report of good current general recovery after Wednesday and proceed with the full Thursday Upper B preview. It supersedes the earlier tentative general expectation; retain the actual same-evening report date rather than recording a future next-day observation. Existing bodyweight-only ab limits remain unchanged. No further clarification is needed to generate the requested workout (decision #445).

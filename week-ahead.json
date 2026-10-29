@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-28T21:16:24-04:00",
+  "generatedAt": "2026-10-28T22:33:53-04:00",
   "blockId": "hybrid-2026-10-26",
-  "preview": false,
+  "preview": true,
   "week": "W1",
   "phase": "Hybrid v11 — Stage A",
   "rangeStart": "2026-10-26",
   "rangeEnd": "2026-11-01",
-  "summary": "W1, October 26–November 1: Monday, Tuesday and Wednesday logged. All 7 Wednesday lifting sets confirmed at RIR 3, plus 20:05 bike at 130 W. Athlete expects recovery to be fine; observed Achilles tolerance and next-day recovery remain pending. Stage A and bodyweight-only abs remain.",
+  "summary": "Thursday October 29 preview: Upper B, 12 Stage A sets at RIR 3, including bodyweight abs; no cardio. Current recovery reported fine October 28 evening. Monday–Wednesday completed; Thursday–Sunday remain upcoming. Stage and run targets unchanged.",
   "days": [
     {
       "date": "2026-10-26",
@@ -26,14 +26,14 @@
       "date": "2026-10-28",
       "day": "Wed",
       "session": "Delts/arms A + bike",
-      "note": "7 sets: lateral 35×15/12, unilateral preacher 75×8, pec deck 145×12, rope hammer 50×11, calves 365×11/11, all RIR 3. Bike 20:05, avg 130 W, displayed effort 4. Recovery expectation positive; actual tolerance pending.",
+      "note": "7 sets logged at RIR 3: lateral 35×15/12, preacher 75×8, pec deck 145×12, rope hammer 50×11, calves 365×11/11. Bike 20:05 at avg 130 W, displayed effort 4. Current general recovery reported fine.",
       "status": "done"
     },
     {
       "date": "2026-10-29",
       "day": "Thu",
       "session": "Upper B",
-      "note": "12 sets; independent incline volume load; bodyweight decline crunch 2×10–15.",
+      "note": "Preview: 12 sets at RIR 3. Incline 135 lb 2×6–8; laterals 35 lb 2×12–20; pushdown 50 lb 2×10–15; BW abs 2×10–15; other first-exposure loads calibrate. No cardio.",
       "status": "upcoming"
     },
     {
