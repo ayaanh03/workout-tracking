@@ -57,3 +57,24 @@ Session ID: `hybrid-2026-10-26-w1-wed-2026-10-28`. Stage A; athlete-reported wor
 Establish independent Wednesday loads **WE1 35, WE2 75, WE4 50, WE5 365 lb** and hold while appropriate during Stage A–C. Increment only those four raw exposure counts; no ordinary progression, comparable anchor or qualification credit, and no transfer to Monday/Saturday/Sunday slots. WE3 remains uninitialized with no confirmed exposure. Wednesday calf/bike Achilles response and next-day recovery are pending; morning great recovery is pre-session evidence. Bike actuals are in the cardio log. Review #443.
 
 Same-evening clarification (#444): athlete confirms reverse pec deck **“12 reps were done”**, then **“145lb rir 3.”** Resolve WE3 as **145 lb ×12 at RIR 3**, replacing its earlier n/r status. All **seven prescribed lifting sets** are now confirmed and meet the rep/RIR targets. Establish WE3 at 145 lb, record one raw exposure and hold during Stage A–C; no ordinary progression or cross-slot credit. Other actuals and the original calibration prescription remain unchanged.
+
+## 2026-10-29 — Hybrid v11 W1 Thursday Upper B
+
+Session ID: `hybrid-2026-10-26-w1-thu-2026-10-29`. Stage A, athlete-reported completion against [preview #445](adjustments.md#2026-10-28--thursday-october-29-preview), prescription ID `hybrid-2026-10-26-thu-upper-b-445`. The copied “preview” label is removed from the completed dashboard; the original prescription remains unchanged. Reported cable settings use the repository’s lb convention; unreported apparatus/attachment details stay unknown.
+
+| Slot | Exercise | Prescribed sets × reps / load / RIR | Actual set 1 | Actual set 2 |
+|---|---|---|---|---|
+| T1 | Incline barbell bench | 2×6–8 / 135 lb / 3 | 135×8, RIR 3 | 135×6, RIR 3 |
+| T2 | Cable curl | 1×10–15 / Calibrate / 3 | 42.5×12, RIR 3 | — |
+| T3 | DB lateral raise | 2×12–20 / 35 lb / 3 | 35×15, RIR 3 | 35×12, RIR 3 |
+| T4 | Pull-up | 1×6–12 / Calibrate BW/assistance / 3 | BW (0 lb added) ×12, RIR 3 | — |
+| T5 | Cable pushdown | 2×10–15 / 50 lb / 3 | 50×12, RIR 3 | 50×11, RIR 3 |
+| T6 | Seated cable row | 1×8–12 / Calibrate / 3 | 120×8, RIR 3 | — |
+| T7 | Decline crunch — bodyweight | 2×10–15 / BW / 3 | Skipped | Skipped |
+| T8 | Straight-arm cable pulldown | 1×10–15 / Calibrate / 3 | 50×10, RIR 3 | — |
+
+Athlete: **“I skipped the crunches and did an ab circuit instead.”** Record the circuit as a performed replacement with exercises, sets/reps/duration, added load and RIR unknown; asked once for details and lower-ab response. No inferred two-set dose, BW-only confirmation, baseline cable-crunch actual or permanent program change. **10 non-ab sets confirmed**, all in range at RIR 3; total working sets including the circuit remain unknown.
+
+Pull-up report **0×12 at RIR 3** is interpreted as bodyweight with **0 lb added**, not zero body mass. Preserve this explicit convention for later loads. Establish T1/T2/T3/T4/T5/T6/T8 at **135/42.5/35/0 added/50/120/50 lb**, hold during Stage A–C, and increment only those independent slots’ raw exposure counts. No ordinary qualification, comparable anchor or progression credit. T4 reaching its ceiling does not earn added weight; T1 8/6 does not earn an increase. RIR-3 floor reps in T1/T6/T8 are acceptable and do not require reductions.
+
+Current ab response and next-day recovery are pending; earlier recovery reports do not supply them. Ab restrictions and achieved stage remain unchanged. Review #446.

@@ -57,3 +57,7 @@ Asked about Achilles during/after calves and bike, and next-day recovery if appl
 ## 2026-10-28 — recovery confirmed fine for Thursday preview
 
 Athlete: **“Just generate tomorrow’s workout. Recovery is fine.”** Accept this as an explicit report of good current general recovery after Wednesday and proceed with the full Thursday Upper B preview. It supersedes the earlier tentative general expectation; retain the actual same-evening report date rather than recording a future next-day observation. Existing bodyweight-only ab limits remain unchanged. No further clarification is needed to generate the requested workout (decision #445).
+
+## 2026-10-29 — ab circuit replaces prescribed crunches
+
+Athlete skipped the prescribed two BW decline-crunch sets and performed an **ab circuit**. Circuit exercises, set count/reps/duration, added load and effort were not supplied, nor lower-ab response. Asked once for circuit details and symptoms during/after. Preserve October 26’s tolerated BW-crunch exposure as historical; mark this new circuit response pending. Keep the recovering/bodyweight-only restriction and prescribed two-set/minimum-3-RIR limits; no inferred safe/tolerated circuit, new aggravation or clearance. Next-day general recovery remains unknown (decision #446).

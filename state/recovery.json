@@ -10,8 +10,8 @@
       "omitted_slots": [],
       "clearance": null,
       "source": "../history/injury-log.md",
-      "reviewed_on": "2026-10-26",
-      "decision_id": 438,
+      "reviewed_on": "2026-10-29",
+      "decision_id": 446,
       "slot_overrides": {
         "M6": {
           "exercise": "Decline crunch",
@@ -41,9 +41,20 @@
           "rest_seconds": 120
         }
       },
-      "response_status": "bodyweight-exposure-tolerated",
+      "response_status": "current-circuit-response-pending",
       "progression_limit": "No added weight, extra sets or harder baseline ab exercise until an explicit loading/restoration review authorizes it; tolerated bodyweight work alone does not clear the restriction. Reduce or omit if the strain is aggravated.",
       "last_exposure": {
+        "date": "2026-10-29",
+        "slot": "T7 replacement",
+        "exercise": "Ab circuit",
+        "source": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
+        "load": null,
+        "sets": null,
+        "reps_or_duration": null,
+        "rir": null,
+        "symptom_response": null
+      },
+      "last_tolerated_exposure": {
         "date": "2026-10-26",
         "slot": "M6",
         "exercise": "Decline crunch",
@@ -136,33 +147,15 @@
     }
   ],
   "post_session": {
-    "date": "2026-10-28",
-    "session_id": "hybrid-2026-10-26-w1-wed-2026-10-28",
-    "completion": "reported",
+    "date": "2026-10-29",
+    "session_id": "hybrid-2026-10-26-w1-thu-2026-10-29",
+    "completion": "reported-with-ab-circuit-details-pending",
     "lower_ab_response": null,
     "achilles_response": null,
     "next_day_recovery": null,
-    "followup_requested_on": "2026-10-28",
-    "status": "current-general-recovery-reported-good",
-    "decision_id": 445,
-    "note": "Athlete now explicitly reports “Recovery is fine.” Current general recovery is good and supports Thursday’s preview. Preserve actual report timing on October 28; this is not a future next-day observation. Existing local restrictions remain.",
-    "latest_followup": {
-      "reported_on": "2026-10-28",
-      "reported_at": "2026-10-28T22:33:53-04:00",
-      "status": "good",
-      "report": "Recovery is fine",
-      "provenance": "athlete report",
-      "decision_id": 445,
-      "scope": "Current general recovery after Wednesday, reported the same evening while requesting Thursday’s preview."
-    },
-    "same_day_general_recovery": {
-      "reported_on": "2026-10-28",
-      "reported_at": "2026-10-28T22:33:53-04:00",
-      "status": "good",
-      "report": "Recovery is fine",
-      "provenance": "athlete report",
-      "decision_id": 445,
-      "scope": "Current general recovery after Wednesday, reported the same evening while requesting Thursday’s preview."
-    }
+    "followup_requested_on": "2026-10-29",
+    "status": "ab-response-and-next-day-recovery-pending",
+    "decision_id": 446,
+    "note": "Athlete skipped planned BW decline crunches and performed an unspecified ab circuit. Asked once for exercises, dose, added load and lower-ab response. Prior good recovery does not establish this session’s response; existing restrictions remain."
   }
 }

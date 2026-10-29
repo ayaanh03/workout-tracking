@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-10-28T22:33:53-04:00",
+  "generatedAt": "2026-10-29T17:29:09-04:00",
   "blockId": "hybrid-2026-10-26",
   "prescriptionId": "hybrid-2026-10-26-thu-upper-b-445",
-  "preview": true,
+  "preview": false,
   "week": "W1",
   "day": "Thu",
   "date": "2026-10-29",
   "phase": "Hybrid v11 — Stage A",
-  "sessionName": "Upper B — preview",
+  "sessionName": "Upper B",
   "why": [
-    "Thursday, October 29 is Upper B. Your report that recovery is fine supports the full Stage A prescription: 12 working sets at 3 RIR."
+    "Thursday’s Stage A Upper B session is logged against the October 28 preview. The original prescription remains below for comparison."
   ],
   "intro": [
-    "Calibrate the new exercises to their rep ranges at 3 RIR. Pull-ups use bodyweight or enough assistance to meet 6–12 reps at 3 RIR; no added weight. Abs stay bodyweight-only."
+    "Logged 10 non-ab sets at RIR 3. Decline crunches were skipped and replaced with an ab circuit; circuit details and lower-ab response are pending. Pull-ups are recorded as BW with no added weight."
   ],
   "lift": {
     "table": [
@@ -80,45 +80,106 @@
         "rir": "3",
         "rest": "2 min"
       }
-    ]
+    ],
+    "actual": {
+      "label": "2026-10-29 — reported results",
+      "table": [
+        {
+          "slotId": "T1",
+          "exercise": "Incline barbell bench",
+          "load": "135 lb",
+          "reps": "8 / 6",
+          "rir": "3 / 3"
+        },
+        {
+          "slotId": "T2",
+          "exercise": "Cable curl",
+          "load": "42.5 lb",
+          "reps": "12",
+          "rir": "3"
+        },
+        {
+          "slotId": "T3",
+          "exercise": "DB lateral raise",
+          "load": "35 lb",
+          "reps": "15 / 12",
+          "rir": "3 / 3"
+        },
+        {
+          "slotId": "T4",
+          "exercise": "Pull-up",
+          "load": "BW (0 lb added)",
+          "reps": "12",
+          "rir": "3"
+        },
+        {
+          "slotId": "T5",
+          "exercise": "Cable pushdown",
+          "load": "50 lb",
+          "reps": "12 / 11",
+          "rir": "3 / 3"
+        },
+        {
+          "slotId": "T6",
+          "exercise": "Seated cable row",
+          "load": "120 lb",
+          "reps": "8",
+          "rir": "3"
+        },
+        {
+          "slotId": "T7",
+          "exercise": "Decline crunch — bodyweight",
+          "load": "—",
+          "reps": "Skipped",
+          "rir": "—"
+        },
+        {
+          "exercise": "Ab circuit — replacement",
+          "load": "n/r",
+          "reps": "n/r",
+          "rir": "n/r"
+        },
+        {
+          "slotId": "T8",
+          "exercise": "Straight-arm cable pulldown",
+          "load": "50 lb",
+          "reps": "10",
+          "rir": "3"
+        }
+      ]
+    }
   },
   "cardio": null,
   "adaptation": [
     {
       "exercise": "T1 — Incline barbell bench",
-      "previous": "Monday October 26: 145×6 at RIR 3, then 135×8 at RIR 3. Thursday has no completed exposure yet.",
-      "decision": "Use 135 lb for 2×6–8 at RIR 3.",
-      "reason": "The demonstrated 135 lb back-off supports the higher-rep, two-set starting prescription. It replaces the unvalidated 160 lb carry-over in this preview; Monday performance is a load reference, with no transfer of actuals or progression credit."
+      "previous": "October 29: 135×8/6 at RIR 3/3 against 2×6–8 at RIR 3.",
+      "decision": "Establish Thursday at 135 lb; hold.",
+      "reason": "Both sets met the range and reserve. The second set at 6 does not require a reduction; Stage A and incomplete rep ceilings do not earn an increase."
     },
     {
-      "exercise": "T3 — DB lateral raise",
-      "previous": "Previous block 35×12/12/12 at RIR 3; Monday October 26 and Wednesday October 28 both 35×15/12 at RIR 3/3. First Thursday exposure.",
-      "decision": "Use 35 lb for 2×12–20 at RIR 3.",
-      "reason": "Same-lift history supports the starting load. Thursday retains independent exposure/qualification state; Wednesday’s completed work does not earn a Thursday increase."
+      "exercise": "T2 / T3 / T5 / T6 / T8 — Other loaded lifts",
+      "previous": "October 29: cable curl 42.5×12; lateral 35×15/12; pushdown 50×12/11; seated row 120×8; straight-arm pulldown 50×10. All RIR 3.",
+      "decision": "Establish independent Thursday loads at 42.5 / 35 / 50 / 120 / 50 lb and hold.",
+      "reason": "Every reported set meets the target reps and reserve. Floor reps at RIR 3 are valid, not a reason to reduce; ramp work earns no ordinary progression credit."
     },
     {
-      "exercise": "T5 — Cable pushdown",
-      "previous": "October 21: same bilateral rope/cable station, 50×12 at RIR 4. First new-block Thursday exposure.",
-      "decision": "Use 50 lb for 2×10–15 at RIR 3.",
-      "reason": "The carried working load fits the prescribed range and reserve. The second set remains to be validated by actual performance; no inherited credit."
+      "exercise": "T4 — Pull-up",
+      "previous": "October 29: reported 0×12 at RIR 3, interpreted as bodyweight with no added weight.",
+      "decision": "Establish BW / 0 lb added; hold bodyweight.",
+      "reason": "Reaching 12 meets the rep ceiling but Stage A does not earn added load. Zero refers to external load, not body mass."
     },
     {
-      "exercise": "T2 / T4 / T6 / T8 — First exposures",
-      "previous": "No established matching loads for cable curl, pull-up assistance, seated cable row or straight-arm cable pulldown.",
-      "decision": "Calibrate to the listed reps at RIR 3. Pull-ups: bodyweight or assistance as needed.",
-      "reason": "Other curl, row and pulldown variants do not establish these loads; no guessed machine settings or added pull-up weight."
-    },
-    {
-      "exercise": "T7 — Bodyweight abs",
-      "previous": "Monday October 26: BW decline crunch 15/15 at RIR 3/3; abs felt fine during/after. Bodyweight-only restriction remains active.",
-      "decision": "Use BW decline crunch 2×10–15 at RIR 3.",
-      "reason": "Repeat the permitted substitute with its two-set ceiling and no added load. This is the first T7 exposure; baseline cable-crunch state stays separate."
+      "exercise": "T7 — Ab replacement",
+      "previous": "Prescribed BW decline crunch 2×10–15 at RIR 3. Athlete explicitly skipped it and performed an ab circuit.",
+      "decision": "Record skipped crunches and the separate circuit; details and lower-ab response pending.",
+      "reason": "Do not infer the circuit’s exercises, set count, weight, effort or suitability for the recovering strain. No cable/decline-crunch credit, automatic future substitution or change to existing ab limits."
     },
     {
       "exercise": "Recovery and stage",
-      "previous": "October 28 evening: “Recovery is fine,” after seven Wednesday lifting sets and 20:05 cycling.",
-      "decision": "Full Stage A Upper B preview; no cardio on Thursday.",
-      "reason": "Current good recovery supports the scheduled dose. A completed manageable week is still required for stage advancement; this preview creates no completed work or progression credit."
+      "previous": "10 non-ab sets completed at target RIR; this session’s symptom response and next-day recovery are not reported.",
+      "decision": "Keep Stage A and current appropriate loads.",
+      "reason": "Completed performance alone does not establish a manageable week or clear injury restrictions. The prior recovery report remains dated evidence."
     }
   ],
   "currentLoads": [
@@ -216,58 +277,58 @@
     {
       "slotId": "T1",
       "exercise": "T1 — Incline barbell bench",
-      "load": "160 lb baseline",
-      "lastVerified": "2026-10-21 (previous block)",
-      "note": "October 29 preview selects 135 lb for 2×6–8 at RIR 3 using Monday’s 135×8 at RIR 3 as a load reference. The inherited 160 lb baseline is not the effective prescription; T1 remains unperformed."
+      "load": "135 lb",
+      "lastVerified": "2026-10-29 (reported)",
+      "note": "Thursday actual: 135×8/6 at RIR 3. Hold during Stage A; independent slot, no ordinary progression credit."
     },
     {
       "slotId": "T2",
       "exercise": "T2 — Cable curl",
-      "load": "Calibrate",
-      "lastVerified": "No new-block exposure",
-      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+      "load": "42.5 lb",
+      "lastVerified": "2026-10-29 (reported)",
+      "note": "Thursday actual: 42.5×12 at RIR 3. Hold during Stage A; independent slot, no ordinary progression credit."
     },
     {
       "slotId": "T3",
       "exercise": "T3 — DB lateral raise",
-      "load": "35 lb baseline",
-      "lastVerified": "2026-10-21 (previous block)",
-      "note": "October 29 preview: 35 lb for 2×12–20 at RIR 3, supported by carried and Monday/Wednesday same-lift evidence. Thursday remains unperformed and independent."
+      "load": "35 lb",
+      "lastVerified": "2026-10-29 (reported)",
+      "note": "Thursday actual: 35×15/12 at RIR 3. Hold during Stage A; independent slot, no ordinary progression credit."
     },
     {
       "slotId": "T4",
       "exercise": "T4 — Pull-up",
-      "load": "Calibrate",
-      "lastVerified": "No new-block exposure",
-      "note": "October 29 preview: 1×6–12 at RIR 3 with bodyweight or assistance as needed; no added weight. Assistance/load convention awaits actual performance."
+      "load": "BW (0 lb added)",
+      "lastVerified": "2026-10-29 (reported)",
+      "note": "Thursday actual: BW×12 at RIR 3. Hold during Stage A; independent slot, no ordinary progression credit."
     },
     {
       "slotId": "T5",
       "exercise": "T5 — Cable pushdown",
-      "load": "50 lb baseline",
-      "lastVerified": "2026-10-21 (previous block)",
-      "note": "October 29 preview: 50 lb for 2×10–15 at RIR 3 on the same bilateral rope station; October 21 baseline 12 at RIR 4. New-block actual still unknown."
+      "load": "50 lb",
+      "lastVerified": "2026-10-29 (reported)",
+      "note": "Thursday actual: 50×12/11 at RIR 3. Hold during Stage A; independent slot, no ordinary progression credit."
     },
     {
       "slotId": "T6",
       "exercise": "T6 — Seated cable row",
-      "load": "Calibrate",
-      "lastVerified": "No new-block exposure",
-      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+      "load": "120 lb",
+      "lastVerified": "2026-10-29 (reported)",
+      "note": "Thursday actual: 120×8 at RIR 3. Hold during Stage A; independent slot, no ordinary progression credit."
     },
     {
       "slotId": "T7",
       "exercise": "T7 — Decline crunch (temporary)",
       "load": "BW",
-      "lastVerified": "Bodyweight prescription updated 2026-10-24; no new-block actual",
-      "note": "Recovering ab strain: no added weight; cap 2 sets, at least 3 RIR. Sunday and Monday bodyweight substitutes felt fine during/after; this slot has no actual yet."
+      "lastVerified": "BW prescription only; skipped October 29",
+      "note": "Planned BW decline crunches skipped; an ab circuit was performed with details/response pending. No baseline cable-crunch or decline-crunch actual. Existing BW-only, two-set, minimum-3-RIR prescription limits remain."
     },
     {
       "slotId": "T8",
       "exercise": "T8 — Straight-arm cable pulldown",
-      "load": "Calibrate",
-      "lastVerified": "No new-block exposure",
-      "note": "First exposure: calibrate to this slot’s stage-specific reps/RIR."
+      "load": "50 lb",
+      "lastVerified": "2026-10-29 (reported)",
+      "note": "Thursday actual: 50×10 at RIR 3. Hold during Stage A; independent slot, no ordinary progression credit."
     },
     {
       "slotId": "S1",
@@ -353,5 +414,6 @@
       "lastVerified": "2026-10-25 (reported)",
       "note": "Reported 12 reps at RIR 3; hold during Stage A. Retain the same setup and load notation."
     }
-  ]
+  ],
+  "status": "done"
 }

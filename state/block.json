@@ -6,7 +6,7 @@
   "start_date": "2026-10-25",
   "end_date": "2027-01-03",
   "timezone": "America/New_York",
-  "as_of": "2026-10-28",
+  "as_of": "2026-10-29",
   "activation_status": "active",
   "calendar_week": "W1",
   "calendar_phase": "Ramp",
@@ -23,7 +23,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 445,
+  "last_adjustment_id": 446,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -76,7 +76,23 @@
       "cardio_actual_ref": "../history/cardio-log.md#2026-10-28--hybrid-v11-w1-wednesday-bike",
       "cycling_duration_seconds": 1205,
       "recovery_status": "current-general-recovery-reported-good",
-      "review_note": "All seven lifting sets confirmed within rep ranges at RIR 3; bike 20:05 at average 130 W, displayed effort 4. Current general recovery explicitly reported fine October 28 evening. Stage A remains unchanged; Thursday is a future preview."
+      "review_note": "All seven lifting sets confirmed within rep ranges at RIR 3; bike 20:05 at average 130 W, displayed effort 4. Current general recovery reported fine October 28 evening. Thursday preview was generated then and is now logged separately."
+    },
+    "2026-10-29": {
+      "calendar_week": "W1",
+      "session": "Upper B",
+      "status": "completed",
+      "stage": "A",
+      "working_sets": null,
+      "reported_working_sets": 10,
+      "prescribed_working_sets": 12,
+      "working_sets_note": "10 non-ab sets confirmed plus an ab circuit of unreported dose; prescribed two decline-crunch sets skipped.",
+      "unresolved_slots": [
+        "T7"
+      ],
+      "actual_ref": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
+      "recovery_status": "ab-response-and-next-day-recovery-pending",
+      "review_note": "All 10 reported non-ab sets meet reps/RIR 3. Pull-up 0 interpreted as BW/no added weight. Ab circuit details and response pending; no ordinary progression or stage advancement."
     }
   },
   "planned_start_date": "2026-10-26",

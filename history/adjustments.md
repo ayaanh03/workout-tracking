@@ -187,3 +187,13 @@ Source/rule review: `program/thursday.md`, `program/ramp-and-return.md`, `progra
 **T7** repeats permitted BW decline crunch 2×10–15, minimum RIR 3 and no added load. Monday's BW15/15 at RIR 3/3 felt fine; T7 remains a distinct first exposure, with cable-crunch baseline/progression untouched. Current good recovery supports full Stage A, without establishing a completed manageable week or earning progression.
 
 Both caches use the actual generation timestamp and visible future-preview labels. Monday–Wednesday remain done; Thursday–Sunday upcoming. Preserve all 33 lift records, run/bike actuals, progression counters, Watch files and shoe mileage. Running upper estimate remains 10.136310160427808 miles including Tuesday actual plus Friday plan; Thursday adds none. The full original Wednesday prescription/actuals remain in the durable ledgers.
+
+## 2026-10-29 — Thursday Upper B actuals
+
+446. Log Thursday against #445: **T1 135×8/6 RIR 3/3; T2 42.5×12 RIR 3; T3 35×15/12 RIR 3/3; T4 0×12 RIR 3; T5 50×12/11 RIR 3/3; T6 120×8 RIR 3; T8 50×10 RIR 3**. Interpret pull-up zero as **BW, 0 lb added**, preserving reported notation and unknown body mass. Ten non-ab sets meet every prescribed rep/RIR target.
+
+`program/ramp-and-return.md` and `program/lift-progression.md`: T1 carried160 → established135; T2 uninitialized →42.5; T3 carried35 →established35; T4 uninitialized →BW/0added; T5 carried50 →established50; T6 uninitialized →120; T8 uninitialized →50. Hold these appropriate loads. Only these seven slots receive raw exposure counts; no ordinary qualification/anchors/plateau credit or transfer to other weekdays. No added pull-up weight from the ceiling set, incline increase from 8/6, or load reduction from correctly performed rep-floor sets.
+
+Athlete explicitly skipped T7’s **two BW decline-crunch sets** and did an **ab circuit instead**. Record that performed replacement separately with unknown exercise/dose/load/RIR/response; do not claim all12 prescribed sets, copy two sets into the circuit, or credit baseline cable crunch / the unperformed decline crunch. Asked once for circuit details and lower-ab response. Preserve active ab limits and the prior tolerated October26 exposure; no permanent exercise substitution or symptom clearance is inferred under `program/adjustments.md#missing-evidence`.
+
+Calendar is now October29 locally. Mark completed Upper B with the original prescription plus actuals, remove preview labels, keep Monday–Thursday done and Friday–Sunday upcoming. All reported loads remain actuals, while circuit details/current response/next-day recovery stay pending. Preserve stage, earlier actuals, run/bike records, Watch files and shoe mileage. No automatic Friday generation or progression from completion.
