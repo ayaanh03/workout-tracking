@@ -177,8 +177,39 @@
   },
   "cycling": {
     "wednesday": {
-      "last_completed": null,
-      "last_tolerated_minutes": null
+      "last_completed": "2026-10-28",
+      "last_tolerated_minutes": null,
+      "latest_actual": {
+        "date": "2026-10-28",
+        "session_id": "hybrid-2026-10-26-w1-wed-2026-10-28-bike",
+        "source": "../history/cardio-log.md#2026-10-28--hybrid-v11-w1-wednesday-bike",
+        "duration_seconds": 1205,
+        "average_power_watts": 130,
+        "average_power_source": "athlete text: Avg 130watts",
+        "displayed_effort": 4,
+        "displayed_effort_label": "Moderate",
+        "effort_source": "Apple Fitness screenshot; whether manually entered or estimated is not reported. Not inferred from heart rate.",
+        "average_heart_rate_bpm": 143,
+        "distance": null,
+        "next_day_recovery": null,
+        "subsequent_lifting_running_tolerance": null
+      },
+      "pending_validation": {
+        "decision_id": 443,
+        "status": "pending-recovery-and-subsequent-session-tolerance",
+        "reason": "20:05 completed with displayed effort 4, within acceptable 2–4. Subsequent lifting/running response is required before validating later duration increases."
+      },
+      "next_action": {
+        "decision_id": 443,
+        "action": "hold-planned-duration-pending-tolerance",
+        "minutes": 20,
+        "target_rpe": 3,
+        "acceptable_rpe_range": [
+          2,
+          4
+        ],
+        "reason": "Maintain the W1/W2 20-minute dose; no longer bike or power target earned from completion, watts or heart rate."
+      }
     },
     "saturday": {
       "last_completed": null,

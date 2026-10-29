@@ -39,3 +39,19 @@ Session ID: `hybrid-2026-10-26-w1-mon-2026-10-26`. Stage A, athlete-reported com
 M7 was reported **70×12 at RIR 3**, with the exact note **“I misplaced this”**. Preserve this actual, distinct from the prescribed 80 lb. Asked once whether the note refers to order, a logged value or something else; interpretation remains pending. No inferred mid-session load reduction or changed order. Today’s lower-ab response was also requested; next-day recovery remains unknown. Do not reuse the preworkout good recovery report as post-session evidence. Review: decision #437.
 
 Same-day clarification (#438): athlete says **“I misloaded it. I loaded it as 70 by mistake and then Left the gym.”** M7 remains **70×12 at RIR 3**, accidentally selected instead of prescribed 80; the completed set stands, no additional/make-up set. The earlier ambiguity is resolved. Hold 70 while its demonstrated rep/RIR fit remains appropriate during the ramp. Lower abs **“Felt fine”** during/after Monday’s bodyweight crunches; this answers the pending local response. Next-day recovery is still unknown.
+
+## 2026-10-28 — Hybrid v11 W1 Wednesday delts/arms A
+
+Session ID: `hybrid-2026-10-26-w1-wed-2026-10-28`. Stage A; athlete-reported workout log. Original prescription: [decision #442](adjustments.md#2026-10-28--recovery-review-and-wednesday-deltsarms-a), ID `hybrid-2026-10-26-wed-delts-arms-a-442`. Logged October 28 in America/New_York despite UTC October 29. Weights use existing lb notation; rope hammer's reported 50 follows the repository’s lb convention. Unreported apparatus/settings remain unknown.
+
+| Slot | Exercise | Prescribed sets × reps / load / RIR | Actual set 1 | Actual set 2 |
+|---|---|---|---|---|
+| WE1 | DB lateral raise | 2×12–20 / 35 lb / 3 | 35×15, RIR 3 | 35×12, RIR 3 |
+| WE2 | Unilateral machine preacher curl | 1×8–12 per arm / 75 lb / 3 | 75×8, RIR 3 | — |
+| WE3 | Reverse pec deck | 1×12–20 / Calibrate / 3 | n/r | — |
+| WE4 | Rope cable hammer curl | 1×10–15 / Calibrate / 3 | 50×11, RIR 3 | — |
+| WE5 | Leg-press calf raise | 2×10–15 / 365 lb / 3 | 365×11, RIR 3 | 365×11, RIR 3 |
+
+**Six working sets reported**, counting the unilateral preacher set once; all six met their rep ranges and intended RIR 3. Arm-specific differences were not reported. WE3 **n/r** is unresolved: asked once whether skipped or performed without recorded values; do not assume either, invent a load, or claim all seven prescribed sets completed.
+
+Establish independent Wednesday loads **WE1 35, WE2 75, WE4 50, WE5 365 lb** and hold while appropriate during Stage A–C. Increment only those four raw exposure counts; no ordinary progression, comparable anchor or qualification credit, and no transfer to Monday/Saturday/Sunday slots. WE3 remains uninitialized with no confirmed exposure. Wednesday calf/bike Achilles response and next-day recovery are pending; morning great recovery is pre-session evidence. Bike actuals are in the cardio log. Review #443.

@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-28T10:32:37-04:00",
+  "generatedAt": "2026-10-28T20:32:44-04:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W1",
   "phase": "Hybrid v11 — Stage A",
   "rangeStart": "2026-10-26",
   "rangeEnd": "2026-11-01",
-  "summary": "W1, October 26–November 1: Monday and Tuesday completed. Great recovery reported today, Wednesday October 28. Today: 7 Stage A delts/arms/calf sets, then 20 min easy bike. Tuesday classified no-count for fast reps; run targets unchanged. Bodyweight-only ab limits remain.",
+  "summary": "W1, October 26–November 1: Monday, Tuesday and Wednesday sessions logged. Wednesday has six reported lifting sets plus 20:05 bike at 130 W; reverse pec deck n/r remains unresolved. Current Achilles response and next-day recovery pending. Stage A and bodyweight-only abs remain.",
   "days": [
     {
       "date": "2026-10-26",
@@ -26,8 +26,8 @@
       "date": "2026-10-28",
       "day": "Wed",
       "session": "Delts/arms A + bike",
-      "note": "7 sets at 3 RIR: lateral 35 lb, unilateral preacher 75 lb, pec deck/rope hammer calibrate, leg-press calf 365 lb on Sunday’s setup. Then 20 min bike at RPE 3.",
-      "status": "today"
+      "note": "Reported: lateral 35×15/12, unilateral preacher 75×8, rope hammer 50×11, calves 365×11/11, all RIR 3; pec deck n/r (unresolved). Bike 20:05, avg 130 W, displayed effort 4. Recovery pending.",
+      "status": "done"
     },
     {
       "date": "2026-10-29",

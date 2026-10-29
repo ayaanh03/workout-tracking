@@ -36,3 +36,11 @@ With acceptable effort, reps 2–3 being >5 s/mi fast trigger the program’s **
 Athlete: **“Great recovery today.”** General next-day recovery is good; no new run-specific lower-ab/Achilles response supplied. Finalize October 27 as **no-count** under `program/run-progression.md#classification`: final RPE 8 meets the cap, while reps 2–3 are more than 5 s/mi fast. That exclusion applies before rep 1’s slight slow miss. This supersedes the preceding pending-recovery classification; all actual durations, paces, distance and effort remain unchanged.
 
 Hold normal Tuesday **3×4 at 6:50/mi**, hits/misses zero, no comfortable pair or last-successful-normal award. No additional performed reps or shoe mileage. Friday’s independent prescription/state remains unchanged. Good general recovery supports today’s scheduled Wednesday lifting/bike dose; no new injury clearance or completed manageable week is inferred.
+
+## 2026-10-28 — Hybrid v11 W1 Wednesday bike
+
+Session ID: `hybrid-2026-10-26-w1-wed-2026-10-28-bike`. Original [prescription #442](adjustments.md#2026-10-28--recovery-review-and-wednesday-deltsarms-a): **20 minutes after lifting at RPE 3/10 (2–4 acceptable)**. Athlete supplies Apple Fitness screenshot dated October 28, 8:05–8:25 PM, and text **“Avg 130watts.”**
+
+Actual duration **20:05 (1,205 seconds)**; average power **130 W** from athlete text. Screenshot displays **effort 4 — Moderate**, average heart rate **143 bpm**. Whether the effort was manually entered or estimated is not reported; retain its screenshot provenance and do not derive effort from heart rate. Distance and conversation test: n/r. The displayed effort lies within the prescribed acceptable range. The five seconds beyond 20 minutes are recorded actual time, not an earned higher training dose.
+
+Completion does not yet establish acceptable subsequent lifting/running response. Keep last tolerated duration unvalidated, next-day recovery pending, and the planned **20-minute** dose unchanged. No new power/HR target or duration increase. This is cycling, adds no running/shoe mileage, and does not establish a sauna session. Rule: `program/endurance.md#cycling`; decision #443.

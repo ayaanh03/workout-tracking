@@ -23,7 +23,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 442,
+  "last_adjustment_id": 443,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -62,6 +62,23 @@
       "classification": "no-count",
       "recovery_status": "next-day-general-recovery-reported-good",
       "review_note": "Great recovery reported October 28. Final RPE 8 meets cap, but reps 2–3 exceeded the fast tolerance: no-count, with no progression credit. Local symptom reports remain dated evidence."
+    },
+    "2026-10-28": {
+      "calendar_week": "W1",
+      "session": "Delts/arms A + bike",
+      "status": "completed",
+      "stage": "A",
+      "working_sets": null,
+      "reported_working_sets": 6,
+      "prescribed_working_sets": 7,
+      "unresolved_slots": [
+        "WE3"
+      ],
+      "actual_ref": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
+      "cardio_actual_ref": "../history/cardio-log.md#2026-10-28--hybrid-v11-w1-wednesday-bike",
+      "cycling_duration_seconds": 1205,
+      "recovery_status": "local-response-and-next-day-recovery-pending",
+      "review_note": "Six sets reported, all within range at RIR 3. Reverse pec deck n/r: skipped versus performed without results unresolved. Bike 20:05, 130 W average, displayed effort 4. No progression or stage advancement."
     }
   },
   "planned_start_date": "2026-10-26",

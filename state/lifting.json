@@ -288,27 +288,154 @@
       "exercise": "DB lateral raise",
       "load": 35,
       "units": "lb",
-      "load_status": "carried_unvalidated",
-      "load_source": "lateral-light"
+      "load_status": "established",
+      "load_source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
+      "equipment": "Dumbbells",
+      "setup": null,
+      "load_convention": "Same legacy dumbbell load notation; retain that convention.",
+      "last_actual": {
+        "date": "2026-10-28",
+        "session_id": "hybrid-2026-10-26-w1-wed-2026-10-28",
+        "source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
+        "stage": "A",
+        "sets": [
+          {
+            "load": 35,
+            "reps": 15,
+            "rir": 3
+          },
+          {
+            "load": 35,
+            "reps": 12,
+            "rir": 3
+          }
+        ],
+        "progression_eligible": false,
+        "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+      },
+      "new_exposure_count": 1,
+      "next_action": {
+        "decision_id": 443,
+        "action": "hold-load",
+        "load_lb": 35,
+        "reason": "All reported sets meet this slot’s rep range at RIR 3. Keep appropriate loads stable during A–C; review current recovery before prescribing."
+      }
     },
     "WE2": {
       "exercise": "Unilateral machine preacher curl",
       "load": 75,
       "units": "lb",
-      "load_status": "carried_unvalidated",
-      "load_source": "preacher"
+      "load_status": "established",
+      "load_source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
+      "equipment": "Unilateral preacher curl machine",
+      "setup": null,
+      "load_convention": "Unilateral machine setting, each arm; no arm-specific differences reported. Machine model/settings not supplied.",
+      "last_actual": {
+        "date": "2026-10-28",
+        "session_id": "hybrid-2026-10-26-w1-wed-2026-10-28",
+        "source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
+        "stage": "A",
+        "sets": [
+          {
+            "load": 75,
+            "reps": 8,
+            "rir": 3
+          }
+        ],
+        "progression_eligible": false,
+        "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+      },
+      "new_exposure_count": 1,
+      "next_action": {
+        "decision_id": 443,
+        "action": "hold-load",
+        "load_lb": 75,
+        "reason": "All reported sets meet this slot’s rep range at RIR 3. Keep appropriate loads stable during A–C; review current recovery before prescribing."
+      }
     },
     "WE3": {
       "exercise": "Reverse pec deck",
-      "load": null
+      "load": null,
+      "latest_report": {
+        "date": "2026-10-28",
+        "session_id": "hybrid-2026-10-26-w1-wed-2026-10-28",
+        "source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
+        "report": "n/r",
+        "completion_status": null,
+        "clarification_status": "pending",
+        "followup_requested_on": "2026-10-28",
+        "decision_id": 443,
+        "note": "Asked whether skipped or performed without recorded results. No set, load or exposure inferred."
+      }
     },
     "WE4": {
       "exercise": "Rope cable hammer curl",
-      "load": null
+      "load": 50,
+      "units": "lb",
+      "equipment": "Cable station with rope attachment",
+      "setup": null,
+      "load_convention": "Athlete-reported rope cable setting, interpreted in the repository’s lb convention; station details not supplied.",
+      "load_status": "established",
+      "load_source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
+      "last_actual": {
+        "date": "2026-10-28",
+        "session_id": "hybrid-2026-10-26-w1-wed-2026-10-28",
+        "source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
+        "stage": "A",
+        "sets": [
+          {
+            "load": 50,
+            "reps": 11,
+            "rir": 3
+          }
+        ],
+        "progression_eligible": false,
+        "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+      },
+      "new_exposure_count": 1,
+      "next_action": {
+        "decision_id": 443,
+        "action": "hold-load",
+        "load_lb": 50,
+        "reason": "All reported sets meet this slot’s rep range at RIR 3. Keep appropriate loads stable during A–C; review current recovery before prescribing."
+      }
     },
     "WE5": {
       "exercise": "Leg-press calf raise",
-      "load": null
+      "load": 365,
+      "units": "lb",
+      "equipment": "Leg press",
+      "setup": null,
+      "load_convention": "Athlete-reported lb notation; machine model/settings and stack/plate/sled convention not reported. Retain the same setup and notation.",
+      "load_status": "established",
+      "load_source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
+      "last_actual": {
+        "date": "2026-10-28",
+        "session_id": "hybrid-2026-10-26-w1-wed-2026-10-28",
+        "source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
+        "stage": "A",
+        "sets": [
+          {
+            "load": 365,
+            "reps": 11,
+            "rir": 3
+          },
+          {
+            "load": 365,
+            "reps": 11,
+            "rir": 3
+          }
+        ],
+        "progression_eligible": false,
+        "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+      },
+      "new_exposure_count": 1,
+      "next_action": {
+        "decision_id": 443,
+        "action": "hold-load",
+        "load_lb": 365,
+        "reason": "All reported sets meet this slot’s rep range at RIR 3. Keep appropriate loads stable during A–C; review current recovery before prescribing."
+      }
     },
     "T1": {
       "exercise": "Incline barbell bench",

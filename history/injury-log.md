@@ -45,3 +45,7 @@ Athlete revises final-rep effort to **8/10**, within cap, and reports perceived 
 ## 2026-10-28 — great next-day recovery
 
 Athlete: **“Great recovery today. Let’s go. Update dash w today’s workout.”** Record good general next-day recovery after Tuesday intervals and readiness for Wednesday. This resolves the pending general recovery report from #441. Numeric metrics and new site-specific symptoms were not supplied: lower-ab tolerance remains explicitly reported October 26, Achilles tolerance October 25. Keep the bodyweight-only ab instruction, two-set ceiling and minimum 3 RIR; no full injury clearance or new fatigue flag. Prescribe the full Stage A Wednesday session and W1 bike dose (decision #442).
+
+## 2026-10-28 — Wednesday calf and bike exposure; response pending
+
+Athlete reports WE5 leg-press calves **365×11/11 at RIR 3/3** and **20:05 cycling**. No during/after Achilles response or next-day recovery was included. Asked once for current calf/bike Achilles response and recovery if already the next day. Keep the new response unknown; preserve October 25’s explicit tolerated Achilles exposure separately. The morning’s “Great recovery” is readiness before this session, not its post-session/next-day response. No ab work or new ab report; existing bodyweight-only/two-set/minimum-3-RIR restriction remains unchanged (decision #443).

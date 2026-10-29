@@ -62,7 +62,7 @@
     },
     {
       "id": "left-achilles",
-      "status": "no-symptoms-reported-current-exposure",
+      "status": "current-exposure-response-pending",
       "last_explicit_current_report": {
         "date": "2026-10-25",
         "report": "Felt fine during and after leg-press calves.",
@@ -73,7 +73,7 @@
         "WE5",
         "L2"
       ],
-      "action": "L2 established at 365 lb and felt fine during/after October 25. General next-day recovery reported good October 26. Hold at stage-A effort on the same setup; retain Achilles history. WE5 remains independent; no old seated-calf load transfer.",
+      "action": "WE5 established at 365 lb ×11/11 at RIR 3 on October 28; current calf/bike symptom response pending. Hold appropriate Stage-A load subject to current symptoms; no escalation from silence. Keep October 25’s explicit tolerated L2 response as dated evidence.",
       "source": "baseline.md",
       "general_readiness_report": {
         "date": "2026-10-26",
@@ -81,19 +81,19 @@
         "source": "athlete general recovery report; no new site-specific symptom assessment"
       },
       "last_exposure": {
-        "date": "2026-10-25",
-        "slot": "L2",
+        "date": "2026-10-28",
+        "slot": "WE5",
         "load_lb": 365,
         "reps": [
-          10,
-          10
+          11,
+          11
         ],
         "rir": [
           3,
           3
         ],
-        "source": "../history/lifting-log.md#2026-10-25--hybrid-v11-opening",
-        "symptom_response": "Felt fine during and after; athlete report."
+        "source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
+        "symptom_response": null
       }
     }
   ],
@@ -128,22 +128,15 @@
     }
   ],
   "post_session": {
-    "date": "2026-10-27",
-    "session_id": "hybrid-2026-10-26-w1-tue-2026-10-27",
-    "completion": "reported",
+    "date": "2026-10-28",
+    "session_id": "hybrid-2026-10-26-w1-wed-2026-10-28",
+    "completion": "reported-with-WE3-unresolved",
     "lower_ab_response": null,
     "achilles_response": null,
-    "next_day_recovery": {
-      "reported_on": "2026-10-28",
-      "status": "good",
-      "report": "Great recovery today.",
-      "provenance": "athlete report",
-      "decision_id": 442,
-      "scope": "Next-day general recovery after October 27 intervals; no new site-specific symptom assessment."
-    },
-    "followup_requested_on": "2026-10-27",
-    "status": "next-day-general-recovery-reported-good",
-    "decision_id": 442,
-    "note": "October 28: athlete reports great recovery. General next-day recovery answered; run-specific lower-ab/Achilles responses were not supplied. Final RPE 8 and perceived extra capacity remain unchanged; existing local restrictions persist."
+    "next_day_recovery": null,
+    "followup_requested_on": "2026-10-28",
+    "status": "local-response-and-next-day-recovery-pending",
+    "decision_id": 443,
+    "note": "Wednesday calf/bike response requested once. Morning’s great recovery report applies before this session, not after it. No new ab work or symptom report supplied."
   }
 }
