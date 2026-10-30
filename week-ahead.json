@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-29T17:29:09-04:00",
+  "generatedAt": "2026-10-29T20:47:39-04:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W1",
   "phase": "Hybrid v11 — Stage A",
   "rangeStart": "2026-10-26",
   "rangeEnd": "2026-11-01",
-  "summary": "W1, October 26–November 1: Monday–Thursday logged. Thursday has 10 confirmed non-ab sets at RIR 3 plus an ab circuit replacing decline crunches; circuit details and response pending. Stage A and existing ab limits remain. Friday–Sunday upcoming.",
+  "summary": "W1, October 26–November 1: Monday–Thursday logged. Thursday: 10 non-ab sets at RIR 3 plus a bodyweight ab circuit with a 2-minute plank and leg raises; no ab symptoms. Remaining circuit dose/effort n/r. Stage A and bodyweight ab prescription remain; Friday–Sunday upcoming.",
   "days": [
     {
       "date": "2026-10-26",
@@ -33,7 +33,7 @@
       "date": "2026-10-29",
       "day": "Thu",
       "session": "Upper B",
-      "note": "Logged: incline 135×8/6, curl 42.5×12, lateral 35×15/12, pull-up BW×12, pushdown 50×12/11, seated row 120×8, straight-arm pulldown 50×10; all RIR 3. Crunches skipped for ab circuit; details/response pending.",
+      "note": "Logged: incline 135×8/6, curl 42.5×12, lateral 35×15/12, pull-up BW×12, pushdown 50×12/11, row 120×8, straight-arm pulldown 50×10; all RIR 3. Crunches replaced by BW circuit: 2-minute plank and leg raises, no added weight or ab symptoms; remaining dose n/r.",
       "status": "done"
     },
     {

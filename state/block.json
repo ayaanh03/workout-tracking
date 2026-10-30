@@ -23,7 +23,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 446,
+  "last_adjustment_id": 447,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -86,13 +86,13 @@
       "working_sets": null,
       "reported_working_sets": 10,
       "prescribed_working_sets": 12,
-      "working_sets_note": "10 non-ab sets confirmed plus an ab circuit of unreported dose; prescribed two decline-crunch sets skipped.",
+      "working_sets_note": "10 non-ab sets confirmed plus a bodyweight ab circuit including a 120-second plank hold and leg raises. Total circuit dose n/r; prescribed decline crunches skipped.",
       "unresolved_slots": [
         "T7"
       ],
       "actual_ref": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
-      "recovery_status": "ab-response-and-next-day-recovery-pending",
-      "review_note": "All 10 reported non-ab sets meet reps/RIR 3. Pull-up 0 interpreted as BW/no added weight. Ab circuit details and response pending; no ordinary progression or stage advancement."
+      "recovery_status": "ab-response-tolerated-next-day-recovery-pending",
+      "review_note": "All 10 non-ab sets meet reps/RIR 3. Ab circuit had no added weight and no symptoms; plank 120 seconds and leg raises confirmed, remaining dose/effort n/r. Bodyweight-only prescription retained; no ordinary progression or stage advancement."
     }
   },
   "planned_start_date": "2026-10-26",

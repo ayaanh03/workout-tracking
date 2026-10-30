@@ -61,3 +61,9 @@ Athlete: **“Just generate tomorrow’s workout. Recovery is fine.”** Accept 
 ## 2026-10-29 — ab circuit replaces prescribed crunches
 
 Athlete skipped the prescribed two BW decline-crunch sets and performed an **ab circuit**. Circuit exercises, set count/reps/duration, added load and effort were not supplied, nor lower-ab response. Asked once for circuit details and symptoms during/after. Preserve October 26’s tolerated BW-crunch exposure as historical; mark this new circuit response pending. Keep the recovering/bodyweight-only restriction and prescribed two-set/minimum-3-RIR limits; no inferred safe/tolerated circuit, new aggravation or clearance. Next-day general recovery remains unknown (decision #446).
+
+## 2026-10-29 — bodyweight circuit tolerated
+
+Asked for circuit details, added load and lower-ab response during/after. Athlete: **“No added weights. Abs were no symptoms. I might’ve recovered completely. Just a bunch of random stuff held a 2 minute plank. Did some leg raises.”** Record no symptoms during/after this bodyweight exposure. The circuit becomes the latest tolerated ab exposure, superseding its pending local-response status; retain the earlier October 26 response in history.
+
+Preserve possible full recovery as the athlete’s tentative impression. Current status is symptom-free with bodyweight work; keep the existing bodyweight-only prescription, maximum two prescribed sets and minimum 3 RIR. No added-load/restoration review or permanent circuit substitution was requested. Remaining circuit dose/effort is unrecorded and need not block logging. Still October 29 locally; next-day general recovery is unknown (decision #447).

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T17:29:09-04:00",
+  "generatedAt": "2026-10-29T20:47:39-04:00",
   "blockId": "hybrid-2026-10-26",
   "prescriptionId": "hybrid-2026-10-26-thu-upper-b-445",
   "preview": false,
@@ -12,7 +12,7 @@
     "Thursday’s Stage A Upper B session is logged against the October 28 preview. The original prescription remains below for comparison."
   ],
   "intro": [
-    "Logged 10 non-ab sets at RIR 3. Decline crunches were skipped and replaced with an ab circuit; circuit details and lower-ab response are pending. Pull-ups are recorded as BW with no added weight."
+    "Logged 10 non-ab sets at RIR 3 plus a bodyweight ab circuit: a 2-minute plank and leg raises, with no added weight or ab symptoms. Remaining circuit dose and effort were not recorded."
   ],
   "lift": {
     "table": [
@@ -134,8 +134,14 @@
           "rir": "—"
         },
         {
-          "exercise": "Ab circuit — replacement",
-          "load": "n/r",
+          "exercise": "Ab circuit — plank",
+          "load": "BW",
+          "reps": "2:00 hold",
+          "rir": "n/r"
+        },
+        {
+          "exercise": "Ab circuit — leg raises (variant n/r)",
+          "load": "BW",
           "reps": "n/r",
           "rir": "n/r"
         },
@@ -171,15 +177,15 @@
     },
     {
       "exercise": "T7 — Ab replacement",
-      "previous": "Prescribed BW decline crunch 2×10–15 at RIR 3. Athlete explicitly skipped it and performed an ab circuit.",
-      "decision": "Record skipped crunches and the separate circuit; details and lower-ab response pending.",
-      "reason": "Do not infer the circuit’s exercises, set count, weight, effort or suitability for the recovering strain. No cable/decline-crunch credit, automatic future substitution or change to existing ab limits."
+      "previous": "October 29: prescribed crunches skipped for a circuit with no added weight. One 120-second plank hold and leg raises reported; no ab symptoms during/after.",
+      "decision": "Record the bodyweight circuit as tolerated; keep the current bodyweight ab prescription.",
+      "reason": "Remaining circuit dose, leg-raise variant and effort were not recorded. The report supports tolerance at this exposure, with no baseline cable/decline-crunch or hanging-raise progression credit and no added load or set increase."
     },
     {
       "exercise": "Recovery and stage",
-      "previous": "10 non-ab sets completed at target RIR; this session’s symptom response and next-day recovery are not reported.",
-      "decision": "Keep Stage A and current appropriate loads.",
-      "reason": "Completed performance alone does not establish a manageable week or clear injury restrictions. The prior recovery report remains dated evidence."
+      "previous": "10 non-ab sets met target RIR. The bodyweight circuit caused no ab symptoms; athlete thinks they might have recovered completely.",
+      "decision": "Keep Stage A and current working loads; record the symptom-free ab exposure.",
+      "reason": "Full recovery is the athlete’s tentative impression. Current bodyweight ab limits remain; next-day general recovery and a completed manageable week are not yet established."
     }
   ],
   "currentLoads": [
@@ -321,7 +327,7 @@
       "exercise": "T7 — Decline crunch (temporary)",
       "load": "BW",
       "lastVerified": "BW prescription only; skipped October 29",
-      "note": "Planned BW decline crunches skipped; an ab circuit was performed with details/response pending. No baseline cable-crunch or decline-crunch actual. Existing BW-only, two-set, minimum-3-RIR prescription limits remain."
+      "note": "Planned decline crunches skipped October 29 for a BW circuit: 2-minute plank and leg raises, no added weight and no ab symptoms. Remaining dose/effort n/r; no cable/decline-crunch actual or credit. Current BW-only prescription retained."
     },
     {
       "slotId": "T8",

@@ -4,14 +4,14 @@
   "local_restrictions": [
     {
       "id": "left-lower-ab",
-      "status": "recovering-bodyweight-only",
-      "last_reported_on": "2026-10-26",
-      "report": "Lower abs felt fine during and after Monday bodyweight crunches; recovering/bodyweight-only instruction retained.",
+      "status": "symptom-free-bodyweight-only",
+      "last_reported_on": "2026-10-29",
+      "report": "No added weights and no ab symptoms during/after Thursday’s circuit. Athlete thinks they might have recovered completely; current prescription remains bodyweight-only.",
       "omitted_slots": [],
       "clearance": null,
       "source": "../history/injury-log.md",
       "reviewed_on": "2026-10-29",
-      "decision_id": 446,
+      "decision_id": 447,
       "slot_overrides": {
         "M6": {
           "exercise": "Decline crunch",
@@ -41,35 +41,67 @@
           "rest_seconds": 120
         }
       },
-      "response_status": "current-circuit-response-pending",
+      "response_status": "bodyweight-circuit-tolerated",
       "progression_limit": "No added weight, extra sets or harder baseline ab exercise until an explicit loading/restoration review authorizes it; tolerated bodyweight work alone does not clear the restriction. Reduce or omit if the strain is aggravated.",
       "last_exposure": {
         "date": "2026-10-29",
         "slot": "T7 replacement",
         "exercise": "Ab circuit",
         "source": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
-        "load": null,
+        "load": "BW",
         "sets": null,
-        "reps_or_duration": null,
+        "reps_or_duration": "One reported 120-second plank hold; leg-raise and total circuit dose n/r.",
         "rir": null,
-        "symptom_response": null
+        "symptom_response": "No symptoms during or after the bodyweight ab circuit; athlete answer to the during/after question.",
+        "external_load_lb": 0,
+        "exercises": [
+          {
+            "exercise": "Plank",
+            "reported_holds_seconds": [
+              120
+            ],
+            "total_sets": null,
+            "rir": null
+          },
+          {
+            "exercise": "Leg raises",
+            "variant": null,
+            "sets": null,
+            "reps": null,
+            "rir": null
+          }
+        ]
       },
       "last_tolerated_exposure": {
-        "date": "2026-10-26",
-        "slot": "M6",
-        "exercise": "Decline crunch",
+        "date": "2026-10-29",
+        "slot": "T7 replacement",
+        "exercise": "Ab circuit",
+        "source": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
         "load": "BW",
-        "reps": [
-          15,
-          15
-        ],
-        "rir": [
-          3,
-          3
-        ],
-        "source": "../history/lifting-log.md#2026-10-26--hybrid-v11-w1-monday-upper-a",
-        "symptom_response": "Felt fine during and after; athlete report."
-      }
+        "sets": null,
+        "reps_or_duration": "One reported 120-second plank hold; leg-raise and total circuit dose n/r.",
+        "rir": null,
+        "symptom_response": "No symptoms during or after the bodyweight ab circuit; athlete answer to the during/after question.",
+        "external_load_lb": 0,
+        "exercises": [
+          {
+            "exercise": "Plank",
+            "reported_holds_seconds": [
+              120
+            ],
+            "total_sets": null,
+            "rir": null
+          },
+          {
+            "exercise": "Leg raises",
+            "variant": null,
+            "sets": null,
+            "reps": null,
+            "rir": null
+          }
+        ]
+      },
+      "recovery_impression": "I might’ve recovered completely."
     },
     {
       "id": "left-achilles",
@@ -149,13 +181,20 @@
   "post_session": {
     "date": "2026-10-29",
     "session_id": "hybrid-2026-10-26-w1-thu-2026-10-29",
-    "completion": "reported-with-ab-circuit-details-pending",
-    "lower_ab_response": null,
+    "completion": "reported-with-partial-circuit-dose",
+    "lower_ab_response": "No symptoms during or after the bodyweight ab circuit; athlete answer to the during/after question.",
     "achilles_response": null,
     "next_day_recovery": null,
     "followup_requested_on": "2026-10-29",
-    "status": "ab-response-and-next-day-recovery-pending",
-    "decision_id": 446,
-    "note": "Athlete skipped planned BW decline crunches and performed an unspecified ab circuit. Asked once for exercises, dose, added load and lower-ab response. Prior good recovery does not establish this session’s response; existing restrictions remain."
+    "status": "ab-response-tolerated-next-day-recovery-pending",
+    "decision_id": 447,
+    "note": "Follow-up confirms no added weight and no symptoms during/after the ab circuit. Plank hold 120 seconds and leg raises recorded; remaining dose/effort unrecorded. Athlete’s possible full-recovery impression is preserved. Same local evening; next-day recovery still unknown.",
+    "latest_followup": {
+      "reported_on": "2026-10-29",
+      "reported_at": "2026-10-29T20:47:39-04:00",
+      "athlete_report": "No added weights. Abs were no symptoms. I might’ve recovered completely. Just a bunch of random stuff held a 2 minute plank. Did some leg raises",
+      "decision_id": 447,
+      "scope": "Bodyweight circuit details and local ab response; possible full-recovery impression, not a next-day general recovery report."
+    }
   }
 }

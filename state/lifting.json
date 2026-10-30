@@ -683,7 +683,7 @@
           "date": "2026-10-29",
           "session_id": "hybrid-2026-10-26-w1-thu-2026-10-29",
           "source": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
-          "decision_id": 446,
+          "decision_id": 447,
           "prescribed_exercise": "Decline crunch — bodyweight",
           "prescribed_sets": 2,
           "prescribed_performed": false,
@@ -691,17 +691,37 @@
           "replacement": {
             "exercise": "Ab circuit",
             "performed": true,
-            "exercises": null,
+            "exercises": [
+              {
+                "exercise": "Plank",
+                "reported_holds_seconds": [
+                  120
+                ],
+                "total_sets": null,
+                "rir": null
+              },
+              {
+                "exercise": "Leg raises",
+                "variant": null,
+                "sets": null,
+                "reps": null,
+                "rir": null
+              }
+            ],
             "sets": null,
-            "reps_or_duration": null,
-            "external_load_lb": null,
+            "reps_or_duration": "One reported 120-second plank hold; leg-raise sets/reps and remaining circuit dose n/r.",
+            "external_load_lb": 0,
             "rir": null,
-            "symptom_response": null
+            "symptom_response": "No symptoms during or after the bodyweight ab circuit; athlete answer to the during/after question.",
+            "load": "BW",
+            "other_work_details": null
           },
-          "details_status": "pending",
+          "details_status": "partially-reported",
           "followup_requested_on": "2026-10-29",
           "progression_eligible": false,
-          "note": "Record only this reported replacement; no cable-crunch or decline-crunch exposure/qualification credit and no permanent substitution authorized."
+          "note": "Circuit performed without added load and without ab symptoms. One 120-second plank hold and leg raises are reported; total dose, leg-raise variant/reps and effort remain unrecorded. No cable/decline-crunch actual or progression credit; future prescription unchanged.",
+          "followup_received_on": "2026-10-29",
+          "athlete_report": "No added weights. Abs were no symptoms. I might’ve recovered completely. Just a bunch of random stuff held a 2 minute plank. Did some leg raises"
         }
       ]
     },
