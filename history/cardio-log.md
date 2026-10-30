@@ -72,3 +72,9 @@ Athlete directs that faster performance count toward progression. The revised ru
 - **Friday October 30:** **7:27 / 7:13 / 7:16** are all at or faster than the 7:30 slow cutoff, with all 18 work minutes completed and final RPE 7 within cap. Replace no-count candidate with **ordinary hit 1 candidate**, pending normal next-day recovery. Final RPE 7 is above the comfortable threshold of 5. Reported interval recoveries match the plan; unreported route/extra-pause fields are retained as unknown, with no new deviation asserted or additional blocker invented.
 
 Next W2 targets remain **Tuesday 3×4 at 6:50 / Friday 3×6 at 7:25** because W2 work ceilings and the no-faster-target limit are separate from counting successful performance. Faster actual splits do not reset the prescribed target used for streaks. No raw pace, RPE, distance, shoe or recovery observation is changed.
+
+## 2026-10-30 — Tuesday first rep accepted after tracking report (#451)
+
+For the October 27 session, athlete: **“Count the 6:56 as a pass. It didn’t track well but I’m sure I could’ve hit that number”**. Accept that specific rep as a pass at the athlete’s explicit direction. This is a qualification exception for reported tracking error, not a new measured pace: retain **6:56 / 6:41 / 6:28** and every original segment, distance and effort value. No corrected numeric pace or additional performed work is claimed.
+
+This supersedes #450’s Tuesday miss: **ordinary hit 1, misses 0**, with full 3×4 work, recorded prescribed recoveries, final RPE 8 within cap and good next-day recovery already reported. Establish the successful normal dose at the original prescribed **3×4 at 6:50/mi (12 minutes)**, linked to this session and exception. No comfortable credit at RPE 8 (threshold ≤6). W2 holds that same dose under its work/pace limits; Friday’s pending result and all shoe mileage remain unchanged. General slow tolerance and measurement-uncertainty rules are unchanged.

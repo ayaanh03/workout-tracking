@@ -23,7 +23,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 450,
+  "last_adjustment_id": 451,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -59,9 +59,9 @@
       "work_minutes": 12,
       "distance_miles": 4.27,
       "actual_ref": "../history/cardio-log.md#2026-10-27--hybrid-v11-w1-tuesday-intervals",
-      "classification": "miss",
+      "classification": "hit",
       "recovery_status": "next-day-general-recovery-reported-good",
-      "review_note": "Reassessed under faster-reps-count directive #450: reps 2–3 pass. First rep 6:56 exceeds the 6:55 slow cutoff by 1 second, so this is miss 1 with good recovery and RPE 8. One miss does not slow the target."
+      "review_note": "Decision #451 accepts the displayed 6:56 first rep as a pass at the athlete’s explicit direction due to reported tracking error. Raw paces remain 6:56/6:41/6:28. With RPE 8 and good next-day recovery, ordinary hit 1, misses 0; successful normal dose 3×4 at 6:50. No comfortable credit or W2 increase."
     },
     "2026-10-28": {
       "calendar_week": "W1",

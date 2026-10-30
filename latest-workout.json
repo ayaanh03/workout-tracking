@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T19:16:20-04:00",
+  "generatedAt": "2026-10-30T19:51:40-04:00",
   "blockId": "hybrid-2026-10-26",
   "prescriptionId": "hybrid-2026-10-26-fri-intervals-448",
   "preview": false,
@@ -116,8 +116,8 @@
     {
       "exercise": "Tuesday reassessment",
       "previous": "October 27: 6:56 / 6:41 / 6:28 against 6:50, final RPE 8, good next-day recovery.",
-      "decision": "Faster reps now pass; first rep gives one pace miss. Hold 3×4 at 6:50/mi.",
-      "reason": "The unchanged slow cutoff is 6:55. The first rep was 1 second beyond it; faster later reps do not offset that separate miss. One miss does not trigger slowing, and W2 limits remain."
+      "decision": "First rep accepted as a pass for the reported tracking error: ordinary hit 1, misses 0. Hold 3×4 at 6:50/mi for W2.",
+      "reason": "Your explicit correction qualifies the first rep; displayed 6:56 remains in the log. Faster later reps, final RPE 8 and good recovery qualify the session. This establishes the prescribed 3×4 at 6:50 as successful. W2 still caps work at 12 minutes and permits no faster target; RPE 8 is above the comfortable threshold of 6."
     }
   ],
   "currentLoads": [

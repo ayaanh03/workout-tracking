@@ -7,7 +7,16 @@
     "normal_format": "3x4",
     "rpe_cap": 8,
     "temporary_prescription": null,
-    "last_successful_normal": null,
+    "last_successful_normal": {
+      "date": "2026-10-27",
+      "session_id": "hybrid-2026-10-26-w1-tue-2026-10-27",
+      "pace_seconds_per_mile": 410,
+      "work_minutes": 12,
+      "format": "3x4",
+      "source": "../history/cardio-log.md#2026-10-27--hybrid-v11-w1-tuesday-intervals",
+      "decision_id": 451,
+      "qualification_note": "Prescribed 3×4 at 6:50/mi established as successful. Athlete explicitly accepts the displayed 6:56 first rep as a pass due to reported tracking error; faster later reps, final RPE 8 and good next-day recovery qualify. Raw displayed paces are unchanged."
+    },
     "last_completed": "2026-10-27",
     "latest_actual": {
       "date": "2026-10-27",
@@ -117,9 +126,9 @@
         "decision_id": 441
       }
     },
-    "classification": "miss",
-    "hits": 0,
-    "misses": 1,
+    "classification": "hit",
+    "hits": 1,
+    "misses": 0,
     "comfortable_pair": [],
     "next_day_recovery": {
       "reported_on": "2026-10-28",
@@ -134,7 +143,7 @@
     "pending_validation": null,
     "carried_adjustment": null,
     "classification_review": {
-      "decision_id": 450,
+      "decision_id": 451,
       "status": "classified",
       "pace_offsets_seconds_per_mile": [
         6,
@@ -142,26 +151,42 @@
         -22
       ],
       "effort_cap_exceeded": false,
-      "reason": "Reassessed under the athlete’s faster-pace credit directive. Reps 2 and 3 now pass regardless of being faster. Rep 1 at 6:56 is 6 s/mi slower than the 6:50 target, exceeding the unchanged 5-second slow allowance by 1 second. With reported good recovery and final RPE 8 within cap, this is miss 1 for the slow first rep, not a fast-pace exclusion. No second miss or slowdown.",
+      "reason": "Athlete explicitly directs that the first rep count as a pass because it did not track well. Accept that rep as a specific qualification override; preserve displayed 6:56 and its measured +6 s/mi offset without inventing a corrected pace. Reps 2 and 3 pass the faster-pace rule. Full 3×4 work, prescribed recoveries, final RPE 8 within cap and reported good next-day recovery establish ordinary hit 1, misses 0. Final RPE 8 is above the comfortable threshold of 6.",
       "followup_requested_on": "2026-10-27",
       "classified_on": "2026-10-30",
-      "classification": "miss",
-      "previous_recorded_classification": "no-count",
+      "classification": "hit",
+      "previous_recorded_classification": "miss",
       "rule_revision": "2026-10-30-faster-pace-credit",
       "rep_pace_checks_passed": [
+        true,
+        true,
+        true
+      ],
+      "comfortable_effort_threshold_met": false,
+      "measured_rep_pace_checks_passed": [
         false,
         true,
         true
       ],
-      "comfortable_effort_threshold_met": false
+      "athlete_override": {
+        "reported_on": "2026-10-30",
+        "rep_number": 1,
+        "displayed_pace_seconds_per_mile": 416,
+        "accepted_as_pass": true,
+        "corrected_pace_seconds_per_mile": null,
+        "reason": "Athlete-reported tracking error.",
+        "athlete_report": "Count the 6:56 as a pass. It didn’t track well but I’m sure I could’ve hit that number",
+        "decision_id": 451,
+        "scope": "Explicit first-rep qualification exception for October 27 only. General 5 s/mi slow allowance and uncertain-measurement rules remain unchanged."
+      }
     },
     "next_action": {
-      "decision_id": 450,
+      "decision_id": 451,
       "action": "hold-normal-prescription",
       "pace_seconds_per_mile": 410,
       "work_minutes": 12,
       "format": "3x4",
-      "reason": "Hold normal 3×4 at 6:50/mi: reassessment gives one pace miss from the first rep at 6:56, while faster reps count. One miss does not trigger slowing. W2 caps Tuesday at 12 work minutes and permits no faster targets; no immediate increase."
+      "reason": "Ordinary hit 1 is credited and the prescribed 3×4 at 6:50/mi is established as successful. Hold this dose for W2: its ceiling remains 12 work minutes and faster targets are not permitted. Final RPE 8 does not earn comfortable credit; later progression uses the credited result subject to the normal gates."
     }
   },
   "friday": {
