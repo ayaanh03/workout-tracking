@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-29T20:47:39-04:00",
+  "generatedAt": "2026-10-30T00:55:13-04:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W1",
   "phase": "Hybrid v11 — Stage A",
   "rangeStart": "2026-10-26",
   "rangeEnd": "2026-11-01",
-  "summary": "W1, October 26–November 1: Monday–Thursday logged. Thursday: 10 non-ab sets at RIR 3 plus a bodyweight ab circuit with a 2-minute plank and leg raises; no ab symptoms. Remaining circuit dose/effort n/r. Stage A and bodyweight ab prescription remain; Friday–Sunday upcoming.",
+  "summary": "W1, October 26–November 1: Monday–Thursday logged. Current recovery good; Friday today is 3×6 min at 7:25/mi with 2-min recoveries, final RPE ≤7. Stage A and run targets unchanged. Saturday/Sunday upcoming.",
   "days": [
     {
       "date": "2026-10-26",
@@ -33,15 +33,15 @@
       "date": "2026-10-29",
       "day": "Thu",
       "session": "Upper B",
-      "note": "Logged: incline 135×8/6, curl 42.5×12, lateral 35×15/12, pull-up BW×12, pushdown 50×12/11, row 120×8, straight-arm pulldown 50×10; all RIR 3. Crunches replaced by BW circuit: 2-minute plank and leg raises, no added weight or ab symptoms; remaining dose n/r.",
+      "note": "Completed 10 non-ab sets at RIR 3; BW circuit included a 2-minute plank and leg raises with no ab symptoms, remaining dose n/r. General recovery reported good early October 30.",
       "status": "done"
     },
     {
       "date": "2026-10-30",
       "day": "Fri",
       "session": "Longer intervals",
-      "note": "3×6 min at 7:25/mi, 2 min between; final RPE ≤7, subject to current recovery.",
-      "status": "upcoming"
+      "note": "10 min easy + 3×6 min at 7:25/mi, two 2-min easy recoveries + 10 min easy; 42 min total. Final RPE ≤7. Watch file available; not yet performed.",
+      "status": "today"
     },
     {
       "date": "2026-10-31",
@@ -59,11 +59,11 @@
     }
   ],
   "runningMileageCheck": {
-    "decisionId": 442,
+    "decisionId": 448,
     "kind": "recorded-plus-planned-upper-bound",
     "recordedMiles": 4.27,
     "upperMiles": 10.136310160427808,
     "limitMiles": 15,
-    "assumptions": "Tuesday athlete-confirmed total 4.27 mi plus Friday 3×6 at fast tolerance edge 7:20/mi, up to 15-min warmup, 10-min cooldown and two 2-min recoveries, all easy portions jogged at 8:30/mi. Friday remains planned."
+    "assumptions": "Tuesday athlete-confirmed total 4.27 mi plus Friday 3×6 at fast tolerance edge 7:20/mi, up to 15-min warmup, 10-min cooldown and two 2-min recoveries, all easy portions jogged at 8:30/mi. Friday remains planned; walking/slower easy running reduces distance."
   }
 }

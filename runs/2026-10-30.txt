@@ -1,0 +1,9 @@
+# W1 Friday — decision 448. 42 min planned; final-rep RPE <=7.
+# Recoveries between reps only; no easy-section pace alerts.
+name: W1 Fri 3x6 - Oct 30
+warmup: 10:00
+repeat 2
+  work: 6:00 @ current 7:20-7:30/mi
+  recovery: 2:00
+work: 6:00 @ current 7:20-7:30/mi
+cooldown: 10:00

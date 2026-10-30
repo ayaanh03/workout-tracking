@@ -1,191 +1,63 @@
 {
-  "generatedAt": "2026-10-29T20:47:39-04:00",
+  "generatedAt": "2026-10-30T00:55:13-04:00",
   "blockId": "hybrid-2026-10-26",
-  "prescriptionId": "hybrid-2026-10-26-thu-upper-b-445",
+  "prescriptionId": "hybrid-2026-10-26-fri-intervals-448",
   "preview": false,
   "week": "W1",
-  "day": "Thu",
-  "date": "2026-10-29",
+  "day": "Fri",
+  "date": "2026-10-30",
   "phase": "Hybrid v11 — Stage A",
-  "sessionName": "Upper B",
+  "sessionName": "Longer intervals — 3×6 min",
   "why": [
-    "Thursday’s Stage A Upper B session is logged against the October 28 preview. The original prescription remains below for comparison."
+    "Friday is the longer interval session. Your good recovery supports the full W1 starting dose: 18 minutes of work at 7:25/mi, with final-rep effort capped at 7/10."
   ],
   "intro": [
-    "Logged 10 non-ab sets at RIR 3 plus a bodyweight ab circuit: a 2-minute plank and leg raises, with no added weight or ab symptoms. Remaining circuit dose and effort were not recorded."
+    "42 minutes planned: 10-minute warmup, 18 minutes of work, 4 minutes of recovery and 10-minute cooldown. No lifting today."
   ],
-  "lift": {
-    "table": [
-      {
-        "slotId": "T1",
-        "exercise": "Incline barbell bench",
-        "setsReps": "2×6–8",
-        "load": "135 lb",
-        "rir": "3",
-        "rest": "3 min"
-      },
-      {
-        "slotId": "T2",
-        "exercise": "Cable curl",
-        "setsReps": "1×10–15",
-        "load": "Calibrate",
-        "rir": "3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "T3",
-        "exercise": "DB lateral raise",
-        "setsReps": "2×12–20",
-        "load": "35 lb",
-        "rir": "3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "T4",
-        "exercise": "Pull-up",
-        "setsReps": "1×6–12",
-        "load": "Calibrate",
-        "rir": "3",
-        "rest": "3 min"
-      },
-      {
-        "slotId": "T5",
-        "exercise": "Cable pushdown",
-        "setsReps": "2×10–15",
-        "load": "50 lb",
-        "rir": "3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "T6",
-        "exercise": "Seated cable row",
-        "setsReps": "1×8–12",
-        "load": "Calibrate",
-        "rir": "3",
-        "rest": "3 min"
-      },
-      {
-        "slotId": "T7",
-        "exercise": "Decline crunch — bodyweight",
-        "setsReps": "2×10–15",
-        "load": "BW",
-        "rir": "3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "T8",
-        "exercise": "Straight-arm cable pulldown",
-        "setsReps": "1×10–15",
-        "load": "Calibrate",
-        "rir": "3",
-        "rest": "2 min"
-      }
+  "lift": null,
+  "cardio": {
+    "workout": "3×6 minutes at 7:25/mi. Take 2 minutes easy jog/walk between reps only: exactly two recoveries, then go straight from the final rep into the cooldown.",
+    "warmup": "10 minutes easy running, conversational; guide 8:30–9:30/mi or slower. Up to 5 extra minutes if needed; the Watch file contains the planned 10 minutes.",
+    "cooldown": "10 minutes easy jog/walk, conversational; no pace target. Included in the 42-minute plan.",
+    "targets": {
+      "pace": "7:25/mi for work reps; Watch alerts 7:20–7:30/mi.",
+      "rpe": "Final rep ≤7/10. Slow if needed to stay within the cap."
+    },
+    "flags": [
+      "Keep all three reps close to 7:25/mi. Log each rep’s average pace, final-rep RPE and total distance; report recovery afterward."
     ],
-    "actual": {
-      "label": "2026-10-29 — reported results",
-      "table": [
-        {
-          "slotId": "T1",
-          "exercise": "Incline barbell bench",
-          "load": "135 lb",
-          "reps": "8 / 6",
-          "rir": "3 / 3"
-        },
-        {
-          "slotId": "T2",
-          "exercise": "Cable curl",
-          "load": "42.5 lb",
-          "reps": "12",
-          "rir": "3"
-        },
-        {
-          "slotId": "T3",
-          "exercise": "DB lateral raise",
-          "load": "35 lb",
-          "reps": "15 / 12",
-          "rir": "3 / 3"
-        },
-        {
-          "slotId": "T4",
-          "exercise": "Pull-up",
-          "load": "BW (0 lb added)",
-          "reps": "12",
-          "rir": "3"
-        },
-        {
-          "slotId": "T5",
-          "exercise": "Cable pushdown",
-          "load": "50 lb",
-          "reps": "12 / 11",
-          "rir": "3 / 3"
-        },
-        {
-          "slotId": "T6",
-          "exercise": "Seated cable row",
-          "load": "120 lb",
-          "reps": "8",
-          "rir": "3"
-        },
-        {
-          "slotId": "T7",
-          "exercise": "Decline crunch — bodyweight",
-          "load": "—",
-          "reps": "Skipped",
-          "rir": "—"
-        },
-        {
-          "exercise": "Ab circuit — plank",
-          "load": "BW",
-          "reps": "2:00 hold",
-          "rir": "n/r"
-        },
-        {
-          "exercise": "Ab circuit — leg raises (variant n/r)",
-          "load": "BW",
-          "reps": "n/r",
-          "rir": "n/r"
-        },
-        {
-          "slotId": "T8",
-          "exercise": "Straight-arm cable pulldown",
-          "load": "50 lb",
-          "reps": "10",
-          "rir": "3"
-        }
-      ]
-    }
+    "workoutFile": "runs/2026-10-30.workout"
   },
-  "cardio": null,
   "adaptation": [
     {
-      "exercise": "T1 — Incline barbell bench",
-      "previous": "October 29: 135×8/6 at RIR 3/3 against 2×6–8 at RIR 3.",
-      "decision": "Establish Thursday at 135 lb; hold.",
-      "reason": "Both sets met the range and reserve. The second set at 6 does not require a reduction; Stage A and incomplete rep ceilings do not earn an increase."
+      "exercise": "Friday starting dose",
+      "previous": "Reported 21:30 5K initializes Friday at 7:25/mi. No completed Friday interval exposure yet.",
+      "decision": "Start with 3×6 minutes at 7:25/mi, final RPE ≤7.",
+      "reason": "This is the W1 starting dose and ceiling. Friday targets and progression are independent of Tuesday; no earned increase is being applied."
     },
     {
-      "exercise": "T2 / T3 / T5 / T6 / T8 — Other loaded lifts",
-      "previous": "October 29: cable curl 42.5×12; lateral 35×15/12; pushdown 50×12/11; seated row 120×8; straight-arm pulldown 50×10. All RIR 3.",
-      "decision": "Establish independent Thursday loads at 42.5 / 35 / 50 / 120 / 50 lb and hold.",
-      "reason": "Every reported set meets the target reps and reserve. Floor reps at RIR 3 are valid, not a reason to reduce; ramp work earns no ordinary progression credit."
+      "exercise": "Tuesday evidence",
+      "previous": "October 27: 3×4 at 6:56 / 6:41 / 6:28, final RPE 8; good recovery. Classified no-count for fast reps at acceptable effort.",
+      "decision": "Keep Friday’s separate 7:25/mi target and 18-minute starting dose.",
+      "reason": "Tuesday’s result supplies no Friday progression credit and does not establish Friday’s intended pace as unsuitable."
     },
     {
-      "exercise": "T4 — Pull-up",
-      "previous": "October 29: reported 0×12 at RIR 3, interpreted as bodyweight with no added weight.",
-      "decision": "Establish BW / 0 lb added; hold bodyweight.",
-      "reason": "Reaching 12 meets the rep ceiling but Stage A does not earn added load. Zero refers to external load, not body mass."
+      "exercise": "Recovery and current limits",
+      "previous": "Early October 30: recovery looks good. Thursday’s 10 non-ab sets met their targets; its bodyweight ab circuit caused no symptoms.",
+      "decision": "Full scheduled Friday session; Stage A and existing local limits remain.",
+      "reason": "Reported readiness supports the starting workload. General recovery does not itself advance the lifting stage or restore weighted ab work."
     },
     {
-      "exercise": "T7 — Ab replacement",
-      "previous": "October 29: prescribed crunches skipped for a circuit with no added weight. One 120-second plank hold and leg raises reported; no ab symptoms during/after.",
-      "decision": "Record the bodyweight circuit as tolerated; keep the current bodyweight ab prescription.",
-      "reason": "Remaining circuit dose, leg-raise variant and effort were not recorded. The report supports tolerance at this exposure, with no baseline cable/decline-crunch or hanging-raise progression credit and no added load or set increase."
+      "exercise": "Weekly running mileage",
+      "previous": "Tuesday actual: 4.27 miles. Friday planned: 18 work minutes, two 2-minute recoveries, 10-minute warmup and cooldown.",
+      "decision": "No mileage cut: conservative complete-week estimate about 10.14 miles, below 15.",
+      "reason": "The unrounded upper estimate is 10.136310160427808 miles, including an optional 5-minute warmup extension and work at the fast alert edge. Planned distance is not logged as completed mileage."
     },
     {
-      "exercise": "Recovery and stage",
-      "previous": "10 non-ab sets met target RIR. The bodyweight circuit caused no ab symptoms; athlete thinks they might have recovered completely.",
-      "decision": "Keep Stage A and current working loads; record the symptom-free ab exposure.",
-      "reason": "Full recovery is the athlete’s tentative impression. Current bodyweight ab limits remain; next-day general recovery and a completed manageable week are not yet established."
+      "exercise": "Adaptation validation",
+      "previous": "First Friday exposure; actual paces, final effort and post-run recovery do not yet exist.",
+      "decision": "Keep Friday unperformed with no hit/miss or comfortable credit awarded.",
+      "reason": "The prescribed starting dose fits current state. Performance-based validation follows actual rep-average paces, final RPE and reported next-day recovery."
     }
   ],
   "currentLoads": [
@@ -420,6 +292,5 @@
       "lastVerified": "2026-10-25 (reported)",
       "note": "Reported 12 reps at RIR 3; hold during Stage A. Retain the same setup and load notation."
     }
-  ],
-  "status": "done"
+  ]
 }

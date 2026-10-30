@@ -203,3 +203,19 @@ Calendar is now October29 locally. Mark completed Upper B with the original pres
 447. Follow-up to #446 confirms **no added weight, a 120-second plank hold, leg raises and no ab symptoms during/after**. Update the performed circuit separately from the skipped decline-crunch prescription. Total circuit dose, leg-raise variant/reps/sets, other exercises and effort remain unrecorded; do not invent a complete set count or equate these leg raises with baseline hanging raises. Non-ab actuals, raw counts and progression remain unchanged.
 
 Resolve the pending local ab response as **bodyweight circuit tolerated** and retain the athlete’s **“I might’ve recovered completely”** as a tentative impression. Under `program/adjustments.md` and current recovery limits, continue the current bodyweight ab prescription without added load, extra prescribed sets or baseline restoration; no new symptom question or blanket omission. No next-day general recovery or stage advancement inferred. Update daily/weekly caches with the known circuit details and symptom-free response; keep October 29 completed, Friday upcoming, original prescription and all other state intact.
+
+## 2026-10-30 — first Friday intervals
+
+448. Athlete requests the next workout and reports **“recovery looks good.”** Local date is Friday October 30; record current good general recovery after Thursday at the actual early-Friday timestamp, without inventing an overnight sleep assessment or new site-specific clearance. Generate **W1 Friday — Longer intervals**, prescription ID `hybrid-2026-10-26-fri-intervals-448`:
+
+- **10 minutes easy running**, conversational; guide 8:30–9:30/mi or slower. Up to 5 extra warmup minutes if needed; the Watch export contains 10.
+- **3×6 minutes at 7:25/mi**, with **2 minutes easy jog/walk between reps only**: exactly two recoveries.
+- Final-rep **RPE ≤7/10**; slow an unsuitable target to stay within the cap.
+- **10 minutes easy jog/walk cooldown**, conversational, no pace target.
+- **42 minutes planned**, including 18 minutes of work and 4 minutes of recovery; no lifting or added running.
+
+Apply `program/endurance.md`, `program/run-progression.md` and `program/run-return.md`: Friday’s 445 s/mi target comes from the reported 21:30 5K, with initial W1 dose/ceiling 3×6. This is the first Friday exposure, so no prior Friday success/credit or dose increase exists. Tuesday October 27 remains no-count for fast reps at RPE 8 with good recovery; its outcome neither transfers credit nor requires slowing Friday’s independent starting target. No fatigue/return/assessment restriction reduces today’s dose, and Stage A remains unchanged. Actual paces/RPE/recovery are not yet available; no completion, hit/miss, comfortable pair or progression award is created.
+
+Mileage: Tuesday confirmed 4.27 + Friday planned 18 work minutes at 7:25 and 24 easy minutes at 8:30 gives **9.520495703899536 miles** for the week. Conservatively allow the 5-minute warmup extension and 7:20 fast tolerance edge: **4.27 + 18/(440/60) + 29/8.5 = 10.136310160427808 miles**, unrounded <15. No mileage cut; do not add planned miles to the shoe ledger.
+
+Write and decode-check `runs/2026-10-30.txt`/`.workout`: 10-minute warmup, twice (work 6 + recovery 2), final work 6, 10-minute cooldown. Work-only current-pace alerts 7:20–7:30/mi; no easy HR/cadence/power/pace alerts. Both caches show October 30 current-day work, Monday–Thursday done, Friday today, Saturday/Sunday upcoming. Preserve actuals, all 33 lift slots, current local limits and prior Watch files.

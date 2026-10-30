@@ -159,13 +159,13 @@
   "observation": null,
   "reduced_snapshot": null,
   "general_readiness": {
-    "reported_on": "2026-10-28",
-    "reported_at": "2026-10-28T22:33:53-04:00",
+    "reported_on": "2026-10-30",
+    "reported_at": "2026-10-30T00:55:13-04:00",
     "status": "good",
-    "report": "Recovery is fine",
+    "report": "recovery looks good",
     "provenance": "athlete report",
-    "decision_id": 445,
-    "scope": "Current general recovery after Wednesday, reported the same evening while requesting Thursday’s preview.",
+    "decision_id": 448,
+    "scope": "Current general recovery/readiness after Thursday Upper B, reported early Friday. No overnight sleep assessment or new site-specific symptom report supplied.",
     "numeric_metrics": null
   },
   "resolved_gates": [
@@ -184,17 +184,27 @@
     "completion": "reported-with-partial-circuit-dose",
     "lower_ab_response": "No symptoms during or after the bodyweight ab circuit; athlete answer to the during/after question.",
     "achilles_response": null,
-    "next_day_recovery": null,
+    "next_day_recovery": {
+      "reported_on": "2026-10-30",
+      "reported_at": "2026-10-30T00:55:13-04:00",
+      "status": "good",
+      "report": "recovery looks good",
+      "provenance": "athlete report",
+      "decision_id": 448,
+      "scope": "Current general recovery/readiness after Thursday Upper B, reported early Friday. No overnight sleep assessment or new site-specific symptom report supplied."
+    },
     "followup_requested_on": "2026-10-29",
-    "status": "ab-response-tolerated-next-day-recovery-pending",
-    "decision_id": 447,
-    "note": "Follow-up confirms no added weight and no symptoms during/after the ab circuit. Plank hold 120 seconds and leg raises recorded; remaining dose/effort unrecorded. Athlete’s possible full-recovery impression is preserved. Same local evening; next-day recovery still unknown.",
+    "status": "general-recovery-reported-good",
+    "decision_id": 448,
+    "note": "Current general recovery reported good early October 30, after Thursday’s session. Preserve actual report timing; no overnight sleep or new site-specific clearance inferred. Thursday’s bodyweight ab circuit remains explicitly symptom-free, with dose/effort partially unrecorded.",
     "latest_followup": {
-      "reported_on": "2026-10-29",
-      "reported_at": "2026-10-29T20:47:39-04:00",
-      "athlete_report": "No added weights. Abs were no symptoms. I might’ve recovered completely. Just a bunch of random stuff held a 2 minute plank. Did some leg raises",
-      "decision_id": 447,
-      "scope": "Bodyweight circuit details and local ab response; possible full-recovery impression, not a next-day general recovery report."
+      "reported_on": "2026-10-30",
+      "reported_at": "2026-10-30T00:55:13-04:00",
+      "status": "good",
+      "report": "recovery looks good",
+      "provenance": "athlete report",
+      "decision_id": 448,
+      "scope": "Current general recovery/readiness after Thursday Upper B, reported early Friday. No overnight sleep assessment or new site-specific symptom report supplied."
     }
   }
 }

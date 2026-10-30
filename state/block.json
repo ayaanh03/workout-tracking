@@ -6,7 +6,7 @@
   "start_date": "2026-10-25",
   "end_date": "2027-01-03",
   "timezone": "America/New_York",
-  "as_of": "2026-10-29",
+  "as_of": "2026-10-30",
   "activation_status": "active",
   "calendar_week": "W1",
   "calendar_phase": "Ramp",
@@ -23,7 +23,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 447,
+  "last_adjustment_id": 448,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -91,8 +91,8 @@
         "T7"
       ],
       "actual_ref": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
-      "recovery_status": "ab-response-tolerated-next-day-recovery-pending",
-      "review_note": "All 10 non-ab sets meet reps/RIR 3. Ab circuit had no added weight and no symptoms; plank 120 seconds and leg raises confirmed, remaining dose/effort n/r. Bodyweight-only prescription retained; no ordinary progression or stage advancement."
+      "recovery_status": "general-recovery-reported-good",
+      "review_note": "All 10 non-ab sets meet reps/RIR 3. BW ab circuit was symptom-free; plank 120 seconds and leg raises confirmed, remaining dose/effort n/r. Current general recovery reported good early October 30. Bodyweight-only prescription and Stage A retained."
     }
   },
   "planned_start_date": "2026-10-26",
