@@ -163,9 +163,100 @@
     "rpe_cap": 7,
     "temporary_prescription": null,
     "last_successful_normal": null,
-    "last_completed": null,
-    "latest_actual": null,
-    "classification": null,
+    "last_completed": "2026-10-30",
+    "latest_actual": {
+      "date": "2026-10-30",
+      "session_id": "hybrid-2026-10-26-w1-fri-2026-10-30",
+      "prescription_id": "hybrid-2026-10-26-fri-intervals-448",
+      "source": "../history/cardio-log.md#2026-10-30--hybrid-v11-w1-friday-intervals",
+      "provenance": "Three athlete screenshots plus text Rpe 5,6,7, interpreted in work-rep order.",
+      "work_minutes": 18,
+      "format": "3x6",
+      "rep_paces_seconds_per_mile": [
+        447,
+        433,
+        436
+      ],
+      "rep_rpe": [
+        5,
+        6,
+        7
+      ],
+      "final_rep_rpe": 7,
+      "recovery_seconds": [
+        120,
+        120
+      ],
+      "distance_miles": null,
+      "shoe": null,
+      "duration_seconds_from_segments": 2528,
+      "duration_note": "42:08 summed from displayed interval durations including 0:08 open; overall summary duration not supplied.",
+      "segments": [
+        {
+          "segment": "Warmup",
+          "duration_seconds": 600,
+          "displayed_distance": 1.15,
+          "distance_unit": "mi",
+          "pace_seconds_per_mile": 520
+        },
+        {
+          "segment": "Work 1",
+          "duration_seconds": 360,
+          "displayed_distance": 0.8,
+          "distance_unit": "mi",
+          "pace_seconds_per_mile": 447
+        },
+        {
+          "segment": "Recovery 1",
+          "duration_seconds": 120,
+          "displayed_distance": 0.18,
+          "distance_unit": "mi",
+          "pace_seconds_per_mile": 639
+        },
+        {
+          "segment": "Work 2",
+          "duration_seconds": 360,
+          "displayed_distance": 0.83,
+          "distance_unit": "mi",
+          "pace_seconds_per_mile": 433
+        },
+        {
+          "segment": "Recovery 2",
+          "duration_seconds": 120,
+          "displayed_distance": 0.2,
+          "distance_unit": "mi",
+          "pace_seconds_per_mile": 588
+        },
+        {
+          "segment": "Work 3",
+          "duration_seconds": 360,
+          "displayed_distance": 0.82,
+          "distance_unit": "mi",
+          "pace_seconds_per_mile": 436
+        },
+        {
+          "segment": "Cooldown",
+          "duration_seconds": 600,
+          "displayed_distance": 0.97,
+          "distance_unit": "mi",
+          "pace_seconds_per_mile": 615
+        },
+        {
+          "segment": "Open",
+          "duration_seconds": 8,
+          "displayed_distance": 29,
+          "distance_unit": "ft",
+          "pace_seconds_per_mile": 1385
+        }
+      ],
+      "displayed_segment_distance_sum_miles": 4.955492424242424,
+      "distance_note": "Approximately 4.96 miles from rounded displayed segments including 29 feet open; not a confirmed workout total. Summary total and shoe requested.",
+      "surface": null,
+      "recovery_mode": null,
+      "extra_rest_reported": null,
+      "next_day_recovery": null
+    },
+    "classification": "pending",
     "hits": 0,
     "misses": 0,
     "comfortable_pair": [],
@@ -173,7 +264,29 @@
     "poor_recovery_pattern": [],
     "return": null,
     "pending_validation": null,
-    "carried_adjustment": null
+    "carried_adjustment": null,
+    "classification_review": {
+      "decision_id": 449,
+      "status": "pending-next-day-recovery",
+      "pace_offsets_seconds_per_mile": [
+        2,
+        -12,
+        -9
+      ],
+      "effort_cap_exceeded": false,
+      "comfortable_effort_threshold_met": false,
+      "candidate_if_normally_recovered_and_comparable": "no-count",
+      "reason": "Final RPE 7 meets cap 7. Reps 2 and 3 were more than 5 s/mi faster than target at acceptable effort, so no-count exclusion applies. Final effort does not meet Friday’s comfortable threshold of 5; first-rep RPE 5 is not sufficient. Await next-day recovery before final classification.",
+      "followup_requested_on": "2026-10-30"
+    },
+    "next_action": {
+      "decision_id": 449,
+      "action": "hold-normal-prescription-pending-recovery",
+      "pace_seconds_per_mile": 445,
+      "work_minutes": 18,
+      "format": "3x6",
+      "reason": "Full work duration completed within effort cap, with fast-rep no-count candidate. Hold normal 3×6 at 7:25 pending recovery; no pace reduction from this result and no progression credit. W2 also caps Friday at 18 work minutes."
+    }
   },
   "cycling": {
     "wednesday": {

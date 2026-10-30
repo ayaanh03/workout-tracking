@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-30T00:55:13-04:00",
+  "generatedAt": "2026-10-30T18:22:37-04:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W1",
   "phase": "Hybrid v11 — Stage A",
   "rangeStart": "2026-10-26",
   "rangeEnd": "2026-11-01",
-  "summary": "W1, October 26–November 1: Monday–Thursday logged. Current recovery good; Friday today is 3×6 min at 7:25/mi with 2-min recoveries, final RPE ≤7. Stage A and run targets unchanged. Saturday/Sunday upcoming.",
+  "summary": "W1, October 26–November 1: Monday–Friday logged. Friday completed 3×6 at 7:27 / 7:13 / 7:16, RPE 5 / 6 / 7; final cap met, fast-rep no-count candidate pending recovery. Total distance and shoe unconfirmed. Stage A unchanged; Saturday/Sunday upcoming.",
   "days": [
     {
       "date": "2026-10-26",
@@ -40,8 +40,8 @@
       "date": "2026-10-30",
       "day": "Fri",
       "session": "Longer intervals",
-      "note": "10 min easy + 3×6 min at 7:25/mi, two 2-min easy recoveries + 10 min easy; 42 min total. Final RPE ≤7. Watch file available; not yet performed.",
-      "status": "today"
+      "note": "Completed 3×6 min at 7:27 / 7:13 / 7:16, RPE 5 / 6 / 7; two 2-min recoveries. Final cap met; fast reps give no-count candidate pending recovery. Approx. 4.96 mi from rounded segments; total/shoe pending.",
+      "status": "done"
     },
     {
       "date": "2026-10-31",
@@ -59,11 +59,14 @@
     }
   ],
   "runningMileageCheck": {
-    "decisionId": 448,
-    "kind": "recorded-plus-planned-upper-bound",
+    "decisionId": 449,
+    "kind": "confirmed-plus-estimated-actual",
     "recordedMiles": 4.27,
-    "upperMiles": 10.136310160427808,
+    "estimatedUnconfirmedMiles": 4.955492424242424,
+    "estimatedMiles": 9.225492424242423,
+    "upperMiles": null,
     "limitMiles": 15,
-    "assumptions": "Tuesday athlete-confirmed total 4.27 mi plus Friday 3×6 at fast tolerance edge 7:20/mi, up to 15-min warmup, 10-min cooldown and two 2-min recoveries, all easy portions jogged at 8:30/mi. Friday remains planned; walking/slower easy running reduces distance."
+    "status": "friday-total-confirmation-pending",
+    "assumptions": "Tuesday total 4.27 mi confirmed. Friday estimate sums rounded screenshot distances 1.15 + 0.80 + 0.18 + 0.83 + 0.20 + 0.82 + 0.97 mi plus 29 ft open; approximately 4.96 mi, not confirmed summary distance. Weekly estimate approximately 9.23 mi; no further scheduled runs this week."
   }
 }

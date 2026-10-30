@@ -23,7 +23,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 448,
+  "last_adjustment_id": 449,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -93,6 +93,17 @@
       "actual_ref": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
       "recovery_status": "general-recovery-reported-good",
       "review_note": "All 10 non-ab sets meet reps/RIR 3. BW ab circuit was symptom-free; plank 120 seconds and leg raises confirmed, remaining dose/effort n/r. Current general recovery reported good early October 30. Bodyweight-only prescription and Stage A retained."
+    },
+    "2026-10-30": {
+      "calendar_week": "W1",
+      "session": "Friday longer intervals",
+      "status": "completed",
+      "work_minutes": 18,
+      "distance_miles": null,
+      "actual_ref": "../history/cardio-log.md#2026-10-30--hybrid-v11-w1-friday-intervals",
+      "classification": "pending",
+      "recovery_status": "local-response-and-next-day-recovery-pending",
+      "review_note": "3×6 at 7:27/7:13/7:16, RPE 5/6/7; exactly two 2-minute recoveries. Final effort within cap; fast-rep no-count candidate pending recovery. Total distance and shoe unconfirmed."
     }
   },
   "planned_start_date": "2026-10-26",
