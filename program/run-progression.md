@@ -13,17 +13,19 @@ Friday's 24-minute formats are one level: 3 × 8 before W5, 4 × 6 from W6. One 
 
 ## Classification
 
-Classify only after next-day recovery is reported. Full normal work in comparable conditions is required for credit; temporary cuts, return work and assessment workouts earn none.
+Classify only after next-day recovery is reported. Full normal work in comparable conditions is required for credit; temporary cuts, return work and assessment workouts earn none. Athlete directive updated October 30, 2026 (decision #450): faster reps count toward progression; remove the former fast-rep no-count exclusion.
 
 | Result | Conditions / action |
 |---|---|
-| Hit | Every rep within ±5 s/mi of target, no extra rest, final-rep RPE within cap, normal next-day recovery. Clears misses. |
+| Hit | Every rep at target pace or faster, allowing up to 5 s/mi slower (`actual seconds/mile ≤ target + 5`); no extra rest, final-rep RPE within cap, normal next-day recovery. There is no fast-side pace cutoff. Clears misses. |
 | Miss | Otherwise recovered/comparable, but a rep >5 s/mi slow, extra rest, or target exceeds RPE cap. Deliberate slowing of an unsuitable target also counts. Clears hits/comfortable credit. |
-| No-count | Uncertain measurement, materially changed conditions/setup, reps >5 s/mi fast at acceptable effort, poor recovery, shortened/skipped work. Clear counts/comfortable credit; hold progression. Poor recovery invokes [run recovery](run-return.md). |
+| No-count | Uncertain measurement, materially changed conditions/setup, poor recovery, shortened/skipped work. Clear counts/comfortable credit; hold progression. Poor recovery invokes [run recovery](run-return.md). |
 
 Apply exclusions before considering pace. Missing recovery remains pending, never a hit or assumed normal. Use [assessment counter exceptions](run-credit.md).
 
-A **comfortable hit** also has final-rep RPE ≤6 Tuesday / ≤5 Friday. A **comfortable pair** is the two latest consecutive hits, both comfortable, at the same pace, minutes and format. A miss, no-count, prescription reset or non-comfortable hit breaks the pair.
+Faster reps earn the same ordinary hit/comfortable credit as on-target reps when the other requirements pass. They do not offset a rep beyond the slow-side allowance, excessive effort, extra rest or incomplete work. Preserve actual paces separately from the prescribed target; faster execution alone does not reset that target, break a streak, or automatically increase the next prescription. Work-volume, calendar, recovery and progression gates still govern the next dose. A Watch fast-side pace alert is pacing guidance, not a failed progression check.
+
+A **comfortable hit** also has final-rep RPE ≤6 Tuesday / ≤5 Friday. A **comfortable pair** is the two latest consecutive hits, both comfortable, at the same **prescribed target pace**, minutes and format; actual rep paces may be faster. A miss, no-count, prescription reset or non-comfortable hit breaks the pair. Other ordinary hit/miss streaks likewise compare prescribed targets, not identical actual splits.
 
 ## Next normal prescription
 

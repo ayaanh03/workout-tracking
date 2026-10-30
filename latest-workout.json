@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T18:22:37-04:00",
+  "generatedAt": "2026-10-30T19:16:20-04:00",
   "blockId": "hybrid-2026-10-26",
   "prescriptionId": "hybrid-2026-10-26-fri-intervals-448",
   "preview": false,
@@ -12,7 +12,7 @@
     "Friday is the longer interval session. Your good recovery supports the full W1 starting dose: 18 minutes of work at 7:25/mi, with final-rep effort capped at 7/10."
   ],
   "intro": [
-    "Completed 3×6 minutes at 7:27 / 7:13 / 7:16 per mile, with RPE 5 / 6 / 7. Final effort met the cap; reps 2–3 exceeded the fast pace tolerance. Total distance, shoe and recovery review are pending."
+    "Completed 3×6 minutes at 7:27 / 7:13 / 7:16 per mile, RPE 5 / 6 / 7. All reps pass the updated pace rule, and final effort meets the cap. Faster reps now count toward progression; hit confirmation awaits next-day recovery."
   ],
   "lift": null,
   "cardio": {
@@ -91,15 +91,15 @@
     },
     {
       "exercise": "Pace and effort",
-      "previous": "Target 7:25/mi, acceptable pace range 7:20–7:30. Actual reps 7:27 / 7:13 / 7:16 at RPE 5 / 6 / 7.",
-      "decision": "Effort cap met; no-count candidate, with final classification pending next-day recovery.",
-      "reason": "Pace offsets are +2 / −12 / −9 seconds per mile. Reps 2–3 exceed the fast tolerance at acceptable effort. Final RPE 7 also exceeds the comfortable-hit threshold of 5; no hit/miss or comfortable credit awarded."
+      "previous": "Target 7:25/mi with up to 5 seconds slower allowed; faster reps qualify. Actual 7:27 / 7:13 / 7:16 at RPE 5 / 6 / 7.",
+      "decision": "Pace and effort pass. Ordinary hit 1 pending normal next-day recovery.",
+      "reason": "The updated rule accepts every rep at 7:30/mi or faster; all three qualify. Full work is completed and final RPE 7 meets cap 7. Final RPE remains above the separate comfortable-hit threshold of 5."
     },
     {
       "exercise": "Next Friday target",
-      "previous": "Full starting dose completed with final effort 7/10 and faster-than-prescribed closing reps.",
-      "decision": "Hold normal 3×6 at 7:25/mi pending recovery review.",
-      "reason": "No effort-driven slowdown is indicated. Fast-rep no-count does not earn progression, and W2 still caps Friday at 18 minutes."
+      "previous": "Friday’s actual pace and effort qualify under the revised rule; next-day recovery is still unreported.",
+      "decision": "Keep next Friday at 3×6 at 7:25/mi under the W2 limits.",
+      "reason": "W2 caps Friday at 18 minutes and permits no faster target even after a hit. Faster performance is retained as qualifying evidence; it is not a reason to cancel credit or slow the prescription."
     },
     {
       "exercise": "Recovery",
@@ -112,6 +112,12 @@
       "previous": "Tuesday confirmed 4.27 miles. Friday’s rounded displayed distances total about 4.96 miles including 29 feet open; summary total and shoe not supplied.",
       "decision": "Show an estimated weekly total around 9.23 miles; leave shoe mileage unchanged until confirmed.",
       "reason": "The estimate is based on reported segments, not a precise workout total. Do not reuse Friday’s old planned distance or add unconfirmed mileage to the shoe ledger."
+    },
+    {
+      "exercise": "Tuesday reassessment",
+      "previous": "October 27: 6:56 / 6:41 / 6:28 against 6:50, final RPE 8, good next-day recovery.",
+      "decision": "Faster reps now pass; first rep gives one pace miss. Hold 3×4 at 6:50/mi.",
+      "reason": "The unchanged slow cutoff is 6:55. The first rep was 1 second beyond it; faster later reps do not offset that separate miss. One miss does not trigger slowing, and W2 limits remain."
     }
   ],
   "currentLoads": [

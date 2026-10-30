@@ -117,9 +117,9 @@
         "decision_id": 441
       }
     },
-    "classification": "no-count",
+    "classification": "miss",
     "hits": 0,
-    "misses": 0,
+    "misses": 1,
     "comfortable_pair": [],
     "next_day_recovery": {
       "reported_on": "2026-10-28",
@@ -134,7 +134,7 @@
     "pending_validation": null,
     "carried_adjustment": null,
     "classification_review": {
-      "decision_id": 442,
+      "decision_id": 450,
       "status": "classified",
       "pace_offsets_seconds_per_mile": [
         6,
@@ -142,18 +142,26 @@
         -22
       ],
       "effort_cap_exceeded": false,
-      "reason": "Great next-day general recovery reported October 28. Final RPE 8 meets cap; reps 2 and 3 were more than 5 s/mi fast at acceptable effort. The no-count exclusion applies before the first rep’s slight slow miss. No hit, miss, comfortable credit or successful-normal record awarded.",
+      "reason": "Reassessed under the athlete’s faster-pace credit directive. Reps 2 and 3 now pass regardless of being faster. Rep 1 at 6:56 is 6 s/mi slower than the 6:50 target, exceeding the unchanged 5-second slow allowance by 1 second. With reported good recovery and final RPE 8 within cap, this is miss 1 for the slow first rep, not a fast-pace exclusion. No second miss or slowdown.",
       "followup_requested_on": "2026-10-27",
-      "classified_on": "2026-10-28",
-      "classification": "no-count"
+      "classified_on": "2026-10-30",
+      "classification": "miss",
+      "previous_recorded_classification": "no-count",
+      "rule_revision": "2026-10-30-faster-pace-credit",
+      "rep_pace_checks_passed": [
+        false,
+        true,
+        true
+      ],
+      "comfortable_effort_threshold_met": false
     },
     "next_action": {
-      "decision_id": 442,
+      "decision_id": 450,
       "action": "hold-normal-prescription",
       "pace_seconds_per_mile": 410,
       "work_minutes": 12,
       "format": "3x4",
-      "reason": "Next-day general recovery is good. Fast-rep no-count earns no progression: hold 3×4 at 6:50/mi, also the W1/W2 ceiling. No slowdown follows from RPE 8 alone. Recheck readiness when prescribing the next run."
+      "reason": "Hold normal 3×4 at 6:50/mi: reassessment gives one pace miss from the first rep at 6:56, while faster reps count. One miss does not trigger slowing. W2 caps Tuesday at 12 work minutes and permits no faster targets; no immediate increase."
     }
   },
   "friday": {
@@ -266,7 +274,7 @@
     "pending_validation": null,
     "carried_adjustment": null,
     "classification_review": {
-      "decision_id": 449,
+      "decision_id": 450,
       "status": "pending-next-day-recovery",
       "pace_offsets_seconds_per_mile": [
         2,
@@ -275,17 +283,25 @@
       ],
       "effort_cap_exceeded": false,
       "comfortable_effort_threshold_met": false,
-      "candidate_if_normally_recovered_and_comparable": "no-count",
-      "reason": "Final RPE 7 meets cap 7. Reps 2 and 3 were more than 5 s/mi faster than target at acceptable effort, so no-count exclusion applies. Final effort does not meet Friday’s comfortable threshold of 5; first-rep RPE 5 is not sufficient. Await next-day recovery before final classification.",
-      "followup_requested_on": "2026-10-30"
+      "candidate_if_normally_recovered_and_comparable": "hit",
+      "reason": "All three reps at 7:27 / 7:13 / 7:16 meet the revised pace requirement of 7:30/mi or faster. All 18 work minutes and the two planned recoveries are reported; final RPE 7 meets cap 7. Faster reps count normally. Ordinary hit 1 awaits normal next-day recovery; no credit is discarded for fast pacing. Final RPE 7 is above the separate comfortable threshold of 5.",
+      "followup_requested_on": "2026-10-30",
+      "rule_revision": "2026-10-30-faster-pace-credit",
+      "previous_candidate": "no-count",
+      "rep_pace_checks_passed": [
+        true,
+        true,
+        true
+      ],
+      "performance_status": "pace-and-effort-qualified"
     },
     "next_action": {
-      "decision_id": 449,
+      "decision_id": 450,
       "action": "hold-normal-prescription-pending-recovery",
       "pace_seconds_per_mile": 445,
       "work_minutes": 18,
       "format": "3x6",
-      "reason": "Full work duration completed within effort cap, with fast-rep no-count candidate. Hold normal 3×6 at 7:25 pending recovery; no pace reduction from this result and no progression credit. W2 also caps Friday at 18 work minutes."
+      "reason": "Friday pace and effort qualify for ordinary hit 1 once normal next-day recovery is confirmed. Hold 3×6 at 7:25 for the next W2 exposure because the calendar caps Friday at 18 minutes and permits no faster target. The hold is not a fast-rep penalty; no effort-based slowdown is indicated."
     }
   },
   "cycling": {

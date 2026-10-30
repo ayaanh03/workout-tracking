@@ -23,7 +23,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 449,
+  "last_adjustment_id": 450,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -59,9 +59,9 @@
       "work_minutes": 12,
       "distance_miles": 4.27,
       "actual_ref": "../history/cardio-log.md#2026-10-27--hybrid-v11-w1-tuesday-intervals",
-      "classification": "no-count",
+      "classification": "miss",
       "recovery_status": "next-day-general-recovery-reported-good",
-      "review_note": "Great recovery reported October 28. Final RPE 8 meets cap, but reps 2–3 exceeded the fast tolerance: no-count, with no progression credit. Local symptom reports remain dated evidence."
+      "review_note": "Reassessed under faster-reps-count directive #450: reps 2–3 pass. First rep 6:56 exceeds the 6:55 slow cutoff by 1 second, so this is miss 1 with good recovery and RPE 8. One miss does not slow the target."
     },
     "2026-10-28": {
       "calendar_week": "W1",
@@ -103,7 +103,7 @@
       "actual_ref": "../history/cardio-log.md#2026-10-30--hybrid-v11-w1-friday-intervals",
       "classification": "pending",
       "recovery_status": "local-response-and-next-day-recovery-pending",
-      "review_note": "3×6 at 7:27/7:13/7:16, RPE 5/6/7; exactly two 2-minute recoveries. Final effort within cap; fast-rep no-count candidate pending recovery. Total distance and shoe unconfirmed."
+      "review_note": "3×6 at 7:27/7:13/7:16, RPE 5/6/7. Revised directive counts faster reps: all pace/effort checks pass; ordinary hit candidate pending next-day recovery. Total distance and shoe unconfirmed; no comfortable hit at final RPE 7."
     }
   },
   "planned_start_date": "2026-10-26",

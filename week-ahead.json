@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-30T18:22:37-04:00",
+  "generatedAt": "2026-10-30T19:16:20-04:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W1",
   "phase": "Hybrid v11 — Stage A",
   "rangeStart": "2026-10-26",
   "rangeEnd": "2026-11-01",
-  "summary": "W1, October 26–November 1: Monday–Friday logged. Friday completed 3×6 at 7:27 / 7:13 / 7:16, RPE 5 / 6 / 7; final cap met, fast-rep no-count candidate pending recovery. Total distance and shoe unconfirmed. Stage A unchanged; Saturday/Sunday upcoming.",
+  "summary": "W1, October 26–November 1: Monday–Friday logged. Faster reps now count toward progression. Friday passes pace/effort checks and awaits recovery to confirm hit 1. Tuesday is miss 1 for its slightly slow first rep. W2 targets and Stage A remain unchanged.",
   "days": [
     {
       "date": "2026-10-26",
@@ -19,7 +19,7 @@
       "date": "2026-10-27",
       "day": "Tue",
       "session": "Intervals",
-      "note": "Completed 3×4 min at 6:56 / 6:41 / 6:28, final RPE 8; 4.27 mi in Vomero Plus. Great next-day recovery reported October 28. No-count for fast reps; no progression credit.",
+      "note": "Completed 3×4 at 6:56 / 6:41 / 6:28, final RPE 8; good recovery. Revised rule accepts the faster reps. First rep is 1 second beyond the 6:55 slow cutoff: miss 1; hold 3×4 at 6:50.",
       "status": "done"
     },
     {
@@ -40,7 +40,7 @@
       "date": "2026-10-30",
       "day": "Fri",
       "session": "Longer intervals",
-      "note": "Completed 3×6 min at 7:27 / 7:13 / 7:16, RPE 5 / 6 / 7; two 2-min recoveries. Final cap met; fast reps give no-count candidate pending recovery. Approx. 4.96 mi from rounded segments; total/shoe pending.",
+      "note": "Completed 3×6 at 7:27 / 7:13 / 7:16, RPE 5 / 6 / 7. All pace/effort checks pass under faster-reps-count rule; hit 1 pending next-day recovery. Approx. 4.96 mi from segments; exact total/shoe pending.",
       "status": "done"
     },
     {

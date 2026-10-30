@@ -56,7 +56,7 @@ For actual outdoor-run briefs use `tools/workoutgen.py` (its docstring defines s
 
 - Match every goal to the brief; choose a concrete allowed cooldown duration and include it in planned mileage.
 - Encode recoveries **between** reps only: N−1 work/recovery pairs, then final work.
-- Work alerts may use current target ±5 s/mi; initially Tuesday 6:45–6:55 and Friday 7:20–7:30/mi. Effort caps still govern.
+- Work alerts may use current target ±5 s/mi; initially Tuesday 6:45–6:55 and Friday 7:20–7:30/mi. These are pacing cues: fast-side alerts do not disqualify progression. Qualification uses the one-sided pace rule in `program/run-progression.md`; effort caps still govern. Preserve already-prescribed Watch files when reviewing actuals.
 - Easy running is conversational, without mandatory legacy pace alerts. Recoveries have no pace alert. Add no HR/cadence/power targets, strides or sub-minute work.
 - A test is a 5 km work segment; never force the aspirational goal pace as an alert.
 
