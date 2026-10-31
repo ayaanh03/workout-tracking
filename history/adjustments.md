@@ -245,3 +245,22 @@ Append this correction rather than rewriting prior dated decisions. Replace supe
 Reclassify Tuesday **miss → ordinary hit 1**, **misses 1→0**. Reps 2–3 already pass under #450; full 3×4 work and the two prescribed 3-minute recoveries were recorded, final RPE 8 meets cap 8, and good next-day recovery was reported October 28. Establish `last_successful_normal` as the **prescribed 3×4 at 6:50/mi, 12 work minutes**, dated October 27 with source session and override note; do not use an actual split or average as its pace. Final RPE 8 exceeds Tuesday’s comfortable threshold of 6, so no comfortable pair is earned.
 
 Progression check under `program/run-progression.md`: the ordinary hit now counts normally, but **W2 remains 3×4 at 6:50/mi** because its 12-minute ceiling and no-faster-target restriction still apply. No immediate pace/minute increase. Friday remains an independent ordinary-hit candidate pending next-day recovery; all Friday actuals/counters, lifting/bike/recovery state, shoe mileage and Watch files stay unchanged. Update Tuesday’s block outcome and both dashboard views; append this correction without rewriting prior history.
+
+## 2026-10-31 — first Saturday delts and arms B
+
+452. Athlete requests today’s workout. Local date is **Saturday October 31, W1**. Generate **Stage A — Delts/arms B + bike**, prescription ID `hybrid-2026-10-26-sat-delts-arms-b-452`. No new recovery report accompanies the request: preserve October 30’s pre-run readiness as dated evidence and Friday’s pending post-run/local/next-day response. `program/adjustments.md#missing-evidence` holds dependent advancement rather than inventing poor recovery or blocking the current appropriate dose; the existing unanswered follow-up is not repeated.
+
+| Slot | Exercise | Sets × reps | Starting load | RIR | Rest |
+|---|---|---|---|---|---|
+| S1 | DB lateral raise | 2×12–20 | 35 lb | 3 | 2 min |
+| S2 | Incline DB curl | 1×8–12 | 20 lb | 3 | 2 min |
+| S3 | Overhead cable triceps extension | 2×10–15 | 35 lb | 3 | 2 min |
+| S4 | Reverse pec deck | 1×12–20 | 145 lb | 3 | 2 min |
+
+**Six working sets. After lifting: 20 minutes easy cycling at RPE 3/10 (2–4 acceptable), comfortable full-sentence conversation.** Use the same equipment and load notation as each reference; recalibrate if the setup differs or the rep/RIR target cannot be met. No Saturday calves/abs or Stage-A forearms; no outdoor run or Watch file.
+
+Load review under `program/saturday.md`, `program/ramp-and-return.md` and `program/lift-progression.md`: **S1 40 lb inherited → 35 lb prescribed**, because old Saturday October 17’s 40×12/12 at RIR 2/1 is too hard for the new 3-RIR target, while October 26/28/29’s 35×15/12 at RIR 3 supports the lower starting load. **S2** uses Monday October 26’s 20×12 at RIR 3; **S3** uses that Monday’s 35×10/10 at RIR 3; **S4** uses Wednesday October 28’s confirmed 145×12 at RIR 3. These same-lift results select provisional first-Saturday loads only. Keep S1’s carried baseline and S2–S4’s uninitialized actuals in state until reported; no cross-slot actuals, exposure counts, anchors or qualification transfer. No load increase from ceiling reps during Stage A.
+
+Bike remains the W1 **20-minute** dose under `program/endurance.md#cycling`. Wednesday’s actual 20:05/displayed effort 4 is a reference, not an earned duration or power target. No Saturday completion/tolerance is claimed. Stage A remains unchanged pending a completed manageable week; current ab/Achilles restrictions and unknown responses persist without new clearance.
+
+Publish both caches with the same actual generation timestamp: Monday–Friday done, Saturday today, Sunday upcoming. Preserve Tuesday hit 1/misses 0 and the #451 tracking exception, Friday’s pending hit candidate, all existing actuals and independent lift/bike records. Running mileage remains Tuesday confirmed 4.27 plus Friday approximate 4.96 (= about 9.23), pending Friday total/shoe confirmation; cycling adds no running/shoe miles. No new completed session is created.

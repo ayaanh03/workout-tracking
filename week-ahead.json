@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-30T19:51:40-04:00",
+  "generatedAt": "2026-10-31T12:08:27-04:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W1",
   "phase": "Hybrid v11 — Stage A",
   "rangeStart": "2026-10-26",
   "rangeEnd": "2026-11-01",
-  "summary": "W1, October 26–November 1: Monday–Friday logged. Faster reps count toward progression. Tuesday is ordinary hit 1 after your first-rep tracking correction. Friday passes pace/effort checks and awaits recovery to confirm hit 1. W2 targets and Stage A remain unchanged.",
+  "summary": "W1, October 26–November 1: Monday–Friday logged. Today: six Stage-A delts/arms sets, then 20 minutes easy cycling. Tuesday is hit 1; Friday’s qualifying pace/effort awaits recovery confirmation. Stage A and local restrictions remain unchanged.",
   "days": [
     {
       "date": "2026-10-26",
@@ -47,8 +47,8 @@
       "date": "2026-10-31",
       "day": "Sat",
       "session": "Delts/arms B + bike",
-      "note": "6 sets; no forearms yet; then 20 min easy bike.",
-      "status": "upcoming"
+      "note": "6 sets at RIR 3: lateral 35 lb 2×12–20, incline curl 20 lb 1×8–12, overhead cable extension 35 lb 2×10–15, reverse pec deck 145 lb 1×12–20. Then 20 min easy bike; no forearms yet.",
+      "status": "today"
     },
     {
       "date": "2026-11-01",
