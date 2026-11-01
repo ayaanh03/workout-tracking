@@ -23,7 +23,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 456,
+  "last_adjustment_id": 457,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -130,8 +130,8 @@
       "prescribed_working_sets": 11,
       "unresolved_slots": [],
       "actual_ref": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
-      "recovery_status": "ab-soreness-review-and-achilles-response-pending",
-      "review_note": "All 11 sets meet rep ranges with at least RIR 3; nine sets at RIR 3 and two at RIR 5. Leg curl actual 85×12 at RIR 5 then 100×10 at RIR 3 calibrates next starting load to 100. Abs fine with very minor circuit soreness; graded loading review requested, clarification pending. No next-day or manageable-week conclusion."
+      "recovery_status": "local-response-clarified-ab-loading-deferred",
+      "review_note": "All 11 sets met rep ranges with at least RIR 3; leg curl calibrated to next starting load 100. Achilles fine. Minor original-site ab strain sensation faded after a few reps; added weight deferred, BW only if comfortable. Next-day recovery/manageable-week review pending."
     }
   },
   "planned_start_date": "2026-10-26",
@@ -158,8 +158,9 @@
       "opening_session_included": false,
       "manageable": null,
       "status": "pending-final-recovery-and-manageable-week-review",
-      "decision_id": 456,
-      "source": "../history/weekly-summary.md#2026-10-262026-11-01--w1-outcomes"
+      "decision_id": 457,
+      "source": "../history/weekly-summary.md#2026-10-262026-11-01--w1-outcomes",
+      "local_response_note": "Sunday Achilles comfortable; transient original-site ab symptoms clarified. Added ab loading deferred; final recovery and manageable-week review still pending."
     }
   }
 }

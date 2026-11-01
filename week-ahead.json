@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-01T14:10:01-05:00",
+  "generatedAt": "2026-11-01T14:15:26-05:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W1",
   "phase": "Hybrid v11 — Stage A",
   "rangeStart": "2026-10-26",
   "rangeEnd": "2026-11-01",
-  "summary": "W1, October 26–November 1: all scheduled sessions logged. 45 countable lifting sets plus Thursday’s BW ab circuit of unknown dose. Sunday completed 11 sets; leg curl recalibrated to 100 lb. Ab-loading review and final recovery/manageability remain pending; Stage A retained.",
+  "summary": "W1, October 26–November 1: all scheduled sessions logged. 45 countable lifting sets plus Thursday’s BW circuit of unknown dose. Sunday Achilles was fine; added ab weight is deferred after transient original-site symptoms. Stage A retained pending final recovery/manageability.",
   "days": [
     {
       "date": "2026-10-26",
@@ -54,7 +54,7 @@
       "date": "2026-11-01",
       "day": "Sun",
       "session": "Legs, bodyweight abs + calves",
-      "note": "11 sets logged: BW crunch 15/15, calves 365×12/15, hack 95×6/7, curl 85×12 RIR 5 then 100×10 RIR 3, extension 100×15/15 RIR 3/5, back extension 25×12. Other sets RIR 3. Minor ab soreness/loading review pending.",
+      "note": "11 sets logged: BW crunch 15/15, calves 365×12/15, hack 95×6/7, curl 85×12 RIR 5 then 100×10 RIR 3, extension 100×15/15 RIR 3/5, back extension 25×12. Other sets RIR 3. Achilles fine; original-site ab sensation faded after a few reps. Added weight deferred.",
       "status": "done"
     }
   ],

@@ -4,14 +4,14 @@
   "local_restrictions": [
     {
       "id": "left-lower-ab",
-      "status": "bodyweight-tolerated-mild-soreness-loading-review-pending",
+      "status": "original-site-symptoms-bodyweight-only",
       "last_reported_on": "2026-11-01",
-      "report": "Abs are fine, very minor soreness from the ab circuit should go away. Maybe reintroduce weights?",
+      "report": "Achilles was fine. Abs also seemed ordinary. Minor strain on the og site but gone after a few reps",
       "omitted_slots": [],
       "clearance": null,
       "source": "../history/injury-log.md",
       "reviewed_on": "2026-11-01",
-      "decision_id": 456,
+      "decision_id": 457,
       "slot_overrides": {
         "M6": {
           "exercise": "Decline crunch",
@@ -41,8 +41,8 @@
           "rest_seconds": 120
         }
       },
-      "response_status": "bodyweight-completed-with-minor-soreness-reported",
-      "progression_limit": "No added weight, extra sets or harder baseline ab exercise until an explicit loading/restoration review authorizes it; tolerated bodyweight work alone does not clear the restriction. Reduce or omit if the strain is aggravated.",
+      "response_status": "transient-original-site-symptoms-reported",
+      "progression_limit": "No added weight, extra sets or baseline cable/hanging-raise restoration while original-site symptoms remain. Bodyweight work is permitted only if comfortable; stop or reduce aggravating work rather than continuing until the sensation fades. Reconsider a small loaded trial after a BW exposure is comfortable during/after and the next morning, with a fresh loading review.",
       "last_exposure": {
         "date": "2026-11-01",
         "slot": "L1 temporary substitute",
@@ -59,43 +59,54 @@
           3,
           3
         ],
-        "symptom_response": "Athlete says abs are fine, with very minor soreness attributed to the earlier ab circuit; original-strain pain/pulling distinction requested once."
+        "symptom_response": "Minor strain sensation at the original ab site during the first few reps, then gone; athlete also describes soreness as ordinary-feeling."
       },
       "last_tolerated_exposure": {
-        "date": "2026-11-01",
-        "slot": "L1 temporary substitute",
-        "exercise": "Decline crunch — bodyweight",
-        "source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
+        "date": "2026-10-29",
+        "slot": "T7 replacement",
+        "exercise": "Ab circuit",
+        "source": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
         "load": "BW",
+        "sets": null,
+        "reps_or_duration": "One reported 120-second plank hold; leg-raise and total circuit dose n/r.",
+        "rir": null,
+        "symptom_response": "No symptoms during or after the bodyweight ab circuit; athlete answer to the during/after question.",
         "external_load_lb": 0,
-        "sets": 2,
-        "reps": [
-          15,
-          15
-        ],
-        "rir": [
-          3,
-          3
-        ],
-        "symptom_response": "Athlete says abs are fine, with very minor soreness attributed to the earlier ab circuit; original-strain pain/pulling distinction requested once."
+        "exercises": [
+          {
+            "exercise": "Plank",
+            "reported_holds_seconds": [
+              120
+            ],
+            "total_sets": null,
+            "rir": null
+          },
+          {
+            "exercise": "Leg raises",
+            "variant": null,
+            "sets": null,
+            "reps": null,
+            "rir": null
+          }
+        ]
       },
       "recovery_impression": "I might’ve recovered completely.",
       "latest_symptom_report": {
         "reported_on": "2026-11-01",
-        "report": "Abs are fine, very minor soreness from the ab circuit should go away. Maybe reintroduce weights?",
+        "report": "Achilles was fine. Abs also seemed ordinary. Minor strain on the og site but gone after a few reps",
         "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
-        "decision_id": 456,
-        "scope": "Today’s BW crunches completed; athlete attributes very minor soreness to the earlier circuit. Specific original-strain symptom clarification remains pending."
+        "decision_id": 457,
+        "scope": "Clarifies Sunday during/after symptom question: Achilles comfortable; athlete describes ordinary-feeling soreness plus a minor original-site strain sensation that faded after a few reps. Not a new injury diagnosis or next-day recovery report."
       },
       "loading_review": {
-        "decision_id": 456,
+        "decision_id": 457,
         "requested_on": "2026-11-01",
         "athlete_request": "Maybe reintroduce weights?",
-        "status": "pending-soreness-clarification",
-        "active_prescription": "Existing bodyweight slot overrides remain active.",
+        "status": "deferred-original-site-symptoms",
+        "active_prescription": "Bodyweight overrides only when comfortable; defer all added loading. Stop/reduce/omit work that reproduces original-site symptoms.",
         "proposed_trial": {
-          "status": "proposed-conditional-not-cleared",
-          "scope": "Next ab exposure only, expected Monday M6; do not apply automatically to all ab slots.",
+          "status": "deferred-not-authorized",
+          "scope": "Not scheduled for Monday or any other slot. Retained as a possible future trial only after symptom-free BW tolerance and a fresh review.",
           "exercise": "Decline crunch",
           "sets": [
             {
@@ -116,27 +127,39 @@
             "Soreness settled by the next exposure, with no worse response the next morning."
           ],
           "stop_or_rollback": "Stop the loaded trial if pain or pulling returns. Use bodyweight only if comfortable; omit aggravating work.",
-          "progression_gate": "Do not repeat or increase added load until the trial’s during/after and next-morning response is acceptable. No restoration of baseline cable/hanging raises or extra sets."
+          "progression_gate": "Do not repeat or increase added load until the trial’s during/after and next-morning response is acceptable. No restoration of baseline cable/hanging raises or extra sets.",
+          "deferred_on": "2026-11-01",
+          "deferred_decision_id": 457,
+          "deferral_reason": "The athlete reports a minor original-site strain sensation in the first few reps, so the no-original-site-symptom prerequisite is not met. Fading after a few reps does not establish tolerance for added weight."
         },
-        "followup_requested_on": "2026-11-01"
-      }
+        "followup_requested_on": "2026-11-01",
+        "reviewed_on": "2026-11-01",
+        "clarification": {
+          "reported_on": "2026-11-01",
+          "report": "Achilles was fine. Abs also seemed ordinary. Minor strain on the og site but gone after a few reps",
+          "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
+          "decision_id": 457,
+          "scope": "Clarifies Sunday during/after symptom question: Achilles comfortable; athlete describes ordinary-feeling soreness plus a minor original-site strain sensation that faded after a few reps. Not a new injury diagnosis or next-day recovery report."
+        }
+      },
+      "symptom_action": "Keep BW only if comfortable. If original-site pain or pulling recurs, stop the set and reduce or omit the aggravating movement; do not push through to warm it away."
     },
     {
       "id": "left-achilles",
-      "status": "current-calf-exposure-response-pending",
+      "status": "latest-calf-exposure-symptom-free",
       "last_explicit_current_report": {
-        "date": "2026-10-31",
-        "report": "No Achilles or ab issues",
-        "session_id": "hybrid-2026-10-26-w1-sat-2026-10-31",
-        "scope": "No Achilles symptoms during or after Saturday’s lifting/bike; no calf sets performed.",
-        "decision_id": 454
+        "date": "2026-11-01",
+        "report": "Achilles was fine.",
+        "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
+        "scope": "Answer to Sunday during/after Achilles question following leg-press calves 365×12/15.",
+        "decision_id": 457
       },
       "legacy_record": "2026-10-12 clean label was inferred by old no-news-is-clean rule",
       "affected_slots": [
         "WE5",
         "L2"
       ],
-      "action": "November 1 calves 365×12/15 at RIR 3 completed; current during/after Achilles response requested once and pending. Preserve October 31’s symptom-free lifting/bike report and October 25’s explicit tolerated calf response. Hold the appropriate calf load; no inferred clearance or worsening.",
+      "action": "November 1 leg-press calves 365×12/15 at RIR 3 were comfortable per athlete follow-up. Hold 365 lb during Stage A; no load increase, later-run clearance or next-day recovery is inferred.",
       "source": "baseline.md",
       "general_readiness_report": {
         "date": "2026-10-26",
@@ -156,20 +179,26 @@
           3
         ],
         "source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
-        "symptom_response": null
+        "symptom_response": "Achilles was fine during and after Sunday’s session."
       },
       "latest_followup": {
-        "reported_on": "2026-10-31",
-        "report": "No Achilles or ab issues",
-        "status": "no-symptoms-during-or-after",
-        "session_id": "hybrid-2026-10-26-w1-sat-2026-10-31",
-        "decision_id": 454,
-        "scope": "Answers the Saturday during/after symptom question. No new ab or calf sets, next-day general recovery or full injury clearance is claimed."
+        "reported_on": "2026-11-01",
+        "report": "Achilles was fine. Abs also seemed ordinary. Minor strain on the og site but gone after a few reps",
+        "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
+        "decision_id": 457,
+        "scope": "Clarifies Sunday during/after symptom question: Achilles comfortable; athlete describes ordinary-feeling soreness plus a minor original-site strain sensation that faded after a few reps. Not a new injury diagnosis or next-day recovery report."
       },
       "last_tolerated_calf_response": {
-        "date": "2026-10-25",
-        "report": "Felt fine during and after leg-press calves.",
-        "decision_id": 435
+        "date": "2026-11-01",
+        "report": "Achilles was fine.",
+        "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
+        "slot": "L2",
+        "load_lb": 365,
+        "reps": [
+          12,
+          15
+        ],
+        "decision_id": 457
       }
     }
   ],
@@ -177,10 +206,10 @@
     {
       "id": "ab-loading-review",
       "reported_on": "2026-10-24",
-      "status": "pending-soreness-clarification",
-      "blocks": "Added load, extra sets or baseline cable/hanging raises remain blocked pending the explicit graded-loading review; BW decline crunch remains permitted. Proposed 5 lb single-set trial is conditional, not cleared.",
+      "status": "deferred-original-site-symptoms",
+      "blocks": "Added ab load, extra sets and baseline exercise restoration remain blocked. Specific symptom clarification is resolved; reassess after comfortable BW work during/after and the next morning. Stop or reduce symptom-provoking work.",
       "review_requested_on": "2026-11-01",
-      "decision_id": 456
+      "decision_id": 457
     }
   ],
   "global_fatigue": null,
@@ -210,13 +239,20 @@
     "date": "2026-11-01",
     "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
     "completion": "reported",
-    "lower_ab_response": "Abs are fine, very minor soreness from the ab circuit should go away. Maybe reintroduce weights?",
-    "achilles_response": null,
+    "lower_ab_response": "Minor strain sensation at the original ab site during the first few reps, then gone; athlete also describes soreness as ordinary-feeling.",
+    "achilles_response": "Achilles was fine during and after Sunday’s session.",
     "next_day_recovery": null,
     "followup_requested_on": "2026-11-01",
-    "status": "ab-soreness-review-and-achilles-response-pending",
-    "decision_id": 456,
-    "note": "Original-strain symptom distinction and Achilles response requested once. Morning good recovery preceded this session; Sunday next-day response and completed-week manageability are not established."
+    "status": "local-response-clarified-ab-loading-deferred",
+    "decision_id": 457,
+    "note": "Sunday local response is now clarified: Achilles comfortable, transient original-site ab sensation. Added-load trial deferred; BW work only if comfortable. Next-day recovery and completed-week manageability remain unreported.",
+    "latest_followup": {
+      "reported_on": "2026-11-01",
+      "report": "Achilles was fine. Abs also seemed ordinary. Minor strain on the og site but gone after a few reps",
+      "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
+      "decision_id": 457,
+      "scope": "Clarifies Sunday during/after symptom question: Achilles comfortable; athlete describes ordinary-feeling soreness plus a minor original-site strain sensation that faded after a few reps. Not a new injury diagnosis or next-day recovery report."
+    }
   },
   "prior_pending_post_sessions": [
     {

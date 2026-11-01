@@ -947,11 +947,11 @@
         },
         "new_exposure_count": 2,
         "qualifying_exposures": 0,
-        "note": "Temporary BW decline-crunch actual only; baseline hanging leg raise remains uninitialized. Athlete says abs are fine with very minor soreness attributed to the earlier circuit. Loading review pending clarification; no added load performed.",
+        "note": "November 1 BW×15/15 at RIR 3 preserved. Follow-up reports a minor original-site strain sensation that faded after a few reps; no symptom-free or loaded exposure is claimed. Baseline hanging raise remains uninitialized.",
         "next_action": {
-          "decision_id": 456,
-          "action": "hold-bodyweight-pending-loading-review",
-          "reason": "Preserve BW and the two-set ceiling while distinguishing ordinary soreness from original strain symptoms. A small future loaded trial is proposed, not yet cleared."
+          "decision_id": 457,
+          "action": "defer-added-load-bodyweight-only-if-comfortable",
+          "reason": "Original-site symptoms were reported, so defer the 5 lb proposal. BW only if comfortable; stop or reduce work if pain/pulling recurs. Reconsider loading after symptom-free during/after and next-morning response, with fresh review."
         }
       }
     },

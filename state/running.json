@@ -409,14 +409,21 @@
         },
         "subsequent_lifting_running_tolerance": {
           "reviewed_on": "2026-11-01",
-          "decision_id": 456,
-          "status": "lifting-performance-acceptable-running-and-local-followup-pending",
+          "decision_id": 457,
+          "status": "lifting-performance-acceptable-ab-response-and-running-tolerance-unresolved",
           "lifting_session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
           "lifting_source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
           "evidence": "All 11 Sunday sets meet ranges at RIR 3 or more. Compared with October 25, calf and hack reps improved; no demonstrated leg-performance decline. Leg curl recalibrated upward to 100 lb.",
-          "achilles_response": null,
-          "ab_response": "Abs fine with very minor circuit soreness; clarification pending.",
-          "subsequent_run_response": null
+          "achilles_response": "Sunday Achilles response comfortable per athlete follow-up.",
+          "ab_response": "Minor strain sensation at the original ab site during the first few reps, then gone; athlete also describes soreness as ordinary-feeling.",
+          "subsequent_run_response": null,
+          "local_followup": {
+            "reported_on": "2026-11-01",
+            "report": "Achilles was fine. Abs also seemed ordinary. Minor strain on the og site but gone after a few reps",
+            "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
+            "decision_id": 457,
+            "scope": "Clarifies Sunday during/after symptom question: Achilles comfortable; athlete describes ordinary-feeling soreness plus a minor original-site strain sensation that faded after a few reps. Not a new injury diagnosis or next-day recovery report."
+          }
         },
         "symptom_followup": {
           "reported_on": "2026-10-31",
@@ -428,13 +435,13 @@
         }
       },
       "pending_validation": {
-        "decision_id": 456,
-        "status": "pending-local-followup-and-subsequent-running-tolerance",
+        "decision_id": 457,
+        "status": "pending-ab-response-settling-and-subsequent-running-tolerance",
         "followup_requested_on": "2026-10-31",
-        "reason": "Sunday leg-performance evidence is now recorded and acceptable; no lifting-performance decline is demonstrated after Saturday bike. Current Achilles/soreness clarification and later running response remain pending. Hold 20 minutes; no duration increase."
+        "reason": "Sunday lifting performance and Achilles response are acceptable. Transient original-site ab symptoms during crunches are now reported; do not attribute them to cycling. Later ab response and subsequent running tolerance remain unvalidated; no duration increase."
       },
       "next_action": {
-        "decision_id": 456,
+        "decision_id": 457,
         "action": "hold-planned-duration-pending-tolerance",
         "minutes": 20,
         "target_rpe": 3,
@@ -442,7 +449,7 @@
           2,
           4
         ],
-        "reason": "Hold the W1/W2 20-minute bike dose. Saturday next-day recovery and Sunday lifting performance are acceptable. Current Achilles/soreness clarification and later running response remain pending before duration-increase validation."
+        "reason": "Keep the W1/W2 planned 20-minute bike dose if comfortable. Saturday recovery and Sunday leg performance/Achilles response support holding the dose; later running tolerance and ab response still need review before increases. No evidence establishes cycling as the cause of ab symptoms."
       }
     }
   }

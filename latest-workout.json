@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T14:10:01-05:00",
+  "generatedAt": "2026-11-01T14:15:26-05:00",
   "blockId": "hybrid-2026-10-26",
   "prescriptionId": "hybrid-2026-10-26-sun-legs-455",
   "preview": false,
@@ -12,7 +12,7 @@
     "Sunday is legs, abs and calves. Your good recovery today and Saturday’s symptom-free Achilles/ab response support the full Stage-A dose: 11 working sets."
   ],
   "intro": [
-    "All 11 sets logged within their rep ranges at RIR 3 or more. Seated leg curl was 85 lb ×12 at RIR 5, then 100 lb ×10 at RIR 3. Abs felt fine with very minor soreness; the requested loading review is pending clarification."
+    "All 11 sets logged within their rep ranges at RIR 3 or more. Achilles felt fine. A minor sensation at the original ab-strain site faded after a few reps, so added ab weight is deferred."
   ],
   "lift": {
     "table": [
@@ -117,15 +117,15 @@
   "adaptation": [
     {
       "exercise": "L1 — Bodyweight abs and loading review",
-      "previous": "November 1: BW×15/15 at RIR 3/3. Abs are fine, with very minor soreness attributed to the prior circuit; you asked about weights.",
-      "decision": "Keep BW active pending soreness clarification. Proposed next trial: one 5 lb set, then one BW set; two sets total.",
-      "reason": "Once soreness is confirmed ordinary and settled, with no original-strain pain/pulling or worse next-morning response, a small trial can be reviewed: 10–15 reps, at least 4 RIR loaded and 3 RIR BW, 2-minute rest. No loaded work was performed today and no blanket restoration is granted."
+      "previous": "November 1: BW×15/15 at RIR 3/3. Follow-up reports minor strain at the original ab site during the first few reps, then gone.",
+      "decision": "Defer the 5 lb trial. Bodyweight work only if comfortable; stop or reduce it if original-site pain/pulling returns.",
+      "reason": "The pain-free loading prerequisite is not met. A sensation fading after several reps does not establish readiness for added weight. Reconsider loading after comfortable BW work during/after and the next morning, with a fresh review."
     },
     {
       "exercise": "L2/L3 — Calves and hack squat",
       "previous": "October 25 → November 1: calves 365×10/10 →12/15; hack squat 95×6/6 →6/7, all RIR 3.",
       "decision": "Hold calves at 365 lb and hack squat at 95 lb.",
-      "reason": "More reps at the same loads and reserve demonstrate performance improvement. Keep suitable loads stable during Stage A; current Achilles response is pending."
+      "reason": "More reps at the same loads and reserve demonstrate performance improvement. Achilles was comfortable during/after Sunday. Keep suitable loads stable during Stage A."
     },
     {
       "exercise": "L4 — Seated leg curl",
@@ -143,7 +143,7 @@
       "exercise": "Week completion and recovery",
       "previous": "All W1 scheduled sessions logged: 45 countable lifting sets plus Thursday’s BW circuit of unknown set count. Today’s next-day response is not yet available.",
       "decision": "Keep Stage A pending the completed-week recovery/manageability review.",
-      "reason": "Completion alone does not advance stages. Sunday’s acceptable leg performance now informs Saturday bike tolerance; current symptom clarification and later running response remain pending."
+      "reason": "Completion alone does not advance stages. Sunday leg performance and Achilles response are acceptable; original-site ab symptoms require the loading hold. Next-day recovery, later running response and manageable-week review remain pending."
     }
   ],
   "currentLoads": [
@@ -341,7 +341,7 @@
       "exercise": "L1 — Decline crunch (temporary)",
       "load": "BW (temporary substitute)",
       "lastVerified": "2026-11-01",
-      "note": "November 1 BW decline crunch 15/15 at RIR 3; mild soreness review pending. Baseline hanging leg raise remains uninitialized; added-load trial is only proposed."
+      "note": "November 1 BW decline crunch 15/15 at RIR 3; transient original-site symptoms reported. Added weight deferred; BW only if comfortable. Baseline hanging raise remains uninitialized."
     },
     {
       "slotId": "L2",
