@@ -79,3 +79,9 @@ Athlete reports work-rep **RPE 5 / 6 / 7** for the completed three 6-minute reps
 ## 2026-10-31 — Saturday lifting and bike; effort confirmed
 
 Athlete reports six Stage-A lifting sets and 20:17 cycling. Asked once for bike effort and Achilles/lower-ab response during/after; response **“2-3 HR was like 140-145 all Z2”** confirms low bike effort and an approximate HR/zone description only. No symptom answer or next-day recovery is supplied. Preserve current local restrictions and dated tolerated exposures; no new clearance, aggravation, global fatigue or manageable-week finding. Retain Friday’s unresolved response separately when Saturday becomes the latest post-session record (decision #453).
+
+## 2026-10-31 — Saturday symptom follow-up
+
+Athlete: **“No Achilles or ab issues.”** This answers the prior question about Saturday’s during/after response. Record both sites as symptom-free for the October 31 lifting/bike session, resolving #453’s missing local response. No calf or direct ab work was performed Saturday: retain October 25’s explicitly tolerated calf response, October 28’s unconfirmed calf response, and October 29’s tolerated bodyweight ab circuit as separate dated exposures.
+
+Keep the bodyweight-only ab prescription, two-set ceiling and minimum 3 RIR. The report is local tolerance, not a request to restore loaded abs or evidence of a completed manageable week. Still October 31 locally; next-day general recovery and later lifting/running tolerance remain pending. Friday’s separate unanswered run-recovery report is unchanged. Decision #454.

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T20:05:42-04:00",
+  "generatedAt": "2026-10-31T20:08:35-04:00",
   "blockId": "hybrid-2026-10-26",
   "prescriptionId": "hybrid-2026-10-26-sat-delts-arms-b-452",
   "preview": false,
@@ -90,7 +90,7 @@
     "workoutFile": null,
     "actual": {
       "label": "2026-10-31 — reported results",
-      "summary": "20:17 and 10.1 km displayed on the Stages bike; average power 131 W. Athlete reports RPE 2–3, HR about 140–145 and “all Z2.” Local symptoms and subsequent recovery are unreported.",
+      "summary": "20:17 and 10.1 km displayed on the Stages bike; average power 131 W. Athlete reports RPE 2–3, HR about 140–145 and “all Z2.” No Achilles or ab issues during/after; next-day recovery and later tolerance remain unreported.",
       "table": [
         {
           "segment": "Indoor bike",
@@ -134,9 +134,9 @@
     },
     {
       "exercise": "Recovery and stage",
-      "previous": "No Saturday Achilles/lower-ab symptom response or next-day recovery supplied. Friday’s separate recovery report remains pending.",
-      "decision": "Keep Stage A and existing local restrictions; leave recovery-dependent progression pending.",
-      "reason": "Completion and low bike effort do not establish symptom-free tolerance or a completed manageable week. Sunday remains upcoming."
+      "previous": "October 31 follow-up: no Achilles or ab issues during or after Saturday’s session. Next-day recovery remains unreported; Friday’s separate general recovery report is still pending.",
+      "decision": "Record Saturday’s local response as symptom-free. Keep Stage A and the current bodyweight ab limits.",
+      "reason": "This resolves the Saturday symptom question. It does not add an ab/calf exposure or establish next-day recovery, a completed manageable week or clearance for added ab weight. Sunday remains upcoming."
     }
   ],
   "currentLoads": [

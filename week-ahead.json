@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-31T20:05:42-04:00",
+  "generatedAt": "2026-10-31T20:08:35-04:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W1",
   "phase": "Hybrid v11 — Stage A",
   "rangeStart": "2026-10-26",
   "rangeEnd": "2026-11-01",
-  "summary": "W1, October 26–November 1: Monday–Saturday logged. Saturday: six lifting sets at RIR 3 plus 20:17 easy cycling at reported RPE 2–3. Sunday remains upcoming. Stage A and local restrictions remain; Friday recovery and Saturday’s post-session response are pending.",
+  "summary": "W1, October 26–November 1: Monday–Saturday logged. Saturday: six lifting sets at RIR 3 plus 20:17 cycling at RPE 2–3, with no Achilles or ab issues. Sunday remains upcoming. Stage A and ab-loading limits remain; next-day recovery and later tolerance are pending.",
   "days": [
     {
       "date": "2026-10-26",
@@ -47,7 +47,7 @@
       "date": "2026-10-31",
       "day": "Sat",
       "session": "Delts/arms B + bike",
-      "note": "6 sets logged at RIR 3: lateral 35×15/12, incline curl 25×9, overhead extension 35×10/10, reverse pec deck 145×15. Bike 20:17, avg 131 W, displayed 10.1 km, reported RPE 2–3. Recovery pending.",
+      "note": "6 sets logged at RIR 3: lateral 35×15/12, incline curl 25×9, overhead extension 35×10/10, reverse pec deck 145×15. Bike 20:17, avg 131 W, displayed 10.1 km, reported RPE 2–3. No Achilles or ab issues during/after; next-day recovery pending.",
       "status": "done"
     },
     {

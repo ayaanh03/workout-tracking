@@ -396,19 +396,27 @@
           "report": "2-3 HR was like 140-145 all Z2",
           "decision_id": 453
         },
-        "lower_ab_response": null,
-        "achilles_response": null,
+        "lower_ab_response": "No issues during or after Saturday’s session.",
+        "achilles_response": "No issues during or after Saturday’s session.",
         "next_day_recovery": null,
-        "subsequent_lifting_running_tolerance": null
+        "subsequent_lifting_running_tolerance": null,
+        "symptom_followup": {
+          "reported_on": "2026-10-31",
+          "report": "No Achilles or ab issues",
+          "status": "no-symptoms-during-or-after",
+          "session_id": "hybrid-2026-10-26-w1-sat-2026-10-31",
+          "decision_id": 454,
+          "scope": "Answers the Saturday during/after symptom question. No new ab or calf sets, next-day general recovery or full injury clearance is claimed."
+        }
       },
       "pending_validation": {
-        "decision_id": 453,
-        "status": "pending-local-response-recovery-and-subsequent-session-tolerance",
+        "decision_id": 454,
+        "status": "pending-recovery-and-subsequent-session-tolerance",
         "followup_requested_on": "2026-10-31",
-        "reason": "Reported RPE 2–3 meets the acceptable 2–4 range. The reply does not address local symptoms; next-day recovery and subsequent lifting/running response remain unknown. No repeated question or duration increase."
+        "reason": "RPE 2–3 meets the acceptable range and Saturday’s local Achilles/lower-ab response is symptom-free. Next-day recovery and subsequent lifting/running response remain unknown; no duration increase yet."
       },
       "next_action": {
-        "decision_id": 453,
+        "decision_id": 454,
         "action": "hold-planned-duration-pending-tolerance",
         "minutes": 20,
         "target_rpe": 3,
@@ -416,7 +424,7 @@
           2,
           4
         ],
-        "reason": "Maintain the W1/W2 20-minute dose. The extra 17 seconds, power and HR are recorded actuals, not an earned longer dose or a new target; later tolerance still needs validation."
+        "reason": "Maintain the W1/W2 20-minute dose. Current local response and effort are acceptable; later lifting/running tolerance remains unvalidated. No new watt/HR target or longer dose."
       }
     }
   }
