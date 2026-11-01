@@ -282,3 +282,24 @@ Mark Saturday completed in block/daily/week views, display actuals before the un
 454. Athlete answers **“No Achilles or ab issues”** to the Saturday during/after symptom follow-up. Resolve Saturday’s pending local response as symptom-free in recovery, cycling state, block completion and both caches. Preserve the quoted report and session scope. Do not backfill Wednesday calf or Friday run responses; retain those dated unknowns separately. Saturday’s low-effort 20:17 bike now has a confirmed local symptom-free response, while next-day recovery and subsequent lifting/running tolerance remain pending.
 
 Apply `program/adjustments.md#missing-evidence`, current ab limits and `program/endurance.md#cycling`: keep bodyweight-only abs, the two-set/minimum-3-RIR ceiling, Stage A, established loads and the 20-minute bike prescription. Saturday had no direct ab or calf sets; October 29 remains the last tolerated direct ab exposure and October 25 the explicit tolerated calf response. No automatic loaded-ab restoration, stage advance or longer bike. Preserve all actual metrics, Tuesday hit/exception, Friday pending classification, running/shoe mileage and original prescriptions. Append the follow-up without rewriting #453; publish the same completed October 31 session, Sunday still upcoming.
+
+## 2026-11-01 — Sunday legs with good recovery
+
+455. Athlete reports **“Recovery is good. Today?”** Resolve Sunday November 1 in America/New_York (DST has ended; generation timestamp uses **−05:00**). Record current good readiness and good next-day general recovery after Saturday’s lifting/bike. Preserve Saturday’s explicit symptom-free Achilles/ab response; no new injury-loading clearance or numeric metrics. Update Saturday’s completion/recovery and bike pending validation to await only later session tolerance. No completed later workout, manageable week, bike-duration increase or Friday-specific next-day recovery is inferred.
+
+Generate **W1 Sunday — Legs, bodyweight abs + calves**, prescription ID `hybrid-2026-10-26-sun-legs-455`:
+
+| Slot | Exercise | Sets × reps | Load | RIR | Rest |
+|---|---|---|---|---|---|
+| L1 | Decline crunch — bodyweight | 2×10–15 | BW, no added weight | 3 | 2 min |
+| L2 | Leg-press calf raise | 2×10–15 | 365 lb | 3 | 2 min |
+| L3 | Hack squat | 2×6–10 | 95 lb | 3 | 3 min |
+| L4 | Seated leg curl | 2×8–12 | 85 lb | 3 | 2 min |
+| L5 | Leg extension | 2×10–15 | 100 lb | 3 | 2 min |
+| L6 | 45-degree back extension | 1×8–12 | 25 lb added | 3 | 2 min |
+
+**11 working sets; no cardio scheduled.** Preserve the same equipment/load notation as October 25; no invented plate/sled accounting. Apply `program/sunday.md`, `program/ramp-and-return.md`, `program/lift-progression.md`, and the persistent L1 override in recovery state.
+
+Dated same-slot review: October 25 **L1 BW×15/15 at RIR 4/3** was tolerated, as were later bodyweight abs; keep the bodyweight decline-crunch substitute, two-set ceiling and minimum 3 RIR. No restoration of baseline hanging raises or added weight. **L2 365×10/10 at RIR 3/3** with Achilles fine supports holding 365; Wednesday’s separate WE5 result earns no Sunday credit. **L3 95×6/6 and L4 85×8/8 at RIR 3** met their rep floors, so hold those appropriate loads. **L5 100×12/15 and L6 25×12 at RIR 3** also fit the targets; ramp work earns no ordinary increase, including L6’s ceiling set. All 33 lift records and exposure/qualification counts remain unchanged until actual work is logged.
+
+Stage A persists: the current W1 Sunday is unperformed and no completed manageable week is established. Opening October 25 is a separate prior exposure, not today’s completion. Publish Sunday’s prescription with Monday–Saturday done and Sunday today; retain the W1 October 26–November 1 window. Both caches use the same actual timestamp. No new Watch file, shoe mileage or running mileage: the confirmed/estimated weekly running snapshot remains unchanged. Preserve Tuesday’s hit/exception, Friday’s pending classification and all prior actuals. No repeated recovery question is needed to generate today.

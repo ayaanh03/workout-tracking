@@ -6,7 +6,7 @@
   "start_date": "2026-10-25",
   "end_date": "2027-01-03",
   "timezone": "America/New_York",
-  "as_of": "2026-10-31",
+  "as_of": "2026-11-01",
   "activation_status": "active",
   "calendar_week": "W1",
   "calendar_phase": "Ramp",
@@ -23,7 +23,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 454,
+  "last_adjustment_id": 455,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -117,8 +117,8 @@
       "actual_ref": "../history/lifting-log.md#2026-10-31--hybrid-v11-w1-saturday-deltsarms-b",
       "cardio_actual_ref": "../history/cardio-log.md#2026-10-31--hybrid-v11-w1-saturday-bike",
       "cycling_duration_seconds": 1217,
-      "recovery_status": "local-response-resolved-next-day-recovery-pending",
-      "review_note": "All six sets meet rep ranges at RIR 3. Saturday curl established at actual 25×9, versus planned 20 lb. Bike 20:17 at average 131 W, displayed 10.1 km, reported RPE 2–3 and HR about 140–145/all Z2. No Achilles or ab issues during/after confirmed; next-day recovery and later tolerance remain unreported. No stage advancement."
+      "recovery_status": "next-day-general-recovery-reported-good",
+      "review_note": "All six sets meet rep ranges at RIR 3. Saturday curl established at actual 25×9, versus planned 20 lb. Bike 20:17 at average 131 W, displayed 10.1 km, reported RPE 2–3. No Achilles or ab issues during/after; next-day general recovery reported good November 1. Later session tolerance and completed manageable-week review remain pending."
     }
   },
   "planned_start_date": "2026-10-26",

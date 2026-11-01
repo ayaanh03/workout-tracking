@@ -1,142 +1,102 @@
 {
-  "generatedAt": "2026-10-31T20:08:35-04:00",
+  "generatedAt": "2026-11-01T09:42:36-05:00",
   "blockId": "hybrid-2026-10-26",
-  "prescriptionId": "hybrid-2026-10-26-sat-delts-arms-b-452",
+  "prescriptionId": "hybrid-2026-10-26-sun-legs-455",
   "preview": false,
   "week": "W1",
-  "day": "Sat",
-  "date": "2026-10-31",
+  "day": "Sun",
+  "date": "2026-11-01",
   "phase": "Hybrid v11 — Stage A",
-  "sessionName": "Delts/arms B + bike",
+  "sessionName": "Legs, bodyweight abs + calves",
   "why": [
-    "Saturday is delts and arms B, followed by easy cycling. Stage A gives six lifting sets at about 3 RIR; a completed manageable week has not yet been established."
+    "Sunday is legs, abs and calves. Your good recovery today and Saturday’s symptom-free Achilles/ab response support the full Stage-A dose: 11 working sets."
   ],
   "intro": [
-    "Six lifting sets completed at RIR 3. Incline curls were 25 lb ×9 against the 20 lb starting prescription. Bike: 20:17 at 131 W average, reported RPE 2–3."
+    "Keep about 3 RIR on every set and use the same machines/load notation as October 25. Abs remain bodyweight-only."
   ],
   "lift": {
     "table": [
       {
-        "slotId": "S1",
-        "exercise": "DB lateral raise",
-        "setsReps": "2×12–20",
-        "load": "35 lb",
-        "rir": "3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "S2",
-        "exercise": "Incline DB curl",
-        "setsReps": "1×8–12",
-        "load": "20 lb",
-        "rir": "3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "S3",
-        "exercise": "Overhead cable triceps extension",
+        "slotId": "L1",
+        "exercise": "Decline crunch — bodyweight",
         "setsReps": "2×10–15",
-        "load": "35 lb",
+        "load": "BW",
         "rir": "3",
         "rest": "2 min"
       },
       {
-        "slotId": "S4",
-        "exercise": "Reverse pec deck",
-        "setsReps": "1×12–20",
-        "load": "145 lb",
+        "slotId": "L2",
+        "exercise": "Leg-press calf raise",
+        "setsReps": "2×10–15",
+        "load": "365 lb",
+        "rir": "3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "L3",
+        "exercise": "Hack squat",
+        "setsReps": "2×6–10",
+        "load": "95 lb",
+        "rir": "3",
+        "rest": "3 min"
+      },
+      {
+        "slotId": "L4",
+        "exercise": "Seated leg curl",
+        "setsReps": "2×8–12",
+        "load": "85 lb",
+        "rir": "3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "L5",
+        "exercise": "Leg extension",
+        "setsReps": "2×10–15",
+        "load": "100 lb",
+        "rir": "3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "L6",
+        "exercise": "45-degree back extension",
+        "setsReps": "1×8–12",
+        "load": "25 lb",
         "rir": "3",
         "rest": "2 min"
       }
-    ],
-    "actual": {
-      "label": "2026-10-31 — reported results",
-      "table": [
-        {
-          "slotId": "S1",
-          "exercise": "DB lateral raise",
-          "load": "35 lb",
-          "reps": "15 / 12",
-          "rir": "3 / 3"
-        },
-        {
-          "slotId": "S2",
-          "exercise": "Incline DB curl",
-          "load": "25 lb",
-          "reps": "9",
-          "rir": "3"
-        },
-        {
-          "slotId": "S3",
-          "exercise": "Overhead cable triceps extension",
-          "load": "35 lb",
-          "reps": "10 / 10",
-          "rir": "3 / 3"
-        },
-        {
-          "slotId": "S4",
-          "exercise": "Reverse pec deck",
-          "load": "145 lb",
-          "reps": "15",
-          "rir": "3"
-        }
-      ]
-    }
+    ]
   },
-  "cardio": {
-    "workout": "After lifting: 20 minutes easy cycling at RPE 3/10 (2–4 acceptable), with comfortable full-sentence conversation.",
-    "warmup": null,
-    "cooldown": null,
-    "workoutFile": null,
-    "actual": {
-      "label": "2026-10-31 — reported results",
-      "summary": "20:17 and 10.1 km displayed on the Stages bike; average power 131 W. Athlete reports RPE 2–3, HR about 140–145 and “all Z2.” No Achilles or ab issues during/after; next-day recovery and later tolerance remain unreported.",
-      "table": [
-        {
-          "segment": "Indoor bike",
-          "time": "20:17",
-          "distance": "10.1 km (console)",
-          "pace": "n/r"
-        }
-      ]
-    }
-  },
+  "cardio": null,
   "adaptation": [
     {
-      "exercise": "S1 — DB lateral raise",
-      "previous": "October 31: 35 lb ×15/12 at RIR 3/3, matching the prescribed 35 lb and rep range.",
-      "decision": "Establish and hold 35 lb for Saturday.",
-      "reason": "The reduction from the inherited 40 lb baseline met the Stage-A rep/RIR target. Record this slot’s first exposure; no ordinary ramp progression credit."
+      "exercise": "L1 — Bodyweight abs",
+      "previous": "October 25: BW decline crunch ×15/15 at RIR 4/3, abs felt fine. October 29 BW circuit was symptom-free; no ab issues after Saturday.",
+      "decision": "Keep decline crunch 2×10–15, BW, at 3 RIR.",
+      "reason": "The permitted substitute has tolerated direct-work evidence. Bodyweight-only loading, two-set ceiling and minimum 3 RIR persist until a loading review; no added weight or hanging-raise restoration."
     },
     {
-      "exercise": "S2 — Incline DB curl",
-      "previous": "October 31: actual 25 lb ×9 at RIR 3; original starting prescription was 20 lb for 8–12 reps.",
-      "decision": "Establish and hold 25 lb for Saturday; retain the original 20 lb prescription.",
-      "reason": "The actual load meets the range and reserve. This is first-exposure calibration, with no inferred misload or earned load increase. Monday’s independent 20 lb record remains unchanged."
+      "exercise": "L2 — Leg-press calf raise",
+      "previous": "October 25, this Sunday slot: 365 lb ×10/10 at RIR 3/3; Achilles felt fine. Saturday’s lifting/bike also caused no Achilles issues.",
+      "decision": "Hold 365 lb for 2×10–15 at 3 RIR.",
+      "reason": "The established same-slot load meets the target. Wednesday’s 365×11/11 is a separate slot and does not earn a Sunday increase; maintain suitable loads during the ramp."
     },
     {
-      "exercise": "S3 — Overhead cable triceps extension",
-      "previous": "October 31: 35 lb ×10/10 at RIR 3/3.",
-      "decision": "Establish and hold 35 lb for Saturday.",
-      "reason": "Both sets meet the 10–15 range and prescribed reserve. Rep-floor sets do not require a reduction; keep suitable loads stable during A–C."
+      "exercise": "L3/L4 — Hack squat and seated leg curl",
+      "previous": "October 25: hack squat 95 lb ×6/6 and seated leg curl 85 lb ×8/8, all RIR 3.",
+      "decision": "Hold hack squat 95 lb for 2×6–10 and leg curl 85 lb for 2×8–12.",
+      "reason": "Both completed the full Stage-A dose at the rep floor with the intended reserve. Keep the appropriate weights; no reduction or earned load increase is indicated."
     },
     {
-      "exercise": "S4 — Reverse pec deck",
-      "previous": "October 31: 145 lb ×15 at RIR 3.",
-      "decision": "Establish and hold 145 lb for Saturday.",
-      "reason": "The first Saturday set meets the 12–20 range at the prescribed reserve. Wednesday’s separate record and credit remain unchanged."
-    },
-    {
-      "exercise": "Bike",
-      "previous": "October 31: 20:17, 131 W average and 10.1 km on the console. Reported RPE 2–3, HR about 140–145, “all Z2.”",
-      "decision": "Effort meets the prescribed range; hold the planned 20-minute dose.",
-      "reason": "RPE 2–3 is within the acceptable 2–4 range. Later lifting/running tolerance remains pending. The extra 17 seconds and recorded power/HR do not create a duration or intensity increase."
+      "exercise": "L5/L6 — Leg extension and back extension",
+      "previous": "October 25: leg extension 100 lb ×12/15 and back extension 25 lb ×12, all RIR 3.",
+      "decision": "Hold leg extension 100 lb for 2×10–15 and back extension 25 lb for 1×8–12.",
+      "reason": "The loads fit the ranges and reserve. Stage-A work earns no ordinary load-increase credit, including the back-extension ceiling set."
     },
     {
       "exercise": "Recovery and stage",
-      "previous": "October 31 follow-up: no Achilles or ab issues during or after Saturday’s session. Next-day recovery remains unreported; Friday’s separate general recovery report is still pending.",
-      "decision": "Record Saturday’s local response as symptom-free. Keep Stage A and the current bodyweight ab limits.",
-      "reason": "This resolves the Saturday symptom question. It does not add an ab/calf exposure or establish next-day recovery, a completed manageable week or clearance for added ab weight. Sunday remains upcoming."
+      "previous": "November 1: recovery is good after Saturday. Stage A; today’s Sunday session is still unperformed.",
+      "decision": "Prescribe the normal 11 sets, with no cardio scheduled. Keep Stage A.",
+      "reason": "Readiness supports the planned dose. A completed manageable week has not yet been established, so set counts and effort stay unchanged. Saturday bike recovery is good; its effect on later lifting still needs an actual result."
     }
   ],
   "currentLoads": [
@@ -371,6 +331,5 @@
       "lastVerified": "2026-10-25 (reported)",
       "note": "Reported 12 reps at RIR 3; hold during Stage A. Retain the same setup and load notation."
     }
-  ],
-  "status": "done"
+  ]
 }
