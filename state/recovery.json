@@ -4,14 +4,14 @@
   "local_restrictions": [
     {
       "id": "left-lower-ab",
-      "status": "symptom-free-bodyweight-only",
-      "last_reported_on": "2026-10-31",
-      "report": "No ab issues during or after Saturday’s lifting and bike. The latest direct ab-work tolerance remains October 29’s bodyweight circuit; current prescription stays bodyweight-only.",
+      "status": "bodyweight-tolerated-mild-soreness-loading-review-pending",
+      "last_reported_on": "2026-11-01",
+      "report": "Abs are fine, very minor soreness from the ab circuit should go away. Maybe reintroduce weights?",
       "omitted_slots": [],
       "clearance": null,
       "source": "../history/injury-log.md",
-      "reviewed_on": "2026-10-31",
-      "decision_id": 454,
+      "reviewed_on": "2026-11-01",
+      "decision_id": 456,
       "slot_overrides": {
         "M6": {
           "exercise": "Decline crunch",
@@ -41,79 +41,89 @@
           "rest_seconds": 120
         }
       },
-      "response_status": "bodyweight-circuit-tolerated",
+      "response_status": "bodyweight-completed-with-minor-soreness-reported",
       "progression_limit": "No added weight, extra sets or harder baseline ab exercise until an explicit loading/restoration review authorizes it; tolerated bodyweight work alone does not clear the restriction. Reduce or omit if the strain is aggravated.",
       "last_exposure": {
-        "date": "2026-10-29",
-        "slot": "T7 replacement",
-        "exercise": "Ab circuit",
-        "source": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
+        "date": "2026-11-01",
+        "slot": "L1 temporary substitute",
+        "exercise": "Decline crunch — bodyweight",
+        "source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
         "load": "BW",
-        "sets": null,
-        "reps_or_duration": "One reported 120-second plank hold; leg-raise and total circuit dose n/r.",
-        "rir": null,
-        "symptom_response": "No symptoms during or after the bodyweight ab circuit; athlete answer to the during/after question.",
         "external_load_lb": 0,
-        "exercises": [
-          {
-            "exercise": "Plank",
-            "reported_holds_seconds": [
-              120
-            ],
-            "total_sets": null,
-            "rir": null
-          },
-          {
-            "exercise": "Leg raises",
-            "variant": null,
-            "sets": null,
-            "reps": null,
-            "rir": null
-          }
-        ]
+        "sets": 2,
+        "reps": [
+          15,
+          15
+        ],
+        "rir": [
+          3,
+          3
+        ],
+        "symptom_response": "Athlete says abs are fine, with very minor soreness attributed to the earlier ab circuit; original-strain pain/pulling distinction requested once."
       },
       "last_tolerated_exposure": {
-        "date": "2026-10-29",
-        "slot": "T7 replacement",
-        "exercise": "Ab circuit",
-        "source": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
+        "date": "2026-11-01",
+        "slot": "L1 temporary substitute",
+        "exercise": "Decline crunch — bodyweight",
+        "source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
         "load": "BW",
-        "sets": null,
-        "reps_or_duration": "One reported 120-second plank hold; leg-raise and total circuit dose n/r.",
-        "rir": null,
-        "symptom_response": "No symptoms during or after the bodyweight ab circuit; athlete answer to the during/after question.",
         "external_load_lb": 0,
-        "exercises": [
-          {
-            "exercise": "Plank",
-            "reported_holds_seconds": [
-              120
-            ],
-            "total_sets": null,
-            "rir": null
-          },
-          {
-            "exercise": "Leg raises",
-            "variant": null,
-            "sets": null,
-            "reps": null,
-            "rir": null
-          }
-        ]
+        "sets": 2,
+        "reps": [
+          15,
+          15
+        ],
+        "rir": [
+          3,
+          3
+        ],
+        "symptom_response": "Athlete says abs are fine, with very minor soreness attributed to the earlier ab circuit; original-strain pain/pulling distinction requested once."
       },
       "recovery_impression": "I might’ve recovered completely.",
       "latest_symptom_report": {
-        "reported_on": "2026-10-31",
-        "report": "No Achilles or ab issues",
-        "status": "no-symptoms-during-or-after",
-        "session_id": "hybrid-2026-10-26-w1-sat-2026-10-31",
-        "decision_id": 454,
-        "scope": "Answers the Saturday during/after symptom question. No new ab or calf sets, next-day general recovery or full injury clearance is claimed."
+        "reported_on": "2026-11-01",
+        "report": "Abs are fine, very minor soreness from the ab circuit should go away. Maybe reintroduce weights?",
+        "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
+        "decision_id": 456,
+        "scope": "Today’s BW crunches completed; athlete attributes very minor soreness to the earlier circuit. Specific original-strain symptom clarification remains pending."
+      },
+      "loading_review": {
+        "decision_id": 456,
+        "requested_on": "2026-11-01",
+        "athlete_request": "Maybe reintroduce weights?",
+        "status": "pending-soreness-clarification",
+        "active_prescription": "Existing bodyweight slot overrides remain active.",
+        "proposed_trial": {
+          "status": "proposed-conditional-not-cleared",
+          "scope": "Next ab exposure only, expected Monday M6; do not apply automatically to all ab slots.",
+          "exercise": "Decline crunch",
+          "sets": [
+            {
+              "external_load_lb": 5,
+              "reps": "10–15",
+              "minimum_rir": 4
+            },
+            {
+              "external_load_lb": 0,
+              "reps": "10–15",
+              "minimum_rir": 3
+            }
+          ],
+          "rest_seconds": 120,
+          "set_ceiling": 2,
+          "prerequisites": [
+            "Soreness confirmed ordinary muscle soreness without original-strain pain or pulling during/after crunches.",
+            "Soreness settled by the next exposure, with no worse response the next morning."
+          ],
+          "stop_or_rollback": "Stop the loaded trial if pain or pulling returns. Use bodyweight only if comfortable; omit aggravating work.",
+          "progression_gate": "Do not repeat or increase added load until the trial’s during/after and next-morning response is acceptable. No restoration of baseline cable/hanging raises or extra sets."
+        },
+        "followup_requested_on": "2026-11-01"
       }
     },
     {
       "id": "left-achilles",
-      "status": "latest-session-symptom-free",
+      "status": "current-calf-exposure-response-pending",
       "last_explicit_current_report": {
         "date": "2026-10-31",
         "report": "No Achilles or ab issues",
@@ -126,7 +136,7 @@
         "WE5",
         "L2"
       ],
-      "action": "October 31 lifting/bike was symptom-free for the Achilles. Keep appropriate Stage-A calf loads subject to current symptoms; October 25 remains the explicit tolerated calf response, and October 28’s calf-specific response is unconfirmed. No load or duration increase from this local report.",
+      "action": "November 1 calves 365×12/15 at RIR 3 completed; current during/after Achilles response requested once and pending. Preserve October 31’s symptom-free lifting/bike report and October 25’s explicit tolerated calf response. Hold the appropriate calf load; no inferred clearance or worsening.",
       "source": "baseline.md",
       "general_readiness_report": {
         "date": "2026-10-26",
@@ -134,18 +144,18 @@
         "source": "athlete general recovery report; no new site-specific symptom assessment"
       },
       "last_exposure": {
-        "date": "2026-10-28",
-        "slot": "WE5",
+        "date": "2026-11-01",
+        "slot": "L2",
         "load_lb": 365,
         "reps": [
-          11,
-          11
+          12,
+          15
         ],
         "rir": [
           3,
           3
         ],
-        "source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
+        "source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
         "symptom_response": null
       },
       "latest_followup": {
@@ -167,8 +177,10 @@
     {
       "id": "ab-loading-review",
       "reported_on": "2026-10-24",
-      "status": "pending",
-      "blocks": "Added load, more than 2 sets, or restoration of baseline cable crunch/hanging raise; bodyweight decline crunch is permitted by adjustment #432."
+      "status": "pending-soreness-clarification",
+      "blocks": "Added load, extra sets or baseline cable/hanging raises remain blocked pending the explicit graded-loading review; BW decline crunch remains permitted. Proposed 5 lb single-set trial is conditional, not cleared.",
+      "review_requested_on": "2026-11-01",
+      "decision_id": 456
     }
   ],
   "global_fatigue": null,
@@ -195,33 +207,16 @@
     }
   ],
   "post_session": {
-    "date": "2026-10-31",
-    "session_id": "hybrid-2026-10-26-w1-sat-2026-10-31",
-    "cardio_session_id": "hybrid-2026-10-26-w1-sat-2026-10-31-bike",
+    "date": "2026-11-01",
+    "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
     "completion": "reported",
-    "lower_ab_response": "No issues during or after Saturday’s session.",
-    "achilles_response": "No issues during or after Saturday’s session.",
-    "next_day_recovery": {
-      "reported_on": "2026-11-01",
-      "reported_at": "2026-11-01T09:42:36-05:00",
-      "status": "good",
-      "report": "Recovery is good.",
-      "provenance": "athlete report",
-      "decision_id": 455,
-      "scope": "Sunday current general recovery and next-day recovery after Saturday October 31 lifting/bike. No numeric metrics, new site-specific report or completed manageable-week assessment supplied."
-    },
-    "followup_requested_on": "2026-10-31",
-    "status": "local-and-next-day-recovery-reported-good",
-    "decision_id": 455,
-    "latest_followup": {
-      "reported_on": "2026-10-31",
-      "report": "No Achilles or ab issues",
-      "status": "no-symptoms-during-or-after",
-      "session_id": "hybrid-2026-10-26-w1-sat-2026-10-31",
-      "decision_id": 454,
-      "scope": "Answers the Saturday during/after symptom question. No new ab or calf sets, next-day general recovery or full injury clearance is claimed."
-    },
-    "note": "Saturday Achilles/lower-ab response was symptom-free; Sunday November 1 general next-day recovery is now reported good. Subsequent lifting/running tolerance is not yet validated. Existing ab limits and Friday’s separately unresolved report remain unchanged."
+    "lower_ab_response": "Abs are fine, very minor soreness from the ab circuit should go away. Maybe reintroduce weights?",
+    "achilles_response": null,
+    "next_day_recovery": null,
+    "followup_requested_on": "2026-11-01",
+    "status": "ab-soreness-review-and-achilles-response-pending",
+    "decision_id": 456,
+    "note": "Original-strain symptom distinction and Achilles response requested once. Morning good recovery preceded this session; Sunday next-day response and completed-week manageability are not established."
   },
   "prior_pending_post_sessions": [
     {

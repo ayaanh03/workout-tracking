@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-01T09:42:36-05:00",
+  "generatedAt": "2026-11-01T14:10:01-05:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W1",
   "phase": "Hybrid v11 — Stage A",
   "rangeStart": "2026-10-26",
   "rangeEnd": "2026-11-01",
-  "summary": "W1, October 26–November 1: Monday–Saturday logged. Sunday is today: 11 Stage-A sets for legs, bodyweight abs and calves. Recovery is good after Saturday; maintain established loads and the bodyweight ab limits. The week is not yet complete.",
+  "summary": "W1, October 26–November 1: all scheduled sessions logged. 45 countable lifting sets plus Thursday’s BW ab circuit of unknown dose. Sunday completed 11 sets; leg curl recalibrated to 100 lb. Ab-loading review and final recovery/manageability remain pending; Stage A retained.",
   "days": [
     {
       "date": "2026-10-26",
@@ -54,8 +54,8 @@
       "date": "2026-11-01",
       "day": "Sun",
       "session": "Legs, bodyweight abs + calves",
-      "note": "11 sets at RIR 3: BW crunch 2×10–15, leg-press calves 365 lb 2×10–15, hack squat 95 lb 2×6–10, seated curl 85 lb 2×8–12, leg extension 100 lb 2×10–15, back extension 25 lb 1×8–12. No cardio.",
-      "status": "today"
+      "note": "11 sets logged: BW crunch 15/15, calves 365×12/15, hack 95×6/7, curl 85×12 RIR 5 then 100×10 RIR 3, extension 100×15/15 RIR 3/5, back extension 25×12. Other sets RIR 3. Minor ab soreness/loading review pending.",
+      "status": "done"
     }
   ],
   "runningMileageCheck": {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T09:42:36-05:00",
+  "generatedAt": "2026-11-01T14:10:01-05:00",
   "blockId": "hybrid-2026-10-26",
   "prescriptionId": "hybrid-2026-10-26-sun-legs-455",
   "preview": false,
@@ -12,7 +12,7 @@
     "Sunday is legs, abs and calves. Your good recovery today and Saturday’s symptom-free Achilles/ab response support the full Stage-A dose: 11 working sets."
   ],
   "intro": [
-    "Keep about 3 RIR on every set and use the same machines/load notation as October 25. Abs remain bodyweight-only."
+    "All 11 sets logged within their rep ranges at RIR 3 or more. Seated leg curl was 85 lb ×12 at RIR 5, then 100 lb ×10 at RIR 3. Abs felt fine with very minor soreness; the requested loading review is pending clarification."
   ],
   "lift": {
     "table": [
@@ -64,39 +64,86 @@
         "rir": "3",
         "rest": "2 min"
       }
-    ]
+    ],
+    "actual": {
+      "label": "2026-11-01 — reported results",
+      "table": [
+        {
+          "slotId": "L1",
+          "exercise": "Decline crunch — bodyweight",
+          "load": "BW",
+          "reps": "15 / 15",
+          "rir": "3 / 3"
+        },
+        {
+          "slotId": "L2",
+          "exercise": "Leg-press calf raise",
+          "load": "365 lb",
+          "reps": "12 / 15",
+          "rir": "3 / 3"
+        },
+        {
+          "slotId": "L3",
+          "exercise": "Hack squat",
+          "load": "95 lb",
+          "reps": "6 / 7",
+          "rir": "3 / 3"
+        },
+        {
+          "slotId": "L4",
+          "exercise": "Seated leg curl",
+          "load": "85 / 100 lb",
+          "reps": "12 / 10",
+          "rir": "5 / 3"
+        },
+        {
+          "slotId": "L5",
+          "exercise": "Leg extension",
+          "load": "100 lb",
+          "reps": "15 / 15",
+          "rir": "3 / 5"
+        },
+        {
+          "slotId": "L6",
+          "exercise": "45-degree back extension",
+          "load": "25 lb",
+          "reps": "12",
+          "rir": "3"
+        }
+      ]
+    }
   },
   "cardio": null,
   "adaptation": [
     {
-      "exercise": "L1 — Bodyweight abs",
-      "previous": "October 25: BW decline crunch ×15/15 at RIR 4/3, abs felt fine. October 29 BW circuit was symptom-free; no ab issues after Saturday.",
-      "decision": "Keep decline crunch 2×10–15, BW, at 3 RIR.",
-      "reason": "The permitted substitute has tolerated direct-work evidence. Bodyweight-only loading, two-set ceiling and minimum 3 RIR persist until a loading review; no added weight or hanging-raise restoration."
+      "exercise": "L1 — Bodyweight abs and loading review",
+      "previous": "November 1: BW×15/15 at RIR 3/3. Abs are fine, with very minor soreness attributed to the prior circuit; you asked about weights.",
+      "decision": "Keep BW active pending soreness clarification. Proposed next trial: one 5 lb set, then one BW set; two sets total.",
+      "reason": "Once soreness is confirmed ordinary and settled, with no original-strain pain/pulling or worse next-morning response, a small trial can be reviewed: 10–15 reps, at least 4 RIR loaded and 3 RIR BW, 2-minute rest. No loaded work was performed today and no blanket restoration is granted."
     },
     {
-      "exercise": "L2 — Leg-press calf raise",
-      "previous": "October 25, this Sunday slot: 365 lb ×10/10 at RIR 3/3; Achilles felt fine. Saturday’s lifting/bike also caused no Achilles issues.",
-      "decision": "Hold 365 lb for 2×10–15 at 3 RIR.",
-      "reason": "The established same-slot load meets the target. Wednesday’s 365×11/11 is a separate slot and does not earn a Sunday increase; maintain suitable loads during the ramp."
+      "exercise": "L2/L3 — Calves and hack squat",
+      "previous": "October 25 → November 1: calves 365×10/10 →12/15; hack squat 95×6/6 →6/7, all RIR 3.",
+      "decision": "Hold calves at 365 lb and hack squat at 95 lb.",
+      "reason": "More reps at the same loads and reserve demonstrate performance improvement. Keep suitable loads stable during Stage A; current Achilles response is pending."
     },
     {
-      "exercise": "L3/L4 — Hack squat and seated leg curl",
-      "previous": "October 25: hack squat 95 lb ×6/6 and seated leg curl 85 lb ×8/8, all RIR 3.",
-      "decision": "Hold hack squat 95 lb for 2×6–10 and leg curl 85 lb for 2×8–12.",
-      "reason": "Both completed the full Stage-A dose at the rep floor with the intended reserve. Keep the appropriate weights; no reduction or earned load increase is indicated."
+      "exercise": "L4 — Seated leg curl",
+      "previous": "Prescribed 85 lb for both sets. Actual: 85×12 at RIR 5, then 100×10 at RIR 3.",
+      "decision": "Use 100 lb as the next starting load, adjusting later sets if needed to meet the rep/RIR target.",
+      "reason": "The heavier set fits 8–12 reps at the intended reserve. This is effort calibration; only one 100 lb set is demonstrated, and the original 85 lb prescription stays visible."
     },
     {
       "exercise": "L5/L6 — Leg extension and back extension",
-      "previous": "October 25: leg extension 100 lb ×12/15 and back extension 25 lb ×12, all RIR 3.",
-      "decision": "Hold leg extension 100 lb for 2×10–15 and back extension 25 lb for 1×8–12.",
-      "reason": "The loads fit the ranges and reserve. Stage-A work earns no ordinary load-increase credit, including the back-extension ceiling set."
+      "previous": "November 1: leg extension 100×15/15 at RIR 3/5; back extension 25×12 at RIR 3.",
+      "decision": "Hold leg extension at 100 lb and back extension at 25 lb.",
+      "reason": "Ceiling reps are recorded, including the easier second extension set. Stage-A work earns no ordinary load-increase credit; preserve the reported RIR values."
     },
     {
-      "exercise": "Recovery and stage",
-      "previous": "November 1: recovery is good after Saturday. Stage A; today’s Sunday session is still unperformed.",
-      "decision": "Prescribe the normal 11 sets, with no cardio scheduled. Keep Stage A.",
-      "reason": "Readiness supports the planned dose. A completed manageable week has not yet been established, so set counts and effort stay unchanged. Saturday bike recovery is good; its effect on later lifting still needs an actual result."
+      "exercise": "Week completion and recovery",
+      "previous": "All W1 scheduled sessions logged: 45 countable lifting sets plus Thursday’s BW circuit of unknown set count. Today’s next-day response is not yet available.",
+      "decision": "Keep Stage A pending the completed-week recovery/manageability review.",
+      "reason": "Completion alone does not advance stages. Sunday’s acceptable leg performance now informs Saturday bike tolerance; current symptom clarification and later running response remain pending."
     }
   ],
   "currentLoads": [
@@ -292,44 +339,45 @@
     {
       "slotId": "L1",
       "exercise": "L1 — Decline crunch (temporary)",
-      "load": "BW",
-      "lastVerified": "2026-10-25 (reported)",
-      "note": "Temporary decline crunch actual: 15/15 at RIR 4/3; lower abs felt fine during/after. Bodyweight-only, maximum 2 sets. No hanging-raise progression credit."
+      "load": "BW (temporary substitute)",
+      "lastVerified": "2026-11-01",
+      "note": "November 1 BW decline crunch 15/15 at RIR 3; mild soreness review pending. Baseline hanging leg raise remains uninitialized; added-load trial is only proposed."
     },
     {
       "slotId": "L2",
       "exercise": "L2 — Leg-press calf raise",
       "load": "365 lb",
-      "lastVerified": "2026-10-25 (reported)",
-      "note": "October 25: 10/10 reps at RIR 3/3; Achilles felt fine during/after. October 26 general recovery good. Hold 365 lb during Stage A on the same setup/notation; no credit transfer to WE5."
+      "lastVerified": "2026-11-01",
+      "note": "November 1 actual 365×12/15 at RIR 3/3; hold during Stage A."
     },
     {
       "slotId": "L3",
       "exercise": "L3 — Hack squat",
       "load": "95 lb",
-      "lastVerified": "2026-10-25 (reported)",
-      "note": "Reported 6/6 reps at RIR 3/3; hold during Stage A. Retain the same setup and load notation."
+      "lastVerified": "2026-11-01",
+      "note": "November 1 actual 95×6/7 at RIR 3/3; hold during Stage A."
     },
     {
       "slotId": "L4",
       "exercise": "L4 — Seated leg curl",
-      "load": "85 lb",
-      "lastVerified": "2026-10-25 (reported)",
-      "note": "Reported 8/8 reps at RIR 3/3; hold during Stage A. Retain the same setup and load notation."
+      "load": "100 lb",
+      "lastVerified": "2026-11-01",
+      "note": "November 1 actual 85×12 at RIR 5 then 100×10 at RIR 3; next starting load 100, only one set demonstrated. Stage-A calibration."
     },
     {
       "slotId": "L5",
       "exercise": "L5 — Leg extension",
       "load": "100 lb",
-      "lastVerified": "2026-10-25 (reported)",
-      "note": "Reported 12/15 reps at RIR 3/3; hold during Stage A. Retain the same setup and load notation."
+      "lastVerified": "2026-11-01",
+      "note": "November 1 actual 100×15/15 at RIR 3/5; hold during Stage A."
     },
     {
       "slotId": "L6",
       "exercise": "L6 — Loaded 45-degree back extension",
       "load": "25 lb",
-      "lastVerified": "2026-10-25 (reported)",
-      "note": "Reported 12 reps at RIR 3; hold during Stage A. Retain the same setup and load notation."
+      "lastVerified": "2026-11-01",
+      "note": "November 1 actual 25×12 at RIR 3; hold during Stage A."
     }
-  ]
+  ],
+  "status": "done"
 }

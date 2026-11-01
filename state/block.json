@@ -23,7 +23,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 455,
+  "last_adjustment_id": 456,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -119,6 +119,19 @@
       "cycling_duration_seconds": 1217,
       "recovery_status": "next-day-general-recovery-reported-good",
       "review_note": "All six sets meet rep ranges at RIR 3. Saturday curl established at actual 25×9, versus planned 20 lb. Bike 20:17 at average 131 W, displayed 10.1 km, reported RPE 2–3. No Achilles or ab issues during/after; next-day general recovery reported good November 1. Later session tolerance and completed manageable-week review remain pending."
+    },
+    "2026-11-01": {
+      "calendar_week": "W1",
+      "session": "Legs, bodyweight abs + calves",
+      "status": "completed",
+      "stage": "A",
+      "working_sets": 11,
+      "reported_working_sets": 11,
+      "prescribed_working_sets": 11,
+      "unresolved_slots": [],
+      "actual_ref": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
+      "recovery_status": "ab-soreness-review-and-achilles-response-pending",
+      "review_note": "All 11 sets meet rep ranges with at least RIR 3; nine sets at RIR 3 and two at RIR 5. Leg curl actual 85×12 at RIR 5 then 100×10 at RIR 3 calibrates next starting load to 100. Abs fine with very minor circuit soreness; graded loading review requested, clarification pending. No next-day or manageable-week conclusion."
     }
   },
   "planned_start_date": "2026-10-26",
@@ -133,5 +146,20 @@
     "note": "Early opening Sunday; Monday remains Upper A. W1 calendar October 26–November 1 and later dates remain unchanged. One opening session cannot establish a manageable week.",
     "actual_ref": "../history/lifting-log.md#2026-10-25--hybrid-v11-opening",
     "completion_decision_id": 434
+  },
+  "week_reviews": {
+    "W1": {
+      "range_start": "2026-10-26",
+      "range_end": "2026-11-01",
+      "completion": "all-scheduled-sessions-reported",
+      "known_lifting_sets": 45,
+      "additional_ab_circuit_sets": null,
+      "total_lifting_sets": null,
+      "opening_session_included": false,
+      "manageable": null,
+      "status": "pending-final-recovery-and-manageable-week-review",
+      "decision_id": 456,
+      "source": "../history/weekly-summary.md#2026-10-262026-11-01--w1-outcomes"
+    }
   }
 }

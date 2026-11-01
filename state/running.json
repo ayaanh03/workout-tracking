@@ -407,7 +407,17 @@
           "decision_id": 455,
           "scope": "Sunday current general recovery and next-day recovery after Saturday October 31 lifting/bike. No numeric metrics, new site-specific report or completed manageable-week assessment supplied."
         },
-        "subsequent_lifting_running_tolerance": null,
+        "subsequent_lifting_running_tolerance": {
+          "reviewed_on": "2026-11-01",
+          "decision_id": 456,
+          "status": "lifting-performance-acceptable-running-and-local-followup-pending",
+          "lifting_session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
+          "lifting_source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
+          "evidence": "All 11 Sunday sets meet ranges at RIR 3 or more. Compared with October 25, calf and hack reps improved; no demonstrated leg-performance decline. Leg curl recalibrated upward to 100 lb.",
+          "achilles_response": null,
+          "ab_response": "Abs fine with very minor circuit soreness; clarification pending.",
+          "subsequent_run_response": null
+        },
         "symptom_followup": {
           "reported_on": "2026-10-31",
           "report": "No Achilles or ab issues",
@@ -418,13 +428,13 @@
         }
       },
       "pending_validation": {
-        "decision_id": 455,
-        "status": "pending-subsequent-session-tolerance",
+        "decision_id": 456,
+        "status": "pending-local-followup-and-subsequent-running-tolerance",
         "followup_requested_on": "2026-10-31",
-        "reason": "Saturday bike RPE 2–3 and local response were acceptable; Sunday general next-day recovery is now good. Subsequent lifting/running performance remains unreported, so duration-increase validation is still pending."
+        "reason": "Sunday leg-performance evidence is now recorded and acceptable; no lifting-performance decline is demonstrated after Saturday bike. Current Achilles/soreness clarification and later running response remain pending. Hold 20 minutes; no duration increase."
       },
       "next_action": {
-        "decision_id": 455,
+        "decision_id": 456,
         "action": "hold-planned-duration-pending-tolerance",
         "minutes": 20,
         "target_rpe": 3,
@@ -432,7 +442,7 @@
           2,
           4
         ],
-        "reason": "Hold the W1/W2 20-minute bike dose. Good next-day recovery resolves that evidence gap, while later lifting/running tolerance still needs an actual report before longer durations are validated."
+        "reason": "Hold the W1/W2 20-minute bike dose. Saturday next-day recovery and Sunday lifting performance are acceptable. Current Achilles/soreness clarification and later running response remain pending before duration-increase validation."
       }
     }
   }

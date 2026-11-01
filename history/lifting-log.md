@@ -97,3 +97,20 @@ Session ID: `hybrid-2026-10-26-w1-sat-2026-10-31`. Stage A; athlete-reported com
 Bike actuals are in the cardio log. Same-evening effort/HR follow-up does not supply a local symptom or next-day recovery report. Keep existing restrictions and Stage A; no completed manageable week is inferred. Review #453.
 
 Same-evening Saturday symptom follow-up (#454): athlete **“No Achilles or ab issues”** resolves the during/after local-response question for October 31. All six sets/loads stay unchanged. No new ab/calf exposure, next-day recovery, stage advancement or loaded-ab clearance is inferred.
+
+## 2026-11-01 — Hybrid v11 W1 Sunday legs
+
+Session ID: `hybrid-2026-10-26-w1-sun-2026-11-01`. Stage A, athlete-reported completion against [#455](adjustments.md#2026-11-01--sunday-legs-with-good-recovery), prescription ID `hybrid-2026-10-26-sun-legs-455`. Same reported lb conventions; no new equipment/setup details supplied.
+
+| Slot | Exercise | Prescribed sets × reps / load / RIR | Actual set 1 | Actual set 2 |
+|---|---|---|---|---|
+| L1 | Decline crunch — bodyweight | 2×10–15 / BW / 3 | BW×15, RIR 3 | BW×15, RIR 3 |
+| L2 | Leg-press calf raise | 2×10–15 / 365 lb / 3 | 365×12, RIR 3 | 365×15, RIR 3 |
+| L3 | Hack squat | 2×6–10 / 95 lb / 3 | 95×6, RIR 3 | 95×7, RIR 3 |
+| L4 | Seated leg curl | 2×8–12 / 85 lb / 3 | 85×12, RIR 5 | 100×10, RIR 3 |
+| L5 | Leg extension | 2×10–15 / 100 lb / 3 | 100×15, RIR 3 | 100×15, RIR 5 |
+| L6 | 45-degree back extension | 1×8–12 / 25 lb / 3 | 25×12, RIR 3 | — |
+
+**11 sets completed: nine at RIR 3 and two at RIR 5; all in their rep ranges.** Preserve both leg-curl weights and the original 85 lb prescription. The second set at 100×10/RIR 3 supports **100 lb as the next starting load**, with later-set calibration as needed; it does not demonstrate two sets at 100. Hold calves 365, hack 95, extension 100 and back extension 25. Calves gained seven total reps and hack squat one at the same reported reserve versus October 25. Extension reached both ceilings, with more reserve on set two; no ordinary ramp progression credit is awarded.
+
+Increment L2–L6 raw exposure counts to two and the L1 temporary substitute count to two; keep baseline hanging raises uninitialized and all ordinary qualification/anchors empty. Athlete: **“Abs are fine, very minor soreness from the ab circuit should go away. Maybe reintroduce weights?”** Log that report without diagnosing the soreness. Requested once whether it is ordinary muscle soreness without original-strain pain/pulling, and whether Achilles remained comfortable. A small future loading trial is proposed pending clarification; no added ab weight was performed or cleared today. Sunday next-day recovery and completed-week manageability remain unknown. Decision #456.

@@ -925,15 +925,16 @@
         "load_convention": "Bodyweight, no added weight",
         "load_status": "established",
         "last_actual": {
-          "date": "2026-10-25",
-          "session_id": "hybrid-2026-10-26-opening-2026-10-25",
-          "source": "../history/lifting-log.md#2026-10-25--hybrid-v11-opening",
+          "date": "2026-11-01",
+          "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
+          "prescription_id": "hybrid-2026-10-26-sun-legs-455",
+          "source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
           "stage": "A",
           "sets": [
             {
               "load": "BW",
               "reps": 15,
-              "rir": 4
+              "rir": 3
             },
             {
               "load": "BW",
@@ -942,11 +943,16 @@
             }
           ],
           "progression_eligible": false,
-          "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+          "reason": "Stage-A work; no ordinary qualification, comparable anchor or plateau credit."
         },
-        "new_exposure_count": 1,
+        "new_exposure_count": 2,
         "qualifying_exposures": 0,
-        "note": "Substitute actual only; baseline hanging leg raise remains uninitialized. Athlete reports lower abs felt fine during/after; bodyweight-only limits retained."
+        "note": "Temporary BW decline-crunch actual only; baseline hanging leg raise remains uninitialized. Athlete says abs are fine with very minor soreness attributed to the earlier circuit. Loading review pending clarification; no added load performed.",
+        "next_action": {
+          "decision_id": 456,
+          "action": "hold-bodyweight-pending-loading-review",
+          "reason": "Preserve BW and the two-set ceiling while distinguishing ordinary soreness from original strain symptoms. A small future loaded trial is proposed, not yet cleared."
+        }
       }
     },
     "L2": {
@@ -957,28 +963,35 @@
       "setup": null,
       "load_convention": "Athlete-reported lb notation; machine model/settings and stack/plate/sled convention not reported. Retain the same setup and notation.",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-10-25--hybrid-v11-opening",
+      "load_source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
       "last_actual": {
-        "date": "2026-10-25",
-        "session_id": "hybrid-2026-10-26-opening-2026-10-25",
-        "source": "../history/lifting-log.md#2026-10-25--hybrid-v11-opening",
+        "date": "2026-11-01",
+        "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
+        "prescription_id": "hybrid-2026-10-26-sun-legs-455",
+        "source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
         "stage": "A",
         "sets": [
           {
             "load": 365,
-            "reps": 10,
+            "reps": 12,
             "rir": 3
           },
           {
             "load": 365,
-            "reps": 10,
+            "reps": 15,
             "rir": 3
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+        "reason": "Stage-A work; no ordinary qualification, comparable anchor or plateau credit."
       },
-      "new_exposure_count": 1
+      "new_exposure_count": 2,
+      "next_action": {
+        "decision_id": 456,
+        "action": "hold-load",
+        "load_lb": 365,
+        "reason": "Reported sets meet the range with at least the intended reserve. Keep suitable loads stable during A–C; no ordinary load-increase award."
+      }
     },
     "L3": {
       "exercise": "Hack squat",
@@ -988,11 +1001,12 @@
       "setup": null,
       "load_convention": "Athlete-reported lb notation; machine model/settings and stack/plate/sled convention not reported. Retain the same setup and notation.",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-10-25--hybrid-v11-opening",
+      "load_source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
       "last_actual": {
-        "date": "2026-10-25",
-        "session_id": "hybrid-2026-10-26-opening-2026-10-25",
-        "source": "../history/lifting-log.md#2026-10-25--hybrid-v11-opening",
+        "date": "2026-11-01",
+        "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
+        "prescription_id": "hybrid-2026-10-26-sun-legs-455",
+        "source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
         "stage": "A",
         "sets": [
           {
@@ -1002,45 +1016,67 @@
           },
           {
             "load": 95,
-            "reps": 6,
+            "reps": 7,
             "rir": 3
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+        "reason": "Stage-A work; no ordinary qualification, comparable anchor or plateau credit."
       },
-      "new_exposure_count": 1
+      "new_exposure_count": 2,
+      "next_action": {
+        "decision_id": 456,
+        "action": "hold-load",
+        "load_lb": 95,
+        "reason": "Reported sets meet the range with at least the intended reserve. Keep suitable loads stable during A–C; no ordinary load-increase award."
+      }
     },
     "L4": {
       "exercise": "Seated leg curl",
-      "load": 85,
+      "load": 100,
       "units": "lb",
       "equipment": "Seated leg curl machine",
       "setup": null,
       "load_convention": "Athlete-reported lb notation; machine model/settings and stack/plate/sled convention not reported. Retain the same setup and notation.",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-10-25--hybrid-v11-opening",
+      "load_source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
       "last_actual": {
-        "date": "2026-10-25",
-        "session_id": "hybrid-2026-10-26-opening-2026-10-25",
-        "source": "../history/lifting-log.md#2026-10-25--hybrid-v11-opening",
+        "date": "2026-11-01",
+        "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
+        "prescription_id": "hybrid-2026-10-26-sun-legs-455",
+        "source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
         "stage": "A",
         "sets": [
           {
             "load": 85,
-            "reps": 8,
-            "rir": 3
+            "reps": 12,
+            "rir": 5
           },
           {
-            "load": 85,
-            "reps": 8,
+            "load": 100,
+            "reps": 10,
             "rir": 3
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+        "reason": "Stage-A work; no ordinary qualification, comparable anchor or plateau credit.",
+        "prescription_deviation": {
+          "prescribed_load_lb": 85,
+          "actual_loads_lb": [
+            85,
+            100
+          ],
+          "type": "within-session-load-calibration",
+          "reason": "85×12 had RIR 5; the reported second set at 100×10 had RIR 3. Preserve both sets and the original 85 lb prescription."
+        }
       },
-      "new_exposure_count": 1
+      "new_exposure_count": 2,
+      "next_action": {
+        "decision_id": 456,
+        "action": "calibrate-load",
+        "load_lb": 100,
+        "reason": "Use 100 lb as the next starting load: 85×12 at RIR 5 was easier than target and 100×10 at RIR 3 met the range/reserve. Only one 100 lb set is demonstrated; adjust later sets to stay within 8–12 reps at target RIR."
+      }
     },
     "L5": {
       "exercise": "Leg extension",
@@ -1050,28 +1086,35 @@
       "setup": null,
       "load_convention": "Athlete-reported lb notation; machine model/settings and stack/plate/sled convention not reported. Retain the same setup and notation.",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-10-25--hybrid-v11-opening",
+      "load_source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
       "last_actual": {
-        "date": "2026-10-25",
-        "session_id": "hybrid-2026-10-26-opening-2026-10-25",
-        "source": "../history/lifting-log.md#2026-10-25--hybrid-v11-opening",
+        "date": "2026-11-01",
+        "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
+        "prescription_id": "hybrid-2026-10-26-sun-legs-455",
+        "source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
         "stage": "A",
         "sets": [
           {
             "load": 100,
-            "reps": 12,
+            "reps": 15,
             "rir": 3
           },
           {
             "load": 100,
             "reps": 15,
-            "rir": 3
+            "rir": 5
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+        "reason": "Stage-A work; no ordinary qualification, comparable anchor or plateau credit."
       },
-      "new_exposure_count": 1
+      "new_exposure_count": 2,
+      "next_action": {
+        "decision_id": 456,
+        "action": "hold-load",
+        "load_lb": 100,
+        "reason": "Reported sets meet the range with at least the intended reserve. Keep suitable loads stable during A–C; no ordinary load-increase award."
+      }
     },
     "L6": {
       "exercise": "Loaded 45-degree back extension",
@@ -1081,11 +1124,12 @@
       "setup": null,
       "load_convention": "Added load as reported; implement/position not reported.",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-10-25--hybrid-v11-opening",
+      "load_source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
       "last_actual": {
-        "date": "2026-10-25",
-        "session_id": "hybrid-2026-10-26-opening-2026-10-25",
-        "source": "../history/lifting-log.md#2026-10-25--hybrid-v11-opening",
+        "date": "2026-11-01",
+        "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
+        "prescription_id": "hybrid-2026-10-26-sun-legs-455",
+        "source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
         "stage": "A",
         "sets": [
           {
@@ -1095,9 +1139,15 @@
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+        "reason": "Stage-A work; no ordinary qualification, comparable anchor or plateau credit."
       },
-      "new_exposure_count": 1
+      "new_exposure_count": 2,
+      "next_action": {
+        "decision_id": 456,
+        "action": "hold-load",
+        "load_lb": 25,
+        "reason": "Reported sets meet the range with at least the intended reserve. Keep suitable loads stable during A–C; no ordinary load-increase award."
+      }
     }
   },
   "forearms": {
