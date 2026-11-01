@@ -23,7 +23,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 452,
+  "last_adjustment_id": 453,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -104,6 +104,21 @@
       "classification": "pending",
       "recovery_status": "local-response-and-next-day-recovery-pending",
       "review_note": "3×6 at 7:27/7:13/7:16, RPE 5/6/7. Revised directive counts faster reps: all pace/effort checks pass; ordinary hit candidate pending next-day recovery. Total distance and shoe unconfirmed; no comfortable hit at final RPE 7."
+    },
+    "2026-10-31": {
+      "calendar_week": "W1",
+      "session": "Delts/arms B + bike",
+      "status": "completed",
+      "stage": "A",
+      "working_sets": 6,
+      "reported_working_sets": 6,
+      "prescribed_working_sets": 6,
+      "unresolved_slots": [],
+      "actual_ref": "../history/lifting-log.md#2026-10-31--hybrid-v11-w1-saturday-deltsarms-b",
+      "cardio_actual_ref": "../history/cardio-log.md#2026-10-31--hybrid-v11-w1-saturday-bike",
+      "cycling_duration_seconds": 1217,
+      "recovery_status": "local-response-and-next-day-recovery-pending",
+      "review_note": "All six sets meet rep ranges at RIR 3. Saturday curl established at actual 25×9, versus planned 20 lb. Bike 20:17 at average 131 W, displayed 10.1 km, reported RPE 2–3 and HR about 140–145/all Z2. Local symptoms and subsequent recovery remain unreported; no stage advancement."
     }
   },
   "planned_start_date": "2026-10-26",

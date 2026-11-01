@@ -80,3 +80,18 @@ Pull-up report **0×12 at RIR 3** is interpreted as bodyweight with **0 lb added
 Current ab response and next-day recovery are pending; earlier recovery reports do not supply them. Ab restrictions and achieved stage remain unchanged. Review #446.
 
 Same-evening ab-circuit follow-up (#447): athlete confirms **no added weights**, **no ab symptoms**, a **2-minute plank hold (120 seconds)** and **leg raises** within “a bunch of random stuff.” Record the replacement as bodyweight, with one reported 120-second hold; total circuit sets/duration, leg-raise variant/sets/reps, other exercise details and RIR remain n/r. The reported symptom-free response answers the during/after question. Keep the ten non-ab sets and skipped decline crunches unchanged; do not infer twelve total sets or transfer the circuit to cable-crunch, decline-crunch or hanging-raise progression.
+
+## 2026-10-31 — Hybrid v11 W1 Saturday delts/arms B
+
+Session ID: `hybrid-2026-10-26-w1-sat-2026-10-31`. Stage A; athlete-reported completion against [decision #452](adjustments.md#2026-10-31--first-saturday-delts-and-arms-b), prescription ID `hybrid-2026-10-26-sat-delts-arms-b-452`. Logged on October 31 in America/New_York despite UTC November 1. Reported weights retain the existing lb convention; dumbbell per-hand notation and unreported equipment/settings remain unconfirmed.
+
+| Slot | Exercise | Prescribed sets × reps / load / RIR | Actual set 1 | Actual set 2 |
+|---|---|---|---|---|
+| S1 | DB lateral raise | 2×12–20 / 35 lb / 3 | 35×15, RIR 3 | 35×12, RIR 3 |
+| S2 | Incline DB curl | 1×8–12 / 20 lb / 3 | 25×9, RIR 3 | — |
+| S3 | Overhead cable triceps extension | 2×10–15 / 35 lb / 3 | 35×10, RIR 3 | 35×10, RIR 3 |
+| S4 | Reverse pec deck | 1×12–20 / 145 lb / 3 | 145×15, RIR 3 | — |
+
+**All six sets completed within their rep ranges at RIR 3.** S2’s actual **25 lb** differs from the selected **20 lb** starting load; preserve both without inferring a misload, extra set or earned load increase. Establish independent Saturday loads **35/25/35/145 lb**, one raw exposure per slot; hold suitable loads during A–C. No ordinary qualification, comparable anchor or plateau credit. Monday’s incline curl stays 20 lb; no other weekday actual or credit changes. No forearm, calf or ab sets reported.
+
+Bike actuals are in the cardio log. Same-evening effort/HR follow-up does not supply a local symptom or next-day recovery report. Keep existing restrictions and Stage A; no completed manageable week is inferred. Review #453.

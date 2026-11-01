@@ -75,3 +75,7 @@ Athlete: **“Generate next, recovery looks good.”** Record current general re
 ## 2026-10-30 — Friday intervals completed; response pending
 
 Athlete reports work-rep **RPE 5 / 6 / 7** for the completed three 6-minute reps. Final effort meets the prescribed cap. No Achilles/lower-ab response or next-day general recovery was supplied; requested once. Keep the prior bodyweight-circuit ab tolerance and all current local restrictions as dated evidence. Early-Friday good readiness precedes this run and does not supply its post-run response. No new fatigue or injury inferred from effort or heart-rate displays (decision #449).
+
+## 2026-10-31 — Saturday lifting and bike; effort confirmed
+
+Athlete reports six Stage-A lifting sets and 20:17 cycling. Asked once for bike effort and Achilles/lower-ab response during/after; response **“2-3 HR was like 140-145 all Z2”** confirms low bike effort and an approximate HR/zone description only. No symptom answer or next-day recovery is supplied. Preserve current local restrictions and dated tolerated exposures; no new clearance, aggravation, global fatigue or manageable-week finding. Retain Friday’s unresolved response separately when Saturday becomes the latest post-session record (decision #453).
