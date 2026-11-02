@@ -6,13 +6,31 @@
   "start_date": "2026-10-25",
   "end_date": "2027-01-03",
   "timezone": "America/New_York",
-  "as_of": "2026-11-01",
+  "as_of": "2026-11-02",
   "activation_status": "active",
-  "calendar_week": "W1",
+  "calendar_week": "W2",
   "calendar_phase": "Ramp",
-  "lifting_stage": "A",
-  "last_tolerated_stage": null,
-  "latest_manageable_week": null,
+  "lifting_stage": "B",
+  "last_tolerated_stage": "A",
+  "latest_manageable_week": {
+    "week": "W1",
+    "range_start": "2026-10-26",
+    "range_end": "2026-11-01",
+    "stage": "A",
+    "manageable": true,
+    "reported_on": "2026-11-02",
+    "decision_id": 458,
+    "evidence": {
+      "reported_on": "2026-11-02",
+      "question": "Was W1 manageable overall—soreness settling, recovery good, and no worsening joint/tendon symptoms? This determines whether today moves to Stage B.",
+      "report": "Yes, manageable overall",
+      "status": "good",
+      "provenance": "athlete response to explicit completed-week review",
+      "decision_id": 458,
+      "scope": "Retrospective W1 recovery review covering all October 26–November 1 sessions, including Friday; also current Monday recovery after Sunday. No numeric metrics or backdated daily report supplied."
+    },
+    "source": "../history/weekly-summary.md#2026-11-02--w1-review-and-stage-b-advance"
+  },
   "adoption": {
     "status": "complete",
     "steps_complete": [
@@ -23,7 +41,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 457,
+  "last_adjustment_id": 458,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -76,7 +94,7 @@
       "cardio_actual_ref": "../history/cardio-log.md#2026-10-28--hybrid-v11-w1-wednesday-bike",
       "cycling_duration_seconds": 1205,
       "recovery_status": "current-general-recovery-reported-good",
-      "review_note": "All seven lifting sets confirmed within rep ranges at RIR 3; bike 20:05 at average 130 W, displayed effort 4. Current general recovery reported fine October 28 evening. Thursday preview was generated then and is now logged separately."
+      "review_note": "All seven lifting sets confirmed within rep ranges at RIR 3; bike 20:05 at average 130 W, displayed effort 4. Current general recovery reported fine October 28 evening. Thursday preview was generated then and is now logged separately. November 2 W1 manageable review plus subsequent Thursday lifting/Friday run validates the prescribed 20-minute bike dose; W2 stays 20 minutes."
     },
     "2026-10-29": {
       "calendar_week": "W1",
@@ -101,9 +119,18 @@
       "work_minutes": 18,
       "distance_miles": null,
       "actual_ref": "../history/cardio-log.md#2026-10-30--hybrid-v11-w1-friday-intervals",
-      "classification": "pending",
-      "recovery_status": "local-response-and-next-day-recovery-pending",
-      "review_note": "3×6 at 7:27/7:13/7:16, RPE 5/6/7. Revised directive counts faster reps: all pace/effort checks pass; ordinary hit candidate pending next-day recovery. Total distance and shoe unconfirmed; no comfortable hit at final RPE 7."
+      "classification": "hit",
+      "recovery_status": "normal-recovery-confirmed-in-retrospective-week-review",
+      "review_note": "November 2 explicit W1 manageable/recovery-good review resolves Friday recovery: full 3×6, paces 7:27/7:13/7:16 and final RPE 7 qualify ordinary hit 1. No comfortable credit; total distance/shoe remain unknown.",
+      "recovery_review": {
+        "reported_on": "2026-11-02",
+        "question": "Was W1 manageable overall—soreness settling, recovery good, and no worsening joint/tendon symptoms? This determines whether today moves to Stage B.",
+        "report": "Yes, manageable overall",
+        "status": "good",
+        "provenance": "athlete response to explicit completed-week review",
+        "decision_id": 458,
+        "scope": "Retrospective W1 recovery review covering all October 26–November 1 sessions, including Friday; also current Monday recovery after Sunday. No numeric metrics or backdated daily report supplied."
+      }
     },
     "2026-10-31": {
       "calendar_week": "W1",
@@ -118,7 +145,7 @@
       "cardio_actual_ref": "../history/cardio-log.md#2026-10-31--hybrid-v11-w1-saturday-bike",
       "cycling_duration_seconds": 1217,
       "recovery_status": "next-day-general-recovery-reported-good",
-      "review_note": "All six sets meet rep ranges at RIR 3. Saturday curl established at actual 25×9, versus planned 20 lb. Bike 20:17 at average 131 W, displayed 10.1 km, reported RPE 2–3. No Achilles or ab issues during/after; next-day general recovery reported good November 1. Later session tolerance and completed manageable-week review remain pending."
+      "review_note": "All six sets and 20:17 bike logged; local response symptom-free, next-day recovery good and subsequent Sunday lifting acceptable. W1 manageable confirmed November 2; no subsequent run yet, so Saturday bike duration validation remains pending."
     },
     "2026-11-01": {
       "calendar_week": "W1",
@@ -130,8 +157,17 @@
       "prescribed_working_sets": 11,
       "unresolved_slots": [],
       "actual_ref": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
-      "recovery_status": "local-response-clarified-ab-loading-deferred",
-      "review_note": "All 11 sets met rep ranges with at least RIR 3; leg curl calibrated to next starting load 100. Achilles fine. Minor original-site ab strain sensation faded after a few reps; added weight deferred, BW only if comfortable. Next-day recovery/manageable-week review pending."
+      "recovery_status": "next-day-good-ab-loading-still-deferred",
+      "review_note": "All 11 sets met ranges at RIR ≥3. Achilles comfortable; Sunday original-site ab sensation faded after a few reps. November 2: no current discomfort and W1 explicitly manageable. Stage A completed; advance to B while keeping conditional BW abs and deferred loading.",
+      "recovery_review": {
+        "reported_on": "2026-11-02",
+        "question": "Was W1 manageable overall—soreness settling, recovery good, and no worsening joint/tendon symptoms? This determines whether today moves to Stage B.",
+        "report": "Yes, manageable overall",
+        "status": "good",
+        "provenance": "athlete response to explicit completed-week review",
+        "decision_id": 458,
+        "scope": "Retrospective W1 recovery review covering all October 26–November 1 sessions, including Friday; also current Monday recovery after Sunday. No numeric metrics or backdated daily report supplied."
+      }
     }
   },
   "planned_start_date": "2026-10-26",
@@ -156,11 +192,21 @@
       "additional_ab_circuit_sets": null,
       "total_lifting_sets": null,
       "opening_session_included": false,
-      "manageable": null,
-      "status": "pending-final-recovery-and-manageable-week-review",
-      "decision_id": 457,
+      "manageable": true,
+      "status": "reviewed-manageable",
+      "decision_id": 458,
       "source": "../history/weekly-summary.md#2026-10-262026-11-01--w1-outcomes",
-      "local_response_note": "Sunday Achilles comfortable; transient original-site ab symptoms clarified. Added ab loading deferred; final recovery and manageable-week review still pending."
+      "local_response_note": "No current ab discomfort November 2. Sunday original-site sensation remains documented; BW limits and added-load deferral persist independently of Stage B.",
+      "reviewed_on": "2026-11-02",
+      "evidence": {
+        "reported_on": "2026-11-02",
+        "question": "Was W1 manageable overall—soreness settling, recovery good, and no worsening joint/tendon symptoms? This determines whether today moves to Stage B.",
+        "report": "Yes, manageable overall",
+        "status": "good",
+        "provenance": "athlete response to explicit completed-week review",
+        "decision_id": 458,
+        "scope": "Retrospective W1 recovery review covering all October 26–November 1 sessions, including Friday; also current Monday recovery after Sunday. No numeric metrics or backdated daily report supplied."
+      }
     }
   }
 }

@@ -187,18 +187,18 @@
       },
       "new_exposure_count": 1,
       "next_action": {
-        "decision_id": 437,
+        "decision_id": 458,
         "action": "reduce-for-effort-calibration",
         "from_actual_load": 165,
         "proposed_load": 160,
         "units": "lb",
         "availability_rule": "Use 160 if available, otherwise the next lower station setting below 165; select for the rep floor at intended RIR.",
-        "applies_when": "Next M5 prescription targeting about 3 RIR; re-evaluate if stage or recovery target changes.",
+        "applies_when": "November 2 Stage B: two sets targeting 3 RIR.",
         "target_reps": "8–12",
         "target_rir": 3,
-        "status": "proposed-not-performed",
+        "status": "prescribed-not-performed",
         "source": "../history/lifting-log.md#2026-10-26--hybrid-v11-w1-monday-upper-a",
-        "reason": "165×8 at RIR 2 reached the rep floor with one fewer rep in reserve than prescribed. Calibration correction, not decline/fatigue."
+        "reason": "October 26 actual 165×8 at RIR 2 fits the Stage-B 2–3 range, but 160 is selected to target 3 RIR while adding a second set. Effort calibration, not a failed Stage-B target or earned load change; actual load remains 165 until a new report."
       }
     },
     "M6": {

@@ -195,7 +195,16 @@
     "normal_format": "3x6",
     "rpe_cap": 7,
     "temporary_prescription": null,
-    "last_successful_normal": null,
+    "last_successful_normal": {
+      "date": "2026-10-30",
+      "session_id": "hybrid-2026-10-26-w1-fri-2026-10-30",
+      "pace_seconds_per_mile": 445,
+      "work_minutes": 18,
+      "format": "3x6",
+      "source": "../history/cardio-log.md#2026-10-30--hybrid-v11-w1-friday-intervals",
+      "decision_id": 458,
+      "qualification_note": "All pace/full-work/rest/effort checks met; November 2 explicit retrospective W1 review confirms normal recovery. Prescribed target remains 7:25; faster actuals count. No comfortable credit at final RPE 7."
+    },
     "last_completed": "2026-10-30",
     "latest_actual": {
       "date": "2026-10-30",
@@ -287,20 +296,36 @@
       "surface": null,
       "recovery_mode": null,
       "extra_rest_reported": null,
-      "next_day_recovery": null
+      "next_day_recovery": {
+        "reported_on": "2026-11-02",
+        "question": "Was W1 manageable overall—soreness settling, recovery good, and no worsening joint/tendon symptoms? This determines whether today moves to Stage B.",
+        "report": "Yes, manageable overall",
+        "status": "good",
+        "provenance": "athlete response to explicit completed-week review",
+        "decision_id": 458,
+        "scope": "Retrospective W1 recovery review covering all October 26–November 1 sessions, including Friday; also current Monday recovery after Sunday. No numeric metrics or backdated daily report supplied."
+      }
     },
-    "classification": "pending",
-    "hits": 0,
+    "classification": "hit",
+    "hits": 1,
     "misses": 0,
     "comfortable_pair": [],
-    "next_day_recovery": null,
+    "next_day_recovery": {
+      "reported_on": "2026-11-02",
+      "question": "Was W1 manageable overall—soreness settling, recovery good, and no worsening joint/tendon symptoms? This determines whether today moves to Stage B.",
+      "report": "Yes, manageable overall",
+      "status": "good",
+      "provenance": "athlete response to explicit completed-week review",
+      "decision_id": 458,
+      "scope": "Retrospective W1 recovery review covering all October 26–November 1 sessions, including Friday; also current Monday recovery after Sunday. No numeric metrics or backdated daily report supplied."
+    },
     "poor_recovery_pattern": [],
     "return": null,
     "pending_validation": null,
     "carried_adjustment": null,
     "classification_review": {
-      "decision_id": 450,
-      "status": "pending-next-day-recovery",
+      "decision_id": 458,
+      "status": "classified",
       "pace_offsets_seconds_per_mile": [
         2,
         -12,
@@ -309,7 +334,7 @@
       "effort_cap_exceeded": false,
       "comfortable_effort_threshold_met": false,
       "candidate_if_normally_recovered_and_comparable": "hit",
-      "reason": "All three reps at 7:27 / 7:13 / 7:16 meet the revised pace requirement of 7:30/mi or faster. All 18 work minutes and the two planned recoveries are reported; final RPE 7 meets cap 7. Faster reps count normally. Ordinary hit 1 awaits normal next-day recovery; no credit is discarded for fast pacing. Final RPE 7 is above the separate comfortable threshold of 5.",
+      "reason": "7:27/7:13/7:16 all pass the 7:30-or-faster requirement; 18 work minutes and both prescribed recoveries completed, final RPE 7 meets cap. November 2 retrospective W1 review supplies normal recovery. Ordinary hit 1/misses 0; no comfortable credit at final RPE 7 > 5.",
       "followup_requested_on": "2026-10-30",
       "rule_revision": "2026-10-30-faster-pace-credit",
       "previous_candidate": "no-count",
@@ -318,21 +343,33 @@
         true,
         true
       ],
-      "performance_status": "pace-and-effort-qualified"
+      "performance_status": "pace-and-effort-qualified",
+      "classified_on": "2026-11-02",
+      "classification": "hit",
+      "previous_recorded_classification": "pending",
+      "recovery_evidence": {
+        "reported_on": "2026-11-02",
+        "question": "Was W1 manageable overall—soreness settling, recovery good, and no worsening joint/tendon symptoms? This determines whether today moves to Stage B.",
+        "report": "Yes, manageable overall",
+        "status": "good",
+        "provenance": "athlete response to explicit completed-week review",
+        "decision_id": 458,
+        "scope": "Retrospective W1 recovery review covering all October 26–November 1 sessions, including Friday; also current Monday recovery after Sunday. No numeric metrics or backdated daily report supplied."
+      }
     },
     "next_action": {
-      "decision_id": 450,
-      "action": "hold-normal-prescription-pending-recovery",
+      "decision_id": 458,
+      "action": "hold-at-w2-ceiling",
       "pace_seconds_per_mile": 445,
       "work_minutes": 18,
       "format": "3x6",
-      "reason": "Friday pace and effort qualify for ordinary hit 1 once normal next-day recovery is confirmed. Hold 3×6 at 7:25 for the next W2 exposure because the calendar caps Friday at 18 minutes and permits no faster target. The hold is not a fast-rep penalty; no effort-based slowdown is indicated."
+      "reason": "Ordinary hit 1 earned. W2 caps Friday at 18 minutes and permits no faster target, so retain 3×6 at 7:25. No comfortable credit and no fast-rep penalty."
     }
   },
   "cycling": {
     "wednesday": {
       "last_completed": "2026-10-28",
-      "last_tolerated_minutes": null,
+      "last_tolerated_minutes": 20,
       "latest_actual": {
         "date": "2026-10-28",
         "session_id": "hybrid-2026-10-26-w1-wed-2026-10-28-bike",
@@ -345,24 +382,49 @@
         "effort_source": "Apple Fitness screenshot; whether manually entered or estimated is not reported. Not inferred from heart rate.",
         "average_heart_rate_bpm": 143,
         "distance": null,
-        "next_day_recovery": null,
-        "subsequent_lifting_running_tolerance": null
+        "next_day_recovery": {
+          "reported_on": "2026-11-02",
+          "question": "Was W1 manageable overall—soreness settling, recovery good, and no worsening joint/tendon symptoms? This determines whether today moves to Stage B.",
+          "report": "Yes, manageable overall",
+          "status": "good",
+          "provenance": "athlete response to explicit completed-week review",
+          "decision_id": 458,
+          "scope": "Retrospective W1 recovery review covering all October 26–November 1 sessions, including Friday; also current Monday recovery after Sunday. No numeric metrics or backdated daily report supplied."
+        },
+        "subsequent_lifting_running_tolerance": {
+          "reviewed_on": "2026-11-02",
+          "decision_id": 458,
+          "status": "acceptable",
+          "evidence": "Thursday October 29 non-ab lifting met ranges at RIR 3; BW circuit symptom-free. Friday October 30 run qualifies a hit, with good recovery confirmed by the explicit W1 review.",
+          "recovery_review": {
+            "reported_on": "2026-11-02",
+            "question": "Was W1 manageable overall—soreness settling, recovery good, and no worsening joint/tendon symptoms? This determines whether today moves to Stage B.",
+            "report": "Yes, manageable overall",
+            "status": "good",
+            "provenance": "athlete response to explicit completed-week review",
+            "decision_id": 458,
+            "scope": "Retrospective W1 recovery review covering all October 26–November 1 sessions, including Friday; also current Monday recovery after Sunday. No numeric metrics or backdated daily report supplied."
+          }
+        }
       },
-      "pending_validation": {
-        "decision_id": 443,
-        "status": "pending-recovery-and-subsequent-session-tolerance",
-        "reason": "20:05 completed with displayed effort 4, within acceptable 2–4. Subsequent lifting/running response is required before validating later duration increases."
-      },
+      "pending_validation": null,
       "next_action": {
-        "decision_id": 443,
-        "action": "hold-planned-duration-pending-tolerance",
+        "decision_id": 458,
+        "action": "hold-at-w2-ceiling",
         "minutes": 20,
         "target_rpe": 3,
         "acceptable_rpe_range": [
           2,
           4
         ],
-        "reason": "Maintain the W1/W2 20-minute dose; no longer bike or power target earned from completion, watts or heart rate."
+        "reason": "20-minute prescribed dose validated by subsequent lifting/run performance and explicit W1 recovery review. W2 ceiling remains 20 minutes; actual 20:05 does not set a new duration or power target."
+      },
+      "validation_review": {
+        "decision_id": 458,
+        "reviewed_on": "2026-11-02",
+        "status": "20-minute-prescribed-dose-tolerated",
+        "actual_duration_seconds": 1205,
+        "source": "../history/cardio-log.md#2026-11-02--w1-retrospective-recovery-review"
       }
     },
     "saturday": {
@@ -408,9 +470,9 @@
           "scope": "Sunday current general recovery and next-day recovery after Saturday October 31 lifting/bike. No numeric metrics, new site-specific report or completed manageable-week assessment supplied."
         },
         "subsequent_lifting_running_tolerance": {
-          "reviewed_on": "2026-11-01",
-          "decision_id": 457,
-          "status": "lifting-performance-acceptable-ab-response-and-running-tolerance-unresolved",
+          "reviewed_on": "2026-11-02",
+          "decision_id": 458,
+          "status": "lifting-acceptable-subsequent-run-pending",
           "lifting_session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
           "lifting_source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
           "evidence": "All 11 Sunday sets meet ranges at RIR 3 or more. Compared with October 25, calf and hack reps improved; no demonstrated leg-performance decline. Leg curl recalibrated upward to 100 lb.",
@@ -423,6 +485,22 @@
             "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
             "decision_id": 457,
             "scope": "Clarifies Sunday during/after symptom question: Achilles comfortable; athlete describes ordinary-feeling soreness plus a minor original-site strain sensation that faded after a few reps. Not a new injury diagnosis or next-day recovery report."
+          },
+          "current_ab_followup": {
+            "reported_on": "2026-11-02",
+            "question": "How does the original ab-strain site feel today?",
+            "report": "No discomfort today",
+            "decision_id": 458,
+            "scope": "Current Monday symptoms after Sunday; no new ab exercise or loaded tolerance established."
+          },
+          "week_review": {
+            "reported_on": "2026-11-02",
+            "question": "Was W1 manageable overall—soreness settling, recovery good, and no worsening joint/tendon symptoms? This determines whether today moves to Stage B.",
+            "report": "Yes, manageable overall",
+            "status": "good",
+            "provenance": "athlete response to explicit completed-week review",
+            "decision_id": 458,
+            "scope": "Retrospective W1 recovery review covering all October 26–November 1 sessions, including Friday; also current Monday recovery after Sunday. No numeric metrics or backdated daily report supplied."
           }
         },
         "symptom_followup": {
@@ -435,13 +513,13 @@
         }
       },
       "pending_validation": {
-        "decision_id": 457,
-        "status": "pending-ab-response-settling-and-subsequent-running-tolerance",
+        "decision_id": 458,
+        "status": "pending-subsequent-running-tolerance",
         "followup_requested_on": "2026-10-31",
-        "reason": "Sunday lifting performance and Achilles response are acceptable. Transient original-site ab symptoms during crunches are now reported; do not attribute them to cycling. Later ab response and subsequent running tolerance remain unvalidated; no duration increase."
+        "reason": "Sunday lifting acceptable and November 2 ab discomfort absent; W1 manageable. No run since Saturday yet. Preserve Sunday ab sensation without attributing it to cycling. No duration increase."
       },
       "next_action": {
-        "decision_id": 457,
+        "decision_id": 458,
         "action": "hold-planned-duration-pending-tolerance",
         "minutes": 20,
         "target_rpe": 3,
@@ -449,7 +527,7 @@
           2,
           4
         ],
-        "reason": "Keep the W1/W2 planned 20-minute bike dose if comfortable. Saturday recovery and Sunday leg performance/Achilles response support holding the dose; later running tolerance and ab response still need review before increases. No evidence establishes cycling as the cause of ab symptoms."
+        "reason": "Hold W2 20 minutes if comfortable. Recovery and later lifting support the dose; no subsequent run yet, so no duration increase. No new HR or power target."
       }
     }
   }

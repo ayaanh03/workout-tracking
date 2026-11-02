@@ -323,3 +323,30 @@ All W1 sessions are logged: **45 known lifting sets plus Thursday’s BW circuit
 Under `program/adjustments.md#local-response` and the #456 trial prerequisites, **defer the proposed 5 lb ab trial** because original-site symptoms were present. Keep BW overrides, max two sets and minimum 3 RIR, conditional on comfort; stop/reduce/omit aggravating work if pain/pulling recurs. Do not push through waiting for it to fade. Reconsider only after comfortable BW during/after and next-morning response plus a fresh review; no automatic Monday loading or full baseline restoration. Keep the inactive proposal for provenance, explicitly marked deferred/not authorized. Today’s completed BW sets stand, while October 29 is restored as the last explicitly symptom-free direct ab reference.
 
 Update the current local response in recovery, L1 notes/next action, Saturday bike’s later-response review, block/week outcome and both caches. No symptoms are attributed to cycling, and no bike-duration award is created. Preserve Friday’s independent pending response, Tuesday’s hit/exception, W1 known 45 sets plus uncounted circuit, all prescriptions/raw sets, shoe mileage and stage. Sunday next-day/general manageable-week evidence is still missing; no new question is needed to record this clarification. Append the correction and publish the same completed November 1 session.
+
+## 2026-11-02 — Stage B Monday Upper A
+
+458. Athlete explicitly confirms W1 **“Yes, manageable overall”** in answer to the completed-week soreness/recovery/joint-response question; original ab site **“No discomfort today.”** Record both November 2 responses with their question scope. Under `program/ramp-and-return.md`, completed manageable Stage A earns **B**, last tolerated stage A. Calendar advances to W2, November 2–8; it does not itself earn advancement. Current good recovery supports today’s session. W1 actual count remains 45 known lifting sets plus an uncounted BW circuit, opening session separate.
+
+Prescription ID `hybrid-2026-10-26-mon-upper-a-458`, **W2 Monday November 2 — Upper A**:
+
+| Slot | Exercise | Sets × reps | Load | RIR | Rest |
+|---|---|---|---|---|---|
+| M1a | Incline barbell bench — top set | 1×4–6 | 145 lb | 2–3 | 3 min |
+| M1b | Incline barbell bench — back-offs | 2×6–8 | 135 lb | 2–3 | 3 min |
+| M2 | Incline DB curl | 2×8–12 | 20 lb | 2–3 | 2 min |
+| M3 | DB lateral raise | 3×12–20 | 35 lb | 2–3 | 2 min |
+| M4 | Overhead cable triceps extension | 2×10–15 | 35 lb | 2–3 | 2 min |
+| M5 | Lat pulldown | 2×8–12 | 160 lb | 3 | 3 min |
+| M6 | Decline crunch — bodyweight | 2×10–15 | BW | ≥3 | 2 min |
+| M7 | Chest-supported row | 2×8–12 | 70 lb | 2–3 | 3 min |
+
+**16 working sets if abs remain comfortable; 14 if both ab sets are omitted. No cardio.** Under `program/monday.md` and ramp/lift rules, add one M1b/M2/M3/M5/M7 set; M1a/M4/M6 counts unchanged. October 26 same-slot actuals: top 145×6/back-off 135×8, curl 20×12, laterals 35×15/12, overhead extension 35×10/10, all RIR 3; hold appropriate loads as volume increases. Monday curl stays 20 despite independent Saturday 25×9. Row 70×12 RIR 3 was the confirmed accidental load; keep 70, not the unperformed 80. No ordinary progression, new actual, exposure or forearm-completion credit.
+
+M5 October 26 actual 165×8 RIR 2 fits Stage B’s 2–3 range, but select **160** to target 3 RIR while adding a second set. If 160 is unavailable, use the next lower setting below 165, calibrated to rep floor/reserve. This is the previously proposed effort calibration reviewed for Stage B, not a failure of its target or a completed load change; actual 165 stays in state.
+
+M6 retains the recovery override: BW only if comfortable, max 2×10–15 at ≥3 RIR. Sunday’s original-site sensation prevents automatic loading despite no discomfort today. Keep the 5 lb proposal deferred pending comfortable BW during/after and next morning plus fresh review; stop/reduce/omit for recurrent original-site pain/pulling. No new tolerated direct exposure, cable-crunch credit or full clearance.
+
+Resolve Friday’s pending recovery via the explicit retrospective W1 report, dated November 2: full 18 min/rests, all paces passing target+5 or faster and final RPE 7 now establish **ordinary hit 1/misses 0**, normal 3×6 at 7:25. No comfortable credit. No invented Friday symptom detail or summary distance/shoe. Tuesday hit/exception unchanged. Wednesday 20 min bike validated by later Thursday lifting/Friday run plus week review; Saturday later-run tolerance still pending. W2 ceilings hold runs 12/18 min at 6:50/7:25 and bikes 20 min.
+
+Publish current Monday prescription and W2 Monday–Sunday plan: **16/12/18/11/13 = 70** conditional lifting sets, including Saturday one set each reverse/wrist curl at 3–4 RIR. Forearm loads remain uninitialized. W2 has 0 recorded miles; planning estimate uses 10-min warmups/cooldowns, 3-/2-min between-rep recoveries and 8:30 easy pace. Upper planning envelope adds 5-min warmup/run and uses work alert fast edges 6:45/7:20; unrounded values remain below 15 mi. Faster actuals may exceed this estimate; recalculate when logged. No new Watch file, shoe miles, completed workout or altered historical raw data. Both caches share the actual America/New_York timestamp (−05:00).

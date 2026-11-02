@@ -1,72 +1,72 @@
 {
-  "generatedAt": "2026-11-01T14:15:26-05:00",
+  "generatedAt": "2026-11-02T11:34:35-05:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
-  "week": "W1",
-  "phase": "Hybrid v11 — Stage A",
-  "rangeStart": "2026-10-26",
-  "rangeEnd": "2026-11-01",
-  "summary": "W1, October 26–November 1: all scheduled sessions logged. 45 countable lifting sets plus Thursday’s BW circuit of unknown dose. Sunday Achilles was fine; added ab weight is deferred after transient original-site symptoms. Stage A retained pending final recovery/manageability.",
+  "week": "W2",
+  "phase": "Hybrid v11 — Stage B",
+  "rangeStart": "2026-11-02",
+  "rangeEnd": "2026-11-08",
+  "summary": "W2, November 2–8: Stage B earned after a manageable W1. Up to 70 lifting sets with conditional BW abs; established weights held. Both W1 runs earn ordinary hits. W2 holds 3×4 at 6:50 / 3×6 at 7:25 and 20-minute bikes. Future work remains subject to recovery.",
   "days": [
     {
-      "date": "2026-10-26",
+      "date": "2026-11-02",
       "day": "Mon",
       "session": "Upper A",
-      "note": "11 sets logged: incline 145×6/135×8, curl 20×12, lateral 35×15/12, extension 35×10/10, pulldown 165×8 RIR 2, BW abs 15/15 (felt fine), row 70×12 (accidental load confirmed). Other sets RIR 3.",
-      "status": "done"
+      "note": "16 sets: 145/135 bench, curl 20, laterals 35, overhead extension 35, pulldown 160, conditional BW crunch, row 70. See today’s exact prescription.",
+      "status": "today"
     },
     {
-      "date": "2026-10-27",
+      "date": "2026-11-03",
       "day": "Tue",
       "session": "Intervals",
-      "note": "Completed 3×4 at displayed 6:56 / 6:41 / 6:28, final RPE 8; good recovery. First rep accepted as a pass per your tracking correction: ordinary hit 1, misses 0. Successful normal dose 3×4 at 6:50; hold for W2.",
-      "status": "done"
+      "note": "3×4 min at 6:50/mi, 3-min easy jog/walk between reps; final RPE ≤8. Warmup 10 min easy, cooldown 10 min. W2 ceiling holds work and target.",
+      "status": "upcoming"
     },
     {
-      "date": "2026-10-28",
+      "date": "2026-11-04",
       "day": "Wed",
       "session": "Delts/arms A + bike",
-      "note": "7 sets logged at RIR 3: lateral 35×15/12, preacher 75×8, pec deck 145×12, rope hammer 50×11, calves 365×11/11. Bike 20:05 at avg 130 W, displayed effort 4. Current general recovery reported fine.",
-      "status": "done"
+      "note": "12 Stage-B sets; then bike 20 min at RPE 3 (2–4 acceptable). Wednesday’s prior 20-min dose validated; no W2 increase.",
+      "status": "upcoming"
     },
     {
-      "date": "2026-10-29",
+      "date": "2026-11-05",
       "day": "Thu",
       "session": "Upper B",
-      "note": "Completed 10 non-ab sets at RIR 3; BW circuit included a 2-minute plank and leg raises with no ab symptoms, remaining dose n/r. General recovery reported good early October 30.",
-      "status": "done"
+      "note": "18 Stage-B sets including up to 2 comfortable BW crunch sets at ≥3 RIR; established loads held.",
+      "status": "upcoming"
     },
     {
-      "date": "2026-10-30",
+      "date": "2026-11-06",
       "day": "Fri",
       "session": "Longer intervals",
-      "note": "Completed 3×6 at 7:27 / 7:13 / 7:16, RPE 5 / 6 / 7. All pace/effort checks pass under faster-reps-count rule; hit 1 pending next-day recovery. Approx. 4.96 mi from segments; exact total/shoe pending.",
-      "status": "done"
+      "note": "3×6 min at 7:25/mi, 2-min easy jog/walk between reps; final RPE ≤7. Warmup 10 min easy, cooldown 10 min. W1 ordinary hit credited; W2 ceiling holds dose.",
+      "status": "upcoming"
     },
     {
-      "date": "2026-10-31",
+      "date": "2026-11-07",
       "day": "Sat",
       "session": "Delts/arms B + bike",
-      "note": "6 sets logged at RIR 3: lateral 35×15/12, incline curl 25×9, overhead extension 35×10/10, reverse pec deck 145×15. Bike 20:17, avg 131 W, displayed 10.1 km, reported RPE 2–3. No Achilles or ab issues during/after; next-day recovery reported good November 1.",
-      "status": "done"
+      "note": "11 sets: 9 core plus one reverse-curl and one wrist-curl set at 3–4 RIR, loads to calibrate. Then bike 20 min at RPE 3 (2–4 acceptable).",
+      "status": "upcoming"
     },
     {
-      "date": "2026-11-01",
+      "date": "2026-11-08",
       "day": "Sun",
       "session": "Legs, bodyweight abs + calves",
-      "note": "11 sets logged: BW crunch 15/15, calves 365×12/15, hack 95×6/7, curl 85×12 RIR 5 then 100×10 RIR 3, extension 100×15/15 RIR 3/5, back extension 25×12. Other sets RIR 3. Achilles fine; original-site ab sensation faded after a few reps. Added weight deferred.",
-      "status": "done"
+      "note": "13 Stage-B sets including up to 2 comfortable BW crunch sets at ≥3 RIR. Leg curl starts at calibrated 100 lb; other suitable established loads held.",
+      "status": "upcoming"
     }
   ],
   "runningMileageCheck": {
-    "decisionId": 449,
-    "kind": "confirmed-plus-estimated-actual",
-    "recordedMiles": 4.27,
-    "estimatedUnconfirmedMiles": 4.955492424242424,
-    "estimatedMiles": 9.225492424242423,
-    "upperMiles": null,
+    "decisionId": 458,
+    "kind": "planned",
+    "recordedMiles": 0,
+    "estimatedUnconfirmedMiles": 0,
+    "estimatedMiles": 10.065416794286913,
+    "upperMiles": 11.291146761734998,
     "limitMiles": 15,
-    "status": "friday-total-confirmation-pending",
-    "assumptions": "Tuesday total 4.27 mi confirmed. Friday estimate sums rounded screenshot distances 1.15 + 0.80 + 0.18 + 0.83 + 0.20 + 0.82 + 0.97 mi plus 29 ft open; approximately 4.96 mi, not confirmed summary distance. Weekly estimate approximately 9.23 mi; no further scheduled runs this week."
+    "status": "planned-below-limit",
+    "assumptions": "No W2 running logged. Estimate: Tuesday 12 work minutes at 6:50 plus 26 easy minutes; Friday 18 work minutes at 7:25 plus 24 easy minutes, easy running assumed 8:30/mi. Planning upper adds 5 warmup minutes per run and uses 6:45/7:20 work pace. About 10.07–11.29 mi; faster actuals may exceed this planning envelope, so recalculate actual mileage. Friday W1 distance/shoe remains unresolved; no shoe miles added."
   }
 }
