@@ -211,6 +211,35 @@
         ],
         "decision_id": 457
       }
+    },
+    {
+      "id": "overhead-triceps-tendon-stress",
+      "status": "active-exercise-replacement",
+      "reported_on": "2026-11-02",
+      "report": "Across the board replace overhead tricep extensions with push downs and set starting weight to 50lb. The ooverhead is stressing my tendons out.",
+      "provenance": "athlete report and explicit program-change instruction",
+      "decision_id": 459,
+      "source": "../history/injury-log.md#2026-11-02--overhead-triceps-tendon-stress-and-pushdown-replacement",
+      "site": null,
+      "side": null,
+      "severity": null,
+      "diagnosis": null,
+      "affected_slots": [
+        "M4",
+        "S3"
+      ],
+      "related_slot": "T5 already uses pushdowns; independent actuals and progression retained.",
+      "excluded_exercises": [
+        "Overhead cable triceps extension"
+      ],
+      "replacement_exercise": "Cable pushdown",
+      "starting_load_lb": 50,
+      "starting_load_status": "athlete-prescribed; M4/S3 not yet performed",
+      "persistence": "Ongoing athlete-requested program change. Do not automatically restore overhead extensions after symptoms improve or stages advance.",
+      "effective_dose": "Keep scheduled sets/reps/rest and achieved-stage RIR; no extra triceps work. Stage B M4/S3 each 2×10–15 at 2–3 RIR, 2 min rest.",
+      "symptom_action": "Pushdowns only if comfortable. Reduce load or stop/omit if tendon irritation recurs; review before progressing aggravating work.",
+      "followup_status": "Replacement response during/after and next day not yet reported. No symptom-free pushdown clearance inferred.",
+      "note": "Timing and precise tendon/location are unreported. This local report supersedes any inference that triceps are symptom-free, while the earlier overall manageable-week report and unrelated work remain intact."
     }
   ],
   "pending_gates": [

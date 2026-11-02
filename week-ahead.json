@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-11-02T11:34:35-05:00",
+  "generatedAt": "2026-11-02T11:52:08-05:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W2",
   "phase": "Hybrid v11 — Stage B",
   "rangeStart": "2026-11-02",
   "rangeEnd": "2026-11-08",
-  "summary": "W2, November 2–8: Stage B earned after a manageable W1. Up to 70 lifting sets with conditional BW abs; established weights held. Both W1 runs earn ordinary hits. W2 holds 3×4 at 6:50 / 3×6 at 7:25 and 20-minute bikes. Future work remains subject to recovery.",
+  "summary": "W2, November 2–8: Stage B earned after a manageable W1. Up to 70 lifting sets with conditional BW abs; established weights held. Both W1 runs earn ordinary hits. W2 holds 3×4 at 6:50 / 3×6 at 7:25 and 20-minute bikes. Future work remains subject to recovery. Monday/Saturday overhead extensions are replaced by pushdowns starting at 50 lb due to tendon stress.",
   "days": [
     {
       "date": "2026-11-02",
       "day": "Mon",
       "session": "Upper A",
-      "note": "16 sets: 145/135 bench, curl 20, laterals 35, overhead extension 35, pulldown 160, conditional BW crunch, row 70. See today’s exact prescription.",
+      "note": "16 sets: 145/135 bench, curl 20, laterals 35, pushdown 50, pulldown 160, conditional BW crunch, row 70. See today’s exact prescription.",
       "status": "today"
     },
     {
@@ -47,7 +47,7 @@
       "date": "2026-11-07",
       "day": "Sat",
       "session": "Delts/arms B + bike",
-      "note": "11 sets: 9 core plus one reverse-curl and one wrist-curl set at 3–4 RIR, loads to calibrate. Then bike 20 min at RPE 3 (2–4 acceptable).",
+      "note": "11 sets: 9 core plus one reverse-curl and one wrist-curl set at 3–4 RIR, loads to calibrate. Then bike 20 min at RPE 3 (2–4 acceptable). S3 uses cable pushdowns starting at 50 lb instead of overhead extensions, only if comfortable.",
       "status": "upcoming"
     },
     {

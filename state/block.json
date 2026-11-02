@@ -41,7 +41,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 458,
+  "last_adjustment_id": 459,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -208,5 +208,17 @@
         "scope": "Retrospective W1 recovery review covering all October 26–November 1 sessions, including Friday; also current Monday recovery after Sunday. No numeric metrics or backdated daily report supplied."
       }
     }
-  }
+  },
+  "program_amendments": [
+    {
+      "date": "2026-11-02",
+      "decision_id": 459,
+      "affected_slots": [
+        "M4",
+        "S3"
+      ],
+      "change": "Replace overhead cable triceps extensions with cable pushdowns, starting at 50 lb, due to athlete-reported tendon stress. Ongoing replacement; no automatic overhead restoration.",
+      "source": "../history/adjustments.md#2026-11-02--replace-overhead-triceps-work-with-pushdowns"
+    }
+  ]
 }

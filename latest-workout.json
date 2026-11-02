@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-02T11:34:35-05:00",
+  "generatedAt": "2026-11-02T11:52:08-05:00",
   "blockId": "hybrid-2026-10-26",
-  "prescriptionId": "hybrid-2026-10-26-mon-upper-a-458",
+  "prescriptionId": "hybrid-2026-10-26-mon-upper-a-459",
   "preview": false,
   "week": "W2",
   "day": "Mon",
@@ -12,7 +12,8 @@
     "Monday is Upper A. Your completed, manageable W1 earns Stage B: 16 working sets, with suitable loads held as sets increase."
   ],
   "intro": [
-    "No ab discomfort today. Keep crunches bodyweight-only and comfortable; stop/reduce/omit them if original-site pain or pulling returns. No cardio today."
+    "No ab discomfort today. Keep crunches bodyweight-only and comfortable; stop/reduce/omit them if original-site pain or pulling returns. No cardio today.",
+    "Cable pushdowns replace overhead extensions at 50 lb because of tendon stress. Use only if comfortable; reduce or stop if irritation returns."
   ],
   "lift": {
     "table": [
@@ -50,9 +51,9 @@
       },
       {
         "slotId": "M4",
-        "exercise": "Overhead cable triceps extension",
+        "exercise": "Cable pushdown",
         "setsReps": "2×10–15",
-        "load": "35 lb",
+        "load": "50 lb",
         "rir": "2–3",
         "rest": "2 min"
       },
@@ -97,10 +98,16 @@
       "reason": "Both loads fit the ranges. Stage B increases volume; ceiling reps in Stage A earn no ordinary load increase."
     },
     {
-      "exercise": "M2/M3/M4 — Curl, laterals and triceps",
-      "previous": "October 26: curl 20×12; laterals 35×15/12; overhead extension 35×10/10, all RIR 3.",
-      "decision": "Hold 20/35/35 lb. Curl 1 → 2 sets; laterals 2 → 3; triceps stays 2.",
+      "exercise": "M2/M3 — Curl and laterals",
+      "previous": "October 26: curl 20×12 and laterals 35×15/12, all RIR 3.",
+      "decision": "Hold 20/35 lb. Curl 1 → 2 sets; laterals 2 → 3.",
       "reason": "Use Monday’s independent actuals while adding Stage-B work. Saturday’s curl at 25×9 does not replace Monday’s 20 lb baseline."
+    },
+    {
+      "exercise": "M4 — Cable pushdown replaces overhead extension",
+      "previous": "October 26 overhead extensions: 35×10/10 at RIR 3. November 2: athlete reports tendon stress from overhead work and requests pushdowns starting at 50 lb. Thursday’s independent pushdown actual was 50×12/11 at RIR 3 on October 29.",
+      "decision": "Replace with cable pushdown: 50 lb, 2×10–15 at 2–3 RIR, 2 min rest. Apply the same exercise change to Saturday.",
+      "reason": "Modify the aggravating exercise under the local-response rule. This is a new exercise record in M4/S3, with no transferred progression credit; 50 lb is the requested starting prescription. Response remains pending: reduce or stop if pushdowns irritate the tendons."
     },
     {
       "exercise": "M5 — Lat pulldown",
@@ -152,10 +159,10 @@
     },
     {
       "slotId": "M4",
-      "exercise": "M4 — Overhead cable triceps extension",
-      "load": "35 lb",
-      "lastVerified": "2026-10-26 (reported)",
-      "note": "Reported 10/10 reps at RIR 3/3; hold during Stage B using the same load notation/setup."
+      "exercise": "M4 — Cable pushdown",
+      "load": "50 lb starting",
+      "lastVerified": "2026-11-02 (requested; not yet performed in this slot)",
+      "note": "Ongoing replacement for overhead extensions due to tendon stress. New independent pushdown record; previous overhead actuals preserved separately. Thursday’s 50 lb pushdown actual is a reference only. Use only if comfortable."
     },
     {
       "slotId": "M5",
@@ -285,10 +292,10 @@
     },
     {
       "slotId": "S3",
-      "exercise": "S3 — Overhead cable triceps extension",
-      "load": "35 lb",
-      "lastVerified": "2026-10-31",
-      "note": "Saturday actual 35×10/10 at RIR 3; hold during Stage B. No ordinary progression credit."
+      "exercise": "S3 — Cable pushdown",
+      "load": "50 lb starting",
+      "lastVerified": "2026-11-02 (requested; not yet performed in this slot)",
+      "note": "Ongoing replacement for overhead extensions due to tendon stress. New independent pushdown record; previous overhead actuals preserved separately. Thursday’s 50 lb pushdown actual is a reference only. Use only if comfortable."
     },
     {
       "slotId": "S4",
