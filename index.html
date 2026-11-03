@@ -93,8 +93,8 @@
   details[open] summary { margin-bottom: 10px; }
   .loads td.note { color: var(--muted); font-size: 13px; }
   .week td.day { font-weight: 500; white-space: nowrap; width: 1%; }
-  .week td.session { white-space: nowrap; }
-  .week td.note { color: var(--muted); font-size: 13px; }
+  .week td.session { min-width: 130px; }
+  .week td.note { color: var(--muted); font-size: 13px; min-width: 230px; }
   .week tr.done td { color: var(--muted); }
   .week tr.done td.day::before { content: "✓ "; color: var(--muted); }
   .week tr.today td { color: var(--accent); font-weight: 500; }
@@ -129,6 +129,44 @@
   .log-ex-head { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
   .log-ex-head .name { font-weight: 500; }
   .log-ex-head .rx { color: var(--muted); font-size: 13px; }
+  .log-ex-head { flex-wrap: wrap; }
+  .log-ex-content { display: grid; grid-template-columns: minmax(0, 1fr) minmax(180px, 0.8fr); gap: 16px; align-items: start; }
+  .log-entry, .last-performance { min-width: 0; }
+  .rest-time { color: var(--accent); font-size: 13px; margin: 4px 0 8px; }
+  .last-performance { background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; margin-top: 6px; }
+  .last-performance .label { margin-top: 0; }
+  .last-performance table { font-size: 13px; }
+  .last-performance th, .last-performance td { padding: 5px 4px; }
+  .last-performance .meta { margin-top: 4px; }
+  .history-session { border-top: 1px solid var(--border); padding: 12px 0; }
+  .history-session:first-of-type { border-top: 0; }
+  .history-session:last-child { padding-bottom: 0; }
+  .history-session > summary { display: flex; flex-wrap: wrap; gap: 3px 10px; color: var(--text); font-size: 14px; }
+  .history-session > summary .session-title { flex: 1 1 240px; font-weight: 500; }
+  .history-session > summary .session-count { color: var(--muted); font-size: 12px; }
+  .history-table td.ex { white-space: normal; min-width: 140px; }
+  .history-table td.result { min-width: 150px; }
+  .history-set { white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .history-set .set-number { color: var(--muted); display: inline-block; min-width: 20px; }
+  .history-note { color: var(--muted); font-size: 12px; margin-top: 5px; }
+  .history > .meta { margin: 0 0 8px; }
+  .load-group { border-top: 1px solid var(--border); padding: 10px 0; }
+  .load-group:first-child { border-top: 0; }
+  .load-group > summary { color: var(--text); }
+  .loads td.ex { white-space: normal; min-width: 150px; }
+  .loads td.result { min-width: 150px; }
+  @media (max-width: 560px) {
+    .log-ex-content { grid-template-columns: minmax(0, 1fr); gap: 10px; }
+    .last-performance { margin-top: 0; }
+    .log-ex-head .rx { flex-basis: 100%; }
+    .history-table { table-layout: fixed; }
+    .history-table th { white-space: normal; }
+    .history-table th:nth-child(1) { width: 39%; }
+    .history-table th:nth-child(2) { width: 13%; }
+    .history-table th:nth-child(3) { width: 48%; }
+    .history-table td.ex, .history-table td.result { min-width: 0; }
+    .history-table .history-set { white-space: normal; margin-bottom: 4px; }
+  }
   .log-ex.skipped .sets, .log-ex.skipped .ex-actions .add-set, .log-ex.skipped .ex-actions .fill { display: none; }
   .log-ex.skipped .name { color: var(--muted); text-decoration: line-through; }
   .set { display: grid; grid-template-columns: 22px 1fr 1fr 1fr; gap: 6px; align-items: center; margin-top: 6px; }
@@ -189,6 +227,97 @@ const fmtAge = iso => {
 
 const block = (label, content) => content ? [$('div', { class: 'label' }, label), $('div', null, content)] : [];
 
+// Recorded performance stays separate from prescriptions and browser drafts.
+const exerciseIdentity = value => String(value || '').toLowerCase()
+  .replace(/^[a-z]+\d+[a-z]?\s*[—–-]\s*/, '')
+  .replace(/[^a-z0-9]/g, '');
+const sameExercise = (a, b) => {
+  if (a.exerciseKey && b.exerciseKey) return a.exerciseKey === b.exerciseKey;
+  return exerciseIdentity(a.exercise) === exerciseIdentity(b.exercise);
+};
+const historySessions = d => {
+  const h = d.liftingHistory;
+  if (!h || !Array.isArray(h.sessions) || (h.blockId && d.blockId && h.blockId !== d.blockId)) return [];
+  return h.sessions.filter(s => /^\d{4}-\d{2}-\d{2}$/.test(s.date || '') && Array.isArray(s.exercises))
+    .slice().sort((a, b) => b.date.localeCompare(a.date));
+};
+const lastPerformance = (d, row, beforeDate = d.date) => {
+  if (!row || !row.slotId || !beforeDate) return null;
+  for (const session of historySessions(d)) {
+    if (session.date >= beforeDate) continue;
+    const exercise = session.exercises.find(ex => ex.slotId === row.slotId && sameExercise(ex, row));
+    if (exercise && exercise.status !== 'skipped' && exercise.status !== 'substituted' && exercise.sets && exercise.sets.length) {
+      return { date: session.date, sessionName: session.sessionName, exercise };
+    }
+  }
+  return null;
+};
+const actualLoad = set => {
+  if (set.load == null || set.load === '') return 'n/r';
+  if (String(set.load).toUpperCase() === 'BW' || set.units === 'bodyweight') return 'BW';
+  return String(set.load) + (set.units ? ' ' + set.units : '');
+};
+const actualSetText = set => `${actualLoad(set)} × ${set.reps ?? 'n/r'} · RIR ${set.rir ?? 'n/r'}`;
+const resultLines = sets => {
+  const result = $('div');
+  for (const [i, set] of (sets || []).entries()) {
+    result.appendChild($('div', { class: 'history-set' }, $('span', { class: 'set-number' }, `${i + 1}.`), actualSetText(set)));
+  }
+  return result;
+};
+const historyCard = d => {
+  const sessions = historySessions(d);
+  if (!sessions.length) return null;
+  const c = $('section', { class: 'card history' });
+  c.appendChild($('h2', null, 'Lifting history'));
+  c.appendChild($('p', { class: 'meta' }, 'Completed sessions, newest first. Open a session for each set’s weight, reps and RIR.'));
+  sessions.forEach((session, index) => {
+    const det = $('details', { class: 'history-session', 'data-session-id': session.sessionId || session.date });
+    if (index === 0) det.open = true;
+    const setCount = session.exercises.reduce((n, ex) => n + (ex.status === 'skipped' ? 0 : (ex.sets || []).length), 0);
+    const partial = session.exercises.some(ex => ex.status === 'substituted' || (ex.status !== 'skipped' && !(ex.sets || []).length));
+    det.appendChild($('summary', null,
+      $('span', { class: 'session-title' }, `${session.date} · ${session.sessionName || 'Lift'}`),
+      $('span', { class: 'session-count' }, `${session.week || ''}${session.stage ? ' · Stage ' + session.stage : ''} · ${setCount}${partial ? ' recorded' : ''} ${setCount === 1 ? 'set' : 'sets'}`)));
+    const wrap = $('div', { class: 'table-wrap' });
+    const table = $('table', { class: 'history-table' });
+    const head = $('tr');
+    ['Exercise', 'Sets', 'Weight × reps · RIR'].forEach(t => head.appendChild($('th', null, t)));
+    table.appendChild($('thead', null, head));
+    const body = $('tbody');
+    for (const ex of session.exercises) {
+      const row = $('tr', { 'data-slot-id': ex.slotId || '' });
+      const name = $('td', { class: 'ex' }, ex.exercise || 'Exercise');
+      if (ex.slotId) name.appendChild($('div', { class: 'history-note' }, ex.slotId));
+      row.appendChild(name);
+      row.appendChild($('td', null, ex.status === 'skipped' ? '—' : (ex.sets && ex.sets.length ? String(ex.sets.length) : 'n/r')));
+      const results = $('td', { class: 'result' });
+      if (ex.status === 'skipped') results.appendChild($('div', { class: 'meta' }, 'Skipped'));
+      else if (ex.sets && ex.sets.length) results.appendChild(resultLines(ex.sets));
+      else results.appendChild($('div', { class: 'meta' }, ex.status === 'substituted' ? 'Substituted; set count unreported' : 'Unreported'));
+      if (ex.note) results.appendChild($('div', { class: 'history-note' }, ex.note));
+      row.appendChild(results);
+      body.appendChild(row);
+    }
+    table.appendChild(body); wrap.appendChild(table); det.appendChild(wrap);
+    if (session.notes) det.appendChild($('p', { class: 'history-note' }, session.notes));
+    c.appendChild(det);
+  });
+  return c;
+};
+const lastPerformanceCard = (d, row) => {
+  const c = $('aside', { class: 'last-performance' });
+  const previous = lastPerformance(d, row);
+  c.appendChild($('div', { class: 'label' }, previous ? `Last time · ${previous.date}` : 'Last time'));
+  if (!previous) {
+    c.appendChild($('div', { class: 'meta' }, 'No earlier result for this exercise in this slot.'));
+    return c;
+  }
+  c.appendChild(resultLines(previous.exercise.sets));
+  if (previous.exercise.note) c.appendChild($('div', { class: 'history-note' }, previous.exercise.note));
+  return c;
+};
+
 // --- Lift log form ---------------------------------------------------------
 // Fill in actuals, then copy/share them into chat. The draft lives in this
 // browser only; the assistant writes the training record after receiving it.
@@ -214,10 +343,14 @@ const prescribed = d => (d.lift && d.lift.table || []).map(r => {
   const sr = parseSetsReps(r.setsReps);
   return {
     exercise: r.exercise || '',
+    slotId: r.slotId || null,
+    exerciseKey: r.exerciseKey || null,
+    rest: r.rest || '',
     rx: [r.setsReps, loadLabel(r.load), r.rir != null ? 'RIR ' + r.rir : ''].filter(Boolean).join(' · '),
     skipped: false,
     sets: Array.from({ length: sr.sets }, () => ({ load: logLoad(r.load), reps: '', rir: '' })),
     targetReps: sr.reps,
+    targetRepValues: Array.isArray(r.repTargets) && r.repTargets.length === sr.sets ? r.repTargets.map(v => String(v ?? '')) : null,
     targetRir: String(r.rir ?? ''),
   };
 });
@@ -274,7 +407,14 @@ const logCard = d => {
         head.appendChild($('span', { class: 'rx' }, ex.rx));
       }
       box.appendChild(head);
-
+      // Older saved drafts may not have slot IDs. Match only the same position
+      // and exercise; never attach another exercise's history or rest target.
+      const prescribedRow = !ex.custom && (d.lift && d.lift.table || [])[ei];
+      const currentRow = st.prescription === prescriptionKey(d) && prescribedRow && sameExercise(ex, prescribedRow)
+        && (!ex.slotId || ex.slotId === prescribedRow.slotId) ? prescribedRow : null;
+      if (currentRow && currentRow.rest) box.appendChild($('div', { class: 'rest-time' }, `Rest ${currentRow.rest} between sets`));
+      const content = $('div', { class: 'log-ex-content' });
+      const entry = $('div', { class: 'log-entry' });
       const sets = $('div', { class: 'sets' });
       const sh = $('div', { class: 'set set-head' });
       ['', 'Load', 'Reps', 'RIR'].forEach(t => sh.appendChild($('div', null, t)));
@@ -283,11 +423,11 @@ const logCard = d => {
         const row = $('div', { class: 'set' });
         row.appendChild($('div', { class: 'n' }, String(si + 1)));
         row.appendChild(input(s.load, 'load', 'decimal', v => { s.load = v; }));
-        row.appendChild(input(s.reps, ex.targetReps, 'numeric', v => { s.reps = v; }));
+        row.appendChild(input(s.reps, ex.targetRepValues && ex.targetRepValues[si] != null ? ex.targetRepValues[si] : ex.targetReps, 'numeric', v => { s.reps = v; }));
         row.appendChild(input(s.rir, ex.targetRir, 'decimal', v => { s.rir = v; }));
         sets.appendChild(row);
       });
-      box.appendChild(sets);
+      entry.appendChild(sets);
 
       const actions = $('div', { class: 'ex-actions' });
       const act = (label, cls, fn) => {
@@ -295,8 +435,9 @@ const logCard = d => {
         b.addEventListener('click', () => { fn(); save(); draw(); });
         actions.appendChild(b);
       };
-      if (exactNumber(ex.targetReps) || exactNumber(ex.targetRir)) act('Confirm exact targets', 'fill', () => ex.sets.forEach(s => {
-        if (!s.reps && exactNumber(ex.targetReps)) s.reps = ex.targetReps;
+      if (exactNumber(ex.targetReps) || (ex.targetRepValues || []).some(exactNumber) || exactNumber(ex.targetRir)) act('Confirm exact targets', 'fill', () => ex.sets.forEach((s, si) => {
+        const repTarget = ex.targetRepValues && ex.targetRepValues[si] != null ? ex.targetRepValues[si] : ex.targetReps;
+        if (!s.reps && exactNumber(repTarget)) s.reps = repTarget;
         if (!s.rir && exactNumber(ex.targetRir)) s.rir = ex.targetRir;
       }));
       act('+ set', 'add-set', () => {
@@ -306,7 +447,10 @@ const logCard = d => {
       if (ex.sets.length > 1) act('− set', 'add-set', () => ex.sets.pop());
       act(ex.skipped ? 'Unskip' : 'Skip', 'skip', () => { ex.skipped = !ex.skipped; });
       if (ex.custom) act('Remove', 'remove', () => st.exercises.splice(ei, 1));
-      box.appendChild(actions);
+      entry.appendChild(actions);
+      content.appendChild(entry);
+      if (currentRow) content.appendChild(lastPerformanceCard(d, currentRow));
+      box.appendChild(content);
       list.appendChild(box);
     });
   };
@@ -524,6 +668,42 @@ const render = d => {
     app.appendChild(det);
   }
 
+  const history = historyCard(d);
+  if (history) app.appendChild(history);
+
+  if (d.currentLoads && d.currentLoads.length) {
+    const c = $('section', { class: 'card load-reference' });
+    c.appendChild($('h2', null, 'Working-load reference'));
+    const det = $('details');
+    det.appendChild($('summary', null, `${d.currentLoads.length} independent exercise slots · grouped by day`));
+    const groups = [['M', 'Monday — Upper A'], ['WE', 'Wednesday — Delts/arms A'], ['T', 'Thursday — Upper B'], ['S', 'Saturday — Delts/arms B'], ['L', 'Sunday — Legs']];
+    const assigned = new Set();
+    const addGroup = (title, rows) => {
+      if (!rows.length) return;
+      const group = $('details', { class: 'load-group' });
+      group.appendChild($('summary', null, title));
+      const wrap = $('div', { class: 'table-wrap' });
+      const table = $('table', { class: 'loads' });
+      const head = $('tr');
+      ['Exercise', 'Stored load', 'Last verified', 'Notes'].forEach(t => head.appendChild($('th', null, t)));
+      table.appendChild($('thead', null, head));
+      const body = $('tbody');
+      for (const row of rows) {
+        assigned.add(row);
+        const tr = $('tr');
+        tr.appendChild($('td', { class: 'ex' }, row.exercise || ''));
+        tr.appendChild($('td', { class: 'load' }, loadLabel(row.load)));
+        tr.appendChild($('td', null, row.lastVerified || 'n/r'));
+        tr.appendChild($('td', { class: 'note' }, row.note || ''));
+        body.appendChild(tr);
+      }
+      table.appendChild(body); wrap.appendChild(table); group.appendChild(wrap); det.appendChild(group);
+    };
+    for (const [prefix, title] of groups) addGroup(title, d.currentLoads.filter(row => new RegExp('^' + prefix + '[0-9]').test(row.slotId || '')));
+    addGroup('Other exercises', d.currentLoads.filter(row => !assigned.has(row)));
+    c.appendChild(det); app.appendChild(c);
+  }
+
   if (d.week_ahead) {
     const w = d.week_ahead;
     const c = $('section', { class: 'card week' });
@@ -550,33 +730,7 @@ const render = d => {
     app.appendChild(c);
   }
 
-  if (d.currentLoads && d.currentLoads.length) {
-    const c = $('section', { class: 'card' });
-    c.appendChild($('h2', null, 'Current Working Loads'));
-    const det = $('details');
-    det.appendChild($('summary', null, `${d.currentLoads.length} exercise slots`));
-    const wrap = $('div', { class: 'table-wrap' });
-    const tbl = $('table', { class: 'loads' });
-    const thead = $('thead');
-    const tr = $('tr');
-    ['Exercise', 'Load', 'Last verified', 'Note'].forEach(t => tr.appendChild($('th', null, t)));
-    thead.appendChild(tr);
-    tbl.appendChild(thead);
-    const tbody = $('tbody');
-    for (const row of d.currentLoads) {
-      const r = $('tr');
-      r.appendChild($('td', { class: 'ex' }, row.exercise || ''));
-      r.appendChild($('td', { class: 'load' }, loadLabel(row.load)));
-      r.appendChild($('td', null, row.lastVerified || ''));
-      r.appendChild($('td', { class: 'note' }, row.note || ''));
-      tbody.appendChild(r);
-    }
-    tbl.appendChild(tbody);
-    wrap.appendChild(tbl);
-    det.appendChild(wrap);
-    c.appendChild(det);
-    app.appendChild(c);
-  }
+
 };
 
 const empty = msg => {
@@ -596,12 +750,13 @@ const empty = msg => {
       return r.ok ? await r.json() : null;
     } catch { return null; }
   };
-  const [brief, week] = await Promise.all([
+  const [brief, week, liftingHistory] = await Promise.all([
     fetchJSON('latest-workout.json'),
     fetchJSON('week-ahead.json'),
+    fetchJSON('lifting-history.json'),
   ]);
   if (!brief && !week) return empty();
-  render({ ...(brief || {}), week_ahead: week });
+  render({ ...(brief || {}), week_ahead: week, liftingHistory });
 })();
 </script>
 </body>

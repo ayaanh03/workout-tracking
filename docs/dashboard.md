@@ -15,7 +15,7 @@
 | `why` | String array: session/stage selection and relevant gates; concise |
 | `intro` | String array: current constraints, normally empty or one line |
 | `lift` | `null` or `{table, actual?, lastWeek?}` |
-| `lift.table` | Rows `{exercise, setsReps, load, rir, rest}`; all strings. Optional `slotId` for identity |
+| `lift.table` | Rows `{exercise, setsReps, load, rir, rest}`; all strings. Optional `slotId` for identity; `exerciseKey` for an explicitly matched exercise identity; `repTargets` for exact per-set rep targets |
 | `lift.actual` | Optional `{label, table}` for this dated session's reported results; rows `{exercise, load, reps, rir}` as strings, optional `slotId`. Separate set values with `/` in their reported order |
 | `lift.lastWeek` | Optional `{label, table}` with dated same-slot actual rows `{exercise, load, reps, rir}` |
 | `cardio` | `null` or `{workout, warmup, cooldown, flags?, targets?, workoutFile, actual?}` |
@@ -44,9 +44,17 @@ Statuses: `done` only for reported completion; `today` for unresolved current-da
 
 When the athlete explicitly requests publishing a future preview, both caches may show that requested date/week with `preview: true`, a visible preview label, and actual generation time. All future days remain `upcoming`. Persist the exact prescription in the dated decision ledger; leave live calendar/activation, completed actuals and progression unchanged. A later current-day request replaces the preview normally.
 
+## Lifting history cache
+
+`lifting-history.json` is the prepared history of this active block: `{schemaVersion: 1, blockId, generatedAt, sessions}`. Each session has `{date, week, stage, sessionName, sessionId, prescriptionId, exercises, notes?}`; each exercise has `{slotId, exercise, exerciseKey?, status, sets, note?}`. A set is `{load, units, reps, rir}` using reported numbers (or `"BW"`), with null for unknown values. Status is `completed`, `skipped` or `substituted`. Do not turn prescriptions into history, relabel former exercise actuals, or invent set counts for an unquantified circuit. A substituted circuit may use `sets: []` with its known exercises/duration in `note`; this means unknown dose, not zero performed work.
+
+The dashboard renders sessions newest first, grouped by date with each set’s weight/reps/RIR. This section and the working-load reference appear **above the weekly summary**. Working loads are grouped by weekday; they retain their established versus prescribed/unvalidated labels. History is optional: a failed/missing fetch does not hide the current workout.
+
+The logging form’s “Last time” reference uses the latest **earlier-date** session with the same `slotId` and effective exercise identity, never another day’s slot or today’s logged results. Punctuation/case differences are normalized; use a shared optional `exerciseKey` for intentional equivalent labels. An overhead extension cannot become pushdown history, and an ab circuit cannot become decline-crunch history. Display the reported data as a reference only; it is not automatically comparable progression evidence.
+
 ## Lift logging
 
-Drafts stay in the browser by date. Load fields are prefilled only for initialized loads; reps/RIR remain blank with targets as placeholders. **Confirm exact targets** is the athlete's explicit confirmation of the numeric targets completed; it fills only exact numeric values, never rep ranges or compound RIR. Review all pasted values as actuals. Missing values stay `n/r`, unknown load becomes `?`, and `Calibrate` never becomes a logged weight.
+Each logging exercise displays the current prescribed rest time and a read-only “Last time” panel beside its entry fields (stacked below on narrow screens). Drafts stay in the browser by date. Load fields are prefilled only for initialized loads; reps/RIR remain blank with targets as placeholders. **Confirm exact targets** is the athlete's explicit confirmation of the numeric targets completed; it fills only exact numeric values, never rep ranges or compound RIR. Review all pasted values as actuals. Missing values stay `n/r`, unknown load becomes `?`, and `Calibrate` never becomes a logged weight. For unequal fixed reps, use `setsReps: "2×12/8"` with `repTargets: [12, 8]`; those values appear as per-set placeholders and are filled only after the athlete explicitly confirms exact targets. Prior-session values never prefill reps or RIR.
 
 A warning marks drafts from a different prescription. Preserve entered actuals before resetting; compare the dump with the dated effective prescription. Copy/share only prepares text for chat, never writes the repo.
 
@@ -61,3 +69,5 @@ For actual outdoor-run briefs use `tools/workoutgen.py` (its docstring defines s
 - A test is a 5 km work segment; never force the aspirational goal pace as an alert.
 
 Validate JSON types, dates, slot separation, effective sets, pace/RPE, complete-week mileage and file links before writing caches. After encoder edits run `python3 tools/test_workoutgen.py`; ordinary content changes need JSON/link/render checks, not new tests.
+
+After dashboard or logging behavior changes, run `python tools/test_dashboard.py` with Python Playwright and Chromium available. It checks same-slot references, history ordering, unknown results, saved drafts and per-set target confirmation.

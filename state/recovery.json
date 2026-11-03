@@ -265,13 +265,13 @@
     },
     {
       "id": "right-elbow-nag",
-      "status": "active-lingering-symptom-suspected-incline-curl-trigger",
+      "status": "active-symptoms-biceps-maintenance-hold",
       "reported_on": "2026-11-02",
       "recorded_at": "2026-11-03T17:23:48-05:00",
       "date_source": "Active client date context: 2026-11-02 America/New_York. Persistence timestamp is recorded separately; onset date is unreported.",
       "report": "Note down a slight nag on my right elbow tennis elbow type shit",
       "provenance": "athlete symptom report",
-      "decision_id": 463,
+      "decision_id": 464,
       "source": "../history/injury-log.md#2026-11-02--right-elbow-nag",
       "side": "right",
       "site": "elbow",
@@ -285,16 +285,22 @@
       "relationship_to_overhead_triceps_symptoms": null,
       "affected_slots": [
         "M2",
+        "WE2",
+        "WE4",
+        "T2",
         "S2"
       ],
       "review_before_slots": [
         "M2",
+        "WE2",
+        "WE4",
+        "T2",
         "S2",
         "S5",
         "S6"
       ],
-      "action": "Review current elbow symptoms before repeating either incline-curl slot. Do not automatically repeat or increase the last load. Reduce/modify the movement if it provokes discomfort; omit it if irritation persists. Review new reverse/wrist curls before introduction. Keep unrelated work stable.",
-      "persistence": "Keep as an active symptom note until a dated follow-up resolves or clarifies it. Do not infer symptom-free elbows from the earlier Monday no-issues report.",
+      "action": "Maintain each direct biceps slot at its last performed load, reps and set count if symptoms do not worsen. No added load, reps, sets or near-failure work until resolution/review. Defer unintroduced reverse curls. S6 wrist curls keep their separate elbow-response review. Reduce/modify/omit any aggravating work.",
+      "persistence": "The maintenance hold stays active until the athlete reports symptom resolution and the dose is reviewed. It is not lifted by a calendar or stage advance. The request is not symptom clearance.",
       "followup": {
         "status": "suspected-trigger-answered-location-and-current-provocation-unreported",
         "requested_on": "2026-11-02",
@@ -315,7 +321,94 @@
       },
       "suspected_trigger": "Incline DB curl — athlete says “I think”",
       "onset_context": "Possibly began during incline biceps curls; exact session/date unreported.",
-      "symptom_course": "Lingering since the suspected provoking exercise."
+      "symptom_course": "Lingering since the suspected provoking exercise.",
+      "omitted_slots": [
+        "S5"
+      ],
+      "slot_overrides": {
+        "M2": {
+          "exercise": "Incline DB curl",
+          "load": 22.5,
+          "units": "lb",
+          "set_ceiling": 2,
+          "reps_per_set": [
+            12,
+            8
+          ],
+          "minimum_rir": 3,
+          "rest_seconds": 120,
+          "source_date": "2026-11-02",
+          "source": "../history/lifting-log.md#2026-11-02--hybrid-v11-w2-monday-upper-a",
+          "source_session_id": "hybrid-2026-10-26-w2-mon-2026-11-02"
+        },
+        "WE2": {
+          "exercise": "Unilateral machine preacher curl",
+          "load": 75,
+          "units": "lb",
+          "set_ceiling": 1,
+          "reps_per_set": [
+            8
+          ],
+          "minimum_rir": 3,
+          "rest_seconds": 120,
+          "source_date": "2026-10-28",
+          "source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
+          "source_session_id": "hybrid-2026-10-26-w1-wed-2026-10-28"
+        },
+        "WE4": {
+          "exercise": "Rope cable hammer curl",
+          "load": 50,
+          "units": "lb",
+          "set_ceiling": 1,
+          "reps_per_set": [
+            11
+          ],
+          "minimum_rir": 3,
+          "rest_seconds": 120,
+          "source_date": "2026-10-28",
+          "source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
+          "source_session_id": "hybrid-2026-10-26-w1-wed-2026-10-28"
+        },
+        "T2": {
+          "exercise": "Cable curl",
+          "load": 42.5,
+          "units": "lb",
+          "set_ceiling": 1,
+          "reps_per_set": [
+            12
+          ],
+          "minimum_rir": 3,
+          "rest_seconds": 120,
+          "source_date": "2026-10-29",
+          "source": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
+          "source_session_id": "hybrid-2026-10-26-w1-thu-2026-10-29"
+        },
+        "S2": {
+          "exercise": "Incline DB curl",
+          "load": 25,
+          "units": "lb",
+          "set_ceiling": 1,
+          "reps_per_set": [
+            9
+          ],
+          "minimum_rir": 3,
+          "rest_seconds": 120,
+          "source_date": "2026-10-31",
+          "source": "../history/lifting-log.md#2026-10-31--hybrid-v11-w1-saturday-deltsarms-b",
+          "source_session_id": "hybrid-2026-10-26-w1-sat-2026-10-31"
+        }
+      },
+      "maintenance_directive": {
+        "reported_on": "2026-11-02",
+        "recorded_at": "2026-11-03T17:33:10-05:00",
+        "date_source": "Active client date context; persistence timestamp is separate.",
+        "report": "Honestly i think we can just maintain weight and reps until the symptoms resolve for all bicep work.",
+        "decision_id": 464,
+        "scope": "All direct biceps curl slots M2/WE2/WE4/T2/S2. Hold latest performed sets too so volume does not silently increase. Defer new S5 reverse curls. No automatic cut to unrelated pulling/pressing or completed-work changes.",
+        "status": "active",
+        "release_gate": "Reported symptom resolution plus documented review.",
+        "symptom_action": "Targets are ceilings for comfortable maintenance, not mandatory reps through worsening pain. Minimum 3 RIR; reduce/modify/omit if aggravating."
+      }
     }
   ],
   "pending_gates": [

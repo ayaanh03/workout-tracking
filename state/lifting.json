@@ -126,13 +126,20 @@
       },
       "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 463,
-        "action": "review-symptoms-before-next-exposure",
-        "last_actual_load_lb": 22.5,
-        "proposed_load": null,
-        "source": "../history/injury-log.md#2026-11-02--incline-curls-suspected-in-lingering-elbow-nag",
-        "reason": "Athlete suspects the right-elbow nag began during incline curls and says it lingers. Keep the performed load as history, not an automatic next prescription. Review current response before either incline-curl day.",
-        "symptom_action": "No load increase while this remains unresolved. Reduce/modify if incline curls provoke discomfort; omit if irritation persists. No numeric reduction or substitute actual is invented."
+        "decision_id": 464,
+        "action": "maintain-biceps-dose-until-symptoms-resolve",
+        "load_lb": 22.5,
+        "sets": 2,
+        "reps_per_set": [
+          12,
+          8
+        ],
+        "minimum_rir": 3,
+        "rest_seconds": 120,
+        "source": "../history/lifting-log.md#2026-11-02--hybrid-v11-w2-monday-upper-a",
+        "reason": "Athlete requests maintaining weight/reps for all biceps work until the right-elbow symptoms resolve. Cap sets at the latest performed dose too; no automatic ramp additions or progression.",
+        "symptom_action": "Maintain only if symptoms do not worsen during or after. Do not force reps through increasing pain or altered execution; reduce/modify/omit aggravating work.",
+        "release_gate": "Reported symptom resolution and a documented review; calendar/stage changes do not lift the hold."
       }
     },
     "M3": {
@@ -460,10 +467,19 @@
       },
       "new_exposure_count": 1,
       "next_action": {
-        "decision_id": 443,
-        "action": "hold-load",
+        "decision_id": 464,
+        "action": "maintain-biceps-dose-until-symptoms-resolve",
         "load_lb": 75,
-        "reason": "All reported sets meet this slot’s rep range at RIR 3. Keep appropriate loads stable during A–C; review current recovery before prescribing."
+        "sets": 1,
+        "reps_per_set": [
+          8
+        ],
+        "minimum_rir": 3,
+        "rest_seconds": 120,
+        "source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
+        "reason": "Athlete requests maintaining weight/reps for all biceps work until the right-elbow symptoms resolve. Cap sets at the latest performed dose too; no automatic ramp additions or progression.",
+        "symptom_action": "Maintain only if symptoms do not worsen during or after. Do not force reps through increasing pain or altered execution; reduce/modify/omit aggravating work.",
+        "release_gate": "Reported symptom resolution and a documented review; calendar/stage changes do not lift the hold."
       }
     },
     "WE3": {
@@ -537,10 +553,19 @@
       },
       "new_exposure_count": 1,
       "next_action": {
-        "decision_id": 443,
-        "action": "hold-load",
+        "decision_id": 464,
+        "action": "maintain-biceps-dose-until-symptoms-resolve",
         "load_lb": 50,
-        "reason": "All reported sets meet this slot’s rep range at RIR 3. Keep appropriate loads stable during A–C; review current recovery before prescribing."
+        "sets": 1,
+        "reps_per_set": [
+          11
+        ],
+        "minimum_rir": 3,
+        "rest_seconds": 120,
+        "source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
+        "reason": "Athlete requests maintaining weight/reps for all biceps work until the right-elbow symptoms resolve. Cap sets at the latest performed dose too; no automatic ramp additions or progression.",
+        "symptom_action": "Maintain only if symptoms do not worsen during or after. Do not force reps through increasing pain or altered execution; reduce/modify/omit aggravating work.",
+        "release_gate": "Reported symptom resolution and a documented review; calendar/stage changes do not lift the hold."
       }
     },
     "WE5": {
@@ -643,10 +668,19 @@
       },
       "new_exposure_count": 1,
       "next_action": {
-        "decision_id": 446,
-        "action": "hold-load",
+        "decision_id": 464,
+        "action": "maintain-biceps-dose-until-symptoms-resolve",
         "load_lb": 42.5,
-        "reason": "All reported sets meet this slot’s rep range at RIR 3. Keep appropriate loads stable during A–C; no ordinary ramp progression credit."
+        "sets": 1,
+        "reps_per_set": [
+          12
+        ],
+        "minimum_rir": 3,
+        "rest_seconds": 120,
+        "source": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
+        "reason": "Athlete requests maintaining weight/reps for all biceps work until the right-elbow symptoms resolve. Cap sets at the latest performed dose too; no automatic ramp additions or progression.",
+        "symptom_action": "Maintain only if symptoms do not worsen during or after. Do not force reps through increasing pain or altered execution; reduce/modify/omit aggravating work.",
+        "release_gate": "Reported symptom resolution and a documented review; calendar/stage changes do not lift the hold."
       }
     },
     "T3": {
@@ -940,13 +974,19 @@
         }
       },
       "next_action": {
-        "decision_id": 463,
-        "action": "review-symptoms-before-next-exposure",
-        "last_actual_load_lb": 25,
-        "proposed_load": null,
-        "source": "../history/injury-log.md#2026-11-02--incline-curls-suspected-in-lingering-elbow-nag",
-        "reason": "Athlete suspects the right-elbow nag began during incline curls and says it lingers. Keep the performed load as history, not an automatic next prescription. Review current response before either incline-curl day.",
-        "symptom_action": "No load increase while this remains unresolved. Reduce/modify if incline curls provoke discomfort; omit if irritation persists. No numeric reduction or substitute actual is invented."
+        "decision_id": 464,
+        "action": "maintain-biceps-dose-until-symptoms-resolve",
+        "load_lb": 25,
+        "sets": 1,
+        "reps_per_set": [
+          9
+        ],
+        "minimum_rir": 3,
+        "rest_seconds": 120,
+        "source": "../history/lifting-log.md#2026-10-31--hybrid-v11-w1-saturday-deltsarms-b",
+        "reason": "Athlete requests maintaining weight/reps for all biceps work until the right-elbow symptoms resolve. Cap sets at the latest performed dose too; no automatic ramp additions or progression.",
+        "symptom_action": "Maintain only if symptoms do not worsen during or after. Do not force reps through increasing pain or altered execution; reduce/modify/omit aggravating work.",
+        "release_gate": "Reported symptom resolution and a documented review; calendar/stage changes do not lift the hold."
       }
     },
     "S3": {
@@ -1056,7 +1096,13 @@
     },
     "S5": {
       "exercise": "Cable reverse curl",
-      "load": null
+      "load": null,
+      "next_action": {
+        "decision_id": 464,
+        "action": "defer-unintroduced-elbow-flexor-work",
+        "sets": 0,
+        "reason": "Reverse curls have no performed baseline and would add new elbow-flexor work during the biceps hold. Reconsider after symptom resolution/review. No actuals or forearm-eligibility credit created."
+      }
     },
     "S6": {
       "exercise": "Cable wrist curl",

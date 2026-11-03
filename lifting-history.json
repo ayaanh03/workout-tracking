@@ -1,0 +1,851 @@
+{
+  "schemaVersion": 1,
+  "blockId": "hybrid-2026-10-26",
+  "generatedAt": "2026-11-03T17:31:05-05:00",
+  "sessions": [
+    {
+      "date": "2026-10-25",
+      "week": "Opening",
+      "stage": "A",
+      "sessionName": "Legs, bodyweight abs + calves",
+      "sessionId": "hybrid-2026-10-26-opening-2026-10-25",
+      "prescriptionId": "hybrid-2026-10-26-sun-legs-433",
+      "actualRef": "history/lifting-log.md#2026-10-25--hybrid-v11-opening",
+      "exercises": [
+        {
+          "slotId": "L1",
+          "exercise": "Decline crunch — bodyweight",
+          "sets": [
+            {
+              "load": "BW",
+              "units": "bodyweight",
+              "reps": 15,
+              "rir": 4
+            },
+            {
+              "load": "BW",
+              "units": "bodyweight",
+              "reps": 15,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "L2",
+          "exercise": "Leg-press calf raise",
+          "sets": [
+            {
+              "load": 365,
+              "units": "lb",
+              "reps": 10,
+              "rir": 3
+            },
+            {
+              "load": 365,
+              "units": "lb",
+              "reps": 10,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "L3",
+          "exercise": "Hack squat",
+          "sets": [
+            {
+              "load": 95,
+              "units": "lb",
+              "reps": 6,
+              "rir": 3
+            },
+            {
+              "load": 95,
+              "units": "lb",
+              "reps": 6,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "L4",
+          "exercise": "Seated leg curl",
+          "sets": [
+            {
+              "load": 85,
+              "units": "lb",
+              "reps": 8,
+              "rir": 3
+            },
+            {
+              "load": 85,
+              "units": "lb",
+              "reps": 8,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "L5",
+          "exercise": "Leg extension",
+          "sets": [
+            {
+              "load": 100,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 100,
+              "units": "lb",
+              "reps": 15,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "L6",
+          "exercise": "45-degree back extension",
+          "sets": [
+            {
+              "load": 25,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            }
+          ],
+          "status": "completed",
+          "note": "25 lb is added load; implement and position were not reported."
+        }
+      ],
+      "notes": "Opening session is separate from W1. All 11 sets reported."
+    },
+    {
+      "date": "2026-10-26",
+      "week": "W1",
+      "stage": "A",
+      "sessionName": "Upper A",
+      "sessionId": "hybrid-2026-10-26-w1-mon-2026-10-26",
+      "prescriptionId": "hybrid-2026-10-26-mon-upper-a-436",
+      "actualRef": "history/lifting-log.md#2026-10-26--hybrid-v11-w1-monday-upper-a",
+      "exercises": [
+        {
+          "slotId": "M1a",
+          "exercise": "Incline barbell bench — top set",
+          "sets": [
+            {
+              "load": 145,
+              "units": "lb",
+              "reps": 6,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "M1b",
+          "exercise": "Incline barbell bench — back-offs",
+          "sets": [
+            {
+              "load": 135,
+              "units": "lb",
+              "reps": 8,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "M2",
+          "exercise": "Incline DB curl",
+          "sets": [
+            {
+              "load": 20,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "M3",
+          "exercise": "DB lateral raise",
+          "sets": [
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 15,
+              "rir": 3
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "M4",
+          "exercise": "Overhead cable triceps extension",
+          "sets": [
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 10,
+              "rir": 3
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 10,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "M5",
+          "exercise": "Lat pulldown",
+          "sets": [
+            {
+              "load": 165,
+              "units": "lb",
+              "reps": 8,
+              "rir": 2
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "M6",
+          "exercise": "Decline crunch — bodyweight",
+          "sets": [
+            {
+              "load": "BW",
+              "units": "bodyweight",
+              "reps": 15,
+              "rir": 3
+            },
+            {
+              "load": "BW",
+              "units": "bodyweight",
+              "reps": 15,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "M7",
+          "exercise": "Chest-supported row",
+          "sets": [
+            {
+              "load": 70,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            }
+          ],
+          "status": "completed",
+          "note": "Confirmed accidental 70 lb loading instead of prescribed 80 lb; no additional set was performed."
+        }
+      ],
+      "notes": "11 sets reported. Numeric loads retain the athlete’s existing notation; unreported dumbbell/equipment details are unknown."
+    },
+    {
+      "date": "2026-10-28",
+      "week": "W1",
+      "stage": "A",
+      "sessionName": "Delts/arms A + bike",
+      "sessionId": "hybrid-2026-10-26-w1-wed-2026-10-28",
+      "prescriptionId": "hybrid-2026-10-26-wed-delts-arms-a-442",
+      "actualRef": "history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
+      "exercises": [
+        {
+          "slotId": "WE1",
+          "exercise": "DB lateral raise",
+          "sets": [
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 15,
+              "rir": 3
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "WE2",
+          "exercise": "Unilateral machine preacher curl",
+          "sets": [
+            {
+              "load": 75,
+              "units": "lb",
+              "reps": 8,
+              "rir": 3
+            }
+          ],
+          "status": "completed",
+          "note": "One unilateral set per arm, counted once; arm-specific differences were not reported."
+        },
+        {
+          "slotId": "WE3",
+          "exercise": "Reverse pec deck",
+          "sets": [
+            {
+              "load": 145,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            }
+          ],
+          "status": "completed",
+          "note": "145 lb ×12 at RIR 3 confirmed in the same-evening clarification; replaces the initial n/r entry."
+        },
+        {
+          "slotId": "WE4",
+          "exercise": "Rope cable hammer curl",
+          "sets": [
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 11,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "WE5",
+          "exercise": "Leg-press calf raise",
+          "sets": [
+            {
+              "load": 365,
+              "units": "lb",
+              "reps": 11,
+              "rir": 3
+            },
+            {
+              "load": 365,
+              "units": "lb",
+              "reps": 11,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        }
+      ],
+      "notes": "Seven sets confirmed, including the later reverse-pec-deck clarification. Cycling is recorded separately."
+    },
+    {
+      "date": "2026-10-29",
+      "week": "W1",
+      "stage": "A",
+      "sessionName": "Upper B",
+      "sessionId": "hybrid-2026-10-26-w1-thu-2026-10-29",
+      "prescriptionId": "hybrid-2026-10-26-thu-upper-b-445",
+      "actualRef": "history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
+      "exercises": [
+        {
+          "slotId": "T1",
+          "exercise": "Incline barbell bench",
+          "sets": [
+            {
+              "load": 135,
+              "units": "lb",
+              "reps": 8,
+              "rir": 3
+            },
+            {
+              "load": 135,
+              "units": "lb",
+              "reps": 6,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "T2",
+          "exercise": "Cable curl",
+          "sets": [
+            {
+              "load": 42.5,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "T3",
+          "exercise": "DB lateral raise",
+          "sets": [
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 15,
+              "rir": 3
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "T4",
+          "exercise": "Pull-up",
+          "sets": [
+            {
+              "load": "BW",
+              "units": "bodyweight",
+              "reps": 12,
+              "rir": 3
+            }
+          ],
+          "status": "completed",
+          "note": "Bodyweight with 0 lb added; zero was not body mass."
+        },
+        {
+          "slotId": "T5",
+          "exercise": "Cable pushdown",
+          "sets": [
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 11,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "T6",
+          "exercise": "Seated cable row",
+          "sets": [
+            {
+              "load": 120,
+              "units": "lb",
+              "reps": 8,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "T7",
+          "exercise": "Ab circuit — bodyweight",
+          "sets": [],
+          "status": "substituted",
+          "note": "Prescribed decline crunches were skipped for a bodyweight ab circuit: a reported 120-second plank hold and leg raises. No added weight; no ab symptoms reported. Total circuit sets, leg-raise dose, other movements and RIR were not reported."
+        },
+        {
+          "slotId": "T8",
+          "exercise": "Straight-arm cable pulldown",
+          "sets": [
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 10,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        }
+      ],
+      "notes": "10 known non-ab sets plus a bodyweight ab circuit of unknown total dose; do not infer 12 completed sets."
+    },
+    {
+      "date": "2026-10-31",
+      "week": "W1",
+      "stage": "A",
+      "sessionName": "Delts/arms B + bike",
+      "sessionId": "hybrid-2026-10-26-w1-sat-2026-10-31",
+      "prescriptionId": "hybrid-2026-10-26-sat-delts-arms-b-452",
+      "actualRef": "history/lifting-log.md#2026-10-31--hybrid-v11-w1-saturday-deltsarms-b",
+      "exercises": [
+        {
+          "slotId": "S1",
+          "exercise": "DB lateral raise",
+          "sets": [
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 15,
+              "rir": 3
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "S2",
+          "exercise": "Incline DB curl",
+          "sets": [
+            {
+              "load": 25,
+              "units": "lb",
+              "reps": 9,
+              "rir": 3
+            }
+          ],
+          "status": "completed",
+          "note": "Actual 25 lb; original starting prescription was 20 lb. No misload was inferred."
+        },
+        {
+          "slotId": "S3",
+          "exercise": "Overhead cable triceps extension",
+          "sets": [
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 10,
+              "rir": 3
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 10,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "S4",
+          "exercise": "Reverse pec deck",
+          "sets": [
+            {
+              "load": 145,
+              "units": "lb",
+              "reps": 15,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        }
+      ],
+      "notes": "Six sets reported; no forearm, calf or ab sets. Cycling is recorded separately."
+    },
+    {
+      "date": "2026-11-01",
+      "week": "W1",
+      "stage": "A",
+      "sessionName": "Legs, bodyweight abs + calves",
+      "sessionId": "hybrid-2026-10-26-w1-sun-2026-11-01",
+      "prescriptionId": "hybrid-2026-10-26-sun-legs-455",
+      "actualRef": "history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
+      "exercises": [
+        {
+          "slotId": "L1",
+          "exercise": "Decline crunch — bodyweight",
+          "sets": [
+            {
+              "load": "BW",
+              "units": "bodyweight",
+              "reps": 15,
+              "rir": 3
+            },
+            {
+              "load": "BW",
+              "units": "bodyweight",
+              "reps": 15,
+              "rir": 3
+            }
+          ],
+          "status": "completed",
+          "note": "A minor sensation at the original ab-strain site during the first few reps faded; this exposure was not recorded as symptom-free."
+        },
+        {
+          "slotId": "L2",
+          "exercise": "Leg-press calf raise",
+          "sets": [
+            {
+              "load": 365,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 365,
+              "units": "lb",
+              "reps": 15,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "L3",
+          "exercise": "Hack squat",
+          "sets": [
+            {
+              "load": 95,
+              "units": "lb",
+              "reps": 6,
+              "rir": 3
+            },
+            {
+              "load": 95,
+              "units": "lb",
+              "reps": 7,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "L4",
+          "exercise": "Seated leg curl",
+          "sets": [
+            {
+              "load": 85,
+              "units": "lb",
+              "reps": 12,
+              "rir": 5
+            },
+            {
+              "load": 100,
+              "units": "lb",
+              "reps": 10,
+              "rir": 3
+            }
+          ],
+          "status": "completed",
+          "note": "Prescribed 85 lb for both sets; actual second set was 100 lb. Only one 100 lb set was performed."
+        },
+        {
+          "slotId": "L5",
+          "exercise": "Leg extension",
+          "sets": [
+            {
+              "load": 100,
+              "units": "lb",
+              "reps": 15,
+              "rir": 3
+            },
+            {
+              "load": 100,
+              "units": "lb",
+              "reps": 15,
+              "rir": 5
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "L6",
+          "exercise": "45-degree back extension",
+          "sets": [
+            {
+              "load": 25,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        }
+      ],
+      "notes": "11 sets reported. All original set loads and RIR values are retained, including mixed leg-curl loads."
+    },
+    {
+      "date": "2026-11-02",
+      "week": "W2",
+      "stage": "B",
+      "sessionName": "Upper A",
+      "sessionId": "hybrid-2026-10-26-w2-mon-2026-11-02",
+      "prescriptionId": "hybrid-2026-10-26-mon-upper-a-459",
+      "actualRef": "history/lifting-log.md#2026-11-02--hybrid-v11-w2-monday-upper-a",
+      "exercises": [
+        {
+          "slotId": "M1a",
+          "exercise": "Incline barbell bench — top set",
+          "sets": [
+            {
+              "load": 145,
+              "units": "lb",
+              "reps": 6,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "M1b",
+          "exercise": "Incline barbell bench — back-offs",
+          "sets": [
+            {
+              "load": 135,
+              "units": "lb",
+              "reps": 8,
+              "rir": 3
+            },
+            {
+              "load": 135,
+              "units": "lb",
+              "reps": 8,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "M2",
+          "exercise": "Incline DB curl",
+          "sets": [
+            {
+              "load": 22.5,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 22.5,
+              "units": "lb",
+              "reps": 8,
+              "rir": 3
+            }
+          ],
+          "status": "completed",
+          "note": "Actual 22.5 lb; original prescription was 20 lb."
+        },
+        {
+          "slotId": "M3",
+          "exercise": "DB lateral raise",
+          "sets": [
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 5
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 15,
+              "rir": 3
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            }
+          ],
+          "status": "completed",
+          "note": "First set RIR 5 is preserved as reported."
+        },
+        {
+          "slotId": "M4",
+          "exercise": "Cable pushdown",
+          "sets": [
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 12,
+              "rir": 2
+            }
+          ],
+          "status": "completed",
+          "note": "First Monday pushdown exposure after the ongoing overhead-extension replacement. Prior overhead actuals belong to the former exercise."
+        },
+        {
+          "slotId": "M5",
+          "exercise": "Lat pulldown",
+          "sets": [
+            {
+              "load": 160,
+              "units": "lb",
+              "reps": 9,
+              "rir": 3
+            },
+            {
+              "load": 160,
+              "units": "lb",
+              "reps": 8,
+              "rir": 1
+            }
+          ],
+          "status": "completed",
+          "note": "Second set RIR 1 missed the prescribed RIR 3; actual 160 lb is retained."
+        },
+        {
+          "slotId": "M6",
+          "exercise": "Decline crunch — bodyweight",
+          "sets": [
+            {
+              "load": "BW",
+              "units": "bodyweight",
+              "reps": 15,
+              "rir": 10
+            },
+            {
+              "load": "BW",
+              "units": "bodyweight",
+              "reps": 15,
+              "rir": 3
+            }
+          ],
+          "status": "completed",
+          "note": "First set RIR 10 is preserved as reported."
+        },
+        {
+          "slotId": "M7",
+          "exercise": "Chest-supported row",
+          "sets": [
+            {
+              "load": 70,
+              "units": "lb",
+              "reps": 8,
+              "rir": 2
+            },
+            {
+              "load": 70,
+              "units": "lb",
+              "reps": 8,
+              "rir": 2
+            }
+          ],
+          "status": "completed"
+        }
+      ],
+      "notes": "16 sets reported; all rep ranges met. The second pulldown set fell below prescribed reserve. No ab or tendon issues were reported with this session; later symptom reports remain in recovery history."
+    }
+  ]
+}

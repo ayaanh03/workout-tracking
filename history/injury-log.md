@@ -139,3 +139,15 @@ Report date follows the active client date context, November 2 America/New_York;
 Follow-up: **“I think it happened during the incline bicep curls and it’s just lingering since.”** Record a suspected onset association with incline biceps curls and lingering symptoms. Preserve the athlete’s uncertainty; exact location, dated session/onset, diagnosis and confirmed cause remain unknown. The right-elbow report is not automatically equated with the prior overhead-extension complaint. Earlier completed lifting sets and the originally reported no-issues response remain dated history; this later symptom recollection governs upcoming choices.
 
 Flag both incline DB curl slots **M2/S2** for current-symptom review before repeating. Keep M2’s performed 22.5 and S2’s performed 25 lb as actuals, not automatic next prescriptions. No load increase while unresolved; reduce/modify if the movement provokes discomfort, omit if irritation persists. No numeric reduction or replacement exercise is prescribed without response evidence. Review new S5/S6 forearm work before introduction; no formal W6 elbow eligibility assessment is inferred. Other work, Tuesday’s run and existing overhead exclusion remain unchanged. Decision #463.
+
+## 2026-11-02 — maintain biceps dose while elbow symptoms settle
+
+Athlete: **“Honestly i think we can just maintain weight and reps until the symptoms resolve for all bicep work.”** Apply an explicit maintenance hold to all direct biceps curl slots, using each slot’s latest performed weight/reps. Cap set counts at the same performed dose so Stage-B additions do not increase biceps volume during the hold. This is a maintenance preference, not a report of symptom resolution or a diagnosis.
+
+- M2 incline DB curl: **22.5 lb ×12/8, 2 sets** (November 2).
+- WE2 unilateral machine preacher curl: **75 lb ×8, 1 set per arm** (October 28).
+- WE4 rope cable hammer curl: **50 lb ×11, 1 set** (October 28).
+- T2 cable curl: **42.5 lb ×12, 1 set** (October 29).
+- S2 incline DB curl: **25 lb ×9, 1 set** (October 31).
+
+Retain at least 3 RIR and 2-minute rest; no load/rep/set increases or near-failure work. Maintain only if symptoms do not worsen during/after; reduce/modify/omit aggravating work instead of forcing fixed reps. Defer unintroduced S5 reverse curls because they add new elbow-flexor work. S6 wrist curls retain their separate symptom review, with no formal D/W6 eligibility finding. Release the hold after reported symptom resolution and documented review; calendar/stage changes do not remove it. Preserve all performed weights and independent exposure/progression records. Report date follows client context; recorded at 2026-11-03T17:33:10-05:00. Decision #464.

@@ -41,7 +41,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 463,
+  "last_adjustment_id": 464,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -246,6 +246,20 @@
       ],
       "change": "Replace overhead cable triceps extensions with cable pushdowns, starting at 50 lb, due to athlete-reported tendon stress. Ongoing replacement; no automatic overhead restoration.",
       "source": "../history/adjustments.md#2026-11-02--replace-overhead-triceps-work-with-pushdowns"
+    },
+    {
+      "date": "2026-11-02",
+      "decision_id": 464,
+      "affected_slots": [
+        "M2",
+        "WE2",
+        "WE4",
+        "T2",
+        "S2",
+        "S5"
+      ],
+      "change": "Hold direct biceps loads/reps/set counts at latest performed doses until elbow symptoms resolve/review. Defer unintroduced reverse curls; keep wrist-curl review separate.",
+      "source": "../history/adjustments.md#2026-11-02--biceps-maintenance-and-dashboard-history"
     }
   ]
 }
