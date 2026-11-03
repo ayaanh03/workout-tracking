@@ -126,11 +126,13 @@
       },
       "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 460,
-        "action": "hold-calibrated-load",
-        "load_lb": 22.5,
-        "source": "../history/lifting-log.md#2026-11-02--hybrid-v11-w2-monday-upper-a",
-        "reason": "Actual 22.5×12/8 at RIR 3 fits both sets. Establish 22.5 as the appropriate Monday working load; original prescription was 20. Calibration, not earned ramp progression or Saturday credit."
+        "decision_id": 463,
+        "action": "review-symptoms-before-next-exposure",
+        "last_actual_load_lb": 22.5,
+        "proposed_load": null,
+        "source": "../history/injury-log.md#2026-11-02--incline-curls-suspected-in-lingering-elbow-nag",
+        "reason": "Athlete suspects the right-elbow nag began during incline curls and says it lingers. Keep the performed load as history, not an automatic next prescription. Review current response before either incline-curl day.",
+        "symptom_action": "No load increase while this remains unresolved. Reduce/modify if incline curls provoke discomfort; omit if irritation persists. No numeric reduction or substitute actual is invented."
       }
     },
     "M3": {
@@ -938,10 +940,13 @@
         }
       },
       "next_action": {
-        "decision_id": 453,
-        "action": "hold-load",
-        "load_lb": 25,
-        "reason": "All reported sets meet this slot’s rep range at RIR 3. Hold the established working load during A–C; no ordinary ramp progression credit."
+        "decision_id": 463,
+        "action": "review-symptoms-before-next-exposure",
+        "last_actual_load_lb": 25,
+        "proposed_load": null,
+        "source": "../history/injury-log.md#2026-11-02--incline-curls-suspected-in-lingering-elbow-nag",
+        "reason": "Athlete suspects the right-elbow nag began during incline curls and says it lingers. Keep the performed load as history, not an automatic next prescription. Review current response before either incline-curl day.",
+        "symptom_action": "No load increase while this remains unresolved. Reduce/modify if incline curls provoke discomfort; omit if irritation persists. No numeric reduction or substitute actual is invented."
       }
     },
     "S3": {

@@ -125,3 +125,17 @@ It is still Monday evening in America/New_York. Next-morning general/ab/tendon r
 ## 2026-11-02 — expected Tuesday recovery
 
 Athlete: **“Generate Tuesday. Recovery will be fine I’m confident this is no volume.”** Record an expectation of good November 3 recovery and a request for advance generation. It is still Monday evening locally; this is not a next-day observation after Monday lifting. Preserve the reported symptom-free Monday ab/pushdown response, with next-morning recovery and the ab-loading review still pending. Do not diagnose fatigue or require another answer tonight to prepare the unchanged run dose. Decision #461.
+
+## 2026-11-02 — right-elbow nag
+
+Athlete: **“Note down a slight nag on my right elbow tennis elbow type shit.”** Record **right elbow, slight nag, athlete-described tennis-elbow-like**. Exact location, onset, provoking movements, numeric severity and diagnosis are unreported. Ask once for location and movement triggers; response pending. Do not diagnose lateral elbow tendinopathy, assume a lateral pain location, attribute it to curls/pushdowns/overhead work or infer a new injury mechanism.
+
+Keep this as a separate active symptom note from the earlier overhead-extension complaint. Preserve Monday’s originally reported no-ab/no-tendon-issues response as dated history; it does not override this newer symptom report. Under `program/adjustments.md#local-response`, review upcoming lifting and modify/reduce/stop aggravating movements. Review before introducing S5/S6 forearm work; the formal first-normal-D/W6 forearm eligibility review has not occurred and remains untouched. No automatic blanket set/load cuts, stage rollback, new actuals or change to Tuesday’s run.
+
+Report date follows the active client date context, November 2 America/New_York; recorded at **2026-11-03T17:23:48-05:00**. This date provenance does not establish symptom onset or a link to Monday’s workout. Decision #462.
+
+## 2026-11-02 — incline curls suspected in lingering elbow nag
+
+Follow-up: **“I think it happened during the incline bicep curls and it’s just lingering since.”** Record a suspected onset association with incline biceps curls and lingering symptoms. Preserve the athlete’s uncertainty; exact location, dated session/onset, diagnosis and confirmed cause remain unknown. The right-elbow report is not automatically equated with the prior overhead-extension complaint. Earlier completed lifting sets and the originally reported no-issues response remain dated history; this later symptom recollection governs upcoming choices.
+
+Flag both incline DB curl slots **M2/S2** for current-symptom review before repeating. Keep M2’s performed 22.5 and S2’s performed 25 lb as actuals, not automatic next prescriptions. No load increase while unresolved; reduce/modify if the movement provokes discomfort, omit if irritation persists. No numeric reduction or replacement exercise is prescribed without response evidence. Review new S5/S6 forearm work before introduction; no formal W6 elbow eligibility assessment is inferred. Other work, Tuesday’s run and existing overhead exclusion remain unchanged. Decision #463.

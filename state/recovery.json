@@ -262,6 +262,60 @@
         "symptom_response": "No tendon issues reported for this session.",
         "next_morning_response": null
       }
+    },
+    {
+      "id": "right-elbow-nag",
+      "status": "active-lingering-symptom-suspected-incline-curl-trigger",
+      "reported_on": "2026-11-02",
+      "recorded_at": "2026-11-03T17:23:48-05:00",
+      "date_source": "Active client date context: 2026-11-02 America/New_York. Persistence timestamp is recorded separately; onset date is unreported.",
+      "report": "Note down a slight nag on my right elbow tennis elbow type shit",
+      "provenance": "athlete symptom report",
+      "decision_id": 463,
+      "source": "../history/injury-log.md#2026-11-02--right-elbow-nag",
+      "side": "right",
+      "site": "elbow",
+      "specific_location": null,
+      "severity_description": "slight nag",
+      "pain_score": null,
+      "athlete_description": "tennis-elbow-like",
+      "diagnosis": null,
+      "onset_date": null,
+      "provoking_movements": null,
+      "relationship_to_overhead_triceps_symptoms": null,
+      "affected_slots": [
+        "M2",
+        "S2"
+      ],
+      "review_before_slots": [
+        "M2",
+        "S2",
+        "S5",
+        "S6"
+      ],
+      "action": "Review current elbow symptoms before repeating either incline-curl slot. Do not automatically repeat or increase the last load. Reduce/modify the movement if it provokes discomfort; omit it if irritation persists. Review new reverse/wrist curls before introduction. Keep unrelated work stable.",
+      "persistence": "Keep as an active symptom note until a dated follow-up resolves or clarifies it. Do not infer symptom-free elbows from the earlier Monday no-issues report.",
+      "followup": {
+        "status": "suspected-trigger-answered-location-and-current-provocation-unreported",
+        "requested_on": "2026-11-02",
+        "requested_at": "2026-11-03T17:23:48-05:00",
+        "question": "Where on the right elbow do you feel the nag, and which movements bring it on—gripping, curls, pushdowns, pressing, or something else?",
+        "answer": "I think it happened during the incline bicep curls and it’s just lingering since",
+        "answered_at": "2026-11-03T17:25:04-05:00"
+      },
+      "scope": "Suspected association with incline curls, not confirmed causation or a tennis-elbow diagnosis. Do not merge into the earlier overhead-extension complaint or infer pushdowns caused it. Historical actuals remain intact; no formal forearm eligibility review completed.",
+      "reviewed_on": "2026-11-02",
+      "latest_report": {
+        "reported_on": "2026-11-02",
+        "recorded_at": "2026-11-03T17:25:04-05:00",
+        "date_source": "Active client date context; persistence timestamp is separate.",
+        "report": "I think it happened during the incline bicep curls and it’s just lingering since",
+        "decision_id": 463,
+        "scope": "Athlete suspects onset during incline biceps curls and reports lingering symptoms. Exact location/session/date, confirmed cause and diagnosis remain unknown."
+      },
+      "suspected_trigger": "Incline DB curl — athlete says “I think”",
+      "onset_context": "Possibly began during incline biceps curls; exact session/date unreported.",
+      "symptom_course": "Lingering since the suspected provoking exercise."
     }
   ],
   "pending_gates": [

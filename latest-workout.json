@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T20:48:49-05:00",
+  "generatedAt": "2026-11-03T17:25:04-05:00",
   "blockId": "hybrid-2026-10-26",
   "prescriptionId": "hybrid-2026-10-26-tue-intervals-461",
   "preview": true,
@@ -12,7 +12,8 @@
     "Tuesday is the shorter interval session. October 27 earned an ordinary hit, but W2 holds the dose at 3×4 minutes and 6:50/mi."
   ],
   "intro": [
-    "Prepared Monday evening for Tuesday, November 3. You expect good recovery; the next-day response is still unreported. Use this plan if recovered and comfortable. No lifting or extra cardio."
+    "Prepared Monday evening for Tuesday, November 3. You expect good recovery; the next-day response is still unreported. Use this plan if recovered and comfortable. No lifting or extra cardio.",
+    "Right elbow: slight lingering nag, possibly starting during incline curls. Review before repeating incline curls or introducing forearm work; reduce/modify or omit aggravating work."
   ],
   "lift": null,
   "cardio": {
@@ -48,6 +49,12 @@
       "previous": "No W2 run logged. Friday remains 3×6 at 7:25/mi with two 2-minute recoveries.",
       "decision": "Both planned runs fit the 15-mile weekly limit: approximately 10.07 miles, planning upper 11.29.",
       "reason": "Includes both runs’ warmups, recoveries and 10-minute cooldowns. Planning upper allows five extra warmup minutes per run and fast-edge alert paces; recalculate actuals because faster execution can exceed the planning envelope."
+    },
+    {
+      "exercise": "Right elbow and incline curls",
+      "previous": "Athlete describes a slight tennis-elbow-like nag, then says it may have started during incline biceps curls and has lingered. Exact location and diagnosis remain unconfirmed.",
+      "decision": "Review M2/S2 before repeating incline curls; do not automatically reuse or increase the last loads. Also review new reverse/wrist curls.",
+      "reason": "The suspected movement is now identified. Reduce/modify it if provocative and omit it if irritation persists. Retain performed weights and unrelated work; the association does not establish a diagnosis or cause."
     }
   ],
   "currentLoads": [
@@ -70,7 +77,7 @@
       "exercise": "M2 — Incline DB curl",
       "load": "22.5 lb",
       "lastVerified": "2026-11-02 (reported)",
-      "note": "November 2 actual 22.5×12/8 at RIR 3/3 versus prescribed 20. Established Monday load 22.5; independent from Saturday 25."
+      "note": "November 2 actual 22.5×12/8 at RIR 3/3 versus prescribed 20. Later report suspects incline curls in a lingering right-elbow nag. Keep 22.5 as a performed load only; review symptoms before repeating, reducing/modifying or omitting if provocative."
     },
     {
       "slotId": "M3",
@@ -210,7 +217,7 @@
       "exercise": "S2 — Incline DB curl",
       "load": "25 lb",
       "lastVerified": "2026-10-31",
-      "note": "Saturday actual 25×9 at RIR 3; hold during Stage B. No ordinary progression credit."
+      "note": "Saturday October 31 actual 25×9 at RIR 3 remains unchanged. Incline curls are now a suspected trigger for a lingering right-elbow nag; review before this slot rather than automatically repeating 25. No exposure or credit transferred from Monday."
     },
     {
       "slotId": "S3",
@@ -231,14 +238,14 @@
       "exercise": "S5 — Cable reverse curl",
       "load": "Calibrate",
       "lastVerified": "No new-block exposure",
-      "note": "Stage B introduces one set at 3–4 RIR on Saturday. Load remains uninitialized until performed; calibrate independently."
+      "note": "Stage B introduces one set at 3–4 RIR on Saturday. Load remains uninitialized until performed; calibrate independently. New right-elbow nag reported: review symptoms before introduction; do not assume this movement is either the cause or tolerated."
     },
     {
       "slotId": "S6",
       "exercise": "S6 — Cable wrist curl",
       "load": "Calibrate",
       "lastVerified": "No new-block exposure",
-      "note": "Stage B introduces one set at 3–4 RIR on Saturday. Load remains uninitialized until performed; calibrate independently."
+      "note": "Stage B introduces one set at 3–4 RIR on Saturday. Load remains uninitialized until performed; calibrate independently. New right-elbow nag reported: review symptoms before introduction; do not assume this movement is either the cause or tolerated."
     },
     {
       "slotId": "L1",

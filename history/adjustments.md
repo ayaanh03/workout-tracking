@@ -386,3 +386,19 @@ Whole W2 planning: Tuesday 720/410+26/8.5 plus Friday 1080/445+24/8.5 = **10.065
 Build `runs/2026-11-03.txt` and `.workout`: outdoor running, 10-min warmup, repeat 2 (work 4 min/recovery 3 min), final work 4 min, 10-min cooldown. Work alerts current 6:45–6:55/mi; no easy-section pace alerts or HR/cadence/power targets. Decode-check all three work reps and exactly two recoveries. Keep prior Watch files untouched.
 
 Both caches use the actual generation timestamp and `preview:true`; daily date November 3, Monday done and Tuesday–Sunday upcoming in the current W2 week. Preserve live block as_of November 2 and all completed actuals; future publishing does not advance the calendar or supply recovery evidence. Persist the prescription here so the overwritten completed Monday cache does not erase #459 or its #460 actuals. Next-day outcomes remain pending until reported.
+
+## 2026-11-02 — record right-elbow symptom
+
+462. Athlete reports a **slight right-elbow nag**, described as tennis-elbow-like. Save the exact report in recovery state and injury history, with diagnosis, exact location, onset, provoking movements and relation to prior overhead symptoms unknown. Report date uses the active client date context; actual persistence timestamp is retained separately. Ask once for location/movement triggers without blocking the requested note.
+
+Apply `program/adjustments.md#local-response`: consider the active symptom at the next lifting prescription, modifying/reducing/stopping movements that aggravate it. Flag S5/S6 for symptom review before their first introduction under `program/saturday.md#forearm-eligibility`; do not complete the later D/W6 eligibility review or mark unperformed forearm work as causal. No automatic blanket cut, new progression credit, global fatigue diagnosis or rollback. Preserve the existing overhead-to-pushdown replacement and all independent actuals/loads.
+
+Add the current elbow note to daily/week views, without altering the Tuesday preview’s prescription ID, dose, pace, Watch file, mileage or completion status. Both cache update timestamps match. Preserve the earlier Monday symptom-free session report as historical evidence; the new report is not proof of delayed pain from that session or an observed next-day recovery assessment. Keep the symptom active pending clarification/resolution.
+
+## 2026-11-02 — clarify suspected incline-curl trigger
+
+463. Athlete says **“I think it happened during the incline bicep curls and it’s just lingering since.”** Update #462’s right-elbow note with a tentative incline-curl association and persistent nag. Keep diagnosis, precise location and onset/session date unknown. The location/trigger question is partly answered; no repeated question is needed to record it.
+
+Under `program/adjustments.md#local-response`, mark **M2/S2** next actions for symptom review rather than automatically repeating their last loads. Keep performed **22.5/25 lb** and every actual/exposure/progression record intact. No load increase while unresolved; reduce/modify provocative incline curls or omit if irritation persists. Flag S5/S6 for review before introduction without assigning causation or performing the future D/W6 eligibility check. No blanket upper-body cut, stage rollback, unsupported numeric dose reduction or new substitution is created.
+
+Update current symptom/next-action descriptions in state and both dashboard caches. Keep Tuesday’s exact preview prescription/Watch file, all run credits/mileage and completed records unchanged. Maintain the separate overhead-to-pushdown replacement; this report does not establish that pushdowns caused the right-elbow symptom. Preserve #462 and earlier no-issues reports as history rather than rewriting them.
