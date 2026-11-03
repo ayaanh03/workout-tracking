@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T11:52:08-05:00",
+  "generatedAt": "2026-11-02T19:47:32-05:00",
   "blockId": "hybrid-2026-10-26",
   "prescriptionId": "hybrid-2026-10-26-mon-upper-a-459",
   "preview": false,
@@ -12,8 +12,7 @@
     "Monday is Upper A. Your completed, manageable W1 earns Stage B: 16 working sets, with suitable loads held as sets increase."
   ],
   "intro": [
-    "No ab discomfort today. Keep crunches bodyweight-only and comfortable; stop/reduce/omit them if original-site pain or pulling returns. No cardio today.",
-    "Cable pushdowns replace overhead extensions at 50 lb because of tendon stress. Use only if comfortable; reduce or stop if irritation returns."
+    "All 16 sets logged. No ab or tendon issues reported. Curls were 22.5 lb; pulldown’s second set reached RIR 1. Preserve the reported RIR 10 on the first crunch set and RIR 5 on the first lateral set."
   ],
   "lift": {
     "table": [
@@ -81,51 +80,112 @@
         "rir": "2–3",
         "rest": "3 min"
       }
-    ]
+    ],
+    "actual": {
+      "label": "2026-11-02 — reported results",
+      "table": [
+        {
+          "slotId": "M1a",
+          "exercise": "Incline barbell bench — top set",
+          "load": "145 lb",
+          "reps": "6",
+          "rir": "3"
+        },
+        {
+          "slotId": "M1b",
+          "exercise": "Incline barbell bench — back-offs",
+          "load": "135 lb",
+          "reps": "8 / 8",
+          "rir": "3 / 3"
+        },
+        {
+          "slotId": "M2",
+          "exercise": "Incline DB curl",
+          "load": "22.5 lb",
+          "reps": "12 / 8",
+          "rir": "3 / 3"
+        },
+        {
+          "slotId": "M3",
+          "exercise": "DB lateral raise",
+          "load": "35 lb",
+          "reps": "12 / 15 / 12",
+          "rir": "5 / 3 / 3"
+        },
+        {
+          "slotId": "M4",
+          "exercise": "Cable pushdown",
+          "load": "50 lb",
+          "reps": "12 / 12",
+          "rir": "3 / 2"
+        },
+        {
+          "slotId": "M5",
+          "exercise": "Lat pulldown",
+          "load": "160 lb",
+          "reps": "9 / 8",
+          "rir": "3 / 1"
+        },
+        {
+          "slotId": "M6",
+          "exercise": "Decline crunch — bodyweight",
+          "load": "BW",
+          "reps": "15 / 15",
+          "rir": "10 / 3"
+        },
+        {
+          "slotId": "M7",
+          "exercise": "Chest-supported row",
+          "load": "70 lb",
+          "reps": "8 / 8",
+          "rir": "2 / 2"
+        }
+      ]
+    }
   },
   "cardio": null,
   "adaptation": [
     {
-      "exercise": "Stage A → B",
-      "previous": "W1 completed: 45 known lifting sets plus Thursday’s BW circuit of unknown dose. November 2: “Yes, manageable overall” to the recovery/soreness/joint-response review.",
-      "decision": "Advance one stage; Monday 11 → 16 sets.",
-      "reason": "A completed manageable week earns Stage B. Add one back-off, curl, lateral, pulldown and row set. Keep suitable loads stable during the ramp; no failure sets."
-    },
-    {
       "exercise": "M1a/M1b — Incline bench",
-      "previous": "October 26: top 145×6 and back-off 135×8, both RIR 3.",
-      "decision": "Hold 145/135 lb; add a second back-off set.",
-      "reason": "Both loads fit the ranges. Stage B increases volume; ceiling reps in Stage A earn no ordinary load increase."
+      "previous": "November 2: top 145×6 at RIR 3; back-offs 135×8/8 at RIR 3/3.",
+      "decision": "Hold 145/135 lb.",
+      "reason": "The added back-off set is completed at the rep ceiling and intended reserve. This is Stage-B ramp work; no ordinary load increase is earned."
     },
     {
-      "exercise": "M2/M3 — Curl and laterals",
-      "previous": "October 26: curl 20×12 and laterals 35×15/12, all RIR 3.",
-      "decision": "Hold 20/35 lb. Curl 1 → 2 sets; laterals 2 → 3.",
-      "reason": "Use Monday’s independent actuals while adding Stage-B work. Saturday’s curl at 25×9 does not replace Monday’s 20 lb baseline."
+      "exercise": "M2 — Incline DB curl",
+      "previous": "Prescribed 20 lb; actual 22.5×12/8 at RIR 3/3.",
+      "decision": "Use 22.5 lb as the established Monday working load.",
+      "reason": "Both sets meet 8–12 reps at the intended reserve. Record the heavier performed load as calibration, with no cross-slot transfer or ordinary ramp progression award."
     },
     {
-      "exercise": "M4 — Cable pushdown replaces overhead extension",
-      "previous": "October 26 overhead extensions: 35×10/10 at RIR 3. November 2: athlete reports tendon stress from overhead work and requests pushdowns starting at 50 lb. Thursday’s independent pushdown actual was 50×12/11 at RIR 3 on October 29.",
-      "decision": "Replace with cable pushdown: 50 lb, 2×10–15 at 2–3 RIR, 2 min rest. Apply the same exercise change to Saturday.",
-      "reason": "Modify the aggravating exercise under the local-response rule. This is a new exercise record in M4/S3, with no transferred progression credit; 50 lb is the requested starting prescription. Response remains pending: reduce or stop if pushdowns irritate the tendons."
+      "exercise": "M3 — DB lateral raise",
+      "previous": "35×12/15/12 at RIR 5/3/3.",
+      "decision": "Hold 35 lb.",
+      "reason": "All three sets meet their ranges. Preserve the easier first set; later sets fit the target, and the full dose has not reached the ceiling."
+    },
+    {
+      "exercise": "M4 — Cable pushdown",
+      "previous": "First Monday pushdown exposure: 50×12/12 at RIR 3/2; no tendon issues reported.",
+      "decision": "Establish and hold 50 lb. Keep the overhead replacement.",
+      "reason": "Both sets meet the range and Stage-B reserve. Monday has its own actual; Saturday remains unperformed and Thursday independent. Next-morning tendon response remains pending."
     },
     {
       "exercise": "M5 — Lat pulldown",
-      "previous": "October 26: 165×8 at RIR 2, one set.",
-      "decision": "160 lb, 2×8–12 targeting RIR 3. Use the next lower setting if 160 is unavailable.",
-      "reason": "RIR 2 is within Stage B, but the small reduction targets its easier end as a second set is introduced. This is effort calibration; 165 remains the last performed load."
+      "previous": "160×9 at RIR 3, then 160×8 at RIR 1; prescribed RIR 3.",
+      "decision": "Next exposure: start at 155 lb if available, otherwise the next lower setting, targeting RIR 3.",
+      "reason": "The second set reached the rep floor with too little reserve. Adjust the load to fit both sets; 160 remains the actual performed load. This is effort calibration, not a fatigue diagnosis."
     },
     {
       "exercise": "M6 — Bodyweight abs",
-      "previous": "October 26 BW15/15 at RIR 3 was comfortable. November 1 BW15/15 brought a brief original-site sensation. November 2: “No discomfort today.”",
-      "decision": "BW only if comfortable, up to 2×10–15 at ≥3 RIR. No added weight.",
-      "reason": "Current comfort supports a cautious BW exposure. Keep the 5 lb trial deferred until BW is comfortable during/after and next morning, then review. Stop/reduce/omit if original-site pain or pulling returns."
+      "previous": "BW×15/15 at RIR 10/3; no ab issues reported.",
+      "decision": "Keep BW-only limits; review added load after the next-morning response.",
+      "reason": "This is a new symptom-free direct ab exposure. The first set’s RIR 10 stays as reported and does not automatically clear the deferred 5 lb trial."
     },
     {
       "exercise": "M7 — Chest-supported row",
-      "previous": "October 26: accidental 70×12 at RIR 3 instead of planned 80; confirmed actual.",
-      "decision": "Hold 70 lb and add the Stage-B second set.",
-      "reason": "70 fits the target. Do not compensate for the prior misload with an unsupported jump."
+      "previous": "70×8/8 at RIR 2/2.",
+      "decision": "Hold 70 lb.",
+      "reason": "Both sets meet the rep floor and Stage-B 2–3 RIR. Do not reduce for an acceptable RIR 2 result or infer persistent decline from one changed-dose session."
     }
   ],
   "currentLoads": [
@@ -133,57 +193,57 @@
       "slotId": "M1a",
       "exercise": "M1a — Incline barbell bench, top set",
       "load": "145 lb",
-      "lastVerified": "2026-10-26 (reported)",
-      "note": "Reported 6 reps at RIR 3; hold during Stage B using the same load notation/setup."
+      "lastVerified": "2026-11-02 (reported)",
+      "note": "November 2 actual 145×6 at RIR 3. Hold during Stage B; no ordinary progression credit."
     },
     {
       "slotId": "M1b",
       "exercise": "M1b — Incline barbell bench, back-offs",
       "load": "135 lb",
-      "lastVerified": "2026-10-26 (reported)",
-      "note": "Reported 8 reps at RIR 3; hold during Stage B using the same load notation/setup."
+      "lastVerified": "2026-11-02 (reported)",
+      "note": "November 2 actual 135×8/8 at RIR 3/3. Added back-off set completed; hold during Stage B."
     },
     {
       "slotId": "M2",
       "exercise": "M2 — Incline DB curl",
-      "load": "20 lb",
-      "lastVerified": "2026-10-26 (reported)",
-      "note": "Monday October 26 actual 20×12 at RIR 3. Hold 20 while adding a second set; Saturday’s separate 25 lb actual does not advance Monday."
+      "load": "22.5 lb",
+      "lastVerified": "2026-11-02 (reported)",
+      "note": "November 2 actual 22.5×12/8 at RIR 3/3 versus prescribed 20. Established Monday load 22.5; independent from Saturday 25."
     },
     {
       "slotId": "M3",
       "exercise": "M3 — DB lateral raise",
       "load": "35 lb",
-      "lastVerified": "2026-10-26 (reported)",
-      "note": "Reported 15/12 reps at RIR 3/3; hold during Stage B using the same load notation/setup."
+      "lastVerified": "2026-11-02 (reported)",
+      "note": "November 2 actual 35×12/15/12 at RIR 5/3/3. Preserve all three sets and easier first set; hold 35."
     },
     {
       "slotId": "M4",
       "exercise": "M4 — Cable pushdown",
-      "load": "50 lb starting",
-      "lastVerified": "2026-11-02 (requested; not yet performed in this slot)",
-      "note": "Ongoing replacement for overhead extensions due to tendon stress. New independent pushdown record; previous overhead actuals preserved separately. Thursday’s 50 lb pushdown actual is a reference only. Use only if comfortable."
+      "load": "50 lb",
+      "lastVerified": "2026-11-02 (reported)",
+      "note": "November 2 first Monday pushdown actual 50×12/12 at RIR 3/2, no tendon issues reported. Hold 50; overhead history preserved, replacement remains active."
     },
     {
       "slotId": "M5",
       "exercise": "M5 — Lat pulldown",
-      "load": "165 lb",
-      "lastVerified": "2026-10-26 (reported)",
-      "note": "October 26 actual 165×8 at RIR 2. Today prescribes 160 lb for two sets targeting RIR 3; the lower prescription is not yet performed."
+      "load": "160 lb",
+      "lastVerified": "2026-11-02 (reported)",
+      "note": "November 2 actual 160×9/8 at RIR 3/1. Next starting load proposed 155 (or next lower setting) to target RIR 3 across both sets; not yet performed."
     },
     {
       "slotId": "M6",
       "exercise": "M6 — Decline crunch (temporary)",
       "load": "BW",
-      "lastVerified": "2026-10-26 (reported)",
-      "note": "Temporary BW decline crunch actual: 15/15 at RIR 3/3. Lower abs felt fine during/after Monday; maximum 2 sets, no added weight. No cable-crunch progression credit. November 2: no current discomfort; BW only if comfortable, max two sets at ≥3 RIR. Added load remains deferred."
+      "lastVerified": "2026-11-02 (reported)",
+      "note": "November 2 temporary BW decline crunch 15/15 at RIR 10/3, no ab issues. Max two sets, ≥3 RIR; next-morning response/loading review pending. No cable-crunch actual."
     },
     {
       "slotId": "M7",
       "exercise": "M7 — Chest-supported row",
       "load": "70 lb",
-      "lastVerified": "2026-10-26 (reported)",
-      "note": "Confirmed 70×12 at RIR 3: accidentally loaded 70 instead of planned 80, then left. Hold 70 during the ramp; no make-up set or progression credit."
+      "lastVerified": "2026-11-02 (reported)",
+      "note": "November 2 actual 70×8/8 at RIR 2/2 meets Stage B. Hold 70; no progression or persistent-decline inference."
     },
     {
       "slotId": "WE1",
@@ -360,5 +420,6 @@
       "lastVerified": "2026-11-01",
       "note": "November 1 actual 25×12 at RIR 3; hold during Stage B."
     }
-  ]
+  ],
+  "status": "done"
 }

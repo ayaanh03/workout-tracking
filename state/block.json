@@ -41,7 +41,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 459,
+  "last_adjustment_id": 460,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -168,6 +168,20 @@
         "decision_id": 458,
         "scope": "Retrospective W1 recovery review covering all October 26–November 1 sessions, including Friday; also current Monday recovery after Sunday. No numeric metrics or backdated daily report supplied."
       }
+    },
+    "2026-11-02": {
+      "calendar_week": "W2",
+      "session": "Upper A",
+      "status": "completed",
+      "stage": "B",
+      "working_sets": 16,
+      "reported_working_sets": 16,
+      "prescribed_working_sets": 16,
+      "unresolved_slots": [],
+      "actual_ref": "../history/lifting-log.md#2026-11-02--hybrid-v11-w2-monday-upper-a",
+      "prescription_id": "hybrid-2026-10-26-mon-upper-a-459",
+      "recovery_status": "local-response-comfortable-next-day-pending",
+      "review_note": "All 16 sets and rep ranges completed; M5 second set at RIR 1 missed its RIR 3 target. Curl actual calibrated to 22.5; pushdown established at 50; pulldown actual 160 with proposed next 155. Abs/tendons no issues; next-day recovery and loaded-ab review remain pending."
     }
   },
   "planned_start_date": "2026-10-26",
@@ -207,6 +221,19 @@
         "decision_id": 458,
         "scope": "Retrospective W1 recovery review covering all October 26–November 1 sessions, including Friday; also current Monday recovery after Sunday. No numeric metrics or backdated daily report supplied."
       }
+    },
+    "W2": {
+      "range_start": "2026-11-02",
+      "range_end": "2026-11-08",
+      "stage": "B",
+      "completion": "in-progress",
+      "completed_sessions": 1,
+      "known_lifting_sets": 16,
+      "manageable": null,
+      "status": "week-in-progress",
+      "decision_id": 460,
+      "source": "../history/lifting-log.md#2026-11-02--hybrid-v11-w2-monday-upper-a",
+      "note": "Monday completed; no completed manageable Stage-B week or stage advance inferred."
     }
   },
   "program_amendments": [

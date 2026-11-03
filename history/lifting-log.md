@@ -116,3 +116,24 @@ Session ID: `hybrid-2026-10-26-w1-sun-2026-11-01`. Stage A, athlete-reported com
 Increment L2–L6 raw exposure counts to two and the L1 temporary substitute count to two; keep baseline hanging raises uninitialized and all ordinary qualification/anchors empty. Athlete: **“Abs are fine, very minor soreness from the ab circuit should go away. Maybe reintroduce weights?”** Log that report without diagnosing the soreness. Requested once whether it is ordinary muscle soreness without original-strain pain/pulling, and whether Achilles remained comfortable. A small future loading trial is proposed pending clarification; no added ab weight was performed or cleared today. Sunday next-day recovery and completed-week manageability remain unknown. Decision #456.
 
 Same-day symptom clarification (#457): athlete **“Achilles was fine. Abs also seemed ordinary. Minor strain on the og site but gone after a few reps”**. Sunday’s L2 calf response is comfortable. L1 had transient original-site symptoms, so it is not recorded as a symptom-free loading validation. All 11 sets/loads/RIR and raw exposure counts remain unchanged. Defer the proposed 5 lb trial; BW only if comfortable, reduce/stop symptom-provoking work.
+
+## 2026-11-02 — Hybrid v11 W2 Monday Upper A
+
+Session ID: `hybrid-2026-10-26-w2-mon-2026-11-02`. Stage B, completion against [Monday #458](adjustments.md#2026-11-02--stage-b-monday-upper-a), as amended by [pushdown replacement #459](adjustments.md#2026-11-02--replace-overhead-triceps-work-with-pushdowns); effective prescription ID `hybrid-2026-10-26-mon-upper-a-459`. Logged November 2 in America/New_York despite UTC November 3. Existing lb/load notation retained; no new apparatus/attachment/per-hand detail supplied.
+
+| Slot | Exercise | Prescribed sets × reps / load / RIR | Actual set 1 | Actual set 2 | Actual set 3 |
+|---|---|---|---|---|---|
+| M1a | Incline barbell bench — top set | 1×4–6 / 145 lb / 2–3 | 145×6, RIR 3 | — | — |
+| M1b | Incline barbell bench — back-offs | 2×6–8 / 135 lb / 2–3 | 135×8, RIR 3 | 135×8, RIR 3 | — |
+| M2 | Incline DB curl | 2×8–12 / 20 lb / 2–3 | 22.5×12, RIR 3 | 22.5×8, RIR 3 | — |
+| M3 | DB lateral raise | 3×12–20 / 35 lb / 2–3 | 35×12, RIR 5 | 35×15, RIR 3 | 35×12, RIR 3 |
+| M4 | Cable pushdown | 2×10–15 / 50 lb / 2–3 | 50×12, RIR 3 | 50×12, RIR 2 | — |
+| M5 | Lat pulldown | 2×8–12 / 160 lb / 3 | 160×9, RIR 3 | 160×8, RIR 1 | — |
+| M6 | Decline crunch — bodyweight | 2×10–15 / BW / ≥3 | BW×15, RIR 10 | BW×15, RIR 3 | — |
+| M7 | Chest-supported row | 2×8–12 / 70 lb / 2–3 | 70×8, RIR 2 | 70×8, RIR 2 | — |
+
+**16 working sets reported; all rep ranges met.** Retain the first lateral set’s **RIR 5**, first crunch set’s **RIR 10**, and second pulldown set’s **RIR 1** literally. M5’s second set misses its prescribed RIR 3 and Stage-B 2–3 reserve; do not describe all sets as effort-qualified.
+
+M2 actual **22.5×12/8 at RIR 3** supports 22.5 lb as Monday’s calibrated working load, with original 20 lb prescription retained. M4 **50×12/12 at RIR 3/2** establishes its first independent pushdown actual; previous overhead record remains in exercise history and S3/T5 receive no actual/credit transfer. M5 performed **160 lb**, with proposed next starting **155 lb if available, otherwise next lower setting**, for both sets targeting RIR 3; the lower load is not yet performed. Hold bench 145/135, laterals 35, pushdown 50 and row 70. Row 70×8/8 at RIR 2 fits its 2–3 target; no decline/fatigue diagnosis from the changed dose.
+
+Increment ordinary Monday raw exposures to two, new M4 pushdown exposure to one, and temporary M6 BW exposure to two; baseline cable crunch stays uninitialized. All ordinary qualification/anchors remain unearned during Stage B. Athlete notes **“No issues on abs or tendons.”** Record session-level BW-ab/pushdown tolerance, retain bodyweight limits and persistent overhead replacement, and await next-morning response before fresh ab-loading review. No cardio, next-day recovery, loaded ab actual, completed manageable Stage-B week or stage advance is inferred. Decision #460.
