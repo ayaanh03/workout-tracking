@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-02T19:47:32-05:00",
+  "generatedAt": "2026-11-02T20:48:49-05:00",
   "blockId": "hybrid-2026-10-26",
-  "preview": false,
+  "preview": true,
   "week": "W2",
   "phase": "Hybrid v11 — Stage B",
   "rangeStart": "2026-11-02",
   "rangeEnd": "2026-11-08",
-  "summary": "W2, November 2–8: Monday’s 16 Stage-B sets completed, with no ab or tendon issues reported; next-day recovery pending. Up to 70 weekly lifting sets with conditional BW abs. Monday curl established at 22.5 lb and pushdown at 50 lb; pulldown needs lower next starting load. Future work remains subject to recovery. Runs hold 3×4 at 6:50 /3×6 at 7:25; bikes 20 minutes. Overhead extensions remain replaced by pushdowns.",
+  "summary": "W2, November 2–8 — Tuesday preview prepared Monday evening. Monday’s 16 Stage-B lifting sets are logged; all later sessions remain upcoming. Tuesday holds 3×4 at 6:50 and Friday 3×6 at 7:25; bikes 20 min. Up to 70 weekly lifting sets with conditional BW abs and persistent pushdown replacements. Expected Tuesday recovery is not yet an observed response.",
   "days": [
     {
       "date": "2026-11-02",
@@ -18,8 +18,8 @@
     {
       "date": "2026-11-03",
       "day": "Tue",
-      "session": "Intervals",
-      "note": "3×4 min at 6:50/mi, 3-min easy jog/walk between reps; final RPE ≤8. Warmup 10 min easy, cooldown 10 min. W2 ceiling holds work and target.",
+      "session": "Intervals — preview",
+      "note": "3×4 min at 6:50/mi, 3-min easy jog/walk between reps only; final RPE ≤8. Warmup 10 min easy (+5 if needed), cooldown 10 min: 38 min standard. Watch file prepared. Expected recovery; check actual readiness before running.",
       "status": "upcoming"
     },
     {
@@ -59,7 +59,7 @@
     }
   ],
   "runningMileageCheck": {
-    "decisionId": 458,
+    "decisionId": 461,
     "kind": "planned",
     "recordedMiles": 0,
     "estimatedUnconfirmedMiles": 0,

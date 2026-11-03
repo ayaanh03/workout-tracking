@@ -341,5 +341,14 @@
       "decision_id": 458,
       "note": "November 2 explicit W1 recovery review resolves the progression recovery gate. Separate Friday site-specific observations remain unreported; no new deviation or symptoms asserted."
     }
-  ]
+  ],
+  "readiness_forecast": {
+    "reported_on": "2026-11-02",
+    "reported_at": "2026-11-02T20:48:49-05:00",
+    "for_date": "2026-11-03",
+    "report": "Generate Tuesday. Recovery will be fine I’m confident this is no volume",
+    "status": "expected-good-not-yet-observed",
+    "decision_id": 461,
+    "scope": "Athlete expects good Tuesday recovery and requests advance generation. This is a forecast, not Monday next-day recovery, a run result or ab-loading clearance."
+  }
 }

@@ -181,12 +181,14 @@
       }
     },
     "next_action": {
-      "decision_id": 451,
+      "decision_id": 461,
       "action": "hold-normal-prescription",
+      "for_date": "2026-11-03",
+      "preview": true,
       "pace_seconds_per_mile": 410,
       "work_minutes": 12,
       "format": "3x4",
-      "reason": "Ordinary hit 1 is credited and the prescribed 3×4 at 6:50/mi is established as successful. Hold this dose for W2: its ceiling remains 12 work minutes and faster targets are not permitted. Final RPE 8 does not earn comfortable credit; later progression uses the credited result subject to the normal gates."
+      "reason": "October 27 ordinary hit 1 is retained, including its explicit tracking exception. W2 caps Tuesday at 12 work minutes and allows no faster target; no comfortable credit at final RPE 8. Generate the same normal dose in advance, conditional on actual readiness. No next-day recovery is inferred from confidence."
     }
   },
   "friday": {

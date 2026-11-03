@@ -1,0 +1,11 @@
+# W2 Tuesday preview — decision 461. 38 min planned; final-rep RPE <=8.
+# Prepared Nov 2 for Nov 3; actual readiness still governs.
+# Recoveries between reps only; no easy-section pace alerts.
+# Pace alerts guide pacing; faster reps can qualify under the progression rule.
+name: W2 Tue 3x4 - Nov 3
+warmup: 10:00
+repeat 2
+  work: 4:00 @ current 6:45-6:55/mi
+  recovery: 3:00
+work: 4:00 @ current 6:45-6:55/mi
+cooldown: 10:00

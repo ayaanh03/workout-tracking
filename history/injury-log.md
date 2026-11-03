@@ -121,3 +121,7 @@ Replace all active overhead extension slots: **Monday M4 and Saturday S3 → cab
 After BW decline crunch **15/15 at RIR 10/3** and cable pushdown **50×12/12 at RIR 3/2**, athlete: **“No issues on abs or tendons.”** Record this completed session’s symptom-free ab and triceps-tendon response. November 2 becomes the latest and last tolerated direct BW ab exposure; retain November 1’s earlier original-site symptoms in history. The first Monday pushdown exposure is now performed and tolerated; Saturday’s replacement remains unperformed and overhead extensions remain excluded.
 
 It is still Monday evening in America/New_York. Next-morning general/ab/tendon response is unknown, so the proposed 5 lb ab trial stays deferred pending that response and fresh review. Keep BW at max two sets and ≥3 RIR; RIR 10 does not itself authorize loading. No full injury clearance, new Achilles-specific report or automatic overhead restoration. Decision #460.
+
+## 2026-11-02 — expected Tuesday recovery
+
+Athlete: **“Generate Tuesday. Recovery will be fine I’m confident this is no volume.”** Record an expectation of good November 3 recovery and a request for advance generation. It is still Monday evening locally; this is not a next-day observation after Monday lifting. Preserve the reported symptom-free Monday ab/pushdown response, with next-morning recovery and the ab-loading review still pending. Do not diagnose fatigue or require another answer tonight to prepare the unchanged run dose. Decision #461.
