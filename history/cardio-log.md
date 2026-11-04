@@ -100,3 +100,28 @@ November 1 follow-up (#457) clarifies Sunday’s later local response after Satu
 Athlete answers **“Yes, manageable overall”** to the explicit completed-W1 question covering settling soreness, good recovery and no worsening joint/tendon symptoms. Accept this as retrospective normal-recovery confirmation for Friday October 30, reported **November 2**, without inventing an October 31 report or local during/after details. All three paces **7:27/7:13/7:16** pass 7:30-or-faster, 18 work minutes and both planned recoveries were completed, final RPE 7 meets cap: **ordinary hit 1, misses 0**, successful prescribed normal dose **3×6 at 7:25**. No comfortable credit (threshold 5). Preserve raw paces, duration, segments, unconfirmed total/shoe and Tuesday’s separate hit/exception.
 
 Wednesday October 28’s prescribed **20 minutes** is now validated by acceptable Thursday lifting/Friday run and this recovery review; keep actual **20:05, 130 W, displayed effort 4**. Saturday’s **20:17, 131 W, RPE 2–3** has good recovery and acceptable Sunday lifting; no discomfort at the ab site today, but no subsequent run yet. Do not attribute Sunday’s ab sensation to cycling or award longer Saturday cycling. W2 holds both bikes at 20 minutes and run targets/work at Tuesday 3×4 at 6:50, Friday 3×6 at 7:25. No new session or shoe mileage. Decision #458.
+
+## 2026-11-03 — Hybrid v11 W2 Tuesday intervals
+
+Session ID: `hybrid-2026-10-26-w2-tue-2026-11-03`. Three Apple Fitness screenshots and athlete text: **“Genuine cheese of a workout RPE 5,6,7”**, mapped to the work reps in order. Logged Tuesday evening America/New_York; UTC is already November 4. Original [prescription #461](adjustments.md#2026-11-02--tuesday-november-3-interval-preview), ID `hybrid-2026-10-26-tue-intervals-461`: 10-minute warmup, **3×4 at 6:50/mi**, two 3-minute recoveries, 10-minute cooldown; final RPE ≤8. Original prescription and Watch files remain unchanged.
+
+| Segment | Time | Displayed distance | Average pace | Reported RPE |
+|---|---|---|---|---|
+| Warmup | 10:00 | 0.99 mi | 10:06/mi | n/r |
+| Work 1 | 4:00 | 0.61 mi | 6:28/mi | 5 |
+| Recovery 1 | 3:00 | 0.28 mi | 10:39/mi | n/r |
+| Work 2 | 4:00 | 0.60 mi | 6:37/mi | 6 |
+| Recovery 2 | 3:00 | 0.26 mi | 11:21/mi | n/r |
+| Work 3 | 4:00 | 0.61 mi | 6:31/mi | 7 |
+| Cooldown | 10:00 | 0.87 mi | 11:25/mi | n/r |
+| Open | 0:10 | 61 ft | 14:00/mi | n/r |
+
+**12 work minutes**, six recorded recovery minutes and ten-minute warmup/cooldown. Displayed interval times and mile-split times both sum to **38:10** including the open segment. Exact summary workout/elapsed times are obscured; apparent ~38-minute workout versus ~1:07 elapsed prompted a pause question. Athlete: **“Some breaks in the warmup prolly.”** Record the tentative warmup attribution without claiming exact pause timing or an extra interval-rest violation. No extra rest during/between work reps is reported. Surface and recovery mode remain n/r; no repeated pause question is needed. Average HR 164 bpm is descriptive, not a progression target or an effort estimate.
+
+Athlete confirms **“First time in my new evo SLs. Total distance 4.25.”** Use **4.25 miles** as the total, not the rounded segment sum (~4.23). Start the separate **Evo SL** record at **4.25 miles**, added once by session ID. Preserve the **Vomero Plus estimate 351.55 miles (346.55–356.55)** and all its sources unchanged; neither retirement nor a transfer of mileage is implied.
+
+All work paces pass the **6:55-or-faster** cutoff: offsets **−22 / −13 / −19 s/mi** from prescribed 6:50. Final **RPE 7 ≤ cap 8**. Faster reps count under `program/run-progression.md#classification`; this is an **ordinary hit 2 candidate**, pending normal next-day recovery. Retain prior hit 1/misses 0 without incrementing or clearing while pending. Final RPE 7 does not meet Tuesday’s separate comfortable threshold of 6. Current general/local recovery, including Achilles/abs, remains unreported; easy same-evening effort is not next-day recovery or elbow clearance.
+
+If the result qualifies and W2 is manageable so the lifting ramp need not repeat, the next ordinary step on November 10 is **4×4 at the unchanged 6:50/mi**, with three 3-minute recoveries, subject to readiness/assessment/mileage limits. This is a conditional next step, not an issued prescription or completed work. Keep stored normal dose 3×4 until review/generation; no simultaneous pace increase. Friday remains independent. Saturday bike now has subsequent run-performance evidence, with the run response still pending; no bike increase.
+
+W2 mileage: confirmed Tuesday **4.25** plus planned Friday gives **9.500495703899537 mi**, planning upper **10.116310160427808 mi**, below 15 under the stated Friday assumptions. The upper estimate includes Friday’s optional five-minute warmup extension and fast-edge work pace; faster actuals may exceed that planning envelope. Decision #465.

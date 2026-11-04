@@ -6,7 +6,7 @@
   "start_date": "2026-10-25",
   "end_date": "2027-01-03",
   "timezone": "America/New_York",
-  "as_of": "2026-11-02",
+  "as_of": "2026-11-03",
   "activation_status": "active",
   "calendar_week": "W2",
   "calendar_phase": "Ramp",
@@ -41,7 +41,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 464,
+  "last_adjustment_id": 465,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -145,7 +145,7 @@
       "cardio_actual_ref": "../history/cardio-log.md#2026-10-31--hybrid-v11-w1-saturday-bike",
       "cycling_duration_seconds": 1217,
       "recovery_status": "next-day-general-recovery-reported-good",
-      "review_note": "All six sets and 20:17 bike logged; local response symptom-free, next-day recovery good and subsequent Sunday lifting acceptable. W1 manageable confirmed November 2; no subsequent run yet, so Saturday bike duration validation remains pending."
+      "review_note": "All six sets and 20:17 bike logged; local response symptom-free, next-day recovery good and subsequent Sunday lifting acceptable. W1 manageable confirmed November 2. November 3 run performance now recorded; run response remains pending for bike-duration validation."
     },
     "2026-11-01": {
       "calendar_week": "W1",
@@ -182,6 +182,19 @@
       "prescription_id": "hybrid-2026-10-26-mon-upper-a-459",
       "recovery_status": "local-response-comfortable-next-day-pending",
       "review_note": "All 16 sets and rep ranges completed; M5 second set at RIR 1 missed its RIR 3 target. Curl actual calibrated to 22.5; pushdown established at 50; pulldown actual 160 with proposed next 155. Abs/tendons no issues; next-day recovery and loaded-ab review remain pending."
+    },
+    "2026-11-03": {
+      "calendar_week": "W2",
+      "session": "Tuesday intervals",
+      "status": "completed",
+      "work_minutes": 12,
+      "distance_miles": 4.25,
+      "estimated_distance_miles_from_segments": 4.23155303030303,
+      "actual_ref": "../history/cardio-log.md#2026-11-03--hybrid-v11-w2-tuesday-intervals",
+      "prescription_id": "hybrid-2026-10-26-tue-intervals-461",
+      "classification": "pending",
+      "recovery_status": "next-day-recovery-pending",
+      "review_note": "3×4 at 6:28/6:37/6:31, RPE 5/6/7. Pace/effort pass; athlete attributes breaks probably to warmup. Pending next-day recovery; ordinary hit 2 candidate, no increment yet. Confirmed 4.25 mi in new Evo SLs."
     }
   },
   "planned_start_date": "2026-10-26",
@@ -227,13 +240,15 @@
       "range_end": "2026-11-08",
       "stage": "B",
       "completion": "in-progress",
-      "completed_sessions": 1,
+      "completed_sessions": 2,
       "known_lifting_sets": 16,
       "manageable": null,
       "status": "week-in-progress",
-      "decision_id": 460,
+      "decision_id": 465,
       "source": "../history/lifting-log.md#2026-11-02--hybrid-v11-w2-monday-upper-a",
-      "note": "Monday completed; no completed manageable Stage-B week or stage advance inferred."
+      "note": "Monday lifting and Tuesday intervals completed. Tuesday classification awaits next-day recovery; probable warmup breaks reported. W2 remains in progress; no manageable-week or stage advance inferred.",
+      "known_running_work_minutes": 12,
+      "confirmed_running_miles": 4.25
     }
   },
   "program_amendments": [
