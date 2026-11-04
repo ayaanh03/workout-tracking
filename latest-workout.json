@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T19:30:42-05:00",
+  "generatedAt": "2026-11-03T21:28:33-05:00",
   "blockId": "hybrid-2026-10-26",
   "prescriptionId": "hybrid-2026-10-26-tue-intervals-461",
   "preview": false,
@@ -93,9 +93,9 @@
     },
     {
       "exercise": "Next Tuesday progression",
-      "previous": "The current normal dose is 3×4 at 6:50/mi. W2 limits this to 12 work minutes.",
-      "decision": "Conditional next step: 4×4 at 6:50/mi on November 10; not yet prescribed.",
-      "reason": "A qualifying ordinary hit supports one additional rep under the W3 ceiling, after recovery, W2 manageable/stage review and mileage checks. Final RPE 7 does not meet the separate comfortable threshold of 6; no pace award is issued."
+      "previous": "November 3: 3×4 at 6:28/6:37/6:31, RPE 5/6/7. Athlete describes low difficulty and expects good recovery.",
+      "decision": "Proposed November 10 recalibration: 3×4 at 6:40/mi, two 3-minute recoveries; final RPE 7–8, cap 8.",
+      "reason": "Hold work minutes while evaluating a faster target. This replaces the conditional fourth rep and requires review of a narrow exception to ordinary progression. Actual recovery, W2 manageable/stage, lifting, symptoms and full-week mileage checks still apply; the proposal is not active and earns no credit."
     },
     {
       "exercise": "Full-week running mileage",

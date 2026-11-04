@@ -456,7 +456,17 @@
     "status": "next-day-recovery-and-local-response-pending",
     "decision_id": 465,
     "report": "Genuine cheese of a workout RPE 5,6,7",
-    "note": "Same-evening effort report; no site-specific response or next-day recovery inferred. Review next-day recovery and Achilles/abs at the next relevant interaction. Existing elbow/biceps hold and all injury restrictions persist."
+    "note": "Athlete says recovery will be okay and the session felt easy. This is a forecast; raw rep RPE remains 5/6/7, next-day recovery and site-specific response remain unreported. Review the actual response at the next relevant interaction; preserve biceps/ab restrictions.",
+    "same_evening_followup": {
+      "reported_on": "2026-11-03",
+      "reported_at": "2026-11-03T21:28:33-05:00",
+      "for_date": "2026-11-04",
+      "after_session_id": "hybrid-2026-10-26-w2-tue-2026-11-03",
+      "report": "Recovery will be okay. I barely pushed myself today",
+      "status": "expected-good-not-yet-observed",
+      "decision_id": 466,
+      "scope": "Same-evening expectation of good recovery and low perceived session difficulty. Not a next-day observation, numeric RPE correction or injury clearance."
+    }
   },
   "prior_pending_post_sessions": [
     {
@@ -503,12 +513,24 @@
     }
   ],
   "readiness_forecast": {
-    "reported_on": "2026-11-02",
-    "reported_at": "2026-11-02T20:48:49-05:00",
-    "for_date": "2026-11-03",
-    "report": "Generate Tuesday. Recovery will be fine I’m confident this is no volume",
+    "reported_on": "2026-11-03",
+    "reported_at": "2026-11-03T21:28:33-05:00",
+    "for_date": "2026-11-04",
+    "after_session_id": "hybrid-2026-10-26-w2-tue-2026-11-03",
+    "report": "Recovery will be okay. I barely pushed myself today",
     "status": "expected-good-not-yet-observed",
-    "decision_id": 461,
-    "scope": "Athlete expects good Tuesday recovery and requests advance generation. This is a forecast, not Monday next-day recovery, a run result or ab-loading clearance."
-  }
+    "decision_id": 466,
+    "scope": "Same-evening expectation of good recovery and low perceived session difficulty. Not a next-day observation, numeric RPE correction or injury clearance."
+  },
+  "readiness_forecast_history": [
+    {
+      "reported_on": "2026-11-02",
+      "reported_at": "2026-11-02T20:48:49-05:00",
+      "for_date": "2026-11-03",
+      "report": "Generate Tuesday. Recovery will be fine I’m confident this is no volume",
+      "status": "expected-good-not-yet-observed",
+      "decision_id": 461,
+      "scope": "Athlete expects good Tuesday recovery and requests advance generation. This is a forecast, not Monday next-day recovery, a run result or ab-loading clearance."
+    }
+  ]
 }

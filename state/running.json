@@ -129,6 +129,16 @@
         "recorded_at": "2026-11-03T19:30:42-05:00",
         "report": "First time in my new evo SLs. Total distance 4.25",
         "decision_id": 465
+      },
+      "same_evening_followup": {
+        "reported_on": "2026-11-03",
+        "reported_at": "2026-11-03T21:28:33-05:00",
+        "for_date": "2026-11-04",
+        "after_session_id": "hybrid-2026-10-26-w2-tue-2026-11-03",
+        "report": "Recovery will be okay. I barely pushed myself today",
+        "status": "expected-good-not-yet-observed",
+        "decision_id": 466,
+        "scope": "Same-evening expectation of good recovery and low perceived session difficulty. Not a next-day observation, numeric RPE correction or injury clearance."
       }
     },
     "classification": "pending",
@@ -167,25 +177,43 @@
       "pause_review": "Probable warmup breaks reported; no interval-rest deviation established. Do not classify the elapsed gap itself as a miss."
     },
     "next_action": {
-      "decision_id": 465,
-      "action": "review-pending-result-before-next-tuesday",
+      "decision_id": 466,
+      "action": "review-proposed-pace-recalibration",
       "for_date": "2026-11-10",
       "pace_seconds_per_mile": 410,
       "work_minutes": 12,
       "format": "3x4",
-      "conditional_next_normal": {
-        "pace_seconds_per_mile": 410,
-        "work_minutes": 16,
-        "format": "4x4",
+      "proposed_recalibration": {
+        "status": "proposed-pending-recovery-and-review",
+        "for_date": "2026-11-10",
+        "pace_seconds_per_mile": 400,
+        "work_minutes": 12,
+        "format": "3x4",
         "recovery_seconds": 180,
-        "status": "not-yet-prescribed",
+        "recovery_count": 2,
+        "warmup_minutes": 10,
+        "optional_extra_warmup_minutes": 5,
+        "cooldown_minutes": 10,
+        "final_rep_rpe_guide": [
+          7,
+          8
+        ],
+        "rpe_cap": 8,
+        "scope": "Narrow next-Tuesday pace recalibration proposal replacing the previously conditional fourth rep; not an ordinary earned award or a general rule change.",
         "requires": [
-          "Normal next-day recovery finalizes the November 3 hit; revisit only if later evidence establishes extra interval rest or another exclusion",
-          "W2 manageable review supports advancing rather than repeating the lifting ramp stage",
-          "No stricter symptoms, return, assessment or complete-week mileage limit"
+          "Reported normal next-day recovery after November 3; current readiness and no worsening relevant symptoms",
+          "W2 manageable/stage and priority-lifting review; repeating the lifting ramp still blocks advancement under current rules",
+          "No conflicting assessment/return/fatigue restriction; verify the complete planned week fits 15 miles",
+          "Review and explicitly record activation of this 10 s/mi recalibration exception before generating it; clear ordinary counts/comfortable credit before first changed exposure, never at proposal time"
         ]
       },
-      "reason": "Pace, effort and the athlete’s probable warmup-pause context support ordinary hit 2 once next-day recovery is normal. W3 can increase one level to 4×4 at unchanged 6:50 after W2 manageable/stage and mileage review; no simultaneous pace/minute increase. Current normal record stays unchanged until generation/review."
+      "supersedes": {
+        "decision_id": 465,
+        "conditional_format": "4x4",
+        "conditional_pace_seconds_per_mile": 410,
+        "reason": "Prefer evaluating a faster target with work minutes held, based on latest actual paces/effort and the athlete’s request for more challenge."
+      },
+      "reason": "Latest 3×4 actuals at 6:28/6:37/6:31, RPE 5/6/7 suggest the starting target may be conservative. Athlete expects good recovery and describes low session difficulty. Queue a proposed 3×4 at 6:40 after review; no observed recovery, new hit or activated pace change is inferred. Friday remains independent."
     }
   },
   "friday": {

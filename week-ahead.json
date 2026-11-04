@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-03T19:30:42-05:00",
+  "generatedAt": "2026-11-03T21:28:33-05:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W2",
   "phase": "Hybrid v11 — Stage B",
   "rangeStart": "2026-11-02",
   "rangeEnd": "2026-11-08",
-  "summary": "W2, November 2–8 — Monday’s 16 lifting sets and Tuesday’s intervals are logged. Tuesday pace/effort pass; next-day recovery remains pending. Biceps hold at last performed weights, reps and set counts until elbow symptoms resolve/review. Up to 65 weekly lifting sets: 16/10/17/9/13. Bikes remain 20 minutes.",
+  "summary": "W2, November 2–8 — Monday’s 16 lifting sets and Tuesday’s intervals are logged. Tuesday pace/effort pass; next-day recovery remains pending. Biceps hold at last performed weights, reps and set counts until elbow symptoms resolve/review. Up to 65 weekly lifting sets: 16/10/17/9/13. Bikes remain 20 minutes. Next Tuesday proposal: 3×4 at 6:40/mi, subject to recovery and review; hold work minutes.",
   "days": [
     {
       "date": "2026-11-02",
@@ -19,7 +19,7 @@
       "date": "2026-11-03",
       "day": "Tue",
       "session": "Intervals",
-      "note": "Completed 3×4 at 6:28/6:37/6:31 per mile, RPE 5/6/7; 3-min recoveries, probable warmup breaks. Confirmed 4.25 mi in new Evo SLs. Pace/effort pass; ordinary hit 2 awaits next-day recovery.",
+      "note": "Completed 3×4 at 6:28/6:37/6:31 per mile, RPE 5/6/7; 3-min recoveries, probable warmup breaks. Confirmed 4.25 mi in new Evo SLs. Pace/effort pass; ordinary hit 2 awaits next-day recovery. Athlete expects good recovery; this is a same-evening forecast.",
       "status": "done"
     },
     {
