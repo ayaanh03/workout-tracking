@@ -4,13 +4,13 @@
   "local_restrictions": [
     {
       "id": "left-lower-ab",
-      "status": "latest-bodyweight-exposure-symptom-free-next-morning-pending",
+      "status": "current-symptoms-quiet-bodyweight-limit-active",
       "last_reported_on": "2026-11-02",
       "report": "No issues on abs or tendons.",
       "omitted_slots": [],
       "clearance": null,
       "source": "../history/injury-log.md",
-      "reviewed_on": "2026-11-02",
+      "reviewed_on": "2026-11-04",
       "decision_id": 460,
       "slot_overrides": {
         "M6": {
@@ -144,11 +144,18 @@
           "scope": "Athlete reports no ab or tendon issues with this completed session. Not next-morning recovery or blanket injury clearance."
         }
       },
-      "symptom_action": "Keep BW only if comfortable. If original-site pain or pulling recurs, stop the set and reduce or omit the aggravating movement; do not push through to warm it away."
+      "symptom_action": "Keep BW only if comfortable. If original-site pain or pulling recurs, stop the set and reduce or omit the aggravating movement; do not push through to warm it away.",
+      "current_symptom_report": {
+        "reported_on": "2026-11-04",
+        "recorded_at": "2026-11-04T02:19:21-05:00",
+        "report": "Tomorrow's workout recovery will be fine. No symptoms, no tendon issues, slight nagging on the right elbow, tennis elbow.",
+        "decision_id": 468,
+        "scope": "Current symptoms quiet except slight right-elbow nag. Tennis elbow is the athlete description, not a diagnosis. Future general recovery is expected, not observed."
+      }
     },
     {
       "id": "left-achilles",
-      "status": "latest-calf-exposure-symptom-free",
+      "status": "current-symptoms-quiet-shoe-associated-irritation-reported",
       "last_explicit_current_report": {
         "date": "2026-11-01",
         "report": "Achilles was fine.",
@@ -161,7 +168,7 @@
         "WE5",
         "L2"
       ],
-      "action": "November 1 leg-press calves 365×12/15 at RIR 3 were comfortable. November 2 W1 review confirms recovery good/no worsening joint or tendon symptoms. Hold 365 during the ramp; no new calf actual or later-run clearance inferred.",
+      "action": "Keep established calf work only if comfortable; reduce/omit aggravating work. Current quiet symptoms do not erase intermittent Vomero-associated irritation.",
       "source": "baseline.md",
       "general_readiness_report": {
         "reported_on": "2026-11-02",
@@ -205,6 +212,20 @@
           15
         ],
         "decision_id": 457
+      },
+      "current_symptom_report": {
+        "reported_on": "2026-11-04",
+        "recorded_at": "2026-11-04T02:19:21-05:00",
+        "report": "Tomorrow's workout recovery will be fine. No symptoms, no tendon issues, slight nagging on the right elbow, tennis elbow.",
+        "decision_id": 468,
+        "scope": "Current symptoms quiet except slight right-elbow nag. Tennis elbow is the athlete description, not a diagnosis. Future general recovery is expected, not observed."
+      },
+      "shoe_association": {
+        "recorded_on": "2026-11-04",
+        "decision_id": 468,
+        "athlete_report": "The vomero does stress out the left Achilles sometimes which the evos don’t. They also move around in my feet and the outsoles are going bald. Otherwise they still feel adequately comfy",
+        "scope": "Intermittent athlete-reported shoe association; exact episode dates/diagnosis unknown. Current symptoms quiet.",
+        "recommendation": "Retire Vomero Plus from running; recommendation given, retirement not confirmed."
       }
     },
     {
@@ -235,7 +256,7 @@
       "symptom_action": "Pushdowns only if comfortable. Reduce load or stop/omit if tendon irritation recurs; review before progressing aggravating work.",
       "followup_status": "First M4 pushdown exposure reported without tendon issues; next-morning response unreported. Persistent overhead exclusion remains active.",
       "note": "Earlier November 2 report attributes tendon stress to overhead extensions; precise location, timing and severity remain unreported. The later completed Monday session reports no tendon issues with pushdowns. Preserve the ongoing overhead replacement and await the next-morning response; no full tendon clearance is inferred.",
-      "reviewed_on": "2026-11-02",
+      "reviewed_on": "2026-11-04",
       "latest_response": {
         "reported_on": "2026-11-02",
         "reported_at": "2026-11-02T19:47:32-05:00",
@@ -261,6 +282,13 @@
         "source": "../history/lifting-log.md#2026-11-02--hybrid-v11-w2-monday-upper-a",
         "symptom_response": "No tendon issues reported for this session.",
         "next_morning_response": null
+      },
+      "current_symptom_report": {
+        "reported_on": "2026-11-04",
+        "recorded_at": "2026-11-04T02:19:21-05:00",
+        "report": "Tomorrow's workout recovery will be fine. No symptoms, no tendon issues, slight nagging on the right elbow, tennis elbow.",
+        "decision_id": 468,
+        "scope": "Current symptoms quiet except slight right-elbow nag. Tennis elbow is the athlete description, not a diagnosis. Future general recovery is expected, not observed."
       }
     },
     {
@@ -271,14 +299,14 @@
       "date_source": "Active client date context: 2026-11-02 America/New_York. Persistence timestamp is recorded separately; onset date is unreported.",
       "report": "Note down a slight nag on my right elbow tennis elbow type shit",
       "provenance": "athlete symptom report",
-      "decision_id": 464,
+      "decision_id": 468,
       "source": "../history/injury-log.md#2026-11-02--right-elbow-nag",
       "side": "right",
       "site": "elbow",
       "specific_location": null,
-      "severity_description": "slight nag",
+      "severity_description": "slight nagging",
       "pain_score": null,
-      "athlete_description": "tennis-elbow-like",
+      "athlete_description": "tennis elbow",
       "diagnosis": null,
       "onset_date": null,
       "provoking_movements": null,
@@ -310,18 +338,17 @@
         "answered_at": "2026-11-03T17:25:04-05:00"
       },
       "scope": "Suspected association with incline curls, not confirmed causation or a tennis-elbow diagnosis. Do not merge into the earlier overhead-extension complaint or infer pushdowns caused it. Historical actuals remain intact; no formal forearm eligibility review completed.",
-      "reviewed_on": "2026-11-02",
+      "reviewed_on": "2026-11-04",
       "latest_report": {
-        "reported_on": "2026-11-02",
-        "recorded_at": "2026-11-03T17:25:04-05:00",
-        "date_source": "Active client date context; persistence timestamp is separate.",
-        "report": "I think it happened during the incline bicep curls and it’s just lingering since",
-        "decision_id": 463,
-        "scope": "Athlete suspects onset during incline biceps curls and reports lingering symptoms. Exact location/session/date, confirmed cause and diagnosis remain unknown."
+        "reported_on": "2026-11-04",
+        "recorded_at": "2026-11-04T02:19:21-05:00",
+        "report": "Tomorrow's workout recovery will be fine. No symptoms, no tendon issues, slight nagging on the right elbow, tennis elbow.",
+        "decision_id": 468,
+        "scope": "Current symptoms quiet except slight right-elbow nag. Tennis elbow is the athlete description, not a diagnosis. Future general recovery is expected, not observed."
       },
       "suspected_trigger": "Incline DB curl — athlete says “I think”",
       "onset_context": "Possibly began during incline biceps curls; exact session/date unreported.",
-      "symptom_course": "Lingering since the suspected provoking exercise.",
+      "symptom_course": "Slight nag persists; biceps maintenance hold remains active.",
       "omitted_slots": [
         "S5"
       ],
@@ -408,6 +435,13 @@
         "status": "active",
         "release_gate": "Reported symptom resolution plus documented review.",
         "symptom_action": "Targets are ceilings for comfortable maintenance, not mandatory reps through worsening pain. Minimum 3 RIR; reduce/modify/omit if aggravating."
+      },
+      "current_symptom_report": {
+        "reported_on": "2026-11-04",
+        "recorded_at": "2026-11-04T02:19:21-05:00",
+        "report": "Tomorrow's workout recovery will be fine. No symptoms, no tendon issues, slight nagging on the right elbow, tennis elbow.",
+        "decision_id": 468,
+        "scope": "Current symptoms quiet except slight right-elbow nag. Tennis elbow is the athlete description, not a diagnosis. Future general recovery is expected, not observed."
       }
     }
   ],
@@ -450,13 +484,13 @@
     "date": "2026-11-03",
     "session_id": "hybrid-2026-10-26-w2-tue-2026-11-03",
     "completion": "reported",
-    "lower_ab_response": null,
-    "achilles_response": null,
+    "lower_ab_response": "No current symptoms reported November 4; during/after-run response not separately supplied.",
+    "achilles_response": "No current symptoms reported November 4; intermittent Vomero-associated irritation retained separately.",
     "next_day_recovery": null,
     "status": "next-day-recovery-and-local-response-pending",
     "decision_id": 465,
     "report": "Genuine cheese of a workout RPE 5,6,7",
-    "note": "Athlete says recovery will be okay and the session felt easy. This is a forecast; raw rep RPE remains 5/6/7, next-day recovery and site-specific response remain unreported. Review the actual response at the next relevant interaction; preserve biceps/ab restrictions.",
+    "note": "Otherwise quiet current symptoms with slight right-elbow nag. General recovery for the next workout is expected, not confirmed; run classification remains pending.",
     "same_evening_followup": {
       "reported_on": "2026-11-03",
       "reported_at": "2026-11-03T21:28:33-05:00",
@@ -466,6 +500,13 @@
       "status": "expected-good-not-yet-observed",
       "decision_id": 466,
       "scope": "Same-evening expectation of good recovery and low perceived session difficulty. Not a next-day observation, numeric RPE correction or injury clearance."
+    },
+    "current_symptom_followup": {
+      "reported_on": "2026-11-04",
+      "recorded_at": "2026-11-04T02:19:21-05:00",
+      "report": "Tomorrow's workout recovery will be fine. No symptoms, no tendon issues, slight nagging on the right elbow, tennis elbow.",
+      "decision_id": 468,
+      "scope": "Current symptoms quiet except slight right-elbow nag. Tennis elbow is the athlete description, not a diagnosis. Future general recovery is expected, not observed."
     }
   },
   "prior_pending_post_sessions": [
@@ -513,14 +554,13 @@
     }
   ],
   "readiness_forecast": {
-    "reported_on": "2026-11-03",
-    "reported_at": "2026-11-03T21:28:33-05:00",
+    "reported_on": "2026-11-04",
+    "reported_at": "2026-11-04T02:19:21-05:00",
     "for_date": "2026-11-04",
-    "after_session_id": "hybrid-2026-10-26-w2-tue-2026-11-03",
-    "report": "Recovery will be okay. I barely pushed myself today",
+    "report": "Tomorrow's workout recovery will be fine. No symptoms, no tendon issues, slight nagging on the right elbow, tennis elbow.",
     "status": "expected-good-not-yet-observed",
-    "decision_id": 466,
-    "scope": "Same-evening expectation of good recovery and low perceived session difficulty. Not a next-day observation, numeric RPE correction or injury clearance."
+    "decision_id": 468,
+    "scope": "Forecast for requested workout; not confirmed post-run general recovery, a manageable-week review or injury clearance."
   },
   "readiness_forecast_history": [
     {
@@ -531,6 +571,23 @@
       "status": "expected-good-not-yet-observed",
       "decision_id": 461,
       "scope": "Athlete expects good Tuesday recovery and requests advance generation. This is a forecast, not Monday next-day recovery, a run result or ab-loading clearance."
+    },
+    {
+      "reported_on": "2026-11-03",
+      "reported_at": "2026-11-03T21:28:33-05:00",
+      "for_date": "2026-11-04",
+      "after_session_id": "hybrid-2026-10-26-w2-tue-2026-11-03",
+      "report": "Recovery will be okay. I barely pushed myself today",
+      "status": "expected-good-not-yet-observed",
+      "decision_id": 466,
+      "scope": "Same-evening expectation of good recovery and low perceived session difficulty. Not a next-day observation, numeric RPE correction or injury clearance."
     }
-  ]
+  ],
+  "current_symptom_report": {
+    "reported_on": "2026-11-04",
+    "recorded_at": "2026-11-04T02:19:21-05:00",
+    "report": "Tomorrow's workout recovery will be fine. No symptoms, no tendon issues, slight nagging on the right elbow, tennis elbow.",
+    "decision_id": 468,
+    "scope": "Current symptoms quiet except slight right-elbow nag. Tennis elbow is the athlete description, not a diagnosis. Future general recovery is expected, not observed."
+  }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-04",
   "active_shoes": [
     "Vomero Plus",
     "Evo SL"
@@ -50,7 +50,21 @@
         }
       ],
       "unresolved": "Reported 21:30 5K event date/shoe and any extra warmup/cooldown are unconfirmed; do not add until shown to be outside the baseline and attributed to this pair. Unlogged mileage excluded.",
-      "note": "Approximate tracked total, not an exact odometer. Add confirmed sessions once by ID; never add prescribed mileage."
+      "note": "Approximate tracked total, not an exact odometer. Add confirmed sessions once by ID; never add prescribed mileage.",
+      "condition_review": {
+        "recorded_on": "2026-11-04",
+        "decision_id": 468,
+        "athlete_reported_approximate_miles": 360,
+        "reported_issues": [
+          "Intermittent left-Achilles irritation in this pair, absent with Evo SLs",
+          "Feet moving within shoe",
+          "Outsoles going bald"
+        ],
+        "remaining_comfort": "Adequately comfortable otherwise.",
+        "recommendation": "Retire from running",
+        "retirement_confirmed": false,
+        "mileage_note": "Approximate 360 report retained separately; ledger 351.55/range and all additions unchanged."
+      }
     },
     "Evo SL": {
       "first_use_on": "2026-11-03",

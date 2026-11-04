@@ -446,3 +446,23 @@ Generalize assessment carry to one unused **5–15-second** measured-pace step o
 Reassessment: **Tuesday 410 − max(388,397,391) = 13 → 10-second step → 400 (6:40)** at unchanged 3×4/two 3-minute recoveries. Actual next-day recovery is pending, so normal pace 410, hit 1/misses 0, raw RPE 5/6/7 and last-successful normal stay unchanged. The next action is now an authorized-rule candidate pending recovery/eligibility, not pending a rule approval. **Friday 445 − 447 = −2**, final RPE 7 and one hit → hold 3×6 at 7:25. Do not infer Friday improvement from Tuesday.
 
 Update rules, workflow/index pointers, running reviews and both dashboard caches together. Keep the current completed November 3 workout and its original Watch file; no future prescription is generated. Preserve all lifting/injury records, shoe mileage and current-week mileage arithmetic. Conditional future candidates must pass a fresh complete-week check when prescribed.
+
+## 2026-11-04 — Wednesday delts and arms A plus bike
+
+468. Athlete requests the next workout with expected good recovery and otherwise quiet current symptoms except a slight right-elbow nag. After date clarification, athlete explicitly selects **Wednesday, November 4 — delts/arms + bike**. Generate this current-date session, not a Thursday preview. Expected recovery remains a forecast; no completed manageable Stage B week or blanket tendon clearance is inferred.
+
+Achieved **Stage B** remains. Baseline 12 sets minus one preacher and one hammer set under the biceps hold = **10 counted sets**. Target 3 RIR throughout (within Stage B 2–3; curls minimum 3). Prescription ID: hybrid-2026-10-26-wed-delts-arms-a-468.
+
+| Slot | Exercise | Sets × reps | Load | RIR | Rest |
+|---|---|---|---|---|---|
+| WE1 | DB lateral raise | 3×12–20 | 35 lb | 3 | 2 min |
+| WE2 | Unilateral machine preacher curl | 1×8 per arm | 75 lb | ≥3 | 2 min |
+| WE3 | Reverse pec deck | 2×12–20 | 145 lb | 3 | 2 min |
+| WE4 | Rope cable hammer curl | 1×11 | 50 lb | ≥3 | 2 min |
+| WE5 | Leg-press calf raise | 3×10–15 | 365 lb | 3 | 2 min |
+
+**Bike after lifting: 20 minutes at RPE 3, with 2–4 acceptable and comfortable full-sentence conversation.** No HR/power target. October 28 same-slot actuals support the loads: laterals 35×15/12; preacher 75×8 per arm; reverse pec deck 145×12; rope hammer 50×11; calves 365×11/11, all RIR 3. Added non-biceps sets follow already-earned Stage B; no ordinary loading progression credit. The biceps hold retains exact weights, reps and set counts until resolution/review. One unilateral set per arm counts as one. Maintain only if tolerable; reduce/modify/omit aggravating gripping/curling and calf work if Achilles irritation returns.
+
+Wednesday bike's prescribed 20-minute dose is validated by subsequent W1 lifting/running and the manageable-week review. Actual 20:05 and 130 W do not create a longer dose or power target. Thursday and Friday remain upcoming; no extra abs, cardio or catch-up work.
+
+Record current symptoms separately from forecast general recovery. Tuesday's classification and 6:40 candidate remain pending; no new hit, source consumption, pace activation or next-day general recovery claim. Preserve prior Vomero-associated Achilles irritation and retirement recommendation without inventing confirmed retirement or mileage. Update current calendar date to November 4, decision/injury records and both caches; leave achieved stage, completed sessions, all performed lifts/runs and original run files intact. Bodyweight ab limits and overhead exclusion persist.

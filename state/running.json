@@ -139,6 +139,13 @@
         "status": "expected-good-not-yet-observed",
         "decision_id": 466,
         "scope": "Same-evening expectation of good recovery and low perceived session difficulty. Not a next-day observation, numeric RPE correction or injury clearance."
+      },
+      "current_symptom_followup": {
+        "reported_on": "2026-11-04",
+        "recorded_at": "2026-11-04T02:19:21-05:00",
+        "report": "Tomorrow's workout recovery will be fine. No symptoms, no tendon issues, slight nagging on the right elbow, tennis elbow.",
+        "decision_id": 468,
+        "scope": "Current symptoms quiet except slight right-elbow nag. Tennis elbow is the athlete description, not a diagnosis. Future general recovery is expected, not observed."
       }
     },
     "classification": "pending",

@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-03T21:36:15-05:00",
+  "generatedAt": "2026-11-04T02:19:21-05:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W2",
   "phase": "Hybrid v11 — Stage B",
   "rangeStart": "2026-11-02",
   "rangeEnd": "2026-11-08",
-  "summary": "W2, November 2–8 — Monday’s 16 lifting sets and Tuesday’s intervals logged. Pace-first running is adopted: clear all-rep headroom can raise the next target 5–15 sec/mi; near the limit, use 5-sec steps after two hits. Tuesday’s next candidate is 3×4 at 6:40 after recovery; Friday remains 3×6 at 7:25. Biceps maintenance and up to 65 lifting sets (16/10/17/9/13) remain; bikes 20 min.",
+  "summary": "W2, November 2–8 — Wednesday November 4 delts/arms A + bike prepared: 10 lifting sets after the biceps hold, then 20-minute bike. Monday and Tuesday logged; Wednesday is not yet completed. Slight right-elbow nag persists. Up to 65 weekly lifting sets; Tuesday run recovery remains pending.",
   "days": [
     {
       "date": "2026-11-02",
@@ -26,8 +26,8 @@
       "date": "2026-11-04",
       "day": "Wed",
       "session": "Delts/arms A + bike",
-      "note": "10 sets with the biceps hold: preacher 75×8 for 1 set per arm; rope hammer 50×11 for 1 set, both ≥3 RIR. Other Stage-B slots unchanged. Then bike 20 min at RPE 3 (2–4 acceptable). Reduce/modify/omit aggravating work.",
-      "status": "upcoming"
+      "note": "Prepared 10 sets: laterals 35 lb 3×12–20; preacher 75 lb 1×8 per arm; reverse pec deck 145 lb 2×12–20; rope hammer 50 lb 1×11; calves 365 lb 3×10–15. Target 3 RIR; curls minimum 3. Then 20-min bike at RPE 3. Expected recovery; reduce/omit aggravating work.",
+      "status": "today"
     },
     {
       "date": "2026-11-05",

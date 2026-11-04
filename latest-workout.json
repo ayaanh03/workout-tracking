@@ -1,119 +1,111 @@
 {
-  "generatedAt": "2026-11-03T21:36:15-05:00",
+  "generatedAt": "2026-11-04T02:19:21-05:00",
   "blockId": "hybrid-2026-10-26",
-  "prescriptionId": "hybrid-2026-10-26-tue-intervals-461",
+  "prescriptionId": "hybrid-2026-10-26-wed-delts-arms-a-468",
   "preview": false,
   "week": "W2",
-  "day": "Tue",
-  "date": "2026-11-03",
+  "day": "Wed",
+  "date": "2026-11-04",
   "phase": "Hybrid v11 — Stage B",
-  "sessionName": "Intervals",
+  "sessionName": "Delts/arms A + bike",
   "why": [
-    "Tuesday November 3: W2 shorter intervals completed. All three work paces pass the prescribed pace check; final RPE 7 is below the cap of 8."
+    "Wednesday November 4 is delts/arms A followed by the bike. The athlete explicitly selected this next session after the date clarification.",
+    "Use achieved Stage B with biceps maintenance: 3+1+2+1+3 = 10 counted sets. No stage or weight increase is inferred from expected recovery."
   ],
   "intro": [
-    "Right elbow: slight lingering nag, possibly after incline curls. Biceps work holds the latest weights/reps/set counts while symptoms settle; no progression or new reverse curls. Reduce or stop work that worsens symptoms."
+    "Expected good recovery; otherwise no current symptoms except a slight right-elbow nag. Keep the biceps hold. Reduce/modify/omit any movement that worsens the elbow, including gripping.",
+    "Target 3 RIR; curls stay at least 3 RIR. Calves only if the Achilles remains comfortable; prior shoe-associated irritation remains relevant."
   ],
-  "lift": null,
+  "lift": {
+    "table": [
+      {
+        "slotId": "WE1",
+        "exercise": "DB lateral raise",
+        "setsReps": "3×12–20",
+        "load": "35 lb",
+        "rir": "3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "WE2",
+        "exercise": "Unilateral machine preacher curl",
+        "setsReps": "1×8 per arm",
+        "load": "75 lb",
+        "rir": "3",
+        "rest": "2 min",
+        "repTargets": [
+          8
+        ]
+      },
+      {
+        "slotId": "WE3",
+        "exercise": "Reverse pec deck",
+        "setsReps": "2×12–20",
+        "load": "145 lb",
+        "rir": "3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "WE4",
+        "exercise": "Rope cable hammer curl",
+        "setsReps": "1×11",
+        "load": "50 lb",
+        "rir": "3",
+        "rest": "2 min",
+        "repTargets": [
+          11
+        ]
+      },
+      {
+        "slotId": "WE5",
+        "exercise": "Leg-press calf raise",
+        "setsReps": "3×10–15",
+        "load": "365 lb",
+        "rir": "3",
+        "rest": "2 min"
+      }
+    ]
+  },
   "cardio": {
-    "workout": "3×4 minutes at 6:50/mi. 3 minutes easy jog/walk between reps only: two recoveries. Final-rep RPE ≤8/10; slow if needed to stay within the cap. 38 minutes total with the listed warmup/cooldown; up to 43 minutes if the optional extra warmup is needed.",
-    "warmup": "10 minutes easy running; up to 5 additional minutes if needed.",
-    "cooldown": "10 minutes easy jog/walk.",
-    "flags": [
-      "Keep route/setup and recovery mode comparable; no extra rest beyond the prescribed recoveries.",
-      "Watch alerts guide pacing at 6:45–6:55/mi. Faster reps still count when full work, recovery intervals, effort and next-day recovery qualify.",
-      "If actual recovery is poor or Achilles/ab symptoms recur, reduce or stop the aggravating work."
-    ],
+    "workout": "20 minutes on the bike after lifting. Target RPE 3/10; 2–4 acceptable, with comfortable full-sentence conversation.",
+    "warmup": null,
+    "cooldown": null,
+    "flags": [],
     "targets": {
-      "pace": "6:50/mi for work reps; easy sections conversational",
-      "rpe": "Final rep ≤8/10"
+      "rpe": "3/10; 2–4 acceptable"
     },
-    "workoutFile": "runs/2026-11-03.workout",
-    "actual": {
-      "label": "W2 Tue · November 3",
-      "summary": "3×4 min at 6:28 / 6:37 / 6:31 per mile; RPE 5 / 6 / 7. Confirmed 4.25 mi, first run in Evo SLs. Displayed recoveries: 3 min each; breaks probably during warmup. Segment times total 38:10. Pace/effort pass; next-day recovery pending.",
-      "table": [
-        {
-          "segment": "Warmup",
-          "time": "10:00",
-          "distance": "0.99 mi",
-          "pace": "10:06/mi"
-        },
-        {
-          "segment": "Work 1",
-          "time": "4:00",
-          "distance": "0.61 mi",
-          "pace": "6:28/mi"
-        },
-        {
-          "segment": "Recovery 1",
-          "time": "3:00",
-          "distance": "0.28 mi",
-          "pace": "10:39/mi"
-        },
-        {
-          "segment": "Work 2",
-          "time": "4:00",
-          "distance": "0.60 mi",
-          "pace": "6:37/mi"
-        },
-        {
-          "segment": "Recovery 2",
-          "time": "3:00",
-          "distance": "0.26 mi",
-          "pace": "11:21/mi"
-        },
-        {
-          "segment": "Work 3",
-          "time": "4:00",
-          "distance": "0.61 mi",
-          "pace": "6:31/mi"
-        },
-        {
-          "segment": "Cooldown",
-          "time": "10:00",
-          "distance": "0.87 mi",
-          "pace": "11:25/mi"
-        },
-        {
-          "segment": "Open",
-          "time": "0:10",
-          "distance": "61 ft",
-          "pace": "14:00/mi"
-        }
-      ]
-    }
+    "workoutFile": null
   },
   "adaptation": [
     {
-      "exercise": "Tuesday performance",
-      "previous": "October 27: 3×4 at prescribed 6:50/mi, final RPE 8; ordinary hit 1 after the accepted tracking exception.",
-      "decision": "November 3 pace and effort pass: 6:28/6:37/6:31, RPE 5/6/7. Ordinary hit 2 candidate.",
-      "reason": "Every rep is faster than the 6:55 slow-side cutoff. Faster reps retain credit. Displayed recoveries are 3 minutes each; breaks were probably in warmup per athlete. Next-day recovery is the remaining classification check."
+      "exercise": "Stage B dose and established loads",
+      "previous": "October 28 same-slot actuals: laterals 35×15/12, reverse pec deck 145×12, calves 365×11/11; all RIR 3.",
+      "decision": "Hold loads; use 3 lateral sets, 2 reverse-pec-deck sets and 3 calf sets at 3 RIR.",
+      "reason": "These set additions follow already-earned Stage B. No ordinary ramp loading progression or new stage is awarded; all 33 slots remain independent."
     },
     {
-      "exercise": "Next Tuesday progression",
-      "previous": "November 3 target 6:50; actuals 6:28/6:37/6:31 at RPE 5/6/7. Slowest rep is 13 sec/mi faster than target.",
-      "decision": "New rule selects 3×4 at 6:40/mi for November 10, with two 3-minute recoveries and RPE cap 8, pending normal recovery.",
-      "reason": "All-rep headroom of 13 sec/mi rounds down to a 10-second step. Pace takes priority while work stays at 12 minutes. The rule is adopted; actual recovery, relevant symptoms/tolerance and the full future week’s mileage still need checking. An unrelated biceps hold does not freeze running."
+      "exercise": "Biceps — right-elbow maintenance",
+      "previous": "October 28: preacher 75×8 per arm and rope hammer 50×11, each one set at RIR 3. Slight right-elbow nag persists.",
+      "decision": "Maintain preacher 75 lb for 1×8 per arm and hammer 50 lb for 1×11, both at least 3 RIR.",
+      "reason": "Apply the athlete-requested hold on load, reps and sets. These are ceilings if tolerable; reduce/modify/omit aggravating work. Each unilateral set per arm counts as one set in the total."
     },
     {
-      "exercise": "Running progression — updated",
-      "previous": "Calendar speed locks and minutes-first progression could lag behind demonstrated running capacity.",
-      "decision": "One recovered hit can raise pace 5–15 sec/mi from the slowest rep; a comfortable hit earns 5. Near the current limit, two comparable hits earn 5.",
-      "reason": "No week-based wait and no pace-plus-minutes increase. Effort caps remain Tuesday 8/Friday 7. Friday stays 3×6 at 7:25: its slowest rep was 7:27, final RPE 7 and only one ordinary hit."
+      "exercise": "Calves and current Achilles response",
+      "previous": "October 28 WE5: 365×11/11 at RIR 3. Current symptoms quiet, but the athlete reported intermittent left-Achilles irritation in worn Vomeros.",
+      "decision": "Keep 365 lb for 3×10–15 at 3 RIR only if comfortable.",
+      "reason": "No calf-specific flare or decline is currently reported. Preserve the prior shoe-associated symptoms; stop or reduce calf work if they recur. Do not borrow Sunday reps as Wednesday progression credit."
     },
     {
-      "exercise": "Full-week running mileage",
-      "previous": "Tuesday: confirmed 4.25 mi in new Evo SLs. Friday remains 3×6 at 7:25/mi.",
-      "decision": "With Friday as planned: approximately 9.50 miles; planning upper about 10.12, below the 15-mile limit.",
-      "reason": "Includes Friday warmup/work/recoveries/cooldown and optional warmup in the upper estimate. New Evo SL tally: 4.25 mi. Vomero Plus stays approximately 351.55 mi; no mileage transfer."
+      "exercise": "Bike",
+      "previous": "October 28: 20:05 at average 130 W and displayed effort 4. Its 20-minute prescribed dose was validated by later lifting/run response and W1 review.",
+      "decision": "20 minutes after lifting at RPE 3, with 2–4 acceptable.",
+      "reason": "W2 dose stays 20 minutes. No HR or power target, no sauna substitution and no added duration."
     },
     {
-      "exercise": "Right elbow — biceps maintenance",
-      "previous": "Athlete suspects incline curls in a lingering right-elbow nag and now requests maintaining all biceps weights/reps until symptoms resolve.",
-      "decision": "Hold M2/WE2/WE4/T2/S2 at their last performed doses; no added sets. Defer new reverse curls.",
-      "reason": "Preserve separate baselines: Monday incline 22.5×12/8; preacher 75×8; hammer 50×11; cable curl 42.5×12; Saturday incline 25×9. Maintain at least 3 RIR only without worsening symptoms. Release after reported resolution/review."
+      "exercise": "Readiness and next run pace",
+      "previous": "November 3 run: 6:28/6:37/6:31, RPE 5/6/7. General recovery reports remain forecasts; current symptoms quiet except elbow.",
+      "decision": "Generate the requested Wednesday session; keep Tuesday’s 6:40 pace candidate pending actual general recovery.",
+      "reason": "Current symptoms do not establish overall next-day recovery or full-week manageability. No new run hit, pace activation, stage advance or completed work is inferred."
     }
   ],
   "currentLoads": [
@@ -255,7 +247,7 @@
       "exercise": "T7 — Decline crunch (temporary)",
       "load": "BW",
       "lastVerified": "BW prescription only; skipped October 29",
-      "note": "Planned decline crunches skipped October 29 for a BW circuit: 2-minute plank and leg raises, no added weight and no ab symptoms. Remaining dose/effort n/r; no cable/decline-crunch actual or credit. Current BW-only prescription retained. November 2: no current discomfort; BW only if comfortable, max two sets at ≥3 RIR. Added load remains deferred."
+      "note": "Thursday decline crunches skipped October 29 for a BW circuit; no same-slot decline-crunch actual. Current symptoms quiet November 4; retain BW only, up to two sets at ≥3 RIR, pending fresh loading review."
     },
     {
       "slotId": "T8",
@@ -348,6 +340,5 @@
       "lastVerified": "2026-11-01",
       "note": "November 1 actual 25×12 at RIR 3; hold during Stage B."
     }
-  ],
-  "status": "done"
+  ]
 }
