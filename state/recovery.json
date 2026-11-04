@@ -293,18 +293,18 @@
     },
     {
       "id": "right-elbow-nag",
-      "status": "active-symptoms-biceps-maintenance-hold",
+      "status": "currently-symptom-free-dose-review-pending",
       "reported_on": "2026-11-02",
       "recorded_at": "2026-11-03T17:23:48-05:00",
       "date_source": "Active client date context: 2026-11-02 America/New_York. Persistence timestamp is recorded separately; onset date is unreported.",
       "report": "Note down a slight nag on my right elbow tennis elbow type shit",
       "provenance": "athlete symptom report",
-      "decision_id": 468,
+      "decision_id": 469,
       "source": "../history/injury-log.md#2026-11-02--right-elbow-nag",
       "side": "right",
       "site": "elbow",
       "specific_location": null,
-      "severity_description": "slight nagging",
+      "severity_description": "No current symptoms reported",
       "pain_score": null,
       "athlete_description": "tennis elbow",
       "diagnosis": null,
@@ -327,8 +327,8 @@
         "S5",
         "S6"
       ],
-      "action": "Maintain each direct biceps slot at its last performed load, reps and set count if symptoms do not worsen. No added load, reps, sets or near-failure work until resolution/review. Defer unintroduced reverse curls. S6 wrist curls keep their separate elbow-response review. Reduce/modify/omit any aggravating work.",
-      "persistence": "The maintenance hold stays active until the athlete reports symptom resolution and the dose is reviewed. It is not lifted by a calendar or stage advance. The request is not symptom clearance.",
+      "action": "Keep the already-issued Wednesday curl dose for the first symptom-free working exposure. Review restoration after the reported during/after response; no fixed waiting period or automatic extra sets. Reduce/modify/omit if symptoms return.",
+      "persistence": "Symptom resolution is now reported. The current-dose hold remains only pending the loading/restoration review; calendar changes do not restore it automatically. Review after today’s working exposure rather than imposing an indefinite symptom hold.",
       "followup": {
         "status": "suspected-trigger-answered-location-and-current-provocation-unreported",
         "requested_on": "2026-11-02",
@@ -341,14 +341,15 @@
       "reviewed_on": "2026-11-04",
       "latest_report": {
         "reported_on": "2026-11-04",
-        "recorded_at": "2026-11-04T02:19:21-05:00",
-        "report": "Tomorrow's workout recovery will be fine. No symptoms, no tendon issues, slight nagging on the right elbow, tennis elbow.",
-        "decision_id": 468,
-        "scope": "Current symptoms quiet except slight right-elbow nag. Tennis elbow is the athlete description, not a diagnosis. Future general recovery is expected, not observed."
+        "recorded_at": "2026-11-04T15:33:53-05:00",
+        "report": "The right side elbow has gone symtom free again",
+        "decision_id": 469,
+        "status": "currently-symptom-free",
+        "scope": "Current right-elbow symptom resolution reported. Whether this includes gripping/light curls or working-load exposure is not yet supplied; not general run recovery, a diagnosis or completed workout."
       },
       "suspected_trigger": "Incline DB curl — athlete says “I think”",
       "onset_context": "Possibly began during incline biceps curls; exact session/date unreported.",
-      "symptom_course": "Slight nag persists; biceps maintenance hold remains active.",
+      "symptom_course": "Earlier November 4 slight nag; later November 4 athlete reports symptom-free again. Working-load tolerance not yet established.",
       "omitted_slots": [
         "S5"
       ],
@@ -432,16 +433,45 @@
         "report": "Honestly i think we can just maintain weight and reps until the symptoms resolve for all bicep work.",
         "decision_id": 464,
         "scope": "All direct biceps curl slots M2/WE2/WE4/T2/S2. Hold latest performed sets too so volume does not silently increase. Defer new S5 reverse curls. No automatic cut to unrelated pulling/pressing or completed-work changes.",
-        "status": "active",
+        "status": "symptom-resolution-reported-restoration-review-pending",
         "release_gate": "Reported symptom resolution plus documented review.",
-        "symptom_action": "Targets are ceilings for comfortable maintenance, not mandatory reps through worsening pain. Minimum 3 RIR; reduce/modify/omit if aggravating."
+        "symptom_action": "Targets are ceilings for comfortable maintenance, not mandatory reps through worsening pain. Minimum 3 RIR; reduce/modify/omit if aggravating.",
+        "reviewed_on": "2026-11-04",
+        "review_decision_id": 469
       },
       "current_symptom_report": {
         "reported_on": "2026-11-04",
-        "recorded_at": "2026-11-04T02:19:21-05:00",
-        "report": "Tomorrow's workout recovery will be fine. No symptoms, no tendon issues, slight nagging on the right elbow, tennis elbow.",
-        "decision_id": 468,
-        "scope": "Current symptoms quiet except slight right-elbow nag. Tennis elbow is the athlete description, not a diagnosis. Future general recovery is expected, not observed."
+        "recorded_at": "2026-11-04T15:33:53-05:00",
+        "report": "The right side elbow has gone symtom free again",
+        "decision_id": 469,
+        "status": "currently-symptom-free",
+        "scope": "Current right-elbow symptom resolution reported. Whether this includes gripping/light curls or working-load exposure is not yet supplied; not general run recovery, a diagnosis or completed workout."
+      },
+      "symptom_report_history": [
+        {
+          "reported_on": "2026-11-04",
+          "recorded_at": "2026-11-04T02:19:21-05:00",
+          "report": "Tomorrow's workout recovery will be fine. No symptoms, no tendon issues, slight nagging on the right elbow, tennis elbow.",
+          "decision_id": 468,
+          "scope": "Current symptoms quiet except slight right-elbow nag. Tennis elbow is the athlete description, not a diagnosis. Future general recovery is expected, not observed."
+        }
+      ],
+      "resolution_followup": {
+        "requested_on": "2026-11-04",
+        "requested_at": "2026-11-04T15:33:53-05:00",
+        "question": "Is the elbow also symptom-free when gripping and doing a light curl, or have you only checked it at rest?",
+        "status": "awaiting-activity-context",
+        "answer": null
+      },
+      "restoration_review": {
+        "decision_id": 469,
+        "status": "pending-working-response",
+        "current_symptom_resolution_reported": true,
+        "working_load_tolerance": null,
+        "today_decision": "Keep prescription #468: preacher75×8 per arm and hammer50×11, one set each at≥3RIR; total10lifting sets.",
+        "checkpoint": "Review adding back Stage-B curl sets after today’s during/after working-load response is reported; light-curl/grip context can clarify readiness meanwhile.",
+        "rationale": "Symptoms fluctuated within the same day. Holding today’s dose avoids doubling direct-curl sets from two to four immediately; this is a coaching choice, not a mandated time-based wait.",
+        "new_fixed_wait_period": false
       }
     }
   ],
@@ -490,7 +520,7 @@
     "status": "next-day-recovery-and-local-response-pending",
     "decision_id": 465,
     "report": "Genuine cheese of a workout RPE 5,6,7",
-    "note": "Otherwise quiet current symptoms with slight right-elbow nag. General recovery for the next workout is expected, not confirmed; run classification remains pending.",
+    "note": "Latest right-elbow report is symptom-free again; prior current-symptom report retained as dated history. This does not confirm general next-day run recovery or a completed lifting session. Review biceps restoration after working-load response.",
     "same_evening_followup": {
       "reported_on": "2026-11-03",
       "reported_at": "2026-11-03T21:28:33-05:00",
@@ -507,6 +537,14 @@
       "report": "Tomorrow's workout recovery will be fine. No symptoms, no tendon issues, slight nagging on the right elbow, tennis elbow.",
       "decision_id": 468,
       "scope": "Current symptoms quiet except slight right-elbow nag. Tennis elbow is the athlete description, not a diagnosis. Future general recovery is expected, not observed."
+    },
+    "elbow_symptom_followup": {
+      "reported_on": "2026-11-04",
+      "recorded_at": "2026-11-04T15:33:53-05:00",
+      "report": "The right side elbow has gone symtom free again",
+      "decision_id": 469,
+      "status": "currently-symptom-free",
+      "scope": "Current right-elbow symptom resolution reported. Whether this includes gripping/light curls or working-load exposure is not yet supplied; not general run recovery, a diagnosis or completed workout."
     }
   },
   "prior_pending_post_sessions": [
@@ -585,9 +623,19 @@
   ],
   "current_symptom_report": {
     "reported_on": "2026-11-04",
-    "recorded_at": "2026-11-04T02:19:21-05:00",
-    "report": "Tomorrow's workout recovery will be fine. No symptoms, no tendon issues, slight nagging on the right elbow, tennis elbow.",
-    "decision_id": 468,
-    "scope": "Current symptoms quiet except slight right-elbow nag. Tennis elbow is the athlete description, not a diagnosis. Future general recovery is expected, not observed."
-  }
+    "recorded_at": "2026-11-04T15:33:53-05:00",
+    "report": "The right side elbow has gone symtom free again",
+    "decision_id": 469,
+    "status": "currently-symptom-free",
+    "scope": "Current right-elbow symptom resolution reported. Whether this includes gripping/light curls or working-load exposure is not yet supplied; not general run recovery, a diagnosis or completed workout."
+  },
+  "current_symptom_report_history": [
+    {
+      "reported_on": "2026-11-04",
+      "recorded_at": "2026-11-04T02:19:21-05:00",
+      "report": "Tomorrow's workout recovery will be fine. No symptoms, no tendon issues, slight nagging on the right elbow, tennis elbow.",
+      "decision_id": 468,
+      "scope": "Current symptoms quiet except slight right-elbow nag. Tennis elbow is the athlete description, not a diagnosis. Future general recovery is expected, not observed."
+    }
+  ]
 }

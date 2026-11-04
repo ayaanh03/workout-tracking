@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T02:19:21-05:00",
+  "generatedAt": "2026-11-04T15:33:53-05:00",
   "blockId": "hybrid-2026-10-26",
   "prescriptionId": "hybrid-2026-10-26-wed-delts-arms-a-468",
   "preview": false,
@@ -13,7 +13,7 @@
     "Use achieved Stage B with biceps maintenance: 3+1+2+1+3 = 10 counted sets. No stage or weight increase is inferred from expected recovery."
   ],
   "intro": [
-    "Expected good recovery; otherwise no current symptoms except a slight right-elbow nag. Keep the biceps hold. Reduce/modify/omit any movement that worsens the elbow, including gripping.",
+    "Right elbow is now reported symptom-free. Keep today’s planned curl dose as the first symptom-free working exposure; review adding sets after the during/after response. Reduce or omit any movement if symptoms return.",
     "Target 3 RIR; curls stay at least 3 RIR. Calves only if the Achilles remains comfortable; prior shoe-associated irritation remains relevant."
   ],
   "lift": {
@@ -85,9 +85,9 @@
     },
     {
       "exercise": "Biceps — right-elbow maintenance",
-      "previous": "October 28: preacher 75×8 per arm and rope hammer 50×11, each one set at RIR 3. Slight right-elbow nag persists.",
+      "previous": "October 28: preacher 75×8 per arm and hammer 50×11, one set each at RIR 3. Earlier November 4 nag is now reported symptom-free again.",
       "decision": "Maintain preacher 75 lb for 1×8 per arm and hammer 50 lb for 1×11, both at least 3 RIR.",
-      "reason": "Apply the athlete-requested hold on load, reps and sets. These are ceilings if tolerable; reduce/modify/omit aggravating work. Each unilateral set per arm counts as one set in the total."
+      "reason": "Keep today’s already-issued dose while checking working tolerance. Adding both Stage-B curl sets now would double direct-curl work. Review restoration after the during/after response; no fixed waiting period. One unilateral set per arm counts as one."
     },
     {
       "exercise": "Calves and current Achilles response",
@@ -103,7 +103,7 @@
     },
     {
       "exercise": "Readiness and next run pace",
-      "previous": "November 3 run: 6:28/6:37/6:31, RPE 5/6/7. General recovery reports remain forecasts; current symptoms quiet except elbow.",
+      "previous": "November 3 run: 6:28/6:37/6:31, RPE 5/6/7. General recovery remains forecast; the right elbow is now reported symptom-free.",
       "decision": "Generate the requested Wednesday session; keep Tuesday’s 6:40 pace candidate pending actual general recovery.",
       "reason": "Current symptoms do not establish overall next-day recovery or full-week manageability. No new run hit, pace activation, stage advance or completed work is inferred."
     }
@@ -128,7 +128,7 @@
       "exercise": "M2 — Incline DB curl",
       "load": "22.5 lb",
       "lastVerified": "2026-11-02 (reported)",
-      "note": "Biceps hold: 22.5 lb ×12/8, 2 set(s), ≥3 RIR, 2 min rest. Same-slot actual from 2026-11-02; no load/rep/set increases until symptoms resolve and review. Reduce/modify/omit if aggravating."
+      "note": "Current held dose: 22.5 lb ×12/8, 2 set(s), ≥3 RIR, 2 min rest. Elbow now symptom-free; review restoring sets after Wednesday’s during/after response. Preserve independent same-slot actuals."
     },
     {
       "slotId": "M3",
@@ -177,7 +177,7 @@
       "exercise": "WE2 — Unilateral machine preacher curl",
       "load": "75 lb",
       "lastVerified": "2026-10-28 (reported)",
-      "note": "Biceps hold: 75 lb ×8, 1 set(s), ≥3 RIR, 2 min rest. Same-slot actual from 2026-10-28; no load/rep/set increases until symptoms resolve and review. Reduce/modify/omit if aggravating."
+      "note": "Current held dose: 75 lb ×8, 1 set(s), ≥3 RIR, 2 min rest. Elbow now symptom-free; review restoring sets after Wednesday’s during/after response. Preserve independent same-slot actuals."
     },
     {
       "slotId": "WE3",
@@ -191,7 +191,7 @@
       "exercise": "WE4 — Rope cable hammer curl",
       "load": "50 lb",
       "lastVerified": "2026-10-28 (reported)",
-      "note": "Biceps hold: 50 lb ×11, 1 set(s), ≥3 RIR, 2 min rest. Same-slot actual from 2026-10-28; no load/rep/set increases until symptoms resolve and review. Reduce/modify/omit if aggravating."
+      "note": "Current held dose: 50 lb ×11, 1 set(s), ≥3 RIR, 2 min rest. Elbow now symptom-free; review restoring sets after Wednesday’s during/after response. Preserve independent same-slot actuals."
     },
     {
       "slotId": "WE5",
@@ -212,7 +212,7 @@
       "exercise": "T2 — Cable curl",
       "load": "42.5 lb",
       "lastVerified": "2026-10-29 (reported)",
-      "note": "Biceps hold: 42.5 lb ×12, 1 set(s), ≥3 RIR, 2 min rest. Same-slot actual from 2026-10-29; no load/rep/set increases until symptoms resolve and review. Reduce/modify/omit if aggravating."
+      "note": "Current held dose: 42.5 lb ×12, 1 set(s), ≥3 RIR, 2 min rest. Elbow now symptom-free; review restoring sets after Wednesday’s during/after response. Preserve independent same-slot actuals."
     },
     {
       "slotId": "T3",
@@ -268,7 +268,7 @@
       "exercise": "S2 — Incline DB curl",
       "load": "25 lb",
       "lastVerified": "2026-10-31",
-      "note": "Biceps hold: 25 lb ×9, 1 set(s), ≥3 RIR, 2 min rest. Same-slot actual from 2026-10-31; no load/rep/set increases until symptoms resolve and review. Reduce/modify/omit if aggravating."
+      "note": "Current held dose: 25 lb ×9, 1 set(s), ≥3 RIR, 2 min rest. Elbow now symptom-free; review restoring sets after Wednesday’s during/after response. Preserve independent same-slot actuals."
     },
     {
       "slotId": "S3",

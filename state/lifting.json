@@ -126,8 +126,8 @@
       },
       "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 464,
-        "action": "maintain-biceps-dose-until-symptoms-resolve",
+        "decision_id": 469,
+        "action": "maintain-current-dose-pending-restoration-review",
         "load_lb": 22.5,
         "sets": 2,
         "reps_per_set": [
@@ -137,9 +137,10 @@
         "minimum_rir": 3,
         "rest_seconds": 120,
         "source": "../history/lifting-log.md#2026-11-02--hybrid-v11-w2-monday-upper-a",
-        "reason": "Athlete requests maintaining weight/reps for all biceps work until the right-elbow symptoms resolve. Cap sets at the latest performed dose too; no automatic ramp additions or progression.",
+        "reason": "Right elbow is now reported symptom-free. Keep the existing dose for today’s first symptom-free working exposure; review restoration after the reported during/after response. No fixed waiting period or automatic doubling of curl sets.",
         "symptom_action": "Maintain only if symptoms do not worsen during or after. Do not force reps through increasing pain or altered execution; reduce/modify/omit aggravating work.",
-        "release_gate": "Reported symptom resolution and a documented review; calendar/stage changes do not lift the hold."
+        "release_gate": "Reported symptom resolution and a documented review; calendar/stage changes do not lift the hold.",
+        "review_checkpoint": "Review following Wednesday’s during/after working-curl response; preserve each slot’s independent load, actuals and stage limits."
       }
     },
     "M3": {
@@ -467,8 +468,8 @@
       },
       "new_exposure_count": 1,
       "next_action": {
-        "decision_id": 464,
-        "action": "maintain-biceps-dose-until-symptoms-resolve",
+        "decision_id": 469,
+        "action": "maintain-current-dose-pending-restoration-review",
         "load_lb": 75,
         "sets": 1,
         "reps_per_set": [
@@ -477,9 +478,10 @@
         "minimum_rir": 3,
         "rest_seconds": 120,
         "source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
-        "reason": "Athlete requests maintaining weight/reps for all biceps work until the right-elbow symptoms resolve. Cap sets at the latest performed dose too; no automatic ramp additions or progression.",
+        "reason": "Right elbow is now reported symptom-free. Keep the existing dose for today’s first symptom-free working exposure; review restoration after the reported during/after response. No fixed waiting period or automatic doubling of curl sets.",
         "symptom_action": "Maintain only if symptoms do not worsen during or after. Do not force reps through increasing pain or altered execution; reduce/modify/omit aggravating work.",
-        "release_gate": "Reported symptom resolution and a documented review; calendar/stage changes do not lift the hold."
+        "release_gate": "Reported symptom resolution and a documented review; calendar/stage changes do not lift the hold.",
+        "review_checkpoint": "Review following Wednesday’s during/after working-curl response; preserve each slot’s independent load, actuals and stage limits."
       }
     },
     "WE3": {
@@ -553,8 +555,8 @@
       },
       "new_exposure_count": 1,
       "next_action": {
-        "decision_id": 464,
-        "action": "maintain-biceps-dose-until-symptoms-resolve",
+        "decision_id": 469,
+        "action": "maintain-current-dose-pending-restoration-review",
         "load_lb": 50,
         "sets": 1,
         "reps_per_set": [
@@ -563,9 +565,10 @@
         "minimum_rir": 3,
         "rest_seconds": 120,
         "source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
-        "reason": "Athlete requests maintaining weight/reps for all biceps work until the right-elbow symptoms resolve. Cap sets at the latest performed dose too; no automatic ramp additions or progression.",
+        "reason": "Right elbow is now reported symptom-free. Keep the existing dose for today’s first symptom-free working exposure; review restoration after the reported during/after response. No fixed waiting period or automatic doubling of curl sets.",
         "symptom_action": "Maintain only if symptoms do not worsen during or after. Do not force reps through increasing pain or altered execution; reduce/modify/omit aggravating work.",
-        "release_gate": "Reported symptom resolution and a documented review; calendar/stage changes do not lift the hold."
+        "release_gate": "Reported symptom resolution and a documented review; calendar/stage changes do not lift the hold.",
+        "review_checkpoint": "Review following Wednesday’s during/after working-curl response; preserve each slot’s independent load, actuals and stage limits."
       }
     },
     "WE5": {
@@ -668,8 +671,8 @@
       },
       "new_exposure_count": 1,
       "next_action": {
-        "decision_id": 464,
-        "action": "maintain-biceps-dose-until-symptoms-resolve",
+        "decision_id": 469,
+        "action": "maintain-current-dose-pending-restoration-review",
         "load_lb": 42.5,
         "sets": 1,
         "reps_per_set": [
@@ -678,9 +681,10 @@
         "minimum_rir": 3,
         "rest_seconds": 120,
         "source": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
-        "reason": "Athlete requests maintaining weight/reps for all biceps work until the right-elbow symptoms resolve. Cap sets at the latest performed dose too; no automatic ramp additions or progression.",
+        "reason": "Right elbow is now reported symptom-free. Keep the existing dose for today’s first symptom-free working exposure; review restoration after the reported during/after response. No fixed waiting period or automatic doubling of curl sets.",
         "symptom_action": "Maintain only if symptoms do not worsen during or after. Do not force reps through increasing pain or altered execution; reduce/modify/omit aggravating work.",
-        "release_gate": "Reported symptom resolution and a documented review; calendar/stage changes do not lift the hold."
+        "release_gate": "Reported symptom resolution and a documented review; calendar/stage changes do not lift the hold.",
+        "review_checkpoint": "Review following Wednesday’s during/after working-curl response; preserve each slot’s independent load, actuals and stage limits."
       }
     },
     "T3": {
@@ -974,8 +978,8 @@
         }
       },
       "next_action": {
-        "decision_id": 464,
-        "action": "maintain-biceps-dose-until-symptoms-resolve",
+        "decision_id": 469,
+        "action": "maintain-current-dose-pending-restoration-review",
         "load_lb": 25,
         "sets": 1,
         "reps_per_set": [
@@ -984,9 +988,10 @@
         "minimum_rir": 3,
         "rest_seconds": 120,
         "source": "../history/lifting-log.md#2026-10-31--hybrid-v11-w1-saturday-deltsarms-b",
-        "reason": "Athlete requests maintaining weight/reps for all biceps work until the right-elbow symptoms resolve. Cap sets at the latest performed dose too; no automatic ramp additions or progression.",
+        "reason": "Right elbow is now reported symptom-free. Keep the existing dose for today’s first symptom-free working exposure; review restoration after the reported during/after response. No fixed waiting period or automatic doubling of curl sets.",
         "symptom_action": "Maintain only if symptoms do not worsen during or after. Do not force reps through increasing pain or altered execution; reduce/modify/omit aggravating work.",
-        "release_gate": "Reported symptom resolution and a documented review; calendar/stage changes do not lift the hold."
+        "release_gate": "Reported symptom resolution and a documented review; calendar/stage changes do not lift the hold.",
+        "review_checkpoint": "Review following Wednesday’s during/after working-curl response; preserve each slot’s independent load, actuals and stage limits."
       }
     },
     "S3": {
@@ -1098,10 +1103,10 @@
       "exercise": "Cable reverse curl",
       "load": null,
       "next_action": {
-        "decision_id": 464,
+        "decision_id": 469,
         "action": "defer-unintroduced-elbow-flexor-work",
         "sets": 0,
-        "reason": "Reverse curls have no performed baseline and would add new elbow-flexor work during the biceps hold. Reconsider after symptom resolution/review. No actuals or forearm-eligibility credit created."
+        "reason": "Right elbow currently symptom-free, but new reverse curls still have no performed baseline. Reconsider their introduction at the documented loading/restoration review; no automatic new work or forearm-eligibility credit."
       }
     },
     "S6": {
