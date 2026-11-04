@@ -4,6 +4,8 @@
 
 Start with `program.md`, `state/block.json` and `state/recovery.json`. Lifting needs today's table, ramp/return, lift progression and `state/lifting.json`. Running/cycling needs endurance/run progression and `state/running.json`. Read assessment/adjustment rules when a test, plateau, decline, return or fatigue flag applies. Use `state/baseline.md` for initial calibration. Search specific comparable sessions in current logs; do not load old history routinely.
 
+For bike sessions, include saved `cycling.equipment_settings` from running state. Preserve uncertain alternatives and the athlete's position labels; do not invent units or a machine identity.
+
 ## Generate the workout
 
 1. Resolve the requested date in America/New_York. Derive W1 onward from `calendar_anchor_date` (October 26, 2026), not the early activation date. October 25 is the authorized `Opening` Sunday leg session; earlier dates are Pre-block. After January 3, review before prescribing another block. Calendar rollover changes date fields, not stage or recovery clearance.

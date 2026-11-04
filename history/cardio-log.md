@@ -140,3 +140,11 @@ Athlete explicitly requests faster target progression when outperforming the pla
 - **Friday October 30:** target 445 minus slowest rep 447 = **−2 s/mi headroom**. Final RPE 7 is above comfortable threshold 5; ordinary hit count is 1. No immediate pace step. Hold **3×6 at 7:25**, under W2’s work-minute ceiling; no speed prohibition remains.
 
 The general rule uses all reps, not the fastest split: one recovered hit can earn a 5–15 s/mi adjustment; a comfortable hit can earn 5 without deliberate overspeed; otherwise two comparable hits earn 5. Work minutes stay fixed during pace increases. Relevant recovery/symptom/fatigue/return/assessment and mileage limits persist; a local biceps hold alone does not freeze running. Preserve all actuals, original prescriptions, shoe totals and current W2 mileage. Record each pace-step source as used only when activating the changed prescription, then reset counters before that exposure.
+
+## 2026-11-04 — Hybrid v11 W2 Wednesday bike
+
+Session ID: `hybrid-2026-10-26-w2-wed-2026-11-04-bike`, following the reported delts/arms workout. Prescription #468: 20 minutes, RPE3 (2–4 acceptable). Athlete reports **20 minutes completed, average HR149 bpm** and answers the effort question **“2”**. Record duration1200seconds and RPE2; HR is descriptive, not an inferred zone or power target. Power, distance, exact machine identity and subsequent-session recovery remain n/r. No running/shoe mileage is added.
+
+Save the exact setup report: **“seat:-2 maybe -1 handle: +3 height:9 maybe 9.5”**. Seat −2 with possible alternative −1; handle +3; height9 with possible alternative9.5. These are reported position labels without supplied units. Keep uncertainty visible in the shared bike-settings record for future bike workouts; do not silently choose between alternatives or assume the earlier Stages bike is the same machine.
+
+Effort falls within the acceptable 2–4 range. Keep the W2/W3 20-minute dose, preserve prior validated tolerance separately and await later lifting/run response before any duration increase. Decision #470.

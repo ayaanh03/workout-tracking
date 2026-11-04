@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T15:33:53-05:00",
+  "generatedAt": "2026-11-04T18:51:33-05:00",
   "blockId": "hybrid-2026-10-26",
   "prescriptionId": "hybrid-2026-10-26-wed-delts-arms-a-468",
   "preview": false,
@@ -9,12 +9,11 @@
   "phase": "Hybrid v11 — Stage B",
   "sessionName": "Delts/arms A + bike",
   "why": [
-    "Wednesday November 4 is delts/arms A followed by the bike. The athlete explicitly selected this next session after the date clarification.",
-    "Use achieved Stage B with biceps maintenance: 3+1+2+1+3 = 10 counted sets. No stage or weight increase is inferred from expected recovery."
+    "Wednesday November 4 delts/arms A + bike completed: 10 counted lifting sets and 20 minutes cycling.",
+    "The issued Stage-B workout retained one set for each curl because of the recent elbow symptoms. The athlete now confirms those working curls stayed symptom-free."
   ],
   "intro": [
-    "Right elbow is now reported symptom-free. Keep today’s planned curl dose as the first symptom-free working exposure; review adding sets after the during/after response. Reduce or omit any movement if symptoms return.",
-    "Target 3 RIR; curls stay at least 3 RIR. Calves only if the Achilles remains comfortable; prior shoe-associated irritation remains relevant."
+    "Elbow symptom-free during and after curls. Future curl sessions return to normal Stage-B sets and rep ranges at the same weights."
   ],
   "lift": {
     "table": [
@@ -64,7 +63,87 @@
         "rir": "3",
         "rest": "2 min"
       }
-    ]
+    ],
+    "actual": {
+      "label": "November 4 — reported actuals",
+      "table": [
+        {
+          "slotId": "WE1",
+          "exercise": "DB lateral raise",
+          "load": "35 lb",
+          "reps": "13 / 12 / 12",
+          "rir": "3 / 3 / 3"
+        },
+        {
+          "slotId": "WE2",
+          "exercise": "Unilateral machine preacher curl",
+          "load": "75 lb",
+          "reps": "9",
+          "rir": "3"
+        },
+        {
+          "slotId": "WE3",
+          "exercise": "Reverse pec deck",
+          "load": "145 lb",
+          "reps": "12 / 15",
+          "rir": "6 / 3"
+        },
+        {
+          "slotId": "WE4",
+          "exercise": "Rope cable hammer curl",
+          "load": "50 lb",
+          "reps": "16",
+          "rir": "3"
+        },
+        {
+          "slotId": "WE5",
+          "exercise": "Leg-press calf raise",
+          "load": "365 lb",
+          "reps": "12 / 13 / 13",
+          "rir": "3 / 3 / 3"
+        }
+      ]
+    },
+    "lastWeek": {
+      "label": "October 28 — same-slot actuals",
+      "table": [
+        {
+          "slotId": "WE1",
+          "exercise": "DB lateral raise",
+          "load": "35 lb",
+          "reps": "15 / 12",
+          "rir": "3 / 3"
+        },
+        {
+          "slotId": "WE2",
+          "exercise": "Unilateral machine preacher curl",
+          "load": "75 lb",
+          "reps": "8",
+          "rir": "3"
+        },
+        {
+          "slotId": "WE3",
+          "exercise": "Reverse pec deck",
+          "load": "145 lb",
+          "reps": "12",
+          "rir": "3"
+        },
+        {
+          "slotId": "WE4",
+          "exercise": "Rope cable hammer curl",
+          "load": "50 lb",
+          "reps": "11",
+          "rir": "3"
+        },
+        {
+          "slotId": "WE5",
+          "exercise": "Leg-press calf raise",
+          "load": "365 lb",
+          "reps": "11 / 11",
+          "rir": "3 / 3"
+        }
+      ]
+    }
   },
   "cardio": {
     "workout": "20 minutes on the bike after lifting. Target RPE 3/10; 2–4 acceptable, with comfortable full-sentence conversation.",
@@ -74,38 +153,44 @@
     "targets": {
       "rpe": "3/10; 2–4 acceptable"
     },
-    "workoutFile": null
+    "workoutFile": null,
+    "actual": {
+      "label": "November 4 — bike completed",
+      "summary": "20 minutes at RPE 2/10; average HR 149 bpm. Saved settings: seat −2 (possibly −1), handle +3, height 9 (possibly 9.5).",
+      "table": [
+        {
+          "segment": "Bike",
+          "time": "20:00",
+          "distance": "n/r",
+          "pace": "n/r"
+        }
+      ]
+    }
   },
   "adaptation": [
     {
-      "exercise": "Stage B dose and established loads",
-      "previous": "October 28 same-slot actuals: laterals 35×15/12, reverse pec deck 145×12, calves 365×11/11; all RIR 3.",
-      "decision": "Hold loads; use 3 lateral sets, 2 reverse-pec-deck sets and 3 calf sets at 3 RIR.",
-      "reason": "These set additions follow already-earned Stage B. No ordinary ramp loading progression or new stage is awarded; all 33 slots remain independent."
+      "exercise": "Lifting actuals",
+      "previous": "October 28: laterals 35×15/12, reverse pec deck 145×12 and calves 365×11/11, all RIR 3.",
+      "decision": "Log 35×13/12/12; 145×12/15 at RIR 6/3; 365×12/13/13 at RIR 3. Hold the established loads.",
+      "reason": "Completed the additional non-curl Stage-B sets. Preserve each reported reserve value; ramp work earns no ordinary load-progression or plateau credit."
     },
     {
-      "exercise": "Biceps — right-elbow maintenance",
-      "previous": "October 28: preacher 75×8 per arm and hammer 50×11, one set each at RIR 3. Earlier November 4 nag is now reported symptom-free again.",
-      "decision": "Maintain preacher 75 lb for 1×8 per arm and hammer 50 lb for 1×11, both at least 3 RIR.",
-      "reason": "Keep today’s already-issued dose while checking working tolerance. Adding both Stage-B curl sets now would double direct-curl work. Review restoration after the during/after response; no fixed waiting period. One unilateral set per arm counts as one."
+      "exercise": "Curls and elbow response",
+      "previous": "Issued preacher 75×8 and rope hammer 50×11, one set each. Actuals: 75×9 and 50×16, both RIR 3; elbow symptom-free throughout and afterward.",
+      "decision": "Log the extra reps literally. Release the temporary hold for future sessions: preacher 2×8–12 at 75 lb; hammer 2×10–15 at 50 lb, targeting 3 RIR.",
+      "reason": "Reported resolution and working-curl response complete the review. Keep current loads and normal rep ceilings; no automatic load increase from one shortened ramp set. Today remains 10 completed sets."
     },
     {
-      "exercise": "Calves and current Achilles response",
-      "previous": "October 28 WE5: 365×11/11 at RIR 3. Current symptoms quiet, but the athlete reported intermittent left-Achilles irritation in worn Vomeros.",
-      "decision": "Keep 365 lb for 3×10–15 at 3 RIR only if comfortable.",
-      "reason": "No calf-specific flare or decline is currently reported. Preserve the prior shoe-associated symptoms; stop or reduce calf work if they recur. Do not borrow Sunday reps as Wednesday progression credit."
+      "exercise": "Bike and setup",
+      "previous": "October 28: 20:05, average HR 143, average 130 W, displayed effort 4.",
+      "decision": "Log 20 minutes, RPE 2 and average HR 149. Save seat −2 (possibly −1), handle +3, height 9 (possibly 9.5).",
+      "reason": "Effort is inside the acceptable 2–4 range. Keep the planned 20-minute dose; power, distance, HR zones and machine identity were not reported."
     },
     {
-      "exercise": "Bike",
-      "previous": "October 28: 20:05 at average 130 W and displayed effort 4. Its 20-minute prescribed dose was validated by later lifting/run response and W1 review.",
-      "decision": "20 minutes after lifting at RPE 3, with 2–4 acceptable.",
-      "reason": "W2 dose stays 20 minutes. No HR or power target, no sauna substitution and no added duration."
-    },
-    {
-      "exercise": "Readiness and next run pace",
-      "previous": "November 3 run: 6:28/6:37/6:31, RPE 5/6/7. General recovery remains forecast; the right elbow is now reported symptom-free.",
-      "decision": "Generate the requested Wednesday session; keep Tuesday’s 6:40 pace candidate pending actual general recovery.",
-      "reason": "Current symptoms do not establish overall next-day recovery or full-week manageability. No new run hit, pace activation, stage advance or completed work is inferred."
+      "exercise": "Other recovery and progression",
+      "previous": "Stage B is achieved; Tuesday November 3 run has a pending 6:40 pace candidate.",
+      "decision": "Preserve Stage B, existing ab limits, overhead replacement and pending run recovery.",
+      "reason": "An elbow-specific symptom answer does not establish general next-day recovery or a manageable completed W2."
     }
   ],
   "currentLoads": [
@@ -128,7 +213,7 @@
       "exercise": "M2 — Incline DB curl",
       "load": "22.5 lb",
       "lastVerified": "2026-11-02 (reported)",
-      "note": "Current held dose: 22.5 lb ×12/8, 2 set(s), ≥3 RIR, 2 min rest. Elbow now symptom-free; review restoring sets after Wednesday’s during/after response. Preserve independent same-slot actuals."
+      "note": "Temporary elbow hold released after November 4 symptom-free working curls. Resume this slot’s normal Stage-B 2×8–12 at its own current load and 3 RIR; last actual stays independent."
     },
     {
       "slotId": "M3",
@@ -169,36 +254,36 @@
       "slotId": "WE1",
       "exercise": "WE1 — DB lateral raise",
       "load": "35 lb",
-      "lastVerified": "2026-10-28 (reported)",
-      "note": "Wednesday actual: 35×15/12 at RIR 3. Hold during Stage B; independent slot, no ordinary progression credit."
+      "lastVerified": "2026-11-04 (reported)",
+      "note": "November 4: 35×13/12/12 at RIR 3. Hold 35 lb during Stage B; added third set completed."
     },
     {
       "slotId": "WE2",
       "exercise": "WE2 — Unilateral machine preacher curl",
       "load": "75 lb",
-      "lastVerified": "2026-10-28 (reported)",
-      "note": "Current held dose: 75 lb ×8, 1 set(s), ≥3 RIR, 2 min rest. Elbow now symptom-free; review restoring sets after Wednesday’s during/after response. Preserve independent same-slot actuals."
+      "lastVerified": "2026-11-04 (reported)",
+      "note": "November 4: 75×9 per arm at RIR 3, one counted set. Elbow symptom-free during/after. Temporary hold released; next Stage-B dose 2×8–12 per arm at 75 lb and 3 RIR."
     },
     {
       "slotId": "WE3",
       "exercise": "WE3 — Reverse pec deck",
       "load": "145 lb",
-      "lastVerified": "2026-10-28 (reported)",
-      "note": "Confirmed reverse pec deck 145×12 at RIR 3. Hold during Stage B; first actual in WE3, no ordinary progression credit or transfer to Saturday."
+      "lastVerified": "2026-11-04 (reported)",
+      "note": "November 4: 145×12/15 at RIR 6/3. Preserve both reserve values; hold 145 lb during Stage B."
     },
     {
       "slotId": "WE4",
       "exercise": "WE4 — Rope cable hammer curl",
       "load": "50 lb",
-      "lastVerified": "2026-10-28 (reported)",
-      "note": "Current held dose: 50 lb ×11, 1 set(s), ≥3 RIR, 2 min rest. Elbow now symptom-free; review restoring sets after Wednesday’s during/after response. Preserve independent same-slot actuals."
+      "lastVerified": "2026-11-04 (reported)",
+      "note": "November 4: 50×16 at RIR 3, one set. Elbow symptom-free during/after. Temporary hold released; next Stage-B dose 2×10–15 at 50 lb and 3 RIR. Actual 16 is retained; no load increase."
     },
     {
       "slotId": "WE5",
       "exercise": "WE5 — Leg-press calf raise",
       "load": "365 lb",
-      "lastVerified": "2026-10-28 (reported)",
-      "note": "Wednesday October 28 actual 365×11/11 at RIR 3. Hold during Stage B; independent slot, no ordinary progression credit. Wednesday’s specific response was tentative; November 1 calves were comfortable and the November 2 W1 review reports no worsening tendon symptoms."
+      "lastVerified": "2026-11-04 (reported)",
+      "note": "November 4: 365×12/13/13 at RIR 3. Hold 365 lb during Stage B; no new Achilles-specific response supplied."
     },
     {
       "slotId": "T1",
@@ -212,7 +297,7 @@
       "exercise": "T2 — Cable curl",
       "load": "42.5 lb",
       "lastVerified": "2026-10-29 (reported)",
-      "note": "Current held dose: 42.5 lb ×12, 1 set(s), ≥3 RIR, 2 min rest. Elbow now symptom-free; review restoring sets after Wednesday’s during/after response. Preserve independent same-slot actuals."
+      "note": "Temporary elbow hold released after November 4 symptom-free working curls. Resume this slot’s normal Stage-B 2×10–15 at its own current load and 3 RIR; last actual stays independent."
     },
     {
       "slotId": "T3",
@@ -268,7 +353,7 @@
       "exercise": "S2 — Incline DB curl",
       "load": "25 lb",
       "lastVerified": "2026-10-31",
-      "note": "Current held dose: 25 lb ×9, 1 set(s), ≥3 RIR, 2 min rest. Elbow now symptom-free; review restoring sets after Wednesday’s during/after response. Preserve independent same-slot actuals."
+      "note": "Temporary elbow hold released after November 4 symptom-free working curls. Resume this slot’s normal Stage-B 2×8–12 at its own current load and 3 RIR; last actual stays independent."
     },
     {
       "slotId": "S3",
@@ -289,14 +374,14 @@
       "exercise": "S5 — Cable reverse curl",
       "load": "Calibrate",
       "lastVerified": "No new-block exposure",
-      "note": "Not introduced. Defer reverse curls during the biceps hold; no performed load, exposure or progression credit. Reconsider after symptom resolution/review."
+      "note": "Not yet introduced; load remains Calibrate. Stage B permits one comfortable set of 15–20 at 3–4 RIR when Saturday is generated. No forearm exposure or two-set eligibility yet."
     },
     {
       "slotId": "S6",
       "exercise": "S6 — Cable wrist curl",
       "load": "Calibrate",
       "lastVerified": "No new-block exposure",
-      "note": "Stage B introduces one set at 3–4 RIR on Saturday. Load remains uninitialized until performed; calibrate independently. New right-elbow nag reported: review symptoms before introduction; do not assume this movement is either the cause or tolerated."
+      "note": "Not yet introduced; load remains Calibrate. Stage B permits one comfortable set of 15–20 at 3–4 RIR when Saturday is generated. No forearm exposure or two-set eligibility yet."
     },
     {
       "slotId": "L1",
@@ -340,5 +425,6 @@
       "lastVerified": "2026-11-01",
       "note": "November 1 actual 25×12 at RIR 3; hold during Stage B."
     }
-  ]
+  ],
+  "status": "done"
 }

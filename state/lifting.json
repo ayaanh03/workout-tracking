@@ -126,21 +126,19 @@
       },
       "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 469,
-        "action": "maintain-current-dose-pending-restoration-review",
+        "decision_id": 470,
+        "action": "resume-stage-dose-at-current-load",
         "load_lb": 22.5,
         "sets": 2,
-        "reps_per_set": [
-          12,
-          8
+        "rep_range": [
+          8,
+          12
         ],
-        "minimum_rir": 3,
+        "target_rir": 3,
         "rest_seconds": 120,
-        "source": "../history/lifting-log.md#2026-11-02--hybrid-v11-w2-monday-upper-a",
-        "reason": "Right elbow is now reported symptom-free. Keep the existing dose for today’s first symptom-free working exposure; review restoration after the reported during/after response. No fixed waiting period or automatic doubling of curl sets.",
-        "symptom_action": "Maintain only if symptoms do not worsen during or after. Do not force reps through increasing pain or altered execution; reduce/modify/omit aggravating work.",
-        "release_gate": "Reported symptom resolution and a documented review; calendar/stage changes do not lift the hold.",
-        "review_checkpoint": "Review following Wednesday’s during/after working-curl response; preserve each slot’s independent load, actuals and stage limits."
+        "source": "../history/adjustments.md#2026-11-04--log-wednesday-and-release-biceps-maintenance",
+        "reason": "Symptom resolution and November 4 working-curl response are both confirmed. Resume normal achieved-stage sets/range at the same load; no fixed-rep maintenance cap or new load-progression credit.",
+        "symptom_action": "Adjust or omit if elbow symptoms return; incline curls remain the athlete-suspected prior trigger."
       }
     },
     "M3": {
@@ -410,19 +408,25 @@
       "load": 35,
       "units": "lb",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
+      "load_source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
       "equipment": "Dumbbells",
       "setup": null,
       "load_convention": "Same legacy dumbbell load notation; retain that convention.",
       "last_actual": {
-        "date": "2026-10-28",
-        "session_id": "hybrid-2026-10-26-w1-wed-2026-10-28",
-        "source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
-        "stage": "A",
+        "date": "2026-11-04",
+        "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
+        "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+        "stage": "B",
+        "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-468",
         "sets": [
           {
             "load": 35,
-            "reps": 15,
+            "reps": 13,
+            "rir": 3
+          },
+          {
+            "load": 35,
+            "reps": 12,
             "rir": 3
           },
           {
@@ -432,14 +436,15 @@
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+        "reason": "Stage-B ramp; no ordinary load-progression or plateau credit. Original prescription retained separately."
       },
-      "new_exposure_count": 1,
+      "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 443,
+        "decision_id": 470,
         "action": "hold-load",
         "load_lb": 35,
-        "reason": "All reported sets meet this slot’s rep range at RIR 3. Keep appropriate loads stable during A–C; review current recovery before prescribing."
+        "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+        "reason": "November 4: 35×13/12/12 at RIR 3. Hold 35 lb during Stage B; added third set completed."
       }
     },
     "WE2": {
@@ -447,87 +452,104 @@
       "load": 75,
       "units": "lb",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
+      "load_source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
       "equipment": "Unilateral preacher curl machine",
       "setup": null,
       "load_convention": "Unilateral machine setting, each arm; no arm-specific differences reported. Machine model/settings not supplied.",
       "last_actual": {
-        "date": "2026-10-28",
-        "session_id": "hybrid-2026-10-26-w1-wed-2026-10-28",
-        "source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
-        "stage": "A",
+        "date": "2026-11-04",
+        "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
+        "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+        "stage": "B",
+        "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-468",
         "sets": [
           {
             "load": 75,
-            "reps": 8,
+            "reps": 9,
             "rir": 3
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+        "reason": "Stage-B ramp; no ordinary load-progression or plateau credit. Original prescription retained separately."
       },
-      "new_exposure_count": 1,
+      "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 469,
-        "action": "maintain-current-dose-pending-restoration-review",
+        "decision_id": 470,
+        "action": "resume-stage-dose-at-current-load",
         "load_lb": 75,
-        "sets": 1,
-        "reps_per_set": [
-          8
+        "sets": 2,
+        "rep_range": [
+          8,
+          12
         ],
-        "minimum_rir": 3,
+        "target_rir": 3,
         "rest_seconds": 120,
-        "source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
-        "reason": "Right elbow is now reported symptom-free. Keep the existing dose for today’s first symptom-free working exposure; review restoration after the reported during/after response. No fixed waiting period or automatic doubling of curl sets.",
-        "symptom_action": "Maintain only if symptoms do not worsen during or after. Do not force reps through increasing pain or altered execution; reduce/modify/omit aggravating work.",
-        "release_gate": "Reported symptom resolution and a documented review; calendar/stage changes do not lift the hold.",
-        "review_checkpoint": "Review following Wednesday’s during/after working-curl response; preserve each slot’s independent load, actuals and stage limits."
+        "source": "../history/adjustments.md#2026-11-04--log-wednesday-and-release-biceps-maintenance",
+        "reason": "Symptom resolution and November 4 working-curl response are both confirmed. Resume normal achieved-stage sets/range at the same load; no fixed-rep maintenance cap or new load-progression credit.",
+        "symptom_action": "Adjust or omit if elbow symptoms return; incline curls remain the athlete-suspected prior trigger."
       }
     },
     "WE3": {
       "exercise": "Reverse pec deck",
       "load": 145,
       "latest_report": {
-        "date": "2026-10-28",
-        "session_id": "hybrid-2026-10-26-w1-wed-2026-10-28",
-        "source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
-        "report": "12 reps were done; 145lb rir 3",
+        "date": "2026-11-04",
+        "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
+        "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+        "report": "145 lb×12 RIR 6 / 145 lb×15 RIR 3",
         "completion_status": "completed",
-        "clarification_status": "resolved",
-        "followup_requested_on": "2026-10-28",
-        "decision_id": 444,
-        "note": "Athlete confirms one reverse pec deck set: 145 lb ×12 at RIR 3. No missing load/reps/RIR remain.",
-        "initial_report": "n/r",
-        "resolved_on": "2026-10-28"
+        "decision_id": 470
       },
       "units": "lb",
       "equipment": "Reverse pec deck machine",
       "setup": null,
       "load_convention": "Athlete-reported machine setting in lb; machine model/settings not supplied.",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
+      "load_source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
       "last_actual": {
-        "date": "2026-10-28",
-        "session_id": "hybrid-2026-10-26-w1-wed-2026-10-28",
-        "source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
-        "stage": "A",
+        "date": "2026-11-04",
+        "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
+        "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+        "stage": "B",
+        "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-468",
         "sets": [
           {
             "load": 145,
             "reps": 12,
+            "rir": 6
+          },
+          {
+            "load": 145,
+            "reps": 15,
             "rir": 3
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+        "reason": "Stage-B ramp; no ordinary load-progression or plateau credit. Original prescription retained separately."
       },
-      "new_exposure_count": 1,
+      "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 444,
+        "decision_id": 470,
         "action": "hold-load",
         "load_lb": 145,
-        "reason": "Confirmed 12 reps at RIR 3 meets the 12–20 rep range. Hold appropriate load during A–C; no ordinary progression credit."
-      }
+        "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+        "reason": "November 4: 145×12/15 at RIR 6/3. Preserve both reserve values; hold 145 lb during Stage B."
+      },
+      "report_history": [
+        {
+          "date": "2026-10-28",
+          "session_id": "hybrid-2026-10-26-w1-wed-2026-10-28",
+          "source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
+          "report": "12 reps were done; 145lb rir 3",
+          "completion_status": "completed",
+          "clarification_status": "resolved",
+          "followup_requested_on": "2026-10-28",
+          "decision_id": 444,
+          "note": "Athlete confirms one reverse pec deck set: 145 lb ×12 at RIR 3. No missing load/reps/RIR remain.",
+          "initial_report": "n/r",
+          "resolved_on": "2026-10-28"
+        }
+      ]
     },
     "WE4": {
       "exercise": "Rope cable hammer curl",
@@ -537,38 +559,38 @@
       "setup": null,
       "load_convention": "Athlete-reported rope cable setting, interpreted in the repository’s lb convention; station details not supplied.",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
+      "load_source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
       "last_actual": {
-        "date": "2026-10-28",
-        "session_id": "hybrid-2026-10-26-w1-wed-2026-10-28",
-        "source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
-        "stage": "A",
+        "date": "2026-11-04",
+        "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
+        "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+        "stage": "B",
+        "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-468",
         "sets": [
           {
             "load": 50,
-            "reps": 11,
+            "reps": 16,
             "rir": 3
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+        "reason": "Stage-B ramp; no ordinary load-progression or plateau credit. Original prescription retained separately."
       },
-      "new_exposure_count": 1,
+      "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 469,
-        "action": "maintain-current-dose-pending-restoration-review",
+        "decision_id": 470,
+        "action": "resume-stage-dose-at-current-load",
         "load_lb": 50,
-        "sets": 1,
-        "reps_per_set": [
-          11
+        "sets": 2,
+        "rep_range": [
+          10,
+          15
         ],
-        "minimum_rir": 3,
+        "target_rir": 3,
         "rest_seconds": 120,
-        "source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
-        "reason": "Right elbow is now reported symptom-free. Keep the existing dose for today’s first symptom-free working exposure; review restoration after the reported during/after response. No fixed waiting period or automatic doubling of curl sets.",
-        "symptom_action": "Maintain only if symptoms do not worsen during or after. Do not force reps through increasing pain or altered execution; reduce/modify/omit aggravating work.",
-        "release_gate": "Reported symptom resolution and a documented review; calendar/stage changes do not lift the hold.",
-        "review_checkpoint": "Review following Wednesday’s during/after working-curl response; preserve each slot’s independent load, actuals and stage limits."
+        "source": "../history/adjustments.md#2026-11-04--log-wednesday-and-release-biceps-maintenance",
+        "reason": "Symptom resolution and November 4 working-curl response are both confirmed. Resume normal achieved-stage sets/range at the same load; no fixed-rep maintenance cap or new load-progression credit.",
+        "symptom_action": "Adjust or omit if elbow symptoms return; incline curls remain the athlete-suspected prior trigger."
       }
     },
     "WE5": {
@@ -579,33 +601,40 @@
       "setup": null,
       "load_convention": "Athlete-reported lb notation; machine model/settings and stack/plate/sled convention not reported. Retain the same setup and notation.",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
+      "load_source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
       "last_actual": {
-        "date": "2026-10-28",
-        "session_id": "hybrid-2026-10-26-w1-wed-2026-10-28",
-        "source": "../history/lifting-log.md#2026-10-28--hybrid-v11-w1-wednesday-deltsarms-a",
-        "stage": "A",
+        "date": "2026-11-04",
+        "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
+        "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+        "stage": "B",
+        "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-468",
         "sets": [
           {
             "load": 365,
-            "reps": 11,
+            "reps": 12,
             "rir": 3
           },
           {
             "load": 365,
-            "reps": 11,
+            "reps": 13,
+            "rir": 3
+          },
+          {
+            "load": 365,
+            "reps": 13,
             "rir": 3
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+        "reason": "Stage-B ramp; no ordinary load-progression or plateau credit. Original prescription retained separately."
       },
-      "new_exposure_count": 1,
+      "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 443,
+        "decision_id": 470,
         "action": "hold-load",
         "load_lb": 365,
-        "reason": "All reported sets meet this slot’s rep range at RIR 3. Keep appropriate loads stable during A–C; review current recovery before prescribing."
+        "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+        "reason": "November 4: 365×12/13/13 at RIR 3. Hold 365 lb during Stage B; no new Achilles-specific response supplied."
       }
     },
     "T1": {
@@ -671,20 +700,19 @@
       },
       "new_exposure_count": 1,
       "next_action": {
-        "decision_id": 469,
-        "action": "maintain-current-dose-pending-restoration-review",
+        "decision_id": 470,
+        "action": "resume-stage-dose-at-current-load",
         "load_lb": 42.5,
-        "sets": 1,
-        "reps_per_set": [
-          12
+        "sets": 2,
+        "rep_range": [
+          10,
+          15
         ],
-        "minimum_rir": 3,
+        "target_rir": 3,
         "rest_seconds": 120,
-        "source": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
-        "reason": "Right elbow is now reported symptom-free. Keep the existing dose for today’s first symptom-free working exposure; review restoration after the reported during/after response. No fixed waiting period or automatic doubling of curl sets.",
-        "symptom_action": "Maintain only if symptoms do not worsen during or after. Do not force reps through increasing pain or altered execution; reduce/modify/omit aggravating work.",
-        "release_gate": "Reported symptom resolution and a documented review; calendar/stage changes do not lift the hold.",
-        "review_checkpoint": "Review following Wednesday’s during/after working-curl response; preserve each slot’s independent load, actuals and stage limits."
+        "source": "../history/adjustments.md#2026-11-04--log-wednesday-and-release-biceps-maintenance",
+        "reason": "Symptom resolution and November 4 working-curl response are both confirmed. Resume normal achieved-stage sets/range at the same load; no fixed-rep maintenance cap or new load-progression credit.",
+        "symptom_action": "Adjust or omit if elbow symptoms return; incline curls remain the athlete-suspected prior trigger."
       }
     },
     "T3": {
@@ -978,20 +1006,19 @@
         }
       },
       "next_action": {
-        "decision_id": 469,
-        "action": "maintain-current-dose-pending-restoration-review",
+        "decision_id": 470,
+        "action": "resume-stage-dose-at-current-load",
         "load_lb": 25,
-        "sets": 1,
-        "reps_per_set": [
-          9
+        "sets": 2,
+        "rep_range": [
+          8,
+          12
         ],
-        "minimum_rir": 3,
+        "target_rir": 3,
         "rest_seconds": 120,
-        "source": "../history/lifting-log.md#2026-10-31--hybrid-v11-w1-saturday-deltsarms-b",
-        "reason": "Right elbow is now reported symptom-free. Keep the existing dose for today’s first symptom-free working exposure; review restoration after the reported during/after response. No fixed waiting period or automatic doubling of curl sets.",
-        "symptom_action": "Maintain only if symptoms do not worsen during or after. Do not force reps through increasing pain or altered execution; reduce/modify/omit aggravating work.",
-        "release_gate": "Reported symptom resolution and a documented review; calendar/stage changes do not lift the hold.",
-        "review_checkpoint": "Review following Wednesday’s during/after working-curl response; preserve each slot’s independent load, actuals and stage limits."
+        "source": "../history/adjustments.md#2026-11-04--log-wednesday-and-release-biceps-maintenance",
+        "reason": "Symptom resolution and November 4 working-curl response are both confirmed. Resume normal achieved-stage sets/range at the same load; no fixed-rep maintenance cap or new load-progression credit.",
+        "symptom_action": "Adjust or omit if elbow symptoms return; incline curls remain the athlete-suspected prior trigger."
       }
     },
     "S3": {
@@ -1103,15 +1130,41 @@
       "exercise": "Cable reverse curl",
       "load": null,
       "next_action": {
-        "decision_id": 469,
-        "action": "defer-unintroduced-elbow-flexor-work",
-        "sets": 0,
-        "reason": "Right elbow currently symptom-free, but new reverse curls still have no performed baseline. Reconsider their introduction at the documented loading/restoration review; no automatic new work or forearm-eligibility credit."
+        "decision_id": 470,
+        "action": "calibrate-stage-b-introduction-if-comfortable",
+        "sets": 1,
+        "rep_range": [
+          15,
+          20
+        ],
+        "target_rir_range": [
+          3,
+          4
+        ],
+        "rest_seconds": 120,
+        "load_lb": null,
+        "reason": "Current elbow hold released after symptom-free working curls. One Stage-B set may be introduced at the next scheduled Saturday if comfortable; no performed baseline, exposure or two-set forearm eligibility is inferred."
       }
     },
     "S6": {
       "exercise": "Cable wrist curl",
-      "load": null
+      "load": null,
+      "next_action": {
+        "decision_id": 470,
+        "action": "calibrate-stage-b-introduction-if-comfortable",
+        "sets": 1,
+        "rep_range": [
+          15,
+          20
+        ],
+        "target_rir_range": [
+          3,
+          4
+        ],
+        "rest_seconds": 120,
+        "load_lb": null,
+        "reason": "Current elbow hold released after symptom-free working curls. One Stage-B set may be introduced at the next scheduled Saturday if comfortable; no performed baseline, exposure or two-set forearm eligibility is inferred."
+      }
     },
     "L1": {
       "exercise": "Hanging leg raise",

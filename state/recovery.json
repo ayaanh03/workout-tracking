@@ -293,13 +293,13 @@
     },
     {
       "id": "right-elbow-nag",
-      "status": "currently-symptom-free-dose-review-pending",
+      "status": "resolved-maintenance-released",
       "reported_on": "2026-11-02",
       "recorded_at": "2026-11-03T17:23:48-05:00",
       "date_source": "Active client date context: 2026-11-02 America/New_York. Persistence timestamp is recorded separately; onset date is unreported.",
       "report": "Note down a slight nag on my right elbow tennis elbow type shit",
       "provenance": "athlete symptom report",
-      "decision_id": 469,
+      "decision_id": 470,
       "source": "../history/injury-log.md#2026-11-02--right-elbow-nag",
       "side": "right",
       "site": "elbow",
@@ -327,8 +327,8 @@
         "S5",
         "S6"
       ],
-      "action": "Keep the already-issued Wednesday curl dose for the first symptom-free working exposure. Review restoration after the reported during/after response; no fixed waiting period or automatic extra sets. Reduce/modify/omit if symptoms return.",
-      "persistence": "Symptom resolution is now reported. The current-dose hold remains only pending the loading/restoration review; calendar changes do not restore it automatically. Review after today’s working exposure rather than imposing an indefinite symptom hold.",
+      "action": "Temporary fixed-rep and set-count hold released. Resume existing curls at normal achieved-stage sets/ranges and current loads; adjust if symptoms recur. New forearm slots remain unperformed and require ordinary first-use calibration.",
+      "persistence": "No active biceps maintenance restriction after decision #470. Retain symptom history and the athlete-suspected incline-curl trigger; unrelated overhead and ab restrictions persist.",
       "followup": {
         "status": "suspected-trigger-answered-location-and-current-provocation-unreported",
         "requested_on": "2026-11-02",
@@ -341,19 +341,90 @@
       "reviewed_on": "2026-11-04",
       "latest_report": {
         "reported_on": "2026-11-04",
-        "recorded_at": "2026-11-04T15:33:53-05:00",
-        "report": "The right side elbow has gone symtom free again",
-        "decision_id": 469,
-        "status": "currently-symptom-free",
-        "scope": "Current right-elbow symptom resolution reported. Whether this includes gripping/light curls or working-load exposure is not yet supplied; not general run recovery, a diagnosis or completed workout."
+        "recorded_at": "2026-11-04T18:51:33-05:00",
+        "question": "Did your right elbow stay symptom-free during the curls and afterward?",
+        "report": "Yes, symptom-free throughout and afterward",
+        "decision_id": 470,
+        "status": "symptom-free-during-and-after-working-curls",
+        "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
+        "scope": "November 4 preacher and rope-hammer working-curl response. No general next-day recovery, diagnosis, or incline-curl/forearm exposure inferred."
       },
       "suspected_trigger": "Incline DB curl — athlete says “I think”",
       "onset_context": "Possibly began during incline biceps curls; exact session/date unreported.",
-      "symptom_course": "Earlier November 4 slight nag; later November 4 athlete reports symptom-free again. Working-load tolerance not yet established.",
-      "omitted_slots": [
-        "S5"
+      "symptom_course": "Earlier November 4 nag resolved before training; athlete confirms symptom-free throughout and after the completed preacher and rope-hammer curls.",
+      "omitted_slots": [],
+      "maintenance_directive": {
+        "reported_on": "2026-11-02",
+        "recorded_at": "2026-11-03T17:33:10-05:00",
+        "date_source": "Active client date context; persistence timestamp is separate.",
+        "report": "Honestly i think we can just maintain weight and reps until the symptoms resolve for all bicep work.",
+        "decision_id": 464,
+        "scope": "All direct biceps curl slots M2/WE2/WE4/T2/S2. Hold latest performed sets too so volume does not silently increase. Defer new S5 reverse curls. No automatic cut to unrelated pulling/pressing or completed-work changes.",
+        "status": "released",
+        "release_gate": "Reported symptom resolution plus documented review.",
+        "symptom_action": "Targets are ceilings for comfortable maintenance, not mandatory reps through worsening pain. Minimum 3 RIR; reduce/modify/omit if aggravating.",
+        "reviewed_on": "2026-11-04",
+        "review_decision_id": 470,
+        "released_on": "2026-11-04",
+        "release_evidence": {
+          "reported_on": "2026-11-04",
+          "recorded_at": "2026-11-04T18:51:33-05:00",
+          "question": "Did your right elbow stay symptom-free during the curls and afterward?",
+          "report": "Yes, symptom-free throughout and afterward",
+          "decision_id": 470,
+          "status": "symptom-free-during-and-after-working-curls",
+          "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
+          "scope": "November 4 preacher and rope-hammer working-curl response. No general next-day recovery, diagnosis, or incline-curl/forearm exposure inferred."
+        }
+      },
+      "current_symptom_report": {
+        "reported_on": "2026-11-04",
+        "recorded_at": "2026-11-04T18:51:33-05:00",
+        "question": "Did your right elbow stay symptom-free during the curls and afterward?",
+        "report": "Yes, symptom-free throughout and afterward",
+        "decision_id": 470,
+        "status": "symptom-free-during-and-after-working-curls",
+        "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
+        "scope": "November 4 preacher and rope-hammer working-curl response. No general next-day recovery, diagnosis, or incline-curl/forearm exposure inferred."
+      },
+      "symptom_report_history": [
+        {
+          "reported_on": "2026-11-04",
+          "recorded_at": "2026-11-04T02:19:21-05:00",
+          "report": "Tomorrow's workout recovery will be fine. No symptoms, no tendon issues, slight nagging on the right elbow, tennis elbow.",
+          "decision_id": 468,
+          "scope": "Current symptoms quiet except slight right-elbow nag. Tennis elbow is the athlete description, not a diagnosis. Future general recovery is expected, not observed."
+        },
+        {
+          "reported_on": "2026-11-04",
+          "recorded_at": "2026-11-04T15:33:53-05:00",
+          "report": "The right side elbow has gone symtom free again",
+          "decision_id": 469,
+          "status": "currently-symptom-free",
+          "scope": "Current right-elbow symptom resolution reported. Whether this includes gripping/light curls or working-load exposure is not yet supplied; not general run recovery, a diagnosis or completed workout."
+        }
       ],
-      "slot_overrides": {
+      "resolution_followup": {
+        "requested_on": "2026-11-04",
+        "requested_at": "2026-11-04T15:33:53-05:00",
+        "question": "Is the elbow also symptom-free when gripping and doing a light curl, or have you only checked it at rest?",
+        "status": "resolved-by-working-curl-response",
+        "answer": "Yes, symptom-free throughout and afterward",
+        "answered_at": "2026-11-04T18:51:33-05:00",
+        "answer_scope": "Later question establishes actual working-curl response; standalone grip/light-curl tests were not separately reported."
+      },
+      "restoration_review": {
+        "decision_id": 470,
+        "reviewed_on": "2026-11-04",
+        "status": "completed-maintenance-released",
+        "current_symptom_resolution_reported": true,
+        "working_load_tolerance": "Preacher 75×9 and rope hammer 50×16, both RIR 3, symptom-free during/after.",
+        "decision": "Future existing curls resume normal achieved-stage sets and rep ranges at unchanged loads, targeting 3 RIR. S5/S6 may calibrate one Stage-B set each when scheduled and comfortable.",
+        "new_fixed_wait_period": false,
+        "source_session_id": "hybrid-2026-10-26-w2-wed-2026-11-04"
+      },
+      "released_on": "2026-11-04",
+      "released_slot_overrides": {
         "M2": {
           "exercise": "Incline DB curl",
           "load": 22.5,
@@ -426,53 +497,22 @@
           "source_session_id": "hybrid-2026-10-26-w1-sat-2026-10-31"
         }
       },
-      "maintenance_directive": {
-        "reported_on": "2026-11-02",
-        "recorded_at": "2026-11-03T17:33:10-05:00",
-        "date_source": "Active client date context; persistence timestamp is separate.",
-        "report": "Honestly i think we can just maintain weight and reps until the symptoms resolve for all bicep work.",
-        "decision_id": 464,
-        "scope": "All direct biceps curl slots M2/WE2/WE4/T2/S2. Hold latest performed sets too so volume does not silently increase. Defer new S5 reverse curls. No automatic cut to unrelated pulling/pressing or completed-work changes.",
-        "status": "symptom-resolution-reported-restoration-review-pending",
-        "release_gate": "Reported symptom resolution plus documented review.",
-        "symptom_action": "Targets are ceilings for comfortable maintenance, not mandatory reps through worsening pain. Minimum 3 RIR; reduce/modify/omit if aggravating.",
-        "reviewed_on": "2026-11-04",
-        "review_decision_id": 469
-      },
-      "current_symptom_report": {
-        "reported_on": "2026-11-04",
-        "recorded_at": "2026-11-04T15:33:53-05:00",
-        "report": "The right side elbow has gone symtom free again",
-        "decision_id": 469,
-        "status": "currently-symptom-free",
-        "scope": "Current right-elbow symptom resolution reported. Whether this includes gripping/light curls or working-load exposure is not yet supplied; not general run recovery, a diagnosis or completed workout."
-      },
-      "symptom_report_history": [
-        {
-          "reported_on": "2026-11-04",
-          "recorded_at": "2026-11-04T02:19:21-05:00",
-          "report": "Tomorrow's workout recovery will be fine. No symptoms, no tendon issues, slight nagging on the right elbow, tennis elbow.",
-          "decision_id": 468,
-          "scope": "Current symptoms quiet except slight right-elbow nag. Tennis elbow is the athlete description, not a diagnosis. Future general recovery is expected, not observed."
-        }
+      "slot_overrides": {},
+      "released_omitted_slots": [
+        "S5"
       ],
-      "resolution_followup": {
-        "requested_on": "2026-11-04",
-        "requested_at": "2026-11-04T15:33:53-05:00",
-        "question": "Is the elbow also symptom-free when gripping and doing a light curl, or have you only checked it at rest?",
-        "status": "awaiting-activity-context",
-        "answer": null
-      },
-      "restoration_review": {
-        "decision_id": 469,
-        "status": "pending-working-response",
-        "current_symptom_resolution_reported": true,
-        "working_load_tolerance": null,
-        "today_decision": "Keep prescription #468: preacher75×8 per arm and hammer50×11, one set each at≥3RIR; total10lifting sets.",
-        "checkpoint": "Review adding back Stage-B curl sets after today’s during/after working-load response is reported; light-curl/grip context can clarify readiness meanwhile.",
-        "rationale": "Symptoms fluctuated within the same day. Holding today’s dose avoids doubling direct-curl sets from two to four immediately; this is a coaching choice, not a mandated time-based wait.",
-        "new_fixed_wait_period": false
-      }
+      "restoration_review_history": [
+        {
+          "decision_id": 469,
+          "status": "pending-working-response",
+          "current_symptom_resolution_reported": true,
+          "working_load_tolerance": null,
+          "today_decision": "Keep prescription #468: preacher75×8 per arm and hammer50×11, one set each at≥3RIR; total10lifting sets.",
+          "checkpoint": "Review adding back Stage-B curl sets after today’s during/after working-load response is reported; light-curl/grip context can clarify readiness meanwhile.",
+          "rationale": "Symptoms fluctuated within the same day. Holding today’s dose avoids doubling direct-curl sets from two to four immediately; this is a coaching choice, not a mandated time-based wait.",
+          "new_fixed_wait_period": false
+        }
+      ]
     }
   ],
   "pending_gates": [
@@ -511,41 +551,26 @@
     }
   ],
   "post_session": {
-    "date": "2026-11-03",
-    "session_id": "hybrid-2026-10-26-w2-tue-2026-11-03",
+    "date": "2026-11-04",
+    "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
     "completion": "reported",
-    "lower_ab_response": "No current symptoms reported November 4; during/after-run response not separately supplied.",
-    "achilles_response": "No current symptoms reported November 4; intermittent Vomero-associated irritation retained separately.",
+    "elbow_response": "Symptom-free throughout and after curls.",
+    "lower_ab_response": null,
+    "achilles_response": null,
     "next_day_recovery": null,
-    "status": "next-day-recovery-and-local-response-pending",
-    "decision_id": 465,
-    "report": "Genuine cheese of a workout RPE 5,6,7",
-    "note": "Latest right-elbow report is symptom-free again; prior current-symptom report retained as dated history. This does not confirm general next-day run recovery or a completed lifting session. Review biceps restoration after working-load response.",
-    "same_evening_followup": {
-      "reported_on": "2026-11-03",
-      "reported_at": "2026-11-03T21:28:33-05:00",
-      "for_date": "2026-11-04",
-      "after_session_id": "hybrid-2026-10-26-w2-tue-2026-11-03",
-      "report": "Recovery will be okay. I barely pushed myself today",
-      "status": "expected-good-not-yet-observed",
-      "decision_id": 466,
-      "scope": "Same-evening expectation of good recovery and low perceived session difficulty. Not a next-day observation, numeric RPE correction or injury clearance."
-    },
-    "current_symptom_followup": {
+    "status": "elbow-response-confirmed-next-day-pending",
+    "decision_id": 470,
+    "latest_followup": {
       "reported_on": "2026-11-04",
-      "recorded_at": "2026-11-04T02:19:21-05:00",
-      "report": "Tomorrow's workout recovery will be fine. No symptoms, no tendon issues, slight nagging on the right elbow, tennis elbow.",
-      "decision_id": 468,
-      "scope": "Current symptoms quiet except slight right-elbow nag. Tennis elbow is the athlete description, not a diagnosis. Future general recovery is expected, not observed."
+      "recorded_at": "2026-11-04T18:51:33-05:00",
+      "question": "Did your right elbow stay symptom-free during the curls and afterward?",
+      "report": "Yes, symptom-free throughout and afterward",
+      "decision_id": 470,
+      "status": "symptom-free-during-and-after-working-curls",
+      "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
+      "scope": "November 4 preacher and rope-hammer working-curl response. No general next-day recovery, diagnosis, or incline-curl/forearm exposure inferred."
     },
-    "elbow_symptom_followup": {
-      "reported_on": "2026-11-04",
-      "recorded_at": "2026-11-04T15:33:53-05:00",
-      "report": "The right side elbow has gone symtom free again",
-      "decision_id": 469,
-      "status": "currently-symptom-free",
-      "scope": "Current right-elbow symptom resolution reported. Whether this includes gripping/light curls or working-load exposure is not yet supplied; not general run recovery, a diagnosis or completed workout."
-    }
+    "note": "10 lifting sets and 20-minute bike at RPE 2 reported. Biceps maintenance released after working response; no new general next-day recovery or stage advance inferred."
   },
   "prior_pending_post_sessions": [
     {
@@ -567,6 +592,43 @@
         "scope": "Athlete reports no ab or tendon issues with this completed session. Not next-morning recovery or blanket injury clearance."
       },
       "note": "All 16 Stage-B sets reported. Abs and tendons had no issues; no new Achilles-specific observation or next-day recovery supplied. Preserve BW loading limits and ongoing overhead replacement. No repeated question tonight; review next-day response at the next relevant interaction."
+    },
+    {
+      "date": "2026-11-03",
+      "session_id": "hybrid-2026-10-26-w2-tue-2026-11-03",
+      "completion": "reported",
+      "lower_ab_response": "No current symptoms reported November 4; during/after-run response not separately supplied.",
+      "achilles_response": "No current symptoms reported November 4; intermittent Vomero-associated irritation retained separately.",
+      "next_day_recovery": null,
+      "status": "next-day-recovery-and-local-response-pending",
+      "decision_id": 465,
+      "report": "Genuine cheese of a workout RPE 5,6,7",
+      "note": "Tuesday next-day general recovery remains pending. The separate November 4 elbow working-curl response is symptom-free and its maintenance hold was released in #470; this does not resolve run recovery.",
+      "same_evening_followup": {
+        "reported_on": "2026-11-03",
+        "reported_at": "2026-11-03T21:28:33-05:00",
+        "for_date": "2026-11-04",
+        "after_session_id": "hybrid-2026-10-26-w2-tue-2026-11-03",
+        "report": "Recovery will be okay. I barely pushed myself today",
+        "status": "expected-good-not-yet-observed",
+        "decision_id": 466,
+        "scope": "Same-evening expectation of good recovery and low perceived session difficulty. Not a next-day observation, numeric RPE correction or injury clearance."
+      },
+      "current_symptom_followup": {
+        "reported_on": "2026-11-04",
+        "recorded_at": "2026-11-04T02:19:21-05:00",
+        "report": "Tomorrow's workout recovery will be fine. No symptoms, no tendon issues, slight nagging on the right elbow, tennis elbow.",
+        "decision_id": 468,
+        "scope": "Current symptoms quiet except slight right-elbow nag. Tennis elbow is the athlete description, not a diagnosis. Future general recovery is expected, not observed."
+      },
+      "elbow_symptom_followup": {
+        "reported_on": "2026-11-04",
+        "recorded_at": "2026-11-04T15:33:53-05:00",
+        "report": "The right side elbow has gone symtom free again",
+        "decision_id": 469,
+        "status": "currently-symptom-free",
+        "scope": "Current right-elbow symptom resolution reported. Whether this includes gripping/light curls or working-load exposure is not yet supplied; not general run recovery, a diagnosis or completed workout."
+      }
     }
   ],
   "resolved_post_sessions": [
@@ -623,11 +685,13 @@
   ],
   "current_symptom_report": {
     "reported_on": "2026-11-04",
-    "recorded_at": "2026-11-04T15:33:53-05:00",
-    "report": "The right side elbow has gone symtom free again",
-    "decision_id": 469,
-    "status": "currently-symptom-free",
-    "scope": "Current right-elbow symptom resolution reported. Whether this includes gripping/light curls or working-load exposure is not yet supplied; not general run recovery, a diagnosis or completed workout."
+    "recorded_at": "2026-11-04T18:51:33-05:00",
+    "question": "Did your right elbow stay symptom-free during the curls and afterward?",
+    "report": "Yes, symptom-free throughout and afterward",
+    "decision_id": 470,
+    "status": "symptom-free-during-and-after-working-curls",
+    "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
+    "scope": "November 4 preacher and rope-hammer working-curl response. No general next-day recovery, diagnosis, or incline-curl/forearm exposure inferred."
   },
   "current_symptom_report_history": [
     {
@@ -636,6 +700,14 @@
       "report": "Tomorrow's workout recovery will be fine. No symptoms, no tendon issues, slight nagging on the right elbow, tennis elbow.",
       "decision_id": 468,
       "scope": "Current symptoms quiet except slight right-elbow nag. Tennis elbow is the athlete description, not a diagnosis. Future general recovery is expected, not observed."
+    },
+    {
+      "reported_on": "2026-11-04",
+      "recorded_at": "2026-11-04T15:33:53-05:00",
+      "report": "The right side elbow has gone symtom free again",
+      "decision_id": 469,
+      "status": "currently-symptom-free",
+      "scope": "Current right-elbow symptom resolution reported. Whether this includes gripping/light curls or working-load exposure is not yet supplied; not general run recovery, a diagnosis or completed workout."
     }
   ]
 }

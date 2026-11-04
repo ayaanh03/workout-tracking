@@ -41,7 +41,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 469,
+  "last_adjustment_id": 470,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -195,6 +195,23 @@
       "classification": "pending",
       "recovery_status": "next-day-recovery-pending",
       "review_note": "3×4 at 6:28/6:37/6:31, RPE 5/6/7. Pace/effort pass; athlete attributes breaks probably to warmup. Pending next-day recovery; ordinary hit 2 candidate, no increment yet. Confirmed 4.25 mi in new Evo SLs."
+    },
+    "2026-11-04": {
+      "calendar_week": "W2",
+      "session": "Delts/arms A + bike",
+      "status": "completed",
+      "stage": "B",
+      "working_sets": 10,
+      "reported_working_sets": 10,
+      "prescribed_working_sets": 10,
+      "unresolved_slots": [],
+      "actual_ref": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+      "cardio_actual_ref": "../history/cardio-log.md#2026-11-04--hybrid-v11-w2-wednesday-bike",
+      "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-468",
+      "bike_minutes": 20,
+      "bike_rpe": 2,
+      "recovery_status": "elbow-response-confirmed-next-day-pending",
+      "review_note": "All 10 sets logged literally, including preacher 9, hammer 16 and reverse pec deck RIR 6/3. Elbow symptom-free during/after; temporary biceps maintenance released prospectively. Bike settings saved with uncertain alternatives."
     }
   },
   "planned_start_date": "2026-10-26",
@@ -240,15 +257,16 @@
       "range_end": "2026-11-08",
       "stage": "B",
       "completion": "in-progress",
-      "completed_sessions": 2,
-      "known_lifting_sets": 16,
+      "completed_sessions": 3,
+      "known_lifting_sets": 26,
       "manageable": null,
       "status": "week-in-progress",
-      "decision_id": 465,
-      "source": "../history/lifting-log.md#2026-11-02--hybrid-v11-w2-monday-upper-a",
-      "note": "Monday lifting and Tuesday intervals completed. Tuesday classification awaits next-day recovery; probable warmup breaks reported. W2 remains in progress; no manageable-week or stage advance inferred.",
+      "decision_id": 470,
+      "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+      "note": "Monday lifting, Tuesday intervals and Wednesday lifting/bike completed. Wednesday elbow response symptom-free; biceps hold released. Tuesday general recovery still pending; W2 in progress without stage advancement.",
       "known_running_work_minutes": 12,
-      "confirmed_running_miles": 4.25
+      "confirmed_running_miles": 4.25,
+      "known_cycling_minutes": 20
     }
   },
   "program_amendments": [
@@ -285,6 +303,20 @@
       ],
       "change": "Adopt pace-first running: one recovered session with all-rep pace headroom can earn 5–15 s/mi; comfortable effort earns 5, otherwise two comparable hits earn 5. Hold minutes on pace changes. Remove calendar speed locks; only relevant recovery/tolerance restrictions limit running.",
       "source": "../history/adjustments.md#2026-11-03--adopt-performance-based-running-progression"
+    },
+    {
+      "date": "2026-11-04",
+      "decision_id": 470,
+      "affected_slots": [
+        "M2",
+        "WE2",
+        "WE4",
+        "T2",
+        "S2",
+        "S5"
+      ],
+      "change": "Release temporary biceps maintenance after symptom resolution and symptom-free working curls. Resume normal achieved-stage sets/ranges at current loads; allow ordinary conditional forearm introduction without granting new exposure or W6 eligibility.",
+      "source": "../history/adjustments.md#2026-11-04--log-wednesday-and-release-biceps-maintenance"
     }
   ]
 }

@@ -137,3 +137,19 @@ Session ID: `hybrid-2026-10-26-w2-mon-2026-11-02`. Stage B, completion against [
 M2 actual **22.5×12/8 at RIR 3** supports 22.5 lb as Monday’s calibrated working load, with original 20 lb prescription retained. M4 **50×12/12 at RIR 3/2** establishes its first independent pushdown actual; previous overhead record remains in exercise history and S3/T5 receive no actual/credit transfer. M5 performed **160 lb**, with proposed next starting **155 lb if available, otherwise next lower setting**, for both sets targeting RIR 3; the lower load is not yet performed. Hold bench 145/135, laterals 35, pushdown 50 and row 70. Row 70×8/8 at RIR 2 fits its 2–3 target; no decline/fatigue diagnosis from the changed dose.
 
 Increment ordinary Monday raw exposures to two, new M4 pushdown exposure to one, and temporary M6 BW exposure to two; baseline cable crunch stays uninitialized. All ordinary qualification/anchors remain unearned during Stage B. Athlete notes **“No issues on abs or tendons.”** Record session-level BW-ab/pushdown tolerance, retain bodyweight limits and persistent overhead replacement, and await next-morning response before fresh ab-loading review. No cardio, next-day recovery, loaded ab actual, completed manageable Stage-B week or stage advance is inferred. Decision #460.
+
+## 2026-11-04 — Hybrid v11 W2 Wednesday delts/arms A
+
+Session ID: `hybrid-2026-10-26-w2-wed-2026-11-04`. Stage B, completed against #468/#469, prescription ID `hybrid-2026-10-26-wed-delts-arms-a-468`. Existing lb conventions retained; one unilateral set per arm counts once.
+
+| Slot | Exercise | Prescribed sets × reps / load / RIR | Actual set 1 | Actual set 2 | Actual set 3 |
+|---|---|---|---|---|---|
+| WE1 | DB lateral raise | 3×12–20 / 35 lb / 3 | 35×13, RIR 3 | 35×12, RIR 3 | 35×12, RIR 3 |
+| WE2 | Unilateral machine preacher curl | 1×8 per arm / 75 lb / ≥3 | 75×9, RIR 3 | — | — |
+| WE3 | Reverse pec deck | 2×12–20 / 145 lb / 3 | 145×12, RIR 6 | 145×15, RIR 3 | — |
+| WE4 | Rope cable hammer curl | 1×11 / 50 lb / ≥3 | 50×16, RIR 3 | — | — |
+| WE5 | Leg-press calf raise | 3×10–15 / 365 lb / 3 | 365×12, RIR 3 | 365×13, RIR 3 | 365×13, RIR 3 |
+
+**10 counted sets completed.** Preacher 9 and hammer 16 exceed the issued fixed 8/11 targets; hammer 16 also exceeds its normal 15-rep ceiling. Preserve those actuals and reverse-pec-deck RIR 6 literally. All sets retain at least 3 RIR. Update only these five slots’ actuals/raw exposures; hold loads 35/75/145/50/365. Stage-B ramp and shortened curl work earn no ordinary load/plateau credit.
+
+Asked whether the right elbow stayed symptom-free during curls and afterward; athlete: **“Yes, symptom-free throughout and afterward.”** The temporary maintenance review is complete: future existing curls return to normal achieved-stage sets and rep ranges at unchanged loads, targeting 3 RIR. In current Stage B that means two sets per curl slot, including preacher 2×8–12 and hammer 2×10–15; this does not add retroactive sets today. No new Achilles/ab-specific observation or next-day general recovery supplied. Bike: 20 minutes, RPE 2, average HR149; settings and cardio detail recorded separately. Decision #470.

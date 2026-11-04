@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-04T15:33:53-05:00",
+  "generatedAt": "2026-11-04T18:51:33-05:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W2",
   "phase": "Hybrid v11 — Stage B",
   "rangeStart": "2026-11-02",
   "rangeEnd": "2026-11-08",
-  "summary": "W2, November 2–8 — Wednesday November 4 delts/arms A + bike prepared: 10 lifting sets after the biceps hold, then 20-minute bike. Monday and Tuesday logged; Wednesday is not yet completed. Right elbow now symptom-free; today’s curl dose stays held pending working-response review. Up to 65 weekly lifting sets; Tuesday run recovery remains pending.",
+  "summary": "W2, November 2–8 — Monday, Tuesday and Wednesday completed; 26 lifting sets and 20 bike minutes logged. Wednesday curls were symptom-free during/after, so future curl sessions return to normal Stage-B sets and ranges at unchanged loads. Up to 68 lifting sets this week including conditional forearms; Tuesday run recovery remains pending.",
   "days": [
     {
       "date": "2026-11-02",
@@ -26,14 +26,14 @@
       "date": "2026-11-04",
       "day": "Wed",
       "session": "Delts/arms A + bike",
-      "note": "Prepared 10 sets: laterals 35 lb 3×12–20; preacher 75 lb 1×8 per arm; reverse pec deck 145 lb 2×12–20; rope hammer 50 lb 1×11; calves 365 lb 3×10–15. Target 3 RIR; curls minimum 3. Then 20-min bike at RPE 3. Expected recovery; reduce/omit aggravating work. Right elbow now symptom-free; review restoration after today’s response.",
-      "status": "today"
+      "note": "10 sets logged: laterals35×13/12/12; preacher75×9; reverse pec deck145×12/15 at RIR6/3; hammer50×16; calves365×12/13/13. Other sets RIR3. Elbow symptom-free during/after. Bike20min, RPE2, HR149avg; settings saved in today’s actuals.",
+      "status": "done"
     },
     {
       "date": "2026-11-05",
       "day": "Thu",
       "session": "Upper B",
-      "note": "17 sets with cable curl held at 42.5×12 for 1 set, ≥3 RIR; conditional BW abs up to 2 sets. Other Stage-B slots unchanged.",
+      "note": "18 Stage-B sets: cable curl returns to 42.5 lb for 2×10–15 at 3 RIR after the symptom-free elbow review; BW abs up to 2 comfortable sets. Other established loads unchanged.",
       "status": "upcoming"
     },
     {
@@ -47,7 +47,7 @@
       "date": "2026-11-07",
       "day": "Sat",
       "session": "Delts/arms B + bike",
-      "note": "Up to 9 sets: incline DB curl held at 25×9 for 1 set, ≥3 RIR; reverse curls deferred. One wrist-curl set only if elbow review supports it, otherwise 8 total. Other core slots unchanged; pushdown starts 50 lb. Then bike 20 min at RPE 3 (2–4 acceptable).",
+      "note": "Up to 11 Stage-B sets: incline DB curl returns to 25 lb for 2×8–12 at 3 RIR; calibrate one comfortable reverse-curl and wrist-curl set each, 15–20 reps at 3–4 RIR. Without forearms, 9 core sets. Pushdown starts50lb. Bike20min at RPE3 (2–4 acceptable); use saved bike settings.",
       "status": "upcoming"
     },
     {

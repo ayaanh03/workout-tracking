@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "blockId": "hybrid-2026-10-26",
-  "generatedAt": "2026-11-03T17:31:05-05:00",
+  "generatedAt": "2026-11-04T18:51:33-05:00",
   "sessions": [
     {
       "date": "2026-10-25",
@@ -846,6 +846,116 @@
         }
       ],
       "notes": "16 sets reported; all rep ranges met. The second pulldown set fell below prescribed reserve. No ab or tendon issues were reported with this session; later symptom reports remain in recovery history."
+    },
+    {
+      "date": "2026-11-04",
+      "week": "W2",
+      "stage": "B",
+      "sessionName": "Delts/arms A + bike",
+      "sessionId": "hybrid-2026-10-26-w2-wed-2026-11-04",
+      "prescriptionId": "hybrid-2026-10-26-wed-delts-arms-a-468",
+      "actualRef": "history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+      "exercises": [
+        {
+          "slotId": "WE1",
+          "exercise": "DB lateral raise",
+          "sets": [
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 13,
+              "rir": 3
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "WE2",
+          "exercise": "Unilateral machine preacher curl",
+          "sets": [
+            {
+              "load": 75,
+              "units": "lb",
+              "reps": 9,
+              "rir": 3
+            }
+          ],
+          "status": "completed",
+          "note": "One set per arm counted once; 9 actual reps versus 8 prescribed. No arm-specific difference reported."
+        },
+        {
+          "slotId": "WE3",
+          "exercise": "Reverse pec deck",
+          "sets": [
+            {
+              "load": 145,
+              "units": "lb",
+              "reps": 12,
+              "rir": 6
+            },
+            {
+              "load": 145,
+              "units": "lb",
+              "reps": 15,
+              "rir": 3
+            }
+          ],
+          "status": "completed",
+          "note": "First-set RIR 6 preserved as reported."
+        },
+        {
+          "slotId": "WE4",
+          "exercise": "Rope cable hammer curl",
+          "sets": [
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 16,
+              "rir": 3
+            }
+          ],
+          "status": "completed",
+          "note": "16 actual reps versus 11 prescribed; above the normal 15-rep ceiling, retained literally."
+        },
+        {
+          "slotId": "WE5",
+          "exercise": "Leg-press calf raise",
+          "sets": [
+            {
+              "load": 365,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 365,
+              "units": "lb",
+              "reps": 13,
+              "rir": 3
+            },
+            {
+              "load": 365,
+              "units": "lb",
+              "reps": 13,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        }
+      ],
+      "notes": "10 sets reported. Elbow symptom-free during/after curls; temporary biceps hold released for future sessions. Bike20min at RPE2, averageHR149; settings saved separately."
     }
   ]
 }
