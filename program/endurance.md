@@ -15,7 +15,7 @@ Use current targets in [running state](../state/running.json); these are initial
 
 ## Calendar ceilings
 
-Work times exclude warmup, recoveries and cooldown. A ceiling never requires advancing an earned dose.
+Work times exclude warmup, recoveries and cooldown. These ceilings limit work minutes, not speed. Apply the [pace-first progression rule](run-progression.md#choose-the-next-normal-prescription) in any normal week; a pace increase holds minutes. A ceiling never requires advancing the dose.
 
 | Week | Tuesday | Friday | Each Wed/Sat bike |
 |---|---|---|---|

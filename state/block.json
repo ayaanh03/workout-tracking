@@ -41,7 +41,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 466,
+  "last_adjustment_id": 467,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -275,6 +275,16 @@
       ],
       "change": "Hold direct biceps loads/reps/set counts at latest performed doses until elbow symptoms resolve/review. Defer unintroduced reverse curls; keep wrist-curl review separate.",
       "source": "../history/adjustments.md#2026-11-02--biceps-maintenance-and-dashboard-history"
+    },
+    {
+      "date": "2026-11-03",
+      "decision_id": 467,
+      "affected_modalities": [
+        "Tuesday intervals",
+        "Friday intervals"
+      ],
+      "change": "Adopt pace-first running: one recovered session with all-rep pace headroom can earn 5–15 s/mi; comfortable effort earns 5, otherwise two comparable hits earn 5. Hold minutes on pace changes. Remove calendar speed locks; only relevant recovery/tolerance restrictions limit running.",
+      "source": "../history/adjustments.md#2026-11-03--adopt-performance-based-running-progression"
     }
   ]
 }

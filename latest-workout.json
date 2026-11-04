@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T21:28:33-05:00",
+  "generatedAt": "2026-11-03T21:36:15-05:00",
   "blockId": "hybrid-2026-10-26",
   "prescriptionId": "hybrid-2026-10-26-tue-intervals-461",
   "preview": false,
@@ -93,9 +93,15 @@
     },
     {
       "exercise": "Next Tuesday progression",
-      "previous": "November 3: 3×4 at 6:28/6:37/6:31, RPE 5/6/7. Athlete describes low difficulty and expects good recovery.",
-      "decision": "Proposed November 10 recalibration: 3×4 at 6:40/mi, two 3-minute recoveries; final RPE 7–8, cap 8.",
-      "reason": "Hold work minutes while evaluating a faster target. This replaces the conditional fourth rep and requires review of a narrow exception to ordinary progression. Actual recovery, W2 manageable/stage, lifting, symptoms and full-week mileage checks still apply; the proposal is not active and earns no credit."
+      "previous": "November 3 target 6:50; actuals 6:28/6:37/6:31 at RPE 5/6/7. Slowest rep is 13 sec/mi faster than target.",
+      "decision": "New rule selects 3×4 at 6:40/mi for November 10, with two 3-minute recoveries and RPE cap 8, pending normal recovery.",
+      "reason": "All-rep headroom of 13 sec/mi rounds down to a 10-second step. Pace takes priority while work stays at 12 minutes. The rule is adopted; actual recovery, relevant symptoms/tolerance and the full future week’s mileage still need checking. An unrelated biceps hold does not freeze running."
+    },
+    {
+      "exercise": "Running progression — updated",
+      "previous": "Calendar speed locks and minutes-first progression could lag behind demonstrated running capacity.",
+      "decision": "One recovered hit can raise pace 5–15 sec/mi from the slowest rep; a comfortable hit earns 5. Near the current limit, two comparable hits earn 5.",
+      "reason": "No week-based wait and no pace-plus-minutes increase. Effort caps remain Tuesday 8/Friday 7. Friday stays 3×6 at 7:25: its slowest rep was 7:27, final RPE 7 and only one ordinary hit."
     },
     {
       "exercise": "Full-week running mileage",

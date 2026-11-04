@@ -177,43 +177,55 @@
       "pause_review": "Probable warmup breaks reported; no interval-rest deviation established. Do not classify the elapsed gap itself as a miss."
     },
     "next_action": {
-      "decision_id": 466,
-      "action": "review-proposed-pace-recalibration",
+      "decision_id": 467,
+      "action": "increase-pace-after-recovery-check",
+      "status": "pending-next-day-recovery",
       "for_date": "2026-11-10",
-      "pace_seconds_per_mile": 410,
+      "policy_id": "2026-11-03-pace-first",
+      "source_session_id": "hybrid-2026-10-26-w2-tue-2026-11-03",
+      "from_pace_seconds_per_mile": 410,
+      "pace_seconds_per_mile": 400,
+      "pace_step_seconds_per_mile": 10,
       "work_minutes": 12,
       "format": "3x4",
-      "proposed_recalibration": {
-        "status": "proposed-pending-recovery-and-review",
-        "for_date": "2026-11-10",
-        "pace_seconds_per_mile": 400,
-        "work_minutes": 12,
-        "format": "3x4",
-        "recovery_seconds": 180,
-        "recovery_count": 2,
-        "warmup_minutes": 10,
-        "optional_extra_warmup_minutes": 5,
-        "cooldown_minutes": 10,
-        "final_rep_rpe_guide": [
-          7,
-          8
-        ],
-        "rpe_cap": 8,
-        "scope": "Narrow next-Tuesday pace recalibration proposal replacing the previously conditional fourth rep; not an ordinary earned award or a general rule change.",
-        "requires": [
-          "Reported normal next-day recovery after November 3; current readiness and no worsening relevant symptoms",
-          "W2 manageable/stage and priority-lifting review; repeating the lifting ramp still blocks advancement under current rules",
-          "No conflicting assessment/return/fatigue restriction; verify the complete planned week fits 15 miles",
-          "Review and explicitly record activation of this 10 s/mi recalibration exception before generating it; clear ordinary counts/comfortable credit before first changed exposure, never at proposal time"
-        ]
-      },
-      "supersedes": {
-        "decision_id": 465,
-        "conditional_format": "4x4",
-        "conditional_pace_seconds_per_mile": 410,
-        "reason": "Prefer evaluating a faster target with work minutes held, based on latest actual paces/effort and the athlete’s request for more challenge."
-      },
-      "reason": "Latest 3×4 actuals at 6:28/6:37/6:31, RPE 5/6/7 suggest the starting target may be conservative. Athlete expects good recovery and describes low session difficulty. Queue a proposed 3×4 at 6:40 after review; no observed recovery, new hit or activated pace change is inferred. Friday remains independent."
+      "recovery_seconds": 180,
+      "recovery_count": 2,
+      "warmup_minutes": 10,
+      "optional_extra_warmup_minutes": 5,
+      "cooldown_minutes": 10,
+      "rpe_cap": 8,
+      "pending_checks": [
+        "Actual normal next-day recovery for November 3; confidence remains a forecast",
+        "Current symptoms, running/priority-lifting tolerance and latest completed-week manageability; unrelated local biceps hold alone does not block this step",
+        "No return/fatigue/assessment override and complete future week within 15 running miles"
+      ],
+      "activation": "At generation after checks pass, record this source and 10-second step as used before changing the normal target and clearing counters. This decision changes the rule now, not the past prescription or today’s classification.",
+      "reason": "The adopted all-rep headroom rule gives 410 − max(388,397,391) = 13; min(15,5×floor(13/5)) = 10, yielding 6:40. Hold 12 work minutes. This supersedes both the fourth-rep proposal and the separate calibration-exception proposal; no further rule approval is needed."
+    },
+    "pace_adjustment_history": [],
+    "pace_progression_review": {
+      "decision_id": 467,
+      "policy_id": "2026-11-03-pace-first",
+      "reviewed_on": "2026-11-03",
+      "source_session_id": "hybrid-2026-10-26-w2-tue-2026-11-03",
+      "source_prescription_id": "hybrid-2026-10-26-tue-intervals-461",
+      "source_date": "2026-11-03",
+      "source_target_seconds_per_mile": 410,
+      "source_work_minutes": 12,
+      "source_format": "3x4",
+      "slowest_rep_seconds_per_mile": 397,
+      "minimum_headroom_seconds_per_mile": 13,
+      "final_rep_rpe": 7,
+      "rpe_cap": 8,
+      "comfortable_effort_threshold": 6,
+      "ordinary_hits_confirmed": 1,
+      "pace_step_seconds_per_mile": 10,
+      "candidate_pace_seconds_per_mile": 400,
+      "work_minutes_held": 12,
+      "route": "measured-pace-headroom",
+      "status": "pending-next-day-recovery",
+      "applied": false,
+      "reason": "All three work reps demonstrate at least 13 s/mi headroom; round down to a 10-second pace step. Final RPE 7 is within cap 8; confirmed next-day recovery remains pending."
     }
   },
   "friday": {
@@ -385,12 +397,41 @@
       }
     },
     "next_action": {
-      "decision_id": 458,
-      "action": "hold-at-w2-ceiling",
+      "decision_id": 467,
+      "action": "hold-no-pace-step-earned",
+      "status": "reviewed-hold",
+      "for_date": "2026-11-06",
+      "policy_id": "2026-11-03-pace-first",
       "pace_seconds_per_mile": 445,
       "work_minutes": 18,
       "format": "3x6",
-      "reason": "Ordinary hit 1 earned. W2 caps Friday at 18 minutes and permits no faster target, so retain 3×6 at 7:25. No comfortable credit and no fast-rep penalty."
+      "rpe_cap": 7,
+      "reason": "October 30 remains ordinary hit 1. Slowest rep 7:27 gives no positive all-rep headroom against 7:25; final RPE 7 is not comfortable and there is no two-hit pair. Hold 3×6 at 7:25. W2 caps work minutes only; no calendar speed prohibition remains."
+    },
+    "pace_adjustment_history": [],
+    "pace_progression_review": {
+      "decision_id": 467,
+      "policy_id": "2026-11-03-pace-first",
+      "reviewed_on": "2026-11-03",
+      "source_session_id": "hybrid-2026-10-26-w1-fri-2026-10-30",
+      "source_prescription_id": "hybrid-2026-10-26-fri-intervals-448",
+      "source_date": "2026-10-30",
+      "source_target_seconds_per_mile": 445,
+      "source_work_minutes": 18,
+      "source_format": "3x6",
+      "slowest_rep_seconds_per_mile": 447,
+      "minimum_headroom_seconds_per_mile": -2,
+      "final_rep_rpe": 7,
+      "rpe_cap": 7,
+      "comfortable_effort_threshold": 5,
+      "ordinary_hits_confirmed": 1,
+      "pace_step_seconds_per_mile": 0,
+      "candidate_pace_seconds_per_mile": 445,
+      "work_minutes_held": 18,
+      "route": "hold",
+      "status": "reviewed-hold",
+      "applied": false,
+      "reason": "Slowest rep 7:27 is 2 s/mi slower than prescribed 7:25, so no all-rep pace-headroom step. Final RPE 7 is above comfortable threshold 5; only one ordinary hit. W2 volume ceiling is already reached."
     }
   },
   "cycling": {
@@ -570,5 +611,14 @@
         "reason": "Hold W2 20 minutes if comfortable. Sunday lifting and prior recovery support the dose; Tuesday performance is recorded, with run response still pending. No new HR or power target."
       }
     }
+  },
+  "progression_policy": {
+    "id": "2026-11-03-pace-first",
+    "effective_on": "2026-11-03",
+    "decision_id": 467,
+    "status": "active",
+    "source": "../program/run-progression.md",
+    "athlete_directive": "We should change the progression for running such that if I’m blowing past the targets we speed up and only progress conservatively once I start stalling",
+    "scope": "Tuesday and Friday independently. Pace-first progression replaces calendar speed waits and automatic minutes-first priority. Normal recovery, effort caps, return/assessment, mileage and relevant symptom/tolerance checks remain."
   }
 }

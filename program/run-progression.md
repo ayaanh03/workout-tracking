@@ -1,49 +1,60 @@
 # Run progression
 
-Read with [endurance prescriptions](endurance.md) and [assessments](assessments.md). Persist independent Tuesday/Friday records in [running state](../state/running.json): normal pace, work minutes/format, last successful normal level, latest actual classification, hit/miss counts, comfortable tags/pair, pending carried award, next-day recovery, poor-recovery pattern, temporary dose and saved return path. Temporary work never overwrites the normal prescription.
+Read with [endurance](endurance.md), [assessments](assessments.md) and [credit/reset rules](run-credit.md). Keep Tuesday and Friday independent in [running state](../state/running.json): normal target/dose, latest actuals/classification, hit/miss counts, pace-step evidence, last successful normal dose, recovery/return and carried award. Temporary work never overwrites normal dose.
+
+**Athlete directive, November 3, 2026 (#467):** adjust pace promptly when completed work shows the target is too slow; use smaller, evidence-based steps as headroom disappears. This replaces the W1/W2 speed lock, W3/W6 pace eligibility waits and automatic minutes-first priority. These step sizes are programming choices, not physiological thresholds.
 
 | Run | Calibration fallback | Normal levels, minutes: format |
 |---|---|---|
 | Tuesday | 8: 2 × 4 | 12: 3 × 4 → 16: 4 × 4 |
 | Friday | 12: 2 × 6 | 18: 3 × 6 → 21: 3 × 7 → 24: 3 × 8 / 4 × 6 → 28: 4 × 7 → 32: 4 × 8 |
 
-Friday's 24-minute formats are one level: 3 × 8 before W5, 4 × 6 from W6. One level below either is 21 minutes. Initial W1 is 12/18 minutes even without a new-block success; actual readiness may require less.
-
-**Decision order:** symptoms/recovery → assessment/return → calendar/mileage limits → ordinary progression. Lowest limit wins; calibration is not a minimum to force. A clear/pause applies to ordinary counts and comfortable credit unless specified otherwise. Clearing also cancels a pending award, except the narrow [assessment exception](run-credit.md); a pause cannot revive cancelled credit.
+Friday's 24-minute formats are one level: 3 × 8 before W5, 4 × 6 from W6. One level below either is 21 minutes. Calendar rows cap **work minutes**, not pace. They never force a volume increase.
 
 ## Classification
 
-Classify only after next-day recovery is reported. Full normal work in comparable conditions is required for credit; temporary cuts, return work and assessment workouts earn none. Athlete directive updated October 30, 2026 (decision #450): faster reps count toward progression; remove the former fast-rep no-count exclusion.
+Classify only after actual next-day recovery is reported. Full normal work in comparable conditions is required; temporary cuts, return work and assessment workouts earn no progression. A recovery forecast is not an observation.
 
 | Result | Conditions / action |
 |---|---|
-| Hit | Every rep at target pace or faster, allowing up to 5 s/mi slower (`actual seconds/mile ≤ target + 5`); no extra rest, final-rep RPE within cap, normal next-day recovery. There is no fast-side pace cutoff. Clears misses. |
-| Miss | Otherwise recovered/comparable, but a rep >5 s/mi slow, extra rest, or target exceeds RPE cap. Deliberate slowing of an unsuitable target also counts. Clears hits/comfortable credit. |
-| No-count | Uncertain measurement, materially changed conditions/setup, poor recovery, shortened/skipped work. Clear counts/comfortable credit; hold progression. Poor recovery invokes [run recovery](run-return.md). |
+| Hit | Every rep at target or faster, allowing up to 5 s/mi slow (`actual seconds/mile ≤ target + 5`); no extra interval rest, final RPE within cap, normal next-day recovery. No fast-side cutoff. Clears misses. |
+| Miss | Otherwise recovered/comparable, but a rep >5 s/mi slow, extra rest, or effort exceeds cap. Deliberate slowing of an unsuitable target also counts. Clears hits/comfortable credit and unused pace steps. |
+| No-count | Uncertain measurement, materially changed conditions, poor recovery, shortened/skipped work. Clear counts/comfortable credit and unused pace steps; hold progression. Poor recovery invokes [run recovery](run-return.md). |
 
-Apply exclusions before considering pace. Missing recovery remains pending, never a hit or assumed normal. Use [assessment counter exceptions](run-credit.md).
+Apply exclusions before pace. Missing recovery stays pending; at the next corresponding run, unresolved recovery becomes no-count without inventing poor recovery. Faster reps count under #450 but do not offset a slow rep, excessive effort, extra rest or missing work. Watch pace alerts guide pacing; fast-side alerts do not disqualify credit. Preserve actual paces and the original prescribed target separately.
 
-Faster reps earn the same ordinary hit/comfortable credit as on-target reps when the other requirements pass. They do not offset a rep beyond the slow-side allowance, excessive effort, extra rest or incomplete work. Preserve actual paces separately from the prescribed target; faster execution alone does not reset that target, break a streak, or automatically increase the next prescription. Work-volume, calendar, recovery and progression gates still govern the next dose. A Watch fast-side pace alert is pacing guidance, not a failed progression check.
+A required streak clear also cancels unused pace evidence/awards, except an explicitly saved surviving [assessment award](run-credit.md). A pause cannot revive cancelled credit.
 
-A **comfortable hit** also has final-rep RPE ≤6 Tuesday / ≤5 Friday. A **comfortable pair** is the two latest consecutive hits, both comfortable, at the same **prescribed target pace**, minutes and format; actual rep paces may be faster. A miss, no-count, prescription reset or non-comfortable hit breaks the pair. Other ordinary hit/miss streaks likewise compare prescribed targets, not identical actual splits.
+A **comfortable hit** has final RPE ≤6 Tuesday / ≤5 Friday (two points below cap). Retain the comfortable tag/pair for history: a pair is two latest consecutive comfortable hits at the same prescribed target, minutes, format and recovery duration. It is no longer a prerequisite for prompt pace adjustment. Ordinary pairs likewise compare prescriptions, not identical actual splits. A miss/no-count or changed prescription breaks the pair; a non-comfortable hit breaks only the comfortable pair.
 
-## Next normal prescription
+## Eligibility before increasing
 
-Recovery, assessment, return and mileage limits apply first. Repeating a lifting ramp stage blocks both speed and work-minute increases. Faster pace additionally requires no current recovery problem/worsening symptoms, no decision-critical missing report, and acceptable priority lifting: no open persistent-decline case in a priority-muscle or incline slot; during ramp/return, the latest completed week also needs an explicit manageable answer. Use [adjustments](adjustments.md) for decline closure; an isolated dip is not persistent decline.
+Symptoms/recovery → fatigue/assessment/return → complete-week mileage → performance-based progression. Effort caps remain **Tuesday 8, Friday 7**; never force extra effort to earn progression. Normal recovery and acceptable running/lifting tolerance are required. During the ramp, review the latest completed week's manageability; pending evidence is not clearance. Investigate persistent priority-lift decline before attributing it to running or increasing its load.
 
-1. **From W3, comfortable pair:** 5 s/mi faster, with minutes held. A valid carried award uses the same rule. This takes precedence over a due minute increase. W1/W2 may earn the pair. Friday's permitted equal-minute format change may accompany it.
-2. **Otherwise, minutes first:** after an ordinary hit, increase at most one level within the next normal week's ceiling. Never skip levels. If no increase fits, hold or use the pace rule below. After an assessment without a representative test, retain the latest full normal session's classification: only a hit allows a minute increase. Never search past a newer miss/no-count to reuse an old hit. Streak resets do not erase that classification.
-3. **Failed minute increase:** if its first attempt misses, return to the last successful normal level at the same pace (calibration if none). Clear counts before returning; this does not automatically mean the established pace needs slowing.
-4. **Unchanged starting dose or pace-only change:** an initial eligible miss is miss 1 under the two-miss rule. Immediate effort/recovery overrides still apply.
+A **local upper-body hold or repeated lifting stage alone does not block running**. Record why the stage is held: global fatigue, poor recovery, running-relevant joint/tendon symptoms or persistent lower-body decline can block increases; a biceps maintenance hold by itself cannot. Existing injury/return restrictions still apply. Assessment weeks allow no progression. The full planned week must fit 15 running miles, including all easy sections.
 
-Never increase speed and minutes together. The 24-minute Friday format change is not a minute increase.
+## Choose the next normal prescription
 
-### Pace and resets
+Evaluate the latest eligible normal session at its **original prescribed target**. Use the first applicable pace route below; never add routes together. A valid carried award is handled first under [run credit](run-credit.md). No minimum calendar week is required.
 
-- At unchanged pace/minutes/format, **two consecutive eligible misses → 10 s/mi slower**. Slow immediately if clearly unsuitable; do not wait through excessive effort.
-- From **W6**, two consecutive ordinary eligible hits may earn **5 s/mi faster** if no minute increase takes precedence. Comfortable pair, ordinary pair and carried award are alternative grounds for one step, never stacked.
-- **Before first exposure** to a changed normal pace, minutes or format, clear counts/comfortable credit. Then count that workout normally if eligible (hit 1 or miss 1); do not reset its result again merely because the prescription was new.
-- W1/W2: no faster targets. Slowing is always allowed. Assessment weeks override queued pace/minute increases and earn no credit.
+| Evidence after recovery | Next pace, with work minutes held |
+|---|---|
+| **All work reps ≥5 s/mi faster** | Let `headroom = prescribed seconds/mile − slowest work-rep seconds/mile`. Step = `min(15, 5 × floor(headroom / 5))` s/mi faster. One qualifying session is enough. All ≥10 faster gives a 10–15 second step; 5–9 faster gives 5. |
+| **Target met with clearly spare effort** | One comfortable hit (final RPE ≤cap−2) earns 5 s/mi faster, even without running faster than prescribed. |
+| **Near current limit, little demonstrated headroom** | Two consecutive eligible hits at unchanged target/minutes/format/recovery earn 5 s/mi faster. With only one and no other route, hold pace. |
 
+The measured-pace route uses the **slowest** rep, never the fastest or average, and cannot set a target faster than every rep demonstrated. Its 15-second cap applies per next exposure; do not apply the same source repeatedly. The effort/pair routes are small prospective progressions and need not have been run already. Pace offsets accepted by a historical tracking exception remain hits, but unmeasured corrections cannot establish faster-pace headroom.
 
-For interrupted or poorly recovered work, use [run return](run-return.md). For assessment pauses, carried awards and test recalibration, use [run credit](run-credit.md).
+If no pace step is due, one normal hit with final RPE **≤cap−1** may add **one work-minute level** within the next week's ceiling, at unchanged pace. Otherwise hold the dose and reassess. Never skip levels or add work to compensate for a miss. Faster pace takes priority whenever its route qualifies; **never increase pace and minutes together**. The scheduled Friday equal-minute format change is allowed.
+
+Examples: Tuesday target 6:50, actuals 6:28/6:37/6:31 → slowest 6:37, headroom 13 → **3×4 at 6:40** once recovery/other gates pass. Friday target 7:25, actuals 7:27/7:13/7:16, final RPE 7 and hit 1 → no faster target yet. Keep each run's evidence separate.
+
+## Stalls, resets and use once
+
+- One eligible miss: hold/review; slow immediately if the target is clearly unsuitable or exceeds the effort cap. At unchanged prescription, **two consecutive eligible misses → 10 s/mi slower**. Poor recovery follows [run return](run-return.md), not the miss shortcut.
+- If the first attempt at higher minutes misses, return to last successful normal minutes at the same pace (calibration if none). Clear counts before returning; do not assume the established pace needs slowing.
+- Before first exposure to changed normal pace/minutes/format, record the chosen step and source session(s) as used, then clear counts/comfortable credit. Count that changed exposure normally if eligible; do not reset its result again afterward. A pending candidate does not itself update the current normal target or clear counts.
+- A newer miss/no-count cancels unused steps. Never search past a newer result, reuse a consumed source, or resurrect cancelled credit. Multiple eligible routes yield **one step**, never stacked awards.
+- A reset or assessment can leave the latest full normal classification available for dose review but cannot recreate consumed pace evidence. Only an explicitly saved eligible [carried award](run-credit.md) can bridge the W5/early-assessment reset. W10 instead pauses still-valid unused evidence under the existing credit rules, without creating a separate carried award; tests or other clearing events cancel it. Tests replace queued pace changes.
+
+Persist each decision's original target, complete actual paces, slowest rep/headroom, effort/recovery, route, proposed step, remaining gates and application status. Record the effective prescription and source consumption when it is generated. The dashboard displays prepared decisions; it is not an automatic progression engine.

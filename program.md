@@ -2,7 +2,7 @@
 
 `hybrid-2026-10-26-v11` · **Opening leg day October 25, 2026; W1 starts October 26; ends January 3, 2027** · America/New_York.
 
-Read [schedule](program/schedule.md), [current state](Tracker.md), and only today's relevant modules. The split preserves the approved v11 prescription; active restrictions and actual performance determine the effective workout. The [full original](archive/pre-hybrid-2026-10-24/program.md) is archived, not an additional daily input.
+Read [schedule](program/schedule.md), [current state](Tracker.md), and only today's relevant modules. The split preserves the v11 structure with dated athlete amendments; active restrictions and actual performance determine the effective workout. Running now uses the [November 3 pace-first progression rule](program/run-progression.md). The [full original](archive/pre-hybrid-2026-10-24/program.md) is archived, not an additional daily input.
 
 | Day | Exact lifting table | Endurance |
 |---|---|---|

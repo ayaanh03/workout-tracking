@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-03T21:28:33-05:00",
+  "generatedAt": "2026-11-03T21:36:15-05:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W2",
   "phase": "Hybrid v11 — Stage B",
   "rangeStart": "2026-11-02",
   "rangeEnd": "2026-11-08",
-  "summary": "W2, November 2–8 — Monday’s 16 lifting sets and Tuesday’s intervals are logged. Tuesday pace/effort pass; next-day recovery remains pending. Biceps hold at last performed weights, reps and set counts until elbow symptoms resolve/review. Up to 65 weekly lifting sets: 16/10/17/9/13. Bikes remain 20 minutes. Next Tuesday proposal: 3×4 at 6:40/mi, subject to recovery and review; hold work minutes.",
+  "summary": "W2, November 2–8 — Monday’s 16 lifting sets and Tuesday’s intervals logged. Pace-first running is adopted: clear all-rep headroom can raise the next target 5–15 sec/mi; near the limit, use 5-sec steps after two hits. Tuesday’s next candidate is 3×4 at 6:40 after recovery; Friday remains 3×6 at 7:25. Biceps maintenance and up to 65 lifting sets (16/10/17/9/13) remain; bikes 20 min.",
   "days": [
     {
       "date": "2026-11-02",
@@ -40,7 +40,7 @@
       "date": "2026-11-06",
       "day": "Fri",
       "session": "Longer intervals",
-      "note": "3×6 min at 7:25/mi, 2-min easy jog/walk between reps; final RPE ≤7. Warmup 10 min easy, cooldown 10 min. W1 ordinary hit credited; W2 ceiling holds dose.",
+      "note": "3×6 min at 7:25/mi, 2-min recoveries; final RPE ≤7. Warmup 10 min easy, cooldown 10 min. W1 hit 1, slowest rep 7:27 and final RPE 7: no immediate faster step under the new rule; W2 work-minute ceiling holds volume.",
       "status": "upcoming"
     },
     {
