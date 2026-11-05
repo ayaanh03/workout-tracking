@@ -6,6 +6,8 @@ Start with `program.md`, `state/block.json` and `state/recovery.json`. Lifting n
 
 For bike sessions, include saved `cycling.equipment_settings` from running state. Preserve uncertain alternatives and the athlete's position labels; do not invent units or a machine identity.
 
+Honor an explicit in-progress prescription freeze in block state. A slot's `pending_replacement` applies prospectively: reconcile the frozen session against its original exercise before activating the replacement and preserving the former record in `exercise_history`. If a later prescription comes first, keep any delayed old-exercise log separate; never relabel it as the replacement or overwrite the frozen logging table.
+
 Apply the standing [readiness workflow](../program/readiness.md): assume good ordinary recovery unless contradicted, and generate/publish the next scheduled uncompleted workout after logging. This default supplies routine readiness for progression without inventing an observed recovery report; active injury, illness, return and fatigue restrictions still apply.
 
 ## Generate the workout

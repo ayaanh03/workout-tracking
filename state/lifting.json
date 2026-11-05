@@ -713,6 +713,64 @@
         "source": "../history/adjustments.md#2026-11-04--log-wednesday-and-release-biceps-maintenance",
         "reason": "Symptom resolution and November 4 working-curl response are both confirmed. Resume normal achieved-stage sets/range at the same load; no fixed-rep maintenance cap or new load-progression credit.",
         "symptom_action": "Adjust or omit if elbow symptoms return; incline curls remain the athlete-suspected prior trigger."
+      },
+      "pending_replacement": {
+        "decision_id": 472,
+        "status": "scheduled-after-current-session",
+        "requested_on": "2026-11-05",
+        "recorded_at": "2026-11-05T16:58:43-05:00",
+        "former_exercise": "Cable curl",
+        "replacement_exercise": "Unilateral machine preacher curl",
+        "effective_from": "2026-11-12",
+        "effective_scope": "Next Thursday Upper B and subsequent T2 sessions. November5 prescription #471 is explicitly frozen while in progress.",
+        "after_session_id": "hybrid-2026-10-26-w2-thu-2026-11-05",
+        "preserve_prescription_id": "hybrid-2026-10-26-thu-upper-b-471",
+        "reason": "Athlete reports standard cable curls hurt the elbows and explicitly narrows the replacement to standard cable curls only; today is already halfway through and must not change.",
+        "starting_load_lb": 75,
+        "load_status": "prescribed_unvalidated",
+        "rep_range": [
+          8,
+          12
+        ],
+        "per_arm": true,
+        "stage_sets": {
+          "A": 1,
+          "B": 2,
+          "C": 2,
+          "D": 2
+        },
+        "target_rir": 3,
+        "minimum_rir_while_symptomatic": 3,
+        "rest_seconds": 120,
+        "equipment": "Unilateral preacher curl machine",
+        "load_convention": "Same machine setting and per-arm convention as WE2; lower the load if needed to meet the rep range with at least3RIR comfortably.",
+        "starting_load_reference": {
+          "slot_id": "WE2",
+          "date": "2026-11-04",
+          "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
+          "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+          "actual_sets": [
+            {
+              "load": 75,
+              "reps": 9,
+              "rir": 3
+            }
+          ],
+          "reported_response": "Symptom-free during and after November4 curls.",
+          "scope": "Starting-load reference only. No T2 preacher actual, multi-set tolerance or progression credit is established."
+        },
+        "activation": "Reconcile the November5 log against its original cable-curl prescription before activating this replacement. Preserve the complete former T2 record, including any November5 actuals, under exercise_history. If the first later T2 prescription is requested before that log arrives, activate prospectively without assuming November5 completion; any later cable-curl log belongs to the former exercise history.",
+        "replacement_record_requirements": {
+          "last_actual": null,
+          "new_exposure_count": 0,
+          "qualifying_exposures": 0,
+          "comparable_sessions": [],
+          "first_set_anchor": null,
+          "near_failure_suspended": true
+        },
+        "progression": "Independent new T2 exercise record; no cable-curl or Wednesday preacher credit transfers. Keep stage/recovery rules and the specific symptom restriction.",
+        "symptom_action": "Use the future replacement only if comfortable; reduce or omit aggravating work rather than forcing the load or reps.",
+        "source": "../history/adjustments.md#2026-11-05--replace-standard-cable-curl-with-machine-preacher"
       }
     },
     "T3": {

@@ -6,7 +6,7 @@
   "start_date": "2026-10-25",
   "end_date": "2027-01-03",
   "timezone": "America/New_York",
-  "as_of": "2026-11-04",
+  "as_of": "2026-11-05",
   "activation_status": "active",
   "calendar_week": "W2",
   "calendar_phase": "Ramp",
@@ -41,7 +41,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 471,
+  "last_adjustment_id": 472,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -351,6 +351,16 @@
       ],
       "change": "Assume normal general recovery unless an exception is reported; after logging automatically generate and publish the next scheduled workout. Preserve actual observations, injury restrictions and date-correct previews.",
       "source": "../history/adjustments.md#2026-11-04--default-recovery-and-thursday-upper-b"
+    },
+    {
+      "date": "2026-11-05",
+      "decision_id": 472,
+      "affected_slots": [
+        "T2"
+      ],
+      "effective_from": "2026-11-12",
+      "change": "Replace only standard cable curls with unilateral machine preacher curls in future Thursday Upper B sessions. Starting reference75lb,8–12perarm, existing stage set count and2minrest. TodayNovember5 remains exactly as issued; hammer, reverse, wrist and incline curls are unchanged.",
+      "source": "../history/adjustments.md#2026-11-05--replace-standard-cable-curl-with-machine-preacher"
     }
   ],
   "generation_preferences": {
@@ -364,5 +374,17 @@
     "last_generated_prescription_id": "hybrid-2026-10-26-thu-upper-b-471",
     "last_generated_from_session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
     "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping."
+  },
+  "in_progress_session": {
+    "date": "2026-11-05",
+    "session_id": "hybrid-2026-10-26-w2-thu-2026-11-05",
+    "prescription_id": "hybrid-2026-10-26-thu-upper-b-471",
+    "status": "athlete-reported-in-progress",
+    "report": "And don’t change today’s workout I’m already halfway through",
+    "reported_at": "2026-11-05T16:58:43-05:00",
+    "decision_id": 472,
+    "freeze_prescription": true,
+    "reported_completed_sets": null,
+    "rule": "Preserve today’s workout and logging table. No complete session or specific actual sets/reps are inferred. Clear this lock when the session is logged or the athlete explicitly requests a revision."
   }
 }

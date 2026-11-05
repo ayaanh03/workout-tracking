@@ -513,6 +513,49 @@
           "new_fixed_wait_period": false
         }
       ]
+    },
+    {
+      "id": "standard-cable-curl-elbow-irritation",
+      "status": "scheduled-exercise-replacement-current-session-frozen",
+      "reported_on": "2026-11-05",
+      "recorded_at": "2026-11-05T16:58:43-05:00",
+      "decision_id": 472,
+      "source": "../history/injury-log.md#2026-11-05--standard-cable-curl-elbow-irritation",
+      "report": {
+        "reported_on": "2026-11-05",
+        "recorded_at": "2026-11-05T16:58:43-05:00",
+        "report": "The cables are hurting my elbows.",
+        "scope_clarification": "Only standard cable curls dog",
+        "decision_id": 472,
+        "status": "standard-cable-curl-elbow-irritation-reported",
+        "scope": "Standard cable curls only. Side, exact location, severity and onset are not reported. Does not revise the November4 symptom-free log or establish completed Thursday sets."
+      },
+      "side": null,
+      "site": "elbows, athlete wording",
+      "specific_location": null,
+      "severity": null,
+      "diagnosis": null,
+      "onset_date": null,
+      "provoking_movement": "Standard cable curl",
+      "affected_slots": [
+        "T2"
+      ],
+      "excluded_exercises_for_future_sessions": [
+        "Cable curl"
+      ],
+      "replacement_exercise": "Unilateral machine preacher curl",
+      "effective_from": "2026-11-12",
+      "starting_load_lb": 75,
+      "minimum_rir": 3,
+      "action": "Schedule the replacement for future T2 sessions. Preserve the current November5 prescription and logging table by explicit athlete instruction. Activate the pending replacement after reconciling the current log or before the first later T2 prescription, preserving all former actuals.",
+      "persistence": "Ongoing replacement; do not automatically restore standard cable curls on symptom resolution or calendar rollover. The starting load is provisional and local comfort governs.",
+      "relationship_to_prior_right_elbow_nag": null,
+      "scope": "No change to rope hammer curls, cable reverse curls, cable wrist curls, incline DB curls, existing WE2 preacher, pushdowns or other cable exercises. This report does not identify those as symptom-provoking.",
+      "current_workout_exception": {
+        "date": "2026-11-05",
+        "prescription_id": "hybrid-2026-10-26-thu-upper-b-471",
+        "instruction": "Do not change today’s workout; already halfway through."
+      }
     }
   ],
   "pending_gates": [
@@ -718,14 +761,13 @@
     }
   ],
   "current_symptom_report": {
-    "reported_on": "2026-11-04",
-    "recorded_at": "2026-11-04T18:51:33-05:00",
-    "question": "Did your right elbow stay symptom-free during the curls and afterward?",
-    "report": "Yes, symptom-free throughout and afterward",
-    "decision_id": 470,
-    "status": "symptom-free-during-and-after-working-curls",
-    "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
-    "scope": "November 4 preacher and rope-hammer working-curl response. No general next-day recovery, diagnosis, or incline-curl/forearm exposure inferred."
+    "reported_on": "2026-11-05",
+    "recorded_at": "2026-11-05T16:58:43-05:00",
+    "report": "The cables are hurting my elbows.",
+    "scope_clarification": "Only standard cable curls dog",
+    "decision_id": 472,
+    "status": "standard-cable-curl-elbow-irritation-reported",
+    "scope": "Standard cable curls only. Side, exact location, severity and onset are not reported. Does not revise the November4 symptom-free log or establish completed Thursday sets."
   },
   "current_symptom_report_history": [
     {
@@ -742,6 +784,16 @@
       "decision_id": 469,
       "status": "currently-symptom-free",
       "scope": "Current right-elbow symptom resolution reported. Whether this includes gripping/light curls or working-load exposure is not yet supplied; not general run recovery, a diagnosis or completed workout."
+    },
+    {
+      "reported_on": "2026-11-04",
+      "recorded_at": "2026-11-04T18:51:33-05:00",
+      "question": "Did your right elbow stay symptom-free during the curls and afterward?",
+      "report": "Yes, symptom-free throughout and afterward",
+      "decision_id": 470,
+      "status": "symptom-free-during-and-after-working-curls",
+      "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
+      "scope": "November 4 preacher and rope-hammer working-curl response. No general next-day recovery, diagnosis, or incline-curl/forearm exposure inferred."
     }
   ],
   "standing_recovery_policy": {

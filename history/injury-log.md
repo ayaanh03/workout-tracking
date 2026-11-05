@@ -173,3 +173,9 @@ Decision #470 releases the temporary fixed-rep and set-count biceps hold. Existi
 ## 2026-11-04 — standing general-recovery assumption
 
 Athlete requests normal recovery as the standing default and automatic generation of the next workout after logging, with later adjustment if they wake up feeling poorly. Record this as a **decision assumption**, not an observed symptom/recovery report. Routine missing recovery answers no longer block otherwise valid generation or ordinary progression. Known local symptoms/restrictions and reported exceptions override the default. ThursdayNovember5 is generated under this assumption; no new actual recovery metrics, loaded-ab tolerance or blanket injury clearance is asserted. Decision #471, `program/readiness.md`.
+
+## 2026-11-05 — standard cable curl elbow irritation
+
+Athlete reports **“The cables are hurting my elbows”**, then specifies **“Only standard cable curls dog.”** Record irritation associated with the standard cable curl in T2. Side, precise location, severity and onset are unreported; no diagnosis or causal relationship to the earlier right-elbow episode is established. Keep November4’s symptom-free working-curl response as dated history.
+
+Athlete also instructs **“And don’t change today’s workout I’m already halfway through.”** Preserve today’s November5 prescription #471 and logging table exactly. Schedule the requested ongoing T2 replacement for the next Thursday Upper B, November12: unilateral machine preacher curl,75lb provisional starting reference,8–12 per arm, existing stage set count,3RIR and2min rest. The reference is WE2’s November4 75×9 atRIR3 without symptoms; it is not a new T2 actual or proof of multiple-set tolerance. Hammer, reverse, wrist and incline curls remain unchanged. Decision #472.
