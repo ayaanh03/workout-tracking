@@ -16,6 +16,7 @@ Read [schedule](program/schedule.md), [current state](Tracker.md), and only toda
 
 | Decision | Rule file |
 |---|---|
+| Default recovery and automatic next-workout generation | [Readiness workflow](program/readiness.md) |
 | Sets/RIR for achieved stage, reductions, lifting return | [Ramp and return](program/ramp-and-return.md) |
 | Load/repetition increases, incline singles | [Lift progression](program/lift-progression.md) |
 | Endurance dose, pace, effort and mileage | [Endurance](program/endurance.md) |

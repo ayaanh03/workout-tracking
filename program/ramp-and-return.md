@@ -9,7 +9,7 @@ Use each day's explicit A/B/C–D set counts; [current state](../Tracker.md) sup
 | C | Full baseline sets, about 2–3 RIR | A completed manageable week |
 | D | Day-table RIR; eligible final 0–1 sets | Earn ordinary progression |
 
-A manageable week means stable execution, settling soreness, no worsening joint/tendon symptoms, and acceptable subsequent priority sessions. Missing evidence holds the stage; a later explicitly manageable completed week can release that hold. Never skip C based on the calendar. During A–C keep loads stable once effort is appropriate; the added sets already progress the dose. W4/W9 singles do not move if D is delayed.
+A manageable week means stable execution, settling soreness, no worsening joint/tendon symptoms, and acceptable subsequent priority sessions. For a completed normal ramp week, apply the [standing good-recovery assumption](readiness.md) alongside actual performance and symptom records; no routine recovery answer is required. Missing required performance or unresolved adverse evidence holds the stage. Active return/fatigue restrictions retain their validation requirements below. Never skip C based on the calendar. During A–C keep loads stable once effort is appropriate; the added sets already progress the dose. W4/W9 singles do not move if D is delayed.
 
 ## Effective sets and effort
 

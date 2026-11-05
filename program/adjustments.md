@@ -1,16 +1,16 @@
 # Symptoms, evidence and local adjustments
 
-Use dated reports in [current state](../Tracker.md), with the decision and source actuals retained in history. Record lift-set load/reps/RIR; run-rep pace, final RPE and next-morning recovery; bike minutes/effort. Weekly review each run's pace, minutes, format, effort/recovery and resulting hold/slower/faster/next-level decision. Ramp/return/observation weeks also need a manageable-week answer.
+Use dated reports in [current state](../Tracker.md), with the decision and source actuals retained in history. Record lift-set load/reps/RIR; run-rep pace, final RPE and any reported next-morning recovery; bike minutes/effort. Weekly review each run's pace, minutes, format, effort/recovery and resulting hold/slower/faster/next-level decision. Use the [standing readiness assumption](readiness.md) for ordinary recovery and completed normal ramp-week review; active return/fatigue-observation restrictions retain their specific validation requirements.
 
 ## Missing evidence
 
-Ask once in a compact prompt for decision-critical missing recovery/metrics at the next regular interaction. Silence means unknown, never clean, normal, manageable or poor. A completed session may have pending classification.
+Ordinary recovery is assumed good under the [athlete's standing directive](readiness.md); do not ask for routine recovery confirmation or hold routine progression solely for its absence. Record the assumption separately: unreported actuals remain unknown. Ask once in a compact prompt for other decision-critical missing evidence at the next regular interaction. Silence cannot invent measurements, completed work, symptom resolution or poor recovery.
 
 - Block only the advancement, restoration or clearance needing that evidence; otherwise repeat the current appropriate dose.
-- Ordinary run recovery still unknown at its next corresponding run: mark the old session no-count; clear ordinary and comfortable credit and pending carried credit. No poor-recovery strike, no later reconstructed award. Assessment recovery follows [run progression](run-progression.md).
+- Ordinary run recovery can use the standing assumption for classification and credit. If that policy is no longer active and recovery remains unknown at the next corresponding run, mark the old session no-count and clear dependent credit without a poor-recovery strike or later reconstructed award. Assessment recovery follows [run progression](run-progression.md).
 - Return/observation validation remains pending until appropriate work and recovery are observed. Do not restore unvalidated work.
-- Missing manageable-week answer holds stage. A later explicitly manageable completed week can release the hold; calendar rollover cannot.
-- Unknown global recovery evidence holds the current phase, not a new seven-day clock or automatic clearance.
+- A completed normal ramp week can use assumed good recovery with its actual performance and symptom record; no separate routine manageable-week answer is required. Missing required performance or unresolved adverse evidence holds advancement; calendar rollover cannot complete a week or advance stage.
+- For an active global-fatigue/return restriction, unknown required recovery evidence holds the current phase, not a new seven-day clock or automatic clearance. Ordinary readiness uses the standing assumption.
 
 Corrections affect records/future decisions; never rewrite completed prescriptions or make up missed work.
 

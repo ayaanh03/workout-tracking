@@ -13,4 +13,6 @@ Block `hybrid-2026-10-26`, program v11.0: **activated October 25, 2026**, ending
 
 JSON records are the mutable source of truth; this index is not a duplicate tracker. Null means unknown/not established, never clean, completed or zero-load. Day tables in [program.md](program.md) plus state determine the effective prescription.
 
+The [standing readiness directive](program/readiness.md) supplies assumed good recovery for ordinary decisions and next-workout generation after logging. Keep that assumption separate from unreported actual recovery; existing injury/return limits still apply.
+
 Actuals: [lifting](history/lifting-log.md), [cardio](history/cardio-log.md), [injury/recovery](history/injury-log.md), [completed weeks](history/weekly-summary.md). Adaptations cite dated actuals and a rule in the [decision ledger](history/adjustments.md). [Old records](archive/README.md) are archived.

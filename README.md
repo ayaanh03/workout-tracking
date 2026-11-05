@@ -6,9 +6,9 @@ Every workout answers three questions:
 
 1. **Why this workout today?** Calendar slot, achieved stage, and evidence behind changes.
 2. **Exactly what do I do?** Ordered exercises, effective sets/reps/load/RIR/rest, or endurance duration, pace, effort and recovery.
-3. **Was the adaptation correct?** Previous comparable actuals → applicable rule → today's decision. Missing evidence stays pending.
+3. **Was the adaptation correct?** Previous comparable actuals → applicable rule → today's decision, distinguishing observed recovery from the athlete's standing good-recovery assumption.
 
-Ask for today's workout; afterward report actual load/reps/RIR per set or interval paces/final RPE, plus relevant symptoms and next-day recovery. The dashboard's lift form formats a report to paste into chat; it does not save records itself.
+After each session, report actual load/reps/RIR per set or interval paces/final RPE. The assistant logs it and generates/publishes the next scheduled workout automatically, assuming ordinary recovery is good. Report poor recovery or new symptoms when they occur so the next workout can be adjusted. Future sessions are labeled previews; active injury limits remain. See the [standing workflow](program/readiness.md). The dashboard's lift form formats a report to paste into chat; it does not save records itself.
 
 | Start here | Purpose |
 |---|---|

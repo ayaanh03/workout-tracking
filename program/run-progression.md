@@ -13,15 +13,15 @@ Friday's 24-minute formats are one level: 3 × 8 before W5, 4 × 6 from W6. One 
 
 ## Classification
 
-Classify only after actual next-day recovery is reported. Full normal work in comparable conditions is required; temporary cuts, return work and assessment workouts earn no progression. A recovery forecast is not an observation.
+Use reported next-day recovery when available; otherwise apply the athlete's [standing good-recovery assumption](readiness.md) for ordinary classification and progression. Record which basis was used without inventing an observation. Full normal work in comparable conditions is required; temporary cuts, return work and assessment workouts earn no progression.
 
 | Result | Conditions / action |
 |---|---|
-| Hit | Every rep at target or faster, allowing up to 5 s/mi slow (`actual seconds/mile ≤ target + 5`); no extra interval rest, final RPE within cap, normal next-day recovery. No fast-side cutoff. Clears misses. |
+| Hit | Every rep at target or faster, allowing up to 5 s/mi slow (`actual seconds/mile ≤ target + 5`); no extra interval rest, final RPE within cap, normal next-day recovery reported or assumed under the standing directive. No fast-side cutoff. Clears misses. |
 | Miss | Otherwise recovered/comparable, but a rep >5 s/mi slow, extra rest, or effort exceeds cap. Deliberate slowing of an unsuitable target also counts. Clears hits/comfortable credit and unused pace steps. |
 | No-count | Uncertain measurement, materially changed conditions, poor recovery, shortened/skipped work. Clear counts/comfortable credit and unused pace steps; hold progression. Poor recovery invokes [run recovery](run-return.md). |
 
-Apply exclusions before pace. Missing recovery stays pending; at the next corresponding run, unresolved recovery becomes no-count without inventing poor recovery. Faster reps count under #450 but do not offset a slow rep, excessive effort, extra rest or missing work. Watch pace alerts guide pacing; fast-side alerts do not disqualify credit. Preserve actual paces and the original prescribed target separately.
+Apply exclusions before pace. While the standing directive is active, missing routine recovery alone neither leaves ordinary classification pending nor makes it no-count; use the documented assumption. If the directive is withdrawn, unresolved routine recovery stays pending and becomes no-count at the next corresponding run without inventing poor recovery. Active injury/return/fatigue restrictions still require their own evidence. Faster reps count under #450 but do not offset a slow rep, excessive effort, extra rest or missing work. Watch pace alerts guide pacing; fast-side alerts do not disqualify credit. Preserve actual paces and the original prescribed target separately.
 
 A required streak clear also cancels unused pace evidence/awards, except an explicitly saved surviving [assessment award](run-credit.md). A pause cannot revive cancelled credit.
 
@@ -29,7 +29,7 @@ A **comfortable hit** has final RPE ≤6 Tuesday / ≤5 Friday (two points below
 
 ## Eligibility before increasing
 
-Symptoms/recovery → fatigue/assessment/return → complete-week mileage → performance-based progression. Effort caps remain **Tuesday 8, Friday 7**; never force extra effort to earn progression. Normal recovery and acceptable running/lifting tolerance are required. During the ramp, review the latest completed week's manageability; pending evidence is not clearance. Investigate persistent priority-lift decline before attributing it to running or increasing its load.
+Symptoms/recovery → fatigue/assessment/return → complete-week mileage → performance-based progression. Effort caps remain **Tuesday 8, Friday 7**; never force extra effort to earn progression. Use the [readiness policy](readiness.md) for ordinary recovery/tolerance; contrary reports or performance override it. During the ramp, review the latest completed week's actual performance and manageability using that same recovery basis. Do not block an ordinary increase only for an absent routine recovery answer. Investigate persistent priority-lift decline before attributing it to running or increasing its load.
 
 A **local upper-body hold or repeated lifting stage alone does not block running**. Record why the stage is held: global fatigue, poor recovery, running-relevant joint/tendon symptoms or persistent lower-body decline can block increases; a biceps maintenance hold by itself cannot. Existing injury/return restrictions still apply. Assessment weeks allow no progression. The full planned week must fit 15 running miles, including all easy sections.
 

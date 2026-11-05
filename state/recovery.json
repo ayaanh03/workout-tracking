@@ -558,7 +558,7 @@
     "lower_ab_response": null,
     "achilles_response": null,
     "next_day_recovery": null,
-    "status": "elbow-response-confirmed-next-day-pending",
+    "status": "general-recovery-assumed-good-elbow-response-confirmed",
     "decision_id": 470,
     "latest_followup": {
       "reported_on": "2026-11-04",
@@ -570,7 +570,15 @@
       "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
       "scope": "November 4 preacher and rope-hammer working-curl response. No general next-day recovery, diagnosis, or incline-curl/forearm exposure inferred."
     },
-    "note": "10 lifting sets and 20-minute bike at RPE 2 reported. Biceps maintenance released after working response; no new general next-day recovery or stage advance inferred."
+    "note": "Wednesday completed with elbow symptom-free during/after. General recovery for planning is assumed good under #471; next-day observation remains unreported. Active ab/Achilles/overhead restrictions are preserved separately.",
+    "recovery_decision": {
+      "status": "assumed-good",
+      "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+      "decision_id": 471,
+      "recorded_at": "2026-11-04T22:45:42-05:00",
+      "observed": false,
+      "reason": "Athlete explicitly directs normal recovery by default unless they report otherwise."
+    }
   },
   "prior_pending_post_sessions": [
     {
@@ -581,7 +589,7 @@
       "triceps_tendon_response": "No issues reported with cable pushdowns.",
       "achilles_response": null,
       "next_day_recovery": null,
-      "status": "local-response-comfortable-next-day-pending",
+      "status": "general-recovery-assumed-site-specific-review-retained",
       "decision_id": 460,
       "latest_followup": {
         "reported_on": "2026-11-02",
@@ -591,7 +599,37 @@
         "decision_id": 460,
         "scope": "Athlete reports no ab or tendon issues with this completed session. Not next-morning recovery or blanket injury clearance."
       },
-      "note": "All 16 Stage-B sets reported. Abs and tendons had no issues; no new Achilles-specific observation or next-day recovery supplied. Preserve BW loading limits and ongoing overhead replacement. No repeated question tonight; review next-day response at the next relevant interaction."
+      "note": "Routine general recovery is assumed good per #471. Observed next-day recovery stays unreported; specific ab-loading review remains separate and does not block otherwise valid generation.",
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 471,
+        "recorded_at": "2026-11-04T22:45:42-05:00",
+        "observed": false,
+        "reason": "Athlete explicitly directs normal recovery by default unless they report otherwise."
+      }
+    }
+  ],
+  "resolved_post_sessions": [
+    {
+      "date": "2026-10-30",
+      "session_id": "hybrid-2026-10-26-w1-fri-2026-10-30",
+      "completion": "reported",
+      "lower_ab_response": null,
+      "achilles_response": null,
+      "next_day_recovery": {
+        "reported_on": "2026-11-02",
+        "question": "Was W1 manageable overall—soreness settling, recovery good, and no worsening joint/tendon symptoms? This determines whether today moves to Stage B.",
+        "report": "Yes, manageable overall",
+        "status": "good",
+        "provenance": "athlete response to explicit completed-week review",
+        "decision_id": 458,
+        "scope": "Retrospective W1 recovery review covering all October 26–November 1 sessions, including Friday; also current Monday recovery after Sunday. No numeric metrics or backdated daily report supplied."
+      },
+      "followup_requested_on": "2026-10-30",
+      "status": "recovery-resolved-by-retrospective-week-review",
+      "decision_id": 458,
+      "note": "November 2 explicit W1 recovery review resolves the progression recovery gate. Separate Friday site-specific observations remain unreported; no new deviation or symptoms asserted."
     },
     {
       "date": "2026-11-03",
@@ -600,10 +638,10 @@
       "lower_ab_response": "No current symptoms reported November 4; during/after-run response not separately supplied.",
       "achilles_response": "No current symptoms reported November 4; intermittent Vomero-associated irritation retained separately.",
       "next_day_recovery": null,
-      "status": "next-day-recovery-and-local-response-pending",
+      "status": "routine-recovery-resolved-by-athlete-assumption",
       "decision_id": 465,
       "report": "Genuine cheese of a workout RPE 5,6,7",
-      "note": "Tuesday next-day general recovery remains pending. The separate November 4 elbow working-curl response is symptom-free and its maintenance hold was released in #470; this does not resolve run recovery.",
+      "note": "Tuesday classified as hit2 using the standing assumed-good recovery policy. Observed next-day recovery remains null; no invented site-specific observations. Run pace change waits for next prescription.",
       "same_evening_followup": {
         "reported_on": "2026-11-03",
         "reported_at": "2026-11-03T21:28:33-05:00",
@@ -628,39 +666,26 @@
         "decision_id": 469,
         "status": "currently-symptom-free",
         "scope": "Current right-elbow symptom resolution reported. Whether this includes gripping/light curls or working-load exposure is not yet supplied; not general run recovery, a diagnosis or completed workout."
-      }
-    }
-  ],
-  "resolved_post_sessions": [
-    {
-      "date": "2026-10-30",
-      "session_id": "hybrid-2026-10-26-w1-fri-2026-10-30",
-      "completion": "reported",
-      "lower_ab_response": null,
-      "achilles_response": null,
-      "next_day_recovery": {
-        "reported_on": "2026-11-02",
-        "question": "Was W1 manageable overall—soreness settling, recovery good, and no worsening joint/tendon symptoms? This determines whether today moves to Stage B.",
-        "report": "Yes, manageable overall",
-        "status": "good",
-        "provenance": "athlete response to explicit completed-week review",
-        "decision_id": 458,
-        "scope": "Retrospective W1 recovery review covering all October 26–November 1 sessions, including Friday; also current Monday recovery after Sunday. No numeric metrics or backdated daily report supplied."
       },
-      "followup_requested_on": "2026-10-30",
-      "status": "recovery-resolved-by-retrospective-week-review",
-      "decision_id": 458,
-      "note": "November 2 explicit W1 recovery review resolves the progression recovery gate. Separate Friday site-specific observations remain unreported; no new deviation or symptoms asserted."
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 471,
+        "recorded_at": "2026-11-04T22:45:42-05:00",
+        "observed": false,
+        "reason": "Athlete explicitly directs normal recovery by default unless they report otherwise."
+      },
+      "resolved_by_decision_id": 471
     }
   ],
   "readiness_forecast": {
     "reported_on": "2026-11-04",
-    "reported_at": "2026-11-04T02:19:21-05:00",
-    "for_date": "2026-11-04",
-    "report": "Tomorrow's workout recovery will be fine. No symptoms, no tendon issues, slight nagging on the right elbow, tennis elbow.",
-    "status": "expected-good-not-yet-observed",
-    "decision_id": 468,
-    "scope": "Forecast for requested workout; not confirmed post-run general recovery, a manageable-week review or injury clearance."
+    "reported_at": "2026-11-04T22:45:42-05:00",
+    "for_date": "2026-11-05",
+    "report": "Generate Thursday I’ll be fine on the recovery side. Assume recovery is always fine and always generate the next workout on logging. We’ll readjust if I wake up that morning and I’m cooked but 90% of the time I’ll be aight",
+    "status": "assumed-good-per-standing-directive",
+    "decision_id": 471,
+    "scope": "Planning and ordinary progression default, subject to reported exceptions; no observed morning metrics or new injury clearance."
   },
   "readiness_forecast_history": [
     {
@@ -681,6 +706,15 @@
       "status": "expected-good-not-yet-observed",
       "decision_id": 466,
       "scope": "Same-evening expectation of good recovery and low perceived session difficulty. Not a next-day observation, numeric RPE correction or injury clearance."
+    },
+    {
+      "reported_on": "2026-11-04",
+      "reported_at": "2026-11-04T02:19:21-05:00",
+      "for_date": "2026-11-04",
+      "report": "Tomorrow's workout recovery will be fine. No symptoms, no tendon issues, slight nagging on the right elbow, tennis elbow.",
+      "status": "expected-good-not-yet-observed",
+      "decision_id": 468,
+      "scope": "Forecast for requested workout; not confirmed post-run general recovery, a manageable-week review or injury clearance."
     }
   ],
   "current_symptom_report": {
@@ -709,5 +743,33 @@
       "status": "currently-symptom-free",
       "scope": "Current right-elbow symptom resolution reported. Whether this includes gripping/light curls or working-load exposure is not yet supplied; not general run recovery, a diagnosis or completed workout."
     }
-  ]
+  ],
+  "standing_recovery_policy": {
+    "id": "2026-11-04-assume-good-recovery-and-auto-next",
+    "status": "active",
+    "decision_id": 471,
+    "reported_on": "2026-11-04",
+    "recorded_at": "2026-11-04T22:45:42-05:00",
+    "athlete_report": "Generate Thursday I’ll be fine on the recovery side. Assume recovery is always fine and always generate the next workout on logging. We’ll readjust if I wake up that morning and I’m cooked but 90% of the time I’ll be aight",
+    "default_general_recovery": "assumed-good",
+    "applies_to": [
+      "routine workout generation",
+      "ordinary progression recovery checks",
+      "ordinary completed-week recovery component"
+    ],
+    "observed_recovery_required_for_routine_generation": false,
+    "ask_routine_recovery_question": false,
+    "override": "A newer poor-recovery, fatigue, illness or symptom report overrides the assumption and triggers adjustment. Existing site-specific restrictions and return/assessment rules remain in force.",
+    "evidence_handling": "Use an explicit assumption for decisions; never populate observed recovery fields or invent performance, symptoms or completion.",
+    "source": "../program/readiness.md"
+  },
+  "planning_readiness": {
+    "status": "assumed-good",
+    "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+    "decision_id": 471,
+    "recorded_at": "2026-11-04T22:45:42-05:00",
+    "observed": false,
+    "reason": "Athlete explicitly directs normal recovery by default unless they report otherwise.",
+    "for_date": "2026-11-05"
+  }
 }

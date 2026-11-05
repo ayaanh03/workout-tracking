@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-04T18:51:33-05:00",
+  "generatedAt": "2026-11-04T22:45:42-05:00",
   "blockId": "hybrid-2026-10-26",
-  "preview": false,
+  "preview": true,
   "week": "W2",
   "phase": "Hybrid v11 — Stage B",
   "rangeStart": "2026-11-02",
   "rangeEnd": "2026-11-08",
-  "summary": "W2, November 2–8 — Monday, Tuesday and Wednesday completed; 26 lifting sets and 20 bike minutes logged. Wednesday curls were symptom-free during/after, so future curl sessions return to normal Stage-B sets and ranges at unchanged loads. Up to 68 lifting sets this week including conditional forearms; Tuesday run recovery remains pending.",
+  "summary": "W2, November 2–8 — Thursday November 5 Upper B preview ready: 18 sets. Monday through Wednesday completed with 26 lifting sets. Recovery defaults to good, and logging now generates the next workout automatically. Up to 68 weekly lifting sets including conditional forearms; Wednesday stays at its completed 10 sets.",
   "days": [
     {
       "date": "2026-11-02",
@@ -19,7 +19,7 @@
       "date": "2026-11-03",
       "day": "Tue",
       "session": "Intervals",
-      "note": "Completed 3×4 at 6:28/6:37/6:31 per mile, RPE 5/6/7; 3-min recoveries, probable warmup breaks. Confirmed 4.25 mi in new Evo SLs. Pace/effort pass; ordinary hit 2 awaits next-day recovery. Athlete expects good recovery; this is a same-evening forecast.",
+      "note": "Completed 3×4 at 6:28/6:37/6:31 per mile, RPE 5/6/7; confirmed 4.25 mi in Evo SLs. Hit 2 uses assumed good recovery per athlete directive; next 3×4 at 6:40 is earned but not yet generated. Original target 6:50 and probable warmup breaks retained.",
       "status": "done"
     },
     {
@@ -33,7 +33,7 @@
       "date": "2026-11-05",
       "day": "Thu",
       "session": "Upper B",
-      "note": "18 Stage-B sets: cable curl returns to 42.5 lb for 2×10–15 at 3 RIR after the symptom-free elbow review; BW abs up to 2 comfortable sets. Other established loads unchanged.",
+      "note": "Preview ready: incline 135 lb 3×6–8; curl 42.5 lb 2×10–15; laterals 35 lb 3×12–20; pull-up BW 2×6–12; pushdown 50 lb 2×10–15; row 120 lb 2×8–12; BW crunch 2×10–15; straight-arm pulldown 50 lb 2×10–15. Target 3 RIR; recovery assumed good.",
       "status": "upcoming"
     },
     {

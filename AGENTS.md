@@ -2,7 +2,8 @@
 
 Read [program.md](program.md), [Tracker.md](Tracker.md), and [docs/workflow.md](docs/workflow.md), then only the relevant day/rule modules and state. Consult [docs/dashboard.md](docs/dashboard.md) when writing caches or Watch files.
 
-- Current user instructions and actual reports take precedence. Use America/New_York dates; logging does not advance the calendar.
+- Current user instructions and actual reports take precedence. Use America/New_York dates; logging does not advance the live calendar.
+- Follow [default recovery and next-workout workflow](program/readiness.md): assume good ordinary recovery unless contradicted and generate/publish the next scheduled workout after logging. Label future workouts as previews; preserve completed actuals and active injury/return limits. Do not ask routine recovery questions or hold ordinary progression only because a recovery report is absent.
 - Output only **why today**, **exact workout**, and **adaptation check**. No technique tutorials, research, nutrition advice, motivational filler, or routine lift warmup/cooldown tables. Retain prescribed run warmup/cooldown because they affect workload.
 - Prescription: `program/`. Current facts: `state/`. Actuals and decisions: `history/`. Caches are derived views; never promote a prescription to an actual.
 - Apply symptoms/recovery, return/assessment, achieved-stage limits, then earned progression. Preserve unknowns and persistent restrictions. Calendar rollover does not earn advancement.

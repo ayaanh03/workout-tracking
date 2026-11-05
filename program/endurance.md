@@ -34,7 +34,7 @@ An explicitly selected W3/W4 first-test week replaces that row with assessment d
 
 ## Cycling
 
-Only after Wednesday/Saturday lifting: RPE 3/10 (acceptable 2–4), comfortable full-sentence conversation. Advance duration only when the previous dose left subsequent lifting/running acceptable; otherwise hold the last tolerated duration. Global fatigue freezes increases. Option C allows at most 15 comfortable minutes; rest is allowed. [Adjustments](adjustments.md) controls observation and return.
+Only after Wednesday/Saturday lifting: RPE 3/10 (acceptable 2–4), comfortable full-sentence conversation. Advance duration only when the previous dose left subsequent lifting/running acceptable; use the [standing readiness assumption](readiness.md) for ordinary recovery, with actual adverse performance or symptoms overriding it. Do not hold duration solely for an absent routine recovery answer; required completed-session evidence and calendar ceilings still apply. Otherwise hold the last tolerated duration. Global fatigue freezes increases. Option C allows at most 15 comfortable minutes; rest is allowed. [Adjustments](adjustments.md) controls observation and return.
 
 ## Running mileage ceiling
 

@@ -148,3 +148,9 @@ Session ID: `hybrid-2026-10-26-w2-wed-2026-11-04-bike`, following the reported d
 Save the exact setup report: **“seat:-2 maybe -1 handle: +3 height:9 maybe 9.5”**. Seat −2 with possible alternative −1; handle +3; height9 with possible alternative9.5. These are reported position labels without supplied units. Keep uncertainty visible in the shared bike-settings record for future bike workouts; do not silently choose between alternatives or assume the earlier Stages bike is the same machine.
 
 Effort falls within the acceptable 2–4 range. Keep the W2/W3 20-minute dose, preserve prior validated tolerance separately and await later lifting/run response before any duration increase. Decision #470.
+
+### November 4 — recovery default applied to November 3 Tuesday (#471)
+
+The athlete now directs assumed-good general recovery unless an exception is reported. Reassess the already-completed November3 run using that explicit decision basis while preserving observed recovery as null: **ordinary hit2, misses0**, no comfortable tag (finalRPE7 >6). Actual reps6:28/6:37/6:31, original6:50 target, full3×4 work, recorded3-minute recoveries and tentative warmup-pause explanation are unchanged.
+
+The all-rep headroom calculation remains410−397=13seconds →10-second pace step: **next3×4 at6:40**, source not yet consumed. Current normal target remains6:50 until the changed workout is generated. No extra rep, additional mileage, Watch-file replacement or shoe update occurs. Wednesday bike future-session performance is not yet observed; ordinary duration stays20minutes without a routine recovery question. Saturday bike’s subsequent-run evidence now supports its prescribed20-minute dose using the same labeled assumption. Later reported poor recovery or relevant symptoms trigger reassessment.

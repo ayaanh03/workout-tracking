@@ -8,14 +8,22 @@
     "rpe_cap": 8,
     "temporary_prescription": null,
     "last_successful_normal": {
-      "date": "2026-10-27",
-      "session_id": "hybrid-2026-10-26-w1-tue-2026-10-27",
+      "date": "2026-11-03",
+      "session_id": "hybrid-2026-10-26-w2-tue-2026-11-03",
       "pace_seconds_per_mile": 410,
       "work_minutes": 12,
       "format": "3x4",
-      "source": "../history/cardio-log.md#2026-10-27--hybrid-v11-w1-tuesday-intervals",
-      "decision_id": 451,
-      "qualification_note": "Prescribed 3×4 at 6:50/mi established as successful. Athlete explicitly accepts the displayed 6:56 first rep as a pass due to reported tracking error; faster later reps, final RPE 8 and good next-day recovery qualify. Raw displayed paces are unchanged."
+      "source": "../history/cardio-log.md#2026-11-03--hybrid-v11-w2-tuesday-intervals",
+      "decision_id": 471,
+      "recovery_basis": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 471,
+        "recorded_at": "2026-11-04T22:45:42-05:00",
+        "observed": false,
+        "reason": "Athlete explicitly directs normal recovery by default unless they report otherwise."
+      },
+      "qualification_note": "November3 qualifies as ordinary hit2 under the standing assumed-good recovery policy. Actual pace, effort and pause evidence retained; observed recovery remains unreported."
     },
     "last_completed": "2026-11-03",
     "latest_actual": {
@@ -148,8 +156,8 @@
         "scope": "Current symptoms quiet except slight right-elbow nag. Tennis elbow is the athlete description, not a diagnosis. Future general recovery is expected, not observed."
       }
     },
-    "classification": "pending",
-    "hits": 1,
+    "classification": "hit",
+    "hits": 2,
     "misses": 0,
     "comfortable_pair": [],
     "next_day_recovery": null,
@@ -158,8 +166,6 @@
     "pending_validation": null,
     "carried_adjustment": null,
     "classification_review": {
-      "decision_id": 465,
-      "status": "pending-next-day-recovery",
       "pace_offsets_seconds_per_mile": [
         -22,
         -13,
@@ -172,21 +178,29 @@
         true,
         true
       ],
-      "candidate_if_normally_recovered_and_comparable": "hit",
-      "candidate_hit_count": 2,
-      "retained_hit_count": 1,
-      "retained_count_note": "Prior October 27 hit remains recorded while November 3 classification is pending; no new increment or reset yet.",
       "performance_status": "pace-and-effort-qualified",
-      "reason": "All three four-minute work reps pass the 6:55-or-faster cutoff; final RPE 7 meets cap 8. Recorded recoveries are 3 minutes each; athlete tentatively attributes elapsed-time breaks to warmup, with no extra interval rest reported. Normal next-day recovery is pending. Faster splits count; no comfortable tag at final RPE 7 > 6.",
-      "followup_requested_on": "2026-11-03",
-      "recovery_followup": "Review November 4 response at the next interaction; same-evening ease is not next-day recovery.",
-      "rule_revision": "2026-10-30-faster-pace-credit",
-      "pause_review": "Probable warmup breaks reported; no interval-rest deviation established. Do not classify the elapsed gap itself as a miss."
+      "pause_review": "Probable warmup breaks reported; no interval-rest deviation established. Do not classify the elapsed gap itself as a miss.",
+      "decision_id": 471,
+      "reviewed_on": "2026-11-04",
+      "status": "hit-under-assumed-good-recovery",
+      "classification": "hit",
+      "hit_count_before": 1,
+      "hit_count_after": 2,
+      "recovery_basis": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 471,
+        "recorded_at": "2026-11-04T22:45:42-05:00",
+        "observed": false,
+        "reason": "Athlete explicitly directs normal recovery by default unless they report otherwise."
+      },
+      "rule_revision": "2026-11-04-assume-good-recovery-and-auto-next",
+      "reason": "Full3×4 at6:28/6:37/6:31 and finalRPE7 pass the original6:50 target and cap8. Recorded3-minute recoveries and probable warmup breaks are retained. The standing athlete-directed recovery assumption supplies the routine recovery condition; no actual recovery observation is claimed."
     },
     "next_action": {
-      "decision_id": 467,
-      "action": "increase-pace-after-recovery-check",
-      "status": "pending-next-day-recovery",
+      "decision_id": 471,
+      "action": "apply-earned-pace-step-at-next-prescription",
+      "status": "earned-awaiting-next-prescription",
       "for_date": "2026-11-10",
       "policy_id": "2026-11-03-pace-first",
       "source_session_id": "hybrid-2026-10-26-w2-tue-2026-11-03",
@@ -202,18 +216,25 @@
       "cooldown_minutes": 10,
       "rpe_cap": 8,
       "pending_checks": [
-        "Actual normal next-day recovery for November 3; confidence remains a forecast",
-        "Current symptoms, running/priority-lifting tolerance and latest completed-week manageability; unrelated local biceps hold alone does not block this step",
-        "No return/fatigue/assessment override and complete future week within 15 running miles"
+        "Apply any newer reported recovery/symptom exception or relevant priority-lift decline",
+        "At generation, verify no return/fatigue/assessment override and the complete future week fits15running miles"
       ],
-      "activation": "At generation after checks pass, record this source and 10-second step as used before changing the normal target and clearing counters. This decision changes the rule now, not the past prescription or today’s classification.",
-      "reason": "The adopted all-rep headroom rule gives 410 − max(388,397,391) = 13; min(15,5×floor(13/5)) = 10, yielding 6:40. Hold 12 work minutes. This supersedes both the fourth-rep proposal and the separate calibration-exception proposal; no further rule approval is needed."
+      "activation": "When the November10 workout is generated, record this source and10-second step as used, update normal target to400seconds/mile and reset counters before that exposure. No source consumption or target change today.",
+      "reason": "The adopted all-rep headroom rule gives 410 − max(388,397,391) = 13; min(15,5×floor(13/5)) = 10, yielding 6:40. Hold 12 work minutes. This supersedes both the fourth-rep proposal and the separate calibration-exception proposal; no further rule approval is needed.",
+      "recovery_basis": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 471,
+        "recorded_at": "2026-11-04T22:45:42-05:00",
+        "observed": false,
+        "reason": "Athlete explicitly directs normal recovery by default unless they report otherwise."
+      }
     },
     "pace_adjustment_history": [],
     "pace_progression_review": {
-      "decision_id": 467,
+      "decision_id": 471,
       "policy_id": "2026-11-03-pace-first",
-      "reviewed_on": "2026-11-03",
+      "reviewed_on": "2026-11-04",
       "source_session_id": "hybrid-2026-10-26-w2-tue-2026-11-03",
       "source_prescription_id": "hybrid-2026-10-26-tue-intervals-461",
       "source_date": "2026-11-03",
@@ -225,15 +246,85 @@
       "final_rep_rpe": 7,
       "rpe_cap": 8,
       "comfortable_effort_threshold": 6,
-      "ordinary_hits_confirmed": 1,
+      "ordinary_hits_confirmed": 2,
       "pace_step_seconds_per_mile": 10,
       "candidate_pace_seconds_per_mile": 400,
       "work_minutes_held": 12,
       "route": "measured-pace-headroom",
-      "status": "pending-next-day-recovery",
+      "status": "earned-under-assumed-good-recovery-awaiting-prescription",
       "applied": false,
-      "reason": "All three work reps demonstrate at least 13 s/mi headroom; round down to a 10-second pace step. Final RPE 7 is within cap 8; confirmed next-day recovery remains pending."
-    }
+      "reason": "All three reps show at least13s/mi headroom; round down to10s. FinalRPE7 fitscap8, and recovery is assumed good under the athlete directive. Earn3×4 at6:40, with source unconsumed until generation.",
+      "recovery_basis": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 471,
+        "recorded_at": "2026-11-04T22:45:42-05:00",
+        "observed": false,
+        "reason": "Athlete explicitly directs normal recovery by default unless they report otherwise."
+      }
+    },
+    "classification_review_history": [
+      {
+        "decision_id": 465,
+        "status": "pending-next-day-recovery",
+        "pace_offsets_seconds_per_mile": [
+          -22,
+          -13,
+          -19
+        ],
+        "effort_cap_exceeded": false,
+        "comfortable_effort_threshold_met": false,
+        "rep_pace_checks_passed": [
+          true,
+          true,
+          true
+        ],
+        "candidate_if_normally_recovered_and_comparable": "hit",
+        "candidate_hit_count": 2,
+        "retained_hit_count": 1,
+        "retained_count_note": "Prior October 27 hit remains recorded while November 3 classification is pending; no new increment or reset yet.",
+        "performance_status": "pace-and-effort-qualified",
+        "reason": "All three four-minute work reps pass the 6:55-or-faster cutoff; final RPE 7 meets cap 8. Recorded recoveries are 3 minutes each; athlete tentatively attributes elapsed-time breaks to warmup, with no extra interval rest reported. Normal next-day recovery is pending. Faster splits count; no comfortable tag at final RPE 7 > 6.",
+        "followup_requested_on": "2026-11-03",
+        "recovery_followup": "Review November 4 response at the next interaction; same-evening ease is not next-day recovery.",
+        "rule_revision": "2026-10-30-faster-pace-credit",
+        "pause_review": "Probable warmup breaks reported; no interval-rest deviation established. Do not classify the elapsed gap itself as a miss."
+      }
+    ],
+    "recovery_decision": {
+      "status": "assumed-good",
+      "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+      "decision_id": 471,
+      "recorded_at": "2026-11-04T22:45:42-05:00",
+      "observed": false,
+      "reason": "Athlete explicitly directs normal recovery by default unless they report otherwise."
+    },
+    "pace_progression_review_history": [
+      {
+        "decision_id": 467,
+        "policy_id": "2026-11-03-pace-first",
+        "reviewed_on": "2026-11-03",
+        "source_session_id": "hybrid-2026-10-26-w2-tue-2026-11-03",
+        "source_prescription_id": "hybrid-2026-10-26-tue-intervals-461",
+        "source_date": "2026-11-03",
+        "source_target_seconds_per_mile": 410,
+        "source_work_minutes": 12,
+        "source_format": "3x4",
+        "slowest_rep_seconds_per_mile": 397,
+        "minimum_headroom_seconds_per_mile": 13,
+        "final_rep_rpe": 7,
+        "rpe_cap": 8,
+        "comfortable_effort_threshold": 6,
+        "ordinary_hits_confirmed": 1,
+        "pace_step_seconds_per_mile": 10,
+        "candidate_pace_seconds_per_mile": 400,
+        "work_minutes_held": 12,
+        "route": "measured-pace-headroom",
+        "status": "pending-next-day-recovery",
+        "applied": false,
+        "reason": "All three work reps demonstrate at least 13 s/mi headroom; round down to a 10-second pace step. Final RPE 7 is within cap 8; confirmed next-day recovery remains pending."
+      }
+    ]
   },
   "friday": {
     "pace_seconds_per_mile": 445,
@@ -485,12 +576,12 @@
         "decision_id": 470
       },
       "pending_validation": {
-        "decision_id": 470,
-        "status": "pending-subsequent-session-response",
-        "reason": "November 4 dose completed at RPE 2; later lifting/running response is not yet observed. Prior validated 20-minute dose retained."
+        "decision_id": 471,
+        "status": "awaiting-future-session-performance-not-routine-recovery",
+        "reason": "General recovery is assumed good. Later lifting/run performance has not occurred yet; assess it when logged without blocking ordinary20-minute generation or asking routine recovery questions."
       },
       "next_action": {
-        "decision_id": 470,
+        "decision_id": 471,
         "action": "hold-at-calendar-ceiling",
         "minutes": 20,
         "target_rpe": 3,
@@ -498,7 +589,7 @@
           2,
           4
         ],
-        "reason": "20 minutes at RPE 2 is within the prescribed effort range. Hold the W2/W3 20-minute ceiling; no HR or power target is inferred."
+        "reason": "Keep the W2/W3 20-minute ceiling at RPE3 (2–4 acceptable). General recovery is assumed good unless contradicted; later performance is reviewed when logged."
       },
       "validation_review": {
         "decision_id": 458,
@@ -545,11 +636,19 @@
             }
           }
         }
-      ]
+      ],
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 471,
+        "recorded_at": "2026-11-04T22:45:42-05:00",
+        "observed": false,
+        "reason": "Athlete explicitly directs normal recovery by default unless they report otherwise."
+      }
     },
     "saturday": {
       "last_completed": "2026-10-31",
-      "last_tolerated_minutes": null,
+      "last_tolerated_minutes": 20,
       "latest_actual": {
         "date": "2026-10-31",
         "session_id": "hybrid-2026-10-26-w1-sat-2026-10-31-bike",
@@ -590,9 +689,9 @@
           "scope": "Sunday current general recovery and next-day recovery after Saturday October 31 lifting/bike. No numeric metrics, new site-specific report or completed manageable-week assessment supplied."
         },
         "subsequent_lifting_running_tolerance": {
-          "reviewed_on": "2026-11-03",
-          "decision_id": 465,
-          "status": "lifting-acceptable-running-performance-recorded-recovery-pending",
+          "reviewed_on": "2026-11-04",
+          "decision_id": 471,
+          "status": "acceptable-with-run-recovery-assumed",
           "lifting_session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
           "lifting_source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
           "evidence": "All 11 Sunday sets meet ranges at RIR 3 or more. Compared with October 25, calf and hack reps improved; no demonstrated leg-performance decline. Leg curl recalibrated upward to 100 lb.",
@@ -609,8 +708,16 @@
               391
             ],
             "final_rep_rpe": 7,
-            "status": "pace-and-effort-qualified-response-pending",
-            "note": "Subsequent run recorded with passing pace/effort and probable warmup breaks; local response and next-day recovery pending. No cycling duration increase."
+            "status": "hit-with-assumed-good-recovery",
+            "note": "Pace and effort pass; run recovery decision supplied by standing athlete assumption in #471, not an observation.",
+            "recovery_basis": {
+              "status": "assumed-good",
+              "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+              "decision_id": 471,
+              "recorded_at": "2026-11-04T22:45:42-05:00",
+              "observed": false,
+              "reason": "Athlete explicitly directs normal recovery by default unless they report otherwise."
+            }
           },
           "local_followup": {
             "reported_on": "2026-11-01",
@@ -645,22 +752,31 @@
           "scope": "Answers the Saturday during/after symptom question. No new ab or calf sets, next-day general recovery or full injury clearance is claimed."
         }
       },
-      "pending_validation": {
-        "decision_id": 465,
-        "status": "pending-subsequent-run-response",
-        "followup_requested_on": "2026-10-31",
-        "reason": "Subsequent Tuesday run now logged with passing pace/effort. Post-run recovery/local response remains pending; no duration increase."
-      },
+      "pending_validation": null,
       "next_action": {
-        "decision_id": 465,
-        "action": "hold-planned-duration-pending-tolerance",
+        "decision_id": 471,
+        "action": "hold-at-calendar-ceiling",
         "minutes": 20,
         "target_rpe": 3,
         "acceptable_rpe_range": [
           2,
           4
         ],
-        "reason": "Hold W2 20 minutes if comfortable. Sunday lifting and prior recovery support the dose; Tuesday performance is recorded, with run response still pending. No new HR or power target."
+        "reason": "Prescribed20-minute dose supported by subsequent performance and the standing general-recovery assumption. W2/W3 stays20minutes; no power/HR target."
+      },
+      "validation_review": {
+        "decision_id": 471,
+        "reviewed_on": "2026-11-04",
+        "status": "20-minute-prescribed-dose-supported",
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 471,
+          "recorded_at": "2026-11-04T22:45:42-05:00",
+          "observed": false,
+          "reason": "Athlete explicitly directs normal recovery by default unless they report otherwise."
+        },
+        "reason": "Sunday lifting/next-day recovery and the subsequent November3 run are recorded. Tuesday run now qualifies using the athlete-directed recovery assumption; keep actual Saturday20:17 separate from planned20minutes."
       }
     },
     "equipment_settings": {

@@ -41,7 +41,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 470,
+  "last_adjustment_id": 471,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -145,7 +145,7 @@
       "cardio_actual_ref": "../history/cardio-log.md#2026-10-31--hybrid-v11-w1-saturday-bike",
       "cycling_duration_seconds": 1217,
       "recovery_status": "next-day-general-recovery-reported-good",
-      "review_note": "All six sets and 20:17 bike logged; local response symptom-free, next-day recovery good and subsequent Sunday lifting acceptable. W1 manageable confirmed November 2. November 3 run performance now recorded; run response remains pending for bike-duration validation."
+      "review_note": "All6sets and20:17bike logged; local response symptom-free, Sunday recovery/lifting acceptable, W1manageable confirmedNovember2. November3 run now qualifies under #471 assumed-good recovery; the prescribed20-minute bike dose is supported."
     },
     "2026-11-01": {
       "calendar_week": "W1",
@@ -180,8 +180,16 @@
       "unresolved_slots": [],
       "actual_ref": "../history/lifting-log.md#2026-11-02--hybrid-v11-w2-monday-upper-a",
       "prescription_id": "hybrid-2026-10-26-mon-upper-a-459",
-      "recovery_status": "local-response-comfortable-next-day-pending",
-      "review_note": "All 16 sets and rep ranges completed; M5 second set at RIR 1 missed its RIR 3 target. Curl actual calibrated to 22.5; pushdown established at 50; pulldown actual 160 with proposed next 155. Abs/tendons no issues; next-day recovery and loaded-ab review remain pending."
+      "recovery_status": "general-recovery-assumed-good",
+      "review_note": "All 16 sets and rep ranges completed; M5 second set at RIR 1 missed its RIR 3 target. Curl actual calibrated to 22.5; pushdown established at 50; pulldown actual 160 with proposed next 155. Abs/tendons no issues with the session; general recovery is assumed good under #471, with observed next-day response unreported. The loaded-ab review remains separate.",
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 471,
+        "recorded_at": "2026-11-04T22:45:42-05:00",
+        "observed": false,
+        "reason": "Athlete explicitly directs normal recovery by default unless they report otherwise."
+      }
     },
     "2026-11-03": {
       "calendar_week": "W2",
@@ -192,9 +200,17 @@
       "estimated_distance_miles_from_segments": 4.23155303030303,
       "actual_ref": "../history/cardio-log.md#2026-11-03--hybrid-v11-w2-tuesday-intervals",
       "prescription_id": "hybrid-2026-10-26-tue-intervals-461",
-      "classification": "pending",
-      "recovery_status": "next-day-recovery-pending",
-      "review_note": "3×4 at 6:28/6:37/6:31, RPE 5/6/7. Pace/effort pass; athlete attributes breaks probably to warmup. Pending next-day recovery; ordinary hit 2 candidate, no increment yet. Confirmed 4.25 mi in new Evo SLs."
+      "classification": "hit",
+      "recovery_status": "general-recovery-assumed-good",
+      "review_note": "3×4 at6:28/6:37/6:31, RPE5/6/7 qualifies hit2 using the new assumed-good-recovery policy. Actual recovery remains unreported; probable warmup breaks retained. Confirmed4.25mi inEvoSLs unchanged; next earned pace6:40 awaits generation.",
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 471,
+        "recorded_at": "2026-11-04T22:45:42-05:00",
+        "observed": false,
+        "reason": "Athlete explicitly directs normal recovery by default unless they report otherwise."
+      }
     },
     "2026-11-04": {
       "calendar_week": "W2",
@@ -210,8 +226,16 @@
       "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-468",
       "bike_minutes": 20,
       "bike_rpe": 2,
-      "recovery_status": "elbow-response-confirmed-next-day-pending",
-      "review_note": "All 10 sets logged literally, including preacher 9, hammer 16 and reverse pec deck RIR 6/3. Elbow symptom-free during/after; temporary biceps maintenance released prospectively. Bike settings saved with uncertain alternatives."
+      "recovery_status": "general-recovery-assumed-good",
+      "review_note": "All 10 sets logged literally, including preacher 9, hammer 16 and reverse pec deck RIR 6/3. Elbow symptom-free during/after; temporary biceps maintenance released prospectively. Bike settings saved with uncertain alternatives.",
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 471,
+        "recorded_at": "2026-11-04T22:45:42-05:00",
+        "observed": false,
+        "reason": "Athlete explicitly directs normal recovery by default unless they report otherwise."
+      }
     }
   },
   "planned_start_date": "2026-10-26",
@@ -261,9 +285,9 @@
       "known_lifting_sets": 26,
       "manageable": null,
       "status": "week-in-progress",
-      "decision_id": 470,
+      "decision_id": 471,
       "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
-      "note": "Monday lifting, Tuesday intervals and Wednesday lifting/bike completed. Wednesday elbow response symptom-free; biceps hold released. Tuesday general recovery still pending; W2 in progress without stage advancement.",
+      "note": "Three sessions completed,26lifting sets and20bike minutes. Tuesday hit2 assessed using standing assumed-good recovery; next6:40pace waits for generation. Thursday is a future preview; W2 remains incomplete without stage advancement.",
       "known_running_work_minutes": 12,
       "confirmed_running_miles": 4.25,
       "known_cycling_minutes": 20
@@ -317,6 +341,28 @@
       ],
       "change": "Release temporary biceps maintenance after symptom resolution and symptom-free working curls. Resume normal achieved-stage sets/ranges at current loads; allow ordinary conditional forearm introduction without granting new exposure or W6 eligibility.",
       "source": "../history/adjustments.md#2026-11-04--log-wednesday-and-release-biceps-maintenance"
+    },
+    {
+      "date": "2026-11-04",
+      "decision_id": 471,
+      "affected_modalities": [
+        "all workouts",
+        "ordinary recovery decisions"
+      ],
+      "change": "Assume normal general recovery unless an exception is reported; after logging automatically generate and publish the next scheduled workout. Preserve actual observations, injury restrictions and date-correct previews.",
+      "source": "../history/adjustments.md#2026-11-04--default-recovery-and-thursday-upper-b"
     }
-  ]
+  ],
+  "generation_preferences": {
+    "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+    "decision_id": 471,
+    "automatic_next_workout_after_logging": true,
+    "publish_next_workout": true,
+    "default_recovery": "assumed-good-unless-reported-otherwise",
+    "source": "../program/readiness.md",
+    "last_generated_date": "2026-11-05",
+    "last_generated_prescription_id": "hybrid-2026-10-26-thu-upper-b-471",
+    "last_generated_from_session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
+    "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping."
+  }
 }

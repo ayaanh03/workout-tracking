@@ -10,7 +10,7 @@
 |---|---|
 | `generatedAt` | Actual generation timestamp with `America/New_York` offset, including DST |
 | `week`, `day`, `date`, `phase`, `sessionName` | Strings; date is athlete-local ISO; `Opening` on the authorized October 25 start, W1–W10 from the October 26 calendar anchor, earlier dates `Pre-block` |
-| `preview` | Optional boolean; true for an explicitly requested future workout. Label `sessionName` as a preview and use the requested date/week |
+| `preview` | Optional boolean; true for a future workout, including the standing request to generate the next session after logging. Label `sessionName` as a preview and use its actual scheduled date/week |
 | `status` | Optional `done` for athlete-reported completion; displays Completed and hides the logging form without deleting its saved draft |
 | `why` | String array: session/stage selection and relevant gates; concise |
 | `intro` | String array: current constraints, normally empty or one line |
@@ -26,13 +26,15 @@
 
 Use `setsReps: "2×8–12"` with an integer set-count prefix. Include only effective work, preserve separate incline top-set/back-off rows, and show unknown loads as `Calibrate`. Omitted abs are absent from the workout table; their restriction remains in state and the adaptation check. A literal zero RIR is `"0"`. Historical references do not become comparable new-block actuals; omit `lastWeek` until relevant actuals exist. If no work is prescribed, both modalities are `null`, with the reason shown.
 
-After logging, retain the dated original prescription in `lift.table` and add reported actuals under `lift.actual`; never replace calibration targets with completed weights retroactively. The dashboard shows Logged results before Original prescription. Set `status: "done"` only for reported completion and keep this session's date. Today's actuals are not `lastWeek` evidence for the same workout. Missing actual values remain `n/r`; completion alone does not clear recovery or progression gates.
+For a completed-session view, retain the dated original prescription in `lift.table` and add reported actuals under `lift.actual`; never replace calibration targets with completed weights retroactively. The dashboard shows Logged results before Original prescription. Set `status: "done"` only for reported completion and keep that session's date. Today's actuals are not `lastWeek` evidence for the same workout. Missing actual values remain `n/r`; completion alone does not clear recovery or progression gates.
+
+Under the [standing next-workout directive](../program/readiness.md), logging now replaces the daily cache with the next scheduled uncompleted workout after saving the completed session's prescription/actuals in the dated ledger and history. Keep completed lifting results in `lifting-history.json` and mark the logged day done in the week view. Do not carry its `status`, `lift.actual` or `cardio.actual` into the next workout. Preserve prior run files; a new run gets its own dated export.
 
 For completed cardio, add `cardio.actual` without overwriting `workout`, `warmup`, `cooldown`, `targets` or the prescribed Watch file. Logged results appear before Original prescription. Use `summary` to distinguish confirmed totals from estimates and pending effort/recovery; rounded segment distances do not establish an exact session total.
 
 In `currentLoads`, label inherited unvalidated weights as `160 lb baseline` (for example), retaining the historical verification date and source. `lift.table.load` must contain the effective weight selected for that workout after rep/RIR review, not an unreviewed baseline. The adaptation check explains carry-over and any adjustment; neither establishes a new-block actual.
 
-The adaptation check must expose uncertainty: `previous: "First exposure; no comparable actuals"` and `decision: "Calibrate"` are valid. Do not label a prescription correctly adapted when the required performance or recovery evidence remains unknown. Include the affected date/slot, actual reps/RIR or pace/effort/recovery, and the gate that passed, failed or remains pending.
+The adaptation check must expose uncertainty: `previous: "First exposure; no comparable actuals"` and `decision: "Calibrate"` are valid. Identify ordinary recovery as assumed under the athlete's default when no report exists; that assumption permits routine generation/progression. Other required missing evidence remains pending. Include the affected date/slot, actual reps/RIR or pace/effort, recovery basis and the rule applied.
 
 Wednesday/Saturday cardio says bike **after lifting**; `workoutFile` is null. Runs retain exact warmup, work, between-rep recovery, cooldown and RPE cap. Lift cues/warmup/cooldown and cardio cues are not rendered.
 
@@ -40,9 +42,9 @@ Wednesday/Saturday cardio says bike **after lifting**; `workoutFile` is null. Ru
 
 `week-ahead.json`: `{generatedAt, week, phase, summary, days}`. `days` normally has seven consecutive Monday–Sunday rows `{date, day, session, note, status}`. For the opening Sunday, use a seven-day forward window October 25–31 with `window: "rolling-7-days"`, explicit `rangeStart`/`rangeEnd`, and dates in the summary; this includes today and the unchanged weekday schedule. Both caches describe the same state snapshot and calendar context; timestamps match when written together. Return to the usual W1 Monday–Sunday window on October 26.
 
-Statuses: `done` only for reported completion; `today` for unresolved current-day work; `upcoming` for future work; `skipped`, `rest` or `unreported` for supported past outcomes. October 25 is the athlete-authorized opening leg session, replacing the former rest plan. Logging never silently replaces today with tomorrow's preview. A calendar rollover does not advance stages or clear recovery gates.
+Statuses: `done` only for reported completion; `today` for unresolved current-day work; `upcoming` for future work; `skipped`, `rest` or `unreported` for supported past outcomes. October 25 is the athlete-authorized opening leg session, replacing the former rest plan. Logging generates the next workout under the standing directive; label future work as a preview rather than calling it today. Calendar rollover alone does not advance stages or clear restrictions.
 
-When the athlete explicitly requests publishing a future preview, both caches may show that requested date/week with `preview: true`, a visible preview label, and actual generation time. All future days remain `upcoming`. Persist the exact prescription in the dated decision ledger; leave live calendar/activation, completed actuals and progression unchanged. A later current-day request replaces the preview normally.
+The athlete's standing post-log request authorizes future previews without asking again. Both caches may show the next workout's date/week with `preview: true`, a visible preview label, and actual generation time. All future days remain `upcoming`. Persist the exact prescription in the dated decision ledger; leave live calendar/activation and completed actuals unchanged. Apply earned prospective progression normally, with its sources and assumed/observed recovery basis recorded. A later current-day request or changed recovery updates the preview normally.
 
 ## Lifting history cache
 

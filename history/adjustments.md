@@ -484,3 +484,28 @@ The athlete confirms **symptom-free throughout and after working curls**, comple
 Save bike settings in running state and today’s dashboard: **seat−2, possibly−1; handle+3; height9, possibly9.5**. Retain raw wording, uncertain alternatives and unknown machine identity/units. Under `program/endurance.md#cycling`, RPE2 is acceptable; planned duration stays20min with prior validated tolerance preserved. Later-session response remains unobserved; no inferred power, zones, distance or shoe mileage.
 
 Mark November4 done without advancing the calendar. W2 known lifting total is **26** (Mon16 + Wed10), three scheduled sessions completed and20 bike minutes. Prospective week total is **up to68** (16+10+18+11+13), including two conditional Saturday forearm sets; without them66. Wednesday stays its actual10, not a retroactive12. Keep StageB, existing ab/overhead restrictions, Tuesday run recovery/counters/6:40 candidate, mileage and run exports unchanged. Refresh daily/week/history caches, same-slot loads and completed actual displays. General next-day recovery and W2 manageability remain unknown.
+
+## 2026-11-04 — default recovery and Thursday Upper B
+
+471. Athlete directs: **“Generate Thursday I’ll be fine on the recovery side. Assume recovery is always fine and always generate the next workout on logging. We’ll readjust if I wake up that morning and I’m cooked but 90% of the time I’ll be aight.”** Adopt the standing policy in `program/readiness.md`: assume normal general recovery for routine generation/progression unless a contradictory report is supplied. Do not require repetitive routine recovery questions or leave otherwise earned ordinary progression pending only for missing recovery confirmation. Keep assumptions explicitly separate from actual observations; existing injury/loading restrictions, return/test/workload rules and performance criteria still apply.
+
+After a new session log, reconcile actuals and decisions, retain the completed original in history, then generate and publish the next scheduled uncompleted session. A future session is a dated preview; logging never creates future completion or advances the live calendar. Corrections refresh the same appropriate next session without duplicate progression/mileage or skipping. This is the assistant workflow, not a dashboard calculation engine or a background schedule.
+
+**Thursday November 5 — W2 Upper B preview**, prescription ID `hybrid-2026-10-26-thu-upper-b-471`. Generated Wednesday evening in New York; live `as_of` remains November4. Achieved StageB, **18 sets**:
+
+| Slot | Exercise | Sets × reps | Load | RIR | Rest |
+|---|---|---|---|---|---|
+| T1 | Incline barbell bench | 3×6–8 | 135 lb | 3 | 3 min |
+| T2 | Cable curl | 2×10–15 | 42.5 lb | 3 | 2 min |
+| T3 | DB lateral raise | 3×12–20 | 35 lb | 3 | 2 min |
+| T4 | Pull-up | 2×6–12 | BW, 0 lb added | 3 | 2–3 min |
+| T5 | Cable pushdown | 2×10–15 | 50 lb | 3 | 2 min |
+| T6 | Seated cable row | 2×8–12 | 120 lb | 3 | 2–3 min |
+| T7 | Decline crunch — bodyweight | 2×10–15 | BW | ≥3 | 2 min |
+| T8 | Straight-arm cable pulldown | 2×10–15 | 50 lb | 3 | 2 min |
+
+October29 same-slot evidence atRIR3: incline135×8/6; cablecurl42.5×12; laterals35×15/12; pull-upBW×12; pushdown50×12/11; row120×8; straight-arm50×10. Retain these loads under `program/ramp-and-return.md`; StageB provides the additional sets. November4 symptom-free working curls released the local hold in #470, so T2 returns to its normal two sets/range. T7 was skipped for a BW circuit on October29; no Thursday decline-crunch actual is invented. Keep BW-only abs, two-set ceiling and ≥3RIR under the existing local restriction. No Thursday cardio or Watch export.
+
+Apply the new recovery decision basis to November3 Tuesday: full3×4 at6:28/6:37/6:31, finalRPE7 and recorded3-minute recoveries qualify **hit2, misses0** with recovery **assumed good**, not observed. Retain probable warmup-pause uncertainty. Slowest397 against original410 gives13s headroom → earned10s step to **3×4 at6:40**. Keep current normal6:50, counts and source-use history until that next prescription is generated; no simultaneous work-minute increase, no premature source consumption. Actual recovery fields remain null. The Saturday20-minute bike dose gains its deferred subsequent-run decision on this same labeled assumption; Wednesday’s future-session performance is still unobserved and does not block ordinary20-minute generation.
+
+No lifting actuals/exposure counts, achieved stage, completed-set totals, shoes, original run files or current-week mileage change. W2 remains three completed sessions/26lifting sets; prospective total up to68 includes Thursday18 and conditional Saturday forearms. Update both caches with Thursday preview and retain Wednesday actuals in lifting history/state and bike history/state. Supersedes routine recovery-confirmation blockers from earlier decisions; known injury-specific requirements persist.
