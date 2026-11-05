@@ -41,7 +41,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 472,
+  "last_adjustment_id": 473,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -236,6 +236,28 @@
         "observed": false,
         "reason": "Athlete explicitly directs normal recovery by default unless they report otherwise."
       }
+    },
+    "2026-11-05": {
+      "calendar_week": "W2",
+      "session": "Upper B",
+      "status": "completed",
+      "stage": "B",
+      "working_sets": 18,
+      "reported_working_sets": 18,
+      "prescribed_working_sets": 18,
+      "unresolved_slots": [],
+      "actual_ref": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+      "prescription_id": "hybrid-2026-10-26-thu-upper-b-471",
+      "recovery_status": "general-recovery-assumed-specific-response-unreported",
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 473,
+        "recorded_at": "2026-11-05T17:30:30-05:00",
+        "observed": false,
+        "reason": "Standing athlete directive #471; no contrary general-recovery report supplied. Specific local restrictions remain active."
+      },
+      "review_note": "All18sets met rep ranges atRIR3. Incline135×8/8/8 does not earn loading credit inStageB. Cablecurl42.5×10/12 saved as cableactual before futurepreacher activation. First ThursdayBWdecline15/12 recorded; no session-specific symptom response inferred."
     }
   },
   "planned_start_date": "2026-10-26",
@@ -281,13 +303,13 @@
       "range_end": "2026-11-08",
       "stage": "B",
       "completion": "in-progress",
-      "completed_sessions": 3,
-      "known_lifting_sets": 26,
+      "completed_sessions": 4,
+      "known_lifting_sets": 44,
       "manageable": null,
       "status": "week-in-progress",
-      "decision_id": 471,
-      "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
-      "note": "Three sessions completed,26lifting sets and20bike minutes. Tuesday hit2 assessed using standing assumed-good recovery; next6:40pace waits for generation. Thursday is a future preview; W2 remains incomplete without stage advancement.",
+      "decision_id": 473,
+      "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+      "note": "Monday throughThursday completed:44lifting sets,20bike minutes and12running workminutes. W2 remains incomplete; stageB retained. Friday is automatically generated as a future preview under assumed-good general recovery.",
       "known_running_work_minutes": 12,
       "confirmed_running_miles": 4.25,
       "known_cycling_minutes": 20
@@ -370,21 +392,26 @@
     "publish_next_workout": true,
     "default_recovery": "assumed-good-unless-reported-otherwise",
     "source": "../program/readiness.md",
-    "last_generated_date": "2026-11-05",
-    "last_generated_prescription_id": "hybrid-2026-10-26-thu-upper-b-471",
-    "last_generated_from_session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
+    "last_generated_date": "2026-11-06",
+    "last_generated_prescription_id": "hybrid-2026-10-26-fri-intervals-473",
+    "last_generated_from_session_id": "hybrid-2026-10-26-w2-thu-2026-11-05",
     "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping."
   },
-  "in_progress_session": {
-    "date": "2026-11-05",
-    "session_id": "hybrid-2026-10-26-w2-thu-2026-11-05",
-    "prescription_id": "hybrid-2026-10-26-thu-upper-b-471",
-    "status": "athlete-reported-in-progress",
-    "report": "And don’t change today’s workout I’m already halfway through",
-    "reported_at": "2026-11-05T16:58:43-05:00",
-    "decision_id": 472,
-    "freeze_prescription": true,
-    "reported_completed_sets": null,
-    "rule": "Preserve today’s workout and logging table. No complete session or specific actual sets/reps are inferred. Clear this lock when the session is logged or the athlete explicitly requests a revision."
-  }
+  "session_freeze_history": [
+    {
+      "date": "2026-11-05",
+      "session_id": "hybrid-2026-10-26-w2-thu-2026-11-05",
+      "prescription_id": "hybrid-2026-10-26-thu-upper-b-471",
+      "status": "completed-original-prescription-preserved",
+      "report": "And don’t change today’s workout I’m already halfway through",
+      "reported_at": "2026-11-05T16:58:43-05:00",
+      "decision_id": 472,
+      "freeze_prescription": false,
+      "reported_completed_sets": null,
+      "rule": "Preserve today’s workout and logging table. No complete session or specific actual sets/reps are inferred. Clear this lock when the session is logged or the athlete explicitly requests a revision.",
+      "completed_on": "2026-11-05",
+      "completion_decision_id": 473,
+      "actual_ref": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b"
+    }
+  ]
 }

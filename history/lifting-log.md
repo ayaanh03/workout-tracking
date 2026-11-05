@@ -153,3 +153,24 @@ Session ID: `hybrid-2026-10-26-w2-wed-2026-11-04`. Stage B, completed against #4
 **10 counted sets completed.** Preacher 9 and hammer 16 exceed the issued fixed 8/11 targets; hammer 16 also exceeds its normal 15-rep ceiling. Preserve those actuals and reverse-pec-deck RIR 6 literally. All sets retain at least 3 RIR. Update only these five slots’ actuals/raw exposures; hold loads 35/75/145/50/365. Stage-B ramp and shortened curl work earn no ordinary load/plateau credit.
 
 Asked whether the right elbow stayed symptom-free during curls and afterward; athlete: **“Yes, symptom-free throughout and afterward.”** The temporary maintenance review is complete: future existing curls return to normal achieved-stage sets and rep ranges at unchanged loads, targeting 3 RIR. In current Stage B that means two sets per curl slot, including preacher 2×8–12 and hammer 2×10–15; this does not add retroactive sets today. No new Achilles/ab-specific observation or next-day general recovery supplied. Bike: 20 minutes, RPE 2, average HR149; settings and cardio detail recorded separately. Decision #470.
+
+## 2026-11-05 — Hybrid v11 W2 Thursday Upper B
+
+Session ID:`hybrid-2026-10-26-w2-thu-2026-11-05`. StageB, completed against original#471, prescription ID`hybrid-2026-10-26-thu-upper-b-471`, which was explicitly frozen while underway in#472. The pasted “preview” title does not make these reported actuals future work. Existing load conventions retained; pull-up0 means no added weight.
+
+| Slot | Exercise | Prescribed sets × reps / load / RIR | Actual set 1 | Actual set 2 | Actual set 3 |
+|---|---|---|---|---|---|
+| T1 | Incline barbell bench | 3×6–8 / 135 lb / 3 | 135×8, RIR 3 | 135×8, RIR 3 | 135×8, RIR 3 |
+| T2 | Cable curl | 2×10–15 / 42.5 lb / 3 | 42.5×10, RIR 3 | 42.5×12, RIR 3 | — |
+| T3 | DB lateral raise | 3×12–20 / 35 lb / 3 | 35×15, RIR 3 | 35×12, RIR 3 | 35×12, RIR 3 |
+| T4 | Pull-up | 2×6–12 / BW,0 lb added / 3 | BW×9, RIR 3 | BW×9, RIR 3 | — |
+| T5 | Cable pushdown | 2×10–15 / 50 lb / 3 | 50×15, RIR 3 | 50×10, RIR 3 | — |
+| T6 | Seated cable row | 2×8–12 / 120 lb / 3 | 120×8, RIR 3 | 120×9, RIR 3 | — |
+| T7 | Decline crunch — bodyweight | 2×10–15 / BW / ≥3 | BW×15, RIR 3 | BW×12, RIR 3 | — |
+| T8 | Straight-arm cable pulldown | 2×10–15 / 50 lb / 3 | 50×12, RIR 3 | 50×10, RIR 3 | — |
+
+**18sets, all within their rep ranges atRIR3.** Incline135×8/8/8 reaches every ceiling, but StageB earns no ordinary load-progression/plateau credit. Hold the other suitable established loads. T1–T6/T8 each gain their second raw exposure. T7 records its first Thursday BWdecline exposure under temporary_substitution; baseline cable crunch remains uninitialized and October29’s different ab circuit is retained.
+
+Save T2’s complete cable record with42.5×10/12 today and raw exposure2 before activating the authorized future preacher replacement. The new T2 identity is unilateral machine preacher at75lb prescribed-unvalidated, with no actuals/exposures/qualification/anchor. Only standard cable curls change; hammer, reverse, wrist and incline curls remain unchanged. Next applicable Thursday is November12. The completed original prescription is never relabeled.
+
+No new session-specific elbow/ab response is reported; earlier cable-curl irritation and BW-ab restrictions persist. General recovery is assumed good under#471, not recorded as an observation. Clear the in-progress lock after saving these actuals, then automatically generate FridayNovember6. Decision#473.

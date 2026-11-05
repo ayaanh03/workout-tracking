@@ -41,26 +41,26 @@
           "rest_seconds": 120
         }
       },
-      "response_status": "no-issues-reported-for-completed-bodyweight-session",
+      "response_status": "latest-bodyweight-exposure-response-unreported",
       "progression_limit": "No added weight, extra sets or baseline cable/hanging-raise restoration while original-site symptoms remain. Bodyweight work is permitted only if comfortable; stop or reduce aggravating work rather than continuing until the sensation fades. Reconsider a small loaded trial after a BW exposure is comfortable during/after and the next morning, with a fresh loading review.",
       "last_exposure": {
-        "date": "2026-11-02",
-        "session_id": "hybrid-2026-10-26-w2-mon-2026-11-02",
-        "slot": "M6 temporary substitute",
+        "date": "2026-11-05",
+        "session_id": "hybrid-2026-10-26-w2-thu-2026-11-05",
+        "slot": "T7 temporary substitute",
         "exercise": "Decline crunch — bodyweight",
-        "source": "../history/lifting-log.md#2026-11-02--hybrid-v11-w2-monday-upper-a",
+        "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
         "load": "BW",
         "external_load_lb": 0,
         "sets": 2,
         "reps": [
           15,
-          15
+          12
         ],
         "rir": [
-          10,
+          3,
           3
         ],
-        "symptom_response": "No ab issues reported for this session.",
+        "symptom_response": null,
         "next_morning_response": null
       },
       "last_tolerated_exposure": {
@@ -151,7 +151,29 @@
         "report": "Tomorrow's workout recovery will be fine. No symptoms, no tendon issues, slight nagging on the right elbow, tennis elbow.",
         "decision_id": 468,
         "scope": "Current symptoms quiet except slight right-elbow nag. Tennis elbow is the athlete description, not a diagnosis. Future general recovery is expected, not observed."
-      }
+      },
+      "exposure_history": [
+        {
+          "date": "2026-11-02",
+          "session_id": "hybrid-2026-10-26-w2-mon-2026-11-02",
+          "slot": "M6 temporary substitute",
+          "exercise": "Decline crunch — bodyweight",
+          "source": "../history/lifting-log.md#2026-11-02--hybrid-v11-w2-monday-upper-a",
+          "load": "BW",
+          "external_load_lb": 0,
+          "sets": 2,
+          "reps": [
+            15,
+            15
+          ],
+          "rir": [
+            10,
+            3
+          ],
+          "symptom_response": "No ab issues reported for this session.",
+          "next_morning_response": null
+        }
+      ]
     },
     {
       "id": "left-achilles",
@@ -516,7 +538,7 @@
     },
     {
       "id": "standard-cable-curl-elbow-irritation",
-      "status": "scheduled-exercise-replacement-current-session-frozen",
+      "status": "active-exercise-replacement",
       "reported_on": "2026-11-05",
       "recorded_at": "2026-11-05T16:58:43-05:00",
       "decision_id": 472,
@@ -547,15 +569,18 @@
       "effective_from": "2026-11-12",
       "starting_load_lb": 75,
       "minimum_rir": 3,
-      "action": "Schedule the replacement for future T2 sessions. Preserve the current November5 prescription and logging table by explicit athlete instruction. Activate the pending replacement after reconciling the current log or before the first later T2 prescription, preserving all former actuals.",
+      "action": "November5 original cable-curl log is saved. Future T2 uses unilateral machine preacher curls from November12, starting75lb for8–12perarm with at least3RIR. Former cable actuals remain in exercise_history; other curls are unchanged.",
       "persistence": "Ongoing replacement; do not automatically restore standard cable curls on symptom resolution or calendar rollover. The starting load is provisional and local comfort governs.",
       "relationship_to_prior_right_elbow_nag": null,
       "scope": "No change to rope hammer curls, cable reverse curls, cable wrist curls, incline DB curls, existing WE2 preacher, pushdowns or other cable exercises. This report does not identify those as symptom-provoking.",
       "current_workout_exception": {
         "date": "2026-11-05",
         "prescription_id": "hybrid-2026-10-26-thu-upper-b-471",
-        "instruction": "Do not change today’s workout; already halfway through."
-      }
+        "instruction": "Do not change today’s workout; already halfway through.",
+        "status": "completed-and-original-preserved"
+      },
+      "activation_decision_id": 473,
+      "activated_on": "2026-11-05"
     }
   ],
   "pending_gates": [
@@ -563,10 +588,10 @@
       "id": "ab-loading-review",
       "reported_on": "2026-10-24",
       "status": "awaiting-next-morning-response-and-review",
-      "blocks": "November 2 BW work was symptom-free; next-morning response remains pending. Added weight, extra sets and baseline variant restoration still require fresh review.",
+      "blocks": "November5 BWdecline15/12 atRIR3 is recorded; session-specific ab response and fresh loading review remain unreported. Keep BW/max2sets; general recovery is assumed good, not a specific ab-loading clearance.",
       "review_requested_on": "2026-11-01",
-      "decision_id": 460,
-      "reviewed_on": "2026-11-02"
+      "decision_id": 473,
+      "reviewed_on": "2026-11-05"
     }
   ],
   "global_fatigue": null,
@@ -594,34 +619,24 @@
     }
   ],
   "post_session": {
-    "date": "2026-11-04",
-    "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
+    "date": "2026-11-05",
+    "session_id": "hybrid-2026-10-26-w2-thu-2026-11-05",
     "completion": "reported",
-    "elbow_response": "Symptom-free throughout and after curls.",
+    "elbow_response": null,
     "lower_ab_response": null,
     "achilles_response": null,
     "next_day_recovery": null,
-    "status": "general-recovery-assumed-good-elbow-response-confirmed",
-    "decision_id": 470,
-    "latest_followup": {
-      "reported_on": "2026-11-04",
-      "recorded_at": "2026-11-04T18:51:33-05:00",
-      "question": "Did your right elbow stay symptom-free during the curls and afterward?",
-      "report": "Yes, symptom-free throughout and afterward",
-      "decision_id": 470,
-      "status": "symptom-free-during-and-after-working-curls",
-      "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
-      "scope": "November 4 preacher and rope-hammer working-curl response. No general next-day recovery, diagnosis, or incline-curl/forearm exposure inferred."
-    },
-    "note": "Wednesday completed with elbow symptom-free during/after. General recovery for planning is assumed good under #471; next-day observation remains unreported. Active ab/Achilles/overhead restrictions are preserved separately.",
+    "status": "general-recovery-assumed-specific-symptom-response-unreported",
+    "decision_id": 473,
     "recovery_decision": {
       "status": "assumed-good",
       "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-      "decision_id": 471,
-      "recorded_at": "2026-11-04T22:45:42-05:00",
+      "decision_id": 473,
+      "recorded_at": "2026-11-05T17:30:30-05:00",
       "observed": false,
-      "reason": "Athlete explicitly directs normal recovery by default unless they report otherwise."
-    }
+      "reason": "Standing athlete directive #471; no contrary general-recovery report supplied. Specific local restrictions remain active."
+    },
+    "note": "All18sets atRIR3 reported. Earlier standard-cable-curl elbow irritation remains documented; this result supplies no fresh injury-response answer. BWabs and futureT2preacher restrictions persist."
   },
   "prior_pending_post_sessions": [
     {
@@ -719,6 +734,36 @@
         "reason": "Athlete explicitly directs normal recovery by default unless they report otherwise."
       },
       "resolved_by_decision_id": 471
+    },
+    {
+      "date": "2026-11-04",
+      "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
+      "completion": "reported",
+      "elbow_response": "Symptom-free throughout and after curls.",
+      "lower_ab_response": null,
+      "achilles_response": null,
+      "next_day_recovery": null,
+      "status": "general-recovery-assumed-good-elbow-response-confirmed",
+      "decision_id": 470,
+      "latest_followup": {
+        "reported_on": "2026-11-04",
+        "recorded_at": "2026-11-04T18:51:33-05:00",
+        "question": "Did your right elbow stay symptom-free during the curls and afterward?",
+        "report": "Yes, symptom-free throughout and afterward",
+        "decision_id": 470,
+        "status": "symptom-free-during-and-after-working-curls",
+        "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
+        "scope": "November 4 preacher and rope-hammer working-curl response. No general next-day recovery, diagnosis, or incline-curl/forearm exposure inferred."
+      },
+      "note": "Wednesday completed with elbow symptom-free during/after. General recovery for planning is assumed good under #471; next-day observation remains unreported. Active ab/Achilles/overhead restrictions are preserved separately.",
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 471,
+        "recorded_at": "2026-11-04T22:45:42-05:00",
+        "observed": false,
+        "reason": "Athlete explicitly directs normal recovery by default unless they report otherwise."
+      }
     }
   ],
   "readiness_forecast": {
@@ -818,10 +863,10 @@
   "planning_readiness": {
     "status": "assumed-good",
     "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-    "decision_id": 471,
-    "recorded_at": "2026-11-04T22:45:42-05:00",
+    "decision_id": 473,
+    "recorded_at": "2026-11-05T17:30:30-05:00",
     "observed": false,
-    "reason": "Athlete explicitly directs normal recovery by default unless they report otherwise.",
-    "for_date": "2026-11-05"
+    "reason": "Standing athlete directive #471; no contrary general-recovery report supplied. Specific local restrictions remain active.",
+    "for_date": "2026-11-06"
   }
 }

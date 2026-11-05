@@ -642,15 +642,16 @@
       "load": 135,
       "units": "lb",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
+      "load_source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
       "equipment": "Barbell and incline bench",
       "setup": null,
       "load_convention": "Total barbell load in lb; preserve incline angle/setup.",
       "last_actual": {
-        "date": "2026-10-29",
-        "session_id": "hybrid-2026-10-26-w1-thu-2026-10-29",
-        "source": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
-        "stage": "A",
+        "date": "2026-11-05",
+        "session_id": "hybrid-2026-10-26-w2-thu-2026-11-05",
+        "prescription_id": "hybrid-2026-10-26-thu-upper-b-471",
+        "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+        "stage": "B",
         "sets": [
           {
             "load": 135,
@@ -659,64 +660,93 @@
           },
           {
             "load": 135,
-            "reps": 6,
+            "reps": 8,
+            "rir": 3
+          },
+          {
+            "load": 135,
+            "reps": 8,
             "rir": 3
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+        "reason": "Stage-B ramp; no ordinary load-progression or plateau credit."
       },
-      "new_exposure_count": 1,
+      "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 446,
+        "decision_id": 473,
         "action": "hold-load",
         "load_lb": 135,
-        "reason": "All reported sets meet this slot’s rep range at RIR 3. Keep appropriate loads stable during A–C; no ordinary ramp progression credit."
+        "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+        "reason": "135×8/8/8 at RIR3 reaches every rep ceiling. Hold135 during StageB; no ordinary loading qualification until eligible normal training."
       }
     },
     "T2": {
-      "exercise": "Cable curl",
-      "load": 42.5,
+      "exercise": "Unilateral machine preacher curl",
+      "load": 75,
       "units": "lb",
-      "equipment": "Cable station",
+      "equipment": "Unilateral preacher curl machine",
       "setup": null,
-      "load_convention": "Athlete-reported cable setting, interpreted in the repository’s lb convention; attachment/station details not supplied.",
-      "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
-      "last_actual": {
-        "date": "2026-10-29",
-        "session_id": "hybrid-2026-10-26-w1-thu-2026-10-29",
-        "source": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
-        "stage": "A",
-        "sets": [
-          {
+      "load_convention": "Same machine setting and per-arm convention as WE2; lower the load if needed to meet the rep range with at least3RIR comfortably.",
+      "load_status": "prescribed_unvalidated",
+      "load_source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+      "last_actual": null,
+      "new_exposure_count": 0,
+      "qualifying_exposures": 0,
+      "comparable_sessions": [],
+      "first_set_anchor": null,
+      "near_failure_suspended": true,
+      "exercise_history": [
+        {
+          "replaced_on": "2026-11-05",
+          "effective_from": "2026-11-12",
+          "decision_id": 473,
+          "requested_decision_id": 472,
+          "reason": "Only standard cable curls replaced after the frozen November5 session was logged. All actuals here belong to the former cable exercise.",
+          "record": {
+            "exercise": "Cable curl",
             "load": 42.5,
-            "reps": 12,
-            "rir": 3
+            "units": "lb",
+            "equipment": "Cable station",
+            "setup": null,
+            "load_convention": "Athlete-reported cable setting, interpreted in the repository’s lb convention; attachment/station details not supplied.",
+            "load_status": "established",
+            "load_source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+            "last_actual": {
+              "date": "2026-11-05",
+              "session_id": "hybrid-2026-10-26-w2-thu-2026-11-05",
+              "prescription_id": "hybrid-2026-10-26-thu-upper-b-471",
+              "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+              "stage": "B",
+              "sets": [
+                {
+                  "load": 42.5,
+                  "reps": 10,
+                  "rir": 3
+                },
+                {
+                  "load": 42.5,
+                  "reps": 12,
+                  "rir": 3
+                }
+              ],
+              "progression_eligible": false,
+              "reason": "Stage-B ramp; no ordinary load-progression or plateau credit."
+            },
+            "new_exposure_count": 2,
+            "next_action": {
+              "decision_id": 473,
+              "action": "hold-load",
+              "load_lb": 42.5,
+              "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+              "reason": "All reported sets fit the range at RIR3. Hold suitable loads during StageB; no ordinary ramp credit."
+            }
           }
-        ],
-        "progression_eligible": false,
-        "reason": "Stage-A calibration; no ordinary progression or plateau credit."
-      },
-      "new_exposure_count": 1,
-      "next_action": {
-        "decision_id": 470,
-        "action": "resume-stage-dose-at-current-load",
-        "load_lb": 42.5,
-        "sets": 2,
-        "rep_range": [
-          10,
-          15
-        ],
-        "target_rir": 3,
-        "rest_seconds": 120,
-        "source": "../history/adjustments.md#2026-11-04--log-wednesday-and-release-biceps-maintenance",
-        "reason": "Symptom resolution and November 4 working-curl response are both confirmed. Resume normal achieved-stage sets/range at the same load; no fixed-rep maintenance cap or new load-progression credit.",
-        "symptom_action": "Adjust or omit if elbow symptoms return; incline curls remain the athlete-suspected prior trigger."
-      },
-      "pending_replacement": {
+        }
+      ],
+      "replacement": {
         "decision_id": 472,
-        "status": "scheduled-after-current-session",
+        "status": "activated-for-next-slot-exposure",
         "requested_on": "2026-11-05",
         "recorded_at": "2026-11-05T16:58:43-05:00",
         "former_exercise": "Cable curl",
@@ -770,7 +800,27 @@
         },
         "progression": "Independent new T2 exercise record; no cable-curl or Wednesday preacher credit transfers. Keep stage/recovery rules and the specific symptom restriction.",
         "symptom_action": "Use the future replacement only if comfortable; reduce or omit aggravating work rather than forcing the load or reps.",
-        "source": "../history/adjustments.md#2026-11-05--replace-standard-cable-curl-with-machine-preacher"
+        "source": "../history/adjustments.md#2026-11-05--replace-standard-cable-curl-with-machine-preacher",
+        "activated_on": "2026-11-05",
+        "activation_decision_id": 473,
+        "preserved_final_cable_session_id": "hybrid-2026-10-26-w2-thu-2026-11-05"
+      },
+      "next_action": {
+        "decision_id": 473,
+        "action": "start-authorized-replacement-at-next-thursday",
+        "for_date": "2026-11-12",
+        "load_lb": 75,
+        "sets": 2,
+        "rep_range": [
+          8,
+          12
+        ],
+        "per_arm": true,
+        "target_rir": 3,
+        "minimum_rir": 3,
+        "rest_seconds": 120,
+        "source": "../history/adjustments.md#2026-11-05--log-thursday-and-generate-friday",
+        "reason": "WE2 November4 75×9 at RIR3 is a starting reference only; no T2 preacher work or progression credit yet. Current StageB calls for two sets; adjust load if needed to retain range/reserve comfortably."
       }
     },
     "T3": {
@@ -778,15 +828,16 @@
       "load": 35,
       "units": "lb",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
+      "load_source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
       "equipment": "Dumbbells",
       "setup": null,
       "load_convention": "Same legacy dumbbell load notation; retain that convention.",
       "last_actual": {
-        "date": "2026-10-29",
-        "session_id": "hybrid-2026-10-26-w1-thu-2026-10-29",
-        "source": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
-        "stage": "A",
+        "date": "2026-11-05",
+        "session_id": "hybrid-2026-10-26-w2-thu-2026-11-05",
+        "prescription_id": "hybrid-2026-10-26-thu-upper-b-471",
+        "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+        "stage": "B",
         "sets": [
           {
             "load": 35,
@@ -797,17 +848,23 @@
             "load": 35,
             "reps": 12,
             "rir": 3
+          },
+          {
+            "load": 35,
+            "reps": 12,
+            "rir": 3
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+        "reason": "Stage-B ramp; no ordinary load-progression or plateau credit."
       },
-      "new_exposure_count": 1,
+      "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 446,
+        "decision_id": 473,
         "action": "hold-load",
         "load_lb": 35,
-        "reason": "All reported sets meet this slot’s rep range at RIR 3. Keep appropriate loads stable during A–C; no ordinary ramp progression credit."
+        "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+        "reason": "All reported sets fit the range at RIR3. Hold suitable loads during StageB; no ordinary ramp credit."
       }
     },
     "T4": {
@@ -818,28 +875,35 @@
       "setup": null,
       "load_convention": "Added external load in lb; reported 0 interpreted as bodyweight with no added weight. Body mass not reported.",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
+      "load_source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
       "last_actual": {
-        "date": "2026-10-29",
-        "session_id": "hybrid-2026-10-26-w1-thu-2026-10-29",
-        "source": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
-        "stage": "A",
+        "date": "2026-11-05",
+        "session_id": "hybrid-2026-10-26-w2-thu-2026-11-05",
+        "prescription_id": "hybrid-2026-10-26-thu-upper-b-471",
+        "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+        "stage": "B",
         "sets": [
           {
             "load": 0,
-            "reps": 12,
+            "reps": 9,
+            "rir": 3
+          },
+          {
+            "load": 0,
+            "reps": 9,
             "rir": 3
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+        "reason": "Stage-B ramp; no ordinary load-progression or plateau credit."
       },
-      "new_exposure_count": 1,
+      "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 446,
+        "decision_id": 473,
         "action": "hold-load",
         "load_lb": 0,
-        "reason": "All reported sets meet this slot’s rep range at RIR 3. Keep appropriate loads stable during A–C; no ordinary ramp progression credit."
+        "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+        "reason": "All reported sets fit the range at RIR3. Hold suitable loads during StageB; no ordinary ramp credit."
       },
       "bodyweight_lb": null
     },
@@ -848,36 +912,38 @@
       "load": 50,
       "units": "lb",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
+      "load_source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
       "equipment": "Cable station",
       "setup": null,
       "load_convention": "Same carried bilateral rope/cable setting; preserve station/notation.",
       "last_actual": {
-        "date": "2026-10-29",
-        "session_id": "hybrid-2026-10-26-w1-thu-2026-10-29",
-        "source": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
-        "stage": "A",
+        "date": "2026-11-05",
+        "session_id": "hybrid-2026-10-26-w2-thu-2026-11-05",
+        "prescription_id": "hybrid-2026-10-26-thu-upper-b-471",
+        "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+        "stage": "B",
         "sets": [
           {
             "load": 50,
-            "reps": 12,
+            "reps": 15,
             "rir": 3
           },
           {
             "load": 50,
-            "reps": 11,
+            "reps": 10,
             "rir": 3
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+        "reason": "Stage-B ramp; no ordinary load-progression or plateau credit."
       },
-      "new_exposure_count": 1,
+      "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 446,
+        "decision_id": 473,
         "action": "hold-load",
         "load_lb": 50,
-        "reason": "All reported sets meet this slot’s rep range at RIR 3. Keep appropriate loads stable during A–C; no ordinary ramp progression credit."
+        "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+        "reason": "All reported sets fit the range at RIR3. Hold suitable loads during StageB; no ordinary ramp credit."
       }
     },
     "T6": {
@@ -888,28 +954,35 @@
       "setup": null,
       "load_convention": "Athlete-reported seated cable row setting in lb; attachment/station details not supplied.",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
+      "load_source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
       "last_actual": {
-        "date": "2026-10-29",
-        "session_id": "hybrid-2026-10-26-w1-thu-2026-10-29",
-        "source": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
-        "stage": "A",
+        "date": "2026-11-05",
+        "session_id": "hybrid-2026-10-26-w2-thu-2026-11-05",
+        "prescription_id": "hybrid-2026-10-26-thu-upper-b-471",
+        "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+        "stage": "B",
         "sets": [
           {
             "load": 120,
             "reps": 8,
             "rir": 3
+          },
+          {
+            "load": 120,
+            "reps": 9,
+            "rir": 3
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+        "reason": "Stage-B ramp; no ordinary load-progression or plateau credit."
       },
-      "new_exposure_count": 1,
+      "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 446,
+        "decision_id": 473,
         "action": "hold-load",
         "load_lb": 120,
-        "reason": "All reported sets meet this slot’s rep range at RIR 3. Keep appropriate loads stable during A–C; no ordinary ramp progression credit."
+        "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+        "reason": "All reported sets fit the range at RIR3. Hold suitable loads during StageB; no ordinary ramp credit."
       }
     },
     "T7": {
@@ -960,7 +1033,50 @@
           "followup_received_on": "2026-10-29",
           "athlete_report": "No added weights. Abs were no symptoms. I might’ve recovered completely. Just a bunch of random stuff held a 2 minute plank. Did some leg raises"
         }
-      ]
+      ],
+      "temporary_substitution": {
+        "exercise": "Decline crunch — bodyweight",
+        "load": "BW",
+        "units": "bodyweight",
+        "external_load_lb": 0,
+        "equipment": "Decline bench",
+        "setup": null,
+        "load_convention": "Bodyweight, no added load",
+        "load_status": "established",
+        "load_source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+        "last_actual": {
+          "date": "2026-11-05",
+          "session_id": "hybrid-2026-10-26-w2-thu-2026-11-05",
+          "prescription_id": "hybrid-2026-10-26-thu-upper-b-471",
+          "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+          "stage": "B",
+          "sets": [
+            {
+              "load": "BW",
+              "reps": 15,
+              "rir": 3
+            },
+            {
+              "load": "BW",
+              "reps": 12,
+              "rir": 3
+            }
+          ],
+          "progression_eligible": false,
+          "reason": "Stage-B ramp; no ordinary load-progression or plateau credit."
+        },
+        "new_exposure_count": 1,
+        "qualifying_exposures": 0,
+        "note": "First performed Thursday decline-crunch exposure; October29 was a separate unweighted circuit. Current session-specific symptom response is unreported. Baseline cable crunch remains uninitialized.",
+        "next_action": {
+          "decision_id": 473,
+          "action": "hold-bodyweight-under-local-limit",
+          "maximum_sets": 2,
+          "minimum_rir": 3,
+          "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+          "reason": "Keep the existing BW substitution and two-set ceiling. The log supplies reps/RIR, not new injury-loading clearance."
+        }
+      }
     },
     "T8": {
       "exercise": "Straight-arm cable pulldown",
@@ -970,13 +1086,19 @@
       "setup": null,
       "load_convention": "Athlete-reported straight-arm cable pulldown setting in lb; attachment/station details not supplied.",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
+      "load_source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
       "last_actual": {
-        "date": "2026-10-29",
-        "session_id": "hybrid-2026-10-26-w1-thu-2026-10-29",
-        "source": "../history/lifting-log.md#2026-10-29--hybrid-v11-w1-thursday-upper-b",
-        "stage": "A",
+        "date": "2026-11-05",
+        "session_id": "hybrid-2026-10-26-w2-thu-2026-11-05",
+        "prescription_id": "hybrid-2026-10-26-thu-upper-b-471",
+        "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+        "stage": "B",
         "sets": [
+          {
+            "load": 50,
+            "reps": 12,
+            "rir": 3
+          },
           {
             "load": 50,
             "reps": 10,
@@ -984,14 +1106,15 @@
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+        "reason": "Stage-B ramp; no ordinary load-progression or plateau credit."
       },
-      "new_exposure_count": 1,
+      "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 446,
+        "decision_id": 473,
         "action": "hold-load",
         "load_lb": 50,
-        "reason": "All reported sets meet this slot’s rep range at RIR 3. Keep appropriate loads stable during A–C; no ordinary ramp progression credit."
+        "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+        "reason": "All reported sets fit the range at RIR3. Hold suitable loads during StageB; no ordinary ramp credit."
       }
     },
     "S1": {

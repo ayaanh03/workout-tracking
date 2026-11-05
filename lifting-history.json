@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "blockId": "hybrid-2026-10-26",
-  "generatedAt": "2026-11-04T18:51:33-05:00",
+  "generatedAt": "2026-11-05T17:30:30-05:00",
   "sessions": [
     {
       "date": "2026-10-25",
@@ -956,6 +956,185 @@
         }
       ],
       "notes": "10 sets reported. Elbow symptom-free during/after curls; temporary biceps hold released for future sessions. Bike20min at RPE2, averageHR149; settings saved separately."
+    },
+    {
+      "date": "2026-11-05",
+      "week": "W2",
+      "stage": "B",
+      "sessionName": "Upper B",
+      "sessionId": "hybrid-2026-10-26-w2-thu-2026-11-05",
+      "prescriptionId": "hybrid-2026-10-26-thu-upper-b-471",
+      "actualRef": "history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+      "exercises": [
+        {
+          "slotId": "T1",
+          "exercise": "Incline barbell bench",
+          "sets": [
+            {
+              "load": 135,
+              "units": "lb",
+              "reps": 8,
+              "rir": 3
+            },
+            {
+              "load": 135,
+              "units": "lb",
+              "reps": 8,
+              "rir": 3
+            },
+            {
+              "load": 135,
+              "units": "lb",
+              "reps": 8,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "T2",
+          "exercise": "Cable curl",
+          "sets": [
+            {
+              "load": 42.5,
+              "units": "lb",
+              "reps": 10,
+              "rir": 3
+            },
+            {
+              "load": 42.5,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            }
+          ],
+          "status": "completed",
+          "note": "Performed standard cable curls under original#471. Future preacher replacement starts in a separate exercise record; these are not preacher actuals."
+        },
+        {
+          "slotId": "T3",
+          "exercise": "DB lateral raise",
+          "sets": [
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 15,
+              "rir": 3
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "T4",
+          "exercise": "Pull-up",
+          "sets": [
+            {
+              "load": 0,
+              "units": "lb",
+              "reps": 9,
+              "rir": 3
+            },
+            {
+              "load": 0,
+              "units": "lb",
+              "reps": 9,
+              "rir": 3
+            }
+          ],
+          "status": "completed",
+          "note": "0lb is added external load; bodyweight pull-ups, not zero total load."
+        },
+        {
+          "slotId": "T5",
+          "exercise": "Cable pushdown",
+          "sets": [
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 15,
+              "rir": 3
+            },
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 10,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "T6",
+          "exercise": "Seated cable row",
+          "sets": [
+            {
+              "load": 120,
+              "units": "lb",
+              "reps": 8,
+              "rir": 3
+            },
+            {
+              "load": 120,
+              "units": "lb",
+              "reps": 9,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "T7",
+          "exercise": "Decline crunch — bodyweight",
+          "sets": [
+            {
+              "load": "BW",
+              "units": "bodyweight",
+              "reps": 15,
+              "rir": 3
+            },
+            {
+              "load": "BW",
+              "units": "bodyweight",
+              "reps": 12,
+              "rir": 3
+            }
+          ],
+          "status": "completed",
+          "note": "First performed Thursday decline-crunch session; previous Thursday was a different BWcircuit."
+        },
+        {
+          "slotId": "T8",
+          "exercise": "Straight-arm cable pulldown",
+          "sets": [
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 10,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        }
+      ],
+      "notes": "All18sets completed atRIR3 against the frozen original prescription. No new session-specific injury response supplied; general recovery assumed good under the standing directive."
     }
   ]
 }

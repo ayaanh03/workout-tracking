@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-04T22:45:42-05:00",
+  "generatedAt": "2026-11-05T17:30:30-05:00",
   "blockId": "hybrid-2026-10-26",
   "preview": true,
   "week": "W2",
   "phase": "Hybrid v11 — Stage B",
   "rangeStart": "2026-11-02",
   "rangeEnd": "2026-11-08",
-  "summary": "W2, November 2–8 — Thursday November 5 Upper B preview ready: 18 sets. Monday through Wednesday completed with 26 lifting sets. Recovery defaults to good, and logging now generates the next workout automatically. Up to 68 weekly lifting sets including conditional forearms; Wednesday stays at its completed 10 sets.",
+  "summary": "W2, November 2–8 — Monday through Thursday completed: 44 lifting sets. Friday November 6 preview ready: 3×6 at 7:25/mi with 2-minute recoveries. Recovery assumed good. Future Thursday preacher replacement applies only to standard cable curls; other curls unchanged. Up to 68 lifting sets this week.",
   "days": [
     {
       "date": "2026-11-02",
@@ -33,14 +33,14 @@
       "date": "2026-11-05",
       "day": "Thu",
       "session": "Upper B",
-      "note": "Preview ready: incline 135 lb 3×6–8; curl 42.5 lb 2×10–15; laterals 35 lb 3×12–20; pull-up BW 2×6–12; pushdown 50 lb 2×10–15; row 120 lb 2×8–12; BW crunch 2×10–15; straight-arm pulldown 50 lb 2×10–15. Target 3 RIR; recovery assumed good.",
-      "status": "upcoming"
+      "note": "18 sets logged, all RIR 3: incline 135×8/8/8; cable curl 42.5×10/12; laterals 35×15/12/12; BW pull-up 9/9; pushdown 50×15/10; row 120×8/9; BW crunch 15/12; straight-arm 50×12/10. Cable actuals retained before future preacher activation.",
+      "status": "done"
     },
     {
       "date": "2026-11-06",
       "day": "Fri",
       "session": "Longer intervals",
-      "note": "3×6 min at 7:25/mi, 2-min recoveries; final RPE ≤7. Warmup 10 min easy, cooldown 10 min. W1 hit 1, slowest rep 7:27 and final RPE 7: no immediate faster step under the new rule; W2 work-minute ceiling holds volume.",
+      "note": "Preview ready: 10 min easy warmup, 3×6 min at 7:25/mi, 2 min recoveries between reps, 10 min easy cooldown. Final RPE ≤7; 42 min total. Watch file available. Same dose because last Friday earned one hit without sufficient evidence for a faster target.",
       "status": "upcoming"
     },
     {
@@ -59,7 +59,7 @@
     }
   ],
   "runningMileageCheck": {
-    "decisionId": 465,
+    "decisionId": 473,
     "kind": "actual-plus-planned",
     "recordedMiles": 4.25,
     "estimatedUnconfirmedMiles": 0,

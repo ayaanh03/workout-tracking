@@ -495,22 +495,36 @@
       }
     },
     "next_action": {
-      "decision_id": 467,
+      "decision_id": 473,
       "action": "hold-no-pace-step-earned",
-      "status": "reviewed-hold",
+      "status": "prescribed",
       "for_date": "2026-11-06",
       "policy_id": "2026-11-03-pace-first",
       "pace_seconds_per_mile": 445,
       "work_minutes": 18,
       "format": "3x6",
       "rpe_cap": 7,
-      "reason": "October 30 remains ordinary hit 1. Slowest rep 7:27 gives no positive all-rep headroom against 7:25; final RPE 7 is not comfortable and there is no two-hit pair. Hold 3×6 at 7:25. W2 caps work minutes only; no calendar speed prohibition remains."
+      "reason": "October30 slowest7:27 versus target7:25 gives−2s headroom; finalRPE7 exceeds comfortable5 and onlyonehit exists. Hold3×6at7:25. Routine recovery assumed good; no running-relevant new symptom report. Friday remains independent of Tuesday’s earned6:40 step.",
+      "prescription_id": "hybrid-2026-10-26-fri-intervals-473",
+      "recovery_basis": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 473,
+        "recorded_at": "2026-11-05T17:30:30-05:00",
+        "observed": false,
+        "reason": "Standing athlete directive #471; no contrary general-recovery report supplied. Specific local restrictions remain active."
+      },
+      "recovery_seconds": 120,
+      "recovery_count": 2,
+      "warmup_minutes": 10,
+      "optional_extra_warmup_minutes": 5,
+      "cooldown_minutes": 10
     },
     "pace_adjustment_history": [],
     "pace_progression_review": {
-      "decision_id": 467,
+      "decision_id": 473,
       "policy_id": "2026-11-03-pace-first",
-      "reviewed_on": "2026-11-03",
+      "reviewed_on": "2026-11-05",
       "source_session_id": "hybrid-2026-10-26-w1-fri-2026-10-30",
       "source_prescription_id": "hybrid-2026-10-26-fri-intervals-448",
       "source_date": "2026-10-30",
@@ -527,7 +541,7 @@
       "candidate_pace_seconds_per_mile": 445,
       "work_minutes_held": 18,
       "route": "hold",
-      "status": "reviewed-hold",
+      "status": "hold-prescribed-for-november6",
       "applied": false,
       "reason": "Slowest rep 7:27 is 2 s/mi slower than prescribed 7:25, so no all-rep pace-headroom step. Final RPE 7 is above comfortable threshold 5; only one ordinary hit. W2 volume ceiling is already reached."
     }
@@ -572,13 +586,29 @@
           "note": "Reported bike position labels; no units or machine identity supplied. Preserve the uncertain seat and height alternatives when showing these settings."
         },
         "next_day_recovery": null,
-        "subsequent_lifting_running_tolerance": null,
+        "subsequent_lifting_running_tolerance": {
+          "reviewed_on": "2026-11-05",
+          "decision_id": 473,
+          "status": "lifting-performance-recorded-run-not-yet-performed",
+          "lifting_session_id": "hybrid-2026-10-26-w2-thu-2026-11-05",
+          "lifting_source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+          "evidence": "Thursday completed18sets in their ranges atRIR3; all3incline sets reached8. This supplies subsequent lifting performance; no inference that cable-related elbow irritation was caused by the bike.",
+          "general_recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 473,
+            "recorded_at": "2026-11-05T17:30:30-05:00",
+            "observed": false,
+            "reason": "Standing athlete directive #471; no contrary general-recovery report supplied. Specific local restrictions remain active."
+          },
+          "subsequent_run_response": null
+        },
         "decision_id": 470
       },
       "pending_validation": {
-        "decision_id": 471,
-        "status": "awaiting-future-session-performance-not-routine-recovery",
-        "reason": "General recovery is assumed good. Later lifting/run performance has not occurred yet; assess it when logged without blocking ordinary20-minute generation or asking routine recovery questions."
+        "decision_id": 473,
+        "status": "pending-subsequent-run-performance",
+        "reason": "Thursday lifting performance now recorded. Friday run is prescribed but not performed; ordinary20-minute bike generation remains supported by the standing recovery default and prior tolerated dose."
       },
       "next_action": {
         "decision_id": 471,

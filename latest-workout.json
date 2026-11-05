@@ -1,119 +1,62 @@
 {
-  "generatedAt": "2026-11-04T22:45:42-05:00",
+  "generatedAt": "2026-11-05T17:30:30-05:00",
   "blockId": "hybrid-2026-10-26",
-  "prescriptionId": "hybrid-2026-10-26-thu-upper-b-471",
+  "prescriptionId": "hybrid-2026-10-26-fri-intervals-473",
   "preview": true,
   "week": "W2",
-  "day": "Thu",
-  "date": "2026-11-05",
+  "day": "Fri",
+  "date": "2026-11-06",
   "phase": "Hybrid v11 — Stage B",
-  "sessionName": "Upper B — preview",
+  "sessionName": "Longer intervals — preview",
   "why": [
-    "Thursday November 5 is Upper B: 18 Stage B sets, including two cable-curl sets after the elbow hold was released.",
-    "Good recovery is assumed under your standing instruction. Logging a session now triggers generation and publishing of the next scheduled workout."
+    "Friday November 6 is the next scheduled workout after your completed Upper B session. Recovery is assumed good under your standing instruction.",
+    "Repeat 3×6 minutes at 7:25/mi. The previous Friday run earned one hit but no faster target yet."
   ],
-  "intro": [
-    "Aim for 3 RIR. Abs stay bodyweight-only under the existing restriction; report poor recovery or returning symptoms and the plan will be adjusted."
-  ],
-  "lift": {
-    "table": [
-      {
-        "slotId": "T1",
-        "exercise": "Incline barbell bench",
-        "setsReps": "3×6–8",
-        "load": "135 lb",
-        "rir": "3",
-        "rest": "3 min"
-      },
-      {
-        "slotId": "T2",
-        "exercise": "Cable curl",
-        "setsReps": "2×10–15",
-        "load": "42.5 lb",
-        "rir": "3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "T3",
-        "exercise": "DB lateral raise",
-        "setsReps": "3×12–20",
-        "load": "35 lb",
-        "rir": "3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "T4",
-        "exercise": "Pull-up",
-        "setsReps": "2×6–12",
-        "load": "BW (0 lb added)",
-        "rir": "3",
-        "rest": "2–3 min"
-      },
-      {
-        "slotId": "T5",
-        "exercise": "Cable pushdown",
-        "setsReps": "2×10–15",
-        "load": "50 lb",
-        "rir": "3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "T6",
-        "exercise": "Seated cable row",
-        "setsReps": "2×8–12",
-        "load": "120 lb",
-        "rir": "3",
-        "rest": "2–3 min"
-      },
-      {
-        "slotId": "T7",
-        "exercise": "Decline crunch — bodyweight",
-        "setsReps": "2×10–15",
-        "load": "BW",
-        "rir": "≥3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "T8",
-        "exercise": "Straight-arm cable pulldown",
-        "setsReps": "2×10–15",
-        "load": "50 lb",
-        "rir": "3",
-        "rest": "2 min"
-      }
-    ]
+  "intro": [],
+  "lift": null,
+  "cardio": {
+    "workout": "3×6 minutes at 7:25/mi, with 2-minute easy jog/walk recoveries between reps only. 18 work minutes; 42 minutes total with the prescribed warmup/cooldown.",
+    "warmup": "10 minutes easy; 8:30–9:30/mi is a guide, slower is fine. Up to 5 extra minutes if needed.",
+    "cooldown": "10 minutes easy, conversation comfortable.",
+    "targets": {
+      "pace": "7:25/mi",
+      "rpe": "Build toward 6–7/10; final rep ≤7/10"
+    },
+    "flags": [
+      "Watch alerts 7:20–7:30/mi are pacing guides; faster reps can still count toward progression."
+    ],
+    "workoutFile": "runs/2026-11-06.workout"
   },
-  "cardio": null,
   "adaptation": [
     {
-      "exercise": "Incline bench",
-      "previous": "October 29: 135 lb ×8/6, both RIR 3.",
-      "decision": "135 lb for 3×6–8 at 3 RIR; rest 3 min.",
-      "reason": "The two prior sets support this load. Achieved Stage B adds the third set; no new load increase."
+      "exercise": "Friday run pace",
+      "previous": "October 30: 3×6 at 7:27/7:13/7:16, RPE 5/6/7, prescribed 7:25. One qualifying hit.",
+      "decision": "Hold 3×6 at 7:25/mi with 2-minute recoveries.",
+      "reason": "Slowest rep 7:27 supplies no all-rep speed headroom; final RPE 7 is above the comfortable threshold 5, and a second comparable hit has not yet occurred. Tuesday’s pace award is separate."
     },
     {
-      "exercise": "Cable curl",
-      "previous": "October 29: 42.5 lb ×12 at RIR 3. November 4 working curls were symptom-free during and afterward, and the maintenance hold was released.",
-      "decision": "42.5 lb for 2×10–15 at 3 RIR; rest 2 min.",
-      "reason": "Return to normal Stage B sets and rep range at this slot’s established load. Wednesday curl weights/reps are not copied into Thursday."
+      "exercise": "Running dose and mileage",
+      "previous": "W2 Tuesday confirmed 4.25 mi. Friday’s existing dose is 18 work minutes.",
+      "decision": "Keep 10-minute warmup, 18 minutes work, two 2-minute recoveries and 10-minute cooldown.",
+      "reason": "W2’s volume ceiling stays at 18 minutes. Weekly estimate 9.50 mi, planning upper 10.12 mi including optional extra warmup, both below 15 mi; faster actual running can exceed this planning estimate."
     },
     {
-      "exercise": "Remaining upper-body lifts",
-      "previous": "October 29 at RIR 3: laterals 35×15/12; pull-up BW×12; pushdown 50×12/11; row 120×8; straight-arm pulldown 50×10.",
-      "decision": "Hold each load and use its Stage B set count.",
-      "reason": "Prior performance fits the ranges. Stage B adds sets while keeping effort near 3 RIR and established loads steady."
+      "exercise": "Thursday lifting log",
+      "previous": "November 5 Upper B: 18 sets completed, all RIR 3; incline 135×8/8/8.",
+      "decision": "Save all actuals and hold suitable lifting loads during Stage B.",
+      "reason": "Reaching the bench rep ceiling is recorded, but ramp work earns no ordinary loading credit. W2 remains incomplete."
     },
     {
-      "exercise": "Bodyweight abs",
-      "previous": "Thursday October 29 decline crunches were skipped for an unweighted circuit. Monday November 2 BW crunches 15/15 were symptom-free; that is a different slot.",
-      "decision": "BW decline crunch: 2×10–15 at ≥3 RIR, 2 min rest.",
-      "reason": "Keep the existing bodyweight substitution and two-set ceiling. General recovery assumptions do not remove a specific injury/loading restriction or create a Thursday actual."
+      "exercise": "Standard cable-curl replacement",
+      "previous": "November 5 T2 remained standard cable curl 42.5×10/12 at RIR 3 as requested.",
+      "decision": "Save the complete cable record; future T2 starts machine preacher at 75 lb, 2×8–12 per arm at 3 RIR.",
+      "reason": "Only standard cable curls change. The 75 lb reference is WE2’s prior symptom-free set, not a performed Thursday preacher result. Other curls stay unchanged."
     },
     {
-      "exercise": "Recovery and next-workout workflow",
-      "previous": "Athlete directs assumed-good recovery and automatic next-workout generation after logging.",
-      "decision": "Publish Thursday’s preview now; use the same default on future logs and revise if an exception is reported.",
-      "reason": "This is an explicit planning assumption. Actual recovery observations and completed sessions stay separate; known restrictions remain in force."
+      "exercise": "Recovery and active restrictions",
+      "previous": "General recovery defaults to good; standard-cable-curl elbow irritation and existing ab/Achilles restrictions remain recorded.",
+      "decision": "Generate Friday without a routine recovery question; preserve those specific restrictions.",
+      "reason": "The new log provides performance, not fresh injury clearance or a measured recovery report."
     }
   ],
   "currentLoads": [
@@ -212,57 +155,57 @@
       "slotId": "T1",
       "exercise": "T1 — Incline barbell bench",
       "load": "135 lb",
-      "lastVerified": "2026-10-29 (reported)",
-      "note": "Thursday actual: 135×8/6 at RIR 3. Hold during Stage B; independent slot, no ordinary progression credit."
+      "lastVerified": "2026-11-05 (reported)",
+      "note": "November 5: 135×8/8/8 at RIR 3. Hold 135 during Stage B despite all sets reaching eight; no ordinary ramp loading credit."
     },
     {
       "slotId": "T2",
-      "exercise": "T2 — Cable curl",
-      "load": "42.5 lb",
-      "lastVerified": "2026-10-29 (reported)",
-      "note": "Temporary elbow hold released after November 4 symptom-free working curls. Resume this slot’s normal Stage-B 2×10–15 at its own current load and 3 RIR; last actual stays independent."
+      "exercise": "T2 — Unilateral machine preacher curl",
+      "load": "75 lb starting",
+      "lastVerified": "Unperformed in T2; WE2 reference November 4",
+      "note": "Only standard cable curls replaced for next Thursday, November 12: preacher 75 lb starting, 2×8–12 per arm at 3 RIR. No T2 preacher actuals yet; November 5 cable 42.5×10/12 remains in former-exercise history."
     },
     {
       "slotId": "T3",
       "exercise": "T3 — DB lateral raise",
       "load": "35 lb",
-      "lastVerified": "2026-10-29 (reported)",
-      "note": "Thursday actual: 35×15/12 at RIR 3. Hold during Stage B; independent slot, no ordinary progression credit."
+      "lastVerified": "2026-11-05 (reported)",
+      "note": "November 5: 35×15/12/12 at RIR 3; hold 35 during Stage B."
     },
     {
       "slotId": "T4",
       "exercise": "T4 — Pull-up",
       "load": "BW (0 lb added)",
-      "lastVerified": "2026-10-29 (reported)",
-      "note": "Thursday actual: BW×12 at RIR 3. Hold during Stage B; independent slot, no ordinary progression credit."
+      "lastVerified": "2026-11-05 (reported)",
+      "note": "November 5: BW, 0 lb added, 9/9 at RIR 3; hold bodyweight during Stage B."
     },
     {
       "slotId": "T5",
       "exercise": "T5 — Cable pushdown",
       "load": "50 lb",
-      "lastVerified": "2026-10-29 (reported)",
-      "note": "Thursday actual: 50×12/11 at RIR 3. Hold during Stage B; independent slot, no ordinary progression credit."
+      "lastVerified": "2026-11-05 (reported)",
+      "note": "November 5: 50×15/10 at RIR 3; hold 50 during Stage B."
     },
     {
       "slotId": "T6",
       "exercise": "T6 — Seated cable row",
       "load": "120 lb",
-      "lastVerified": "2026-10-29 (reported)",
-      "note": "Thursday actual: 120×8 at RIR 3. Hold during Stage B; independent slot, no ordinary progression credit."
+      "lastVerified": "2026-11-05 (reported)",
+      "note": "November 5: 120×8/9 at RIR 3; hold 120 during Stage B."
     },
     {
       "slotId": "T7",
       "exercise": "T7 — Decline crunch (temporary)",
       "load": "BW",
-      "lastVerified": "BW prescription only; skipped October 29",
-      "note": "Thursday decline crunches skipped October 29 for a BW circuit; no same-slot decline-crunch actual. Current symptoms quiet November 4; retain BW only, up to two sets at ≥3 RIR, pending fresh loading review."
+      "lastVerified": "2026-11-05 (reported)",
+      "note": "November 5: first Thursday BW decline crunch, 15/12 at RIR 3. Keep BW, max two sets, minimum 3 RIR; no new ab symptom response or loading clearance."
     },
     {
       "slotId": "T8",
       "exercise": "T8 — Straight-arm cable pulldown",
       "load": "50 lb",
-      "lastVerified": "2026-10-29 (reported)",
-      "note": "Thursday actual: 50×10 at RIR 3. Hold during Stage B; independent slot, no ordinary progression credit."
+      "lastVerified": "2026-11-05 (reported)",
+      "note": "November 5: 50×12/10 at RIR 3; hold 50 during Stage B."
     },
     {
       "slotId": "S1",

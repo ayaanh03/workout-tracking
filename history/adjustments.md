@@ -519,3 +519,21 @@ Schedule the replacement for **next Thursday, November12**, and subsequent T2 se
 Store the change as `T2.pending_replacement`, keeping the current cable-curl record active until today’s log is reconciled. At activation, preserve the complete former T2 record under `exercise_history`, including any November5 cable actuals; start the new preacher identity with no actuals, exposures or credit and a prescribed-unvalidated75lb starting load. If a later T2 workout is generated before today’s log arrives, apply the replacement prospectively without inventing today’s completion; any delayed cable log stays with the former exercise. The standing automatic-next-workout and assumed-recovery policy remains active, with this current-session freeze and specific future symptom adjustment respected.
 
 Record the new elbow report without rewriting prior symptom reports or diagnosing tennis elbow. Only T2’s future exercise changes; the33-slot structure, all day/set totals, ordinary progression rules and forearm schedule remain unchanged. No completed lifting/run/shoe record, run pace/source use, bike settings, other injury restriction, or today’s dashboard cache changes. Commit/publish the future program and state amendment while leaving the current dashboard workout intact.
+
+## 2026-11-05 — log Thursday and generate Friday
+
+473. Log all18W2Thursday sets against original#471, preserving the frozen standard cable-curl prescription. Actuals, allRIR3: incline135×8/8/8; cablecurl42.5×10/12; laterals35×15/12/12; BWpull-up9/9; pushdown50×15/10; row120×8/9; BWdecline15/12; straight-arm50×12/10. Apply `program/lift-progression.md` and `program/ramp-and-return.md`: hold appropriate loads inStageB; no ordinary progression/plateau credit even though all three incline sets hit8. Keep all33slots independent.
+
+Reconcile T2’s cable actuals first, then activate#472’s **standard-cable-only** replacement for future T2. Archive its full cable record, including November5 actuals and exposure2, under exercise_history. New preacher starts75lb prescribed-unvalidated with no actuals/credit; WE2’s November4 75×9@3 is a starting reference only. Hammer/reverse/wrist/DBcurl slots stay unchanged. T7 gets its first temporary BWdecline actual; baseline cable crunch and previous circuit history remain untouched. No new symptom answer or ab-loading clearance is inferred. Mark Thursday done and finish its in-progress freeze; W2 now has **4completed sessions and44lifting sets**, with9lifting sessions/100known sets in the active-block history cache.
+
+Under `program/readiness.md`, assume good ordinary recovery and automatically publish **FridayNovember6 — longer intervals preview**, prescription ID`hybrid-2026-10-26-fri-intervals-473`:
+
+- Warmup:10minutes easy,8:30–9:30/mi guide or slower; optional5extra minutes if needed.
+- Work: **3×6minutes at7:25/mi**,18workminutes, final RPE≤7.
+- Recovery: **2minutes easy jog/walk between reps only**, twice.
+- Cooldown:10minutes easy. **42minutes total**,47if the full optional warmup extension is used.
+- Watch pace alerts7:20–7:30/mi guide pacing; faster reps remain eligible under the one-sided pace rule. No easy-section HR/pace alerts.
+
+October30 Friday actuals7:27/7:13/7:16 and RPE5/6/7 earned hit1 with recovery subsequently reported good. Slowest447 versus prescribed445 gives−2s headroom; final7 exceeds comfortable5, and no second comparable hit exists. No pace step or volume increase is earned; W2’s work-minute ceiling is18. Retain Fridayhit1/misses0 and normal445s/18minutes without source consumption/reset. Tuesday’s separate earned6:40 step remains unconsumed and its state unchanged. Use assumed good readiness for the new prescription, preserving active local restrictions.
+
+W2 mileage is still Tuesday actual4.25 + Friday planned work/easy running: **9.500495703899537mi estimate**, **10.116310160427808mi planning upper**, below15. Upper uses7:20 work pace and29easy minutes including optional5-minute warmup extension; faster actuals may exceed it. No planned shoe mileage is added. Write only the new November6 run spec/export, preserving prior files. Wednesday bike gains Thursday performance evidence but Friday’s subsequent run is not yet performed; bike duration remains20minutes and settings unchanged.
