@@ -1149,10 +1149,26 @@
         "reason": "Stage-A calibration; no ordinary progression or plateau credit."
       },
       "next_action": {
-        "decision_id": 453,
-        "action": "hold-load",
+        "decision_id": 475,
+        "action": "hold-load-at-stage-b-dose",
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-06",
+        "template_day": "Saturday",
+        "schedule_override_id": "2026-11-06-swap-delts-b-and-longer-run",
+        "prescription_id": "hybrid-2026-10-26-sat-delts-arms-b-475",
         "load_lb": 35,
-        "reason": "All reported sets meet this slot’s rep range at RIR 3. Hold the established working load during A–C; no ordinary ramp progression credit."
+        "sets": 3,
+        "rep_range": [
+          12,
+          20
+        ],
+        "target_rir_range": [
+          3,
+          3
+        ],
+        "rest_seconds": 120,
+        "reason": "October 31 same-slot 35×15/12 at RIR 3 supports holding 35 lb; Stage B adds the third set.",
+        "symptom_action": "Reduce, modify or omit if elbow/tendon symptoms recur; no overhead extension replacement."
       }
     },
     "S2": {
@@ -1187,19 +1203,26 @@
         }
       },
       "next_action": {
-        "decision_id": 470,
-        "action": "resume-stage-dose-at-current-load",
+        "decision_id": 475,
+        "action": "hold-load-at-stage-b-dose",
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-06",
+        "template_day": "Saturday",
+        "schedule_override_id": "2026-11-06-swap-delts-b-and-longer-run",
+        "prescription_id": "hybrid-2026-10-26-sat-delts-arms-b-475",
         "load_lb": 25,
         "sets": 2,
         "rep_range": [
           8,
           12
         ],
-        "target_rir": 3,
+        "target_rir_range": [
+          3,
+          3
+        ],
         "rest_seconds": 120,
-        "source": "../history/adjustments.md#2026-11-04--log-wednesday-and-release-biceps-maintenance",
-        "reason": "Symptom resolution and November 4 working-curl response are both confirmed. Resume normal achieved-stage sets/range at the same load; no fixed-rep maintenance cap or new load-progression credit.",
-        "symptom_action": "Adjust or omit if elbow symptoms return; incline curls remain the athlete-suspected prior trigger."
+        "reason": "October 31 same-slot 25×9 at RIR 3 supports 25 lb. Biceps maintenance was released November 4 and current elbows feel fine; Stage B uses two sets.",
+        "symptom_action": "Reduce, modify or omit if elbow/tendon symptoms recur; no overhead extension replacement."
       }
     },
     "S3": {
@@ -1262,16 +1285,26 @@
         }
       ],
       "next_action": {
-        "decision_id": 459,
+        "decision_id": 475,
         "action": "start-requested-replacement",
-        "exercise": "Cable pushdown",
-        "load_lb": 50,
-        "target_reps": "10–15",
-        "target_rir": "2–3 in current Stage B",
-        "rest_seconds": 120,
         "status": "prescribed-not-performed",
-        "reason": "Athlete-requested starting load. Thursday October 29 pushdowns 50×12/11 at RIR 3 provide a same-exercise reference only; no actuals or progression credit transfer into this slot.",
-        "symptom_action": "Use only if comfortable. Reduce load or stop/omit if pushdowns reproduce tendon irritation; do not substitute overhead work."
+        "for_date": "2026-11-06",
+        "template_day": "Saturday",
+        "schedule_override_id": "2026-11-06-swap-delts-b-and-longer-run",
+        "prescription_id": "hybrid-2026-10-26-sat-delts-arms-b-475",
+        "load_lb": 50,
+        "sets": 2,
+        "rep_range": [
+          10,
+          15
+        ],
+        "target_rir_range": [
+          3,
+          3
+        ],
+        "rest_seconds": 120,
+        "reason": "Athlete-requested overhead replacement starts 50 lb. Thursday November 5 pushdown 50×15/10 at RIR 3 is a reference only; no S3 pushdown actual or credit yet.",
+        "symptom_action": "Reduce, modify or omit if elbow/tendon symptoms recur; no overhead extension replacement."
       }
     },
     "S4": {
@@ -1301,18 +1334,40 @@
         "reason": "Stage-A calibration; no ordinary progression or plateau credit."
       },
       "next_action": {
-        "decision_id": 453,
-        "action": "hold-load",
+        "decision_id": 475,
+        "action": "hold-load-at-stage-b-dose",
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-06",
+        "template_day": "Saturday",
+        "schedule_override_id": "2026-11-06-swap-delts-b-and-longer-run",
+        "prescription_id": "hybrid-2026-10-26-sat-delts-arms-b-475",
         "load_lb": 145,
-        "reason": "All reported sets meet this slot’s rep range at RIR 3. Hold the established working load during A–C; no ordinary ramp progression credit."
+        "sets": 2,
+        "rep_range": [
+          12,
+          20
+        ],
+        "target_rir_range": [
+          3,
+          3
+        ],
+        "rest_seconds": 120,
+        "reason": "October 31 same-slot 145×15 at RIR 3 supports holding 145 lb; Stage B adds a second set.",
+        "symptom_action": "Reduce, modify or omit if elbow/tendon symptoms recur; no overhead extension replacement."
       }
     },
     "S5": {
       "exercise": "Cable reverse curl",
       "load": null,
       "next_action": {
-        "decision_id": 470,
-        "action": "calibrate-stage-b-introduction-if-comfortable",
+        "decision_id": 475,
+        "action": "calibrate-first-exposure",
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-06",
+        "template_day": "Saturday",
+        "schedule_override_id": "2026-11-06-swap-delts-b-and-longer-run",
+        "prescription_id": "hybrid-2026-10-26-sat-delts-arms-b-475",
+        "load_lb": null,
         "sets": 1,
         "rep_range": [
           15,
@@ -1323,16 +1378,22 @@
           4
         ],
         "rest_seconds": 120,
-        "load_lb": null,
-        "reason": "Current elbow hold released after symptom-free working curls. One Stage-B set may be introduced at the next scheduled Saturday if comfortable; no performed baseline, exposure or two-set forearm eligibility is inferred."
+        "reason": "First Stage-B forearm introduction; calibrate one comfortable set without inventing a working load. Only standard T2 cable curls were replaced.",
+        "symptom_action": "Reduce, modify or omit if elbow/tendon symptoms recur; no overhead extension replacement."
       }
     },
     "S6": {
       "exercise": "Cable wrist curl",
       "load": null,
       "next_action": {
-        "decision_id": 470,
-        "action": "calibrate-stage-b-introduction-if-comfortable",
+        "decision_id": 475,
+        "action": "calibrate-first-exposure",
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-06",
+        "template_day": "Saturday",
+        "schedule_override_id": "2026-11-06-swap-delts-b-and-longer-run",
+        "prescription_id": "hybrid-2026-10-26-sat-delts-arms-b-475",
+        "load_lb": null,
         "sets": 1,
         "rep_range": [
           15,
@@ -1343,8 +1404,8 @@
           4
         ],
         "rest_seconds": 120,
-        "load_lb": null,
-        "reason": "Current elbow hold released after symptom-free working curls. One Stage-B set may be introduced at the next scheduled Saturday if comfortable; no performed baseline, exposure or two-set forearm eligibility is inferred."
+        "reason": "First Stage-B forearm introduction; calibrate one comfortable set without inventing a working load. Only standard T2 cable curls were replaced.",
+        "symptom_action": "Reduce, modify or omit if elbow/tendon symptoms recur; no overhead extension replacement."
       }
     },
     "L1": {

@@ -543,3 +543,26 @@ W2 mileage is still Tuesday actual4.25 + Friday planned work/easy running: **9.5
 474. Athlete reports waking well recovered with elbows feeling fine. Under `program/readiness.md` and `program/adjustments.md`, record observed November 6 readiness and Thursday’s next-morning recovery, retaining the previous assumption/report history. Current elbow comfort does not establish symptoms during Thursday’s sets or clear independent ab/overhead limits. Retain the permanent T2-only preacher replacement and its starting prescription; do not restore standard cable curls or impose a new biceps hold.
 
 Friday remains prescription `hybrid-2026-10-26-fri-intervals-473`: 10 minutes easy warmup (up to 5 extra if needed), 3×6 minutes at 7:25/mi, two 2-minute easy recoveries, 10 minutes easy cooldown, final RPE ≤7. Update its readiness basis to observed good and promote the preview labels to today; keep the dose, Watch export, progression counters and source-use records unchanged. This recovery follow-up does not complete Friday or generate Saturday. Live calendar is November 6; Stage B, W2 completed sessions/sets and all performed actuals/mileage remain unchanged.
+
+## 2026-11-06 — swap Friday and Saturday
+
+475. Athlete requests **“Swap today and tomorrow’s workout.”** New York date is November 6. Apply a one-time override: Saturday’s Delts/arms B + bike moves to **Friday November 6**; Friday’s longer intervals move to **Saturday November 7**. Sunday November 8 legs remain scheduled, and the regular weekday template resumes. Persist this override in block state so automatic next-workout generation after today’s log selects the moved run, not a duplicate Saturday lift. Keep S1–S6, Saturday cycling and Friday running progression identities; log actual calendar dates. This explicitly overrides weekday placement only. There is no same-day run/lift, direct leg/calf work before the moved run, or direct triceps the day before incline.
+
+**November 6 — W2 Delts/arms B + bike**, prescription `hybrid-2026-10-26-sat-delts-arms-b-475`, Stage B, **11 sets**:
+
+| Slot | Exercise | Sets × reps | Load | RIR | Rest |
+|---|---|---|---|---|---|
+| S1 | DB lateral raise | 3×12–20 | 35 lb | 3 | 2 min |
+| S2 | Incline DB curl | 2×8–12 | 25 lb | 3 | 2 min |
+| S3 | Cable pushdown | 2×10–15 | 50 lb starting | 3 | 2 min |
+| S4 | Reverse pec deck | 2×12–20 | 145 lb | 3 | 2 min |
+| S5 | Cable reverse curl | 1×15–20 | Calibrate | 3–4 | 2 min |
+| S6 | Cable wrist curl | 1×15–20 | Calibrate | 3–4 | 2 min |
+
+October 31 same-slot actuals at RIR 3: S1 35×15/12, S2 25×9, S4 145×15. Hold these loads while applying achieved Stage-B sets under `program/ramp-and-return.md`. S3’s 50 lb start is the existing athlete-requested overhead replacement; T5 November 5 50×15/10 at RIR 3 is a separate-slot reference only. Neither forearm slot has a performed baseline; calibrate one comfortable set each under `program/saturday.md`. Only T2 standard cable curls were replaced with preacher; S5/S6 remain unchanged. Current elbows are quiet and the biceps maintenance hold remains released. Existing symptom/loading restrictions persist.
+
+Bike **after lifting: 20 minutes, RPE 3 (2–4 acceptable)**. October 31 actual 20:17 at RPE 2–3 and its accepted subsequent-response review support holding the dose at the W2 ceiling. Saved settings: **seat −2 (possibly −1), handle +3, height 9 (possibly 9.5)**. No new HR/power target. Today’s recovery is observed good under #474.
+
+**November 7 — W2 longer intervals**, prescription `hybrid-2026-10-26-fri-intervals-475`, reschedules #473 without changing dose: **10 minutes easy warmup** (up to 5 extra if needed), **3×6 minutes at 7:25/mi**, **two 2-minute easy recoveries between reps**, **10 minutes easy cooldown**. Build toward RPE 6–7, final **≤7**; 42 minutes planned. Watch guidance stays 7:20–7:30/mi, with faster reps still eligible under the pace-first rule. The newly dated export is `runs/2026-11-07.workout`; retain the prior November 6 file as issuance history. Tomorrow’s recovery uses the standing good-recovery assumption, not a claimed future observation. Preserve the existing one-hit Friday pace decision and Tuesday’s separate earned step.
+
+This is scheduling/prescription only: no completed session, exposure, qualification, source-use award or shoe mileage is added. W2 remains four completed sessions and 44 known lifting sets; projected maximum remains 68. Weekly running estimate remains 9.500495703899537 mi, planning upper 10.116310160427808 mi, below 15. Current dashboard shows the moved lift/bike; the week view shows the moved run tomorrow.

@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-06T09:27:29-05:00",
+  "generatedAt": "2026-11-06T18:30:31-05:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W2",
   "phase": "Hybrid v11 — Stage B",
   "rangeStart": "2026-11-02",
   "rangeEnd": "2026-11-08",
-  "summary": "W2, November 2–8 — Monday through Thursday completed: 44 lifting sets. Today, Friday November 6: 3×6 at 7:25/mi with 2-minute recoveries. Morning recovery confirmed good; elbows fine. Future Thursday preacher replacement applies only to standard cable curls. Up to 68 lifting sets this week.",
+  "summary": "W2, November 2–8 — Monday through Thursday completed: 44 lifting sets. One-time swap: delts/arms B + 20-minute bike today, Friday November 6; longer intervals Saturday November 7. Sunday legs stay scheduled. Up to 68 lifting sets this week; morning recovery confirmed good and elbows fine.",
   "days": [
     {
       "date": "2026-11-02",
@@ -39,15 +39,15 @@
     {
       "date": "2026-11-06",
       "day": "Fri",
-      "session": "Longer intervals",
-      "note": "Today: 10 min easy warmup, 3×6 min at 7:25/mi, 2 min recoveries between reps, 10 min easy cooldown. Final RPE ≤7; 42 min total. Watch file available. Same dose because last Friday earned one hit without sufficient evidence for a faster target. Morning recovery confirmed good; elbows feel fine.",
+      "session": "Delts/arms B + bike",
+      "note": "Moved from Saturday: 11 Stage-B sets, including one reverse-curl and one wrist-curl calibration set. Laterals 35 lb; incline curl 25 lb; pushdown 50 lb starting; reverse pec deck 145 lb. Bike afterward 20 min at RPE 3 (2–4 acceptable).",
       "status": "today"
     },
     {
       "date": "2026-11-07",
       "day": "Sat",
-      "session": "Delts/arms B + bike",
-      "note": "Up to 11 Stage-B sets: incline DB curl returns to 25 lb for 2×8–12 at 3 RIR; calibrate one comfortable reverse-curl and wrist-curl set each, 15–20 reps at 3–4 RIR. Without forearms, 9 core sets. Pushdown starts50lb. Bike20min at RPE3 (2–4 acceptable); use saved bike settings.",
+      "session": "Longer intervals",
+      "note": "Moved from Friday: 10 min easy warmup, 3×6 min at 7:25/mi, 2 min easy recoveries between reps, 10 min easy cooldown. Final RPE ≤7; 42 min total. New November 7 Watch export; same independent Friday running track.",
       "status": "upcoming"
     },
     {
@@ -59,7 +59,7 @@
     }
   ],
   "runningMileageCheck": {
-    "decisionId": 473,
+    "decisionId": 475,
     "kind": "actual-plus-planned",
     "recordedMiles": 4.25,
     "estimatedUnconfirmedMiles": 0,
@@ -67,6 +67,6 @@
     "upperMiles": 10.116310160427808,
     "limitMiles": 15,
     "status": "actual-plus-planned-below-limit",
-    "assumptions": "Tuesday confirmed 4.25 mi. Friday estimate: 18 work min at 7:25 plus 24 easy min at 8:30/mi. Planning upper uses 7:20 work pace and 29 easy min including optional 5-min warmup extension. Recalculate after Friday actuals; faster execution can exceed the planning envelope. Evo SLs receive 4.25 mi once; Vomero unchanged. Friday W1 total/shoe remains unresolved."
+    "assumptions": "Tuesday confirmed 4.25 mi. Friday-track run moved to Saturday November 7; estimate: 18 work min at 7:25 plus 24 easy min at 8:30/mi. Planning upper uses 7:20 work pace and 29 easy min including optional 5-min warmup extension. Recalculate after the moved run’s actuals; faster execution can exceed the planning envelope. Evo SLs receive 4.25 mi once; Vomero unchanged. Friday W1 total/shoe remains unresolved."
   }
 }

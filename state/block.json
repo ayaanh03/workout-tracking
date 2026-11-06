@@ -41,7 +41,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 474,
+  "last_adjustment_id": 475,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -328,7 +328,7 @@
       "status": "week-in-progress",
       "decision_id": 473,
       "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
-      "note": "Monday throughThursday completed:44lifting sets,20bike minutes and12running workminutes. W2 remains incomplete; stageB retained. Friday is automatically generated as a future preview under assumed-good general recovery.",
+      "note": "Monday through Thursday completed: 44 lifting sets, 20 bike minutes and 12 running work minutes. W2 remains incomplete; Stage B retained. Decision #475 swaps the uncompleted Friday/Saturday sessions: Delts/arms B + bike November 6, longer intervals November 7.",
       "known_running_work_minutes": 12,
       "confirmed_running_miles": 4.25,
       "known_cycling_minutes": 20
@@ -412,9 +412,11 @@
     "default_recovery": "assumed-good-unless-reported-otherwise",
     "source": "../program/readiness.md",
     "last_generated_date": "2026-11-06",
-    "last_generated_prescription_id": "hybrid-2026-10-26-fri-intervals-473",
+    "last_generated_prescription_id": "hybrid-2026-10-26-sat-delts-arms-b-475",
     "last_generated_from_session_id": "hybrid-2026-10-26-w2-thu-2026-11-05",
-    "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping."
+    "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping.",
+    "last_generation_trigger": "athlete-requested-schedule-swap",
+    "schedule_override_id": "2026-11-06-swap-delts-b-and-longer-run"
   },
   "session_freeze_history": [
     {
@@ -431,6 +433,67 @@
       "completed_on": "2026-11-05",
       "completion_decision_id": 473,
       "actual_ref": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b"
+    }
+  ],
+  "schedule_overrides": [
+    {
+      "id": "2026-11-06-swap-delts-b-and-longer-run",
+      "type": "one-time-swap",
+      "status": "active",
+      "decision_id": 475,
+      "requested_on": "2026-11-06",
+      "recorded_at": "2026-11-06T18:30:31-05:00",
+      "instruction": "Swap today and tomorrow’s workout",
+      "dates": [
+        "2026-11-06",
+        "2026-11-07"
+      ],
+      "normal_schedule_resumes": "2026-11-08",
+      "sessions": [
+        {
+          "scheduled_date": "2026-11-06",
+          "original_date": "2026-11-07",
+          "template_day": "Saturday",
+          "session": "Delts/arms B + bike",
+          "lifting_slots": [
+            "S1",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6"
+          ],
+          "cycling_track": "saturday",
+          "prescription_id": "hybrid-2026-10-26-sat-delts-arms-b-475",
+          "prescription_source": "../history/adjustments.md#2026-11-06--swap-friday-and-saturday"
+        },
+        {
+          "scheduled_date": "2026-11-07",
+          "original_date": "2026-11-06",
+          "template_day": "Friday",
+          "session": "Longer intervals",
+          "running_track": "friday",
+          "prescription_id": "hybrid-2026-10-26-fri-intervals-475",
+          "supersedes_prescription_id": "hybrid-2026-10-26-fri-intervals-473",
+          "prescription_source": "../history/adjustments.md#2026-11-06--swap-friday-and-saturday",
+          "workout_file": "runs/2026-11-07.workout",
+          "cardio": {
+            "workout": "3×6 minutes at 7:25/mi, with 2-minute easy jog/walk recoveries between reps only. 18 work minutes; 42 minutes total with the prescribed warmup/cooldown.",
+            "warmup": "10 minutes easy; 8:30–9:30/mi is a guide, slower is fine. Up to 5 extra minutes if needed.",
+            "cooldown": "10 minutes easy, conversation comfortable.",
+            "targets": {
+              "pace": "7:25/mi",
+              "rpe": "Build toward 6–7/10; final rep ≤7/10"
+            },
+            "flags": [
+              "Watch alerts 7:20–7:30/mi are pacing guides; faster reps can still count toward progression."
+            ],
+            "workoutFile": "runs/2026-11-07.workout"
+          }
+        }
+      ],
+      "selection_rule": "Select by scheduled_date for generation and auto-next. Log actual calendar date with original S slots/saturday cycling or friday running track. No duplicated or completed sessions inferred; normal weekday templates remain unchanged.",
+      "compatibility_review": "Separate lifting/bike and run days. Delts/arms B has no direct leg/calf work, and its triceps are not the day before incline. Sunday legs remain November 8."
     }
   ]
 }

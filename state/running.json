@@ -495,25 +495,25 @@
       }
     },
     "next_action": {
-      "decision_id": 473,
+      "decision_id": 475,
       "action": "hold-no-pace-step-earned",
       "status": "prescribed",
-      "for_date": "2026-11-06",
+      "for_date": "2026-11-07",
       "policy_id": "2026-11-03-pace-first",
       "pace_seconds_per_mile": 445,
       "work_minutes": 18,
       "format": "3x6",
       "rpe_cap": 7,
-      "reason": "October 30 slowest 7:27 versus target 7:25 gives −2 s headroom; final RPE 7 exceeds comfortable 5 and only one hit exists. Hold 3×6 at 7:25. November 6 morning recovery is confirmed good. Friday remains independent of Tuesday’s earned 6:40 step.",
-      "prescription_id": "hybrid-2026-10-26-fri-intervals-473",
+      "reason": "Athlete swaps November 6 and 7. Move the unchanged Friday-track 3×6 at 7:25 to Saturday November 7. October 30 remains one qualifying hit without all-rep headroom or comfortable-effort credit; no pace/minute increase. Tomorrow’s routine recovery is assumed good.",
+      "prescription_id": "hybrid-2026-10-26-fri-intervals-475",
       "recovery_basis": {
-        "status": "observed-good",
-        "decision_id": 474,
-        "recorded_at": "2026-11-06T09:27:29-05:00",
-        "reported_on": "2026-11-06",
-        "observed": true,
-        "reason": "Athlete reports waking well recovered on November 6, with elbows feeling fine.",
-        "source": "../history/injury-log.md#2026-11-06--well-recovered-elbows-fine"
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 475,
+        "recorded_at": "2026-11-06T18:30:31-05:00",
+        "for_date": "2026-11-07",
+        "observed": false,
+        "reason": "Standing athlete recovery default applies to tomorrow; November 6 observed recovery is good but is not an observed November 7 report."
       },
       "recovery_seconds": 120,
       "recovery_count": 2,
@@ -528,9 +528,20 @@
           "recorded_at": "2026-11-05T17:30:30-05:00",
           "observed": false,
           "reason": "Standing athlete directive #471; no contrary general-recovery report supplied. Specific local restrictions remain active."
+        },
+        {
+          "status": "observed-good",
+          "decision_id": 474,
+          "recorded_at": "2026-11-06T09:27:29-05:00",
+          "reported_on": "2026-11-06",
+          "observed": true,
+          "reason": "Athlete reports waking well recovered on November 6, with elbows feeling fine.",
+          "source": "../history/injury-log.md#2026-11-06--well-recovered-elbows-fine"
         }
       ],
-      "readiness_review_decision_id": 474
+      "original_date": "2026-11-06",
+      "schedule_override_id": "2026-11-06-swap-delts-b-and-longer-run",
+      "workout_file": "runs/2026-11-07.workout"
     },
     "pace_adjustment_history": [],
     "pace_progression_review": {
@@ -553,10 +564,52 @@
       "candidate_pace_seconds_per_mile": 445,
       "work_minutes_held": 18,
       "route": "hold",
-      "status": "hold-prescribed-for-november6",
+      "status": "hold-prescribed-for-november7",
       "applied": false,
-      "reason": "Slowest rep 7:27 is 2 s/mi slower than prescribed 7:25, so no all-rep pace-headroom step. Final RPE 7 is above comfortable threshold 5; only one ordinary hit. W2 volume ceiling is already reached."
-    }
+      "reason": "Slowest rep 7:27 is 2 s/mi slower than prescribed 7:25, so no all-rep pace-headroom step. Final RPE 7 is above comfortable threshold 5; only one ordinary hit. W2 volume ceiling is already reached.",
+      "rescheduled_by_decision_id": 475,
+      "originally_prescribed_for": "2026-11-06"
+    },
+    "prescription_history": [
+      {
+        "decision_id": 473,
+        "action": "hold-no-pace-step-earned",
+        "status": "prescribed",
+        "for_date": "2026-11-06",
+        "policy_id": "2026-11-03-pace-first",
+        "pace_seconds_per_mile": 445,
+        "work_minutes": 18,
+        "format": "3x6",
+        "rpe_cap": 7,
+        "reason": "October 30 slowest 7:27 versus target 7:25 gives −2 s headroom; final RPE 7 exceeds comfortable 5 and only one hit exists. Hold 3×6 at 7:25. November 6 morning recovery is confirmed good. Friday remains independent of Tuesday’s earned 6:40 step.",
+        "prescription_id": "hybrid-2026-10-26-fri-intervals-473",
+        "recovery_basis": {
+          "status": "observed-good",
+          "decision_id": 474,
+          "recorded_at": "2026-11-06T09:27:29-05:00",
+          "reported_on": "2026-11-06",
+          "observed": true,
+          "reason": "Athlete reports waking well recovered on November 6, with elbows feeling fine.",
+          "source": "../history/injury-log.md#2026-11-06--well-recovered-elbows-fine"
+        },
+        "recovery_seconds": 120,
+        "recovery_count": 2,
+        "warmup_minutes": 10,
+        "optional_extra_warmup_minutes": 5,
+        "cooldown_minutes": 10,
+        "recovery_basis_history": [
+          {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 473,
+            "recorded_at": "2026-11-05T17:30:30-05:00",
+            "observed": false,
+            "reason": "Standing athlete directive #471; no contrary general-recovery report supplied. Specific local restrictions remain active."
+          }
+        ],
+        "readiness_review_decision_id": 474
+      }
+    ]
   },
   "cycling": {
     "wednesday": {
@@ -796,7 +849,7 @@
       },
       "pending_validation": null,
       "next_action": {
-        "decision_id": 471,
+        "decision_id": 475,
         "action": "hold-at-calendar-ceiling",
         "minutes": 20,
         "target_rpe": 3,
@@ -804,7 +857,21 @@
           2,
           4
         ],
-        "reason": "Prescribed20-minute dose supported by subsequent performance and the standing general-recovery assumption. W2/W3 stays20minutes; no power/HR target."
+        "reason": "Move the established 20-minute Saturday bike dose with Delts/arms B to Friday November 6. W2 ceiling and accepted effort remain unchanged; current recovery is observed good.",
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-06",
+        "original_date": "2026-11-07",
+        "prescription_id": "hybrid-2026-10-26-sat-delts-arms-b-475",
+        "schedule_override_id": "2026-11-06-swap-delts-b-and-longer-run",
+        "recovery_basis": {
+          "status": "observed-good",
+          "decision_id": 474,
+          "recorded_at": "2026-11-06T09:27:29-05:00",
+          "reported_on": "2026-11-06",
+          "observed": true,
+          "reason": "Athlete reports waking well recovered on November 6, with elbows feeling fine.",
+          "source": "../history/injury-log.md#2026-11-06--well-recovered-elbows-fine"
+        }
       },
       "validation_review": {
         "decision_id": 471,

@@ -1,0 +1,9 @@
+# W2 Friday-track run moved to Saturday November 7 — decision475. 42min planned; final-rep RPE<=7.
+# Recoveries between reps only; faster pace alerts do not disqualify credit.
+name: W2 Longer 3x6 - Nov 7
+warmup: 10:00
+repeat 2
+  work: 6:00 @ current 7:20-7:30/mi
+  recovery: 2:00
+work: 6:00 @ current 7:20-7:30/mi
+cooldown: 10:00
