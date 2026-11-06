@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-05T17:30:30-05:00",
+  "generatedAt": "2026-11-06T09:27:29-05:00",
   "blockId": "hybrid-2026-10-26",
   "prescriptionId": "hybrid-2026-10-26-fri-intervals-473",
-  "preview": true,
+  "preview": false,
   "week": "W2",
   "day": "Fri",
   "date": "2026-11-06",
   "phase": "Hybrid v11 — Stage B",
-  "sessionName": "Longer intervals — preview",
+  "sessionName": "Longer intervals",
   "why": [
-    "Friday November 6 is the next scheduled workout after your completed Upper B session. Recovery is assumed good under your standing instruction.",
+    "Friday November 6 is today’s scheduled run after Thursday Upper B. You report waking well recovered with your elbows feeling fine.",
     "Repeat 3×6 minutes at 7:25/mi. The previous Friday run earned one hit but no faster target yet."
   ],
   "intro": [],
@@ -54,9 +54,9 @@
     },
     {
       "exercise": "Recovery and active restrictions",
-      "previous": "General recovery defaults to good; standard-cable-curl elbow irritation and existing ab/Achilles restrictions remain recorded.",
-      "decision": "Generate Friday without a routine recovery question; preserve those specific restrictions.",
-      "reason": "The new log provides performance, not fresh injury clearance or a measured recovery report."
+      "previous": "November 6 morning: woke well recovered; elbows feel fine.",
+      "decision": "Keep today’s prescribed run and the ongoing standard cable-curl replacement.",
+      "reason": "Recovery is now confirmed by your report. No completed Friday run or additional progression credit; existing ab and overhead restrictions remain."
     }
   ],
   "currentLoads": [

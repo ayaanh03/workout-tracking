@@ -504,21 +504,33 @@
       "work_minutes": 18,
       "format": "3x6",
       "rpe_cap": 7,
-      "reason": "October30 slowest7:27 versus target7:25 gives−2s headroom; finalRPE7 exceeds comfortable5 and onlyonehit exists. Hold3×6at7:25. Routine recovery assumed good; no running-relevant new symptom report. Friday remains independent of Tuesday’s earned6:40 step.",
+      "reason": "October 30 slowest 7:27 versus target 7:25 gives −2 s headroom; final RPE 7 exceeds comfortable 5 and only one hit exists. Hold 3×6 at 7:25. November 6 morning recovery is confirmed good. Friday remains independent of Tuesday’s earned 6:40 step.",
       "prescription_id": "hybrid-2026-10-26-fri-intervals-473",
       "recovery_basis": {
-        "status": "assumed-good",
-        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-        "decision_id": 473,
-        "recorded_at": "2026-11-05T17:30:30-05:00",
-        "observed": false,
-        "reason": "Standing athlete directive #471; no contrary general-recovery report supplied. Specific local restrictions remain active."
+        "status": "observed-good",
+        "decision_id": 474,
+        "recorded_at": "2026-11-06T09:27:29-05:00",
+        "reported_on": "2026-11-06",
+        "observed": true,
+        "reason": "Athlete reports waking well recovered on November 6, with elbows feeling fine.",
+        "source": "../history/injury-log.md#2026-11-06--well-recovered-elbows-fine"
       },
       "recovery_seconds": 120,
       "recovery_count": 2,
       "warmup_minutes": 10,
       "optional_extra_warmup_minutes": 5,
-      "cooldown_minutes": 10
+      "cooldown_minutes": 10,
+      "recovery_basis_history": [
+        {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 473,
+          "recorded_at": "2026-11-05T17:30:30-05:00",
+          "observed": false,
+          "reason": "Standing athlete directive #471; no contrary general-recovery report supplied. Specific local restrictions remain active."
+        }
+      ],
+      "readiness_review_decision_id": 474
     },
     "pace_adjustment_history": [],
     "pace_progression_review": {

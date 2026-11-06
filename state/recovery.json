@@ -360,20 +360,18 @@
         "answered_at": "2026-11-03T17:25:04-05:00"
       },
       "scope": "Suspected association with incline curls, not confirmed causation or a tennis-elbow diagnosis. Do not merge into the earlier overhead-extension complaint or infer pushdowns caused it. Historical actuals remain intact; no formal forearm eligibility review completed.",
-      "reviewed_on": "2026-11-04",
+      "reviewed_on": "2026-11-06",
       "latest_report": {
-        "reported_on": "2026-11-04",
-        "recorded_at": "2026-11-04T18:51:33-05:00",
-        "question": "Did your right elbow stay symptom-free during the curls and afterward?",
-        "report": "Yes, symptom-free throughout and afterward",
-        "decision_id": 470,
-        "status": "symptom-free-during-and-after-working-curls",
-        "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
-        "scope": "November 4 preacher and rope-hammer working-curl response. No general next-day recovery, diagnosis, or incline-curl/forearm exposure inferred."
+        "reported_on": "2026-11-06",
+        "recorded_at": "2026-11-06T09:27:29-05:00",
+        "report": "Note down I woke up well recovered and my elbows are fine",
+        "decision_id": 474,
+        "status": "morning-recovery-good-elbows-symptom-free",
+        "scope": "Observed November 6 morning recovery and current elbow comfort after November 5 Upper B. Does not establish elbow symptoms during Thursday sets, specific ab/Achilles response, or a completed Friday run."
       },
       "suspected_trigger": "Incline DB curl — athlete says “I think”",
       "onset_context": "Possibly began during incline biceps curls; exact session/date unreported.",
-      "symptom_course": "Earlier November 4 nag resolved before training; athlete confirms symptom-free throughout and after the completed preacher and rope-hammer curls.",
+      "symptom_course": "Earlier November 4 nag resolved before training; athlete confirms symptom-free throughout and after the completed preacher and rope-hammer curls. November 6: athlete wakes with elbows feeling fine; the previously released biceps maintenance hold remains released.",
       "omitted_slots": [],
       "maintenance_directive": {
         "reported_on": "2026-11-02",
@@ -400,14 +398,12 @@
         }
       },
       "current_symptom_report": {
-        "reported_on": "2026-11-04",
-        "recorded_at": "2026-11-04T18:51:33-05:00",
-        "question": "Did your right elbow stay symptom-free during the curls and afterward?",
-        "report": "Yes, symptom-free throughout and afterward",
-        "decision_id": 470,
-        "status": "symptom-free-during-and-after-working-curls",
-        "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
-        "scope": "November 4 preacher and rope-hammer working-curl response. No general next-day recovery, diagnosis, or incline-curl/forearm exposure inferred."
+        "reported_on": "2026-11-06",
+        "recorded_at": "2026-11-06T09:27:29-05:00",
+        "report": "Note down I woke up well recovered and my elbows are fine",
+        "decision_id": 474,
+        "status": "morning-recovery-good-elbows-symptom-free",
+        "scope": "Observed November 6 morning recovery and current elbow comfort after November 5 Upper B. Does not establish elbow symptoms during Thursday sets, specific ab/Achilles response, or a completed Friday run."
       },
       "symptom_report_history": [
         {
@@ -424,6 +420,16 @@
           "decision_id": 469,
           "status": "currently-symptom-free",
           "scope": "Current right-elbow symptom resolution reported. Whether this includes gripping/light curls or working-load exposure is not yet supplied; not general run recovery, a diagnosis or completed workout."
+        },
+        {
+          "reported_on": "2026-11-04",
+          "recorded_at": "2026-11-04T18:51:33-05:00",
+          "question": "Did your right elbow stay symptom-free during the curls and afterward?",
+          "report": "Yes, symptom-free throughout and afterward",
+          "decision_id": 470,
+          "status": "symptom-free-during-and-after-working-curls",
+          "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
+          "scope": "November 4 preacher and rope-hammer working-curl response. No general next-day recovery, diagnosis, or incline-curl/forearm exposure inferred."
         }
       ],
       "resolution_followup": {
@@ -580,7 +586,19 @@
         "status": "completed-and-original-preserved"
       },
       "activation_decision_id": 473,
-      "activated_on": "2026-11-05"
+      "activated_on": "2026-11-05",
+      "current_symptom_status": "currently-symptom-free",
+      "current_symptom_report": {
+        "reported_on": "2026-11-06",
+        "recorded_at": "2026-11-06T09:27:29-05:00",
+        "report": "Note down I woke up well recovered and my elbows are fine",
+        "decision_id": 474,
+        "status": "morning-recovery-good-elbows-symptom-free",
+        "scope": "Observed November 6 morning recovery and current elbow comfort after November 5 Upper B. Does not establish elbow symptoms during Thursday sets, specific ab/Achilles response, or a completed Friday run."
+      },
+      "reviewed_on": "2026-11-06",
+      "review_decision_id": 474,
+      "review_note": "Current elbows feel fine on November 6. Keep the ongoing T2-only replacement from November 12 and its existing starting dose; current comfort does not reverse the athlete-requested exercise change."
     }
   ],
   "pending_gates": [
@@ -598,14 +616,13 @@
   "observation": null,
   "reduced_snapshot": null,
   "general_readiness": {
-    "reported_on": "2026-11-02",
-    "question": "Was W1 manageable overall—soreness settling, recovery good, and no worsening joint/tendon symptoms? This determines whether today moves to Stage B.",
-    "report": "Yes, manageable overall",
+    "reported_on": "2026-11-06",
+    "reported_at": "2026-11-06T09:27:29-05:00",
+    "report": "Note down I woke up well recovered and my elbows are fine",
     "status": "good",
-    "provenance": "athlete response to explicit completed-week review",
-    "decision_id": 458,
-    "scope": "Retrospective W1 recovery review covering all October 26–November 1 sessions, including Friday; also current Monday recovery after Sunday. No numeric metrics or backdated daily report supplied.",
-    "reported_at": "2026-11-02T11:34:35-05:00",
+    "provenance": "athlete observed morning recovery report",
+    "decision_id": 474,
+    "scope": "Current November 6 readiness and next-morning recovery after November 5 Upper B. W2 remains in progress.",
     "numeric_metrics": null
   },
   "resolved_gates": [
@@ -625,18 +642,38 @@
     "elbow_response": null,
     "lower_ab_response": null,
     "achilles_response": null,
-    "next_day_recovery": null,
-    "status": "general-recovery-assumed-specific-symptom-response-unreported",
-    "decision_id": 473,
+    "next_day_recovery": "Well recovered on waking November 6, per athlete.",
+    "status": "next-day-recovery-confirmed-current-elbows-quiet",
+    "decision_id": 474,
     "recovery_decision": {
-      "status": "assumed-good",
-      "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-      "decision_id": 473,
-      "recorded_at": "2026-11-05T17:30:30-05:00",
-      "observed": false,
-      "reason": "Standing athlete directive #471; no contrary general-recovery report supplied. Specific local restrictions remain active."
+      "status": "observed-good",
+      "decision_id": 474,
+      "recorded_at": "2026-11-06T09:27:29-05:00",
+      "reported_on": "2026-11-06",
+      "observed": true,
+      "reason": "Athlete reports waking well recovered on November 6, with elbows feeling fine.",
+      "source": "../history/injury-log.md#2026-11-06--well-recovered-elbows-fine"
     },
-    "note": "All18sets atRIR3 reported. Earlier standard-cable-curl elbow irritation remains documented; this result supplies no fresh injury-response answer. BWabs and futureT2preacher restrictions persist."
+    "note": "November 6 morning recovery is explicitly good and elbows feel fine. Thursday during/after elbow response and ab/Achilles-specific response remain unreported. The T2-only preacher replacement and existing ab/overhead limits persist.",
+    "recovery_decision_history": [
+      {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 473,
+        "recorded_at": "2026-11-05T17:30:30-05:00",
+        "observed": false,
+        "reason": "Standing athlete directive #471; no contrary general-recovery report supplied. Specific local restrictions remain active."
+      }
+    ],
+    "next_morning_elbow_response": "Elbows fine on waking November 6, per athlete.",
+    "latest_followup": {
+      "reported_on": "2026-11-06",
+      "recorded_at": "2026-11-06T09:27:29-05:00",
+      "report": "Note down I woke up well recovered and my elbows are fine",
+      "decision_id": 474,
+      "status": "morning-recovery-good-elbows-symptom-free",
+      "scope": "Observed November 6 morning recovery and current elbow comfort after November 5 Upper B. Does not establish elbow symptoms during Thursday sets, specific ab/Achilles response, or a completed Friday run."
+    }
   },
   "prior_pending_post_sessions": [
     {
@@ -806,13 +843,12 @@
     }
   ],
   "current_symptom_report": {
-    "reported_on": "2026-11-05",
-    "recorded_at": "2026-11-05T16:58:43-05:00",
-    "report": "The cables are hurting my elbows.",
-    "scope_clarification": "Only standard cable curls dog",
-    "decision_id": 472,
-    "status": "standard-cable-curl-elbow-irritation-reported",
-    "scope": "Standard cable curls only. Side, exact location, severity and onset are not reported. Does not revise the November4 symptom-free log or establish completed Thursday sets."
+    "reported_on": "2026-11-06",
+    "recorded_at": "2026-11-06T09:27:29-05:00",
+    "report": "Note down I woke up well recovered and my elbows are fine",
+    "decision_id": 474,
+    "status": "morning-recovery-good-elbows-symptom-free",
+    "scope": "Observed November 6 morning recovery and current elbow comfort after November 5 Upper B. Does not establish elbow symptoms during Thursday sets, specific ab/Achilles response, or a completed Friday run."
   },
   "current_symptom_report_history": [
     {
@@ -839,6 +875,15 @@
       "status": "symptom-free-during-and-after-working-curls",
       "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
       "scope": "November 4 preacher and rope-hammer working-curl response. No general next-day recovery, diagnosis, or incline-curl/forearm exposure inferred."
+    },
+    {
+      "reported_on": "2026-11-05",
+      "recorded_at": "2026-11-05T16:58:43-05:00",
+      "report": "The cables are hurting my elbows.",
+      "scope_clarification": "Only standard cable curls dog",
+      "decision_id": 472,
+      "status": "standard-cable-curl-elbow-irritation-reported",
+      "scope": "Standard cable curls only. Side, exact location, severity and onset are not reported. Does not revise the November4 symptom-free log or establish completed Thursday sets."
     }
   ],
   "standing_recovery_policy": {
@@ -861,12 +906,26 @@
     "source": "../program/readiness.md"
   },
   "planning_readiness": {
-    "status": "assumed-good",
-    "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-    "decision_id": 473,
-    "recorded_at": "2026-11-05T17:30:30-05:00",
-    "observed": false,
-    "reason": "Standing athlete directive #471; no contrary general-recovery report supplied. Specific local restrictions remain active.",
+    "status": "observed-good",
+    "decision_id": 474,
+    "recorded_at": "2026-11-06T09:27:29-05:00",
+    "reported_on": "2026-11-06",
+    "observed": true,
+    "reason": "Athlete reports waking well recovered on November 6, with elbows feeling fine.",
+    "source": "../history/injury-log.md#2026-11-06--well-recovered-elbows-fine",
     "for_date": "2026-11-06"
-  }
+  },
+  "general_readiness_history": [
+    {
+      "reported_on": "2026-11-02",
+      "question": "Was W1 manageable overall—soreness settling, recovery good, and no worsening joint/tendon symptoms? This determines whether today moves to Stage B.",
+      "report": "Yes, manageable overall",
+      "status": "good",
+      "provenance": "athlete response to explicit completed-week review",
+      "decision_id": 458,
+      "scope": "Retrospective W1 recovery review covering all October 26–November 1 sessions, including Friday; also current Monday recovery after Sunday. No numeric metrics or backdated daily report supplied.",
+      "reported_at": "2026-11-02T11:34:35-05:00",
+      "numeric_metrics": null
+    }
+  ]
 }

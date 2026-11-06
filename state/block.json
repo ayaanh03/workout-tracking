@@ -6,7 +6,7 @@
   "start_date": "2026-10-25",
   "end_date": "2027-01-03",
   "timezone": "America/New_York",
-  "as_of": "2026-11-05",
+  "as_of": "2026-11-06",
   "activation_status": "active",
   "calendar_week": "W2",
   "calendar_phase": "Ramp",
@@ -41,7 +41,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 473,
+  "last_adjustment_id": 474,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -248,16 +248,35 @@
       "unresolved_slots": [],
       "actual_ref": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
       "prescription_id": "hybrid-2026-10-26-thu-upper-b-471",
-      "recovery_status": "general-recovery-assumed-specific-response-unreported",
+      "recovery_status": "next-day-recovery-confirmed-current-elbows-quiet",
       "recovery_decision": {
-        "status": "assumed-good",
-        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-        "decision_id": 473,
-        "recorded_at": "2026-11-05T17:30:30-05:00",
-        "observed": false,
-        "reason": "Standing athlete directive #471; no contrary general-recovery report supplied. Specific local restrictions remain active."
+        "status": "observed-good",
+        "decision_id": 474,
+        "recorded_at": "2026-11-06T09:27:29-05:00",
+        "reported_on": "2026-11-06",
+        "observed": true,
+        "reason": "Athlete reports waking well recovered on November 6, with elbows feeling fine.",
+        "source": "../history/injury-log.md#2026-11-06--well-recovered-elbows-fine"
       },
-      "review_note": "All18sets met rep ranges atRIR3. Incline135×8/8/8 does not earn loading credit inStageB. Cablecurl42.5×10/12 saved as cableactual before futurepreacher activation. First ThursdayBWdecline15/12 recorded; no session-specific symptom response inferred."
+      "review_note": "All18sets met rep ranges atRIR3. Incline135×8/8/8 does not earn loading credit inStageB. Cablecurl42.5×10/12 saved as cableactual before futurepreacher activation. First ThursdayBWdecline15/12 recorded; no session-specific symptom response inferred.",
+      "recovery_decision_history": [
+        {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 473,
+          "recorded_at": "2026-11-05T17:30:30-05:00",
+          "observed": false,
+          "reason": "Standing athlete directive #471; no contrary general-recovery report supplied. Specific local restrictions remain active."
+        }
+      ],
+      "recovery_followup": {
+        "reported_on": "2026-11-06",
+        "recorded_at": "2026-11-06T09:27:29-05:00",
+        "report": "Note down I woke up well recovered and my elbows are fine",
+        "decision_id": 474,
+        "status": "morning-recovery-good-elbows-symptom-free",
+        "scope": "Observed November 6 morning recovery and current elbow comfort after November 5 Upper B. Does not establish elbow symptoms during Thursday sets, specific ab/Achilles response, or a completed Friday run."
+      }
     }
   },
   "planned_start_date": "2026-10-26",

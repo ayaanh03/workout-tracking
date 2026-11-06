@@ -185,3 +185,9 @@ Athlete also instructs **“And don’t change today’s workout I’m already h
 Thursday’s completed log includes standard cablecurl42.5×10/12 and BWdecline15/12, allRIR3. No additional elbow or ab symptom response was supplied. Retain the earlier standard-cable-curl irritation and existing bodyweight limits; do not interpret completion or the general-recovery default as injury clearance.
 
 After preserving the complete frozen#471 workout and cable history, activate#472’s T2 preacher replacement for nextThursdayNovember12 only. New T2 preacher has no performed actuals; other curls are unchanged. Current-session freeze is completed, allowing the standing automatic-next-workout workflow to publish Friday. Decision#473.
+
+## 2026-11-06 — well recovered; elbows fine
+
+Athlete: **“Note down I woke up well recovered and my elbows are fine.”** Record observed good morning recovery after November 5 Upper B and current symptom-free elbows. This updates the prior planning assumption with an actual report; Thursday’s during/after elbow symptoms and ab/Achilles-specific response remain unreported.
+
+Keep the ongoing standard cable-curl → unilateral machine preacher replacement for T2 from November 12. The prior biceps maintenance hold remains released; separate bodyweight-ab and overhead-extension limits persist. Today’s Friday run remains prescription #473. No new session, progression credit or stage advancement. Decision #474.

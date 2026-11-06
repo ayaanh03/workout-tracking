@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-05T17:30:30-05:00",
+  "generatedAt": "2026-11-06T09:27:29-05:00",
   "blockId": "hybrid-2026-10-26",
-  "preview": true,
+  "preview": false,
   "week": "W2",
   "phase": "Hybrid v11 — Stage B",
   "rangeStart": "2026-11-02",
   "rangeEnd": "2026-11-08",
-  "summary": "W2, November 2–8 — Monday through Thursday completed: 44 lifting sets. Friday November 6 preview ready: 3×6 at 7:25/mi with 2-minute recoveries. Recovery assumed good. Future Thursday preacher replacement applies only to standard cable curls; other curls unchanged. Up to 68 lifting sets this week.",
+  "summary": "W2, November 2–8 — Monday through Thursday completed: 44 lifting sets. Today, Friday November 6: 3×6 at 7:25/mi with 2-minute recoveries. Morning recovery confirmed good; elbows fine. Future Thursday preacher replacement applies only to standard cable curls. Up to 68 lifting sets this week.",
   "days": [
     {
       "date": "2026-11-02",
@@ -40,8 +40,8 @@
       "date": "2026-11-06",
       "day": "Fri",
       "session": "Longer intervals",
-      "note": "Preview ready: 10 min easy warmup, 3×6 min at 7:25/mi, 2 min recoveries between reps, 10 min easy cooldown. Final RPE ≤7; 42 min total. Watch file available. Same dose because last Friday earned one hit without sufficient evidence for a faster target.",
-      "status": "upcoming"
+      "note": "Today: 10 min easy warmup, 3×6 min at 7:25/mi, 2 min recoveries between reps, 10 min easy cooldown. Final RPE ≤7; 42 min total. Watch file available. Same dose because last Friday earned one hit without sufficient evidence for a faster target. Morning recovery confirmed good; elbows feel fine.",
+      "status": "today"
     },
     {
       "date": "2026-11-07",
