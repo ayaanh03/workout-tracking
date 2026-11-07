@@ -174,3 +174,20 @@ Session ID:`hybrid-2026-10-26-w2-thu-2026-11-05`. StageB, completed against orig
 Save T2’s complete cable record with42.5×10/12 today and raw exposure2 before activating the authorized future preacher replacement. The new T2 identity is unilateral machine preacher at75lb prescribed-unvalidated, with no actuals/exposures/qualification/anchor. Only standard cable curls change; hammer, reverse, wrist and incline curls remain unchanged. Next applicable Thursday is November12. The completed original prescription is never relabeled.
 
 No new session-specific elbow/ab response is reported; earlier cable-curl irritation and BW-ab restrictions persist. General recovery is assumed good under#471, not recorded as an observation. Clear the in-progress lock after saving these actuals, then automatically generate FridayNovember6. Decision#473.
+
+## 2026-11-06 — Hybrid v11 W2 Friday Delts/arms B moved from Saturday
+
+Session ID: `hybrid-2026-10-26-w2-fri-2026-11-06`. Stage B, original prescription `hybrid-2026-10-26-sat-delts-arms-b-475` under the dated swap. Actual calendar date is Friday; S1–S6 identities remain independent.
+
+| Slot | Exercise | Prescribed sets × reps / load / RIR | Actual set 1 | Actual set 2 | Actual set 3 |
+|---|---|---|---|---|---|
+| S1 | DB lateral raise | 3×12–20 / 35 lb / 3 | 35×12, RIR 3 | 35×12, RIR 3 | 35×13, RIR 3 |
+| S2 | Incline DB curl | 2×8–12 / 25 lb / 3 | 25×8, RIR 3 | 25×9, RIR 3 | — |
+| S3 | Cable pushdown | 2×10–15 / 50 lb / 3 | 50×10, RIR 3 | 50×10, RIR 3 | — |
+| S4 | Reverse pec deck | 2×12–20 / 145 lb / 3 | 145×12, RIR 3 | n/r | — |
+| S5 | Cable reverse curl | 1×15–20 / Calibrate / 3–4 | 25×15, RIR 10+ | — | — |
+| S6 | Cable wrist curl | 1×15–20 / Calibrate / 3–4 | 25×15, RIR 10+ | — | — |
+
+**10 known sets of 11 prescribed.** The second reverse-pec-deck set is unreported; asked once whether it was performed. Do not infer a skipped or completed set. Forearm note: **“The cable wrist curl and reverse curls i need to watch. They were rir 10+ but im worried about my elbow tendon so ill progress slowly.”** This explicitly supersedes the pasted RIR 3 for both forearm sets; preserve the lower-bound notation rather than exact 10. The 25 cable settings use the active lb convention; station/pulley details are unreported.
+
+S1/S2/S4 gain their second raw exposure; S3 pushdown and S5/S6 gain their first. Establish loads 50/25/25 in those independent slots. No ordinary Stage-B load/plateau credit. Hold suitable other loads. Repeat each forearm at one deliberately easy 25×15 next time, then review comfort before gradually adding reps; do not force a load jump to reduce reserve. Elbow concern alone does not establish pain, and a clarification was requested. No automatic two-set forearm eligibility. Bike: 20 minutes, reported Z2; numeric RPE unknown. Decision #476.

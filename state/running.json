@@ -504,16 +504,16 @@
       "work_minutes": 18,
       "format": "3x6",
       "rpe_cap": 7,
-      "reason": "Athlete swaps November 6 and 7. Move the unchanged Friday-track 3×6 at 7:25 to Saturday November 7. October 30 remains one qualifying hit without all-rep headroom or comfortable-effort credit; no pace/minute increase. Tomorrow’s routine recovery is assumed good.",
+      "reason": "After the moved November 6 lifting/bike log, publish the already-issued November 7 run #475 unchanged: 3×6 at 7:25. October 30 remains one qualifying Friday-track hit without headroom or comfortable-effort credit; no pace/minute increase. Routine next-day recovery is assumed good.",
       "prescription_id": "hybrid-2026-10-26-fri-intervals-475",
       "recovery_basis": {
         "status": "assumed-good",
         "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-        "decision_id": 475,
-        "recorded_at": "2026-11-06T18:30:31-05:00",
-        "for_date": "2026-11-07",
+        "decision_id": 476,
+        "recorded_at": "2026-11-06T19:27:39-05:00",
         "observed": false,
-        "reason": "Standing athlete recovery default applies to tomorrow; November 6 observed recovery is good but is not an observed November 7 report."
+        "reason": "Standing recovery default supports ordinary next-workout planning. Morning November 6 recovery preceded this session; no post-session or next-morning recovery observation is invented.",
+        "for_date": "2026-11-07"
       },
       "recovery_seconds": 120,
       "recovery_count": 2,
@@ -541,7 +541,8 @@
       ],
       "original_date": "2026-11-06",
       "schedule_override_id": "2026-11-06-swap-delts-b-and-longer-run",
-      "workout_file": "runs/2026-11-07.workout"
+      "workout_file": "runs/2026-11-07.workout",
+      "latest_review_decision_id": 476
     },
     "pace_adjustment_history": [],
     "pace_progression_review": {
@@ -742,114 +743,50 @@
       }
     },
     "saturday": {
-      "last_completed": "2026-10-31",
+      "last_completed": "2026-11-06",
       "last_tolerated_minutes": 20,
       "latest_actual": {
-        "date": "2026-10-31",
-        "session_id": "hybrid-2026-10-26-w1-sat-2026-10-31-bike",
-        "prescription_id": "hybrid-2026-10-26-sat-delts-arms-b-452",
-        "source": "../history/cardio-log.md#2026-10-31--hybrid-v11-w1-saturday-bike",
-        "equipment": "Stages indoor bike",
-        "duration_seconds": 1217,
-        "average_power_watts": 131,
-        "average_power_source": "Athlete photo: 131 in the console AVG watts column.",
-        "distance_km": 10.1,
-        "distance_source": "Displayed indoor-bike distance; not outdoor running mileage.",
-        "rpe_range": [
-          2,
-          3
-        ],
-        "effort_source": "Athlete text in response to effort question.",
-        "reported_heart_rate_range_bpm": [
-          140,
-          145
-        ],
-        "heart_rate_source": "Athlete approximate report; no measured average supplied.",
-        "reported_zone_description": "all Z2",
-        "zone_source": "Athlete report; no measured zone-time breakdown supplied.",
-        "athlete_followup": {
-          "reported_on": "2026-10-31",
-          "report": "2-3 HR was like 140-145 all Z2",
-          "decision_id": 453
-        },
-        "lower_ab_response": "No issues during or after Saturday’s session.",
-        "achilles_response": "No issues during or after Saturday’s session.",
-        "next_day_recovery": {
-          "reported_on": "2026-11-01",
-          "reported_at": "2026-11-01T09:42:36-05:00",
-          "status": "good",
-          "report": "Recovery is good.",
-          "provenance": "athlete report",
-          "decision_id": 455,
-          "scope": "Sunday current general recovery and next-day recovery after Saturday October 31 lifting/bike. No numeric metrics, new site-specific report or completed manageable-week assessment supplied."
+        "date": "2026-11-06",
+        "session_id": "hybrid-2026-10-26-w2-fri-2026-11-06-bike",
+        "prescription_id": "hybrid-2026-10-26-sat-delts-arms-b-475",
+        "source": "../history/cardio-log.md#2026-11-06--hybrid-v11-w2-friday-bike-moved-from-saturday",
+        "template_day": "Saturday",
+        "scheduled_day": "Friday",
+        "schedule_override_id": "2026-11-06-swap-delts-b-and-longer-run",
+        "equipment": null,
+        "duration_seconds": 1200,
+        "rpe": null,
+        "reported_zone_description": "Z2",
+        "zone_source": "Athlete: 20 mins at z2 done bike",
+        "average_heart_rate_bpm": null,
+        "average_power_watts": null,
+        "distance_km": null,
+        "lower_ab_response": null,
+        "achilles_response": null,
+        "elbow_response": null,
+        "next_day_recovery": null,
+        "recovery_decision": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 476,
+          "recorded_at": "2026-11-06T19:27:39-05:00",
+          "observed": false,
+          "reason": "Standing recovery default supports ordinary next-workout planning. Morning November 6 recovery preceded this session; no post-session or next-morning recovery observation is invented."
         },
         "subsequent_lifting_running_tolerance": {
-          "reviewed_on": "2026-11-04",
-          "decision_id": 471,
-          "status": "acceptable-with-run-recovery-assumed",
-          "lifting_session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
-          "lifting_source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
-          "evidence": "All 11 Sunday sets meet ranges at RIR 3 or more. Compared with October 25, calf and hack reps improved; no demonstrated leg-performance decline. Leg curl recalibrated upward to 100 lb.",
-          "achilles_response": "Sunday Achilles response comfortable per athlete follow-up.",
-          "ab_response": "Minor strain sensation at the original ab site during the first few reps, then gone; athlete also describes soreness as ordinary-feeling.",
-          "subsequent_run_response": {
-            "date": "2026-11-03",
-            "session_id": "hybrid-2026-10-26-w2-tue-2026-11-03",
-            "source": "../history/cardio-log.md#2026-11-03--hybrid-v11-w2-tuesday-intervals",
-            "work_minutes": 12,
-            "rep_paces_seconds_per_mile": [
-              388,
-              397,
-              391
-            ],
-            "final_rep_rpe": 7,
-            "status": "hit-with-assumed-good-recovery",
-            "note": "Pace and effort pass; run recovery decision supplied by standing athlete assumption in #471, not an observation.",
-            "recovery_basis": {
-              "status": "assumed-good",
-              "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-              "decision_id": 471,
-              "recorded_at": "2026-11-04T22:45:42-05:00",
-              "observed": false,
-              "reason": "Athlete explicitly directs normal recovery by default unless they report otherwise."
-            }
-          },
-          "local_followup": {
-            "reported_on": "2026-11-01",
-            "report": "Achilles was fine. Abs also seemed ordinary. Minor strain on the og site but gone after a few reps",
-            "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
-            "decision_id": 457,
-            "scope": "Clarifies Sunday during/after symptom question: Achilles comfortable; athlete describes ordinary-feeling soreness plus a minor original-site strain sensation that faded after a few reps. Not a new injury diagnosis or next-day recovery report."
-          },
-          "current_ab_followup": {
-            "reported_on": "2026-11-02",
-            "question": "How does the original ab-strain site feel today?",
-            "report": "No discomfort today",
-            "decision_id": 458,
-            "scope": "Current Monday symptoms after Sunday; no new ab exercise or loaded tolerance established."
-          },
-          "week_review": {
-            "reported_on": "2026-11-02",
-            "question": "Was W1 manageable overall—soreness settling, recovery good, and no worsening joint/tendon symptoms? This determines whether today moves to Stage B.",
-            "report": "Yes, manageable overall",
-            "status": "good",
-            "provenance": "athlete response to explicit completed-week review",
-            "decision_id": 458,
-            "scope": "Retrospective W1 recovery review covering all October 26–November 1 sessions, including Friday; also current Monday recovery after Sunday. No numeric metrics or backdated daily report supplied."
-          }
+          "status": "not-yet-observed",
+          "subsequent_run_response": null,
+          "subsequent_lifting_response": null
         },
-        "symptom_followup": {
-          "reported_on": "2026-10-31",
-          "report": "No Achilles or ab issues",
-          "status": "no-symptoms-during-or-after",
-          "session_id": "hybrid-2026-10-26-w1-sat-2026-10-31",
-          "decision_id": 454,
-          "scope": "Answers the Saturday during/after symptom question. No new ab or calf sets, next-day general recovery or full injury clearance is claimed."
-        }
+        "note": "Zone report is retained literally; no numeric RPE, HR, power, exact machine identity or running mileage inferred."
       },
-      "pending_validation": null,
+      "pending_validation": {
+        "decision_id": 476,
+        "status": "pending-subsequent-performance",
+        "reason": "Latest 20-minute ride completed; later run/lifting not yet performed. Hold prior tolerated 20-minute dose under the W2/W3 ceiling; no duration increase requested."
+      },
       "next_action": {
-        "decision_id": 475,
+        "decision_id": 476,
         "action": "hold-at-calendar-ceiling",
         "minutes": 20,
         "target_rpe": 3,
@@ -857,21 +794,7 @@
           2,
           4
         ],
-        "reason": "Move the established 20-minute Saturday bike dose with Delts/arms B to Friday November 6. W2 ceiling and accepted effort remain unchanged; current recovery is observed good.",
-        "status": "prescribed-not-performed",
-        "for_date": "2026-11-06",
-        "original_date": "2026-11-07",
-        "prescription_id": "hybrid-2026-10-26-sat-delts-arms-b-475",
-        "schedule_override_id": "2026-11-06-swap-delts-b-and-longer-run",
-        "recovery_basis": {
-          "status": "observed-good",
-          "decision_id": 474,
-          "recorded_at": "2026-11-06T09:27:29-05:00",
-          "reported_on": "2026-11-06",
-          "observed": true,
-          "reason": "Athlete reports waking well recovered on November 6, with elbows feeling fine.",
-          "source": "../history/injury-log.md#2026-11-06--well-recovered-elbows-fine"
-        }
+        "reason": "Retain the established 20-minute prescription. Latest ride is reported Z2 with numeric effort unknown; no increase based on missing effort or future performance."
       },
       "validation_review": {
         "decision_id": 471,
@@ -886,7 +809,112 @@
           "reason": "Athlete explicitly directs normal recovery by default unless they report otherwise."
         },
         "reason": "Sunday lifting/next-day recovery and the subsequent November3 run are recorded. Tuesday run now qualifies using the athlete-directed recovery assumption; keep actual Saturday20:17 separate from planned20minutes."
-      }
+      },
+      "actual_history": [
+        {
+          "date": "2026-10-31",
+          "session_id": "hybrid-2026-10-26-w1-sat-2026-10-31-bike",
+          "prescription_id": "hybrid-2026-10-26-sat-delts-arms-b-452",
+          "source": "../history/cardio-log.md#2026-10-31--hybrid-v11-w1-saturday-bike",
+          "equipment": "Stages indoor bike",
+          "duration_seconds": 1217,
+          "average_power_watts": 131,
+          "average_power_source": "Athlete photo: 131 in the console AVG watts column.",
+          "distance_km": 10.1,
+          "distance_source": "Displayed indoor-bike distance; not outdoor running mileage.",
+          "rpe_range": [
+            2,
+            3
+          ],
+          "effort_source": "Athlete text in response to effort question.",
+          "reported_heart_rate_range_bpm": [
+            140,
+            145
+          ],
+          "heart_rate_source": "Athlete approximate report; no measured average supplied.",
+          "reported_zone_description": "all Z2",
+          "zone_source": "Athlete report; no measured zone-time breakdown supplied.",
+          "athlete_followup": {
+            "reported_on": "2026-10-31",
+            "report": "2-3 HR was like 140-145 all Z2",
+            "decision_id": 453
+          },
+          "lower_ab_response": "No issues during or after Saturday’s session.",
+          "achilles_response": "No issues during or after Saturday’s session.",
+          "next_day_recovery": {
+            "reported_on": "2026-11-01",
+            "reported_at": "2026-11-01T09:42:36-05:00",
+            "status": "good",
+            "report": "Recovery is good.",
+            "provenance": "athlete report",
+            "decision_id": 455,
+            "scope": "Sunday current general recovery and next-day recovery after Saturday October 31 lifting/bike. No numeric metrics, new site-specific report or completed manageable-week assessment supplied."
+          },
+          "subsequent_lifting_running_tolerance": {
+            "reviewed_on": "2026-11-04",
+            "decision_id": 471,
+            "status": "acceptable-with-run-recovery-assumed",
+            "lifting_session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
+            "lifting_source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
+            "evidence": "All 11 Sunday sets meet ranges at RIR 3 or more. Compared with October 25, calf and hack reps improved; no demonstrated leg-performance decline. Leg curl recalibrated upward to 100 lb.",
+            "achilles_response": "Sunday Achilles response comfortable per athlete follow-up.",
+            "ab_response": "Minor strain sensation at the original ab site during the first few reps, then gone; athlete also describes soreness as ordinary-feeling.",
+            "subsequent_run_response": {
+              "date": "2026-11-03",
+              "session_id": "hybrid-2026-10-26-w2-tue-2026-11-03",
+              "source": "../history/cardio-log.md#2026-11-03--hybrid-v11-w2-tuesday-intervals",
+              "work_minutes": 12,
+              "rep_paces_seconds_per_mile": [
+                388,
+                397,
+                391
+              ],
+              "final_rep_rpe": 7,
+              "status": "hit-with-assumed-good-recovery",
+              "note": "Pace and effort pass; run recovery decision supplied by standing athlete assumption in #471, not an observation.",
+              "recovery_basis": {
+                "status": "assumed-good",
+                "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+                "decision_id": 471,
+                "recorded_at": "2026-11-04T22:45:42-05:00",
+                "observed": false,
+                "reason": "Athlete explicitly directs normal recovery by default unless they report otherwise."
+              }
+            },
+            "local_followup": {
+              "reported_on": "2026-11-01",
+              "report": "Achilles was fine. Abs also seemed ordinary. Minor strain on the og site but gone after a few reps",
+              "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
+              "decision_id": 457,
+              "scope": "Clarifies Sunday during/after symptom question: Achilles comfortable; athlete describes ordinary-feeling soreness plus a minor original-site strain sensation that faded after a few reps. Not a new injury diagnosis or next-day recovery report."
+            },
+            "current_ab_followup": {
+              "reported_on": "2026-11-02",
+              "question": "How does the original ab-strain site feel today?",
+              "report": "No discomfort today",
+              "decision_id": 458,
+              "scope": "Current Monday symptoms after Sunday; no new ab exercise or loaded tolerance established."
+            },
+            "week_review": {
+              "reported_on": "2026-11-02",
+              "question": "Was W1 manageable overall—soreness settling, recovery good, and no worsening joint/tendon symptoms? This determines whether today moves to Stage B.",
+              "report": "Yes, manageable overall",
+              "status": "good",
+              "provenance": "athlete response to explicit completed-week review",
+              "decision_id": 458,
+              "scope": "Retrospective W1 recovery review covering all October 26–November 1 sessions, including Friday; also current Monday recovery after Sunday. No numeric metrics or backdated daily report supplied."
+            }
+          },
+          "symptom_followup": {
+            "reported_on": "2026-10-31",
+            "report": "No Achilles or ab issues",
+            "status": "no-symptoms-during-or-after",
+            "session_id": "hybrid-2026-10-26-w1-sat-2026-10-31",
+            "decision_id": 454,
+            "scope": "Answers the Saturday during/after symptom question. No new ab or calf sets, next-day general recovery or full injury clearance is claimed."
+          }
+        }
+      ]
     },
     "equipment_settings": {
       "recorded_on": "2026-11-04",

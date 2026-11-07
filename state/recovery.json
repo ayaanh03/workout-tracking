@@ -636,44 +636,25 @@
     }
   ],
   "post_session": {
-    "date": "2026-11-05",
-    "session_id": "hybrid-2026-10-26-w2-thu-2026-11-05",
+    "date": "2026-11-06",
+    "session_id": "hybrid-2026-10-26-w2-fri-2026-11-06",
     "completion": "reported",
     "elbow_response": null,
     "lower_ab_response": null,
     "achilles_response": null,
-    "next_day_recovery": "Well recovered on waking November 6, per athlete.",
-    "status": "next-day-recovery-confirmed-current-elbows-quiet",
-    "decision_id": 474,
+    "next_day_recovery": null,
+    "status": "general-recovery-assumed-forearm-response-unreported",
+    "decision_id": 476,
     "recovery_decision": {
-      "status": "observed-good",
-      "decision_id": 474,
-      "recorded_at": "2026-11-06T09:27:29-05:00",
-      "reported_on": "2026-11-06",
-      "observed": true,
-      "reason": "Athlete reports waking well recovered on November 6, with elbows feeling fine.",
-      "source": "../history/injury-log.md#2026-11-06--well-recovered-elbows-fine"
+      "status": "assumed-good",
+      "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+      "decision_id": 476,
+      "recorded_at": "2026-11-06T19:27:39-05:00",
+      "observed": false,
+      "reason": "Standing recovery default supports ordinary next-workout planning. Morning November 6 recovery preceded this session; no post-session or next-morning recovery observation is invented."
     },
-    "note": "November 6 morning recovery is explicitly good and elbows feel fine. Thursday during/after elbow response and ab/Achilles-specific response remain unreported. The T2-only preacher replacement and existing ab/overhead limits persist.",
-    "recovery_decision_history": [
-      {
-        "status": "assumed-good",
-        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-        "decision_id": 473,
-        "recorded_at": "2026-11-05T17:30:30-05:00",
-        "observed": false,
-        "reason": "Standing athlete directive #471; no contrary general-recovery report supplied. Specific local restrictions remain active."
-      }
-    ],
-    "next_morning_elbow_response": "Elbows fine on waking November 6, per athlete.",
-    "latest_followup": {
-      "reported_on": "2026-11-06",
-      "recorded_at": "2026-11-06T09:27:29-05:00",
-      "report": "Note down I woke up well recovered and my elbows are fine",
-      "decision_id": 474,
-      "status": "morning-recovery-good-elbows-symptom-free",
-      "scope": "Observed November 6 morning recovery and current elbow comfort after November 5 Upper B. Does not establish elbow symptoms during Thursday sets, specific ab/Achilles response, or a completed Friday run."
-    }
+    "forearm_concern": "The cable wrist curl and reverse curls i need to watch. They were rir 10+ but im worried about my elbow tendon so ill progress slowly",
+    "note": "Ten lifting sets and 20-minute Z2 bike reported. Second reverse-pec-deck set is unreported. Forearm RIR 10+ is intentional; concern alone does not establish recurrent elbow pain. Morning quiet elbows remain an earlier observation."
   },
   "prior_pending_post_sessions": [
     {
@@ -801,6 +782,46 @@
         "observed": false,
         "reason": "Athlete explicitly directs normal recovery by default unless they report otherwise."
       }
+    },
+    {
+      "date": "2026-11-05",
+      "session_id": "hybrid-2026-10-26-w2-thu-2026-11-05",
+      "completion": "reported",
+      "elbow_response": null,
+      "lower_ab_response": null,
+      "achilles_response": null,
+      "next_day_recovery": "Well recovered on waking November 6, per athlete.",
+      "status": "next-day-recovery-confirmed-current-elbows-quiet",
+      "decision_id": 474,
+      "recovery_decision": {
+        "status": "observed-good",
+        "decision_id": 474,
+        "recorded_at": "2026-11-06T09:27:29-05:00",
+        "reported_on": "2026-11-06",
+        "observed": true,
+        "reason": "Athlete reports waking well recovered on November 6, with elbows feeling fine.",
+        "source": "../history/injury-log.md#2026-11-06--well-recovered-elbows-fine"
+      },
+      "note": "November 6 morning recovery is explicitly good and elbows feel fine. Thursday during/after elbow response and ab/Achilles-specific response remain unreported. The T2-only preacher replacement and existing ab/overhead limits persist.",
+      "recovery_decision_history": [
+        {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 473,
+          "recorded_at": "2026-11-05T17:30:30-05:00",
+          "observed": false,
+          "reason": "Standing athlete directive #471; no contrary general-recovery report supplied. Specific local restrictions remain active."
+        }
+      ],
+      "next_morning_elbow_response": "Elbows fine on waking November 6, per athlete.",
+      "latest_followup": {
+        "reported_on": "2026-11-06",
+        "recorded_at": "2026-11-06T09:27:29-05:00",
+        "report": "Note down I woke up well recovered and my elbows are fine",
+        "decision_id": 474,
+        "status": "morning-recovery-good-elbows-symptom-free",
+        "scope": "Observed November 6 morning recovery and current elbow comfort after November 5 Upper B. Does not establish elbow symptoms during Thursday sets, specific ab/Achilles response, or a completed Friday run."
+      }
     }
   ],
   "readiness_forecast": {
@@ -906,14 +927,13 @@
     "source": "../program/readiness.md"
   },
   "planning_readiness": {
-    "status": "observed-good",
-    "decision_id": 474,
-    "recorded_at": "2026-11-06T09:27:29-05:00",
-    "reported_on": "2026-11-06",
-    "observed": true,
-    "reason": "Athlete reports waking well recovered on November 6, with elbows feeling fine.",
-    "source": "../history/injury-log.md#2026-11-06--well-recovered-elbows-fine",
-    "for_date": "2026-11-06"
+    "status": "assumed-good",
+    "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+    "decision_id": 476,
+    "recorded_at": "2026-11-06T19:27:39-05:00",
+    "observed": false,
+    "reason": "Standing recovery default supports ordinary next-workout planning. Morning November 6 recovery preceded this session; no post-session or next-morning recovery observation is invented.",
+    "for_date": "2026-11-07"
   },
   "general_readiness_history": [
     {
@@ -926,6 +946,32 @@
       "scope": "Retrospective W1 recovery review covering all October 26–November 1 sessions, including Friday; also current Monday recovery after Sunday. No numeric metrics or backdated daily report supplied.",
       "reported_at": "2026-11-02T11:34:35-05:00",
       "numeric_metrics": null
+    }
+  ],
+  "exercise_caution_reports": [
+    {
+      "reported_on": "2026-11-06",
+      "recorded_at": "2026-11-06T19:27:39-05:00",
+      "decision_id": 476,
+      "session_id": "hybrid-2026-10-26-w2-fri-2026-11-06",
+      "report": "The cable wrist curl and reverse curls i need to watch. They were rir 10+ but im worried about my elbow tendon so ill progress slowly",
+      "affected_slots": [
+        "S5",
+        "S6"
+      ],
+      "symptom_response": null,
+      "status": "caution-reported-symptom-status-unreported",
+      "action": "Repeat each forearm exercise at 25×15 for one deliberately easy set; adjust for any actual discomfort. No change to other curl slots or ongoing replacements."
+    }
+  ],
+  "pending_log_details": [
+    {
+      "session_id": "hybrid-2026-10-26-w2-fri-2026-11-06",
+      "date": "2026-11-06",
+      "decision_id": 476,
+      "slot_id": "S4",
+      "status": "second-set-unreported",
+      "question": "Was reverse pec deck just one set of 145×12, or did you also complete the second prescribed set?"
     }
   ]
 }

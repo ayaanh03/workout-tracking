@@ -1,114 +1,56 @@
 {
-  "generatedAt": "2026-11-06T18:30:31-05:00",
+  "generatedAt": "2026-11-06T19:27:39-05:00",
   "blockId": "hybrid-2026-10-26",
-  "prescriptionId": "hybrid-2026-10-26-sat-delts-arms-b-475",
-  "preview": false,
+  "prescriptionId": "hybrid-2026-10-26-fri-intervals-475",
+  "preview": true,
   "week": "W2",
-  "day": "Fri",
-  "date": "2026-11-06",
+  "day": "Sat",
+  "date": "2026-11-07",
   "phase": "Hybrid v11 — Stage B",
-  "sessionName": "Delts/arms B + bike — moved from Saturday",
+  "sessionName": "Longer intervals — moved from Friday — preview",
   "why": [
-    "Your requested swap moves Saturday’s delts/arms B and bike to Friday November 6. The longer run moves to Saturday November 7; Sunday legs stay scheduled.",
-    "Stage B: 9 core sets plus one reverse-curl and one wrist-curl set, 11 total. You reported good morning recovery and elbows feeling fine."
+    "Saturday November 7 is the next workout under your one-time swap, following the logged delts/arms B and 20-minute bike. Recovery is assumed good under your standing instruction.",
+    "The existing 3×6 at 7:25/mi prescription stays unchanged. Friday-track pace progression remains independent of Tuesday."
   ],
-  "intro": [
-    "Keep about 3 RIR; forearms 3–4 RIR. Adjust or omit any movement if elbow or tendon symptoms return."
-  ],
-  "lift": {
-    "table": [
-      {
-        "slotId": "S1",
-        "exercise": "DB lateral raise",
-        "setsReps": "3×12–20",
-        "load": "35 lb",
-        "rir": "3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "S2",
-        "exercise": "Incline DB curl",
-        "setsReps": "2×8–12",
-        "load": "25 lb",
-        "rir": "3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "S3",
-        "exercise": "Cable pushdown",
-        "setsReps": "2×10–15",
-        "load": "50 lb",
-        "rir": "3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "S4",
-        "exercise": "Reverse pec deck",
-        "setsReps": "2×12–20",
-        "load": "145 lb",
-        "rir": "3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "S5",
-        "exercise": "Cable reverse curl",
-        "setsReps": "1×15–20",
-        "load": "Calibrate",
-        "rir": "3–4",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "S6",
-        "exercise": "Cable wrist curl",
-        "setsReps": "1×15–20",
-        "load": "Calibrate",
-        "rir": "3–4",
-        "rest": "2 min"
-      }
-    ]
-  },
+  "intro": [],
+  "lift": null,
   "cardio": {
-    "workout": "Bike after lifting: 20 minutes at RPE 3/10 (2–4 acceptable).",
-    "warmup": null,
-    "cooldown": null,
+    "workout": "3×6 minutes at 7:25/mi, with 2-minute easy jog/walk recoveries between reps only. 18 work minutes; 42 minutes total with the prescribed warmup/cooldown.",
+    "warmup": "10 minutes easy; 8:30–9:30/mi is a guide, slower is fine. Up to 5 extra minutes if needed.",
+    "cooldown": "10 minutes easy, conversation comfortable.",
     "targets": {
-      "rpe": "3/10; 2–4 acceptable"
+      "pace": "7:25/mi",
+      "rpe": "Build toward 6–7/10; final rep ≤7/10"
     },
     "flags": [
-      "Saved bike settings: seat −2 (possibly −1); handle +3; height 9 (possibly 9.5)."
+      "Watch alerts 7:20–7:30/mi are pacing guides; faster reps can still count toward progression."
     ],
-    "workoutFile": null
+    "workoutFile": "runs/2026-11-07.workout"
   },
   "adaptation": [
     {
-      "exercise": "One-time schedule swap",
-      "previous": "Friday November 6 longer run; Saturday November 7 delts/arms B + bike.",
-      "decision": "Lift and bike today; run tomorrow at the same dose.",
-      "reason": "Athlete request #475. Original S-slot and Friday-run progression identities stay separate; the swap does not add sessions or progression credit."
+      "exercise": "Moved delts/arms B log",
+      "previous": "November 6: laterals 35×12/12/13; incline curl 25×8/9; pushdown 50×10/10; reverse pec deck 145×12, all RIR 3.",
+      "decision": "Record 10 known sets including forearms; hold suitable Stage-B loads.",
+      "reason": "The second prescribed reverse-pec-deck set is unreported. Keep original S-slot histories despite the Friday date; ramp work earns no ordinary load credit."
     },
     {
-      "exercise": "S1 lateral raise / S2 incline curl / S4 reverse pec deck",
-      "previous": "October 31 same-slot actuals: 35×15/12, 25×9 and 145×15, all RIR 3.",
-      "decision": "Hold loads; use Stage-B 3/2/2 sets respectively at 3 RIR.",
-      "reason": "Ramp sets increase while suitable working loads stay stable. November 4 released the biceps hold; November 6 elbows feel fine."
+      "exercise": "Cable reverse curl and wrist curl",
+      "previous": "November 6 first exposures: 25×15 each; clarified RIR 10+ overrides pasted RIR 3.",
+      "decision": "Repeat one deliberately easy 25×15 set each next time; progress slowly after reviewing comfort.",
+      "reason": "Athlete requests tendon-conscious progression. Large reserve does not require a load jump; actual elbow discomfort is not yet specified."
     },
     {
-      "exercise": "S3 cable pushdown",
-      "previous": "No S3 pushdown actual. Thursday November 5: 50×15/10 at RIR 3 in separate T5.",
-      "decision": "Start the requested replacement at 50 lb, 2×10–15 at 3 RIR.",
-      "reason": "Ongoing overhead-extension replacement. Thursday results are a starting reference, not S3 history or credit."
+      "exercise": "Friday-track run, moved to Saturday",
+      "previous": "October 30: 3×6 at 7:27/7:13/7:16, RPE 5/6/7, prescribed 7:25. One qualifying hit.",
+      "decision": "Keep 3×6 at 7:25/mi, two 2-minute recoveries, 10-minute warmup/cooldown.",
+      "reason": "No all-rep speed headroom; final RPE 7 is above comfortable threshold 5, and no second hit yet. The date swap and lifting log add no run credit."
     },
     {
-      "exercise": "S5 cable reverse curl / S6 cable wrist curl",
-      "previous": "Neither slot has a performed baseline.",
-      "decision": "Calibrate one comfortable set each, 15–20 reps at 3–4 RIR.",
-      "reason": "Stage B permits first introduction. The standard-cable-curl replacement applies only to T2; reverse and wrist curls remain in the program."
-    },
-    {
-      "exercise": "Bike after lifting",
-      "previous": "October 31: 20:17 at RPE 2–3; 20-minute prescribed dose subsequently supported.",
-      "decision": "Keep 20 minutes at RPE 3 (2–4 acceptable), moved with lifting to today.",
-      "reason": "W2 ceiling remains 20 minutes. Morning recovery is confirmed good; no power or HR target."
+      "exercise": "Bike and weekly running dose",
+      "previous": "November 6 bike: 20 minutes, athlete-reported Z2; numeric RPE unknown. W2 confirmed running remains 4.25 mi.",
+      "decision": "Log bike separately; keep Saturday run and existing Watch export.",
+      "reason": "No running mileage from cycling. Weekly run estimate remains 9.50 mi, planning upper 10.12 mi, below 15."
     }
   ],
   "currentLoads": [
@@ -263,43 +205,43 @@
       "slotId": "S1",
       "exercise": "S1 — DB lateral raise",
       "load": "35 lb",
-      "lastVerified": "2026-10-31",
-      "note": "Saturday actual 35×15/12 at RIR 3; hold during Stage B. No ordinary progression credit."
+      "lastVerified": "2026-11-06",
+      "note": "November 6 moved session: 35×12/12/13 at RIR 3. Hold suitable Stage-B load."
     },
     {
       "slotId": "S2",
       "exercise": "S2 — Incline DB curl",
       "load": "25 lb",
-      "lastVerified": "2026-10-31",
-      "note": "Temporary elbow hold released after November 4 symptom-free working curls. Resume this slot’s normal Stage-B 2×8–12 at its own current load and 3 RIR; last actual stays independent."
+      "lastVerified": "2026-11-06",
+      "note": "November 6 moved session: 25×8/9 at RIR 3. Independent S2 actuals; no ordinary ramp load credit."
     },
     {
       "slotId": "S3",
       "exercise": "S3 — Cable pushdown",
-      "load": "50 lb starting",
-      "lastVerified": "2026-11-02 (requested; not yet performed in this slot)",
-      "note": "Ongoing replacement for overhead extensions due to tendon stress. New independent pushdown record; previous overhead actuals preserved separately. Thursday’s 50 lb pushdown actual is a reference only. Use only if comfortable."
+      "load": "50 lb",
+      "lastVerified": "2026-11-06",
+      "note": "First S3 pushdown actual November 6: 50×10/10 at RIR 3. Established in this slot; overhead actuals remain archived separately."
     },
     {
       "slotId": "S4",
       "exercise": "S4 — Reverse pec deck",
       "load": "145 lb",
-      "lastVerified": "2026-10-31",
-      "note": "Saturday actual 145×15 at RIR 3; hold during Stage B. No ordinary progression credit."
+      "lastVerified": "2026-11-06",
+      "note": "November 6: one 145×12 at RIR 3 reported; second prescribed set unreported. Hold load; no decline inferred."
     },
     {
       "slotId": "S5",
       "exercise": "S5 — Cable reverse curl",
-      "load": "Calibrate",
-      "lastVerified": "No new-block exposure",
-      "note": "First exposure prescribed for November 6 under the one-time schedule swap: calibrate one comfortable set of 15–20 at 3–4 RIR. No actual load, exposure or two-set eligibility yet."
+      "load": "25 lb",
+      "lastVerified": "2026-11-06",
+      "note": "First actual November 6: 25×15 at RIR 10+. Repeat one easy 25×15 next time under slow-progression preference."
     },
     {
       "slotId": "S6",
       "exercise": "S6 — Cable wrist curl",
-      "load": "Calibrate",
-      "lastVerified": "No new-block exposure",
-      "note": "First exposure prescribed for November 6 under the one-time schedule swap: calibrate one comfortable set of 15–20 at 3–4 RIR. No actual load, exposure or two-set eligibility yet."
+      "load": "25 lb",
+      "lastVerified": "2026-11-06",
+      "note": "First actual November 6: 25×15 at RIR 10+. Repeat one easy 25×15 next time under slow-progression preference."
     },
     {
       "slotId": "L1",
@@ -344,6 +286,6 @@
       "note": "November 1 actual 25×12 at RIR 3; hold during Stage B."
     }
   ],
-  "templateDay": "Sat",
+  "templateDay": "Fri",
   "scheduleOverrideId": "2026-11-06-swap-delts-b-and-longer-run"
 }

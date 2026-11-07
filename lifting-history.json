@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "blockId": "hybrid-2026-10-26",
-  "generatedAt": "2026-11-05T17:30:30-05:00",
+  "generatedAt": "2026-11-06T19:27:39-05:00",
   "sessions": [
     {
       "date": "2026-10-25",
@@ -1135,6 +1135,125 @@
         }
       ],
       "notes": "All18sets completed atRIR3 against the frozen original prescription. No new session-specific injury response supplied; general recovery assumed good under the standing directive."
+    },
+    {
+      "date": "2026-11-06",
+      "week": "W2",
+      "stage": "B",
+      "sessionName": "Delts/arms B + bike — moved from Saturday",
+      "sessionId": "hybrid-2026-10-26-w2-fri-2026-11-06",
+      "prescriptionId": "hybrid-2026-10-26-sat-delts-arms-b-475",
+      "actualRef": "history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
+      "templateDay": "Sat",
+      "scheduleOverrideId": "2026-11-06-swap-delts-b-and-longer-run",
+      "exercises": [
+        {
+          "slotId": "S1",
+          "exercise": "DB lateral raise",
+          "sets": [
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 13,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "S2",
+          "exercise": "Incline DB curl",
+          "sets": [
+            {
+              "load": 25,
+              "units": "lb",
+              "reps": 8,
+              "rir": 3
+            },
+            {
+              "load": 25,
+              "units": "lb",
+              "reps": 9,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "S3",
+          "exercise": "Cable pushdown",
+          "sets": [
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 10,
+              "rir": 3
+            },
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 10,
+              "rir": 3
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "slotId": "S4",
+          "exercise": "Reverse pec deck",
+          "sets": [
+            {
+              "load": 145,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            }
+          ],
+          "status": "completed",
+          "note": "One 145×12 set at RIR 3 reported; the second prescribed set is unreported, not assumed skipped or completed."
+        },
+        {
+          "slotId": "S5",
+          "exercise": "Cable reverse curl",
+          "sets": [
+            {
+              "load": 25,
+              "units": "lb",
+              "reps": 15,
+              "rir": "10+"
+            }
+          ],
+          "status": "completed",
+          "note": "RIR 10+ from the athlete note supersedes pasted RIR 3. Intentionally easy first exposure; slow progression requested for elbow caution. Whether discomfort occurred is unreported."
+        },
+        {
+          "slotId": "S6",
+          "exercise": "Cable wrist curl",
+          "sets": [
+            {
+              "load": 25,
+              "units": "lb",
+              "reps": 15,
+              "rir": "10+"
+            }
+          ],
+          "status": "completed",
+          "note": "RIR 10+ from the athlete note supersedes pasted RIR 3. Intentionally easy first exposure; slow progression requested for elbow caution. Whether discomfort occurred is unreported."
+        }
+      ],
+      "notes": "10 known lifting sets; second prescribed reverse-pec-deck set unreported. Both forearm sets were deliberately easy at RIR 10+, superseding pasted 3. Bike 20 min, reported Z2; numeric effort unknown. Slow forearm progression requested for elbow caution; actual discomfort not specified."
     }
   ]
 }

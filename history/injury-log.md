@@ -191,3 +191,9 @@ After preserving the complete frozen#471 workout and cable history, activate#472
 Athlete: **“Note down I woke up well recovered and my elbows are fine.”** Record observed good morning recovery after November 5 Upper B and current symptom-free elbows. This updates the prior planning assumption with an actual report; Thursday’s during/after elbow symptoms and ab/Achilles-specific response remain unreported.
 
 Keep the ongoing standard cable-curl → unilateral machine preacher replacement for T2 from November 12. The prior biceps maintenance hold remains released; separate bodyweight-ab and overhead-extension limits persist. Today’s Friday run remains prescription #473. No new session, progression credit or stage advancement. Decision #474.
+
+## 2026-11-06 — cautious forearm introduction
+
+After 25×15 cable reverse curls and wrist curls, athlete clarifies **RIR 10+** and requests slow progression because of concern about the elbow tendon. This is deliberate easy loading; actual discomfort during/after is not specified. Asked once to distinguish symptoms from caution. Preserve the earlier morning report of elbows feeling fine without extending it to the later workout. No new diagnosis or broad biceps hold.
+
+Repeat one 25×15 set per forearm exercise next time, keeping ample reserve, then review comfort and build reps gradually. Existing T2-only preacher replacement, overhead exclusion and bodyweight-ab limits persist. General recovery for the next run is assumed under the standing directive; no next-morning observation is claimed. Decision #476.

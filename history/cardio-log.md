@@ -154,3 +154,9 @@ Effort falls within the acceptable 2–4 range. Keep the W2/W3 20-minute dose, p
 The athlete now directs assumed-good general recovery unless an exception is reported. Reassess the already-completed November3 run using that explicit decision basis while preserving observed recovery as null: **ordinary hit2, misses0**, no comfortable tag (finalRPE7 >6). Actual reps6:28/6:37/6:31, original6:50 target, full3×4 work, recorded3-minute recoveries and tentative warmup-pause explanation are unchanged.
 
 The all-rep headroom calculation remains410−397=13seconds →10-second pace step: **next3×4 at6:40**, source not yet consumed. Current normal target remains6:50 until the changed workout is generated. No extra rep, additional mileage, Watch-file replacement or shoe update occurs. Wednesday bike future-session performance is not yet observed; ordinary duration stays20minutes without a routine recovery question. Saturday bike’s subsequent-run evidence now supports its prescribed20-minute dose using the same labeled assumption. Later reported poor recovery or relevant symptoms trigger reassessment.
+
+## 2026-11-06 — Hybrid v11 W2 Friday bike moved from Saturday
+
+Session ID: `hybrid-2026-10-26-w2-fri-2026-11-06-bike`, prescription `hybrid-2026-10-26-sat-delts-arms-b-475`. Preserve the Saturday cycling track after the one-time swap. Athlete: **“20 mins at z2 done bike.”** Record 1200 seconds and reported Z2. Numeric RPE, HR, power, distance, machine identity and site-specific response are unreported; do not derive RPE or HR from Z2. Existing bike settings remain saved unchanged.
+
+Hold the previously tolerated 20-minute dose under the W2/W3 ceiling. Subsequent run/lifting performance is not yet observed; ordinary recovery uses the standing assumption. No running/shoe mileage or run credit added. The next scheduled workout is the moved November 7 longer run, unchanged prescription #475. Decision #476.
