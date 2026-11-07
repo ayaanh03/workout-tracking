@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-06T19:27:39-05:00",
+  "generatedAt": "2026-11-07T11:53:57-05:00",
   "blockId": "hybrid-2026-10-26",
-  "preview": true,
+  "preview": false,
   "week": "W2",
   "phase": "Hybrid v11 — Stage B",
   "rangeStart": "2026-11-02",
   "rangeEnd": "2026-11-08",
-  "summary": "W2, November 2–8 — Monday through Friday sessions logged: 54 known lifting sets and 40 bike minutes. One reverse-pec-deck set remains unreported. Saturday November 7 moved-run preview ready: 3×6 at 7:25/mi. Sunday legs stay scheduled. Forearm work will progress slowly from 25×15; routine recovery assumed good.",
+  "summary": "W2, November 2–8 — Monday through Friday sessions logged: 54 known lifting sets and 40 bike minutes. Today, Saturday November 7: the moved longer run, 3×6 at 7:25/mi. No elbow issues from yesterday; slow forearm progression retained. Second reverse-pec-deck set remains unreported. Sunday legs stay scheduled; routine recovery assumed good.",
   "days": [
     {
       "date": "2026-11-02",
@@ -40,15 +40,15 @@
       "date": "2026-11-06",
       "day": "Fri",
       "session": "Delts/arms B + bike",
-      "note": "10 known sets: laterals 35×12/12/13; incline curl 25×8/9; pushdown 50×10/10; reverse pec deck 145×12, all RIR 3. Reverse/wrist curls 25×15 each at RIR 10+. Second pec-deck set unreported. Bike 20 min, Z2; numeric RPE unknown.",
+      "note": "10 known sets: laterals 35×12/12/13; incline curl 25×8/9; pushdown 50×10/10; reverse pec deck 145×12, all RIR 3. Reverse/wrist curls 25×15 each at RIR 10+. Second pec-deck set unreported. Bike 20 min, Z2; numeric RPE unknown. November 7 follow-up: no elbow issues from this session.",
       "status": "done"
     },
     {
       "date": "2026-11-07",
       "day": "Sat",
       "session": "Longer intervals",
-      "note": "Preview ready, moved from Friday: 10 min easy warmup, 3×6 min at 7:25/mi, 2 min easy recoveries between reps, 10 min easy cooldown. Final RPE ≤7; 42 min total. November 7 Watch file available. Recovery assumed good.",
-      "status": "upcoming"
+      "note": "Today, moved from Friday: 10 min easy warmup, 3×6 min at 7:25/mi, 2 min easy recoveries between reps, 10 min easy cooldown. Final RPE ≤7; 42 min total. November 7 Watch file available. Recovery assumed good; no elbow issues from yesterday.",
+      "status": "today"
     },
     {
       "date": "2026-11-08",

@@ -1418,7 +1418,13 @@
         "minimum_rir": 4,
         "rest_seconds": 120,
         "progression_review": "Review comfort with the next exposure. If well tolerated, add reps gradually at the same load; no automatic increase from RIR 10+ alone. Normal stage/qualification rules still govern load increases.",
-        "symptom_action": "Reduce or omit aggravating work if discomfort occurs."
+        "symptom_action": "Reduce or omit aggravating work if discomfort occurs.",
+        "symptom_review": {
+          "decision_id": 478,
+          "reported_on": "2026-11-07",
+          "response": "No elbow issues from the November 6 session, reported November 7.",
+          "decision": "Keep the requested deliberately easy one-set 25×15 next exposure; review gradual rep progression without an automatic load jump."
+        }
       },
       "units": "lb",
       "load_status": "established",
@@ -1455,7 +1461,17 @@
           "source": "Athlete session note supersedes pasted RIR 3."
         },
         "effort_intentionally_easy": true,
-        "symptom_response": null
+        "symptom_response": "No elbow issues from the November 6 session, reported November 7.",
+        "symptom_followup": {
+          "reported_on": "2026-11-07",
+          "recorded_at": "2026-11-07T11:53:57-05:00",
+          "decision_id": 478,
+          "session_id": "hybrid-2026-10-26-w2-fri-2026-11-06",
+          "report": "Note down no elbow issues from yesterday.",
+          "status": "no-elbow-issues-from-prior-session",
+          "scope": "Athlete confirms no elbow issues from the November 6 delts/arms B and bike session, including the forearm introduction. No numeric pain score, diagnosis, general-recovery observation or additional sets supplied.",
+          "source": "../history/injury-log.md#2026-11-07--no-elbow-issues-from-moved-session"
+        }
       }
     },
     "S6": {
@@ -1474,7 +1490,13 @@
         "minimum_rir": 4,
         "rest_seconds": 120,
         "progression_review": "Review comfort with the next exposure. If well tolerated, add reps gradually at the same load; no automatic increase from RIR 10+ alone. Normal stage/qualification rules still govern load increases.",
-        "symptom_action": "Reduce or omit aggravating work if discomfort occurs."
+        "symptom_action": "Reduce or omit aggravating work if discomfort occurs.",
+        "symptom_review": {
+          "decision_id": 478,
+          "reported_on": "2026-11-07",
+          "response": "No elbow issues from the November 6 session, reported November 7.",
+          "decision": "Keep the requested deliberately easy one-set 25×15 next exposure; review gradual rep progression without an automatic load jump."
+        }
       },
       "units": "lb",
       "load_status": "established",
@@ -1511,7 +1533,17 @@
           "source": "Athlete session note supersedes pasted RIR 3."
         },
         "effort_intentionally_easy": true,
-        "symptom_response": null
+        "symptom_response": "No elbow issues from the November 6 session, reported November 7.",
+        "symptom_followup": {
+          "reported_on": "2026-11-07",
+          "recorded_at": "2026-11-07T11:53:57-05:00",
+          "decision_id": 478,
+          "session_id": "hybrid-2026-10-26-w2-fri-2026-11-06",
+          "report": "Note down no elbow issues from yesterday.",
+          "status": "no-elbow-issues-from-prior-session",
+          "scope": "Athlete confirms no elbow issues from the November 6 delts/arms B and bike session, including the forearm introduction. No numeric pain score, diagnosis, general-recovery observation or additional sets supplied.",
+          "source": "../history/injury-log.md#2026-11-07--no-elbow-issues-from-moved-session"
+        }
       }
     },
     "L1": {
@@ -1755,7 +1787,7 @@
   "forearms": {
     "exposure_stage": "introduced-one-set-each",
     "two_set_eligible": false,
-    "elbow_response": null,
+    "elbow_response": "No elbow issues from the November 6 session, reported November 7.",
     "reviewed_on": null,
     "first_exposure_on": "2026-11-06",
     "source_session_id": "hybrid-2026-10-26-w2-fri-2026-11-06",
@@ -1777,8 +1809,31 @@
       },
       "reason": "Respect intentionally easy tendon-conscious introduction; do not recalibrate sharply upward to chase the usual effort target.",
       "review": "Review response after exposure, then build reps gradually if comfortable. No fixed waiting period or inferred injury diagnosis.",
-      "symptom_status": "Concern reported; actual discomfort not specified.",
-      "followup_question": "Did the reverse curls or wrist curls actually cause elbow discomfort during or afterward, or were you just being cautious?"
+      "symptom_status": "No elbow issues reported from the first forearm exposure.",
+      "followup_question": "Did the reverse curls or wrist curls actually cause elbow discomfort during or afterward, or were you just being cautious?",
+      "followup_status": "answered-no-elbow-issues",
+      "followup_answer": {
+        "reported_on": "2026-11-07",
+        "recorded_at": "2026-11-07T11:53:57-05:00",
+        "decision_id": 478,
+        "session_id": "hybrid-2026-10-26-w2-fri-2026-11-06",
+        "report": "Note down no elbow issues from yesterday.",
+        "status": "no-elbow-issues-from-prior-session",
+        "scope": "Athlete confirms no elbow issues from the November 6 delts/arms B and bike session, including the forearm introduction. No numeric pain score, diagnosis, general-recovery observation or additional sets supplied.",
+        "source": "../history/injury-log.md#2026-11-07--no-elbow-issues-from-moved-session"
+      },
+      "review_decision_id": 478
+    },
+    "symptom_reviewed_on": "2026-11-07",
+    "symptom_followup": {
+      "reported_on": "2026-11-07",
+      "recorded_at": "2026-11-07T11:53:57-05:00",
+      "decision_id": 478,
+      "session_id": "hybrid-2026-10-26-w2-fri-2026-11-06",
+      "report": "Note down no elbow issues from yesterday.",
+      "status": "no-elbow-issues-from-prior-session",
+      "scope": "Athlete confirms no elbow issues from the November 6 delts/arms B and bike session, including the forearm introduction. No numeric pain score, diagnosis, general-recovery observation or additional sets supplied.",
+      "source": "../history/injury-log.md#2026-11-07--no-elbow-issues-from-moved-session"
     }
   },
   "cross_day_cuts_used": {

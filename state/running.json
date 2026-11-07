@@ -504,15 +504,15 @@
       "work_minutes": 18,
       "format": "3x6",
       "rpe_cap": 7,
-      "reason": "After the moved November 6 lifting/bike log, publish the already-issued November 7 run #475 unchanged: 3×6 at 7:25. October 30 remains one qualifying Friday-track hit without headroom or comfortable-effort credit; no pace/minute increase. Routine next-day recovery is assumed good.",
+      "reason": "Publish the moved Friday-track run #475 as today’s November 7 workout: 3×6 at 7:25 unchanged. October 30 remains one qualifying hit without all-rep headroom or comfortable-effort credit; no new run performance to support a change. General recovery is assumed good, and yesterday’s session caused no elbow issues.",
       "prescription_id": "hybrid-2026-10-26-fri-intervals-475",
       "recovery_basis": {
         "status": "assumed-good",
         "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-        "decision_id": 476,
-        "recorded_at": "2026-11-06T19:27:39-05:00",
+        "decision_id": 478,
+        "recorded_at": "2026-11-07T11:53:57-05:00",
         "observed": false,
-        "reason": "Standing recovery default supports ordinary next-workout planning. Morning November 6 recovery preceded this session; no post-session or next-morning recovery observation is invented.",
+        "reason": "Use the athlete’s standing good-recovery default for today’s run. The new report confirms elbow comfort from yesterday, not a general-recovery measurement.",
         "for_date": "2026-11-07"
       },
       "recovery_seconds": 120,
@@ -542,7 +542,7 @@
       "original_date": "2026-11-06",
       "schedule_override_id": "2026-11-06-swap-delts-b-and-longer-run",
       "workout_file": "runs/2026-11-07.workout",
-      "latest_review_decision_id": 476
+      "latest_review_decision_id": 478
     },
     "pace_adjustment_history": [],
     "pace_progression_review": {
@@ -763,7 +763,7 @@
         "distance_km": null,
         "lower_ab_response": null,
         "achilles_response": null,
-        "elbow_response": null,
+        "elbow_response": "No elbow issues from the November 6 session, reported November 7.",
         "next_day_recovery": null,
         "recovery_decision": {
           "status": "assumed-good",
@@ -778,7 +778,17 @@
           "subsequent_run_response": null,
           "subsequent_lifting_response": null
         },
-        "note": "Zone report is retained literally; no numeric RPE, HR, power, exact machine identity or running mileage inferred."
+        "note": "Zone report is retained literally; numeric RPE, HR, power, exact machine identity and general recovery remain unreported. November 7 follow-up confirms no elbow issues from the overall November 6 session; no modality-specific attribution.",
+        "symptom_followup": {
+          "reported_on": "2026-11-07",
+          "recorded_at": "2026-11-07T11:53:57-05:00",
+          "decision_id": 478,
+          "session_id": "hybrid-2026-10-26-w2-fri-2026-11-06",
+          "report": "Note down no elbow issues from yesterday.",
+          "status": "no-elbow-issues-from-prior-session",
+          "scope": "Athlete confirms no elbow issues from the November 6 delts/arms B and bike session, including the forearm introduction. No numeric pain score, diagnosis, general-recovery observation or additional sets supplied.",
+          "source": "../history/injury-log.md#2026-11-07--no-elbow-issues-from-moved-session"
+        }
       },
       "pending_validation": {
         "decision_id": 476,

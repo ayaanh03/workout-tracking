@@ -580,3 +580,11 @@ Generation occurs Friday evening in New York; live date stays November 6 and Sat
 ## 2026-11-06 — raise saved bike seat height
 
 477. Apply the athlete’s requested seat height **about 10** for the next bike session, replacing 9 / possibly 9.5 in the shared equipment settings. Preserve the approximate wording, the prior setup snapshot, seat position −2 (possibly −1) and handle +3. This updates setup only; no completed setting, new ride, progression credit or workout-generation event is inferred. The active November 7 run preview and completed-session records stay intact.
+
+## 2026-11-07 — confirm elbow response and publish today’s moved run
+
+478. Athlete asks to generate today and reports no elbow issues from yesterday. Update the November 6 session response and forearm introduction records, preserving the earlier concern and deliberately easy 25×15 at RIR 10+. Keep the athlete-requested slow progression and next one-set 25×15 dose; no automatic load or set increase, new biceps hold, or reversal of ongoing exercise replacements. The second reverse-pec-deck set remains unreported. General recovery remains assumed good under `program/readiness.md`, not an observed metric.
+
+Today is **Saturday November 7**, the longer run moved from Friday by #475. Promote the existing preview to the current day, retaining prescription `hybrid-2026-10-26-fri-intervals-475`: **10 minutes easy warmup** (up to 5 extra if needed), **3×6 minutes at 7:25/mi**, **two 2-minute easy jog/walk recoveries between reps**, **10 minutes easy cooldown**. Build toward RPE 6–7; final **≤7**. Planned duration **42 minutes**; Watch guidance 7:20–7:30/mi, faster reps still eligible. Reuse the unchanged `runs/2026-11-07.workout`.
+
+Under `program/run-progression.md`, October 30 remains one qualifying Friday-track hit: 7:27/7:13/7:16 at RPE 5/6/7 against 7:25, no all-rep headroom and no comfortable-effort or second-hit route. No new run actual justifies a changed pace/minute dose. Preserve Tuesday’s separate earned step, all counters/source use, shoe mileage and the unchanged weekly estimate 9.500495703899537 mi / planning upper 10.116310160427808 mi, below 15. No completed November 7 run or new lifting exposure is inferred. Sunday legs remain scheduled; W2 stays in progress at Stage B with 54 known lifting sets and 40 bike minutes.

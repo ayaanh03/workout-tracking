@@ -197,3 +197,9 @@ Keep the ongoing standard cable-curl → unilateral machine preacher replacement
 After 25×15 cable reverse curls and wrist curls, athlete clarifies **RIR 10+** and requests slow progression because of concern about the elbow tendon. This is deliberate easy loading; actual discomfort during/after is not specified. Asked once to distinguish symptoms from caution. Preserve the earlier morning report of elbows feeling fine without extending it to the later workout. No new diagnosis or broad biceps hold.
 
 Repeat one 25×15 set per forearm exercise next time, keeping ample reserve, then review comfort and build reps gradually. Existing T2-only preacher replacement, overhead exclusion and bodyweight-ab limits persist. General recovery for the next run is assumed under the standing directive; no next-morning observation is claimed. Decision #476.
+
+## 2026-11-07 — no elbow issues from moved session
+
+Athlete: **“Note down no elbow issues from yesterday.”** Record no elbow issues from the November 6 delts/arms B + bike session, including the deliberately easy reverse/wrist curls. This answers the prior symptom clarification without a diagnosis or numeric pain score. Keep the slow forearm progression preference: next one-set exposure remains 25×15 each with ample reserve, rather than an automatic load jump. The previously released biceps maintenance hold stays released; ongoing T2-only preacher and overhead-to-pushdown replacements persist.
+
+No general-recovery observation, ab/Achilles-specific response, or second reverse-pec-deck set is supplied. Routine recovery for today’s moved run uses the standing assumption. Decision #478.

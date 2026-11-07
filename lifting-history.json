@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "blockId": "hybrid-2026-10-26",
-  "generatedAt": "2026-11-06T19:27:39-05:00",
+  "generatedAt": "2026-11-07T11:53:57-05:00",
   "sessions": [
     {
       "date": "2026-10-25",
@@ -1236,7 +1236,7 @@
             }
           ],
           "status": "completed",
-          "note": "RIR 10+ from the athlete note supersedes pasted RIR 3. Intentionally easy first exposure; slow progression requested for elbow caution. Whether discomfort occurred is unreported."
+          "note": "RIR 10+ from the athlete note supersedes pasted RIR 3. Intentionally easy first exposure; slow progression requested for elbow caution. November 7 follow-up confirms no elbow issues from the session."
         },
         {
           "slotId": "S6",
@@ -1250,10 +1250,16 @@
             }
           ],
           "status": "completed",
-          "note": "RIR 10+ from the athlete note supersedes pasted RIR 3. Intentionally easy first exposure; slow progression requested for elbow caution. Whether discomfort occurred is unreported."
+          "note": "RIR 10+ from the athlete note supersedes pasted RIR 3. Intentionally easy first exposure; slow progression requested for elbow caution. November 7 follow-up confirms no elbow issues from the session."
         }
       ],
-      "notes": "10 known lifting sets; second prescribed reverse-pec-deck set unreported. Both forearm sets were deliberately easy at RIR 10+, superseding pasted 3. Bike 20 min, reported Z2; numeric effort unknown. Slow forearm progression requested for elbow caution; actual discomfort not specified."
+      "notes": "10 known lifting sets; second prescribed reverse-pec-deck set unreported. Both forearm sets were deliberately easy at RIR 10+, superseding pasted 3. Bike 20 min, reported Z2; numeric effort unknown. November 7 follow-up: no elbow issues from the session. Slow forearm progression remains requested.",
+      "noteHistory": [
+        {
+          "recordedOn": "2026-11-06",
+          "note": "10 known lifting sets; second prescribed reverse-pec-deck set unreported. Both forearm sets were deliberately easy at RIR 10+, superseding pasted 3. Bike 20 min, reported Z2; numeric effort unknown. Slow forearm progression requested for elbow caution; actual discomfort not specified."
+        }
+      ]
     }
   ]
 }
