@@ -917,12 +917,12 @@
       ]
     },
     "equipment_settings": {
-      "recorded_on": "2026-11-04",
-      "recorded_at": "2026-11-04T18:51:33-05:00",
-      "decision_id": 470,
-      "source_session_id": "hybrid-2026-10-26-w2-wed-2026-11-04-bike",
+      "recorded_on": "2026-11-06",
+      "recorded_at": "2026-11-06T19:33:48-05:00",
+      "decision_id": 477,
+      "source_session_id": null,
       "equipment": null,
-      "raw_report": "seat:-2 maybe -1 handle: +3 height:9 maybe 9.5",
+      "raw_report": "Bike seat height needs to go up to like 10",
       "seat": {
         "value": -2,
         "possible_alternative": -1,
@@ -933,12 +933,38 @@
         "confirmed": true
       },
       "height": {
-        "value": 9,
-        "possible_alternative": 9.5,
-        "confirmed": false
+        "value": 10,
+        "approximate": true,
+        "confirmed": false,
+        "status": "requested-for-next-use"
       },
-      "note": "Reported bike position labels; no units or machine identity supplied. Preserve the uncertain seat and height alternatives when showing these settings."
-    }
+      "note": "Use seat height about 10 next time, per November 6 athlete update; not yet reported as a completed or tested setting. Separate seat position −2 (possibly −1) and handle +3 carry forward from November 4. No units or machine identity supplied."
+    },
+    "equipment_settings_history": [
+      {
+        "recorded_on": "2026-11-04",
+        "recorded_at": "2026-11-04T18:51:33-05:00",
+        "decision_id": 470,
+        "source_session_id": "hybrid-2026-10-26-w2-wed-2026-11-04-bike",
+        "equipment": null,
+        "raw_report": "seat:-2 maybe -1 handle: +3 height:9 maybe 9.5",
+        "seat": {
+          "value": -2,
+          "possible_alternative": -1,
+          "confirmed": false
+        },
+        "handle": {
+          "value": 3,
+          "confirmed": true
+        },
+        "height": {
+          "value": 9,
+          "possible_alternative": 9.5,
+          "confirmed": false
+        },
+        "note": "Reported bike position labels; no units or machine identity supplied. Preserve the uncertain seat and height alternatives when showing these settings."
+      }
+    ]
   },
   "progression_policy": {
     "id": "2026-11-03-pace-first",

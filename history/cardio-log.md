@@ -160,3 +160,7 @@ The all-rep headroom calculation remains410−397=13seconds →10-second pace st
 Session ID: `hybrid-2026-10-26-w2-fri-2026-11-06-bike`, prescription `hybrid-2026-10-26-sat-delts-arms-b-475`. Preserve the Saturday cycling track after the one-time swap. Athlete: **“20 mins at z2 done bike.”** Record 1200 seconds and reported Z2. Numeric RPE, HR, power, distance, machine identity and site-specific response are unreported; do not derive RPE or HR from Z2. Existing bike settings remain saved unchanged.
 
 Hold the previously tolerated 20-minute dose under the W2/W3 ceiling. Subsequent run/lifting performance is not yet observed; ordinary recovery uses the standing assumption. No running/shoe mileage or run credit added. The next scheduled workout is the moved November 7 longer run, unchanged prescription #475. Decision #476.
+
+### November 6 — bike seat-height update (#477)
+
+Athlete: **“Bike seat height needs to go up to like 10.”** Save **height approximately 10 for next use**, replacing the earlier 9 / possible 9.5 setting. This is a requested adjustment, not a report that 10 was used or tested in the completed ride. Keep the separate seat-position setting −2 (possibly −1) and handle +3. Preserve the prior setup snapshot; machine identity and setting units remain unreported.
