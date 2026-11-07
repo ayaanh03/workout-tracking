@@ -164,3 +164,24 @@ Hold the previously tolerated 20-minute dose under the W2/W3 ceiling. Subsequent
 ### November 6 — bike seat-height update (#477)
 
 Athlete: **“Bike seat height needs to go up to like 10.”** Save **height approximately 10 for next use**, replacing the earlier 9 / possible 9.5 setting. This is a requested adjustment, not a report that 10 was used or tested in the completed ride. Keep the separate seat-position setting −2 (possibly −1) and handle +3. Preserve the prior setup snapshot; machine identity and setting units remain unreported.
+
+## 2026-11-07 — Hybrid v11 W2 Saturday longer intervals moved from Friday
+
+Session ID: `hybrid-2026-10-26-w2-sat-2026-11-07`, independent Friday running track under the one-time swap. Original prescription `hybrid-2026-10-26-fri-intervals-475`: 10-minute warmup, 3×6 at 7:25/mi, two 2-minute recoveries, 10-minute cooldown, final RPE ≤7. Source: three Apple Fitness screenshots, **“Rpe 6,7,7”**, and total/shoe confirmation **“5.1. I only have the evo sl now.”**
+
+| Segment | Time | Displayed distance | Pace /mi | RPE | HR avg | Power avg | Cadence avg |
+|---|---|---|---|---|---|---|---|
+| Warmup | 10:00 | 1.11 mi | 9:00 | n/r | 154 | 213 W | 174 |
+| Work 1 | 6:00 | 0.83 mi | 7:10 | 6 | 177 | 276 W | 184 |
+| Recovery 1 | 2:00 | 0.20 mi | 9:45 | n/r | 176 | 209 W | 172 |
+| Work 2 | 6:00 | 0.86 mi | 6:58 | 7 | 180 | 285 W | 186 |
+| Recovery 2 | 2:00 | 0.19 mi | 10:22 | n/r | 178 | 195 W | 169 |
+| Work 3 | 6:00 | 0.86 mi | 6:56 | 7 | 182 | 283 W | 185 |
+| Cooldown | 10:00 | 1.02 mi | 9:43 | n/r | 169 | 206 W | 173 |
+| Open | 0:15 | 94 ft | 14:09 | n/r | 171 | 220 W | 163 |
+
+Confirmed total **5.1 mi in Evo SLs**; rounded segments sum approximately 5.09 mi and are not the authoritative total. Displayed interval times sum **42:15**, including the open segment. Average HR **170 bpm**; estimated zone times Z1 0:31, Z2 1:50, Z3 6:20, Z4 13:58, Z5 19:28 sum **42:07**. Preserve this difference without inventing pauses or missing segments. Surface, recovery mode, extra rest and next-day observed recovery remain unreported.
+
+Classify **Friday-track hit 2, misses 0** under the standing assumed-good-recovery directive: full 18 minutes, both displayed 2-minute recoveries, all paces within the one-sided limit and final RPE 7 at cap. No comfortable tag. Slowest 430 s/mi against target 445 gives **15 s/mi headroom**, earning **next 3×6 at 7:10/mi**. Do not stack the separate two-hit 5-second route or add minutes. Keep current normal 7:25/counters/source-use until the changed next Friday prescription is issued.
+
+Add 5.1 mi once to Evo SLs: tracked total **9.35 mi**. Evo SL is now the sole current pair; mark Vomero inactive without changing its historical mileage or inferring disposal method. W2 confirmed mileage is also **9.35 mi**. Wednesday bike’s subsequent lifting/run checks are now supported; the moved Saturday bike has subsequent run performance recorded, while Sunday lifting remains unperformed. Keep the 20-minute bike dose. Decision #479.

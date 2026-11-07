@@ -41,7 +41,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 478,
+  "last_adjustment_id": 479,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -329,6 +329,29 @@
           "reason": "Standing recovery default supports ordinary next-workout planning. Morning November 6 recovery preceded this session; no post-session or next-morning recovery observation is invented."
         }
       ]
+    },
+    "2026-11-07": {
+      "calendar_week": "W2",
+      "session": "Longer intervals — moved from Friday",
+      "status": "completed",
+      "template_day": "Friday",
+      "schedule_override_id": "2026-11-06-swap-delts-b-and-longer-run",
+      "work_minutes": 18,
+      "distance_miles": 5.1,
+      "estimated_distance_miles_from_segments": 5.08780303030303,
+      "actual_ref": "../history/cardio-log.md#2026-11-07--hybrid-v11-w2-saturday-longer-intervals-moved-from-friday",
+      "prescription_id": "hybrid-2026-10-26-fri-intervals-475",
+      "classification": "hit",
+      "recovery_status": "general-recovery-assumed-good",
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 479,
+        "recorded_at": "2026-11-07T17:49:17-05:00",
+        "observed": false,
+        "reason": "Standing athlete default supplies ordinary post-run recovery and next-workout readiness unless contradicted; no observed next-day recovery is claimed."
+      },
+      "review_note": "3×6 at 7:10/6:58/6:56, RPE 6/7/7. Second Friday-track hit; all-rep headroom earns next 3×6 at 7:10. Confirmed 5.1 mi in Evo SLs."
     }
   },
   "planned_start_date": "2026-10-26",
@@ -374,15 +397,15 @@
       "range_end": "2026-11-08",
       "stage": "B",
       "completion": "in-progress",
-      "completed_sessions": 5,
+      "completed_sessions": 6,
       "known_lifting_sets": 54,
       "manageable": null,
       "status": "week-in-progress",
-      "decision_id": 476,
+      "decision_id": 479,
       "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
-      "note": "Monday through Friday sessions logged: 54 known lifting sets, 40 bike minutes and 12 running work minutes. One additional reverse-pec-deck set is unreported. The moved run remains Saturday November 7; Sunday legs remain unperformed. Stage B unchanged.",
-      "known_running_work_minutes": 12,
-      "confirmed_running_miles": 4.25,
+      "note": "Monday through Saturday sessions logged: 54 known lifting sets, 40 bike minutes and 30 running work minutes; confirmed running 9.35 mi. Second November 6 reverse-pec-deck set remains unreported. Sunday legs unperformed; Stage B and week-in-progress remain.",
+      "known_running_work_minutes": 30,
+      "confirmed_running_miles": 9.35,
       "known_cycling_minutes": 40,
       "unresolved_lifting_sets": [
         {
@@ -471,13 +494,12 @@
     "publish_next_workout": true,
     "default_recovery": "assumed-good-unless-reported-otherwise",
     "source": "../program/readiness.md",
-    "last_generated_date": "2026-11-07",
-    "last_generated_prescription_id": "hybrid-2026-10-26-fri-intervals-475",
-    "last_generated_from_session_id": "hybrid-2026-10-26-w2-fri-2026-11-06",
+    "last_generated_date": "2026-11-08",
+    "last_generated_prescription_id": "hybrid-2026-10-26-sun-legs-479",
+    "last_generated_from_session_id": "hybrid-2026-10-26-w2-sat-2026-11-07",
     "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping.",
-    "last_generation_trigger": "current-day-workout-request",
-    "schedule_override_id": "2026-11-06-swap-delts-b-and-longer-run",
-    "last_generation_decision_id": 478
+    "last_generation_trigger": "completed-session-log",
+    "last_generation_decision_id": 479
   },
   "session_freeze_history": [
     {
@@ -500,7 +522,7 @@
     {
       "id": "2026-11-06-swap-delts-b-and-longer-run",
       "type": "one-time-swap",
-      "status": "active",
+      "status": "completed",
       "decision_id": 475,
       "requested_on": "2026-11-06",
       "recorded_at": "2026-11-06T18:30:31-05:00",
@@ -555,11 +577,16 @@
             ],
             "workoutFile": "runs/2026-11-07.workout"
           },
-          "status": "prescribed-not-performed"
+          "status": "completed",
+          "completed_on": "2026-11-07",
+          "session_id": "hybrid-2026-10-26-w2-sat-2026-11-07",
+          "completion_decision_id": 479
         }
       ],
       "selection_rule": "Select by scheduled_date for generation and auto-next. Log actual calendar date with original S slots/saturday cycling or friday running track. No duplicated or completed sessions inferred; normal weekday templates remain unchanged.",
-      "compatibility_review": "Separate lifting/bike and run days. Delts/arms B has no direct leg/calf work, and its triceps are not the day before incline. Sunday legs remain November 8."
+      "compatibility_review": "Separate lifting/bike and run days. Delts/arms B has no direct leg/calf work, and its triceps are not the day before incline. Sunday legs remain November 8.",
+      "completed_on": "2026-11-07",
+      "completion_decision_id": 479
     }
   ]
 }

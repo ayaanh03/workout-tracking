@@ -1,8 +1,7 @@
 {
   "schema_version": 2,
-  "as_of": "2026-11-04",
+  "as_of": "2026-11-07",
   "active_shoes": [
-    "Vomero Plus",
     "Evo SL"
   ],
   "last_used_shoe": "Evo SL",
@@ -64,13 +63,23 @@
         "recommendation": "Retire from running",
         "retirement_confirmed": false,
         "mileage_note": "Approximate 360 report retained separately; ledger 351.55/range and all additions unchanged."
+      },
+      "running_use_status": "inactive-no-longer-current-pair",
+      "status_updated_on": "2026-11-07",
+      "availability_report": {
+        "reported_on": "2026-11-07",
+        "recorded_at": "2026-11-07T17:49:17-05:00",
+        "decision_id": 479,
+        "report": "5.1. I only have the evo sl now",
+        "sole_current_pair": "Evo SL",
+        "scope": "Current shoe availability and attribution of this confirmed run; no disposal method or historical mileage reallocation inferred."
       }
     },
     "Evo SL": {
       "first_use_on": "2026-11-03",
       "purchased_on": null,
-      "tracked_miles": 4.25,
-      "total_basis": "Athlete reports this is the first use of the new Evo SLs; 4.25 miles is the confirmed run total.",
+      "tracked_miles": 9.35,
+      "total_basis": "Confirmed first use November 3, 4.25 mi, plus November 7, 5.1 mi: 9.35 tracked miles.",
       "additions": [
         {
           "id": "hybrid-2026-10-26-w2-tue-2026-11-03",
@@ -78,11 +87,28 @@
           "miles": 4.25,
           "source": "../history/cardio-log.md#2026-11-03--hybrid-v11-w2-tuesday-intervals",
           "shoe_basis": "Athlete explicitly confirmed first use of new Evo SLs and total distance."
+        },
+        {
+          "id": "hybrid-2026-10-26-w2-sat-2026-11-07",
+          "date": "2026-11-07",
+          "miles": 5.1,
+          "source": "../history/cardio-log.md#2026-11-07--hybrid-v11-w2-saturday-longer-intervals-moved-from-friday",
+          "shoe_basis": "Athlete confirms total 5.1 and that Evo SL is now the only pair."
         }
       ],
       "unresolved": "No additional mileage reported.",
-      "note": "Separate shoe record. Do not transfer mileage or retirement thresholds from the Vomero Plus."
+      "note": "Separate shoe record. Do not transfer mileage or retirement thresholds from the Vomero Plus.",
+      "as_of": "2026-11-07"
     }
   },
-  "note": "Track each pair independently and add confirmed sessions once by ID. Last-used shoe does not establish retirement of another pair or attribution of future runs. Vomero historical estimate and uncertainty preserved unchanged."
+  "note": "Evo SL is the sole current running pair per November 7 report. Track confirmed sessions once by ID; retain the inactive Vomero ledger, range and historical condition review without transferring miles.",
+  "default_running_shoe": "Evo SL",
+  "current_pair_report": {
+    "reported_on": "2026-11-07",
+    "recorded_at": "2026-11-07T17:49:17-05:00",
+    "decision_id": 479,
+    "report": "5.1. I only have the evo sl now",
+    "sole_current_pair": "Evo SL",
+    "scope": "Current shoe availability and attribution of this confirmed run; no disposal method or historical mileage reallocation inferred."
+  }
 }

@@ -1,62 +1,103 @@
 {
-  "generatedAt": "2026-11-07T11:53:57-05:00",
+  "generatedAt": "2026-11-07T17:49:17-05:00",
   "blockId": "hybrid-2026-10-26",
-  "prescriptionId": "hybrid-2026-10-26-fri-intervals-475",
-  "preview": false,
+  "prescriptionId": "hybrid-2026-10-26-sun-legs-479",
+  "preview": true,
   "week": "W2",
-  "day": "Sat",
-  "date": "2026-11-07",
+  "day": "Sun",
+  "date": "2026-11-08",
   "phase": "Hybrid v11 — Stage B",
-  "sessionName": "Longer intervals — moved from Friday",
+  "sessionName": "Legs, bodyweight abs + calves — preview",
   "why": [
-    "Today is Saturday November 7: the longer run moved from Friday under your one-time swap. You report no elbow issues from yesterday; general recovery is assumed good under your standing instruction.",
-    "The existing 3×6 at 7:25/mi prescription stays unchanged. Friday-track pace progression remains independent of Tuesday."
+    "Sunday November 8 is the next scheduled workout after the completed moved run. Your regular schedule resumes; general recovery is assumed good.",
+    "Stay at Stage B for this final W2 session: 13 sets, including bodyweight-only abs. The week must be completed before reviewing a stage increase."
   ],
-  "intro": [],
-  "lift": null,
-  "cardio": {
-    "workout": "3×6 minutes at 7:25/mi, with 2-minute easy jog/walk recoveries between reps only. 18 work minutes; 42 minutes total with the prescribed warmup/cooldown.",
-    "warmup": "10 minutes easy; 8:30–9:30/mi is a guide, slower is fine. Up to 5 extra minutes if needed.",
-    "cooldown": "10 minutes easy, conversation comfortable.",
-    "targets": {
-      "pace": "7:25/mi",
-      "rpe": "Build toward 6–7/10; final rep ≤7/10"
-    },
-    "flags": [
-      "Watch alerts 7:20–7:30/mi are pacing guides; faster reps can still count toward progression."
-    ],
-    "workoutFile": "runs/2026-11-07.workout"
+  "intro": [
+    "Bodyweight abs only, at least 3 RIR. Stop or reduce if the original strain site hurts or pulls."
+  ],
+  "lift": {
+    "table": [
+      {
+        "slotId": "L1",
+        "exercise": "Decline crunch — bodyweight",
+        "setsReps": "2×10–15",
+        "load": "BW",
+        "rir": "≥3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "L2",
+        "exercise": "Leg-press calf raise",
+        "setsReps": "3×10–15",
+        "load": "365 lb",
+        "rir": "3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "L3",
+        "exercise": "Hack squat",
+        "setsReps": "2×6–10",
+        "load": "95 lb",
+        "rir": "3",
+        "rest": "2–3 min"
+      },
+      {
+        "slotId": "L4",
+        "exercise": "Seated leg curl",
+        "setsReps": "2×8–12",
+        "load": "100 lb starting",
+        "rir": "3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "L5",
+        "exercise": "Leg extension",
+        "setsReps": "2×10–15",
+        "load": "100 lb",
+        "rir": "3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "L6",
+        "exercise": "45-degree back extension",
+        "setsReps": "2×8–12",
+        "load": "25 lb",
+        "rir": "3",
+        "rest": "2 min"
+      }
+    ]
   },
+  "cardio": null,
   "adaptation": [
     {
-      "exercise": "Moved delts/arms B log",
-      "previous": "November 6: laterals 35×12/12/13; incline curl 25×8/9; pushdown 50×10/10; reverse pec deck 145×12, all RIR 3.",
-      "decision": "Record 10 known sets including forearms; hold suitable Stage-B loads.",
-      "reason": "The second prescribed reverse-pec-deck set is unreported. Keep original S-slot histories despite the Friday date; ramp work earns no ordinary load credit."
+      "exercise": "Next longer-run progression",
+      "previous": "November 7: 3×6 at 7:10/6:58/6:56, RPE 6/7/7; original target 7:25.",
+      "decision": "Earn next Friday 3×6 at 7:10/mi: 15 seconds faster, same 18 work minutes.",
+      "reason": "Slowest rep 7:10 gives 15 seconds of headroom. Headroom route takes priority over the separate two-hit award; no stacked increase. Ordinary recovery assumed good; source will be consumed when that run is prescribed."
     },
     {
-      "exercise": "Cable reverse curl and wrist curl",
-      "previous": "November 6 first exposures: 25×15 each; clarified RIR 10+ overrides pasted RIR 3.",
-      "decision": "Repeat one deliberately easy 25×15 set each next time; progress slowly after reviewing comfort.",
-      "reason": "November 7 follow-up confirms no elbow issues from the session. Your slow-progression preference remains; the deliberately easy first exposure does not require a load jump."
+      "exercise": "Sunday calf, hack, extension and back-extension loads",
+      "previous": "November 1: calves 365×12/15; hack 95×6/7; extension 100×15/15; back extension 25×12, all at least RIR 3.",
+      "decision": "Hold loads; use Stage-B 3/2/2/2 sets respectively.",
+      "reason": "Calf and back-extension sets increase with Stage B. Ramp work does not earn an ordinary load increase, and W2 is not complete yet."
     },
     {
-      "exercise": "Friday-track run, moved to Saturday",
-      "previous": "October 30: 3×6 at 7:27/7:13/7:16, RPE 5/6/7, prescribed 7:25. One qualifying hit.",
-      "decision": "Keep 3×6 at 7:25/mi, two 2-minute recoveries, 10-minute warmup/cooldown.",
-      "reason": "No all-rep speed headroom; final RPE 7 is above comfortable threshold 5, and no second hit yet. The date swap and lifting log add no run credit."
+      "exercise": "Seated leg curl",
+      "previous": "November 1: 85×12 at RIR 5, then 100×10 at RIR 3.",
+      "decision": "Start at 100 lb for 2×8–12 at 3 RIR.",
+      "reason": "Prior calibration supports the starting load; only one 100 lb set is demonstrated, so adjust later-set load if needed to retain target effort."
     },
     {
-      "exercise": "Bike and weekly running dose",
-      "previous": "November 6 bike: 20 minutes, athlete-reported Z2; numeric RPE unknown. W2 confirmed running remains 4.25 mi.",
-      "decision": "Log bike separately; keep Saturday run and existing Watch export.",
-      "reason": "No running mileage from cycling. Weekly run estimate remains 9.50 mi, planning upper 10.12 mi, below 15."
+      "exercise": "Bodyweight abs",
+      "previous": "November 1 L1 BW×15/15 at RIR 3; original-site sensation faded after several reps. Later quiet symptoms did not establish loaded-ab tolerance.",
+      "decision": "Keep 2×10–15 bodyweight decline crunches at ≥3 RIR.",
+      "reason": "Existing two-set/bodyweight limit persists until a specific loading review; no added weight from general recovery or quiet elbows."
     },
     {
-      "exercise": "Readiness and schedule",
-      "previous": "November 7: no elbow issues from yesterday’s moved lifting/bike session.",
-      "decision": "Run today; keep the existing prescription and Sunday leg schedule.",
-      "reason": "General recovery uses your standing default. This symptom follow-up adds no run hit, completed set, mileage or stage advancement."
+      "exercise": "Mileage and shoes",
+      "previous": "November 7 confirmed 5.1 mi in Evo SL; Tuesday 4.25 mi. Athlete now has only Evo SLs.",
+      "decision": "W2 running and Evo SL tracked total: 9.35 mi. Save Evo SL as sole current pair.",
+      "reason": "Add this confirmed session once. Preserve the inactive Vomero ledger and unknown older mileage; no mileage transferred or planned run added."
     }
   ],
   "currentLoads": [
@@ -291,7 +332,5 @@
       "lastVerified": "2026-11-01",
       "note": "November 1 actual 25×12 at RIR 3; hold during Stage B."
     }
-  ],
-  "templateDay": "Fri",
-  "scheduleOverrideId": "2026-11-06-swap-delts-b-and-longer-run"
+  ]
 }

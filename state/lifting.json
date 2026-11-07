@@ -1583,9 +1583,23 @@
         "qualifying_exposures": 0,
         "note": "November 1 BW×15/15 at RIR 3 preserved. Follow-up reports a minor original-site strain sensation that faded after a few reps; no symptom-free or loaded exposure is claimed. Baseline hanging raise remains uninitialized.",
         "next_action": {
-          "decision_id": 457,
-          "action": "defer-added-load-bodyweight-only-if-comfortable",
-          "reason": "Original-site symptoms were reported, so defer the 5 lb proposal. BW only if comfortable; stop or reduce work if pain/pulling recurs. Reconsider loading after symptom-free during/after and next-morning response, with fresh review."
+          "decision_id": 479,
+          "action": "bodyweight-only-if-comfortable",
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-08",
+          "prescription_id": "hybrid-2026-10-26-sun-legs-479",
+          "load": "BW",
+          "units": "bodyweight",
+          "sets": 2,
+          "rep_range": [
+            10,
+            15
+          ],
+          "target_rir": 3,
+          "minimum_rir": 3,
+          "rest_seconds": 120,
+          "reason": "Keep bodyweight/max-two-set ab restriction; no new loading clearance.",
+          "symptom_action": "Stop or reduce ab work if original-site pain/pulling recurs; no added weight."
         }
       }
     },
@@ -1621,10 +1635,22 @@
       },
       "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 456,
-        "action": "hold-load",
-        "load_lb": 365,
-        "reason": "Reported sets meet the range with at least the intended reserve. Keep suitable loads stable during A–C; no ordinary load-increase award."
+        "decision_id": 479,
+        "action": "hold-load-at-stage-b-dose",
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-08",
+        "prescription_id": "hybrid-2026-10-26-sun-legs-479",
+        "load": 365,
+        "units": "lb",
+        "sets": 3,
+        "rep_range": [
+          10,
+          15
+        ],
+        "target_rir": 3,
+        "minimum_rir": 3,
+        "rest_seconds": 120,
+        "reason": "November 1 same-slot actual supports this working load; use Stage-B set count without ordinary loading credit."
       }
     },
     "L3": {
@@ -1659,10 +1685,26 @@
       },
       "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 456,
-        "action": "hold-load",
-        "load_lb": 95,
-        "reason": "Reported sets meet the range with at least the intended reserve. Keep suitable loads stable during A–C; no ordinary load-increase award."
+        "decision_id": 479,
+        "action": "hold-load-at-stage-b-dose",
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-08",
+        "prescription_id": "hybrid-2026-10-26-sun-legs-479",
+        "load": 95,
+        "units": "lb",
+        "sets": 2,
+        "rep_range": [
+          6,
+          10
+        ],
+        "target_rir": 3,
+        "minimum_rir": 3,
+        "rest_seconds": 120,
+        "reason": "November 1 same-slot actual supports this working load; use Stage-B set count without ordinary loading credit.",
+        "rest_seconds_range": [
+          120,
+          180
+        ]
       }
     },
     "L4": {
@@ -1706,10 +1748,22 @@
       },
       "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 456,
-        "action": "calibrate-load",
-        "load_lb": 100,
-        "reason": "Use 100 lb as the next starting load: 85×12 at RIR 5 was easier than target and 100×10 at RIR 3 met the range/reserve. Only one 100 lb set is demonstrated; adjust later sets to stay within 8–12 reps at target RIR."
+        "decision_id": 479,
+        "action": "use-established-starting-load",
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-08",
+        "prescription_id": "hybrid-2026-10-26-sun-legs-479",
+        "load": 100,
+        "units": "lb",
+        "sets": 2,
+        "rep_range": [
+          8,
+          12
+        ],
+        "target_rir": 3,
+        "minimum_rir": 3,
+        "rest_seconds": 120,
+        "reason": "November 1 calibrated 100×10 at RIR 3 after 85×12 at RIR 5. Use 100 as starting load; only one such set demonstrated, adjust later load if needed."
       }
     },
     "L5": {
@@ -1744,10 +1798,22 @@
       },
       "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 456,
-        "action": "hold-load",
-        "load_lb": 100,
-        "reason": "Reported sets meet the range with at least the intended reserve. Keep suitable loads stable during A–C; no ordinary load-increase award."
+        "decision_id": 479,
+        "action": "hold-load-at-stage-b-dose",
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-08",
+        "prescription_id": "hybrid-2026-10-26-sun-legs-479",
+        "load": 100,
+        "units": "lb",
+        "sets": 2,
+        "rep_range": [
+          10,
+          15
+        ],
+        "target_rir": 3,
+        "minimum_rir": 3,
+        "rest_seconds": 120,
+        "reason": "November 1 same-slot actual supports this working load; use Stage-B set count without ordinary loading credit."
       }
     },
     "L6": {
@@ -1777,10 +1843,22 @@
       },
       "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 456,
-        "action": "hold-load",
-        "load_lb": 25,
-        "reason": "Reported sets meet the range with at least the intended reserve. Keep suitable loads stable during A–C; no ordinary load-increase award."
+        "decision_id": 479,
+        "action": "hold-load-at-stage-b-dose",
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-08",
+        "prescription_id": "hybrid-2026-10-26-sun-legs-479",
+        "load": 25,
+        "units": "lb",
+        "sets": 2,
+        "rep_range": [
+          8,
+          12
+        ],
+        "target_rir": 3,
+        "minimum_rir": 3,
+        "rest_seconds": 120,
+        "reason": "November 1 same-slot actual supports this working load; use Stage-B set count without ordinary loading credit."
       }
     }
   },

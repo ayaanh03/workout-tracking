@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-07T11:53:57-05:00",
+  "generatedAt": "2026-11-07T17:49:17-05:00",
   "blockId": "hybrid-2026-10-26",
-  "preview": false,
+  "preview": true,
   "week": "W2",
   "phase": "Hybrid v11 — Stage B",
   "rangeStart": "2026-11-02",
   "rangeEnd": "2026-11-08",
-  "summary": "W2, November 2–8 — Monday through Friday sessions logged: 54 known lifting sets and 40 bike minutes. Today, Saturday November 7: the moved longer run, 3×6 at 7:25/mi. No elbow issues from yesterday; slow forearm progression retained. Second reverse-pec-deck set remains unreported. Sunday legs stay scheduled; routine recovery assumed good.",
+  "summary": "W2, November 2–8 — Monday through Saturday completed: 54 known lifting sets, 40 bike minutes and 9.35 confirmed running miles. Sunday leg preview ready: 13 Stage-B sets with bodyweight abs. Longer run earned next 3×6 at 7:10/mi. Second November 6 pec-deck set remains unreported; week review follows Sunday.",
   "days": [
     {
       "date": "2026-11-02",
@@ -47,26 +47,26 @@
       "date": "2026-11-07",
       "day": "Sat",
       "session": "Longer intervals",
-      "note": "Today, moved from Friday: 10 min easy warmup, 3×6 min at 7:25/mi, 2 min easy recoveries between reps, 10 min easy cooldown. Final RPE ≤7; 42 min total. November 7 Watch file available. Recovery assumed good; no elbow issues from yesterday.",
-      "status": "today"
+      "note": "Completed moved run: 3×6 at 7:10/6:58/6:56 per mile, RPE 6/7/7; 5.1 mi in Evo SLs. Friday-track hit 2 using assumed good recovery. All-rep headroom earns next 3×6 at 7:10; no extra minutes.",
+      "status": "done"
     },
     {
       "date": "2026-11-08",
       "day": "Sun",
       "session": "Legs, bodyweight abs + calves",
-      "note": "13 Stage-B sets including up to 2 comfortable BW crunch sets at ≥3 RIR. Leg curl starts at calibrated 100 lb; other suitable established loads held.",
+      "note": "Preview ready: BW crunch 2×10–15; calves 365 lb 3×10–15; hack 95 lb 2×6–10; leg curl 100 lb starting 2×8–12; extension 100 lb 2×10–15; back extension 25 lb 2×8–12. Target 3 RIR; 13 Stage-B sets.",
       "status": "upcoming"
     }
   ],
   "runningMileageCheck": {
-    "decisionId": 475,
-    "kind": "actual-plus-planned",
-    "recordedMiles": 4.25,
+    "decisionId": 479,
+    "kind": "confirmed-actuals",
+    "recordedMiles": 9.35,
     "estimatedUnconfirmedMiles": 0,
-    "estimatedMiles": 9.500495703899537,
-    "upperMiles": 10.116310160427808,
+    "estimatedMiles": 9.35,
+    "upperMiles": 9.35,
     "limitMiles": 15,
-    "status": "actual-plus-planned-below-limit",
-    "assumptions": "Tuesday confirmed 4.25 mi. Friday-track run moved to Saturday November 7; estimate: 18 work min at 7:25 plus 24 easy min at 8:30/mi. Planning upper uses 7:20 work pace and 29 easy min including optional 5-min warmup extension. Recalculate after the moved run’s actuals; faster execution can exceed the planning envelope. Evo SLs receive 4.25 mi once; Vomero unchanged. Friday W1 total/shoe remains unresolved."
+    "status": "confirmed-actuals-below-limit",
+    "assumptions": "W2 confirmed totals: Tuesday 4.25 mi + Saturday moved run 5.1 mi = 9.35 mi. No further run prescribed this week. Rounded segment distances are not added separately; earlier-week unresolved mileage does not enter W2."
   }
 }
