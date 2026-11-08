@@ -48,11 +48,30 @@
       },
       "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 460,
-        "action": "hold-load",
-        "load_lb": 145,
-        "source": "../history/lifting-log.md#2026-11-02--hybrid-v11-w2-monday-upper-a",
-        "reason": "145×6 at RIR 3 fits the current range. Hold during Stage B; ceiling reps do not earn ordinary ramp progression."
+        "decision_id": 481,
+        "action": "hold-load-at-stage-c-dose",
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-09",
+        "prescription_id": "hybrid-2026-10-26-mon-upper-a-481",
+        "stage": "C",
+        "load": 145,
+        "units": "lb",
+        "sets": 1,
+        "rep_range": [
+          4,
+          6
+        ],
+        "minimum_rir": 2,
+        "target_rir_range": [
+          2,
+          3
+        ],
+        "rest_seconds": 180,
+        "reason": "November 2 same-slot actual supports holding load. Completed manageable W2 authorizes Stage C sets at 2–3 RIR; no ordinary ramp loading credit.",
+        "rest_seconds_range": [
+          180,
+          240
+        ]
       }
     },
     "M1b": {
@@ -87,11 +106,30 @@
       },
       "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 460,
-        "action": "hold-load",
-        "load_lb": 135,
-        "source": "../history/lifting-log.md#2026-11-02--hybrid-v11-w2-monday-upper-a",
-        "reason": "135×8/8 at RIR 3 completes the added back-off set. Hold during Stage B; ramp work earns no ordinary increase."
+        "decision_id": 481,
+        "action": "hold-load-at-stage-c-dose",
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-09",
+        "prescription_id": "hybrid-2026-10-26-mon-upper-a-481",
+        "stage": "C",
+        "load": 135,
+        "units": "lb",
+        "sets": 2,
+        "rep_range": [
+          6,
+          8
+        ],
+        "minimum_rir": 2,
+        "target_rir_range": [
+          2,
+          3
+        ],
+        "rest_seconds": 180,
+        "reason": "November 2 same-slot actual supports holding load. Completed manageable W2 authorizes Stage C sets at 2–3 RIR; no ordinary ramp loading credit.",
+        "rest_seconds_range": [
+          180,
+          240
+        ]
       }
     },
     "M2": {
@@ -126,19 +164,26 @@
       },
       "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 470,
-        "action": "resume-stage-dose-at-current-load",
-        "load_lb": 22.5,
+        "decision_id": 481,
+        "action": "hold-load-at-stage-c-dose",
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-09",
+        "prescription_id": "hybrid-2026-10-26-mon-upper-a-481",
+        "stage": "C",
+        "load": 22.5,
+        "units": "lb",
         "sets": 2,
         "rep_range": [
           8,
           12
         ],
-        "target_rir": 3,
+        "minimum_rir": 2,
+        "target_rir_range": [
+          2,
+          3
+        ],
         "rest_seconds": 120,
-        "source": "../history/adjustments.md#2026-11-04--log-wednesday-and-release-biceps-maintenance",
-        "reason": "Symptom resolution and November 4 working-curl response are both confirmed. Resume normal achieved-stage sets/range at the same load; no fixed-rep maintenance cap or new load-progression credit.",
-        "symptom_action": "Adjust or omit if elbow symptoms return; incline curls remain the athlete-suspected prior trigger."
+        "reason": "November 2 same-slot actual supports holding load. Completed manageable W2 authorizes Stage C sets at 2–3 RIR; no ordinary ramp loading credit."
       }
     },
     "M3": {
@@ -178,11 +223,26 @@
       },
       "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 460,
-        "action": "hold-load",
-        "load_lb": 35,
-        "source": "../history/lifting-log.md#2026-11-02--hybrid-v11-w2-monday-upper-a",
-        "reason": "35×12/15/12 at RIR 5/3/3: all three sets in range; later sets fit target. Hold 35 and preserve the easier first set."
+        "decision_id": 481,
+        "action": "hold-load-at-stage-c-dose",
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-09",
+        "prescription_id": "hybrid-2026-10-26-mon-upper-a-481",
+        "stage": "C",
+        "load": 35,
+        "units": "lb",
+        "sets": 4,
+        "rep_range": [
+          12,
+          20
+        ],
+        "minimum_rir": 2,
+        "target_rir_range": [
+          2,
+          3
+        ],
+        "rest_seconds": 120,
+        "reason": "November 2 same-slot actual supports holding load. Completed manageable W2 authorizes Stage C sets at 2–3 RIR; no ordinary ramp loading credit."
       }
     },
     "M4": {
@@ -258,11 +318,26 @@
         }
       ],
       "next_action": {
-        "decision_id": 460,
-        "action": "hold-load",
-        "load_lb": 50,
-        "source": "../history/lifting-log.md#2026-11-02--hybrid-v11-w2-monday-upper-a",
-        "reason": "First Monday pushdown exposure: 50×12/12 at RIR 3/2, with no tendon issues reported. Establish and hold 50; no overhead restoration or cross-slot credit."
+        "decision_id": 481,
+        "action": "hold-load-at-stage-c-dose",
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-09",
+        "prescription_id": "hybrid-2026-10-26-mon-upper-a-481",
+        "stage": "C",
+        "load": 50,
+        "units": "lb",
+        "sets": 3,
+        "rep_range": [
+          10,
+          15
+        ],
+        "minimum_rir": 2,
+        "target_rir_range": [
+          2,
+          3
+        ],
+        "rest_seconds": 120,
+        "reason": "November 2 same-slot actual supports holding load. Completed manageable W2 authorizes Stage C sets at 2–3 RIR; no ordinary ramp loading credit."
       }
     },
     "M5": {
@@ -297,18 +372,33 @@
       },
       "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 460,
+        "decision_id": 481,
         "action": "reduce-for-effort-calibration",
-        "from_actual_load": 160,
-        "proposed_load": 155,
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-09",
+        "prescription_id": "hybrid-2026-10-26-mon-upper-a-481",
+        "stage": "C",
+        "load": 155,
         "units": "lb",
-        "availability_rule": "Use 155 if available, otherwise the next lower setting below 160, calibrated to the rep floor at the intended reserve.",
-        "applies_when": "Next M5 exposure with two sets targeting about 3 RIR; re-evaluate if stage or recovery changes.",
-        "target_reps": "8–12",
-        "target_rir": 3,
-        "status": "proposed-not-performed",
-        "source": "../history/lifting-log.md#2026-11-02--hybrid-v11-w2-monday-upper-a",
-        "reason": "160×9 at RIR 3 fits the first set, but 160×8 at RIR 1 misses prescribed RIR 3 and the Stage-B 2–3 range on the second. Lower the next starting load to fit the full dose; actual 160 remains established. No fatigue or persistent-decline diagnosis."
+        "sets": 2,
+        "rep_range": [
+          8,
+          12
+        ],
+        "minimum_rir": 3,
+        "target_rir_range": [
+          3,
+          3
+        ],
+        "rest_seconds": 120,
+        "reason": "November 2 160×9 RIR 3/×8 RIR 1: lower starting load to 155 so both sets fit 8–12 at RIR 3. Actual 160 remains the established historical load until 155 is performed.",
+        "rest_seconds_range": [
+          120,
+          180
+        ],
+        "proposed_load": 155,
+        "from_actual_load": 160,
+        "availability_rule": "Use 155 if available; otherwise the next lower setting below 160 that fits 8–12 at RIR 3."
       }
     },
     "M6": {
@@ -349,10 +439,26 @@
         "note": "November 2 BW decline crunch 15/15 at RIR 10/3, no issues on abs reported. Temporary substitute only; cable crunch remains uninitialized. Keep BW/max two sets/minimum 3 RIR pending next-morning response and fresh loading review.",
         "load_source": "../history/lifting-log.md#2026-11-02--hybrid-v11-w2-monday-upper-a",
         "next_action": {
-          "decision_id": 460,
+          "decision_id": 481,
           "action": "hold-bodyweight-pending-loading-review",
-          "source": "../history/lifting-log.md#2026-11-02--hybrid-v11-w2-monday-upper-a",
-          "reason": "Current BW exposure symptom-free; next-morning response unknown. Do not infer load clearance from the first set’s RIR 10. Keep maximum two sets at ≥3 RIR."
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-09",
+          "prescription_id": "hybrid-2026-10-26-mon-upper-a-481",
+          "stage": "C",
+          "load": "BW",
+          "units": "bodyweight",
+          "sets": 2,
+          "rep_range": [
+            10,
+            15
+          ],
+          "minimum_rir": 3,
+          "target_rir_range": [
+            3,
+            3
+          ],
+          "rest_seconds": 120,
+          "reason": "Preserve BW/max 2 sets/minimum 3 RIR; latest Sunday performance does not authorize extra ab load or sets."
         }
       }
     },
@@ -388,11 +494,30 @@
       },
       "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 460,
-        "action": "hold-load",
-        "load_lb": 70,
-        "source": "../history/lifting-log.md#2026-11-02--hybrid-v11-w2-monday-upper-a",
-        "reason": "70×8/8 at RIR 2 meets both rep floors and Stage-B 2–3 RIR. Hold 70; this changed-dose exposure does not establish persistent decline."
+        "decision_id": 481,
+        "action": "hold-load-at-stage-c-dose",
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-09",
+        "prescription_id": "hybrid-2026-10-26-mon-upper-a-481",
+        "stage": "C",
+        "load": 70,
+        "units": "lb",
+        "sets": 2,
+        "rep_range": [
+          8,
+          12
+        ],
+        "minimum_rir": 2,
+        "target_rir_range": [
+          2,
+          3
+        ],
+        "rest_seconds": 120,
+        "reason": "November 2 70×8/8 at RIR 2 already fits the Stage C 2–3 RIR target. Hold 70 with two sets; no invented further reduction.",
+        "rest_seconds_range": [
+          120,
+          180
+        ]
       },
       "clarification": {
         "requested_on": "2026-10-26",
@@ -1559,11 +1684,11 @@
         "load_convention": "Bodyweight, no added weight",
         "load_status": "established",
         "last_actual": {
-          "date": "2026-11-01",
-          "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
-          "prescription_id": "hybrid-2026-10-26-sun-legs-455",
-          "source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
-          "stage": "A",
+          "date": "2026-11-08",
+          "session_id": "hybrid-2026-10-26-w2-sun-2026-11-08",
+          "prescription_id": "hybrid-2026-10-26-sun-legs-479",
+          "source": "../history/lifting-log.md#2026-11-08--hybrid-v11-w2-sunday-legs",
+          "stage": "B",
           "sets": [
             {
               "load": "BW",
@@ -1577,30 +1702,43 @@
             }
           ],
           "progression_eligible": false,
-          "reason": "Stage-A work; no ordinary qualification, comparable anchor or plateau credit."
+          "reason": "Stage-B ramp; no ordinary loading, qualification or plateau credit."
         },
-        "new_exposure_count": 2,
+        "new_exposure_count": 3,
         "qualifying_exposures": 0,
-        "note": "November 1 BW×15/15 at RIR 3 preserved. Follow-up reports a minor original-site strain sensation that faded after a few reps; no symptom-free or loaded exposure is claimed. Baseline hanging raise remains uninitialized.",
+        "note": "November 8 Sunday BW×15/15 at RIR 3 recorded. No fresh ab symptom response; keep BW/max 2 sets/minimum 3 RIR. Baseline hanging raise remains uninitialized.",
         "next_action": {
-          "decision_id": 479,
-          "action": "bodyweight-only-if-comfortable",
-          "status": "prescribed-not-performed",
-          "for_date": "2026-11-08",
-          "prescription_id": "hybrid-2026-10-26-sun-legs-479",
+          "decision_id": 481,
+          "action": "hold-bodyweight-pending-loading-review",
           "load": "BW",
           "units": "bodyweight",
-          "sets": 2,
-          "rep_range": [
-            10,
-            15
-          ],
-          "target_rir": 3,
-          "minimum_rir": 3,
-          "rest_seconds": 120,
-          "reason": "Keep bodyweight/max-two-set ab restriction; no new loading clearance.",
-          "symptom_action": "Stop or reduce ab work if original-site pain/pulling recurs; no added weight."
-        }
+          "source": "../history/lifting-log.md#2026-11-08--hybrid-v11-w2-sunday-legs",
+          "reason": "BW×15/15 at RIR 3 recorded; preserve two-set/BW ceiling and baseline hanging-raise separation. Specific symptom response remains unreported."
+        },
+        "actual_history": [
+          {
+            "date": "2026-11-01",
+            "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
+            "prescription_id": "hybrid-2026-10-26-sun-legs-455",
+            "source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
+            "stage": "A",
+            "sets": [
+              {
+                "load": "BW",
+                "reps": 15,
+                "rir": 3
+              },
+              {
+                "load": "BW",
+                "reps": 15,
+                "rir": 3
+              }
+            ],
+            "progression_eligible": false,
+            "reason": "Stage-A work; no ordinary qualification, comparable anchor or plateau credit."
+          }
+        ],
+        "load_source": "../history/lifting-log.md#2026-11-08--hybrid-v11-w2-sunday-legs"
       }
     },
     "L2": {
@@ -1611,47 +1749,65 @@
       "setup": null,
       "load_convention": "Athlete-reported lb notation; machine model/settings and stack/plate/sled convention not reported. Retain the same setup and notation.",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
+      "load_source": "../history/lifting-log.md#2026-11-08--hybrid-v11-w2-sunday-legs",
       "last_actual": {
-        "date": "2026-11-01",
-        "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
-        "prescription_id": "hybrid-2026-10-26-sun-legs-455",
-        "source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
-        "stage": "A",
+        "date": "2026-11-08",
+        "session_id": "hybrid-2026-10-26-w2-sun-2026-11-08",
+        "prescription_id": "hybrid-2026-10-26-sun-legs-479",
+        "source": "../history/lifting-log.md#2026-11-08--hybrid-v11-w2-sunday-legs",
+        "stage": "B",
         "sets": [
           {
             "load": 365,
-            "reps": 12,
+            "reps": 14,
             "rir": 3
           },
           {
             "load": 365,
             "reps": 15,
             "rir": 3
+          },
+          {
+            "load": 365,
+            "reps": 12,
+            "rir": 3
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-A work; no ordinary qualification, comparable anchor or plateau credit."
+        "reason": "Stage-B ramp; no ordinary loading, qualification or plateau credit."
       },
-      "new_exposure_count": 2,
+      "new_exposure_count": 3,
       "next_action": {
-        "decision_id": 479,
-        "action": "hold-load-at-stage-b-dose",
-        "status": "prescribed-not-performed",
-        "for_date": "2026-11-08",
-        "prescription_id": "hybrid-2026-10-26-sun-legs-479",
+        "decision_id": 481,
+        "action": "hold-load-during-ramp",
         "load": 365,
         "units": "lb",
-        "sets": 3,
-        "rep_range": [
-          10,
-          15
-        ],
-        "target_rir": 3,
-        "minimum_rir": 3,
-        "rest_seconds": 120,
-        "reason": "November 1 same-slot actual supports this working load; use Stage-B set count without ordinary loading credit."
-      }
+        "source": "../history/lifting-log.md#2026-11-08--hybrid-v11-w2-sunday-legs",
+        "reason": "Full Stage-B dose is within range at RIR 3. Hold established load while the next earned stage supplies its sets; rep ceilings do not earn a ramp load increase."
+      },
+      "actual_history": [
+        {
+          "date": "2026-11-01",
+          "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
+          "prescription_id": "hybrid-2026-10-26-sun-legs-455",
+          "source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
+          "stage": "A",
+          "sets": [
+            {
+              "load": 365,
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 365,
+              "reps": 15,
+              "rir": 3
+            }
+          ],
+          "progression_eligible": false,
+          "reason": "Stage-A work; no ordinary qualification, comparable anchor or plateau credit."
+        }
+      ]
     },
     "L3": {
       "exercise": "Hack squat",
@@ -1661,13 +1817,13 @@
       "setup": null,
       "load_convention": "Athlete-reported lb notation; machine model/settings and stack/plate/sled convention not reported. Retain the same setup and notation.",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
+      "load_source": "../history/lifting-log.md#2026-11-08--hybrid-v11-w2-sunday-legs",
       "last_actual": {
-        "date": "2026-11-01",
-        "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
-        "prescription_id": "hybrid-2026-10-26-sun-legs-455",
-        "source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
-        "stage": "A",
+        "date": "2026-11-08",
+        "session_id": "hybrid-2026-10-26-w2-sun-2026-11-08",
+        "prescription_id": "hybrid-2026-10-26-sun-legs-479",
+        "source": "../history/lifting-log.md#2026-11-08--hybrid-v11-w2-sunday-legs",
+        "stage": "B",
         "sets": [
           {
             "load": 95,
@@ -1676,36 +1832,45 @@
           },
           {
             "load": 95,
-            "reps": 7,
+            "reps": 10,
             "rir": 3
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-A work; no ordinary qualification, comparable anchor or plateau credit."
+        "reason": "Stage-B ramp; no ordinary loading, qualification or plateau credit."
       },
-      "new_exposure_count": 2,
+      "new_exposure_count": 3,
       "next_action": {
-        "decision_id": 479,
-        "action": "hold-load-at-stage-b-dose",
-        "status": "prescribed-not-performed",
-        "for_date": "2026-11-08",
-        "prescription_id": "hybrid-2026-10-26-sun-legs-479",
+        "decision_id": 481,
+        "action": "hold-load-during-ramp",
         "load": 95,
         "units": "lb",
-        "sets": 2,
-        "rep_range": [
-          6,
-          10
-        ],
-        "target_rir": 3,
-        "minimum_rir": 3,
-        "rest_seconds": 120,
-        "reason": "November 1 same-slot actual supports this working load; use Stage-B set count without ordinary loading credit.",
-        "rest_seconds_range": [
-          120,
-          180
-        ]
-      }
+        "source": "../history/lifting-log.md#2026-11-08--hybrid-v11-w2-sunday-legs",
+        "reason": "Full Stage-B dose is within range at RIR 3. Hold established load while the next earned stage supplies its sets; rep ceilings do not earn a ramp load increase."
+      },
+      "actual_history": [
+        {
+          "date": "2026-11-01",
+          "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
+          "prescription_id": "hybrid-2026-10-26-sun-legs-455",
+          "source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
+          "stage": "A",
+          "sets": [
+            {
+              "load": 95,
+              "reps": 6,
+              "rir": 3
+            },
+            {
+              "load": 95,
+              "reps": 7,
+              "rir": 3
+            }
+          ],
+          "progression_eligible": false,
+          "reason": "Stage-A work; no ordinary qualification, comparable anchor or plateau credit."
+        }
+      ]
     },
     "L4": {
       "exercise": "Seated leg curl",
@@ -1715,56 +1880,69 @@
       "setup": null,
       "load_convention": "Athlete-reported lb notation; machine model/settings and stack/plate/sled convention not reported. Retain the same setup and notation.",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
+      "load_source": "../history/lifting-log.md#2026-11-08--hybrid-v11-w2-sunday-legs",
       "last_actual": {
-        "date": "2026-11-01",
-        "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
-        "prescription_id": "hybrid-2026-10-26-sun-legs-455",
-        "source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
-        "stage": "A",
+        "date": "2026-11-08",
+        "session_id": "hybrid-2026-10-26-w2-sun-2026-11-08",
+        "prescription_id": "hybrid-2026-10-26-sun-legs-479",
+        "source": "../history/lifting-log.md#2026-11-08--hybrid-v11-w2-sunday-legs",
+        "stage": "B",
         "sets": [
           {
-            "load": 85,
+            "load": 100,
             "reps": 12,
-            "rir": 5
+            "rir": 3
           },
           {
             "load": 100,
-            "reps": 10,
+            "reps": 12,
             "rir": 3
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-A work; no ordinary qualification, comparable anchor or plateau credit.",
-        "prescription_deviation": {
-          "prescribed_load_lb": 85,
-          "actual_loads_lb": [
-            85,
-            100
-          ],
-          "type": "within-session-load-calibration",
-          "reason": "85×12 had RIR 5; the reported second set at 100×10 had RIR 3. Preserve both sets and the original 85 lb prescription."
-        }
+        "reason": "Stage-B ramp; no ordinary loading, qualification or plateau credit."
       },
-      "new_exposure_count": 2,
+      "new_exposure_count": 3,
       "next_action": {
-        "decision_id": 479,
-        "action": "use-established-starting-load",
-        "status": "prescribed-not-performed",
-        "for_date": "2026-11-08",
-        "prescription_id": "hybrid-2026-10-26-sun-legs-479",
+        "decision_id": 481,
+        "action": "hold-load-during-ramp",
         "load": 100,
         "units": "lb",
-        "sets": 2,
-        "rep_range": [
-          8,
-          12
-        ],
-        "target_rir": 3,
-        "minimum_rir": 3,
-        "rest_seconds": 120,
-        "reason": "November 1 calibrated 100×10 at RIR 3 after 85×12 at RIR 5. Use 100 as starting load; only one such set demonstrated, adjust later load if needed."
-      }
+        "source": "../history/lifting-log.md#2026-11-08--hybrid-v11-w2-sunday-legs",
+        "reason": "Both 100×12 sets at RIR 3 now establish the full two-set dose at 100. Hold 100 during the ramp; reaching the rep ceiling is not ordinary loading credit."
+      },
+      "actual_history": [
+        {
+          "date": "2026-11-01",
+          "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
+          "prescription_id": "hybrid-2026-10-26-sun-legs-455",
+          "source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
+          "stage": "A",
+          "sets": [
+            {
+              "load": 85,
+              "reps": 12,
+              "rir": 5
+            },
+            {
+              "load": 100,
+              "reps": 10,
+              "rir": 3
+            }
+          ],
+          "progression_eligible": false,
+          "reason": "Stage-A work; no ordinary qualification, comparable anchor or plateau credit.",
+          "prescription_deviation": {
+            "prescribed_load_lb": 85,
+            "actual_loads_lb": [
+              85,
+              100
+            ],
+            "type": "within-session-load-calibration",
+            "reason": "85×12 had RIR 5; the reported second set at 100×10 had RIR 3. Preserve both sets and the original 85 lb prescription."
+          }
+        }
+      ]
     },
     "L5": {
       "exercise": "Leg extension",
@@ -1774,13 +1952,13 @@
       "setup": null,
       "load_convention": "Athlete-reported lb notation; machine model/settings and stack/plate/sled convention not reported. Retain the same setup and notation.",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
+      "load_source": "../history/lifting-log.md#2026-11-08--hybrid-v11-w2-sunday-legs",
       "last_actual": {
-        "date": "2026-11-01",
-        "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
-        "prescription_id": "hybrid-2026-10-26-sun-legs-455",
-        "source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
-        "stage": "A",
+        "date": "2026-11-08",
+        "session_id": "hybrid-2026-10-26-w2-sun-2026-11-08",
+        "prescription_id": "hybrid-2026-10-26-sun-legs-479",
+        "source": "../history/lifting-log.md#2026-11-08--hybrid-v11-w2-sunday-legs",
+        "stage": "B",
         "sets": [
           {
             "load": 100,
@@ -1790,31 +1968,44 @@
           {
             "load": 100,
             "reps": 15,
-            "rir": 5
+            "rir": 3
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-A work; no ordinary qualification, comparable anchor or plateau credit."
+        "reason": "Stage-B ramp; no ordinary loading, qualification or plateau credit."
       },
-      "new_exposure_count": 2,
+      "new_exposure_count": 3,
       "next_action": {
-        "decision_id": 479,
-        "action": "hold-load-at-stage-b-dose",
-        "status": "prescribed-not-performed",
-        "for_date": "2026-11-08",
-        "prescription_id": "hybrid-2026-10-26-sun-legs-479",
+        "decision_id": 481,
+        "action": "hold-load-during-ramp",
         "load": 100,
         "units": "lb",
-        "sets": 2,
-        "rep_range": [
-          10,
-          15
-        ],
-        "target_rir": 3,
-        "minimum_rir": 3,
-        "rest_seconds": 120,
-        "reason": "November 1 same-slot actual supports this working load; use Stage-B set count without ordinary loading credit."
-      }
+        "source": "../history/lifting-log.md#2026-11-08--hybrid-v11-w2-sunday-legs",
+        "reason": "Full Stage-B dose is within range at RIR 3. Hold established load while the next earned stage supplies its sets; rep ceilings do not earn a ramp load increase."
+      },
+      "actual_history": [
+        {
+          "date": "2026-11-01",
+          "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
+          "prescription_id": "hybrid-2026-10-26-sun-legs-455",
+          "source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
+          "stage": "A",
+          "sets": [
+            {
+              "load": 100,
+              "reps": 15,
+              "rir": 3
+            },
+            {
+              "load": 100,
+              "reps": 15,
+              "rir": 5
+            }
+          ],
+          "progression_eligible": false,
+          "reason": "Stage-A work; no ordinary qualification, comparable anchor or plateau credit."
+        }
+      ]
     },
     "L6": {
       "exercise": "Loaded 45-degree back extension",
@@ -1824,14 +2015,19 @@
       "setup": null,
       "load_convention": "Added load as reported; implement/position not reported.",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
+      "load_source": "../history/lifting-log.md#2026-11-08--hybrid-v11-w2-sunday-legs",
       "last_actual": {
-        "date": "2026-11-01",
-        "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
-        "prescription_id": "hybrid-2026-10-26-sun-legs-455",
-        "source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
-        "stage": "A",
+        "date": "2026-11-08",
+        "session_id": "hybrid-2026-10-26-w2-sun-2026-11-08",
+        "prescription_id": "hybrid-2026-10-26-sun-legs-479",
+        "source": "../history/lifting-log.md#2026-11-08--hybrid-v11-w2-sunday-legs",
+        "stage": "B",
         "sets": [
+          {
+            "load": 25,
+            "reps": 12,
+            "rir": 3
+          },
           {
             "load": 25,
             "reps": 12,
@@ -1839,27 +2035,35 @@
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-A work; no ordinary qualification, comparable anchor or plateau credit."
+        "reason": "Stage-B ramp; no ordinary loading, qualification or plateau credit."
       },
-      "new_exposure_count": 2,
+      "new_exposure_count": 3,
       "next_action": {
-        "decision_id": 479,
-        "action": "hold-load-at-stage-b-dose",
-        "status": "prescribed-not-performed",
-        "for_date": "2026-11-08",
-        "prescription_id": "hybrid-2026-10-26-sun-legs-479",
+        "decision_id": 481,
+        "action": "hold-load-during-ramp",
         "load": 25,
         "units": "lb",
-        "sets": 2,
-        "rep_range": [
-          8,
-          12
-        ],
-        "target_rir": 3,
-        "minimum_rir": 3,
-        "rest_seconds": 120,
-        "reason": "November 1 same-slot actual supports this working load; use Stage-B set count without ordinary loading credit."
-      }
+        "source": "../history/lifting-log.md#2026-11-08--hybrid-v11-w2-sunday-legs",
+        "reason": "Full Stage-B dose is within range at RIR 3. Hold established load while the next earned stage supplies its sets; rep ceilings do not earn a ramp load increase."
+      },
+      "actual_history": [
+        {
+          "date": "2026-11-01",
+          "session_id": "hybrid-2026-10-26-w1-sun-2026-11-01",
+          "prescription_id": "hybrid-2026-10-26-sun-legs-455",
+          "source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
+          "stage": "A",
+          "sets": [
+            {
+              "load": 25,
+              "reps": 12,
+              "rir": 3
+            }
+          ],
+          "progression_eligible": false,
+          "reason": "Stage-A work; no ordinary qualification, comparable anchor or plateau credit."
+        }
+      ]
     }
   },
   "forearms": {

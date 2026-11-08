@@ -185,3 +185,7 @@ Confirmed total **5.1 mi in Evo SLs**; rounded segments sum approximately 5.09 m
 Classify **Friday-track hit 2, misses 0** under the standing assumed-good-recovery directive: full 18 minutes, both displayed 2-minute recoveries, all paces within the one-sided limit and final RPE 7 at cap. No comfortable tag. Slowest 430 s/mi against target 445 gives **15 s/mi headroom**, earning **next 3×6 at 7:10/mi**. Do not stack the separate two-hit 5-second route or add minutes. Keep current normal 7:25/counters/source-use until the changed next Friday prescription is issued.
 
 Add 5.1 mi once to Evo SLs: tracked total **9.35 mi**. Evo SL is now the sole current pair; mark Vomero inactive without changing its historical mileage or inferring disposal method. W2 confirmed mileage is also **9.35 mi**. Wednesday bike’s subsequent lifting/run checks are now supported; the moved Saturday bike has subsequent run performance recorded, while Sunday lifting remains unperformed. Keep the 20-minute bike dose. Decision #479.
+
+### November 8 — subsequent leg performance after moved bike/run (#481)
+
+Sunday’s full 13-set Stage B leg session meets all rep ranges at RIR 3. Alongside the November 7 moved-run hit, this supports subsequent performance after the November 6 bike. Routine recovery remains assumed, latest bike numeric RPE remains unknown, and no new duration is awarded: keep the 20-minute dose. Run paces, earned steps, original prescriptions, source-use and shoe mileage remain unchanged.

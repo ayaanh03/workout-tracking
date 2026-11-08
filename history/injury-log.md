@@ -207,3 +207,7 @@ No general-recovery observation, ab/Achilles-specific response, or second revers
 ## 2026-11-07 — moved run completed; Sunday readiness
 
 Completed 3×6 run at RPE 6/7/7. Ordinary next-day recovery and Sunday generation use the standing good-recovery assumption; no fresh run-specific Achilles, ab or elbow response is supplied. Preserve the earlier confirmed no-elbow-issues response to November 6, slow forearm preference, ongoing replacements and bodyweight-ab limits. Sunday remains 13 Stage-B sets; no early stage advancement or added ab weight. Athlete confirms Evo SL is now the only current pair, removing Vomero from active running use without changing its historical symptom record. Decision #479.
+
+## 2026-11-08 — Sunday bodyweight exposure and week review
+
+Sunday BW decline 15/15 at RIR 3 and the full calf/leg dose are reported without a fresh symptom response. Store the new exposure and preserve earlier evidence; no ab/Achilles clearance or observed next-day recovery is inferred. Keep BW-only/max 2 sets/≥3 RIR across M6/T7/L1 after Stage C advancement. W2 general tolerance uses the standing recovery default plus actual performance; local restrictions and cautious forearm progression persist independently. Decision #481.

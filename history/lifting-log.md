@@ -195,3 +195,18 @@ S1/S2/S4 gain their second raw exposure; S3 pushdown and S5/S6 gain their first.
 ### November 7 — elbow-response follow-up to November 6 (#478)
 
 Athlete reports **no elbow issues from yesterday’s session**, resolving the symptom question for the moved delts/arms B workout and first forearm exposures. Keep the recorded forearm RIR 10+, slow-progression preference and next one-set 25×15 dose. No additional sets reported; the second S4 reverse-pec-deck set remains unknown. Counts and progression credit are unchanged.
+
+## 2026-11-08 — Hybrid v11 W2 Sunday legs
+
+Session `hybrid-2026-10-26-w2-sun-2026-11-08`, original prescription `hybrid-2026-10-26-sun-legs-479` (made current in #480), **Stage B**.
+
+| Slot | Exercise | Prescribed sets × reps / load / RIR | Actual set 1 | Actual set 2 | Actual set 3 |
+| --- | --- | --- | --- | --- | --- |
+| L1 | Decline crunch — bodyweight | 2×10–15 / BW / ≥3 | BW×15, RIR 3 | BW×15, RIR 3 | — |
+| L2 | Leg-press calf raise | 3×10–15 / 365 lb / 3 | 365×14, RIR 3 | 365×15, RIR 3 | 365×12, RIR 3 |
+| L3 | Hack squat | 2×6–10 / 95 lb / 3 | 95×6, RIR 3 | 95×10, RIR 3 | — |
+| L4 | Seated leg curl | 2×8–12 / 100 lb starting / 3 | 100×12, RIR 3 | 100×12, RIR 3 | — |
+| L5 | Leg extension | 2×10–15 / 100 lb / 3 | 100×15, RIR 3 | 100×15, RIR 3 | — |
+| L6 | 45-degree back extension | 2×8–12 / 25 lb / 3 | 25×12, RIR 3 | 25×12, RIR 3 | — |
+
+**All 13 sets completed in range at RIR 3.** “100 lb starting” is the pasted prescription label; both actual seated-curl sets are 100 lb. Preserve the added calf/back set and full two-set 100 lb curl performance. L2–L6 gain their third raw exposure; L1’s BW substitute gains its third, while baseline hanging raises remain uninitialized. Rep ceilings earn no ordinary loading/plateau credit during Stage B. Hold suitable working loads; keep BW/max 2 sets/≥3 RIR abs because no fresh specific symptom or loaded-tolerance report was supplied. Decision #481.

@@ -1,72 +1,72 @@
 {
-  "generatedAt": "2026-11-08T00:39:21-05:00",
+  "generatedAt": "2026-11-08T12:51:35-05:00",
   "blockId": "hybrid-2026-10-26",
-  "preview": false,
-  "week": "W2",
-  "phase": "Hybrid v11 — Stage B",
-  "rangeStart": "2026-11-02",
-  "rangeEnd": "2026-11-08",
-  "summary": "W2, November 2–8 — Monday through Saturday completed: 54 known lifting sets, 40 bike minutes and 9.35 confirmed running miles. Today, Sunday November 8: 13 Stage-B sets with bodyweight abs and calves. Longer run earned next 3×6 at 7:10/mi. Second November 6 pec-deck set remains unreported; week review follows today’s log.",
+  "preview": true,
+  "week": "W3",
+  "phase": "Hybrid v11 — Stage C",
+  "rangeStart": "2026-11-09",
+  "rangeEnd": "2026-11-15",
+  "summary": "W3 preview, November 9–15: Stage C after a manageable W2. Plan 82 lifting sets with the bodyweight-ab caps. Monday’s 18-set workout is ready. Earned run targets: Tuesday 3×4 at 6:40/mi and Friday 3×6 at 7:10/mi, with work minutes unchanged. Bike for 20 minutes after Wednesday and Saturday lifting.",
   "days": [
     {
-      "date": "2026-11-02",
+      "date": "2026-11-09",
       "day": "Mon",
       "session": "Upper A",
-      "note": "16 sets logged. Bench 145×6 +135×8/8; curl 22.5×12/8; laterals 35×12/15/12; pushdowns 50×12/12; pulldown 160×9/8; BW crunch15/15; row70×8/8. No ab/tendon issues. Pulldown second RIR1 needs lower next starting load; see actuals for all RIR.",
-      "status": "done"
+      "note": "Preview ready: 18 sets. Bench 145 lb top + 135 lb back-offs; incline curl 22.5 lb; laterals 35 lb for 4 sets; pushdown 50 lb for 3; pulldown 155 lb starting; BW abs 2 sets; row 70 lb. Most lifts at 2–3 RIR, pulldown 3, abs ≥3.",
+      "status": "upcoming"
     },
     {
-      "date": "2026-11-03",
+      "date": "2026-11-10",
       "day": "Tue",
       "session": "Intervals",
-      "note": "Completed 3×4 at 6:28/6:37/6:31 per mile, RPE 5/6/7; confirmed 4.25 mi in Evo SLs. Hit 2 uses assumed good recovery per athlete directive; next 3×4 at 6:40 is earned but not yet generated. Original target 6:50 and probable warmup breaks retained.",
-      "status": "done"
+      "note": "Earned target: 3×4 minutes at 6:40/mi with 3-minute recoveries. RPE cap 8; no extra rep.",
+      "status": "upcoming"
     },
     {
-      "date": "2026-11-04",
+      "date": "2026-11-11",
       "day": "Wed",
       "session": "Delts/arms A + bike",
-      "note": "10 sets logged: laterals35×13/12/12; preacher75×9; reverse pec deck145×12/15 at RIR6/3; hammer50×16; calves365×12/13/13. Other sets RIR3. Elbow symptom-free during/after. Bike20min, RPE2, HR149avg; settings saved in today’s actuals.",
-      "status": "done"
+      "note": "14 lifting sets. Bike afterward for 20 minutes at RPE 3 (2–4 acceptable). Saved settings: height about 10, seat −2 (possibly −1), handle +3.",
+      "status": "upcoming"
     },
     {
-      "date": "2026-11-05",
+      "date": "2026-11-12",
       "day": "Thu",
       "session": "Upper B",
-      "note": "18 sets logged, all RIR 3: incline 135×8/8/8; cable curl 42.5×10/12; laterals 35×15/12/12; BW pull-up 9/9; pushdown 50×15/10; row 120×8/9; BW crunch 15/12; straight-arm 50×12/10. Cable actuals retained before future preacher activation.",
-      "status": "done"
+      "note": "20 lifting sets with the bodyweight-ab cap. Standard cable curls become unilateral machine preacher curls: start at 75 lb for 2×8–12 per arm, ≥3 RIR. Other curl variations stay unchanged.",
+      "status": "upcoming"
     },
     {
-      "date": "2026-11-06",
+      "date": "2026-11-13",
       "day": "Fri",
-      "session": "Delts/arms B + bike",
-      "note": "10 known sets: laterals 35×12/12/13; incline curl 25×8/9; pushdown 50×10/10; reverse pec deck 145×12, all RIR 3. Reverse/wrist curls 25×15 each at RIR 10+. Second pec-deck set unreported. Bike 20 min, Z2; numeric RPE unknown. November 7 follow-up: no elbow issues from this session.",
-      "status": "done"
-    },
-    {
-      "date": "2026-11-07",
-      "day": "Sat",
       "session": "Longer intervals",
-      "note": "Completed moved run: 3×6 at 7:10/6:58/6:56 per mile, RPE 6/7/7; 5.1 mi in Evo SLs. Friday-track hit 2 using assumed good recovery. All-rep headroom earns next 3×6 at 7:10; no extra minutes.",
-      "status": "done"
+      "note": "Earned target: 3×6 minutes at 7:10/mi with 2-minute recoveries. RPE cap 7; work minutes stay unchanged.",
+      "status": "upcoming"
     },
     {
-      "date": "2026-11-08",
+      "date": "2026-11-14",
+      "day": "Sat",
+      "session": "Delts/arms B + bike",
+      "note": "13 planned sets including cautious forearm work: reverse curls and wrist curls each 25 lb for 1×15, at least 4 RIR. Bike afterward for 20 minutes using saved settings.",
+      "status": "upcoming"
+    },
+    {
+      "date": "2026-11-15",
       "day": "Sun",
       "session": "Legs, bodyweight abs + calves",
-      "note": "Today: BW crunch 2×10–15; calves 365 lb 3×10–15; hack 95 lb 2×6–10; leg curl 100 lb starting 2×8–12; extension 100 lb 2×10–15; back extension 25 lb 2×8–12. Target 3 RIR; 13 Stage-B sets.",
-      "status": "today"
+      "note": "17 lifting sets with the bodyweight-ab cap. Keep established loads, including 100 lb leg curls; adjust if new symptoms or recovery changes are reported.",
+      "status": "upcoming"
     }
   ],
   "runningMileageCheck": {
-    "decisionId": 479,
-    "kind": "confirmed-actuals",
-    "recordedMiles": 9.35,
+    "decisionId": 481,
+    "kind": "prospective-earned-targets",
+    "recordedMiles": 0,
     "estimatedUnconfirmedMiles": 0,
-    "estimatedMiles": 9.35,
-    "upperMiles": 9.35,
+    "estimatedMiles": 10.193980848153215,
+    "upperMiles": 11.422784810126583,
     "limitMiles": 15,
-    "status": "confirmed-actuals-below-limit",
-    "assumptions": "W2 confirmed totals: Tuesday 4.25 mi + Saturday moved run 5.1 mi = 9.35 mi. No further run prescribed this week. Rounded segment distances are not added separately; earlier-week unresolved mileage does not enter W2."
+    "status": "planned-below-limit",
+    "assumptions": "Prospective W3 only: Tuesday 12 work minutes at 6:40/mi plus 26 easy minutes; Friday 18 work minutes at 7:10/mi plus 24 easy minutes. Easy estimate 8:30/mi. Upper estimate uses work-alert boundaries 5 s/mi faster and 5 extra warmup minutes per run. Both run prescriptions and source use remain unactivated; recheck at generation. Planned mileage is not added to shoes."
   }
 }

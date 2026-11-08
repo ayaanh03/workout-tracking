@@ -617,3 +617,26 @@ W2 now has six completed sessions,54known lifting sets,40bike minutes and30runni
 480. Athlete requests **“Generate Sunday.”** Local date is November 8. Promote #479’s Sunday preview to the current-day workout, retaining prescription `hybrid-2026-10-26-sun-legs-479`: BW decline crunch2×10–15 at≥3RIR; leg-press calf365lb3×10–15; hack95lb2×6–10; seated curl100lb starting2×8–12; extension100lb2×10–15; back extension25lb2×8–12. Other work targets3RIR; rest2min, or2–3min for hack. **13 Stage-B sets**, no cardio.
 
 Keep November1-supported loads and the calibrated100lb leg-curl start; only one100lb set has been demonstrated, so later-set effort governs. StageB adds the calf/back sets and earns no ordinary loading credit. Bodyweight-only ab limits persist. Use the standing good-recovery assumption under `program/readiness.md`, without inventing a next-day run-recovery or symptom report. No new actuals, exposures, run-credit consumption, shoe mileage or completed week; stage review follows the completed Sunday log. Update live date and both dashboard labels together.
+
+## 2026-11-08 — log Sunday, review W2 and generate Monday
+
+481. Log all 13 Sunday sets against #479 at RIR 3: BW crunch 15/15; calf 365×14/15/12; hack 95×6/10; seated curl 100×12/12; extension 100×15/15; back 25×12/12. Interpret pasted “starting” as prescription text, not an unknown load. Preserve independent actuals/exposures and hold suitable loads under the ramp rules; ceiling reps do not earn ordinary increases. New BW exposure does not clear the ab-loading gate.
+
+Under `program/ramp-and-return.md` and `program/readiness.md`, completed W2 is manageable on actual performance and the standing recovery assumption: seven sessions, 67 known lifting sets, 40 bike minutes, 30 run work minutes, 9.35 mi; stable/improved priority performance, latest quiet elbow response, no unresolved decline/global fatigue. One second S4 accessory set remains unreported. Documented judgment: that isolated uncertainty is not material missing performance for this overall week review; retain the unknown without inventing full-dose adherence. Advance one stage **B→C for November 9**, preserve local limits and record last tolerated B.
+
+**Monday November 9 — Upper A preview**, prescription `hybrid-2026-10-26-mon-upper-a-481`, **18 effective Stage C sets**:
+
+| Slot | Exercise | Sets×reps | Load | RIR | Rest |
+| --- | --- | --- | --- | --- | --- |
+| M1a | Incline barbell bench — top | 1×4–6 | 145 lb | 2–3 | 3–4 min |
+| M1b | Incline barbell bench — back-offs | 2×6–8 | 135 lb | 2–3 | 3–4 min |
+| M2 | Incline DB curl | 2×8–12 | 22.5 lb | 2–3 | 2 min |
+| M3 | DB lateral raise | 4×12–20 | 35 lb | 2–3 | 2 min |
+| M4 | Cable pushdown | 3×10–15 | 50 lb | 2–3 | 2 min |
+| M5 | Lat pulldown | 2×8–12 | 155 lb starting | 3 | 2–3 min |
+| M6 | Decline crunch — bodyweight | 2×10–15 | BW | ≥3 | 2 min |
+| M7 | Chest-supported row | 2×8–12 | 70 lb | 2–3 | 2–3 min |
+
+Use November 2 same-slot actuals. M3 adds its fourth set and M4 its third; keep 145/135/22.5/35/50/70 working loads. M5’s saved 155 lb effort calibration follows 160×9 RIR 3/×8 RIR 1; use the next lower available setting if 155 is unavailable, while actual 160 remains historical until the new load is performed. Row 70×8/8 RIR 2 fits 2–3 RIR and needs no invented reduction. M6’s persistent BW/two-set cap overrides the Stage C three-set baseline; no loaded abs or failure sets.
+
+Generate W3 week preview with 82 effective sets after ab caps. Earned Tuesday 3×4 at 6:40 and Friday 3×6 at 7:10 remain queued, with 20-minute bikes. Do not consume run sources or change current normal targets merely to populate the week overview; recheck mileage/restrictions when each run is issued. Live date/calendar stays Sunday November 8/W2; no W3 work is completed. Dashboard history includes the Sunday actuals before replacing the daily view with Monday.

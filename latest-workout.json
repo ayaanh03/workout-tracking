@@ -1,24 +1,72 @@
 {
-  "generatedAt": "2026-11-08T00:39:21-05:00",
+  "generatedAt": "2026-11-08T12:51:35-05:00",
   "blockId": "hybrid-2026-10-26",
-  "prescriptionId": "hybrid-2026-10-26-sun-legs-479",
-  "preview": false,
-  "week": "W2",
-  "day": "Sun",
-  "date": "2026-11-08",
-  "phase": "Hybrid v11 — Stage B",
-  "sessionName": "Legs, bodyweight abs + calves",
+  "prescriptionId": "hybrid-2026-10-26-mon-upper-a-481",
+  "preview": true,
+  "week": "W3",
+  "day": "Mon",
+  "date": "2026-11-09",
+  "phase": "Hybrid v11 — Stage C",
+  "sessionName": "Upper A — preview",
   "why": [
-    "Today is Sunday November 8: legs, bodyweight abs and calves. Your regular schedule resumes after the Friday/Saturday swap; general recovery is assumed good.",
-    "Stay at Stage B for this final W2 session: 13 sets, including bodyweight-only abs. The week must be completed before reviewing a stage increase."
+    "Monday November 9 starts Stage C after the completed W2 review. Recovery uses your standing good-recovery default.",
+    "18 effective sets: add one lateral-raise set and one pushdown set. Keep the bodyweight-ab ceiling and suitable working loads."
   ],
   "intro": [
-    "Bodyweight abs only, at least 3 RIR. Stop or reduce if the original strain site hurts or pulls."
+    "Most lifts target 2–3 RIR; pulldowns target 3 and abs at least 3. No failure sets during Stage C."
   ],
   "lift": {
     "table": [
       {
-        "slotId": "L1",
+        "slotId": "M1a",
+        "exercise": "Incline barbell bench — top set",
+        "setsReps": "1×4–6",
+        "load": "145 lb",
+        "rir": "2–3",
+        "rest": "3–4 min"
+      },
+      {
+        "slotId": "M1b",
+        "exercise": "Incline barbell bench — back-offs",
+        "setsReps": "2×6–8",
+        "load": "135 lb",
+        "rir": "2–3",
+        "rest": "3–4 min"
+      },
+      {
+        "slotId": "M2",
+        "exercise": "Incline DB curl",
+        "setsReps": "2×8–12",
+        "load": "22.5 lb",
+        "rir": "2–3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "M3",
+        "exercise": "DB lateral raise",
+        "setsReps": "4×12–20",
+        "load": "35 lb",
+        "rir": "2–3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "M4",
+        "exercise": "Cable pushdown",
+        "setsReps": "3×10–15",
+        "load": "50 lb",
+        "rir": "2–3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "M5",
+        "exercise": "Lat pulldown",
+        "setsReps": "2×8–12",
+        "load": "155 lb starting",
+        "rir": "3",
+        "rest": "2–3 min"
+      },
+      {
+        "slotId": "M6",
         "exercise": "Decline crunch — bodyweight",
         "setsReps": "2×10–15",
         "load": "BW",
@@ -26,78 +74,46 @@
         "rest": "2 min"
       },
       {
-        "slotId": "L2",
-        "exercise": "Leg-press calf raise",
-        "setsReps": "3×10–15",
-        "load": "365 lb",
-        "rir": "3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "L3",
-        "exercise": "Hack squat",
-        "setsReps": "2×6–10",
-        "load": "95 lb",
-        "rir": "3",
+        "slotId": "M7",
+        "exercise": "Chest-supported row",
+        "setsReps": "2×8–12",
+        "load": "70 lb",
+        "rir": "2–3",
         "rest": "2–3 min"
-      },
-      {
-        "slotId": "L4",
-        "exercise": "Seated leg curl",
-        "setsReps": "2×8–12",
-        "load": "100 lb starting",
-        "rir": "3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "L5",
-        "exercise": "Leg extension",
-        "setsReps": "2×10–15",
-        "load": "100 lb",
-        "rir": "3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "L6",
-        "exercise": "45-degree back extension",
-        "setsReps": "2×8–12",
-        "load": "25 lb",
-        "rir": "3",
-        "rest": "2 min"
       }
     ]
   },
   "cardio": null,
   "adaptation": [
     {
-      "exercise": "Next longer-run progression",
-      "previous": "November 7: 3×6 at 7:10/6:58/6:56, RPE 6/7/7; original target 7:25.",
-      "decision": "Earn next Friday 3×6 at 7:10/mi: 15 seconds faster, same 18 work minutes.",
-      "reason": "Slowest rep 7:10 gives 15 seconds of headroom. Headroom route takes priority over the separate two-hit award; no stacked increase. Ordinary recovery assumed good; source will be consumed when that run is prescribed."
+      "exercise": "W2 review and Stage C",
+      "previous": "All seven sessions reported; 67 known lifting sets. Sunday completed all 13 sets in range at RIR 3.",
+      "decision": "Advance to Stage C for Monday: 18 sets after the bodyweight-ab cap.",
+      "reason": "Completed-week performance supports the increase using your good-recovery default. One unreported rear-delt set remains unknown."
     },
     {
-      "exercise": "Sunday calf, hack, extension and back-extension loads",
-      "previous": "November 1: calves 365×12/15; hack 95×6/7; extension 100×15/15; back extension 25×12, all at least RIR 3.",
-      "decision": "Hold loads; use Stage-B 3/2/2/2 sets respectively.",
-      "reason": "Calf and back-extension sets increase with Stage B. Ramp work does not earn an ordinary load increase, and W2 is not complete yet."
+      "exercise": "Incline, curls, laterals, pushdowns and row",
+      "previous": "November 2: bench 145×6 + 135×8/8; curl 22.5×12/8; laterals 35×12/15/12; pushdown 50×12/12; row 70×8/8.",
+      "decision": "Hold these loads; laterals increase from 3 to 4 sets and pushdowns from 2 to 3.",
+      "reason": "Stage C adds sets at 2–3 RIR. The row’s prior RIR 2 fits this target. Ramp work does not earn ordinary load increases."
     },
     {
-      "exercise": "Seated leg curl",
-      "previous": "November 1: 85×12 at RIR 5, then 100×10 at RIR 3.",
-      "decision": "Start at 100 lb for 2×8–12 at 3 RIR.",
-      "reason": "Prior calibration supports the starting load; only one 100 lb set is demonstrated, so adjust later-set load if needed to retain target effort."
+      "exercise": "Lat pulldown",
+      "previous": "November 2: 160×9 at RIR 3, then 160×8 at RIR 1.",
+      "decision": "Start at 155 lb for 2×8–12 at RIR 3; use the next lower setting if 155 is unavailable.",
+      "reason": "The second set was too close to failure. The saved load adjustment aims to keep both sets at the target effort."
     },
     {
       "exercise": "Bodyweight abs",
-      "previous": "November 1 L1 BW×15/15 at RIR 3; original-site sensation faded after several reps. Later quiet symptoms did not establish loaded-ab tolerance.",
-      "decision": "Keep 2×10–15 bodyweight decline crunches at ≥3 RIR.",
-      "reason": "Existing two-set/bodyweight limit persists until a specific loading review; no added weight from general recovery or quiet elbows."
+      "previous": "Sunday: BW×15/15 at RIR 3. Last Monday: BW×15/15 at RIR 10/3.",
+      "decision": "Keep 2×10–15 bodyweight crunches at ≥3 RIR.",
+      "reason": "The existing bodyweight and two-set limits remain pending a separate loading review. Stop or reduce if the original strain site hurts or pulls."
     },
     {
-      "exercise": "Mileage and shoes",
-      "previous": "November 7 confirmed 5.1 mi in Evo SL; Tuesday 4.25 mi. Athlete now has only Evo SLs.",
-      "decision": "W2 running and Evo SL tracked total: 9.35 mi. Save Evo SL as sole current pair.",
-      "reason": "Add this confirmed session once. Preserve the inactive Vomero ledger and unknown older mileage; no mileage transferred or planned run added."
+      "exercise": "Sunday results",
+      "previous": "Calf 365×14/15/12; hack 95×6/10; leg curl 100×12/12; extension 100×15/15; back extension 25×12/12, all at RIR 3.",
+      "decision": "Save all results and hold these loads for the next leg session.",
+      "reason": "The full Stage-B dose met its rep and effort targets. Stage C adds sets; reaching a rep ceiling during the ramp does not yet earn an ordinary load increase."
     }
   ],
   "currentLoads": [
@@ -106,21 +122,21 @@
       "exercise": "M1a — Incline barbell bench, top set",
       "load": "145 lb",
       "lastVerified": "2026-11-02 (reported)",
-      "note": "November 2 actual 145×6 at RIR 3. Hold during Stage B; no ordinary progression credit."
+      "note": "November 2: 145×6 at RIR 3. Hold 145 lb for Stage C; no ordinary load increase earned during the ramp."
     },
     {
       "slotId": "M1b",
       "exercise": "M1b — Incline barbell bench, back-offs",
       "load": "135 lb",
       "lastVerified": "2026-11-02 (reported)",
-      "note": "November 2 actual 135×8/8 at RIR 3/3. Added back-off set completed; hold during Stage B."
+      "note": "November 2: 135×8/8 at RIR 3. Keep both back-off sets at 135 lb for Stage C."
     },
     {
       "slotId": "M2",
       "exercise": "M2 — Incline DB curl",
       "load": "22.5 lb",
       "lastVerified": "2026-11-02 (reported)",
-      "note": "Temporary elbow hold released after November 4 symptom-free working curls. Resume this slot’s normal Stage-B 2×8–12 at its own current load and 3 RIR; last actual stays independent."
+      "note": "November 2 same-slot actual: 22.5×12/8 at RIR 3. Elbow hold released after symptom-free curls on November 4. Monday: 22.5 lb for 2×8–12 at 2–3 RIR."
     },
     {
       "slotId": "M3",
@@ -141,7 +157,7 @@
       "exercise": "M5 — Lat pulldown",
       "load": "160 lb",
       "lastVerified": "2026-11-02 (reported)",
-      "note": "November 2 actual 160×9/8 at RIR 3/1. Next starting load proposed 155 (or next lower setting) to target RIR 3 across both sets; not yet performed."
+      "note": "November 2 actual: 160×9 at RIR 3, then 160×8 at RIR 1. Monday starts at 155 lb to match target effort; this lower load is not yet performed."
     },
     {
       "slotId": "M6",
@@ -155,49 +171,49 @@
       "exercise": "M7 — Chest-supported row",
       "load": "70 lb",
       "lastVerified": "2026-11-02 (reported)",
-      "note": "November 2 actual 70×8/8 at RIR 2/2 meets Stage B. Hold 70; no progression or persistent-decline inference."
+      "note": "November 2: 70×8/8 at RIR 2. This fits Stage C’s 2–3 RIR target; keep 70 lb for two sets."
     },
     {
       "slotId": "WE1",
       "exercise": "WE1 — DB lateral raise",
       "load": "35 lb",
       "lastVerified": "2026-11-04 (reported)",
-      "note": "November 4: 35×13/12/12 at RIR 3. Hold 35 lb during Stage B; added third set completed."
+      "note": "November 4: 35×13/12/12 at RIR 3. Hold 35 lb during the ramp; added third set completed."
     },
     {
       "slotId": "WE2",
       "exercise": "WE2 — Unilateral machine preacher curl",
       "load": "75 lb",
       "lastVerified": "2026-11-04 (reported)",
-      "note": "November 4: 75×9 per arm at RIR 3, one counted set. Elbow symptom-free during/after. Temporary hold released; next Stage-B dose 2×8–12 per arm at 75 lb and 3 RIR."
+      "note": "November 4: 75×9 per arm at RIR 3, one counted set; elbow symptom-free during and afterward. Temporary hold released. Next normal dose: 2×8–12 per arm, retaining 75 lb."
     },
     {
       "slotId": "WE3",
       "exercise": "WE3 — Reverse pec deck",
       "load": "145 lb",
       "lastVerified": "2026-11-04 (reported)",
-      "note": "November 4: 145×12/15 at RIR 6/3. Preserve both reserve values; hold 145 lb during Stage B."
+      "note": "November 4: 145×12/15 at RIR 6/3. Preserve both reserve values; hold 145 lb during the ramp."
     },
     {
       "slotId": "WE4",
       "exercise": "WE4 — Rope cable hammer curl",
       "load": "50 lb",
       "lastVerified": "2026-11-04 (reported)",
-      "note": "November 4: 50×16 at RIR 3, one set. Elbow symptom-free during/after. Temporary hold released; next Stage-B dose 2×10–15 at 50 lb and 3 RIR. Actual 16 is retained; no load increase."
+      "note": "November 4: 50×16 at RIR 3, one set; elbow symptom-free during and afterward. Temporary hold released. Next normal dose: 2×10–15, retaining 50 lb."
     },
     {
       "slotId": "WE5",
       "exercise": "WE5 — Leg-press calf raise",
       "load": "365 lb",
       "lastVerified": "2026-11-04 (reported)",
-      "note": "November 4: 365×12/13/13 at RIR 3. Hold 365 lb during Stage B; no new Achilles-specific response supplied."
+      "note": "November 4: 365×12/13/13 at RIR 3. Hold 365 lb during the ramp; no new Achilles-specific response supplied."
     },
     {
       "slotId": "T1",
       "exercise": "T1 — Incline barbell bench",
       "load": "135 lb",
       "lastVerified": "2026-11-05 (reported)",
-      "note": "November 5: 135×8/8/8 at RIR 3. Hold 135 during Stage B despite all sets reaching eight; no ordinary ramp loading credit."
+      "note": "November 5: 135×8/8/8 at RIR 3. Hold 135 during the ramp despite all sets reaching eight; no ordinary ramp loading credit."
     },
     {
       "slotId": "T2",
@@ -211,28 +227,28 @@
       "exercise": "T3 — DB lateral raise",
       "load": "35 lb",
       "lastVerified": "2026-11-05 (reported)",
-      "note": "November 5: 35×15/12/12 at RIR 3; hold 35 during Stage B."
+      "note": "November 5: 35×15/12/12 at RIR 3; hold 35 during the ramp."
     },
     {
       "slotId": "T4",
       "exercise": "T4 — Pull-up",
       "load": "BW (0 lb added)",
       "lastVerified": "2026-11-05 (reported)",
-      "note": "November 5: BW, 0 lb added, 9/9 at RIR 3; hold bodyweight during Stage B."
+      "note": "November 5: BW, 0 lb added, 9/9 at RIR 3; hold bodyweight during the ramp."
     },
     {
       "slotId": "T5",
       "exercise": "T5 — Cable pushdown",
       "load": "50 lb",
       "lastVerified": "2026-11-05 (reported)",
-      "note": "November 5: 50×15/10 at RIR 3; hold 50 during Stage B."
+      "note": "November 5: 50×15/10 at RIR 3; hold 50 during the ramp."
     },
     {
       "slotId": "T6",
       "exercise": "T6 — Seated cable row",
       "load": "120 lb",
       "lastVerified": "2026-11-05 (reported)",
-      "note": "November 5: 120×8/9 at RIR 3; hold 120 during Stage B."
+      "note": "November 5: 120×8/9 at RIR 3; hold 120 during the ramp."
     },
     {
       "slotId": "T7",
@@ -246,14 +262,14 @@
       "exercise": "T8 — Straight-arm cable pulldown",
       "load": "50 lb",
       "lastVerified": "2026-11-05 (reported)",
-      "note": "November 5: 50×12/10 at RIR 3; hold 50 during Stage B."
+      "note": "November 5: 50×12/10 at RIR 3; hold 50 during the ramp."
     },
     {
       "slotId": "S1",
       "exercise": "S1 — DB lateral raise",
       "load": "35 lb",
       "lastVerified": "2026-11-06",
-      "note": "November 6 moved session: 35×12/12/13 at RIR 3. Hold suitable Stage-B load."
+      "note": "November 6 moved session: 35×12/12/13 at RIR 3. Hold this suitable load during the ramp."
     },
     {
       "slotId": "S2",
@@ -294,43 +310,43 @@
       "slotId": "L1",
       "exercise": "L1 — Decline crunch (temporary)",
       "load": "BW (temporary substitute)",
-      "lastVerified": "2026-11-01",
-      "note": "November 1 BW decline crunch 15/15 at RIR 3; transient original-site symptoms reported. Added weight deferred; BW only if comfortable. Baseline hanging raise remains uninitialized. November 2: no current discomfort; BW only if comfortable, max two sets at ≥3 RIR. Added load remains deferred."
+      "lastVerified": "2026-11-08",
+      "note": "November 8: BW×15/15 at RIR 3. Baseline hanging raises remain uninitialized. Keep bodyweight only, at most two sets and at least 3 RIR."
     },
     {
       "slotId": "L2",
       "exercise": "L2 — Leg-press calf raise",
       "load": "365 lb",
-      "lastVerified": "2026-11-01",
-      "note": "November 1 actual 365×12/15 at RIR 3/3; hold during Stage B."
+      "lastVerified": "2026-11-08",
+      "note": "November 8: 365×14/15/12 at RIR 3. Hold 365 lb during the ramp."
     },
     {
       "slotId": "L3",
       "exercise": "L3 — Hack squat",
       "load": "95 lb",
-      "lastVerified": "2026-11-01",
-      "note": "November 1 actual 95×6/7 at RIR 3/3; hold during Stage B."
+      "lastVerified": "2026-11-08",
+      "note": "November 8: 95×6/10 at RIR 3. Hold 95 lb during the ramp."
     },
     {
       "slotId": "L4",
       "exercise": "L4 — Seated leg curl",
       "load": "100 lb",
-      "lastVerified": "2026-11-01",
-      "note": "November 1 actual 85×12 at RIR 5 then 100×10 at RIR 3; next starting load 100, only one set demonstrated. Stage-A calibration."
+      "lastVerified": "2026-11-08",
+      "note": "November 8: 100×12/12 at RIR 3 establishes the two-set dose. Hold 100 lb during the ramp."
     },
     {
       "slotId": "L5",
       "exercise": "L5 — Leg extension",
       "load": "100 lb",
-      "lastVerified": "2026-11-01",
-      "note": "November 1 actual 100×15/15 at RIR 3/5; hold during Stage B."
+      "lastVerified": "2026-11-08",
+      "note": "November 8: 100×15/15 at RIR 3. Hold 100 lb during the ramp."
     },
     {
       "slotId": "L6",
       "exercise": "L6 — Loaded 45-degree back extension",
       "load": "25 lb",
-      "lastVerified": "2026-11-01",
-      "note": "November 1 actual 25×12 at RIR 3; hold during Stage B."
+      "lastVerified": "2026-11-08",
+      "note": "November 8: 25×12/12 at RIR 3. Hold 25 lb during the ramp."
     }
   ]
 }

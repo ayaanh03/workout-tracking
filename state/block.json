@@ -10,26 +10,41 @@
   "activation_status": "active",
   "calendar_week": "W2",
   "calendar_phase": "Ramp",
-  "lifting_stage": "B",
-  "last_tolerated_stage": "A",
+  "lifting_stage": "C",
+  "last_tolerated_stage": "B",
   "latest_manageable_week": {
-    "week": "W1",
-    "range_start": "2026-10-26",
-    "range_end": "2026-11-01",
-    "stage": "A",
+    "week": "W2",
+    "range_start": "2026-11-02",
+    "range_end": "2026-11-08",
+    "stage": "B",
     "manageable": true,
-    "reported_on": "2026-11-02",
-    "decision_id": 458,
+    "reviewed_on": "2026-11-08",
+    "decision_id": 481,
     "evidence": {
-      "reported_on": "2026-11-02",
-      "question": "Was W1 manageable overall—soreness settling, recovery good, and no worsening joint/tendon symptoms? This determines whether today moves to Stage B.",
-      "report": "Yes, manageable overall",
-      "status": "good",
-      "provenance": "athlete response to explicit completed-week review",
-      "decision_id": 458,
-      "scope": "Retrospective W1 recovery review covering all October 26–November 1 sessions, including Friday; also current Monday recovery after Sunday. No numeric metrics or backdated daily report supplied."
+      "reviewed_on": "2026-11-08",
+      "decision_id": 481,
+      "status": "manageable-on-performance-and-recovery-default",
+      "observed_general_recovery": false,
+      "recovery_basis": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 481,
+        "recorded_at": "2026-11-08T12:51:35-05:00",
+        "observed": false,
+        "reason": "Standing athlete default supplies routine recovery for completed normal ramp-week review and Monday planning. Actual performance is logged; no new observed recovery or injury clearance is invented."
+      },
+      "performance_sources": [
+        "../history/lifting-log.md#2026-11-02--hybrid-v11-w2-monday-upper-a",
+        "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+        "../history/lifting-log.md#2026-11-08--hybrid-v11-w2-sunday-legs",
+        "../history/cardio-log.md#2026-11-07--hybrid-v11-w2-saturday-longer-intervals-moved-from-friday"
+      ],
+      "evidence": "All 7 sessions reported; 67 known lifting sets. Thursday incline 135×8/8/8; full 13-set Sunday in range at RIR 3, including 100×12/12 curls and added calf/back sets; running performance improved. Latest explicit elbow follow-up reports no issues. No unresolved decline or global-fatigue flag.",
+      "dose_deviations": "Wednesday curl reductions were deliberate local limits later released. Forearm introduction was deliberately easy. One second S4 set remains unreported; it is not counted.",
+      "missing_set_judgment": "The single unreported rear-delt accessory set is not material missing performance for this overall week-tolerance decision given all 7 reported sessions and the documented full priority sessions. This is a review judgment, not a claim of full prescription adherence.",
+      "local_limits": "Keep BW/max 2 ab sets, forearm slow progression and ongoing exercise replacements; no injury-loading clearance."
     },
-    "source": "../history/weekly-summary.md#2026-11-02--w1-review-and-stage-b-advance"
+    "source": "../history/weekly-summary.md#2026-11-08--w2-review-and-stage-c-advance"
   },
   "adoption": {
     "status": "complete",
@@ -41,7 +56,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 480,
+  "last_adjustment_id": 481,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -352,6 +367,28 @@
         "reason": "Standing athlete default supplies ordinary post-run recovery and next-workout readiness unless contradicted; no observed next-day recovery is claimed."
       },
       "review_note": "3×6 at 7:10/6:58/6:56, RPE 6/7/7. Second Friday-track hit; all-rep headroom earns next 3×6 at 7:10. Confirmed 5.1 mi in Evo SLs."
+    },
+    "2026-11-08": {
+      "calendar_week": "W2",
+      "session": "Legs, bodyweight abs + calves",
+      "status": "completed",
+      "stage": "B",
+      "working_sets": 13,
+      "reported_working_sets": 13,
+      "prescribed_working_sets": 13,
+      "unresolved_slots": [],
+      "actual_ref": "../history/lifting-log.md#2026-11-08--hybrid-v11-w2-sunday-legs",
+      "prescription_id": "hybrid-2026-10-26-sun-legs-479",
+      "recovery_status": "general-recovery-assumed-specific-response-unreported",
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 481,
+        "recorded_at": "2026-11-08T12:51:35-05:00",
+        "observed": false,
+        "reason": "Standing athlete default supplies routine recovery for completed normal ramp-week review and Monday planning. Actual performance is logged; no new observed recovery or injury clearance is invented."
+      },
+      "review_note": "All 13 sets within range at RIR 3; “100 lb starting” means actual 100 on both seated-curl sets. No ordinary ramp progression credit or inferred ab/Achilles clearance."
     }
   },
   "planned_start_date": "2026-10-26",
@@ -396,14 +433,14 @@
       "range_start": "2026-11-02",
       "range_end": "2026-11-08",
       "stage": "B",
-      "completion": "in-progress",
-      "completed_sessions": 6,
-      "known_lifting_sets": 54,
-      "manageable": null,
-      "status": "week-in-progress",
-      "decision_id": 479,
-      "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
-      "note": "Monday through Saturday sessions logged: 54 known lifting sets, 40 bike minutes and 30 running work minutes; confirmed running 9.35 mi. Second November 6 reverse-pec-deck set remains unreported. Sunday legs unperformed; Stage B and week-in-progress remain.",
+      "completion": "all-scheduled-sessions-reported",
+      "completed_sessions": 7,
+      "known_lifting_sets": 67,
+      "manageable": true,
+      "status": "reviewed-manageable",
+      "decision_id": 481,
+      "source": "../history/weekly-summary.md#2026-11-08--w2-review-and-stage-c-advance",
+      "note": "W2 complete with 67 known lifting sets, 40 bike minutes, 30 run work minutes and 9.35 confirmed running miles. One S4 set remains unreported; not material to overall tolerance review. General recovery assumed under standing policy. Stage C authorized for November 9 with all local limits retained.",
       "known_running_work_minutes": 30,
       "confirmed_running_miles": 9.35,
       "known_cycling_minutes": 40,
@@ -414,7 +451,33 @@
           "count": 1,
           "status": "unreported"
         }
-      ]
+      ],
+      "total_lifting_sets": null,
+      "reviewed_on": "2026-11-08",
+      "evidence": {
+        "reviewed_on": "2026-11-08",
+        "decision_id": 481,
+        "status": "manageable-on-performance-and-recovery-default",
+        "observed_general_recovery": false,
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 481,
+          "recorded_at": "2026-11-08T12:51:35-05:00",
+          "observed": false,
+          "reason": "Standing athlete default supplies routine recovery for completed normal ramp-week review and Monday planning. Actual performance is logged; no new observed recovery or injury clearance is invented."
+        },
+        "performance_sources": [
+          "../history/lifting-log.md#2026-11-02--hybrid-v11-w2-monday-upper-a",
+          "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+          "../history/lifting-log.md#2026-11-08--hybrid-v11-w2-sunday-legs",
+          "../history/cardio-log.md#2026-11-07--hybrid-v11-w2-saturday-longer-intervals-moved-from-friday"
+        ],
+        "evidence": "All 7 sessions reported; 67 known lifting sets. Thursday incline 135×8/8/8; full 13-set Sunday in range at RIR 3, including 100×12/12 curls and added calf/back sets; running performance improved. Latest explicit elbow follow-up reports no issues. No unresolved decline or global-fatigue flag.",
+        "dose_deviations": "Wednesday curl reductions were deliberate local limits later released. Forearm introduction was deliberately easy. One second S4 set remains unreported; it is not counted.",
+        "missing_set_judgment": "The single unreported rear-delt accessory set is not material missing performance for this overall week-tolerance decision given all 7 reported sessions and the documented full priority sessions. This is a review judgment, not a claim of full prescription adherence.",
+        "local_limits": "Keep BW/max 2 ab sets, forearm slow progression and ongoing exercise replacements; no injury-loading clearance."
+      }
     }
   },
   "program_amendments": [
@@ -494,12 +557,12 @@
     "publish_next_workout": true,
     "default_recovery": "assumed-good-unless-reported-otherwise",
     "source": "../program/readiness.md",
-    "last_generated_date": "2026-11-08",
-    "last_generated_prescription_id": "hybrid-2026-10-26-sun-legs-479",
-    "last_generated_from_session_id": "hybrid-2026-10-26-w2-sat-2026-11-07",
+    "last_generated_date": "2026-11-09",
+    "last_generated_prescription_id": "hybrid-2026-10-26-mon-upper-a-481",
+    "last_generated_from_session_id": "hybrid-2026-10-26-w2-sun-2026-11-08",
     "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping.",
-    "last_generation_trigger": "current-day-workout-request",
-    "last_generation_decision_id": 480
+    "last_generation_trigger": "completed-session-log",
+    "last_generation_decision_id": 481
   },
   "session_freeze_history": [
     {
@@ -587,6 +650,38 @@
       "compatibility_review": "Separate lifting/bike and run days. Delts/arms B has no direct leg/calf work, and its triceps are not the day before incline. Sunday legs remain November 8.",
       "completed_on": "2026-11-07",
       "completion_decision_id": 479
+    }
+  ],
+  "manageable_week_history": [
+    {
+      "week": "W1",
+      "range_start": "2026-10-26",
+      "range_end": "2026-11-01",
+      "stage": "A",
+      "manageable": true,
+      "reported_on": "2026-11-02",
+      "decision_id": 458,
+      "evidence": {
+        "reported_on": "2026-11-02",
+        "question": "Was W1 manageable overall—soreness settling, recovery good, and no worsening joint/tendon symptoms? This determines whether today moves to Stage B.",
+        "report": "Yes, manageable overall",
+        "status": "good",
+        "provenance": "athlete response to explicit completed-week review",
+        "decision_id": 458,
+        "scope": "Retrospective W1 recovery review covering all October 26–November 1 sessions, including Friday; also current Monday recovery after Sunday. No numeric metrics or backdated daily report supplied."
+      },
+      "source": "../history/weekly-summary.md#2026-11-02--w1-review-and-stage-b-advance"
+    }
+  ],
+  "stage_transition_history": [
+    {
+      "decision_id": 481,
+      "reviewed_on": "2026-11-08",
+      "effective_from": "2026-11-09",
+      "from_stage": "B",
+      "to_stage": "C",
+      "basis": "../history/weekly-summary.md#2026-11-08--w2-review-and-stage-c-advance",
+      "note": "One earned advance after completed manageable W2. Calendar remains W2 on November 8; no Stage C exposure yet."
     }
   ]
 }
