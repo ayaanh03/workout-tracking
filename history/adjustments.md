@@ -611,3 +611,9 @@ Automatically generate **Sunday November 8 — Legs, bodyweight abs + calves pre
 November 1 same-slot evidence: BW15/15; calf365×12/15; hack95×6/7; curl85×12RIR5 then100×10RIR3; extension100×15/15 atRIR3/5; back25×12RIR3. Hold suitable loads during the ramp; additional calf/back sets follow achieved StageB. The100lb leg-curl start is calibrated from one demonstrated set, so later sets may need adjustment. Keep L1’s BW/two-set/≥3RIR restriction after the prior original-site sensation; general recovery and quiet elbows do not establish loaded-ab tolerance.
 
 W2 now has six completed sessions,54known lifting sets,40bike minutes and30running work minutes; Sunday is not complete and StageB does not advance yet. The second November6 S4 set remains unreported. Mark the two-day swap completed, resume the normal Sunday schedule, and keep live date November7 while presenting November8 as a preview.
+
+## 2026-11-08 — publish Sunday legs as today’s workout
+
+480. Athlete requests **“Generate Sunday.”** Local date is November 8. Promote #479’s Sunday preview to the current-day workout, retaining prescription `hybrid-2026-10-26-sun-legs-479`: BW decline crunch2×10–15 at≥3RIR; leg-press calf365lb3×10–15; hack95lb2×6–10; seated curl100lb starting2×8–12; extension100lb2×10–15; back extension25lb2×8–12. Other work targets3RIR; rest2min, or2–3min for hack. **13 Stage-B sets**, no cardio.
+
+Keep November1-supported loads and the calibrated100lb leg-curl start; only one100lb set has been demonstrated, so later-set effort governs. StageB adds the calf/back sets and earns no ordinary loading credit. Bodyweight-only ab limits persist. Use the standing good-recovery assumption under `program/readiness.md`, without inventing a next-day run-recovery or symptom report. No new actuals, exposures, run-credit consumption, shoe mileage or completed week; stage review follows the completed Sunday log. Update live date and both dashboard labels together.

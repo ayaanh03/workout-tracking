@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-07T17:49:17-05:00",
+  "generatedAt": "2026-11-08T00:39:21-05:00",
   "blockId": "hybrid-2026-10-26",
-  "preview": true,
+  "preview": false,
   "week": "W2",
   "phase": "Hybrid v11 — Stage B",
   "rangeStart": "2026-11-02",
   "rangeEnd": "2026-11-08",
-  "summary": "W2, November 2–8 — Monday through Saturday completed: 54 known lifting sets, 40 bike minutes and 9.35 confirmed running miles. Sunday leg preview ready: 13 Stage-B sets with bodyweight abs. Longer run earned next 3×6 at 7:10/mi. Second November 6 pec-deck set remains unreported; week review follows Sunday.",
+  "summary": "W2, November 2–8 — Monday through Saturday completed: 54 known lifting sets, 40 bike minutes and 9.35 confirmed running miles. Today, Sunday November 8: 13 Stage-B sets with bodyweight abs and calves. Longer run earned next 3×6 at 7:10/mi. Second November 6 pec-deck set remains unreported; week review follows today’s log.",
   "days": [
     {
       "date": "2026-11-02",
@@ -54,8 +54,8 @@
       "date": "2026-11-08",
       "day": "Sun",
       "session": "Legs, bodyweight abs + calves",
-      "note": "Preview ready: BW crunch 2×10–15; calves 365 lb 3×10–15; hack 95 lb 2×6–10; leg curl 100 lb starting 2×8–12; extension 100 lb 2×10–15; back extension 25 lb 2×8–12. Target 3 RIR; 13 Stage-B sets.",
-      "status": "upcoming"
+      "note": "Today: BW crunch 2×10–15; calves 365 lb 3×10–15; hack 95 lb 2×6–10; leg curl 100 lb starting 2×8–12; extension 100 lb 2×10–15; back extension 25 lb 2×8–12. Target 3 RIR; 13 Stage-B sets.",
+      "status": "today"
     }
   ],
   "runningMileageCheck": {

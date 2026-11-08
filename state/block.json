@@ -6,7 +6,7 @@
   "start_date": "2026-10-25",
   "end_date": "2027-01-03",
   "timezone": "America/New_York",
-  "as_of": "2026-11-07",
+  "as_of": "2026-11-08",
   "activation_status": "active",
   "calendar_week": "W2",
   "calendar_phase": "Ramp",
@@ -41,7 +41,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 479,
+  "last_adjustment_id": 480,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -498,8 +498,8 @@
     "last_generated_prescription_id": "hybrid-2026-10-26-sun-legs-479",
     "last_generated_from_session_id": "hybrid-2026-10-26-w2-sat-2026-11-07",
     "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping.",
-    "last_generation_trigger": "completed-session-log",
-    "last_generation_decision_id": 479
+    "last_generation_trigger": "current-day-workout-request",
+    "last_generation_decision_id": 480
   },
   "session_freeze_history": [
     {

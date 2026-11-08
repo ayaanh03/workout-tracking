@@ -1003,10 +1003,10 @@
   "planning_readiness": {
     "status": "assumed-good",
     "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-    "decision_id": 479,
-    "recorded_at": "2026-11-07T17:49:17-05:00",
+    "decision_id": 480,
+    "recorded_at": "2026-11-08T00:39:21-05:00",
     "observed": false,
-    "reason": "Standing athlete default supplies ordinary post-run recovery and next-workout readiness unless contradicted; no observed next-day recovery is claimed.",
+    "reason": "Standing athlete good-recovery default applies to Sunday generation; no contrary report supplied. Saturday run recovery remains unobserved, and existing local restrictions persist.",
     "for_date": "2026-11-08"
   },
   "general_readiness_history": [
