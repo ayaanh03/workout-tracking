@@ -36,7 +36,7 @@ Pain that worsens or changes execution/gait requires stopping, reducing or modif
 | Sunday leg performance keeps declining | Undo one identifiable plausible lower-body dose increase from the last four weeks; if multiple/none plausible, hold and review combined training/recovery |
 | Stable plateau or increment too large | Hold; review smaller increment, implement or rep range |
 
-Do not cut the other Wednesday muscle without its own evidence, assume Saturday cycling caused a leg decline, or compensate for removed sets elsewhere.
+Do not cut the other Wednesday muscle without its own evidence, assume delts/arms B cycling caused a leg decline, or compensate for removed sets elsewhere.
 
 Log each response and mark its observation window handled. A cut/omission/effort limit persists until documented review. Before another ordinary decline-based reduction, collect **at least two new comparable exposures**, apply the decline test again and retain the same fixed first-set reference if comparable. Never lower the anchor after a cut or reuse handled observations. Hold other discretionary changes for that muscle during observation. Worsening symptoms/clear deterioration or global fatigue may justify earlier action.
 

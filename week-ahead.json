@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-11-08T12:51:35-05:00",
+  "generatedAt": "2026-11-09T14:59:56-05:00",
   "blockId": "hybrid-2026-10-26",
-  "preview": true,
+  "preview": false,
   "week": "W3",
   "phase": "Hybrid v11 — Stage C",
   "rangeStart": "2026-11-09",
   "rangeEnd": "2026-11-15",
-  "summary": "W3 preview, November 9–15: Stage C after a manageable W2. Plan 82 lifting sets with the bodyweight-ab caps. Monday’s 18-set workout is ready. Earned run targets: Tuesday 3×4 at 6:40/mi and Friday 3×6 at 7:10/mi, with work minutes unchanged. Bike for 20 minutes after Wednesday and Saturday lifting.",
+  "summary": "W3, November 9–15: Stage C with 82 planned lifting sets and the bodyweight-ab caps. Monday’s 18-set workout is ready. New standing schedule: delts/arms B plus bike every Friday; longer intervals every Saturday. Earned run targets are Tuesday 3×4 at 6:40/mi and Saturday 3×6 at 7:10/mi. Bike for 20 minutes after Wednesday and Friday lifting.",
   "days": [
     {
       "date": "2026-11-09",
       "day": "Mon",
       "session": "Upper A",
-      "note": "Preview ready: 18 sets. Bench 145 lb top + 135 lb back-offs; incline curl 22.5 lb; laterals 35 lb for 4 sets; pushdown 50 lb for 3; pulldown 155 lb starting; BW abs 2 sets; row 70 lb. Most lifts at 2–3 RIR, pulldown 3, abs ≥3.",
-      "status": "upcoming"
+      "note": "Today: 18 sets. Bench 145 lb top + 135 lb back-offs; incline curl 22.5 lb; laterals 35 lb for 4 sets; pushdown 50 lb for 3; pulldown 155 lb starting; BW abs 2 sets; row 70 lb. Most lifts at 2–3 RIR, pulldown 3, abs ≥3.",
+      "status": "today"
     },
     {
       "date": "2026-11-10",
@@ -39,15 +39,15 @@
     {
       "date": "2026-11-13",
       "day": "Fri",
-      "session": "Longer intervals",
-      "note": "Earned target: 3×6 minutes at 7:10/mi with 2-minute recoveries. RPE cap 7; work minutes stay unchanged.",
+      "session": "Delts/arms B + bike",
+      "note": "Standing Friday session. 13 planned sets including cautious forearm work: reverse curls and wrist curls each 25 lb for 1×15, at least 4 RIR. Bike afterward for 20 minutes using saved settings.",
       "status": "upcoming"
     },
     {
       "date": "2026-11-14",
       "day": "Sat",
-      "session": "Delts/arms B + bike",
-      "note": "13 planned sets including cautious forearm work: reverse curls and wrist curls each 25 lb for 1×15, at least 4 RIR. Bike afterward for 20 minutes using saved settings.",
+      "session": "Longer intervals",
+      "note": "Standing Saturday run. Earned target: 3×6 minutes at 7:10/mi with 2-minute recoveries. RPE cap 7; work minutes stay unchanged.",
       "status": "upcoming"
     },
     {
@@ -67,6 +67,6 @@
     "upperMiles": 11.422784810126583,
     "limitMiles": 15,
     "status": "planned-below-limit",
-    "assumptions": "Prospective W3 only: Tuesday 12 work minutes at 6:40/mi plus 26 easy minutes; Friday 18 work minutes at 7:10/mi plus 24 easy minutes. Easy estimate 8:30/mi. Upper estimate uses work-alert boundaries 5 s/mi faster and 5 extra warmup minutes per run. Both run prescriptions and source use remain unactivated; recheck at generation. Planned mileage is not added to shoes."
+    "assumptions": "Prospective W3 only: Tuesday 12 work minutes at 6:40/mi plus 26 easy minutes; Saturday 18 work minutes at 7:10/mi plus 24 easy minutes. Easy estimate 8:30/mi. Upper estimate uses work-alert boundaries 5 s/mi faster and 5 extra warmup minutes per run. Both run prescriptions and source use remain unactivated; recheck at generation. Planned mileage is not added to shoes."
   }
 }

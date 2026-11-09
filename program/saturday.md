@@ -1,4 +1,4 @@
-# Saturday — Delts and arms B, then bike
+# Friday — Delts and arms B, then bike
 
 Use [ramp/return](ramp-and-return.md), [progression](lift-progression.md) and current restrictions. C uses full core sets at 2–3 RIR.
 
@@ -11,7 +11,7 @@ Use [ramp/return](ramp-and-return.md), [progression](lift-progression.md) and cu
 | S5 | Cable reverse curl | 0 / 1 / 1, or 2 if eligible | 15–20 | 1 set: 3–4; 2 sets: 2–3 | 2 min |
 | S6 | Cable wrist curl | 0 / 1 / 1, or 2 if eligible | 15–20 | 1 set: 3–4; 2 sets: 2–3 | 2 min |
 
-Core totals: A 6, B 9, C/D 11. Forearms add 0/2/2 sets, or 4 when eligible. No Saturday calves. Follow lifting with the [calendar bike dose](endurance.md).
+Core totals: A 6, B 9, C/D 11. Forearms add 0/2/2 sets, or 4 when eligible. No calves in this session. Follow lifting with the [calendar bike dose](endurance.md).
 
 ## Forearm eligibility
 

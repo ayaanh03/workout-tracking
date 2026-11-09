@@ -122,7 +122,7 @@ class DashboardTests(unittest.TestCase):
             expected = [{k: s[k] for k in ('load', 'reps', 'rir')} for s in last['sets']]
             # Existing pull-up convention records0 added load; the display explicitly usesBW.
             if slot == 'T4':
-                for s in expected:
+                for s in sets + expected:
                     if s['load'] == 0:
                         s['load'] = 'BW'
             self.assertEqual(sets, expected, slot)

@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-08T12:51:35-05:00",
+  "generatedAt": "2026-11-09T14:59:56-05:00",
   "blockId": "hybrid-2026-10-26",
   "prescriptionId": "hybrid-2026-10-26-mon-upper-a-481",
-  "preview": true,
+  "preview": false,
   "week": "W3",
   "day": "Mon",
   "date": "2026-11-09",
   "phase": "Hybrid v11 — Stage C",
-  "sessionName": "Upper A — preview",
+  "sessionName": "Upper A",
   "why": [
-    "Monday November 9 starts Stage C after the completed W2 review. Recovery uses your standing good-recovery default.",
+    "Today is Monday November 9: Stage C Upper A after the completed W2 review. Recovery uses your standing good-recovery default.",
     "18 effective sets: add one lateral-raise set and one pushdown set. Keep the bodyweight-ab ceiling and suitable working loads."
   ],
   "intro": [

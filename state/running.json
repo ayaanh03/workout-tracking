@@ -557,7 +557,7 @@
       "policy_id": "2026-11-03-pace-first",
       "action": "increase-pace-hold-minutes",
       "status": "earned-awaiting-next-prescription",
-      "for_date": "2026-11-13",
+      "for_date": "2026-11-14",
       "pace_seconds_per_mile": 430,
       "work_minutes": 18,
       "format": "3x6",
@@ -575,7 +575,8 @@
         "observed": false,
         "reason": "Standing athlete default supplies ordinary post-run recovery and next-workout readiness unless contradicted; no observed next-day recovery is claimed."
       },
-      "reason": "Earned 15-second pace increase from all-rep headroom. Next Friday 3×6 at 7:10, not extra work minutes. Recheck current restrictions and complete-week mileage when that prescription is issued; preserve the source until then."
+      "reason": "Earned 15-second pace increase from all-rep headroom. Next Saturday, November 14: 3×6 at 7:10/mi with work minutes held. Recheck restrictions and complete-week mileage when prescribed; preserve the source until then.",
+      "schedule_decision_id": 482
     },
     "pace_adjustment_history": [],
     "pace_progression_review": {
@@ -889,7 +890,14 @@
           "originally_prescribed_for": "2026-11-06"
         }
       }
-    ]
+    ],
+    "schedule": {
+      "day": "Saturday",
+      "effective_from": "2026-11-09",
+      "decision_id": 482,
+      "source": "../history/adjustments.md#2026-11-09--permanent-friday-lifting-and-saturday-running",
+      "note": "Legacy friday key retains the independent longer-run history and progression."
+    }
   },
   "cycling": {
     "wednesday": {
@@ -1285,7 +1293,14 @@
           },
           "reason": "Sunday lifting/next-day recovery and the subsequent November3 run are recorded. Tuesday run now qualifies using the athlete-directed recovery assumption; keep actual Saturday20:17 separate from planned20minutes."
         }
-      ]
+      ],
+      "schedule": {
+        "day": "Friday",
+        "effective_from": "2026-11-09",
+        "decision_id": 482,
+        "source": "../history/adjustments.md#2026-11-09--permanent-friday-lifting-and-saturday-running",
+        "note": "Bike follows Friday delts/arms B; legacy saturday key retains this cycling history."
+      }
     },
     "equipment_settings": {
       "recorded_on": "2026-11-06",

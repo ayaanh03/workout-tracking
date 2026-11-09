@@ -11,7 +11,7 @@ Skip missed work. Measure gaps separately per run type since its last completed 
 |---|---|
 | Isolated scheduling miss, gap ≤14 days, no illness/fatigue | Clear streak; repeat prior normal prescription without credit to validate dose. Controlled effort and reported normal next-day recovery permit counting subsequent normal workouts. Failure within cap or poor recovery → reduced path below. Appropriate slowing alone does not fail dose validation; save slower target. Uncertain conditions/missing recovery leave validation pending. |
 | Option C, illness, or 15–28-day gap | Clear counts/comfortable credit; one level below last successful normal level, bounded by calibration and weekly ceiling. No prior success → calibration. |
-| Gap >28 days | Calibration; rebuild toward original starting levels (Tuesday 12 / Friday 18). |
+| Gap >28 days | Calibration; rebuild toward original starting levels (Tuesday 12 / Saturday 18). |
 
 Start no faster than previous target and slow to respect cap. With no global fatigue flag, normal effort/recovery at a return dose permits at most one restored level next time. Short returns restore only toward prior normal level. Return/restoration earn no hits; count subsequent full normal workouts only after intended normal dose is validated and global fatigue clears. If not tolerated, hold lower/omit. An isolated scheduling miss may use the narrow test exception in [assessments](assessments.md).
 

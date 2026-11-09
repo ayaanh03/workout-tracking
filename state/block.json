@@ -6,9 +6,9 @@
   "start_date": "2026-10-25",
   "end_date": "2027-01-03",
   "timezone": "America/New_York",
-  "as_of": "2026-11-08",
+  "as_of": "2026-11-09",
   "activation_status": "active",
-  "calendar_week": "W2",
+  "calendar_week": "W3",
   "calendar_phase": "Ramp",
   "lifting_stage": "C",
   "last_tolerated_stage": "B",
@@ -56,14 +56,23 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 481,
+  "last_adjustment_id": 482,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
     "attempts": [],
     "applied_overrides": [],
     "cancellation_or_reversion": null,
-    "final_test_week": 10
+    "final_test_week": 10,
+    "default_run_day": "Saturday",
+    "schedule_decision_id": 482,
+    "optional_test_dates": {
+      "W3": "2026-11-14",
+      "W4": "2026-11-21",
+      "W5": "2026-11-28",
+      "W10": "2027-01-02"
+    },
+    "date_note": "Schedule dates only: existing selection and eligibility rules determine whether an optional test is prescribed. No attempt or new assessment selection is inferred."
   },
   "completion": {
     "2026-10-25": {
@@ -548,6 +557,18 @@
       "effective_from": "2026-11-12",
       "change": "Replace only standard cable curls with unilateral machine preacher curls in future Thursday Upper B sessions. Starting reference75lb,8–12perarm, existing stage set count and2minrest. TodayNovember5 remains exactly as issued; hammer, reverse, wrist and incline curls are unchanged.",
       "source": "../history/adjustments.md#2026-11-05--replace-standard-cable-curl-with-machine-preacher"
+    },
+    {
+      "date": "2026-11-09",
+      "decision_id": 482,
+      "effective_from": "2026-11-09",
+      "affected_modalities": [
+        "Delts/arms B + bike",
+        "Longer intervals",
+        "optional 5K assessments"
+      ],
+      "change": "Permanently schedule delts/arms B + bike on Friday and the longer run on Saturday, beginning November 13–14. Carry this weekday preference into future block reviews. Preserve legacy slot/track identities and all progression; optional assessments follow the Saturday run day.",
+      "source": "../history/adjustments.md#2026-11-09--permanent-friday-lifting-and-saturday-running"
     }
   ],
   "generation_preferences": {
@@ -683,5 +704,98 @@
       "basis": "../history/weekly-summary.md#2026-11-08--w2-review-and-stage-c-advance",
       "note": "One earned advance after completed manageable W2. Calendar remains W2 on November 8; no Stage C exposure yet."
     }
-  ]
+  ],
+  "recurring_schedule": {
+    "id": "2026-11-09-friday-lift-saturday-run",
+    "status": "active",
+    "decision_id": 482,
+    "effective_from": "2026-11-09",
+    "recorded_at": "2026-11-09T14:59:56-05:00",
+    "scope": "All future weeks; retain this weekday preference when reviewing future blocks. It does not create workouts beyond the current block.",
+    "persists_across_blocks": true,
+    "instruction": "For all future weeks can you swap Friday and Saturday? I want to run on Saturday instead and lift on Friday",
+    "source": "../history/adjustments.md#2026-11-09--permanent-friday-lifting-and-saturday-running",
+    "days": [
+      {
+        "day": "Monday",
+        "session": "Upper A",
+        "lifting_slots": [
+          "M1a",
+          "M1b",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ]
+      },
+      {
+        "day": "Tuesday",
+        "session": "Intervals",
+        "running_track": "tuesday"
+      },
+      {
+        "day": "Wednesday",
+        "session": "Delts/arms A + bike",
+        "lifting_slots": [
+          "WE1",
+          "WE2",
+          "WE3",
+          "WE4",
+          "WE5"
+        ],
+        "cycling_track": "wednesday"
+      },
+      {
+        "day": "Thursday",
+        "session": "Upper B",
+        "lifting_slots": [
+          "T1",
+          "T2",
+          "T3",
+          "T4",
+          "T5",
+          "T6",
+          "T7",
+          "T8"
+        ]
+      },
+      {
+        "day": "Friday",
+        "session": "Delts/arms B + bike",
+        "lifting_slots": [
+          "S1",
+          "S2",
+          "S3",
+          "S4",
+          "S5",
+          "S6"
+        ],
+        "cycling_track": "saturday",
+        "first_occurrence": "2026-11-13"
+      },
+      {
+        "day": "Saturday",
+        "session": "Longer intervals",
+        "running_track": "friday",
+        "first_occurrence": "2026-11-14"
+      },
+      {
+        "day": "Sunday",
+        "session": "Legs, bodyweight abs + calves",
+        "lifting_slots": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ]
+      }
+    ],
+    "selection_rule": "Apply a matching explicit dated override first, then this recurring schedule from its effective date. Completed overrides remain historical. Generate and log the actual scheduled date while retaining stable slot and track identities.",
+    "legacy_identity_mapping": "Friday lifting keeps S1–S6 and program/saturday.md; its bike keeps cycling.saturday. Saturday longer runs keep running.friday. These keys identify histories and progression, not current weekdays.",
+    "compatibility_review": "Friday delts/arms B has no direct leg/calf work before Saturday running, and its triceps are not the day before incline. Running remains separate from lifting/bike. Sunday legs and Monday/Thursday incline remain in place."
+  }
 }

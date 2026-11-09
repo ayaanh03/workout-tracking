@@ -676,7 +676,7 @@ const render = d => {
     c.appendChild($('h2', null, 'Working-load reference'));
     const det = $('details');
     det.appendChild($('summary', null, `${d.currentLoads.length} independent exercise slots · grouped by day`));
-    const groups = [['M', 'Monday — Upper A'], ['WE', 'Wednesday — Delts/arms A'], ['T', 'Thursday — Upper B'], ['S', 'Saturday — Delts/arms B'], ['L', 'Sunday — Legs']];
+    const groups = [['M', 'Monday — Upper A'], ['WE', 'Wednesday — Delts/arms A'], ['T', 'Thursday — Upper B'], ['S', 'Friday — Delts/arms B'], ['L', 'Sunday — Legs']];
     const assigned = new Set();
     const addGroup = (title, rows) => {
       if (!rows.length) return;

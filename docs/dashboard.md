@@ -36,7 +36,7 @@ In `currentLoads`, label inherited unvalidated weights as `160 lb baseline` (for
 
 The adaptation check must expose uncertainty: `previous: "First exposure; no comparable actuals"` and `decision: "Calibrate"` are valid. Identify ordinary recovery as assumed under the athlete's default when no report exists; that assumption permits routine generation/progression. Other required missing evidence remains pending. Include the affected date/slot, actual reps/RIR or pace/effort, recovery basis and the rule applied.
 
-Wednesday/Saturday cardio says bike **after lifting**; `workoutFile` is null. Runs retain exact warmup, work, between-rep recovery, cooldown and RPE cap. Lift cues/warmup/cooldown and cardio cues are not rendered.
+Wednesday/Friday cardio says bike **after lifting**; `workoutFile` is null. Runs retain exact warmup, work, between-rep recovery, cooldown and RPE cap. Lift cues/warmup/cooldown and cardio cues are not rendered.
 
 ## Week cache
 
@@ -50,7 +50,7 @@ The athlete's standing post-log request authorizes future previews without askin
 
 `lifting-history.json` is the prepared history of this active block: `{schemaVersion: 1, blockId, generatedAt, sessions}`. Each session has `{date, week, stage, sessionName, sessionId, prescriptionId, exercises, notes?}`; each exercise has `{slotId, exercise, exerciseKey?, status, sets, note?}`. A set is `{load, units, reps, rir}` using reported numbers (or `"BW"`), with null for unknown values. Preserve explicitly reported lower-bound RIR as a string such as `"10+"`; do not round it to an exact number or treat it as missing. Status is `completed`, `skipped` or `substituted`. Do not turn prescriptions into history, relabel former exercise actuals, or invent set counts for an unquantified circuit. A substituted circuit may use `sets: []` with its known exercises/duration in `note`; this means unknown dose, not zero performed work.
 
-The dashboard renders sessions newest first, grouped by date with each set’s weight/reps/RIR. This section and the working-load reference appear **above the weekly summary**. Working loads are grouped by weekday; they retain their established versus prescribed/unvalidated labels. History is optional: a failed/missing fetch does not hide the current workout.
+The dashboard renders sessions newest first, grouped by date with each set’s weight/reps/RIR. This section and the working-load reference appear **above the weekly summary**. Working loads are grouped by the current scheduled weekday; S1–S6 appears under Friday after #482 while dated historical sessions retain their original days. Loads retain their established versus prescribed/unvalidated labels. History is optional: a failed/missing fetch does not hide the current workout.
 
 The logging form’s “Last time” reference uses the latest **earlier-date** session with the same `slotId` and effective exercise identity, never another day’s slot or today’s logged results. Punctuation/case differences are normalized; use a shared optional `exerciseKey` for intentional equivalent labels. An overhead extension cannot become pushdown history, and an ab circuit cannot become decline-crunch history. Display the reported data as a reference only; it is not automatically comparable progression evidence.
 
@@ -66,7 +66,7 @@ For actual outdoor-run briefs use `tools/workoutgen.py` (its docstring defines s
 
 - Match every goal to the brief; choose a concrete allowed cooldown duration and include it in planned mileage.
 - Encode recoveries **between** reps only: N−1 work/recovery pairs, then final work.
-- Work alerts may use current target ±5 s/mi; initially Tuesday 6:45–6:55 and Friday 7:20–7:30/mi. These are pacing cues: fast-side alerts do not disqualify progression. Qualification uses the one-sided pace rule in `program/run-progression.md`; effort caps still govern. Preserve already-prescribed Watch files when reviewing actuals.
+- Work alerts may use current target ±5 s/mi; initial target bands were Tuesday 6:45–6:55 and longer-run 7:20–7:30/mi (now Saturday). These are pacing cues: fast-side alerts do not disqualify progression. Qualification uses the one-sided pace rule in `program/run-progression.md`; effort caps still govern. Preserve already-prescribed Watch files when reviewing actuals.
 - Easy running is conversational, without mandatory legacy pace alerts. Recoveries have no pace alert. Add no HR/cadence/power targets, strides or sub-minute work.
 - A test is a 5 km work segment; never force the aspirational goal pace as an alert.
 

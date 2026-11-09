@@ -20,7 +20,7 @@ A manageable week means stable execution, settling soreness, no worsening joint/
 
 Warmups are excluded from totals. Two unilateral sets per arm count as two, not four. Normal unmodified day totals:
 
-| Stage | Mon | Wed | Thu | Sat core + forearms | Sun | Weekly |
+| Stage | Mon | Wed | Thu | Fri core + forearms | Sun | Weekly |
 |---|---:|---:|---:|---:|---:|---:|
 | A | 11 | 7 | 12 | 6 + 0 | 11 | 47 |
 | B | 16 | 12 | 18 | 9 + 2 | 13 | 70 |

@@ -20,7 +20,7 @@ After each session, report actual load/reps/RIR per set or interval paces/final 
 | [docs/dashboard.md](docs/dashboard.md) | Cache format and Watch export |
 | [archive/README.md](archive/README.md) | Old records and unabridged source; excluded from ordinary generation |
 
-Monday Upper A · Tuesday intervals · Wednesday delts/arms + bike · Thursday Upper B · Friday intervals · Saturday delts/arms + bike · Sunday legs.
+Monday Upper A · Tuesday intervals · Wednesday delts/arms + bike · Thursday Upper B · Friday delts/arms + bike · Saturday intervals · Sunday legs.
 
 Matching lifts carry over their previous working weights as starting loads, adjusted for the new reps/RIR. New or unmatched equipment stays uninitialized. Each slot progresses independently. While the ab strain recovers, use the bodyweight-only ab substitutions. Recovery was reported good October 25; subsequent actual response governs adjustments.
 
