@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "blockId": "hybrid-2026-10-26",
-  "generatedAt": "2026-11-08T12:51:35-05:00",
+  "generatedAt": "2026-11-09T19:33:49-05:00",
   "sessions": [
     {
       "date": "2026-10-25",
@@ -1394,6 +1394,184 @@
         }
       ],
       "notes": "All 13 sets completed in range at RIR 3. Both seated leg-curl sets used 100 lb. No fresh ab or Achilles symptom report; existing bodyweight-ab limits remain."
+    },
+    {
+      "date": "2026-11-09",
+      "week": "W3",
+      "stage": "C",
+      "sessionName": "Upper A",
+      "sessionId": "hybrid-2026-10-26-w3-mon-2026-11-09",
+      "prescriptionId": "hybrid-2026-10-26-mon-upper-a-481",
+      "actualRef": "history/lifting-log.md#2026-11-09--hybrid-v11-w3-monday-upper-a",
+      "exercises": [
+        {
+          "slotId": "M1a",
+          "exercise": "Incline barbell bench — top set",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 145,
+              "units": "lb",
+              "reps": 6,
+              "rir": 3
+            }
+          ]
+        },
+        {
+          "slotId": "M1b",
+          "exercise": "Incline barbell bench — back-offs",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 135,
+              "units": "lb",
+              "reps": 8,
+              "rir": 3
+            },
+            {
+              "load": 135,
+              "units": "lb",
+              "reps": 8,
+              "rir": 3
+            }
+          ]
+        },
+        {
+          "slotId": "M2",
+          "exercise": "Incline DB curl",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 22.5,
+              "units": "lb",
+              "reps": 11,
+              "rir": 3
+            },
+            {
+              "load": 22.5,
+              "units": "lb",
+              "reps": 10,
+              "rir": 3
+            }
+          ]
+        },
+        {
+          "slotId": "M3",
+          "exercise": "DB lateral raise",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 2
+            }
+          ]
+        },
+        {
+          "slotId": "M4",
+          "exercise": "Cable pushdown",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 12,
+              "rir": 2
+            },
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 11,
+              "rir": 2
+            }
+          ]
+        },
+        {
+          "slotId": "M5",
+          "exercise": "Lat pulldown",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 160,
+              "units": "lb",
+              "reps": 8,
+              "rir": 3
+            },
+            {
+              "load": 160,
+              "units": "lb",
+              "reps": 8,
+              "rir": 3
+            }
+          ],
+          "note": "160 lb performed instead of the prescribed 155 lb starting load; both sets at RIR 3."
+        },
+        {
+          "slotId": "M6",
+          "exercise": "Decline crunch — bodyweight",
+          "status": "completed",
+          "sets": [
+            {
+              "load": "BW",
+              "units": "bodyweight",
+              "reps": 15,
+              "rir": 5
+            },
+            {
+              "load": "BW",
+              "units": "bodyweight",
+              "reps": 15,
+              "rir": 3
+            }
+          ],
+          "note": "Temporary bodyweight substitute; no fresh symptom response or loaded-ab clearance."
+        },
+        {
+          "slotId": "M7",
+          "exercise": "Chest-supported row",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 70,
+              "units": "lb",
+              "reps": 8,
+              "rir": 3
+            },
+            {
+              "load": 70,
+              "units": "lb",
+              "reps": 8,
+              "rir": 3
+            }
+          ]
+        }
+      ],
+      "notes": "All 18 sets met the rep and effort targets. Pulldowns performed at 160 lb rather than the planned 155 lb. No fresh symptom or recovery report supplied."
     }
   ]
 }

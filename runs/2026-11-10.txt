@@ -1,0 +1,12 @@
+# W3 Tuesday preview — decision 483. 38 minutes planned; final-rep RPE <=8.
+# Prepared November 9 for November 10 under the standing recovery default.
+# Earned target 6:40/mi; hold 12 work minutes while pace progresses.
+# Recoveries between reps only. Easy sections have no pace alert.
+# Alerts guide pacing; faster reps can qualify under the progression rule.
+name: W3 Tue 3x4 - Nov 10
+warmup: 10:00
+repeat 2
+  work: 4:00 @ current 6:35-6:45/mi
+  recovery: 3:00
+work: 4:00 @ current 6:35-6:45/mi
+cooldown: 10:00

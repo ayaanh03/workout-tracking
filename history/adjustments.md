@@ -652,3 +652,19 @@ Move the already-earned longer-run action from November 13 to **Saturday Novembe
 Optional 5Ks follow Saturday: early W3/W4 opportunities become November 14/21, default W5 becomes November 28, and W10 becomes January 2. Existing selection/eligibility and Wednesday calf-omission rules persist; no test is newly selected or attempted. The Friday arm session has no direct leg/calf work before Saturday running, and its triceps are not the day before incline. Sunday legs remain in place.
 
 Refresh the live date to Monday November 9/W3 and display the already-issued 18-set Monday prescription `hybrid-2026-10-26-mon-upper-a-481` as current. Its exercises, loads, sets, effort and rest are unchanged; the schedule request reports no new actuals, recovery or injury clearance. Preserve prior history and publish the updated current/week views.
+
+## 2026-11-09 — log Upper A and generate Tuesday intervals
+
+483. Log all **18 Stage-C Monday sets** against prescription #481: top incline 145×6 at RIR 3; back-offs 135×8/8 at RIR 3; curl 22.5×11/10 at RIR 3; laterals 35×12/12/12/12 at RIR 3/3/3/2; pushdown 50×12/12/11 at RIR 3/2/2; pulldown 160×8/8 at RIR 3; BW crunch 15/15 at RIR 5/3; row 70×8/8 at RIR 3. All reps/effort fit their targets. Record 160 lb M5 as a deviation from the original 155 lb start; retain 160 because both actual sets now meet RIR 3, superseding the pending reduction. Preserve all independent actuals, former exercises and raw exposure counts. No ordinary ramp progression, plateau, new injury clearance or Stage-D advancement. The prior discussion of the ramp rule did not amend it.
+
+Under the standing auto-next and recovery directive, generate **W3 Tuesday November 10 — Intervals, preview**, prescription `hybrid-2026-10-26-tue-intervals-483`. It remains Monday November 9 in New York. Monday is completed; Tuesday is unperformed.
+
+- Warmup: **10 minutes easy**, with up to 5 extra if needed.
+- Work: **3×4 minutes at 6:40/mi**.
+- Recovery: **3 minutes easy jog/walk between reps only**, two recoveries.
+- Cooldown: **10 minutes easy**.
+- **38 minutes total; 12 work minutes; final-rep RPE ≤8.** Watch pace-alert range 6:35–6:45/mi; alerts are pacing guides.
+
+Apply the saved November 3 source: original 6:50 target, work paces 6:28/6:37/6:31, RPE 5/6/7. Slowest 6:37 gives 13 s/mi headroom, rounded down to **10 s/mi faster** under the pace-first directive. Mark that source used once before changing the normal target from 410 to 400 s/mi, and reset counts/comfortable credit for the changed prescription. Preserve prior actuals, original target, prior hit count and last successful normal dose. No fourth rep, stacked two-hit award or new performance credit. Recovery uses the athlete’s default; local restrictions remain.
+
+W3 full-week estimate **10.193980848153215 mi**, upper planning estimate **11.422784810126583 mi**, below 15: Tuesday at 6:40 plus 26 easy minutes, prospective Saturday at 7:10 plus 24 easy minutes; easy estimate 8:30/mi. Upper uses 5 s/mi faster alert boundaries and five extra warmup minutes per run. Saturday’s independent source and queued November 14 prescription remain unused. No mileage or shoe total changes. Preserve the permanent Friday lift/bike and Saturday run schedule. Save/decode-check `runs/2026-11-10.workout` from its text specification and publish the Tuesday preview, Monday history and week view.

@@ -210,3 +210,24 @@ Session `hybrid-2026-10-26-w2-sun-2026-11-08`, original prescription `hybrid-202
 | L6 | 45-degree back extension | 2×8–12 / 25 lb / 3 | 25×12, RIR 3 | 25×12, RIR 3 | — |
 
 **All 13 sets completed in range at RIR 3.** “100 lb starting” is the pasted prescription label; both actual seated-curl sets are 100 lb. Preserve the added calf/back set and full two-set 100 lb curl performance. L2–L6 gain their third raw exposure; L1’s BW substitute gains its third, while baseline hanging raises remain uninitialized. Rep ceilings earn no ordinary loading/plateau credit during Stage B. Hold suitable working loads; keep BW/max 2 sets/≥3 RIR abs because no fresh specific symptom or loaded-tolerance report was supplied. Decision #481.
+
+## 2026-11-09 — Hybrid v11 W3 Monday Upper A
+
+Session `hybrid-2026-10-26-w3-mon-2026-11-09`, original prescription `hybrid-2026-10-26-mon-upper-a-481`, **Stage C**, **18 working sets**.
+
+| Slot | Exercise | Original prescription | Actual sets: load × reps, RIR |
+|---|---|---|---|
+| M1a | Incline barbell bench — top set | 1×4–6 · 145 lb · RIR 2–3 · rest 3–4 min | 145×6, RIR 3 |
+| M1b | Incline barbell bench — back-offs | 2×6–8 · 135 lb · RIR 2–3 · rest 3–4 min | 135×8, RIR 3 / 135×8, RIR 3 |
+| M2 | Incline DB curl | 2×8–12 · 22.5 lb · RIR 2–3 · rest 2 min | 22.5×11, RIR 3 / 22.5×10, RIR 3 |
+| M3 | DB lateral raise | 4×12–20 · 35 lb · RIR 2–3 · rest 2 min | 35×12, RIR 3 / 35×12, RIR 3 / 35×12, RIR 3 / 35×12, RIR 2 |
+| M4 | Cable pushdown | 3×10–15 · 50 lb · RIR 2–3 · rest 2 min | 50×12, RIR 3 / 50×12, RIR 2 / 50×11, RIR 2 |
+| M5 | Lat pulldown | 2×8–12 · 155 lb starting · RIR 3 · rest 2–3 min | 160×8, RIR 3 / 160×8, RIR 3 |
+| M6 | Decline crunch — bodyweight | 2×10–15 · BW · RIR ≥3 · rest 2 min | BW×15, RIR 5 / BW×15, RIR 3 |
+| M7 | Chest-supported row | 2×8–12 · 70 lb · RIR 2–3 · rest 2–3 min | 70×8, RIR 3 / 70×8, RIR 3 |
+
+All 18 sets meet rep and effort targets. M5 was performed at **160 lb rather than the prescribed 155 lb starting load**; both 160×8 sets at RIR 3 support retaining 160 and supersede the unperformed reduction. Do not rewrite the original prescription.
+
+Added fourth lateral and third pushdown sets are completed. Curl total reps rose from 20 to 21; rows retained 8/8 with RIR 3 instead of 2. No persistent-decline inference. Hold other suitable loads under the unchanged Stage-C rule; no ordinary loading/qualification/plateau credit. Raw exposures increment once: M1a/M1b/M2/M3/M5/M6 substitute/M7 to 3, M4 pushdown to 2.
+
+BW abs 15/15 at RIR 5/3 are recorded without a fresh symptom response. Keep bodyweight/two-set/minimum-3-RIR limits and all other local restrictions. Ordinary recovery is assumed under the standing directive; no observed next-day recovery or injury clearance. Decision #483.

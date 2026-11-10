@@ -1,119 +1,64 @@
 {
-  "generatedAt": "2026-11-09T14:59:56-05:00",
+  "generatedAt": "2026-11-09T19:33:49-05:00",
   "blockId": "hybrid-2026-10-26",
-  "prescriptionId": "hybrid-2026-10-26-mon-upper-a-481",
-  "preview": false,
+  "prescriptionId": "hybrid-2026-10-26-tue-intervals-483",
+  "preview": true,
   "week": "W3",
-  "day": "Mon",
-  "date": "2026-11-09",
+  "day": "Tue",
+  "date": "2026-11-10",
   "phase": "Hybrid v11 — Stage C",
-  "sessionName": "Upper A",
+  "sessionName": "Intervals — preview",
   "why": [
-    "Today is Monday November 9: Stage C Upper A after the completed W2 review. Recovery uses your standing good-recovery default.",
-    "18 effective sets: add one lateral-raise set and one pushdown set. Keep the bodyweight-ab ceiling and suitable working loads."
+    "Tuesday November 10: apply the earned increase from 6:50 to 6:40/mi, keeping three 4-minute reps.",
+    "November 3’s slowest work rep was 6:37 at final RPE 7. Recovery uses your standing good-recovery default."
   ],
   "intro": [
-    "Most lifts target 2–3 RIR; pulldowns target 3 and abs at least 3. No failure sets during Stage C."
+    "Keep the final rep at or below RPE 8. Slow down if the target demands more effort."
   ],
-  "lift": {
-    "table": [
-      {
-        "slotId": "M1a",
-        "exercise": "Incline barbell bench — top set",
-        "setsReps": "1×4–6",
-        "load": "145 lb",
-        "rir": "2–3",
-        "rest": "3–4 min"
-      },
-      {
-        "slotId": "M1b",
-        "exercise": "Incline barbell bench — back-offs",
-        "setsReps": "2×6–8",
-        "load": "135 lb",
-        "rir": "2–3",
-        "rest": "3–4 min"
-      },
-      {
-        "slotId": "M2",
-        "exercise": "Incline DB curl",
-        "setsReps": "2×8–12",
-        "load": "22.5 lb",
-        "rir": "2–3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "M3",
-        "exercise": "DB lateral raise",
-        "setsReps": "4×12–20",
-        "load": "35 lb",
-        "rir": "2–3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "M4",
-        "exercise": "Cable pushdown",
-        "setsReps": "3×10–15",
-        "load": "50 lb",
-        "rir": "2–3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "M5",
-        "exercise": "Lat pulldown",
-        "setsReps": "2×8–12",
-        "load": "155 lb starting",
-        "rir": "3",
-        "rest": "2–3 min"
-      },
-      {
-        "slotId": "M6",
-        "exercise": "Decline crunch — bodyweight",
-        "setsReps": "2×10–15",
-        "load": "BW",
-        "rir": "≥3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "M7",
-        "exercise": "Chest-supported row",
-        "setsReps": "2×8–12",
-        "load": "70 lb",
-        "rir": "2–3",
-        "rest": "2–3 min"
-      }
-    ]
+  "lift": null,
+  "cardio": {
+    "workout": "3×4 minutes at 6:40/mi, with 3-minute easy jog/walk recoveries between reps only. 12 work minutes; 38 minutes total with the prescribed warmup and cooldown.",
+    "warmup": "10 minutes easy; 8:30–9:30/mi is a guide, slower is fine. Up to 5 extra minutes if needed.",
+    "cooldown": "10 minutes easy, conversation comfortable.",
+    "targets": {
+      "pace": "6:40/mi",
+      "rpe": "Build toward 7–8/10; final rep ≤8/10"
+    },
+    "flags": [
+      "Watch alerts 6:35–6:45/mi guide pacing; faster reps can count toward progression when effort and recovery requirements are met."
+    ],
+    "workoutFile": "runs/2026-11-10.workout"
   },
-  "cardio": null,
   "adaptation": [
     {
-      "exercise": "W2 review and Stage C",
-      "previous": "All seven sessions reported; 67 known lifting sets. Sunday completed all 13 sets in range at RIR 3.",
-      "decision": "Advance to Stage C for Monday: 18 sets after the bodyweight-ab cap.",
-      "reason": "Completed-week performance supports the increase using your good-recovery default. One unreported rear-delt set remains unknown."
+      "exercise": "Tuesday running pace",
+      "previous": "November 3: 3×4 at 6:28/6:37/6:31 per mile, RPE 5/6/7; prescribed target 6:50.",
+      "decision": "Increase pace by 10 seconds per mile to 6:40.",
+      "reason": "The slowest rep gives 13 seconds of headroom. The pace-first rule rounds that down to a 10-second increase; apply this result once."
     },
     {
-      "exercise": "Incline, curls, laterals, pushdowns and row",
-      "previous": "November 2: bench 145×6 + 135×8/8; curl 22.5×12/8; laterals 35×12/15/12; pushdown 50×12/12; row 70×8/8.",
-      "decision": "Hold these loads; laterals increase from 3 to 4 sets and pushdowns from 2 to 3.",
-      "reason": "Stage C adds sets at 2–3 RIR. The row’s prior RIR 2 fits this target. Ramp work does not earn ordinary load increases."
+      "exercise": "Running work and recovery",
+      "previous": "Three 4-minute work reps with two 3-minute recoveries.",
+      "decision": "Keep 12 work minutes, the same recoveries and RPE cap 8.",
+      "reason": "Pace and work minutes do not increase together. W3’s four-rep ceiling does not require a fourth rep."
+    },
+    {
+      "exercise": "Monday Upper A",
+      "previous": "All 18 sets met their rep and effort targets, including four lateral-raise sets and three pushdown sets.",
+      "decision": "Record the full Stage-C session and retain established lift loads.",
+      "reason": "One completed session starts the W3 review; the existing ramp rules still apply."
     },
     {
       "exercise": "Lat pulldown",
-      "previous": "November 2: 160×9 at RIR 3, then 160×8 at RIR 1.",
-      "decision": "Start at 155 lb for 2×8–12 at RIR 3; use the next lower setting if 155 is unavailable.",
-      "reason": "The second set was too close to failure. The saved load adjustment aims to keep both sets at the target effort."
+      "previous": "Monday: 160×8/8 at RIR 3, versus 155 lb prescribed.",
+      "decision": "Retain 160 lb for the next appropriate exposure.",
+      "reason": "Both performed sets now match the target effort. Preserve the original prescription and replace its pending reduction."
     },
     {
-      "exercise": "Bodyweight abs",
-      "previous": "Sunday: BW×15/15 at RIR 3. Last Monday: BW×15/15 at RIR 10/3.",
-      "decision": "Keep 2×10–15 bodyweight crunches at ≥3 RIR.",
-      "reason": "The existing bodyweight and two-set limits remain pending a separate loading review. Stop or reduce if the original strain site hurts or pulls."
-    },
-    {
-      "exercise": "Sunday results",
-      "previous": "Calf 365×14/15/12; hack 95×6/10; leg curl 100×12/12; extension 100×15/15; back extension 25×12/12, all at RIR 3.",
-      "decision": "Save all results and hold these loads for the next leg session.",
-      "reason": "The full Stage-B dose met its rep and effort targets. Stage C adds sets; reaching a rep ceiling during the ramp does not yet earn an ordinary load increase."
+      "exercise": "Weekly running and schedule",
+      "previous": "Friday is now delts/arms B plus bike; the longer run is Saturday November 14.",
+      "decision": "Tuesday 3×4 at 6:40; Saturday’s earned 3×6 at 7:10 remains queued.",
+      "reason": "Estimated full-week running is 10.19 miles, up to 11.42 under the stated planning assumptions, below the 15-mile cap. Planned miles are not logged miles."
     }
   ],
   "currentLoads": [
@@ -121,57 +66,57 @@
       "slotId": "M1a",
       "exercise": "M1a — Incline barbell bench, top set",
       "load": "145 lb",
-      "lastVerified": "2026-11-02 (reported)",
-      "note": "November 2: 145×6 at RIR 3. Hold 145 lb for Stage C; no ordinary load increase earned during the ramp."
+      "lastVerified": "2026-11-09",
+      "note": "November 9: 145×6 at RIR 3. Hold 145 lb under the current ramp rule; review stage and any single eligibility before the next Monday."
     },
     {
       "slotId": "M1b",
       "exercise": "M1b — Incline barbell bench, back-offs",
       "load": "135 lb",
-      "lastVerified": "2026-11-02 (reported)",
-      "note": "November 2: 135×8/8 at RIR 3. Keep both back-off sets at 135 lb for Stage C."
+      "lastVerified": "2026-11-09",
+      "note": "November 9: 135×8/8 at RIR 3. Both back-off sets reached eight; hold 135 lb under the current ramp rule."
     },
     {
       "slotId": "M2",
       "exercise": "M2 — Incline DB curl",
       "load": "22.5 lb",
-      "lastVerified": "2026-11-02 (reported)",
-      "note": "November 2 same-slot actual: 22.5×12/8 at RIR 3. Elbow hold released after symptom-free curls on November 4. Monday: 22.5 lb for 2×8–12 at 2–3 RIR."
+      "lastVerified": "2026-11-09",
+      "note": "November 9: 22.5×11/10 at RIR 3. Total reps increased from 20 to 21; hold 22.5 lb during the ramp."
     },
     {
       "slotId": "M3",
       "exercise": "M3 — DB lateral raise",
       "load": "35 lb",
-      "lastVerified": "2026-11-02 (reported)",
-      "note": "November 2 actual 35×12/15/12 at RIR 5/3/3. Preserve all three sets and easier first set; hold 35."
+      "lastVerified": "2026-11-09",
+      "note": "November 9: 35×12/12/12/12 at RIR 3/3/3/2. Completed the added fourth set within target; hold 35 lb."
     },
     {
       "slotId": "M4",
       "exercise": "M4 — Cable pushdown",
       "load": "50 lb",
-      "lastVerified": "2026-11-02 (reported)",
-      "note": "November 2 first Monday pushdown actual 50×12/12 at RIR 3/2, no tendon issues reported. Hold 50; overhead history preserved, replacement remains active."
+      "lastVerified": "2026-11-09",
+      "note": "November 9: 50×12/12/11 at RIR 3/2/2. Completed the added third pushdown set within target; hold 50 lb."
     },
     {
       "slotId": "M5",
       "exercise": "M5 — Lat pulldown",
       "load": "160 lb",
-      "lastVerified": "2026-11-02 (reported)",
-      "note": "November 2 actual: 160×9 at RIR 3, then 160×8 at RIR 1. Monday starts at 155 lb to match target effort; this lower load is not yet performed."
+      "lastVerified": "2026-11-09",
+      "note": "November 9: 160×8/8 at RIR 3, despite the 155 lb starting prescription. Both sets now meet the target effort; retain 160 lb and supersede the unperformed reduction."
     },
     {
       "slotId": "M6",
       "exercise": "M6 — Decline crunch (temporary)",
       "load": "BW",
-      "lastVerified": "2026-11-02 (reported)",
-      "note": "November 2 temporary BW decline crunch 15/15 at RIR 10/3, no ab issues. Max two sets, ≥3 RIR; next-morning response/loading review pending. No cable-crunch actual."
+      "lastVerified": "2026-11-09",
+      "note": "November 9: BW×15/15 at RIR 5/3. Keep bodyweight only, at most two sets and at least 3 RIR; symptom response and a fresh loading review remain unreported."
     },
     {
       "slotId": "M7",
       "exercise": "M7 — Chest-supported row",
       "load": "70 lb",
-      "lastVerified": "2026-11-02 (reported)",
-      "note": "November 2: 70×8/8 at RIR 2. This fits Stage C’s 2–3 RIR target; keep 70 lb for two sets."
+      "lastVerified": "2026-11-09",
+      "note": "November 9: 70×8/8 at RIR 3, versus RIR 2 last Monday. Hold 70 lb; no decline indicated."
     },
     {
       "slotId": "WE1",

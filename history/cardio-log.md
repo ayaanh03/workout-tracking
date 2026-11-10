@@ -189,3 +189,11 @@ Add 5.1 mi once to Evo SLs: tracked total **9.35 mi**. Evo SL is now the sole cu
 ### November 8 — subsequent leg performance after moved bike/run (#481)
 
 Sunday’s full 13-set Stage B leg session meets all rep ranges at RIR 3. Alongside the November 7 moved-run hit, this supports subsequent performance after the November 6 bike. Routine recovery remains assumed, latest bike numeric RPE remains unknown, and no new duration is awarded: keep the 20-minute dose. Run paces, earned steps, original prescriptions, source-use and shoe mileage remain unchanged.
+
+### November 9 — Tuesday November 10 preview and earned pace activation (#483)
+
+Prescribe `hybrid-2026-10-26-tue-intervals-483`: **10 minutes easy, 3×4 minutes at 6:40/mi with two 3-minute easy recoveries between reps, then 10 minutes easy**. Final-rep RPE cap **8**; **38 minutes** total, with up to 5 additional warmup minutes if needed. Watch work alerts 6:35–6:45/mi guide pacing; easy sections have no pace alerts. File: `runs/2026-11-10.workout`.
+
+The November 3 source had 6:28/6:37/6:31 at RPE 5/6/7 against 6:50 prescribed. Slowest-rep headroom is **410 − 397 = 13 seconds**, giving one **10-second** step under #467. Ordinary recovery uses the standing athlete default; Monday’s 18 lifting sets met their rep and effort targets, with no new symptom clearance inferred. Record the source as consumed before changing Tuesday’s normal target **410→400 seconds/mile** and clearing its prior two-hit count. Preserve the November 3 actual, original target, classification and last successful normal dose. Hold 12 work minutes; do not stack another pace route or add a fourth rep.
+
+The whole W3 plan, including Saturday’s still-queued 3×6 at 7:10, estimates **10.193980848153215 miles**, or **11.422784810126583** with optional warmups and faster alert boundaries, below 15. This preview adds no completed run, distance or shoe mileage. Saturday’s progression source remains unconsumed.

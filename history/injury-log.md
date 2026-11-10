@@ -211,3 +211,7 @@ Completed 3×6 run at RPE 6/7/7. Ordinary next-day recovery and Sunday generatio
 ## 2026-11-08 — Sunday bodyweight exposure and week review
 
 Sunday BW decline 15/15 at RIR 3 and the full calf/leg dose are reported without a fresh symptom response. Store the new exposure and preserve earlier evidence; no ab/Achilles clearance or observed next-day recovery is inferred. Keep BW-only/max 2 sets/≥3 RIR across M6/T7/L1 after Stage C advancement. W2 general tolerance uses the standing recovery default plus actual performance; local restrictions and cautious forearm progression persist independently. Decision #481.
+
+## 2026-11-09 — Monday bodyweight exposure
+
+M6 bodyweight decline crunch: 15/15 at RIR 5/3. No fresh during/after ab, elbow or Achilles response and no actual next-day recovery supplied. Preserve the exposure separately from symptom evidence and retain all local limits. Ordinary recovery for Tuesday planning is assumed under the standing athlete directive. No added ab load or stage change is authorized by this log. Decision #483.
