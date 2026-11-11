@@ -700,24 +700,24 @@
     }
   ],
   "post_session": {
-    "date": "2026-11-09",
-    "session_id": "hybrid-2026-10-26-w3-mon-2026-11-09",
+    "date": "2026-11-10",
+    "session_id": "hybrid-2026-10-26-w3-tue-2026-11-10",
     "completion": "reported",
     "elbow_response": null,
     "lower_ab_response": null,
     "achilles_response": null,
     "next_day_recovery": null,
-    "status": "general-recovery-assumed-specific-symptom-response-unreported",
-    "decision_id": 483,
+    "status": "general-recovery-assumed-specific-run-response-unreported",
+    "decision_id": 484,
     "recovery_decision": {
       "status": "assumed-good",
       "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-      "decision_id": 483,
-      "recorded_at": "2026-11-09T19:33:49-05:00",
+      "decision_id": 484,
+      "recorded_at": "2026-11-10T19:00:27-05:00",
       "observed": false,
-      "reason": "Standing athlete default supplies ordinary recovery and next-workout readiness. Monday performance is reported; no new observed recovery or specific injury response is inferred."
+      "reason": "Standing athlete recovery default applies to ordinary run classification and Wednesday planning. The run is completed; no fresh symptom or observed next-day recovery report is inferred."
     },
-    "note": "All 18 Stage-C Upper A sets meet rep and effort targets; no new symptoms or actual next-day recovery reported. Local limits persist."
+    "note": "Tuesday completed at RPE 7/8/8 and qualifies a hit under the ordinary recovery default. No fresh specific symptom response or injury clearance supplied."
   },
   "prior_pending_post_sessions": [
     {
@@ -966,6 +966,26 @@
         "reason": "Standing athlete default supplies routine recovery for completed normal ramp-week review and Monday planning. Actual performance is logged; no new observed recovery or injury clearance is invented."
       },
       "note": "All 13 Sunday sets reported at RIR 3. Routine recovery assumed good; no fresh ab/Achilles-specific response or added-load clearance. Bodyweight ab limits persist."
+    },
+    {
+      "date": "2026-11-09",
+      "session_id": "hybrid-2026-10-26-w3-mon-2026-11-09",
+      "completion": "reported",
+      "elbow_response": null,
+      "lower_ab_response": null,
+      "achilles_response": null,
+      "next_day_recovery": null,
+      "status": "general-recovery-assumed-specific-symptom-response-unreported",
+      "decision_id": 483,
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 483,
+        "recorded_at": "2026-11-09T19:33:49-05:00",
+        "observed": false,
+        "reason": "Standing athlete default supplies ordinary recovery and next-workout readiness. Monday performance is reported; no new observed recovery or specific injury response is inferred."
+      },
+      "note": "All 18 Stage-C Upper A sets meet rep and effort targets; no new symptoms or actual next-day recovery reported. Local limits persist."
     }
   ],
   "readiness_forecast": {
@@ -1083,11 +1103,11 @@
   "planning_readiness": {
     "status": "assumed-good",
     "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-    "decision_id": 483,
-    "recorded_at": "2026-11-09T19:33:49-05:00",
+    "decision_id": 484,
+    "recorded_at": "2026-11-10T19:00:27-05:00",
     "observed": false,
-    "reason": "Standing athlete default supplies ordinary recovery and next-workout readiness. Monday performance is reported; no new observed recovery or specific injury response is inferred.",
-    "for_date": "2026-11-10"
+    "reason": "Standing athlete recovery default applies to ordinary run classification and Wednesday planning. The run is completed; no fresh symptom or observed next-day recovery report is inferred.",
+    "for_date": "2026-11-11"
   },
   "general_readiness_history": [
     {

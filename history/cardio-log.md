@@ -197,3 +197,25 @@ Prescribe `hybrid-2026-10-26-tue-intervals-483`: **10 minutes easy, 3×4 minutes
 The November 3 source had 6:28/6:37/6:31 at RPE 5/6/7 against 6:50 prescribed. Slowest-rep headroom is **410 − 397 = 13 seconds**, giving one **10-second** step under #467. Ordinary recovery uses the standing athlete default; Monday’s 18 lifting sets met their rep and effort targets, with no new symptom clearance inferred. Record the source as consumed before changing Tuesday’s normal target **410→400 seconds/mile** and clearing its prior two-hit count. Preserve the November 3 actual, original target, classification and last successful normal dose. Hold 12 work minutes; do not stack another pace route or add a fourth rep.
 
 The whole W3 plan, including Saturday’s still-queued 3×6 at 7:10, estimates **10.193980848153215 miles**, or **11.422784810126583** with optional warmups and faster alert boundaries, below 15. This preview adds no completed run, distance or shoe mileage. Saturday’s progression source remains unconsumed.
+
+## 2026-11-10 — Hybrid v11 W3 Tuesday intervals
+
+Session `hybrid-2026-10-26-w3-tue-2026-11-10`, original prescription `hybrid-2026-10-26-tue-intervals-483`: 10-minute easy warmup, **3×4 minutes at 6:40/mi**, two 3-minute easy recoveries, 10-minute cooldown; final-rep RPE cap **8**. Original Watch file `runs/2026-11-10.workout` remains unchanged.
+
+| Segment | Time | Displayed distance | Pace / mile | RPE | Avg HR | Power | Cadence |
+|---|---|---|---|---|---|---|---|
+| Warmup | 10:00 | 1.15 mi | 8:39 | n/r | 138 | 218 W | 172 spm |
+| Work 1 | 4:00 | 0.59 mi | 6:44 | 7 | 180 | 296 W | 185 spm |
+| Recovery 1 | 3:00 | 0.29 mi | 10:00 | n/r | 174 | 199 W | 169 spm |
+| Work 2 | 4:00 | 0.60 mi | 6:35 | 8 | 185 | 301 W | 187 spm |
+| Recovery 2 | 3:00 | 0.27 mi | 10:56 | n/r | 178 | 181 W | 169 spm |
+| Work 3 | 4:00 | 0.61 mi | 6:31 | 8 | 187 | 303 W | 186 spm |
+| Cooldown | 10:00 | 0.91 mi | 10:58 | n/r | 172 | 184 W | 167 spm |
+
+Athlete confirms **4.43 mi**; rounded displayed distances sum to **4.42 mi**. Seven interval times total **38:00**; HR-zone and mile-split displays total **38:01**. Exact summary workout/elapsed duration is not supplied; do not invent an extra/open interval. Average HR **164 bpm**. Displayed zones: Z1 2:24 (<137), Z2 2:41 (138–150), Z3 2:21 (151–163), Z4 15:00 (164–175), Z5 15:35 (176+). The chart’s upper axis is not used as a measured peak HR.
+
+**Hit 1 at the new 6:40 target**, under the standing ordinary-recovery assumption. Pace offsets **+4/−5/−9 s/mi** all pass the target-plus-five cutoff, full 12 work minutes and both 3-minute recoveries are shown, and final RPE 8 meets cap 8. No extra interval rest is reported; absence of pauses is not asserted as measured fact. No new symptom or observed next-day recovery report was supplied.
+
+**Hold next normal Tuesday at 3×4 at 6:40/mi**: slowest-rep headroom is **−4 seconds**, final RPE 8 is above comfortable threshold 6, and only one hit exists at this prescription. RPE 8 also exceeds the ≤7 gate for adding work minutes. The November 3 source was already consumed by #483 and cannot earn another increase. Preserve Saturday’s separate queued November 14 pace award at 7:10, unused.
+
+Attribute this run to **Evo SL**, the sole current pair established November 7. Add confirmed 4.43 mi once: **9.35 →13.78 tracked miles**. Preserve the inactive Vomero ledger and all previous additions. Wednesday November 11 remains a preview: **20-minute bike after lifting, RPE 3 (2–4 acceptable)** under the W3 ceiling, using saved bike settings. Decision #484.

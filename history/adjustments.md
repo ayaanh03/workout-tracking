@@ -668,3 +668,25 @@ Under the standing auto-next and recovery directive, generate **W3 Tuesday Novem
 Apply the saved November 3 source: original 6:50 target, work paces 6:28/6:37/6:31, RPE 5/6/7. Slowest 6:37 gives 13 s/mi headroom, rounded down to **10 s/mi faster** under the pace-first directive. Mark that source used once before changing the normal target from 410 to 400 s/mi, and reset counts/comfortable credit for the changed prescription. Preserve prior actuals, original target, prior hit count and last successful normal dose. No fourth rep, stacked two-hit award or new performance credit. Recovery uses the athlete’s default; local restrictions remain.
 
 W3 full-week estimate **10.193980848153215 mi**, upper planning estimate **11.422784810126583 mi**, below 15: Tuesday at 6:40 plus 26 easy minutes, prospective Saturday at 7:10 plus 24 easy minutes; easy estimate 8:30/mi. Upper uses 5 s/mi faster alert boundaries and five extra warmup minutes per run. Saturday’s independent source and queued November 14 prescription remain unused. No mileage or shoe total changes. Preserve the permanent Friday lift/bike and Saturday run schedule. Save/decode-check `runs/2026-11-10.workout` from its text specification and publish the Tuesday preview, Monday history and week view.
+
+## 2026-11-10 — log Tuesday intervals and generate Wednesday
+
+484. Log `hybrid-2026-10-26-w3-tue-2026-11-10` against original prescription `hybrid-2026-10-26-tue-intervals-483`: three 4-minute reps at **6:44/6:35/6:31 per mile**, athlete RPE **7/8/8**, two displayed 3-minute recoveries, 10-minute warmup and 10-minute cooldown. Preserve screenshot metrics and the difference between 38:00 summed interval time and 38:01 summed HR-zone time; no exact elapsed duration, maximum HR or extra interval pause is invented. Athlete confirms **4.43 mi**; use the previously established sole-current Evo SL attribution and add once, **9.35→13.78 mi**. Rounded segment distances sum to 4.42 and do not replace the confirmed total.
+
+Classify **Tuesday hit 1 at the new 6:40 target**, with ordinary recovery assumed under #471. All work paces satisfy ≤405 s/mi: 404/395/391; the first rep is inside the allowed 5-second slow tolerance. Final RPE 8 meets the cap. Preserve the already-consumed November 3 pace source and all previous actuals. Slowest-rep headroom is 400−404 = −4 s/mi, final RPE 8 exceeds the comfortable threshold 6, and this is only one hit at the changed target. The minute-increase threshold is final RPE ≤7. Therefore **hold next Tuesday November 17 at 3×4 at 6:40**, without slowing it or adding a fourth rep. Saturday’s independent earned November 14 step remains queued and unconsumed.
+
+Generate **W3 Wednesday November 11 — Delts/arms A + bike, preview**, prescription `hybrid-2026-10-26-wed-delts-arms-a-484`, using Stage C and assumed ordinary recovery. Live date remains Tuesday November 10 in New York; completed work is Monday/Tuesday only.
+
+| Slot | Exercise | Load | Sets × reps | RIR | Rest |
+|---|---|---|---|---|---|
+| WE1 | DB lateral raise | 35 lb | 4×12–20 | 2–3 | 2 min |
+| WE2 | Unilateral machine preacher curl | 75 lb | 2×8–12 per arm | 3 | 2 min |
+| WE3 | Reverse pec deck | 145 lb | 2×12–20 | 2–3 | 2 min |
+| WE4 | Rope cable hammer curl | 50 lb | 2×10–15 | 3 | 2 min |
+| WE5 | Leg-press calf raise | 365 lb | 4×10–15 | 2–3 | 2 min |
+
+**14 working sets**, counting unilateral sets once, followed by **20 minutes bike at RPE 3 (2–4 acceptable)**. Saved settings: height about 10, seat −2 (possibly −1), handle +3. No Watch file for cycling.
+
+Use November 4 same-slot actuals. WE1/WE5 gain their fourth sets under Stage C. WE2/WE4 restore the second sets authorized in #470 after symptom-free working curls; prescribe rep ranges and retain 3 RIR for this first two-set exposure. This fits Stage C and does not reinstate the released maintenance hold. Hold all established weights; WE4’s prior 16 reps earn no ramp load increase. Reverse pec deck remains two sets. No W3 test was selected, so calves remain. No new lift actuals, raw exposures, stage advancement, symptom clearance or ab-loading changes.
+
+W3 now records two completed sessions, **18 lifting sets, 12 running work minutes and 4.43 confirmed miles**. Including Saturday’s queued dose, planned week mileage is **9.76515731874145 mi**, upper planning estimate **10.382941176470588 mi**, below 15. Current-stage weekly lifting plan remains 82 sets; Friday lifting/Saturday running preference persists. Refresh the daily/week dashboard and preserve all prior Watch files and history.

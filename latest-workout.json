@@ -1,64 +1,106 @@
 {
-  "generatedAt": "2026-11-09T19:33:49-05:00",
+  "generatedAt": "2026-11-10T19:00:27-05:00",
   "blockId": "hybrid-2026-10-26",
-  "prescriptionId": "hybrid-2026-10-26-tue-intervals-483",
+  "prescriptionId": "hybrid-2026-10-26-wed-delts-arms-a-484",
   "preview": true,
   "week": "W3",
-  "day": "Tue",
-  "date": "2026-11-10",
+  "day": "Wed",
+  "date": "2026-11-11",
   "phase": "Hybrid v11 — Stage C",
-  "sessionName": "Intervals — preview",
+  "sessionName": "Delts/arms A + bike — preview",
   "why": [
-    "Tuesday November 10: apply the earned increase from 6:50 to 6:40/mi, keeping three 4-minute reps.",
-    "November 3’s slowest work rep was 6:37 at final RPE 7. Recovery uses your standing good-recovery default."
+    "Wednesday November 11: 14 Stage-C lifting sets followed by 20 minutes of easy cycling. Recovery uses your standing good-recovery default.",
+    "Use the established Wednesday loads. Laterals and calves gain their fourth sets; preacher and hammer curls return to the normal two-set dose after the earlier hold was released."
   ],
   "intro": [
-    "Keep the final rep at or below RPE 8. Slow down if the target demands more effort."
+    "Keep both curl variations at 3 RIR for their first restored two-set session; other lifts target 2–3 RIR. Rest 2 minutes between working sets."
   ],
-  "lift": null,
+  "lift": {
+    "table": [
+      {
+        "slotId": "WE1",
+        "exercise": "DB lateral raise",
+        "setsReps": "4×12–20",
+        "load": "35 lb",
+        "rir": "2–3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "WE2",
+        "exercise": "Unilateral machine preacher curl",
+        "setsReps": "2×8–12 per arm",
+        "load": "75 lb",
+        "rir": "3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "WE3",
+        "exercise": "Reverse pec deck",
+        "setsReps": "2×12–20",
+        "load": "145 lb",
+        "rir": "2–3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "WE4",
+        "exercise": "Rope cable hammer curl",
+        "setsReps": "2×10–15",
+        "load": "50 lb",
+        "rir": "3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "WE5",
+        "exercise": "Leg-press calf raise",
+        "setsReps": "4×10–15",
+        "load": "365 lb",
+        "rir": "2–3",
+        "rest": "2 min"
+      }
+    ]
+  },
   "cardio": {
-    "workout": "3×4 minutes at 6:40/mi, with 3-minute easy jog/walk recoveries between reps only. 12 work minutes; 38 minutes total with the prescribed warmup and cooldown.",
-    "warmup": "10 minutes easy; 8:30–9:30/mi is a guide, slower is fine. Up to 5 extra minutes if needed.",
-    "cooldown": "10 minutes easy, conversation comfortable.",
+    "workout": "Bike for 20 minutes after lifting at RPE 3/10 (2–4 acceptable), with comfortable full-sentence conversation.",
+    "warmup": "",
+    "cooldown": "",
     "targets": {
-      "pace": "6:40/mi",
-      "rpe": "Build toward 7–8/10; final rep ≤8/10"
+      "rpe": "3/10; 2–4 acceptable"
     },
     "flags": [
-      "Watch alerts 6:35–6:45/mi guide pacing; faster reps can count toward progression when effort and recovery requirements are met."
+      "Saved bike settings: height about 10; seat −2 (possibly −1); handle +3."
     ],
-    "workoutFile": "runs/2026-11-10.workout"
+    "workoutFile": null
   },
   "adaptation": [
     {
-      "exercise": "Tuesday running pace",
-      "previous": "November 3: 3×4 at 6:28/6:37/6:31 per mile, RPE 5/6/7; prescribed target 6:50.",
-      "decision": "Increase pace by 10 seconds per mile to 6:40.",
-      "reason": "The slowest rep gives 13 seconds of headroom. The pace-first rule rounds that down to a 10-second increase; apply this result once."
+      "exercise": "Tuesday run result",
+      "previous": "November 10: 6:44/6:35/6:31 per mile at RPE 7/8/8; 4.43 miles confirmed. Target was 6:40.",
+      "decision": "First hit at this target. Keep next Tuesday at 3×4 minutes at 6:40/mi.",
+      "reason": "All reps pass the one-sided pace check and RPE 8 meets the cap. The slowest rep provides no faster-target headroom; one hit and final RPE 8 do not yet earn more speed or minutes."
     },
     {
-      "exercise": "Running work and recovery",
-      "previous": "Three 4-minute work reps with two 3-minute recoveries.",
-      "decision": "Keep 12 work minutes, the same recoveries and RPE cap 8.",
-      "reason": "Pace and work minutes do not increase together. W3’s four-rep ceiling does not require a fourth rep."
+      "exercise": "Laterals, rear delts and calves",
+      "previous": "November 4: laterals 35×13/12/12 at RIR 3; reverse pec deck 145×12/15 at RIR 6/3; calves 365×12/13/13 at RIR 3.",
+      "decision": "Keep the same weights. Prescribe 4 lateral, 2 rear-delt and 4 calf sets at 2–3 RIR.",
+      "reason": "Stage C supplies the full set counts. W3 has no selected test requiring a calf omission; no ordinary ramp load increase is earned."
     },
     {
-      "exercise": "Monday Upper A",
-      "previous": "All 18 sets met their rep and effort targets, including four lateral-raise sets and three pushdown sets.",
-      "decision": "Record the full Stage-C session and retain established lift loads.",
-      "reason": "One completed session starts the W3 review; the existing ramp rules still apply."
+      "exercise": "Preacher and hammer curls",
+      "previous": "November 4: preacher 75×9 per arm and hammer 50×16, one set each at RIR 3; elbow symptom-free during and afterward.",
+      "decision": "Use two sets each: preacher 75 lb for 8–12 per arm; hammer 50 lb for 10–15. Keep 3 RIR.",
+      "reason": "The prior working-response review released the temporary hold and authorized normal sets. Retain the weights while the second sets return; keep rep ranges rather than fixed maintenance reps."
     },
     {
-      "exercise": "Lat pulldown",
-      "previous": "Monday: 160×8/8 at RIR 3, versus 155 lb prescribed.",
-      "decision": "Retain 160 lb for the next appropriate exposure.",
-      "reason": "Both performed sets now match the target effort. Preserve the original prescription and replace its pending reduction."
+      "exercise": "Bike",
+      "previous": "November 4: 20 minutes at RPE 2, average HR 149; later lifting and running supported the dose.",
+      "decision": "Keep 20 minutes after lifting, using saved settings.",
+      "reason": "The W3 ceiling is 20 minutes. No duration increase is prescribed."
     },
     {
-      "exercise": "Weekly running and schedule",
-      "previous": "Friday is now delts/arms B plus bike; the longer run is Saturday November 14.",
-      "decision": "Tuesday 3×4 at 6:40; Saturday’s earned 3×6 at 7:10 remains queued.",
-      "reason": "Estimated full-week running is 10.19 miles, up to 11.42 under the stated planning assumptions, below the 15-mile cap. Planned miles are not logged miles."
+      "exercise": "Mileage and shoes",
+      "previous": "Evo SL tracked total before this run: 9.35 miles. You confirmed 4.43 miles and previously identified Evo SL as your only current pair.",
+      "decision": "Add this run once: Evo SL tracked total 13.78 miles.",
+      "reason": "Use the confirmed total rather than summing rounded interval distances. Saturday’s earned 7:10 target remains independent and queued."
     }
   ],
   "currentLoads": [
@@ -123,35 +165,35 @@
       "exercise": "WE1 — DB lateral raise",
       "load": "35 lb",
       "lastVerified": "2026-11-04 (reported)",
-      "note": "November 4: 35×13/12/12 at RIR 3. Hold 35 lb during the ramp; added third set completed."
+      "note": "November 4: 35×13/12/12 at RIR 3. Hold 35 lb and add the fourth set for achieved Stage C."
     },
     {
       "slotId": "WE2",
       "exercise": "WE2 — Unilateral machine preacher curl",
       "load": "75 lb",
       "lastVerified": "2026-11-04 (reported)",
-      "note": "November 4: 75×9 per arm at RIR 3, one counted set; elbow symptom-free during and afterward. Temporary hold released. Next normal dose: 2×8–12 per arm, retaining 75 lb."
+      "note": "November 4: 75×9 per arm at RIR 3, symptom-free during and afterward. The temporary hold was released in #470; restore the second set at the same 75 lb, with an 8–12 range and RIR 3."
     },
     {
       "slotId": "WE3",
       "exercise": "WE3 — Reverse pec deck",
       "load": "145 lb",
       "lastVerified": "2026-11-04 (reported)",
-      "note": "November 4: 145×12/15 at RIR 6/3. Preserve both reserve values; hold 145 lb during the ramp."
+      "note": "November 4: 145×12/15 at RIR 6/3. Hold 145 lb for two sets; Stage C targets 2–3 RIR."
     },
     {
       "slotId": "WE4",
       "exercise": "WE4 — Rope cable hammer curl",
       "load": "50 lb",
       "lastVerified": "2026-11-04 (reported)",
-      "note": "November 4: 50×16 at RIR 3, one set; elbow symptom-free during and afterward. Temporary hold released. Next normal dose: 2×10–15, retaining 50 lb."
+      "note": "November 4: 50×16 at RIR 3, symptom-free during and afterward. Restore the second set under #470, retain 50 lb and prescribe 10–15 at RIR 3. The over-range prior rep does not earn a ramp load increase."
     },
     {
       "slotId": "WE5",
       "exercise": "WE5 — Leg-press calf raise",
       "load": "365 lb",
       "lastVerified": "2026-11-04 (reported)",
-      "note": "November 4: 365×12/13/13 at RIR 3. Hold 365 lb during the ramp; no new Achilles-specific response supplied."
+      "note": "November 4: 365×12/13/13 at RIR 3. Hold 365 lb and add the fourth set for achieved Stage C. No test was selected, so no assessment calf omission applies."
     },
     {
       "slotId": "T1",

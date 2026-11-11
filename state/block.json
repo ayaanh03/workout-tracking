@@ -6,7 +6,7 @@
   "start_date": "2026-10-25",
   "end_date": "2027-01-03",
   "timezone": "America/New_York",
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-10",
   "activation_status": "active",
   "calendar_week": "W3",
   "calendar_phase": "Ramp",
@@ -56,7 +56,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 483,
+  "last_adjustment_id": 484,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -421,6 +421,28 @@
         "reason": "Standing athlete default supplies ordinary recovery and next-workout readiness. Monday performance is reported; no new observed recovery or specific injury response is inferred."
       },
       "review_note": "All 18 sets meet ranges and effort targets. Preserve original 155 lb M5 prescription alongside actual 160×8/8 at RIR 3; retain 160 going forward. No ordinary ramp progression credit or injury clearance."
+    },
+    "2026-11-10": {
+      "calendar_week": "W3",
+      "session": "Tuesday intervals",
+      "session_id": "hybrid-2026-10-26-w3-tue-2026-11-10",
+      "status": "completed",
+      "work_minutes": 12,
+      "distance_miles": 4.43,
+      "duration_seconds_from_segments": 2280,
+      "actual_ref": "../history/cardio-log.md#2026-11-10--hybrid-v11-w3-tuesday-intervals",
+      "prescription_id": "hybrid-2026-10-26-tue-intervals-483",
+      "classification": "hit",
+      "recovery_status": "general-recovery-assumed-good",
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 484,
+        "recorded_at": "2026-11-10T19:00:27-05:00",
+        "observed": false,
+        "reason": "Standing athlete recovery default applies to ordinary run classification and Wednesday planning. The run is completed; no fresh symptom or observed next-day recovery report is inferred."
+      },
+      "review_note": "6:44/6:35/6:31 with RPE 7/8/8, three full 4-minute reps and two displayed 3-minute recoveries. First hit at the new 6:40 target; 6:44 is within the 5-second allowance. Hold 3×4 at 6:40 next Tuesday. Confirmed 4.43 mi attributed to the sole-current Evo SL pair."
     }
   },
   "planned_start_date": "2026-10-26",
@@ -516,16 +538,16 @@
       "range_end": "2026-11-15",
       "stage": "C",
       "completion": "in-progress",
-      "completed_sessions": 1,
+      "completed_sessions": 2,
       "known_lifting_sets": 18,
-      "known_running_work_minutes": 0,
-      "confirmed_running_miles": 0,
+      "known_running_work_minutes": 12,
+      "confirmed_running_miles": 4.43,
       "known_cycling_minutes": 0,
       "manageable": null,
       "status": "week-in-progress",
-      "decision_id": 483,
-      "source": "../history/lifting-log.md#2026-11-09--hybrid-v11-w3-monday-upper-a",
-      "note": "Monday Upper A is completed: 18 sets in range at appropriate effort. Remaining six sessions are unperformed. Stay at Stage C; no completed-week or Stage-D claim."
+      "decision_id": 484,
+      "source": "../history/cardio-log.md#2026-11-10--hybrid-v11-w3-tuesday-intervals",
+      "note": "Monday Upper A and Tuesday intervals completed: 18 lifting sets, 12 running work minutes and 4.43 confirmed miles. Five sessions remain unperformed; W3 stays in progress at Stage C."
     }
   },
   "program_amendments": [
@@ -617,12 +639,12 @@
     "publish_next_workout": true,
     "default_recovery": "assumed-good-unless-reported-otherwise",
     "source": "../program/readiness.md",
-    "last_generated_date": "2026-11-10",
-    "last_generated_prescription_id": "hybrid-2026-10-26-tue-intervals-483",
-    "last_generated_from_session_id": "hybrid-2026-10-26-w3-mon-2026-11-09",
+    "last_generated_date": "2026-11-11",
+    "last_generated_prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-484",
+    "last_generated_from_session_id": "hybrid-2026-10-26-w3-tue-2026-11-10",
     "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping.",
     "last_generation_trigger": "completed-session-log",
-    "last_generation_decision_id": 483
+    "last_generation_decision_id": 484
   },
   "session_freeze_history": [
     {

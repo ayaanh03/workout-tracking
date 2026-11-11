@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-09T19:33:49-05:00",
+  "generatedAt": "2026-11-10T19:00:27-05:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W3",
   "phase": "Hybrid v11 — Stage C",
   "rangeStart": "2026-11-09",
   "rangeEnd": "2026-11-15",
-  "summary": "W3, November 9–15: Monday Upper A completed, 18 lifting sets logged. Tuesday preview: 3×4 at 6:40/mi with 3-minute recoveries. Friday remains delts/arms B plus bike; Saturday’s longer run is queued at 3×6 at 7:10/mi. Plan 82 lifting sets and 40 bike minutes this week, subject to new reports.",
+  "summary": "W3, November 9–15: Monday Upper A and Tuesday intervals completed—18 lifting sets and 4.43 running miles logged. Wednesday preview: 14 sets plus 20 minutes of easy bike. Friday remains delts/arms B plus bike; Saturday’s longer run is queued at 3×6 at 7:10/mi. Full-week plan remains 82 lifting sets and 40 bike minutes.",
   "days": [
     {
       "date": "2026-11-09",
@@ -19,14 +19,14 @@
       "date": "2026-11-10",
       "day": "Tue",
       "session": "Intervals",
-      "note": "Preview ready: 10-minute warmup, 3×4 at 6:40/mi with two 3-minute recoveries, 10-minute cooldown. Final rep RPE ≤8. Faster pace, same 12 work minutes; Watch download ready.",
-      "status": "upcoming"
+      "note": "Completed 3×4 at 6:44/6:35/6:31 per mile, RPE 7/8/8, with two displayed 3-minute recoveries. Confirmed 4.43 mi in the sole-current Evo SL pair. First hit at 6:40; next Tuesday holds 3×4 at 6:40.",
+      "status": "done"
     },
     {
       "date": "2026-11-11",
       "day": "Wed",
       "session": "Delts/arms A + bike",
-      "note": "14 lifting sets. Bike afterward for 20 minutes at RPE 3 (2–4 acceptable). Saved settings: height about 10, seat −2 (possibly −1), handle +3.",
+      "note": "Preview ready: 35 lb laterals 4 sets; 75 lb preacher 2 per arm; 145 lb reverse pec deck 2; 50 lb hammer curls 2; 365 lb calves 4. Curls RIR 3, others 2–3; rest 2 min. Bike afterward 20 min at RPE 3 (2–4). Height about 10, seat −2 (possibly −1), handle +3.",
       "status": "upcoming"
     },
     {
@@ -59,14 +59,14 @@
     }
   ],
   "runningMileageCheck": {
-    "decisionId": 483,
-    "kind": "tuesday-prescribed-saturday-earned",
-    "recordedMiles": 0,
+    "decisionId": 484,
+    "kind": "tuesday-actual-saturday-earned",
+    "recordedMiles": 4.43,
     "estimatedUnconfirmedMiles": 0,
-    "estimatedMiles": 10.193980848153215,
-    "upperMiles": 11.422784810126583,
+    "estimatedMiles": 9.76515731874145,
+    "upperMiles": 10.382941176470588,
     "limitMiles": 15,
-    "status": "planned-below-limit",
-    "assumptions": "W3 plan: prescribed Tuesday 12 work minutes at 6:40/mi plus 26 easy minutes; prospective Saturday 18 work minutes at 7:10/mi plus 24 easy minutes. Easy estimate 8:30/mi. Upper uses work-alert boundaries 5 s/mi faster and 5 extra warmup minutes per run. Tuesday pace source is consumed for the issued preview; Saturday remains queued. Recheck when Saturday is prescribed. No planned mileage added to shoes."
+    "status": "actual-plus-plan-below-limit",
+    "assumptions": "Confirmed Tuesday 4.43 miles plus prospective Saturday 18 work minutes at 7:10/mi and 24 easy minutes at 8:30/mi. Upper uses Saturday work at 7:05/mi and five extra warmup minutes. Saturday remains earned, unperformed and unconsumed; recheck at generation. Only Tuesday actual mileage is added to shoes."
   }
 }

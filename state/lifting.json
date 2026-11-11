@@ -663,11 +663,26 @@
       },
       "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 470,
-        "action": "hold-load",
+        "decision_id": 484,
+        "action": "hold-load-at-stage-c-dose",
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-11",
+        "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-484",
+        "stage": "C",
         "load_lb": 35,
+        "sets": 4,
+        "rep_range": [
+          12,
+          20
+        ],
+        "target_rir_range": [
+          2,
+          3
+        ],
+        "minimum_rir": 2,
+        "rest_seconds": 120,
         "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
-        "reason": "November 4: 35×13/12/12 at RIR 3. Hold 35 lb during Stage B; added third set completed."
+        "reason": "November 4: 35×13/12/12 at RIR 3. Hold 35 lb and add the fourth set for achieved Stage C."
       }
     },
     "WE2": {
@@ -697,19 +712,28 @@
       },
       "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 470,
-        "action": "resume-stage-dose-at-current-load",
+        "decision_id": 484,
+        "action": "restore-normal-set-count-at-current-load",
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-11",
+        "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-484",
+        "stage": "C",
         "load_lb": 75,
         "sets": 2,
         "rep_range": [
           8,
           12
         ],
-        "target_rir": 3,
+        "target_rir_range": [
+          3,
+          3
+        ],
+        "minimum_rir": 3,
         "rest_seconds": 120,
-        "source": "../history/adjustments.md#2026-11-04--log-wednesday-and-release-biceps-maintenance",
-        "reason": "Symptom resolution and November 4 working-curl response are both confirmed. Resume normal achieved-stage sets/range at the same load; no fixed-rep maintenance cap or new load-progression credit.",
-        "symptom_action": "Adjust or omit if elbow symptoms return; incline curls remain the athlete-suspected prior trigger."
+        "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+        "reason": "November 4: 75×9 per arm at RIR 3, symptom-free during and afterward. The temporary hold was released in #470; restore the second set at the same 75 lb, with an 8–12 range and RIR 3.",
+        "per_arm": true,
+        "symptom_action": "Adjust or omit aggravating work if elbow symptoms return."
       }
     },
     "WE3": {
@@ -752,11 +776,26 @@
       },
       "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 470,
-        "action": "hold-load",
+        "decision_id": 484,
+        "action": "hold-load-at-stage-c-dose",
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-11",
+        "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-484",
+        "stage": "C",
         "load_lb": 145,
+        "sets": 2,
+        "rep_range": [
+          12,
+          20
+        ],
+        "target_rir_range": [
+          2,
+          3
+        ],
+        "minimum_rir": 2,
+        "rest_seconds": 120,
         "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
-        "reason": "November 4: 145×12/15 at RIR 6/3. Preserve both reserve values; hold 145 lb during Stage B."
+        "reason": "November 4: 145×12/15 at RIR 6/3. Hold 145 lb for two sets; Stage C targets 2–3 RIR."
       },
       "report_history": [
         {
@@ -801,19 +840,27 @@
       },
       "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 470,
-        "action": "resume-stage-dose-at-current-load",
+        "decision_id": 484,
+        "action": "restore-normal-set-count-at-current-load",
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-11",
+        "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-484",
+        "stage": "C",
         "load_lb": 50,
         "sets": 2,
         "rep_range": [
           10,
           15
         ],
-        "target_rir": 3,
+        "target_rir_range": [
+          3,
+          3
+        ],
+        "minimum_rir": 3,
         "rest_seconds": 120,
-        "source": "../history/adjustments.md#2026-11-04--log-wednesday-and-release-biceps-maintenance",
-        "reason": "Symptom resolution and November 4 working-curl response are both confirmed. Resume normal achieved-stage sets/range at the same load; no fixed-rep maintenance cap or new load-progression credit.",
-        "symptom_action": "Adjust or omit if elbow symptoms return; incline curls remain the athlete-suspected prior trigger."
+        "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+        "reason": "November 4: 50×16 at RIR 3, symptom-free during and afterward. Restore the second set under #470, retain 50 lb and prescribe 10–15 at RIR 3. The over-range prior rep does not earn a ramp load increase.",
+        "symptom_action": "Adjust or omit aggravating work if elbow symptoms return."
       }
     },
     "WE5": {
@@ -853,11 +900,26 @@
       },
       "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 470,
-        "action": "hold-load",
+        "decision_id": 484,
+        "action": "hold-load-at-stage-c-dose",
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-11",
+        "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-484",
+        "stage": "C",
         "load_lb": 365,
+        "sets": 4,
+        "rep_range": [
+          10,
+          15
+        ],
+        "target_rir_range": [
+          2,
+          3
+        ],
+        "minimum_rir": 2,
+        "rest_seconds": 120,
         "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
-        "reason": "November 4: 365×12/13/13 at RIR 3. Hold 365 lb during Stage B; no new Achilles-specific response supplied."
+        "reason": "November 4: 365×12/13/13 at RIR 3. Hold 365 lb and add the fourth set for achieved Stage C. No test was selected, so no assessment calf omission applies."
       }
     },
     "T1": {
