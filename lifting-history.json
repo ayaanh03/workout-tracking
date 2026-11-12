@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "blockId": "hybrid-2026-10-26",
-  "generatedAt": "2026-11-09T19:33:49-05:00",
+  "generatedAt": "2026-11-11T19:49:39-05:00",
   "sessions": [
     {
       "date": "2026-10-25",
@@ -1572,6 +1572,139 @@
         }
       ],
       "notes": "All 18 sets met the rep and effort targets. Pulldowns performed at 160 lb rather than the planned 155 lb. No fresh symptom or recovery report supplied."
+    },
+    {
+      "date": "2026-11-11",
+      "week": "W3",
+      "stage": "C",
+      "sessionName": "Delts/arms A + bike",
+      "sessionId": "hybrid-2026-10-26-w3-wed-2026-11-11",
+      "prescriptionId": "hybrid-2026-10-26-wed-delts-arms-a-484",
+      "actualRef": "history/lifting-log.md#2026-11-11--hybrid-v11-w3-wednesday-deltsarms-a",
+      "exercises": [
+        {
+          "slotId": "WE1",
+          "exercise": "DB lateral raise",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 4
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            }
+          ],
+          "note": "35×12/12/12/12 at RIR 4/3/3/3. Fourth set completed; hold 35 lb under Stage C. The first set had extra reserve."
+        },
+        {
+          "slotId": "WE2",
+          "exercise": "Unilateral machine preacher curl",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 90,
+              "units": "lb",
+              "reps": 8,
+              "rir": 1
+            },
+            {
+              "load": 75,
+              "units": "lb",
+              "reps": 9,
+              "rir": 3
+            }
+          ],
+          "note": "90×8 at RIR 1 overshot the prescribed RIR 3; 75×9 at RIR 3 supports retaining 75 lb, 2×8–12 per arm at minimum 3 RIR. No 90 lb promotion; current elbow response is unreported."
+        },
+        {
+          "slotId": "WE3",
+          "exercise": "Reverse pec deck",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 145,
+              "units": "lb",
+              "reps": 15,
+              "rir": 3
+            },
+            {
+              "load": 145,
+              "units": "lb",
+              "reps": 15,
+              "rir": 3
+            }
+          ]
+        },
+        {
+          "slotId": "WE4",
+          "exercise": "Rope cable hammer curl",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 15,
+              "rir": 3
+            },
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 15,
+              "rir": 3
+            }
+          ]
+        },
+        {
+          "slotId": "WE5",
+          "exercise": "Leg-press calf raise",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 365,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 365,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 365,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 365,
+              "units": "lb",
+              "reps": 12,
+              "rir": 2
+            }
+          ]
+        }
+      ],
+      "notes": "All 14 sets recorded. Preacher first set used 90 lb rather than 75 and reached RIR 1 versus prescribed 3; retain 75 lb. Bike 20:25 at 130 W average, HR 145. No fresh symptom response supplied."
     }
   ]
 }

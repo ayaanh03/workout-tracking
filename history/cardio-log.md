@@ -219,3 +219,21 @@ Athlete confirms **4.43 mi**; rounded displayed distances sum to **4.42 mi**. Se
 **Hold next normal Tuesday at 3×4 at 6:40/mi**: slowest-rep headroom is **−4 seconds**, final RPE 8 is above comfortable threshold 6, and only one hit exists at this prescription. RPE 8 also exceeds the ≤7 gate for adding work minutes. The November 3 source was already consumed by #483 and cannot earn another increase. Preserve Saturday’s separate queued November 14 pace award at 7:10, unused.
 
 Attribute this run to **Evo SL**, the sole current pair established November 7. Add confirmed 4.43 mi once: **9.35 →13.78 tracked miles**. Preserve the inactive Vomero ledger and all previous additions. Wednesday November 11 remains a preview: **20-minute bike after lifting, RPE 3 (2–4 acceptable)** under the W3 ceiling, using saved bike settings. Decision #484.
+
+## 2026-11-11 — Hybrid v11 W3 Wednesday bike
+
+Session ID: `hybrid-2026-10-26-w3-wed-2026-11-11-bike`. Original prescription `hybrid-2026-10-26-wed-delts-arms-a-484`: **20 minutes after lifting, RPE 3/10 (2–4 acceptable)**. Athlete: **“Bike 20 min 130W avg”**, plus the November 11 Apple Fitness screenshot.
+
+Exact workout time **20:25 (1,225 seconds)**, average power **130 W** from athlete text, and screenshot average HR **145 bpm**. Screenshot displays **effort 4 — Moderate**; whether manually entered or estimated is unknown, and no separate athlete-reported numeric RPE was supplied. Record active **231 kcal**, total **263 kcal**. The displayed effort is within the prescribed acceptable range; HR and power remain descriptive rather than new targets.
+
+| Displayed HR zone | Time | Range |
+|---|---|---|
+| 1 | 1:29 | <137 bpm |
+| 2 | 18:01 | 138–150 bpm |
+| 3 | 0:38 | 151–163 bpm |
+| 4 | 0:00 | 164–175 bpm |
+| 5 | 0:00 | 176+ bpm |
+
+Estimated zones sum to **20:08 (1,208 seconds)**, **17 seconds less** than workout time; retain that difference without inventing coverage or pauses. The chart's upper axis **154** is not a measured maximum HR. Distance, cadence, settings actually used, conversation test and bike-specific symptom response were not reported. Preserve the saved bike settings separately; no running or shoe mileage is added.
+
+Keep **last tolerated / next ordinary dose at 20 minutes**. The additional 25 seconds are actual duration, not earned progression. Subsequent Thursday November 12 lifting and Saturday November 14 running are still unperformed; review those actuals when logged. Ordinary recovery uses the athlete's standing assumed-good default, without claiming an observed recovery report or blocking the established 20-minute dose. W4's 25-minute ceiling does not itself earn an increase. Preserve the previous Wednesday actual and validation decisions; Tuesday and Saturday run state and the separate Friday bike track are unchanged. Rules: `program/endurance.md#cycling`, `program/readiness.md`. Decision **#485**.

@@ -631,20 +631,25 @@
       "load": 35,
       "units": "lb",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+      "load_source": "../history/lifting-log.md#2026-11-11--hybrid-v11-w3-wednesday-deltsarms-a",
       "equipment": "Dumbbells",
       "setup": null,
       "load_convention": "Same legacy dumbbell load notation; retain that convention.",
       "last_actual": {
-        "date": "2026-11-04",
-        "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
-        "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
-        "stage": "B",
-        "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-468",
+        "date": "2026-11-11",
+        "session_id": "hybrid-2026-10-26-w3-wed-2026-11-11",
+        "source": "../history/lifting-log.md#2026-11-11--hybrid-v11-w3-wednesday-deltsarms-a",
+        "stage": "C",
+        "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-484",
         "sets": [
           {
             "load": 35,
-            "reps": 13,
+            "reps": 12,
+            "rir": 4
+          },
+          {
+            "load": 35,
+            "reps": 12,
             "rir": 3
           },
           {
@@ -659,15 +664,13 @@
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-B ramp; no ordinary load-progression or plateau credit. Original prescription retained separately."
+        "reason": "Stage-C ramp; no ordinary load-progression or plateau credit. 35×12/12/12/12 at RIR 4/3/3/3. Fourth set completed; hold 35 lb under Stage C. The first set had extra reserve."
       },
-      "new_exposure_count": 2,
+      "new_exposure_count": 3,
       "next_action": {
-        "decision_id": 484,
-        "action": "hold-load-at-stage-c-dose",
-        "status": "prescribed-not-performed",
-        "for_date": "2026-11-11",
-        "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-484",
+        "decision_id": 485,
+        "action": "hold-load-at-next-matching-slot",
+        "status": "recommendation-for-next-exposure",
         "stage": "C",
         "load_lb": 35,
         "sets": 4,
@@ -681,26 +684,83 @@
         ],
         "minimum_rir": 2,
         "rest_seconds": 120,
-        "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
-        "reason": "November 4: 35×13/12/12 at RIR 3. Hold 35 lb and add the fourth set for achieved Stage C."
-      }
+        "source": "../history/lifting-log.md#2026-11-11--hybrid-v11-w3-wednesday-deltsarms-a",
+        "reason": "35×12/12/12/12 at RIR 4/3/3/3. Fourth set completed; hold 35 lb under Stage C. The first set had extra reserve."
+      },
+      "actual_history": [
+        {
+          "date": "2026-11-04",
+          "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
+          "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+          "stage": "B",
+          "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-468",
+          "sets": [
+            {
+              "load": 35,
+              "reps": 13,
+              "rir": 3
+            },
+            {
+              "load": 35,
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 35,
+              "reps": 12,
+              "rir": 3
+            }
+          ],
+          "progression_eligible": false,
+          "reason": "Stage-B ramp; no ordinary load-progression or plateau credit. Original prescription retained separately."
+        }
+      ],
+      "next_action_history": [
+        {
+          "decision_id": 484,
+          "action": "hold-load-at-stage-c-dose",
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-11",
+          "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-484",
+          "stage": "C",
+          "load_lb": 35,
+          "sets": 4,
+          "rep_range": [
+            12,
+            20
+          ],
+          "target_rir_range": [
+            2,
+            3
+          ],
+          "minimum_rir": 2,
+          "rest_seconds": 120,
+          "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+          "reason": "November 4: 35×13/12/12 at RIR 3. Hold 35 lb and add the fourth set for achieved Stage C."
+        }
+      ]
     },
     "WE2": {
       "exercise": "Unilateral machine preacher curl",
       "load": 75,
       "units": "lb",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+      "load_source": "../history/lifting-log.md#2026-11-11--hybrid-v11-w3-wednesday-deltsarms-a",
       "equipment": "Unilateral preacher curl machine",
       "setup": null,
       "load_convention": "Unilateral machine setting, each arm; no arm-specific differences reported. Machine model/settings not supplied.",
       "last_actual": {
-        "date": "2026-11-04",
-        "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
-        "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
-        "stage": "B",
-        "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-468",
+        "date": "2026-11-11",
+        "session_id": "hybrid-2026-10-26-w3-wed-2026-11-11",
+        "source": "../history/lifting-log.md#2026-11-11--hybrid-v11-w3-wednesday-deltsarms-a",
+        "stage": "C",
+        "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-484",
         "sets": [
+          {
+            "load": 90,
+            "reps": 8,
+            "rir": 1
+          },
           {
             "load": 75,
             "reps": 9,
@@ -708,15 +768,21 @@
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-B ramp; no ordinary load-progression or plateau credit. Original prescription retained separately."
+        "reason": "Stage-C ramp; no ordinary load-progression or plateau credit. 90×8 at RIR 1 overshot the prescribed RIR 3; 75×9 at RIR 3 supports retaining 75 lb, 2×8–12 per arm at minimum 3 RIR. No 90 lb promotion; current elbow response is unreported.",
+        "prescription_deviation": {
+          "prescribed_load_lb": 75,
+          "first_set_load_lb": 90,
+          "prescribed_rir": 3,
+          "actual_first_set_rir": 1,
+          "decision": "Keep 75 lb as the working load. No 90 lb progression; symptom response remains unreported."
+        },
+        "elbow_response": null
       },
-      "new_exposure_count": 2,
+      "new_exposure_count": 3,
       "next_action": {
-        "decision_id": 484,
-        "action": "restore-normal-set-count-at-current-load",
-        "status": "prescribed-not-performed",
-        "for_date": "2026-11-11",
-        "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-484",
+        "decision_id": 485,
+        "action": "hold-load-at-next-matching-slot",
+        "status": "recommendation-for-next-exposure",
         "stage": "C",
         "load_lb": 75,
         "sets": 2,
@@ -730,40 +796,84 @@
         ],
         "minimum_rir": 3,
         "rest_seconds": 120,
-        "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
-        "reason": "November 4: 75×9 per arm at RIR 3, symptom-free during and afterward. The temporary hold was released in #470; restore the second set at the same 75 lb, with an 8–12 range and RIR 3.",
+        "source": "../history/lifting-log.md#2026-11-11--hybrid-v11-w3-wednesday-deltsarms-a",
+        "reason": "90×8 at RIR 1 overshot the prescribed RIR 3; 75×9 at RIR 3 supports retaining 75 lb, 2×8–12 per arm at minimum 3 RIR. No 90 lb promotion; current elbow response is unreported.",
         "per_arm": true,
         "symptom_action": "Adjust or omit aggravating work if elbow symptoms return."
-      }
+      },
+      "actual_history": [
+        {
+          "date": "2026-11-04",
+          "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
+          "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+          "stage": "B",
+          "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-468",
+          "sets": [
+            {
+              "load": 75,
+              "reps": 9,
+              "rir": 3
+            }
+          ],
+          "progression_eligible": false,
+          "reason": "Stage-B ramp; no ordinary load-progression or plateau credit. Original prescription retained separately."
+        }
+      ],
+      "next_action_history": [
+        {
+          "decision_id": 484,
+          "action": "restore-normal-set-count-at-current-load",
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-11",
+          "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-484",
+          "stage": "C",
+          "load_lb": 75,
+          "sets": 2,
+          "rep_range": [
+            8,
+            12
+          ],
+          "target_rir_range": [
+            3,
+            3
+          ],
+          "minimum_rir": 3,
+          "rest_seconds": 120,
+          "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+          "reason": "November 4: 75×9 per arm at RIR 3, symptom-free during and afterward. The temporary hold was released in #470; restore the second set at the same 75 lb, with an 8–12 range and RIR 3.",
+          "per_arm": true,
+          "symptom_action": "Adjust or omit aggravating work if elbow symptoms return."
+        }
+      ]
     },
     "WE3": {
       "exercise": "Reverse pec deck",
       "load": 145,
       "latest_report": {
-        "date": "2026-11-04",
-        "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
-        "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
-        "report": "145 lb×12 RIR 6 / 145 lb×15 RIR 3",
+        "date": "2026-11-11",
+        "session_id": "hybrid-2026-10-26-w3-wed-2026-11-11",
+        "source": "../history/lifting-log.md#2026-11-11--hybrid-v11-w3-wednesday-deltsarms-a",
+        "report": "145 lb×15 RIR 3 / 145 lb×15 RIR 3",
         "completion_status": "completed",
-        "decision_id": 470
+        "decision_id": 485
       },
       "units": "lb",
       "equipment": "Reverse pec deck machine",
       "setup": null,
       "load_convention": "Athlete-reported machine setting in lb; machine model/settings not supplied.",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+      "load_source": "../history/lifting-log.md#2026-11-11--hybrid-v11-w3-wednesday-deltsarms-a",
       "last_actual": {
-        "date": "2026-11-04",
-        "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
-        "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
-        "stage": "B",
-        "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-468",
+        "date": "2026-11-11",
+        "session_id": "hybrid-2026-10-26-w3-wed-2026-11-11",
+        "source": "../history/lifting-log.md#2026-11-11--hybrid-v11-w3-wednesday-deltsarms-a",
+        "stage": "C",
+        "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-484",
         "sets": [
           {
             "load": 145,
-            "reps": 12,
-            "rir": 6
+            "reps": 15,
+            "rir": 3
           },
           {
             "load": 145,
@@ -772,15 +882,13 @@
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-B ramp; no ordinary load-progression or plateau credit. Original prescription retained separately."
+        "reason": "Stage-C ramp; no ordinary load-progression or plateau credit. 145×15/15 at RIR 3. Hold 145 lb for two sets under Stage C."
       },
-      "new_exposure_count": 2,
+      "new_exposure_count": 3,
       "next_action": {
-        "decision_id": 484,
-        "action": "hold-load-at-stage-c-dose",
-        "status": "prescribed-not-performed",
-        "for_date": "2026-11-11",
-        "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-484",
+        "decision_id": 485,
+        "action": "hold-load-at-next-matching-slot",
+        "status": "recommendation-for-next-exposure",
         "stage": "C",
         "load_lb": 145,
         "sets": 2,
@@ -794,8 +902,8 @@
         ],
         "minimum_rir": 2,
         "rest_seconds": 120,
-        "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
-        "reason": "November 4: 145×12/15 at RIR 6/3. Hold 145 lb for two sets; Stage C targets 2–3 RIR."
+        "source": "../history/lifting-log.md#2026-11-11--hybrid-v11-w3-wednesday-deltsarms-a",
+        "reason": "145×15/15 at RIR 3. Hold 145 lb for two sets under Stage C."
       },
       "report_history": [
         {
@@ -810,6 +918,61 @@
           "note": "Athlete confirms one reverse pec deck set: 145 lb ×12 at RIR 3. No missing load/reps/RIR remain.",
           "initial_report": "n/r",
           "resolved_on": "2026-10-28"
+        },
+        {
+          "date": "2026-11-04",
+          "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
+          "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+          "report": "145 lb×12 RIR 6 / 145 lb×15 RIR 3",
+          "completion_status": "completed",
+          "decision_id": 470
+        }
+      ],
+      "actual_history": [
+        {
+          "date": "2026-11-04",
+          "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
+          "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+          "stage": "B",
+          "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-468",
+          "sets": [
+            {
+              "load": 145,
+              "reps": 12,
+              "rir": 6
+            },
+            {
+              "load": 145,
+              "reps": 15,
+              "rir": 3
+            }
+          ],
+          "progression_eligible": false,
+          "reason": "Stage-B ramp; no ordinary load-progression or plateau credit. Original prescription retained separately."
+        }
+      ],
+      "next_action_history": [
+        {
+          "decision_id": 484,
+          "action": "hold-load-at-stage-c-dose",
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-11",
+          "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-484",
+          "stage": "C",
+          "load_lb": 145,
+          "sets": 2,
+          "rep_range": [
+            12,
+            20
+          ],
+          "target_rir_range": [
+            2,
+            3
+          ],
+          "minimum_rir": 2,
+          "rest_seconds": 120,
+          "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+          "reason": "November 4: 145×12/15 at RIR 6/3. Hold 145 lb for two sets; Stage C targets 2–3 RIR."
         }
       ]
     },
@@ -821,30 +984,33 @@
       "setup": null,
       "load_convention": "Athlete-reported rope cable setting, interpreted in the repository’s lb convention; station details not supplied.",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+      "load_source": "../history/lifting-log.md#2026-11-11--hybrid-v11-w3-wednesday-deltsarms-a",
       "last_actual": {
-        "date": "2026-11-04",
-        "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
-        "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
-        "stage": "B",
-        "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-468",
+        "date": "2026-11-11",
+        "session_id": "hybrid-2026-10-26-w3-wed-2026-11-11",
+        "source": "../history/lifting-log.md#2026-11-11--hybrid-v11-w3-wednesday-deltsarms-a",
+        "stage": "C",
+        "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-484",
         "sets": [
           {
             "load": 50,
-            "reps": 16,
+            "reps": 15,
+            "rir": 3
+          },
+          {
+            "load": 50,
+            "reps": 15,
             "rir": 3
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-B ramp; no ordinary load-progression or plateau credit. Original prescription retained separately."
+        "reason": "Stage-C ramp; no ordinary load-progression or plateau credit. 50×15/15 at RIR 3. Restored second set completed at the rep ceiling; hold 50 lb because ramp work earns no ordinary loading credit."
       },
-      "new_exposure_count": 2,
+      "new_exposure_count": 3,
       "next_action": {
-        "decision_id": 484,
-        "action": "restore-normal-set-count-at-current-load",
-        "status": "prescribed-not-performed",
-        "for_date": "2026-11-11",
-        "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-484",
+        "decision_id": 485,
+        "action": "hold-load-at-next-matching-slot",
+        "status": "recommendation-for-next-exposure",
         "stage": "C",
         "load_lb": 50,
         "sets": 2,
@@ -858,10 +1024,53 @@
         ],
         "minimum_rir": 3,
         "rest_seconds": 120,
-        "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
-        "reason": "November 4: 50×16 at RIR 3, symptom-free during and afterward. Restore the second set under #470, retain 50 lb and prescribe 10–15 at RIR 3. The over-range prior rep does not earn a ramp load increase.",
+        "source": "../history/lifting-log.md#2026-11-11--hybrid-v11-w3-wednesday-deltsarms-a",
+        "reason": "50×15/15 at RIR 3. Restored second set completed at the rep ceiling; hold 50 lb because ramp work earns no ordinary loading credit.",
         "symptom_action": "Adjust or omit aggravating work if elbow symptoms return."
-      }
+      },
+      "actual_history": [
+        {
+          "date": "2026-11-04",
+          "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
+          "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+          "stage": "B",
+          "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-468",
+          "sets": [
+            {
+              "load": 50,
+              "reps": 16,
+              "rir": 3
+            }
+          ],
+          "progression_eligible": false,
+          "reason": "Stage-B ramp; no ordinary load-progression or plateau credit. Original prescription retained separately."
+        }
+      ],
+      "next_action_history": [
+        {
+          "decision_id": 484,
+          "action": "restore-normal-set-count-at-current-load",
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-11",
+          "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-484",
+          "stage": "C",
+          "load_lb": 50,
+          "sets": 2,
+          "rep_range": [
+            10,
+            15
+          ],
+          "target_rir_range": [
+            3,
+            3
+          ],
+          "minimum_rir": 3,
+          "rest_seconds": 120,
+          "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+          "reason": "November 4: 50×16 at RIR 3, symptom-free during and afterward. Restore the second set under #470, retain 50 lb and prescribe 10–15 at RIR 3. The over-range prior rep does not earn a ramp load increase.",
+          "symptom_action": "Adjust or omit aggravating work if elbow symptoms return."
+        }
+      ]
     },
     "WE5": {
       "exercise": "Leg-press calf raise",
@@ -871,13 +1080,13 @@
       "setup": null,
       "load_convention": "Athlete-reported lb notation; machine model/settings and stack/plate/sled convention not reported. Retain the same setup and notation.",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+      "load_source": "../history/lifting-log.md#2026-11-11--hybrid-v11-w3-wednesday-deltsarms-a",
       "last_actual": {
-        "date": "2026-11-04",
-        "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
-        "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
-        "stage": "B",
-        "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-468",
+        "date": "2026-11-11",
+        "session_id": "hybrid-2026-10-26-w3-wed-2026-11-11",
+        "source": "../history/lifting-log.md#2026-11-11--hybrid-v11-w3-wednesday-deltsarms-a",
+        "stage": "C",
+        "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-484",
         "sets": [
           {
             "load": 365,
@@ -886,25 +1095,28 @@
           },
           {
             "load": 365,
-            "reps": 13,
+            "reps": 12,
             "rir": 3
           },
           {
             "load": 365,
-            "reps": 13,
+            "reps": 12,
             "rir": 3
+          },
+          {
+            "load": 365,
+            "reps": 12,
+            "rir": 2
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-B ramp; no ordinary load-progression or plateau credit. Original prescription retained separately."
+        "reason": "Stage-C ramp; no ordinary load-progression or plateau credit. 365×12/12/12/12 at RIR 3/3/3/2. Fourth set completed; hold 365 lb under Stage C."
       },
-      "new_exposure_count": 2,
+      "new_exposure_count": 3,
       "next_action": {
-        "decision_id": 484,
-        "action": "hold-load-at-stage-c-dose",
-        "status": "prescribed-not-performed",
-        "for_date": "2026-11-11",
-        "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-484",
+        "decision_id": 485,
+        "action": "hold-load-at-next-matching-slot",
+        "status": "recommendation-for-next-exposure",
         "stage": "C",
         "load_lb": 365,
         "sets": 4,
@@ -918,9 +1130,61 @@
         ],
         "minimum_rir": 2,
         "rest_seconds": 120,
-        "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
-        "reason": "November 4: 365×12/13/13 at RIR 3. Hold 365 lb and add the fourth set for achieved Stage C. No test was selected, so no assessment calf omission applies."
-      }
+        "source": "../history/lifting-log.md#2026-11-11--hybrid-v11-w3-wednesday-deltsarms-a",
+        "reason": "365×12/12/12/12 at RIR 3/3/3/2. Fourth set completed; hold 365 lb under Stage C."
+      },
+      "actual_history": [
+        {
+          "date": "2026-11-04",
+          "session_id": "hybrid-2026-10-26-w2-wed-2026-11-04",
+          "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+          "stage": "B",
+          "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-468",
+          "sets": [
+            {
+              "load": 365,
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 365,
+              "reps": 13,
+              "rir": 3
+            },
+            {
+              "load": 365,
+              "reps": 13,
+              "rir": 3
+            }
+          ],
+          "progression_eligible": false,
+          "reason": "Stage-B ramp; no ordinary load-progression or plateau credit. Original prescription retained separately."
+        }
+      ],
+      "next_action_history": [
+        {
+          "decision_id": 484,
+          "action": "hold-load-at-stage-c-dose",
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-11",
+          "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-484",
+          "stage": "C",
+          "load_lb": 365,
+          "sets": 4,
+          "rep_range": [
+            10,
+            15
+          ],
+          "target_rir_range": [
+            2,
+            3
+          ],
+          "minimum_rir": 2,
+          "rest_seconds": 120,
+          "source": "../history/lifting-log.md#2026-11-04--hybrid-v11-w2-wednesday-deltsarms-a",
+          "reason": "November 4: 365×12/13/13 at RIR 3. Hold 365 lb and add the fourth set for achieved Stage C. No test was selected, so no assessment calf omission applies."
+        }
+      ]
     },
     "T1": {
       "exercise": "Incline barbell bench",
@@ -959,12 +1223,39 @@
       },
       "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 473,
-        "action": "hold-load",
-        "load_lb": 135,
+        "decision_id": 485,
+        "action": "hold-load-at-stage-c-dose",
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-12",
+        "prescription_id": "hybrid-2026-10-26-thu-upper-b-485",
+        "stage": "C",
+        "sets": 3,
+        "rep_range": [
+          6,
+          8
+        ],
+        "minimum_rir": 2,
+        "rest_seconds_range": [
+          180,
+          180
+        ],
         "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
-        "reason": "135×8/8/8 at RIR3 reaches every rep ceiling. Hold135 during StageB; no ordinary loading qualification until eligible normal training."
-      }
+        "reason": "November 5: 135×8/8/8 at RIR 3. Hold 135 lb for 3×6–8 under the unchanged Stage-C ramp rule; rep ceilings do not yet award ordinary load progression.",
+        "load_lb": 135,
+        "target_rir_range": [
+          2,
+          3
+        ]
+      },
+      "next_action_history": [
+        {
+          "decision_id": 473,
+          "action": "hold-load",
+          "load_lb": 135,
+          "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+          "reason": "135×8/8/8 at RIR3 reaches every rep ceiling. Hold135 during StageB; no ordinary loading qualification until eligible normal training."
+        }
+      ]
     },
     "T2": {
       "exercise": "Unilateral machine preacher curl",
@@ -1091,22 +1382,48 @@
         "preserved_final_cable_session_id": "hybrid-2026-10-26-w2-thu-2026-11-05"
       },
       "next_action": {
-        "decision_id": 473,
-        "action": "start-authorized-replacement-at-next-thursday",
+        "decision_id": 485,
+        "action": "start-authorized-replacement",
+        "status": "prescribed-not-performed",
         "for_date": "2026-11-12",
-        "load_lb": 75,
+        "prescription_id": "hybrid-2026-10-26-thu-upper-b-485",
+        "stage": "C",
         "sets": 2,
         "rep_range": [
           8,
           12
         ],
-        "per_arm": true,
-        "target_rir": 3,
         "minimum_rir": 3,
-        "rest_seconds": 120,
-        "source": "../history/adjustments.md#2026-11-05--log-thursday-and-generate-friday",
-        "reason": "WE2 November4 75×9 at RIR3 is a starting reference only; no T2 preacher work or progression credit yet. Current StageB calls for two sets; adjust load if needed to retain range/reserve comfortably."
-      }
+        "rest_seconds_range": [
+          120,
+          120
+        ],
+        "source": "../history/lifting-log.md#2026-11-11--hybrid-v11-w3-wednesday-deltsarms-a",
+        "reason": "First T2 preacher session replaces only standard cable curls. Wednesday November 11: 90×8 at RIR 1 then 75×9 at RIR 3. Start 75 lb, lower if needed for 8–12 per arm at least 3 RIR; no T2 actual or credit transfers. Adjust or omit if elbow symptoms recur.",
+        "load_lb": 75,
+        "target_rir": 3,
+        "per_arm": true,
+        "symptom_action": "Reduce or omit aggravating work if symptoms recur; do not force the prescribed load or rep floor."
+      },
+      "next_action_history": [
+        {
+          "decision_id": 473,
+          "action": "start-authorized-replacement-at-next-thursday",
+          "for_date": "2026-11-12",
+          "load_lb": 75,
+          "sets": 2,
+          "rep_range": [
+            8,
+            12
+          ],
+          "per_arm": true,
+          "target_rir": 3,
+          "minimum_rir": 3,
+          "rest_seconds": 120,
+          "source": "../history/adjustments.md#2026-11-05--log-thursday-and-generate-friday",
+          "reason": "WE2 November4 75×9 at RIR3 is a starting reference only; no T2 preacher work or progression credit yet. Current StageB calls for two sets; adjust load if needed to retain range/reserve comfortably."
+        }
+      ]
     },
     "T3": {
       "exercise": "DB lateral raise",
@@ -1145,12 +1462,39 @@
       },
       "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 473,
-        "action": "hold-load",
-        "load_lb": 35,
+        "decision_id": 485,
+        "action": "hold-load-at-stage-c-dose",
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-12",
+        "prescription_id": "hybrid-2026-10-26-thu-upper-b-485",
+        "stage": "C",
+        "sets": 4,
+        "rep_range": [
+          12,
+          20
+        ],
+        "minimum_rir": 2,
+        "rest_seconds_range": [
+          120,
+          120
+        ],
         "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
-        "reason": "All reported sets fit the range at RIR3. Hold suitable loads during StageB; no ordinary ramp credit."
-      }
+        "reason": "November 5: 35×15/12/12 at RIR 3. Hold 35 lb and add the fourth set for achieved Stage C.",
+        "load_lb": 35,
+        "target_rir_range": [
+          2,
+          3
+        ]
+      },
+      "next_action_history": [
+        {
+          "decision_id": 473,
+          "action": "hold-load",
+          "load_lb": 35,
+          "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+          "reason": "All reported sets fit the range at RIR3. Hold suitable loads during StageB; no ordinary ramp credit."
+        }
+      ]
     },
     "T4": {
       "exercise": "Pull-up",
@@ -1184,13 +1528,40 @@
       },
       "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 473,
-        "action": "hold-load",
-        "load_lb": 0,
+        "decision_id": 485,
+        "action": "hold-load-at-stage-c-dose",
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-12",
+        "prescription_id": "hybrid-2026-10-26-thu-upper-b-485",
+        "stage": "C",
+        "sets": 2,
+        "rep_range": [
+          6,
+          12
+        ],
+        "minimum_rir": 2,
+        "rest_seconds_range": [
+          120,
+          180
+        ],
         "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
-        "reason": "All reported sets fit the range at RIR3. Hold suitable loads during StageB; no ordinary ramp credit."
+        "reason": "November 5: bodyweight, 0 lb added, 9/9 at RIR 3. Hold bodyweight for two sets under Stage C.",
+        "load_lb": 0,
+        "target_rir_range": [
+          2,
+          3
+        ]
       },
-      "bodyweight_lb": null
+      "bodyweight_lb": null,
+      "next_action_history": [
+        {
+          "decision_id": 473,
+          "action": "hold-load",
+          "load_lb": 0,
+          "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+          "reason": "All reported sets fit the range at RIR3. Hold suitable loads during StageB; no ordinary ramp credit."
+        }
+      ]
     },
     "T5": {
       "exercise": "Cable pushdown",
@@ -1224,12 +1595,39 @@
       },
       "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 473,
-        "action": "hold-load",
-        "load_lb": 50,
+        "decision_id": 485,
+        "action": "hold-load-at-stage-c-dose",
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-12",
+        "prescription_id": "hybrid-2026-10-26-thu-upper-b-485",
+        "stage": "C",
+        "sets": 3,
+        "rep_range": [
+          10,
+          15
+        ],
+        "minimum_rir": 2,
+        "rest_seconds_range": [
+          120,
+          120
+        ],
         "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
-        "reason": "All reported sets fit the range at RIR3. Hold suitable loads during StageB; no ordinary ramp credit."
-      }
+        "reason": "November 5: 50×15/10 at RIR 3. Hold 50 lb and add the third set for achieved Stage C.",
+        "load_lb": 50,
+        "target_rir_range": [
+          2,
+          3
+        ]
+      },
+      "next_action_history": [
+        {
+          "decision_id": 473,
+          "action": "hold-load",
+          "load_lb": 50,
+          "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+          "reason": "All reported sets fit the range at RIR3. Hold suitable loads during StageB; no ordinary ramp credit."
+        }
+      ]
     },
     "T6": {
       "exercise": "Seated cable row",
@@ -1263,12 +1661,39 @@
       },
       "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 473,
-        "action": "hold-load",
-        "load_lb": 120,
+        "decision_id": 485,
+        "action": "hold-load-at-stage-c-dose",
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-12",
+        "prescription_id": "hybrid-2026-10-26-thu-upper-b-485",
+        "stage": "C",
+        "sets": 2,
+        "rep_range": [
+          8,
+          12
+        ],
+        "minimum_rir": 2,
+        "rest_seconds_range": [
+          120,
+          180
+        ],
         "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
-        "reason": "All reported sets fit the range at RIR3. Hold suitable loads during StageB; no ordinary ramp credit."
-      }
+        "reason": "November 5: 120×8/9 at RIR 3. Hold 120 lb for two sets under Stage C.",
+        "load_lb": 120,
+        "target_rir_range": [
+          2,
+          3
+        ]
+      },
+      "next_action_history": [
+        {
+          "decision_id": 473,
+          "action": "hold-load",
+          "load_lb": 120,
+          "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+          "reason": "All reported sets fit the range at RIR3. Hold suitable loads during StageB; no ordinary ramp credit."
+        }
+      ]
     },
     "T7": {
       "exercise": "Cable crunch",
@@ -1354,13 +1779,39 @@
         "qualifying_exposures": 0,
         "note": "First performed Thursday decline-crunch exposure; October29 was a separate unweighted circuit. Current session-specific symptom response is unreported. Baseline cable crunch remains uninitialized.",
         "next_action": {
-          "decision_id": 473,
-          "action": "hold-bodyweight-under-local-limit",
-          "maximum_sets": 2,
+          "decision_id": 485,
+          "action": "hold-load-at-stage-c-dose",
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-12",
+          "prescription_id": "hybrid-2026-10-26-thu-upper-b-485",
+          "stage": "C",
+          "sets": 2,
+          "rep_range": [
+            10,
+            15
+          ],
           "minimum_rir": 3,
+          "rest_seconds_range": [
+            120,
+            120
+          ],
           "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
-          "reason": "Keep the existing BW substitution and two-set ceiling. The log supplies reps/RIR, not new injury-loading clearance."
-        }
+          "reason": "November 5: BW 15/12 at RIR 3. Keep bodyweight only, maximum two sets and minimum 3 RIR; later BW results do not clear the existing loaded-ab gate.",
+          "load": "BW",
+          "external_load_lb": 0,
+          "maximum_sets": 2,
+          "target_rir": 3
+        },
+        "next_action_history": [
+          {
+            "decision_id": 473,
+            "action": "hold-bodyweight-under-local-limit",
+            "maximum_sets": 2,
+            "minimum_rir": 3,
+            "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+            "reason": "Keep the existing BW substitution and two-set ceiling. The log supplies reps/RIR, not new injury-loading clearance."
+          }
+        ]
       }
     },
     "T8": {
@@ -1395,12 +1846,39 @@
       },
       "new_exposure_count": 2,
       "next_action": {
-        "decision_id": 473,
-        "action": "hold-load",
-        "load_lb": 50,
+        "decision_id": 485,
+        "action": "hold-load-at-stage-c-dose",
+        "status": "prescribed-not-performed",
+        "for_date": "2026-11-12",
+        "prescription_id": "hybrid-2026-10-26-thu-upper-b-485",
+        "stage": "C",
+        "sets": 2,
+        "rep_range": [
+          10,
+          15
+        ],
+        "minimum_rir": 2,
+        "rest_seconds_range": [
+          120,
+          120
+        ],
         "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
-        "reason": "All reported sets fit the range at RIR3. Hold suitable loads during StageB; no ordinary ramp credit."
-      }
+        "reason": "November 5: 50×12/10 at RIR 3. Hold 50 lb for two sets under Stage C.",
+        "load_lb": 50,
+        "target_rir_range": [
+          2,
+          3
+        ]
+      },
+      "next_action_history": [
+        {
+          "decision_id": 473,
+          "action": "hold-load",
+          "load_lb": 50,
+          "source": "../history/lifting-log.md#2026-11-05--hybrid-v11-w2-thursday-upper-b",
+          "reason": "All reported sets fit the range at RIR3. Hold suitable loads during StageB; no ordinary ramp credit."
+        }
+      ]
     },
     "S1": {
       "exercise": "DB lateral raise",

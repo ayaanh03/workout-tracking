@@ -690,3 +690,28 @@ Generate **W3 Wednesday November 11 — Delts/arms A + bike, preview**, prescrip
 Use November 4 same-slot actuals. WE1/WE5 gain their fourth sets under Stage C. WE2/WE4 restore the second sets authorized in #470 after symptom-free working curls; prescribe rep ranges and retain 3 RIR for this first two-set exposure. This fits Stage C and does not reinstate the released maintenance hold. Hold all established weights; WE4’s prior 16 reps earn no ramp load increase. Reverse pec deck remains two sets. No W3 test was selected, so calves remain. No new lift actuals, raw exposures, stage advancement, symptom clearance or ab-loading changes.
 
 W3 now records two completed sessions, **18 lifting sets, 12 running work minutes and 4.43 confirmed miles**. Including Saturday’s queued dose, planned week mileage is **9.76515731874145 mi**, upper planning estimate **10.382941176470588 mi**, below 15. Current-stage weekly lifting plan remains 82 sets; Friday lifting/Saturday running preference persists. Refresh the daily/week dashboard and preserve all prior Watch files and history.
+
+## 2026-11-11 — log Wednesday and generate Thursday
+
+485. Log `hybrid-2026-10-26-w3-wed-2026-11-11` against original `hybrid-2026-10-26-wed-delts-arms-a-484`: **14 sets**, preserving all loads/reps/RIR. Wednesday raw exposures become 3 each; no ordinary Stage-C progression or plateau credit. WE2 **90×8 at RIR 1 / 75×9 at RIR 3** is a recorded load/effort deviation, not a 90 lb promotion. Keep 75 lb with minimum 3 RIR for the next preacher exposure. The first lateral set at RIR 4 had extra reserve. All sets/reps are recorded; not all effort targets matched.
+
+Log bike **20:25 (1225 seconds)** at **130 W average**, HR **145**, displayed Apple effort **4 Moderate**, 231 active/263 total calories. Zones: 89/1081/38/0/0 seconds; summed 1208 seconds leaves 17 seconds outside displayed zone totals. Athlete numeric RPE remains unknown; chart axis 154 is not a measured peak. Keep the ordinary dose and last tolerated duration at **20 minutes**; no 25-minute award. Subsequent lifting/run performance has not occurred. Preserve prior cycling snapshots, settings and both running tracks.
+
+Apply the standing good-recovery assumption, without inventing an observed recovery or symptom response. Keep the ab cap, forearm caution and authorized exercise replacements. The targeted elbow question is pending; the RIR-1 set alone does not diagnose a recurrence or reinstate the old broad biceps hold.
+
+Generate **W3 Thursday November 12 — Upper B, preview**, `hybrid-2026-10-26-thu-upper-b-485`, at Stage C. Live calendar stays November 11 in New York.
+
+| Slot | Exercise | Load | Sets × reps | RIR | Rest |
+|---|---|---|---|---|---|
+| T1 | Incline barbell bench | 135 lb | 3×6–8 | 2–3 | 3 min |
+| T2 | Unilateral machine preacher curl | 75 lb starting | 2×8–12 per arm | ≥3 | 2 min |
+| T3 | DB lateral raise | 35 lb | 4×12–20 | 2–3 | 2 min |
+| T4 | Pull-up | BW (0 lb added) | 2×6–12 | 2–3 | 2–3 min |
+| T5 | Cable pushdown | 50 lb | 3×10–15 | 2–3 | 2 min |
+| T6 | Seated cable row | 120 lb | 2×8–12 | 2–3 | 2–3 min |
+| T7 | Decline crunch — bodyweight | BW | 2×10–15 | ≥3 | 2 min |
+| T8 | Straight-arm cable pulldown | 50 lb | 2×10–15 | 2–3 | 2 min |
+
+**20 sets**, no cardio. T3 gains the fourth lateral set; T5 gains the third pushdown set compared with November 5. T1 stays 135 lb despite 8/8/8 at RIR 3, under the unchanged [ramp rule](../program/ramp-and-return.md); no authorized rule amendment. Other loads hold against November 5 same-slot evidence.
+T2 starts the already-authorized standard-cable-curl replacement. November 11 WE2 75×9 at RIR 3 supports the 75 lb starting reference; 90×8 at RIR 1 does not. Lower load if needed to preserve 8–12 per arm and at least 3 RIR; reduce or omit aggravating work. T2 remains `prescribed_unvalidated`, `last_actual:null`, zero new exposures/credit. Preserve the former cable actuals in exercise history; no WE2 or former-cable credit transfers. Hammer/reverse/wrist/incline variations are unchanged.
+W3 remains in progress: **3 completed sessions, 32 lifting sets, 12 run work minutes, 4.43 confirmed run miles and 20:25 cycling**. Stage C is not yet a completed manageable week. Full-week plan remains 82 lifting sets and 40 prescribed bike minutes; actual cycling is separate. Preserve Friday lifting/Saturday running, queued Saturday 7:10 target and source, next Tuesday 6:40 hold, mileage estimates 9.76515731874145/10.382941176470588, Evo SL 13.78 miles and all Watch files. Refresh daily/week/history caches, then verify and publish.

@@ -231,3 +231,20 @@ All 18 sets meet rep and effort targets. M5 was performed at **160 lb rather tha
 Added fourth lateral and third pushdown sets are completed. Curl total reps rose from 20 to 21; rows retained 8/8 with RIR 3 instead of 2. No persistent-decline inference. Hold other suitable loads under the unchanged Stage-C rule; no ordinary loading/qualification/plateau credit. Raw exposures increment once: M1a/M1b/M2/M3/M5/M6 substitute/M7 to 3, M4 pushdown to 2.
 
 BW abs 15/15 at RIR 5/3 are recorded without a fresh symptom response. Keep bodyweight/two-set/minimum-3-RIR limits and all other local restrictions. Ordinary recovery is assumed under the standing directive; no observed next-day recovery or injury clearance. Decision #483.
+
+## 2026-11-11 — Hybrid v11 W3 Wednesday Delts/arms A
+
+Session `hybrid-2026-10-26-w3-wed-2026-11-11`, original prescription `hybrid-2026-10-26-wed-delts-arms-a-484`, **Stage C**, **14 working sets**. The pasted “preview” label does not change the reported completed status.
+
+| Slot | Exercise | Original prescription | Actual sets: load × reps, RIR |
+|---|---|---|---|
+| WE1 | DB lateral raise | 4×12–20 · 35 lb · RIR 2–3 · rest 2 min | 35×12, RIR 4 / 35×12, RIR 3 / 35×12, RIR 3 / 35×12, RIR 3 |
+| WE2 | Unilateral machine preacher curl | 2×8–12 per arm · 75 lb · RIR 3 · rest 2 min | 90×8, RIR 1 / 75×9, RIR 3 |
+| WE3 | Reverse pec deck | 2×12–20 · 145 lb · RIR 2–3 · rest 2 min | 145×15, RIR 3 / 145×15, RIR 3 |
+| WE4 | Rope cable hammer curl | 2×10–15 · 50 lb · RIR 3 · rest 2 min | 50×15, RIR 3 / 50×15, RIR 3 |
+| WE5 | Leg-press calf raise | 4×10–15 · 365 lb · RIR 2–3 · rest 2 min | 365×12, RIR 3 / 365×12, RIR 3 / 365×12, RIR 3 / 365×12, RIR 2 |
+
+All 14 prescribed sets are reported and all reps are in range. WE2 first set used **90 lb instead of 75 lb**, reaching **RIR 1 rather than 3**; preserve the mixed 90/75 actuals and retain **75 lb** as the working load. The first lateral set had extra reserve (RIR 4). Do not claim every effort target was met.
+The restored second curl sets and fourth lateral/calf sets were completed. WE4 reached 15/15 at RIR 3, but Stage C earns no ordinary loading/qualification/plateau credit. Hold suitable loads. All five Wednesday slots gain their third raw exposure once; Thursday’s new preacher slot stays unperformed.
+Bike: **20:25**, **130 W average**, average HR **145**, **18:01 Zone 2**; complete screenshot metrics are in [the cardio log](cardio-log.md#2026-11-11--hybrid-v11-w3-wednesday-bike). Preserve displayed effort 4 Moderate as screenshot data; athlete numeric RPE is unconfirmed. Ordinary next bike dose stays 20 minutes.
+No fresh elbow, ab or Achilles response reported. Targeted elbow follow-up was asked after the RIR-1 preacher set; no symptom recurrence or clearance inferred. Ordinary recovery assumed under the standing directive. Generate Thursday November 12 as a preview; live local date remains November 11. Decision #485.

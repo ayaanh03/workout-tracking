@@ -6,7 +6,7 @@
   "start_date": "2026-10-25",
   "end_date": "2027-01-03",
   "timezone": "America/New_York",
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-11",
   "activation_status": "active",
   "calendar_week": "W3",
   "calendar_phase": "Ramp",
@@ -56,7 +56,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 484,
+  "last_adjustment_id": 485,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -443,6 +443,37 @@
         "reason": "Standing athlete recovery default applies to ordinary run classification and Wednesday planning. The run is completed; no fresh symptom or observed next-day recovery report is inferred."
       },
       "review_note": "6:44/6:35/6:31 with RPE 7/8/8, three full 4-minute reps and two displayed 3-minute recoveries. First hit at the new 6:40 target; 6:44 is within the 5-second allowance. Hold 3×4 at 6:40 next Tuesday. Confirmed 4.43 mi attributed to the sole-current Evo SL pair."
+    },
+    "2026-11-11": {
+      "calendar_week": "W3",
+      "session": "Delts/arms A + bike",
+      "session_id": "hybrid-2026-10-26-w3-wed-2026-11-11",
+      "status": "completed",
+      "stage": "C",
+      "working_sets": 14,
+      "reported_working_sets": 14,
+      "prescribed_working_sets": 14,
+      "unresolved_slots": [],
+      "actual_ref": "../history/lifting-log.md#2026-11-11--hybrid-v11-w3-wednesday-deltsarms-a",
+      "cardio_actual_ref": "../history/cardio-log.md#2026-11-11--hybrid-v11-w3-wednesday-bike",
+      "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-484",
+      "bike_minutes": 20.416666666666668,
+      "bike_seconds": 1225,
+      "prescribed_bike_minutes": 20,
+      "bike_average_power_watts": 130,
+      "bike_average_hr_bpm": 145,
+      "bike_rpe": null,
+      "bike_displayed_effort": 4,
+      "recovery_status": "general-recovery-assumed-specific-response-unreported",
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 485,
+        "recorded_at": "2026-11-11T19:49:39-05:00",
+        "observed": false,
+        "reason": "Standing athlete default supplies ordinary recovery and Thursday readiness. No fresh elbow, ab or Achilles response or observed next-day recovery is inferred."
+      },
+      "review_note": "All 14 sets reported, including preacher 90×8 at RIR 1 then 75×9 at RIR 3. First preacher set misses the effort target; keep 75 lb. Exact bike 20:25; displayed effort 4 Moderate is not an independently confirmed athlete RPE. No ordinary ramp loading credit or new injury clearance."
     }
   },
   "planned_start_date": "2026-10-26",
@@ -538,16 +569,17 @@
       "range_end": "2026-11-15",
       "stage": "C",
       "completion": "in-progress",
-      "completed_sessions": 2,
-      "known_lifting_sets": 18,
+      "completed_sessions": 3,
+      "known_lifting_sets": 32,
       "known_running_work_minutes": 12,
       "confirmed_running_miles": 4.43,
-      "known_cycling_minutes": 0,
+      "known_cycling_minutes": 20.416666666666668,
       "manageable": null,
       "status": "week-in-progress",
-      "decision_id": 484,
-      "source": "../history/cardio-log.md#2026-11-10--hybrid-v11-w3-tuesday-intervals",
-      "note": "Monday Upper A and Tuesday intervals completed: 18 lifting sets, 12 running work minutes and 4.43 confirmed miles. Five sessions remain unperformed; W3 stays in progress at Stage C."
+      "decision_id": 485,
+      "source": "../history/lifting-log.md#2026-11-11--hybrid-v11-w3-wednesday-deltsarms-a",
+      "note": "Monday through Wednesday completed: 32 lifting sets, 12 run work minutes, 4.43 confirmed running miles and 20:25 cycling. Four sessions remain unperformed. W3 stays in progress at Stage C; no completed manageable C week yet.",
+      "known_cycling_seconds": 1225
     }
   },
   "program_amendments": [
@@ -639,12 +671,12 @@
     "publish_next_workout": true,
     "default_recovery": "assumed-good-unless-reported-otherwise",
     "source": "../program/readiness.md",
-    "last_generated_date": "2026-11-11",
-    "last_generated_prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-484",
-    "last_generated_from_session_id": "hybrid-2026-10-26-w3-tue-2026-11-10",
+    "last_generated_date": "2026-11-12",
+    "last_generated_prescription_id": "hybrid-2026-10-26-thu-upper-b-485",
+    "last_generated_from_session_id": "hybrid-2026-10-26-w3-wed-2026-11-11",
     "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping.",
     "last_generation_trigger": "completed-session-log",
-    "last_generation_decision_id": 484
+    "last_generation_decision_id": 485
   },
   "session_freeze_history": [
     {

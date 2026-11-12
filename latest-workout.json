@@ -1,24 +1,40 @@
 {
-  "generatedAt": "2026-11-10T19:00:27-05:00",
+  "generatedAt": "2026-11-11T19:49:39-05:00",
   "blockId": "hybrid-2026-10-26",
-  "prescriptionId": "hybrid-2026-10-26-wed-delts-arms-a-484",
+  "prescriptionId": "hybrid-2026-10-26-thu-upper-b-485",
   "preview": true,
   "week": "W3",
-  "day": "Wed",
-  "date": "2026-11-11",
+  "day": "Thu",
+  "date": "2026-11-12",
   "phase": "Hybrid v11 — Stage C",
-  "sessionName": "Delts/arms A + bike — preview",
+  "sessionName": "Upper B — preview",
   "why": [
-    "Wednesday November 11: 14 Stage-C lifting sets followed by 20 minutes of easy cycling. Recovery uses your standing good-recovery default.",
-    "Use the established Wednesday loads. Laterals and calves gain their fourth sets; preacher and hammer curls return to the normal two-set dose after the earlier hold was released."
+    "Thursday November 12: 20 Stage-C working sets, using your standing good-recovery default.",
+    "Compared with last Thursday, add the fourth lateral-raise set and third pushdown set. Only standard cable curls become machine preacher curls."
   ],
   "intro": [
-    "Keep both curl variations at 3 RIR for their first restored two-set session; other lifts target 2–3 RIR. Rest 2 minutes between working sets."
+    "Preacher curls start at 75 lb with at least 3 RIR; lower the load if needed. Abs remain bodyweight only, two sets, at least 3 RIR. Adjust aggravating work if symptoms recur."
   ],
   "lift": {
     "table": [
       {
-        "slotId": "WE1",
+        "slotId": "T1",
+        "exercise": "Incline barbell bench",
+        "setsReps": "3×6–8",
+        "load": "135 lb",
+        "rir": "2–3",
+        "rest": "3 min"
+      },
+      {
+        "slotId": "T2",
+        "exercise": "Unilateral machine preacher curl",
+        "setsReps": "2×8–12 per arm",
+        "load": "75 lb starting",
+        "rir": "≥3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "T3",
         "exercise": "DB lateral raise",
         "setsReps": "4×12–20",
         "load": "35 lb",
@@ -26,81 +42,78 @@
         "rest": "2 min"
       },
       {
-        "slotId": "WE2",
-        "exercise": "Unilateral machine preacher curl",
-        "setsReps": "2×8–12 per arm",
-        "load": "75 lb",
-        "rir": "3",
-        "rest": "2 min"
+        "slotId": "T4",
+        "exercise": "Pull-up",
+        "setsReps": "2×6–12",
+        "load": "BW (0 lb added)",
+        "rir": "2–3",
+        "rest": "2–3 min"
       },
       {
-        "slotId": "WE3",
-        "exercise": "Reverse pec deck",
-        "setsReps": "2×12–20",
-        "load": "145 lb",
+        "slotId": "T5",
+        "exercise": "Cable pushdown",
+        "setsReps": "3×10–15",
+        "load": "50 lb",
         "rir": "2–3",
         "rest": "2 min"
       },
       {
-        "slotId": "WE4",
-        "exercise": "Rope cable hammer curl",
+        "slotId": "T6",
+        "exercise": "Seated cable row",
+        "setsReps": "2×8–12",
+        "load": "120 lb",
+        "rir": "2–3",
+        "rest": "2–3 min"
+      },
+      {
+        "slotId": "T7",
+        "exercise": "Decline crunch — bodyweight",
         "setsReps": "2×10–15",
-        "load": "50 lb",
-        "rir": "3",
+        "load": "BW",
+        "rir": "≥3",
         "rest": "2 min"
       },
       {
-        "slotId": "WE5",
-        "exercise": "Leg-press calf raise",
-        "setsReps": "4×10–15",
-        "load": "365 lb",
+        "slotId": "T8",
+        "exercise": "Straight-arm cable pulldown",
+        "setsReps": "2×10–15",
+        "load": "50 lb",
         "rir": "2–3",
         "rest": "2 min"
       }
     ]
   },
-  "cardio": {
-    "workout": "Bike for 20 minutes after lifting at RPE 3/10 (2–4 acceptable), with comfortable full-sentence conversation.",
-    "warmup": "",
-    "cooldown": "",
-    "targets": {
-      "rpe": "3/10; 2–4 acceptable"
-    },
-    "flags": [
-      "Saved bike settings: height about 10; seat −2 (possibly −1); handle +3."
-    ],
-    "workoutFile": null
-  },
+  "cardio": null,
   "adaptation": [
     {
-      "exercise": "Tuesday run result",
-      "previous": "November 10: 6:44/6:35/6:31 per mile at RPE 7/8/8; 4.43 miles confirmed. Target was 6:40.",
-      "decision": "First hit at this target. Keep next Tuesday at 3×4 minutes at 6:40/mi.",
-      "reason": "All reps pass the one-sided pace check and RPE 8 meets the cap. The slowest rep provides no faster-target headroom; one hit and final RPE 8 do not yet earn more speed or minutes."
+      "exercise": "Wednesday logged",
+      "previous": "14 sets completed. Preacher: 90×8 at RIR 1, then 75×9 at RIR 3. Bike: 20:25 at 130 W average, HR 145; 18:01 in Zone 2.",
+      "decision": "Keep preacher starting load at 75 lb and ordinary bike dose at 20 minutes.",
+      "reason": "The 90 lb set missed the prescribed RIR 3; the 75 lb set supports the current starting reference. Stage C awards no ordinary loading credit. Current elbow response is unreported."
     },
     {
-      "exercise": "Laterals, rear delts and calves",
-      "previous": "November 4: laterals 35×13/12/12 at RIR 3; reverse pec deck 145×12/15 at RIR 6/3; calves 365×12/13/13 at RIR 3.",
-      "decision": "Keep the same weights. Prescribe 4 lateral, 2 rear-delt and 4 calf sets at 2–3 RIR.",
-      "reason": "Stage C supplies the full set counts. W3 has no selected test requiring a calf omission; no ordinary ramp load increase is earned."
+      "exercise": "Incline barbell bench",
+      "previous": "November 5: 135×8/8/8, all at RIR 3.",
+      "decision": "135 lb, 3×6–8 at 2–3 RIR.",
+      "reason": "The unchanged ramp rule holds suitable loads during Stage C, including exercises whose set count is already full. Normal loading progression starts after the completed manageable C week."
     },
     {
-      "exercise": "Preacher and hammer curls",
-      "previous": "November 4: preacher 75×9 per arm and hammer 50×16, one set each at RIR 3; elbow symptom-free during and afterward.",
-      "decision": "Use two sets each: preacher 75 lb for 8–12 per arm; hammer 50 lb for 10–15. Keep 3 RIR.",
-      "reason": "The prior working-response review released the temporary hold and authorized normal sets. Retain the weights while the second sets return; keep rep ranges rather than fixed maintenance reps."
+      "exercise": "Machine preacher curl — new Thursday slot",
+      "previous": "November 11 Wednesday slot: 90×8 at RIR 1 then 75×9 at RIR 3. Former Thursday cable curls were 42.5×10/12 at RIR 3 on November 5.",
+      "decision": "Start 75 lb, 2×8–12 per arm with at least 3 RIR; reduce if needed.",
+      "reason": "Your requested standard-cable-curl replacement begins November 12. Wednesday is a starting-load reference only; T2 has no preacher actuals or progression credit yet. Hammer, reverse, wrist and incline curls are unchanged."
     },
     {
-      "exercise": "Bike",
-      "previous": "November 4: 20 minutes at RPE 2, average HR 149; later lifting and running supported the dose.",
-      "decision": "Keep 20 minutes after lifting, using saved settings.",
-      "reason": "The W3 ceiling is 20 minutes. No duration increase is prescribed."
+      "exercise": "Other upper-body lifts",
+      "previous": "November 5: lateral 35×15/12/12; pull-up BW×9/9; pushdown 50×15/10; row 120×8/9; straight-arm pulldown 50×12/10. All RIR 3.",
+      "decision": "Keep weights; laterals become 4 sets and pushdowns 3. Other set counts stay at 2.",
+      "reason": "Achieved Stage C supplies full set counts at 2–3 RIR. No ordinary ramp load increase or borrowed cross-slot credit."
     },
     {
-      "exercise": "Mileage and shoes",
-      "previous": "Evo SL tracked total before this run: 9.35 miles. You confirmed 4.43 miles and previously identified Evo SL as your only current pair.",
-      "decision": "Add this run once: Evo SL tracked total 13.78 miles.",
-      "reason": "Use the confirmed total rather than summing rounded interval distances. Saturday’s earned 7:10 target remains independent and queued."
+      "exercise": "Abs and recovery",
+      "previous": "Thursday November 5: BW decline crunch 15/12 at RIR 3. No fresh loaded-ab clearance or session-specific symptom report.",
+      "decision": "BW decline crunch, 2×10–15 at least 3 RIR.",
+      "reason": "The existing ab limit overrides the baseline third set. Ordinary recovery is assumed under your standing policy; that does not clear injury restrictions."
     }
   ],
   "currentLoads": [
@@ -164,92 +177,92 @@
       "slotId": "WE1",
       "exercise": "WE1 — DB lateral raise",
       "load": "35 lb",
-      "lastVerified": "2026-11-04 (reported)",
-      "note": "November 4: 35×13/12/12 at RIR 3. Hold 35 lb and add the fourth set for achieved Stage C."
+      "lastVerified": "2026-11-11 (reported)",
+      "note": "35×12/12/12/12 at RIR 4/3/3/3. Fourth set completed; hold 35 lb under Stage C. The first set had extra reserve."
     },
     {
       "slotId": "WE2",
       "exercise": "WE2 — Unilateral machine preacher curl",
       "load": "75 lb",
-      "lastVerified": "2026-11-04 (reported)",
-      "note": "November 4: 75×9 per arm at RIR 3, symptom-free during and afterward. The temporary hold was released in #470; restore the second set at the same 75 lb, with an 8–12 range and RIR 3."
+      "lastVerified": "2026-11-11 (reported)",
+      "note": "90×8 at RIR 1 overshot the prescribed RIR 3; 75×9 at RIR 3 supports retaining 75 lb, 2×8–12 per arm at minimum 3 RIR. No 90 lb promotion; current elbow response is unreported."
     },
     {
       "slotId": "WE3",
       "exercise": "WE3 — Reverse pec deck",
       "load": "145 lb",
-      "lastVerified": "2026-11-04 (reported)",
-      "note": "November 4: 145×12/15 at RIR 6/3. Hold 145 lb for two sets; Stage C targets 2–3 RIR."
+      "lastVerified": "2026-11-11 (reported)",
+      "note": "145×15/15 at RIR 3. Hold 145 lb for two sets under Stage C."
     },
     {
       "slotId": "WE4",
       "exercise": "WE4 — Rope cable hammer curl",
       "load": "50 lb",
-      "lastVerified": "2026-11-04 (reported)",
-      "note": "November 4: 50×16 at RIR 3, symptom-free during and afterward. Restore the second set under #470, retain 50 lb and prescribe 10–15 at RIR 3. The over-range prior rep does not earn a ramp load increase."
+      "lastVerified": "2026-11-11 (reported)",
+      "note": "50×15/15 at RIR 3. Restored second set completed at the rep ceiling; hold 50 lb because ramp work earns no ordinary loading credit."
     },
     {
       "slotId": "WE5",
       "exercise": "WE5 — Leg-press calf raise",
       "load": "365 lb",
-      "lastVerified": "2026-11-04 (reported)",
-      "note": "November 4: 365×12/13/13 at RIR 3. Hold 365 lb and add the fourth set for achieved Stage C. No test was selected, so no assessment calf omission applies."
+      "lastVerified": "2026-11-11 (reported)",
+      "note": "365×12/12/12/12 at RIR 3/3/3/2. Fourth set completed; hold 365 lb under Stage C."
     },
     {
       "slotId": "T1",
       "exercise": "T1 — Incline barbell bench",
       "load": "135 lb",
       "lastVerified": "2026-11-05 (reported)",
-      "note": "November 5: 135×8/8/8 at RIR 3. Hold 135 during the ramp despite all sets reaching eight; no ordinary ramp loading credit."
+      "note": "November 5: 135×8/8/8 at RIR 3. Hold 135 lb for 3×6–8 under the unchanged Stage-C ramp rule; rep ceilings do not yet award ordinary load progression."
     },
     {
       "slotId": "T2",
       "exercise": "T2 — Unilateral machine preacher curl",
       "load": "75 lb starting",
-      "lastVerified": "Unperformed in T2; WE2 reference November 4",
-      "note": "Only standard cable curls replaced for next Thursday, November 12: preacher 75 lb starting, 2×8–12 per arm at 3 RIR. No T2 preacher actuals yet; November 5 cable 42.5×10/12 remains in former-exercise history."
+      "lastVerified": "Unperformed in T2; WE2 reference November 11",
+      "note": "First T2 preacher session replaces only standard cable curls. Wednesday November 11: 90×8 at RIR 1 then 75×9 at RIR 3. Start 75 lb, lower if needed for 8–12 per arm at least 3 RIR; no T2 actual or credit transfers. Adjust or omit if elbow symptoms recur."
     },
     {
       "slotId": "T3",
       "exercise": "T3 — DB lateral raise",
       "load": "35 lb",
       "lastVerified": "2026-11-05 (reported)",
-      "note": "November 5: 35×15/12/12 at RIR 3; hold 35 during the ramp."
+      "note": "November 5: 35×15/12/12 at RIR 3. Hold 35 lb and add the fourth set for achieved Stage C."
     },
     {
       "slotId": "T4",
       "exercise": "T4 — Pull-up",
       "load": "BW (0 lb added)",
       "lastVerified": "2026-11-05 (reported)",
-      "note": "November 5: BW, 0 lb added, 9/9 at RIR 3; hold bodyweight during the ramp."
+      "note": "November 5: bodyweight, 0 lb added, 9/9 at RIR 3. Hold bodyweight for two sets under Stage C."
     },
     {
       "slotId": "T5",
       "exercise": "T5 — Cable pushdown",
       "load": "50 lb",
       "lastVerified": "2026-11-05 (reported)",
-      "note": "November 5: 50×15/10 at RIR 3; hold 50 during the ramp."
+      "note": "November 5: 50×15/10 at RIR 3. Hold 50 lb and add the third set for achieved Stage C."
     },
     {
       "slotId": "T6",
       "exercise": "T6 — Seated cable row",
       "load": "120 lb",
       "lastVerified": "2026-11-05 (reported)",
-      "note": "November 5: 120×8/9 at RIR 3; hold 120 during the ramp."
+      "note": "November 5: 120×8/9 at RIR 3. Hold 120 lb for two sets under Stage C."
     },
     {
       "slotId": "T7",
       "exercise": "T7 — Decline crunch (temporary)",
       "load": "BW",
       "lastVerified": "2026-11-05 (reported)",
-      "note": "November 5: first Thursday BW decline crunch, 15/12 at RIR 3. Keep BW, max two sets, minimum 3 RIR; no new ab symptom response or loading clearance."
+      "note": "November 5: BW 15/12 at RIR 3. Keep bodyweight only, maximum two sets and minimum 3 RIR; later BW results do not clear the existing loaded-ab gate."
     },
     {
       "slotId": "T8",
       "exercise": "T8 — Straight-arm cable pulldown",
       "load": "50 lb",
       "lastVerified": "2026-11-05 (reported)",
-      "note": "November 5: 50×12/10 at RIR 3; hold 50 during the ramp."
+      "note": "November 5: 50×12/10 at RIR 3. Hold 50 lb for two sets under Stage C."
     },
     {
       "slotId": "S1",

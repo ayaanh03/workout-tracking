@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-10T19:00:27-05:00",
+  "generatedAt": "2026-11-11T19:49:39-05:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W3",
   "phase": "Hybrid v11 — Stage C",
   "rangeStart": "2026-11-09",
   "rangeEnd": "2026-11-15",
-  "summary": "W3, November 9–15: Monday Upper A and Tuesday intervals completed—18 lifting sets and 4.43 running miles logged. Wednesday preview: 14 sets plus 20 minutes of easy bike. Friday remains delts/arms B plus bike; Saturday’s longer run is queued at 3×6 at 7:10/mi. Full-week plan remains 82 lifting sets and 40 bike minutes.",
+  "summary": "W3, November 9–15: Monday through Wednesday completed—32 lifting sets, 4.43 running miles and 20:25 cycling logged. Thursday Upper B preview: 20 sets. Friday remains delts/arms B plus 20 minutes bike; Saturday’s longer run is queued at 3×6 at 7:10/mi. Full-week prescription remains 82 lifting sets and 40 bike minutes; actual cycling is tracked separately.",
   "days": [
     {
       "date": "2026-11-09",
@@ -26,14 +26,14 @@
       "date": "2026-11-11",
       "day": "Wed",
       "session": "Delts/arms A + bike",
-      "note": "Preview ready: 35 lb laterals 4 sets; 75 lb preacher 2 per arm; 145 lb reverse pec deck 2; 50 lb hammer curls 2; 365 lb calves 4. Curls RIR 3, others 2–3; rest 2 min. Bike afterward 20 min at RPE 3 (2–4). Height about 10, seat −2 (possibly −1), handle +3.",
-      "status": "upcoming"
+      "note": "14 sets logged: laterals 35×12/12/12/12; preacher 90×8 RIR 1 then 75×9 RIR 3; reverse pec deck 145×15/15; hammer 50×15/15; calves 365×12/12/12/12. Bike 20:25 at 130 W average, HR 145, Zone 2 18:01. Keep preacher working load 75 lb; full set RIR in history.",
+      "status": "done"
     },
     {
       "date": "2026-11-12",
       "day": "Thu",
       "session": "Upper B",
-      "note": "20 lifting sets with the bodyweight-ab cap. Standard cable curls become unilateral machine preacher curls: start at 75 lb for 2×8–12 per arm, ≥3 RIR. Other curl variations stay unchanged.",
+      "note": "Preview ready: 20 sets. Incline 135 lb 3 sets; preacher 75 lb starting 2 per arm; laterals 35 lb 4; pull-ups BW 2; pushdown 50 lb 3; row 120 lb 2; BW abs 2; straight-arm pulldown 50 lb 2. Preacher and abs ≥3 RIR; other lifts 2–3. Rest times shown in the logging table.",
       "status": "upcoming"
     },
     {

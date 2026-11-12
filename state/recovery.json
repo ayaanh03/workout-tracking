@@ -700,24 +700,24 @@
     }
   ],
   "post_session": {
-    "date": "2026-11-10",
-    "session_id": "hybrid-2026-10-26-w3-tue-2026-11-10",
+    "date": "2026-11-11",
+    "session_id": "hybrid-2026-10-26-w3-wed-2026-11-11",
     "completion": "reported",
     "elbow_response": null,
     "lower_ab_response": null,
     "achilles_response": null,
     "next_day_recovery": null,
-    "status": "general-recovery-assumed-specific-run-response-unreported",
-    "decision_id": 484,
+    "status": "general-recovery-assumed-specific-response-unreported",
+    "decision_id": 485,
     "recovery_decision": {
       "status": "assumed-good",
       "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-      "decision_id": 484,
-      "recorded_at": "2026-11-10T19:00:27-05:00",
+      "decision_id": 485,
+      "recorded_at": "2026-11-11T19:49:39-05:00",
       "observed": false,
-      "reason": "Standing athlete recovery default applies to ordinary run classification and Wednesday planning. The run is completed; no fresh symptom or observed next-day recovery report is inferred."
+      "reason": "Standing athlete default supplies ordinary recovery and Thursday readiness. No fresh elbow, ab or Achilles response or observed next-day recovery is inferred."
     },
-    "note": "Tuesday completed at RPE 7/8/8 and qualifies a hit under the ordinary recovery default. No fresh specific symptom response or injury clearance supplied."
+    "note": "Preacher 90×8 at RIR 1 overshot the planned RIR 3; 75×9 at RIR 3 followed. Targeted elbow-response question asked; no injury recurrence or clearance inferred from effort alone."
   },
   "prior_pending_post_sessions": [
     {
@@ -747,6 +747,26 @@
         "observed": false,
         "reason": "Athlete explicitly directs normal recovery by default unless they report otherwise."
       }
+    },
+    {
+      "date": "2026-11-10",
+      "session_id": "hybrid-2026-10-26-w3-tue-2026-11-10",
+      "completion": "reported",
+      "elbow_response": null,
+      "lower_ab_response": null,
+      "achilles_response": null,
+      "next_day_recovery": null,
+      "status": "general-recovery-assumed-specific-run-response-unreported",
+      "decision_id": 484,
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 484,
+        "recorded_at": "2026-11-10T19:00:27-05:00",
+        "observed": false,
+        "reason": "Standing athlete recovery default applies to ordinary run classification and Wednesday planning. The run is completed; no fresh symptom or observed next-day recovery report is inferred."
+      },
+      "note": "Tuesday completed at RPE 7/8/8 and qualifies a hit under the ordinary recovery default. No fresh specific symptom response or injury clearance supplied."
     }
   ],
   "resolved_post_sessions": [
@@ -1103,11 +1123,11 @@
   "planning_readiness": {
     "status": "assumed-good",
     "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-    "decision_id": 484,
-    "recorded_at": "2026-11-10T19:00:27-05:00",
+    "decision_id": 485,
+    "recorded_at": "2026-11-11T19:49:39-05:00",
     "observed": false,
-    "reason": "Standing athlete recovery default applies to ordinary run classification and Wednesday planning. The run is completed; no fresh symptom or observed next-day recovery report is inferred.",
-    "for_date": "2026-11-11"
+    "reason": "Standing athlete default supplies ordinary recovery and Thursday readiness. No fresh elbow, ab or Achilles response or observed next-day recovery is inferred.",
+    "for_date": "2026-11-12"
   },
   "general_readiness_history": [
     {
@@ -1156,6 +1176,15 @@
       "slot_id": "S4",
       "status": "second-set-unreported",
       "question": "Was reverse pec deck just one set of 145×12, or did you also complete the second prescribed set?"
+    },
+    {
+      "session_id": "hybrid-2026-10-26-w3-wed-2026-11-11",
+      "date": "2026-11-11",
+      "decision_id": 485,
+      "slot_id": "WE2",
+      "status": "elbow-response-unreported",
+      "question": "Did your right elbow stay comfortable during the preacher curls—especially the 90 lb set—and afterward?",
+      "scope": "Targeted follow-up after a heavier-than-prescribed RIR-1 set; not a routine recovery gate. Keep 75 lb starting and minimum 3 RIR for next preacher work; reduce or omit if symptoms recur."
     }
   ]
 }
