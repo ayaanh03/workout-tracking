@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "blockId": "hybrid-2026-10-26",
-  "generatedAt": "2026-11-11T19:49:39-05:00",
+  "generatedAt": "2026-11-11T20:03:12-05:00",
   "sessions": [
     {
       "date": "2026-10-25",
@@ -1632,7 +1632,7 @@
               "rir": 3
             }
           ],
-          "note": "90×8 at RIR 1 overshot the prescribed RIR 3; 75×9 at RIR 3 supports retaining 75 lb, 2×8–12 per arm at minimum 3 RIR. No 90 lb promotion; current elbow response is unreported."
+          "note": "90×8 at RIR 1 overshot the prescribed RIR 3; 75×9 at RIR 3 supports retaining 75 lb, 2×8–12 per arm at minimum 3 RIR. No 90 lb promotion; elbows confirmed comfortable during and afterward (#486)."
         },
         {
           "slotId": "WE3",
@@ -1704,7 +1704,13 @@
           ]
         }
       ],
-      "notes": "All 14 sets recorded. Preacher first set used 90 lb rather than 75 and reached RIR 1 versus prescribed 3; retain 75 lb. Bike 20:25 at 130 W average, HR 145. No fresh symptom response supplied."
+      "notes": "All 14 sets recorded. Preacher first set used 90 lb rather than 75 and reached RIR 1 versus prescribed 3; retain 75 lb. Bike 20:25 at 130 W average, HR 145. Follow-up confirms elbows comfortable during and afterward, including the 90 lb preacher set. Ab/Achilles response and next-morning recovery remain unreported.",
+      "symptomFollowup": {
+        "report": "Ya elbows were perfect today",
+        "reportedOn": "2026-11-11",
+        "decisionId": 486,
+        "source": "history/injury-log.md#2026-11-11--elbows-comfortable-during-and-after-curls"
+      }
     }
   ]
 }

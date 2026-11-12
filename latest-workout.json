@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T19:49:39-05:00",
+  "generatedAt": "2026-11-11T20:03:12-05:00",
   "blockId": "hybrid-2026-10-26",
   "prescriptionId": "hybrid-2026-10-26-thu-upper-b-485",
   "preview": true,
@@ -89,7 +89,7 @@
       "exercise": "Wednesday logged",
       "previous": "14 sets completed. Preacher: 90×8 at RIR 1, then 75×9 at RIR 3. Bike: 20:25 at 130 W average, HR 145; 18:01 in Zone 2.",
       "decision": "Keep preacher starting load at 75 lb and ordinary bike dose at 20 minutes.",
-      "reason": "The 90 lb set missed the prescribed RIR 3; the 75 lb set supports the current starting reference. Stage C awards no ordinary loading credit. Current elbow response is unreported."
+      "reason": "The 90 lb set missed the prescribed RIR 3; the 75 lb set supports the current starting reference. Stage C awards no ordinary loading credit. You confirmed elbows stayed comfortable during and afterward, including the 90 lb set."
     },
     {
       "exercise": "Incline barbell bench",
@@ -185,7 +185,7 @@
       "exercise": "WE2 — Unilateral machine preacher curl",
       "load": "75 lb",
       "lastVerified": "2026-11-11 (reported)",
-      "note": "90×8 at RIR 1 overshot the prescribed RIR 3; 75×9 at RIR 3 supports retaining 75 lb, 2×8–12 per arm at minimum 3 RIR. No 90 lb promotion; current elbow response is unreported."
+      "note": "90×8 at RIR 1 overshot the prescribed RIR 3; 75×9 at RIR 3 supports retaining 75 lb, 2×8–12 per arm at minimum 3 RIR. No 90 lb promotion; elbows confirmed comfortable during and afterward (#486)."
     },
     {
       "slotId": "WE3",

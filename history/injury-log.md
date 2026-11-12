@@ -215,3 +215,9 @@ Sunday BW decline 15/15 at RIR 3 and the full calf/leg dose are reported without
 ## 2026-11-09 — Monday bodyweight exposure
 
 M6 bodyweight decline crunch: 15/15 at RIR 5/3. No fresh during/after ab, elbow or Achilles response and no actual next-day recovery supplied. Preserve the exposure separately from symptom evidence and retain all local limits. Ordinary recovery for Tuesday planning is assumed under the standing athlete directive. No added ab load or stage change is authorized by this log. Decision #483.
+
+## 2026-11-11 — elbows comfortable during and after curls
+
+Asked whether the right elbow stayed comfortable during preacher curls, especially the 90 lb set, and afterward. Athlete: **“Ya elbows were perfect today.”** Record symptom-free elbows during and after the November 11 session, including **90×8 at RIR 1 / 75×9 at RIR 3**. Resolve the targeted follow-up; no numeric pain score, diagnosis or next-morning observation is inferred.
+
+The earlier broad biceps hold stays released. Keep Thursday’s already-issued #485 prescription: **75 lb starting, 2×8–12 per arm, at least 3 RIR**. Comfort supports continuing the current plan, while RIR 1 still does not meet the prescribed effort or earn 90 lb progression during Stage C. The ongoing standard-cable-curl replacement, cautious forearm progression, overhead substitution and bodyweight-ab limits persist. No new ab/Achilles response, session or exposure. Decision #486.

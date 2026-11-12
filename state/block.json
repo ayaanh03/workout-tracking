@@ -56,7 +56,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 485,
+  "last_adjustment_id": 486,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -464,16 +464,38 @@
       "bike_average_hr_bpm": 145,
       "bike_rpe": null,
       "bike_displayed_effort": 4,
-      "recovery_status": "general-recovery-assumed-specific-response-unreported",
+      "recovery_status": "general-recovery-assumed-elbow-response-confirmed",
       "recovery_decision": {
         "status": "assumed-good",
         "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-        "decision_id": 485,
-        "recorded_at": "2026-11-11T19:49:39-05:00",
+        "decision_id": 486,
+        "recorded_at": "2026-11-11T20:03:12-05:00",
         "observed": false,
-        "reason": "Standing athlete default supplies ordinary recovery and Thursday readiness. No fresh elbow, ab or Achilles response or observed next-day recovery is inferred."
+        "reason": "Standing athlete default supplies ordinary Thursday readiness. Elbow comfort during/after Wednesday curls is now reported; next-morning recovery and ab/Achilles response remain unreported."
       },
-      "review_note": "All 14 sets reported, including preacher 90×8 at RIR 1 then 75×9 at RIR 3. First preacher set misses the effort target; keep 75 lb. Exact bike 20:25; displayed effort 4 Moderate is not an independently confirmed athlete RPE. No ordinary ramp loading credit or new injury clearance."
+      "review_note": "All 14 sets reported, including preacher 90×8 at RIR 1 then 75×9 at RIR 3. Elbows confirmed comfortable during and afterward. First preacher set still missed the effort target; keep 75 lb. Exact bike 20:25; displayed effort 4 Moderate is not an independently confirmed athlete RPE. No ordinary ramp loading credit or new ab/Achilles clearance.",
+      "elbow_response": "Elbows comfortable during and after November 11 curls, including the 90 lb preacher set.",
+      "symptom_followup": {
+        "reported_on": "2026-11-11",
+        "recorded_at": "2026-11-11T20:03:12-05:00",
+        "decision_id": 486,
+        "session_id": "hybrid-2026-10-26-w3-wed-2026-11-11",
+        "question": "Did your right elbow stay comfortable during the preacher curls—especially the 90 lb set—and afterward?",
+        "report": "Ya elbows were perfect today",
+        "status": "elbows-symptom-free-during-and-after",
+        "scope": "Athlete confirms comfortable elbows during and after November 11 curls, including the 90 lb preacher set. No numeric pain score, diagnosis, next-morning recovery or ab/Achilles response is supplied.",
+        "source": "../history/injury-log.md#2026-11-11--elbows-comfortable-during-and-after-curls"
+      },
+      "recovery_decision_history": [
+        {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 485,
+          "recorded_at": "2026-11-11T19:49:39-05:00",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary recovery and Thursday readiness. No fresh elbow, ab or Achilles response or observed next-day recovery is inferred."
+        }
+      ]
     }
   },
   "planned_start_date": "2026-10-26",
@@ -676,7 +698,9 @@
     "last_generated_from_session_id": "hybrid-2026-10-26-w3-wed-2026-11-11",
     "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping.",
     "last_generation_trigger": "completed-session-log",
-    "last_generation_decision_id": 485
+    "last_generation_decision_id": 485,
+    "last_review_decision_id": 486,
+    "last_review_reason": "Elbow follow-up reconciled; keep Thursday prescription #485 unchanged without skipping to Friday."
   },
   "session_freeze_history": [
     {

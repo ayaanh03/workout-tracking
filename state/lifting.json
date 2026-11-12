@@ -768,15 +768,26 @@
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-C ramp; no ordinary load-progression or plateau credit. 90×8 at RIR 1 overshot the prescribed RIR 3; 75×9 at RIR 3 supports retaining 75 lb, 2×8–12 per arm at minimum 3 RIR. No 90 lb promotion; current elbow response is unreported.",
+        "reason": "Stage-C ramp; no ordinary load-progression or plateau credit. 90×8 at RIR 1 overshot the prescribed RIR 3; 75×9 at RIR 3 supports retaining 75 lb, 2×8–12 per arm at minimum 3 RIR. No 90 lb promotion; elbows confirmed comfortable during and afterward (#486).",
         "prescription_deviation": {
           "prescribed_load_lb": 75,
           "first_set_load_lb": 90,
           "prescribed_rir": 3,
           "actual_first_set_rir": 1,
-          "decision": "Keep 75 lb as the working load. No 90 lb progression; symptom response remains unreported."
+          "decision": "Keep 75 lb as the working load. No 90 lb progression; elbow comfort during and after the 90 lb set is confirmed, but RIR 1 still misses the prescribed 3."
         },
-        "elbow_response": null
+        "elbow_response": "Elbows comfortable during and after November 11 curls, including the 90 lb preacher set.",
+        "symptom_followup": {
+          "reported_on": "2026-11-11",
+          "recorded_at": "2026-11-11T20:03:12-05:00",
+          "decision_id": 486,
+          "session_id": "hybrid-2026-10-26-w3-wed-2026-11-11",
+          "question": "Did your right elbow stay comfortable during the preacher curls—especially the 90 lb set—and afterward?",
+          "report": "Ya elbows were perfect today",
+          "status": "elbows-symptom-free-during-and-after",
+          "scope": "Athlete confirms comfortable elbows during and after November 11 curls, including the 90 lb preacher set. No numeric pain score, diagnosis, next-morning recovery or ab/Achilles response is supplied.",
+          "source": "../history/injury-log.md#2026-11-11--elbows-comfortable-during-and-after-curls"
+        }
       },
       "new_exposure_count": 3,
       "next_action": {
@@ -797,9 +808,10 @@
         "minimum_rir": 3,
         "rest_seconds": 120,
         "source": "../history/lifting-log.md#2026-11-11--hybrid-v11-w3-wednesday-deltsarms-a",
-        "reason": "90×8 at RIR 1 overshot the prescribed RIR 3; 75×9 at RIR 3 supports retaining 75 lb, 2×8–12 per arm at minimum 3 RIR. No 90 lb promotion; current elbow response is unreported.",
+        "reason": "90×8 at RIR 1 overshot the prescribed RIR 3; 75×9 at RIR 3 supports retaining 75 lb, 2×8–12 per arm at minimum 3 RIR. No 90 lb promotion; elbows confirmed comfortable during and afterward (#486).",
         "per_arm": true,
-        "symptom_action": "Adjust or omit aggravating work if elbow symptoms return."
+        "symptom_action": "Adjust or omit aggravating work if elbow symptoms return.",
+        "review_decision_id": 486
       },
       "actual_history": [
         {
