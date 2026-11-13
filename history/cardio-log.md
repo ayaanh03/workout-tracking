@@ -237,3 +237,11 @@ Exact workout time **20:25 (1,225 seconds)**, average power **130 W** from athle
 Estimated zones sum to **20:08 (1,208 seconds)**, **17 seconds less** than workout time; retain that difference without inventing coverage or pauses. The chart's upper axis **154** is not a measured maximum HR. Distance, cadence, settings actually used, conversation test and bike-specific symptom response were not reported. Preserve the saved bike settings separately; no running or shoe mileage is added.
 
 Keep **last tolerated / next ordinary dose at 20 minutes**. The additional 25 seconds are actual duration, not earned progression. Subsequent Thursday November 12 lifting and Saturday November 14 running are still unperformed; review those actuals when logged. Ordinary recovery uses the athlete's standing assumed-good default, without claiming an observed recovery report or blocking the established 20-minute dose. W4's 25-minute ceiling does not itself earn an increase. Preserve the previous Wednesday actual and validation decisions; Tuesday and Saturday run state and the separate Friday bike track are unchanged. Rules: `program/endurance.md#cycling`, `program/readiness.md`. Decision **#485**.
+
+## 2026-11-13 — Hybrid v11 W3 Friday rowing in place of bike
+
+Session `hybrid-2026-10-26-w3-fri-2026-11-13-row`, associated lifting session `hybrid-2026-10-26-w3-fri-2026-11-13`, original prescription `hybrid-2026-10-26-fri-delts-arms-b-487`. Original endurance: **20 minutes bike after lifting, RPE3 (2–4 acceptable)**.
+
+Athlete instead reports **“Rowed 20 minutes 2:27.3 avg”**: duration **1200seconds**, average pace display **2:27.3** (147.3seconds; denominator unconfirmed). Record **rowing**, with numeric RPE, pace unit, distance, HR, equipment/settings and symptom response unreported. Asked once to confirm per500m and effort; no exact distance is derived before unit confirmation. No new bike actual/tolerance, shoe mileage or permanent bike-to-rowing replacement is inferred.
+
+Ordinary next-workout recovery is assumed under the standing directive. W3 cycling remains **20:25** from Wednesday; rowing adds a separate **20:00**. The missing numeric effort is not adverse fatigue evidence. Preserve prior cardio actuals and the Saturday run’s independently earned pace award. Decision #489.

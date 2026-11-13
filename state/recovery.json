@@ -744,24 +744,24 @@
     }
   ],
   "post_session": {
-    "date": "2026-11-12",
-    "session_id": "hybrid-2026-10-26-w3-thu-2026-11-12",
+    "date": "2026-11-13",
+    "session_id": "hybrid-2026-10-26-w3-fri-2026-11-13",
     "completion": "reported",
     "elbow_response": null,
     "lower_ab_response": null,
     "achilles_response": null,
     "next_day_recovery": null,
     "status": "general-recovery-assumed-specific-response-unreported",
-    "decision_id": 487,
+    "decision_id": 489,
     "recovery_decision": {
       "status": "assumed-good",
       "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-      "decision_id": 487,
-      "recorded_at": "2026-11-12T20:35:50-05:00",
+      "decision_id": 489,
+      "recorded_at": "2026-11-13T17:53:54-05:00",
       "observed": false,
-      "reason": "Standing athlete default supplies ordinary recovery and Friday readiness. Thursday performance is reported; no fresh elbow, ab or Achilles response or observed next-morning recovery is inferred."
+      "reason": "Standing athlete default supplies ordinary recovery and Saturday readiness. Friday lifting and rowing are reported; no fresh symptom or observed next-day recovery report is inferred."
     },
-    "note": "Thursday20sets completed at RIR3, including first T2preacher75×8/8 and BWdecline15/12. November11 elbow comfort remains dated evidence; no fresh Thursday-specific response or injury-loading clearance supplied."
+    "note": "13lifting sets and20minutes rowing reported. S2/S5/S6actual27.5loads met rep/effort targets; targeted elbow response and rowing effort/unit requested, not inferred. Existing local restrictions remain."
   },
   "prior_pending_post_sessions": [
     {
@@ -811,6 +811,26 @@
         "reason": "Standing athlete recovery default applies to ordinary run classification and Wednesday planning. The run is completed; no fresh symptom or observed next-day recovery report is inferred."
       },
       "note": "Tuesday completed at RPE 7/8/8 and qualifies a hit under the ordinary recovery default. No fresh specific symptom response or injury clearance supplied."
+    },
+    {
+      "date": "2026-11-12",
+      "session_id": "hybrid-2026-10-26-w3-thu-2026-11-12",
+      "completion": "reported",
+      "elbow_response": null,
+      "lower_ab_response": null,
+      "achilles_response": null,
+      "next_day_recovery": null,
+      "status": "general-recovery-assumed-specific-response-unreported",
+      "decision_id": 487,
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 487,
+        "recorded_at": "2026-11-12T20:35:50-05:00",
+        "observed": false,
+        "reason": "Standing athlete default supplies ordinary recovery and Friday readiness. Thursday performance is reported; no fresh elbow, ab or Achilles response or observed next-morning recovery is inferred."
+      },
+      "note": "Thursday20sets completed at RIR3, including first T2preacher75×8/8 and BWdecline15/12. November11 elbow comfort remains dated evidence; no fresh Thursday-specific response or injury-loading clearance supplied."
     }
   ],
   "resolved_post_sessions": [
@@ -1209,11 +1229,11 @@
   "planning_readiness": {
     "status": "assumed-good",
     "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-    "decision_id": 488,
-    "recorded_at": "2026-11-13T15:08:16-05:00",
+    "decision_id": 489,
+    "recorded_at": "2026-11-13T17:53:54-05:00",
     "observed": false,
-    "reason": "Standing athlete default supplies ordinary readiness for Friday November 13. Today’s request contains no new symptom or observed recovery report; active limits remain.",
-    "for_date": "2026-11-13"
+    "reason": "Standing athlete default supplies ordinary recovery and Saturday readiness. Friday lifting and rowing are reported; no fresh symptom or observed next-day recovery report is inferred.",
+    "for_date": "2026-11-14"
   },
   "general_readiness_history": [
     {
@@ -1262,6 +1282,21 @@
       "slot_id": "S4",
       "status": "second-set-unreported",
       "question": "Was reverse pec deck just one set of 145×12, or did you also complete the second prescribed set?"
+    },
+    {
+      "session_id": "hybrid-2026-10-26-w3-fri-2026-11-13",
+      "date": "2026-11-13",
+      "decision_id": 489,
+      "status": "rowing-pace-unit-and-effort-unreported",
+      "question": "Was the rowing average 2:27.3 per 500 m, and how hard was it on a 1–10 effort scale?"
+    },
+    {
+      "session_id": "hybrid-2026-10-26-w3-fri-2026-11-13",
+      "date": "2026-11-13",
+      "decision_id": 489,
+      "status": "elbow-response-unreported",
+      "question": "Did your elbows stay comfortable during and after the heavier curls and rowing?",
+      "scope": "Targeted response to higher-than-prescribed curl loads and rowing substitution; no routine recovery gate or assumed new injury."
     }
   ],
   "resolved_log_details": [

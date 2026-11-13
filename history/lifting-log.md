@@ -273,3 +273,22 @@ All 20 sets met their rep ranges and effort targets. Fourth lateral and third pu
 T2 records its **first independent preacher exposure**, 75×8/8 per arm at RIR 3. Establish 75 lb in T2; no Wednesday-preacher or former-cable credit transfers. Former cable records stay intact. Raw exposures: T1/T3/T4/T5/T6/T8 to 3; T2 to 1; T7 BW substitute to 2. Baseline cable crunch stays uninitialized.
 
 BW decline 15/12 at RIR 3 is recorded without a fresh symptom response. Preserve BW-only/max 2 sets/minimum 3 RIR. November 11 elbow comfort remains dated evidence, not a Thursday report. Ordinary recovery for Friday is assumed under the standing directive; no new symptom clearance or observed next-morning recovery. Decision #487.
+
+## 2026-11-13 — Hybrid v11 W3 Friday Delts/arms B
+
+Session `hybrid-2026-10-26-w3-fri-2026-11-13`, original prescription `hybrid-2026-10-26-fri-delts-arms-b-487`, **Stage C**, **13 working sets**. Scheduled delts/arms B plus bike; actual endurance was rowing.
+
+| Slot | Exercise | Original prescription | Actual sets: load × reps, RIR |
+|---|---|---|---|
+| S1 | DB lateral raise | 4×12–20 · 35 lb · RIR 2–3 · rest 2 min | 35×12, RIR 4 / 35×12, RIR 3 / 35×12, RIR 3 / 35×13, RIR 3 |
+| S2 | Incline DB curl | 2×8–12 · 25 lb · RIR 2–3 · rest 2 min | 27.5×8, RIR 2 / 27.5×8, RIR 2 |
+| S3 | Cable pushdown | 3×10–15 · 50 lb · RIR 2–3 · rest 2 min | 50×10, RIR 3 / 50×10, RIR 3 / 50×10, RIR 3 |
+| S4 | Reverse pec deck | 2×12–20 · 145 lb · RIR 2–3 · rest 2 min | 145×15, RIR 3 / 145×15, RIR 3 |
+| S5 | Cable reverse curl | 1×15 · 25 lb · RIR ≥4 · rest 2 min | 27.5×15, RIR 4 |
+| S6 | Cable wrist curl | 1×15 · 25 lb · RIR ≥4 · rest 2 min | 27.5×15, RIR 4 |
+
+All 13 sets are reported and meet rep/effort limits, with extra reserve on S1’s first set (RIR4). Preserve **27.5 lb instead of prescribed25** for incline DB curls and both forearm exercises. S2×8/8 atRIR2 and S5/S6×15 atRIR4 support retaining27.5 as a demonstrated reference; this is actual-load reconciliation, not an earned Stage-C increase. No further load/rep increase now; forearms remain one15-rep set at≥4RIR with slow progression.
+
+Fourth lateral/third pushdown sets and the full two-set reverse pec deck dose completed. The current S4 two-set log does not resolve November6’s unreported second set. Raw exposures: S1/S2/S4 become3; S3/S5/S6 become2. No ordinary loading/qualification/plateau credit or stage advance.
+
+**20 minutes rowing**, average **2:27.3** as reported, replaces the prescribed bike. Pace denominator, numeric effort, distance and symptoms are unreported at logging; clarification asked once. Do not label rowing a bike actual or add running/shoe mileage. Ordinary recovery uses the standing default. Decision #489.

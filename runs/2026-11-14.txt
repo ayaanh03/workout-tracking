@@ -1,0 +1,10 @@
+# W3 Saturday longer intervals — decision489. 42min planned; final-rep RPE<=7.
+# Pace source Nov7 consumed once:7:25->7:10. Hold18workmin; recoveries between reps only.
+# Watch pace alerts guide pacing; faster reps can still count.
+name: W3 Longer 3x6 - Nov 14
+warmup: 10:00
+repeat 2
+  work: 6:00 @ current 7:05-7:15/mi
+  recovery: 2:00
+work: 6:00 @ current 7:05-7:15/mi
+cooldown: 10:00

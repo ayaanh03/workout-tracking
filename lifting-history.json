@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "blockId": "hybrid-2026-10-26",
-  "generatedAt": "2026-11-12T20:35:50-05:00",
+  "generatedAt": "2026-11-13T17:53:54-05:00",
   "sessions": [
     {
       "date": "2026-10-25",
@@ -1901,6 +1901,144 @@
         }
       ],
       "notes": "All 20 sets met prescribed rep ranges and effort at RIR 3. First T2 preacher exposure 75×8/8 is independent of prior cable/Wednesday work. Fourth lateral and third pushdown sets completed. No fresh symptom or observed recovery report."
+    },
+    {
+      "date": "2026-11-13",
+      "week": "W3",
+      "stage": "C",
+      "sessionName": "Delts/arms B + rowing",
+      "sessionId": "hybrid-2026-10-26-w3-fri-2026-11-13",
+      "prescriptionId": "hybrid-2026-10-26-fri-delts-arms-b-487",
+      "actualRef": "history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
+      "exercises": [
+        {
+          "slotId": "S1",
+          "exercise": "DB lateral raise",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 4
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 13,
+              "rir": 3
+            }
+          ],
+          "note": "November 13: 35×12/12/12/13 at RIR 4/3/3/3. Fourth set completed; retain 35 lb. First set had extra reserve."
+        },
+        {
+          "slotId": "S2",
+          "exercise": "Incline DB curl",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 27.5,
+              "units": "lb",
+              "reps": 8,
+              "rir": 2
+            },
+            {
+              "load": 27.5,
+              "units": "lb",
+              "reps": 8,
+              "rir": 2
+            }
+          ],
+          "note": "November 13: 27.5×8/8 at RIR 2, instead of prescribed 25 lb. Both sets meet the Stage-C rep floor and effort; retain demonstrated 27.5 lb for 2×8–12 at 2–3 RIR, with no further increase or ordinary ramp credit."
+        },
+        {
+          "slotId": "S3",
+          "exercise": "Cable pushdown",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 10,
+              "rir": 3
+            },
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 10,
+              "rir": 3
+            },
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 10,
+              "rir": 3
+            }
+          ],
+          "note": "November 13: 50×10/10/10 at RIR 3. Third set completed; retain 50 lb under Stage C."
+        },
+        {
+          "slotId": "S4",
+          "exercise": "Reverse pec deck",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 145,
+              "units": "lb",
+              "reps": 15,
+              "rir": 3
+            },
+            {
+              "load": 145,
+              "units": "lb",
+              "reps": 15,
+              "rir": 3
+            }
+          ],
+          "note": "November 13: 145×15/15 at RIR 3. Full two-set dose now recorded; retain 145 lb. The unreported second set from November 6 remains unknown."
+        },
+        {
+          "slotId": "S5",
+          "exercise": "Cable reverse curl",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 27.5,
+              "units": "lb",
+              "reps": 15,
+              "rir": 4
+            }
+          ],
+          "note": "November 13: 27.5×15 at RIR 4, instead of prescribed 25 lb. Retain one 27.5×15 at minimum 4 RIR, with no further load/rep increase now; preserve the slow-progression preference."
+        },
+        {
+          "slotId": "S6",
+          "exercise": "Cable wrist curl",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 27.5,
+              "units": "lb",
+              "reps": 15,
+              "rir": 4
+            }
+          ],
+          "note": "November 13: 27.5×15 at RIR 4, instead of prescribed 25 lb. Retain one 27.5×15 at minimum 4 RIR, with no further load/rep increase now; preserve the slow-progression preference."
+        }
+      ],
+      "notes": "All 13 lifting sets reported. Incline DB curl and both forearm curls performed at 27.5 lb rather than prescribed 25 lb; all meet rep/effort limits, with extra reserve on the first lateral set. Rowing20minutes replaced prescribed bike; average2:27.3 as reported, pace unit and effort unconfirmed. No fresh elbow response supplied."
     }
   ]
 }

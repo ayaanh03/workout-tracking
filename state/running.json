@@ -760,7 +760,7 @@
     ]
   },
   "friday": {
-    "pace_seconds_per_mile": 445,
+    "pace_seconds_per_mile": 430,
     "normal_work_minutes": 18,
     "normal_format": "3x6",
     "rpe_cap": 7,
@@ -942,7 +942,7 @@
       }
     },
     "classification": "hit",
-    "hits": 2,
+    "hits": 0,
     "misses": 0,
     "comfortable_pair": [],
     "next_day_recovery": null,
@@ -986,36 +986,110 @@
       "reason": "All 18 work minutes and both prescribed recoveries are displayed. 7:10/6:58/6:56 pass the one-sided 7:30-or-faster check; final RPE 7 meets cap. No extra rest or materially changed conditions reported. Second ordinary hit; no comfortable tag at final RPE 7 > 5."
     },
     "next_action": {
-      "decision_id": 479,
+      "decision_id": 489,
       "policy_id": "2026-11-03-pace-first",
       "action": "increase-pace-hold-minutes",
-      "status": "earned-awaiting-next-prescription",
+      "status": "prescribed-not-performed",
+      "preview": true,
       "for_date": "2026-11-14",
+      "prescription_id": "hybrid-2026-10-26-sat-intervals-489",
       "pace_seconds_per_mile": 430,
       "work_minutes": 18,
       "format": "3x6",
       "rpe_cap": 7,
       "recovery_seconds": 120,
       "recovery_count": 2,
+      "warmup_minutes": 10,
+      "optional_extra_warmup_minutes": 5,
+      "cooldown_minutes": 10,
+      "total_minutes": 42,
+      "workout_file": "runs/2026-11-14.workout",
       "source_session_id": "hybrid-2026-10-26-w2-sat-2026-11-07",
       "source_prescription_id": "hybrid-2026-10-26-fri-intervals-475",
-      "source_consumed": false,
+      "source_consumed": true,
       "recovery_basis": {
         "status": "assumed-good",
         "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-        "decision_id": 479,
-        "recorded_at": "2026-11-07T17:49:17-05:00",
+        "decision_id": 489,
+        "recorded_at": "2026-11-13T17:53:54-05:00",
         "observed": false,
-        "reason": "Standing athlete default supplies ordinary post-run recovery and next-workout readiness unless contradicted; no observed next-day recovery is claimed."
+        "for_date": "2026-11-14",
+        "reason": "Standing athlete default supplies ordinary readiness for Saturday. Friday lifting and 20 minutes of rowing are reported without new adverse recovery evidence. Rowing effort and session-specific elbow response are unreported; no observed next-day recovery or new injury clearance is inferred."
       },
-      "reason": "Earned 15-second pace increase from all-rep headroom. Next Saturday, November 14: 3×6 at 7:10/mi with work minutes held. Recheck restrictions and complete-week mileage when prescribed; preserve the source until then.",
-      "schedule_decision_id": 482
+      "mileage_check": {
+        "week": "W3",
+        "range_start": "2026-11-09",
+        "range_end": "2026-11-15",
+        "actual_miles": 4.43,
+        "estimated_planned_miles": 9.76515731874145,
+        "upper_planned_miles": 10.382941176470588,
+        "limit_miles": 15,
+        "status": "actual-plus-plan-below-limit",
+        "assumptions": "Confirmed Tuesday4.43mi plus Saturday18workmin at7:10/mi and24easymin at8:30/mi. Upper uses work at7:05/mi and five extra warmup minutes. Rowing is separate from running mileage. Saturday remains unperformed; no planned shoe miles added."
+      },
+      "reason": "November7 paces7:10/6:58/6:56 atRPE6/7/7 establish15s/mi all-rep headroom against the prescribed7:25. Apply7:10 once, retain3×6 and two2-minute recoveries. No early test selected; current fatigue/return/relevant symptom checks do not impose a reduction."
     },
-    "pace_adjustment_history": [],
+    "pace_adjustment_history": [
+      {
+        "decision_id": 489,
+        "policy_id": "2026-11-03-pace-first",
+        "recorded_at": "2026-11-13T17:53:54-05:00",
+        "applied_on": "2026-11-13",
+        "for_date": "2026-11-14",
+        "prescription_id": "hybrid-2026-10-26-sat-intervals-489",
+        "source_session_id": "hybrid-2026-10-26-w2-sat-2026-11-07",
+        "source_prescription_id": "hybrid-2026-10-26-fri-intervals-475",
+        "source_target_seconds_per_mile": 445,
+        "source_rep_paces_seconds_per_mile": [
+          430,
+          418,
+          416
+        ],
+        "source_final_rep_rpe": 7,
+        "slowest_rep_seconds_per_mile": 430,
+        "minimum_headroom_seconds_per_mile": 15,
+        "route": "all-rep-headroom",
+        "pace_step_seconds_per_mile": 15,
+        "from_pace_seconds_per_mile": 445,
+        "to_pace_seconds_per_mile": 430,
+        "work_minutes_held": 18,
+        "format": "3x6",
+        "recovery_seconds": 120,
+        "source_consumed": true,
+        "status": "applied-to-prescription-not-performed",
+        "source_use_order": "Mark source used once, then change normal target and clear counters before the first changed exposure.",
+        "prior_counters": {
+          "hits": 2,
+          "misses": 0,
+          "comfortable_pair": []
+        },
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 489,
+          "recorded_at": "2026-11-13T17:53:54-05:00",
+          "observed": false,
+          "for_date": "2026-11-14",
+          "reason": "Standing athlete default supplies ordinary readiness for Saturday. Friday lifting and 20 minutes of rowing are reported without new adverse recovery evidence. Rowing effort and session-specific elbow response are unreported; no observed next-day recovery or new injury clearance is inferred."
+        },
+        "mileage_check": {
+          "week": "W3",
+          "range_start": "2026-11-09",
+          "range_end": "2026-11-15",
+          "actual_miles": 4.43,
+          "estimated_planned_miles": 9.76515731874145,
+          "upper_planned_miles": 10.382941176470588,
+          "limit_miles": 15,
+          "status": "actual-plus-plan-below-limit",
+          "assumptions": "Confirmed Tuesday4.43mi plus Saturday18workmin at7:10/mi and24easymin at8:30/mi. Upper uses work at7:05/mi and five extra warmup minutes. Rowing is separate from running mileage. Saturday remains unperformed; no planned shoe miles added."
+        },
+        "reason": "445 − max(430,418,416) =15 s/mi headroom. Apply the bounded15-second pace step once; do not stack the separate two-hit5-second route or increase work minutes."
+      }
+    ],
     "pace_progression_review": {
-      "decision_id": 479,
+      "decision_id": 489,
       "policy_id": "2026-11-03-pace-first",
-      "reviewed_on": "2026-11-07",
+      "reviewed_on": "2026-11-13",
       "source_session_id": "hybrid-2026-10-26-w2-sat-2026-11-07",
       "source_prescription_id": "hybrid-2026-10-26-fri-intervals-475",
       "source_date": "2026-11-07",
@@ -1032,18 +1106,33 @@
       "candidate_pace_seconds_per_mile": 430,
       "work_minutes_held": 18,
       "route": "all-rep-headroom",
-      "status": "earned-awaiting-next-prescription",
-      "applied": false,
-      "source_consumed": false,
+      "status": "applied-to-prescription-not-performed",
+      "applied": true,
+      "source_consumed": true,
       "recovery_basis": {
         "status": "assumed-good",
         "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-        "decision_id": 479,
-        "recorded_at": "2026-11-07T17:49:17-05:00",
+        "decision_id": 489,
+        "recorded_at": "2026-11-13T17:53:54-05:00",
         "observed": false,
-        "reason": "Standing athlete default supplies ordinary post-run recovery and next-workout readiness unless contradicted; no observed next-day recovery is claimed."
+        "for_date": "2026-11-14",
+        "reason": "Standing athlete default supplies ordinary readiness for Saturday. Friday lifting and 20 minutes of rowing are reported without new adverse recovery evidence. Rowing effort and session-specific elbow response are unreported; no observed next-day recovery or new injury clearance is inferred."
       },
-      "reason": "445−430=15 s/mi headroom. min(15,5×floor(15/5))=15, so next longer run earns 7:10 at the same 18 minutes. First applicable route wins; do not stack the separate two-hit 5-second route. Keep current target/counters until the changed prescription is issued."
+      "reason": "The saved November7 all-rep headroom supports a15-second step from7:25 to7:10. Source consumed once at generation;18workminutes held, with no stacked pair award. Current counters reset before first changed exposure; latest completed classification remains the November7 hit.",
+      "applied_on": "2026-11-13",
+      "for_date": "2026-11-14",
+      "applied_prescription_id": "hybrid-2026-10-26-sat-intervals-489",
+      "mileage_check": {
+        "week": "W3",
+        "range_start": "2026-11-09",
+        "range_end": "2026-11-15",
+        "actual_miles": 4.43,
+        "estimated_planned_miles": 9.76515731874145,
+        "upper_planned_miles": 10.382941176470588,
+        "limit_miles": 15,
+        "status": "actual-plus-plan-below-limit",
+        "assumptions": "Confirmed Tuesday4.43mi plus Saturday18workmin at7:10/mi and24easymin at8:30/mi. Upper uses work at7:05/mi and five extra warmup minutes. Rowing is separate from running mileage. Saturday remains unperformed; no planned shoe miles added."
+      }
     },
     "prescription_history": [
       {
@@ -1133,6 +1222,50 @@
         "schedule_override_id": "2026-11-06-swap-delts-b-and-longer-run",
         "workout_file": "runs/2026-11-07.workout",
         "latest_review_decision_id": 478
+      },
+      {
+        "decision_id": 489,
+        "policy_id": "2026-11-03-pace-first",
+        "action": "increase-pace-hold-minutes",
+        "status": "prescribed-not-performed",
+        "preview": true,
+        "for_date": "2026-11-14",
+        "prescription_id": "hybrid-2026-10-26-sat-intervals-489",
+        "pace_seconds_per_mile": 430,
+        "work_minutes": 18,
+        "format": "3x6",
+        "rpe_cap": 7,
+        "recovery_seconds": 120,
+        "recovery_count": 2,
+        "warmup_minutes": 10,
+        "optional_extra_warmup_minutes": 5,
+        "cooldown_minutes": 10,
+        "total_minutes": 42,
+        "workout_file": "runs/2026-11-14.workout",
+        "source_session_id": "hybrid-2026-10-26-w2-sat-2026-11-07",
+        "source_prescription_id": "hybrid-2026-10-26-fri-intervals-475",
+        "source_consumed": true,
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 489,
+          "recorded_at": "2026-11-13T17:53:54-05:00",
+          "observed": false,
+          "for_date": "2026-11-14",
+          "reason": "Standing athlete default supplies ordinary readiness for Saturday. Friday lifting and 20 minutes of rowing are reported without new adverse recovery evidence. Rowing effort and session-specific elbow response are unreported; no observed next-day recovery or new injury clearance is inferred."
+        },
+        "mileage_check": {
+          "week": "W3",
+          "range_start": "2026-11-09",
+          "range_end": "2026-11-15",
+          "actual_miles": 4.43,
+          "estimated_planned_miles": 9.76515731874145,
+          "upper_planned_miles": 10.382941176470588,
+          "limit_miles": 15,
+          "status": "actual-plus-plan-below-limit",
+          "assumptions": "Confirmed Tuesday4.43mi plus Saturday18workmin at7:10/mi and24easymin at8:30/mi. Upper uses work at7:05/mi and five extra warmup minutes. Rowing is separate from running mileage. Saturday remains unperformed; no planned shoe miles added."
+        },
+        "reason": "November7 paces7:10/6:58/6:56 atRPE6/7/7 establish15s/mi all-rep headroom against the prescribed7:25. Apply7:10 once, retain3×6 and two2-minute recoveries. No early test selected; current fatigue/return/relevant symptom checks do not impose a reduction."
       }
     ],
     "actual_history": [
@@ -1330,6 +1463,79 @@
       "decision_id": 482,
       "source": "../history/adjustments.md#2026-11-09--permanent-friday-lifting-and-saturday-running",
       "note": "Legacy friday key retains the independent longer-run history and progression."
+    },
+    "pace_progression_review_history": [
+      {
+        "decision_id": 479,
+        "policy_id": "2026-11-03-pace-first",
+        "reviewed_on": "2026-11-07",
+        "source_session_id": "hybrid-2026-10-26-w2-sat-2026-11-07",
+        "source_prescription_id": "hybrid-2026-10-26-fri-intervals-475",
+        "source_date": "2026-11-07",
+        "source_target_seconds_per_mile": 445,
+        "source_work_minutes": 18,
+        "source_format": "3x6",
+        "slowest_rep_seconds_per_mile": 430,
+        "minimum_headroom_seconds_per_mile": 15,
+        "final_rep_rpe": 7,
+        "rpe_cap": 7,
+        "comfortable_effort_threshold": 5,
+        "ordinary_hits_confirmed": 2,
+        "pace_step_seconds_per_mile": 15,
+        "candidate_pace_seconds_per_mile": 430,
+        "work_minutes_held": 18,
+        "route": "all-rep-headroom",
+        "status": "earned-awaiting-next-prescription",
+        "applied": false,
+        "source_consumed": false,
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 479,
+          "recorded_at": "2026-11-07T17:49:17-05:00",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary post-run recovery and next-workout readiness unless contradicted; no observed next-day recovery is claimed."
+        },
+        "reason": "445−430=15 s/mi headroom. min(15,5×floor(15/5))=15, so next longer run earns 7:10 at the same 18 minutes. First applicable route wins; do not stack the separate two-hit 5-second route. Keep current target/counters until the changed prescription is issued."
+      }
+    ],
+    "next_action_history": [
+      {
+        "decision_id": 479,
+        "policy_id": "2026-11-03-pace-first",
+        "action": "increase-pace-hold-minutes",
+        "status": "earned-awaiting-next-prescription",
+        "for_date": "2026-11-14",
+        "pace_seconds_per_mile": 430,
+        "work_minutes": 18,
+        "format": "3x6",
+        "rpe_cap": 7,
+        "recovery_seconds": 120,
+        "recovery_count": 2,
+        "source_session_id": "hybrid-2026-10-26-w2-sat-2026-11-07",
+        "source_prescription_id": "hybrid-2026-10-26-fri-intervals-475",
+        "source_consumed": false,
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 479,
+          "recorded_at": "2026-11-07T17:49:17-05:00",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary post-run recovery and next-workout readiness unless contradicted; no observed next-day recovery is claimed."
+        },
+        "reason": "Earned 15-second pace increase from all-rep headroom. Next Saturday, November 14: 3×6 at 7:10/mi with work minutes held. Recheck restrictions and complete-week mileage when prescribed; preserve the source until then.",
+        "schedule_decision_id": 482
+      }
+    ],
+    "counter_reset": {
+      "decision_id": 489,
+      "recorded_at": "2026-11-13T17:53:54-05:00",
+      "before_prescription_id": "hybrid-2026-10-26-sat-intervals-489",
+      "reason": "Changed normal pace from445 to430seconds/mile; reset before first changed exposure. Latest completed classification stays the November7 hit, not a new result.",
+      "previous_hits": 2,
+      "previous_misses": 0,
+      "current_target_seconds_per_mile": 430,
+      "awaiting_first_exposure": true
     }
   },
   "cycling": {
@@ -1854,7 +2060,7 @@
       "next_action": {
         "decision_id": 487,
         "action": "hold-at-calendar-ceiling",
-        "status": "prescribed-not-performed",
+        "status": "prescribed-bike-replaced-by-rowing",
         "for_date": "2026-11-13",
         "preview": false,
         "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-487",
@@ -1879,9 +2085,12 @@
         "equipment_settings_ref": "cycling.equipment_settings",
         "settings_note": "Height about 10; seat −2 (possibly −1); handle +3. Saved prescription settings are not evidence of tested settings in a completed ride.",
         "source": "../history/cardio-log.md#2026-11-06--hybrid-v11-w2-friday-bike-moved-from-saturday",
-        "reason": "Keep the established 20-minute dose under the W3 ceiling. The November 6 ride was reported as 20 minutes in Z2, with numeric RPE unknown; the November 7 run hit and November 8 full leg dose support that dose. Ordinary recovery uses the athlete default. No duration increase or new bike actual.",
+        "reason": "November13 prescribed20-minute bike was replaced by20minutes of rowing. Preserve the original bike prescription and saved settings; latest actual cycling remainsNovember6, with no automatic duration or tolerance advance from another modality.",
         "review_decision_id": 488,
-        "reviewed_on": "2026-11-13"
+        "reviewed_on": "2026-11-13",
+        "completion_decision_id": 489,
+        "substitution_session_id": "hybrid-2026-10-26-w3-fri-2026-11-13-row",
+        "substitution_source": "../history/cardio-log.md#2026-11-13--hybrid-v11-w3-friday-rowing-in-place-of-bike"
       },
       "validation_review": {
         "decision_id": 481,
@@ -2036,8 +2245,61 @@
             4
           ],
           "reason": "Retain the established 20-minute prescription. Latest ride is reported Z2 with numeric effort unknown; no increase based on missing effort or future performance."
+        },
+        {
+          "decision_id": 487,
+          "action": "hold-at-calendar-ceiling",
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-13",
+          "preview": false,
+          "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-487",
+          "minutes": 20,
+          "target_rpe": 3,
+          "acceptable_rpe_range": [
+            2,
+            4
+          ],
+          "after_lifting": true,
+          "scheduled_day": "Friday",
+          "legacy_track": "saturday",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 488,
+            "recorded_at": "2026-11-13T15:08:16-05:00",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary readiness for Friday November 13. Today’s request contains no new symptom or observed recovery report; active limits remain.",
+            "for_date": "2026-11-13"
+          },
+          "equipment_settings_ref": "cycling.equipment_settings",
+          "settings_note": "Height about 10; seat −2 (possibly −1); handle +3. Saved prescription settings are not evidence of tested settings in a completed ride.",
+          "source": "../history/cardio-log.md#2026-11-06--hybrid-v11-w2-friday-bike-moved-from-saturday",
+          "reason": "Keep the established 20-minute dose under the W3 ceiling. The November 6 ride was reported as 20 minutes in Z2, with numeric RPE unknown; the November 7 run hit and November 8 full leg dose support that dose. Ordinary recovery uses the athlete default. No duration increase or new bike actual.",
+          "review_decision_id": 488,
+          "reviewed_on": "2026-11-13"
         }
-      ]
+      ],
+      "latest_endurance_substitution": {
+        "date": "2026-11-13",
+        "session_id": "hybrid-2026-10-26-w3-fri-2026-11-13-row",
+        "parent_lifting_session_id": "hybrid-2026-10-26-w3-fri-2026-11-13",
+        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-487",
+        "decision_id": 489,
+        "source": "../history/cardio-log.md#2026-11-13--hybrid-v11-w3-friday-rowing-in-place-of-bike",
+        "prescribed_modality": "cycling",
+        "prescribed_duration_seconds": 1200,
+        "performed_modality": "rowing",
+        "duration_seconds": 1200,
+        "average_pace_display": "2:27.3",
+        "average_pace_seconds": 147.3,
+        "pace_per_metres": null,
+        "rpe": null,
+        "elbow_response": null,
+        "lower_ab_response": null,
+        "achilles_response": null,
+        "distance_metres": null,
+        "note": "Athlete rowed20minutes instead of the prescribed bike. Pace display is preserved literally while its distance unit and effort await clarification. Do not infer exact distance, bike completion, new cycling tolerance or running/shoe mileage."
+      }
     },
     "equipment_settings": {
       "recorded_on": "2026-11-06",

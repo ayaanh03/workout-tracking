@@ -1,120 +1,57 @@
 {
-  "generatedAt": "2026-11-13T15:08:16-05:00",
+  "generatedAt": "2026-11-13T17:53:54-05:00",
   "blockId": "hybrid-2026-10-26",
-  "prescriptionId": "hybrid-2026-10-26-fri-delts-arms-b-487",
-  "preview": false,
+  "prescriptionId": "hybrid-2026-10-26-sat-intervals-489",
+  "preview": true,
   "week": "W3",
-  "day": "Fri",
-  "date": "2026-11-13",
+  "day": "Sat",
+  "date": "2026-11-14",
   "phase": "Hybrid v11 — Stage C",
-  "sessionName": "Delts/arms B + bike",
+  "sessionName": "Longer intervals — preview",
   "why": [
-    "Today, Friday November 13: delts/arms B + bike on your standing schedule. Recovery is assumed good under your usual default; the longer run stays on Saturday.",
-    "13 lifting sets at achieved Stage C: laterals gain their fourth set and pushdowns their third. Keep forearm work deliberately easy."
+    "Saturday November 14 is your standing longer-run day. Recovery uses your usual good-recovery assumption.",
+    "Your November 7 result earned a 15-second faster target: 7:25→7:10 per mile. Keep 3×6 minutes so pace and work duration do not increase together."
   ],
-  "intro": [
-    "Core lifts: 2–3 RIR. Reverse and wrist curls: one 25×15 set each, at least 4 RIR; extra reserve is fine. Rest 2 minutes between sets."
-  ],
-  "lift": {
-    "table": [
-      {
-        "slotId": "S1",
-        "exercise": "DB lateral raise",
-        "setsReps": "4×12–20",
-        "load": "35 lb",
-        "rir": "2–3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "S2",
-        "exercise": "Incline DB curl",
-        "setsReps": "2×8–12",
-        "load": "25 lb",
-        "rir": "2–3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "S3",
-        "exercise": "Cable pushdown",
-        "setsReps": "3×10–15",
-        "load": "50 lb",
-        "rir": "2–3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "S4",
-        "exercise": "Reverse pec deck",
-        "setsReps": "2×12–20",
-        "load": "145 lb",
-        "rir": "2–3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "S5",
-        "exercise": "Cable reverse curl",
-        "setsReps": "1×15",
-        "load": "25 lb",
-        "rir": "≥4",
-        "rest": "2 min",
-        "repTargets": [
-          15
-        ]
-      },
-      {
-        "slotId": "S6",
-        "exercise": "Cable wrist curl",
-        "setsReps": "1×15",
-        "load": "25 lb",
-        "rir": "≥4",
-        "rest": "2 min",
-        "repTargets": [
-          15
-        ]
-      }
-    ]
-  },
+  "intro": [],
+  "lift": null,
   "cardio": {
-    "workout": "Bike for 20 minutes after lifting at RPE 3/10 (2–4 acceptable), with comfortable full-sentence conversation.",
-    "warmup": "",
-    "cooldown": "",
+    "workout": "3×6 minutes at 7:10/mi, with 2-minute easy jog/walk recoveries between reps only. 18 work minutes; 42 minutes total with the prescribed warmup/cooldown.",
+    "warmup": "10 minutes easy; 8:30–9:30/mi is a guide, slower is fine. Up to 5 extra minutes if needed.",
+    "cooldown": "10 minutes easy, conversation comfortable.",
     "targets": {
-      "rpe": "3/10; 2–4 acceptable"
+      "pace": "7:10/mi",
+      "rpe": "Build toward 6–7/10; final rep ≤7/10"
     },
     "flags": [
-      "Saved bike settings: height about 10; seat −2 (possibly −1); handle +3."
+      "Watch alerts 7:05–7:15/mi guide pacing. Faster reps can still count when work, rest, effort and recovery requirements are met.",
+      "Keep the 18 work minutes unchanged while the target gets faster."
     ],
-    "workoutFile": null
+    "workoutFile": "runs/2026-11-14.workout"
   },
   "adaptation": [
     {
-      "exercise": "Thursday completed",
-      "previous": "November 12: all 20 sets at RIR 3. Incline 135×8/8/8; first Thursday preacher 75×8/8; pull-ups BW×10/10; row 120×9/10.",
-      "decision": "Record the full session and establish 75 lb in the independent Thursday preacher slot. Keep suitable Thursday loads.",
-      "reason": "Pull-ups and rows improved within their ranges; the added lateral and pushdown sets were completed. Stage C does not yet award ordinary loading credit."
+      "exercise": "Longer-run pace",
+      "previous": "November 7: 3×6 at 7:10/6:58/6:56 per mile, RPE 6/7/7, against a 7:25 target.",
+      "decision": "3×6 at 7:10/mi, with two 2-minute recoveries.",
+      "reason": "The slowest rep was 15 s/mi faster than target. Apply the earned 15-second pace step once; keep 18 work minutes and final RPE ≤7."
     },
     {
-      "exercise": "Laterals, incline curls and pushdowns",
-      "previous": "November 6 in these slots: lateral 35×12/12/13; incline curl 25×8/9; pushdown 50×10/10, all at RIR 3.",
-      "decision": "Hold loads: laterals 4 sets, incline curls 2, pushdowns 3 at 2–3 RIR.",
-      "reason": "Stage C supplies full core sets. The prior biceps hold remains released; November 11 elbow comfort is recorded without inventing a Thursday symptom report."
+      "exercise": "Friday lifting",
+      "previous": "13 sets reported. Incline DB curl 27.5×8/8 at RIR 2; reverse and wrist curls 27.5×15 at RIR 4, instead of prescribed 25 lb.",
+      "decision": "Record the actual 27.5 lb and retain it as the next working reference. Keep forearms at one 15-rep set each, ≥4 RIR, with no further increase now.",
+      "reason": "Reported reps/RIR fit the effective targets. This reconciles actual loads; Stage C does not grant ordinary loading credit. The original 25 lb prescription stays in history."
     },
     {
-      "exercise": "Reverse pec deck",
-      "previous": "November 6: 145×12 at RIR 3 reported; the second prescribed set remains unreported.",
-      "decision": "145 lb for 2×12–20 at 2–3 RIR.",
-      "reason": "Keep the suitable load and normal set count. An incomplete earlier log does not establish decline or full-dose completion."
+      "exercise": "Rowing substitution",
+      "previous": "Friday: 20 minutes rowing at average 2:27.3 as reported. Pace unit, numeric effort and current elbow response are unconfirmed.",
+      "decision": "Record rowing separately from the prescribed bike. Use the standing recovery default for Saturday.",
+      "reason": "No fresh adverse recovery evidence is reported. Do not convert rowing into cycling tolerance or running/shoe mileage; adjust if the follow-up identifies symptoms or excessive effort."
     },
     {
-      "exercise": "Reverse curls and wrist curls",
-      "previous": "November 6: 25×15 each at RIR 10+, deliberately easy; November 7 follow-up reported no elbow issues.",
-      "decision": "Repeat one 25×15 set each with at least 4 RIR.",
-      "reason": "Respect your request for slow forearm progression. Extra reserve does not trigger a load jump; two-set eligibility has not been earned."
-    },
-    {
-      "exercise": "Bike and schedule",
-      "previous": "Last Friday: 20 minutes reported in Zone 2. Wednesday: 20:25 at 130 W average and HR 145; Thursday lifting was completed in range.",
-      "decision": "Keep 20 minutes after lifting, using saved settings. No calf raises in this session.",
-      "reason": "W3 has a 20-minute bike ceiling. Saturday remains the longer run, and Sunday remains legs. No new cycling or running completion is inferred."
+      "exercise": "Weekly mileage",
+      "previous": "Tuesday confirmed 4.43 miles; Saturday remains unperformed.",
+      "decision": "Estimated week 9.77 miles; upper planning estimate 10.38, below 15.",
+      "reason": "Includes prescribed running warmup, recoveries and cooldown; upper estimate includes five extra warmup minutes. No planned distance is added to shoes."
     }
   ],
   "currentLoads": [
@@ -269,43 +206,43 @@
       "slotId": "S1",
       "exercise": "S1 — DB lateral raise",
       "load": "35 lb",
-      "lastVerified": "2026-11-06",
-      "note": "November 6: 35×12/12/13 at RIR 3. Hold 35 lb and add the fourth set for achieved Stage C."
+      "lastVerified": "2026-11-13 (reported)",
+      "note": "November 13: 35×12/12/12/13 at RIR 4/3/3/3. Fourth set completed; retain 35 lb. First set had extra reserve."
     },
     {
       "slotId": "S2",
       "exercise": "S2 — Incline DB curl",
-      "load": "25 lb",
-      "lastVerified": "2026-11-06",
-      "note": "November 6: 25×8/9 at RIR 3. Hold 25 lb for two sets under Stage C. The earlier biceps hold remains released; November 11 elbow comfort is dated evidence, not a new Thursday response."
+      "load": "27.5 lb",
+      "lastVerified": "2026-11-13 (reported)",
+      "note": "November 13: 27.5×8/8 at RIR 2, instead of prescribed 25 lb. Both sets meet the Stage-C rep floor and effort; retain demonstrated 27.5 lb for 2×8–12 at 2–3 RIR, with no further increase or ordinary ramp credit."
     },
     {
       "slotId": "S3",
       "exercise": "S3 — Cable pushdown",
       "load": "50 lb",
-      "lastVerified": "2026-11-06",
-      "note": "November 6: 50×10/10 at RIR 3. Hold 50 lb and add the third set for achieved Stage C. Pushdowns remain the requested overhead-extension replacement."
+      "lastVerified": "2026-11-13 (reported)",
+      "note": "November 13: 50×10/10/10 at RIR 3. Third set completed; retain 50 lb under Stage C."
     },
     {
       "slotId": "S4",
       "exercise": "S4 — Reverse pec deck",
       "load": "145 lb",
-      "lastVerified": "2026-11-06",
-      "note": "November 6: one 145×12 at RIR 3 reported; the second prescribed set remains unreported. Hold 145 lb and prescribe the normal two sets at 2–3 RIR; no full-dose completion or decline inferred from the incomplete prior log."
+      "lastVerified": "2026-11-13 (reported)",
+      "note": "November 13: 145×15/15 at RIR 3. Full two-set dose now recorded; retain 145 lb. The unreported second set from November 6 remains unknown."
     },
     {
       "slotId": "S5",
       "exercise": "S5 — Cable reverse curl",
-      "load": "25 lb",
-      "lastVerified": "2026-11-06",
-      "note": "November 6: 25×15 at RIR 10+, deliberately easy, with no elbow issues reported November 7. Repeat one 25×15 at minimum 4 RIR per the requested slow progression; no automatic load jump or two-set eligibility."
+      "load": "27.5 lb",
+      "lastVerified": "2026-11-13 (reported)",
+      "note": "November 13: 27.5×15 at RIR 4, instead of prescribed 25 lb. Retain one 27.5×15 at minimum 4 RIR, with no further load/rep increase now; preserve the slow-progression preference."
     },
     {
       "slotId": "S6",
       "exercise": "S6 — Cable wrist curl",
-      "load": "25 lb",
-      "lastVerified": "2026-11-06",
-      "note": "November 6: 25×15 at RIR 10+, deliberately easy, with no elbow issues reported November 7. Repeat one 25×15 at minimum 4 RIR per the requested slow progression; no automatic load jump or two-set eligibility."
+      "load": "27.5 lb",
+      "lastVerified": "2026-11-13 (reported)",
+      "note": "November 13: 27.5×15 at RIR 4, instead of prescribed 25 lb. Retain one 27.5×15 at minimum 4 RIR, with no further load/rep increase now; preserve the slow-progression preference."
     },
     {
       "slotId": "L1",

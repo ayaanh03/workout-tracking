@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-13T15:08:16-05:00",
+  "generatedAt": "2026-11-13T17:53:54-05:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W3",
   "phase": "Hybrid v11 — Stage C",
   "rangeStart": "2026-11-09",
   "rangeEnd": "2026-11-15",
-  "summary": "W3, November 9–15: Monday through Thursday completed—52 lifting sets, 4.43 running miles and 20:25 cycling. Today, Friday: 13 lifting sets plus 20 minutes bike. Saturday’s longer run remains queued at 3×6 at 7:10/mi. Full-week prescription remains 82 lifting sets and 40 bike minutes; actual cycling is tracked separately.",
+  "summary": "W3, November 9–15: Monday through Friday completed—65 lifting sets, 4.43 running miles, 20:25 cycling and 20:00 rowing. Friday rowing replaced bike. Saturday preview: 3×6 minutes at the earned 7:10/mi target. Sunday legs remain planned; Stage C week is still in progress.",
   "days": [
     {
       "date": "2026-11-09",
@@ -39,15 +39,15 @@
     {
       "date": "2026-11-13",
       "day": "Fri",
-      "session": "Delts/arms B + bike",
-      "note": "Today: 13 sets—laterals 35 lb, 4 sets; incline DB curl 25 lb, 2; pushdown 50 lb, 3; reverse pec deck 145 lb, 2; reverse/wrist curls 25 lb, 1×15 each. Core RIR 2–3, forearms ≥4; rest 2 min. Bike 20 min at RPE 3 (2–4); height about 10, seat −2 (possibly −1), handle +3.",
-      "status": "today"
+      "session": "Delts/arms B + rowing",
+      "note": "13 sets logged: laterals 35×12/12/12/13; incline curl 27.5×8/8; pushdown 50×10/10/10; reverse pec deck 145×15/15; reverse/wrist curls 27.5×15 each. Full RIR in history. Rowed 20 minutes at average 2:27.3 instead of bike; pace unit and effort unconfirmed.",
+      "status": "done"
     },
     {
       "date": "2026-11-14",
       "day": "Sat",
       "session": "Longer intervals",
-      "note": "Standing Saturday run. Earned target: 3×6 minutes at 7:10/mi with 2-minute recoveries. RPE cap 7; work minutes stay unchanged.",
+      "note": "Preview ready: 10 minutes easy, 3×6 minutes at 7:10/mi with 2-minute easy recoveries between reps, then 10 minutes easy. 42 minutes total, final RPE ≤7. Apply the November 7 pace award once; work stays at 18 minutes.",
       "status": "upcoming"
     },
     {
@@ -59,14 +59,14 @@
     }
   ],
   "runningMileageCheck": {
-    "decisionId": 484,
-    "kind": "tuesday-actual-saturday-earned",
+    "decisionId": 489,
+    "kind": "tuesday-actual-saturday-prescribed",
     "recordedMiles": 4.43,
     "estimatedUnconfirmedMiles": 0,
     "estimatedMiles": 9.76515731874145,
     "upperMiles": 10.382941176470588,
     "limitMiles": 15,
     "status": "actual-plus-plan-below-limit",
-    "assumptions": "Confirmed Tuesday 4.43 miles plus prospective Saturday 18 work minutes at 7:10/mi and 24 easy minutes at 8:30/mi. Upper uses Saturday work at 7:05/mi and five extra warmup minutes. Saturday remains earned, unperformed and unconsumed; recheck at generation. Only Tuesday actual mileage is added to shoes."
+    "assumptions": "Confirmed Tuesday 4.43 miles plus prescribed Saturday 18 work minutes at 7:10/mi and 24 easy minutes at 8:30/mi. Upper uses Saturday work at 7:05/mi and five extra warmup minutes. Saturday source is now consumed once; workout is unperformed. Rowing adds no running or shoe mileage."
   }
 }

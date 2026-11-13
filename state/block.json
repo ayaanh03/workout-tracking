@@ -56,7 +56,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 488,
+  "last_adjustment_id": 489,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -519,6 +519,39 @@
         "reason": "Standing athlete default supplies ordinary recovery and Friday readiness. Thursday performance is reported; no fresh elbow, ab or Achilles response or observed next-morning recovery is inferred."
       },
       "review_note": "All 20 sets in range at RIR 3. T2 first preacher 75×8/8; T4 pull-ups improve to 10/10 and T6 row to 9/10. Added lateral/pushdown sets completed. No ordinary Stage-C loading credit or inferred symptom clearance."
+    },
+    "2026-11-13": {
+      "calendar_week": "W3",
+      "session": "Delts/arms B + rowing (bike substituted)",
+      "session_id": "hybrid-2026-10-26-w3-fri-2026-11-13",
+      "status": "completed",
+      "stage": "C",
+      "working_sets": 13,
+      "reported_working_sets": 13,
+      "prescribed_working_sets": 13,
+      "unresolved_slots": [],
+      "actual_ref": "../history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
+      "cardio_actual_ref": "../history/cardio-log.md#2026-11-13--hybrid-v11-w3-friday-rowing-in-place-of-bike",
+      "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-487",
+      "prescribed_cardio_modality": "bike",
+      "performed_cardio_modality": "rowing",
+      "prescribed_bike_minutes": 20,
+      "bike_performed": false,
+      "rowing_seconds": 1200,
+      "rowing_minutes": 20,
+      "rowing_average_pace_display": "2:27.3",
+      "rowing_pace_per_metres": null,
+      "rowing_rpe": null,
+      "recovery_status": "general-recovery-assumed-specific-response-unreported",
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 489,
+        "recorded_at": "2026-11-13T17:53:54-05:00",
+        "observed": false,
+        "reason": "Standing athlete default supplies ordinary recovery and Saturday readiness. Friday lifting and rowing are reported; no fresh symptom or observed next-day recovery report is inferred."
+      },
+      "review_note": "13sets logged. S2/S5/S6 use actual27.5 instead25; retain demonstrated loads without ordinary ramp progression. Rowing replaces bike; do not add cycling completion/tolerance or running/shoe mileage."
     }
   },
   "planned_start_date": "2026-10-26",
@@ -614,17 +647,19 @@
       "range_end": "2026-11-15",
       "stage": "C",
       "completion": "in-progress",
-      "completed_sessions": 4,
-      "known_lifting_sets": 52,
+      "completed_sessions": 5,
+      "known_lifting_sets": 65,
       "known_running_work_minutes": 12,
       "confirmed_running_miles": 4.43,
       "known_cycling_minutes": 20.416666666666668,
       "manageable": null,
       "status": "week-in-progress",
-      "decision_id": 487,
-      "source": "../history/lifting-log.md#2026-11-12--hybrid-v11-w3-thursday-upper-b",
-      "note": "Monday through Thursday completed: 52 lifting sets, 12 run work minutes, 4.43 confirmed running miles and 20:25 cycling. Three sessions remain unperformed. W3 stays in progress at Stage C; no completed manageable C week yet.",
-      "known_cycling_seconds": 1225
+      "decision_id": 489,
+      "source": "../history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
+      "note": "Monday through Friday completed: 65 lifting sets, 12 run work minutes, 4.43 confirmed running miles, 20:25 cycling and 20:00 rowing. Friday rowing replaced bike. Saturday and Sunday remain unperformed; Stage C week is still in progress.",
+      "known_cycling_seconds": 1225,
+      "known_rowing_minutes": 20,
+      "known_rowing_seconds": 1200
     }
   },
   "program_amendments": [
@@ -716,14 +751,14 @@
     "publish_next_workout": true,
     "default_recovery": "assumed-good-unless-reported-otherwise",
     "source": "../program/readiness.md",
-    "last_generated_date": "2026-11-13",
-    "last_generated_prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-487",
-    "last_generated_from_session_id": "hybrid-2026-10-26-w3-thu-2026-11-12",
+    "last_generated_date": "2026-11-14",
+    "last_generated_prescription_id": "hybrid-2026-10-26-sat-intervals-489",
+    "last_generated_from_session_id": "hybrid-2026-10-26-w3-fri-2026-11-13",
     "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping.",
-    "last_generation_trigger": "current-day-request",
-    "last_generation_decision_id": 488,
-    "last_review_decision_id": 488,
-    "last_review_reason": "Friday preview reviewed unchanged and published as today’s workout under the standing recovery default."
+    "last_generation_trigger": "completed-session-log",
+    "last_generation_decision_id": 489,
+    "last_review_decision_id": 489,
+    "last_review_reason": "Friday lifting/rowing completed; next scheduled Saturday run generated under standing directive with earned pace increase."
   },
   "session_freeze_history": [
     {

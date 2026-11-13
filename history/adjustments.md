@@ -752,3 +752,21 @@ Thursday provides acceptable subsequent lifting performance after Wednesday cycl
 **13 sets**, rest **2 minutes** throughout: DB lateral raise **35 lb, 4×12–20**; incline DB curl **25 lb, 2×8–12**; cable pushdown **50 lb, 3×10–15**; reverse pec deck **145 lb, 2×12–20**, all at **2–3 RIR**. Cable reverse curl and wrist curl each **25 lb, 1×15, ≥4 RIR**, preserving the requested deliberately easy dose. **Bike 20 minutes after lifting, RPE 3 (2–4 acceptable)**. Saved settings: height about10, seat−2(possibly−1), handle+3.
 
 No new actuals or symptom report changes #487’s assessment: same-slot November6 loads remain suitable, Stage C supplies the fourth lateral/third pushdown sets, and ordinary recovery uses the standing assumption. The unreported November6 S4 second set stays unknown; current local limits and prior symptom evidence remain. No exposure, credit, stage, completed-session count, bike actual, shoe mileage or run progression changes. Saturday remains the longer run. Refresh and publish current-day dashboard/state; preserve all completed history.
+
+## 2026-11-13 — log Friday lifting and rowing; generate Saturday
+
+489. Log `hybrid-2026-10-26-w3-fri-2026-11-13` against original `hybrid-2026-10-26-fri-delts-arms-b-487`: **13 lifting sets**. Preserve S1 RIR4/3/3/3; S2 actual**27.5×8/8 at RIR2**, S3**50×10/10/10 at RIR3**, S4**145×15/15 at RIR3**, S5/S6**27.5×15 at RIR4**. Original prescribed S2/S5/S6 loads were25lb. The heavier actuals fit rep/effort targets, so retain27.5 as a demonstrated reference rather than awarding progression. Hold other loads; forearms remain one15-rep set each at≥4RIR with no further load/rep increase now. No ordinary Stage-C loading/qualification/plateau credit. Raw exposures become S1/S2/S4=3, S3/S5/S6=2. November6’s unreported second S4 set remains unknown.
+
+Record **20 minutes rowing**, average display **2:27.3**, in place of the planned20-minute bike. Pace denominator, RPE and current elbow response are unconfirmed; targeted clarification asked once. Keep cycling’s latest actual and last-tolerated20-minute dose intact. Rowing is separate workload, not bike completion/tolerance, shoe mileage or a permanent replacement. Use the standing good-recovery assumption without inventing observed recovery or injury clearance.
+
+Generate **Saturday November14 — Longer intervals, preview**, prescription `hybrid-2026-10-26-sat-intervals-489`:
+
+- Warmup: **10 minutes easy**;8:30–9:30/mi is a guide, slower is fine; up to5 extra minutes if needed.
+- Work: **3×6 minutes at7:10/mi**.
+- Recovery: **2 minutes easy jog/walk between reps only**, two recoveries.
+- Cooldown: **10 minutes easy**.
+- **42 minutes total,18 work minutes; final-rep RPE≤7.** Watch pace alerts7:05–7:15/mi guide pacing; faster reps can still count.
+
+Apply the queued November7 source once: target7:25, actual7:10/6:58/6:56, RPE6/7/7. Slowest-rep headroom445−430=**15s/mi** earns the bounded15-second step under the pace-first rule. Mark source consumed before the changed exposure; normal target445→430seconds, hit/miss counters reset for the new target, and work stays18minutes. No stacked two-hit award, minute increase, Saturday actual or new source credit. Preserve last successful actual at its original target and keep Tuesday’s independent6:40 state unchanged. No early test, return or global-fatigue restriction applies.
+
+W3 full-week running estimate **9.76515731874145mi**, upper **10.382941176470588mi**, below15: confirmed Tuesday4.43mi plus Saturday18work minutes at7:10 and24easy minutes at8:30; upper uses work at7:05 and five extra warmup minutes. Rowing adds no running/shoe miles. W3 now records **5 completed sessions,65 lifting sets,12 running work minutes,4.43 confirmed miles,20:25 cycling and20:00 rowing**. Saturday and Sunday remain unperformed; live date remains FridayNovember13, stageC and last-toleratedB unchanged. Save/decode-check the November14 Watch file, refresh daily/week/history and publish.

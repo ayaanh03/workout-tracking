@@ -2288,21 +2288,24 @@
       "load": 35,
       "units": "lb",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
+      "load_source": "../history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
       "equipment": "Dumbbells",
       "setup": null,
       "load_convention": "Same athlete dumbbell notation; per-hand convention not explicitly supplied.",
-      "new_exposure_count": 2,
+      "new_exposure_count": 3,
       "last_actual": {
-        "date": "2026-11-06",
-        "session_id": "hybrid-2026-10-26-w2-fri-2026-11-06",
-        "prescription_id": "hybrid-2026-10-26-sat-delts-arms-b-475",
-        "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
-        "stage": "B",
-        "template_day": "Saturday",
+        "date": "2026-11-13",
+        "session_id": "hybrid-2026-10-26-w3-fri-2026-11-13",
+        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-487",
+        "source": "../history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
+        "stage": "C",
         "scheduled_day": "Friday",
-        "schedule_override_id": "2026-11-06-swap-delts-b-and-longer-run",
         "sets": [
+          {
+            "load": 35,
+            "reps": 12,
+            "rir": 4
+          },
           {
             "load": 35,
             "reps": 12,
@@ -2320,14 +2323,12 @@
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-B ramp exposure; no ordinary load or plateau credit."
+        "reason": "Stage-C ramp; no ordinary load-progression or plateau credit."
       },
       "next_action": {
-        "decision_id": 487,
-        "action": "hold-load-at-stage-c-dose",
-        "status": "prescribed-not-performed",
-        "for_date": "2026-11-13",
-        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-487",
+        "decision_id": 489,
+        "action": "hold-load-at-next-matching-slot",
+        "status": "recommendation-for-next-exposure",
         "stage": "C",
         "load_lb": 35,
         "sets": 4,
@@ -2337,8 +2338,8 @@
         ],
         "minimum_rir": 2,
         "rest_seconds": 120,
-        "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
-        "reason": "November 6: 35×12/12/13 at RIR 3. Hold 35 lb and add the fourth set for achieved Stage C.",
+        "source": "../history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
+        "reason": "November 13: 35×12/12/12/13 at RIR 4/3/3/3. Fourth set completed; retain 35 lb. First set had extra reserve.",
         "target_rir_range": [
           2,
           3
@@ -2365,6 +2366,35 @@
           ],
           "progression_eligible": false,
           "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+        },
+        {
+          "date": "2026-11-06",
+          "session_id": "hybrid-2026-10-26-w2-fri-2026-11-06",
+          "prescription_id": "hybrid-2026-10-26-sat-delts-arms-b-475",
+          "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
+          "stage": "B",
+          "template_day": "Saturday",
+          "scheduled_day": "Friday",
+          "schedule_override_id": "2026-11-06-swap-delts-b-and-longer-run",
+          "sets": [
+            {
+              "load": 35,
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 35,
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 35,
+              "reps": 13,
+              "rir": 3
+            }
+          ],
+          "progression_eligible": false,
+          "reason": "Stage-B ramp exposure; no ordinary load or plateau credit."
         }
       ],
       "next_action_history": [
@@ -2374,51 +2404,75 @@
           "load_lb": 35,
           "reason": "Hold suitable working load during Stage B; use this slot’s achieved-stage sets at the next scheduled exposure. No ordinary progression credit.",
           "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday"
+        },
+        {
+          "decision_id": 487,
+          "action": "hold-load-at-stage-c-dose",
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-13",
+          "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-487",
+          "stage": "C",
+          "load_lb": 35,
+          "sets": 4,
+          "rep_range": [
+            12,
+            20
+          ],
+          "minimum_rir": 2,
+          "rest_seconds": 120,
+          "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
+          "reason": "November 6: 35×12/12/13 at RIR 3. Hold 35 lb and add the fourth set for achieved Stage C.",
+          "target_rir_range": [
+            2,
+            3
+          ]
         }
       ]
     },
     "S2": {
       "exercise": "Incline DB curl",
-      "load": 25,
+      "load": 27.5,
       "units": "lb",
       "equipment": "Dumbbells and incline bench",
       "setup": null,
       "load_convention": "Athlete-reported dumbbell notation; per-hand convention and incline angle not explicitly supplied.",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
-      "new_exposure_count": 2,
+      "load_source": "../history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
+      "new_exposure_count": 3,
       "last_actual": {
-        "date": "2026-11-06",
-        "session_id": "hybrid-2026-10-26-w2-fri-2026-11-06",
-        "prescription_id": "hybrid-2026-10-26-sat-delts-arms-b-475",
-        "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
-        "stage": "B",
-        "template_day": "Saturday",
+        "date": "2026-11-13",
+        "session_id": "hybrid-2026-10-26-w3-fri-2026-11-13",
+        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-487",
+        "source": "../history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
+        "stage": "C",
         "scheduled_day": "Friday",
-        "schedule_override_id": "2026-11-06-swap-delts-b-and-longer-run",
         "sets": [
           {
-            "load": 25,
+            "load": 27.5,
             "reps": 8,
-            "rir": 3
+            "rir": 2
           },
           {
-            "load": 25,
-            "reps": 9,
-            "rir": 3
+            "load": 27.5,
+            "reps": 8,
+            "rir": 2
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-B ramp exposure; no ordinary load or plateau credit."
+        "reason": "Stage-C ramp; no ordinary load-progression or plateau credit.",
+        "prescription_deviation": {
+          "prescribed_load_lb": 25,
+          "actual_load_lb": 27.5,
+          "reason": "Athlete performed a heavier load; record literally and retain as a working reference because reported reps/RIR fit. This is not an awarded ramp increase."
+        },
+        "elbow_response": null
       },
       "next_action": {
-        "decision_id": 487,
-        "action": "hold-load-at-stage-c-dose",
-        "status": "prescribed-not-performed",
-        "for_date": "2026-11-13",
-        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-487",
+        "decision_id": 489,
+        "action": "hold-load-at-next-matching-slot",
+        "status": "recommendation-for-next-exposure",
         "stage": "C",
-        "load_lb": 25,
+        "load_lb": 27.5,
         "sets": 2,
         "rep_range": [
           8,
@@ -2426,12 +2480,13 @@
         ],
         "minimum_rir": 2,
         "rest_seconds": 120,
-        "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
-        "reason": "November 6: 25×8/9 at RIR 3. Hold 25 lb for two sets under Stage C. The earlier biceps hold remains released; November 11 elbow comfort is dated evidence, not a new Thursday response.",
+        "source": "../history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
+        "reason": "November 13: 27.5×8/8 at RIR 2, instead of prescribed 25 lb. Both sets meet the Stage-C rep floor and effort; retain demonstrated 27.5 lb for 2×8–12 at 2–3 RIR, with no further increase or ordinary ramp credit.",
         "target_rir_range": [
           2,
           3
-        ]
+        ],
+        "symptom_action": "Reduce or omit aggravating work if elbow symptoms occur."
       },
       "actual_history": [
         {
@@ -2454,6 +2509,30 @@
             "actual_load_lb": 25,
             "note": "Athlete reports 25×9 at RIR 3 instead of the selected 20 lb starting load. Establish this independent Saturday calibration; no inferred error, extra set or earned load increase."
           }
+        },
+        {
+          "date": "2026-11-06",
+          "session_id": "hybrid-2026-10-26-w2-fri-2026-11-06",
+          "prescription_id": "hybrid-2026-10-26-sat-delts-arms-b-475",
+          "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
+          "stage": "B",
+          "template_day": "Saturday",
+          "scheduled_day": "Friday",
+          "schedule_override_id": "2026-11-06-swap-delts-b-and-longer-run",
+          "sets": [
+            {
+              "load": 25,
+              "reps": 8,
+              "rir": 3
+            },
+            {
+              "load": 25,
+              "reps": 9,
+              "rir": 3
+            }
+          ],
+          "progression_eligible": false,
+          "reason": "Stage-B ramp exposure; no ordinary load or plateau credit."
         }
       ],
       "next_action_history": [
@@ -2463,6 +2542,28 @@
           "load_lb": 25,
           "reason": "Hold suitable working load during Stage B; use this slot’s achieved-stage sets at the next scheduled exposure. No ordinary progression credit.",
           "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday"
+        },
+        {
+          "decision_id": 487,
+          "action": "hold-load-at-stage-c-dose",
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-13",
+          "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-487",
+          "stage": "C",
+          "load_lb": 25,
+          "sets": 2,
+          "rep_range": [
+            8,
+            12
+          ],
+          "minimum_rir": 2,
+          "rest_seconds": 120,
+          "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
+          "reason": "November 6: 25×8/9 at RIR 3. Hold 25 lb for two sets under Stage C. The earlier biceps hold remains released; November 11 elbow comfort is dated evidence, not a new Thursday response.",
+          "target_rir_range": [
+            2,
+            3
+          ]
         }
       ]
     },
@@ -2474,17 +2575,20 @@
       "setup": null,
       "load_convention": "Use the existing Thursday pushdown station/setting convention where available; no new attachment or pulley-ratio detail supplied.",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
+      "load_source": "../history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
       "last_actual": {
-        "date": "2026-11-06",
-        "session_id": "hybrid-2026-10-26-w2-fri-2026-11-06",
-        "prescription_id": "hybrid-2026-10-26-sat-delts-arms-b-475",
-        "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
-        "stage": "B",
-        "template_day": "Saturday",
+        "date": "2026-11-13",
+        "session_id": "hybrid-2026-10-26-w3-fri-2026-11-13",
+        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-487",
+        "source": "../history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
+        "stage": "C",
         "scheduled_day": "Friday",
-        "schedule_override_id": "2026-11-06-swap-delts-b-and-longer-run",
         "sets": [
+          {
+            "load": 50,
+            "reps": 10,
+            "rir": 3
+          },
           {
             "load": 50,
             "reps": 10,
@@ -2497,9 +2601,9 @@
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-B ramp exposure; no ordinary load or plateau credit."
+        "reason": "Stage-C ramp; no ordinary load-progression or plateau credit."
       },
-      "new_exposure_count": 1,
+      "new_exposure_count": 2,
       "qualifying_exposures": 0,
       "comparable_sessions": [],
       "first_set_anchor": null,
@@ -2549,11 +2653,9 @@
         }
       ],
       "next_action": {
-        "decision_id": 487,
-        "action": "hold-load-at-stage-c-dose",
-        "status": "prescribed-not-performed",
-        "for_date": "2026-11-13",
-        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-487",
+        "decision_id": 489,
+        "action": "hold-load-at-next-matching-slot",
+        "status": "recommendation-for-next-exposure",
         "stage": "C",
         "load_lb": 50,
         "sets": 3,
@@ -2563,8 +2665,8 @@
         ],
         "minimum_rir": 2,
         "rest_seconds": 120,
-        "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
-        "reason": "November 6: 50×10/10 at RIR 3. Hold 50 lb and add the third set for achieved Stage C. Pushdowns remain the requested overhead-extension replacement.",
+        "source": "../history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
+        "reason": "November 13: 50×10/10/10 at RIR 3. Third set completed; retain 50 lb under Stage C.",
         "target_rir_range": [
           2,
           3
@@ -2577,6 +2679,54 @@
           "load_lb": 50,
           "reason": "Hold suitable working load during Stage B; use this slot’s achieved-stage sets at the next scheduled exposure. No ordinary progression credit.",
           "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday"
+        },
+        {
+          "decision_id": 487,
+          "action": "hold-load-at-stage-c-dose",
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-13",
+          "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-487",
+          "stage": "C",
+          "load_lb": 50,
+          "sets": 3,
+          "rep_range": [
+            10,
+            15
+          ],
+          "minimum_rir": 2,
+          "rest_seconds": 120,
+          "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
+          "reason": "November 6: 50×10/10 at RIR 3. Hold 50 lb and add the third set for achieved Stage C. Pushdowns remain the requested overhead-extension replacement.",
+          "target_rir_range": [
+            2,
+            3
+          ]
+        }
+      ],
+      "actual_history": [
+        {
+          "date": "2026-11-06",
+          "session_id": "hybrid-2026-10-26-w2-fri-2026-11-06",
+          "prescription_id": "hybrid-2026-10-26-sat-delts-arms-b-475",
+          "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
+          "stage": "B",
+          "template_day": "Saturday",
+          "scheduled_day": "Friday",
+          "schedule_override_id": "2026-11-06-swap-delts-b-and-longer-run",
+          "sets": [
+            {
+              "load": 50,
+              "reps": 10,
+              "rir": 3
+            },
+            {
+              "load": 50,
+              "reps": 10,
+              "rir": 3
+            }
+          ],
+          "progression_eligible": false,
+          "reason": "Stage-B ramp exposure; no ordinary load or plateau credit."
         }
       ]
     },
@@ -2588,37 +2738,37 @@
       "setup": null,
       "load_convention": "Athlete-reported machine setting in lb; machine model/settings not supplied.",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
-      "new_exposure_count": 2,
+      "load_source": "../history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
+      "new_exposure_count": 3,
       "last_actual": {
-        "date": "2026-11-06",
-        "session_id": "hybrid-2026-10-26-w2-fri-2026-11-06",
-        "prescription_id": "hybrid-2026-10-26-sat-delts-arms-b-475",
-        "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
-        "stage": "B",
-        "template_day": "Saturday",
+        "date": "2026-11-13",
+        "session_id": "hybrid-2026-10-26-w3-fri-2026-11-13",
+        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-487",
+        "source": "../history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
+        "stage": "C",
         "scheduled_day": "Friday",
-        "schedule_override_id": "2026-11-06-swap-delts-b-and-longer-run",
         "sets": [
           {
             "load": 145,
-            "reps": 12,
+            "reps": 15,
+            "rir": 3
+          },
+          {
+            "load": 145,
+            "reps": 15,
             "rir": 3
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-B ramp exposure; no ordinary load or plateau credit.",
+        "reason": "Stage-C ramp; no ordinary load-progression or plateau credit.",
         "prescribed_sets": 2,
-        "reported_sets": 1,
-        "second_set_status": "unreported",
-        "full_dose_confirmed": false
+        "reported_sets": 2,
+        "full_dose_confirmed": true
       },
       "next_action": {
-        "decision_id": 487,
-        "action": "hold-load-at-stage-c-dose",
-        "status": "prescribed-not-performed",
-        "for_date": "2026-11-13",
-        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-487",
+        "decision_id": 489,
+        "action": "hold-load-at-next-matching-slot",
+        "status": "recommendation-for-next-exposure",
         "stage": "C",
         "load_lb": 145,
         "sets": 2,
@@ -2628,13 +2778,12 @@
         ],
         "minimum_rir": 2,
         "rest_seconds": 120,
-        "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
-        "reason": "November 6: one 145×12 at RIR 3 reported; the second prescribed set remains unreported. Hold 145 lb and prescribe the normal two sets at 2–3 RIR; no full-dose completion or decline inferred from the incomplete prior log.",
+        "source": "../history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
+        "reason": "November 13: 145×15/15 at RIR 3. Full two-set dose now recorded; retain 145 lb. The unreported second set from November 6 remains unknown.",
         "target_rir_range": [
           2,
           3
-        ],
-        "prior_second_set_status": "unreported"
+        ]
       },
       "actual_history": [
         {
@@ -2652,6 +2801,29 @@
           ],
           "progression_eligible": false,
           "reason": "Stage-A calibration; no ordinary progression or plateau credit."
+        },
+        {
+          "date": "2026-11-06",
+          "session_id": "hybrid-2026-10-26-w2-fri-2026-11-06",
+          "prescription_id": "hybrid-2026-10-26-sat-delts-arms-b-475",
+          "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
+          "stage": "B",
+          "template_day": "Saturday",
+          "scheduled_day": "Friday",
+          "schedule_override_id": "2026-11-06-swap-delts-b-and-longer-run",
+          "sets": [
+            {
+              "load": 145,
+              "reps": 12,
+              "rir": 3
+            }
+          ],
+          "progression_eligible": false,
+          "reason": "Stage-B ramp exposure; no ordinary load or plateau credit.",
+          "prescribed_sets": 2,
+          "reported_sets": 1,
+          "second_set_status": "unreported",
+          "full_dose_confirmed": false
         }
       ],
       "next_action_history": [
@@ -2662,20 +2834,41 @@
           "reason": "Hold 145 lb. One of two prescribed sets is reported; clarify the second before evaluating full-dose performance. No decline inferred from this incomplete exposure.",
           "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
           "pending_second_set": true
+        },
+        {
+          "decision_id": 487,
+          "action": "hold-load-at-stage-c-dose",
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-13",
+          "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-487",
+          "stage": "C",
+          "load_lb": 145,
+          "sets": 2,
+          "rep_range": [
+            12,
+            20
+          ],
+          "minimum_rir": 2,
+          "rest_seconds": 120,
+          "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
+          "reason": "November 6: one 145×12 at RIR 3 reported; the second prescribed set remains unreported. Hold 145 lb and prescribe the normal two sets at 2–3 RIR; no full-dose completion or decline inferred from the incomplete prior log.",
+          "target_rir_range": [
+            2,
+            3
+          ],
+          "prior_second_set_status": "unreported"
         }
       ]
     },
     "S5": {
       "exercise": "Cable reverse curl",
-      "load": 25,
+      "load": 27.5,
       "next_action": {
-        "decision_id": 487,
-        "action": "repeat-deliberately-easy-introduction",
-        "status": "prescribed-not-performed",
-        "for_date": "2026-11-13",
-        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-487",
+        "decision_id": 489,
+        "action": "hold-reconciled-load-with-slow-progression",
+        "status": "recommendation-for-next-exposure",
         "stage": "C",
-        "load_lb": 25,
+        "load_lb": 27.5,
         "sets": 1,
         "rep_range": [
           15,
@@ -2683,17 +2876,17 @@
         ],
         "minimum_rir": 4,
         "rest_seconds": 120,
-        "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
-        "reason": "November 6: 25×15 at RIR 10+, deliberately easy, with no elbow issues reported November 7. Repeat one 25×15 at minimum 4 RIR per the requested slow progression; no automatic load jump or two-set eligibility.",
+        "source": "../history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
+        "reason": "November 13: 27.5×15 at RIR 4, instead of prescribed 25 lb. Retain one 27.5×15 at minimum 4 RIR, with no further load/rep increase now; preserve the slow-progression preference.",
         "reps_per_set": [
           15
         ],
-        "symptom_action": "Reduce or omit aggravating work if discomfort occurs."
+        "symptom_action": "Reduce or omit aggravating work if elbow symptoms occur."
       },
       "units": "lb",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
-      "new_exposure_count": 1,
+      "load_source": "../history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
+      "new_exposure_count": 2,
       "equipment": "Cable station",
       "setup": null,
       "load_convention": "Athlete-reported cable setting; lb carried from the active session convention. No station, attachment or pulley ratio supplied.",
@@ -2702,40 +2895,27 @@
       "first_set_anchor": null,
       "set_ceiling": 1,
       "last_actual": {
-        "date": "2026-11-06",
-        "session_id": "hybrid-2026-10-26-w2-fri-2026-11-06",
-        "prescription_id": "hybrid-2026-10-26-sat-delts-arms-b-475",
-        "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
-        "stage": "B",
-        "template_day": "Saturday",
+        "date": "2026-11-13",
+        "session_id": "hybrid-2026-10-26-w3-fri-2026-11-13",
+        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-487",
+        "source": "../history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
+        "stage": "C",
         "scheduled_day": "Friday",
-        "schedule_override_id": "2026-11-06-swap-delts-b-and-longer-run",
         "sets": [
           {
-            "load": 25,
+            "load": 27.5,
             "reps": 15,
-            "rir": "10+"
+            "rir": 4
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-B ramp exposure; no ordinary load or plateau credit.",
-        "rir_correction": {
-          "pasted_rir": 3,
-          "corrected_report": "10+",
-          "source": "Athlete session note supersedes pasted RIR 3."
+        "reason": "Stage-C ramp; no ordinary load-progression or plateau credit.",
+        "prescription_deviation": {
+          "prescribed_load_lb": 25,
+          "actual_load_lb": 27.5,
+          "reason": "Athlete performed a heavier load; record literally and retain as a working reference because reported reps/RIR fit. This is not an awarded ramp increase."
         },
-        "effort_intentionally_easy": true,
-        "symptom_response": "No elbow issues from the November 6 session, reported November 7.",
-        "symptom_followup": {
-          "reported_on": "2026-11-07",
-          "recorded_at": "2026-11-07T11:53:57-05:00",
-          "decision_id": 478,
-          "session_id": "hybrid-2026-10-26-w2-fri-2026-11-06",
-          "report": "Note down no elbow issues from yesterday.",
-          "status": "no-elbow-issues-from-prior-session",
-          "scope": "Athlete confirms no elbow issues from the November 6 delts/arms B and bike session, including the forearm introduction. No numeric pain score, diagnosis, general-recovery observation or additional sets supplied.",
-          "source": "../history/injury-log.md#2026-11-07--no-elbow-issues-from-moved-session"
-        }
+        "elbow_response": null
       },
       "next_action_history": [
         {
@@ -2757,21 +2937,79 @@
             "reported_on": "2026-11-07",
             "response": "No elbow issues from the November 6 session, reported November 7.",
             "decision": "Keep the requested deliberately easy one-set 25×15 next exposure; review gradual rep progression without an automatic load jump."
+          }
+        },
+        {
+          "decision_id": 487,
+          "action": "repeat-deliberately-easy-introduction",
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-13",
+          "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-487",
+          "stage": "C",
+          "load_lb": 25,
+          "sets": 1,
+          "rep_range": [
+            15,
+            15
+          ],
+          "minimum_rir": 4,
+          "rest_seconds": 120,
+          "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
+          "reason": "November 6: 25×15 at RIR 10+, deliberately easy, with no elbow issues reported November 7. Repeat one 25×15 at minimum 4 RIR per the requested slow progression; no automatic load jump or two-set eligibility.",
+          "reps_per_set": [
+            15
+          ],
+          "symptom_action": "Reduce or omit aggravating work if discomfort occurs."
+        }
+      ],
+      "actual_history": [
+        {
+          "date": "2026-11-06",
+          "session_id": "hybrid-2026-10-26-w2-fri-2026-11-06",
+          "prescription_id": "hybrid-2026-10-26-sat-delts-arms-b-475",
+          "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
+          "stage": "B",
+          "template_day": "Saturday",
+          "scheduled_day": "Friday",
+          "schedule_override_id": "2026-11-06-swap-delts-b-and-longer-run",
+          "sets": [
+            {
+              "load": 25,
+              "reps": 15,
+              "rir": "10+"
+            }
+          ],
+          "progression_eligible": false,
+          "reason": "Stage-B ramp exposure; no ordinary load or plateau credit.",
+          "rir_correction": {
+            "pasted_rir": 3,
+            "corrected_report": "10+",
+            "source": "Athlete session note supersedes pasted RIR 3."
+          },
+          "effort_intentionally_easy": true,
+          "symptom_response": "No elbow issues from the November 6 session, reported November 7.",
+          "symptom_followup": {
+            "reported_on": "2026-11-07",
+            "recorded_at": "2026-11-07T11:53:57-05:00",
+            "decision_id": 478,
+            "session_id": "hybrid-2026-10-26-w2-fri-2026-11-06",
+            "report": "Note down no elbow issues from yesterday.",
+            "status": "no-elbow-issues-from-prior-session",
+            "scope": "Athlete confirms no elbow issues from the November 6 delts/arms B and bike session, including the forearm introduction. No numeric pain score, diagnosis, general-recovery observation or additional sets supplied.",
+            "source": "../history/injury-log.md#2026-11-07--no-elbow-issues-from-moved-session"
           }
         }
       ]
     },
     "S6": {
       "exercise": "Cable wrist curl",
-      "load": 25,
+      "load": 27.5,
       "next_action": {
-        "decision_id": 487,
-        "action": "repeat-deliberately-easy-introduction",
-        "status": "prescribed-not-performed",
-        "for_date": "2026-11-13",
-        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-487",
+        "decision_id": 489,
+        "action": "hold-reconciled-load-with-slow-progression",
+        "status": "recommendation-for-next-exposure",
         "stage": "C",
-        "load_lb": 25,
+        "load_lb": 27.5,
         "sets": 1,
         "rep_range": [
           15,
@@ -2779,17 +3017,17 @@
         ],
         "minimum_rir": 4,
         "rest_seconds": 120,
-        "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
-        "reason": "November 6: 25×15 at RIR 10+, deliberately easy, with no elbow issues reported November 7. Repeat one 25×15 at minimum 4 RIR per the requested slow progression; no automatic load jump or two-set eligibility.",
+        "source": "../history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
+        "reason": "November 13: 27.5×15 at RIR 4, instead of prescribed 25 lb. Retain one 27.5×15 at minimum 4 RIR, with no further load/rep increase now; preserve the slow-progression preference.",
         "reps_per_set": [
           15
         ],
-        "symptom_action": "Reduce or omit aggravating work if discomfort occurs."
+        "symptom_action": "Reduce or omit aggravating work if elbow symptoms occur."
       },
       "units": "lb",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
-      "new_exposure_count": 1,
+      "load_source": "../history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
+      "new_exposure_count": 2,
       "equipment": "Cable station",
       "setup": null,
       "load_convention": "Athlete-reported cable setting; lb carried from the active session convention. No station, attachment or pulley ratio supplied.",
@@ -2798,40 +3036,27 @@
       "first_set_anchor": null,
       "set_ceiling": 1,
       "last_actual": {
-        "date": "2026-11-06",
-        "session_id": "hybrid-2026-10-26-w2-fri-2026-11-06",
-        "prescription_id": "hybrid-2026-10-26-sat-delts-arms-b-475",
-        "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
-        "stage": "B",
-        "template_day": "Saturday",
+        "date": "2026-11-13",
+        "session_id": "hybrid-2026-10-26-w3-fri-2026-11-13",
+        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-487",
+        "source": "../history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
+        "stage": "C",
         "scheduled_day": "Friday",
-        "schedule_override_id": "2026-11-06-swap-delts-b-and-longer-run",
         "sets": [
           {
-            "load": 25,
+            "load": 27.5,
             "reps": 15,
-            "rir": "10+"
+            "rir": 4
           }
         ],
         "progression_eligible": false,
-        "reason": "Stage-B ramp exposure; no ordinary load or plateau credit.",
-        "rir_correction": {
-          "pasted_rir": 3,
-          "corrected_report": "10+",
-          "source": "Athlete session note supersedes pasted RIR 3."
+        "reason": "Stage-C ramp; no ordinary load-progression or plateau credit.",
+        "prescription_deviation": {
+          "prescribed_load_lb": 25,
+          "actual_load_lb": 27.5,
+          "reason": "Athlete performed a heavier load; record literally and retain as a working reference because reported reps/RIR fit. This is not an awarded ramp increase."
         },
-        "effort_intentionally_easy": true,
-        "symptom_response": "No elbow issues from the November 6 session, reported November 7.",
-        "symptom_followup": {
-          "reported_on": "2026-11-07",
-          "recorded_at": "2026-11-07T11:53:57-05:00",
-          "decision_id": 478,
-          "session_id": "hybrid-2026-10-26-w2-fri-2026-11-06",
-          "report": "Note down no elbow issues from yesterday.",
-          "status": "no-elbow-issues-from-prior-session",
-          "scope": "Athlete confirms no elbow issues from the November 6 delts/arms B and bike session, including the forearm introduction. No numeric pain score, diagnosis, general-recovery observation or additional sets supplied.",
-          "source": "../history/injury-log.md#2026-11-07--no-elbow-issues-from-moved-session"
-        }
+        "elbow_response": null
       },
       "next_action_history": [
         {
@@ -2853,6 +3078,66 @@
             "reported_on": "2026-11-07",
             "response": "No elbow issues from the November 6 session, reported November 7.",
             "decision": "Keep the requested deliberately easy one-set 25×15 next exposure; review gradual rep progression without an automatic load jump."
+          }
+        },
+        {
+          "decision_id": 487,
+          "action": "repeat-deliberately-easy-introduction",
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-13",
+          "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-487",
+          "stage": "C",
+          "load_lb": 25,
+          "sets": 1,
+          "rep_range": [
+            15,
+            15
+          ],
+          "minimum_rir": 4,
+          "rest_seconds": 120,
+          "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
+          "reason": "November 6: 25×15 at RIR 10+, deliberately easy, with no elbow issues reported November 7. Repeat one 25×15 at minimum 4 RIR per the requested slow progression; no automatic load jump or two-set eligibility.",
+          "reps_per_set": [
+            15
+          ],
+          "symptom_action": "Reduce or omit aggravating work if discomfort occurs."
+        }
+      ],
+      "actual_history": [
+        {
+          "date": "2026-11-06",
+          "session_id": "hybrid-2026-10-26-w2-fri-2026-11-06",
+          "prescription_id": "hybrid-2026-10-26-sat-delts-arms-b-475",
+          "source": "../history/lifting-log.md#2026-11-06--hybrid-v11-w2-friday-deltsarms-b-moved-from-saturday",
+          "stage": "B",
+          "template_day": "Saturday",
+          "scheduled_day": "Friday",
+          "schedule_override_id": "2026-11-06-swap-delts-b-and-longer-run",
+          "sets": [
+            {
+              "load": 25,
+              "reps": 15,
+              "rir": "10+"
+            }
+          ],
+          "progression_eligible": false,
+          "reason": "Stage-B ramp exposure; no ordinary load or plateau credit.",
+          "rir_correction": {
+            "pasted_rir": 3,
+            "corrected_report": "10+",
+            "source": "Athlete session note supersedes pasted RIR 3."
+          },
+          "effort_intentionally_easy": true,
+          "symptom_response": "No elbow issues from the November 6 session, reported November 7.",
+          "symptom_followup": {
+            "reported_on": "2026-11-07",
+            "recorded_at": "2026-11-07T11:53:57-05:00",
+            "decision_id": 478,
+            "session_id": "hybrid-2026-10-26-w2-fri-2026-11-06",
+            "report": "Note down no elbow issues from yesterday.",
+            "status": "no-elbow-issues-from-prior-session",
+            "scope": "Athlete confirms no elbow issues from the November 6 delts/arms B and bike session, including the forearm introduction. No numeric pain score, diagnosis, general-recovery observation or additional sets supplied.",
+            "source": "../history/injury-log.md#2026-11-07--no-elbow-issues-from-moved-session"
           }
         }
       ]
@@ -3270,7 +3555,7 @@
       ],
       "status": "cautious-introduction",
       "next_dose": {
-        "load_lb": 25,
+        "load_lb": 27.5,
         "sets": 1,
         "reps": 15,
         "minimum_rir": 4
@@ -3290,7 +3575,16 @@
         "scope": "Athlete confirms no elbow issues from the November 6 delts/arms B and bike session, including the forearm introduction. No numeric pain score, diagnosis, general-recovery observation or additional sets supplied.",
         "source": "../history/injury-log.md#2026-11-07--no-elbow-issues-from-moved-session"
       },
-      "review_decision_id": 478
+      "review_decision_id": 478,
+      "latest_load_reconciliation": {
+        "decision_id": 489,
+        "date": "2026-11-13",
+        "source": "../history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
+        "prescribed_load_lb": 25,
+        "actual_load_lb": 27.5,
+        "rir": 4,
+        "decision": "Hold the demonstrated 27.5 lb for one15-rep set each; no further load/rep increase or two-set eligibility. Preserve slow progression; current elbow response unreported."
+      }
     },
     "symptom_reviewed_on": "2026-11-07",
     "symptom_followup": {
@@ -3302,7 +3596,44 @@
       "status": "no-elbow-issues-from-prior-session",
       "scope": "Athlete confirms no elbow issues from the November 6 delts/arms B and bike session, including the forearm introduction. No numeric pain score, diagnosis, general-recovery observation or additional sets supplied.",
       "source": "../history/injury-log.md#2026-11-07--no-elbow-issues-from-moved-session"
-    }
+    },
+    "progression_preference_history": [
+      {
+        "reported_on": "2026-11-06",
+        "recorded_at": "2026-11-06T19:27:39-05:00",
+        "decision_id": 476,
+        "report": "The cable wrist curl and reverse curls i need to watch. They were rir 10+ but im worried about my elbow tendon so ill progress slowly",
+        "affected_slots": [
+          "S5",
+          "S6"
+        ],
+        "status": "cautious-introduction",
+        "next_dose": {
+          "load_lb": 25,
+          "sets": 1,
+          "reps": 15,
+          "minimum_rir": 4
+        },
+        "reason": "Respect intentionally easy tendon-conscious introduction; do not recalibrate sharply upward to chase the usual effort target.",
+        "review": "Review response after exposure, then build reps gradually if comfortable. No fixed waiting period or inferred injury diagnosis.",
+        "symptom_status": "No elbow issues reported from the first forearm exposure.",
+        "followup_question": "Did the reverse curls or wrist curls actually cause elbow discomfort during or afterward, or were you just being cautious?",
+        "followup_status": "answered-no-elbow-issues",
+        "followup_answer": {
+          "reported_on": "2026-11-07",
+          "recorded_at": "2026-11-07T11:53:57-05:00",
+          "decision_id": 478,
+          "session_id": "hybrid-2026-10-26-w2-fri-2026-11-06",
+          "report": "Note down no elbow issues from yesterday.",
+          "status": "no-elbow-issues-from-prior-session",
+          "scope": "Athlete confirms no elbow issues from the November 6 delts/arms B and bike session, including the forearm introduction. No numeric pain score, diagnosis, general-recovery observation or additional sets supplied.",
+          "source": "../history/injury-log.md#2026-11-07--no-elbow-issues-from-moved-session"
+        },
+        "review_decision_id": 478
+      }
+    ],
+    "latest_exposure_on": "2026-11-13",
+    "latest_exposure_session_id": "hybrid-2026-10-26-w3-fri-2026-11-13"
   },
   "cross_day_cuts_used": {
     "WE1": false,
