@@ -6,7 +6,7 @@
   "start_date": "2026-10-25",
   "end_date": "2027-01-03",
   "timezone": "America/New_York",
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "activation_status": "active",
   "calendar_week": "W3",
   "calendar_phase": "Ramp",
@@ -56,7 +56,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 487,
+  "last_adjustment_id": 488,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -720,10 +720,10 @@
     "last_generated_prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-487",
     "last_generated_from_session_id": "hybrid-2026-10-26-w3-thu-2026-11-12",
     "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping.",
-    "last_generation_trigger": "completed-session-log",
-    "last_generation_decision_id": 487,
-    "last_review_decision_id": 487,
-    "last_review_reason": "Thursday completed; next scheduled Friday delts/arms B plus bike generated under standing directive."
+    "last_generation_trigger": "current-day-request",
+    "last_generation_decision_id": 488,
+    "last_review_decision_id": 488,
+    "last_review_reason": "Friday preview reviewed unchanged and published as today’s workout under the standing recovery default."
   },
   "session_freeze_history": [
     {

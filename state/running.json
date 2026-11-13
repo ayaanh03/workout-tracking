@@ -1856,7 +1856,7 @@
         "action": "hold-at-calendar-ceiling",
         "status": "prescribed-not-performed",
         "for_date": "2026-11-13",
-        "preview": true,
+        "preview": false,
         "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-487",
         "minutes": 20,
         "target_rpe": 3,
@@ -1870,15 +1870,18 @@
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 487,
-          "recorded_at": "2026-11-12T20:35:50-05:00",
+          "decision_id": 488,
+          "recorded_at": "2026-11-13T15:08:16-05:00",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary recovery for Friday planning. Thursday performance is reported; no fresh symptom or observed next-day recovery report is inferred."
+          "reason": "Standing athlete default supplies ordinary readiness for Friday November 13. Today’s request contains no new symptom or observed recovery report; active limits remain.",
+          "for_date": "2026-11-13"
         },
         "equipment_settings_ref": "cycling.equipment_settings",
         "settings_note": "Height about 10; seat −2 (possibly −1); handle +3. Saved prescription settings are not evidence of tested settings in a completed ride.",
         "source": "../history/cardio-log.md#2026-11-06--hybrid-v11-w2-friday-bike-moved-from-saturday",
-        "reason": "Keep the established 20-minute dose under the W3 ceiling. The November 6 ride was reported as 20 minutes in Z2, with numeric RPE unknown; the November 7 run hit and November 8 full leg dose support that dose. Ordinary recovery uses the athlete default. No duration increase or new bike actual."
+        "reason": "Keep the established 20-minute dose under the W3 ceiling. The November 6 ride was reported as 20 minutes in Z2, with numeric RPE unknown; the November 7 run hit and November 8 full leg dose support that dose. Ordinary recovery uses the athlete default. No duration increase or new bike actual.",
+        "review_decision_id": 488,
+        "reviewed_on": "2026-11-13"
       },
       "validation_review": {
         "decision_id": 481,

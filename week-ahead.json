@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-12T20:35:50-05:00",
+  "generatedAt": "2026-11-13T15:08:16-05:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W3",
   "phase": "Hybrid v11 — Stage C",
   "rangeStart": "2026-11-09",
   "rangeEnd": "2026-11-15",
-  "summary": "W3, November 9–15: Monday through Thursday completed—52 lifting sets, 4.43 running miles and 20:25 cycling. Friday preview: 13 lifting sets plus 20 minutes bike. Saturday’s longer run remains queued at 3×6 at 7:10/mi. Full-week prescription remains 82 lifting sets and 40 bike minutes; actual cycling is tracked separately.",
+  "summary": "W3, November 9–15: Monday through Thursday completed—52 lifting sets, 4.43 running miles and 20:25 cycling. Today, Friday: 13 lifting sets plus 20 minutes bike. Saturday’s longer run remains queued at 3×6 at 7:10/mi. Full-week prescription remains 82 lifting sets and 40 bike minutes; actual cycling is tracked separately.",
   "days": [
     {
       "date": "2026-11-09",
@@ -40,8 +40,8 @@
       "date": "2026-11-13",
       "day": "Fri",
       "session": "Delts/arms B + bike",
-      "note": "Preview ready: 13 sets—lateral35 lb4; inclineDBcurl25 lb2; pushdown50 lb3; reversepec145 lb2; reverse/wrist curls25 lb1×15 each. Core RIR2–3, forearms≥4; rest2min. Bike20minRPE3(2–4), heightabout10/seat−2(possibly−1)/handle+3.",
-      "status": "upcoming"
+      "note": "Today: 13 sets—laterals 35 lb, 4 sets; incline DB curl 25 lb, 2; pushdown 50 lb, 3; reverse pec deck 145 lb, 2; reverse/wrist curls 25 lb, 1×15 each. Core RIR 2–3, forearms ≥4; rest 2 min. Bike 20 min at RPE 3 (2–4); height about 10, seat −2 (possibly −1), handle +3.",
+      "status": "today"
     },
     {
       "date": "2026-11-14",
