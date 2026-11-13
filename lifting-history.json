@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "blockId": "hybrid-2026-10-26",
-  "generatedAt": "2026-11-11T20:03:12-05:00",
+  "generatedAt": "2026-11-12T20:35:50-05:00",
   "sessions": [
     {
       "date": "2026-10-25",
@@ -1711,6 +1711,196 @@
         "decisionId": 486,
         "source": "history/injury-log.md#2026-11-11--elbows-comfortable-during-and-after-curls"
       }
+    },
+    {
+      "date": "2026-11-12",
+      "week": "W3",
+      "stage": "C",
+      "sessionName": "Upper B",
+      "sessionId": "hybrid-2026-10-26-w3-thu-2026-11-12",
+      "prescriptionId": "hybrid-2026-10-26-thu-upper-b-485",
+      "actualRef": "history/lifting-log.md#2026-11-12--hybrid-v11-w3-thursday-upper-b",
+      "exercises": [
+        {
+          "slotId": "T1",
+          "exercise": "Incline barbell bench",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 135,
+              "reps": 8,
+              "rir": 3,
+              "units": "lb"
+            },
+            {
+              "load": 135,
+              "reps": 8,
+              "rir": 3,
+              "units": "lb"
+            },
+            {
+              "load": 135,
+              "reps": 8,
+              "rir": 3,
+              "units": "lb"
+            }
+          ]
+        },
+        {
+          "slotId": "T2",
+          "exercise": "Unilateral machine preacher curl",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 75,
+              "reps": 8,
+              "rir": 3,
+              "units": "lb"
+            },
+            {
+              "load": 75,
+              "reps": 8,
+              "rir": 3,
+              "units": "lb"
+            }
+          ],
+          "note": "First independent Thursday preacher exposure; 75 lb performed for both sets per arm. “Starting” is the pasted prescription label; no prior cable or Wednesday credit transfers."
+        },
+        {
+          "slotId": "T3",
+          "exercise": "DB lateral raise",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 35,
+              "reps": 12,
+              "rir": 3,
+              "units": "lb"
+            },
+            {
+              "load": 35,
+              "reps": 12,
+              "rir": 3,
+              "units": "lb"
+            },
+            {
+              "load": 35,
+              "reps": 12,
+              "rir": 3,
+              "units": "lb"
+            },
+            {
+              "load": 35,
+              "reps": 12,
+              "rir": 3,
+              "units": "lb"
+            }
+          ]
+        },
+        {
+          "slotId": "T4",
+          "exercise": "Pull-up",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 0,
+              "reps": 10,
+              "rir": 3,
+              "units": "lb"
+            },
+            {
+              "load": 0,
+              "reps": 10,
+              "rir": 3,
+              "units": "lb"
+            }
+          ]
+        },
+        {
+          "slotId": "T5",
+          "exercise": "Cable pushdown",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 50,
+              "reps": 10,
+              "rir": 3,
+              "units": "lb"
+            },
+            {
+              "load": 50,
+              "reps": 10,
+              "rir": 3,
+              "units": "lb"
+            },
+            {
+              "load": 50,
+              "reps": 10,
+              "rir": 3,
+              "units": "lb"
+            }
+          ]
+        },
+        {
+          "slotId": "T6",
+          "exercise": "Seated cable row",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 120,
+              "reps": 9,
+              "rir": 3,
+              "units": "lb"
+            },
+            {
+              "load": 120,
+              "reps": 10,
+              "rir": 3,
+              "units": "lb"
+            }
+          ]
+        },
+        {
+          "slotId": "T7",
+          "exercise": "Decline crunch — bodyweight",
+          "status": "completed",
+          "sets": [
+            {
+              "load": "BW",
+              "reps": 15,
+              "rir": 3,
+              "units": "bodyweight"
+            },
+            {
+              "load": "BW",
+              "reps": 12,
+              "rir": 3,
+              "units": "bodyweight"
+            }
+          ],
+          "note": "Bodyweight substitute, two sets. No fresh symptom response or loaded-ab clearance."
+        },
+        {
+          "slotId": "T8",
+          "exercise": "Straight-arm cable pulldown",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 50,
+              "reps": 10,
+              "rir": 3,
+              "units": "lb"
+            },
+            {
+              "load": 50,
+              "reps": 10,
+              "rir": 3,
+              "units": "lb"
+            }
+          ]
+        }
+      ],
+      "notes": "All 20 sets met prescribed rep ranges and effort at RIR 3. First T2 preacher exposure 75×8/8 is independent of prior cable/Wednesday work. Fourth lateral and third pushdown sets completed. No fresh symptom or observed recovery report."
     }
   ]
 }

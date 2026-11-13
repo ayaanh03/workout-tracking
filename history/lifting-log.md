@@ -252,3 +252,24 @@ No fresh elbow, ab or Achilles response reported. Targeted elbow follow-up was a
 ## 2026-11-11 — Wednesday elbow follow-up
 
 For `hybrid-2026-10-26-w3-wed-2026-11-11`, athlete confirms **“Ya elbows were perfect today”** in response to the during/after preacher question, including the 90 lb set. This resolves the symptom unknown recorded in #485 without changing any of the 14 actual sets, loads/reps/RIR or raw exposure counts. Keep preacher working load 75 lb and Thursday preview #485 unchanged; the first 90 lb set remains an effort-target deviation. [Symptom evidence](injury-log.md#2026-11-11--elbows-comfortable-during-and-after-curls). Decision #486.
+
+## 2026-11-12 — Hybrid v11 W3 Thursday Upper B
+
+Session `hybrid-2026-10-26-w3-thu-2026-11-12`, original prescription `hybrid-2026-10-26-thu-upper-b-485`, **Stage C**, **20 working sets**. The pasted “preview” and “starting” labels do not change the completed status or the actual 75 lb preacher load.
+
+| Slot | Exercise | Original prescription | Actual sets: load × reps, RIR |
+|---|---|---|---|
+| T1 | Incline barbell bench | 3×6–8 · 135 lb · RIR 2–3 · rest 3 min | 135×8, RIR 3 / 135×8, RIR 3 / 135×8, RIR 3 |
+| T2 | Unilateral machine preacher curl | 2×8–12 per arm · 75 lb starting · RIR ≥3 · rest 2 min | 75×8, RIR 3 / 75×8, RIR 3 |
+| T3 | DB lateral raise | 4×12–20 · 35 lb · RIR 2–3 · rest 2 min | 35×12, RIR 3 / 35×12, RIR 3 / 35×12, RIR 3 / 35×12, RIR 3 |
+| T4 | Pull-up | 2×6–12 · BW (0 lb added) · RIR 2–3 · rest 2–3 min | BW (0 lb added)×10, RIR 3 / BW (0 lb added)×10, RIR 3 |
+| T5 | Cable pushdown | 3×10–15 · 50 lb · RIR 2–3 · rest 2 min | 50×10, RIR 3 / 50×10, RIR 3 / 50×10, RIR 3 |
+| T6 | Seated cable row | 2×8–12 · 120 lb · RIR 2–3 · rest 2–3 min | 120×9, RIR 3 / 120×10, RIR 3 |
+| T7 | Decline crunch — bodyweight | 2×10–15 · BW · RIR ≥3 · rest 2 min | BW×15, RIR 3 / BW×12, RIR 3 |
+| T8 | Straight-arm cable pulldown | 2×10–15 · 50 lb · RIR 2–3 · rest 2 min | 50×10, RIR 3 / 50×10, RIR 3 |
+
+All 20 sets met their rep ranges and effort targets. Fourth lateral and third pushdown sets were completed. Pull-ups improve 9/9→10/10 and seated row 8/9→9/10 versus November 5 at the same loads and RIR 3; incline repeats 135×8/8/8. Straight-arm pulldown 10/10 remains in range; no persistent-decline inference. Hold suitable loads under unchanged Stage C, with no ordinary loading/qualification/plateau credit.
+
+T2 records its **first independent preacher exposure**, 75×8/8 per arm at RIR 3. Establish 75 lb in T2; no Wednesday-preacher or former-cable credit transfers. Former cable records stay intact. Raw exposures: T1/T3/T4/T5/T6/T8 to 3; T2 to 1; T7 BW substitute to 2. Baseline cable crunch stays uninitialized.
+
+BW decline 15/12 at RIR 3 is recorded without a fresh symptom response. Preserve BW-only/max 2 sets/minimum 3 RIR. November 11 elbow comfort remains dated evidence, not a Thursday report. Ordinary recovery for Friday is assumed under the standing directive; no new symptom clearance or observed next-morning recovery. Decision #487.

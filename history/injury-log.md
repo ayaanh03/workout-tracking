@@ -221,3 +221,7 @@ M6 bodyweight decline crunch: 15/15 at RIR 5/3. No fresh during/after ab, elbow 
 Asked whether the right elbow stayed comfortable during preacher curls, especially the 90 lb set, and afterward. Athlete: **“Ya elbows were perfect today.”** Record symptom-free elbows during and after the November 11 session, including **90×8 at RIR 1 / 75×9 at RIR 3**. Resolve the targeted follow-up; no numeric pain score, diagnosis or next-morning observation is inferred.
 
 The earlier broad biceps hold stays released. Keep Thursday’s already-issued #485 prescription: **75 lb starting, 2×8–12 per arm, at least 3 RIR**. Comfort supports continuing the current plan, while RIR 1 still does not meet the prescribed effort or earn 90 lb progression during Stage C. The ongoing standard-cable-curl replacement, cautious forearm progression, overhead substitution and bodyweight-ab limits persist. No new ab/Achilles response, session or exposure. Decision #486.
+
+## 2026-11-12 — Thursday bodyweight exposure
+
+T7 bodyweight decline crunch: **15/12 at RIR 3**. Store this latest exposure separately from symptom evidence; no fresh ab, elbow or Achilles response is supplied. Preserve November 11 symptom-free elbow report as dated evidence and keep the broad biceps hold released. First Thursday preacher75×8/8 establishes performance, not a new symptom report. Bodyweight-only/max two-set/minimum-3-RIR ab limits and other standing restrictions remain. Ordinary Friday recovery uses the athlete default. Decision #487.

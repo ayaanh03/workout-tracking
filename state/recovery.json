@@ -44,20 +44,20 @@
       "response_status": "latest-bodyweight-exposure-response-unreported",
       "progression_limit": "No added weight, extra sets or baseline cable/hanging-raise restoration while original-site symptoms remain. Bodyweight work is permitted only if comfortable; stop or reduce aggravating work rather than continuing until the sensation fades. Reconsider a small loaded trial after a BW exposure is comfortable during/after and the next morning, with a fresh loading review.",
       "last_exposure": {
-        "date": "2026-11-09",
-        "session_id": "hybrid-2026-10-26-w3-mon-2026-11-09",
-        "slot": "M6 temporary substitute",
+        "date": "2026-11-12",
+        "session_id": "hybrid-2026-10-26-w3-thu-2026-11-12",
+        "slot": "T7 temporary substitute",
         "exercise": "Decline crunch — bodyweight",
-        "source": "../history/lifting-log.md#2026-11-09--hybrid-v11-w3-monday-upper-a",
+        "source": "../history/lifting-log.md#2026-11-12--hybrid-v11-w3-thursday-upper-b",
         "load": "BW",
         "external_load_lb": 0,
         "sets": 2,
         "reps": [
           15,
-          15
+          12
         ],
         "rir": [
-          5,
+          3,
           3
         ],
         "symptom_response": null,
@@ -208,6 +208,26 @@
           ],
           "rir": [
             3,
+            3
+          ],
+          "symptom_response": null,
+          "next_morning_response": null
+        },
+        {
+          "date": "2026-11-09",
+          "session_id": "hybrid-2026-10-26-w3-mon-2026-11-09",
+          "slot": "M6 temporary substitute",
+          "exercise": "Decline crunch — bodyweight",
+          "source": "../history/lifting-log.md#2026-11-09--hybrid-v11-w3-monday-upper-a",
+          "load": "BW",
+          "external_load_lb": 0,
+          "sets": 2,
+          "reps": [
+            15,
+            15
+          ],
+          "rir": [
+            5,
             3
           ],
           "symptom_response": null,
@@ -694,10 +714,10 @@
       "id": "ab-loading-review",
       "reported_on": "2026-10-24",
       "status": "awaiting-next-morning-response-and-review",
-      "blocks": "November 9 BW decline crunch 15/15 at RIR 5/3 is recorded. Specific symptom response and fresh loading review remain unreported; keep BW only, maximum two sets and minimum 3 RIR.",
+      "blocks": "November 12 BW decline crunch 15/12 at RIR 3 is recorded. Specific symptom response and fresh loading review remain unreported; keep BW only, maximum two sets and minimum 3 RIR.",
       "review_requested_on": "2026-11-01",
-      "decision_id": 483,
-      "reviewed_on": "2026-11-09"
+      "decision_id": 487,
+      "reviewed_on": "2026-11-12"
     }
   ],
   "global_fatigue": null,
@@ -724,35 +744,24 @@
     }
   ],
   "post_session": {
-    "date": "2026-11-11",
-    "session_id": "hybrid-2026-10-26-w3-wed-2026-11-11",
+    "date": "2026-11-12",
+    "session_id": "hybrid-2026-10-26-w3-thu-2026-11-12",
     "completion": "reported",
-    "elbow_response": "Elbows comfortable during and after November 11 curls, including the 90 lb preacher set.",
+    "elbow_response": null,
     "lower_ab_response": null,
     "achilles_response": null,
     "next_day_recovery": null,
-    "status": "general-recovery-assumed-elbow-response-confirmed",
-    "decision_id": 486,
+    "status": "general-recovery-assumed-specific-response-unreported",
+    "decision_id": 487,
     "recovery_decision": {
       "status": "assumed-good",
       "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-      "decision_id": 486,
-      "recorded_at": "2026-11-11T20:03:12-05:00",
+      "decision_id": 487,
+      "recorded_at": "2026-11-12T20:35:50-05:00",
       "observed": false,
-      "reason": "Standing athlete default supplies ordinary Thursday readiness. Elbow comfort during/after Wednesday curls is now reported; next-morning recovery and ab/Achilles response remain unreported."
+      "reason": "Standing athlete default supplies ordinary recovery and Friday readiness. Thursday performance is reported; no fresh elbow, ab or Achilles response or observed next-morning recovery is inferred."
     },
-    "note": "Elbows confirmed comfortable during and after the curls, including 90×8 at RIR 1. That set still missed prescribed RIR 3; retain 75 lb. No broad biceps hold, new general-recovery observation or ab/Achilles response.",
-    "symptom_followup": {
-      "reported_on": "2026-11-11",
-      "recorded_at": "2026-11-11T20:03:12-05:00",
-      "decision_id": 486,
-      "session_id": "hybrid-2026-10-26-w3-wed-2026-11-11",
-      "question": "Did your right elbow stay comfortable during the preacher curls—especially the 90 lb set—and afterward?",
-      "report": "Ya elbows were perfect today",
-      "status": "elbows-symptom-free-during-and-after",
-      "scope": "Athlete confirms comfortable elbows during and after November 11 curls, including the 90 lb preacher set. No numeric pain score, diagnosis, next-morning recovery or ab/Achilles response is supplied.",
-      "source": "../history/injury-log.md#2026-11-11--elbows-comfortable-during-and-after-curls"
-    }
+    "note": "Thursday20sets completed at RIR3, including first T2preacher75×8/8 and BWdecline15/12. November11 elbow comfort remains dated evidence; no fresh Thursday-specific response or injury-loading clearance supplied."
   },
   "prior_pending_post_sessions": [
     {
@@ -1041,6 +1050,37 @@
         "reason": "Standing athlete default supplies ordinary recovery and next-workout readiness. Monday performance is reported; no new observed recovery or specific injury response is inferred."
       },
       "note": "All 18 Stage-C Upper A sets meet rep and effort targets; no new symptoms or actual next-day recovery reported. Local limits persist."
+    },
+    {
+      "date": "2026-11-11",
+      "session_id": "hybrid-2026-10-26-w3-wed-2026-11-11",
+      "completion": "reported",
+      "elbow_response": "Elbows comfortable during and after November 11 curls, including the 90 lb preacher set.",
+      "lower_ab_response": null,
+      "achilles_response": null,
+      "next_day_recovery": null,
+      "status": "general-recovery-assumed-elbow-response-confirmed",
+      "decision_id": 486,
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 486,
+        "recorded_at": "2026-11-11T20:03:12-05:00",
+        "observed": false,
+        "reason": "Standing athlete default supplies ordinary Thursday readiness. Elbow comfort during/after Wednesday curls is now reported; next-morning recovery and ab/Achilles response remain unreported."
+      },
+      "note": "Elbows confirmed comfortable during and after the curls, including 90×8 at RIR 1. That set still missed prescribed RIR 3; retain 75 lb. No broad biceps hold, new general-recovery observation or ab/Achilles response.",
+      "symptom_followup": {
+        "reported_on": "2026-11-11",
+        "recorded_at": "2026-11-11T20:03:12-05:00",
+        "decision_id": 486,
+        "session_id": "hybrid-2026-10-26-w3-wed-2026-11-11",
+        "question": "Did your right elbow stay comfortable during the preacher curls—especially the 90 lb set—and afterward?",
+        "report": "Ya elbows were perfect today",
+        "status": "elbows-symptom-free-during-and-after",
+        "scope": "Athlete confirms comfortable elbows during and after November 11 curls, including the 90 lb preacher set. No numeric pain score, diagnosis, next-morning recovery or ab/Achilles response is supplied.",
+        "source": "../history/injury-log.md#2026-11-11--elbows-comfortable-during-and-after-curls"
+      }
     }
   ],
   "readiness_forecast": {
@@ -1169,11 +1209,11 @@
   "planning_readiness": {
     "status": "assumed-good",
     "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-    "decision_id": 486,
-    "recorded_at": "2026-11-11T20:03:12-05:00",
+    "decision_id": 487,
+    "recorded_at": "2026-11-12T20:35:50-05:00",
     "observed": false,
-    "reason": "Standing athlete default supplies ordinary Thursday readiness. Elbow comfort during/after Wednesday curls is now reported; next-morning recovery and ab/Achilles response remain unreported.",
-    "for_date": "2026-11-12"
+    "reason": "Standing athlete default supplies ordinary recovery and Friday readiness. Thursday performance is reported; no fresh elbow, ab or Achilles response or observed next-morning recovery is inferred.",
+    "for_date": "2026-11-13"
   },
   "general_readiness_history": [
     {

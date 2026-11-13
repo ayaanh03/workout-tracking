@@ -721,3 +721,26 @@ W3 remains in progress: **3 completed sessions, 32 lifting sets, 12 run work min
 486. Athlete answers the targeted November 11 preacher-curl during/after question: **“Ya elbows were perfect today.”** Record elbow comfort during and after the completed Wednesday session, including the 90 lb set, and resolve that pending question. Keep the prior broad biceps hold released and the ongoing T2-only standard-cable-curl replacement active. This is symptom evidence, not an observed next-morning recovery report or ab/Achilles clearance.
 
 Retain Thursday November 12 Upper B prescription `hybrid-2026-10-26-thu-upper-b-485` exactly: **20 sets**, preacher **75 lb starting, 2×8–12 per arm at ≥3 RIR**. The painless 90×8 set still reached RIR 1 instead of prescribed 3; 75×9 at RIR 3 supports the working load. The unchanged Stage-C ramp rule grants no ordinary load progression. T2 stays unperformed and independent; no extra session/exposure, stage advance or schedule advance. Keep the live local date November 11 and Thursday preview. Reconcile current symptom state and dashboard notes; preserve all actual sets, running/cycling/shoe records, other restrictions and original historical entries. Publish the follow-up.
+
+## 2026-11-12 — log Thursday and generate Friday
+
+487. Log `hybrid-2026-10-26-w3-thu-2026-11-12` against original `hybrid-2026-10-26-thu-upper-b-485`: **20 sets, all in range at RIR 3**. Preserve actual 75 lb on both preacher sets despite the pasted “starting” label. First T2 preacher exposure establishes that load independently; retain former cable actuals, WE2 history and zero ordinary ramp credit. T1/T3/T4/T5/T6/T8 raw exposures become 3, T2 becomes 1, T7 substitute becomes 2. No actual set, exposure or credit is added to Friday slots.
+
+Same-slot comparison to November 5: incline135×8/8/8 repeats; pull-ups9/9→10/10 and row8/9→9/10 improve at equal load/RIR. Fourth lateral and third pushdown sets complete the Stage-C dose. Hold suitable weights under [unchanged ramp rules](../program/ramp-and-return.md); no ordinary loading/plateau credit or early Stage D. BW15/12 remains within existing ab limits. Current symptom response is unreported; November 11 elbow comfort stays dated and ordinary recovery is assumed under #471.
+
+Generate **Friday November 13 — Delts/arms B + bike, preview**, `hybrid-2026-10-26-fri-delts-arms-b-487`. Live local date stays Thursday November 12. Friday uses the permanent schedule and legacy S1–S6/cycling.saturday identities; Saturday remains the longer run.
+
+| Slot | Exercise | Load | Sets × reps | RIR | Rest |
+|---|---|---|---|---|---|
+| S1 | DB lateral raise | 35 lb | 4×12–20 | 2–3 | 2 min |
+| S2 | Incline DB curl | 25 lb | 2×8–12 | 2–3 | 2 min |
+| S3 | Cable pushdown | 50 lb | 3×10–15 | 2–3 | 2 min |
+| S4 | Reverse pec deck | 145 lb | 2×12–20 | 2–3 | 2 min |
+| S5 | Cable reverse curl | 25 lb | 1×15 | ≥4 | 2 min |
+| S6 | Cable wrist curl | 25 lb | 1×15 | ≥4 | 2 min |
+
+**13 lifting sets** followed by **20 minutes bike at RPE 3 (2–4 acceptable)**. Saved settings: height about10; seat−2(possibly−1); handle+3. No calves in this session and no Watch file for bike.
+
+Use November 6 same-slot actuals: add fourth S1 lateral and third S3 pushdown sets under Stage C; hold35/25/50/145lb core loads. S4 second November6 set remains unreported, not skipped/completed or a decline. Repeat S5/S6 one25×15 at≥4RIR per the saved slow-progression preference despite priorRIR10+. No two-set forearm eligibility, automatic load jump or change to curl variants.
+
+Thursday provides acceptable subsequent lifting performance after Wednesday cycling; Saturday November14 running remains unperformed and its validation pending. This does not block the established20-minute dose or authorize25minutes. Preserve all cycling actuals/settings and both running tracks, including queued Saturday7:10 and next Tuesday6:40. W3 now has **4 completed sessions, 52 lifting sets, 12 run work minutes, 4.43 confirmed run miles and 20:25 cycling**, with three sessions left. Full-week plan remains82sets/40prescribedbike minutes. Mileage estimates and shoe totals are unchanged. Refresh and publish daily/week/history caches.

@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-11T20:03:12-05:00",
+  "generatedAt": "2026-11-12T20:35:50-05:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W3",
   "phase": "Hybrid v11 — Stage C",
   "rangeStart": "2026-11-09",
   "rangeEnd": "2026-11-15",
-  "summary": "W3, November 9–15: Monday through Wednesday completed—32 lifting sets, 4.43 running miles and 20:25 cycling logged. Thursday Upper B preview: 20 sets. Friday remains delts/arms B plus 20 minutes bike; Saturday’s longer run is queued at 3×6 at 7:10/mi. Full-week prescription remains 82 lifting sets and 40 bike minutes; actual cycling is tracked separately.",
+  "summary": "W3, November 9–15: Monday through Thursday completed—52 lifting sets, 4.43 running miles and 20:25 cycling. Friday preview: 13 lifting sets plus 20 minutes bike. Saturday’s longer run remains queued at 3×6 at 7:10/mi. Full-week prescription remains 82 lifting sets and 40 bike minutes; actual cycling is tracked separately.",
   "days": [
     {
       "date": "2026-11-09",
@@ -33,14 +33,14 @@
       "date": "2026-11-12",
       "day": "Thu",
       "session": "Upper B",
-      "note": "Preview ready: 20 sets. Incline 135 lb 3 sets; preacher 75 lb starting 2 per arm; laterals 35 lb 4; pull-ups BW 2; pushdown 50 lb 3; row 120 lb 2; BW abs 2; straight-arm pulldown 50 lb 2. Preacher and abs ≥3 RIR; other lifts 2–3. Rest times shown in the logging table.",
-      "status": "upcoming"
+      "note": "20 sets logged, all RIR 3: incline135×8/8/8; preacher75×8/8 per arm; laterals35×12/12/12/12; pull-upsBW×10/10; pushdown50×10/10/10; row120×9/10; BWabs15/12; straight-arm pulldown50×10/10. First independent T2preacher exposure; no fresh symptom response supplied.",
+      "status": "done"
     },
     {
       "date": "2026-11-13",
       "day": "Fri",
       "session": "Delts/arms B + bike",
-      "note": "Standing Friday session. 13 planned sets including cautious forearm work: reverse curls and wrist curls each 25 lb for 1×15, at least 4 RIR. Bike afterward for 20 minutes using saved settings.",
+      "note": "Preview ready: 13 sets—lateral35 lb4; inclineDBcurl25 lb2; pushdown50 lb3; reversepec145 lb2; reverse/wrist curls25 lb1×15 each. Core RIR2–3, forearms≥4; rest2min. Bike20minRPE3(2–4), heightabout10/seat−2(possibly−1)/handle+3.",
       "status": "upcoming"
     },
     {
