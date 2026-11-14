@@ -990,7 +990,7 @@
       "policy_id": "2026-11-03-pace-first",
       "action": "increase-pace-hold-minutes",
       "status": "prescribed-not-performed",
-      "preview": true,
+      "preview": false,
       "for_date": "2026-11-14",
       "prescription_id": "hybrid-2026-10-26-sat-intervals-489",
       "pace_seconds_per_mile": 430,
@@ -1010,11 +1010,11 @@
       "recovery_basis": {
         "status": "assumed-good",
         "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-        "decision_id": 489,
-        "recorded_at": "2026-11-13T17:53:54-05:00",
+        "decision_id": 490,
+        "recorded_at": "2026-11-14T08:20:03-05:00",
         "observed": false,
-        "for_date": "2026-11-14",
-        "reason": "Standing athlete default supplies ordinary readiness for Saturday. Friday lifting and 20 minutes of rowing are reported without new adverse recovery evidence. Rowing effort and session-specific elbow response are unreported; no observed next-day recovery or new injury clearance is inferred."
+        "reason": "Standing athlete default supplies ordinary readiness for Saturday November 14. Today’s request adds no new symptom or observed recovery report; existing restrictions and unanswered rowing/elbow details remain unchanged.",
+        "for_date": "2026-11-14"
       },
       "mileage_check": {
         "week": "W3",
@@ -1027,7 +1027,9 @@
         "status": "actual-plus-plan-below-limit",
         "assumptions": "Confirmed Tuesday4.43mi plus Saturday18workmin at7:10/mi and24easymin at8:30/mi. Upper uses work at7:05/mi and five extra warmup minutes. Rowing is separate from running mileage. Saturday remains unperformed; no planned shoe miles added."
       },
-      "reason": "November7 paces7:10/6:58/6:56 atRPE6/7/7 establish15s/mi all-rep headroom against the prescribed7:25. Apply7:10 once, retain3×6 and two2-minute recoveries. No early test selected; current fatigue/return/relevant symptom checks do not impose a reduction."
+      "reason": "November7 paces7:10/6:58/6:56 atRPE6/7/7 establish15s/mi all-rep headroom against the prescribed7:25. Apply7:10 once, retain3×6 and two2-minute recoveries. No early test selected; current fatigue/return/relevant symptom checks do not impose a reduction.",
+      "review_decision_id": 490,
+      "reviewed_on": "2026-11-14"
     },
     "pace_adjustment_history": [
       {

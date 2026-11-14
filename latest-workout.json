@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-13T17:53:54-05:00",
+  "generatedAt": "2026-11-14T08:20:03-05:00",
   "blockId": "hybrid-2026-10-26",
   "prescriptionId": "hybrid-2026-10-26-sat-intervals-489",
-  "preview": true,
+  "preview": false,
   "week": "W3",
   "day": "Sat",
   "date": "2026-11-14",
   "phase": "Hybrid v11 — Stage C",
-  "sessionName": "Longer intervals — preview",
+  "sessionName": "Longer intervals",
   "why": [
-    "Saturday November 14 is your standing longer-run day. Recovery uses your usual good-recovery assumption.",
+    "Today, Saturday November 14: your standing longer-run day. Recovery uses your usual good-recovery assumption.",
     "Your November 7 result earned a 15-second faster target: 7:25→7:10 per mile. Keep 3×6 minutes so pace and work duration do not increase together."
   ],
   "intro": [],

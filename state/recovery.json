@@ -1229,10 +1229,10 @@
   "planning_readiness": {
     "status": "assumed-good",
     "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-    "decision_id": 489,
-    "recorded_at": "2026-11-13T17:53:54-05:00",
+    "decision_id": 490,
+    "recorded_at": "2026-11-14T08:20:03-05:00",
     "observed": false,
-    "reason": "Standing athlete default supplies ordinary recovery and Saturday readiness. Friday lifting and rowing are reported; no fresh symptom or observed next-day recovery report is inferred.",
+    "reason": "Standing athlete default supplies ordinary readiness for Saturday November 14. Today’s request adds no new symptom or observed recovery report; existing restrictions and unanswered rowing/elbow details remain unchanged.",
     "for_date": "2026-11-14"
   },
   "general_readiness_history": [

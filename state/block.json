@@ -6,7 +6,7 @@
   "start_date": "2026-10-25",
   "end_date": "2027-01-03",
   "timezone": "America/New_York",
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-14",
   "activation_status": "active",
   "calendar_week": "W3",
   "calendar_phase": "Ramp",
@@ -56,7 +56,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 489,
+  "last_adjustment_id": 490,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -755,10 +755,10 @@
     "last_generated_prescription_id": "hybrid-2026-10-26-sat-intervals-489",
     "last_generated_from_session_id": "hybrid-2026-10-26-w3-fri-2026-11-13",
     "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping.",
-    "last_generation_trigger": "completed-session-log",
-    "last_generation_decision_id": 489,
-    "last_review_decision_id": 489,
-    "last_review_reason": "Friday lifting/rowing completed; next scheduled Saturday run generated under standing directive with earned pace increase."
+    "last_generation_trigger": "current-day-request",
+    "last_generation_decision_id": 490,
+    "last_review_decision_id": 490,
+    "last_review_reason": "Saturday preview reviewed unchanged and published as today’s run. Keep #489 and its already-consumed pace source; no new progression or completion."
   },
   "session_freeze_history": [
     {

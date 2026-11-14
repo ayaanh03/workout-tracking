@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-13T17:53:54-05:00",
+  "generatedAt": "2026-11-14T08:20:03-05:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W3",
   "phase": "Hybrid v11 — Stage C",
   "rangeStart": "2026-11-09",
   "rangeEnd": "2026-11-15",
-  "summary": "W3, November 9–15: Monday through Friday completed—65 lifting sets, 4.43 running miles, 20:25 cycling and 20:00 rowing. Friday rowing replaced bike. Saturday preview: 3×6 minutes at the earned 7:10/mi target. Sunday legs remain planned; Stage C week is still in progress.",
+  "summary": "W3, November 9–15: Monday through Friday completed—65 lifting sets, 4.43 running miles, 20:25 cycling and 20:00 rowing. Friday rowing replaced bike. Today, Saturday: 3×6 minutes at the earned 7:10/mi target. Sunday legs remain planned; Stage C week is still in progress.",
   "days": [
     {
       "date": "2026-11-09",
@@ -47,8 +47,8 @@
       "date": "2026-11-14",
       "day": "Sat",
       "session": "Longer intervals",
-      "note": "Preview ready: 10 minutes easy, 3×6 minutes at 7:10/mi with 2-minute easy recoveries between reps, then 10 minutes easy. 42 minutes total, final RPE ≤7. Apply the November 7 pace award once; work stays at 18 minutes.",
-      "status": "upcoming"
+      "note": "Today: 10 minutes easy, 3×6 minutes at 7:10/mi with 2-minute easy recoveries between reps, then 10 minutes easy. 42 minutes total, final RPE ≤7. Apply the November 7 pace award once; work stays at 18 minutes.",
+      "status": "today"
     },
     {
       "date": "2026-11-15",
