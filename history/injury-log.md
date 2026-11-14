@@ -225,3 +225,11 @@ The earlier broad biceps hold stays released. Keep Thursday’s already-issued #
 ## 2026-11-12 — Thursday bodyweight exposure
 
 T7 bodyweight decline crunch: **15/12 at RIR 3**. Store this latest exposure separately from symptom evidence; no fresh ab, elbow or Achilles response is supplied. Preserve November 11 symptom-free elbow report as dated evidence and keep the broad biceps hold released. First Thursday preacher75×8/8 establishes performance, not a new symptom report. Bodyweight-only/max two-set/minimum-3-RIR ab limits and other standing restrictions remain. Ordinary Friday recovery uses the athlete default. Decision #487.
+
+## 2026-11-14 — sleep deprived and under-recovered
+
+Athlete reports **“Very sleep deprived today and under recovered”** with the completed Saturday run. This is explicit **poor current-day readiness**, overriding the standing good-recovery assumption. Sleep duration, a specific medical cause, Sunday recovery and new elbow/ab/Achilles symptoms are not supplied. Do not relabel it as a poor next-day response caused by this run.
+
+All three work paces met the7:10target’s slow tolerance, but the recovery exclusion makes this session **no-count for progression**. Preserve the completed work and normal run prescription without a new speed/duration award or automatic slowdown. Keep the already-consumed November7 source used.
+
+Generate **Sunday November15 provisional rest** instead of the planned17-set leg increase: no programmed lifting or cardio while current readiness remains unresolved. A recovery update after sleep can revise the plan promptly. This is an acute coaching adjustment, not a global-fatigue diagnosis, fixed seven-day OptionC, automatic StageB rollback or two-exposure return protocol. StageC stays achieved; W3 manageability remains open. Existing local restrictions persist. Decision #491.

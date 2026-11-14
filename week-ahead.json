@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-14T08:20:03-05:00",
+  "generatedAt": "2026-11-14T15:51:42-05:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W3",
   "phase": "Hybrid v11 — Stage C",
   "rangeStart": "2026-11-09",
   "rangeEnd": "2026-11-15",
-  "summary": "W3, November 9–15: Monday through Friday completed—65 lifting sets, 4.43 running miles, 20:25 cycling and 20:00 rowing. Friday rowing replaced bike. Today, Saturday: 3×6 minutes at the earned 7:10/mi target. Sunday legs remain planned; Stage C week is still in progress.",
+  "summary": "W3, November9–15: Monday through Saturday completed—65lifting sets,30run work minutes,20:25cycling and20:00rowing. Running distance is4.43confirmed miles plus approximately5.00pending confirmation. Saturday was completed under reported poor recovery; Sunday is provisional rest and StageC review remains open.",
   "days": [
     {
       "date": "2026-11-09",
@@ -47,26 +47,26 @@
       "date": "2026-11-14",
       "day": "Sat",
       "session": "Longer intervals",
-      "note": "Today: 10 minutes easy, 3×6 minutes at 7:10/mi with 2-minute easy recoveries between reps, then 10 minutes easy. 42 minutes total, final RPE ≤7. Apply the November 7 pace award once; work stays at 18 minutes.",
-      "status": "today"
+      "note": "Completed3×6 at7:13/7:06/7:06 with two2-minute recoveries; HR168average. Reported very sleep deprived and under-recovered. Pace tolerance met; no-count for progression. FinalRPE and exact totaldistance unreported; rounded segments estimate about5.00mi.",
+      "status": "done"
     },
     {
       "date": "2026-11-15",
       "day": "Sun",
-      "session": "Legs, bodyweight abs + calves",
-      "note": "17 lifting sets with the bodyweight-ab cap. Keep established loads, including 100 lb leg curls; adjust if new symptoms or recovery changes are reported.",
+      "session": "Recovery/rest — provisional",
+      "note": "Hold the planned17-set leg workout while the latest recovery report is poor. No programmed lifting or cardio; reassess after sleep before resuming. This is a preview, not a completed rest day or a permanent schedule change.",
       "status": "upcoming"
     }
   ],
   "runningMileageCheck": {
-    "decisionId": 489,
-    "kind": "tuesday-actual-saturday-prescribed",
+    "decisionId": 491,
+    "kind": "completed-runs-confirmed-plus-estimated",
     "recordedMiles": 4.43,
-    "estimatedUnconfirmedMiles": 0,
-    "estimatedMiles": 9.76515731874145,
-    "upperMiles": 10.382941176470588,
+    "estimatedUnconfirmedMiles": 4.998939393939394,
+    "estimatedMiles": 9.428939393939395,
+    "upperMiles": null,
     "limitMiles": 15,
-    "status": "actual-plus-plan-below-limit",
-    "assumptions": "Confirmed Tuesday 4.43 miles plus prescribed Saturday 18 work minutes at 7:10/mi and 24 easy minutes at 8:30/mi. Upper uses Saturday work at 7:05/mi and five extra warmup minutes. Saturday source is now consumed once; workout is unperformed. Rowing adds no running or shoe mileage."
+    "status": "estimated-below-limit-total-confirmation-pending",
+    "assumptions": "Tuesday4.43mi confirmed; Saturday rounded segments4.98mi plus100ft estimate4.998939393939394mi. Exact Saturday total is unconfirmed. No more runs planned this week; no pending mileage added to shoes."
   }
 }

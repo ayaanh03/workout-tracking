@@ -724,14 +724,15 @@
   "observation": null,
   "reduced_snapshot": null,
   "general_readiness": {
-    "reported_on": "2026-11-06",
-    "reported_at": "2026-11-06T09:27:29-05:00",
-    "report": "Note down I woke up well recovered and my elbows are fine",
-    "status": "good",
-    "provenance": "athlete observed morning recovery report",
-    "decision_id": 474,
-    "scope": "Current November 6 readiness and next-morning recovery after November 5 Upper B. W2 remains in progress.",
-    "numeric_metrics": null
+    "reported_on": "2026-11-14",
+    "reported_at": "2026-11-14T15:51:42-05:00",
+    "report": "Very sleep deprived today and under recovered",
+    "status": "poor",
+    "provenance": "athlete current-day recovery report",
+    "decision_id": 491,
+    "scope": "Current Saturday sleep deprivation and under-recovery reported with the completed run. Exact sleep duration, cause beyond the report, next-morning recovery and specific elbow/ab/Achilles response are unreported.",
+    "numeric_metrics": null,
+    "source": "../history/injury-log.md#2026-11-14--sleep-deprived-and-under-recovered"
   },
   "resolved_gates": [
     {
@@ -744,24 +745,37 @@
     }
   ],
   "post_session": {
-    "date": "2026-11-13",
-    "session_id": "hybrid-2026-10-26-w3-fri-2026-11-13",
+    "date": "2026-11-14",
+    "session_id": "hybrid-2026-10-26-w3-sat-2026-11-14",
     "completion": "reported",
     "elbow_response": null,
     "lower_ab_response": null,
     "achilles_response": null,
     "next_day_recovery": null,
-    "status": "general-recovery-assumed-specific-response-unreported",
-    "decision_id": 489,
-    "recovery_decision": {
-      "status": "assumed-good",
-      "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-      "decision_id": 489,
-      "recorded_at": "2026-11-13T17:53:54-05:00",
-      "observed": false,
-      "reason": "Standing athlete default supplies ordinary recovery and Saturday readiness. Friday lifting and rowing are reported; no fresh symptom or observed next-day recovery report is inferred."
+    "current_day_recovery": {
+      "reported_on": "2026-11-14",
+      "reported_at": "2026-11-14T15:51:42-05:00",
+      "report": "Very sleep deprived today and under recovered",
+      "status": "poor",
+      "provenance": "athlete current-day recovery report",
+      "decision_id": 491,
+      "scope": "Current Saturday sleep deprivation and under-recovery reported with the completed run. Exact sleep duration, cause beyond the report, next-morning recovery and specific elbow/ab/Achilles response are unreported.",
+      "numeric_metrics": null,
+      "source": "../history/injury-log.md#2026-11-14--sleep-deprived-and-under-recovered"
     },
-    "note": "13lifting sets and20minutes rowing reported. S2/S5/S6actual27.5loads met rep/effort targets; targeted elbow response and rowing effort/unit requested, not inferred. Existing local restrictions remain."
+    "status": "completed-with-reported-poor-current-recovery",
+    "decision_id": 491,
+    "recovery_decision": {
+      "status": "reported-poor",
+      "decision_id": 491,
+      "recorded_at": "2026-11-14T15:51:42-05:00",
+      "reported_on": "2026-11-14",
+      "observed": true,
+      "observation_type": "athlete-self-report",
+      "source": "../history/injury-log.md#2026-11-14--sleep-deprived-and-under-recovered",
+      "reason": "Explicit current-day sleep deprivation and under-recovery override the ordinary good-recovery default. This is not a reported poor next-day response to Saturday’s run."
+    },
+    "note": "All three 6-minute reps completed within pace tolerance. Classify no-count because of explicit poor current recovery; do not infer a next-day poor-recovery strike, persistent fatigue or a failed pace target."
   },
   "prior_pending_post_sessions": [
     {
@@ -831,6 +845,26 @@
         "reason": "Standing athlete default supplies ordinary recovery and Friday readiness. Thursday performance is reported; no fresh elbow, ab or Achilles response or observed next-morning recovery is inferred."
       },
       "note": "Thursday20sets completed at RIR3, including first T2preacher75×8/8 and BWdecline15/12. November11 elbow comfort remains dated evidence; no fresh Thursday-specific response or injury-loading clearance supplied."
+    },
+    {
+      "date": "2026-11-13",
+      "session_id": "hybrid-2026-10-26-w3-fri-2026-11-13",
+      "completion": "reported",
+      "elbow_response": null,
+      "lower_ab_response": null,
+      "achilles_response": null,
+      "next_day_recovery": null,
+      "status": "general-recovery-assumed-specific-response-unreported",
+      "decision_id": 489,
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 489,
+        "recorded_at": "2026-11-13T17:53:54-05:00",
+        "observed": false,
+        "reason": "Standing athlete default supplies ordinary recovery and Saturday readiness. Friday lifting and rowing are reported; no fresh symptom or observed next-day recovery report is inferred."
+      },
+      "note": "13lifting sets and20minutes rowing reported. S2/S5/S6actual27.5loads met rep/effort targets; targeted elbow response and rowing effort/unit requested, not inferred. Existing local restrictions remain."
     }
   ],
   "resolved_post_sessions": [
@@ -1227,13 +1261,22 @@
     "source": "../program/readiness.md"
   },
   "planning_readiness": {
-    "status": "assumed-good",
-    "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-    "decision_id": 490,
-    "recorded_at": "2026-11-14T08:20:03-05:00",
+    "status": "hold-based-on-reported-poor-recovery",
+    "decision_id": 491,
+    "recorded_at": "2026-11-14T15:51:42-05:00",
+    "for_date": "2026-11-15",
     "observed": false,
-    "reason": "Standing athlete default supplies ordinary readiness for Saturday November 14. Today’s request adds no new symptom or observed recovery report; existing restrictions and unanswered rowing/elbow details remain unchanged.",
-    "for_date": "2026-11-14"
+    "reason": "Sunday readiness is not yet known. The latest explicit Saturday report is very sleep deprived and under-recovered, so Sunday is provisional rest pending a recovery update; do not presume a rebound or a persistent fatigue syndrome.",
+    "current_day_evidence": {
+      "status": "reported-poor",
+      "decision_id": 491,
+      "recorded_at": "2026-11-14T15:51:42-05:00",
+      "reported_on": "2026-11-14",
+      "observed": true,
+      "observation_type": "athlete-self-report",
+      "source": "../history/injury-log.md#2026-11-14--sleep-deprived-and-under-recovered",
+      "reason": "Explicit current-day sleep deprivation and under-recovery override the ordinary good-recovery default. This is not a reported poor next-day response to Saturday’s run."
+    }
   },
   "general_readiness_history": [
     {
@@ -1245,6 +1288,16 @@
       "decision_id": 458,
       "scope": "Retrospective W1 recovery review covering all October 26–November 1 sessions, including Friday; also current Monday recovery after Sunday. No numeric metrics or backdated daily report supplied.",
       "reported_at": "2026-11-02T11:34:35-05:00",
+      "numeric_metrics": null
+    },
+    {
+      "reported_on": "2026-11-06",
+      "reported_at": "2026-11-06T09:27:29-05:00",
+      "report": "Note down I woke up well recovered and my elbows are fine",
+      "status": "good",
+      "provenance": "athlete observed morning recovery report",
+      "decision_id": 474,
+      "scope": "Current November 6 readiness and next-morning recovery after November 5 Upper B. W2 remains in progress.",
       "numeric_metrics": null
     }
   ],
@@ -1297,6 +1350,14 @@
       "status": "elbow-response-unreported",
       "question": "Did your elbows stay comfortable during and after the heavier curls and rowing?",
       "scope": "Targeted response to higher-than-prescribed curl loads and rowing substitution; no routine recovery gate or assumed new injury."
+    },
+    {
+      "session_id": "hybrid-2026-10-26-w3-sat-2026-11-14",
+      "date": "2026-11-14",
+      "decision_id": 491,
+      "status": "final-rpe-and-total-distance-unreported",
+      "question": "What was your effort on the final six-minute rep, from 1–10, and what total distance does the workout summary show?",
+      "scope": "No-count classification already follows the explicit poor-recovery report. Confirmed distance will be added once to Evo SL; do not replace it with rounded interval totals."
     }
   ],
   "resolved_log_details": [
@@ -1313,5 +1374,35 @@
       "answer": "Ya elbows were perfect today",
       "response_scope": "Athlete confirms comfortable elbows during and after November 11 curls, including the 90 lb preacher set. No numeric pain score, diagnosis, next-morning recovery or ab/Achilles response is supplied."
     }
-  ]
+  ],
+  "active_recovery_override": {
+    "id": "2026-11-14-sleep-deprivation",
+    "status": "active-acute-readiness-review",
+    "decision_id": 491,
+    "reported_on": "2026-11-14",
+    "recorded_at": "2026-11-14T15:51:42-05:00",
+    "source": "../history/injury-log.md#2026-11-14--sleep-deprived-and-under-recovered",
+    "report": "Very sleep deprived today and under recovered",
+    "scope": "Acute reported sleep deprivation and under-recovery. No established global-fatigue pattern, illness or new local injury.",
+    "standing_default_overridden": true,
+    "next_scheduled_date": "2026-11-15",
+    "original_next_session": "Legs, bodyweight abs + calves",
+    "next_prescription_id": "hybrid-2026-10-26-sun-recovery-491",
+    "next_action": "provisional-rest-pending-readiness-update",
+    "baseline_sunday_stage": "C",
+    "baseline_sunday_effective_sets": 17,
+    "baseline_sunday_slot_sets": {
+      "L1": 2,
+      "L2": 4,
+      "L3": 3,
+      "L4": 3,
+      "L5": 3,
+      "L6": 2
+    },
+    "last_tolerated_sunday_effective_sets": 13,
+    "review": "Reassess sleep, alertness and ordinary recovery before the next training session. A report of improved readiness can revise the provisional rest promptly; no fixed waiting period, automatic seven-day Option C or two-exposure return requirement is imposed.",
+    "progression": "Hold upcoming increases while the acute poor-readiness report remains active. Preserve normal doses and achieved Stage C; do not claim W3 manageable or advance to D until the issue and completed week are reviewed.",
+    "normal_stage_changed": false,
+    "global_fatigue_protocol_started": false
+  }
 }

@@ -245,3 +245,28 @@ Session `hybrid-2026-10-26-w3-fri-2026-11-13-row`, associated lifting session `h
 Athlete instead reports **“Rowed 20 minutes 2:27.3 avg”**: duration **1200seconds**, average pace display **2:27.3** (147.3seconds; denominator unconfirmed). Record **rowing**, with numeric RPE, pace unit, distance, HR, equipment/settings and symptom response unreported. Asked once to confirm per500m and effort; no exact distance is derived before unit confirmation. No new bike actual/tolerance, shoe mileage or permanent bike-to-rowing replacement is inferred.
 
 Ordinary next-workout recovery is assumed under the standing directive. W3 cycling remains **20:25** from Wednesday; rowing adds a separate **20:00**. The missing numeric effort is not adverse fatigue evidence. Preserve prior cardio actuals and the Saturday run’s independently earned pace award. Decision #489.
+
+## 2026-11-14 — Hybrid v11 W3 Saturday longer intervals
+
+Session `hybrid-2026-10-26-w3-sat-2026-11-14`, original prescription `hybrid-2026-10-26-sat-intervals-489`: **10-minute warmup,3×6 minutes at7:10/mi,two2-minute recoveries,10-minute cooldown;18work minutes and42planned total minutes; final RPE≤7**. The screenshots additionally show a15-second open segment.
+
+**Athlete report:** “Very sleep deprived today and under recovered.” This describes current same-day readiness and overrides the ordinary good-recovery assumption. It is not a report of next-day recovery or persistent global fatigue.
+
+| Segment | Time | Displayed distance | Pace /mi | Avg HR | Power | Cadence |
+|---|---|---|---|---|---|---|
+| Warmup | 10:00 | 1.11 mi | 8:57 | 147 | 220 W | 174 spm |
+| Work 1 | 6:00 | 0.83 mi | 7:13 | 177 | 276 W | 186 spm |
+| Recovery 1 | 2:00 | 0.19 mi | 10:02 | 176 | 200 W | 165 spm |
+| Work 2 | 6:00 | 0.84 mi | 7:06 | 181 | 274 W | 186 spm |
+| Recovery 2 | 2:00 | 0.18 mi | 11:01 | 177 | 187 W | 166 spm |
+| Work 3 | 6:00 | 0.84 mi | 7:06 | 181 | 277 W | 187 spm |
+| Cooldown | 10:00 | 0.99 mi | 10:05 | 170 | 194 W | 171 spm |
+| Open | 0:15 | 100 ft | 12:58 | 168 | 208 W | 169 spm |
+
+**Work paces7:13/7:06/7:06** all satisfy the7:10 target’s five-second slow allowance. All18work minutes and both displayed recoveries are recorded. Final-rep RPE and exact summary distance were requested once and remain unreported. The previously established sole current pair is Evo SL; no mileage is added without a confirmed total.
+
+Rounded displayed distances plus100ft sum **4.998939393939394mi**; this remains an estimate, not the exact total. Displayed segment times sum **42:15 (2535seconds)**. Screenshot average HR **168bpm**; zone times **1:38 /4:49 /2:32 /14:21 /18:48**, totaling **42:08 (2528seconds)**. Preserve the seven-second discrepancy without inferring pauses. Chart-axis185 is not a measured peak HR. No surface, extra-rest, Achilles/ab response or next-morning recovery is inferred.
+
+**Classify no-count due to explicit poor current recovery**, not a pace miss. Clear hits/misses/comfortable credit; no speed or volume award. Preserve the saved normal **7:10/mi,18minutes,3×6** and the consumed November7 pace source. Current under-recovery is not a second poor-next-day strike and does not by itself justify the persistent global-fatigue/OptionC or fixed return-exposure timetable. Hold discretionary run progression and review current readiness before future hard work. The earlier prescription remains the historical prescription, not a recommendation that hard intervals should have been performed while under recovered.
+
+Wednesday bike’s subsequent lifting evidence stays acceptable. Saturday running is now completed with adequate pace but poor current readiness; it does not validate a bike-duration increase or establish the bike as the cause. Preserve cycling measurements and last-tolerated20-minute dose. Decision **#491**.

@@ -1,57 +1,46 @@
 {
-  "generatedAt": "2026-11-14T08:20:03-05:00",
+  "generatedAt": "2026-11-14T15:51:42-05:00",
   "blockId": "hybrid-2026-10-26",
-  "prescriptionId": "hybrid-2026-10-26-sat-intervals-489",
-  "preview": false,
+  "prescriptionId": "hybrid-2026-10-26-sun-recovery-491",
+  "preview": true,
   "week": "W3",
-  "day": "Sat",
-  "date": "2026-11-14",
-  "phase": "Hybrid v11 — Stage C",
-  "sessionName": "Longer intervals",
+  "day": "Sun",
+  "date": "2026-11-15",
+  "phase": "Hybrid v11 — Stage C; acute recovery adjustment",
+  "sessionName": "Recovery/rest — preview",
   "why": [
-    "Today, Saturday November 14: your standing longer-run day. Recovery uses your usual good-recovery assumption.",
-    "Your November 7 result earned a 15-second faster target: 7:25→7:10 per mile. Keep 3×6 minutes so pace and work duration do not increase together."
+    "Your November 14 report—very sleep deprived and under-recovered—overrides the usual good-recovery assumption.",
+    "Sunday is provisional rest. Hold the planned 17-set leg workout and reassess after sleep before prescribing more training."
   ],
-  "intro": [],
+  "intro": [
+    "No programmed lifting or cardio. If sleep, alertness and recovery improve, update readiness before the leg session so this plan can be revised."
+  ],
   "lift": null,
-  "cardio": {
-    "workout": "3×6 minutes at 7:10/mi, with 2-minute easy jog/walk recoveries between reps only. 18 work minutes; 42 minutes total with the prescribed warmup/cooldown.",
-    "warmup": "10 minutes easy; 8:30–9:30/mi is a guide, slower is fine. Up to 5 extra minutes if needed.",
-    "cooldown": "10 minutes easy, conversation comfortable.",
-    "targets": {
-      "pace": "7:10/mi",
-      "rpe": "Build toward 6–7/10; final rep ≤7/10"
-    },
-    "flags": [
-      "Watch alerts 7:05–7:15/mi guide pacing. Faster reps can still count when work, rest, effort and recovery requirements are met.",
-      "Keep the 18 work minutes unchanged while the target gets faster."
-    ],
-    "workoutFile": "runs/2026-11-14.workout"
-  },
+  "cardio": null,
   "adaptation": [
     {
-      "exercise": "Longer-run pace",
-      "previous": "November 7: 3×6 at 7:10/6:58/6:56 per mile, RPE 6/7/7, against a 7:25 target.",
-      "decision": "3×6 at 7:10/mi, with two 2-minute recoveries.",
-      "reason": "The slowest rep was 15 s/mi faster than target. Apply the earned 15-second pace step once; keep 18 work minutes and final RPE ≤7."
+      "exercise": "Saturday completed",
+      "previous": "3×6 minutes at 7:13/7:06/7:06 per mile, with two 2-minute recoveries. Average HR168. You report very poor sleep and under-recovery.",
+      "decision": "Record the completed run as no-count for progression. All three paces met the target tolerance.",
+      "reason": "Poor recovery overrides pace-based credit. Keep normal7:10/mi and18work minutes; no new hit, miss, faster target or added duration. The previously used November7 award stays used."
     },
     {
-      "exercise": "Friday lifting",
-      "previous": "13 sets reported. Incline DB curl 27.5×8/8 at RIR 2; reverse and wrist curls 27.5×15 at RIR 4, instead of prescribed 25 lb.",
-      "decision": "Record the actual 27.5 lb and retain it as the next working reference. Keep forearms at one 15-rep set each, ≥4 RIR, with no further increase now.",
-      "reason": "Reported reps/RIR fit the effective targets. This reconciles actual loads; Stage C does not grant ordinary loading credit. The original 25 lb prescription stays in history."
+      "exercise": "Sunday legs",
+      "previous": "Sunday was planned as17Stage-C sets, up from the last tolerated13-set leg session. Current Saturday readiness is poor; Sunday readiness is not yet known.",
+      "decision": "Provisional rest: no programmed lifting or cardio.",
+      "reason": "Avoid adding training while this acute recovery issue is unresolved. A readiness update can revise the plan promptly; this is not a fixed seven-day deload or a stage rollback."
     },
     {
-      "exercise": "Rowing substitution",
-      "previous": "Friday: 20 minutes rowing at average 2:27.3 as reported. Pace unit, numeric effort and current elbow response are unconfirmed.",
-      "decision": "Record rowing separately from the prescribed bike. Use the standing recovery default for Saturday.",
-      "reason": "No fresh adverse recovery evidence is reported. Do not convert rowing into cycling tolerance or running/shoe mileage; adjust if the follow-up identifies symptoms or excessive effort."
+      "exercise": "Week review",
+      "previous": "W3 now has6reported sessions,65lifting sets and30run work minutes. This is the first current report of poor recovery in the week.",
+      "decision": "Keep Stage C and hold the completed-week manageability review.",
+      "reason": "One sleep-deprived day does not establish persistent global fatigue. It also cannot be assumed resolved or used to justify advancing to Stage D."
     },
     {
-      "exercise": "Weekly mileage",
-      "previous": "Tuesday confirmed 4.43 miles; Saturday remains unperformed.",
-      "decision": "Estimated week 9.77 miles; upper planning estimate 10.38, below 15.",
-      "reason": "Includes prescribed running warmup, recoveries and cooldown; upper estimate includes five extra warmup minutes. No planned distance is added to shoes."
+      "exercise": "Distance and shoes",
+      "previous": "Rounded Saturday segments estimate about5.00mi; the exact summary total and final effort are unreported.",
+      "decision": "Keep Evo SL at13.78confirmed tracked miles pending the total.",
+      "reason": "Do not treat rounded segment distances as the confirmed run total or add planned distance to shoes."
     }
   ],
   "currentLoads": [
