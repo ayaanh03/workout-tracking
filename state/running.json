@@ -783,7 +783,7 @@
       "source": "../history/cardio-log.md#2026-11-14--hybrid-v11-w3-saturday-longer-intervals",
       "scheduled_day": "Saturday",
       "legacy_running_track": "friday",
-      "provenance": "Three Apple Fitness screenshots plus athlete same-day sleep-deprivation/under-recovery report. Final RPE and exact summary distance requested once; no answer yet.",
+      "provenance": "Three Apple Fitness screenshots supply interval metrics. Athlete reports current-day sleep deprivation/under-recovery, then confirms total5.01mi and work-rep RPE7/7/7.",
       "prescribed_pace_seconds_per_mile": 430,
       "work_minutes": 18,
       "format": "3x6",
@@ -793,18 +793,18 @@
         426
       ],
       "rep_rpe": [
-        null,
-        null,
-        null
+        7,
+        7,
+        7
       ],
-      "final_rep_rpe": null,
+      "final_rep_rpe": 7,
       "recovery_seconds": [
         120,
         120
       ],
-      "distance_miles": null,
+      "distance_miles": 5.01,
       "shoe": "Evo SL",
-      "shoe_basis": "Previously confirmed sole current running pair; exact distance remains unconfirmed.",
+      "shoe_basis": "Evo SL is the standing sole current pair; athlete confirms this run’s5.01mi total.",
       "duration_seconds_from_segments": 2535,
       "duration_note": "42:15 summed from displayed intervals including the15-second open segment; independent summary/elapsed duration unreported.",
       "segments": [
@@ -890,7 +890,7 @@
         }
       ],
       "displayed_segment_distance_sum_miles": 4.998939393939394,
-      "distance_note": "Rounded segment distances plus100ft sum approximately4.99894mi. This is not a confirmed total and is not added to shoe mileage.",
+      "distance_note": "Use athlete-confirmed5.01mi for totals and shoe mileage. The separate4.998939393939394mi rounded-segment estimate remains provenance, not the measured total.",
       "average_heart_rate_bpm": 168,
       "heart_rate_zones": [
         {
@@ -948,6 +948,21 @@
         "report": "Very sleep deprived today and under recovered",
         "scope": "Current same-day readiness accompanying the completed run. This overrides the ordinary good-recovery assumption for the affected decisions; it is not a report of poor next-day recovery, illness, injury or fatigue persisting into later sessions.",
         "reason": "Explicit sleep deprivation and under-recovery make this session ineligible for ordinary progression; no hit or miss is awarded."
+      },
+      "measurement_followup": {
+        "reported_on": "2026-11-14",
+        "recorded_at": "2026-11-14T16:46:29-05:00",
+        "decision_id": 492,
+        "report": "distance was 5.01mi. Rpe 7,7,7",
+        "distance_miles": 5.01,
+        "rep_rpe": [
+          7,
+          7,
+          7
+        ],
+        "final_rep_rpe": 7,
+        "source": "../history/cardio-log.md#2026-11-14--saturday-distance-and-effort-confirmed",
+        "scope": "Confirms completed distance and all three work-rep RPEs. Does not revise the same-day poor-recovery report or provide a new recovery update."
       }
     },
     "classification": "no-count",
@@ -960,7 +975,7 @@
     "pending_validation": null,
     "carried_adjustment": null,
     "classification_review": {
-      "decision_id": 491,
+      "decision_id": 492,
       "classified_on": "2026-11-14",
       "status": "classified",
       "classification": "no-count",
@@ -982,8 +997,8 @@
         120
       ],
       "extra_rest_reported": null,
-      "effort_cap_exceeded": null,
-      "final_rep_rpe": null,
+      "effort_cap_exceeded": false,
+      "final_rep_rpe": 7,
       "recovery_evidence": {
         "status": "reported-poor-current-readiness",
         "decision_id": 491,
@@ -995,7 +1010,7 @@
         "scope": "Current same-day readiness accompanying the completed run. This overrides the ordinary good-recovery assumption for the affected decisions; it is not a report of poor next-day recovery, illness, injury or fatigue persisting into later sessions.",
         "reason": "Explicit sleep deprivation and under-recovery make this session ineligible for ordinary progression; no hit or miss is awarded."
       },
-      "reason": "Full3×6 and two2-minute recoveries are displayed;433/426/426 all pass ≤435s/mi. Apply the recovery exclusion first: the athlete reports being very sleep deprived and under recovered today. No-count rather than hit/miss; missing finalRPE cannot turn this poor-recovery exposure into a hit. Clear streak/comfortable credit without adding a poor-next-day strike."
+      "reason": "Full3×6 at433/426/426s/mi and finalRPE7 meet pace and effort limits. Explicit poor current readiness still takes precedence: no-count, no new hit/miss or progression. The confirmation does not resolve sleep deprivation or establish next-day recovery."
     },
     "next_action": {
       "decision_id": 491,
@@ -1083,7 +1098,7 @@
       }
     ],
     "pace_progression_review": {
-      "decision_id": 491,
+      "decision_id": 492,
       "policy_id": "2026-11-03-pace-first",
       "reviewed_on": "2026-11-14",
       "source_session_id": "hybrid-2026-10-26-w3-sat-2026-11-14",
@@ -1094,7 +1109,7 @@
       "source_format": "3x6",
       "slowest_rep_seconds_per_mile": 433,
       "minimum_headroom_seconds_per_mile": -3,
-      "final_rep_rpe": null,
+      "final_rep_rpe": 7,
       "rpe_cap": 7,
       "route": "ineligible-poor-current-recovery",
       "status": "no-count-no-new-award",
@@ -1932,14 +1947,14 @@
             "prescription_id": "hybrid-2026-10-26-sat-intervals-489",
             "source": "../history/cardio-log.md#2026-11-14--hybrid-v11-w3-saturday-longer-intervals",
             "status": "completed-no-count-poor-current-readiness",
-            "performance": "Completed3×6 at7:13/7:06/7:06; all paces meet target tolerance. Athlete reports very sleep deprived and under recovered today. FinalRPE unreported; this is not clean subsequent-recovery validation.",
+            "performance": "Completed3×6 at7:13/7:06/7:06, RPE7/7/7, confirmed5.01mi. Pace and effort limits met, but reported sleep deprivation and poor current readiness remain; this is not clean subsequent-recovery validation.",
             "work_minutes": 18,
             "rep_paces_seconds_per_mile": [
               433,
               426,
               426
             ],
-            "final_rep_rpe": null,
+            "final_rep_rpe": 7,
             "classification": "no-count",
             "recovery_basis": {
               "status": "reported-poor-current-readiness",
@@ -1951,7 +1966,14 @@
               "report": "Very sleep deprived today and under recovered",
               "scope": "Current same-day readiness accompanying the completed run. This overrides the ordinary good-recovery assumption for the affected decisions; it is not a report of poor next-day recovery, illness, injury or fatigue persisting into later sessions.",
               "reason": "Explicit sleep deprivation and under-recovery make this session ineligible for ordinary progression; no hit or miss is awarded."
-            }
+            },
+            "rep_rpe": [
+              7,
+              7,
+              7
+            ],
+            "distance_miles": 5.01,
+            "measurement_confirmation_decision_id": 492
           },
           "reason": "Thursday lifting performance remains acceptable. Saturday running is completed, with adequate pace but reported poor current readiness; do not use it as clean tolerance evidence to increase cycling duration. No attribution of the sleep/recovery issue to the bike is established."
         },
@@ -2039,14 +2061,14 @@
           "prescription_id": "hybrid-2026-10-26-sat-intervals-489",
           "source": "../history/cardio-log.md#2026-11-14--hybrid-v11-w3-saturday-longer-intervals",
           "status": "completed-no-count-poor-current-readiness",
-          "performance": "Completed3×6 at7:13/7:06/7:06; all paces meet target tolerance. Athlete reports very sleep deprived and under recovered today. FinalRPE unreported; this is not clean subsequent-recovery validation.",
+          "performance": "Completed3×6 at7:13/7:06/7:06, RPE7/7/7, confirmed5.01mi. Pace and effort limits met, but reported sleep deprivation and poor current readiness remain; this is not clean subsequent-recovery validation.",
           "work_minutes": 18,
           "rep_paces_seconds_per_mile": [
             433,
             426,
             426
           ],
-          "final_rep_rpe": null,
+          "final_rep_rpe": 7,
           "classification": "no-count",
           "recovery_basis": {
             "status": "reported-poor-current-readiness",
@@ -2058,7 +2080,14 @@
             "report": "Very sleep deprived today and under recovered",
             "scope": "Current same-day readiness accompanying the completed run. This overrides the ordinary good-recovery assumption for the affected decisions; it is not a report of poor next-day recovery, illness, injury or fatigue persisting into later sessions.",
             "reason": "Explicit sleep deprivation and under-recovery make this session ineligible for ordinary progression; no hit or miss is awarded."
-          }
+          },
+          "rep_rpe": [
+            7,
+            7,
+            7
+          ],
+          "distance_miles": 5.01,
+          "measurement_confirmation_decision_id": 492
         },
         "reason": "Thursday lifting performance remains acceptable. Saturday running is completed, with adequate pace but reported poor current readiness; do not use it as clean tolerance evidence to increase cycling duration. No attribution of the sleep/recovery issue to the bike is established."
       },

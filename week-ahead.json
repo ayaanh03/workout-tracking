@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-14T15:51:42-05:00",
+  "generatedAt": "2026-11-14T16:46:29-05:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W3",
   "phase": "Hybrid v11 — Stage C",
   "rangeStart": "2026-11-09",
   "rangeEnd": "2026-11-15",
-  "summary": "W3, November9–15: Monday through Saturday completed—65lifting sets,30run work minutes,20:25cycling and20:00rowing. Running distance is4.43confirmed miles plus approximately5.00pending confirmation. Saturday was completed under reported poor recovery; Sunday is provisional rest and StageC review remains open.",
+  "summary": "W3, November 9–15: Monday through Saturday completed—65 lifting sets, 30 run work minutes, 9.44 confirmed running miles, 20:25 cycling and 20:00 rowing. Saturday was completed under reported poor recovery; Sunday is provisional rest and Stage C review remains open.",
   "days": [
     {
       "date": "2026-11-09",
@@ -47,7 +47,7 @@
       "date": "2026-11-14",
       "day": "Sat",
       "session": "Longer intervals",
-      "note": "Completed3×6 at7:13/7:06/7:06 with two2-minute recoveries; HR168average. Reported very sleep deprived and under-recovered. Pace tolerance met; no-count for progression. FinalRPE and exact totaldistance unreported; rounded segments estimate about5.00mi.",
+      "note": "Completed 3×6 at 7:13/7:06/7:06, RPE 7/7/7, with two 2-minute recoveries; confirmed 5.01 mi in Evo SL, average HR 168. Pace and effort limits met; no-count because of reported sleep deprivation and under-recovery.",
       "status": "done"
     },
     {
@@ -59,14 +59,14 @@
     }
   ],
   "runningMileageCheck": {
-    "decisionId": 491,
-    "kind": "completed-runs-confirmed-plus-estimated",
-    "recordedMiles": 4.43,
-    "estimatedUnconfirmedMiles": 4.998939393939394,
-    "estimatedMiles": 9.428939393939395,
-    "upperMiles": null,
+    "decisionId": 492,
+    "kind": "completed-runs-confirmed",
+    "recordedMiles": 9.44,
+    "estimatedUnconfirmedMiles": 0,
+    "estimatedMiles": 9.44,
+    "upperMiles": 9.44,
     "limitMiles": 15,
-    "status": "estimated-below-limit-total-confirmation-pending",
-    "assumptions": "Tuesday4.43mi confirmed; Saturday rounded segments4.98mi plus100ft estimate4.998939393939394mi. Exact Saturday total is unconfirmed. No more runs planned this week; no pending mileage added to shoes."
+    "status": "confirmed-below-limit",
+    "assumptions": "Confirmed Tuesday 4.43 mi plus Saturday 5.01 mi = 9.44 mi. No more running prescribed this week; rowing excluded. Saturday added once to Evo SL, now 18.79 tracked miles."
   }
 }

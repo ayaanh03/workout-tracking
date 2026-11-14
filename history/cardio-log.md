@@ -270,3 +270,9 @@ Rounded displayed distances plus100ft sum **4.998939393939394mi**; this remains 
 **Classify no-count due to explicit poor current recovery**, not a pace miss. Clear hits/misses/comfortable credit; no speed or volume award. Preserve the saved normal **7:10/mi,18minutes,3×6** and the consumed November7 pace source. Current under-recovery is not a second poor-next-day strike and does not by itself justify the persistent global-fatigue/OptionC or fixed return-exposure timetable. Hold discretionary run progression and review current readiness before future hard work. The earlier prescription remains the historical prescription, not a recommendation that hard intervals should have been performed while under recovered.
 
 Wednesday bike’s subsequent lifting evidence stays acceptable. Saturday running is now completed with adequate pace but poor current readiness; it does not validate a bike-duration increase or establish the bike as the cause. Preserve cycling measurements and last-tolerated20-minute dose. Decision **#491**.
+
+## 2026-11-14 — Saturday distance and effort confirmed
+
+For `hybrid-2026-10-26-w3-sat-2026-11-14`, athlete confirms **5.01mi** and **RPE7/7/7**. Original paces7:13/7:06/7:06, interval metrics and prescribed7:10target remain unchanged. FinalRPE7 meets the effort cap, but explicit sleep deprivation/under-recovery still makes this **no-count for progression**; no recovery improvement is implied by the measurement follow-up.
+
+Resolve the pending distance/effort question. Add5.01mi once to the standing sole-current Evo SL pair: **13.78→18.79mi**. W3 confirmed running becomes **4.43+5.01=9.44mi**. Retain the approximate4.99894mi segment sum as provenance; it no longer supplies the total. Sunday’s provisional rest and the recovery review remain unchanged. Decision #492.

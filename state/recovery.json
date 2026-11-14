@@ -775,7 +775,22 @@
       "source": "../history/injury-log.md#2026-11-14--sleep-deprived-and-under-recovered",
       "reason": "Explicit current-day sleep deprivation and under-recovery override the ordinary good-recovery default. This is not a reported poor next-day response to Saturday’s run."
     },
-    "note": "All three 6-minute reps completed within pace tolerance. Classify no-count because of explicit poor current recovery; do not infer a next-day poor-recovery strike, persistent fatigue or a failed pace target."
+    "note": "All three 6-minute reps completed within pace tolerance. Classify no-count because of explicit poor current recovery; do not infer a next-day poor-recovery strike, persistent fatigue or a failed pace target.",
+    "measurement_followup": {
+      "reported_on": "2026-11-14",
+      "recorded_at": "2026-11-14T16:46:29-05:00",
+      "decision_id": 492,
+      "report": "distance was 5.01mi. Rpe 7,7,7",
+      "distance_miles": 5.01,
+      "rep_rpe": [
+        7,
+        7,
+        7
+      ],
+      "final_rep_rpe": 7,
+      "source": "../history/cardio-log.md#2026-11-14--saturday-distance-and-effort-confirmed",
+      "scope": "Confirms completed distance and all three work-rep RPEs. Does not revise the same-day poor-recovery report or provide a new recovery update."
+    }
   },
   "prior_pending_post_sessions": [
     {
@@ -1350,14 +1365,6 @@
       "status": "elbow-response-unreported",
       "question": "Did your elbows stay comfortable during and after the heavier curls and rowing?",
       "scope": "Targeted response to higher-than-prescribed curl loads and rowing substitution; no routine recovery gate or assumed new injury."
-    },
-    {
-      "session_id": "hybrid-2026-10-26-w3-sat-2026-11-14",
-      "date": "2026-11-14",
-      "decision_id": 491,
-      "status": "final-rpe-and-total-distance-unreported",
-      "question": "What was your effort on the final six-minute rep, from 1–10, and what total distance does the workout summary show?",
-      "scope": "No-count classification already follows the explicit poor-recovery report. Confirmed distance will be added once to Evo SL; do not replace it with rounded interval totals."
     }
   ],
   "resolved_log_details": [
@@ -1373,6 +1380,23 @@
       "resolution_decision_id": 486,
       "answer": "Ya elbows were perfect today",
       "response_scope": "Athlete confirms comfortable elbows during and after November 11 curls, including the 90 lb preacher set. No numeric pain score, diagnosis, next-morning recovery or ab/Achilles response is supplied."
+    },
+    {
+      "session_id": "hybrid-2026-10-26-w3-sat-2026-11-14",
+      "date": "2026-11-14",
+      "decision_id": 491,
+      "status": "resolved-distance-and-rpe-confirmed",
+      "question": "What was your effort on the final six-minute rep, from 1–10, and what total distance does the workout summary show?",
+      "scope": "No-count classification already follows the explicit poor-recovery report. Confirmed distance will be added once to Evo SL; do not replace it with rounded interval totals.",
+      "resolved_on": "2026-11-14",
+      "resolution_decision_id": 492,
+      "answer": "distance was 5.01mi. Rpe 7,7,7",
+      "distance_miles": 5.01,
+      "rep_rpe": [
+        7,
+        7,
+        7
+      ]
     }
   ],
   "active_recovery_override": {

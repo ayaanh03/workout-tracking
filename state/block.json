@@ -56,7 +56,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 491,
+  "last_adjustment_id": 492,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -559,7 +559,7 @@
       "session_id": "hybrid-2026-10-26-w3-sat-2026-11-14",
       "status": "completed",
       "work_minutes": 18,
-      "distance_miles": null,
+      "distance_miles": 5.01,
       "estimated_distance_miles_from_segments": 4.998939393939394,
       "duration_seconds_from_segments": 2535,
       "actual_ref": "../history/cardio-log.md#2026-11-14--hybrid-v11-w3-saturday-longer-intervals",
@@ -576,8 +576,28 @@
         "source": "../history/injury-log.md#2026-11-14--sleep-deprived-and-under-recovered",
         "reason": "Explicit current-day sleep deprivation and under-recovery override the ordinary good-recovery default. This is not a reported poor next-day response to Saturday’s run."
       },
-      "final_rep_rpe": null,
-      "review_note": "Completed 3×6 at 7:13/7:06/7:06, two displayed 2-minute recoveries. All paces pass ≤7:15 tolerance for target7:10, but explicit sleep deprivation/under-recovery excludes progression. No miss, no new award and no poor next-day strike. Total distance/RPE unreported."
+      "final_rep_rpe": 7,
+      "review_note": "Completed3×6 at7:13/7:06/7:06, RPE7/7/7, confirmed5.01mi. All pace and effort limits met; explicit sleep deprivation/under-recovery still excludes progression. No new hit/miss, award or poor next-day strike.",
+      "rep_rpe": [
+        7,
+        7,
+        7
+      ],
+      "measurement_followup": {
+        "reported_on": "2026-11-14",
+        "recorded_at": "2026-11-14T16:46:29-05:00",
+        "decision_id": 492,
+        "report": "distance was 5.01mi. Rpe 7,7,7",
+        "distance_miles": 5.01,
+        "rep_rpe": [
+          7,
+          7,
+          7
+        ],
+        "final_rep_rpe": 7,
+        "source": "../history/cardio-log.md#2026-11-14--saturday-distance-and-effort-confirmed",
+        "scope": "Confirms completed distance and all three work-rep RPEs. Does not revise the same-day poor-recovery report or provide a new recovery update."
+      }
     }
   },
   "planned_start_date": "2026-10-26",
@@ -676,17 +696,17 @@
       "completed_sessions": 6,
       "known_lifting_sets": 65,
       "known_running_work_minutes": 30,
-      "confirmed_running_miles": 4.43,
+      "confirmed_running_miles": 9.44,
       "known_cycling_minutes": 20.416666666666668,
       "manageable": null,
       "status": "week-in-progress-recovery-review-needed",
-      "decision_id": 491,
+      "decision_id": 492,
       "source": "../history/cardio-log.md#2026-11-14--hybrid-v11-w3-saturday-longer-intervals",
-      "note": "Monday through Saturday completed:65lifting sets,30runwork minutes,4.43confirmed miles plus approximately5.00unconfirmed Saturday miles,20:25cycling and20:00rowing. Saturday poor readiness is reported; Sunday is provisional rest, not a completed/skipped session. W3 manageable review and StageD advancement remain unresolved.",
+      "note": "Monday through Saturday completed:65lifting sets,30runwork minutes,9.44confirmed running miles,20:25cycling and20:00rowing. Saturday poor readiness remains reported; Sunday is provisional rest, not a completed/skipped session. W3 manageability and StageD advancement remain unresolved.",
       "known_cycling_seconds": 1225,
       "known_rowing_minutes": 20,
       "known_rowing_seconds": 1200,
-      "estimated_unconfirmed_running_miles": 4.998939393939394
+      "estimated_unconfirmed_running_miles": 0
     }
   },
   "program_amendments": [
@@ -784,8 +804,8 @@
     "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping.",
     "last_generation_trigger": "completed-session-log-with-recovery-exception",
     "last_generation_decision_id": 491,
-    "last_review_decision_id": 491,
-    "last_review_reason": "Saturday completed under poor readiness; generate provisional Sunday rest while holding the planned17-set leg increase. Review readiness before resuming training."
+    "last_review_decision_id": 492,
+    "last_review_reason": "Confirmed Saturday5.01mi and RPE7/7/7; reconcile mileage once. Keep Sundayrest#491 and poor-recovery adjustment unchanged."
   },
   "session_freeze_history": [
     {

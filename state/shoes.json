@@ -78,8 +78,8 @@
     "Evo SL": {
       "first_use_on": "2026-11-03",
       "purchased_on": null,
-      "tracked_miles": 13.78,
-      "total_basis": "Confirmed first use November 3 (4.25 mi), November 7 (5.10 mi), and November 10 (4.43 mi): 13.78 tracked miles. November 10 shoe attribution uses the standing sole-current-pair report.",
+      "tracked_miles": 18.79,
+      "total_basis": "Confirmed first use November3(4.25mi), November7(5.10mi), November10(4.43mi), and November14(5.01mi):18.79tracked miles. Later shoe attribution uses the standing sole-current-pair report.",
       "additions": [
         {
           "id": "hybrid-2026-10-26-w2-tue-2026-11-03",
@@ -102,24 +102,22 @@
           "source": "../history/cardio-log.md#2026-11-10--hybrid-v11-w3-tuesday-intervals",
           "shoe_basis": "Evo SL is the standing sole current pair per November 7 report; athlete separately confirms this run’s 4.43 mi total.",
           "decision_id": 484
-        }
-      ],
-      "unresolved": "November 14 run completed; total distance is unconfirmed. Rounded segments estimate about5.00mi, but tracked total13.78 stays unchanged until confirmation.",
-      "note": "Separate shoe record. Do not transfer mileage or retirement thresholds from the Vomero Plus.",
-      "as_of": "2026-11-14",
-      "pending_additions": [
+        },
         {
           "id": "hybrid-2026-10-26-w3-sat-2026-11-14",
           "date": "2026-11-14",
-          "miles": null,
+          "miles": 5.01,
+          "source": "../history/cardio-log.md#2026-11-14--saturday-distance-and-effort-confirmed",
+          "shoe_basis": "Evo SL remains the standing sole current pair per November7; athlete confirms this run’s5.01mi total.",
+          "decision_id": 492,
           "estimated_miles_from_rounded_segments": 4.998939393939394,
-          "status": "awaiting-confirmed-total-distance",
-          "source": "../history/cardio-log.md#2026-11-14--hybrid-v11-w3-saturday-longer-intervals",
-          "shoe_basis": "Evo SL remains the standing sole current pair per November7 report. No new shoe change reported.",
-          "decision_id": 491,
-          "added_to_tracked_total": false
+          "note": "Confirmed total replaces pending estimate; added once by session ID."
         }
-      ]
+      ],
+      "unresolved": "No additional mileage reported.",
+      "note": "Separate shoe record. Do not transfer mileage or retirement thresholds from the Vomero Plus.",
+      "as_of": "2026-11-14",
+      "pending_additions": []
     }
   },
   "note": "Evo SL is the sole current running pair per November 7 report. Track confirmed sessions once by ID; retain the inactive Vomero ledger, range and historical condition review without transferring miles.",

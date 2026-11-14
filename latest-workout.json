@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T15:51:42-05:00",
+  "generatedAt": "2026-11-14T16:46:29-05:00",
   "blockId": "hybrid-2026-10-26",
   "prescriptionId": "hybrid-2026-10-26-sun-recovery-491",
   "preview": true,
@@ -20,8 +20,8 @@
   "adaptation": [
     {
       "exercise": "Saturday completed",
-      "previous": "3×6 minutes at 7:13/7:06/7:06 per mile, with two 2-minute recoveries. Average HR168. You report very poor sleep and under-recovery.",
-      "decision": "Record the completed run as no-count for progression. All three paces met the target tolerance.",
+      "previous": "3×6 minutes at 7:13/7:06/7:06 per mile, RPE 7/7/7, with two 2-minute recoveries; confirmed 5.01 mi and average HR 168. You report very poor sleep and under-recovery.",
+      "decision": "Record the completed run as no-count for progression. All three paces and the final effort met their limits.",
       "reason": "Poor recovery overrides pace-based credit. Keep normal7:10/mi and18work minutes; no new hit, miss, faster target or added duration. The previously used November7 award stays used."
     },
     {
@@ -38,9 +38,9 @@
     },
     {
       "exercise": "Distance and shoes",
-      "previous": "Rounded Saturday segments estimate about5.00mi; the exact summary total and final effort are unreported.",
-      "decision": "Keep Evo SL at13.78confirmed tracked miles pending the total.",
-      "reason": "Do not treat rounded segment distances as the confirmed run total or add planned distance to shoes."
+      "previous": "You confirmed Saturday’s 5.01 mi total and RPE 7/7/7. Prior Evo SL tracked total: 13.78 mi.",
+      "decision": "Add the run once: Evo SL 18.79 tracked miles; W3 running total 9.44 mi.",
+      "reason": "Use the confirmed total; keep rounded segment distances separately. Meeting the effort cap does not override the reported poor recovery."
     }
   ],
   "currentLoads": [
