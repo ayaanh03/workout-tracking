@@ -241,3 +241,11 @@ Athlete reports **recovery score 2 versus usual 6–8, with only HR off**, then 
 Review and supersede #491’s provisional Sunday rest with the normal **17-set Stage C leg workout for this evening** under existing local limits. The program has no wearable-score cutoff; one low score and Saturday’s isolated poor-sleep report do not establish persistent global fatigue. The athlete’s latest readiness judgment authorizes normal planning, with reduction/omission if unusual fatigue or symptoms recur. No fixed recovery timetable or automatic stage rollback applies.
 
 Archive the prior acute planning hold with this review. Preserve Saturday’s poor-readiness actual and **no-count** run classification, all consumed credit and normal run doses. Bodyweight-only/max-two-set/minimum-3-RIR abs and other local restrictions persist. Sunday remains unperformed and W3 manageability awaits completed work and tolerance review. Decision #493.
+
+## 2026-11-15 — Sunday completed; recovery review pending
+
+Sunday’s full **17sets** are completed within rep/effort limits, including BWdecline15/15 atRIR5/4 and leg-press calves380×12/12/10/10 atRIR3. Store these new exposures separately from symptom evidence. No new fatigue resolution, during/after ab/Achilles response or next-morning recovery was supplied with the log. Preserve the earlier low-score/unspecified-HR report and evening-training expectation without converting either into observed recovery or a diagnosis.
+
+Ask once whether unusual fatigue settled and the Achilles/original ab site stayed comfortable. This is targeted follow-up after the recent adverse-recovery report and heavier calf work. It does not block logging or normal Monday generation. Keep BW/max2sets/≥3RIR and all other local restrictions; no added ab weight or new local clearance.
+
+W3 actual work is complete; its manageable-week review remains pending this clarification. Generate Monday’s normal18-setStageC preview using the standing recovery assumption for ordinary planning, with no heavy single or final0–1 work until D eligibility is resolved. No new global-fatigue flag, mandatory extra StageC week, fixed recovery wait, return protocol or change to Saturday’s no-count result. Decision#494.

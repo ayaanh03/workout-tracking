@@ -1,72 +1,61 @@
 {
-  "generatedAt": "2026-11-15T12:10:07-05:00",
+  "generatedAt": "2026-11-15T18:41:00-05:00",
   "blockId": "hybrid-2026-10-26",
-  "preview": false,
-  "week": "W3",
-  "phase": "Hybrid v11 — Stage C",
-  "rangeStart": "2026-11-09",
-  "rangeEnd": "2026-11-15",
-  "summary": "W3, November 9–15: Monday through Saturday completed—65 lifting sets, 30 run work minutes, 9.44 confirmed running miles, 20:25 cycling and 20:00 rowing. Sunday is the usual 17-set Stage C leg session, planned for this evening. Week tolerance remains open until the remaining work and recovery are reviewed.",
+  "preview": true,
+  "week": "W4",
+  "phase": "Hybrid v11 — Stage C; week review pending",
+  "rangeStart": "2026-11-16",
+  "rangeEnd": "2026-11-22",
+  "summary": "W4 preview, November 16–22. Monday has a prepared 18-set Upper A workout at Stage C effort while the targeted recovery review is pending. W3 is complete: 82 lifting sets, 30 run work minutes, 9.44 confirmed running miles, 20:25 cycling and 20:00 rowing. Friday lifting and Saturday running remain the standing schedule. Later exact prescriptions will use the latest logs and readiness.",
   "days": [
     {
-      "date": "2026-11-09",
+      "date": "2026-11-16",
       "day": "Mon",
-      "session": "Upper A",
-      "note": "18 sets logged: bench 145×6 + 135×8/8; curl 22.5×11/10; laterals 35×12/12/12/12; pushdown 50×12/12/11; pulldown 160×8/8; BW abs 15/15; row 70×8/8. All rep and effort targets met; full per-set RIR appears in history.",
-      "status": "done"
+      "session": "Upper A — preview",
+      "status": "upcoming",
+      "note": "18 sets: incline 145 lb top + 135 lb back-offs; curl 22.5; laterals 35; pushdown 50; pulldown 160; BW abs; row 70. Stage C effort; W4 single and Stage D pending targeted review."
     },
     {
-      "date": "2026-11-10",
+      "date": "2026-11-17",
       "day": "Tue",
       "session": "Intervals",
-      "note": "Completed 3×4 at 6:44/6:35/6:31 per mile, RPE 7/8/8, with two displayed 3-minute recoveries. Confirmed 4.43 mi in the sole-current Evo SL pair. First hit at 6:40; next Tuesday holds 3×4 at 6:40.",
-      "status": "done"
+      "status": "upcoming",
+      "note": "Current independent reference: 3×4 min at 6:40/mi, final RPE ≤8. November 10 earned the first hit; no new speed award. Exact brief and Watch file on generation."
     },
     {
-      "date": "2026-11-11",
+      "date": "2026-11-18",
       "day": "Wed",
       "session": "Delts/arms A + bike",
-      "note": "14 sets logged: laterals 35×12/12/12/12; preacher 90×8 RIR 1 then 75×9 RIR 3; reverse pec deck 145×15/15; hammer 50×15/15; calves 365×12/12/12/12. Bike 20:25 at 130 W average, HR 145, Zone 2 18:01. Keep preacher working load 75 lb; full set RIR in history. Follow-up: elbows comfortable during and afterward.",
-      "status": "done"
+      "status": "upcoming",
+      "note": "Current Stage C allocation pending latest review; bike 20 min after lifting. Wednesday calves remain independent at 365 lb; Sunday’s 380 lb does not transfer."
     },
     {
-      "date": "2026-11-12",
+      "date": "2026-11-19",
       "day": "Thu",
       "session": "Upper B",
-      "note": "20 sets logged, all RIR 3: incline135×8/8/8; preacher75×8/8 per arm; laterals35×12/12/12/12; pull-upsBW×10/10; pushdown50×10/10/10; row120×9/10; BWabs15/12; straight-arm pulldown50×10/10. First independent T2preacher exposure; no fresh symptom response supplied.",
-      "status": "done"
+      "status": "upcoming",
+      "note": "Current 20-set effective allocation; standard cable curls remain replaced by unilateral machine preacher. BW abs capped at 2 sets."
     },
     {
-      "date": "2026-11-13",
+      "date": "2026-11-20",
       "day": "Fri",
-      "session": "Delts/arms B + rowing",
-      "note": "13 sets logged: laterals 35×12/12/12/13; incline curl 27.5×8/8; pushdown 50×10/10/10; reverse pec deck 145×15/15; reverse/wrist curls 27.5×15 each. Full RIR in history. Rowed 20 minutes at average 2:27.3 instead of bike; pace unit and effort unconfirmed.",
-      "status": "done"
+      "session": "Delts/arms B + bike",
+      "status": "upcoming",
+      "note": "Current 13-set allocation including one set per forearm; bike 20 min after lifting. Prior rowing was a logged substitution, not a permanent replacement."
     },
     {
-      "date": "2026-11-14",
+      "date": "2026-11-21",
       "day": "Sat",
       "session": "Longer intervals",
-      "note": "Completed 3×6 at 7:13/7:06/7:06, RPE 7/7/7, with two 2-minute recoveries; confirmed 5.01 mi in Evo SL, average HR 168. Pace and effort limits met; no-count because of reported sleep deprivation and under-recovery.",
-      "status": "done"
+      "status": "upcoming",
+      "note": "Current reference: 3×6 min at 7:10/mi, final RPE ≤7. November 14 remains no-count. No faster pace, added minutes or early test selected; exact brief on generation."
     },
     {
-      "date": "2026-11-15",
+      "date": "2026-11-22",
       "day": "Sun",
       "session": "Legs, bodyweight abs + calves",
-      "note": "Evening plan: 17 Stage C sets. BW decline 2×10–15 (≥3 RIR); calves 365 lb 4×10–15; hack squat 95 lb 3×6–10; seated curl 100 lb 3×8–12; extension 100 lb 3×10–15; back extension 25 lb 2×8–12. Other work at 2–3 RIR. Athlete expects normal training; provisional rest superseded, not a completed session.",
-      "status": "today"
+      "status": "upcoming",
+      "note": "Current 17-set effective allocation; retain latest Sunday working references subject to symptoms and review. Hack 135 lb is a starting calibration, not a validated full three-set dose."
     }
-  ],
-  "runningMileageCheck": {
-    "decisionId": 492,
-    "kind": "completed-runs-confirmed",
-    "recordedMiles": 9.44,
-    "estimatedUnconfirmedMiles": 0,
-    "estimatedMiles": 9.44,
-    "upperMiles": 9.44,
-    "limitMiles": 15,
-    "status": "confirmed-below-limit",
-    "assumptions": "Confirmed Tuesday 4.43 mi plus Saturday 5.01 mi = 9.44 mi. No more running prescribed this week; rowing excluded. Saturday added once to Evo SL, now 18.79 tracked miles."
-  }
+  ]
 }

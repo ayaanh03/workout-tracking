@@ -292,3 +292,22 @@ All 13 sets are reported and meet rep/effort limits, with extra reserve on S1’
 Fourth lateral/third pushdown sets and the full two-set reverse pec deck dose completed. The current S4 two-set log does not resolve November6’s unreported second set. Raw exposures: S1/S2/S4 become3; S3/S5/S6 become2. No ordinary loading/qualification/plateau credit or stage advance.
 
 **20 minutes rowing**, average **2:27.3** as reported, replaces the prescribed bike. Pace denominator, numeric effort, distance and symptoms are unreported at logging; clarification asked once. Do not label rowing a bike actual or add running/shoe mileage. Ordinary recovery uses the standing default. Decision #489.
+
+## 2026-11-15 — Hybrid v11 W3 Sunday Legs
+
+Session `hybrid-2026-10-26-w3-sun-2026-11-15`, original prescription `hybrid-2026-10-26-sun-legs-493`, **Stage C**, **17 working sets**. Preserve the normal Sunday evening prescription issued after the readiness review separately from these actuals.
+
+| Slot | Exercise | Original prescription | Actual sets: load × reps, RIR |
+|---|---|---|---|
+| L1 | Decline crunch — bodyweight | 2×10–15 · BW · RIR ≥3 · rest 2 min | BW×15, RIR 5 / BW×15, RIR 4 |
+| L2 | Leg-press calf raise | 4×10–15 · 365 lb · RIR 2–3 · rest 2 min | 380×12, RIR 3 / 380×12, RIR 3 / 380×10, RIR 3 / 380×10, RIR 3 |
+| L3 | Hack squat | 3×6–10 · 95 lb · RIR 2–3 · rest 2–3 min | 95×6, RIR 3 / 115×6, RIR 3 / 135×6, RIR 2 |
+| L4 | Seated leg curl | 3×8–12 · 100 lb · RIR 2–3 · rest 2 min | 110×8, RIR 3 / 110×8, RIR 3 / 110×8, RIR 2 |
+| L5 | Leg extension | 3×10–15 · 100 lb · RIR 2–3 · rest 2 min | 125×15, RIR 3 / 125×15, RIR 3 / 125×15, RIR 3 |
+| L6 | 45-degree back extension | 2×8–12 · 25 lb · RIR 2–3 · rest 2 min | 25×12, RIR 3 / 25×12, RIR 3 |
+
+All 17 reported sets meet their rep ranges and effort limits, with extra reserve on bodyweight abs. Preserve the heavier actual loads rather than rewriting the original prescription: **calves 380**, **seated curl 110** and **leg extension 125 lb** each demonstrate the full current set dose. Retain those working references with no further automatic increase or Stage-C progression award. Wednesday calves remain an independent 365 lb slot.
+
+Hack squat's **95/115/135 lb** sequence comprises three reported working sets. Retain **135 lb as a demonstrated single-set reference**, not a validated three-set load. At the next eligible exposure, 135 lb is a starting calibration for 3×6–10 at 2–3 RIR; reduce if later sets cannot meet the rep floor and effort target. Do not relabel the earlier sets as warmups or claim 3×135 was completed.
+
+Hold back extension at25 lb. Bodyweight decline15/15 at RIR5/4 does not clear the ab-loading restriction; keep BW/max2 sets/minimum3 RIR until its separate review. No fresh ab/Achilles response, equipment change or observed next-day recovery is supplied. Each Sunday slot (L1 temporary substitute and L2–L6) gains its fourth raw exposure once; Stage-C work earns no ordinary loading/qualification/plateau credit. Decision #494.

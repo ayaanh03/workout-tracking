@@ -811,3 +811,28 @@ Resolve only the Saturday measurement question and pending shoe addition. Evo SL
 Archive the acute rest hold as reviewed/superseded and update prospective running action to hold its saved normal7:10/mi,18-minute,3×6 dose for the next eligible generation. Saturday’s actuals, no-count classification, zero counters and consumed November7 source remain unchanged; no new hard run or pace/duration award. Tuesday is independent and unchanged. No global fatigue/return protocol starts or clears. Preserve all local injury limits, lift actuals, exposure counts, shoe mileage and completed-session totals.
 
 W3 stays **six completed sessions,65 lifting sets,30 run work minutes,9.44 confirmed miles,20:25 cycling and20:00 rowing** until Sunday is logged. Stage C remains achieved, last-tolerated B and W3 manageable status remain unchanged; this request cannot advance to D. Update current-day block/recovery planning, daily and week caches together, show November8 same-slot actuals alongside logging, and publish.
+
+## 2026-11-15 — log Sunday; close W3 actuals and preview Monday
+
+494. Log `hybrid-2026-10-26-w3-sun-2026-11-15` against `hybrid-2026-10-26-sun-legs-493`: **17StageC sets**. Preserve all actuals: BW15/15RIR5/4; calves380×12/12/10/10RIR3; hack95×6RIR3,115×6RIR3,135×6RIR2; seatedcurl110×8/8/8RIR3/3/2; extension125×15/15/15RIR3; back25×12/12RIR3. All ranges/effort limits met. Original prescribed calves365, hack95, curl100, extension100 and back25 remain historical.
+
+Retain demonstrated full-dose references **calves380, curl110, extension125**, without another increase or ordinary ramp credit. **Hack135 is one demonstrated work set**, not three validated sets: use135starting for the next same-slot calibration at6–10 and prescribed reserve, reducing if later sets cannot meet the floor/effort. Preserve the full95/115/135actual sequence. Hold back25 and BWabs. Raw exposures increment once to4 for L1substitute/L2–L6; no qualification, ordinary comparable anchor or plateau credit. Wednesday calves and all other slots remain independent.
+
+W3actuals now total **7sessions,82lifting sets,30runwork minutes,9.44confirmed miles,20:25cycling and20:00rowing**. Review [ramp eligibility](../program/ramp-and-return.md) against the recent fatigue report: performance is complete and supports normal planning, but the earlier readiness update was prospective and the targeted post-session fatigue/ab/Achilles question remains unanswered. Keep manageability pending, achievedC, last-toleratedB and latestmanageableW2. This is not a failed week, fixed extra week, automatic global-fatigue response or new ordinary-recovery questionnaire. A response can resolve the review promptly. Local ab/Achilles limits remain; no symptom clearance is inferred.
+
+Generate **MondayNovember16 — UpperA, preview**, `hybrid-2026-10-26-mon-upper-a-494`, **18sets**:
+
+| Slot | Exercise | Load | Sets × reps | RIR | Rest |
+|---|---|---|---|---|---|
+| M1a | Incline barbell bench — top set | 145lb | 1×4–6 | 2–3 | 3–4min |
+| M1b | Incline barbell bench — back-offs | 135lb | 2×6–8 | 2–3 | 3–4min |
+| M2 | Incline DB curl | 22.5lb | 2×8–12 | 2–3 | 2min |
+| M3 | DB lateral raise | 35lb | 4×12–20 | 2–3 | 2min |
+| M4 | Cable pushdown | 50lb | 3×10–15 | 2–3 | 2min |
+| M5 | Lat pulldown | 160lb | 2×8–12 | 2–3 | 2–3min |
+| M6 | Decline crunch — bodyweight | BW | 2×10–15 | ≥3 | 2min |
+| M7 | Chest-supported row | 70lb | 2×8–12 | 2–3 | 2–3min |
+
+Same-slotNov9actuals: incline145×6+135×8/8RIR3; curl22.5×11/10RIR3; laterals35×12/12/12/12RIR3/3/3/2; push50×12/12/11RIR3/2/2; lat160×8/8RIR3; BW15/15RIR5/3; row70×8/8RIR3. These support the held loads; StageC rep ceilings do not earn ordinary load awards. Friday’s27.5curl does not transfer into Monday’s independent slot. No near-failure work or W4heavy single in this preview because normalD eligibility is pending. Preserve its opportunity for review before training rather than declaring a make-up date.
+
+Live calendar remains SundayNov15/W3; next workout/week caches honestly show futureMondayNov16/W4 and upcoming days. Save Sunday in lifting history; no future completion, new run award, shoe mileage or bike dose change. Publish state, actuals and caches together.

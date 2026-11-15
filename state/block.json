@@ -56,7 +56,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 493,
+  "last_adjustment_id": 494,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -598,6 +598,21 @@
         "source": "../history/cardio-log.md#2026-11-14--saturday-distance-and-effort-confirmed",
         "scope": "Confirms completed distance and all three work-rep RPEs. Does not revise the same-day poor-recovery report or provide a new recovery update."
       }
+    },
+    "2026-11-15": {
+      "calendar_week": "W3",
+      "session": "Legs, bodyweight abs + calves",
+      "session_id": "hybrid-2026-10-26-w3-sun-2026-11-15",
+      "status": "completed",
+      "stage": "C",
+      "working_sets": 17,
+      "reported_working_sets": 17,
+      "prescribed_working_sets": 17,
+      "unresolved_slots": [],
+      "actual_ref": "../history/lifting-log.md#2026-11-15--hybrid-v11-w3-sunday-legs",
+      "prescription_id": "hybrid-2026-10-26-sun-legs-493",
+      "recovery_status": "performance-complete-targeted-tolerance-review-pending",
+      "review_note": "All17sets meet ranges and reserve. Calves380, curls110 and extensions125 demonstrate their full doses; hack95/115/135 are three distinct reported work sets, with only one135set demonstrated. No ordinary Stage-C credit or symptom clearance."
     }
   },
   "planned_start_date": "2026-10-26",
@@ -692,17 +707,17 @@
       "range_start": "2026-11-09",
       "range_end": "2026-11-15",
       "stage": "C",
-      "completion": "in-progress",
-      "completed_sessions": 6,
-      "known_lifting_sets": 65,
+      "completion": "completed",
+      "completed_sessions": 7,
+      "known_lifting_sets": 82,
       "known_running_work_minutes": 30,
       "confirmed_running_miles": 9.44,
       "known_cycling_minutes": 20.416666666666668,
       "manageable": null,
-      "status": "week-in-progress-recovery-review-needed",
-      "decision_id": 493,
-      "source": "../history/cardio-log.md#2026-11-14--hybrid-v11-w3-saturday-longer-intervals",
-      "note": "Monday through Saturday completed: 65 lifting sets, 30 run work minutes, 9.44 confirmed running miles, 20:25 cycling and 20:00 rowing. Sunday normal 17-set Stage C legs is prescribed for this evening after the athlete readiness update, not performed. Preserve Saturday poor readiness and Sunday low-score report; W3 manageability and Stage D advancement remain unresolved pending actual completion and tolerance review.",
+      "status": "completed-pending-targeted-recovery-review",
+      "decision_id": 494,
+      "source": "../history/weekly-summary.md#2026-11-15--w3-outcomes-stage-review-pending",
+      "note": "All seven sessions reported:82lifting sets,30run work minutes,9.44confirmed miles,20:25cycling and20:00rowing. Sunday full17sets met ranges/effort despite heavier actual loads. Recent sleep deprivation and low-score context were reviewed only prospectively before training; targeted post-session fatigue/Achilles/ab follow-up remains pending. Keep achieved C, last-tolerated B and W2 latest manageable until this review is resolved. No mandatory extra C week or fixed recovery wait.",
       "known_cycling_seconds": 1225,
       "known_rowing_minutes": 20,
       "known_rowing_seconds": 1200,
@@ -718,6 +733,20 @@
         "scope": "Prospective workout planning. Sleep duration, the specific HR metric/value, objective normalization and session-specific symptoms remain unreported. This does not certify recovery, complete Sunday or establish W3 manageability.",
         "prescription_id": "hybrid-2026-10-26-sun-legs-493",
         "previous_run_classification_unchanged": true
+      },
+      "performance_review": {
+        "date": "2026-11-15",
+        "decision_id": 494,
+        "full_lifting_dose_completed": true,
+        "lifting_sets_by_day": {
+          "Mon": 18,
+          "Wed": 14,
+          "Thu": 20,
+          "Fri": 13,
+          "Sun": 17
+        },
+        "source": "../history/lifting-log.md#2026-11-15--hybrid-v11-w3-sunday-legs",
+        "ongoing_global_fatigue_established": false
       }
     }
   },
@@ -810,14 +839,14 @@
     "publish_next_workout": true,
     "default_recovery": "assumed-good-unless-reported-otherwise",
     "source": "../program/readiness.md",
-    "last_generated_date": "2026-11-15",
-    "last_generated_prescription_id": "hybrid-2026-10-26-sun-legs-493",
-    "last_generated_from_session_id": "hybrid-2026-10-26-w3-sat-2026-11-14",
+    "last_generated_date": "2026-11-16",
+    "last_generated_prescription_id": "hybrid-2026-10-26-mon-upper-a-494",
+    "last_generated_from_session_id": "hybrid-2026-10-26-w3-sun-2026-11-15",
     "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping.",
-    "last_generation_trigger": "current-day-evening-workout-request-after-readiness-review",
-    "last_generation_decision_id": 493,
-    "last_review_decision_id": 493,
-    "last_review_reason": "Athlete requests normal Sunday evening training. Supersede provisional rest with 17 Stage C sets; no new actuals, recovery measurements, run credit or stage advancement."
+    "last_generation_trigger": "completed-session-log",
+    "last_generation_decision_id": 494,
+    "last_review_decision_id": 494,
+    "last_review_reason": "Sunday17sets logged; W3complete82sets. Generate normal18-setMondayStageCpreview while targeted recovery review for D/heavy-single eligibility is pending."
   },
   "session_freeze_history": [
     {
@@ -1033,14 +1062,14 @@
     "compatibility_review": "Friday delts/arms B has no direct leg/calf work before Saturday running, and its triceps are not the day before incline. Running remains separate from lifting/bike. Sunday legs and Monday/Thursday incline remain in place."
   },
   "next_session_adjustment": {
-    "date": "2026-11-15",
-    "decision_id": 493,
-    "status": "normal-session-prescribed-not-performed",
-    "original_session": "Legs, bodyweight abs + calves",
-    "effective_session": "Legs, bodyweight abs + calves",
-    "prescription_id": "hybrid-2026-10-26-sun-legs-493",
-    "source": "../history/injury-log.md#2026-11-15--evening-training-readiness-review",
-    "reason": "Athlete expects normal evening training and requests the usual workout. Replace provisional rest with 17 effective Stage C sets; retain established loads, local limits and the pending completed-week review."
+    "date": "2026-11-16",
+    "decision_id": 494,
+    "status": "stage-c-preview-pending-week-review",
+    "original_session": "Upper A",
+    "effective_session": "Upper A",
+    "prescription_id": "hybrid-2026-10-26-mon-upper-a-494",
+    "source": "../history/weekly-summary.md#2026-11-15--w3-outcomes-stage-review-pending",
+    "reason": "Normal18-setdose with established loads and StageC effort. Week-completion is confirmed; D eligibility awaits the targeted review of recent adverse recovery, not a routine recovery measurement. An answer before Monday may revise this preview."
   },
   "next_session_adjustment_history": [
     {
@@ -1054,6 +1083,17 @@
       "reason": "Latest explicit report is very sleep deprived and under-recovered. No programmed lifting or cardio until readiness is reviewed; current stage and recurring schedule remain intact.",
       "superseded_on": "2026-11-15",
       "superseded_by_decision_id": 493
+    },
+    {
+      "date": "2026-11-15",
+      "decision_id": 493,
+      "status": "performed-and-logged",
+      "original_session": "Legs, bodyweight abs + calves",
+      "effective_session": "Legs, bodyweight abs + calves",
+      "prescription_id": "hybrid-2026-10-26-sun-legs-493",
+      "source": "../history/injury-log.md#2026-11-15--evening-training-readiness-review",
+      "reason": "Athlete expects normal evening training and requests the usual workout. Replace provisional rest with 17 effective Stage C sets; retain established loads, local limits and the pending completed-week review.",
+      "logged_by_decision_id": 494
     }
   ]
 }

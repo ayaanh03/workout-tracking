@@ -44,21 +44,21 @@
       "response_status": "latest-bodyweight-exposure-response-unreported",
       "progression_limit": "No added weight, extra sets or baseline cable/hanging-raise restoration while original-site symptoms remain. Bodyweight work is permitted only if comfortable; stop or reduce aggravating work rather than continuing until the sensation fades. Reconsider a small loaded trial after a BW exposure is comfortable during/after and the next morning, with a fresh loading review.",
       "last_exposure": {
-        "date": "2026-11-12",
-        "session_id": "hybrid-2026-10-26-w3-thu-2026-11-12",
-        "slot": "T7 temporary substitute",
+        "date": "2026-11-15",
+        "session_id": "hybrid-2026-10-26-w3-sun-2026-11-15",
+        "slot": "L1 temporary substitute",
         "exercise": "Decline crunch — bodyweight",
-        "source": "../history/lifting-log.md#2026-11-12--hybrid-v11-w3-thursday-upper-b",
+        "source": "../history/lifting-log.md#2026-11-15--hybrid-v11-w3-sunday-legs",
         "load": "BW",
         "external_load_lb": 0,
         "sets": 2,
         "reps": [
           15,
-          12
+          15
         ],
         "rir": [
-          3,
-          3
+          5,
+          4
         ],
         "symptom_response": null,
         "next_morning_response": null
@@ -232,6 +232,26 @@
           ],
           "symptom_response": null,
           "next_morning_response": null
+        },
+        {
+          "date": "2026-11-12",
+          "session_id": "hybrid-2026-10-26-w3-thu-2026-11-12",
+          "slot": "T7 temporary substitute",
+          "exercise": "Decline crunch — bodyweight",
+          "source": "../history/lifting-log.md#2026-11-12--hybrid-v11-w3-thursday-upper-b",
+          "load": "BW",
+          "external_load_lb": 0,
+          "sets": 2,
+          "reps": [
+            15,
+            12
+          ],
+          "rir": [
+            3,
+            3
+          ],
+          "symptom_response": null,
+          "next_morning_response": null
         }
       ]
     },
@@ -262,19 +282,26 @@
         "scope": "Retrospective W1 recovery review covering all October 26–November 1 sessions, including Friday; also current Monday recovery after Sunday. No numeric metrics or backdated daily report supplied."
       },
       "last_exposure": {
-        "date": "2026-11-01",
+        "date": "2026-11-15",
+        "session_id": "hybrid-2026-10-26-w3-sun-2026-11-15",
         "slot": "L2",
-        "load_lb": 365,
+        "load_lb": 380,
         "reps": [
           12,
-          15
+          12,
+          10,
+          10
         ],
         "rir": [
           3,
+          3,
+          3,
           3
         ],
-        "source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
-        "symptom_response": "Achilles was fine during and after Sunday’s session."
+        "source": "../history/lifting-log.md#2026-11-15--hybrid-v11-w3-sunday-legs",
+        "symptom_response": null,
+        "next_morning_response": null,
+        "note": "Allfoursets completed at380lb versus365prescribed; specific Achilles response pending."
       },
       "latest_followup": {
         "reported_on": "2026-11-01",
@@ -308,7 +335,24 @@
         "athlete_report": "The vomero does stress out the left Achilles sometimes which the evos don’t. They also move around in my feet and the outsoles are going bald. Otherwise they still feel adequately comfy",
         "scope": "Intermittent athlete-reported shoe association; exact episode dates/diagnosis unknown. Current symptoms quiet.",
         "recommendation": "Retire Vomero Plus from running; recommendation given, retirement not confirmed."
-      }
+      },
+      "exposure_history": [
+        {
+          "date": "2026-11-01",
+          "slot": "L2",
+          "load_lb": 365,
+          "reps": [
+            12,
+            15
+          ],
+          "rir": [
+            3,
+            3
+          ],
+          "source": "../history/lifting-log.md#2026-11-01--hybrid-v11-w1-sunday-legs",
+          "symptom_response": "Achilles was fine during and after Sunday’s session."
+        }
+      ]
     },
     {
       "id": "overhead-triceps-tendon-stress",
@@ -714,10 +758,21 @@
       "id": "ab-loading-review",
       "reported_on": "2026-10-24",
       "status": "awaiting-next-morning-response-and-review",
-      "blocks": "November 12 BW decline crunch 15/12 at RIR 3 is recorded. Specific symptom response and fresh loading review remain unreported; keep BW only, maximum two sets and minimum 3 RIR.",
+      "blocks": "November 15 BW decline crunch 15/15 at RIR 5/4 is recorded. Specific symptom response, next-morning response and a fresh loading review remain unreported; keep BW only, maximum two sets and minimum 3 RIR.",
       "review_requested_on": "2026-11-01",
-      "decision_id": 487,
-      "reviewed_on": "2026-11-12"
+      "decision_id": 494,
+      "reviewed_on": "2026-11-15"
+    },
+    {
+      "id": "w3-stage-c-manageability-review",
+      "status": "awaiting-targeted-recovery-review",
+      "decision_id": 494,
+      "opened_on": "2026-11-15",
+      "week": "W3",
+      "completed_sessions": 7,
+      "source": "../history/weekly-summary.md#2026-11-15--w3-outcomes-stage-review-pending",
+      "reason": "Full StageC work is now complete; review the recently reported unusual fatigue before authorizing harder effort or Monday’s single. Score alone is not a rest threshold.",
+      "action": "Continue normal StageC preview; no fixed waiting period or required additional week. Resolve promptly if a follow-up supports manageable-week tolerance."
     }
   ],
   "global_fatigue": null,
@@ -758,52 +813,27 @@
     }
   ],
   "post_session": {
-    "date": "2026-11-14",
-    "session_id": "hybrid-2026-10-26-w3-sat-2026-11-14",
+    "date": "2026-11-15",
+    "session_id": "hybrid-2026-10-26-w3-sun-2026-11-15",
     "completion": "reported",
+    "decision_id": 494,
+    "status": "completed-targeted-tolerance-review-pending",
+    "working_sets": 17,
     "elbow_response": null,
     "lower_ab_response": null,
     "achilles_response": null,
     "next_day_recovery": null,
-    "current_day_recovery": {
-      "reported_on": "2026-11-14",
-      "reported_at": "2026-11-14T15:51:42-05:00",
-      "report": "Very sleep deprived today and under recovered",
-      "status": "poor",
-      "provenance": "athlete current-day recovery report",
-      "decision_id": 491,
-      "scope": "Current Saturday sleep deprivation and under-recovery reported with the completed run. Exact sleep duration, cause beyond the report, next-morning recovery and specific elbow/ab/Achilles response are unreported.",
-      "numeric_metrics": null,
-      "source": "../history/injury-log.md#2026-11-14--sleep-deprived-and-under-recovered"
-    },
-    "status": "completed-with-reported-poor-current-recovery",
-    "decision_id": 491,
     "recovery_decision": {
-      "status": "reported-poor",
-      "decision_id": 491,
-      "recorded_at": "2026-11-14T15:51:42-05:00",
-      "reported_on": "2026-11-14",
-      "observed": true,
-      "observation_type": "athlete-self-report",
-      "source": "../history/injury-log.md#2026-11-14--sleep-deprived-and-under-recovered",
-      "reason": "Explicit current-day sleep deprivation and under-recovery override the ordinary good-recovery default. This is not a reported poor next-day response to Saturday’s run."
+      "status": "assumed-good-for-normal-session-stage-review-pending",
+      "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+      "decision_id": 494,
+      "recorded_at": "2026-11-15T18:41:00-05:00",
+      "for_date": "2026-11-16",
+      "observed": false,
+      "reason": "The athlete requested normal Sunday evening training and completed the full dose at the intended reserve. Use the standing assumption for Monday normal-volume planning. The recent reported sleep deprivation and low-score context still need the targeted tolerance review before Stage D or heavy-single eligibility is established.",
+      "scope": "Planning assumption only; no normalized HR, observed next-day recovery or new injury clearance."
     },
-    "note": "All three 6-minute reps completed within pace tolerance. Classify no-count because of explicit poor current recovery; do not infer a next-day poor-recovery strike, persistent fatigue or a failed pace target.",
-    "measurement_followup": {
-      "reported_on": "2026-11-14",
-      "recorded_at": "2026-11-14T16:46:29-05:00",
-      "decision_id": 492,
-      "report": "distance was 5.01mi. Rpe 7,7,7",
-      "distance_miles": 5.01,
-      "rep_rpe": [
-        7,
-        7,
-        7
-      ],
-      "final_rep_rpe": 7,
-      "source": "../history/cardio-log.md#2026-11-14--saturday-distance-and-effort-confirmed",
-      "scope": "Confirms completed distance and all three work-rep RPEs. Does not revise the same-day poor-recovery report or provide a new recovery update."
-    }
+    "note": "All17sets meet the prescribed rep/effort limits. No fresh fatigue or during/after symptom response supplied; the earlier evening expectation remains a forecast. Targeted review asked once before advancing effort or issuing a W4 single."
   },
   "prior_pending_post_sessions": [
     {
@@ -893,6 +923,54 @@
         "reason": "Standing athlete default supplies ordinary recovery and Saturday readiness. Friday lifting and rowing are reported; no fresh symptom or observed next-day recovery report is inferred."
       },
       "note": "13lifting sets and20minutes rowing reported. S2/S5/S6actual27.5loads met rep/effort targets; targeted elbow response and rowing effort/unit requested, not inferred. Existing local restrictions remain."
+    },
+    {
+      "date": "2026-11-14",
+      "session_id": "hybrid-2026-10-26-w3-sat-2026-11-14",
+      "completion": "reported",
+      "elbow_response": null,
+      "lower_ab_response": null,
+      "achilles_response": null,
+      "next_day_recovery": null,
+      "current_day_recovery": {
+        "reported_on": "2026-11-14",
+        "reported_at": "2026-11-14T15:51:42-05:00",
+        "report": "Very sleep deprived today and under recovered",
+        "status": "poor",
+        "provenance": "athlete current-day recovery report",
+        "decision_id": 491,
+        "scope": "Current Saturday sleep deprivation and under-recovery reported with the completed run. Exact sleep duration, cause beyond the report, next-morning recovery and specific elbow/ab/Achilles response are unreported.",
+        "numeric_metrics": null,
+        "source": "../history/injury-log.md#2026-11-14--sleep-deprived-and-under-recovered"
+      },
+      "status": "completed-with-reported-poor-current-recovery",
+      "decision_id": 491,
+      "recovery_decision": {
+        "status": "reported-poor",
+        "decision_id": 491,
+        "recorded_at": "2026-11-14T15:51:42-05:00",
+        "reported_on": "2026-11-14",
+        "observed": true,
+        "observation_type": "athlete-self-report",
+        "source": "../history/injury-log.md#2026-11-14--sleep-deprived-and-under-recovered",
+        "reason": "Explicit current-day sleep deprivation and under-recovery override the ordinary good-recovery default. This is not a reported poor next-day response to Saturday’s run."
+      },
+      "note": "All three 6-minute reps completed within pace tolerance. Classify no-count because of explicit poor current recovery; do not infer a next-day poor-recovery strike, persistent fatigue or a failed pace target.",
+      "measurement_followup": {
+        "reported_on": "2026-11-14",
+        "recorded_at": "2026-11-14T16:46:29-05:00",
+        "decision_id": 492,
+        "report": "distance was 5.01mi. Rpe 7,7,7",
+        "distance_miles": 5.01,
+        "rep_rpe": [
+          7,
+          7,
+          7
+        ],
+        "final_rep_rpe": 7,
+        "source": "../history/cardio-log.md#2026-11-14--saturday-distance-and-effort-confirmed",
+        "scope": "Confirms completed distance and all three work-rep RPEs. Does not revise the same-day poor-recovery report or provide a new recovery update."
+      }
     }
   ],
   "resolved_post_sessions": [
@@ -1300,16 +1378,14 @@
     "source": "../program/readiness.md"
   },
   "planning_readiness": {
-    "status": "normal-session-planned-per-athlete-evening-readiness-update",
-    "decision_id": 493,
-    "recorded_at": "2026-11-15T12:10:07-05:00",
-    "for_date": "2026-11-15",
-    "for_time": "evening",
+    "status": "assumed-good-for-normal-session-stage-review-pending",
+    "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+    "decision_id": 494,
+    "recorded_at": "2026-11-15T18:41:00-05:00",
+    "for_date": "2026-11-16",
     "observed": false,
-    "report": "I think we can train just fine in the evening today. Push the workout as usual",
-    "source": "../history/injury-log.md#2026-11-15--evening-training-readiness-review",
-    "reason": "Athlete expects to train normally this evening and explicitly requests the usual workout. A low wearable score alone is not a programmed rest threshold; no persistent global-fatigue pattern is established.",
-    "limits": "Keep local ab/Achilles restrictions and normal Stage C effort. Reduce or omit work if unusual fatigue or symptoms recur. W3 tolerance remains subject to completed-session review."
+    "reason": "The athlete requested normal Sunday evening training and completed the full dose at the intended reserve. Use the standing assumption for Monday normal-volume planning. The recent reported sleep deprivation and low-score context still need the targeted tolerance review before Stage D or heavy-single eligibility is established.",
+    "scope": "Planning assumption only; no normalized HR, observed next-day recovery or new injury clearance."
   },
   "general_readiness_history": [
     {
@@ -1394,6 +1470,14 @@
       "status": "elbow-response-unreported",
       "question": "Did your elbows stay comfortable during and after the heavier curls and rowing?",
       "scope": "Targeted response to higher-than-prescribed curl loads and rowing substitution; no routine recovery gate or assumed new injury."
+    },
+    {
+      "session_id": "hybrid-2026-10-26-w3-sun-2026-11-15",
+      "date": "2026-11-15",
+      "decision_id": 494,
+      "status": "targeted-fatigue-achilles-ab-response-unreported",
+      "question": "After tonight’s session, has the unusual fatigue settled, and did your Achilles and original ab-strain site stay comfortable?",
+      "scope": "Recent explicit sleep deprivation/under-recovery and low-score context plus heavier calf exposure. Does not block logging or normal Monday planning; informs W3 manageability/StageD and any later ab-loading review."
     }
   ],
   "resolved_log_details": [
@@ -1447,6 +1531,18 @@
         "source": "../history/injury-log.md#2026-11-14--sleep-deprived-and-under-recovered",
         "reason": "Explicit current-day sleep deprivation and under-recovery override the ordinary good-recovery default. This is not a reported poor next-day response to Saturday’s run."
       }
+    },
+    {
+      "status": "normal-session-planned-per-athlete-evening-readiness-update",
+      "decision_id": 493,
+      "recorded_at": "2026-11-15T12:10:07-05:00",
+      "for_date": "2026-11-15",
+      "for_time": "evening",
+      "observed": false,
+      "report": "I think we can train just fine in the evening today. Push the workout as usual",
+      "source": "../history/injury-log.md#2026-11-15--evening-training-readiness-review",
+      "reason": "Athlete expects to train normally this evening and explicitly requests the usual workout. A low wearable score alone is not a programmed rest threshold; no persistent global-fatigue pattern is established.",
+      "limits": "Keep local ab/Achilles restrictions and normal Stage C effort. Reduce or omit work if unusual fatigue or symptoms recur. W3 tolerance remains subject to completed-session review."
     }
   ],
   "recovery_override_history": [

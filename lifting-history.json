@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "blockId": "hybrid-2026-10-26",
-  "generatedAt": "2026-11-13T17:53:54-05:00",
+  "generatedAt": "2026-11-15T18:38:29-05:00",
   "sessions": [
     {
       "date": "2026-10-25",
@@ -2039,6 +2039,168 @@
         }
       ],
       "notes": "All 13 lifting sets reported. Incline DB curl and both forearm curls performed at 27.5 lb rather than prescribed 25 lb; all meet rep/effort limits, with extra reserve on the first lateral set. Rowing20minutes replaced prescribed bike; average2:27.3 as reported, pace unit and effort unconfirmed. No fresh elbow response supplied."
+    },
+    {
+      "date": "2026-11-15",
+      "week": "W3",
+      "stage": "C",
+      "sessionName": "Legs, bodyweight abs + calves",
+      "sessionId": "hybrid-2026-10-26-w3-sun-2026-11-15",
+      "prescriptionId": "hybrid-2026-10-26-sun-legs-493",
+      "actualRef": "history/lifting-log.md#2026-11-15--hybrid-v11-w3-sunday-legs",
+      "exercises": [
+        {
+          "slotId": "L1",
+          "exercise": "Decline crunch — bodyweight",
+          "status": "completed",
+          "sets": [
+            {
+              "load": "BW",
+              "units": "bodyweight",
+              "reps": 15,
+              "rir": 5
+            },
+            {
+              "load": "BW",
+              "units": "bodyweight",
+              "reps": 15,
+              "rir": 4
+            }
+          ],
+          "note": "November 15: BW×15/15 at RIR 5/4. Keep bodyweight only, maximum two sets and minimum 3 RIR; no fresh symptom response or loaded-ab clearance. Baseline hanging raise remains uninitialized."
+        },
+        {
+          "slotId": "L2",
+          "exercise": "Leg-press calf raise",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 380,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 380,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 380,
+              "units": "lb",
+              "reps": 10,
+              "rir": 3
+            },
+            {
+              "load": 380,
+              "units": "lb",
+              "reps": 10,
+              "rir": 3
+            }
+          ],
+          "note": "November 15: 380×12/12/10/10 at RIR 3, instead of prescribed 365 lb. The full four-set dose meets rep/effort targets at 380; retain this demonstrated working load with no further Stage-C increase. Wednesday calves remain independent."
+        },
+        {
+          "slotId": "L3",
+          "exercise": "Hack squat",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 95,
+              "units": "lb",
+              "reps": 6,
+              "rir": 3
+            },
+            {
+              "load": 115,
+              "units": "lb",
+              "reps": 6,
+              "rir": 3
+            },
+            {
+              "load": 135,
+              "units": "lb",
+              "reps": 6,
+              "rir": 2
+            }
+          ],
+          "note": "November 15: 95×6 RIR 3 / 115×6 RIR 3 / 135×6 RIR 2, instead of three prescribed sets at 95 lb. All are reported working sets. Retain 135 lb as a demonstrated single-set reference and next starting calibration; three sets at 135 are not validated. Reduce load if subsequent sets cannot meet the rep floor and effort target."
+        },
+        {
+          "slotId": "L4",
+          "exercise": "Seated leg curl",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 110,
+              "units": "lb",
+              "reps": 8,
+              "rir": 3
+            },
+            {
+              "load": 110,
+              "units": "lb",
+              "reps": 8,
+              "rir": 3
+            },
+            {
+              "load": 110,
+              "units": "lb",
+              "reps": 8,
+              "rir": 2
+            }
+          ],
+          "note": "November 15: 110×8/8/8 at RIR 3/3/2, instead of prescribed 100 lb. The full three-set dose meets rep/effort targets at 110; retain the demonstrated working load without further Stage-C increase."
+        },
+        {
+          "slotId": "L5",
+          "exercise": "Leg extension",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 125,
+              "units": "lb",
+              "reps": 15,
+              "rir": 3
+            },
+            {
+              "load": 125,
+              "units": "lb",
+              "reps": 15,
+              "rir": 3
+            },
+            {
+              "load": 125,
+              "units": "lb",
+              "reps": 15,
+              "rir": 3
+            }
+          ],
+          "note": "November 15: 125×15/15/15 at RIR 3, instead of prescribed 100 lb. Retain the demonstrated three-set load. Reaching the rep ceiling during Stage C earns no further load increase."
+        },
+        {
+          "slotId": "L6",
+          "exercise": "45-degree back extension",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 25,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 25,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            }
+          ],
+          "note": "November 15: 25×12/12 at RIR 3. Hold the established load; reaching the rep ceiling during Stage C earns no ordinary loading credit."
+        }
+      ],
+      "notes": "All 17 reported working sets meet rep and effort limits. Higher-than-prescribed calf, hack-squat, seated-curl and leg-extension loads are preserved literally. Hack squat used three different working loads; only one set was performed at 135 lb. No fresh ab/Achilles symptom response or observed next-day recovery supplied. Stage-C work earns no ordinary progression credit; local ab limits remain."
     }
   ]
 }
