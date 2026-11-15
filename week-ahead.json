@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-14T16:46:29-05:00",
+  "generatedAt": "2026-11-15T12:10:07-05:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W3",
   "phase": "Hybrid v11 — Stage C",
   "rangeStart": "2026-11-09",
   "rangeEnd": "2026-11-15",
-  "summary": "W3, November 9–15: Monday through Saturday completed—65 lifting sets, 30 run work minutes, 9.44 confirmed running miles, 20:25 cycling and 20:00 rowing. Saturday was completed under reported poor recovery; Sunday is provisional rest and Stage C review remains open.",
+  "summary": "W3, November 9–15: Monday through Saturday completed—65 lifting sets, 30 run work minutes, 9.44 confirmed running miles, 20:25 cycling and 20:00 rowing. Sunday is the usual 17-set Stage C leg session, planned for this evening. Week tolerance remains open until the remaining work and recovery are reviewed.",
   "days": [
     {
       "date": "2026-11-09",
@@ -53,9 +53,9 @@
     {
       "date": "2026-11-15",
       "day": "Sun",
-      "session": "Recovery/rest — provisional",
-      "note": "Hold the planned17-set leg workout while the latest recovery report is poor. No programmed lifting or cardio; reassess after sleep before resuming. This is a preview, not a completed rest day or a permanent schedule change.",
-      "status": "upcoming"
+      "session": "Legs, bodyweight abs + calves",
+      "note": "Evening plan: 17 Stage C sets. BW decline 2×10–15 (≥3 RIR); calves 365 lb 4×10–15; hack squat 95 lb 3×6–10; seated curl 100 lb 3×8–12; extension 100 lb 3×10–15; back extension 25 lb 2×8–12. Other work at 2–3 RIR. Athlete expects normal training; provisional rest superseded, not a completed session.",
+      "status": "today"
     }
   ],
   "runningMileageCheck": {

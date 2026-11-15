@@ -233,3 +233,11 @@ Athlete reports **“Very sleep deprived today and under recovered”** with the
 All three work paces met the7:10target’s slow tolerance, but the recovery exclusion makes this session **no-count for progression**. Preserve the completed work and normal run prescription without a new speed/duration award or automatic slowdown. Keep the already-consumed November7 source used.
 
 Generate **Sunday November15 provisional rest** instead of the planned17-set leg increase: no programmed lifting or cardio while current readiness remains unresolved. A recovery update after sleep can revise the plan promptly. This is an acute coaching adjustment, not a global-fatigue diagnosis, fixed seven-day OptionC, automatic StageB rollback or two-exposure return protocol. StageC stays achieved; W3 manageability remains open. Existing local restrictions persist. Decision #491.
+
+## 2026-11-15 — evening training readiness review
+
+Athlete reports **recovery score 2 versus usual 6–8, with only HR off**, then says **“I think we can train just fine in the evening today. Push the workout as usual.”** Record the score and prospective evening-training expectation. Device/scale, whether HR means resting heart rate or HRV, the reading versus baseline, sleep duration and new site-specific symptoms remain unreported. Do not invent normalized sleep/HR, observed good recovery or injury clearance.
+
+Review and supersede #491’s provisional Sunday rest with the normal **17-set Stage C leg workout for this evening** under existing local limits. The program has no wearable-score cutoff; one low score and Saturday’s isolated poor-sleep report do not establish persistent global fatigue. The athlete’s latest readiness judgment authorizes normal planning, with reduction/omission if unusual fatigue or symptoms recur. No fixed recovery timetable or automatic stage rollback applies.
+
+Archive the prior acute planning hold with this review. Preserve Saturday’s poor-readiness actual and **no-count** run classification, all consumed credit and normal run doses. Bodyweight-only/max-two-set/minimum-3-RIR abs and other local restrictions persist. Sunday remains unperformed and W3 manageability awaits completed work and tolerance review. Decision #493.

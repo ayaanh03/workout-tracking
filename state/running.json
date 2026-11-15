@@ -1013,27 +1013,28 @@
       "reason": "Full3×6 at433/426/426s/mi and finalRPE7 meet pace and effort limits. Explicit poor current readiness still takes precedence: no-count, no new hit/miss or progression. The confirmation does not resolve sleep deprivation or establish next-day recovery."
     },
     "next_action": {
-      "decision_id": 491,
-      "action": "freeze-progression-review-acute-readiness",
-      "status": "recommendation-pending-readiness-review",
+      "decision_id": 493,
+      "action": "hold-normal-dose-no-new-progression",
+      "status": "recommendation-for-next-generation",
       "source_session_id": "hybrid-2026-10-26-w3-sat-2026-11-14",
       "source": "../history/cardio-log.md#2026-11-14--hybrid-v11-w3-saturday-longer-intervals",
       "saved_normal_pace_seconds_per_mile": 430,
       "saved_normal_work_minutes": 18,
       "saved_normal_format": "3x6",
       "rpe_cap": 7,
-      "recovery_basis": {
-        "status": "reported-poor-current-readiness",
-        "decision_id": 491,
-        "reported_on": "2026-11-14",
-        "recorded_at": "2026-11-14T15:51:42-05:00",
-        "observed": true,
-        "provenance": "athlete report",
-        "report": "Very sleep deprived today and under recovered",
-        "scope": "Current same-day readiness accompanying the completed run. This overrides the ordinary good-recovery assumption for the affected decisions; it is not a report of poor next-day recovery, illness, injury or fatigue persisting into later sessions.",
-        "reason": "Explicit sleep deprivation and under-recovery make this session ineligible for ordinary progression; no hit or miss is awarded."
+      "readiness_review": {
+        "decision_id": 493,
+        "reviewed_on": "2026-11-15",
+        "recorded_at": "2026-11-15T12:10:07-05:00",
+        "report": "I think we can train just fine in the evening today. Push the workout as usual",
+        "source": "../history/injury-log.md#2026-11-15--evening-training-readiness-review",
+        "decision": "Supersede provisional Sunday rest with normal achieved-Stage-C legs for this evening, retaining local limits.",
+        "basis": "Athlete expects to train normally this evening and explicitly requests the usual workout. A low wearable score alone is not a programmed rest threshold; no persistent global-fatigue pattern is established.",
+        "scope": "Prospective workout planning. Sleep duration, the specific HR metric/value, objective normalization and session-specific symptoms remain unreported. This does not certify recovery, complete Sunday or establish W3 manageability.",
+        "prescription_id": "hybrid-2026-10-26-sun-legs-493",
+        "previous_run_classification_unchanged": true
       },
-      "reason": "No new hard run issued while the reported acute under-recovery remains unresolved. Reassess readiness for the next unperformed session; retain normal dose as a reference and make no pace/minute increase. This isolated same-day report does not itself create a seven-day global-fatigue response, two-poor-next-day strike, or fixed reduced-exposure restoration gate."
+      "reason": "Sunday readiness planning has been reviewed; no blanket rest hold remains. Keep the normal 7:10/mi, 3x6 reference for the next eligible run and apply current readiness when generating it. November 14 remains no-count due to its reported poor current-day recovery; no pace/minute award, new hit/miss, reused November 7 source or fixed return protocol."
     },
     "pace_adjustment_history": [
       {
@@ -1790,6 +1791,29 @@
         "reason": "November7 paces7:10/6:58/6:56 atRPE6/7/7 establish15s/mi all-rep headroom against the prescribed7:25. Apply7:10 once, retain3×6 and two2-minute recoveries. No early test selected; current fatigue/return/relevant symptom checks do not impose a reduction.",
         "review_decision_id": 490,
         "reviewed_on": "2026-11-14"
+      },
+      {
+        "decision_id": 491,
+        "action": "freeze-progression-review-acute-readiness",
+        "status": "recommendation-pending-readiness-review",
+        "source_session_id": "hybrid-2026-10-26-w3-sat-2026-11-14",
+        "source": "../history/cardio-log.md#2026-11-14--hybrid-v11-w3-saturday-longer-intervals",
+        "saved_normal_pace_seconds_per_mile": 430,
+        "saved_normal_work_minutes": 18,
+        "saved_normal_format": "3x6",
+        "rpe_cap": 7,
+        "recovery_basis": {
+          "status": "reported-poor-current-readiness",
+          "decision_id": 491,
+          "reported_on": "2026-11-14",
+          "recorded_at": "2026-11-14T15:51:42-05:00",
+          "observed": true,
+          "provenance": "athlete report",
+          "report": "Very sleep deprived today and under recovered",
+          "scope": "Current same-day readiness accompanying the completed run. This overrides the ordinary good-recovery assumption for the affected decisions; it is not a report of poor next-day recovery, illness, injury or fatigue persisting into later sessions.",
+          "reason": "Explicit sleep deprivation and under-recovery make this session ineligible for ordinary progression; no hit or miss is awarded."
+        },
+        "reason": "No new hard run issued while the reported acute under-recovery remains unresolved. Reassess readiness for the next unperformed session; retain normal dose as a reference and make no pace/minute increase. This isolated same-day report does not itself create a seven-day global-fatigue response, two-poor-next-day strike, or fixed reduced-exposure restoration gate."
       }
     ],
     "counter_reset": {
@@ -1839,18 +1863,33 @@
         "reason": "All 18 work minutes and both prescribed recoveries are displayed. 7:10/6:58/6:56 pass the one-sided 7:30-or-faster check; final RPE 7 meets cap. No extra rest or materially changed conditions reported. Second ordinary hit; no comfortable tag at final RPE 7 > 5."
       }
     ],
-    "current_readiness_issue": {
-      "decision_id": 491,
-      "date": "2026-11-14",
-      "status": "acute-readiness-review-required",
-      "report": "Very sleep deprived today and under recovered",
-      "source_session_id": "hybrid-2026-10-26-w3-sat-2026-11-14",
-      "source": "../history/cardio-log.md#2026-11-14--hybrid-v11-w3-saturday-longer-intervals",
-      "scope": "Current sleep deprivation/under-recovery; not established run-induced poor next-day recovery or persistent global fatigue.",
-      "progression": "Hold this run track’s discretionary progression until the acute issue is reviewed. Normal prescription430s/mi,18minutes,3×6 remains a saved reference; no new hard session is issued.",
-      "next_day_recovery": null,
-      "fixed_recovery_wait_or_exposure_count": null
-    }
+    "current_readiness_issue": null,
+    "current_readiness_issue_history": [
+      {
+        "decision_id": 491,
+        "date": "2026-11-14",
+        "status": "reviewed-evening-training-plan-resumed",
+        "report": "Very sleep deprived today and under recovered",
+        "source_session_id": "hybrid-2026-10-26-w3-sat-2026-11-14",
+        "source": "../history/cardio-log.md#2026-11-14--hybrid-v11-w3-saturday-longer-intervals",
+        "scope": "Current sleep deprivation/under-recovery; not established run-induced poor next-day recovery or persistent global fatigue.",
+        "progression": "Hold this run track’s discretionary progression until the acute issue is reviewed. Normal prescription430s/mi,18minutes,3×6 remains a saved reference; no new hard session is issued.",
+        "next_day_recovery": null,
+        "fixed_recovery_wait_or_exposure_count": null,
+        "resolution": {
+          "decision_id": 493,
+          "reviewed_on": "2026-11-15",
+          "recorded_at": "2026-11-15T12:10:07-05:00",
+          "report": "I think we can train just fine in the evening today. Push the workout as usual",
+          "source": "../history/injury-log.md#2026-11-15--evening-training-readiness-review",
+          "decision": "Supersede provisional Sunday rest with normal achieved-Stage-C legs for this evening, retaining local limits.",
+          "basis": "Athlete expects to train normally this evening and explicitly requests the usual workout. A low wearable score alone is not a programmed rest threshold; no persistent global-fatigue pattern is established.",
+          "scope": "Prospective workout planning. Sleep duration, the specific HR metric/value, objective normalization and session-specific symptoms remain unreported. This does not certify recovery, complete Sunday or establish W3 manageability.",
+          "prescription_id": "hybrid-2026-10-26-sun-legs-493",
+          "previous_run_classification_unchanged": true
+        }
+      }
+    ]
   },
   "cycling": {
     "wednesday": {

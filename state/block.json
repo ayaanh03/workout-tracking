@@ -6,7 +6,7 @@
   "start_date": "2026-10-25",
   "end_date": "2027-01-03",
   "timezone": "America/New_York",
-  "as_of": "2026-11-14",
+  "as_of": "2026-11-15",
   "activation_status": "active",
   "calendar_week": "W3",
   "calendar_phase": "Ramp",
@@ -56,7 +56,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 492,
+  "last_adjustment_id": 493,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -700,13 +700,25 @@
       "known_cycling_minutes": 20.416666666666668,
       "manageable": null,
       "status": "week-in-progress-recovery-review-needed",
-      "decision_id": 492,
+      "decision_id": 493,
       "source": "../history/cardio-log.md#2026-11-14--hybrid-v11-w3-saturday-longer-intervals",
-      "note": "Monday through Saturday completed:65lifting sets,30runwork minutes,9.44confirmed running miles,20:25cycling and20:00rowing. Saturday poor readiness remains reported; Sunday is provisional rest, not a completed/skipped session. W3 manageability and StageD advancement remain unresolved.",
+      "note": "Monday through Saturday completed: 65 lifting sets, 30 run work minutes, 9.44 confirmed running miles, 20:25 cycling and 20:00 rowing. Sunday normal 17-set Stage C legs is prescribed for this evening after the athlete readiness update, not performed. Preserve Saturday poor readiness and Sunday low-score report; W3 manageability and Stage D advancement remain unresolved pending actual completion and tolerance review.",
       "known_cycling_seconds": 1225,
       "known_rowing_minutes": 20,
       "known_rowing_seconds": 1200,
-      "estimated_unconfirmed_running_miles": 0
+      "estimated_unconfirmed_running_miles": 0,
+      "latest_readiness_review": {
+        "decision_id": 493,
+        "reviewed_on": "2026-11-15",
+        "recorded_at": "2026-11-15T12:10:07-05:00",
+        "report": "I think we can train just fine in the evening today. Push the workout as usual",
+        "source": "../history/injury-log.md#2026-11-15--evening-training-readiness-review",
+        "decision": "Supersede provisional Sunday rest with normal achieved-Stage-C legs for this evening, retaining local limits.",
+        "basis": "Athlete expects to train normally this evening and explicitly requests the usual workout. A low wearable score alone is not a programmed rest threshold; no persistent global-fatigue pattern is established.",
+        "scope": "Prospective workout planning. Sleep duration, the specific HR metric/value, objective normalization and session-specific symptoms remain unreported. This does not certify recovery, complete Sunday or establish W3 manageability.",
+        "prescription_id": "hybrid-2026-10-26-sun-legs-493",
+        "previous_run_classification_unchanged": true
+      }
     }
   },
   "program_amendments": [
@@ -799,13 +811,13 @@
     "default_recovery": "assumed-good-unless-reported-otherwise",
     "source": "../program/readiness.md",
     "last_generated_date": "2026-11-15",
-    "last_generated_prescription_id": "hybrid-2026-10-26-sun-recovery-491",
+    "last_generated_prescription_id": "hybrid-2026-10-26-sun-legs-493",
     "last_generated_from_session_id": "hybrid-2026-10-26-w3-sat-2026-11-14",
     "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping.",
-    "last_generation_trigger": "completed-session-log-with-recovery-exception",
-    "last_generation_decision_id": 491,
-    "last_review_decision_id": 492,
-    "last_review_reason": "Confirmed Saturday5.01mi and RPE7/7/7; reconcile mileage once. Keep Sundayrest#491 and poor-recovery adjustment unchanged."
+    "last_generation_trigger": "current-day-evening-workout-request-after-readiness-review",
+    "last_generation_decision_id": 493,
+    "last_review_decision_id": 493,
+    "last_review_reason": "Athlete requests normal Sunday evening training. Supersede provisional rest with 17 Stage C sets; no new actuals, recovery measurements, run credit or stage advancement."
   },
   "session_freeze_history": [
     {
@@ -1022,12 +1034,26 @@
   },
   "next_session_adjustment": {
     "date": "2026-11-15",
-    "decision_id": 491,
-    "status": "provisional-not-performed",
+    "decision_id": 493,
+    "status": "normal-session-prescribed-not-performed",
     "original_session": "Legs, bodyweight abs + calves",
-    "effective_session": "Recovery/rest",
-    "prescription_id": "hybrid-2026-10-26-sun-recovery-491",
-    "source": "../history/injury-log.md#2026-11-14--sleep-deprived-and-under-recovered",
-    "reason": "Latest explicit report is very sleep deprived and under-recovered. No programmed lifting or cardio until readiness is reviewed; current stage and recurring schedule remain intact."
-  }
+    "effective_session": "Legs, bodyweight abs + calves",
+    "prescription_id": "hybrid-2026-10-26-sun-legs-493",
+    "source": "../history/injury-log.md#2026-11-15--evening-training-readiness-review",
+    "reason": "Athlete expects normal evening training and requests the usual workout. Replace provisional rest with 17 effective Stage C sets; retain established loads, local limits and the pending completed-week review."
+  },
+  "next_session_adjustment_history": [
+    {
+      "date": "2026-11-15",
+      "decision_id": 491,
+      "status": "superseded-before-performance",
+      "original_session": "Legs, bodyweight abs + calves",
+      "effective_session": "Recovery/rest",
+      "prescription_id": "hybrid-2026-10-26-sun-recovery-491",
+      "source": "../history/injury-log.md#2026-11-14--sleep-deprived-and-under-recovered",
+      "reason": "Latest explicit report is very sleep deprived and under-recovered. No programmed lifting or cardio until readiness is reviewed; current stage and recurring schedule remain intact.",
+      "superseded_on": "2026-11-15",
+      "superseded_by_decision_id": 493
+    }
+  ]
 }

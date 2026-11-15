@@ -724,15 +724,28 @@
   "observation": null,
   "reduced_snapshot": null,
   "general_readiness": {
-    "reported_on": "2026-11-14",
-    "reported_at": "2026-11-14T15:51:42-05:00",
-    "report": "Very sleep deprived today and under recovered",
-    "status": "poor",
-    "provenance": "athlete current-day recovery report",
-    "decision_id": 491,
-    "scope": "Current Saturday sleep deprivation and under-recovery reported with the completed run. Exact sleep duration, cause beyond the report, next-morning recovery and specific elbow/ab/Achilles response are unreported.",
-    "numeric_metrics": null,
-    "source": "../history/injury-log.md#2026-11-14--sleep-deprived-and-under-recovered"
+    "reported_on": "2026-11-15",
+    "reported_at": "2026-11-15T12:10:07-05:00",
+    "report": "I think we can train just fine in the evening today. Push the workout as usual",
+    "status": "evening-training-expected-metric-deviation-reported",
+    "provenance": "athlete readiness expectation and wearable-score self-report",
+    "decision_id": 493,
+    "source": "../history/injury-log.md#2026-11-15--evening-training-readiness-review",
+    "scope": "Prospective workout planning. Sleep duration, the specific HR metric/value, objective normalization and session-specific symptoms remain unreported. This does not certify recovery, complete Sunday or establish W3 manageability.",
+    "numeric_metrics": {
+      "recovery_score": 2,
+      "usual_recovery_score_range": [
+        6,
+        8
+      ],
+      "score_scale": null,
+      "device_or_app": null,
+      "heart_rate_report": "Only HR is off; metric, value and direction unreported.",
+      "heart_rate_metric": null,
+      "heart_rate_value": null,
+      "heart_rate_baseline": null
+    },
+    "metric_report": "My recovery score is a 2 vs my usual 6-8 but only my HR is off"
   },
   "resolved_gates": [
     {
@@ -1153,13 +1166,15 @@
     }
   ],
   "readiness_forecast": {
-    "reported_on": "2026-11-04",
-    "reported_at": "2026-11-04T22:45:42-05:00",
-    "for_date": "2026-11-05",
-    "report": "Generate Thursday I’ll be fine on the recovery side. Assume recovery is always fine and always generate the next workout on logging. We’ll readjust if I wake up that morning and I’m cooked but 90% of the time I’ll be aight",
-    "status": "assumed-good-per-standing-directive",
-    "decision_id": 471,
-    "scope": "Planning and ordinary progression default, subject to reported exceptions; no observed morning metrics or new injury clearance."
+    "reported_on": "2026-11-15",
+    "reported_at": "2026-11-15T12:10:07-05:00",
+    "for_date": "2026-11-15",
+    "for_time": "evening",
+    "report": "I think we can train just fine in the evening today. Push the workout as usual",
+    "status": "expects-normal-training",
+    "decision_id": 493,
+    "scope": "Prospective workout planning. Sleep duration, the specific HR metric/value, objective normalization and session-specific symptoms remain unreported. This does not certify recovery, complete Sunday or establish W3 manageability.",
+    "source": "../history/injury-log.md#2026-11-15--evening-training-readiness-review"
   },
   "readiness_forecast_history": [
     {
@@ -1189,6 +1204,15 @@
       "status": "expected-good-not-yet-observed",
       "decision_id": 468,
       "scope": "Forecast for requested workout; not confirmed post-run general recovery, a manageable-week review or injury clearance."
+    },
+    {
+      "reported_on": "2026-11-04",
+      "reported_at": "2026-11-04T22:45:42-05:00",
+      "for_date": "2026-11-05",
+      "report": "Generate Thursday I’ll be fine on the recovery side. Assume recovery is always fine and always generate the next workout on logging. We’ll readjust if I wake up that morning and I’m cooked but 90% of the time I’ll be aight",
+      "status": "assumed-good-per-standing-directive",
+      "decision_id": 471,
+      "scope": "Planning and ordinary progression default, subject to reported exceptions; no observed morning metrics or new injury clearance."
     }
   ],
   "current_symptom_report": {
@@ -1276,22 +1300,16 @@
     "source": "../program/readiness.md"
   },
   "planning_readiness": {
-    "status": "hold-based-on-reported-poor-recovery",
-    "decision_id": 491,
-    "recorded_at": "2026-11-14T15:51:42-05:00",
+    "status": "normal-session-planned-per-athlete-evening-readiness-update",
+    "decision_id": 493,
+    "recorded_at": "2026-11-15T12:10:07-05:00",
     "for_date": "2026-11-15",
+    "for_time": "evening",
     "observed": false,
-    "reason": "Sunday readiness is not yet known. The latest explicit Saturday report is very sleep deprived and under-recovered, so Sunday is provisional rest pending a recovery update; do not presume a rebound or a persistent fatigue syndrome.",
-    "current_day_evidence": {
-      "status": "reported-poor",
-      "decision_id": 491,
-      "recorded_at": "2026-11-14T15:51:42-05:00",
-      "reported_on": "2026-11-14",
-      "observed": true,
-      "observation_type": "athlete-self-report",
-      "source": "../history/injury-log.md#2026-11-14--sleep-deprived-and-under-recovered",
-      "reason": "Explicit current-day sleep deprivation and under-recovery override the ordinary good-recovery default. This is not a reported poor next-day response to Saturday’s run."
-    }
+    "report": "I think we can train just fine in the evening today. Push the workout as usual",
+    "source": "../history/injury-log.md#2026-11-15--evening-training-readiness-review",
+    "reason": "Athlete expects to train normally this evening and explicitly requests the usual workout. A low wearable score alone is not a programmed rest threshold; no persistent global-fatigue pattern is established.",
+    "limits": "Keep local ab/Achilles restrictions and normal Stage C effort. Reduce or omit work if unusual fatigue or symptoms recur. W3 tolerance remains subject to completed-session review."
   },
   "general_readiness_history": [
     {
@@ -1314,6 +1332,17 @@
       "decision_id": 474,
       "scope": "Current November 6 readiness and next-morning recovery after November 5 Upper B. W2 remains in progress.",
       "numeric_metrics": null
+    },
+    {
+      "reported_on": "2026-11-14",
+      "reported_at": "2026-11-14T15:51:42-05:00",
+      "report": "Very sleep deprived today and under recovered",
+      "status": "poor",
+      "provenance": "athlete current-day recovery report",
+      "decision_id": 491,
+      "scope": "Current Saturday sleep deprivation and under-recovery reported with the completed run. Exact sleep duration, cause beyond the report, next-morning recovery and specific elbow/ab/Achilles response are unreported.",
+      "numeric_metrics": null,
+      "source": "../history/injury-log.md#2026-11-14--sleep-deprived-and-under-recovered"
     }
   ],
   "exercise_caution_reports": [
@@ -1399,34 +1428,69 @@
       ]
     }
   ],
-  "active_recovery_override": {
-    "id": "2026-11-14-sleep-deprivation",
-    "status": "active-acute-readiness-review",
-    "decision_id": 491,
-    "reported_on": "2026-11-14",
-    "recorded_at": "2026-11-14T15:51:42-05:00",
-    "source": "../history/injury-log.md#2026-11-14--sleep-deprived-and-under-recovered",
-    "report": "Very sleep deprived today and under recovered",
-    "scope": "Acute reported sleep deprivation and under-recovery. No established global-fatigue pattern, illness or new local injury.",
-    "standing_default_overridden": true,
-    "next_scheduled_date": "2026-11-15",
-    "original_next_session": "Legs, bodyweight abs + calves",
-    "next_prescription_id": "hybrid-2026-10-26-sun-recovery-491",
-    "next_action": "provisional-rest-pending-readiness-update",
-    "baseline_sunday_stage": "C",
-    "baseline_sunday_effective_sets": 17,
-    "baseline_sunday_slot_sets": {
-      "L1": 2,
-      "L2": 4,
-      "L3": 3,
-      "L4": 3,
-      "L5": 3,
-      "L6": 2
-    },
-    "last_tolerated_sunday_effective_sets": 13,
-    "review": "Reassess sleep, alertness and ordinary recovery before the next training session. A report of improved readiness can revise the provisional rest promptly; no fixed waiting period, automatic seven-day Option C or two-exposure return requirement is imposed.",
-    "progression": "Hold upcoming increases while the acute poor-readiness report remains active. Preserve normal doses and achieved Stage C; do not claim W3 manageable or advance to D until the issue and completed week are reviewed.",
-    "normal_stage_changed": false,
-    "global_fatigue_protocol_started": false
-  }
+  "active_recovery_override": null,
+  "planning_readiness_history": [
+    {
+      "status": "hold-based-on-reported-poor-recovery",
+      "decision_id": 491,
+      "recorded_at": "2026-11-14T15:51:42-05:00",
+      "for_date": "2026-11-15",
+      "observed": false,
+      "reason": "Sunday readiness is not yet known. The latest explicit Saturday report is very sleep deprived and under-recovered, so Sunday is provisional rest pending a recovery update; do not presume a rebound or a persistent fatigue syndrome.",
+      "current_day_evidence": {
+        "status": "reported-poor",
+        "decision_id": 491,
+        "recorded_at": "2026-11-14T15:51:42-05:00",
+        "reported_on": "2026-11-14",
+        "observed": true,
+        "observation_type": "athlete-self-report",
+        "source": "../history/injury-log.md#2026-11-14--sleep-deprived-and-under-recovered",
+        "reason": "Explicit current-day sleep deprivation and under-recovery override the ordinary good-recovery default. This is not a reported poor next-day response to Saturday’s run."
+      }
+    }
+  ],
+  "recovery_override_history": [
+    {
+      "id": "2026-11-14-sleep-deprivation",
+      "status": "reviewed-provisional-rest-superseded",
+      "decision_id": 491,
+      "reported_on": "2026-11-14",
+      "recorded_at": "2026-11-14T15:51:42-05:00",
+      "source": "../history/injury-log.md#2026-11-14--sleep-deprived-and-under-recovered",
+      "report": "Very sleep deprived today and under recovered",
+      "scope": "Acute reported sleep deprivation and under-recovery. No established global-fatigue pattern, illness or new local injury.",
+      "standing_default_overridden": true,
+      "next_scheduled_date": "2026-11-15",
+      "original_next_session": "Legs, bodyweight abs + calves",
+      "next_prescription_id": "hybrid-2026-10-26-sun-recovery-491",
+      "next_action": "provisional-rest-pending-readiness-update",
+      "baseline_sunday_stage": "C",
+      "baseline_sunday_effective_sets": 17,
+      "baseline_sunday_slot_sets": {
+        "L1": 2,
+        "L2": 4,
+        "L3": 3,
+        "L4": 3,
+        "L5": 3,
+        "L6": 2
+      },
+      "last_tolerated_sunday_effective_sets": 13,
+      "review": "Reassess sleep, alertness and ordinary recovery before the next training session. A report of improved readiness can revise the provisional rest promptly; no fixed waiting period, automatic seven-day Option C or two-exposure return requirement is imposed.",
+      "progression": "Hold upcoming increases while the acute poor-readiness report remains active. Preserve normal doses and achieved Stage C; do not claim W3 manageable or advance to D until the issue and completed week are reviewed.",
+      "normal_stage_changed": false,
+      "global_fatigue_protocol_started": false,
+      "resolution": {
+        "decision_id": 493,
+        "reviewed_on": "2026-11-15",
+        "recorded_at": "2026-11-15T12:10:07-05:00",
+        "report": "I think we can train just fine in the evening today. Push the workout as usual",
+        "source": "../history/injury-log.md#2026-11-15--evening-training-readiness-review",
+        "decision": "Supersede provisional Sunday rest with normal achieved-Stage-C legs for this evening, retaining local limits.",
+        "basis": "Athlete expects to train normally this evening and explicitly requests the usual workout. A low wearable score alone is not a programmed rest threshold; no persistent global-fatigue pattern is established.",
+        "scope": "Prospective workout planning. Sleep duration, the specific HR metric/value, objective normalization and session-specific symptoms remain unreported. This does not certify recovery, complete Sunday or establish W3 manageability.",
+        "prescription_id": "hybrid-2026-10-26-sun-legs-493",
+        "previous_run_classification_unchanged": true
+      }
+    }
+  ]
 }

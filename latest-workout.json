@@ -1,46 +1,168 @@
 {
-  "generatedAt": "2026-11-14T16:46:29-05:00",
+  "generatedAt": "2026-11-15T12:10:07-05:00",
   "blockId": "hybrid-2026-10-26",
-  "prescriptionId": "hybrid-2026-10-26-sun-recovery-491",
-  "preview": true,
+  "prescriptionId": "hybrid-2026-10-26-sun-legs-493",
+  "preview": false,
   "week": "W3",
   "day": "Sun",
   "date": "2026-11-15",
-  "phase": "Hybrid v11 — Stage C; acute recovery adjustment",
-  "sessionName": "Recovery/rest — preview",
+  "phase": "Hybrid v11 — Stage C",
+  "sessionName": "Legs, bodyweight abs + calves",
   "why": [
-    "Your November 14 report—very sleep deprived and under-recovered—overrides the usual good-recovery assumption.",
-    "Sunday is provisional rest. Hold the planned 17-set leg workout and reassess after sleep before prescribing more training."
+    "Sunday November 15: the usual leg session, planned for this evening per your readiness update.",
+    "Stage C gives 17 effective sets: four more than last Sunday, with established weights held and the two-set bodyweight-ab limit retained."
   ],
   "intro": [
-    "No programmed lifting or cardio. If sleep, alertness and recovery improve, update readiness before the leg session so this plan can be revised."
+    "Bodyweight abs only if comfortable. Keep the prescribed reserve; reduce or omit work if unusual fatigue or symptoms recur."
   ],
-  "lift": null,
+  "lift": {
+    "table": [
+      {
+        "slotId": "L1",
+        "exercise": "Decline crunch — bodyweight",
+        "setsReps": "2×10–15",
+        "load": "BW",
+        "rir": "≥3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "L2",
+        "exercise": "Leg-press calf raise",
+        "setsReps": "4×10–15",
+        "load": "365 lb",
+        "rir": "2–3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "L3",
+        "exercise": "Hack squat",
+        "setsReps": "3×6–10",
+        "load": "95 lb",
+        "rir": "2–3",
+        "rest": "2–3 min"
+      },
+      {
+        "slotId": "L4",
+        "exercise": "Seated leg curl",
+        "setsReps": "3×8–12",
+        "load": "100 lb",
+        "rir": "2–3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "L5",
+        "exercise": "Leg extension",
+        "setsReps": "3×10–15",
+        "load": "100 lb",
+        "rir": "2–3",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "L6",
+        "exercise": "45-degree back extension",
+        "setsReps": "2×8–12",
+        "load": "25 lb",
+        "rir": "2–3",
+        "rest": "2 min"
+      }
+    ],
+    "lastWeek": {
+      "label": "Last Sunday — November 8, Stage B",
+      "table": [
+        {
+          "slotId": "L1",
+          "exercise": "Decline crunch — bodyweight",
+          "load": "BW",
+          "reps": "15 / 15",
+          "rir": "3 / 3"
+        },
+        {
+          "slotId": "L2",
+          "exercise": "Leg-press calf raise",
+          "load": "365 lb",
+          "reps": "14 / 15 / 12",
+          "rir": "3 / 3 / 3"
+        },
+        {
+          "slotId": "L3",
+          "exercise": "Hack squat",
+          "load": "95 lb",
+          "reps": "6 / 10",
+          "rir": "3 / 3"
+        },
+        {
+          "slotId": "L4",
+          "exercise": "Seated leg curl",
+          "load": "100 lb",
+          "reps": "12 / 12",
+          "rir": "3 / 3"
+        },
+        {
+          "slotId": "L5",
+          "exercise": "Leg extension",
+          "load": "100 lb",
+          "reps": "15 / 15",
+          "rir": "3 / 3"
+        },
+        {
+          "slotId": "L6",
+          "exercise": "45-degree back extension",
+          "load": "25 lb",
+          "reps": "12 / 12",
+          "rir": "3 / 3"
+        }
+      ]
+    }
+  },
   "cardio": null,
   "adaptation": [
     {
-      "exercise": "Saturday completed",
-      "previous": "3×6 minutes at 7:13/7:06/7:06 per mile, RPE 7/7/7, with two 2-minute recoveries; confirmed 5.01 mi and average HR 168. You report very poor sleep and under-recovery.",
-      "decision": "Record the completed run as no-count for progression. All three paces and the final effort met their limits.",
-      "reason": "Poor recovery overrides pace-based credit. Keep normal7:10/mi and18work minutes; no new hit, miss, faster target or added duration. The previously used November7 award stays used."
+      "exercise": "Evening readiness",
+      "previous": "November 14: very sleep deprived and under-recovered. November 15: recovery score 2 versus usual 6–8, with only an unspecified HR metric off; you expect to train normally this evening.",
+      "decision": "Replace provisional rest with the usual Sunday Stage C workout.",
+      "reason": "Your current readiness expectation supports planning the session. There is no fixed wearable-score rest threshold. Sleep/HR normalization and workout tolerance are not yet established; reduce work if unusual fatigue or symptoms recur."
     },
     {
-      "exercise": "Sunday legs",
-      "previous": "Sunday was planned as17Stage-C sets, up from the last tolerated13-set leg session. Current Saturday readiness is poor; Sunday readiness is not yet known.",
-      "decision": "Provisional rest: no programmed lifting or cardio.",
-      "reason": "Avoid adding training while this acute recovery issue is unresolved. A readiness update can revise the plan promptly; this is not a fixed seven-day deload or a stage rollback."
+      "exercise": "L1 — Decline crunch",
+      "previous": "November 8: BW×15/15 at RIR 3.",
+      "decision": "Hold BW, 2×10–15 at ≥3 RIR.",
+      "reason": "The local ab limit overrides the Stage C third set. Added weight and restoration of hanging raises remain deferred; use only comfortable work."
     },
     {
-      "exercise": "Week review",
-      "previous": "W3 now has6reported sessions,65lifting sets and30run work minutes. This is the first current report of poor recovery in the week.",
-      "decision": "Keep Stage C and hold the completed-week manageability review.",
-      "reason": "One sleep-deprived day does not establish persistent global fatigue. It also cannot be assumed resolved or used to justify advancing to Stage D."
+      "exercise": "L2 — Leg-press calf raise",
+      "previous": "November 8: 365 lb×14/15/12 at RIR 3.",
+      "decision": "Hold 365 lb; 4×10–15 at 2–3 RIR.",
+      "reason": "Achieved Stage C supplies one additional set. Same-slot actuals support this load; Stage B ramp work earns no load increase. Reduce or omit if Achilles symptoms recur."
     },
     {
-      "exercise": "Distance and shoes",
-      "previous": "You confirmed Saturday’s 5.01 mi total and RPE 7/7/7. Prior Evo SL tracked total: 13.78 mi.",
-      "decision": "Add the run once: Evo SL 18.79 tracked miles; W3 running total 9.44 mi.",
-      "reason": "Use the confirmed total; keep rounded segment distances separately. Meeting the effort cap does not override the reported poor recovery."
+      "exercise": "L3 — Hack squat",
+      "previous": "November 8: 95 lb×6/10 at RIR 3.",
+      "decision": "Hold 95 lb; 3×6–10 at 2–3 RIR.",
+      "reason": "Stage C adds one set. The previous sets met the range and effort; hold the established load during the ramp."
+    },
+    {
+      "exercise": "L4 — Seated leg curl",
+      "previous": "November 8: 100 lb×12/12 at RIR 3.",
+      "decision": "Hold 100 lb; 3×8–12 at 2–3 RIR.",
+      "reason": "Stage C adds one set. Reaching the rep ceiling during Stage B does not earn ordinary load progression."
+    },
+    {
+      "exercise": "L5 — Leg extension",
+      "previous": "November 8: 100 lb×15/15 at RIR 3.",
+      "decision": "Hold 100 lb; 3×10–15 at 2–3 RIR.",
+      "reason": "Stage C adds one set. Keep load stable while the set allocation increases; no ramp qualification credit."
+    },
+    {
+      "exercise": "L6 — 45-degree back extension",
+      "previous": "November 8: 25 lb×12/12 at RIR 3.",
+      "decision": "Hold 25 lb; 2×8–12 at 2–3 RIR.",
+      "reason": "This slot already has its full two-set allocation. Hold load during Stage C despite reaching the rep ceiling."
+    },
+    {
+      "exercise": "Stage and running review",
+      "previous": "W3 has six completed sessions. Saturday met pace and effort limits but was performed under reported poor recovery.",
+      "decision": "Keep Stage C and Saturday no-count; review the completed week after Sunday is logged.",
+      "reason": "Generating this workout does not complete Sunday, establish week tolerance, advance to Stage D or create running progression credit."
     }
   ],
   "currentLoads": [

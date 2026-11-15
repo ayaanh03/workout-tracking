@@ -792,3 +792,22 @@ W3 now has**6completed sessions,65lifting sets,30run work minutes,20:25cycling a
 492. Athlete confirms **distance5.01mi, RPE7/7/7** for `hybrid-2026-10-26-w3-sat-2026-11-14`. Update the existing run and both current Wednesday-bike subsequent-run evidence copies, without another session/exposure. Pace and effort limits both passed; retain **no-count** because the prior poor-current-recovery report remains active. No new hit/miss, credit, source consumption, normal-dose change or next-day poor-recovery strike.
 
 Resolve only the Saturday measurement question and pending shoe addition. Evo SL **13.78+5.01=18.79mi**, added once by sessionID; W3 confirmed running **4.43+5.01=9.44mi**. Preserve the rounded-segment estimate separately and all other shoe/actual histories. Keep Sunday preview `hybrid-2026-10-26-sun-recovery-491`, null lifting/cardio, and the acute recovery override unchanged. Refresh and publish dashboard mileage/effort details; no new recovery report or stage advance.
+
+## 2026-11-15 — restore normal Sunday evening leg workout
+
+493. Athlete reports a wearable recovery score **2 versus usual 6–8**, with only an unspecified HR metric off, then explicitly expects normal training this evening and requests the usual workout. Review #491’s provisional rest under [readiness](../program/readiness.md). Replace it with **Sunday November 15 — Legs, bodyweight abs + calves**, prescription `hybrid-2026-10-26-sun-legs-493`, for this evening. It is current-day planned work, not a future preview or completed session. This is a prospective readiness expectation, not a measured sleep/HR recovery claim; exact metrics and specific symptom responses remain unknown. No fixed wearable cutoff or persistent global-fatigue trigger is established.
+
+| Slot | Exercise | Load | Sets × reps | RIR | Rest |
+|---|---|---|---|---|---|
+| L1 | Decline crunch — bodyweight | BW | 2×10–15 | ≥3 | 2 min |
+| L2 | Leg-press calf raise | 365 lb | 4×10–15 | 2–3 | 2 min |
+| L3 | Hack squat | 95 lb | 3×6–10 | 2–3 | 2–3 min |
+| L4 | Seated leg curl | 100 lb | 3×8–12 | 2–3 | 2 min |
+| L5 | Leg extension | 100 lb | 3×10–15 | 2–3 | 2 min |
+| L6 | 45-degree back extension | 25 lb | 2×8–12 | 2–3 | 2 min |
+
+**17 effective sets.** Same-slot November 8 actuals were BW15/15; calves365×14/15/12; hack95×6/10; curl100×12/12; extension100×15/15; back extension25×12/12, all RIR3. They support holding the established loads. [Stage C](../program/ramp-and-return.md) supplies one extra set each to L2–L5, four more than last Sunday’s13, while L1 stays capped at two and L6 already has its full two. Ramp rep ceilings do not earn ordinary load progression. Keep abs bodyweight-only/≥3RIR and modify any aggravating work; unusual fatigue or symptoms can still reduce the session.
+
+Archive the acute rest hold as reviewed/superseded and update prospective running action to hold its saved normal7:10/mi,18-minute,3×6 dose for the next eligible generation. Saturday’s actuals, no-count classification, zero counters and consumed November7 source remain unchanged; no new hard run or pace/duration award. Tuesday is independent and unchanged. No global fatigue/return protocol starts or clears. Preserve all local injury limits, lift actuals, exposure counts, shoe mileage and completed-session totals.
+
+W3 stays **six completed sessions,65 lifting sets,30 run work minutes,9.44 confirmed miles,20:25 cycling and20:00 rowing** until Sunday is logged. Stage C remains achieved, last-tolerated B and W3 manageable status remain unchanged; this request cannot advance to D. Update current-day block/recovery planning, daily and week caches together, show November8 same-slot actuals alongside logging, and publish.
