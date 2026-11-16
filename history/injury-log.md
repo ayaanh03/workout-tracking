@@ -249,3 +249,11 @@ Sunday’s full **17sets** are completed within rep/effort limits, including BWd
 Ask once whether unusual fatigue settled and the Achilles/original ab site stayed comfortable. This is targeted follow-up after the recent adverse-recovery report and heavier calf work. It does not block logging or normal Monday generation. Keep BW/max2sets/≥3RIR and all other local restrictions; no added ab weight or new local clearance.
 
 W3 actual work is complete; its manageable-week review remains pending this clarification. Generate Monday’s normal18-setStageC preview using the standing recovery assumption for ordinary planning, with no heavy single or final0–1 work until D eligibility is resolved. No new global-fatigue flag, mandatory extra StageC week, fixed recovery wait, return protocol or change to Saturday’s no-count result. Decision#494.
+
+## 2026-11-16 — very good recovery and Stage D review
+
+Athlete requests today’s workout and reports **“Recovery is very good.”** Record observed self-reported current Monday general readiness and next-day general recovery after Sunday’s full 17-set leg session. This resolves the pending general-fatigue component of the November 15 follow-up. No new numeric recovery score, sleep duration, HR/HRV reading or claim of normalized wearable metrics is supplied.
+
+Review completed W3 performance together with this recovery report as manageable and authorize Stage C→D today. General recovery does not specifically answer during/after or next-morning ab/Achilles comfort; retain those unknowns and the local BW/max-two-set/minimum-3-RIR ab limits. The older Friday elbow question also remains unanswered. Its absence does not establish worsening symptoms or recreate the previously released broad biceps hold. No local injury clearance is inferred.
+
+No global-fatigue or return protocol is active. Preserve Saturday’s actual poor-readiness context and no-count run classification; Monday’s good recovery does not retroactively turn that run into a hit. Generate today’s Stage D Upper A with the eligible W4 incline single and existing exercise replacements. Decision #495.

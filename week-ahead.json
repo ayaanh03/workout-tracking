@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-11-15T18:41:00-05:00",
+  "generatedAt": "2026-11-16T15:04:18-05:00",
   "blockId": "hybrid-2026-10-26",
-  "preview": true,
+  "preview": false,
   "week": "W4",
-  "phase": "Hybrid v11 — Stage C; week review pending",
+  "phase": "Hybrid v11 — Stage D",
   "rangeStart": "2026-11-16",
   "rangeEnd": "2026-11-22",
-  "summary": "W4 preview, November 16–22. Monday has a prepared 18-set Upper A workout at Stage C effort while the targeted recovery review is pending. W3 is complete: 82 lifting sets, 30 run work minutes, 9.44 confirmed running miles, 20:25 cycling and 20:00 rowing. Friday lifting and Saturday running remain the standing schedule. Later exact prescriptions will use the latest logs and readiness.",
+  "summary": "W4, November 16–22: Stage D begins after completed W3 and your very good recovery report. Monday keeps 18 effective sets with the W4 incline single and eligible final sets at 0–1 RIR. Bodyweight-ab and other local limits remain. Friday lifting and Saturday running stay in place; no early running test or endurance increase is selected here.",
   "days": [
     {
       "date": "2026-11-16",
       "day": "Mon",
-      "session": "Upper A — preview",
-      "status": "upcoming",
-      "note": "18 sets: incline 145 lb top + 135 lb back-offs; curl 22.5; laterals 35; pushdown 50; pulldown 160; BW abs; row 70. Stage C effort; W4 single and Stage D pending targeted review."
+      "session": "Upper A + incline single",
+      "status": "today",
+      "note": "18 working sets. Incline 170×1 at 1–2 RIR (175×1 only if 170 is clearly ≥3 RIR), then 135 lb back-offs 2×6–8. Final curl/lateral/pushdown sets at 0–1 RIR; other targets and BW-ab limits shown above."
     },
     {
       "date": "2026-11-17",
@@ -27,21 +27,21 @@
       "day": "Wed",
       "session": "Delts/arms A + bike",
       "status": "upcoming",
-      "note": "Current Stage C allocation pending latest review; bike 20 min after lifting. Wednesday calves remain independent at 365 lb; Sunday’s 380 lb does not transfer."
+      "note": "Stage D, with existing local limits; bike 20 minutes after lifting. Wednesday calves remain independent at 365 lb. No early running test selected and no calf omission."
     },
     {
       "date": "2026-11-19",
       "day": "Thu",
       "session": "Upper B",
       "status": "upcoming",
-      "note": "Current 20-set effective allocation; standard cable curls remain replaced by unilateral machine preacher. BW abs capped at 2 sets."
+      "note": "20 effective sets at Stage D, subject to local limits. Thursday machine preacher retains its minimum 3 RIR restriction; BW abs stay capped at two sets."
     },
     {
       "date": "2026-11-20",
       "day": "Fri",
       "session": "Delts/arms B + bike",
       "status": "upcoming",
-      "note": "Current 13-set allocation including one set per forearm; bike 20 min after lifting. Prior rowing was a logged substitution, not a permanent replacement."
+      "note": "13 effective sets including one set per forearm; keep cautious forearm effort at ≥4 RIR. Bike 20 minutes after lifting. The prior rowing session remains a logged substitution."
     },
     {
       "date": "2026-11-21",
@@ -55,7 +55,7 @@
       "day": "Sun",
       "session": "Legs, bodyweight abs + calves",
       "status": "upcoming",
-      "note": "Current 17-set effective allocation; retain latest Sunday working references subject to symptoms and review. Hack 135 lb is a starting calibration, not a validated full three-set dose."
+      "note": "17 effective sets at Stage D, subject to ab/Achilles limits. Sunday working references are retained; hack 135 lb remains a starting calibration with only one set demonstrated."
     }
   ]
 }

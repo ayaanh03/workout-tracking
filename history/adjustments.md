@@ -836,3 +836,26 @@ Generate **MondayNovember16 — UpperA, preview**, `hybrid-2026-10-26-mon-upper-
 Same-slotNov9actuals: incline145×6+135×8/8RIR3; curl22.5×11/10RIR3; laterals35×12/12/12/12RIR3/3/3/2; push50×12/12/11RIR3/2/2; lat160×8/8RIR3; BW15/15RIR5/3; row70×8/8RIR3. These support the held loads; StageC rep ceilings do not earn ordinary load awards. Friday’s27.5curl does not transfer into Monday’s independent slot. No near-failure work or W4heavy single in this preview because normalD eligibility is pending. Preserve its opportunity for review before training rather than declaring a make-up date.
 
 Live calendar remains SundayNov15/W3; next workout/week caches honestly show futureMondayNov16/W4 and upcoming days. Save Sunday in lifting history; no future completion, new run award, shoe mileage or bike dose change. Publish state, actuals and caches together.
+
+## 2026-11-16 — Stage D Upper A and W4 incline single
+
+495. Athlete requests today’s workout and reports **“Recovery is very good.”** Today is **Monday November 16, America/New_York, W4**. Review completed W3: all seven sessions and **82 lifting sets**, including Sunday’s full 17 sets within rep/effort limits. The current report resolves the pending general-fatigue concern; review W3 manageable and advance **C→D**, with last-tolerated stage C. Preserve the earlier poor-sleep/low-score evidence and all actuals. General recovery does not establish specific ab/Achilles/elbow responses, clear the ab-loading gate, or retroactively award Saturday’s no-count run. No global fatigue or return protocol was active.
+
+Supersede unperformed preview `hybrid-2026-10-26-mon-upper-a-494` with current-day `hybrid-2026-10-26-mon-upper-a-495`, **Upper A + incline single**, **18 effective working sets**:
+
+| Slot | Exercise | Load | Sets × reps | RIR | Rest |
+|---|---|---|---|---|---|
+| M1a | Incline barbell bench — heavy single | 170 lb | 1×1 | 1–2 | 3–4 min |
+| M1b | Incline barbell bench — back-offs | 135 lb | 2×6–8 | 2–3 | 3–4 min |
+| M2 | Incline DB curl | 22.5 lb | 2×8–12 | 1–2, then 0–1 | 2 min |
+| M3 | DB lateral raise | 35 lb | 4×12–20 | Sets 1–3: 1–2; final: 0–1 | 2 min |
+| M4 | Cable pushdown | 50 lb | 3×10–15 | Sets 1–2: 2; final: 0–1 | 2 min |
+| M5 | Lat pulldown | 160 lb | 2×8–12 | About 2 | 2–3 min |
+| M6 | Decline crunch — bodyweight | BW | 2×10–15 | ≥3 | 2 min |
+| M7 | Chest-supported row | 70 lb | 2×8–12 | About 2 | 2–3 min |
+
+**Single basis:** November 9 M1a **145×6 at RIR 3** gives `145 × [1 + (6+3)/30] = 188.5 lb` estimated 1RM; `188.5/1.1 = 171.3636…`, rounded down to **170 lb**. Apply [W4 single rules](../program/lift-progression.md#heavy-single) now that normal D is earned, with no active fatigue/return restriction or reported relevant worsening symptoms. Prepare with **bar (45 lb)×10, 85×5, 120×3, 145×1**; warm-up response may lower the single. If 170×1 is **clearly ≥3 RIR**, perform **one further 175×1**, then stop. Target 1–2 RIR. Log every heavy exposure; if both are performed, the first is preparatory and only the final single counts as the working set. Keep the same incline setup. The single replaces only M1a; normal 145 lb/4–6-rep state remains intact, and no single is marked completed.
+
+**Other loads:** November 9 M1b135×8/8; M2 22.5×11/10; M3 35×12/12/12/12; M4 50×12/12/11; M5 160×8/8; M6 BW15/15; M7 70×8/8. These support holding established same-slot loads as effort changes. Back-offs remain135 on single days. Stage C work cannot earn retrospective loading/qualification credit; retain zero counters and establish future normal-stage evidence from performed D work. Only the final M2/M3/M4 sets receive 0–1 targets, with rep ceilings retained. The broad elbow maintenance hold was previously released; unknown Friday symptom details alone do not recreate it. Preserve ongoing overhead/cable-curl substitutions and adjust any aggravating work.
+
+Resolve the general-recovery portion of the Sunday follow-up while retaining unknown local responses and BW/max-two-set/minimum-3-RIR abs. The Thursday preacher minimum-3-RIR and cautious forearm limits persist separately. No new run dose, early test, bike increase, shoe mileage or completed session. Mark Monday today and later dates upcoming; update current state, stage evidence, exact prescription and dashboard together and publish.
