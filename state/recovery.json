@@ -44,11 +44,11 @@
       "response_status": "latest-bodyweight-exposure-response-unreported",
       "progression_limit": "No added weight, extra sets or baseline cable/hanging-raise restoration while original-site symptoms remain. Bodyweight work is permitted only if comfortable; stop or reduce aggravating work rather than continuing until the sensation fades. Reconsider a small loaded trial after a BW exposure is comfortable during/after and the next morning, with a fresh loading review.",
       "last_exposure": {
-        "date": "2026-11-15",
-        "session_id": "hybrid-2026-10-26-w3-sun-2026-11-15",
-        "slot": "L1 temporary substitute",
+        "date": "2026-11-16",
+        "session_id": "hybrid-2026-10-26-w4-mon-2026-11-16",
+        "slot": "M6 temporary substitute",
         "exercise": "Decline crunch — bodyweight",
-        "source": "../history/lifting-log.md#2026-11-15--hybrid-v11-w3-sunday-legs",
+        "source": "../history/lifting-log.md#2026-11-16--hybrid-v11-w4-monday-upper-a-single",
         "load": "BW",
         "external_load_lb": 0,
         "sets": 2,
@@ -58,7 +58,7 @@
         ],
         "rir": [
           5,
-          4
+          5
         ],
         "symptom_response": null,
         "next_morning_response": null
@@ -249,6 +249,26 @@
           "rir": [
             3,
             3
+          ],
+          "symptom_response": null,
+          "next_morning_response": null
+        },
+        {
+          "date": "2026-11-15",
+          "session_id": "hybrid-2026-10-26-w3-sun-2026-11-15",
+          "slot": "L1 temporary substitute",
+          "exercise": "Decline crunch — bodyweight",
+          "source": "../history/lifting-log.md#2026-11-15--hybrid-v11-w3-sunday-legs",
+          "load": "BW",
+          "external_load_lb": 0,
+          "sets": 2,
+          "reps": [
+            15,
+            15
+          ],
+          "rir": [
+            5,
+            4
           ],
           "symptom_response": null,
           "next_morning_response": null
@@ -758,10 +778,10 @@
       "id": "ab-loading-review",
       "reported_on": "2026-10-24",
       "status": "awaiting-next-morning-response-and-review",
-      "blocks": "November 15 BW decline crunch 15/15 at RIR 5/4 is recorded. Specific symptom response, next-morning response and a fresh loading review remain unreported; keep BW only, maximum two sets and minimum 3 RIR.",
+      "blocks": "November 16 BW decline crunch 15/15 at RIR 5/5 is recorded. Specific symptom response, next-morning response and fresh loading review remain unreported; keep BW only, maximum two sets and minimum 3 RIR.",
       "review_requested_on": "2026-11-01",
-      "decision_id": 494,
-      "reviewed_on": "2026-11-15"
+      "decision_id": 496,
+      "reviewed_on": "2026-11-16"
     }
   ],
   "global_fatigue": null,
@@ -816,16 +836,18 @@
     }
   ],
   "post_session": {
-    "date": "2026-11-15",
-    "session_id": "hybrid-2026-10-26-w3-sun-2026-11-15",
+    "date": "2026-11-16",
+    "session_id": "hybrid-2026-10-26-w4-mon-2026-11-16",
     "completion": "reported",
-    "decision_id": 494,
-    "status": "completed-next-day-general-recovery-good-local-responses-unreported",
-    "working_sets": 17,
+    "working_sets": 18,
+    "decision_id": 496,
+    "status": "completed-general-recovery-assumed-local-responses-unreported",
     "elbow_response": null,
+    "shoulder_response": null,
     "lower_ab_response": null,
     "achilles_response": null,
-    "next_day_recovery": {
+    "next_day_recovery": null,
+    "pre_session_general_recovery": {
       "reported_on": "2026-11-16",
       "reported_at": "2026-11-16T15:04:18-05:00",
       "report": "Recovery is very good",
@@ -837,37 +859,14 @@
       "numeric_metrics": null
     },
     "recovery_decision": {
-      "status": "observed-good",
-      "decision_id": 495,
-      "recorded_at": "2026-11-16T15:04:18-05:00",
-      "reported_on": "2026-11-16",
-      "observed": true,
-      "observation_type": "athlete-self-report",
-      "report": "Recovery is very good",
-      "source": "../history/injury-log.md#2026-11-16--very-good-recovery-and-stage-d-review",
-      "reason": "Explicit very-good recovery the day after the completed full Stage C leg dose resolves the acute general-readiness concern. This is self-report, not a wearable measurement or site-specific symptom clearance."
+      "status": "assumed-good",
+      "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+      "decision_id": 496,
+      "recorded_at": "2026-11-16T20:13:31-05:00",
+      "observed": false,
+      "reason": "Standing athlete default supplies routine post-session recovery and Tuesday readiness. Monday pre-session general recovery was explicitly very good; the log reports no new adverse change. Specific during/after symptoms and actual next-day recovery remain unreported."
     },
-    "note": "All 17 sets met rep/effort limits. November 16 very-good general recovery resolves the week-tolerance concern. Local ab/Achilles/elbow responses remain unknown; no injury-loading clearance is inferred.",
-    "recovery_decision_history": [
-      {
-        "status": "assumed-good-for-normal-session-stage-review-pending",
-        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-        "decision_id": 494,
-        "recorded_at": "2026-11-15T18:41:00-05:00",
-        "for_date": "2026-11-16",
-        "observed": false,
-        "reason": "The athlete requested normal Sunday evening training and completed the full dose at the intended reserve. Use the standing assumption for Monday normal-volume planning. The recent reported sleep deprivation and low-score context still need the targeted tolerance review before Stage D or heavy-single eligibility is established.",
-        "scope": "Planning assumption only; no normalized HR, observed next-day recovery or new injury clearance."
-      }
-    ],
-    "recovery_followup": {
-      "reported_on": "2026-11-16",
-      "recorded_at": "2026-11-16T15:04:18-05:00",
-      "decision_id": 495,
-      "report": "Recovery is very good",
-      "source": "../history/injury-log.md#2026-11-16--very-good-recovery-and-stage-d-review",
-      "scope": "Resolves general recovery only. During/after and next-morning ab/Achilles comfort were not specifically answered."
-    }
+    "note": "First W4single170×1RIR1 and first StageD Monday finals are recorded. Ask once about elbows/shoulders during and after these exposures; no symptom recurrence, injury clearance or normalized measurements are inferred."
   },
   "prior_pending_post_sessions": [
     {
@@ -1004,6 +1003,60 @@
         "final_rep_rpe": 7,
         "source": "../history/cardio-log.md#2026-11-14--saturday-distance-and-effort-confirmed",
         "scope": "Confirms completed distance and all three work-rep RPEs. Does not revise the same-day poor-recovery report or provide a new recovery update."
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "session_id": "hybrid-2026-10-26-w3-sun-2026-11-15",
+      "completion": "reported",
+      "decision_id": 494,
+      "status": "completed-next-day-general-recovery-good-local-responses-unreported",
+      "working_sets": 17,
+      "elbow_response": null,
+      "lower_ab_response": null,
+      "achilles_response": null,
+      "next_day_recovery": {
+        "reported_on": "2026-11-16",
+        "reported_at": "2026-11-16T15:04:18-05:00",
+        "report": "Recovery is very good",
+        "status": "good",
+        "provenance": "athlete current-day general recovery report",
+        "decision_id": 495,
+        "source": "../history/injury-log.md#2026-11-16--very-good-recovery-and-stage-d-review",
+        "scope": "Current Monday general readiness and next-day general recovery after Sunday’s completed leg session. Resolves the pending general fatigue review; does not specify ab/Achilles/elbow responses, sleep hours, wearable score or HR normalization.",
+        "numeric_metrics": null
+      },
+      "recovery_decision": {
+        "status": "observed-good",
+        "decision_id": 495,
+        "recorded_at": "2026-11-16T15:04:18-05:00",
+        "reported_on": "2026-11-16",
+        "observed": true,
+        "observation_type": "athlete-self-report",
+        "report": "Recovery is very good",
+        "source": "../history/injury-log.md#2026-11-16--very-good-recovery-and-stage-d-review",
+        "reason": "Explicit very-good recovery the day after the completed full Stage C leg dose resolves the acute general-readiness concern. This is self-report, not a wearable measurement or site-specific symptom clearance."
+      },
+      "note": "All 17 sets met rep/effort limits. November 16 very-good general recovery resolves the week-tolerance concern. Local ab/Achilles/elbow responses remain unknown; no injury-loading clearance is inferred.",
+      "recovery_decision_history": [
+        {
+          "status": "assumed-good-for-normal-session-stage-review-pending",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 494,
+          "recorded_at": "2026-11-15T18:41:00-05:00",
+          "for_date": "2026-11-16",
+          "observed": false,
+          "reason": "The athlete requested normal Sunday evening training and completed the full dose at the intended reserve. Use the standing assumption for Monday normal-volume planning. The recent reported sleep deprivation and low-score context still need the targeted tolerance review before Stage D or heavy-single eligibility is established.",
+          "scope": "Planning assumption only; no normalized HR, observed next-day recovery or new injury clearance."
+        }
+      ],
+      "recovery_followup": {
+        "reported_on": "2026-11-16",
+        "recorded_at": "2026-11-16T15:04:18-05:00",
+        "decision_id": 495,
+        "report": "Recovery is very good",
+        "source": "../history/injury-log.md#2026-11-16--very-good-recovery-and-stage-d-review",
+        "scope": "Resolves general recovery only. During/after and next-morning ab/Achilles comfort were not specifically answered."
       }
     }
   ],
@@ -1412,17 +1465,13 @@
     "source": "../program/readiness.md"
   },
   "planning_readiness": {
-    "status": "reported-good-stage-d-authorized",
-    "decision_id": 495,
-    "recorded_at": "2026-11-16T15:04:18-05:00",
-    "reported_on": "2026-11-16",
-    "observed": true,
-    "observation_type": "athlete-self-report",
-    "report": "Recovery is very good",
-    "source": "../history/injury-log.md#2026-11-16--very-good-recovery-and-stage-d-review",
-    "reason": "Explicit very-good recovery the day after the completed full Stage C leg dose resolves the acute general-readiness concern. This is self-report, not a wearable measurement or site-specific symptom clearance.",
-    "for_date": "2026-11-16",
-    "scope": "Current-day Upper A planning after completed-week review; preserve all independent local limits and unreported symptom details."
+    "status": "assumed-good",
+    "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+    "decision_id": 496,
+    "recorded_at": "2026-11-16T20:13:31-05:00",
+    "observed": false,
+    "reason": "Standing athlete default supplies routine post-session recovery and Tuesday readiness. Monday pre-session general recovery was explicitly very good; the log reports no new adverse change. Specific during/after symptoms and actual next-day recovery remain unreported.",
+    "for_date": "2026-11-17"
   },
   "general_readiness_history": [
     {
@@ -1551,6 +1600,14 @@
         "Original ab-strain response during/after Sunday crunches",
         "Specific next-morning ab/Achilles response"
       ]
+    },
+    {
+      "session_id": "hybrid-2026-10-26-w4-mon-2026-11-16",
+      "date": "2026-11-16",
+      "decision_id": 496,
+      "status": "first-single-and-stage-d-arm-response-unreported",
+      "question": "Did your elbows and shoulders stay comfortable during and after the 170 lb single and the final curl/pushdown sets?",
+      "scope": "Targeted response to the first recorded W4single and near-failure arm work. Preserve any W9single/local-loading implications; missing response alone does not establish an injury, recreate the released biceps hold or block Tuesday running."
     }
   ],
   "resolved_log_details": [
@@ -1626,6 +1683,19 @@
       "observed": false,
       "reason": "The athlete requested normal Sunday evening training and completed the full dose at the intended reserve. Use the standing assumption for Monday normal-volume planning. The recent reported sleep deprivation and low-score context still need the targeted tolerance review before Stage D or heavy-single eligibility is established.",
       "scope": "Planning assumption only; no normalized HR, observed next-day recovery or new injury clearance."
+    },
+    {
+      "status": "reported-good-stage-d-authorized",
+      "decision_id": 495,
+      "recorded_at": "2026-11-16T15:04:18-05:00",
+      "reported_on": "2026-11-16",
+      "observed": true,
+      "observation_type": "athlete-self-report",
+      "report": "Recovery is very good",
+      "source": "../history/injury-log.md#2026-11-16--very-good-recovery-and-stage-d-review",
+      "reason": "Explicit very-good recovery the day after the completed full Stage C leg dose resolves the acute general-readiness concern. This is self-report, not a wearable measurement or site-specific symptom clearance.",
+      "for_date": "2026-11-16",
+      "scope": "Current-day Upper A planning after completed-week review; preserve all independent local limits and unreported symptom details."
     }
   ],
   "recovery_override_history": [

@@ -1,0 +1,13 @@
+# W4 Tuesday preview — decision 496. 38 minutes planned; final-rep RPE <=8.
+# Prepared November 16 for November 17 under the standing recovery default.
+# Hold 6:40/mi and 12 work minutes: November 10 was hit 1 at final RPE 8.
+# Recoveries between reps only. Easy sections have no pace alert.
+# Warmup may extend by up to 5 minutes if needed; mileage allowance includes it.
+# Alerts guide pacing; faster reps can qualify under the progression rule.
+name: W4 Tue 3x4 - Nov 17
+warmup: 10:00
+repeat 2
+  work: 4:00 @ current 6:35-6:45/mi
+  recovery: 3:00
+work: 4:00 @ current 6:35-6:45/mi
+cooldown: 10:00

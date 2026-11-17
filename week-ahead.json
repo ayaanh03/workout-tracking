@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-11-16T15:04:18-05:00",
+  "generatedAt": "2026-11-16T20:13:31-05:00",
   "blockId": "hybrid-2026-10-26",
-  "preview": false,
+  "preview": true,
   "week": "W4",
   "phase": "Hybrid v11 — Stage D",
   "rangeStart": "2026-11-16",
   "rangeEnd": "2026-11-22",
-  "summary": "W4, November 16–22: Stage D begins after completed W3 and your very good recovery report. Monday keeps 18 effective sets with the W4 incline single and eligible final sets at 0–1 RIR. Bodyweight-ab and other local limits remain. Friday lifting and Saturday running stay in place; no early running test or endurance increase is selected here.",
+  "summary": "W4, November 16–22: Monday completed with 18 Stage D sets, including 170×1 at RIR 1. Tuesday’s preview holds 3×4 at 6:40/mile. Back-offs earned the next smallest load increase; other working loads stay held. Planned full-week running remains below 15 miles. Friday lifting and Saturday running stay in place.",
   "days": [
     {
       "date": "2026-11-16",
       "day": "Mon",
       "session": "Upper A + incline single",
-      "status": "today",
-      "note": "18 working sets. Incline 170×1 at 1–2 RIR (175×1 only if 170 is clearly ≥3 RIR), then 135 lb back-offs 2×6–8. Final curl/lateral/pushdown sets at 0–1 RIR; other targets and BW-ab limits shown above."
+      "status": "done",
+      "note": "18 sets logged: single 170×1 RIR 1; back-offs 135×8/8; curl 22.5×12/11; laterals 35×14/14/12/12; pushdown 50×12/10/10; pulldown 160×8/8; BW abs 15/15; row 70×10/8. Full RIR values in history. Back-offs qualify for the next smallest increase."
     },
     {
       "date": "2026-11-17",
       "day": "Tue",
-      "session": "Intervals",
+      "session": "Intervals — preview",
       "status": "upcoming",
-      "note": "Current independent reference: 3×4 min at 6:40/mi, final RPE ≤8. November 10 earned the first hit; no new speed award. Exact brief and Watch file on generation."
+      "note": "10-minute easy warm-up, 3×4 minutes at 6:40/mile, two 3-minute easy recoveries, 10-minute cooldown. 38 minutes total, final RPE ≤8. Watch file prepared; one prior hit earns no increase yet."
     },
     {
       "date": "2026-11-18",
@@ -57,5 +57,16 @@
       "status": "upcoming",
       "note": "17 effective sets at Stage D, subject to ab/Achilles limits. Sunday working references are retained; hack 135 lb remains a starting calibration with only one set demonstrated."
     }
-  ]
+  ],
+  "runningMileageCheck": {
+    "decisionId": 496,
+    "kind": "planned-full-week",
+    "recordedMiles": 0,
+    "estimatedMiles": 10.193980848153213,
+    "upperMiles": 11.422784810126583,
+    "limitMiles": 15,
+    "status": "planned-below-limit",
+    "assumptions": "Tuesday 12 work minutes at 6:40 plus 26 easy minutes; Saturday 18 work minutes at 7:10 plus 24 easy minutes. Easy portions budgeted at 8:30/mile. Upper uses the fast edge of each Watch band plus five extra warm-up minutes per run. No actual miles or shoe totals added.",
+    "source": "state/running.json"
+  }
 }

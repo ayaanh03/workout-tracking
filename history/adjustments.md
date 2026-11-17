@@ -859,3 +859,25 @@ Supersede unperformed preview `hybrid-2026-10-26-mon-upper-a-494` with current-d
 **Other loads:** November 9 M1b135×8/8; M2 22.5×11/10; M3 35×12/12/12/12; M4 50×12/12/11; M5 160×8/8; M6 BW15/15; M7 70×8/8. These support holding established same-slot loads as effort changes. Back-offs remain135 on single days. Stage C work cannot earn retrospective loading/qualification credit; retain zero counters and establish future normal-stage evidence from performed D work. Only the final M2/M3/M4 sets receive 0–1 targets, with rep ceilings retained. The broad elbow maintenance hold was previously released; unknown Friday symptom details alone do not recreate it. Preserve ongoing overhead/cable-curl substitutions and adjust any aggravating work.
 
 Resolve the general-recovery portion of the Sunday follow-up while retaining unknown local responses and BW/max-two-set/minimum-3-RIR abs. The Thursday preacher minimum-3-RIR and cautious forearm limits persist separately. No new run dose, early test, bike increase, shoe mileage or completed session. Mark Monday today and later dates upcoming; update current state, stage evidence, exact prescription and dashboard together and publish.
+
+## 2026-11-16 — log Monday and generate Tuesday
+
+496. Log `hybrid-2026-10-26-w4-mon-2026-11-16` against original `hybrid-2026-10-26-mon-upper-a-495`, **18 Stage D working sets**. Preserve actuals: single170×1RIR1; back-offs135×8/8RIR3/2; curl22.5×12/11RIR3/0; laterals35×14/14/12/12RIR2/1/2/1; pushdown50×12/10/10RIR2/2/0; pulldown160×8/8RIR2; BWabs15/15RIR5/5; row70×10/8RIR2. Extra reserve on the first curl and abs remains literal, as do RIR0 finals. No optional175 single or preparatory sets are invented.
+
+The **170×1 at RIR1** meets the single target and is stored as a separate heavy exposure. The conditional second attempt required ≥3RIR, so it was not called for. Preserve ordinary M1a145×6RIR3 history, load and progression separately. Raw M1a exposures total4: three ordinary and one single; no ordinary top-set credit from this exposure. All other reported Monday slots increment raw exposures once. No old ramp credit or unmatched-RIR decline comparisons transfer into normal-D evidence.
+
+**M1b earns progression:** both135lb back-offs reached8 withRIR3/2, satisfying the normal-D rule. Next same-slot load is the smallest increment: **137.5lb if +2.5lb total is available; otherwise140lb if +5lb is smallest**. Store the award without treating a higher load as performed or raising the separate top/Thursday slots. Other loaded slots did not reach their ceiling on every set; hold22.5/35/50/160/70 and build reps. BW-ab limits remain independent despite reaching15/15 with reserve. Preserve unknown local responses; targeted single/arm-comfort question asked once, without blocking normal running.
+
+Generate **Tuesday November17 — Intervals, preview**, `hybrid-2026-10-26-tue-intervals-496`:
+
+- **10 minutes easy warm-up**, up to5 additional minutes if needed;8:30–9:30/mile is a guide, slower is fine.
+- **3×4 minutes at6:40/mile**.
+- **3 minutes easy jog/walk between reps only**, two recoveries.
+- **10 minutes easy cooldown**.
+- **38 minutes total,12 work minutes; final-rep RPE≤8.** Watch alerts6:35–6:45/mile guide pacing; faster reps can qualify when the other requirements pass. No easy-section HR/pace alerts.
+
+November10 actuals6:44/6:35/6:31,RPE7/8/8 qualify the first hit at6:40 but have no all-rep headroom, comfortable-effort award or second ordinary hit. Hold pace and minutes under [run progression](../program/run-progression.md); W4’s ceiling is not automatic progression. Preserve all run actuals/counters, source-use history, Saturday’s independent7:10/3×6 reference and its November14 no-count. No early running test or new return restriction. Routine Tuesday recovery uses the standing assumption; Monday’s earlier very-good report is not an invented post-session or next-day observation.
+
+Complete planned W4 mileage is **10.193980848153213mi**, upper **11.422784810126583mi**, below15. Include Tuesday12work minutes at6:40 plus26easy minutes and Saturday18work minutes at7:10 plus24easy minutes, easy budget8:30/mile. Upper uses6:35/7:05 work bands and five extra warm-up minutes per run. These are plans, not actual miles or shoe additions. Save and decode-check `runs/2026-11-17.workout`.
+
+W4 has **one completed session and18lifting sets**; no completed running, bike or row work yet. Live calendar remains MondayNovember16/NewYork despite UTC beingNovember17. Tuesday is an upcoming preview, not today or completed. Update current state, dated actuals, lifting history and daily/week caches together and publish.

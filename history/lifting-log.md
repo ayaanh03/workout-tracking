@@ -311,3 +311,26 @@ All 17 reported sets meet their rep ranges and effort limits, with extra reserve
 Hack squat's **95/115/135 lb** sequence comprises three reported working sets. Retain **135 lb as a demonstrated single-set reference**, not a validated three-set load. At the next eligible exposure, 135 lb is a starting calibration for 3×6–10 at 2–3 RIR; reduce if later sets cannot meet the rep floor and effort target. Do not relabel the earlier sets as warmups or claim 3×135 was completed.
 
 Hold back extension at25 lb. Bodyweight decline15/15 at RIR5/4 does not clear the ab-loading restriction; keep BW/max2 sets/minimum3 RIR until its separate review. No fresh ab/Achilles response, equipment change or observed next-day recovery is supplied. Each Sunday slot (L1 temporary substitute and L2–L6) gains its fourth raw exposure once; Stage-C work earns no ordinary loading/qualification/plateau credit. Decision #494.
+
+## 2026-11-16 — Hybrid v11 W4 Monday Upper A single
+
+Session `hybrid-2026-10-26-w4-mon-2026-11-16`, original prescription `hybrid-2026-10-26-mon-upper-a-495`, **Stage D**, **18 working sets**.
+
+| Slot | Exercise | Original prescription | Actual sets: load × reps, RIR |
+|---|---|---|---|
+| M1a | Incline barbell bench — heavy single | 170 lb, 1×1, RIR 1–2; rest 3–4 min | 170×1, RIR 1 |
+| M1b | Incline barbell bench — back-offs | 135 lb, 2×6–8, RIR 2–3; rest 3–4 min | 135×8, RIR 3 / 135×8, RIR 2 |
+| M2 | Incline DB curl | 22.5 lb, 2×8–12, RIR 1–2 then 0–1; rest 2 min | 22.5×12, RIR 3 / 22.5×11, RIR 0 |
+| M3 | DB lateral raise | 35 lb, 4×12–20, RIR 1–2 on sets 1–3 then 0–1; rest 2 min | 35×14, RIR 2 / 35×14, RIR 1 / 35×12, RIR 2 / 35×12, RIR 1 |
+| M4 | Cable pushdown | 50 lb, 3×10–15, RIR 2/2/0–1; rest 2 min | 50×12, RIR 2 / 50×10, RIR 2 / 50×10, RIR 0 |
+| M5 | Lat pulldown | 160 lb, 2×8–12, RIR 2; rest 2–3 min | 160×8, RIR 2 / 160×8, RIR 2 |
+| M6 | Decline crunch — bodyweight | BW, 2×10–15, RIR ≥3; rest 2 min | BW×15, RIR 5 / BW×15, RIR 5 |
+| M7 | Chest-supported row | 70 lb, 2×8–12, RIR 2; rest 2–3 min | 70×10, RIR 2 / 70×8, RIR 2 |
+
+The only reported heavy exposure is **170×1 at RIR 1**, meeting the single target. The condition for an additional 175 lb single (170 clearly ≥3 RIR) was not met. Do not invent an extra single or warm-up actuals. Save the single separately: estimated 1RM `170 × [1+(1+1)/30] = 181.333… lb` (display181), not a tested maximum or an ordinary plateau/decline comparison with the prior multi-rep estimate. Ordinary M1a **145×6 at RIR 3 on November9** remains its last ordinary actual and load reference; resume ordinary 145 lb for4–6 at about2RIR next Monday unless newer evidence changes it. Raw M1a exposures become4 total:3ordinary,1single; no ordinary qualification credit.
+
+M1b **135×8/8 at RIR3/2** completes the full normal-D dose at the ceiling and earns its smallest available increment. Keep135 as the demonstrated load; queue **137.5 lb if +2.5 lb total is available, otherwise140 if +5 lb is the smallest available**, for the next back-off exposure. Increment availability is unknown; the increase is earned but not yet prescribed/performed. One qualifying exposure; no automatic change to ordinary M1a or Thursday T1.
+
+Curl set1 had **more reserve** than its1–2target (actual3); the final11-rep set atRIR0 did not reach12, so hold22.5. Laterals did not reach20on allsets; pushdowns did not reach15; pulldowns/rows did not reach12on bothsets. Hold35/50/160/70 respectively, with zero qualification. Preserve every final near-failure RIR literally. All rep floors and minimum-reserve limits were met; no persistent decline or extra-set trial is inferred from the first normal-D exposure.
+
+Store first normal-D references for non-single unrestricted slots using the actual first-set effort, with no imported ramp comparisons. M2’s first-setRIR3 is not automatically comparable with later1–2effort; back-off comparisons must consider the preceding single and the pending load change. Raw exposures become4 for M1b/M2/M3/M5/M6substitute/M7 and3 for the replacement M4pushdown. BWabs15/15 atRIR5/5 retain the BW/max-two-set/minimum-3-RIR limit and do not clear loading. No new local symptom or observed next-day recovery report; ordinary recovery uses the standing default. Decision#496.

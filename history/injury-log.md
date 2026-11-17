@@ -257,3 +257,9 @@ Athlete requests today’s workout and reports **“Recovery is very good.”** 
 Review completed W3 performance together with this recovery report as manageable and authorize Stage C→D today. General recovery does not specifically answer during/after or next-morning ab/Achilles comfort; retain those unknowns and the local BW/max-two-set/minimum-3-RIR ab limits. The older Friday elbow question also remains unanswered. Its absence does not establish worsening symptoms or recreate the previously released broad biceps hold. No local injury clearance is inferred.
 
 No global-fatigue or return protocol is active. Preserve Saturday’s actual poor-readiness context and no-count run classification; Monday’s good recovery does not retroactively turn that run into a hit. Generate today’s Stage D Upper A with the eligible W4 incline single and existing exercise replacements. Decision #495.
+
+## 2026-11-16 — Monday single, Stage D arms and bodyweight exposure
+
+Record the completed **170×1 at RIR 1**, first Monday Stage D finals (curl and pushdown each RIR 0), and M6 **BW15/15 at RIR5/5** separately from symptoms. The earlier Monday report of very-good general recovery remains pre-session evidence; during/after elbow, shoulder and ab responses and actual Tuesday recovery are unreported.
+
+Ask once whether elbows/shoulders stayed comfortable during and after the single and final curl/pushdown sets. This informs later local loading and the W9 single review; absence of an answer does not establish aggravation, recreate the released biceps hold or block Tuesday running. Preserve existing ab/Achilles limits, substitutions and prior unanswered details without repeating them. Use the standing good-recovery assumption for ordinary next-session planning; no new injury clearance or observed recovery is invented. Decision #496.

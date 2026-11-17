@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "blockId": "hybrid-2026-10-26",
-  "generatedAt": "2026-11-15T18:38:29-05:00",
+  "generatedAt": "2026-11-16T20:15:15-05:00",
   "sessions": [
     {
       "date": "2026-10-25",
@@ -2201,6 +2201,190 @@
         }
       ],
       "notes": "All 17 reported working sets meet rep and effort limits. Higher-than-prescribed calf, hack-squat, seated-curl and leg-extension loads are preserved literally. Hack squat used three different working loads; only one set was performed at 135 lb. No fresh ab/Achilles symptom response or observed next-day recovery supplied. Stage-C work earns no ordinary progression credit; local ab limits remain."
+    },
+    {
+      "date": "2026-11-16",
+      "week": "W4",
+      "stage": "D",
+      "sessionName": "Upper A + incline single",
+      "sessionId": "hybrid-2026-10-26-w4-mon-2026-11-16",
+      "prescriptionId": "hybrid-2026-10-26-mon-upper-a-495",
+      "actualRef": "history/lifting-log.md#2026-11-16--hybrid-v11-w4-monday-upper-a-single",
+      "exercises": [
+        {
+          "slotId": "M1a",
+          "exercise": "Incline barbell bench — heavy single",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 170,
+              "units": "lb",
+              "reps": 1,
+              "rir": 1
+            }
+          ],
+          "note": "November 16: 170×1 at RIR 1 meets the single target. Only one heavy exposure reported; the ≥3-RIR condition for an additional 175 lb single was not met. Keep ordinary M1a 145 lb/4–6-rep actuals and progression separate."
+        },
+        {
+          "slotId": "M1b",
+          "exercise": "Incline barbell bench — back-offs",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 135,
+              "units": "lb",
+              "reps": 8,
+              "rir": 3
+            },
+            {
+              "load": 135,
+              "units": "lb",
+              "reps": 8,
+              "rir": 2
+            }
+          ],
+          "note": "November 16: 135×8/8 at RIR 3/2 completes both sets at the ceiling. Earn the smallest available increment for the next back-off exposure: 137.5 lb if +2.5 lb total is available; otherwise 140 lb if +5 lb is the smallest available. Availability is unconfirmed; current demonstrated load remains 135 lb."
+        },
+        {
+          "slotId": "M2",
+          "exercise": "Incline DB curl",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 22.5,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 22.5,
+              "units": "lb",
+              "reps": 11,
+              "rir": 0
+            }
+          ],
+          "note": "November 16: 22.5×12/11 at RIR 3/0. First set had more reserve than the 1–2 target; final set met 0–1. Second set did not reach 12, so hold 22.5 lb and award no qualifying exposure."
+        },
+        {
+          "slotId": "M3",
+          "exercise": "DB lateral raise",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 14,
+              "rir": 2
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 14,
+              "rir": 1
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 2
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 1
+            }
+          ],
+          "note": "November 16: 35×14/14/12/12 at RIR 2/1/2/1. All effort limits met, including final 0–1; not all sets reached 20. Hold 35 lb, zero qualifying exposures."
+        },
+        {
+          "slotId": "M4",
+          "exercise": "Cable pushdown",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 12,
+              "rir": 2
+            },
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 10,
+              "rir": 2
+            },
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 10,
+              "rir": 0
+            }
+          ],
+          "note": "November 16: 50×12/10/10 at RIR 2/2/0. Final set meets its 0–1 target; not all sets reached 15. Hold 50 lb, zero qualifying exposures."
+        },
+        {
+          "slotId": "M5",
+          "exercise": "Lat pulldown",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 160,
+              "units": "lb",
+              "reps": 8,
+              "rir": 2
+            },
+            {
+              "load": 160,
+              "units": "lb",
+              "reps": 8,
+              "rir": 2
+            }
+          ],
+          "note": "November 16: 160×8/8 at RIR 2. Full dose meets the rep floor and effort; neither set reached 12. Hold 160 lb."
+        },
+        {
+          "slotId": "M6",
+          "exercise": "Decline crunch — bodyweight",
+          "status": "completed",
+          "sets": [
+            {
+              "load": "BW",
+              "units": "bodyweight",
+              "reps": 15,
+              "rir": 5
+            },
+            {
+              "load": "BW",
+              "units": "bodyweight",
+              "reps": 15,
+              "rir": 5
+            }
+          ],
+          "note": "November 16: BW×15/15 at RIR 5/5. Preserve extra reserve and the bodyweight/max-two-set/minimum-3-RIR limit. No fresh local symptom response or loaded-ab clearance supplied."
+        },
+        {
+          "slotId": "M7",
+          "exercise": "Chest-supported row",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 70,
+              "units": "lb",
+              "reps": 10,
+              "rir": 2
+            },
+            {
+              "load": 70,
+              "units": "lb",
+              "reps": 8,
+              "rir": 2
+            }
+          ],
+          "note": "November 16: 70×10/8 at RIR 2. Full dose in range; not both sets at 12. Hold 70 lb. The previous ramp RIR 3 session is not a normal-D plateau comparison."
+        }
+      ],
+      "notes": "18 working sets reported. The only reported heavy single was 170×1 at RIR 1; do not invent warm-up completion or a 175 lb exposure. Back-offs qualify their next smallest increment. Curl set 1 had extra reserve; all reported rep floors and minimum-reserve limits were met, including prescribed final near-failure sets. No fresh site-specific symptom response supplied."
     }
   ]
 }
