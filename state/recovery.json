@@ -836,37 +836,30 @@
     }
   ],
   "post_session": {
-    "date": "2026-11-16",
-    "session_id": "hybrid-2026-10-26-w4-mon-2026-11-16",
+    "date": "2026-11-17",
+    "session_id": "hybrid-2026-10-26-w4-tue-2026-11-17",
     "completion": "reported",
-    "working_sets": 18,
-    "decision_id": 496,
+    "decision_id": 498,
     "status": "completed-general-recovery-assumed-local-responses-unreported",
+    "work_minutes": 12,
+    "duration_seconds_from_segments": 2292,
+    "distance_miles": 4.38,
+    "classification": "hit",
+    "actual_ref": "../history/cardio-log.md#2026-11-17--hybrid-v11-w4-tuesday-intervals",
     "elbow_response": null,
     "shoulder_response": null,
     "lower_ab_response": null,
     "achilles_response": null,
     "next_day_recovery": null,
-    "pre_session_general_recovery": {
-      "reported_on": "2026-11-16",
-      "reported_at": "2026-11-16T15:04:18-05:00",
-      "report": "Recovery is very good",
-      "status": "good",
-      "provenance": "athlete current-day general recovery report",
-      "decision_id": 495,
-      "source": "../history/injury-log.md#2026-11-16--very-good-recovery-and-stage-d-review",
-      "scope": "Current Monday general readiness and next-day general recovery after Sunday’s completed leg session. Resolves the pending general fatigue review; does not specify ab/Achilles/elbow responses, sleep hours, wearable score or HR normalization.",
-      "numeric_metrics": null
-    },
     "recovery_decision": {
       "status": "assumed-good",
       "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-      "decision_id": 496,
-      "recorded_at": "2026-11-16T20:13:31-05:00",
+      "decision_id": 498,
+      "recorded_at": "2026-11-17T17:53:54-05:00",
       "observed": false,
-      "reason": "Standing athlete default supplies routine post-session recovery and Tuesday readiness. Monday pre-session general recovery was explicitly very good; the log reports no new adverse change. Specific during/after symptoms and actual next-day recovery remain unreported."
+      "reason": "Standing athlete default supplies ordinary post-run recovery and next-workout readiness. Tuesday pace and effort are reported; no new adverse recovery or symptoms were reported. Specific during/after symptoms and observed next-day recovery remain unknown."
     },
-    "note": "First W4single170×1RIR1 and first StageD Monday finals are recorded. Ask once about elbows/shoulders during and after these exposures; no symptom recurrence, injury clearance or normalized measurements are inferred."
+    "note": "Tuesday 3×4 at 6:37/6:30/6:33, RPE 7/8/8 and confirmed 4.38 miles is completed. Ordinary recovery is assumed, not observed. No new site-specific symptoms or next-day response were supplied; Monday’s targeted elbow/shoulder follow-up and other pending details remain preserved. Wednesday is a future preview only."
   },
   "prior_pending_post_sessions": [
     {
@@ -1058,6 +1051,39 @@
         "source": "../history/injury-log.md#2026-11-16--very-good-recovery-and-stage-d-review",
         "scope": "Resolves general recovery only. During/after and next-morning ab/Achilles comfort were not specifically answered."
       }
+    },
+    {
+      "date": "2026-11-16",
+      "session_id": "hybrid-2026-10-26-w4-mon-2026-11-16",
+      "completion": "reported",
+      "working_sets": 18,
+      "decision_id": 496,
+      "status": "completed-general-recovery-assumed-local-responses-unreported",
+      "elbow_response": null,
+      "shoulder_response": null,
+      "lower_ab_response": null,
+      "achilles_response": null,
+      "next_day_recovery": null,
+      "pre_session_general_recovery": {
+        "reported_on": "2026-11-16",
+        "reported_at": "2026-11-16T15:04:18-05:00",
+        "report": "Recovery is very good",
+        "status": "good",
+        "provenance": "athlete current-day general recovery report",
+        "decision_id": 495,
+        "source": "../history/injury-log.md#2026-11-16--very-good-recovery-and-stage-d-review",
+        "scope": "Current Monday general readiness and next-day general recovery after Sunday’s completed leg session. Resolves the pending general fatigue review; does not specify ab/Achilles/elbow responses, sleep hours, wearable score or HR normalization.",
+        "numeric_metrics": null
+      },
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 496,
+        "recorded_at": "2026-11-16T20:13:31-05:00",
+        "observed": false,
+        "reason": "Standing athlete default supplies routine post-session recovery and Tuesday readiness. Monday pre-session general recovery was explicitly very good; the log reports no new adverse change. Specific during/after symptoms and actual next-day recovery remain unreported."
+      },
+      "note": "First W4single170×1RIR1 and first StageD Monday finals are recorded. Ask once about elbows/shoulders during and after these exposures; no symptom recurrence, injury clearance or normalized measurements are inferred."
     }
   ],
   "resolved_post_sessions": [
@@ -1467,11 +1493,11 @@
   "planning_readiness": {
     "status": "assumed-good",
     "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-    "decision_id": 497,
-    "recorded_at": "2026-11-17T16:00:44-05:00",
-    "for_date": "2026-11-17",
+    "decision_id": 498,
+    "recorded_at": "2026-11-17T17:53:54-05:00",
     "observed": false,
-    "reason": "Standing athlete default supplies today’s ordinary readiness. The athlete requests today’s workout without reporting a new adverse change; specific symptoms and observed post-Monday recovery remain unreported."
+    "reason": "Standing athlete default supplies ordinary recovery for the November 18 Wednesday preview. Tuesday’s completed run meets its pace and effort requirements with no new adverse report. The latest observed general-readiness report remains November 16; preserve specific local restrictions and unanswered symptom follow-ups.",
+    "for_date": "2026-11-18"
   },
   "general_readiness_history": [
     {
@@ -1705,6 +1731,15 @@
       "observed": false,
       "reason": "Standing athlete default supplies routine post-session recovery and Tuesday readiness. Monday pre-session general recovery was explicitly very good; the log reports no new adverse change. Specific during/after symptoms and actual next-day recovery remain unreported.",
       "for_date": "2026-11-17"
+    },
+    {
+      "status": "assumed-good",
+      "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+      "decision_id": 497,
+      "recorded_at": "2026-11-17T16:00:44-05:00",
+      "for_date": "2026-11-17",
+      "observed": false,
+      "reason": "Standing athlete default supplies today’s ordinary readiness. The athlete requests today’s workout without reporting a new adverse change; specific symptoms and observed post-Monday recovery remain unreported."
     }
   ],
   "recovery_override_history": [

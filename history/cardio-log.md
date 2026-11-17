@@ -276,3 +276,26 @@ Wednesday bike’s subsequent lifting evidence stays acceptable. Saturday runnin
 For `hybrid-2026-10-26-w3-sat-2026-11-14`, athlete confirms **5.01mi** and **RPE7/7/7**. Original paces7:13/7:06/7:06, interval metrics and prescribed7:10target remain unchanged. FinalRPE7 meets the effort cap, but explicit sleep deprivation/under-recovery still makes this **no-count for progression**; no recovery improvement is implied by the measurement follow-up.
 
 Resolve the pending distance/effort question. Add5.01mi once to the standing sole-current Evo SL pair: **13.78→18.79mi**. W3 confirmed running becomes **4.43+5.01=9.44mi**. Retain the approximate4.99894mi segment sum as provenance; it no longer supplies the total. Sunday’s provisional rest and the recovery review remain unchanged. Decision #492.
+
+## 2026-11-17 — Hybrid v11 W4 Tuesday intervals
+
+Session `hybrid-2026-10-26-w4-tue-2026-11-17`, original prescription `hybrid-2026-10-26-tue-intervals-496`: **10-minute easy warmup, 3×4 minutes at 6:40/mi, two 3-minute easy recoveries, 10-minute cooldown; final-rep RPE cap 8**. Preserve the original Watch prescription. Athlete supplies **RPE 7/8/8** and confirms **4.38 mi**; screenshots supply the interval metrics.
+
+| Segment | Time | Displayed distance | Pace /mi | RPE | Avg HR | Power | Cadence |
+|---|---|---|---|---|---|---|---|
+| Warmup | 10:00 | 1.05 mi | 9:29 | n/r | 148 | 199 W | 174 spm |
+| Work 1 | 4:00 | 0.60 mi | 6:37 | 7 | 182 | 300 W | 188 spm |
+| Recovery 1 | 3:00 | 0.28 mi | 10:27 | n/r | 177 | 193 W | 170 spm |
+| Work 2 | 4:00 | 0.61 mi | 6:30 | 8 | 188 | 312 W | 189 spm |
+| Recovery 2 | 3:00 | 0.29 mi | 10:20 | n/r | 183 | 204 W | 167 spm |
+| Work 3 | 4:00 | 0.61 mi | 6:33 | 8 | 190 | 310 W | 187 spm |
+| Cooldown | 10:00 | 0.92 mi | 10:47 | n/r | 175 | 178 W | 167 spm |
+| Open | 0:12 | 58 ft | 17:51 | n/r | 172 | 147 W | 163 spm |
+
+Confirmed total **4.38 mi**, attributed to **Evo SL** under the standing sole-current-pair report. Rounded mile segments total 4.36 mi plus 58 ft, approximately **4.371 mi**, and do not replace the confirmed total. Displayed interval times sum **38:12 (2,292 seconds)**, including the open segment. Average HR **172 bpm**; zone times **1:20 / 1:19 / 5:44 / 11:28 / 18:14** sum **38:05 (2,285 seconds)**. Preserve the seven-second difference; the chart's upper axis **194** is not a measured maximum HR. Surface, recovery mode, extra rest, current site-specific symptoms and observed next-day recovery remain unreported.
+
+**Ordinary hit 2, misses 0 at 6:40**, using the standing assumed-good recovery policy. Pace offsets **−3/−10/−7 s/mi** all pass the one-sided target-plus-five limit, the full 12 work minutes and both prescribed recoveries are shown, and final RPE 8 meets cap 8. No extra interval rest is reported; unobserved pauses are not asserted absent. November 10 is the preceding comparable hit at the same target, minutes, format and recovery duration. No comfortable tag (final RPE 8 >6).
+
+The ordinary pair earns **one 5-second faster normal-pace candidate: 3×4 at 6:35/mi**. Slowest-rep headroom is only **400−397 =3 seconds**, so the measured-headroom route does not apply; do not combine routes or add work minutes. Keep current normal target **6:40**, hit count 2 and both source sessions unconsumed until an eligible application/reset decision.
+
+**Next Tuesday, November 24, is W5 assessment week:** recovered Options A and B both use **2×4 at current 6:40**, one 3-minute recovery, usual warmup/cooldown, and no progression credit. The earned normal candidate cannot speed up assessment work. At W5 start, save at most this one still-valid unused 5-second step under `program/run-credit.md`; no carried award is formally saved or consumed today. An eligible Option B week can preserve it for the first normal opportunity, subject to recovery/restrictions and the complete future-week 15-mile check. **Any test attempt cancels both run awards**; a representative test replaces targets. No test choice or completed assessment is inferred. Saturday's independent no-count and normal target are unchanged. Decision **#498**.

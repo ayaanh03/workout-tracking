@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-17T16:00:44-05:00",
+  "generatedAt": "2026-11-17T17:54:35-05:00",
   "blockId": "hybrid-2026-10-26",
-  "preview": false,
+  "preview": true,
   "week": "W4",
   "phase": "Hybrid v11 — Stage D",
   "rangeStart": "2026-11-16",
   "rangeEnd": "2026-11-22",
-  "summary": "W4, November 16–22: Monday completed with 18 Stage D sets, including 170×1 at RIR 1. Today’s Tuesday workout holds 3×4 at 6:40/mile. Back-offs earned the next smallest load increase; other working loads stay held. Planned full-week running remains below 15 miles. Friday lifting and Saturday running stay in place.",
+  "summary": "W4, November 16–22: Monday’s 18 Stage D sets and Tuesday’s 4.38-mile run are complete. Wednesday preview: 14 lifting sets plus 25 minutes easy bike. Tuesday earned a 6:35 normal-pace candidate; W5 assessment work retains 6:40. Remaining W4 running keeps the complete week below 15 miles.",
   "days": [
     {
       "date": "2026-11-16",
@@ -19,15 +19,15 @@
       "date": "2026-11-17",
       "day": "Tue",
       "session": "Intervals",
-      "status": "today",
-      "note": "10-minute easy warm-up, 3×4 minutes at 6:40/mile, two 3-minute easy recoveries, 10-minute cooldown. 38 minutes total, final RPE ≤8. Watch file prepared; one prior hit earns no increase yet."
+      "status": "done",
+      "note": "Logged 3×4 at 6:37/6:30/6:33 per mile, RPE 7/8/8; 4.38 miles, 38:12 from intervals. Second qualifying hit at 6:40 earns a 6:35 normal-pace candidate. W5 assessment work stays at 6:40; carry/test rules apply."
     },
     {
       "date": "2026-11-18",
       "day": "Wed",
       "session": "Delts/arms A + bike",
       "status": "upcoming",
-      "note": "Stage D, with existing local limits; bike 20 minutes after lifting. Wednesday calves remain independent at 365 lb. No early running test selected and no calf omission."
+      "note": "Preview: 14 Stage D sets. Laterals 35 lb 4×12–20 at 2–3 RIR; preacher 75 lb 2×8–12/arm at 3; reverse pec deck 145 lb 2×12–20 at 1–2; hammer curl 50 lb 2×10–15 at 3; calves 365 lb 4×10–15 at 1–2. Rest 2 min. Bike 25 min after lifting at RPE 3, acceptable 2–4."
     },
     {
       "date": "2026-11-19",
@@ -59,14 +59,14 @@
     }
   ],
   "runningMileageCheck": {
-    "decisionId": 496,
-    "kind": "planned-full-week",
-    "recordedMiles": 0,
-    "estimatedMiles": 10.193980848153213,
-    "upperMiles": 11.422784810126583,
+    "decisionId": 498,
+    "kind": "actual-plus-planned-remaining-week",
+    "recordedMiles": 4.38,
+    "estimatedMiles": 9.71515731874145,
+    "upperMiles": 10.332941176470587,
     "limitMiles": 15,
-    "status": "planned-below-limit",
-    "assumptions": "Tuesday 12 work minutes at 6:40 plus 26 easy minutes; Saturday 18 work minutes at 7:10 plus 24 easy minutes. Easy portions budgeted at 8:30/mile. Upper uses the fast edge of each Watch band plus five extra warm-up minutes per run. No actual miles or shoe totals added.",
+    "status": "projected-below-limit",
+    "assumptions": "Tuesday actual 4.38 miles plus remaining Saturday 18 work minutes at 7:10/mile and 24 easy minutes budgeted at 8:30/mile. Upper uses Saturday 7:05 work pace and five extra warm-up minutes. No future completed miles or shoe additions.",
     "source": "state/running.json"
   }
 }

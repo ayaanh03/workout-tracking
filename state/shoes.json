@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "as_of": "2026-11-14",
+  "as_of": "2026-11-17",
   "active_shoes": [
     "Evo SL"
   ],
@@ -78,8 +78,8 @@
     "Evo SL": {
       "first_use_on": "2026-11-03",
       "purchased_on": null,
-      "tracked_miles": 18.79,
-      "total_basis": "Confirmed first use November3(4.25mi), November7(5.10mi), November10(4.43mi), and November14(5.01mi):18.79tracked miles. Later shoe attribution uses the standing sole-current-pair report.",
+      "tracked_miles": 23.17,
+      "total_basis": "Confirmed runs: November 3 (4.25 mi), November 7 (5.10), November 10 (4.43), November 14 (5.01), November 17 (4.38) = 23.17 tracked miles. Later shoe attribution uses the standing sole-current-pair report.",
       "additions": [
         {
           "id": "hybrid-2026-10-26-w2-tue-2026-11-03",
@@ -112,11 +112,21 @@
           "decision_id": 492,
           "estimated_miles_from_rounded_segments": 4.998939393939394,
           "note": "Confirmed total replaces pending estimate; added once by session ID."
+        },
+        {
+          "id": "hybrid-2026-10-26-w4-tue-2026-11-17",
+          "date": "2026-11-17",
+          "miles": 4.38,
+          "source": "../history/cardio-log.md#2026-11-17--hybrid-v11-w4-tuesday-intervals",
+          "shoe_basis": "Evo SL remains the standing sole current pair per November 7; athlete confirms this run’s total as 4.38 miles.",
+          "decision_id": 498,
+          "estimated_miles_from_rounded_segments": 4.370984848484849,
+          "note": "Confirmed total added once by session ID; rounded segment sum is retained separately."
         }
       ],
       "unresolved": "No additional mileage reported.",
       "note": "Separate shoe record. Do not transfer mileage or retirement thresholds from the Vomero Plus.",
-      "as_of": "2026-11-14",
+      "as_of": "2026-11-17",
       "pending_additions": []
     }
   },
