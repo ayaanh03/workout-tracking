@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-16T20:13:31-05:00",
+  "generatedAt": "2026-11-17T16:00:44-05:00",
   "blockId": "hybrid-2026-10-26",
-  "preview": true,
+  "preview": false,
   "week": "W4",
   "phase": "Hybrid v11 — Stage D",
   "rangeStart": "2026-11-16",
   "rangeEnd": "2026-11-22",
-  "summary": "W4, November 16–22: Monday completed with 18 Stage D sets, including 170×1 at RIR 1. Tuesday’s preview holds 3×4 at 6:40/mile. Back-offs earned the next smallest load increase; other working loads stay held. Planned full-week running remains below 15 miles. Friday lifting and Saturday running stay in place.",
+  "summary": "W4, November 16–22: Monday completed with 18 Stage D sets, including 170×1 at RIR 1. Today’s Tuesday workout holds 3×4 at 6:40/mile. Back-offs earned the next smallest load increase; other working loads stay held. Planned full-week running remains below 15 miles. Friday lifting and Saturday running stay in place.",
   "days": [
     {
       "date": "2026-11-16",
@@ -18,8 +18,8 @@
     {
       "date": "2026-11-17",
       "day": "Tue",
-      "session": "Intervals — preview",
-      "status": "upcoming",
+      "session": "Intervals",
+      "status": "today",
       "note": "10-minute easy warm-up, 3×4 minutes at 6:40/mile, two 3-minute easy recoveries, 10-minute cooldown. 38 minutes total, final RPE ≤8. Watch file prepared; one prior hit earns no increase yet."
     },
     {

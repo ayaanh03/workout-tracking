@@ -6,7 +6,7 @@
   "start_date": "2026-10-25",
   "end_date": "2027-01-03",
   "timezone": "America/New_York",
-  "as_of": "2026-11-16",
+  "as_of": "2026-11-17",
   "activation_status": "active",
   "calendar_week": "W4",
   "calendar_phase": "Build",
@@ -58,7 +58,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 496,
+  "last_adjustment_id": 497,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -937,10 +937,10 @@
     "last_generated_prescription_id": "hybrid-2026-10-26-tue-intervals-496",
     "last_generated_from_session_id": "hybrid-2026-10-26-w4-mon-2026-11-16",
     "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping.",
-    "last_generation_trigger": "completed-session-log",
+    "last_generation_trigger": "current-day-activation-of-existing-prescription",
     "last_generation_decision_id": 496,
-    "last_review_decision_id": 496,
-    "last_review_reason": "Mondayactuals reconciled; Tuesdaypreview holds3×4at6:40 because the latest run has onlyonehit withfinalRPE8 and no earned faster target or minutes."
+    "last_review_decision_id": 497,
+    "last_review_reason": "Activate the already-prepared November17run for today. Preserve the exact #496dose, prescriptionID, Watchfile and all actuals/credit."
   },
   "session_freeze_history": [
     {
@@ -1200,13 +1200,13 @@
   },
   "next_session_adjustment": {
     "date": "2026-11-17",
-    "decision_id": 496,
-    "status": "normal-session-preview-not-performed",
+    "decision_id": 497,
+    "status": "planned-today-not-performed",
     "original_session": "Intervals",
     "effective_session": "Intervals",
     "prescription_id": "hybrid-2026-10-26-tue-intervals-496",
-    "source": "../history/adjustments.md#2026-11-16--log-monday-and-generate-tuesday",
-    "reason": "Hold Tuesday3×4 at6:40/mi with3-minute recoveries andRPEcap8. No active global/return restriction; ordinary recovery assumed. Full planned week remains below15mi."
+    "source": "../history/adjustments.md#2026-11-17--tuesday-run-confirmed-for-today",
+    "reason": "Current-day review retains #496:3×4 at6:40/mile with two3-minute recoveries,10-minute warmup/cooldown andRPEcap8. Ordinary recovery is assumed; no new adverse report or progression evidence."
   },
   "next_session_adjustment_history": [
     {

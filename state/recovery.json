@@ -1467,11 +1467,11 @@
   "planning_readiness": {
     "status": "assumed-good",
     "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-    "decision_id": 496,
-    "recorded_at": "2026-11-16T20:13:31-05:00",
+    "decision_id": 497,
+    "recorded_at": "2026-11-17T16:00:44-05:00",
+    "for_date": "2026-11-17",
     "observed": false,
-    "reason": "Standing athlete default supplies routine post-session recovery and Tuesday readiness. Monday pre-session general recovery was explicitly very good; the log reports no new adverse change. Specific during/after symptoms and actual next-day recovery remain unreported.",
-    "for_date": "2026-11-17"
+    "reason": "Standing athlete default supplies today’s ordinary readiness. The athlete requests today’s workout without reporting a new adverse change; specific symptoms and observed post-Monday recovery remain unreported."
   },
   "general_readiness_history": [
     {
@@ -1696,6 +1696,15 @@
       "reason": "Explicit very-good recovery the day after the completed full Stage C leg dose resolves the acute general-readiness concern. This is self-report, not a wearable measurement or site-specific symptom clearance.",
       "for_date": "2026-11-16",
       "scope": "Current-day Upper A planning after completed-week review; preserve all independent local limits and unreported symptom details."
+    },
+    {
+      "status": "assumed-good",
+      "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+      "decision_id": 496,
+      "recorded_at": "2026-11-16T20:13:31-05:00",
+      "observed": false,
+      "reason": "Standing athlete default supplies routine post-session recovery and Tuesday readiness. Monday pre-session general recovery was explicitly very good; the log reports no new adverse change. Specific during/after symptoms and actual next-day recovery remain unreported.",
+      "for_date": "2026-11-17"
     }
   ],
   "recovery_override_history": [

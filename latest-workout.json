@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-16T20:13:31-05:00",
+  "generatedAt": "2026-11-17T16:00:44-05:00",
   "blockId": "hybrid-2026-10-26",
   "prescriptionId": "hybrid-2026-10-26-tue-intervals-496",
-  "preview": true,
+  "preview": false,
   "week": "W4",
   "day": "Tue",
   "date": "2026-11-17",
   "phase": "Hybrid v11 — Stage D",
-  "sessionName": "Intervals — preview",
+  "sessionName": "Intervals",
   "why": [
-    "Tuesday, November 17 is the next scheduled workout after Monday’s completed 18-set Upper A session.",
+    "Tuesday, November 17: today’s scheduled intervals. The prepared prescription remains appropriate after Monday’s completed Upper A session.",
     "Hold 3×4 minutes at 6:40/mile: November 10 was the first qualifying hit at this target, with final RPE 8 and no all-rep pace headroom."
   ],
   "intro": [
@@ -56,7 +56,7 @@
     },
     {
       "exercise": "Recovery and weekly mileage",
-      "previous": "Monday pre-session recovery was reported very good. No new adverse report accompanies the log; specific post-session symptoms and Tuesday recovery remain unreported.",
+      "previous": "Monday pre-session recovery was reported very good. No new adverse change is reported today; specific post-session symptoms and observed Tuesday recovery remain unreported.",
       "decision": "Use assumed good ordinary recovery for Tuesday. Planned W4 running is about 10.19 miles, upper estimate 11.42, below 15.",
       "reason": "Include both runs and all easy sections, with five optional extra warm-up minutes per run in the upper estimate. These are planned distances, not completed miles or shoe additions."
     }
