@@ -911,3 +911,23 @@ Same-slot November 11 actuals: lateral35×12/12/12/12 RIR4/3/3/3; preacher90×8 
 **Bike: 25 minutes after lifting, RPE3, acceptable2–4**, comfortable full-sentence conversation. Previous Wednesday20-minute prescription was completed as20:25 at130W, HR145, displayed effort4. November12 lifting was acceptable; November16 explicit very-good recovery resolves the acute general concern, and November17 qualifying running supplies fresh acceptable subsequent-run evidence. This supports progression within W4’s25-minute ceiling. Preserve November14’s poor-readiness/no-count review in history; do not recast it as clean or infer cycling caused it. Last tolerated dose stays20 until the new dose is completed and validated. Friday cycling remains independent. Saved settings: **seat−2 (possibly−1), handle+3, height about10**, the latter requested but not confirmed tested.
 
 W4 now has **two completed sessions,18 lifting sets,12 running work minutes and4.38 confirmed miles**, with no bike/row completion. Full-week projection is **9.71515731874145 miles**, upper **10.332941176470587**, including Saturday’s unchanged3×6 at7:10 plus all easy sections and optional extra warmup in the upper budget. Both are below15. Live date remains TuesdayNovember17; Wednesday is upcoming, not performed. Save actuals, current state, exact preview and dashboard together; no new lift exposure or future shoe mileage is added.
+
+## 2026-11-18 — activate Wednesday with good recovery
+
+499. Athlete reports **“Recovery good today. Generate.”** Today is **Wednesday November 18, America/New_York, W4**. Record observed self-reported current general readiness and Tuesday’s next-day general recovery, preserving unknown site-specific responses and local limits. No additional progression credit, stage transition or completed work follows from the report.
+
+Activate the existing `hybrid-2026-10-26-wed-delts-arms-a-498` prescription as **today**, retaining its identity, exact 14-set Stage D dose and all two-minute rests:
+
+| Slot | Exercise | Load | Sets × reps | RIR |
+|---|---|---|---|---|
+| WE1 | DB lateral raise | 35 lb | 4×12–20 | 2–3 |
+| WE2 | Unilateral machine preacher curl | 75 lb | 2×8–12 per arm | 3 |
+| WE3 | Reverse pec deck | 145 lb | 2×12–20 | 1–2 |
+| WE4 | Rope cable hammer curl | 50 lb | 2×10–15 | 3 |
+| WE5 | Leg-press calf raise | 365 lb | 4×10–15 | 1–2 |
+
+**Bike after lifting: 25 minutes, RPE 3 (acceptable 2–4)**. Saved settings: height about 10; seat −2 (possibly −1); handle +3. No completed use of the requested settings is inferred.
+
+November 11 same-slot actuals and the #498 review continue to support these weights. Stage C sets do not earn ordinary load credit; 90 lb preacher at RIR 1 did not establish that load for the prescribed reserve. Wednesday calf365 remains independent of Sunday380. Stage D supplies 1–2 RIR on rear delts/calves; curls retain3RIR within Wednesday’s restrained target. The previously earned bike increase remains25, supported by subsequent lifting/running and now reinforced by reported good next-day recovery; last-tolerated dose remains20 until the new dose is completed and validated.
+
+Remove preview labels, mark Wednesday today, and refresh both caches together. Keep Tuesday’s actuals, two hits, normal6:40/3×4 and unused6:35 candidate unchanged; W5 assessment/carry rules still apply. W4 remains two completed sessions,18lifting sets,12run work minutes and4.38miles. No new shoe mileage, lifting exposure, bike actual, injury clearance or Watch file. Publish the current-day dashboard.

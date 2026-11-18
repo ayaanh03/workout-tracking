@@ -263,3 +263,7 @@ No global-fatigue or return protocol is active. Preserve Saturday’s actual poo
 Record the completed **170×1 at RIR 1**, first Monday Stage D finals (curl and pushdown each RIR 0), and M6 **BW15/15 at RIR5/5** separately from symptoms. The earlier Monday report of very-good general recovery remains pre-session evidence; during/after elbow, shoulder and ab responses and actual Tuesday recovery are unreported.
 
 Ask once whether elbows/shoulders stayed comfortable during and after the single and final curl/pushdown sets. This informs later local loading and the W9 single review; absence of an answer does not establish aggravation, recreate the released biceps hold or block Tuesday running. Preserve existing ab/Achilles limits, substitutions and prior unanswered details without repeating them. Use the standing good-recovery assumption for ordinary next-session planning; no new injury clearance or observed recovery is invented. Decision #496.
+
+## 2026-11-18 — good recovery after Tuesday
+
+Athlete reports **“Recovery good today. Generate.”** Record good current Wednesday general recovery and next-day general recovery after the November 17 run. This replaces the ordinary assumption for that follow-up with an observed self-report; no numeric metrics or specific elbow, shoulder, ab or Achilles response is supplied. Preserve active local limits and unanswered targeted questions. Tuesday actuals, hit 2 and unused normal-pace candidate remain unchanged. Activate the prepared Wednesday workout without additional progression or completed work. Decision #499.

@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-11-17T17:54:35-05:00",
+  "generatedAt": "2026-11-18T13:30:08-05:00",
   "blockId": "hybrid-2026-10-26",
   "prescriptionId": "hybrid-2026-10-26-wed-delts-arms-a-498",
-  "preview": true,
+  "preview": false,
   "week": "W4",
   "day": "Wed",
   "date": "2026-11-18",
   "phase": "Hybrid v11 — Stage D",
-  "sessionName": "Delts/arms A + bike — preview",
+  "sessionName": "Delts/arms A + bike",
   "why": [
-    "Wednesday, November 18: next scheduled session after Tuesday’s completed run. Stage D is earned; this is a future preview.",
+    "Wednesday, November 18: today’s scheduled delts/arms A plus bike. You report good recovery, so activate the prepared Stage D session.",
     "14 working sets at the established Wednesday weights. Rear delts and calves move to 1–2 RIR; Wednesday curls stay at 3 RIR. Bike increases to 25 minutes after acceptable subsequent lifting and running."
   ],
   "intro": [
-    "Ordinary recovery is assumed good under your standing preference. Adjust any aggravating elbow or Achilles work."
+    "Good current recovery reported. Keep the prescribed effort; adjust any aggravating elbow or Achilles work."
   ],
   "lift": {
     "table": [
@@ -152,12 +152,12 @@
       "exercise": "Tuesday run logged",
       "previous": "November 17: 3×4 at 6:37/6:30/6:33 per mile, RPE 7/8/8; confirmed 4.38 miles.",
       "decision": "Second qualifying hit at 6:40 earns a 5-second normal-pace step to 6:35. W5 assessment work stays at 6:40.",
-      "reason": "All reps pass with prescribed work/rest and assumed ordinary recovery. Slowest-rep headroom is only 3 seconds; the two-hit route earns this step. Save the still-valid unused award at W5 start. An eligible no-test assessment may preserve it; any test attempt cancels it and a representative test recalibrates targets."
+      "reason": "All reps passed with prescribed work/rest; good next-day general recovery is now reported November 18. Slowest-rep headroom was only 3 seconds, so the two-hit route earned the step. Save the still-valid unused award at W5 start; any test attempt cancels it and a representative test recalibrates targets. No additional credit from this follow-up."
     },
     {
       "exercise": "Recovery and weekly mileage",
-      "previous": "No new adverse report; observed post-run and next-day recovery remain unreported. Evo SL total is now 23.17 miles.",
-      "decision": "Use assumed good ordinary readiness for Wednesday while preserving specific limits. W4 has 4.38 actual miles; projected total about 9.72, upper 10.33.",
+      "previous": "November 18: you report good recovery after Tuesday’s run. Specific symptom responses remain unreported. Evo SL total remains 23.17 miles.",
+      "decision": "Use reported good recovery for today’s prepared Wednesday session, retaining local limits. W4 has 4.38 actual miles; projected total about 9.72, upper 10.33.",
       "reason": "Weekly projection includes the remaining Saturday 3×6 at 7:10, all easy portions and optional extra warm-up in the upper estimate. Future work does not add completed sets, bike minutes or shoe miles."
     }
   ],

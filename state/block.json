@@ -6,7 +6,7 @@
   "start_date": "2026-10-25",
   "end_date": "2027-01-03",
   "timezone": "America/New_York",
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-18",
   "activation_status": "active",
   "calendar_week": "W4",
   "calendar_phase": "Build",
@@ -58,7 +58,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 498,
+  "last_adjustment_id": 499,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -677,16 +677,40 @@
         8
       ],
       "final_rep_rpe": 8,
-      "recovery_status": "general-recovery-assumed-good",
+      "recovery_status": "next-day-general-recovery-reported-good",
       "recovery_decision": {
-        "status": "assumed-good",
-        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-        "decision_id": 498,
-        "recorded_at": "2026-11-17T17:53:54-05:00",
-        "observed": false,
-        "reason": "Standing athlete default supplies ordinary post-run recovery and next-workout readiness. Tuesday pace and effort are reported; no new adverse recovery or symptoms were reported. Specific during/after symptoms and observed next-day recovery remain unknown."
+        "status": "observed-good",
+        "decision_id": 499,
+        "recorded_at": "2026-11-18T13:30:08-05:00",
+        "reported_on": "2026-11-18",
+        "observed": true,
+        "observation_type": "athlete-self-report",
+        "report": "Recovery good today. Generate",
+        "source": "../history/injury-log.md#2026-11-18--good-recovery-after-tuesday",
+        "reason": "Athlete reports good current Wednesday recovery, also supplying next-day general recovery after Tuesday’s completed run. No numeric metrics or site-specific symptom clearance are supplied."
       },
-      "review_note": "Completed 3×4 minutes at 6:37/6:30/6:33 per mile, RPE 7/8/8, with two prescribed 3-minute recoveries. Confirmed 4.38 miles; interval durations total 38:12. All pace and effort requirements pass at the prescribed 6:40 target: hit 2 under the standing ordinary-recovery assumption. Actual next-day recovery and local symptoms remain unreported; Wednesday generation is a preview, not completion."
+      "review_note": "Tuesday 3×4 at 6:37/6:30/6:33, RPE 7/8/8 and 4.38 miles remains hit 2. November 18 good recovery confirms next-day general recovery; site-specific symptoms remain unreported. No additional run credit or Wednesday completion.",
+      "recovery_decision_history": [
+        {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 498,
+          "recorded_at": "2026-11-17T17:53:54-05:00",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary post-run recovery and next-workout readiness. Tuesday pace and effort are reported; no new adverse recovery or symptoms were reported. Specific during/after symptoms and observed next-day recovery remain unknown."
+        }
+      ],
+      "next_day_recovery": {
+        "status": "observed-good",
+        "decision_id": 499,
+        "recorded_at": "2026-11-18T13:30:08-05:00",
+        "reported_on": "2026-11-18",
+        "observed": true,
+        "observation_type": "athlete-self-report",
+        "report": "Recovery good today. Generate",
+        "source": "../history/injury-log.md#2026-11-18--good-recovery-after-tuesday",
+        "reason": "Athlete reports good current Wednesday recovery, also supplying next-day general recovery after Tuesday’s completed run. No numeric metrics or site-specific symptom clearance are supplied."
+      }
     }
   },
   "planned_start_date": "2026-10-26",
@@ -971,10 +995,10 @@
     "last_generated_prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-498",
     "last_generated_from_session_id": "hybrid-2026-10-26-w4-tue-2026-11-17",
     "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping.",
-    "last_generation_trigger": "automatic-next-workout-after-logging",
+    "last_generation_trigger": "current-day-activation-of-existing-prescription",
     "last_generation_decision_id": 498,
-    "last_review_decision_id": 498,
-    "last_review_reason": "Log completed Tuesday intervals and generate the next scheduled Wednesday session as a future preview under the standing recovery policy. Stage D and local limits persist; Wednesday bike advances to 25 minutes after review of completed subsequent lifting/running and resolved acute readiness concern."
+    "last_review_decision_id": 499,
+    "last_review_reason": "Activate the prepared November 18 workout after the athlete reports good recovery. Retain #498 exact dose and prescription ID; no new performed work or progression award."
   },
   "session_freeze_history": [
     {
@@ -1234,16 +1258,16 @@
   },
   "next_session_adjustment": {
     "date": "2026-11-18",
-    "decision_id": 498,
-    "status": "preview-not-performed",
+    "decision_id": 499,
+    "status": "planned-today-not-performed",
     "original_session": "Delts/arms A + bike",
     "effective_session": "Delts/arms A + bike",
     "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-498",
-    "source": "../history/adjustments.md#2026-11-17--log-tuesday-and-preview-wednesday",
+    "source": "../history/adjustments.md#2026-11-18--activate-wednesday-with-good-recovery",
     "stage": "D",
     "working_sets": 14,
     "bike_minutes": 25,
-    "reason": "Automatic next-session preview after Tuesday completion. First Wednesday in achieved Stage D retains 14 sets and same-slot loads: lateral 35, preacher 75, reverse pec deck 145, hammer 50 and calf 365 lb. C effort changes to D where applicable; preacher and hammer retain 3 RIR. Bike advances from 20 to 25 prescribed minutes under the W4 ceiling after acceptable completed lifting and the November 17 run, with November 16 very-good general recovery resolving the acute concern. Preserve November 14 poor-readiness history, local restrictions and unreported symptom responses."
+    "reason": "Good current recovery supports activating the prepared 14-set Stage D Wednesday session and 25-minute bike. Keep exact #498 prescription, same-slot loads, effort and local limits; no additional increase or completed work."
   },
   "next_session_adjustment_history": [
     {
@@ -1302,6 +1326,19 @@
       "source": "../history/adjustments.md#2026-11-17--tuesday-run-confirmed-for-today",
       "reason": "Current-day review retains #496:3×4 at6:40/mile with two3-minute recoveries,10-minute warmup/cooldown andRPEcap8. Ordinary recovery is assumed; no new adverse report or progression evidence.",
       "logged_by_decision_id": 498
+    },
+    {
+      "date": "2026-11-18",
+      "decision_id": 498,
+      "status": "preview-not-performed",
+      "original_session": "Delts/arms A + bike",
+      "effective_session": "Delts/arms A + bike",
+      "prescription_id": "hybrid-2026-10-26-wed-delts-arms-a-498",
+      "source": "../history/adjustments.md#2026-11-17--log-tuesday-and-preview-wednesday",
+      "stage": "D",
+      "working_sets": 14,
+      "bike_minutes": 25,
+      "reason": "Automatic next-session preview after Tuesday completion. First Wednesday in achieved Stage D retains 14 sets and same-slot loads: lateral 35, preacher 75, reverse pec deck 145, hammer 50 and calf 365 lb. C effort changes to D where applicable; preacher and hammer retain 3 RIR. Bike advances from 20 to 25 prescribed minutes under the W4 ceiling after acceptable completed lifting and the November 17 run, with November 16 very-good general recovery resolving the acute concern. Preserve November 14 poor-readiness history, local restrictions and unreported symptom responses."
     }
   ]
 }
