@@ -303,3 +303,13 @@ The ordinary pair earns **one 5-second faster normal-pace candidate: 3×4 at 6:3
 ## 2026-11-18 — Tuesday next-day recovery confirmed
 
 For `hybrid-2026-10-26-w4-tue-2026-11-17`, athlete reports **good recovery today**, supplying next-day general recovery. Preserve the 4.38-mile total, 6:37/6:30/6:33 paces, RPE 7/8/8, classification hit 2 and unused 6:35 normal-pace candidate. This follow-up adds no run, hit, mileage, source consumption or assessment credit. Site-specific responses remain unknown. Wednesday’s previously prepared 25-minute bike is activated, not completed or further increased. Decision #499.
+
+## 2026-11-18 — Hybrid v11 W4 Wednesday bike
+
+Session `hybrid-2026-10-26-w4-wed-2026-11-18-bike`, after the reported Wednesday lifting session; original prescription `hybrid-2026-10-26-wed-delts-arms-a-498` was **25 minutes after lifting, target RPE 3, acceptable 2–4**.
+
+Athlete reports **25 minutes, Z2, 115 W average**, and **seat height 10.5**. Record reported duration **25:00 (1,500 seconds)**. Numeric RPE, average HR, zone times, distance and cadence are not supplied; Z2 is the athlete’s label, not an inferred HR value or numeric effort. Save height **10.5 as reported used**. Preserve the separate saved seat **−2 (possibly −1)** and handle **+3** settings; those were not independently reconfirmed for this ride.
+
+The increased 25-minute prescription is completed, but its subsequent tolerance remains pending **Thursday November 19 lifting and Saturday November 21 running**. Keep the last-tolerated dose at **20 minutes** until that review; no further increase is earned merely by completing this ride. Ordinary recovery uses the standing assumption. Earlier Wednesday good recovery was pre-session, while observed next-day recovery and bike-specific ab/Achilles response remain unknown. The accompanying report that the elbow tendon feels good is recorded with lifting/recovery and is not expanded into unreported bike-specific symptoms.
+
+Next Wednesday is W5, with an assessment-week bike ceiling of **15 minutes**; this is a planning constraint, not a new prescription or completed future ride. Preserve both running tracks, Friday cycling, prior bike actuals and the original 25-minute prescription. Add no running/shoe mileage. Decision **#500**.

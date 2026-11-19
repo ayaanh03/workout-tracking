@@ -334,3 +334,23 @@ M1b **135×8/8 at RIR3/2** completes the full normal-D dose at the ceiling and e
 Curl set1 had **more reserve** than its1–2target (actual3); the final11-rep set atRIR0 did not reach12, so hold22.5. Laterals did not reach20on allsets; pushdowns did not reach15; pulldowns/rows did not reach12on bothsets. Hold35/50/160/70 respectively, with zero qualification. Preserve every final near-failure RIR literally. All rep floors and minimum-reserve limits were met; no persistent decline or extra-set trial is inferred from the first normal-D exposure.
 
 Store first normal-D references for non-single unrestricted slots using the actual first-set effort, with no imported ramp comparisons. M2’s first-setRIR3 is not automatically comparable with later1–2effort; back-off comparisons must consider the preceding single and the pending load change. Raw exposures become4 for M1b/M2/M3/M5/M6substitute/M7 and3 for the replacement M4pushdown. BWabs15/15 atRIR5/5 retain the BW/max-two-set/minimum-3-RIR limit and do not clear loading. No new local symptom or observed next-day recovery report; ordinary recovery uses the standing default. Decision#496.
+
+## 2026-11-18 — Hybrid v11 W4 Wednesday delts/arms A
+
+Session `hybrid-2026-10-26-w4-wed-2026-11-18`, original prescription `hybrid-2026-10-26-wed-delts-arms-a-498`, activated by #499. **14 working sets, Stage D**; all prescribed rests were two minutes. Actual rests/setup changes are unreported.
+
+| Slot | Exercise | Original prescription | Actual sets: load × reps, RIR |
+|---|---|---|---|
+| WE1 | DB lateral raise | 35 lb · 4×12–20 · RIR 2–3 | 35×13, RIR 4 / 35×13, RIR 3 / 35×12, RIR 3 / 35×13, RIR 2 |
+| WE2 | Unilateral machine preacher curl | 75 lb · 2×8–12 per arm · RIR 3 | 75×10, RIR 3 / 75×9, RIR 3 |
+| WE3 | Reverse pec deck | 145 lb · 2×12–20 · RIR 1–2 | 145×18, RIR 2 / 145×17, RIR 1 |
+| WE4 | Rope cable hammer curl | 50 lb · 2×10–15 · RIR 3 | 50×15, RIR 3 / 57.5×11, RIR 3 |
+| WE5 | Leg-press calf raise | 365 lb · 4×10–15 · RIR 1–2 | 380×11, RIR 2 / 380×11, RIR 2 / 380×13, RIR 1 / 380×13, RIR 1 |
+
+Athlete notes **“Going up in weight as the elbow tendon feels good.”** Record current elbow comfort with this session; do not infer a separate next-morning response, numeric pain score or blanket tendon clearance. All reported sets meet their rep floors and prescribed reserve or more. Preserve the first lateral set’s extra reserve and all heavier actuals; original prescriptions remain unchanged.
+
+Hold lateral35, preacher75 and reverse pec145. None reached its ceiling on every set. Retain **57.5 lb as the hammer curl’s demonstrated single-set reference and next starting calibration**: one 57.5×11 at RIR3 does not validate two sets at that load. Reduce if subsequent sets cannot meet10reps at3RIR. The first50×15 is not a complete two-set qualification at50, and the57.5set did not reach15. No further load increase or qualifying exposure is earned.
+
+Retain **380 lb for Wednesday calves**, independently established here by all four sets at the normal-D rep/effort target. This is reconciliation of performed heavier work, not a transfer of Sunday’s load or another earned increment. None reached15, so hold380 and build reps. Specific Achilles response is unreported and the conditional comfort limit persists.
+
+Increment each Wednesday slot’s raw exposure once to4. Ordinary qualifying counts stay0. Establish first normal-D references for WE1/WE2/WE3/WE5 using actual first-set load/RIR; no ramp comparisons transfer. WE4’s mixed loads remain calibration evidence, with a first-set anchor at the new57.5reference pending. No plateau or extra-set trial is inferred. Ordinary post-session recovery uses the standing default; the earlier good recovery report was pre-session. Bike25min Z2 at115W average and seat height10.5 are recorded separately in cardio/equipment state. Decision #500.

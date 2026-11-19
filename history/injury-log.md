@@ -267,3 +267,9 @@ Ask once whether elbows/shoulders stayed comfortable during and after the single
 ## 2026-11-18 — good recovery after Tuesday
 
 Athlete reports **“Recovery good today. Generate.”** Record good current Wednesday general recovery and next-day general recovery after the November 17 run. This replaces the ordinary assumption for that follow-up with an observed self-report; no numeric metrics or specific elbow, shoulder, ab or Achilles response is supplied. Preserve active local limits and unanswered targeted questions. Tuesday actuals, hit 2 and unused normal-pace candidate remain unchanged. Activate the prepared Wednesday workout without additional progression or completed work. Decision #499.
+
+## 2026-11-18 — elbow comfort with heavier Wednesday work
+
+Athlete reports **“Going up in weight as the elbow tendon feels good”** alongside completed Wednesday preacher75×10/9 atRIR3 and hammer50×15/57.5×11 atRIR3. Record current elbow comfort with training, without inventing a numeric pain score, diagnosis, exact during/after timing or next-morning response. This does not retrospectively answer older questions about particular sessions, the Monday single/shoulders, or ab/Achilles tolerance.
+
+The broad biceps maintenance hold remains released. Retain the standard-cable-curl replacement with machine preacher and its local **minimum3RIR for the next-day Thursday prescription**, following Wednesday’s increased curl load. This is a retained effort limit for this prescription, not a claim that the elbow currently hurts or a permanent ban on normal progression. Keep unrelated bodyweight-ab limits and conditional Achilles work. Earlier November18 general recovery was pre-session evidence; ordinary Thursday recovery uses the standing assumption. Decision #500.

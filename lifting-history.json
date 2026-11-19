@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "blockId": "hybrid-2026-10-26",
-  "generatedAt": "2026-11-16T20:15:15-05:00",
+  "generatedAt": "2026-11-18T20:40:17-05:00",
   "sessions": [
     {
       "date": "2026-10-25",
@@ -2385,6 +2385,142 @@
         }
       ],
       "notes": "18 working sets reported. The only reported heavy single was 170×1 at RIR 1; do not invent warm-up completion or a 175 lb exposure. Back-offs qualify their next smallest increment. Curl set 1 had extra reserve; all reported rep floors and minimum-reserve limits were met, including prescribed final near-failure sets. No fresh site-specific symptom response supplied."
+    },
+    {
+      "date": "2026-11-18",
+      "week": "W4",
+      "stage": "D",
+      "sessionName": "Delts/arms A + bike",
+      "sessionId": "hybrid-2026-10-26-w4-wed-2026-11-18",
+      "prescriptionId": "hybrid-2026-10-26-wed-delts-arms-a-498",
+      "actualRef": "history/lifting-log.md#2026-11-18--hybrid-v11-w4-wednesday-deltsarms-a",
+      "exercises": [
+        {
+          "slotId": "WE1",
+          "exercise": "DB lateral raise",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 13,
+              "rir": 4
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 13,
+              "rir": 3
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 3
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 13,
+              "rir": 2
+            }
+          ],
+          "note": "November 18: 35×13/13/12/13 at RIR 4/3/3/2. All four sets meet the rep floor and intended reserve or more; first set has extra reserve. Not all sets reached 20. Hold 35 lb and build reps."
+        },
+        {
+          "slotId": "WE2",
+          "exercise": "Unilateral machine preacher curl",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 75,
+              "units": "lb",
+              "reps": 10,
+              "rir": 3
+            },
+            {
+              "load": 75,
+              "units": "lb",
+              "reps": 9,
+              "rir": 3
+            }
+          ],
+          "note": "November 18: 75×10/9 at RIR 3. Both sets meet the prescribed range and reserve, but neither reaches 12. Hold 75 lb for two sets per arm at 3 RIR; the elbow tendon is reported feeling good."
+        },
+        {
+          "slotId": "WE3",
+          "exercise": "Reverse pec deck",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 145,
+              "units": "lb",
+              "reps": 18,
+              "rir": 2
+            },
+            {
+              "load": 145,
+              "units": "lb",
+              "reps": 17,
+              "rir": 1
+            }
+          ],
+          "note": "November 18: 145×18/17 at RIR 2/1. Both sets meet normal-D effort, but neither reaches 20. Hold 145 lb and build reps; the prior Stage-C effort is not a comparable normal-D plateau anchor."
+        },
+        {
+          "slotId": "WE4",
+          "exercise": "Rope cable hammer curl",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 15,
+              "rir": 3
+            },
+            {
+              "load": 57.5,
+              "units": "lb",
+              "reps": 11,
+              "rir": 3
+            }
+          ],
+          "note": "November 18: 50×15 at RIR 3, then 57.5×11 at RIR 3 instead of both prescribed sets at 50 lb. Retain 57.5 lb as a demonstrated single-set reference and next starting calibration, not a validated two-set dose. No further increase or qualifying exposure; reduce if subsequent sets cannot meet 10 reps at 3 RIR."
+        },
+        {
+          "slotId": "WE5",
+          "exercise": "Leg-press calf raise",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 380,
+              "units": "lb",
+              "reps": 11,
+              "rir": 2
+            },
+            {
+              "load": 380,
+              "units": "lb",
+              "reps": 11,
+              "rir": 2
+            },
+            {
+              "load": 380,
+              "units": "lb",
+              "reps": 13,
+              "rir": 1
+            },
+            {
+              "load": 380,
+              "units": "lb",
+              "reps": 13,
+              "rir": 1
+            }
+          ],
+          "note": "November 18: 380×11/11/13/13 at RIR 2/2/1/1 instead of prescribed 365 lb. All four sets demonstrate the heavier load within the normal-D range and effort. Retain 380 lb for this Wednesday slot, with no further increase because not all sets reached 15. Specific Achilles response is unreported; conditional comfort limit remains."
+        }
+      ],
+      "notes": "All 14 Stage D sets reported. Hammer curl increased within session from 50 to 57.5 lb; calf raises used 380 instead of prescribed 365. Athlete says the elbow tendon feels good. Bike 25 minutes, reported Z2, 115 W average; numeric effort and measured HR not supplied. Seat height 10.5 reported. No new ab/Achilles response or observed next-day recovery."
     }
   ]
 }

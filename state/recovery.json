@@ -484,21 +484,20 @@
         "answered_at": "2026-11-03T17:25:04-05:00"
       },
       "scope": "Suspected association with incline curls, not confirmed causation or a tennis-elbow diagnosis. Do not merge into the earlier overhead-extension complaint or infer pushdowns caused it. Historical actuals remain intact; no formal forearm eligibility review completed.",
-      "reviewed_on": "2026-11-11",
+      "reviewed_on": "2026-11-18",
       "latest_report": {
-        "reported_on": "2026-11-11",
-        "recorded_at": "2026-11-11T20:03:12-05:00",
-        "decision_id": 486,
-        "session_id": "hybrid-2026-10-26-w3-wed-2026-11-11",
-        "question": "Did your right elbow stay comfortable during the preacher curls—especially the 90 lb set—and afterward?",
-        "report": "Ya elbows were perfect today",
-        "status": "elbows-symptom-free-during-and-after",
-        "scope": "Athlete confirms comfortable elbows during and after November 11 curls, including the 90 lb preacher set. No numeric pain score, diagnosis, next-morning recovery or ab/Achilles response is supplied.",
-        "source": "../history/injury-log.md#2026-11-11--elbows-comfortable-during-and-after-curls"
+        "reported_on": "2026-11-18",
+        "recorded_at": "2026-11-18T20:41:03-05:00",
+        "decision_id": 500,
+        "session_id": "hybrid-2026-10-26-w4-wed-2026-11-18",
+        "report": "Going up in weight as the elbow tendon feels good",
+        "status": "elbow-feels-good-with-current-training",
+        "scope": "Current elbow comfort reported alongside completed Wednesday curls, including 57.5 lb hammer work. No numeric pain score, diagnosis, exact during/after timing, next-morning response, shoulder, ab or Achilles clearance is supplied.",
+        "source": "../history/injury-log.md#2026-11-18--elbow-comfort-with-heavier-wednesday-work"
       },
       "suspected_trigger": "Incline DB curl — athlete says “I think”",
       "onset_context": "Possibly began during incline biceps curls; exact session/date unreported.",
-      "symptom_course": "Earlier November 4 nag resolved before training; athlete confirms symptom-free throughout and after the completed preacher and rope-hammer curls. November 6: athlete wakes with elbows feeling fine; the previously released biceps maintenance hold remains released. November 7: no elbow issues reported from the November 6 workout; maintenance remains released. November 11: elbows comfortable during and after curls, including the 90 lb preacher set; maintenance remains released.",
+      "symptom_course": "Earlier November 4 nag resolved before training; athlete confirms symptom-free throughout and after the completed preacher and rope-hammer curls. November 6: athlete wakes with elbows feeling fine; the previously released biceps maintenance hold remains released. November 7: no elbow issues reported from the November 6 workout; maintenance remains released. November 11: elbows comfortable during and after curls, including the 90 lb preacher set; maintenance remains released. November 18: athlete reports the elbow tendon feels good while increasing Wednesday curl weight; broad maintenance remains released.",
       "omitted_slots": [],
       "maintenance_directive": {
         "reported_on": "2026-11-02",
@@ -525,15 +524,14 @@
         }
       },
       "current_symptom_report": {
-        "reported_on": "2026-11-11",
-        "recorded_at": "2026-11-11T20:03:12-05:00",
-        "decision_id": 486,
-        "session_id": "hybrid-2026-10-26-w3-wed-2026-11-11",
-        "question": "Did your right elbow stay comfortable during the preacher curls—especially the 90 lb set—and afterward?",
-        "report": "Ya elbows were perfect today",
-        "status": "elbows-symptom-free-during-and-after",
-        "scope": "Athlete confirms comfortable elbows during and after November 11 curls, including the 90 lb preacher set. No numeric pain score, diagnosis, next-morning recovery or ab/Achilles response is supplied.",
-        "source": "../history/injury-log.md#2026-11-11--elbows-comfortable-during-and-after-curls"
+        "reported_on": "2026-11-18",
+        "recorded_at": "2026-11-18T20:41:03-05:00",
+        "decision_id": 500,
+        "session_id": "hybrid-2026-10-26-w4-wed-2026-11-18",
+        "report": "Going up in weight as the elbow tendon feels good",
+        "status": "elbow-feels-good-with-current-training",
+        "scope": "Current elbow comfort reported alongside completed Wednesday curls, including 57.5 lb hammer work. No numeric pain score, diagnosis, exact during/after timing, next-morning response, shoulder, ab or Achilles clearance is supplied.",
+        "source": "../history/injury-log.md#2026-11-18--elbow-comfort-with-heavier-wednesday-work"
       },
       "symptom_report_history": [
         {
@@ -689,7 +687,33 @@
           "new_fixed_wait_period": false
         }
       ],
-      "review_decision_id": 486
+      "review_decision_id": 500,
+      "current_symptom_report_history": [
+        {
+          "reported_on": "2026-11-11",
+          "recorded_at": "2026-11-11T20:03:12-05:00",
+          "decision_id": 486,
+          "session_id": "hybrid-2026-10-26-w3-wed-2026-11-11",
+          "question": "Did your right elbow stay comfortable during the preacher curls—especially the 90 lb set—and afterward?",
+          "report": "Ya elbows were perfect today",
+          "status": "elbows-symptom-free-during-and-after",
+          "scope": "Athlete confirms comfortable elbows during and after November 11 curls, including the 90 lb preacher set. No numeric pain score, diagnosis, next-morning recovery or ab/Achilles response is supplied.",
+          "source": "../history/injury-log.md#2026-11-11--elbows-comfortable-during-and-after-curls"
+        }
+      ],
+      "latest_report_history": [
+        {
+          "reported_on": "2026-11-11",
+          "recorded_at": "2026-11-11T20:03:12-05:00",
+          "decision_id": 486,
+          "session_id": "hybrid-2026-10-26-w3-wed-2026-11-11",
+          "question": "Did your right elbow stay comfortable during the preacher curls—especially the 90 lb set—and afterward?",
+          "report": "Ya elbows were perfect today",
+          "status": "elbows-symptom-free-during-and-after",
+          "scope": "Athlete confirms comfortable elbows during and after November 11 curls, including the 90 lb preacher set. No numeric pain score, diagnosis, next-morning recovery or ab/Achilles response is supplied.",
+          "source": "../history/injury-log.md#2026-11-11--elbows-comfortable-during-and-after-curls"
+        }
+      ]
     },
     {
       "id": "standard-cable-curl-elbow-irritation",
@@ -736,21 +760,20 @@
       },
       "activation_decision_id": 473,
       "activated_on": "2026-11-05",
-      "current_symptom_status": "currently-symptom-free",
+      "current_symptom_status": "elbow-feels-good-currently",
       "current_symptom_report": {
-        "reported_on": "2026-11-11",
-        "recorded_at": "2026-11-11T20:03:12-05:00",
-        "decision_id": 486,
-        "session_id": "hybrid-2026-10-26-w3-wed-2026-11-11",
-        "question": "Did your right elbow stay comfortable during the preacher curls—especially the 90 lb set—and afterward?",
-        "report": "Ya elbows were perfect today",
-        "status": "elbows-symptom-free-during-and-after",
-        "scope": "Athlete confirms comfortable elbows during and after November 11 curls, including the 90 lb preacher set. No numeric pain score, diagnosis, next-morning recovery or ab/Achilles response is supplied.",
-        "source": "../history/injury-log.md#2026-11-11--elbows-comfortable-during-and-after-curls"
+        "reported_on": "2026-11-18",
+        "recorded_at": "2026-11-18T20:41:03-05:00",
+        "decision_id": 500,
+        "session_id": "hybrid-2026-10-26-w4-wed-2026-11-18",
+        "report": "Going up in weight as the elbow tendon feels good",
+        "status": "elbow-feels-good-with-current-training",
+        "scope": "Current elbow comfort reported alongside completed Wednesday curls, including 57.5 lb hammer work. No numeric pain score, diagnosis, exact during/after timing, next-morning response, shoulder, ab or Achilles clearance is supplied.",
+        "source": "../history/injury-log.md#2026-11-18--elbow-comfort-with-heavier-wednesday-work"
       },
-      "reviewed_on": "2026-11-11",
-      "review_decision_id": 486,
-      "review_note": "November 11 elbows comfortable during and after curls. Keep the ongoing T2-only preacher replacement and first-exposure minimum 3 RIR; symptom resolution does not undo the requested replacement.",
+      "reviewed_on": "2026-11-18",
+      "review_decision_id": 500,
+      "review_note": "Current elbow comfort is good alongside Wednesday preacher and heavier hammer work. Retain the permanent T2 preacher replacement and minimum 3 RIR for this next-day Thursday prescription after increased Wednesday curl loading. This is a local effort choice, not an active broad biceps hold or a claim of current pain; no restoration of standard cable curls.",
       "symptom_report_history": [
         {
           "reported_on": "2026-11-06",
@@ -769,6 +792,19 @@
           "status": "no-elbow-issues-from-prior-session",
           "scope": "Athlete confirms no elbow issues from the November 6 delts/arms B and bike session, including the forearm introduction. No numeric pain score, diagnosis, general-recovery observation or additional sets supplied.",
           "source": "../history/injury-log.md#2026-11-07--no-elbow-issues-from-moved-session"
+        }
+      ],
+      "current_symptom_report_history": [
+        {
+          "reported_on": "2026-11-11",
+          "recorded_at": "2026-11-11T20:03:12-05:00",
+          "decision_id": 486,
+          "session_id": "hybrid-2026-10-26-w3-wed-2026-11-11",
+          "question": "Did your right elbow stay comfortable during the preacher curls—especially the 90 lb set—and afterward?",
+          "report": "Ya elbows were perfect today",
+          "status": "elbows-symptom-free-during-and-after",
+          "scope": "Athlete confirms comfortable elbows during and after November 11 curls, including the 90 lb preacher set. No numeric pain score, diagnosis, next-morning recovery or ab/Achilles response is supplied.",
+          "source": "../history/injury-log.md#2026-11-11--elbows-comfortable-during-and-after-curls"
         }
       ]
     }
@@ -836,53 +872,47 @@
     }
   ],
   "post_session": {
-    "date": "2026-11-17",
-    "session_id": "hybrid-2026-10-26-w4-tue-2026-11-17",
+    "date": "2026-11-18",
+    "session_id": "hybrid-2026-10-26-w4-wed-2026-11-18",
     "completion": "reported",
-    "decision_id": 498,
-    "status": "completed-next-day-general-recovery-reported-good-local-responses-unreported",
-    "work_minutes": 12,
-    "duration_seconds_from_segments": 2292,
-    "distance_miles": 4.38,
-    "classification": "hit",
-    "actual_ref": "../history/cardio-log.md#2026-11-17--hybrid-v11-w4-tuesday-intervals",
-    "elbow_response": null,
+    "decision_id": 500,
+    "status": "completed-elbow-comfort-reported-general-recovery-assumed",
+    "working_sets": 14,
+    "cycling_duration_seconds": 1500,
+    "elbow_response": {
+      "reported_on": "2026-11-18",
+      "recorded_at": "2026-11-18T20:41:03-05:00",
+      "decision_id": 500,
+      "session_id": "hybrid-2026-10-26-w4-wed-2026-11-18",
+      "report": "Going up in weight as the elbow tendon feels good",
+      "status": "elbow-feels-good-with-current-training",
+      "scope": "Current elbow comfort reported alongside completed Wednesday curls, including 57.5 lb hammer work. No numeric pain score, diagnosis, exact during/after timing, next-morning response, shoulder, ab or Achilles clearance is supplied.",
+      "source": "../history/injury-log.md#2026-11-18--elbow-comfort-with-heavier-wednesday-work"
+    },
     "shoulder_response": null,
     "lower_ab_response": null,
     "achilles_response": null,
-    "next_day_recovery": {
-      "status": "observed-good",
-      "decision_id": 499,
-      "recorded_at": "2026-11-18T13:30:08-05:00",
+    "next_day_recovery": null,
+    "pre_session_general_recovery": {
       "reported_on": "2026-11-18",
-      "observed": true,
-      "observation_type": "athlete-self-report",
+      "reported_at": "2026-11-18T13:30:08-05:00",
       "report": "Recovery good today. Generate",
+      "status": "good",
+      "provenance": "athlete current-day general recovery report",
+      "decision_id": 499,
       "source": "../history/injury-log.md#2026-11-18--good-recovery-after-tuesday",
-      "reason": "Athlete reports good current Wednesday recovery, also supplying next-day general recovery after Tuesday’s completed run. No numeric metrics or site-specific symptom clearance are supplied."
+      "scope": "Athlete reports good current Wednesday recovery, also supplying next-day general recovery after Tuesday’s completed run. No numeric metrics or site-specific symptom clearance are supplied.",
+      "numeric_metrics": null
     },
     "recovery_decision": {
-      "status": "observed-good",
-      "decision_id": 499,
-      "recorded_at": "2026-11-18T13:30:08-05:00",
-      "reported_on": "2026-11-18",
-      "observed": true,
-      "observation_type": "athlete-self-report",
-      "report": "Recovery good today. Generate",
-      "source": "../history/injury-log.md#2026-11-18--good-recovery-after-tuesday",
-      "reason": "Athlete reports good current Wednesday recovery, also supplying next-day general recovery after Tuesday’s completed run. No numeric metrics or site-specific symptom clearance are supplied."
+      "status": "assumed-good",
+      "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+      "decision_id": 500,
+      "recorded_at": "2026-11-18T20:41:03-05:00",
+      "observed": false,
+      "reason": "Standing athlete default supplies ordinary post-session recovery and Thursday readiness. Earlier November 18 general recovery was reported good, before this session. The log reports good elbow comfort; observed next-day general recovery and site-specific ab/Achilles responses remain unknown."
     },
-    "note": "Tuesday actuals and classification remain unchanged. November 18 good recovery supplies next-day general recovery and current Wednesday readiness. Specific during/after symptoms remain unknown; prior targeted follow-ups and local limits are preserved. Wednesday is prescribed for today, not performed.",
-    "recovery_decision_history": [
-      {
-        "status": "assumed-good",
-        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-        "decision_id": 498,
-        "recorded_at": "2026-11-17T17:53:54-05:00",
-        "observed": false,
-        "reason": "Standing athlete default supplies ordinary post-run recovery and next-workout readiness. Tuesday pace and effort are reported; no new adverse recovery or symptoms were reported. Specific during/after symptoms and observed next-day recovery remain unknown."
-      }
-    ]
+    "note": "Fourteen Stage D sets plus 25 minutes Z2 bike at average 115 W completed. Heavier hammer and calf loads are actuals; general readiness earlier today is pre-session evidence. Good current elbow comfort is reported without retrospective answers to older session-specific questions."
   },
   "prior_pending_post_sessions": [
     {
@@ -1107,6 +1137,55 @@
         "reason": "Standing athlete default supplies routine post-session recovery and Tuesday readiness. Monday pre-session general recovery was explicitly very good; the log reports no new adverse change. Specific during/after symptoms and actual next-day recovery remain unreported."
       },
       "note": "First W4single170×1RIR1 and first StageD Monday finals are recorded. Ask once about elbows/shoulders during and after these exposures; no symptom recurrence, injury clearance or normalized measurements are inferred."
+    },
+    {
+      "date": "2026-11-17",
+      "session_id": "hybrid-2026-10-26-w4-tue-2026-11-17",
+      "completion": "reported",
+      "decision_id": 498,
+      "status": "completed-next-day-general-recovery-reported-good-local-responses-unreported",
+      "work_minutes": 12,
+      "duration_seconds_from_segments": 2292,
+      "distance_miles": 4.38,
+      "classification": "hit",
+      "actual_ref": "../history/cardio-log.md#2026-11-17--hybrid-v11-w4-tuesday-intervals",
+      "elbow_response": null,
+      "shoulder_response": null,
+      "lower_ab_response": null,
+      "achilles_response": null,
+      "next_day_recovery": {
+        "status": "observed-good",
+        "decision_id": 499,
+        "recorded_at": "2026-11-18T13:30:08-05:00",
+        "reported_on": "2026-11-18",
+        "observed": true,
+        "observation_type": "athlete-self-report",
+        "report": "Recovery good today. Generate",
+        "source": "../history/injury-log.md#2026-11-18--good-recovery-after-tuesday",
+        "reason": "Athlete reports good current Wednesday recovery, also supplying next-day general recovery after Tuesday’s completed run. No numeric metrics or site-specific symptom clearance are supplied."
+      },
+      "recovery_decision": {
+        "status": "observed-good",
+        "decision_id": 499,
+        "recorded_at": "2026-11-18T13:30:08-05:00",
+        "reported_on": "2026-11-18",
+        "observed": true,
+        "observation_type": "athlete-self-report",
+        "report": "Recovery good today. Generate",
+        "source": "../history/injury-log.md#2026-11-18--good-recovery-after-tuesday",
+        "reason": "Athlete reports good current Wednesday recovery, also supplying next-day general recovery after Tuesday’s completed run. No numeric metrics or site-specific symptom clearance are supplied."
+      },
+      "note": "Tuesday actuals and classification remain unchanged. November 18 good recovery supplies next-day general recovery and current Wednesday readiness. Specific during/after symptoms remain unknown; prior targeted follow-ups and local limits are preserved. Wednesday is prescribed for today, not performed.",
+      "recovery_decision_history": [
+        {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 498,
+          "recorded_at": "2026-11-17T17:53:54-05:00",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary post-run recovery and next-workout readiness. Tuesday pace and effort are reported; no new adverse recovery or symptoms were reported. Specific during/after symptoms and observed next-day recovery remain unknown."
+        }
+      ]
     }
   ],
   "resolved_post_sessions": [
@@ -1430,15 +1509,14 @@
     }
   ],
   "current_symptom_report": {
-    "reported_on": "2026-11-11",
-    "recorded_at": "2026-11-11T20:03:12-05:00",
-    "decision_id": 486,
-    "session_id": "hybrid-2026-10-26-w3-wed-2026-11-11",
-    "question": "Did your right elbow stay comfortable during the preacher curls—especially the 90 lb set—and afterward?",
-    "report": "Ya elbows were perfect today",
-    "status": "elbows-symptom-free-during-and-after",
-    "scope": "Athlete confirms comfortable elbows during and after November 11 curls, including the 90 lb preacher set. No numeric pain score, diagnosis, next-morning recovery or ab/Achilles response is supplied.",
-    "source": "../history/injury-log.md#2026-11-11--elbows-comfortable-during-and-after-curls"
+    "reported_on": "2026-11-18",
+    "recorded_at": "2026-11-18T20:41:03-05:00",
+    "decision_id": 500,
+    "session_id": "hybrid-2026-10-26-w4-wed-2026-11-18",
+    "report": "Going up in weight as the elbow tendon feels good",
+    "status": "elbow-feels-good-with-current-training",
+    "scope": "Current elbow comfort reported alongside completed Wednesday curls, including 57.5 lb hammer work. No numeric pain score, diagnosis, exact during/after timing, next-morning response, shoulder, ab or Achilles clearance is supplied.",
+    "source": "../history/injury-log.md#2026-11-18--elbow-comfort-with-heavier-wednesday-work"
   },
   "current_symptom_report_history": [
     {
@@ -1492,6 +1570,17 @@
       "status": "no-elbow-issues-from-prior-session",
       "scope": "Athlete confirms no elbow issues from the November 6 delts/arms B and bike session, including the forearm introduction. No numeric pain score, diagnosis, general-recovery observation or additional sets supplied.",
       "source": "../history/injury-log.md#2026-11-07--no-elbow-issues-from-moved-session"
+    },
+    {
+      "reported_on": "2026-11-11",
+      "recorded_at": "2026-11-11T20:03:12-05:00",
+      "decision_id": 486,
+      "session_id": "hybrid-2026-10-26-w3-wed-2026-11-11",
+      "question": "Did your right elbow stay comfortable during the preacher curls—especially the 90 lb set—and afterward?",
+      "report": "Ya elbows were perfect today",
+      "status": "elbows-symptom-free-during-and-after",
+      "scope": "Athlete confirms comfortable elbows during and after November 11 curls, including the 90 lb preacher set. No numeric pain score, diagnosis, next-morning recovery or ab/Achilles response is supplied.",
+      "source": "../history/injury-log.md#2026-11-11--elbows-comfortable-during-and-after-curls"
     }
   ],
   "standing_recovery_policy": {
@@ -1514,16 +1603,13 @@
     "source": "../program/readiness.md"
   },
   "planning_readiness": {
-    "status": "observed-good",
-    "decision_id": 499,
-    "recorded_at": "2026-11-18T13:30:08-05:00",
-    "reported_on": "2026-11-18",
-    "observed": true,
-    "observation_type": "athlete-self-report",
-    "report": "Recovery good today. Generate",
-    "source": "../history/injury-log.md#2026-11-18--good-recovery-after-tuesday",
-    "reason": "Athlete reports good current Wednesday recovery, also supplying next-day general recovery after Tuesday’s completed run. No numeric metrics or site-specific symptom clearance are supplied.",
-    "for_date": "2026-11-18"
+    "status": "assumed-good",
+    "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+    "decision_id": 500,
+    "recorded_at": "2026-11-18T20:41:03-05:00",
+    "observed": false,
+    "reason": "Standing athlete default supplies ordinary post-session recovery and Thursday readiness. Earlier November 18 general recovery was reported good, before this session. The log reports good elbow comfort; observed next-day general recovery and site-specific ab/Achilles responses remain unknown.",
+    "for_date": "2026-11-19"
   },
   "general_readiness_history": [
     {
@@ -1785,6 +1871,18 @@
       "recorded_at": "2026-11-17T17:53:54-05:00",
       "observed": false,
       "reason": "Standing athlete default supplies ordinary recovery for the November 18 Wednesday preview. Tuesday’s completed run meets its pace and effort requirements with no new adverse report. The latest observed general-readiness report remains November 16; preserve specific local restrictions and unanswered symptom follow-ups.",
+      "for_date": "2026-11-18"
+    },
+    {
+      "status": "observed-good",
+      "decision_id": 499,
+      "recorded_at": "2026-11-18T13:30:08-05:00",
+      "reported_on": "2026-11-18",
+      "observed": true,
+      "observation_type": "athlete-self-report",
+      "report": "Recovery good today. Generate",
+      "source": "../history/injury-log.md#2026-11-18--good-recovery-after-tuesday",
+      "reason": "Athlete reports good current Wednesday recovery, also supplying next-day general recovery after Tuesday’s completed run. No numeric metrics or site-specific symptom clearance are supplied.",
       "for_date": "2026-11-18"
     }
   ],

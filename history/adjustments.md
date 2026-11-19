@@ -931,3 +931,30 @@ Activate the existing `hybrid-2026-10-26-wed-delts-arms-a-498` prescription as *
 November 11 same-slot actuals and the #498 review continue to support these weights. Stage C sets do not earn ordinary load credit; 90 lb preacher at RIR 1 did not establish that load for the prescribed reserve. Wednesday calf365 remains independent of Sunday380. Stage D supplies 1–2 RIR on rear delts/calves; curls retain3RIR within Wednesday’s restrained target. The previously earned bike increase remains25, supported by subsequent lifting/running and now reinforced by reported good next-day recovery; last-tolerated dose remains20 until the new dose is completed and validated.
 
 Remove preview labels, mark Wednesday today, and refresh both caches together. Keep Tuesday’s actuals, two hits, normal6:40/3×4 and unused6:35 candidate unchanged; W5 assessment/carry rules still apply. W4 remains two completed sessions,18lifting sets,12run work minutes and4.38miles. No new shoe mileage, lifting exposure, bike actual, injury clearance or Watch file. Publish the current-day dashboard.
+
+## 2026-11-18 — log Wednesday and preview Thursday
+
+500. Log `hybrid-2026-10-26-w4-wed-2026-11-18` against `hybrid-2026-10-26-wed-delts-arms-a-498`: **14 Stage D lifting sets**. Preserve literal results: lateral35×13/13/12/13 RIR4/3/3/2; unilateral preacher75×10/9 RIR3; reverse pec145×18/17 RIR2/1; hammer50×15 then57.5×11 RIR3; calves380×11/11/13/13 RIR2/2/1/1. Original prescribed hammer50 and calves365 remain in the dated prescription; do not rewrite them as the heavier actuals.
+
+Hold lateral35, preacher75 and reverse pec145 while building reps. No slot reached every prescribed rep ceiling, so **no further ordinary load increase is earned**. Record **hammer57.5 as a demonstrated one-set starting calibration**, not a validated two-set dose or a further progression award; reduce if subsequent sets cannot meet10 at3RIR. Retain **Wednesday calf380** after all four sets met the10–15 range and1–2RIR target; specific Achilles response remains unknown. Sunday calves and other same-exercise slots stay independent. Raw WE1–WE5 exposures increment once to4; qualification remains0, and normal-D anchors retain actual reserve and load/setup context. Ramp sets supply no retroactive credit.
+
+Record current elbow comfort from **“Going up in weight as the elbow tendon feels good.”** Broad biceps maintenance remains released, while the Thursday-only preacher effort floor remains for this immediate next-day prescription. No numeric pain, diagnosis, blanket injury clearance or answer to old session-specific symptom questions is inferred. Preserve BW/max-two-set/≥3RIR ab limits and conditional Achilles work. Thursday ordinary readiness is assumed under the standing directive; earlier good Wednesday recovery is pre-session evidence.
+
+**Bike completed:25 minutes, reported Z2,115W average.** Numeric effort, HR and zone-time distribution remain unknown. Save **seat height10.5 as reported used**, with the previous about10 request retained in history; seat−2(possibly−1) and handle+3 stay unchanged. Preserve original25-minute prescription. Last-tolerated dose remains20 pending subsequent Thursday lifting and Saturday running; no further increase or automatic25-minute validation from completion alone. Next matching Wednesday is W5 with a15-minute ceiling, subject to its assessment/recovery review; this log does not prescribe that future ride. No run or shoe mileage added.
+
+Generate **Thursday November19 — Upper B, preview**, `hybrid-2026-10-26-thu-upper-b-500`, **20 effective Stage D sets**:
+
+| Slot | Exercise | Load | Sets × reps | RIR | Rest |
+|---|---|---|---|---|---|
+| T1 | Incline barbell bench | 135 lb | 3×6–8 | 2–3 | 3 min |
+| T2 | Unilateral machine preacher curl | 75 lb | 2×8–12 per arm | 3 | 2 min |
+| T3 | DB lateral raise | 35 lb | 4×12–20 | Sets1–3:1–2; final:0–1 | 2 min |
+| T4 | Pull-up | BW,0 lb added | 2×6–12 | 2 | 2–3 min |
+| T5 | Cable pushdown | 50 lb | 3×10–15 | Sets1–2:2; final:0–1 | 2 min |
+| T6 | Seated cable row | 120 lb | 2×8–12 | 2 | 2–3 min |
+| T7 | Decline crunch — bodyweight | BW | 2×10–15 | ≥3 | 2 min |
+| T8 | Straight-arm cable pulldown | 50 lb | 2×10–15 | 1–2 | 2 min |
+
+**No cardio Thursday.** November12 same-slot actuals were incline135×8/8/8; preacher75×8/8; lateral35×12/12/12/12; BWpullup10/10; pushdown50×10/10/10; row120×9/10; BWabs15/12; straightarm50×10/10, allRIR3. They support current loads. T1’s ceiling occurred in Stage C and earns no ordinary loading credit; Monday’s separate back-off award does not transfer. Stage D permits final0–1 sets on T3/T5; local T2/T7 limits take precedence. Wednesday’s new loads do not propagate to Thursday slots.
+
+W4 now totals **three completed sessions,32 lifting sets,12 running work minutes,4.38 confirmed running miles and25 cycling minutes**. Lifting history has18 sessions/237 known sets; no Thursday actuals are added. Live date remains WednesdayNovember18 in NewYork; Thursday is an upcoming preview. Preserve Tuesday’s hit2/unused6:35 candidate, Saturday’s independent run state, prior Watch exports and EvoSL23.17 miles. Refresh current loads, same-slot history, daily/week caches and publish together.
