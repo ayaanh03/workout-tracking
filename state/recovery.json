@@ -824,14 +824,14 @@
   "observation": null,
   "reduced_snapshot": null,
   "general_readiness": {
-    "reported_on": "2026-11-18",
-    "reported_at": "2026-11-18T13:30:08-05:00",
-    "report": "Recovery good today. Generate",
+    "reported_on": "2026-11-19",
+    "reported_at": "2026-11-19T16:19:26-05:00",
+    "report": "Recovery good. What’s today?",
     "status": "good",
     "provenance": "athlete current-day general recovery report",
-    "decision_id": 499,
-    "source": "../history/injury-log.md#2026-11-18--good-recovery-after-tuesday",
-    "scope": "Athlete reports good current Wednesday recovery, also supplying next-day general recovery after Tuesday’s completed run. No numeric metrics or site-specific symptom clearance are supplied.",
+    "decision_id": 501,
+    "source": "../history/injury-log.md#2026-11-19--good-recovery-after-wednesday",
+    "scope": "Athlete reports good current Thursday general recovery, also supplying next-day general recovery after Wednesday’s completed lifting and bike. No numeric metrics or site-specific symptom clearance is supplied.",
     "numeric_metrics": null
   },
   "resolved_gates": [
@@ -876,7 +876,7 @@
     "session_id": "hybrid-2026-10-26-w4-wed-2026-11-18",
     "completion": "reported",
     "decision_id": 500,
-    "status": "completed-elbow-comfort-reported-general-recovery-assumed",
+    "status": "completed-next-day-general-recovery-reported-good",
     "working_sets": 14,
     "cycling_duration_seconds": 1500,
     "elbow_response": {
@@ -892,7 +892,17 @@
     "shoulder_response": null,
     "lower_ab_response": null,
     "achilles_response": null,
-    "next_day_recovery": null,
+    "next_day_recovery": {
+      "status": "observed-good",
+      "decision_id": 501,
+      "recorded_at": "2026-11-19T16:19:26-05:00",
+      "reported_on": "2026-11-19",
+      "observed": true,
+      "observation_type": "athlete-self-report",
+      "report": "Recovery good. What’s today?",
+      "source": "../history/injury-log.md#2026-11-19--good-recovery-after-wednesday",
+      "reason": "Athlete reports good current Thursday general recovery, also supplying next-day general recovery after Wednesday’s completed lifting and bike. No numeric metrics or site-specific symptom clearance is supplied."
+    },
     "pre_session_general_recovery": {
       "reported_on": "2026-11-18",
       "reported_at": "2026-11-18T13:30:08-05:00",
@@ -905,14 +915,27 @@
       "numeric_metrics": null
     },
     "recovery_decision": {
-      "status": "assumed-good",
-      "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-      "decision_id": 500,
-      "recorded_at": "2026-11-18T20:41:03-05:00",
-      "observed": false,
-      "reason": "Standing athlete default supplies ordinary post-session recovery and Thursday readiness. Earlier November 18 general recovery was reported good, before this session. The log reports good elbow comfort; observed next-day general recovery and site-specific ab/Achilles responses remain unknown."
+      "status": "observed-good",
+      "decision_id": 501,
+      "recorded_at": "2026-11-19T16:19:26-05:00",
+      "reported_on": "2026-11-19",
+      "observed": true,
+      "observation_type": "athlete-self-report",
+      "report": "Recovery good. What’s today?",
+      "source": "../history/injury-log.md#2026-11-19--good-recovery-after-wednesday",
+      "reason": "Athlete reports good current Thursday general recovery, also supplying next-day general recovery after Wednesday’s completed lifting and bike. No numeric metrics or site-specific symptom clearance is supplied."
     },
-    "note": "Fourteen Stage D sets plus 25 minutes Z2 bike at average 115 W completed. Heavier hammer and calf loads are actuals; general readiness earlier today is pre-session evidence. Good current elbow comfort is reported without retrospective answers to older session-specific questions."
+    "note": "Wednesday’s 14 Stage D sets and 25-minute bike remain completed actuals. November 19 good recovery supplies next-day general recovery and current Thursday readiness. Preserve the November 18 elbow-comfort report and unknown specific ab/Achilles/shoulder responses. Thursday is prescribed for today, not performed; subsequent lifting/running validation of the bike dose remains pending.",
+    "recovery_decision_history": [
+      {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 500,
+        "recorded_at": "2026-11-18T20:41:03-05:00",
+        "observed": false,
+        "reason": "Standing athlete default supplies ordinary post-session recovery and Thursday readiness. Earlier November 18 general recovery was reported good, before this session. The log reports good elbow comfort; observed next-day general recovery and site-specific ab/Achilles responses remain unknown."
+      }
+    ]
   },
   "prior_pending_post_sessions": [
     {
@@ -1603,12 +1626,15 @@
     "source": "../program/readiness.md"
   },
   "planning_readiness": {
-    "status": "assumed-good",
-    "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-    "decision_id": 500,
-    "recorded_at": "2026-11-18T20:41:03-05:00",
-    "observed": false,
-    "reason": "Standing athlete default supplies ordinary post-session recovery and Thursday readiness. Earlier November 18 general recovery was reported good, before this session. The log reports good elbow comfort; observed next-day general recovery and site-specific ab/Achilles responses remain unknown.",
+    "status": "observed-good",
+    "decision_id": 501,
+    "recorded_at": "2026-11-19T16:19:26-05:00",
+    "reported_on": "2026-11-19",
+    "observed": true,
+    "observation_type": "athlete-self-report",
+    "report": "Recovery good. What’s today?",
+    "source": "../history/injury-log.md#2026-11-19--good-recovery-after-wednesday",
+    "reason": "Athlete reports good current Thursday general recovery, also supplying next-day general recovery after Wednesday’s completed lifting and bike. No numeric metrics or site-specific symptom clearance is supplied.",
     "for_date": "2026-11-19"
   },
   "general_readiness_history": [
@@ -1677,6 +1703,17 @@
       "decision_id": 495,
       "source": "../history/injury-log.md#2026-11-16--very-good-recovery-and-stage-d-review",
       "scope": "Current Monday general readiness and next-day general recovery after Sunday’s completed leg session. Resolves the pending general fatigue review; does not specify ab/Achilles/elbow responses, sleep hours, wearable score or HR normalization.",
+      "numeric_metrics": null
+    },
+    {
+      "reported_on": "2026-11-18",
+      "reported_at": "2026-11-18T13:30:08-05:00",
+      "report": "Recovery good today. Generate",
+      "status": "good",
+      "provenance": "athlete current-day general recovery report",
+      "decision_id": 499,
+      "source": "../history/injury-log.md#2026-11-18--good-recovery-after-tuesday",
+      "scope": "Athlete reports good current Wednesday recovery, also supplying next-day general recovery after Tuesday’s completed run. No numeric metrics or site-specific symptom clearance are supplied.",
       "numeric_metrics": null
     }
   ],
@@ -1884,6 +1921,15 @@
       "source": "../history/injury-log.md#2026-11-18--good-recovery-after-tuesday",
       "reason": "Athlete reports good current Wednesday recovery, also supplying next-day general recovery after Tuesday’s completed run. No numeric metrics or site-specific symptom clearance are supplied.",
       "for_date": "2026-11-18"
+    },
+    {
+      "status": "assumed-good",
+      "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+      "decision_id": 500,
+      "recorded_at": "2026-11-18T20:41:03-05:00",
+      "observed": false,
+      "reason": "Standing athlete default supplies ordinary post-session recovery and Thursday readiness. Earlier November 18 general recovery was reported good, before this session. The log reports good elbow comfort; observed next-day general recovery and site-specific ab/Achilles responses remain unknown.",
+      "for_date": "2026-11-19"
     }
   ],
   "recovery_override_history": [

@@ -2569,7 +2569,17 @@
         },
         "lower_ab_response": null,
         "achilles_response": null,
-        "next_day_recovery": null,
+        "next_day_recovery": {
+          "status": "observed-good",
+          "decision_id": 501,
+          "recorded_at": "2026-11-19T16:19:26-05:00",
+          "reported_on": "2026-11-19",
+          "observed": true,
+          "observation_type": "athlete-self-report",
+          "report": "Recovery good. What’s today?",
+          "source": "../history/injury-log.md#2026-11-19--good-recovery-after-wednesday",
+          "reason": "Athlete reports good current Thursday general recovery, also supplying next-day general recovery after Wednesday’s completed lifting and bike. No numeric metrics or site-specific symptom clearance is supplied."
+        },
         "pre_session_recovery": {
           "status": "observed-good",
           "decision_id": 499,
@@ -2607,7 +2617,19 @@
             "status": "unperformed",
             "performance": null
           },
-          "reason": "The new 25-minute dose is completed. Review subsequent Thursday lifting and Saturday running before marking it tolerated or awarding another duration increase. General recovery uses the standing assumption; completed subsequent performance remains required."
+          "reason": "The new 25-minute dose is completed. Review subsequent Thursday lifting and Saturday running before marking it tolerated or awarding another duration increase. General recovery uses the standing assumption; completed subsequent performance remains required.",
+          "next_day_recovery": {
+            "status": "observed-good",
+            "decision_id": 501,
+            "recorded_at": "2026-11-19T16:19:26-05:00",
+            "reported_on": "2026-11-19",
+            "observed": true,
+            "observation_type": "athlete-self-report",
+            "report": "Recovery good. What’s today?",
+            "source": "../history/injury-log.md#2026-11-19--good-recovery-after-wednesday",
+            "reason": "Athlete reports good current Thursday general recovery, also supplying next-day general recovery after Wednesday’s completed lifting and bike. No numeric metrics or site-specific symptom clearance is supplied."
+          },
+          "recovery_followup_note": "November 19 good general recovery is reported. Thursday lifting and Saturday running remain unperformed; this follow-up alone does not establish the 25-minute dose as tolerated."
         },
         "decision_id": 500,
         "note": "Reported 25-minute ride completes the increased prescription at reported Z2 and 115 W average. Numeric effort, HR, bike-specific symptoms and next-day recovery remain unknown. General elbow-tendon comfort accompanies the lifting log and does not establish separate bike symptom outcomes. No running or shoe mileage is added."
@@ -2630,7 +2652,19 @@
           "status": "unperformed",
           "performance": null
         },
-        "reason": "The new 25-minute dose is completed. Review subsequent Thursday lifting and Saturday running before marking it tolerated or awarding another duration increase. General recovery uses the standing assumption; completed subsequent performance remains required."
+        "reason": "The new 25-minute dose is completed. Review subsequent Thursday lifting and Saturday running before marking it tolerated or awarding another duration increase. General recovery uses the standing assumption; completed subsequent performance remains required.",
+        "next_day_recovery": {
+          "status": "observed-good",
+          "decision_id": 501,
+          "recorded_at": "2026-11-19T16:19:26-05:00",
+          "reported_on": "2026-11-19",
+          "observed": true,
+          "observation_type": "athlete-self-report",
+          "report": "Recovery good. What’s today?",
+          "source": "../history/injury-log.md#2026-11-19--good-recovery-after-wednesday",
+          "reason": "Athlete reports good current Thursday general recovery, also supplying next-day general recovery after Wednesday’s completed lifting and bike. No numeric metrics or site-specific symptom clearance is supplied."
+        },
+        "recovery_followup_note": "November 19 good general recovery is reported. Thursday lifting and Saturday running remain unperformed; this follow-up alone does not establish the 25-minute dose as tolerated."
       },
       "next_action": {
         "decision_id": 500,
@@ -2677,7 +2711,18 @@
           "observed": false,
           "reason": "Standing athlete default supplies ordinary post-session recovery for Thursday planning. Earlier November 18 good-recovery report was pre-session; the new log reports no adverse general-recovery change. Observed next-day recovery and bike-specific symptoms remain unreported."
         },
-        "reason": "The new 25-minute dose is completed. Review subsequent Thursday lifting and Saturday running before marking it tolerated or awarding another duration increase. General recovery uses the standing assumption; completed subsequent performance remains required."
+        "reason": "The new 25-minute dose is completed. Review subsequent Thursday lifting and Saturday running before marking it tolerated or awarding another duration increase. General recovery uses the standing assumption; completed subsequent performance remains required.",
+        "recovery_followup": {
+          "status": "observed-good",
+          "decision_id": 501,
+          "recorded_at": "2026-11-19T16:19:26-05:00",
+          "reported_on": "2026-11-19",
+          "observed": true,
+          "observation_type": "athlete-self-report",
+          "report": "Recovery good. What’s today?",
+          "source": "../history/injury-log.md#2026-11-19--good-recovery-after-wednesday",
+          "reason": "Athlete reports good current Thursday general recovery, also supplying next-day general recovery after Wednesday’s completed lifting and bike. No numeric metrics or site-specific symptom clearance is supplied."
+        }
       },
       "actual_history": [
         {
@@ -3030,12 +3075,15 @@
         }
       ],
       "recovery_decision": {
-        "status": "assumed-good",
-        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-        "decision_id": 500,
-        "recorded_at": "2026-11-18T20:39:56-05:00",
-        "observed": false,
-        "reason": "Standing athlete default supplies ordinary post-session recovery for Thursday planning. Earlier November 18 good-recovery report was pre-session; the new log reports no adverse general-recovery change. Observed next-day recovery and bike-specific symptoms remain unreported."
+        "status": "observed-good",
+        "decision_id": 501,
+        "recorded_at": "2026-11-19T16:19:26-05:00",
+        "reported_on": "2026-11-19",
+        "observed": true,
+        "observation_type": "athlete-self-report",
+        "report": "Recovery good. What’s today?",
+        "source": "../history/injury-log.md#2026-11-19--good-recovery-after-wednesday",
+        "reason": "Athlete reports good current Thursday general recovery, also supplying next-day general recovery after Wednesday’s completed lifting and bike. No numeric metrics or site-specific symptom clearance is supplied."
       },
       "validation_review_history": [
         {
@@ -3461,6 +3509,14 @@
           "report": "Recovery good today. Generate",
           "source": "../history/injury-log.md#2026-11-18--good-recovery-after-tuesday",
           "reason": "Athlete reports good current Wednesday recovery, also supplying next-day general recovery after Tuesday’s completed run. No numeric metrics or site-specific symptom clearance are supplied."
+        },
+        {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 500,
+          "recorded_at": "2026-11-18T20:39:56-05:00",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary post-session recovery for Thursday planning. Earlier November 18 good-recovery report was pre-session; the new log reports no adverse general-recovery change. Observed next-day recovery and bike-specific symptoms remain unreported."
         }
       ],
       "completed_prescription": {

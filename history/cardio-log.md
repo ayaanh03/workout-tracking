@@ -313,3 +313,7 @@ Athlete reports **25 minutes, Z2, 115 W average**, and **seat height 10.5**. Rec
 The increased 25-minute prescription is completed, but its subsequent tolerance remains pending **Thursday November 19 lifting and Saturday November 21 running**. Keep the last-tolerated dose at **20 minutes** until that review; no further increase is earned merely by completing this ride. Ordinary recovery uses the standing assumption. Earlier Wednesday good recovery was pre-session, while observed next-day recovery and bike-specific ab/Achilles response remain unknown. The accompanying report that the elbow tendon feels good is recorded with lifting/recovery and is not expanded into unreported bike-specific symptoms.
 
 Next Wednesday is W5, with an assessment-week bike ceiling of **15 minutes**; this is a planning constraint, not a new prescription or completed future ride. Preserve both running tracks, Friday cycling, prior bike actuals and the original 25-minute prescription. Add no running/shoe mileage. Decision **#500**.
+
+## 2026-11-19 — Wednesday next-day recovery confirmed
+
+For `hybrid-2026-10-26-w4-wed-2026-11-18-bike`, athlete reports **good recovery** the next day. Retain the 25-minute Z2/115W actual and seat height10.5. Numeric effort and HR remain unreported. This supplies general next-day recovery, but Thursday lifting and Saturday running remain unperformed; keep the previous last-tolerated20-minute dose and pending25-minute validation. No new ride, duration increase, run credit or mileage. Decision #501.

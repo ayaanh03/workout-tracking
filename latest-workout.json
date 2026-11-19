@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-11-18T20:41:03-05:00",
+  "generatedAt": "2026-11-19T16:19:26-05:00",
   "blockId": "hybrid-2026-10-26",
   "prescriptionId": "hybrid-2026-10-26-thu-upper-b-500",
-  "preview": true,
+  "preview": false,
   "week": "W4",
   "day": "Thu",
   "date": "2026-11-19",
   "phase": "Hybrid v11 — Stage D",
-  "sessionName": "Upper B — preview",
+  "sessionName": "Upper B",
   "why": [
-    "Thursday, November 19: next scheduled workout after Wednesday’s completed 14 sets and 25-minute bike. This is a future preview.",
+    "Thursday, November 19: today’s scheduled Upper B. You report good recovery after Wednesday, so activate the prepared 20-set Stage D workout.",
     "20 effective Stage D sets at established Thursday weights. Final lateral and pushdown sets can reach 0–1 RIR; preacher stays at 3 RIR and abs stay bodyweight under their local limits."
   ],
   "intro": [
-    "Ordinary recovery is assumed good under your standing preference. Current elbow comfort is reported good; adjust any aggravating work."
+    "Good current recovery reported. Keep the prescribed effort and existing local limits; adjust aggravating work."
   ],
   "lift": {
     "table": [
@@ -208,9 +208,9 @@
     },
     {
       "exercise": "Recovery",
-      "previous": "Elbow tendon feels good alongside Wednesday’s completed work. Earlier good general recovery was pre-session; observed next-day recovery remains unknown.",
-      "decision": "Use the standing assumed-good recovery policy for Thursday’s preview; retain specific ab and local effort limits.",
-      "reason": "No new adverse report or active fatigue/return restriction. A current elbow comfort report does not retrospectively answer prior session-specific questions or clear unrelated restrictions."
+      "previous": "November 19: good current general recovery reported after Wednesday’s lifting and bike. The November 18 elbow-comfort report remains current; no new site-specific response is supplied.",
+      "decision": "Use reported good recovery for today’s prepared Upper B; retain the local preacher and bodyweight-ab limits.",
+      "reason": "No active fatigue or return restriction. General recovery does not retrospectively answer prior session-specific symptom questions or validate the bike dose before subsequent lifting and running are completed."
     }
   ],
   "currentLoads": [

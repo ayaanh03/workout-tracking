@@ -3396,7 +3396,7 @@
         "action": "hold-load-at-stage-d-dose",
         "status": "prescribed-not-performed",
         "for_date": "2026-11-19",
-        "preview": true,
+        "preview": false,
         "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
         "stage": "D",
         "sets": 3,
@@ -3415,7 +3415,9 @@
         ],
         "source": "../history/lifting-log.md#2026-11-12--hybrid-v11-w3-thursday-upper-b",
         "reason": "Hold 135 lb for the first normal-D Thursday. Ramp ceilings earn no ordinary load credit; Monday’s back-off award belongs to M1b only.",
-        "load_lb": 135
+        "load_lb": 135,
+        "review_decision_id": 501,
+        "reviewed_on": "2026-11-19"
       },
       "next_action_history": [
         {
@@ -3472,6 +3474,32 @@
             2,
             3
           ]
+        },
+        {
+          "decision_id": 500,
+          "action": "hold-load-at-stage-d-dose",
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-19",
+          "preview": true,
+          "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
+          "stage": "D",
+          "sets": 3,
+          "rep_range": [
+            6,
+            8
+          ],
+          "target_rir_range": [
+            2,
+            3
+          ],
+          "minimum_rir": 2,
+          "rest_seconds_range": [
+            180,
+            180
+          ],
+          "source": "../history/lifting-log.md#2026-11-12--hybrid-v11-w3-thursday-upper-b",
+          "reason": "Hold 135 lb for the first normal-D Thursday. Ramp ceilings earn no ordinary load credit; Monday’s back-off award belongs to M1b only.",
+          "load_lb": 135
         }
       ],
       "actual_history": [
@@ -3660,7 +3688,7 @@
         "action": "hold-load-at-stage-d-dose",
         "status": "prescribed-not-performed",
         "for_date": "2026-11-19",
-        "preview": true,
+        "preview": false,
         "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
         "stage": "D",
         "sets": 2,
@@ -3682,7 +3710,9 @@
         "load_lb": 75,
         "per_arm": true,
         "target_rir": 3,
-        "symptom_action": "Reduce or omit aggravating work if symptoms recur; do not force the load or rep floor."
+        "symptom_action": "Reduce or omit aggravating work if symptoms recur; do not force the load or rep floor.",
+        "review_decision_id": 501,
+        "reviewed_on": "2026-11-19"
       },
       "next_action_history": [
         {
@@ -3747,6 +3777,35 @@
           "target_rir": 3,
           "per_arm": true,
           "symptom_action": "Reduce or omit aggravating work if symptoms recur; do not force the prescribed load or rep floor."
+        },
+        {
+          "decision_id": 500,
+          "action": "hold-load-at-stage-d-dose",
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-19",
+          "preview": true,
+          "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
+          "stage": "D",
+          "sets": 2,
+          "rep_range": [
+            8,
+            12
+          ],
+          "target_rir_range": [
+            3,
+            3
+          ],
+          "minimum_rir": 3,
+          "rest_seconds_range": [
+            120,
+            120
+          ],
+          "source": "../history/lifting-log.md#2026-11-12--hybrid-v11-w3-thursday-upper-b",
+          "reason": "Hold 75 lb and two sets per arm. Retain the local 3-RIR floor for this next-day prescription after Wednesday’s heavier curls; the broad elbow hold remains released. Wednesday actuals do not earn Thursday load credit.",
+          "load_lb": 75,
+          "per_arm": true,
+          "target_rir": 3,
+          "symptom_action": "Reduce or omit aggravating work if symptoms recur; do not force the load or rep floor."
         }
       ]
     },
@@ -3796,7 +3855,7 @@
         "action": "hold-load-at-stage-d-dose",
         "status": "prescribed-not-performed",
         "for_date": "2026-11-19",
-        "preview": true,
+        "preview": false,
         "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
         "stage": "D",
         "sets": 4,
@@ -3820,7 +3879,9 @@
           0,
           1
         ],
-        "nonfinal_minimum_rir": 1
+        "nonfinal_minimum_rir": 1,
+        "review_decision_id": 501,
+        "reviewed_on": "2026-11-19"
       },
       "next_action_history": [
         {
@@ -3877,6 +3938,37 @@
             2,
             3
           ]
+        },
+        {
+          "decision_id": 500,
+          "action": "hold-load-at-stage-d-dose",
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-19",
+          "preview": true,
+          "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
+          "stage": "D",
+          "sets": 4,
+          "rep_range": [
+            12,
+            20
+          ],
+          "target_rir_range": [
+            1,
+            2
+          ],
+          "minimum_rir": 0,
+          "rest_seconds_range": [
+            120,
+            120
+          ],
+          "source": "../history/lifting-log.md#2026-11-12--hybrid-v11-w3-thursday-upper-b",
+          "reason": "Hold 35 lb. Earned Stage D permits a final 0–1-RIR set; earlier sets stay at 1–2. No load increase from prior ramp work.",
+          "load_lb": 35,
+          "final_set_rir_range": [
+            0,
+            1
+          ],
+          "nonfinal_minimum_rir": 1
         }
       ],
       "actual_history": [
@@ -3944,7 +4036,7 @@
         "action": "hold-load-at-stage-d-dose",
         "status": "prescribed-not-performed",
         "for_date": "2026-11-19",
-        "preview": true,
+        "preview": false,
         "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
         "stage": "D",
         "sets": 2,
@@ -3963,7 +4055,9 @@
         ],
         "source": "../history/lifting-log.md#2026-11-12--hybrid-v11-w3-thursday-upper-b",
         "reason": "Hold bodyweight and two sets at about 2 RIR. Both sets have not reached 12; no added-weight award.",
-        "load_lb": 0
+        "load_lb": 0,
+        "review_decision_id": 501,
+        "reviewed_on": "2026-11-19"
       },
       "bodyweight_lb": null,
       "next_action_history": [
@@ -4021,6 +4115,32 @@
             2,
             3
           ]
+        },
+        {
+          "decision_id": 500,
+          "action": "hold-load-at-stage-d-dose",
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-19",
+          "preview": true,
+          "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
+          "stage": "D",
+          "sets": 2,
+          "rep_range": [
+            6,
+            12
+          ],
+          "target_rir_range": [
+            2,
+            2
+          ],
+          "minimum_rir": 2,
+          "rest_seconds_range": [
+            120,
+            180
+          ],
+          "source": "../history/lifting-log.md#2026-11-12--hybrid-v11-w3-thursday-upper-b",
+          "reason": "Hold bodyweight and two sets at about 2 RIR. Both sets have not reached 12; no added-weight award.",
+          "load_lb": 0
         }
       ],
       "actual_history": [
@@ -4088,7 +4208,7 @@
         "action": "hold-load-at-stage-d-dose",
         "status": "prescribed-not-performed",
         "for_date": "2026-11-19",
-        "preview": true,
+        "preview": false,
         "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
         "stage": "D",
         "sets": 3,
@@ -4112,7 +4232,9 @@
           0,
           1
         ],
-        "nonfinal_minimum_rir": 2
+        "nonfinal_minimum_rir": 2,
+        "review_decision_id": 501,
+        "reviewed_on": "2026-11-19"
       },
       "next_action_history": [
         {
@@ -4169,6 +4291,37 @@
             2,
             3
           ]
+        },
+        {
+          "decision_id": 500,
+          "action": "hold-load-at-stage-d-dose",
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-19",
+          "preview": true,
+          "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
+          "stage": "D",
+          "sets": 3,
+          "rep_range": [
+            10,
+            15
+          ],
+          "target_rir_range": [
+            2,
+            2
+          ],
+          "minimum_rir": 0,
+          "rest_seconds_range": [
+            120,
+            120
+          ],
+          "source": "../history/lifting-log.md#2026-11-12--hybrid-v11-w3-thursday-upper-b",
+          "reason": "Hold 50 lb. Stage D permits the final set at 0–1 RIR; first two target 2. The overhead-extension replacement stays in place.",
+          "load_lb": 50,
+          "final_set_rir_range": [
+            0,
+            1
+          ],
+          "nonfinal_minimum_rir": 2
         }
       ],
       "actual_history": [
@@ -4231,7 +4384,7 @@
         "action": "hold-load-at-stage-d-dose",
         "status": "prescribed-not-performed",
         "for_date": "2026-11-19",
-        "preview": true,
+        "preview": false,
         "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
         "stage": "D",
         "sets": 2,
@@ -4250,7 +4403,9 @@
         ],
         "source": "../history/lifting-log.md#2026-11-12--hybrid-v11-w3-thursday-upper-b",
         "reason": "Hold 120 lb for two sets at about 2 RIR; build toward 12 on both before an ordinary increase.",
-        "load_lb": 120
+        "load_lb": 120,
+        "review_decision_id": 501,
+        "reviewed_on": "2026-11-19"
       },
       "next_action_history": [
         {
@@ -4307,6 +4462,32 @@
             2,
             3
           ]
+        },
+        {
+          "decision_id": 500,
+          "action": "hold-load-at-stage-d-dose",
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-19",
+          "preview": true,
+          "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
+          "stage": "D",
+          "sets": 2,
+          "rep_range": [
+            8,
+            12
+          ],
+          "target_rir_range": [
+            2,
+            2
+          ],
+          "minimum_rir": 2,
+          "rest_seconds_range": [
+            120,
+            180
+          ],
+          "source": "../history/lifting-log.md#2026-11-12--hybrid-v11-w3-thursday-upper-b",
+          "reason": "Hold 120 lb for two sets at about 2 RIR; build toward 12 on both before an ordinary increase.",
+          "load_lb": 120
         }
       ],
       "actual_history": [
@@ -4421,7 +4602,7 @@
           "action": "hold-bodyweight-under-local-limit",
           "status": "prescribed-not-performed",
           "for_date": "2026-11-19",
-          "preview": true,
+          "preview": false,
           "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
           "stage": "D",
           "sets": 2,
@@ -4443,7 +4624,9 @@
           "load": "BW",
           "external_load_lb": 0,
           "maximum_sets": 2,
-          "target_rir": 3
+          "target_rir": 3,
+          "review_decision_id": 501,
+          "reviewed_on": "2026-11-19"
         },
         "next_action_history": [
           {
@@ -4495,6 +4678,35 @@
             ],
             "source": "../history/lifting-log.md#2026-11-12--hybrid-v11-w3-thursday-upper-b",
             "reason": "November 12: BW decline crunch 15/12 at RIR 3. Keep bodyweight only, maximum two sets and minimum 3 RIR; no fresh symptom response or loaded-ab clearance.",
+            "load": "BW",
+            "external_load_lb": 0,
+            "maximum_sets": 2,
+            "target_rir": 3
+          },
+          {
+            "decision_id": 500,
+            "action": "hold-bodyweight-under-local-limit",
+            "status": "prescribed-not-performed",
+            "for_date": "2026-11-19",
+            "preview": true,
+            "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
+            "stage": "D",
+            "sets": 2,
+            "rep_range": [
+              10,
+              15
+            ],
+            "target_rir_range": [
+              3,
+              3
+            ],
+            "minimum_rir": 3,
+            "rest_seconds_range": [
+              120,
+              120
+            ],
+            "source": "../history/lifting-log.md#2026-11-12--hybrid-v11-w3-thursday-upper-b",
+            "reason": "Keep bodyweight only, maximum two sets and at least 3 RIR. The elbow report does not supply the separate original ab-site tolerance/loading review.",
             "load": "BW",
             "external_load_lb": 0,
             "maximum_sets": 2,
@@ -4562,7 +4774,7 @@
         "action": "hold-load-at-stage-d-dose",
         "status": "prescribed-not-performed",
         "for_date": "2026-11-19",
-        "preview": true,
+        "preview": false,
         "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
         "stage": "D",
         "sets": 2,
@@ -4581,7 +4793,9 @@
         ],
         "source": "../history/lifting-log.md#2026-11-12--hybrid-v11-w3-thursday-upper-b",
         "reason": "Hold 50 lb with the normal-D 1–2 RIR target. Prior sets were below 15 and earned no ordinary ramp credit.",
-        "load_lb": 50
+        "load_lb": 50,
+        "review_decision_id": 501,
+        "reviewed_on": "2026-11-19"
       },
       "next_action_history": [
         {
@@ -4638,6 +4852,32 @@
             2,
             3
           ]
+        },
+        {
+          "decision_id": 500,
+          "action": "hold-load-at-stage-d-dose",
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-19",
+          "preview": true,
+          "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
+          "stage": "D",
+          "sets": 2,
+          "rep_range": [
+            10,
+            15
+          ],
+          "target_rir_range": [
+            1,
+            2
+          ],
+          "minimum_rir": 1,
+          "rest_seconds_range": [
+            120,
+            120
+          ],
+          "source": "../history/lifting-log.md#2026-11-12--hybrid-v11-w3-thursday-upper-b",
+          "reason": "Hold 50 lb with the normal-D 1–2 RIR target. Prior sets were below 15 and earned no ordinary ramp credit.",
+          "load_lb": 50
         }
       ],
       "actual_history": [

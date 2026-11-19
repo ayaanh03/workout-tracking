@@ -6,7 +6,7 @@
   "start_date": "2026-10-25",
   "end_date": "2027-01-03",
   "timezone": "America/New_York",
-  "as_of": "2026-11-18",
+  "as_of": "2026-11-19",
   "activation_status": "active",
   "calendar_week": "W4",
   "calendar_phase": "Build",
@@ -58,7 +58,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 500,
+  "last_adjustment_id": 501,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -730,16 +730,40 @@
       "bike_rpe": null,
       "bike_reported_zone": "Z2",
       "bike_average_power_watts": 115,
-      "recovery_status": "current-elbow-comfort-reported-general-recovery-assumed",
+      "recovery_status": "next-day-general-recovery-reported-good",
       "recovery_decision": {
-        "status": "assumed-good",
-        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-        "decision_id": 500,
-        "recorded_at": "2026-11-18T20:41:03-05:00",
-        "observed": false,
-        "reason": "Standing athlete default supplies ordinary post-session recovery and Thursday readiness. Earlier November 18 general recovery was reported good, before this session. The log reports good elbow comfort; observed next-day general recovery and site-specific ab/Achilles responses remain unknown."
+        "status": "observed-good",
+        "decision_id": 501,
+        "recorded_at": "2026-11-19T16:19:26-05:00",
+        "reported_on": "2026-11-19",
+        "observed": true,
+        "observation_type": "athlete-self-report",
+        "report": "Recovery good. What’s today?",
+        "source": "../history/injury-log.md#2026-11-19--good-recovery-after-wednesday",
+        "reason": "Athlete reports good current Thursday general recovery, also supplying next-day general recovery after Wednesday’s completed lifting and bike. No numeric metrics or site-specific symptom clearance is supplied."
       },
-      "review_note": "All 14 sets logged literally. Hammer 50×15/57.5×11 RIR3 supports 57.5 as a starting calibration; only one heavy set demonstrated. Calves380×11/11/13/13 RIR2/2/1/1 establish the full four-set load. No slot reached every rep ceiling; no additional ordinary load award. Bike25min Z2 at115W and seatheight10.5 reported. Subsequent bike tolerance awaits future lifting/running."
+      "review_note": "All 14 sets logged literally. Hammer 50×15/57.5×11 RIR3 supports 57.5 as a starting calibration; only one heavy set demonstrated. Calves380×11/11/13/13 RIR2/2/1/1 establish the full four-set load. No slot reached every rep ceiling; no additional ordinary load award. Bike25min Z2 at115W and seatheight10.5 reported. Subsequent bike tolerance awaits future lifting/running. November 19: good next-day general recovery reported; no new site-specific clearance or completed subsequent priority work.",
+      "recovery_decision_history": [
+        {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 500,
+          "recorded_at": "2026-11-18T20:41:03-05:00",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary post-session recovery and Thursday readiness. Earlier November 18 general recovery was reported good, before this session. The log reports good elbow comfort; observed next-day general recovery and site-specific ab/Achilles responses remain unknown."
+        }
+      ],
+      "next_day_recovery": {
+        "status": "observed-good",
+        "decision_id": 501,
+        "recorded_at": "2026-11-19T16:19:26-05:00",
+        "reported_on": "2026-11-19",
+        "observed": true,
+        "observation_type": "athlete-self-report",
+        "report": "Recovery good. What’s today?",
+        "source": "../history/injury-log.md#2026-11-19--good-recovery-after-wednesday",
+        "reason": "Athlete reports good current Thursday general recovery, also supplying next-day general recovery after Wednesday’s completed lifting and bike. No numeric metrics or site-specific symptom clearance is supplied."
+      }
     }
   },
   "planned_start_date": "2026-10-26",
@@ -1024,10 +1048,10 @@
     "last_generated_prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
     "last_generated_from_session_id": "hybrid-2026-10-26-w4-wed-2026-11-18",
     "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping.",
-    "last_generation_trigger": "automatic-next-workout-after-logging",
+    "last_generation_trigger": "current-day-activation-of-existing-prescription",
     "last_generation_decision_id": 500,
-    "last_review_decision_id": 500,
-    "last_review_reason": "Save Wednesday actuals and generate Thursday Upper B as a future preview with ordinary recovery assumed; Stage D and specific limits remain."
+    "last_review_decision_id": 501,
+    "last_review_reason": "Activate the prepared November 19 Upper B after the athlete reports good recovery. Retain #500 exact dose and prescription ID; no new performed work, local clearance or progression award."
   },
   "session_freeze_history": [
     {
@@ -1287,15 +1311,15 @@
   },
   "next_session_adjustment": {
     "date": "2026-11-19",
-    "decision_id": 500,
-    "status": "preview-not-performed",
+    "decision_id": 501,
+    "status": "planned-today-not-performed",
     "original_session": "Upper B",
     "effective_session": "Upper B",
     "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
-    "source": "../history/adjustments.md#2026-11-18--log-wednesday-and-preview-thursday",
+    "source": "../history/adjustments.md#2026-11-19--activate-thursday-with-good-recovery",
     "stage": "D",
     "working_sets": 20,
-    "reason": "Next scheduled session after Wednesday completion. First normal-D Thursday uses same-slot November12 loads, with 0–1 only on eligible final lateral/pushdown sets. T2 remains at3RIR for the next-day prescription and T7 stays BW/max2sets/≥3RIR."
+    "reason": "Good current recovery supports activating the prepared 20-set Stage D Thursday session, with no cardio. Keep exact #500 load, sets, reps, RIR and rest; local preacher and bodyweight-ab limits persist."
   },
   "next_session_adjustment_history": [
     {
@@ -1380,6 +1404,18 @@
       "working_sets": 14,
       "bike_minutes": 25,
       "reason": "Good current recovery supports activating the prepared 14-set Stage D Wednesday session and 25-minute bike. Keep exact #498 prescription, same-slot loads, effort and local limits; no additional increase or completed work."
+    },
+    {
+      "date": "2026-11-19",
+      "decision_id": 500,
+      "status": "preview-not-performed",
+      "original_session": "Upper B",
+      "effective_session": "Upper B",
+      "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
+      "source": "../history/adjustments.md#2026-11-18--log-wednesday-and-preview-thursday",
+      "stage": "D",
+      "working_sets": 20,
+      "reason": "Next scheduled session after Wednesday completion. First normal-D Thursday uses same-slot November12 loads, with 0–1 only on eligible final lateral/pushdown sets. T2 remains at3RIR for the next-day prescription and T7 stays BW/max2sets/≥3RIR."
     }
   ]
 }

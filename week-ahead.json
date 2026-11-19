@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-18T20:41:03-05:00",
+  "generatedAt": "2026-11-19T16:19:26-05:00",
   "blockId": "hybrid-2026-10-26",
-  "preview": true,
+  "preview": false,
   "week": "W4",
   "phase": "Hybrid v11 — Stage D",
   "rangeStart": "2026-11-16",
   "rangeEnd": "2026-11-22",
-  "summary": "W4, November 16–22: Monday, Tuesday and Wednesday are complete: 32 lifting sets, 4.38 running miles and 25 bike minutes. Thursday preview has 20 Stage D sets with established Thursday loads and current local limits. Saturday running and the W5 pace-credit rules remain unchanged.",
+  "summary": "W4, November 16–22: Monday, Tuesday and Wednesday are complete: 32 lifting sets, 4.38 running miles and 25 bike minutes. Today is Thursday Upper B: 20 Stage D sets with established Thursday loads, good recovery reported and current local limits retained. Saturday running and W5 pace-credit rules remain unchanged.",
   "days": [
     {
       "date": "2026-11-16",
@@ -33,8 +33,8 @@
       "date": "2026-11-19",
       "day": "Thu",
       "session": "Upper B",
-      "status": "upcoming",
-      "note": "Preview: 20 Stage D sets. Incline 135 lb 3×6–8; preacher 75 lb 2×8–12/arm at 3 RIR; laterals 35 lb 4×12–20; BW pull-up 2×6–12; pushdown 50 lb 3×10–15; row 120 lb 2×8–12; BW crunch 2×10–15 at ≥3 RIR; straight-arm pulldown 50 lb 2×10–15. Final lateral and pushdown sets 0–1 RIR. No cardio."
+      "status": "today",
+      "note": "Today: 20 Stage D sets. Incline 135 lb 3×6–8; preacher 75 lb 2×8–12/arm at 3 RIR; laterals 35 lb 4×12–20; BW pull-up 2×6–12; pushdown 50 lb 3×10–15; row 120 lb 2×8–12; BW crunch 2×10–15 at ≥3 RIR; straight-arm pulldown 50 lb 2×10–15. Final lateral and pushdown sets 0–1 RIR. No cardio. Good current recovery reported; workout not yet completed."
     },
     {
       "date": "2026-11-20",

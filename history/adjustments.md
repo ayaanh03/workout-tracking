@@ -958,3 +958,24 @@ Generate **Thursday November19 — Upper B, preview**, `hybrid-2026-10-26-thu-up
 **No cardio Thursday.** November12 same-slot actuals were incline135×8/8/8; preacher75×8/8; lateral35×12/12/12/12; BWpullup10/10; pushdown50×10/10/10; row120×9/10; BWabs15/12; straightarm50×10/10, allRIR3. They support current loads. T1’s ceiling occurred in Stage C and earns no ordinary loading credit; Monday’s separate back-off award does not transfer. Stage D permits final0–1 sets on T3/T5; local T2/T7 limits take precedence. Wednesday’s new loads do not propagate to Thursday slots.
 
 W4 now totals **three completed sessions,32 lifting sets,12 running work minutes,4.38 confirmed running miles and25 cycling minutes**. Lifting history has18 sessions/237 known sets; no Thursday actuals are added. Live date remains WednesdayNovember18 in NewYork; Thursday is an upcoming preview. Preserve Tuesday’s hit2/unused6:35 candidate, Saturday’s independent run state, prior Watch exports and EvoSL23.17 miles. Refresh current loads, same-slot history, daily/week caches and publish together.
+
+## 2026-11-19 — activate Thursday with good recovery
+
+501. Athlete reports **“Recovery good. What’s today?”** Today is **Thursday November 19, America/New_York, W4**. Record observed self-reported current general readiness and Wednesday’s next-day general recovery. Preserve the previously reported elbow comfort, local preacher/bodyweight-ab limits and all unreported site-specific responses. No new performance, qualification, stage transition or injury clearance is inferred.
+
+Activate the existing `hybrid-2026-10-26-thu-upper-b-500` as **today**, retaining its prescription identity and exact **20-set Stage D Upper B**, with **no cardio**:
+
+| Slot | Exercise | Load | Sets × reps | RIR | Rest |
+|---|---|---|---|---|---|
+| T1 | Incline barbell bench | 135 lb | 3×6–8 | 2–3 | 3 min |
+| T2 | Unilateral machine preacher curl | 75 lb | 2×8–12 per arm | 3 | 2 min |
+| T3 | DB lateral raise | 35 lb | 4×12–20 | First3:1–2; final:0–1 | 2 min |
+| T4 | Pull-up | BW,0 lb added | 2×6–12 | 2 | 2–3 min |
+| T5 | Cable pushdown | 50 lb | 3×10–15 | First2:2; final:0–1 | 2 min |
+| T6 | Seated cable row | 120 lb | 2×8–12 | 2 | 2–3 min |
+| T7 | Decline crunch — bodyweight | BW | 2×10–15 | ≥3 | 2 min |
+| T8 | Straight-arm cable pulldown | 50 lb | 2×10–15 | 1–2 | 2 min |
+
+The same-slot November12 results and #500 review still support these held loads. Those results occurred during Stage C and earn no retrospective ordinary increase; Monday back-off progression and Wednesday heavier curl/calf actuals stay independent. This first normal-D Thursday permits final0–1 sets on lateral raises and pushdowns, while the retained T2 effort floor and T7 substitution/ceiling take precedence. The general recovery update does not change those targets.
+
+Update Wednesday’s next-day general recovery, but keep bike25-minute tolerance pending completed Thursday lifting and Saturday running; last-tolerated dose remains20. Preserve all actuals, counts, run targets/credit, shoe miles, saved bike settings and W4 totals of3 completed sessions/32lifting sets/12run work minutes/4.38miles/25bike minutes. Remove preview labels, mark Thursday today, refresh caches together and publish. No Thursday completion or new Watch file.
