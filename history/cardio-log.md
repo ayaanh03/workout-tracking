@@ -317,3 +317,11 @@ Next Wednesday is W5, with an assessment-week bike ceiling of **15 minutes**; th
 ## 2026-11-19 — Wednesday next-day recovery confirmed
 
 For `hybrid-2026-10-26-w4-wed-2026-11-18-bike`, athlete reports **good recovery** the next day. Retain the 25-minute Z2/115W actual and seat height10.5. Numeric effort and HR remain unreported. This supplies general next-day recovery, but Thursday lifting and Saturday running remain unperformed; keep the previous last-tolerated20-minute dose and pending25-minute validation. No new ride, duration increase, run credit or mileage. Decision #501.
+
+## 2026-11-19 — cycling tolerance review and Friday preview
+
+Thursday Upper B is now completed with **20 Stage D sets**, all within prescribed rep ranges and effort or more reserve, including incline135×8/8/8 and BWpull-up12/12 atRIR2. This supports the lifting portion of **Wednesday November18’s25-minute bike validation**. Earlier November19 good recovery was pre-session and next-day general recovery after Wednesday; post-Thursday recovery for planning uses the standing assumption. SaturdayNovember21 running remains unperformed, so retain Wednesday’s last-tolerated20minutes and pending25-minute validation. No new Wednesday ride is added.
+
+Prescribe **Friday November20 bike after lifting:25minutes, RPE3 (acceptable2–4)** under `hybrid-2026-10-26-fri-delts-arms-b-502`, as a future preview. The Friday cycling track’s own November6 twenty-minute ride was already supported by the November7 qualifying run and November8 full leg dose (#481); W3’s20-minute ceiling previously prevented a duration increase. November17 qualifying running, current acceptable lifting and good pre-session recovery reinforce present readiness. November13 rowing stays a substitution and Wednesday’s separate25-minute completion does not supply Friday tolerance. Keep Friday’s last-tolerated20minutes until its newly prescribed25-minute dose is completed and subsequent lifting/running reviewed.
+
+Saved bike settings: **height10.5** (reported used November18), **seat−2 (possibly−1), handle+3**. No further settings use, numeric RPE from the old Z2 report, completed Friday minutes, running/shoe mileage, or change to either run’s targets/credit is inferred. Preserve historical poor-readiness evidence and all prior prescriptions/actuals. Decision #502.

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "blockId": "hybrid-2026-10-26",
-  "generatedAt": "2026-11-18T20:40:17-05:00",
+  "generatedAt": "2026-11-19T20:11:48-05:00",
   "sessions": [
     {
       "date": "2026-10-25",
@@ -2521,6 +2521,202 @@
         }
       ],
       "notes": "All 14 Stage D sets reported. Hammer curl increased within session from 50 to 57.5 lb; calf raises used 380 instead of prescribed 365. Athlete says the elbow tendon feels good. Bike 25 minutes, reported Z2, 115 W average; numeric effort and measured HR not supplied. Seat height 10.5 reported. No new ab/Achilles response or observed next-day recovery."
+    },
+    {
+      "date": "2026-11-19",
+      "week": "W4",
+      "stage": "D",
+      "sessionName": "Upper B",
+      "sessionId": "hybrid-2026-10-26-w4-thu-2026-11-19",
+      "prescriptionId": "hybrid-2026-10-26-thu-upper-b-500",
+      "actualRef": "history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+      "exercises": [
+        {
+          "slotId": "T1",
+          "exercise": "Incline barbell bench",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 135,
+              "units": "lb",
+              "reps": 8,
+              "rir": 2
+            },
+            {
+              "load": 135,
+              "units": "lb",
+              "reps": 8,
+              "rir": 2
+            },
+            {
+              "load": 135,
+              "units": "lb",
+              "reps": 8,
+              "rir": 2
+            }
+          ],
+          "note": "November 19: 135×8/8/8 at RIR 2. All three normal-D sets reached eight with the intended reserve. Earn the smallest available increase for the next Thursday exposure: 137.5 lb if +2.5 lb total is available, otherwise 140 lb if +5 lb is the smallest available. Current demonstrated load stays 135 lb; no extra set or Monday-slot transfer."
+        },
+        {
+          "slotId": "T2",
+          "exercise": "Unilateral machine preacher curl",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 75,
+              "units": "lb",
+              "reps": 9,
+              "rir": 3
+            },
+            {
+              "load": 75,
+              "units": "lb",
+              "reps": 8,
+              "rir": 3
+            }
+          ],
+          "note": "November 19: 75×9/8 per arm at RIR 3. Both sets meet the local reserve floor, but neither reaches 12. Hold 75 lb and two sets at minimum 3 RIR; this log supplies no new elbow response or review removing the local effort limit."
+        },
+        {
+          "slotId": "T3",
+          "exercise": "DB lateral raise",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 2
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 13,
+              "rir": 2
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 2
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 0
+            }
+          ],
+          "note": "November 19: 35×12/13/12/12 at RIR 2/2/2/0. All sets meet the rep floor and their intended reserve; final RIR 0 is literal and permitted. None reaches 20, so hold 35 lb and build reps; zero qualifying exposures."
+        },
+        {
+          "slotId": "T4",
+          "exercise": "Pull-up",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 0,
+              "units": "lb",
+              "reps": 12,
+              "rir": 2
+            },
+            {
+              "load": 0,
+              "units": "lb",
+              "reps": 12,
+              "rir": 2
+            }
+          ],
+          "note": "November 19: bodyweight, 0 lb added, 12/12 at RIR 2. Both normal-D sets reached 12 with intended reserve. Earn the smallest available safely attachable external-load increment for the next matching exposure. Exact increment/equipment availability is unreported and not selected here; current demonstrated added load remains 0 lb."
+        },
+        {
+          "slotId": "T5",
+          "exercise": "Cable pushdown",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 10,
+              "rir": 2
+            },
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 10,
+              "rir": 2
+            },
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 10,
+              "rir": 1
+            }
+          ],
+          "note": "November 19: 50×10/10/10 at RIR 2/2/1. All sets meet the range and effort, including the eligible final 0–1 target. Not all sets reached 15, so hold 50 lb and build reps."
+        },
+        {
+          "slotId": "T6",
+          "exercise": "Seated cable row",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 120,
+              "units": "lb",
+              "reps": 9,
+              "rir": 2
+            },
+            {
+              "load": 120,
+              "units": "lb",
+              "reps": 9,
+              "rir": 2
+            }
+          ],
+          "note": "November 19: 120×9/9 at RIR 2. Both sets meet the range and intended reserve; neither reaches 12. Hold 120 lb. Prior Stage-C RIR 3 work is not a matched normal-D decline comparison."
+        },
+        {
+          "slotId": "T7",
+          "exercise": "Decline crunch — bodyweight",
+          "status": "completed",
+          "sets": [
+            {
+              "load": "BW",
+              "units": "bodyweight",
+              "reps": 15,
+              "rir": 5
+            },
+            {
+              "load": "BW",
+              "units": "bodyweight",
+              "reps": 15,
+              "rir": 5
+            }
+          ],
+          "note": "November 19: BW×15/15 at RIR 5/5. Keep the reported extra reserve, bodyweight-only substitution, maximum two sets and minimum 3 RIR. Reaching the rep ceiling does not clear the separate ab-loading review; no new symptom response is supplied."
+        },
+        {
+          "slotId": "T8",
+          "exercise": "Straight-arm cable pulldown",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 12,
+              "rir": 2
+            },
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 11,
+              "rir": 2
+            }
+          ],
+          "note": "November 19: 50×12/11 at RIR 2. Both sets meet the 1–2 RIR target but neither reaches 15. Hold 50 lb and build reps; no ordinary loading award."
+        }
+      ],
+      "notes": "All 20 Stage D sets reported. Incline 135×8/8/8 and BW pull-up12/12 at RIR2 earn their own smallest-increment awards; neither higher load is prescribed or performed here. Lateral final RIR0 and pushdown final RIR1 are preserved. BW crunch15/15 at RIR5/5 does not clear added loading. No new symptom or observed next-day recovery report; no cardio prescribed or reported."
     }
   ]
 }

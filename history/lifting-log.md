@@ -354,3 +354,28 @@ Hold lateral35, preacher75 and reverse pec145. None reached its ceiling on every
 Retain **380 lb for Wednesday calves**, independently established here by all four sets at the normal-D rep/effort target. This is reconciliation of performed heavier work, not a transfer of Sunday’s load or another earned increment. None reached15, so hold380 and build reps. Specific Achilles response is unreported and the conditional comfort limit persists.
 
 Increment each Wednesday slot’s raw exposure once to4. Ordinary qualifying counts stay0. Establish first normal-D references for WE1/WE2/WE3/WE5 using actual first-set load/RIR; no ramp comparisons transfer. WE4’s mixed loads remain calibration evidence, with a first-set anchor at the new57.5reference pending. No plateau or extra-set trial is inferred. Ordinary post-session recovery uses the standing default; the earlier good recovery report was pre-session. Bike25min Z2 at115W average and seat height10.5 are recorded separately in cardio/equipment state. Decision #500.
+
+## 2026-11-19 — Hybrid v11 W4 Thursday Upper B
+
+Session `hybrid-2026-10-26-w4-thu-2026-11-19`, original prescription `hybrid-2026-10-26-thu-upper-b-500`, activated by #501. **20 working sets, Stage D**. Prescribed rests: incline3min, pull-up/row2–3min, others2min; actual rests/setup changes are unreported. No cardio prescribed or reported.
+
+| Slot | Exercise | Original prescription | Actual sets: load × reps, RIR |
+|---|---|---|---|
+| T1 | Incline barbell bench | 135 lb · 3×6–8 · RIR2–3 | 135×8, RIR2 / 135×8, RIR2 / 135×8, RIR2 |
+| T2 | Unilateral machine preacher curl | 75 lb · 2×8–12 per arm · RIR3 | 75×9, RIR3 / 75×8, RIR3 |
+| T3 | DB lateral raise | 35 lb · 4×12–20 · first3 RIR1–2; final0–1 | 35×12, RIR2 / 35×13, RIR2 / 35×12, RIR2 / 35×12, RIR0 |
+| T4 | Pull-up | BW,0 lb added · 2×6–12 · RIR2 | BW,0 lb added×12, RIR2 / BW,0 lb added×12, RIR2 |
+| T5 | Cable pushdown | 50 lb · 3×10–15 · first2 RIR2; final0–1 | 50×10, RIR2 / 50×10, RIR2 / 50×10, RIR1 |
+| T6 | Seated cable row | 120 lb · 2×8–12 · RIR2 | 120×9, RIR2 / 120×9, RIR2 |
+| T7 | Decline crunch — bodyweight | BW · 2×10–15 · ≥3RIR | BW×15, RIR5 / BW×15, RIR5 |
+| T8 | Straight-arm cable pulldown | 50 lb · 2×10–15 · RIR1–2 | 50×12, RIR2 / 50×11, RIR2 |
+
+All reported sets meet rep floors and intended reserve or more. Preserve the final lateral RIR0, pushdown RIR1 and extra ab reserve literally. Earlier November19 good recovery was pre-session evidence; ordinary post-session recovery uses the standing default, with no new observed next-day or site-specific response supplied.
+
+**T1 qualifies:** all three135lb sets reached8 atRIR2 on the first normal-D Thursday. Queue the smallest available increase: **137.5lb if +2.5lb total is available; otherwise140lb if +5lb is the smallest available**. Current actual load stays135, with one qualifying exposure and source unused until application. This award belongs to T1 only; Monday top/back-off state does not change.
+
+**T4 qualifies:** both bodyweight sets reached12 atRIR2. Queue the **smallest available safely attachable external-load increment** for the next matching exposure. Its exact amount and loading method are unreported and remain unselected; do not invent an available belt/vest or fixed5lb step. Keep current added-load actual0lb, body mass unknown, one qualifying exposure and source unused. Calibrate the new load to6–12 at about2RIR; if the smallest increment prevents the floor, use a smaller increment if available or hold bodyweight and review.
+
+Hold preacher75, laterals35, pushdown50, row120 and straight-arm50 while building reps; none reached its ceiling on every set. T2 retains minimum3RIR pending its own effort review. T7’s BW15/15 atRIR5/5 does not clear the BW/max-two-set/≥3RIR limit or establish loaded-ab tolerance.
+
+Raw exposures increment once: T1/T3/T4/T5/T6/T8 become4, replacement T2 becomes2, and T7’s BW substitute becomes3. Ordinary qualification is1 for T1/T4 and0 elsewhere. Store first normal-D references with actual first-set RIR and unknown actual rest/setup retained; do not import ramp comparisons, infer a plateau/decline or transfer Wednesday credit. Higher-load anchors follow only after their future actual performance. Decision #502.

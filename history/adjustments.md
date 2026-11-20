@@ -979,3 +979,30 @@ Activate the existing `hybrid-2026-10-26-thu-upper-b-500` as **today**, retainin
 The same-slot November12 results and #500 review still support these held loads. Those results occurred during Stage C and earn no retrospective ordinary increase; Monday back-off progression and Wednesday heavier curl/calf actuals stay independent. This first normal-D Thursday permits final0–1 sets on lateral raises and pushdowns, while the retained T2 effort floor and T7 substitution/ceiling take precedence. The general recovery update does not change those targets.
 
 Update Wednesday’s next-day general recovery, but keep bike25-minute tolerance pending completed Thursday lifting and Saturday running; last-tolerated dose remains20. Preserve all actuals, counts, run targets/credit, shoe miles, saved bike settings and W4 totals of3 completed sessions/32lifting sets/12run work minutes/4.38miles/25bike minutes. Remove preview labels, mark Thursday today, refresh caches together and publish. No Thursday completion or new Watch file.
+
+## 2026-11-19 — log Thursday and preview Friday
+
+502. Log `hybrid-2026-10-26-w4-thu-2026-11-19` against `hybrid-2026-10-26-thu-upper-b-500`: **20 Stage D sets**. Literal actuals: incline135×8/8/8 RIR2; unilateral preacher75×9/8 RIR3; lateral35×12/13/12/12 RIR2/2/2/0; BWpull-up0added×12/12 RIR2; pushdown50×10/10/10 RIR2/2/1; row120×9/9 RIR2; BWdecline15/15 RIR5/5; straightarm50×12/11 RIR2. All rep/effort requirements met, including the eligible lateral/pushdown finals. No additional sets or cardio inferred.
+
+**T1 incline earns the smallest increase:** all three normal-D sets reached8 withRIR2. Queue **137.5lb if +2.5lb total is available, otherwise140lb if +5lb is the smallest increment** for the next matching Thursday. Keep135 as the last performed load; this is an unused award, not a completed higher-weight session. **T4 pull-ups also qualify:** both sets reached12 withRIR2. Queue the **smallest available safely attachable added load**; its numeric increment is unreported and remains unselected. Keep0lb added as the actual baseline. Awards are independent of Monday incline and other slots; no retrospective ramp qualification is used.
+
+Hold remaining Thursday loads while building reps. No other loaded slot reached every ceiling. BW15/15 withRIR5 does not override the separate ab-loading limit. Increment each Thursday raw exposure once, preserve old actuals and normal-D comparability conditions, and retain explicit unknown symptom/setup/rest details. Ordinary post-session recovery uses the standing assumption; the earlier November19 report was pre-session good recovery. No new elbow or original ab-site response is inferred.
+
+Generate **Friday November20 — Delts/arms B + bike, preview**, `hybrid-2026-10-26-fri-delts-arms-b-502`, **13 Stage D sets**, all **2-minute rests**:
+
+| Slot | Exercise | Load | Sets × reps | RIR |
+|---|---|---|---|---|
+| S1 | DB lateral raise | 35 lb | 4×12–20 | First3:1–2; final:0–1 |
+| S2 | Incline DB curl | 27.5 lb | 2×8–12 | First:1–2; final:0–1 |
+| S3 | Cable pushdown | 50 lb | 3×10–15 | First2:2; final:0–1 |
+| S4 | Reverse pec deck | 145 lb | 2×12–20 | 1–2 |
+| S5 | Cable reverse curl | 27.5 lb | 1×15 | ≥4 |
+| S6 | Cable wrist curl | 27.5 lb | 1×15 | ≥4 |
+
+Same-slot November13 actuals support held loads: lateral35×12/12/12/13 RIR4/3/3/3; inclinecurl27.5×8/8 RIR2; pushdown50×10/10/10 RIR3; reversepec145×15/15 RIR3; forearms27.5×15 RIR4 each. Those StageC sets earn no ordinary increase. NormalD now permits S1/S2/S3 final0–1 effort. The broad elbow hold is released and November18 elbow comfort is good; the unanswered older session-specific question alone does not create a new hold. Thursday’s local preacher floor does not transfer into S2. Forearms retain the cautious one-set/15-rep/≥4RIR prescription; no extra sets or W6 eligibility inference. No Friday calves.
+
+**Bike after lifting:25 minutes atRPE3, acceptable2–4**, comfortable conversation. This Friday track’s own November6 prescribed20-minute dose has completed tolerance evidence from November7 running and November8 legs; W3 then capped it at20. Current priority performance and readiness support the W4 increase. Preserve November13 rowing as a substitution, not a bike actual. Do not transfer Wednesday’s unvalidated25-minute dose into Friday evidence. Friday last-tolerated dose remains20 until its new25-minute prescription is completed and reviewed. Settings: **height10.5, seat−2(possibly−1), handle+3**; no new settings-use actual.
+
+Wednesday’s separate25-minute bike validation now has **acceptable Thursday lifting**: full20sets within ranges/effort, incline/pull-up ceilings met. SaturdayNovember21 running remains unperformed, so keep last-tolerated20 and pending run validation. Retain earlier general-recovery evidence and old review history; no duration award based only on future work.
+
+W4 now has **four completed sessions,52 lifting sets,12 running work minutes,4.38 confirmed miles and25 bike minutes**. Lifting history totals19sessions/257known sets. Live date remains ThursdayNovember19 in NewYork; Friday is upcoming, not completed. Preserve run targets, hit/source credit, Watch exports and EvoSL23.17 miles. Refresh actual history, current-load notes, Friday prescription and week cache together and publish.

@@ -277,3 +277,7 @@ The broad biceps maintenance hold remains released. Retain the standard-cable-cu
 ## 2026-11-19 — good recovery after Wednesday
 
 Athlete reports **“Recovery good. What’s today?”** Record good current Thursday general recovery and next-day general recovery after Wednesday’s 14 lifting sets and 25-minute bike. Preserve the prior elbow-comfort report, all local limits and unknown site-specific ab/Achilles/shoulder responses; this is not a new blanket symptom-clearance statement or numeric metric. Activate the prepared Thursday Upper B. Completed subsequent lifting and running are still needed to validate the new bike dose; good recovery alone does not establish them. Decision #501.
+
+## 2026-11-19 — Thursday bodyweight ab exposure recorded
+
+T7 bodyweight decline crunch was completed **15/15 at RIR5/5** within the two-set ceiling. No during/after original-site response or next-morning response accompanies this log, so preserve bodyweight-only work, maximum two sets and minimum3RIR; extra reserve does not clear loaded abs. Thursday preacher75×9/8RIR3, lateral finalRIR0 and pushdown finalRIR1 are recorded separately from symptoms. Keep the November18 report that the elbow tendon feels good, without inventing new local clearance or recurrence. Earlier Thursday good general recovery remains pre-session evidence; Friday uses the standing ordinary recovery assumption. No repeated routine recovery question. Decision #502.

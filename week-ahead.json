@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-19T16:19:26-05:00",
+  "generatedAt": "2026-11-19T20:11:50-05:00",
   "blockId": "hybrid-2026-10-26",
-  "preview": false,
+  "preview": true,
   "week": "W4",
   "phase": "Hybrid v11 — Stage D",
   "rangeStart": "2026-11-16",
   "rangeEnd": "2026-11-22",
-  "summary": "W4, November 16–22: Monday, Tuesday and Wednesday are complete: 32 lifting sets, 4.38 running miles and 25 bike minutes. Today is Thursday Upper B: 20 Stage D sets with established Thursday loads, good recovery reported and current local limits retained. Saturday running and W5 pace-credit rules remain unchanged.",
+  "summary": "W4, November 16–22: Monday through Thursday are complete: 52 lifting sets, 4.38 running miles and 25 bike minutes. Thursday incline and pull-ups earned independent load increases. Friday preview: 13 Stage D sets plus 25 minutes easy bike; Saturday running remains unchanged.",
   "days": [
     {
       "date": "2026-11-16",
@@ -33,15 +33,15 @@
       "date": "2026-11-19",
       "day": "Thu",
       "session": "Upper B",
-      "status": "today",
-      "note": "Today: 20 Stage D sets. Incline 135 lb 3×6–8; preacher 75 lb 2×8–12/arm at 3 RIR; laterals 35 lb 4×12–20; BW pull-up 2×6–12; pushdown 50 lb 3×10–15; row 120 lb 2×8–12; BW crunch 2×10–15 at ≥3 RIR; straight-arm pulldown 50 lb 2×10–15. Final lateral and pushdown sets 0–1 RIR. No cardio. Good current recovery reported; workout not yet completed."
+      "status": "done",
+      "note": "Logged 20 sets: incline 135×8/8/8 RIR 2; preacher 75×9/8 RIR 3; lateral 35×12/13/12/12 RIR 2/2/2/0; BW pull-up 12/12 RIR 2; pushdown 50×10/10/10 RIR 2/2/1; row 120×9/9 RIR 2; BW abs 15/15 RIR 5; straight-arm 50×12/11 RIR 2. Incline and pull-ups earn next-load increases; no cardio."
     },
     {
       "date": "2026-11-20",
       "day": "Fri",
       "session": "Delts/arms B + bike",
       "status": "upcoming",
-      "note": "13 effective sets including one set per forearm; keep cautious forearm effort at ≥4 RIR. Bike 20 minutes after lifting. The prior rowing session remains a logged substitution."
+      "note": "Preview: 13 Stage D sets. Laterals 35 lb 4×12–20; incline DB curl 27.5 lb 2×8–12; pushdown 50 lb 3×10–15; reverse pec deck 145 lb 2×12–20; reverse and wrist curls 27.5 lb 1×15 each at ≥4 RIR. Final lateral, incline-curl and pushdown sets 0–1 RIR; all rests 2 min. Bike 25 min after lifting at RPE 3, acceptable 2–4. Seat height 10.5."
     },
     {
       "date": "2026-11-21",

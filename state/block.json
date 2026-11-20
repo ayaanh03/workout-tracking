@@ -58,7 +58,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 501,
+  "last_adjustment_id": 502,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -764,6 +764,29 @@
         "source": "../history/injury-log.md#2026-11-19--good-recovery-after-wednesday",
         "reason": "Athlete reports good current Thursday general recovery, also supplying next-day general recovery after Wednesday’s completed lifting and bike. No numeric metrics or site-specific symptom clearance is supplied."
       }
+    },
+    "2026-11-19": {
+      "calendar_week": "W4",
+      "session": "Upper B",
+      "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+      "status": "completed",
+      "stage": "D",
+      "working_sets": 20,
+      "reported_working_sets": 20,
+      "prescribed_working_sets": 20,
+      "unresolved_slots": [],
+      "actual_ref": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+      "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
+      "recovery_status": "general-recovery-assumed-good",
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 502,
+        "recorded_at": "2026-11-19T20:11:50-05:00",
+        "observed": false,
+        "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. Earlier November 19 good recovery was pre-session evidence; no new adverse report accompanies the completed lift. Site-specific during/after responses and observed next-day recovery remain unknown."
+      },
+      "review_note": "All 20 sets meet rep/effort requirements. Incline135×8/8/8RIR2 and BWpull-up12/12RIR2 qualify independent smallest-increment awards. Other loads hold; bodyweight abs15/15RIR5/5 retain their local cap. No cardio prescribed or reported Thursday; observed post-session recovery and local responses remain unknown."
     }
   },
   "planned_start_date": "2026-10-26",
@@ -940,8 +963,8 @@
       "range_end": "2026-11-22",
       "stage": "D",
       "completion": "in-progress",
-      "completed_sessions": 3,
-      "known_lifting_sets": 32,
+      "completed_sessions": 4,
+      "known_lifting_sets": 52,
       "known_running_work_minutes": 12,
       "confirmed_running_miles": 4.38,
       "known_cycling_minutes": 25,
@@ -950,9 +973,9 @@
       "known_rowing_seconds": 0,
       "manageable": null,
       "status": "week-in-progress",
-      "decision_id": 500,
-      "source": "../history/adjustments.md#2026-11-18--log-wednesday-and-preview-thursday",
-      "note": "Monday18 and Wednesday14 Stage D lifting sets, Tuesday12 work minutes/4.38 miles and Wednesday25 minutes cycling completed. Thursday onward remains unperformed; W4 manageability is not yet reviewed."
+      "decision_id": 502,
+      "source": "../history/adjustments.md#2026-11-19--log-thursday-and-preview-friday",
+      "note": "Monday18, Wednesday14 and Thursday20 Stage D lifting sets completed, plus Tuesday12 running work minutes/4.38miles and Wednesday25 bike minutes. Friday onward remains unperformed; W4 manageability is not yet reviewed."
     }
   },
   "program_amendments": [
@@ -1044,14 +1067,14 @@
     "publish_next_workout": true,
     "default_recovery": "assumed-good-unless-reported-otherwise",
     "source": "../program/readiness.md",
-    "last_generated_date": "2026-11-19",
-    "last_generated_prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
-    "last_generated_from_session_id": "hybrid-2026-10-26-w4-wed-2026-11-18",
+    "last_generated_date": "2026-11-20",
+    "last_generated_prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-502",
+    "last_generated_from_session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
     "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping.",
-    "last_generation_trigger": "current-day-activation-of-existing-prescription",
-    "last_generation_decision_id": 500,
-    "last_review_decision_id": 501,
-    "last_review_reason": "Activate the prepared November 19 Upper B after the athlete reports good recovery. Retain #500 exact dose and prescription ID; no new performed work, local clearance or progression award."
+    "last_generation_trigger": "automatic-next-workout-after-logging",
+    "last_generation_decision_id": 502,
+    "last_review_decision_id": 502,
+    "last_review_reason": "Save Thursday actuals and earned same-slot awards, then generate Friday delts/arms B plus bike as a future preview with ordinary recovery assumed and local limits retained."
   },
   "session_freeze_history": [
     {
@@ -1310,16 +1333,17 @@
     "compatibility_review": "Friday delts/arms B has no direct leg/calf work before Saturday running, and its triceps are not the day before incline. Running remains separate from lifting/bike. Sunday legs and Monday/Thursday incline remain in place."
   },
   "next_session_adjustment": {
-    "date": "2026-11-19",
-    "decision_id": 501,
-    "status": "planned-today-not-performed",
-    "original_session": "Upper B",
-    "effective_session": "Upper B",
-    "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
-    "source": "../history/adjustments.md#2026-11-19--activate-thursday-with-good-recovery",
+    "date": "2026-11-20",
+    "decision_id": 502,
+    "status": "preview-not-performed",
+    "original_session": "Delts/arms B + bike",
+    "effective_session": "Delts/arms B + bike",
+    "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-502",
+    "source": "../history/adjustments.md#2026-11-19--log-thursday-and-preview-friday",
     "stage": "D",
-    "working_sets": 20,
-    "reason": "Good current recovery supports activating the prepared 20-set Stage D Thursday session, with no cardio. Keep exact #500 load, sets, reps, RIR and rest; local preacher and bodyweight-ab limits persist."
+    "working_sets": 13,
+    "bike_minutes": 25,
+    "reason": "Next scheduled session after Thursday completion. First normal-D Friday holds same-slot loads, with eligible final0–1RIR on S1/S2/S3; cautious forearms remain one15-rep set each at≥4RIR. Friday bike advances20→25 under W4ceiling using its own validated20-minute dose and current acceptable priority performance."
   },
   "next_session_adjustment_history": [
     {
@@ -1416,6 +1440,18 @@
       "stage": "D",
       "working_sets": 20,
       "reason": "Next scheduled session after Wednesday completion. First normal-D Thursday uses same-slot November12 loads, with 0–1 only on eligible final lateral/pushdown sets. T2 remains at3RIR for the next-day prescription and T7 stays BW/max2sets/≥3RIR."
+    },
+    {
+      "date": "2026-11-19",
+      "decision_id": 501,
+      "status": "planned-today-not-performed",
+      "original_session": "Upper B",
+      "effective_session": "Upper B",
+      "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
+      "source": "../history/adjustments.md#2026-11-19--activate-thursday-with-good-recovery",
+      "stage": "D",
+      "working_sets": 20,
+      "reason": "Good current recovery supports activating the prepared 20-set Stage D Thursday session, with no cardio. Keep exact #500 load, sets, reps, RIR and rest; local preacher and bodyweight-ab limits persist."
     }
   ]
 }
