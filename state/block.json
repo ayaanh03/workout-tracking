@@ -6,7 +6,7 @@
   "start_date": "2026-10-25",
   "end_date": "2027-01-03",
   "timezone": "America/New_York",
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-20",
   "activation_status": "active",
   "calendar_week": "W4",
   "calendar_phase": "Build",
@@ -58,7 +58,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 502,
+  "last_adjustment_id": 503,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -1071,10 +1071,10 @@
     "last_generated_prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-502",
     "last_generated_from_session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
     "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping.",
-    "last_generation_trigger": "automatic-next-workout-after-logging",
+    "last_generation_trigger": "current-day-activation-of-existing-prescription",
     "last_generation_decision_id": 502,
-    "last_review_decision_id": 502,
-    "last_review_reason": "Save Thursday actuals and earned same-slot awards, then generate Friday delts/arms B plus bike as a future preview with ordinary recovery assumed and local limits retained."
+    "last_review_decision_id": 503,
+    "last_review_reason": "Activate the prepared November 20 delts/arms B plus bike. Preserve the #502 dose and prescription ID; ordinary readiness uses the standing assumption and no new performance or symptom report is inferred."
   },
   "session_freeze_history": [
     {
@@ -1334,16 +1334,16 @@
   },
   "next_session_adjustment": {
     "date": "2026-11-20",
-    "decision_id": 502,
-    "status": "preview-not-performed",
+    "decision_id": 503,
+    "status": "planned-today-not-performed",
     "original_session": "Delts/arms B + bike",
     "effective_session": "Delts/arms B + bike",
     "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-502",
-    "source": "../history/adjustments.md#2026-11-19--log-thursday-and-preview-friday",
+    "source": "../history/adjustments.md#2026-11-20--activate-friday-workout",
     "stage": "D",
     "working_sets": 13,
     "bike_minutes": 25,
-    "reason": "Next scheduled session after Thursday completion. First normal-D Friday holds same-slot loads, with eligible final0–1RIR on S1/S2/S3; cautious forearms remain one15-rep set each at≥4RIR. Friday bike advances20→25 under W4ceiling using its own validated20-minute dose and current acceptable priority performance."
+    "reason": "Activate the prepared 13-set Stage D Friday session and 25-minute easy bike under assumed good ordinary readiness. Keep exact #502 loads, sets, reps, RIR, rest and equipment settings; no new increase, performed work or local clearance."
   },
   "next_session_adjustment_history": [
     {
@@ -1452,6 +1452,19 @@
       "stage": "D",
       "working_sets": 20,
       "reason": "Good current recovery supports activating the prepared 20-set Stage D Thursday session, with no cardio. Keep exact #500 load, sets, reps, RIR and rest; local preacher and bodyweight-ab limits persist."
+    },
+    {
+      "date": "2026-11-20",
+      "decision_id": 502,
+      "status": "preview-not-performed",
+      "original_session": "Delts/arms B + bike",
+      "effective_session": "Delts/arms B + bike",
+      "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-502",
+      "source": "../history/adjustments.md#2026-11-19--log-thursday-and-preview-friday",
+      "stage": "D",
+      "working_sets": 13,
+      "bike_minutes": 25,
+      "reason": "Next scheduled session after Thursday completion. First normal-D Friday holds same-slot loads, with eligible final0–1RIR on S1/S2/S3; cautious forearms remain one15-rep set each at≥4RIR. Friday bike advances20→25 under W4ceiling using its own validated20-minute dose and current acceptable priority performance."
     }
   ]
 }

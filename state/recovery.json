@@ -1681,11 +1681,11 @@
   "planning_readiness": {
     "status": "assumed-good",
     "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-    "decision_id": 502,
-    "recorded_at": "2026-11-19T20:11:50-05:00",
+    "decision_id": 503,
+    "recorded_at": "2026-11-20T16:50:50-05:00",
+    "for_date": "2026-11-20",
     "observed": false,
-    "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. Earlier November 19 good recovery was pre-session evidence; no new adverse report accompanies the completed lift. Site-specific during/after responses and observed next-day recovery remain unknown.",
-    "for_date": "2026-11-20"
+    "reason": "Standing athlete default supplies ordinary current Friday readiness. The request asks for today’s workout and contains no fresh observed recovery or symptom report. Preserve existing local limits and all completed-session evidence."
   },
   "general_readiness_history": [
     {
@@ -1992,6 +1992,15 @@
       "source": "../history/injury-log.md#2026-11-19--good-recovery-after-wednesday",
       "reason": "Athlete reports good current Thursday general recovery, also supplying next-day general recovery after Wednesday’s completed lifting and bike. No numeric metrics or site-specific symptom clearance is supplied.",
       "for_date": "2026-11-19"
+    },
+    {
+      "status": "assumed-good",
+      "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+      "decision_id": 502,
+      "recorded_at": "2026-11-19T20:11:50-05:00",
+      "observed": false,
+      "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. Earlier November 19 good recovery was pre-session evidence; no new adverse report accompanies the completed lift. Site-specific during/after responses and observed next-day recovery remain unknown.",
+      "for_date": "2026-11-20"
     }
   ],
   "recovery_override_history": [

@@ -3779,7 +3779,7 @@
         "action": "increase-duration-within-calendar-ceiling",
         "status": "prescribed-not-performed",
         "for_date": "2026-11-20",
-        "preview": true,
+        "preview": false,
         "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-502",
         "minutes": 25,
         "previous_prescribed_minutes": 20,
@@ -3795,17 +3795,20 @@
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 502,
-          "recorded_at": "2026-11-19T20:11:28-05:00",
+          "decision_id": 503,
+          "recorded_at": "2026-11-20T16:50:50-05:00",
+          "for_date": "2026-11-20",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary post-Thursday recovery and Friday readiness. Earlier November 19 good recovery was pre-session and also next-day general recovery after Wednesday; no new adverse report accompanies the completed Thursday lift. Observed Friday recovery and site-specific responses remain unreported."
+          "reason": "Standing athlete default supplies ordinary current Friday readiness. The request asks for today’s workout and contains no fresh observed recovery or symptom report. Preserve existing local limits and all completed-session evidence."
         },
         "equipment_settings_ref": "cycling.equipment_settings",
-        "settings_note": "Height 10.5 as reported used November 18; seat −2 (possibly −1); handle +3. This is a future Friday prescription, not evidence of another completed ride.",
+        "settings_note": "Height 10.5 as reported used November 18; seat −2 (possibly −1); handle +3. Today’s prescribed settings do not establish another completed ride.",
         "source": "../history/cardio-log.md#2026-11-06--hybrid-v11-w2-friday-bike-moved-from-saturday",
         "validation_review_decision_id": 502,
         "decision_source": "../history/cardio-log.md#2026-11-19--cycling-tolerance-review-and-friday-preview",
-        "reason": "This Friday cycling track’s own November 6 twenty-minute ride was supported by the November 7 qualifying run and November 8 full leg dose (#481). W3’s 20-minute ceiling held the dose then. Current acceptable priority work and good reported pre-session recovery support a 25-minute prescription within W4’s ceiling. November 13 rowing remains a substitution, not cycling evidence; Wednesday’s separate 25-minute dose is not borrowed as validation. No active fatigue or return limit is established; preserve November 14’s historical poor-readiness run. Twenty-five minutes is newly prescribed for Friday, not completed or already tolerated; review subsequent lifting and running after completion."
+        "reason": "This Friday cycling track’s own November 6 twenty-minute ride was supported by the November 7 qualifying run and November 8 full leg dose (#481). W3’s 20-minute ceiling held the dose then. Current acceptable priority work and good reported pre-session recovery support a 25-minute prescription within W4’s ceiling. November 13 rowing remains a substitution, not cycling evidence; Wednesday’s separate 25-minute dose is not borrowed as validation. No active fatigue or return limit is established; preserve November 14’s historical poor-readiness run. Twenty-five minutes is newly prescribed for Friday, not completed or already tolerated; review subsequent lifting and running after completion.",
+        "review_decision_id": 503,
+        "reviewed_on": "2026-11-20"
       },
       "validation_review": {
         "decision_id": 502,
@@ -4126,6 +4129,39 @@
           "completion_decision_id": 489,
           "substitution_session_id": "hybrid-2026-10-26-w3-fri-2026-11-13-row",
           "substitution_source": "../history/cardio-log.md#2026-11-13--hybrid-v11-w3-friday-rowing-in-place-of-bike"
+        },
+        {
+          "decision_id": 502,
+          "action": "increase-duration-within-calendar-ceiling",
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-20",
+          "preview": true,
+          "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-502",
+          "minutes": 25,
+          "previous_prescribed_minutes": 20,
+          "last_tolerated_minutes": 20,
+          "target_rpe": 3,
+          "acceptable_rpe_range": [
+            2,
+            4
+          ],
+          "after_lifting": true,
+          "scheduled_day": "Friday",
+          "legacy_track": "saturday",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 502,
+            "recorded_at": "2026-11-19T20:11:28-05:00",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary post-Thursday recovery and Friday readiness. Earlier November 19 good recovery was pre-session and also next-day general recovery after Wednesday; no new adverse report accompanies the completed Thursday lift. Observed Friday recovery and site-specific responses remain unreported."
+          },
+          "equipment_settings_ref": "cycling.equipment_settings",
+          "settings_note": "Height 10.5 as reported used November 18; seat −2 (possibly −1); handle +3. This is a future Friday prescription, not evidence of another completed ride.",
+          "source": "../history/cardio-log.md#2026-11-06--hybrid-v11-w2-friday-bike-moved-from-saturday",
+          "validation_review_decision_id": 502,
+          "decision_source": "../history/cardio-log.md#2026-11-19--cycling-tolerance-review-and-friday-preview",
+          "reason": "This Friday cycling track’s own November 6 twenty-minute ride was supported by the November 7 qualifying run and November 8 full leg dose (#481). W3’s 20-minute ceiling held the dose then. Current acceptable priority work and good reported pre-session recovery support a 25-minute prescription within W4’s ceiling. November 13 rowing remains a substitution, not cycling evidence; Wednesday’s separate 25-minute dose is not borrowed as validation. No active fatigue or return limit is established; preserve November 14’s historical poor-readiness run. Twenty-five minutes is newly prescribed for Friday, not completed or already tolerated; review subsequent lifting and running after completion."
         }
       ],
       "latest_endurance_substitution": {

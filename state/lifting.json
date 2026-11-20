@@ -6009,7 +6009,7 @@
         "action": "hold-load-at-stage-d-dose",
         "status": "prescribed-not-performed",
         "for_date": "2026-11-20",
-        "preview": true,
+        "preview": false,
         "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-502",
         "stage": "D",
         "scheduled_day": "Friday",
@@ -6031,7 +6031,9 @@
           0,
           1
         ],
-        "nonfinal_minimum_rir": 1
+        "nonfinal_minimum_rir": 1,
+        "review_decision_id": 503,
+        "reviewed_on": "2026-11-20"
       },
       "actual_history": [
         {
@@ -6134,6 +6136,35 @@
             2,
             3
           ]
+        },
+        {
+          "decision_id": 502,
+          "action": "hold-load-at-stage-d-dose",
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-20",
+          "preview": true,
+          "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-502",
+          "stage": "D",
+          "scheduled_day": "Friday",
+          "load_lb": 35,
+          "sets": 4,
+          "rep_range": [
+            12,
+            20
+          ],
+          "target_rir_range": [
+            1,
+            2
+          ],
+          "minimum_rir": 0,
+          "rest_seconds": 120,
+          "source": "../history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
+          "reason": "Hold 35 lb for four sets. Stage D permits the last set at 0–1 RIR; prior ramp work earns no retrospective loading credit.",
+          "final_set_rir_range": [
+            0,
+            1
+          ],
+          "nonfinal_minimum_rir": 1
         }
       ]
     },
@@ -6180,7 +6211,7 @@
         "action": "hold-load-at-stage-d-dose",
         "status": "prescribed-not-performed",
         "for_date": "2026-11-20",
-        "preview": true,
+        "preview": false,
         "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-502",
         "stage": "D",
         "scheduled_day": "Friday",
@@ -6203,7 +6234,9 @@
           1
         ],
         "nonfinal_minimum_rir": 1,
-        "symptom_action": "Reduce or omit aggravating work if symptoms occur."
+        "symptom_action": "Reduce or omit aggravating work if symptoms occur.",
+        "review_decision_id": 503,
+        "reviewed_on": "2026-11-20"
       },
       "actual_history": [
         {
@@ -6302,6 +6335,36 @@
             3
           ],
           "symptom_action": "Reduce or omit aggravating work if elbow symptoms occur."
+        },
+        {
+          "decision_id": 502,
+          "action": "hold-load-at-stage-d-dose",
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-20",
+          "preview": true,
+          "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-502",
+          "stage": "D",
+          "scheduled_day": "Friday",
+          "load_lb": 27.5,
+          "sets": 2,
+          "rep_range": [
+            8,
+            12
+          ],
+          "target_rir_range": [
+            1,
+            2
+          ],
+          "minimum_rir": 0,
+          "rest_seconds": 120,
+          "source": "../history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
+          "reason": "Retain the demonstrated 27.5 lb load. Normal-D effort applies with no active broad biceps hold; the Thursday preacher’s 3-RIR limit does not transfer. Adjust aggravating work; the unreported November 13 response is not invented or treated as renewed symptoms.",
+          "final_set_rir_range": [
+            0,
+            1
+          ],
+          "nonfinal_minimum_rir": 1,
+          "symptom_action": "Reduce or omit aggravating work if symptoms occur."
         }
       ]
     },
@@ -6395,7 +6458,7 @@
         "action": "hold-load-at-stage-d-dose",
         "status": "prescribed-not-performed",
         "for_date": "2026-11-20",
-        "preview": true,
+        "preview": false,
         "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-502",
         "stage": "D",
         "scheduled_day": "Friday",
@@ -6417,7 +6480,9 @@
           0,
           1
         ],
-        "nonfinal_minimum_rir": 2
+        "nonfinal_minimum_rir": 2,
+        "review_decision_id": 503,
+        "reviewed_on": "2026-11-20"
       },
       "next_action_history": [
         {
@@ -6468,6 +6533,35 @@
             2,
             3
           ]
+        },
+        {
+          "decision_id": 502,
+          "action": "hold-load-at-stage-d-dose",
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-20",
+          "preview": true,
+          "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-502",
+          "stage": "D",
+          "scheduled_day": "Friday",
+          "load_lb": 50,
+          "sets": 3,
+          "rep_range": [
+            10,
+            15
+          ],
+          "target_rir_range": [
+            2,
+            2
+          ],
+          "minimum_rir": 0,
+          "rest_seconds": 120,
+          "source": "../history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
+          "reason": "Hold 50 lb for three sets, with the final set at 0–1 RIR under Stage D. The overhead-extension replacement persists; Thursday results do not change Friday’s independent load.",
+          "final_set_rir_range": [
+            0,
+            1
+          ],
+          "nonfinal_minimum_rir": 2
         }
       ],
       "actual_history": [
@@ -6537,7 +6631,7 @@
         "action": "hold-load-at-stage-d-dose",
         "status": "prescribed-not-performed",
         "for_date": "2026-11-20",
-        "preview": true,
+        "preview": false,
         "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-502",
         "stage": "D",
         "scheduled_day": "Friday",
@@ -6554,7 +6648,9 @@
         "minimum_rir": 1,
         "rest_seconds": 120,
         "source": "../history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
-        "reason": "Hold 145 lb and two sets, now at normal-D 1–2 RIR. Both sets remain below the 20-rep ceiling; Wednesday’s separate actuals supply no Friday credit."
+        "reason": "Hold 145 lb and two sets, now at normal-D 1–2 RIR. Both sets remain below the 20-rep ceiling; Wednesday’s separate actuals supply no Friday credit.",
+        "review_decision_id": 503,
+        "reviewed_on": "2026-11-20"
       },
       "actual_history": [
         {
@@ -6648,6 +6744,30 @@
             2,
             3
           ]
+        },
+        {
+          "decision_id": 502,
+          "action": "hold-load-at-stage-d-dose",
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-20",
+          "preview": true,
+          "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-502",
+          "stage": "D",
+          "scheduled_day": "Friday",
+          "load_lb": 145,
+          "sets": 2,
+          "rep_range": [
+            12,
+            20
+          ],
+          "target_rir_range": [
+            1,
+            2
+          ],
+          "minimum_rir": 1,
+          "rest_seconds": 120,
+          "source": "../history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
+          "reason": "Hold 145 lb and two sets, now at normal-D 1–2 RIR. Both sets remain below the 20-rep ceiling; Wednesday’s separate actuals supply no Friday credit."
         }
       ]
     },
@@ -6659,7 +6779,7 @@
         "action": "hold-reconciled-load-with-slow-progression",
         "status": "prescribed-not-performed",
         "for_date": "2026-11-20",
-        "preview": true,
+        "preview": false,
         "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-502",
         "stage": "D",
         "scheduled_day": "Friday",
@@ -6680,7 +6800,9 @@
         "reps_per_set": [
           15
         ],
-        "symptom_action": "Reduce or omit aggravating work if symptoms occur."
+        "symptom_action": "Reduce or omit aggravating work if symptoms occur.",
+        "review_decision_id": 503,
+        "reviewed_on": "2026-11-20"
       },
       "units": "lb",
       "load_status": "established",
@@ -6779,6 +6901,34 @@
             15
           ],
           "symptom_action": "Reduce or omit aggravating work if elbow symptoms occur."
+        },
+        {
+          "decision_id": 502,
+          "action": "hold-reconciled-load-with-slow-progression",
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-20",
+          "preview": true,
+          "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-502",
+          "stage": "D",
+          "scheduled_day": "Friday",
+          "load_lb": 27.5,
+          "sets": 1,
+          "rep_range": [
+            15,
+            15
+          ],
+          "target_rir_range": [
+            4,
+            4
+          ],
+          "minimum_rir": 4,
+          "rest_seconds": 120,
+          "source": "../history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
+          "reason": "Retain one deliberately easy 15-rep set at 27.5 lb and at least 4 RIR, honoring slow forearm progression. No extra set or load increase; W6 eligibility review has not occurred.",
+          "reps_per_set": [
+            15
+          ],
+          "symptom_action": "Reduce or omit aggravating work if symptoms occur."
         }
       ],
       "actual_history": [
@@ -6828,7 +6978,7 @@
         "action": "hold-reconciled-load-with-slow-progression",
         "status": "prescribed-not-performed",
         "for_date": "2026-11-20",
-        "preview": true,
+        "preview": false,
         "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-502",
         "stage": "D",
         "scheduled_day": "Friday",
@@ -6849,7 +6999,9 @@
         "reps_per_set": [
           15
         ],
-        "symptom_action": "Reduce or omit aggravating work if symptoms occur."
+        "symptom_action": "Reduce or omit aggravating work if symptoms occur.",
+        "review_decision_id": 503,
+        "reviewed_on": "2026-11-20"
       },
       "units": "lb",
       "load_status": "established",
@@ -6948,6 +7100,34 @@
             15
           ],
           "symptom_action": "Reduce or omit aggravating work if elbow symptoms occur."
+        },
+        {
+          "decision_id": 502,
+          "action": "hold-reconciled-load-with-slow-progression",
+          "status": "prescribed-not-performed",
+          "for_date": "2026-11-20",
+          "preview": true,
+          "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-502",
+          "stage": "D",
+          "scheduled_day": "Friday",
+          "load_lb": 27.5,
+          "sets": 1,
+          "rep_range": [
+            15,
+            15
+          ],
+          "target_rir_range": [
+            4,
+            4
+          ],
+          "minimum_rir": 4,
+          "rest_seconds": 120,
+          "source": "../history/lifting-log.md#2026-11-13--hybrid-v11-w3-friday-deltsarms-b",
+          "reason": "Retain one deliberately easy 15-rep set at 27.5 lb and at least 4 RIR, honoring slow forearm progression. No extra set or load increase; W6 eligibility review has not occurred.",
+          "reps_per_set": [
+            15
+          ],
+          "symptom_action": "Reduce or omit aggravating work if symptoms occur."
         }
       ],
       "actual_history": [

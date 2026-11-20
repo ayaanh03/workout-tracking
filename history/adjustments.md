@@ -1006,3 +1006,13 @@ Same-slot November13 actuals support held loads: lateral35×12/12/12/13 RIR4/3/3
 Wednesday’s separate25-minute bike validation now has **acceptable Thursday lifting**: full20sets within ranges/effort, incline/pull-up ceilings met. SaturdayNovember21 running remains unperformed, so keep last-tolerated20 and pending run validation. Retain earlier general-recovery evidence and old review history; no duration award based only on future work.
 
 W4 now has **four completed sessions,52 lifting sets,12 running work minutes,4.38 confirmed miles and25 bike minutes**. Lifting history totals19sessions/257known sets. Live date remains ThursdayNovember19 in NewYork; Friday is upcoming, not completed. Preserve run targets, hit/source credit, Watch exports and EvoSL23.17 miles. Refresh actual history, current-load notes, Friday prescription and week cache together and publish.
+
+## 2026-11-20 — activate Friday workout
+
+503. Athlete asks **“What’s today?”** Resolve today as **Friday November20, America/New_York, W4**. Activate prepared prescription `hybrid-2026-10-26-fri-delts-arms-b-502`, preserving its identity and exact **13-set Stage D delts/arms B plus25-minute bike**. Current ordinary recovery is assumed good under the standing directive; this request supplies no new observed recovery or symptoms.
+
+All lifting rests remain **2 minutes**: S1 lateral35lb4×12–20, first3sets1–2RIR/final0–1; S2 inclineDBcurl27.5lb2×8–12, first1–2/final0–1; S3 pushdown50lb3×10–15, first2sets2RIR/final0–1; S4 reversepec145lb2×12–20 at1–2RIR; S5 reversecurl and S6 wristcurl each27.5lb1×15 at≥4RIR. Same-slot November13 actuals and #502 review support held loads; the first normal-D Friday changes eligible effort without retrospective ramp loading credit. Keep forearms deliberately easy, with no added set or load. No calves today.
+
+Bike **25 minutes after lifting, RPE3 (acceptable2–4)**. Preserve #502’s independent Friday-dose evidence and W4 ceiling; no additional duration increase. Settings: **height10.5, seat−2(possibly−1), handle+3**. The ride is not marked completed or tolerated by activation. Wednesday25-minute validation still awaits Saturday running.
+
+Remove preview labels, mark Friday today and refresh the caches. Keep all reported actuals, qualification/unused awards, local limits, run targets/credit, shoe mileage, prior Watch files and W4 totals unchanged: four completed sessions,52lifting sets,12run work minutes,4.38miles and25bike minutes. No new stage, symptom clearance, observed recovery or future completion. Publish the current-day dashboard.

@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-19T20:11:50-05:00",
+  "generatedAt": "2026-11-20T16:50:50-05:00",
   "blockId": "hybrid-2026-10-26",
   "prescriptionId": "hybrid-2026-10-26-fri-delts-arms-b-502",
-  "preview": true,
+  "preview": false,
   "week": "W4",
   "day": "Fri",
   "date": "2026-11-20",
   "phase": "Hybrid v11 — Stage D",
-  "sessionName": "Delts/arms B + bike — preview",
+  "sessionName": "Delts/arms B + bike",
   "why": [
-    "Friday, November 20: next scheduled session after Thursday’s completed Upper B. This is a future preview.",
+    "Friday, November 20: today’s scheduled delts/arms B plus bike. Activate the prepared workout after Thursday’s completed Upper B; ordinary recovery is assumed good under your standing preference.",
     "13 Stage D lifting sets at established Friday weights, followed by 25 minutes easy bike. Only the final lateral, incline-curl and pushdown sets target 0–1 RIR; forearms stay deliberately easy."
   ],
   "intro": [

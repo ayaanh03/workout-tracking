@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-19T20:11:50-05:00",
+  "generatedAt": "2026-11-20T16:50:50-05:00",
   "blockId": "hybrid-2026-10-26",
-  "preview": true,
+  "preview": false,
   "week": "W4",
   "phase": "Hybrid v11 — Stage D",
   "rangeStart": "2026-11-16",
   "rangeEnd": "2026-11-22",
-  "summary": "W4, November 16–22: Monday through Thursday are complete: 52 lifting sets, 4.38 running miles and 25 bike minutes. Thursday incline and pull-ups earned independent load increases. Friday preview: 13 Stage D sets plus 25 minutes easy bike; Saturday running remains unchanged.",
+  "summary": "W4, November 16–22: Monday through Thursday are complete: 52 lifting sets, 4.38 running miles and 25 bike minutes. Today is Friday: 13 Stage D sets plus 25 minutes easy bike. Thursday incline and pull-up awards remain queued for their next matching slots; Saturday running is unchanged.",
   "days": [
     {
       "date": "2026-11-16",
@@ -40,8 +40,8 @@
       "date": "2026-11-20",
       "day": "Fri",
       "session": "Delts/arms B + bike",
-      "status": "upcoming",
-      "note": "Preview: 13 Stage D sets. Laterals 35 lb 4×12–20; incline DB curl 27.5 lb 2×8–12; pushdown 50 lb 3×10–15; reverse pec deck 145 lb 2×12–20; reverse and wrist curls 27.5 lb 1×15 each at ≥4 RIR. Final lateral, incline-curl and pushdown sets 0–1 RIR; all rests 2 min. Bike 25 min after lifting at RPE 3, acceptable 2–4. Seat height 10.5."
+      "status": "today",
+      "note": "Today: 13 Stage D sets. Laterals 35 lb 4×12–20; incline DB curl 27.5 lb 2×8–12; pushdown 50 lb 3×10–15; reverse pec deck 145 lb 2×12–20; reverse and wrist curls 27.5 lb 1×15 each at ≥4 RIR. Final lateral, incline-curl and pushdown sets 0–1 RIR; all rests 2 min. Bike 25 min after lifting at RPE 3, acceptable 2–4. Seat height 10.5. Ordinary recovery assumed; workout not yet completed."
     },
     {
       "date": "2026-11-21",
