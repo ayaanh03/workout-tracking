@@ -325,3 +325,15 @@ Thursday Upper B is now completed with **20 Stage D sets**, all within prescribe
 Prescribe **Friday November20 bike after lifting:25minutes, RPE3 (acceptable2–4)** under `hybrid-2026-10-26-fri-delts-arms-b-502`, as a future preview. The Friday cycling track’s own November6 twenty-minute ride was already supported by the November7 qualifying run and November8 full leg dose (#481); W3’s20-minute ceiling previously prevented a duration increase. November17 qualifying running, current acceptable lifting and good pre-session recovery reinforce present readiness. November13 rowing stays a substitution and Wednesday’s separate25-minute completion does not supply Friday tolerance. Keep Friday’s last-tolerated20minutes until its newly prescribed25-minute dose is completed and subsequent lifting/running reviewed.
 
 Saved bike settings: **height10.5** (reported used November18), **seat−2 (possibly−1), handle+3**. No further settings use, numeric RPE from the old Z2 report, completed Friday minutes, running/shoe mileage, or change to either run’s targets/credit is inferred. Preserve historical poor-readiness evidence and all prior prescriptions/actuals. Decision #502.
+
+## 2026-11-20 — Hybrid v11 W4 Friday bike
+
+Session `hybrid-2026-10-26-w4-fri-2026-11-20-bike`, after the reported Friday lifting session; original prescription `hybrid-2026-10-26-fri-delts-arms-b-502` was **25 minutes after lifting, target RPE 3, acceptable 2–4**.
+
+Athlete reports **25 minutes, 115 W average, Z2, RPE 3 throughout**. Record **25:00 (1,500 seconds)** and the exact effort report. Numeric HR, zone times, distance and cadence remain unreported; Z2 is the athlete’s label.
+
+Save the reported readjustments: **seat position +4, handle +3**. Seat position replaces the prior uncertain −2/−1 setting and is separate from seat height. Preserve **height 10.5**, last reported used November 18; no new height report is inferred. Preserve all earlier settings in history.
+
+The increased Friday 25-minute prescription is completed at its target effort. Keep Friday’s last-tolerated dose at **20 minutes** pending subsequent **Saturday November 21 running and Sunday November 22 lifting**, both still unperformed. Ordinary recovery uses the standing assumption; observed next-day recovery and bike-specific elbow, ab and Achilles responses remain unknown. Wednesday’s separate 25-minute validation retains its completed Thursday lifting evidence and pending Saturday run.
+
+Next Friday, November 27, is W5 with a **15-minute bike ceiling**. This is a planning constraint, not an issued prescription or completed future ride. Preserve the prior Friday bike actuals and November 13 rowing substitution, both running tracks and shoe mileage. Decision **#504**.

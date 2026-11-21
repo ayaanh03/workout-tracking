@@ -379,3 +379,26 @@ All reported sets meet rep floors and intended reserve or more. Preserve the fin
 Hold preacher75, laterals35, pushdown50, row120 and straight-arm50 while building reps; none reached its ceiling on every set. T2 retains minimum3RIR pending its own effort review. T7’s BW15/15 atRIR5/5 does not clear the BW/max-two-set/≥3RIR limit or establish loaded-ab tolerance.
 
 Raw exposures increment once: T1/T3/T4/T5/T6/T8 become4, replacement T2 becomes2, and T7’s BW substitute becomes3. Ordinary qualification is1 for T1/T4 and0 elsewhere. Store first normal-D references with actual first-set RIR and unknown actual rest/setup retained; do not import ramp comparisons, infer a plateau/decline or transfer Wednesday credit. Higher-load anchors follow only after their future actual performance. Decision #502.
+
+## 2026-11-20 — Hybrid v11 W4 Friday delts/arms B
+
+Session `hybrid-2026-10-26-w4-fri-2026-11-20`, original prescription `hybrid-2026-10-26-fri-delts-arms-b-502` (activated by #503), **Stage D**, **13 lifting sets**. All prescribed rests were 2 min; actual rest is unreported.
+
+| Slot | Exercise | Original prescription | Actual sets: load × reps, RIR |
+|---|---|---|---|
+| S1 | DB lateral raise | 35 lb · 4×12–20 · RIR 1–2 on sets 1–3, then 0–1 | 35×15, RIR 2 / 35×14, RIR 2 / 35×14, RIR 2 / 35×14, RIR 0 |
+| S2 | Incline DB curl | 27.5 lb · 2×8–12 · RIR 1–2, then 0–1 | 30×8, RIR 2 / 30×8, RIR 0 |
+| S3 | Cable pushdown | 50 lb · 3×10–15 · RIR 2/2/0–1 | 50×10, RIR 1 / 50×10, RIR 1 / 50×10, RIR 1 |
+| S4 | Reverse pec deck | 145 lb · 2×12–20 · RIR 1–2 | 145×15, RIR 3 / 145×19, RIR 1 |
+| S5 | Cable reverse curl | 27.5 lb · 1×15 · RIR ≥4 | 27.5×15, RIR 4 |
+| S6 | Cable wrist curl | 27.5 lb · 1×15 · RIR ≥4 | 27.5×20, RIR 4 |
+
+The athlete reports **27.5 lb dumbbells were unavailable**, so S2 used **30 lb**. Both sets reached the 8-rep floor at the prescribed RIR 2/0; retain 30 lb as a demonstrated full two-set working load, with no further load award because neither reached 12. Preserve the original 27.5 lb prescription and literal final RIR 0. This does not change Monday's independent curl slot.
+
+S3's first two sets were **RIR 1 instead of the intended 2**; the final RIR 1 meets its 0–1 target. Hold 50 lb for calibration, target 2 RIR on the first two sets and 0–1 on the last, and reduce load if the 10-rep floor cannot be met with that reserve. No qualification or automatic load increase. S1 holds 35 lb and S4 holds 145 lb because their full doses did not reach 20 reps on every set. S4's first-set RIR 3 is extra reserve, not a failed effort target.
+
+Forearms remain deliberately cautious: **one 15-rep set each at 27.5 lb and ≥4 RIR**. S5's 15 reps meet that prescription but not the ordinary 20-rep progression ceiling, giving zero ordinary qualifications. S6's **20 reps exceed the prescribed 15** and reach the ordinary ceiling at RIR 4: record one qualifying ordinary-cap observation, with no earned increase because two same-slot qualifications are required. Preserve the actual 20 without silently raising the next rep target, load or set count; the cautious preference and separate W6 review for a second set remain active.
+
+Raw exposures increment once: S1/S2/S4 become 4; replacement pushdown S3 and forearms S5/S6 become 3. Store the first normal-D references at actual loads and first-set RIR; S3's RIR 1 is not comparable to a later RIR 2 set, and S6's performed 20 does not rewrite its fixed-15 prescription. Actual rest/setup remain unknown. No ramp credit, other-day credit, plateau or decline is inferred.
+
+Bike reported separately: **25 min, 115 W average, Z2, RPE 3 throughout**. No fresh elbow/Achilles/ab response or observed next-day recovery is supplied; ordinary recovery uses the standing assumed-good default without clearing local restrictions. Decision #504.

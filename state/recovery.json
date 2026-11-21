@@ -892,37 +892,29 @@
     }
   ],
   "post_session": {
-    "date": "2026-11-19",
-    "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+    "date": "2026-11-20",
+    "session_id": "hybrid-2026-10-26-w4-fri-2026-11-20",
     "completion": "reported",
-    "decision_id": 502,
+    "decision_id": 504,
     "status": "completed-general-recovery-assumed-local-responses-unreported",
-    "working_sets": 20,
+    "working_sets": 13,
+    "cycling_seconds": 1500,
+    "cycling_rpe": 3,
     "elbow_response": null,
     "shoulder_response": null,
     "lower_ab_response": null,
     "achilles_response": null,
     "next_day_recovery": null,
-    "pre_session_general_recovery": {
-      "reported_on": "2026-11-19",
-      "reported_at": "2026-11-19T16:19:26-05:00",
-      "report": "Recovery good. What’s today?",
-      "status": "good",
-      "provenance": "athlete current-day general recovery report",
-      "decision_id": 501,
-      "source": "../history/injury-log.md#2026-11-19--good-recovery-after-wednesday",
-      "scope": "Athlete reports good current Thursday general recovery, also supplying next-day general recovery after Wednesday’s completed lifting and bike. No numeric metrics or site-specific symptom clearance is supplied.",
-      "numeric_metrics": null
-    },
     "recovery_decision": {
       "status": "assumed-good",
       "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-      "decision_id": 502,
-      "recorded_at": "2026-11-19T20:11:50-05:00",
+      "decision_id": 504,
+      "recorded_at": "2026-11-20T19:34:29-05:00",
+      "for_date": "2026-11-21",
       "observed": false,
-      "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. Earlier November 19 good recovery was pre-session evidence; no new adverse report accompanies the completed lift. Site-specific during/after responses and observed next-day recovery remain unknown."
+      "reason": "Standing athlete default supplies ordinary post-Friday recovery and Saturday readiness. Friday completion and bike RPE 3 are reported; no new general recovery or site-specific symptom response is supplied. Existing local limits remain."
     },
-    "note": "All 20 Stage D Upper B sets are reported. T1 incline and T4 pull-ups meet every rep ceiling at RIR2; earned increases are separate future-slot recommendations. T7 BW15/15RIR5/5 does not establish symptom-free loaded-ab tolerance. Preserve prior elbow comfort and unknown current local responses without inventing recurrence or clearance."
+    "note": "Incline curls30×8/8 atRIR2/0 used because27.5 dumbbells were unavailable. Wrist curl27.5×20RIR4 and reverse curl27.5×15RIR4 recorded without a new local symptom report. Prior November18 elbow comfort and ongoing cautious forearm restrictions remain; no recurrence or clearance inferred."
   },
   "prior_pending_post_sessions": [
     {
@@ -1262,6 +1254,39 @@
           "reason": "Standing athlete default supplies ordinary post-session recovery and Thursday readiness. Earlier November 18 general recovery was reported good, before this session. The log reports good elbow comfort; observed next-day general recovery and site-specific ab/Achilles responses remain unknown."
         }
       ]
+    },
+    {
+      "date": "2026-11-19",
+      "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+      "completion": "reported",
+      "decision_id": 502,
+      "status": "completed-general-recovery-assumed-local-responses-unreported",
+      "working_sets": 20,
+      "elbow_response": null,
+      "shoulder_response": null,
+      "lower_ab_response": null,
+      "achilles_response": null,
+      "next_day_recovery": null,
+      "pre_session_general_recovery": {
+        "reported_on": "2026-11-19",
+        "reported_at": "2026-11-19T16:19:26-05:00",
+        "report": "Recovery good. What’s today?",
+        "status": "good",
+        "provenance": "athlete current-day general recovery report",
+        "decision_id": 501,
+        "source": "../history/injury-log.md#2026-11-19--good-recovery-after-wednesday",
+        "scope": "Athlete reports good current Thursday general recovery, also supplying next-day general recovery after Wednesday’s completed lifting and bike. No numeric metrics or site-specific symptom clearance is supplied.",
+        "numeric_metrics": null
+      },
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 502,
+        "recorded_at": "2026-11-19T20:11:50-05:00",
+        "observed": false,
+        "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. Earlier November 19 good recovery was pre-session evidence; no new adverse report accompanies the completed lift. Site-specific during/after responses and observed next-day recovery remain unknown."
+      },
+      "note": "All 20 Stage D Upper B sets are reported. T1 incline and T4 pull-ups meet every rep ceiling at RIR2; earned increases are separate future-slot recommendations. T7 BW15/15RIR5/5 does not establish symptom-free loaded-ab tolerance. Preserve prior elbow comfort and unknown current local responses without inventing recurrence or clearance."
     }
   ],
   "resolved_post_sessions": [
@@ -1681,11 +1706,11 @@
   "planning_readiness": {
     "status": "assumed-good",
     "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-    "decision_id": 503,
-    "recorded_at": "2026-11-20T16:50:50-05:00",
-    "for_date": "2026-11-20",
+    "decision_id": 504,
+    "recorded_at": "2026-11-20T19:34:29-05:00",
+    "for_date": "2026-11-21",
     "observed": false,
-    "reason": "Standing athlete default supplies ordinary current Friday readiness. The request asks for today’s workout and contains no fresh observed recovery or symptom report. Preserve existing local limits and all completed-session evidence."
+    "reason": "Standing athlete default supplies ordinary post-Friday recovery and Saturday readiness. Friday completion and bike RPE 3 are reported; no new general recovery or site-specific symptom response is supplied. Existing local limits remain."
   },
   "general_readiness_history": [
     {

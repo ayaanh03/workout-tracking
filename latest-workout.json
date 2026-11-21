@@ -1,191 +1,65 @@
 {
-  "generatedAt": "2026-11-20T16:50:50-05:00",
+  "generatedAt": "2026-11-20T19:34:29-05:00",
   "blockId": "hybrid-2026-10-26",
-  "prescriptionId": "hybrid-2026-10-26-fri-delts-arms-b-502",
-  "preview": false,
+  "prescriptionId": "hybrid-2026-10-26-sat-intervals-504",
+  "preview": true,
   "week": "W4",
-  "day": "Fri",
-  "date": "2026-11-20",
+  "day": "Sat",
+  "date": "2026-11-21",
   "phase": "Hybrid v11 — Stage D",
-  "sessionName": "Delts/arms B + bike",
+  "sessionName": "W4 Sat 2026-11-21 — Longer intervals — preview",
   "why": [
-    "Friday, November 20: today’s scheduled delts/arms B plus bike. Activate the prepared workout after Thursday’s completed Upper B; ordinary recovery is assumed good under your standing preference.",
-    "13 Stage D lifting sets at established Friday weights, followed by 25 minutes easy bike. Only the final lateral, incline-curl and pushdown sets target 0–1 RIR; forearms stay deliberately easy."
+    "Saturday is the longer-run day after Friday lifting and cycling, under your standing Friday/Saturday swap.",
+    "Hold 3×6 minutes at 7:10/mi. November 14 met the pace tolerance but was no-count because you reported sleep deprivation and under-recovery; it earned no increase and no miss.",
+    "Ordinary recovery is assumed good under your standing preference. No current acute recovery override or early test is active."
   ],
-  "intro": [
-    "Ordinary recovery is assumed good under your standing preference. Preserve the slow forearm progression and adjust any aggravating work."
-  ],
-  "lift": {
-    "table": [
-      {
-        "slotId": "S1",
-        "exercise": "DB lateral raise",
-        "load": "35 lb",
-        "setsReps": "4×12–20",
-        "rir": "Sets 1–3: 1–2; final: 0–1",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "S2",
-        "exercise": "Incline DB curl",
-        "load": "27.5 lb",
-        "setsReps": "2×8–12",
-        "rir": "First: 1–2; final: 0–1",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "S3",
-        "exercise": "Cable pushdown",
-        "load": "50 lb",
-        "setsReps": "3×10–15",
-        "rir": "Sets 1–2: 2; final: 0–1",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "S4",
-        "exercise": "Reverse pec deck",
-        "load": "145 lb",
-        "setsReps": "2×12–20",
-        "rir": "1–2",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "S5",
-        "exercise": "Cable reverse curl",
-        "load": "27.5 lb",
-        "setsReps": "1×15",
-        "rir": "≥4",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "S6",
-        "exercise": "Cable wrist curl",
-        "load": "27.5 lb",
-        "setsReps": "1×15",
-        "rir": "≥4",
-        "rest": "2 min"
-      }
-    ],
-    "lastWeek": {
-      "label": "Last Friday — November 13, Stage C actuals",
-      "table": [
-        {
-          "slotId": "S1",
-          "exercise": "DB lateral raise",
-          "load": "35 lb",
-          "reps": "12 / 12 / 12 / 13",
-          "rir": "4 / 3 / 3 / 3"
-        },
-        {
-          "slotId": "S2",
-          "exercise": "Incline DB curl",
-          "load": "27.5 lb",
-          "reps": "8 / 8",
-          "rir": "2 / 2"
-        },
-        {
-          "slotId": "S3",
-          "exercise": "Cable pushdown",
-          "load": "50 lb",
-          "reps": "10 / 10 / 10",
-          "rir": "3 / 3 / 3"
-        },
-        {
-          "slotId": "S4",
-          "exercise": "Reverse pec deck",
-          "load": "145 lb",
-          "reps": "15 / 15",
-          "rir": "3 / 3"
-        },
-        {
-          "slotId": "S5",
-          "exercise": "Cable reverse curl",
-          "load": "27.5 lb",
-          "reps": "15",
-          "rir": "4"
-        },
-        {
-          "slotId": "S6",
-          "exercise": "Cable wrist curl",
-          "load": "27.5 lb",
-          "reps": "15",
-          "rir": "4"
-        }
-      ]
-    }
-  },
+  "intro": [],
+  "lift": null,
   "cardio": {
-    "workout": "25 minutes easy cycling after lifting. Comfortable full-sentence conversation.",
-    "warmup": "",
-    "cooldown": "",
-    "targets": {
-      "rpe": "3/10; acceptable 2–4"
-    },
+    "workout": "3×6 min at 7:10/mi, with 2 min easy jog/walk between reps only (two recoveries). 18 min work; 42 min total.",
+    "warmup": "10 min easy running; up to 5 extra minutes if needed. Easy guide 8:30–9:30/mi, slower is fine.",
+    "cooldown": "10 min easy jog/walk.",
     "flags": [
-      "Saved bike settings: seat height 10.5; seat −2 (possibly −1); handle +3."
+      "Final-rep RPE cap 7/10; slow down if needed to stay within the cap.",
+      "Watch alerts 7:05–7:15/mi guide pacing. Faster reps can qualify; no fast-side cutoff.",
+      "Complete-week mileage: approximately 9.72 mi, conservative upper estimate 10.33 mi including optional warmup, below 15 mi."
     ],
-    "workoutFile": null
+    "targets": {
+      "pace": "7:10/mi for work reps",
+      "rpe": "Final rep ≤7/10"
+    },
+    "workoutFile": "runs/2026-11-21.workout"
   },
   "adaptation": [
     {
-      "exercise": "DB lateral raise",
-      "previous": "November 13: 35×12/12/12/13 at RIR 4/3/3/3.",
-      "decision": "Hold 35 lb for 4×12–20; RIR Sets 1–3: 1–2; final: 0–1.",
-      "reason": "Hold 35 lb for four sets. Stage D permits the last set at 0–1 RIR; prior ramp work earns no retrospective loading credit."
+      "exercise": "Saturday longer intervals",
+      "previous": "November 14: 3×6 at 7:13/7:06/7:06 per mile, RPE 7/7/7; explicitly sleep deprived and under-recovered.",
+      "decision": "Hold 7:10/mi, 3×6 minutes, two 2-minute recoveries.",
+      "reason": "That session remains no-count under the recovery exclusion, with zero hits and misses. Current readiness has recovered for planning; the November 7 pace increase was already used once. No new pace or minute award."
     },
     {
-      "exercise": "Incline DB curl",
-      "previous": "November 13: 27.5×8/8 at RIR 2. November 18 elbow tendon reported feeling good.",
-      "decision": "Hold 27.5 lb for 2×8–12; RIR First: 1–2; final: 0–1.",
-      "reason": "Retain the demonstrated 27.5 lb load. Normal-D effort applies with no active broad biceps hold; the Thursday preacher’s 3-RIR limit does not transfer. Adjust aggravating work; the unreported November 13 response is not invented or treated as renewed symptoms."
+      "exercise": "Friday incline DB curl",
+      "previous": "November 20: 30×8/8 at RIR 2/0; 27.5-lb dumbbells were unavailable.",
+      "decision": "Retain 30 lb as the demonstrated Friday working load; no further increase.",
+      "reason": "Both sets meet the 8–12 range and normal-D reserve, including the eligible final 0–1 set. Build reps toward 12 on both; Monday curl remains independent."
     },
     {
-      "exercise": "Cable pushdown",
-      "previous": "November 13: 50×10/10/10 at RIR 3.",
-      "decision": "Hold 50 lb for 3×10–15; RIR Sets 1–2: 2; final: 0–1.",
-      "reason": "Hold 50 lb for three sets, with the final set at 0–1 RIR under Stage D. The overhead-extension replacement persists; Thursday results do not change Friday’s independent load."
+      "exercise": "Friday pushdown",
+      "previous": "November 20: 50×10/10/10, all RIR 1.",
+      "decision": "Hold 50 lb; first two sets target 2 RIR, final 0–1.",
+      "reason": "First two sets were closer to failure than prescribed. Reduce load if needed to retain 10 reps at 2 RIR; this is not a qualifying ceiling exposure."
     },
     {
-      "exercise": "Reverse pec deck",
-      "previous": "November 13: 145×15/15 at RIR 3.",
-      "decision": "Hold 145 lb for 2×12–20; RIR 1–2.",
-      "reason": "Hold 145 lb and two sets, now at normal-D 1–2 RIR. Both sets remain below the 20-rep ceiling; Wednesday’s separate actuals supply no Friday credit."
+      "exercise": "Friday forearms",
+      "previous": "November 20: reverse curl 27.5×15 RIR 4; wrist curl 27.5×20 RIR 4, versus the prescribed 15.",
+      "decision": "Keep one cautious 15-rep set each at 27.5 lb and ≥4 RIR. Wrist curl records one qualifying ceiling exposure; no load increase.",
+      "reason": "Ordinary ceiling is 20; two qualifying exposures are required. Friday wrist performance is retained, while reverse curl has not reached that ceiling. No extra forearm set before the W6 elbow-response review."
     },
     {
-      "exercise": "Cable reverse curl",
-      "previous": "November 13: 27.5×15 at RIR 4.",
-      "decision": "Hold 27.5 lb for 1×15; RIR ≥4.",
-      "reason": "Retain one deliberately easy 15-rep set at 27.5 lb and at least 4 RIR, honoring slow forearm progression. No extra set or load increase; W6 eligibility review has not occurred."
-    },
-    {
-      "exercise": "Cable wrist curl",
-      "previous": "November 13: 27.5×15 at RIR 4.",
-      "decision": "Hold 27.5 lb for 1×15; RIR ≥4.",
-      "reason": "Retain one deliberately easy 15-rep set at 27.5 lb and at least 4 RIR, honoring slow forearm progression. No extra set or load increase; W6 eligibility review has not occurred."
-    },
-    {
-      "exercise": "Thursday incline progression earned",
-      "previous": "November 19: 135×8/8/8 at RIR 2 in normal Stage D.",
-      "decision": "Next Thursday’s incline earns the smallest increase: 137.5 lb if +2.5 total is available; otherwise 140 lb if +5 is smallest.",
-      "reason": "All three prescribed sets reached eight with the intended reserve. This award belongs to T1 only; 135 remains the last performed weight and the higher load has not yet been prescribed or performed."
-    },
-    {
-      "exercise": "Thursday pull-up progression earned",
-      "previous": "November 19: BW, 0 lb added, 12/12 at RIR 2.",
-      "decision": "Add the smallest available safely attachable load at the next Thursday pull-up exposure.",
-      "reason": "Both normal-D sets reached 12 with the intended reserve. Exact available loading increment is unreported; no numeric load or weighted performance is invented. Other Thursday loads hold, including BW-only abs."
-    },
-    {
-      "exercise": "Friday bike after lifting",
-      "previous": "Friday track’s November 6 bike: 20 minutes reported Z2, with subsequent November 7 running and November 8 legs supporting tolerance. November 13 was a rowing substitution.",
-      "decision": "Increase the planned Friday bike to 25 minutes at RPE 3, acceptable 2–4.",
-      "reason": "The prior Friday dose has its own completed tolerance evidence; later priority work and current recovery support progression within W4’s 25-minute ceiling. Rowing is not a bike actual and Wednesday’s new 25-minute dose is not transferred as validated tolerance."
-    },
-    {
-      "exercise": "Recovery and Wednesday bike validation",
-      "previous": "Thursday’s earlier general recovery was reported good. All 20 Upper B sets are now completed; no new post-session symptoms or next-day recovery report.",
-      "decision": "Use assumed good ordinary recovery for Friday. Wednesday’s 25-minute bike now has acceptable subsequent lifting; Saturday running remains pending.",
-      "reason": "Completed performance supports the lifting part of validation. It does not complete the future run, clear local limits or add Friday work to the log."
+      "exercise": "Friday bike and saved settings",
+      "previous": "November 20: 25 minutes at 115 W average, reported Z2, RPE 3 throughout. Seat adjusted to +4; handle +3.",
+      "decision": "Log the 25-minute ride; save seat +4, handle +3, height 10.5 unchanged.",
+      "reason": "The new duration still needs subsequent Saturday running and Sunday lifting to establish tolerance. No run or shoe mileage is added from cycling; Wednesday validation also awaits Saturday."
     }
   ],
   "currentLoads": [
@@ -340,43 +214,43 @@
       "slotId": "S1",
       "exercise": "S1 — DB lateral raise",
       "load": "35 lb",
-      "lastVerified": "2026-11-13",
-      "note": "November 13: 35×12/12/12/13 at RIR 4/3/3/3. Hold 35 lb for four sets. Stage D permits the last set at 0–1 RIR; prior ramp work earns no retrospective loading credit."
+      "lastVerified": "2026-11-20",
+      "note": "35×15/14/14/14 at RIR 2/2/2/0. Hold 35 lb for four sets; all sets remain below 20, so no qualification. Final RIR 0 is permitted."
     },
     {
       "slotId": "S2",
       "exercise": "S2 — Incline DB curl",
-      "load": "27.5 lb",
-      "lastVerified": "2026-11-13",
-      "note": "November 13: 27.5×8/8 at RIR 2. November 18 elbow tendon reported feeling good. Retain the demonstrated 27.5 lb load. Normal-D effort applies with no active broad biceps hold; the Thursday preacher’s 3-RIR limit does not transfer. Adjust aggravating work; the unreported November 13 response is not invented or treated as renewed symptoms."
+      "load": "30 lb",
+      "lastVerified": "2026-11-20",
+      "note": "30×8/8 at RIR 2/0; 27.5-lb dumbbells unavailable. Both sets demonstrate 30 lb within the range and prescribed reserve. Retain 30 lb for Friday; no further increase until both sets reach 12."
     },
     {
       "slotId": "S3",
       "exercise": "S3 — Cable pushdown",
       "load": "50 lb",
-      "lastVerified": "2026-11-13",
-      "note": "November 13: 50×10/10/10 at RIR 3. Hold 50 lb for three sets, with the final set at 0–1 RIR under Stage D. The overhead-extension replacement persists; Thursday results do not change Friday’s independent load."
+      "lastVerified": "2026-11-20",
+      "note": "50×10/10/10 at RIR 1. First two sets were closer to failure than prescribed 2 RIR. Hold 50 lb; target 2 RIR on first two, 0–1 on final, reducing load if needed to meet the rep floor at intended reserve."
     },
     {
       "slotId": "S4",
       "exercise": "S4 — Reverse pec deck",
       "load": "145 lb",
-      "lastVerified": "2026-11-13",
-      "note": "November 13: 145×15/15 at RIR 3. Hold 145 lb and two sets, now at normal-D 1–2 RIR. Both sets remain below the 20-rep ceiling; Wednesday’s separate actuals supply no Friday credit."
+      "lastVerified": "2026-11-20",
+      "note": "145×15/19 at RIR 3/1. Hold 145 lb; both sets must reach 20 before a load award. First set retained extra reserve; no cross-day credit."
     },
     {
       "slotId": "S5",
       "exercise": "S5 — Cable reverse curl",
       "load": "27.5 lb",
-      "lastVerified": "2026-11-13",
-      "note": "November 13: 27.5×15 at RIR 4. Retain one deliberately easy 15-rep set at 27.5 lb and at least 4 RIR, honoring slow forearm progression. No extra set or load increase; W6 eligibility review has not occurred."
+      "lastVerified": "2026-11-20",
+      "note": "27.5×15 at RIR 4. Keep one cautious 15-rep set at ≥4 RIR. Ordinary ceiling is 20; zero qualifying exposures and no load increase or additional set."
     },
     {
       "slotId": "S6",
       "exercise": "S6 — Cable wrist curl",
       "load": "27.5 lb",
-      "lastVerified": "2026-11-13",
-      "note": "November 13: 27.5×15 at RIR 4. Retain one deliberately easy 15-rep set at 27.5 lb and at least 4 RIR, honoring slow forearm progression. No extra set or load increase; W6 eligibility review has not occurred."
+      "lastVerified": "2026-11-20",
+      "note": "27.5×20 at RIR 4 versus prescribed 15. One qualifying ordinary 20-rep ceiling exposure; two are required for a load award. Keep the cautious one-set 15-rep prescription at ≥4 RIR; no added set."
     },
     {
       "slotId": "L1",

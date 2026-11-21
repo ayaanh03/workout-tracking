@@ -281,3 +281,7 @@ Athlete reports **“Recovery good. What’s today?”** Record good current Thu
 ## 2026-11-19 — Thursday bodyweight ab exposure recorded
 
 T7 bodyweight decline crunch was completed **15/15 at RIR5/5** within the two-set ceiling. No during/after original-site response or next-morning response accompanies this log, so preserve bodyweight-only work, maximum two sets and minimum3RIR; extra reserve does not clear loaded abs. Thursday preacher75×9/8RIR3, lateral finalRIR0 and pushdown finalRIR1 are recorded separately from symptoms. Keep the November18 report that the elbow tendon feels good, without inventing new local clearance or recurrence. Earlier Thursday good general recovery remains pre-session evidence; Friday uses the standing ordinary recovery assumption. No repeated routine recovery question. Decision #502.
+
+## 2026-11-20 — Friday curls and forearms recorded
+
+Record Friday inclineDBcurl **30×8/8 atRIR2/0** (27.5-lb dumbbells unavailable), reversecurl **27.5×15RIR4** and wristcurl **27.5×20RIR4** separately from symptoms. No new elbow, shoulder, ab or Achilles response was supplied. Keep the November18 elbow-comfort report, released broad biceps hold, cautious one-set forearm dose, ongoing exercise replacements and other local limits. This log establishes neither recurrence nor new clearance. Bike **25min115W reportedZ2 RPE3 throughout**; ordinary Saturday readiness uses the athlete’s standing assumption, without an observed next-day recovery report. Decision #504.

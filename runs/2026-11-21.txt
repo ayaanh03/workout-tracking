@@ -1,0 +1,10 @@
+# W4 Saturday longer intervals — decision504. 42min planned; final-rep RPE<=7.
+# Hold7:10/mi and18workmin. November14 remains no-count; no source reused.
+# Watch pace alerts guide pacing; faster reps can still count.
+name: W4 Longer 3x6 - Nov 21
+warmup: 10:00
+repeat 2
+  work: 6:00 @ current 7:05-7:15/mi
+  recovery: 2:00
+work: 6:00 @ current 7:05-7:15/mi
+cooldown: 10:00

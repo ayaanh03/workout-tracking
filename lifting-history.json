@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "blockId": "hybrid-2026-10-26",
-  "generatedAt": "2026-11-19T20:11:48-05:00",
+  "generatedAt": "2026-11-20T19:34:21-05:00",
   "sessions": [
     {
       "date": "2026-10-25",
@@ -2717,6 +2717,144 @@
         }
       ],
       "notes": "All 20 Stage D sets reported. Incline 135×8/8/8 and BW pull-up12/12 at RIR2 earn their own smallest-increment awards; neither higher load is prescribed or performed here. Lateral final RIR0 and pushdown final RIR1 are preserved. BW crunch15/15 at RIR5/5 does not clear added loading. No new symptom or observed next-day recovery report; no cardio prescribed or reported."
+    },
+    {
+      "date": "2026-11-20",
+      "week": "W4",
+      "stage": "D",
+      "sessionName": "Delts/arms B + bike",
+      "sessionId": "hybrid-2026-10-26-w4-fri-2026-11-20",
+      "prescriptionId": "hybrid-2026-10-26-fri-delts-arms-b-502",
+      "actualRef": "history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+      "exercises": [
+        {
+          "slotId": "S1",
+          "exercise": "DB lateral raise",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 35,
+              "reps": 15,
+              "rir": 2,
+              "units": "lb"
+            },
+            {
+              "load": 35,
+              "reps": 14,
+              "rir": 2,
+              "units": "lb"
+            },
+            {
+              "load": 35,
+              "reps": 14,
+              "rir": 2,
+              "units": "lb"
+            },
+            {
+              "load": 35,
+              "reps": 14,
+              "rir": 0,
+              "units": "lb"
+            }
+          ],
+          "note": "November 20: 35×15/14/14/14 at RIR 2/2/2/0. All four sets meet their rep floor and intended reserve, including the permitted final RIR 0. Not all sets reached 20; hold 35 lb and build reps."
+        },
+        {
+          "slotId": "S2",
+          "exercise": "Incline DB curl",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 30,
+              "reps": 8,
+              "rir": 2,
+              "units": "lb"
+            },
+            {
+              "load": 30,
+              "reps": 8,
+              "rir": 0,
+              "units": "lb"
+            }
+          ],
+          "note": "November 20: 30×8/8 at RIR 2/0 because the prescribed 27.5 lb dumbbells were unavailable. Both sets demonstrate the full two-set dose at the rep floor and intended effort. Retain 30 lb as the demonstrated working load; this equipment-availability adjustment is not an earned further increase. Neither set reached 12, so no qualification or additional load award."
+        },
+        {
+          "slotId": "S3",
+          "exercise": "Cable pushdown",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 50,
+              "reps": 10,
+              "rir": 1,
+              "units": "lb"
+            },
+            {
+              "load": 50,
+              "reps": 10,
+              "rir": 1,
+              "units": "lb"
+            },
+            {
+              "load": 50,
+              "reps": 10,
+              "rir": 1,
+              "units": "lb"
+            }
+          ],
+          "note": "November 20: 50×10/10/10 at RIR 1/1/1. The first two sets overshot the prescribed RIR 2; only the final RIR 1 matches its 0–1 target. Hold 50 lb for review/calibration, target RIR 2 on the first two sets and 0–1 on the last, and reduce load if 10 reps cannot be reached with the required reserve. No qualifying exposure or automatic load increase."
+        },
+        {
+          "slotId": "S4",
+          "exercise": "Reverse pec deck",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 145,
+              "reps": 15,
+              "rir": 3,
+              "units": "lb"
+            },
+            {
+              "load": 145,
+              "reps": 19,
+              "rir": 1,
+              "units": "lb"
+            }
+          ],
+          "note": "November 20: 145×15/19 at RIR 3/1. Both sets meet the rep floor and intended reserve or more; the first set has extra reserve. Neither reaches 20, so hold 145 lb and build reps."
+        },
+        {
+          "slotId": "S5",
+          "exercise": "Cable reverse curl",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 27.5,
+              "reps": 15,
+              "rir": 4,
+              "units": "lb"
+            }
+          ],
+          "note": "November 20: 27.5×15 at RIR 4 matches the deliberate one-set, 15-rep cautious prescription. This is below the ordinary 20-rep ceiling, so zero ordinary qualifying exposures. Retain 27.5 lb for one 15-rep set at at least 4 RIR, without an automatic rep, load or set increase."
+        },
+        {
+          "slotId": "S6",
+          "exercise": "Cable wrist curl",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 27.5,
+              "reps": 20,
+              "rir": 4,
+              "units": "lb"
+            }
+          ],
+          "note": "November 20: 27.5×20 at RIR 4 exceeds the deliberately prescribed 15 reps and reaches the ordinary 20-rep ceiling. Record one ordinary-cap qualifying observation, not a load award: two same-slot qualifying exposures are required and the cautious prescription remains 27.5 lb for one 15-rep set at at least 4 RIR. Do not automatically turn the performed 20 into a new prescribed target or add a set."
+        }
+      ],
+      "notes": "All 13 Stage D lifting sets reported. Incline curls used 30 lb because 27.5 lb dumbbells were unavailable; both sets meet the floor at prescribed effort. Pushdown sets 1–2 were RIR 1 rather than the intended 2. Wrist curls were 20 reps versus the cautious fixed-15 prescription; retain the prospective 15-rep dose. Bike: 25 min, 115 W average, reported Z2, RPE 3 throughout. No fresh symptom or observed next-day recovery report."
     }
   ]
 }

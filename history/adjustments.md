@@ -1016,3 +1016,24 @@ All lifting rests remain **2 minutes**: S1 lateral35lb4×12–20, first3sets1–
 Bike **25 minutes after lifting, RPE3 (acceptable2–4)**. Preserve #502’s independent Friday-dose evidence and W4 ceiling; no additional duration increase. Settings: **height10.5, seat−2(possibly−1), handle+3**. The ride is not marked completed or tolerated by activation. Wednesday25-minute validation still awaits Saturday running.
 
 Remove preview labels, mark Friday today and refresh the caches. Keep all reported actuals, qualification/unused awards, local limits, run targets/credit, shoe mileage, prior Watch files and W4 totals unchanged: four completed sessions,52lifting sets,12run work minutes,4.38miles and25bike minutes. No new stage, symptom clearance, observed recovery or future completion. Publish the current-day dashboard.
+
+## 2026-11-20 — log Friday and preview Saturday
+
+504. Log `hybrid-2026-10-26-w4-fri-2026-11-20` against original prescription `hybrid-2026-10-26-fri-delts-arms-b-502` (activated #503): **13 Stage D sets**. Exact actuals: lateral35×15/14/14/14 RIR2/2/2/0; inclinecurl30×8/8 RIR2/0; pushdown50×10/10/10 RIR1/1/1; reversepec145×15/19 RIR3/1; reversecurl27.5×15 RIR4; wristcurl27.5×20 RIR4. Preserve prescribed incline27.5 and wrist15 separately from actuals.
+
+The athlete reports **27.5-lb dumbbells unavailable**, explaining30lb incline curls. Both sets meet the prescribed8–12 range and their normal-D effort: retain30 as this Friday slot’s demonstrated working load, with no further increase until both sets reach12. Other days’ curl loads remain independent. Hold lateral35 and reversepec145 because all sets have not reached20. Hold pushdown50, restoring **2RIR on the first two sets,0–1 on the last**; actual first sets at1RIR were closer to failure than prescribed. Reduce load if needed to meet10reps at2RIR rather than forcing the rep floor.
+
+Keep cautious forearms **27.5lb, one15-rep set each at≥4RIR** for prospective planning. Reversecurl15 meets the local dose but not the ordinary20 ceiling: zero qualifying exposures. Wristcurl20 is a preserved five-rep deviation from the issued dose and reaches the ordinary20 ceiling at full one-set count/reserve: **one qualifying exposure**, no load award because two are required. November13 StageC contributes no ordinary credit. No extra forearm set or W6 eligibility review. This preserves demonstrated performance without silently rewriting the cautious prescription. No new local symptom response accompanies this log; retain November18 elbow comfort, existing replacements and ab/Achilles limits. Ordinary recovery is assumed good under the standing directive, not newly observed.
+
+**Bike:25:00/1500seconds,115W average, reportedZ2, RPE3 throughout.** Numeric HR is unknown. Save **seat position+4, handle+3**, retaining **height10.5** from November18; these are distinct settings. Previous seat−2(possibly−1) remains in settings history. Friday last-tolerated dose stays20 until subsequent **SaturdayNovember21 running and SundayNovember22 lifting** support the new25-minute dose. Wednesday25-minute validation also still awaits Saturday running. W5FridayNovember27 has a15-minute ceiling recommendation, not a new performed/prescribed ride. No running or shoe mileage from cycling.
+
+Generate **SaturdayNovember21 — Longer intervals, preview**, `hybrid-2026-10-26-sat-intervals-504`:
+
+- **10min easy warmup**, optional up to5 extra minutes.
+- **3×6min at7:10/mi**, with **2min easy jog/walk between reps only** (two recoveries).
+- **10min easy cooldown**. **42min total**, final-rep **RPE≤7**.
+- Work-only Watch alerts **7:05–7:15/mi** are guidance; faster reps can qualify. No HR/cadence/power or easy-section alerts.
+
+Hold normal18workminutes and7:10. November14’s7:13/7:06/7:06 atRPE7/7/7 passed pace but remains **no-count** because of explicit poor readiness: no new hit/miss or progression. Current acute recovery override is absent; this is ordinary full work, not a return-validation dose. November7’s15-second award was already consumed once. No early test was selected; W4’s ceiling does not force24minutes. Complete-week estimate: Tuesdayactual4.38mi plus this Saturday gives **9.71515731874145mi**; upper with7:05work and five extra warmup minutes is **10.332941176470587mi**, below15. Saturday remains unperformed; preserve Tuesday’s unused6:35 candidate, other slot awards and EvoSL23.17mi.
+
+W4 now has **five completed sessions,65lifting sets,12running work minutes,4.38confirmed miles and50bike minutes/3000seconds**. Lifting history:20sessions/270known sets. Live calendar remains FridayNovember20 in NewYork; Saturday is upcoming. Refresh state, exact histories, current-load reference and both caches, build/decode-check the new dated Watch export, and publish.

@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-20T16:50:50-05:00",
+  "generatedAt": "2026-11-20T19:34:29-05:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W4",
   "phase": "Hybrid v11 — Stage D",
   "rangeStart": "2026-11-16",
   "rangeEnd": "2026-11-22",
-  "summary": "W4, November 16–22: Monday through Thursday are complete: 52 lifting sets, 4.38 running miles and 25 bike minutes. Today is Friday: 13 Stage D sets plus 25 minutes easy bike. Thursday incline and pull-up awards remain queued for their next matching slots; Saturday running is unchanged.",
+  "summary": "W4, November 16–22: Monday through Friday are complete: 65 lifting sets, 4.38 running miles and 50 bike minutes. Saturday preview: 3×6 minutes at 7:10/mi, two 2-minute recoveries, 10-minute warmup and cooldown, final RPE ≤7. Sunday legs remain upcoming.",
   "days": [
     {
       "date": "2026-11-16",
@@ -40,15 +40,15 @@
       "date": "2026-11-20",
       "day": "Fri",
       "session": "Delts/arms B + bike",
-      "status": "today",
-      "note": "Today: 13 Stage D sets. Laterals 35 lb 4×12–20; incline DB curl 27.5 lb 2×8–12; pushdown 50 lb 3×10–15; reverse pec deck 145 lb 2×12–20; reverse and wrist curls 27.5 lb 1×15 each at ≥4 RIR. Final lateral, incline-curl and pushdown sets 0–1 RIR; all rests 2 min. Bike 25 min after lifting at RPE 3, acceptable 2–4. Seat height 10.5. Ordinary recovery assumed; workout not yet completed."
+      "status": "done",
+      "note": "Logged 13 sets: lateral 35×15/14/14/14; incline curl 30×8/8 because 27.5 was unavailable; pushdown 50×10/10/10; reverse pec deck 145×15/19; reverse curl 27.5×15; wrist curl 27.5×20. Exact RIR in history. Bike 25 min at 115 W, reported Z2, RPE 3 throughout. Seat +4, handle +3; height 10.5 unchanged."
     },
     {
       "date": "2026-11-21",
       "day": "Sat",
       "session": "Longer intervals",
       "status": "upcoming",
-      "note": "Current reference: 3×6 min at 7:10/mi, final RPE ≤7. November 14 remains no-count. No faster pace, added minutes or early test selected; exact brief on generation."
+      "note": "Preview #504: 10 min easy + 3×6 min at 7:10/mi with two 2-min recoveries + 10 min easy; 42 min total, final RPE ≤7. Pace alerts 7:05–7:15 are guidance only. Prior no-count earns neither progression nor a miss; no early test selected."
     },
     {
       "date": "2026-11-22",
@@ -59,7 +59,7 @@
     }
   ],
   "runningMileageCheck": {
-    "decisionId": 498,
+    "decisionId": 504,
     "kind": "actual-plus-planned-remaining-week",
     "recordedMiles": 4.38,
     "estimatedMiles": 9.71515731874145,
