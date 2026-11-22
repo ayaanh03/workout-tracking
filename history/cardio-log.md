@@ -337,3 +337,26 @@ Save the reported readjustments: **seat position +4, handle +3**. Seat position 
 The increased Friday 25-minute prescription is completed at its target effort. Keep Friday’s last-tolerated dose at **20 minutes** pending subsequent **Saturday November 21 running and Sunday November 22 lifting**, both still unperformed. Ordinary recovery uses the standing assumption; observed next-day recovery and bike-specific elbow, ab and Achilles responses remain unknown. Wednesday’s separate 25-minute validation retains its completed Thursday lifting evidence and pending Saturday run.
 
 Next Friday, November 27, is W5 with a **15-minute bike ceiling**. This is a planning constraint, not an issued prescription or completed future ride. Preserve the prior Friday bike actuals and November 13 rowing substitution, both running tracks and shoe mileage. Decision **#504**.
+
+## 2026-11-21 — Hybrid v11 W4 Saturday longer intervals
+
+Session `hybrid-2026-10-26-w4-sat-2026-11-21`, original prescription `hybrid-2026-10-26-sat-intervals-504`: **10 min easy + 3×6 min at 7:10/mi with two 2-minute recoveries + 10 min easy**, final RPE cap **7**. Preserve the dated Watch file and original target. Three Apple Fitness screenshots supply the metrics below; athlete confirms **RPE 7/7/7** and **5.1 miles total**. Evo SL is the standing sole current pair.
+
+| Segment | Time | Displayed distance | Pace / mi | Avg HR | Avg watts | Cadence |
+|---|---|---|---|---|---|---|
+| Warmup | 10:00 | 1.12 mi | 8:52 | 152 | 215 | 171 |
+| Work 1 | 6:00 | 0.84 mi | 7:09 | 177 | 282 | 182 |
+| Recovery 1 | 2:00 | 0.19 mi | 10:28 | 172 | 196 | 166 |
+| Work 2 | 6:00 | 0.86 mi | 6:54 | 180 | 287 | 182 |
+| Recovery 2 | 2:00 | 0.19 mi | 10:29 | 176 | 192 | 167 |
+| Work 3 | 6:00 | 0.89 mi | 6:43 | 184 | 296 | 184 |
+| Cooldown | 10:00 | 0.99 mi | 10:05 | 172 | 200 | 166 |
+| Open | 0:08 | 34 ft | 19:12 | 166 | 194 | 117 |
+
+Displayed intervals total **42:08**, including the eight-second open segment; independent workout-summary and elapsed durations are unreported. Rounded segment distances sum approximately **5.08644 mi**, kept separately from the confirmed **5.1 mi** used for mileage. Average HR **170 bpm**. Zone times: **0:16 / 0:30 / 6:17 / 15:55 / 19:00**, totaling **41:58**, ten seconds less than interval duration. Preserve that difference and the chart gaps without inferring extra interval rest, pauses or a measured peak HR from its 192 axis label.
+
+**Hit 1, misses 0:** all 18 work minutes and both displayed recoveries are complete, paces **429/414/403 s/mi** pass the one-sided **435 s/mi or faster** check, and final **RPE 7** meets the cap. Ordinary recovery is assumed good under the standing athlete directive; observed next-day recovery and new ab/Achilles responses remain unknown. No extra rest or materially changed conditions are reported. November 14 remains a separate historical no-count and supplies no streak credit.
+
+**No new pace or minute award:** the slowest rep was **7:09**, giving **430−429=1 s/mi** all-rep headroom, below the 5-second route. Final RPE 7 is above the comfortable-hit threshold of 5 and the minute-increase threshold of 6; this is only one consecutive eligible hit. The two much faster reps count fully toward today's hit but do not create all-rep headroom. Retain normal **7:10/mi, 3×6** as the reference; the next corresponding Saturday is W5 assessment, so its A/B/C dose and reset rules apply at generation. No early test, future assessment option, carried award or new pace change is selected here. Preserve Tuesday's separate unused award and the already-consumed November 7 source.
+
+**Cycling tolerance:** Wednesday November 18's **25-minute** bike now has acceptable subsequent Thursday lifting **and** this qualifying Saturday run, supporting **last-tolerated 25 minutes**. Keep its observed November 19 good general recovery and use assumed ordinary recovery for this run; do not infer new local symptom clearance. Friday November 20's separate 25-minute bike now has acceptable subsequent running, but **Sunday November 22 lifting is still unperformed**, so Friday last-tolerated dose stays **20 minutes**, with 25 pending that review. Both next W5 rides remain capped at **15 minutes**, recommendations only. No new bike actual is added. Decision **#505**.

@@ -1409,31 +1409,32 @@
     "rpe_cap": 7,
     "temporary_prescription": null,
     "last_successful_normal": {
-      "date": "2026-11-07",
-      "session_id": "hybrid-2026-10-26-w2-sat-2026-11-07",
-      "pace_seconds_per_mile": 445,
+      "date": "2026-11-21",
+      "session_id": "hybrid-2026-10-26-w4-sat-2026-11-21",
+      "prescription_id": "hybrid-2026-10-26-sat-intervals-504",
+      "pace_seconds_per_mile": 430,
       "work_minutes": 18,
       "format": "3x6",
-      "source": "../history/cardio-log.md#2026-11-07--hybrid-v11-w2-saturday-longer-intervals-moved-from-friday",
-      "decision_id": 479,
-      "qualification_note": "Full 3×6 with two displayed 2-minute recoveries; all paces faster than target and final RPE 7 meets cap. Recovery assumed good under standing directive. Original target remains 7:25."
+      "source": "../history/cardio-log.md#2026-11-21--hybrid-v11-w4-saturday-longer-intervals",
+      "decision_id": 505,
+      "qualification_note": "Full3×6 with two displayed2-minute recoveries. All reps pass the one-sided target-plus5seconds criterion and finalRPE7 meets cap. Ordinary recovery assumed good; no extra rest reported. Original target7:10 remains separate from faster actuals."
     },
-    "last_completed": "2026-11-14",
+    "last_completed": "2026-11-21",
     "latest_actual": {
-      "date": "2026-11-14",
-      "session_id": "hybrid-2026-10-26-w3-sat-2026-11-14",
-      "prescription_id": "hybrid-2026-10-26-sat-intervals-489",
-      "source": "../history/cardio-log.md#2026-11-14--hybrid-v11-w3-saturday-longer-intervals",
+      "date": "2026-11-21",
+      "session_id": "hybrid-2026-10-26-w4-sat-2026-11-21",
+      "prescription_id": "hybrid-2026-10-26-sat-intervals-504",
+      "source": "../history/cardio-log.md#2026-11-21--hybrid-v11-w4-saturday-longer-intervals",
       "scheduled_day": "Saturday",
       "legacy_running_track": "friday",
-      "provenance": "Three Apple Fitness screenshots supply interval metrics. Athlete reports current-day sleep deprivation/under-recovery, then confirms total5.01mi and work-rep RPE7/7/7.",
+      "provenance": "Three Apple Fitness screenshots supply interval metrics; athlete confirms work-rep RPE 7/7/7 and total distance 5.1 miles.",
       "prescribed_pace_seconds_per_mile": 430,
       "work_minutes": 18,
       "format": "3x6",
       "rep_paces_seconds_per_mile": [
-        433,
-        426,
-        426
+        429,
+        414,
+        403
       ],
       "rep_rpe": [
         7,
@@ -1445,71 +1446,71 @@
         120,
         120
       ],
-      "distance_miles": 5.01,
+      "distance_miles": 5.1,
       "shoe": "Evo SL",
-      "shoe_basis": "Evo SL is the standing sole current pair; athlete confirms this run’s5.01mi total.",
-      "duration_seconds_from_segments": 2535,
-      "duration_note": "42:15 summed from displayed intervals including the15-second open segment; independent summary/elapsed duration unreported.",
+      "shoe_basis": "Standing sole current pair; athlete confirmed only Evo SL remains on November7. Total5.1mi confirmed for this run.",
+      "duration_seconds_from_segments": 2528,
+      "duration_note": "42:08 summed from displayed intervals, including eight-second open segment. Independent workout-summary and elapsed durations are not supplied.",
       "segments": [
         {
           "segment": "Warmup",
           "duration_seconds": 600,
-          "displayed_distance": 1.11,
+          "displayed_distance": 1.12,
           "distance_unit": "mi",
-          "pace_seconds_per_mile": 537,
-          "average_heart_rate_bpm": 147,
-          "average_power_watts": 220,
-          "average_cadence_spm": 174
+          "pace_seconds_per_mile": 532,
+          "average_heart_rate_bpm": 152,
+          "average_power_watts": 215,
+          "average_cadence_spm": 171
         },
         {
           "segment": "Work 1",
           "duration_seconds": 360,
-          "displayed_distance": 0.83,
+          "displayed_distance": 0.84,
           "distance_unit": "mi",
-          "pace_seconds_per_mile": 433,
+          "pace_seconds_per_mile": 429,
           "average_heart_rate_bpm": 177,
-          "average_power_watts": 276,
-          "average_cadence_spm": 186
+          "average_power_watts": 282,
+          "average_cadence_spm": 182
         },
         {
           "segment": "Recovery 1",
           "duration_seconds": 120,
           "displayed_distance": 0.19,
           "distance_unit": "mi",
-          "pace_seconds_per_mile": 602,
-          "average_heart_rate_bpm": 176,
-          "average_power_watts": 200,
-          "average_cadence_spm": 165
+          "pace_seconds_per_mile": 628,
+          "average_heart_rate_bpm": 172,
+          "average_power_watts": 196,
+          "average_cadence_spm": 166
         },
         {
           "segment": "Work 2",
           "duration_seconds": 360,
-          "displayed_distance": 0.84,
+          "displayed_distance": 0.86,
           "distance_unit": "mi",
-          "pace_seconds_per_mile": 426,
-          "average_heart_rate_bpm": 181,
-          "average_power_watts": 274,
-          "average_cadence_spm": 186
+          "pace_seconds_per_mile": 414,
+          "average_heart_rate_bpm": 180,
+          "average_power_watts": 287,
+          "average_cadence_spm": 182
         },
         {
           "segment": "Recovery 2",
           "duration_seconds": 120,
-          "displayed_distance": 0.18,
+          "displayed_distance": 0.19,
           "distance_unit": "mi",
-          "pace_seconds_per_mile": 661,
-          "average_heart_rate_bpm": 177,
-          "average_power_watts": 187,
-          "average_cadence_spm": 166
+          "pace_seconds_per_mile": 629,
+          "average_heart_rate_bpm": 176,
+          "average_power_watts": 192,
+          "average_cadence_spm": 167
         },
         {
           "segment": "Work 3",
           "duration_seconds": 360,
-          "displayed_distance": 0.84,
+          "displayed_distance": 0.89,
           "distance_unit": "mi",
-          "pace_seconds_per_mile": 426,
-          "average_heart_rate_bpm": 181,
-          "average_power_watts": 277,
-          "average_cadence_spm": 187
+          "pace_seconds_per_mile": 403,
+          "average_heart_rate_bpm": 184,
+          "average_power_watts": 296,
+          "average_cadence_spm": 184
         },
         {
           "segment": "Cooldown",
@@ -1517,53 +1518,53 @@
           "displayed_distance": 0.99,
           "distance_unit": "mi",
           "pace_seconds_per_mile": 605,
-          "average_heart_rate_bpm": 170,
-          "average_power_watts": 194,
-          "average_cadence_spm": 171
+          "average_heart_rate_bpm": 172,
+          "average_power_watts": 200,
+          "average_cadence_spm": 166
         },
         {
           "segment": "Open",
-          "duration_seconds": 15,
-          "displayed_distance": 100,
+          "duration_seconds": 8,
+          "displayed_distance": 34,
           "distance_unit": "ft",
-          "pace_seconds_per_mile": 778,
-          "average_heart_rate_bpm": 168,
-          "average_power_watts": 208,
-          "average_cadence_spm": 169
+          "pace_seconds_per_mile": 1152,
+          "average_heart_rate_bpm": 166,
+          "average_power_watts": 194,
+          "average_cadence_spm": 117
         }
       ],
-      "displayed_segment_distance_sum_miles": 4.998939393939394,
-      "distance_note": "Use athlete-confirmed5.01mi for totals and shoe mileage. The separate4.998939393939394mi rounded-segment estimate remains provenance, not the measured total.",
-      "average_heart_rate_bpm": 168,
+      "displayed_segment_distance_sum_miles": 5.086439393939394,
+      "distance_note": "Use athlete-confirmed5.1mi for totals and shoe mileage; displayed segment distances are rounded and their sum is not the measured total.",
+      "average_heart_rate_bpm": 170,
       "heart_rate_zones": [
         {
           "zone": 1,
-          "seconds": 98,
+          "seconds": 16,
           "displayed_range_bpm": "<137"
         },
         {
           "zone": 2,
-          "seconds": 289,
+          "seconds": 30,
           "displayed_range_bpm": "138–150"
         },
         {
           "zone": 3,
-          "seconds": 152,
+          "seconds": 377,
           "displayed_range_bpm": "151–163"
         },
         {
           "zone": 4,
-          "seconds": 861,
+          "seconds": 955,
           "displayed_range_bpm": "164–175"
         },
         {
           "zone": 5,
-          "seconds": 1128,
+          "seconds": 1140,
           "displayed_range_bpm": "176+"
         }
       ],
-      "heart_rate_zone_total_seconds": 2528,
-      "heart_rate_note": "Estimated zone times sum42:08, seven seconds less than displayed interval total42:15. Preserve discrepancy without inferring pauses or lost recording. Chart upper-axis185 is not a measured peak HR.",
+      "heart_rate_zone_total_seconds": 2518,
+      "heart_rate_note": "Estimated zone times total41:58, ten seconds less than the displayed interval sum42:08. HR-chart gaps do not establish pauses or extra interval rest. Chart upper-axis192 is not treated as measured peak HR.",
       "surface": null,
       "recovery_mode": null,
       "extra_rest_reported": null,
@@ -1571,45 +1572,16 @@
       "achilles_response": null,
       "lower_ab_response": null,
       "recovery_decision": {
-        "status": "reported-poor-current-readiness",
-        "decision_id": 491,
-        "reported_on": "2026-11-14",
-        "recorded_at": "2026-11-14T15:51:42-05:00",
-        "observed": true,
-        "provenance": "athlete report",
-        "report": "Very sleep deprived today and under recovered",
-        "scope": "Current same-day readiness accompanying the completed run. This overrides the ordinary good-recovery assumption for the affected decisions; it is not a report of poor next-day recovery, illness, injury or fatigue persisting into later sessions.",
-        "reason": "Explicit sleep deprivation and under-recovery make this session ineligible for ordinary progression; no hit or miss is awarded."
-      },
-      "current_readiness_report": {
-        "status": "reported-poor-current-readiness",
-        "decision_id": 491,
-        "reported_on": "2026-11-14",
-        "recorded_at": "2026-11-14T15:51:42-05:00",
-        "observed": true,
-        "provenance": "athlete report",
-        "report": "Very sleep deprived today and under recovered",
-        "scope": "Current same-day readiness accompanying the completed run. This overrides the ordinary good-recovery assumption for the affected decisions; it is not a report of poor next-day recovery, illness, injury or fatigue persisting into later sessions.",
-        "reason": "Explicit sleep deprivation and under-recovery make this session ineligible for ordinary progression; no hit or miss is awarded."
-      },
-      "measurement_followup": {
-        "reported_on": "2026-11-14",
-        "recorded_at": "2026-11-14T16:46:29-05:00",
-        "decision_id": 492,
-        "report": "distance was 5.01mi. Rpe 7,7,7",
-        "distance_miles": 5.01,
-        "rep_rpe": [
-          7,
-          7,
-          7
-        ],
-        "final_rep_rpe": 7,
-        "source": "../history/cardio-log.md#2026-11-14--saturday-distance-and-effort-confirmed",
-        "scope": "Confirms completed distance and all three work-rep RPEs. Does not revise the same-day poor-recovery report or provide a new recovery update."
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 505,
+        "recorded_at": "2026-11-21T21:00:43-05:00",
+        "observed": false,
+        "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. No new adverse recovery or symptom report accompanies the completed run; observed next-day recovery and site-specific responses remain unknown."
       }
     },
-    "classification": "no-count",
-    "hits": 0,
+    "classification": "hit",
+    "hits": 1,
     "misses": 0,
     "comfortable_pair": [],
     "next_day_recovery": null,
@@ -1618,16 +1590,16 @@
     "pending_validation": null,
     "carried_adjustment": null,
     "classification_review": {
-      "decision_id": 492,
-      "classified_on": "2026-11-14",
+      "decision_id": 505,
+      "classified_on": "2026-11-21",
       "status": "classified",
-      "classification": "no-count",
-      "source_session_id": "hybrid-2026-10-26-w3-sat-2026-11-14",
+      "classification": "hit",
+      "source_session_id": "hybrid-2026-10-26-w4-sat-2026-11-21",
       "prescribed_target_seconds_per_mile": 430,
       "pace_offsets_seconds_per_mile": [
-        3,
-        -4,
-        -4
+        -1,
+        -16,
+        -27
       ],
       "rep_pace_checks_passed": [
         true,
@@ -1642,62 +1614,40 @@
       "extra_rest_reported": null,
       "effort_cap_exceeded": false,
       "final_rep_rpe": 7,
+      "comfortable_effort_threshold_met": false,
       "recovery_evidence": {
-        "status": "reported-poor-current-readiness",
-        "decision_id": 491,
-        "reported_on": "2026-11-14",
-        "recorded_at": "2026-11-14T15:51:42-05:00",
-        "observed": true,
-        "provenance": "athlete report",
-        "report": "Very sleep deprived today and under recovered",
-        "scope": "Current same-day readiness accompanying the completed run. This overrides the ordinary good-recovery assumption for the affected decisions; it is not a report of poor next-day recovery, illness, injury or fatigue persisting into later sessions.",
-        "reason": "Explicit sleep deprivation and under-recovery make this session ineligible for ordinary progression; no hit or miss is awarded."
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 505,
+        "recorded_at": "2026-11-21T21:00:43-05:00",
+        "observed": false,
+        "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. No new adverse recovery or symptom report accompanies the completed run; observed next-day recovery and site-specific responses remain unknown."
       },
-      "reason": "Full3×6 at433/426/426s/mi and finalRPE7 meet pace and effort limits. Explicit poor current readiness still takes precedence: no-count, no new hit/miss or progression. The confirmation does not resolve sleep deprivation or establish next-day recovery."
+      "reason": "All18work minutes and both2-minute recoveries completed. Paces7:09/6:54/6:43 pass7:15-or-faster; RPE7/7/7 meets the final cap. First eligible hit since November14 no-count. HR gaps alone do not establish extra rest or invalidate supplied interval pace/dose."
     },
     "next_action": {
-      "decision_id": 504,
-      "policy_id": "2026-11-03-pace-first",
-      "action": "hold-normal-pace-and-minutes",
-      "status": "prescribed-not-performed",
-      "preview": true,
-      "for_date": "2026-11-21",
-      "prescription_id": "hybrid-2026-10-26-sat-intervals-504",
-      "pace_seconds_per_mile": 430,
-      "work_minutes": 18,
-      "format": "3x6",
+      "decision_id": 505,
+      "action": "assessment-week-review-hold-normal-reference",
+      "status": "recommendation-for-next-generation-not-prescribed",
+      "for_date": "2026-11-28",
+      "assessment_week": 5,
+      "source_session_id": "hybrid-2026-10-26-w4-sat-2026-11-21",
+      "source": "../history/cardio-log.md#2026-11-21--hybrid-v11-w4-saturday-longer-intervals",
+      "saved_normal_pace_seconds_per_mile": 430,
+      "saved_normal_work_minutes": 18,
+      "saved_normal_format": "3x6",
       "rpe_cap": 7,
-      "recovery_seconds": 120,
-      "recovery_count": 2,
-      "warmup_minutes": 10,
-      "optional_extra_warmup_minutes": 5,
-      "cooldown_minutes": 10,
-      "total_minutes": 42,
-      "workout_file": "runs/2026-11-21.workout",
-      "source_session_id": "hybrid-2026-10-26-w3-sat-2026-11-14",
-      "source_prescription_id": "hybrid-2026-10-26-sat-intervals-489",
-      "new_progression_source_consumed": false,
+      "new_pace_award": false,
+      "new_minutes_award": false,
       "recovery_basis": {
         "status": "assumed-good",
         "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-        "decision_id": 504,
-        "recorded_at": "2026-11-20T19:34:29-05:00",
-        "for_date": "2026-11-21",
+        "decision_id": 505,
+        "recorded_at": "2026-11-21T21:00:43-05:00",
         "observed": false,
-        "reason": "Standing athlete default supplies ordinary post-Friday recovery and Saturday readiness. Friday completion and bike RPE 3 are reported; no new general recovery or site-specific symptom response is supplied. Existing local limits remain."
+        "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. No new adverse recovery or symptom report accompanies the completed run; observed next-day recovery and site-specific responses remain unknown."
       },
-      "mileage_check": {
-        "week": "W4",
-        "range_start": "2026-11-16",
-        "range_end": "2026-11-22",
-        "actual_miles": 4.38,
-        "estimated_planned_miles": 9.71515731874145,
-        "upper_planned_miles": 10.332941176470587,
-        "limit_miles": 15,
-        "status": "actual-plus-plan-below-limit",
-        "assumptions": "Tuesday confirmed4.38mi plus Saturday18workmin at7:10/mi and24easymin budgeted at8:30/mi. Upper uses7:05work pace and five extra warmup minutes. No future completed run or shoe mileage."
-      },
-      "reason": "Hold normal7:10/mi and3×6 after the November14 no-count for explicit sleep deprivation/under-recovery. Current acute hold is resolved for planning; use ordinary recovery assumption without changing the historical classification. No new hit, miss, pace/minute award, reused November7 source or early test. Calendar ceiling does not force progression."
+      "reason": "One eligible hit but no all-rep pace step, comfortable effort award, two-hit award or minute increase. Keep normal7:10/3×6 as the reference. Next matching session is W5 assessment Saturday; select permitted A/B/C at generation rather than prescribing normal18minutes, and apply assessment reset/carry rules at their boundary. No test selected or carried award created here."
     },
     "pace_adjustment_history": [
       {
@@ -1762,38 +1712,38 @@
       }
     ],
     "pace_progression_review": {
-      "decision_id": 492,
+      "decision_id": 505,
       "policy_id": "2026-11-03-pace-first",
-      "reviewed_on": "2026-11-14",
-      "source_session_id": "hybrid-2026-10-26-w3-sat-2026-11-14",
-      "source_prescription_id": "hybrid-2026-10-26-sat-intervals-489",
-      "source_date": "2026-11-14",
+      "reviewed_on": "2026-11-21",
+      "source_session_id": "hybrid-2026-10-26-w4-sat-2026-11-21",
+      "source_prescription_id": "hybrid-2026-10-26-sat-intervals-504",
+      "source_date": "2026-11-21",
       "source_target_seconds_per_mile": 430,
       "source_work_minutes": 18,
       "source_format": "3x6",
-      "slowest_rep_seconds_per_mile": 433,
-      "minimum_headroom_seconds_per_mile": -3,
+      "slowest_rep_seconds_per_mile": 429,
+      "minimum_headroom_seconds_per_mile": 1,
       "final_rep_rpe": 7,
       "rpe_cap": 7,
-      "route": "ineligible-poor-current-recovery",
-      "status": "no-count-no-new-award",
+      "comfortable_effort_threshold": 5,
+      "ordinary_hits_confirmed": 1,
+      "route": "hold-one-hit-insufficient-all-rep-headroom",
+      "status": "hit-no-new-award",
       "applied": false,
       "new_award_available": false,
       "candidate_pace_seconds_per_mile": null,
       "pace_step_seconds_per_mile": 0,
       "work_minutes_held": 18,
+      "volume_increase_earned": false,
       "recovery_basis": {
-        "status": "reported-poor-current-readiness",
-        "decision_id": 491,
-        "reported_on": "2026-11-14",
-        "recorded_at": "2026-11-14T15:51:42-05:00",
-        "observed": true,
-        "provenance": "athlete report",
-        "report": "Very sleep deprived today and under recovered",
-        "scope": "Current same-day readiness accompanying the completed run. This overrides the ordinary good-recovery assumption for the affected decisions; it is not a report of poor next-day recovery, illness, injury or fatigue persisting into later sessions.",
-        "reason": "Explicit sleep deprivation and under-recovery make this session ineligible for ordinary progression; no hit or miss is awarded."
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 505,
+        "recorded_at": "2026-11-21T21:00:43-05:00",
+        "observed": false,
+        "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. No new adverse recovery or symptom report accompanies the completed run; observed next-day recovery and site-specific responses remain unknown."
       },
-      "reason": "Reported poor readiness excludes ordinary progression regardless of pace. Preserve the normal430-second target and18-minute dose as references; no additional speed/minutes and no replay of the consumed November7 source.",
+      "reason": "All reps count as a hit. Slowest429 against430 gives only1s/mi all-rep headroom, below5; finalRPE7 is not comfortable at≤5, and this is only one ordinary hit after the prior no-count. FinalRPE7 also exceeds the≤6 threshold for a work-minute increase. Hold normal7:10/3×6. UpcomingW5 allows no ordinary progression and its assessment doses must be applied at generation; no test or assessment option is selected here.",
       "prior_award_source_session_id": "hybrid-2026-10-26-w2-sat-2026-11-07",
       "prior_award_remains_consumed": true
     },
@@ -2240,6 +2190,195 @@
           "observed": false,
           "reason": "Standing athlete default supplies ordinary post-run recovery and next-workout readiness unless contradicted; no observed next-day recovery is claimed."
         }
+      },
+      {
+        "date": "2026-11-14",
+        "session_id": "hybrid-2026-10-26-w3-sat-2026-11-14",
+        "prescription_id": "hybrid-2026-10-26-sat-intervals-489",
+        "source": "../history/cardio-log.md#2026-11-14--hybrid-v11-w3-saturday-longer-intervals",
+        "scheduled_day": "Saturday",
+        "legacy_running_track": "friday",
+        "provenance": "Three Apple Fitness screenshots supply interval metrics. Athlete reports current-day sleep deprivation/under-recovery, then confirms total5.01mi and work-rep RPE7/7/7.",
+        "prescribed_pace_seconds_per_mile": 430,
+        "work_minutes": 18,
+        "format": "3x6",
+        "rep_paces_seconds_per_mile": [
+          433,
+          426,
+          426
+        ],
+        "rep_rpe": [
+          7,
+          7,
+          7
+        ],
+        "final_rep_rpe": 7,
+        "recovery_seconds": [
+          120,
+          120
+        ],
+        "distance_miles": 5.01,
+        "shoe": "Evo SL",
+        "shoe_basis": "Evo SL is the standing sole current pair; athlete confirms this run’s5.01mi total.",
+        "duration_seconds_from_segments": 2535,
+        "duration_note": "42:15 summed from displayed intervals including the15-second open segment; independent summary/elapsed duration unreported.",
+        "segments": [
+          {
+            "segment": "Warmup",
+            "duration_seconds": 600,
+            "displayed_distance": 1.11,
+            "distance_unit": "mi",
+            "pace_seconds_per_mile": 537,
+            "average_heart_rate_bpm": 147,
+            "average_power_watts": 220,
+            "average_cadence_spm": 174
+          },
+          {
+            "segment": "Work 1",
+            "duration_seconds": 360,
+            "displayed_distance": 0.83,
+            "distance_unit": "mi",
+            "pace_seconds_per_mile": 433,
+            "average_heart_rate_bpm": 177,
+            "average_power_watts": 276,
+            "average_cadence_spm": 186
+          },
+          {
+            "segment": "Recovery 1",
+            "duration_seconds": 120,
+            "displayed_distance": 0.19,
+            "distance_unit": "mi",
+            "pace_seconds_per_mile": 602,
+            "average_heart_rate_bpm": 176,
+            "average_power_watts": 200,
+            "average_cadence_spm": 165
+          },
+          {
+            "segment": "Work 2",
+            "duration_seconds": 360,
+            "displayed_distance": 0.84,
+            "distance_unit": "mi",
+            "pace_seconds_per_mile": 426,
+            "average_heart_rate_bpm": 181,
+            "average_power_watts": 274,
+            "average_cadence_spm": 186
+          },
+          {
+            "segment": "Recovery 2",
+            "duration_seconds": 120,
+            "displayed_distance": 0.18,
+            "distance_unit": "mi",
+            "pace_seconds_per_mile": 661,
+            "average_heart_rate_bpm": 177,
+            "average_power_watts": 187,
+            "average_cadence_spm": 166
+          },
+          {
+            "segment": "Work 3",
+            "duration_seconds": 360,
+            "displayed_distance": 0.84,
+            "distance_unit": "mi",
+            "pace_seconds_per_mile": 426,
+            "average_heart_rate_bpm": 181,
+            "average_power_watts": 277,
+            "average_cadence_spm": 187
+          },
+          {
+            "segment": "Cooldown",
+            "duration_seconds": 600,
+            "displayed_distance": 0.99,
+            "distance_unit": "mi",
+            "pace_seconds_per_mile": 605,
+            "average_heart_rate_bpm": 170,
+            "average_power_watts": 194,
+            "average_cadence_spm": 171
+          },
+          {
+            "segment": "Open",
+            "duration_seconds": 15,
+            "displayed_distance": 100,
+            "distance_unit": "ft",
+            "pace_seconds_per_mile": 778,
+            "average_heart_rate_bpm": 168,
+            "average_power_watts": 208,
+            "average_cadence_spm": 169
+          }
+        ],
+        "displayed_segment_distance_sum_miles": 4.998939393939394,
+        "distance_note": "Use athlete-confirmed5.01mi for totals and shoe mileage. The separate4.998939393939394mi rounded-segment estimate remains provenance, not the measured total.",
+        "average_heart_rate_bpm": 168,
+        "heart_rate_zones": [
+          {
+            "zone": 1,
+            "seconds": 98,
+            "displayed_range_bpm": "<137"
+          },
+          {
+            "zone": 2,
+            "seconds": 289,
+            "displayed_range_bpm": "138–150"
+          },
+          {
+            "zone": 3,
+            "seconds": 152,
+            "displayed_range_bpm": "151–163"
+          },
+          {
+            "zone": 4,
+            "seconds": 861,
+            "displayed_range_bpm": "164–175"
+          },
+          {
+            "zone": 5,
+            "seconds": 1128,
+            "displayed_range_bpm": "176+"
+          }
+        ],
+        "heart_rate_zone_total_seconds": 2528,
+        "heart_rate_note": "Estimated zone times sum42:08, seven seconds less than displayed interval total42:15. Preserve discrepancy without inferring pauses or lost recording. Chart upper-axis185 is not a measured peak HR.",
+        "surface": null,
+        "recovery_mode": null,
+        "extra_rest_reported": null,
+        "next_day_recovery": null,
+        "achilles_response": null,
+        "lower_ab_response": null,
+        "recovery_decision": {
+          "status": "reported-poor-current-readiness",
+          "decision_id": 491,
+          "reported_on": "2026-11-14",
+          "recorded_at": "2026-11-14T15:51:42-05:00",
+          "observed": true,
+          "provenance": "athlete report",
+          "report": "Very sleep deprived today and under recovered",
+          "scope": "Current same-day readiness accompanying the completed run. This overrides the ordinary good-recovery assumption for the affected decisions; it is not a report of poor next-day recovery, illness, injury or fatigue persisting into later sessions.",
+          "reason": "Explicit sleep deprivation and under-recovery make this session ineligible for ordinary progression; no hit or miss is awarded."
+        },
+        "current_readiness_report": {
+          "status": "reported-poor-current-readiness",
+          "decision_id": 491,
+          "reported_on": "2026-11-14",
+          "recorded_at": "2026-11-14T15:51:42-05:00",
+          "observed": true,
+          "provenance": "athlete report",
+          "report": "Very sleep deprived today and under recovered",
+          "scope": "Current same-day readiness accompanying the completed run. This overrides the ordinary good-recovery assumption for the affected decisions; it is not a report of poor next-day recovery, illness, injury or fatigue persisting into later sessions.",
+          "reason": "Explicit sleep deprivation and under-recovery make this session ineligible for ordinary progression; no hit or miss is awarded."
+        },
+        "measurement_followup": {
+          "reported_on": "2026-11-14",
+          "recorded_at": "2026-11-14T16:46:29-05:00",
+          "decision_id": 492,
+          "report": "distance was 5.01mi. Rpe 7,7,7",
+          "distance_miles": 5.01,
+          "rep_rpe": [
+            7,
+            7,
+            7
+          ],
+          "final_rep_rpe": 7,
+          "source": "../history/cardio-log.md#2026-11-14--saturday-distance-and-effort-confirmed",
+          "scope": "Confirms completed distance and all three work-rep RPEs. Does not revise the same-day poor-recovery report or provide a new recovery update."
+        }
       }
     ],
     "decision_history": [
@@ -2342,6 +2481,13 @@
         "prescription_id": "hybrid-2026-10-26-sat-intervals-504",
         "action": "prescribe-unchanged-normal-dose",
         "reason": "Hold normal7:10/mi and3×6 after the November14 no-count for explicit sleep deprivation/under-recovery. Current acute hold is resolved for planning; use ordinary recovery assumption without changing the historical classification. No new hit, miss, pace/minute award, reused November7 source or early test. Calendar ceiling does not force progression."
+      },
+      {
+        "decision_id": 505,
+        "date": "2026-11-21",
+        "session_id": "hybrid-2026-10-26-w4-sat-2026-11-21",
+        "classification": "hit",
+        "reason": "First eligible hit at7:10/3×6 after November14 no-count; all paces pass, finalRPE7, recovery assumed. Headroom1second, no new pace/minute award; W5 assessment pending."
       }
     ],
     "schedule": {
@@ -2432,6 +2578,42 @@
           "status": "actual-plus-plan-below-limit",
           "assumptions": "Confirmed Tuesday4.43mi plus Saturday18workmin at7:10/mi and24easymin at8:30/mi. Upper uses work at7:05/mi and five extra warmup minutes. Rowing is separate from running mileage. Saturday remains unperformed; no planned shoe miles added."
         }
+      },
+      {
+        "decision_id": 492,
+        "policy_id": "2026-11-03-pace-first",
+        "reviewed_on": "2026-11-14",
+        "source_session_id": "hybrid-2026-10-26-w3-sat-2026-11-14",
+        "source_prescription_id": "hybrid-2026-10-26-sat-intervals-489",
+        "source_date": "2026-11-14",
+        "source_target_seconds_per_mile": 430,
+        "source_work_minutes": 18,
+        "source_format": "3x6",
+        "slowest_rep_seconds_per_mile": 433,
+        "minimum_headroom_seconds_per_mile": -3,
+        "final_rep_rpe": 7,
+        "rpe_cap": 7,
+        "route": "ineligible-poor-current-recovery",
+        "status": "no-count-no-new-award",
+        "applied": false,
+        "new_award_available": false,
+        "candidate_pace_seconds_per_mile": null,
+        "pace_step_seconds_per_mile": 0,
+        "work_minutes_held": 18,
+        "recovery_basis": {
+          "status": "reported-poor-current-readiness",
+          "decision_id": 491,
+          "reported_on": "2026-11-14",
+          "recorded_at": "2026-11-14T15:51:42-05:00",
+          "observed": true,
+          "provenance": "athlete report",
+          "report": "Very sleep deprived today and under recovered",
+          "scope": "Current same-day readiness accompanying the completed run. This overrides the ordinary good-recovery assumption for the affected decisions; it is not a report of poor next-day recovery, illness, injury or fatigue persisting into later sessions.",
+          "reason": "Explicit sleep deprivation and under-recovery make this session ineligible for ordinary progression; no hit or miss is awarded."
+        },
+        "reason": "Reported poor readiness excludes ordinary progression regardless of pace. Preserve the normal430-second target and18-minute dose as references; no additional speed/minutes and no replay of the consumed November7 source.",
+        "prior_award_source_session_id": "hybrid-2026-10-26-w2-sat-2026-11-07",
+        "prior_award_remains_consumed": true
       }
     ],
     "next_action_history": [
@@ -2553,6 +2735,53 @@
           "previous_run_classification_unchanged": true
         },
         "reason": "Sunday readiness planning has been reviewed; no blanket rest hold remains. Keep the normal 7:10/mi, 3x6 reference for the next eligible run and apply current readiness when generating it. November 14 remains no-count due to its reported poor current-day recovery; no pace/minute award, new hit/miss, reused November 7 source or fixed return protocol."
+      },
+      {
+        "decision_id": 504,
+        "policy_id": "2026-11-03-pace-first",
+        "action": "hold-normal-pace-and-minutes",
+        "status": "completed",
+        "preview": false,
+        "for_date": "2026-11-21",
+        "prescription_id": "hybrid-2026-10-26-sat-intervals-504",
+        "pace_seconds_per_mile": 430,
+        "work_minutes": 18,
+        "format": "3x6",
+        "rpe_cap": 7,
+        "recovery_seconds": 120,
+        "recovery_count": 2,
+        "warmup_minutes": 10,
+        "optional_extra_warmup_minutes": 5,
+        "cooldown_minutes": 10,
+        "total_minutes": 42,
+        "workout_file": "runs/2026-11-21.workout",
+        "source_session_id": "hybrid-2026-10-26-w3-sat-2026-11-14",
+        "source_prescription_id": "hybrid-2026-10-26-sat-intervals-489",
+        "new_progression_source_consumed": false,
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 504,
+          "recorded_at": "2026-11-20T19:34:29-05:00",
+          "for_date": "2026-11-21",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary post-Friday recovery and Saturday readiness. Friday completion and bike RPE 3 are reported; no new general recovery or site-specific symptom response is supplied. Existing local limits remain."
+        },
+        "mileage_check": {
+          "week": "W4",
+          "range_start": "2026-11-16",
+          "range_end": "2026-11-22",
+          "actual_miles": 4.38,
+          "estimated_planned_miles": 9.71515731874145,
+          "upper_planned_miles": 10.332941176470587,
+          "limit_miles": 15,
+          "status": "actual-plus-plan-below-limit",
+          "assumptions": "Tuesday confirmed4.38mi plus Saturday18workmin at7:10/mi and24easymin budgeted at8:30/mi. Upper uses7:05work pace and five extra warmup minutes. No future completed run or shoe mileage."
+        },
+        "reason": "Hold normal7:10/mi and3×6 after the November14 no-count for explicit sleep deprivation/under-recovery. Current acute hold is resolved for planning; use ordinary recovery assumption without changing the historical classification. No new hit, miss, pace/minute award, reused November7 source or early test. Calendar ceiling does not force progression.",
+        "completed_on": "2026-11-21",
+        "completion_session_id": "hybrid-2026-10-26-w4-sat-2026-11-21",
+        "completion_decision_id": 505
       }
     ],
     "counter_reset": {
@@ -2563,7 +2792,11 @@
       "previous_hits": 2,
       "previous_misses": 0,
       "current_target_seconds_per_mile": 430,
-      "awaiting_first_exposure": true
+      "awaiting_first_exposure": false,
+      "first_exposure_session_id": "hybrid-2026-10-26-w3-sat-2026-11-14",
+      "first_eligible_hit_session_id": "hybrid-2026-10-26-w4-sat-2026-11-21",
+      "review_decision_id": 505,
+      "review_note": "The changed7:10 dose was attempted November14 (no-count) and has its first eligible hit November21. This updates the pending-exposure marker only; no additional counter reset."
     },
     "classification_review_history": [
       {
@@ -2600,6 +2833,44 @@
         "source_session_id": "hybrid-2026-10-26-w2-sat-2026-11-07",
         "previous_hit_source_session_id": "hybrid-2026-10-26-w1-fri-2026-10-30",
         "reason": "All 18 work minutes and both prescribed recoveries are displayed. 7:10/6:58/6:56 pass the one-sided 7:30-or-faster check; final RPE 7 meets cap. No extra rest or materially changed conditions reported. Second ordinary hit; no comfortable tag at final RPE 7 > 5."
+      },
+      {
+        "decision_id": 492,
+        "classified_on": "2026-11-14",
+        "status": "classified",
+        "classification": "no-count",
+        "source_session_id": "hybrid-2026-10-26-w3-sat-2026-11-14",
+        "prescribed_target_seconds_per_mile": 430,
+        "pace_offsets_seconds_per_mile": [
+          3,
+          -4,
+          -4
+        ],
+        "rep_pace_checks_passed": [
+          true,
+          true,
+          true
+        ],
+        "full_work_confirmed": true,
+        "displayed_recoveries_seconds": [
+          120,
+          120
+        ],
+        "extra_rest_reported": null,
+        "effort_cap_exceeded": false,
+        "final_rep_rpe": 7,
+        "recovery_evidence": {
+          "status": "reported-poor-current-readiness",
+          "decision_id": 491,
+          "reported_on": "2026-11-14",
+          "recorded_at": "2026-11-14T15:51:42-05:00",
+          "observed": true,
+          "provenance": "athlete report",
+          "report": "Very sleep deprived today and under recovered",
+          "scope": "Current same-day readiness accompanying the completed run. This overrides the ordinary good-recovery assumption for the affected decisions; it is not a report of poor next-day recovery, illness, injury or fatigue persisting into later sessions.",
+          "reason": "Explicit sleep deprivation and under-recovery make this session ineligible for ordinary progression; no hit or miss is awarded."
+        },
+        "reason": "Full3×6 at433/426/426s/mi and finalRPE7 meet pace and effort limits. Explicit poor current readiness still takes precedence: no-count, no new hit/miss or progression. The confirmation does not resolve sleep deprivation or establish next-day recovery."
       }
     ],
     "current_readiness_issue": null,
@@ -2628,12 +2899,59 @@
           "previous_run_classification_unchanged": true
         }
       }
-    ]
+    ],
+    "completed_prescription": {
+      "decision_id": 504,
+      "policy_id": "2026-11-03-pace-first",
+      "action": "hold-normal-pace-and-minutes",
+      "status": "completed",
+      "preview": false,
+      "for_date": "2026-11-21",
+      "prescription_id": "hybrid-2026-10-26-sat-intervals-504",
+      "pace_seconds_per_mile": 430,
+      "work_minutes": 18,
+      "format": "3x6",
+      "rpe_cap": 7,
+      "recovery_seconds": 120,
+      "recovery_count": 2,
+      "warmup_minutes": 10,
+      "optional_extra_warmup_minutes": 5,
+      "cooldown_minutes": 10,
+      "total_minutes": 42,
+      "workout_file": "runs/2026-11-21.workout",
+      "source_session_id": "hybrid-2026-10-26-w3-sat-2026-11-14",
+      "source_prescription_id": "hybrid-2026-10-26-sat-intervals-489",
+      "new_progression_source_consumed": false,
+      "recovery_basis": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 504,
+        "recorded_at": "2026-11-20T19:34:29-05:00",
+        "for_date": "2026-11-21",
+        "observed": false,
+        "reason": "Standing athlete default supplies ordinary post-Friday recovery and Saturday readiness. Friday completion and bike RPE 3 are reported; no new general recovery or site-specific symptom response is supplied. Existing local limits remain."
+      },
+      "mileage_check": {
+        "week": "W4",
+        "range_start": "2026-11-16",
+        "range_end": "2026-11-22",
+        "actual_miles": 4.38,
+        "estimated_planned_miles": 9.71515731874145,
+        "upper_planned_miles": 10.332941176470587,
+        "limit_miles": 15,
+        "status": "actual-plus-plan-below-limit",
+        "assumptions": "Tuesday confirmed4.38mi plus Saturday18workmin at7:10/mi and24easymin budgeted at8:30/mi. Upper uses7:05work pace and five extra warmup minutes. No future completed run or shoe mileage."
+      },
+      "reason": "Hold normal7:10/mi and3×6 after the November14 no-count for explicit sleep deprivation/under-recovery. Current acute hold is resolved for planning; use ordinary recovery assumption without changing the historical classification. No new hit, miss, pace/minute award, reused November7 source or early test. Calendar ceiling does not force progression.",
+      "completed_on": "2026-11-21",
+      "completion_session_id": "hybrid-2026-10-26-w4-sat-2026-11-21",
+      "completion_decision_id": 505
+    }
   },
   "cycling": {
     "wednesday": {
       "last_completed": "2026-11-18",
-      "last_tolerated_minutes": 20,
+      "last_tolerated_minutes": 25,
       "latest_actual": {
         "date": "2026-11-18",
         "session_id": "hybrid-2026-10-26-w4-wed-2026-11-18-bike",
@@ -2778,62 +3096,17 @@
           }
         ]
       },
-      "pending_validation": {
-        "status": "lifting-supported-running-performance-pending",
-        "decision_id": 502,
-        "reviewed_on": "2026-11-19",
-        "recorded_at": "2026-11-19T20:11:28-05:00",
-        "source_session_id": "hybrid-2026-10-26-w4-wed-2026-11-18-bike",
-        "prescribed_minutes": 25,
-        "completed_seconds": 1500,
-        "lifting": {
-          "date": "2026-11-19",
-          "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
-          "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
-          "status": "completed-acceptable-performance",
-          "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
-          "working_sets": 20,
-          "all_sets_in_range": true,
-          "all_sets_meet_effort_or_more_reserve": true,
-          "performance": "All 20 Upper B sets met their rep ranges and prescribed reserve or more: incline 135×8/8/8 at RIR 2, BW pull-up 12/12 at RIR 2; intended near-failure lateral/pushdown finals and BW ab extra reserve remain literal. No demonstrated priority-lift decline.",
-          "recovery_basis": {
-            "status": "assumed-good",
-            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-            "decision_id": 502,
-            "recorded_at": "2026-11-19T20:11:28-05:00",
-            "observed": false,
-            "reason": "Standing athlete default supplies ordinary post-Thursday recovery and Friday readiness. Earlier November 19 good recovery was pre-session and also next-day general recovery after Wednesday; no new adverse report accompanies the completed Thursday lift. Observed Friday recovery and site-specific responses remain unreported."
-          }
-        },
-        "running": {
-          "date": "2026-11-21",
-          "status": "unperformed",
-          "performance": null
-        },
-        "reason": "The completed Thursday lift supports Wednesday’s new 25-minute bike dose. Saturday November 21 running remains unperformed; keep 25-minute tolerance pending and last-tolerated duration at 20. The earlier reported good next-day recovery and new lifting performance do not complete the future run.",
-        "next_day_recovery": {
-          "status": "observed-good",
-          "decision_id": 501,
-          "recorded_at": "2026-11-19T16:19:26-05:00",
-          "reported_on": "2026-11-19",
-          "observed": true,
-          "observation_type": "athlete-self-report",
-          "report": "Recovery good. What’s today?",
-          "source": "../history/injury-log.md#2026-11-19--good-recovery-after-wednesday",
-          "reason": "Athlete reports good current Thursday general recovery, also supplying next-day general recovery after Wednesday’s completed lifting and bike. No numeric metrics or site-specific symptom clearance is supplied."
-        },
-        "recovery_followup_note": "November 19 good general recovery was reported before the now-completed Thursday lift. All 20 lift sets meet their targets; subsequent Saturday running is still unperformed. No new post-lift recovery observation is inferred."
-      },
+      "pending_validation": null,
       "next_action": {
-        "decision_id": 500,
+        "decision_id": 505,
         "action": "assessment-week-duration-ceiling-review",
         "status": "recommendation-for-next-matching-session-not-prescribed",
         "for_date": "2026-11-25",
         "assessment_week": 5,
         "maximum_minutes": 15,
-        "last_tolerated_minutes": 20,
+        "last_tolerated_minutes": 25,
         "latest_completed_minutes": 25,
-        "pending_validation_minutes": 25,
+        "pending_validation_minutes": null,
         "target_rpe": 3,
         "acceptable_rpe_range": [
           2,
@@ -2845,26 +3118,26 @@
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 500,
-          "recorded_at": "2026-11-18T20:39:56-05:00",
+          "decision_id": 505,
+          "recorded_at": "2026-11-21T21:00:43-05:00",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary post-session recovery for Thursday planning. Earlier November 18 good-recovery report was pre-session; the new log reports no adverse general-recovery change. Observed next-day recovery and bike-specific symptoms remain unreported."
+          "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. No new adverse recovery or symptom report accompanies the completed run; observed next-day recovery and site-specific responses remain unknown."
         },
         "equipment_settings_ref": "cycling.equipment_settings",
-        "reason": "Next Wednesday is W5, whose assessment-week ceiling is 15 bike minutes. Apply the applicable A/B/C option and any stricter current limit when generating that session; no future bike prescription is issued by this log. The completed 25-minute dose still awaits subsequent lifting/running validation; its completion alone earns no further increase.",
-        "validation_review_decision_id": 502,
-        "validation_status": "lifting-supported-running-performance-pending"
+        "reason": "Wednesday25minutes is validated by completed subsequent lifting and running. NextWednesdayNovember25 is W5 with a15-minute ceiling; this review does not prescribe a future ride or permit exceeding that assessment ceiling.",
+        "validation_review_decision_id": 505,
+        "validation_status": "25-minute-dose-validated"
       },
       "validation_review": {
-        "decision_id": 502,
-        "reviewed_on": "2026-11-19",
-        "recorded_at": "2026-11-19T20:11:28-05:00",
-        "status": "25-minute-dose-lifting-supported-running-pending",
+        "decision_id": 505,
+        "reviewed_on": "2026-11-21",
+        "recorded_at": "2026-11-21T21:00:43-05:00",
+        "status": "25-minute-dose-validated",
         "source_session_id": "hybrid-2026-10-26-w4-wed-2026-11-18-bike",
-        "last_tolerated_minutes": 20,
+        "last_tolerated_minutes": 25,
         "completed_minutes": 25,
         "lifting_source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
-        "running_source": null,
+        "running_source": "../history/cardio-log.md#2026-11-21--hybrid-v11-w4-saturday-longer-intervals",
         "next_day_recovery": {
           "status": "observed-good",
           "decision_id": 501,
@@ -2879,12 +3152,89 @@
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 502,
-          "recorded_at": "2026-11-19T20:11:28-05:00",
+          "decision_id": 505,
+          "recorded_at": "2026-11-21T21:00:43-05:00",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary post-Thursday recovery and Friday readiness. Earlier November 19 good recovery was pre-session and also next-day general recovery after Wednesday; no new adverse report accompanies the completed Thursday lift. Observed Friday recovery and site-specific responses remain unreported."
+          "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. No new adverse recovery or symptom report accompanies the completed run; observed next-day recovery and site-specific responses remain unknown."
         },
-        "reason": "The completed Thursday lift supports Wednesday’s new 25-minute bike dose. Saturday November 21 running remains unperformed; keep 25-minute tolerance pending and last-tolerated duration at 20. The earlier reported good next-day recovery and new lifting performance do not complete the future run."
+        "subsequent_lifting_running_tolerance": {
+          "status": "validated-subsequent-lifting-and-running",
+          "decision_id": 505,
+          "reviewed_on": "2026-11-21",
+          "recorded_at": "2026-11-21T21:00:43-05:00",
+          "source_session_id": "hybrid-2026-10-26-w4-wed-2026-11-18-bike",
+          "prescribed_minutes": 25,
+          "completed_seconds": 1500,
+          "lifting": {
+            "date": "2026-11-19",
+            "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+            "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
+            "status": "completed-acceptable-performance",
+            "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+            "working_sets": 20,
+            "all_sets_in_range": true,
+            "all_sets_meet_effort_or_more_reserve": true,
+            "performance": "All 20 Upper B sets met their rep ranges and prescribed reserve or more: incline 135×8/8/8 at RIR 2, BW pull-up 12/12 at RIR 2; intended near-failure lateral/pushdown finals and BW ab extra reserve remain literal. No demonstrated priority-lift decline.",
+            "recovery_basis": {
+              "status": "assumed-good",
+              "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+              "decision_id": 502,
+              "recorded_at": "2026-11-19T20:11:28-05:00",
+              "observed": false,
+              "reason": "Standing athlete default supplies ordinary post-Thursday recovery and Friday readiness. Earlier November 19 good recovery was pre-session and also next-day general recovery after Wednesday; no new adverse report accompanies the completed Thursday lift. Observed Friday recovery and site-specific responses remain unreported."
+            }
+          },
+          "running": {
+            "date": "2026-11-21",
+            "session_id": "hybrid-2026-10-26-w4-sat-2026-11-21",
+            "prescription_id": "hybrid-2026-10-26-sat-intervals-504",
+            "status": "completed-acceptable-performance",
+            "classification": "hit",
+            "source": "../history/cardio-log.md#2026-11-21--hybrid-v11-w4-saturday-longer-intervals",
+            "work_minutes": 18,
+            "rep_paces_seconds_per_mile": [
+              429,
+              414,
+              403
+            ],
+            "rep_rpe": [
+              7,
+              7,
+              7
+            ],
+            "performance": "Full3×6 at7:09/6:54/6:43 with both prescribed2-minute recoveries and RPE7 throughout; target7:10 passed, no adverse recovery reported.",
+            "recovery_basis": {
+              "status": "assumed-good",
+              "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+              "decision_id": 505,
+              "recorded_at": "2026-11-21T21:00:43-05:00",
+              "observed": false,
+              "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. No new adverse recovery or symptom report accompanies the completed run; observed next-day recovery and site-specific responses remain unknown."
+            }
+          },
+          "reason": "ThursdayNovember19 completed20acceptable UpperB sets and SaturdayNovember21 completed qualifying full running now support WednesdayNovember18 twenty-five-minute bike tolerance. Good Thursday general recovery was observed; ordinary recovery after the run uses the standing assumption.",
+          "next_day_recovery": {
+            "status": "observed-good",
+            "decision_id": 501,
+            "recorded_at": "2026-11-19T16:19:26-05:00",
+            "reported_on": "2026-11-19",
+            "observed": true,
+            "observation_type": "athlete-self-report",
+            "report": "Recovery good. What’s today?",
+            "source": "../history/injury-log.md#2026-11-19--good-recovery-after-wednesday",
+            "reason": "Athlete reports good current Thursday general recovery, also supplying next-day general recovery after Wednesday’s completed lifting and bike. No numeric metrics or site-specific symptom clearance is supplied."
+          },
+          "recovery_followup_note": "Keep the observed November19 general recovery and completed subsequent performance. No new site-specific symptom clearance is inferred.",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 505,
+            "recorded_at": "2026-11-21T21:00:43-05:00",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. No new adverse recovery or symptom report accompanies the completed run; observed next-day recovery and site-specific responses remain unknown."
+          }
+        },
+        "reason": "ThursdayNovember19 completed20acceptable UpperB sets and SaturdayNovember21 completed qualifying full running now support WednesdayNovember18 twenty-five-minute bike tolerance. Good Thursday general recovery was observed; ordinary recovery after the run uses the standing assumption."
       },
       "actual_history": [
         {
@@ -3386,6 +3736,37 @@
             "source": "../history/injury-log.md#2026-11-19--good-recovery-after-wednesday",
             "reason": "Athlete reports good current Thursday general recovery, also supplying next-day general recovery after Wednesday’s completed lifting and bike. No numeric metrics or site-specific symptom clearance is supplied."
           }
+        },
+        {
+          "decision_id": 502,
+          "reviewed_on": "2026-11-19",
+          "recorded_at": "2026-11-19T20:11:28-05:00",
+          "status": "25-minute-dose-lifting-supported-running-pending",
+          "source_session_id": "hybrid-2026-10-26-w4-wed-2026-11-18-bike",
+          "last_tolerated_minutes": 20,
+          "completed_minutes": 25,
+          "lifting_source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+          "running_source": null,
+          "next_day_recovery": {
+            "status": "observed-good",
+            "decision_id": 501,
+            "recorded_at": "2026-11-19T16:19:26-05:00",
+            "reported_on": "2026-11-19",
+            "observed": true,
+            "observation_type": "athlete-self-report",
+            "report": "Recovery good. What’s today?",
+            "source": "../history/injury-log.md#2026-11-19--good-recovery-after-wednesday",
+            "reason": "Athlete reports good current Thursday general recovery, also supplying next-day general recovery after Wednesday’s completed lifting and bike. No numeric metrics or site-specific symptom clearance is supplied."
+          },
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 502,
+            "recorded_at": "2026-11-19T20:11:28-05:00",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary post-Thursday recovery and Friday readiness. Earlier November 19 good recovery was pre-session and also next-day general recovery after Wednesday; no new adverse report accompanies the completed Thursday lift. Observed Friday recovery and site-specific responses remain unreported."
+          },
+          "reason": "The completed Thursday lift supports Wednesday’s new 25-minute bike dose. Saturday November 21 running remains unperformed; keep 25-minute tolerance pending and last-tolerated duration at 20. The earlier reported good next-day recovery and new lifting performance do not complete the future run."
         }
       ],
       "next_action_history": [
@@ -3557,6 +3938,37 @@
           "reason": "November 12 lifting and November 17 running are acceptable after the previous 20-minute bike prescription; November 16 very-good recovery resolved the acute readiness concern. This supports a new 25-minute Wednesday prescription within W4’s ceiling. Preserve November 14 as poor-current-readiness/no-count in review history; do not retroactively classify it as clean or attribute it to cycling. Twenty-five minutes has not been performed or validated; review subsequent lifting and running after completion.",
           "review_decision_id": 499,
           "reviewed_on": "2026-11-18"
+        },
+        {
+          "decision_id": 500,
+          "action": "assessment-week-duration-ceiling-review",
+          "status": "recommendation-for-next-matching-session-not-prescribed",
+          "for_date": "2026-11-25",
+          "assessment_week": 5,
+          "maximum_minutes": 15,
+          "last_tolerated_minutes": 20,
+          "latest_completed_minutes": 25,
+          "pending_validation_minutes": 25,
+          "target_rpe": 3,
+          "acceptable_rpe_range": [
+            2,
+            4
+          ],
+          "after_lifting": true,
+          "scheduled_day": "Wednesday",
+          "source": "../history/cardio-log.md#2026-11-18--hybrid-v11-w4-wednesday-bike",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 500,
+            "recorded_at": "2026-11-18T20:39:56-05:00",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary post-session recovery for Thursday planning. Earlier November 18 good-recovery report was pre-session; the new log reports no adverse general-recovery change. Observed next-day recovery and bike-specific symptoms remain unreported."
+          },
+          "equipment_settings_ref": "cycling.equipment_settings",
+          "reason": "Next Wednesday is W5, whose assessment-week ceiling is 15 bike minutes. Apply the applicable A/B/C option and any stricter current limit when generating that session; no future bike prescription is issued by this log. The completed 25-minute dose still awaits subsequent lifting/running validation; its completion alone earns no further increase.",
+          "validation_review_decision_id": 502,
+          "validation_status": "lifting-supported-running-performance-pending"
         }
       ],
       "pending_validation_history": [
@@ -3700,6 +4112,129 @@
             "reason": "Athlete reports good current Thursday general recovery, also supplying next-day general recovery after Wednesday’s completed lifting and bike. No numeric metrics or site-specific symptom clearance is supplied."
           },
           "recovery_followup_note": "November 19 good general recovery is reported. Thursday lifting and Saturday running remain unperformed; this follow-up alone does not establish the 25-minute dose as tolerated."
+        },
+        {
+          "status": "lifting-supported-running-performance-pending",
+          "decision_id": 502,
+          "reviewed_on": "2026-11-19",
+          "recorded_at": "2026-11-19T20:11:28-05:00",
+          "source_session_id": "hybrid-2026-10-26-w4-wed-2026-11-18-bike",
+          "prescribed_minutes": 25,
+          "completed_seconds": 1500,
+          "lifting": {
+            "date": "2026-11-19",
+            "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+            "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
+            "status": "completed-acceptable-performance",
+            "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+            "working_sets": 20,
+            "all_sets_in_range": true,
+            "all_sets_meet_effort_or_more_reserve": true,
+            "performance": "All 20 Upper B sets met their rep ranges and prescribed reserve or more: incline 135×8/8/8 at RIR 2, BW pull-up 12/12 at RIR 2; intended near-failure lateral/pushdown finals and BW ab extra reserve remain literal. No demonstrated priority-lift decline.",
+            "recovery_basis": {
+              "status": "assumed-good",
+              "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+              "decision_id": 502,
+              "recorded_at": "2026-11-19T20:11:28-05:00",
+              "observed": false,
+              "reason": "Standing athlete default supplies ordinary post-Thursday recovery and Friday readiness. Earlier November 19 good recovery was pre-session and also next-day general recovery after Wednesday; no new adverse report accompanies the completed Thursday lift. Observed Friday recovery and site-specific responses remain unreported."
+            }
+          },
+          "running": {
+            "date": "2026-11-21",
+            "status": "unperformed",
+            "performance": null
+          },
+          "reason": "The completed Thursday lift supports Wednesday’s new 25-minute bike dose. Saturday November 21 running remains unperformed; keep 25-minute tolerance pending and last-tolerated duration at 20. The earlier reported good next-day recovery and new lifting performance do not complete the future run.",
+          "next_day_recovery": {
+            "status": "observed-good",
+            "decision_id": 501,
+            "recorded_at": "2026-11-19T16:19:26-05:00",
+            "reported_on": "2026-11-19",
+            "observed": true,
+            "observation_type": "athlete-self-report",
+            "report": "Recovery good. What’s today?",
+            "source": "../history/injury-log.md#2026-11-19--good-recovery-after-wednesday",
+            "reason": "Athlete reports good current Thursday general recovery, also supplying next-day general recovery after Wednesday’s completed lifting and bike. No numeric metrics or site-specific symptom clearance is supplied."
+          },
+          "recovery_followup_note": "November 19 good general recovery was reported before the now-completed Thursday lift. All 20 lift sets meet their targets; subsequent Saturday running is still unperformed. No new post-lift recovery observation is inferred."
+        },
+        {
+          "status": "validated-subsequent-lifting-and-running",
+          "decision_id": 505,
+          "reviewed_on": "2026-11-21",
+          "recorded_at": "2026-11-21T21:00:43-05:00",
+          "source_session_id": "hybrid-2026-10-26-w4-wed-2026-11-18-bike",
+          "prescribed_minutes": 25,
+          "completed_seconds": 1500,
+          "lifting": {
+            "date": "2026-11-19",
+            "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+            "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
+            "status": "completed-acceptable-performance",
+            "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+            "working_sets": 20,
+            "all_sets_in_range": true,
+            "all_sets_meet_effort_or_more_reserve": true,
+            "performance": "All 20 Upper B sets met their rep ranges and prescribed reserve or more: incline 135×8/8/8 at RIR 2, BW pull-up 12/12 at RIR 2; intended near-failure lateral/pushdown finals and BW ab extra reserve remain literal. No demonstrated priority-lift decline.",
+            "recovery_basis": {
+              "status": "assumed-good",
+              "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+              "decision_id": 502,
+              "recorded_at": "2026-11-19T20:11:28-05:00",
+              "observed": false,
+              "reason": "Standing athlete default supplies ordinary post-Thursday recovery and Friday readiness. Earlier November 19 good recovery was pre-session and also next-day general recovery after Wednesday; no new adverse report accompanies the completed Thursday lift. Observed Friday recovery and site-specific responses remain unreported."
+            }
+          },
+          "running": {
+            "date": "2026-11-21",
+            "session_id": "hybrid-2026-10-26-w4-sat-2026-11-21",
+            "prescription_id": "hybrid-2026-10-26-sat-intervals-504",
+            "status": "completed-acceptable-performance",
+            "classification": "hit",
+            "source": "../history/cardio-log.md#2026-11-21--hybrid-v11-w4-saturday-longer-intervals",
+            "work_minutes": 18,
+            "rep_paces_seconds_per_mile": [
+              429,
+              414,
+              403
+            ],
+            "rep_rpe": [
+              7,
+              7,
+              7
+            ],
+            "performance": "Full3×6 at7:09/6:54/6:43 with both prescribed2-minute recoveries and RPE7 throughout; target7:10 passed, no adverse recovery reported.",
+            "recovery_basis": {
+              "status": "assumed-good",
+              "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+              "decision_id": 505,
+              "recorded_at": "2026-11-21T21:00:43-05:00",
+              "observed": false,
+              "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. No new adverse recovery or symptom report accompanies the completed run; observed next-day recovery and site-specific responses remain unknown."
+            }
+          },
+          "reason": "ThursdayNovember19 completed20acceptable UpperB sets and SaturdayNovember21 completed qualifying full running now support WednesdayNovember18 twenty-five-minute bike tolerance. Good Thursday general recovery was observed; ordinary recovery after the run uses the standing assumption.",
+          "next_day_recovery": {
+            "status": "observed-good",
+            "decision_id": 501,
+            "recorded_at": "2026-11-19T16:19:26-05:00",
+            "reported_on": "2026-11-19",
+            "observed": true,
+            "observation_type": "athlete-self-report",
+            "report": "Recovery good. What’s today?",
+            "source": "../history/injury-log.md#2026-11-19--good-recovery-after-wednesday",
+            "reason": "Athlete reports good current Thursday general recovery, also supplying next-day general recovery after Wednesday’s completed lifting and bike. No numeric metrics or site-specific symptom clearance is supplied."
+          },
+          "recovery_followup_note": "Keep the observed November19 general recovery and completed subsequent performance. No new site-specific symptom clearance is inferred.",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 505,
+            "recorded_at": "2026-11-21T21:00:43-05:00",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. No new adverse recovery or symptom report accompanies the completed run; observed next-day recovery and site-specific responses remain unknown."
+          }
         }
       ],
       "recovery_decision_history": [
@@ -3867,10 +4402,10 @@
         "note": "Completes the prescribed 25 minutes at the target RPE 3, reported throughout, with 115 W average and reported Z2. Numeric HR, zone times and bike-specific symptoms remain unreported. Subsequent running/lifting validation is pending. No running or shoe mileage is added."
       },
       "pending_validation": {
-        "status": "pending-subsequent-performance",
-        "decision_id": 504,
-        "reviewed_on": "2026-11-20",
-        "recorded_at": "2026-11-20T19:33:29-05:00",
+        "status": "running-supported-lifting-performance-pending",
+        "decision_id": 505,
+        "reviewed_on": "2026-11-21",
+        "recorded_at": "2026-11-21T21:00:43-05:00",
         "source_session_id": "hybrid-2026-10-26-w4-fri-2026-11-20-bike",
         "prescribed_minutes": 25,
         "completed_seconds": 1500,
@@ -3881,22 +4416,45 @@
         },
         "running": {
           "date": "2026-11-21",
-          "status": "unperformed",
-          "performance": null
+          "session_id": "hybrid-2026-10-26-w4-sat-2026-11-21",
+          "prescription_id": "hybrid-2026-10-26-sat-intervals-504",
+          "status": "completed-acceptable-performance",
+          "classification": "hit",
+          "source": "../history/cardio-log.md#2026-11-21--hybrid-v11-w4-saturday-longer-intervals",
+          "work_minutes": 18,
+          "rep_paces_seconds_per_mile": [
+            429,
+            414,
+            403
+          ],
+          "rep_rpe": [
+            7,
+            7,
+            7
+          ],
+          "performance": "Full3×6 at7:09/6:54/6:43 with both prescribed2-minute recoveries and RPE7 throughout; target7:10 passed, no adverse recovery reported.",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 505,
+            "recorded_at": "2026-11-21T21:00:43-05:00",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. No new adverse recovery or symptom report accompanies the completed run; observed next-day recovery and site-specific responses remain unknown."
+          }
         },
         "next_day_recovery": null,
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 504,
-          "recorded_at": "2026-11-20T19:33:29-05:00",
+          "decision_id": 505,
+          "recorded_at": "2026-11-21T21:00:43-05:00",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary post-Friday recovery for the next workout. This log reports bike effort, power, zone and settings, not a new recovery or symptom observation; observed next-day recovery and site-specific responses remain unknown."
+          "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. No new adverse recovery or symptom report accompanies the completed run; observed next-day recovery and site-specific responses remain unknown."
         },
-        "reason": "Friday’s new 25-minute dose is completed at RPE 3 throughout. Review subsequent Saturday November 21 running and Sunday November 22 lifting before marking it tolerated or awarding another duration increase. Ordinary recovery uses the standing assumption; neither future session has been performed."
+        "reason": "SaturdayNovember21 full qualifying run supports FridayNovember20 bike25minutes. SundayNovember22 lifting remains unperformed; retain last-tolerated20 and pending25 until subsequent lifting is reviewed."
       },
       "next_action": {
-        "decision_id": 504,
+        "decision_id": 505,
         "action": "assessment-week-duration-ceiling-review",
         "status": "recommendation-for-next-matching-session-not-prescribed",
         "for_date": "2026-11-27",
@@ -3917,31 +4475,31 @@
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 504,
-          "recorded_at": "2026-11-20T19:33:29-05:00",
+          "decision_id": 505,
+          "recorded_at": "2026-11-21T21:00:43-05:00",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary post-Friday recovery for the next workout. This log reports bike effort, power, zone and settings, not a new recovery or symptom observation; observed next-day recovery and site-specific responses remain unknown."
+          "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. No new adverse recovery or symptom report accompanies the completed run; observed next-day recovery and site-specific responses remain unknown."
         },
         "equipment_settings_ref": "cycling.equipment_settings",
-        "reason": "Next Friday is W5, whose assessment-week ceiling is 15 bike minutes. Apply the applicable A/B/C option and any stricter current limit when generating that session; this log issues no future bike prescription. Review subsequent Saturday running and Sunday lifting before marking the completed 25-minute dose tolerated.",
-        "validation_review_decision_id": 504,
-        "validation_status": "pending-subsequent-performance"
+        "reason": "NextFridayNovember27 is W5 with a15-minute ceiling, not a new prescription. SaturdayNovember21 qualifying run supports the completed25-minute dose; SundayNovember22 lifting is still required before it becomes the last-tolerated duration.",
+        "validation_review_decision_id": 505,
+        "validation_status": "running-supported-lifting-performance-pending"
       },
       "validation_review": {
-        "decision_id": 504,
-        "reviewed_on": "2026-11-20",
-        "recorded_at": "2026-11-20T19:33:29-05:00",
-        "status": "25-minute-dose-completed-subsequent-performance-pending",
+        "decision_id": 505,
+        "reviewed_on": "2026-11-21",
+        "recorded_at": "2026-11-21T21:00:43-05:00",
+        "status": "25-minute-dose-running-supported-lifting-pending",
         "source_session_id": "hybrid-2026-10-26-w4-fri-2026-11-20-bike",
         "source": "../history/cardio-log.md#2026-11-20--hybrid-v11-w4-friday-bike",
         "last_tolerated_minutes": 20,
         "latest_completed_minutes": 25,
         "effort_in_prescribed_range": true,
         "subsequent_lifting_running_tolerance": {
-          "status": "pending-subsequent-performance",
-          "decision_id": 504,
-          "reviewed_on": "2026-11-20",
-          "recorded_at": "2026-11-20T19:33:29-05:00",
+          "status": "running-supported-lifting-performance-pending",
+          "decision_id": 505,
+          "reviewed_on": "2026-11-21",
+          "recorded_at": "2026-11-21T21:00:43-05:00",
           "source_session_id": "hybrid-2026-10-26-w4-fri-2026-11-20-bike",
           "prescribed_minutes": 25,
           "completed_seconds": 1500,
@@ -3952,29 +4510,52 @@
           },
           "running": {
             "date": "2026-11-21",
-            "status": "unperformed",
-            "performance": null
+            "session_id": "hybrid-2026-10-26-w4-sat-2026-11-21",
+            "prescription_id": "hybrid-2026-10-26-sat-intervals-504",
+            "status": "completed-acceptable-performance",
+            "classification": "hit",
+            "source": "../history/cardio-log.md#2026-11-21--hybrid-v11-w4-saturday-longer-intervals",
+            "work_minutes": 18,
+            "rep_paces_seconds_per_mile": [
+              429,
+              414,
+              403
+            ],
+            "rep_rpe": [
+              7,
+              7,
+              7
+            ],
+            "performance": "Full3×6 at7:09/6:54/6:43 with both prescribed2-minute recoveries and RPE7 throughout; target7:10 passed, no adverse recovery reported.",
+            "recovery_basis": {
+              "status": "assumed-good",
+              "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+              "decision_id": 505,
+              "recorded_at": "2026-11-21T21:00:43-05:00",
+              "observed": false,
+              "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. No new adverse recovery or symptom report accompanies the completed run; observed next-day recovery and site-specific responses remain unknown."
+            }
           },
           "next_day_recovery": null,
           "recovery_basis": {
             "status": "assumed-good",
             "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-            "decision_id": 504,
-            "recorded_at": "2026-11-20T19:33:29-05:00",
+            "decision_id": 505,
+            "recorded_at": "2026-11-21T21:00:43-05:00",
             "observed": false,
-            "reason": "Standing athlete default supplies ordinary post-Friday recovery for the next workout. This log reports bike effort, power, zone and settings, not a new recovery or symptom observation; observed next-day recovery and site-specific responses remain unknown."
+            "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. No new adverse recovery or symptom report accompanies the completed run; observed next-day recovery and site-specific responses remain unknown."
           },
-          "reason": "Friday’s new 25-minute dose is completed at RPE 3 throughout. Review subsequent Saturday November 21 running and Sunday November 22 lifting before marking it tolerated or awarding another duration increase. Ordinary recovery uses the standing assumption; neither future session has been performed."
+          "reason": "SaturdayNovember21 full qualifying run supports FridayNovember20 bike25minutes. SundayNovember22 lifting remains unperformed; retain last-tolerated20 and pending25 until subsequent lifting is reviewed."
         },
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 504,
-          "recorded_at": "2026-11-20T19:33:29-05:00",
+          "decision_id": 505,
+          "recorded_at": "2026-11-21T21:00:43-05:00",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary post-Friday recovery for the next workout. This log reports bike effort, power, zone and settings, not a new recovery or symptom observation; observed next-day recovery and site-specific responses remain unknown."
+          "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. No new adverse recovery or symptom report accompanies the completed run; observed next-day recovery and site-specific responses remain unknown."
         },
-        "reason": "The original 25-minute Friday prescription is completed at RPE 3 throughout. Keep last-tolerated duration at 20 until the subsequent Saturday run and Sunday lift are completed and reviewed. Current-session completion alone does not establish subsequent tolerance; Wednesday’s separate validation is unchanged."
+        "reason": "SaturdayNovember21 full qualifying run supports FridayNovember20 bike25minutes. SundayNovember22 lifting remains unperformed; retain last-tolerated20 and pending25 until subsequent lifting is reviewed."
       },
       "actual_history": [
         {
@@ -4291,6 +4872,55 @@
             "reason": "Standing athlete default supplies ordinary post-Thursday recovery and Friday readiness. Earlier November 19 good recovery was pre-session and also next-day general recovery after Wednesday; no new adverse report accompanies the completed Thursday lift. Observed Friday recovery and site-specific responses remain unreported."
           },
           "reason": "This Friday cycling track’s own November 6 twenty-minute ride was supported by the November 7 qualifying run and November 8 full leg dose (#481). W3’s 20-minute ceiling held the dose then. Current acceptable priority work and good reported pre-session recovery support a 25-minute prescription within W4’s ceiling. November 13 rowing remains a substitution, not cycling evidence; Wednesday’s separate 25-minute dose is not borrowed as validation. No active fatigue or return limit is established; preserve November 14’s historical poor-readiness run."
+        },
+        {
+          "decision_id": 504,
+          "reviewed_on": "2026-11-20",
+          "recorded_at": "2026-11-20T19:33:29-05:00",
+          "status": "25-minute-dose-completed-subsequent-performance-pending",
+          "source_session_id": "hybrid-2026-10-26-w4-fri-2026-11-20-bike",
+          "source": "../history/cardio-log.md#2026-11-20--hybrid-v11-w4-friday-bike",
+          "last_tolerated_minutes": 20,
+          "latest_completed_minutes": 25,
+          "effort_in_prescribed_range": true,
+          "subsequent_lifting_running_tolerance": {
+            "status": "pending-subsequent-performance",
+            "decision_id": 504,
+            "reviewed_on": "2026-11-20",
+            "recorded_at": "2026-11-20T19:33:29-05:00",
+            "source_session_id": "hybrid-2026-10-26-w4-fri-2026-11-20-bike",
+            "prescribed_minutes": 25,
+            "completed_seconds": 1500,
+            "lifting": {
+              "date": "2026-11-22",
+              "status": "unperformed",
+              "performance": null
+            },
+            "running": {
+              "date": "2026-11-21",
+              "status": "unperformed",
+              "performance": null
+            },
+            "next_day_recovery": null,
+            "recovery_basis": {
+              "status": "assumed-good",
+              "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+              "decision_id": 504,
+              "recorded_at": "2026-11-20T19:33:29-05:00",
+              "observed": false,
+              "reason": "Standing athlete default supplies ordinary post-Friday recovery for the next workout. This log reports bike effort, power, zone and settings, not a new recovery or symptom observation; observed next-day recovery and site-specific responses remain unknown."
+            },
+            "reason": "Friday’s new 25-minute dose is completed at RPE 3 throughout. Review subsequent Saturday November 21 running and Sunday November 22 lifting before marking it tolerated or awarding another duration increase. Ordinary recovery uses the standing assumption; neither future session has been performed."
+          },
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 504,
+            "recorded_at": "2026-11-20T19:33:29-05:00",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary post-Friday recovery for the next workout. This log reports bike effort, power, zone and settings, not a new recovery or symptom observation; observed next-day recovery and site-specific responses remain unknown."
+          },
+          "reason": "The original 25-minute Friday prescription is completed at RPE 3 throughout. Keep last-tolerated duration at 20 until the subsequent Saturday run and Sunday lift are completed and reviewed. Current-session completion alone does not establish subsequent tolerance; Wednesday’s separate validation is unchanged."
         }
       ],
       "schedule": {
@@ -4447,6 +5077,38 @@
           "reason": "This Friday cycling track’s own November 6 twenty-minute ride was supported by the November 7 qualifying run and November 8 full leg dose (#481). W3’s 20-minute ceiling held the dose then. Current acceptable priority work and good reported pre-session recovery support a 25-minute prescription within W4’s ceiling. November 13 rowing remains a substitution, not cycling evidence; Wednesday’s separate 25-minute dose is not borrowed as validation. No active fatigue or return limit is established; preserve November 14’s historical poor-readiness run. Twenty-five minutes is newly prescribed for Friday, not completed or already tolerated; review subsequent lifting and running after completion.",
           "review_decision_id": 503,
           "reviewed_on": "2026-11-20"
+        },
+        {
+          "decision_id": 504,
+          "action": "assessment-week-duration-ceiling-review",
+          "status": "recommendation-for-next-matching-session-not-prescribed",
+          "for_date": "2026-11-27",
+          "assessment_week": 5,
+          "maximum_minutes": 15,
+          "last_tolerated_minutes": 20,
+          "latest_completed_minutes": 25,
+          "pending_validation_minutes": 25,
+          "target_rpe": 3,
+          "acceptable_rpe_range": [
+            2,
+            4
+          ],
+          "after_lifting": true,
+          "scheduled_day": "Friday",
+          "legacy_track": "saturday",
+          "source": "../history/cardio-log.md#2026-11-20--hybrid-v11-w4-friday-bike",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 504,
+            "recorded_at": "2026-11-20T19:33:29-05:00",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary post-Friday recovery for the next workout. This log reports bike effort, power, zone and settings, not a new recovery or symptom observation; observed next-day recovery and site-specific responses remain unknown."
+          },
+          "equipment_settings_ref": "cycling.equipment_settings",
+          "reason": "Next Friday is W5, whose assessment-week ceiling is 15 bike minutes. Apply the applicable A/B/C option and any stricter current limit when generating that session; this log issues no future bike prescription. Review subsequent Saturday running and Sunday lifting before marking the completed 25-minute dose tolerated.",
+          "validation_review_decision_id": 504,
+          "validation_status": "pending-subsequent-performance"
         }
       ],
       "latest_endurance_substitution": {
@@ -4509,7 +5171,38 @@
         "completion_decision_id": 504,
         "actual_session_id": "hybrid-2026-10-26-w4-fri-2026-11-20-bike",
         "actual_source": "../history/cardio-log.md#2026-11-20--hybrid-v11-w4-friday-bike"
-      }
+      },
+      "pending_validation_history": [
+        {
+          "status": "pending-subsequent-performance",
+          "decision_id": 504,
+          "reviewed_on": "2026-11-20",
+          "recorded_at": "2026-11-20T19:33:29-05:00",
+          "source_session_id": "hybrid-2026-10-26-w4-fri-2026-11-20-bike",
+          "prescribed_minutes": 25,
+          "completed_seconds": 1500,
+          "lifting": {
+            "date": "2026-11-22",
+            "status": "unperformed",
+            "performance": null
+          },
+          "running": {
+            "date": "2026-11-21",
+            "status": "unperformed",
+            "performance": null
+          },
+          "next_day_recovery": null,
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 504,
+            "recorded_at": "2026-11-20T19:33:29-05:00",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary post-Friday recovery for the next workout. This log reports bike effort, power, zone and settings, not a new recovery or symptom observation; observed next-day recovery and site-specific responses remain unknown."
+          },
+          "reason": "Friday’s new 25-minute dose is completed at RPE 3 throughout. Review subsequent Saturday November 21 running and Sunday November 22 lifting before marking it tolerated or awarding another duration increase. Ordinary recovery uses the standing assumption; neither future session has been performed."
+        }
+      ]
     },
     "equipment_settings": {
       "recorded_on": "2026-11-20",

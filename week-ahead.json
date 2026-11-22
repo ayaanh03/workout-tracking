@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-20T19:34:29-05:00",
+  "generatedAt": "2026-11-21T21:01:06-05:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W4",
   "phase": "Hybrid v11 — Stage D",
   "rangeStart": "2026-11-16",
   "rangeEnd": "2026-11-22",
-  "summary": "W4, November 16–22: Monday through Friday are complete: 65 lifting sets, 4.38 running miles and 50 bike minutes. Saturday preview: 3×6 minutes at 7:10/mi, two 2-minute recoveries, 10-minute warmup and cooldown, final RPE ≤7. Sunday legs remain upcoming.",
+  "summary": "W4, November 16–22: Monday through Saturday complete. 65 lifting sets, 9.48 running miles and 50 bike minutes. Sunday preview has 17 Stage D sets with BW abs and the latest Sunday working loads; no cardio.",
   "days": [
     {
       "date": "2026-11-16",
@@ -47,26 +47,26 @@
       "date": "2026-11-21",
       "day": "Sat",
       "session": "Longer intervals",
-      "status": "upcoming",
-      "note": "Preview #504: 10 min easy + 3×6 min at 7:10/mi with two 2-min recoveries + 10 min easy; 42 min total, final RPE ≤7. Pace alerts 7:05–7:15 are guidance only. Prior no-count earns neither progression nor a miss; no early test selected."
+      "status": "done",
+      "note": "Logged 3×6 at 7:09/6:54/6:43 per mile, RPE 7/7/7; 5.10 miles and 42:08 from intervals. First qualifying hit at 7:10; no new pace/minute award. Evo SL total 28.27 miles."
     },
     {
       "date": "2026-11-22",
       "day": "Sun",
       "session": "Legs, bodyweight abs + calves",
       "status": "upcoming",
-      "note": "17 effective sets at Stage D, subject to ab/Achilles limits. Sunday working references are retained; hack 135 lb remains a starting calibration with only one set demonstrated."
+      "note": "Preview #505: BW decline 2×10–15 at ≥3 RIR; calves 380 lb 4×10–15 at 1–2; hack 135 lb starting 3×6–10 at 2; seated curl 110 lb 3×8–12 at 2; extension 125 lb 3×10–15 at 1–2; back extension 25 lb 2×8–12 at 2. Rest 2 min, hack 2–3 min. 17 sets, no cardio."
     }
   ],
   "runningMileageCheck": {
-    "decisionId": 504,
-    "kind": "actual-plus-planned-remaining-week",
-    "recordedMiles": 4.38,
-    "estimatedMiles": 9.71515731874145,
-    "upperMiles": 10.332941176470587,
+    "decisionId": 505,
+    "kind": "confirmed-completed-week-running",
+    "recordedMiles": 9.48,
+    "estimatedMiles": 9.48,
+    "upperMiles": 9.48,
     "limitMiles": 15,
-    "status": "projected-below-limit",
-    "assumptions": "Tuesday actual 4.38 miles plus remaining Saturday 18 work minutes at 7:10/mile and 24 easy minutes budgeted at 8:30/mile. Upper uses Saturday 7:05 work pace and five extra warm-up minutes. No future completed miles or shoe additions.",
+    "status": "confirmed-below-limit",
+    "assumptions": "Confirmed Tuesday4.38 plus Saturday5.10 =9.48mi. No more running is prescribed this week; Sunday lifting is still upcoming.",
     "source": "state/running.json"
   }
 }

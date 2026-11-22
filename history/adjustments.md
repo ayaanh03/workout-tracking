@@ -1037,3 +1037,28 @@ Generate **SaturdayNovember21 — Longer intervals, preview**, `hybrid-2026-10-2
 Hold normal18workminutes and7:10. November14’s7:13/7:06/7:06 atRPE7/7/7 passed pace but remains **no-count** because of explicit poor readiness: no new hit/miss or progression. Current acute recovery override is absent; this is ordinary full work, not a return-validation dose. November7’s15-second award was already consumed once. No early test was selected; W4’s ceiling does not force24minutes. Complete-week estimate: Tuesdayactual4.38mi plus this Saturday gives **9.71515731874145mi**; upper with7:05work and five extra warmup minutes is **10.332941176470587mi**, below15. Saturday remains unperformed; preserve Tuesday’s unused6:35 candidate, other slot awards and EvoSL23.17mi.
 
 W4 now has **five completed sessions,65lifting sets,12running work minutes,4.38confirmed miles and50bike minutes/3000seconds**. Lifting history:20sessions/270known sets. Live calendar remains FridayNovember20 in NewYork; Saturday is upcoming. Refresh state, exact histories, current-load reference and both caches, build/decode-check the new dated Watch export, and publish.
+
+## 2026-11-21 — log Saturday and preview Sunday
+
+505. Log `hybrid-2026-10-26-w4-sat-2026-11-21` against `hybrid-2026-10-26-sat-intervals-504`: **3×6 minutes at 7:09/6:54/6:43 per mile**, athlete-confirmed **RPE 7/7/7** and **5.10 miles**. Screenshots show 10-minute warmup, two 2-minute recoveries, 10-minute cooldown and an 8-second open tail: **42:08 total**, with 18 work minutes. Preserve every displayed segment, HR/power/cadence and the partial HR-zone coverage in cardio history. Rounded distances are separate from the confirmed total. No extra interval rest or changed conditions reported; HR chart gaps alone do not establish a pause.
+
+Classify **hit 1 at the unchanged 7:10 target**, using the standing good-recovery assumption. Each rep passes the one-sided 7:15-or-faster requirement, and final RPE 7 meets the cap. Faster reps count. Slowest rep429 versus prescribed430 gives **1 second headroom**, below the five-second pace route; one hit is short of the ordinary two-hit route, final RPE7 exceeds the comfortable threshold5 and volume threshold6. Thus **no new pace or minute increase**. Retain normal3×6 at7:10; next W5 longer-run work follows assessment selection/limits, not ordinary progression. Preserve November14 no-count, the consumed November7 source, Tuesday’s unused6:35 candidate and all other prior credit. No early test or completed future assessment is inferred.
+
+Add the confirmed5.10mi once to the standing sole current pair, **Evo SL:23.17→28.27 tracked miles**. W4 running is **4.38+5.10=9.48mi**, below15, with no further running prescribed this week. No transfer to the inactive Vomero record.
+
+Saturday’s completed qualifying run supplies the remaining subsequent-running evidence for **Wednesday November18’s25-minute bike**, alongside Thursday’s completed acceptable lifting. Validate Wednesday’s tolerated dose at25 using the standing ordinary-recovery assumption. Friday November20’s25-minute bike has this run but still awaits **Sunday November22 lifting**; keep its last-tolerated20 and pending25-minute validation. W5 retains its15-minute bike ceiling. No new cycling actual or observed symptom clearance is created.
+
+Generate **Sunday November22 — Legs, bodyweight abs + calves, preview**, `hybrid-2026-10-26-sun-legs-505`. First Sunday at achieved Stage D; **17 effective sets, no cardio**:
+
+| Slot | Exercise | Load | Sets × reps | RIR | Rest |
+|---|---|---|---|---|---|
+| L1 | Decline crunch — bodyweight | BW | 2×10–15 | ≥3 | 2 min |
+| L2 | Leg-press calf raise | 380 lb | 4×10–15 | 1–2 | 2 min |
+| L3 | Hack squat | 135 lb starting | 3×6–10 | 2 | 2–3 min |
+| L4 | Seated leg curl | 110 lb | 3×8–12 | 2 | 2 min |
+| L5 | Leg extension | 125 lb | 3×10–15 | 1–2 | 2 min |
+| L6 | 45-degree back extension | 25 lb | 2×8–12 | 2 | 2 min |
+
+Retain November15 same-slot demonstrated loads. Hack135 was performed for **one set**, after95/115; treat it as a starting calibration and reduce later sets if six reps at2RIR cannot be maintained. The full three-set135 dose is unvalidated. Extension125×15/15/15 and back-extension25×12/12 were StageC: no retrospective loading award. Their first normal-D performance can earn ordinary credit independently. No failure targets for this day. Preserve BW/max-two-set/≥3RIR abs and comfortable-only calf work; silence does not clear local restrictions. No Sunday exposure, qualification, weight change or new symptom report is inferred by generation.
+
+Live date remains **Saturday November21, America/New_York**. Sunday stays upcoming and labelled preview. W4 now has six completed sessions,65lifting sets,30running work minutes,9.48confirmed running miles and50bike minutes; Sunday and whole-week manageability remain uncompleted/unreviewed. Preserve prior Watch exports and lifting actual/history caches. Update state, daily/weekly views and source references together; verify and publish.
