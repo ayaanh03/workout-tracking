@@ -285,3 +285,7 @@ T7 bodyweight decline crunch was completed **15/15 at RIR5/5** within the two-se
 ## 2026-11-20 — Friday curls and forearms recorded
 
 Record Friday inclineDBcurl **30×8/8 atRIR2/0** (27.5-lb dumbbells unavailable), reversecurl **27.5×15RIR4** and wristcurl **27.5×20RIR4** separately from symptoms. No new elbow, shoulder, ab or Achilles response was supplied. Keep the November18 elbow-comfort report, released broad biceps hold, cautious one-set forearm dose, ongoing exercise replacements and other local limits. This log establishes neither recurrence nor new clearance. Bike **25min115W reportedZ2 RPE3 throughout**; ordinary Saturday readiness uses the athlete’s standing assumption, without an observed next-day recovery report. Decision #504.
+
+## 2026-11-22 — good recovery after Saturday
+
+Athlete reports **“Recovery is good generate today.”** Record good current Sunday general recovery and next-day general recovery after the November21 run. This replaces the ordinary assumption for that follow-up with an observed self-report. No numeric metrics or site-specific ab, Achilles, elbow or shoulder response is supplied. Preserve local restrictions and unanswered specific questions. Activate the prepared Sunday Stage D workout; no new injury clearance, completed lifting, run credit or stage advancement. Decision #506.

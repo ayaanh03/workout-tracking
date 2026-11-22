@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-21T21:01:06-05:00",
+  "generatedAt": "2026-11-22T13:51:27-05:00",
   "blockId": "hybrid-2026-10-26",
   "preview": false,
   "week": "W4",
   "phase": "Hybrid v11 — Stage D",
   "rangeStart": "2026-11-16",
   "rangeEnd": "2026-11-22",
-  "summary": "W4, November 16–22: Monday through Saturday complete. 65 lifting sets, 9.48 running miles and 50 bike minutes. Sunday preview has 17 Stage D sets with BW abs and the latest Sunday working loads; no cardio.",
+  "summary": "W4, November 16–22: Monday through Saturday complete—65 lifting sets, 9.48 running miles and 50 bike minutes. Today is Sunday: 17 Stage D leg/ab/calf sets, no cardio. Good recovery reported; today’s work is not yet completed.",
   "days": [
     {
       "date": "2026-11-16",
@@ -54,8 +54,8 @@
       "date": "2026-11-22",
       "day": "Sun",
       "session": "Legs, bodyweight abs + calves",
-      "status": "upcoming",
-      "note": "Preview #505: BW decline 2×10–15 at ≥3 RIR; calves 380 lb 4×10–15 at 1–2; hack 135 lb starting 3×6–10 at 2; seated curl 110 lb 3×8–12 at 2; extension 125 lb 3×10–15 at 1–2; back extension 25 lb 2×8–12 at 2. Rest 2 min, hack 2–3 min. 17 sets, no cardio."
+      "status": "today",
+      "note": "Today, #505 activated after reported good recovery: BW decline 2×10–15 at ≥3 RIR; calves 380 lb 4×10–15 at 1–2; hack 135 lb starting 3×6–10 at 2; seated curl 110 lb 3×8–12 at 2; extension 125 lb 3×10–15 at 1–2; back extension 25 lb 2×8–12 at 2. Rest 2 min, hack 2–3 min. 17 sets, no cardio."
     }
   ],
   "runningMileageCheck": {

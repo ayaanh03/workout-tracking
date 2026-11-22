@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-11-21T21:01:06-05:00",
+  "generatedAt": "2026-11-22T13:51:27-05:00",
   "blockId": "hybrid-2026-10-26",
   "prescriptionId": "hybrid-2026-10-26-sun-legs-505",
-  "preview": true,
+  "preview": false,
   "week": "W4",
   "day": "Sun",
   "date": "2026-11-22",
   "phase": "Hybrid v11 — Stage D",
-  "sessionName": "W4 Sun 2026-11-22 — Legs, bodyweight abs + calves — preview",
+  "sessionName": "W4 Sun 2026-11-22 — Legs, bodyweight abs + calves",
   "why": [
-    "Sunday is legs after Saturday’s completed longer run. This is your first Sunday at the achieved Stage D effort targets, with 17 effective sets.",
-    "Use the working loads demonstrated November 15. That session was Stage C, so its ceiling reps do not earn retrospective load increases.",
-    "Ordinary recovery is assumed good under your standing preference; existing ab and Achilles limits remain."
+    "Today is Sunday, November 22: legs, bodyweight abs and calves. First Sunday at achieved Stage D, with 17 effective sets.",
+    "Recovery is reported good today after Saturday’s run; proceed with the prepared workout.",
+    "Retain the working loads demonstrated November 15. That was Stage C, so its ceiling reps do not earn retrospective increases; existing local limits remain."
   ],
   "intro": [
     "Hack squat: 135 lb is a starting load. Reduce if later sets cannot reach 6 reps at 2 RIR."
@@ -157,13 +157,19 @@
       "exercise": "Saturday run logged",
       "previous": "November 21: 3×6 at 7:09/6:54/6:43 per mile, RPE 7/7/7; 5.10 miles.",
       "decision": "First qualifying hit at 7:10; no new pace or minute increase.",
-      "reason": "All three reps pass the one-sided pace rule and final effort cap. Slowest rep gives only 1 second headroom, below the 5-second route; final RPE 7 exceeds the comfortable and volume-increase thresholds. Prior November 14 no-count broke the streak. W 5 uses assessment limits."
+      "reason": "All reps pass pace and effort. Today’s good recovery confirms the next-day response, without adding another hit. Slowest rep gives only 1 second headroom and final RPE 7; no new pace/minute award. W5 assessment rules remain."
     },
     {
       "exercise": "Cycling tolerance",
       "previous": "Wednesday and Friday each completed 25 minutes. Thursday lifting and Saturday running are now completed.",
       "decision": "Wednesday 25 minutes validated; Friday validation still awaits Sunday lifting.",
-      "reason": "Subsequent priority sessions support Wednesday’s dose under assumed ordinary recovery. Sunday remains unperformed, and W 5 bike ceiling is 15 minutes regardless of the saved tolerated dose."
+      "reason": "Completed Thursday lifting and Saturday running support Wednesday’s dose; today’s good recovery reinforces that evidence. Friday validation still needs today’s completed lifting. W5 bike ceiling remains 15 minutes."
+    },
+    {
+      "exercise": "Current recovery",
+      "previous": "November 22: “Recovery is good generate today.”",
+      "decision": "Activate the existing 17-set Sunday prescription without a dose change.",
+      "reason": "Good general recovery supports normal Stage D. It does not establish new site-specific clearance, complete today’s session or validate the full three-set 135 lb hack dose."
     }
   ],
   "currentLoads": [

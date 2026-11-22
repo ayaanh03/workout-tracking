@@ -8173,7 +8173,7 @@
           "decision_id": 505,
           "action": "hold-demonstrated-load",
           "status": "prescribed-not-performed",
-          "preview": true,
+          "preview": false,
           "for_date": "2026-11-22",
           "prescription_id": "hybrid-2026-10-26-sun-legs-505",
           "stage": "D",
@@ -8192,15 +8192,30 @@
           "rest_seconds": 120,
           "source": "../history/lifting-log.md#2026-11-15--hybrid-v11-w3-sunday-legs",
           "recovery_basis": {
-            "status": "assumed-good",
-            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-            "decision_id": 505,
-            "recorded_at": "2026-11-21T21:01:06-05:00",
-            "for_date": "2026-11-22",
-            "observed": false,
-            "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. Full Saturday work and RPE 7/7/7 are reported without new adverse readiness or symptoms; no observed next-day recovery or local clearance is inferred."
+            "status": "observed-good",
+            "decision_id": 506,
+            "recorded_at": "2026-11-22T13:51:27-05:00",
+            "reported_on": "2026-11-22",
+            "observed": true,
+            "observation_type": "athlete-self-report",
+            "report": "Recovery is good generate today",
+            "source": "../history/injury-log.md#2026-11-22--good-recovery-after-saturday",
+            "reason": "Athlete reports good current Sunday general recovery, also supplying next-day general recovery after Saturday’s completed run. No numeric metrics or site-specific symptom clearance are supplied."
           },
-          "reason": "November15: BW×15/15 at RIR5/4. Hold bodyweight and two sets. Persistent ab limit: bodyweight only, maximum two sets, minimum3RIR. Extra reserve does not establish loaded-ab clearance."
+          "reason": "November15: BW×15/15 at RIR5/4. Hold bodyweight and two sets. Persistent ab limit: bodyweight only, maximum two sets, minimum3RIR. Extra reserve does not establish loaded-ab clearance.",
+          "review_decision_id": 506,
+          "reviewed_on": "2026-11-22",
+          "recovery_basis_history": [
+            {
+              "status": "assumed-good",
+              "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+              "decision_id": 505,
+              "recorded_at": "2026-11-21T21:01:06-05:00",
+              "for_date": "2026-11-22",
+              "observed": false,
+              "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. Full Saturday work and RPE 7/7/7 are reported without new adverse readiness or symptoms; no observed next-day recovery or local clearance is inferred."
+            }
+          ]
         },
         "actual_history": [
           {
@@ -8315,7 +8330,7 @@
         "decision_id": 505,
         "action": "hold-demonstrated-load",
         "status": "prescribed-not-performed",
-        "preview": true,
+        "preview": false,
         "for_date": "2026-11-22",
         "prescription_id": "hybrid-2026-10-26-sun-legs-505",
         "stage": "D",
@@ -8334,15 +8349,30 @@
         "rest_seconds": 120,
         "source": "../history/lifting-log.md#2026-11-15--hybrid-v11-w3-sunday-legs",
         "recovery_basis": {
-          "status": "assumed-good",
-          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 505,
-          "recorded_at": "2026-11-21T21:01:06-05:00",
-          "for_date": "2026-11-22",
-          "observed": false,
-          "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. Full Saturday work and RPE 7/7/7 are reported without new adverse readiness or symptoms; no observed next-day recovery or local clearance is inferred."
+          "status": "observed-good",
+          "decision_id": 506,
+          "recorded_at": "2026-11-22T13:51:27-05:00",
+          "reported_on": "2026-11-22",
+          "observed": true,
+          "observation_type": "athlete-self-report",
+          "report": "Recovery is good generate today",
+          "source": "../history/injury-log.md#2026-11-22--good-recovery-after-saturday",
+          "reason": "Athlete reports good current Sunday general recovery, also supplying next-day general recovery after Saturday’s completed run. No numeric metrics or site-specific symptom clearance are supplied."
         },
-        "reason": "November15: 380×12/12/10/10 at RIR3. Retain380lb for four sets, now at normal-D1–2RIR. All four sets demonstrated380 during StageC. No further load award or transfer from Wednesday; reduce/omit aggravating work if Achilles discomfort occurs."
+        "reason": "November15: 380×12/12/10/10 at RIR3. Retain380lb for four sets, now at normal-D1–2RIR. All four sets demonstrated380 during StageC. No further load award or transfer from Wednesday; reduce/omit aggravating work if Achilles discomfort occurs.",
+        "review_decision_id": 506,
+        "reviewed_on": "2026-11-22",
+        "recovery_basis_history": [
+          {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 505,
+            "recorded_at": "2026-11-21T21:01:06-05:00",
+            "for_date": "2026-11-22",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. Full Saturday work and RPE 7/7/7 are reported without new adverse readiness or symptoms; no observed next-day recovery or local clearance is inferred."
+          }
+        ]
       },
       "actual_history": [
         {
@@ -8456,7 +8486,7 @@
         "decision_id": 505,
         "action": "calibrate-full-dose-at-demonstrated-single-set-load",
         "status": "prescribed-not-performed",
-        "preview": true,
+        "preview": false,
         "for_date": "2026-11-22",
         "prescription_id": "hybrid-2026-10-26-sun-legs-505",
         "stage": "D",
@@ -8478,17 +8508,32 @@
         ],
         "source": "../history/lifting-log.md#2026-11-15--hybrid-v11-w3-sunday-legs",
         "recovery_basis": {
-          "status": "assumed-good",
-          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 505,
-          "recorded_at": "2026-11-21T21:01:06-05:00",
-          "for_date": "2026-11-22",
-          "observed": false,
-          "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. Full Saturday work and RPE 7/7/7 are reported without new adverse readiness or symptoms; no observed next-day recovery or local clearance is inferred."
+          "status": "observed-good",
+          "decision_id": 506,
+          "recorded_at": "2026-11-22T13:51:27-05:00",
+          "reported_on": "2026-11-22",
+          "observed": true,
+          "observation_type": "athlete-self-report",
+          "report": "Recovery is good generate today",
+          "source": "../history/injury-log.md#2026-11-22--good-recovery-after-saturday",
+          "reason": "Athlete reports good current Sunday general recovery, also supplying next-day general recovery after Saturday’s completed run. No numeric metrics or site-specific symptom clearance are supplied."
         },
         "reason": "November15: 95×6RIR3 /115×6RIR3 /135×6RIR2. Start135lb; calibrate three sets at2RIR. Only one135lb set is demonstrated. Reduce subsequent sets if needed to reach at least6reps with2RIR; three sets at135 are not yet validated.",
         "full_dose_at_reference_load_validated": false,
-        "fallback": "Reduce if subsequent sets cannot meet6reps at2RIR; no further increase or claim of three135lb sets completed."
+        "fallback": "Reduce if subsequent sets cannot meet6reps at2RIR; no further increase or claim of three135lb sets completed.",
+        "review_decision_id": 506,
+        "reviewed_on": "2026-11-22",
+        "recovery_basis_history": [
+          {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 505,
+            "recorded_at": "2026-11-21T21:01:06-05:00",
+            "for_date": "2026-11-22",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. Full Saturday work and RPE 7/7/7 are reported without new adverse readiness or symptoms; no observed next-day recovery or local clearance is inferred."
+          }
+        ]
       },
       "actual_history": [
         {
@@ -8603,7 +8648,7 @@
         "decision_id": 505,
         "action": "hold-demonstrated-load",
         "status": "prescribed-not-performed",
-        "preview": true,
+        "preview": false,
         "for_date": "2026-11-22",
         "prescription_id": "hybrid-2026-10-26-sun-legs-505",
         "stage": "D",
@@ -8622,15 +8667,30 @@
         "rest_seconds": 120,
         "source": "../history/lifting-log.md#2026-11-15--hybrid-v11-w3-sunday-legs",
         "recovery_basis": {
-          "status": "assumed-good",
-          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 505,
-          "recorded_at": "2026-11-21T21:01:06-05:00",
-          "for_date": "2026-11-22",
-          "observed": false,
-          "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. Full Saturday work and RPE 7/7/7 are reported without new adverse readiness or symptoms; no observed next-day recovery or local clearance is inferred."
+          "status": "observed-good",
+          "decision_id": 506,
+          "recorded_at": "2026-11-22T13:51:27-05:00",
+          "reported_on": "2026-11-22",
+          "observed": true,
+          "observation_type": "athlete-self-report",
+          "report": "Recovery is good generate today",
+          "source": "../history/injury-log.md#2026-11-22--good-recovery-after-saturday",
+          "reason": "Athlete reports good current Sunday general recovery, also supplying next-day general recovery after Saturday’s completed run. No numeric metrics or site-specific symptom clearance are supplied."
         },
-        "reason": "November15: 110×8/8/8 at RIR3/3/2. Retain110lb for three sets at2RIR. The full three-set dose establishes110 as the working load. It did not reach12 on every set, and StageC supplied no ordinary credit."
+        "reason": "November15: 110×8/8/8 at RIR3/3/2. Retain110lb for three sets at2RIR. The full three-set dose establishes110 as the working load. It did not reach12 on every set, and StageC supplied no ordinary credit.",
+        "review_decision_id": 506,
+        "reviewed_on": "2026-11-22",
+        "recovery_basis_history": [
+          {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 505,
+            "recorded_at": "2026-11-21T21:01:06-05:00",
+            "for_date": "2026-11-22",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. Full Saturday work and RPE 7/7/7 are reported without new adverse readiness or symptoms; no observed next-day recovery or local clearance is inferred."
+          }
+        ]
       },
       "actual_history": [
         {
@@ -8748,7 +8808,7 @@
         "decision_id": 505,
         "action": "hold-demonstrated-load",
         "status": "prescribed-not-performed",
-        "preview": true,
+        "preview": false,
         "for_date": "2026-11-22",
         "prescription_id": "hybrid-2026-10-26-sun-legs-505",
         "stage": "D",
@@ -8767,15 +8827,30 @@
         "rest_seconds": 120,
         "source": "../history/lifting-log.md#2026-11-15--hybrid-v11-w3-sunday-legs",
         "recovery_basis": {
-          "status": "assumed-good",
-          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 505,
-          "recorded_at": "2026-11-21T21:01:06-05:00",
-          "for_date": "2026-11-22",
-          "observed": false,
-          "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. Full Saturday work and RPE 7/7/7 are reported without new adverse readiness or symptoms; no observed next-day recovery or local clearance is inferred."
+          "status": "observed-good",
+          "decision_id": 506,
+          "recorded_at": "2026-11-22T13:51:27-05:00",
+          "reported_on": "2026-11-22",
+          "observed": true,
+          "observation_type": "athlete-self-report",
+          "report": "Recovery is good generate today",
+          "source": "../history/injury-log.md#2026-11-22--good-recovery-after-saturday",
+          "reason": "Athlete reports good current Sunday general recovery, also supplying next-day general recovery after Saturday’s completed run. No numeric metrics or site-specific symptom clearance are supplied."
         },
-        "reason": "November15: 125×15/15/15 at RIR3. Retain125lb, three sets at normal-D1–2RIR. Last Sunday was StageC: ceiling reps establish the working load but earn no retrospective ordinary increase. This first normal-D exposure can qualify on its own performance; stop at15 even with extra reserve."
+        "reason": "November15: 125×15/15/15 at RIR3. Retain125lb, three sets at normal-D1–2RIR. Last Sunday was StageC: ceiling reps establish the working load but earn no retrospective ordinary increase. This first normal-D exposure can qualify on its own performance; stop at15 even with extra reserve.",
+        "review_decision_id": 506,
+        "reviewed_on": "2026-11-22",
+        "recovery_basis_history": [
+          {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 505,
+            "recorded_at": "2026-11-21T21:01:06-05:00",
+            "for_date": "2026-11-22",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. Full Saturday work and RPE 7/7/7 are reported without new adverse readiness or symptoms; no observed next-day recovery or local clearance is inferred."
+          }
+        ]
       },
       "actual_history": [
         {
@@ -8869,7 +8944,7 @@
         "decision_id": 505,
         "action": "hold-demonstrated-load",
         "status": "prescribed-not-performed",
-        "preview": true,
+        "preview": false,
         "for_date": "2026-11-22",
         "prescription_id": "hybrid-2026-10-26-sun-legs-505",
         "stage": "D",
@@ -8888,15 +8963,30 @@
         "rest_seconds": 120,
         "source": "../history/lifting-log.md#2026-11-15--hybrid-v11-w3-sunday-legs",
         "recovery_basis": {
-          "status": "assumed-good",
-          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 505,
-          "recorded_at": "2026-11-21T21:01:06-05:00",
-          "for_date": "2026-11-22",
-          "observed": false,
-          "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. Full Saturday work and RPE 7/7/7 are reported without new adverse readiness or symptoms; no observed next-day recovery or local clearance is inferred."
+          "status": "observed-good",
+          "decision_id": 506,
+          "recorded_at": "2026-11-22T13:51:27-05:00",
+          "reported_on": "2026-11-22",
+          "observed": true,
+          "observation_type": "athlete-self-report",
+          "report": "Recovery is good generate today",
+          "source": "../history/injury-log.md#2026-11-22--good-recovery-after-saturday",
+          "reason": "Athlete reports good current Sunday general recovery, also supplying next-day general recovery after Saturday’s completed run. No numeric metrics or site-specific symptom clearance are supplied."
         },
-        "reason": "November15: 25×12/12 at RIR3. Retain25lb for two sets at2RIR. Prior StageC ceiling reps earn no ordinary loading credit. This is the first normal-D Sunday; preserve the same load and evaluate its new performance."
+        "reason": "November15: 25×12/12 at RIR3. Retain25lb for two sets at2RIR. Prior StageC ceiling reps earn no ordinary loading credit. This is the first normal-D Sunday; preserve the same load and evaluate its new performance.",
+        "review_decision_id": 506,
+        "reviewed_on": "2026-11-22",
+        "recovery_basis_history": [
+          {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 505,
+            "recorded_at": "2026-11-21T21:01:06-05:00",
+            "for_date": "2026-11-22",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. Full Saturday work and RPE 7/7/7 are reported without new adverse readiness or symptoms; no observed next-day recovery or local clearance is inferred."
+          }
+        ]
       },
       "actual_history": [
         {

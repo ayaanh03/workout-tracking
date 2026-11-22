@@ -6,7 +6,7 @@
   "start_date": "2026-10-25",
   "end_date": "2027-01-03",
   "timezone": "America/New_York",
-  "as_of": "2026-11-21",
+  "as_of": "2026-11-22",
   "activation_status": "active",
   "calendar_week": "W4",
   "calendar_phase": "Build",
@@ -58,7 +58,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 505,
+  "last_adjustment_id": 506,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -838,17 +838,41 @@
         7
       ],
       "final_rep_rpe": 7,
-      "recovery_status": "general-recovery-assumed-good",
+      "recovery_status": "next-day-general-recovery-reported-good",
       "recovery_decision": {
-        "status": "assumed-good",
-        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-        "decision_id": 505,
-        "recorded_at": "2026-11-21T21:01:06-05:00",
-        "for_date": "2026-11-22",
-        "observed": false,
-        "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. Full Saturday work and RPE 7/7/7 are reported without new adverse readiness or symptoms; no observed next-day recovery or local clearance is inferred."
+        "status": "observed-good",
+        "decision_id": 506,
+        "recorded_at": "2026-11-22T13:51:27-05:00",
+        "reported_on": "2026-11-22",
+        "observed": true,
+        "observation_type": "athlete-self-report",
+        "report": "Recovery is good generate today",
+        "source": "../history/injury-log.md#2026-11-22--good-recovery-after-saturday",
+        "reason": "Athlete reports good current Sunday general recovery, also supplying next-day general recovery after Saturday’s completed run. No numeric metrics or site-specific symptom clearance are supplied."
       },
-      "review_note": "Full 3×6 and two 2-minute recoveries. All reps meet the one-sided 7:15-or-faster check; final RPE7 meets cap. First eligible hit since November14 no-count. Slowest429 vs target430 gives1second headroom; no pace or minute increase. Confirmed total5.10mi, independent of rounded segments."
+      "review_note": "Full 3×6 and two 2-minute recoveries. All reps meet the one-sided 7:15-or-faster check; final RPE7 meets cap. First eligible hit since November14 no-count. Slowest429 vs target430 gives1second headroom; no pace or minute increase. Confirmed total5.10mi, independent of rounded segments. November22 good general recovery confirms next-day readiness; no additional hit, award or local symptom clearance.",
+      "recovery_decision_history": [
+        {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 505,
+          "recorded_at": "2026-11-21T21:01:06-05:00",
+          "for_date": "2026-11-22",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. Full Saturday work and RPE 7/7/7 are reported without new adverse readiness or symptoms; no observed next-day recovery or local clearance is inferred."
+        }
+      ],
+      "next_day_recovery": {
+        "status": "observed-good",
+        "decision_id": 506,
+        "recorded_at": "2026-11-22T13:51:27-05:00",
+        "reported_on": "2026-11-22",
+        "observed": true,
+        "observation_type": "athlete-self-report",
+        "report": "Recovery is good generate today",
+        "source": "../history/injury-log.md#2026-11-22--good-recovery-after-saturday",
+        "reason": "Athlete reports good current Sunday general recovery, also supplying next-day general recovery after Saturday’s completed run. No numeric metrics or site-specific symptom clearance are supplied."
+      }
     }
   },
   "planned_start_date": "2026-10-26",
@@ -1133,10 +1157,10 @@
     "last_generated_prescription_id": "hybrid-2026-10-26-sun-legs-505",
     "last_generated_from_session_id": "hybrid-2026-10-26-w4-sat-2026-11-21",
     "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping.",
-    "last_generation_trigger": "automatic-next-workout-after-logging",
+    "last_generation_trigger": "current-day-activation-of-existing-prescription",
     "last_generation_decision_id": 505,
-    "last_review_decision_id": 505,
-    "last_review_reason": "Log Saturday run and generate Sunday legs preview under assumed good ordinary recovery; 17 effective Stage D sets and existing local restrictions."
+    "last_review_decision_id": 506,
+    "last_review_reason": "Activate the November22 Sunday legs prescription after observed good general recovery. Exact #505 dose remains unchanged; no Sunday performance or new injury clearance."
   },
   "session_freeze_history": [
     {
@@ -1396,16 +1420,16 @@
   },
   "next_session_adjustment": {
     "date": "2026-11-22",
-    "decision_id": 505,
-    "status": "preview-not-performed",
+    "decision_id": 506,
+    "status": "planned-today-not-performed",
     "original_session": "Legs, bodyweight abs + calves",
     "effective_session": "Legs, bodyweight abs + calves",
     "prescription_id": "hybrid-2026-10-26-sun-legs-505",
-    "source": "../history/adjustments.md#2026-11-21--log-saturday-and-preview-sunday",
-    "preview": true,
+    "source": "../history/adjustments.md#2026-11-22--activate-sunday-after-good-recovery",
+    "preview": false,
     "stage": "D",
     "working_sets": 17,
-    "reason": "Next scheduled uncompleted session after Saturday running. First normal-D Sunday uses November15 demonstrated working loads, with hack135 as starting calibration, persistent BW ab ceiling and conditional calf comfort. No retrospective StageC loading award."
+    "reason": "Activate the prepared17-set Stage D Sunday session with good general recovery explicitly reported. Keep the #505 prescription identity, exact loads/reps/RIR/rest and local limits; no new dose increase or completed Sunday work."
   },
   "next_session_adjustment_history": [
     {
