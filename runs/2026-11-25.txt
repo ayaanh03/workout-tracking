@@ -1,0 +1,8 @@
+# W5 short-track assessment run, moved Tuesday to Wednesday — decision508.
+# 31min planned, final RPE<=8. Saved6:35 normal award is NOT applied.
+name: W5 Short 2x4 - Nov 25
+warmup: 10:00
+work: 4:00 @ current 6:35-6:45/mi
+recovery: 3:00
+work: 4:00 @ current 6:35-6:45/mi
+cooldown: 10:00

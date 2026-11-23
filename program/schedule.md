@@ -18,6 +18,8 @@ Apply explicit dated `schedule_overrides` in [block state](../state/block.json) 
 
 **Completed November 6–7 swap (#475):** delts/arms B + bike was performed Friday November 6 and longer intervals Saturday November 7, followed by Sunday legs November 8. Preserve those dated records; #482 makes that Friday/Saturday arrangement recurring prospectively.
 
+**This week only, November 23–29 (#508):** Monday legs; Tuesday Upper A; Wednesday the moved Tuesday run; Thursday Upper B; Friday delts/arms B + 15-minute bike; Saturday W5 assessment run; Sunday legs. Omit the original Wednesday delts/arms A and its bike without redistributing their work. Preserve November 22 as skipped. This athlete-approved rearrangement leaves a day between Monday legs and Wednesday running, and between Tuesday and Thursday incline. The recurring table above resumes **November 30**. Exact prescriptions and assessment handling: [decision #508](../history/adjustments.md#2026-11-23--one-week-schedule-change), with dated selections in block state.
+
 W1–W3 are calendar Ramp; W4–W9 Build; W10 Reduce. The **achieved lifting stage**, current reports and restrictions determine the actual dose. Calendar rollover never advances a stage. At the athlete's request, **October 25 is the opening stage-A Sunday leg session** (#433); October 24 remains pre-block. Monday October 26 stays Upper A, W1 remains October 26–November 1, and calendar weeks, incline-single weeks and block end stay unchanged. Assessment run dates follow the current Saturday schedule; see [assessments](assessments.md). Record the opening exposure separately: it does not complete the following Sunday's session or a manageable week. No automatic next-block prescription after January 3.
 
 ## Selection order

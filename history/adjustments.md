@@ -1095,3 +1095,57 @@ Resume ordinary M1a145 from November9’s145×6RIR3; November16’s170×1RIR1 is
 Monday ordinary readiness is assumed under the standing policy, separately from Sunday’s earlier observed good report. W5 retains achieved-stage lifting when recovered; routine endurance is reduced. The future overview uses Tuesday2×4 at current6:40 and recovered no-test Saturday2×6 at7:10 unless a5K is explicitly selected. Both bikes≤15. A test requires athlete choice/eligibility and would omit Wednesday calves; no test or omission selected here. Branch budgets, with ten-minute warmups/cooldowns: B8.168536251709988mi, upper9.379895755770661; optional exact5K A9.365679490598435, upper10.55733995225145. Both below15, neither completed mileage.
 
 Live state remains SundayW4. Save a deferred **November23 W5-start carry review**: current unused Tuesday6:35 candidate remains unchanged, Saturday has no award, and assessment work cannot be sped up by the candidate. Do not apply future carry/reset early; counts reset at W5end. Keep all prior performance, Watch files, shoes and source histories. Refresh actual skip history and Monday/W5 caches, verify and publish.
+
+## 2026-11-23 — one-week schedule change
+
+508. Athlete approves the proposed rearrangement: **“Aight make those changes for this week.”** Today is **Monday November 23, W5, America/New_York**. Apply dated override `2026-11-23-week-five-reschedule` through November 29; restore the standing schedule November 30. This explicit instruction authorizes the rearrangement of missed leg work. Preserve November 22's skipped actual, all completed history and existing slot identities.
+
+| Date | Effective session |
+|---|---|
+| Mon Nov 23 | Legs, bodyweight abs + calves, moved from Sunday |
+| Tue Nov 24 | Upper A, moved from Monday |
+| Wed Nov 25 | W5 short intervals, moved from Tuesday |
+| Thu Nov 26 | Upper B |
+| Fri Nov 27 | Delts/arms B + 15-minute bike |
+| Sat Nov 28 | W5 assessment run; recovered no-test plan unless an eligible optional 5K is selected |
+| Sun Nov 29 | Normal legs, bodyweight abs + calves |
+
+**Omit the original Wednesday delts/arms A and bike entirely this week.** Do not redistribute their sets/minutes or create completed/skipped actuals for future work. Monday legs → Wednesday run and Tuesday Upper A → Thursday Upper B each leave an intervening day. Runs remain separate from lifts/bikes. Friday lifting and Saturday running retain the standing preference. Automatic next-workout generation follows these dated selections, then resumes the recurring schedule November 30.
+
+Issue **today's 17-set Stage D leg workout**, `hybrid-2026-10-26-mon-legs-508`, with no cardio:
+
+| Slot | Exercise | Load | Sets × reps | RIR | Rest |
+|---|---|---|---|---|---|
+| L1 | Decline crunch — bodyweight | BW | 2×10–15 | ≥3 | 2 min |
+| L2 | Leg-press calf raise | 380 lb | 4×10–15 | 1–2 | 2 min |
+| L3 | Hack squat | 135 lb starting | 3×6–10 | 2 | 2–3 min |
+| L4 | Seated leg curl | 110 lb | 3×8–12 | 2 | 2 min |
+| L5 | Leg extension | 125 lb | 3×10–15 | 1–2 | 2 min |
+| L6 | 45-degree back extension | 25 lb | 2×8–12 | 2 | 2 min |
+
+Same dose as #505/#506, now newly dated rather than backfilled as Sunday completion. November 15 actuals support these loads: calf 380×12/12/10/10 at RIR 3; seated curl 110×8/8/8 at RIR 3/3/2; extension 125×15/15/15 at RIR 3; back extension 25×12/12 at RIR 3. Prior Stage C ceiling reps earn no retrospective ordinary loading credit. Hack 135×6 at RIR 2 was only one set after 95/115: calibrate three sets at 135 starting, reducing if later sets cannot meet six reps at 2 RIR. Retain BW-only/two-set/≥3 RIR abs and comfortable-only calves. See [ramp/return](../program/ramp-and-return.md) and [lift progression](../program/lift-progression.md). Today's general readiness is assumed good under the standing policy; the latest explicit good report was Sunday. No new observed symptoms or clearance are inferred.
+
+**Move prepared Upper A unchanged** from `hybrid-2026-10-26-mon-upper-a-507` to **Tuesday November 24**, `hybrid-2026-10-26-tue-upper-a-508`, preview, 18 sets and no cardio:
+
+| Slot | Exercise | Load | Sets × reps | RIR | Rest |
+|---|---|---|---|---|---|
+| M1a | Incline barbell bench — top set | 145 lb | 1×4–6 | 2 | 3–4 min |
+| M1b | Incline barbell bench — back-offs | 137.5 lb preferred; 140 if +2.5 total unavailable and +5 smallest | 2×6–8 | 2–3 | 3–4 min |
+| M2 | Incline DB curl | 22.5 lb | 2×8–12 | First 1–2; final 0–1 | 2 min |
+| M3 | DB lateral raise | 35 lb | 4×12–20 | First three 1–2; final 0–1 | 2 min |
+| M4 | Cable pushdown | 50 lb | 3×10–15 | First two 2; final 0–1 | 2 min |
+| M5 | Lat pulldown | 160 lb | 2×8–12 | 2 | 2–3 min |
+| M6 | Decline crunch — bodyweight | BW | 2×10–15 | ≥3 | 2 min |
+| M7 | Chest-supported row | 70 lb | 2×8–12 | 2 | 2–3 min |
+
+Retain #507's adaptation review: November 9 ordinary top-set reference 145×6 at RIR 3 is separate from November 16's heavy single. M1b's November 16 normal-D 135×8/8 at RIR 3/2 already supplied the once-applied increase and qualification reset in #507. Migrate its applied prescription reference to Tuesday without a second award, source consumption or reset. Performed load stays 135. If the increment cannot support six reps at 2–3 RIR, use smaller loading if available or hold 135 and review. Other M slots retain their own November 16 evidence and local limits; no cross-slot awards.
+
+**Wednesday November 25 run**, `hybrid-2026-10-26-wed-intervals-508`: 10-minute easy warmup (up to five extra minutes if needed), **2×4 minutes at 6:40/mi**, **one 3-minute easy jog/walk recovery between reps**, 10-minute easy cooldown; **31 minutes total, eight work minutes, final RPE ≤8**. Work-only Watch alerts 6:35–6:45/mi are guidance. Export `runs/2026-11-25.workout`. This is the W5 assessment reduction from normal 3×4, not a change to the normal target or credit from performed work.
+
+At the now-live **W5 start**, follow [assessment](../program/assessments.md) and [run-credit](../program/run-credit.md) rules: save the still-valid Tuesday 6:35 candidate from November 10/17 as one conditional, unused carried award. Keep normal 6:40/12 work minutes and current counters until the W5-end reset. The carry cannot speed assessment work; use only after eligible completed B and the required post-assessment review, or cancel on a test/other clearing event. Saturday has no unused award. No 5K has been selected; Saturday's recovered no-test recommendation remains 2×6 at 7:10, one 2-minute recovery, ten-minute warmup/cooldown and final RPE ≤7, with normal 3×6 retained separately.
+
+Friday's bike is prescribed separately as `hybrid-2026-10-26-fri-bike-508`: **15 minutes after lifting, RPE 3 (acceptable 2–4)**. Saved settings: height **10.5**, seat **+4**, handle **+3**. Wednesday's bike is omitted, not made up. Preserve its last-tolerated 25 minutes. Friday November 20's completed 25-minute ride retains Saturday's acceptable run evidence and Sunday's skipped lifting; its next actual priority-lift review now points to **Monday November 23 legs**, still unperformed. Keep Friday last-tolerated 20 until validation. No future bike is logged by prescription.
+
+W5 planned lifting is **17 + 18 + 20 + 13 + 17 = 85 sets**, with the original Wednesday's 14 omitted and subsequent doses still subject to actual performance. No W5 work is logged. The moved-run no-test mileage estimate is **8.168536251709988 mi**, upper **9.379895755770661**; optional unselected exact-5K branch **9.365679490598435**, upper **10.55733995225145**. Estimates use ten-minute warmups/cooldowns and easy budgeting at 8:30/mi; uppers add five warmup minutes per run and faster work-alert bounds where applicable. Both branches stay below 15; neither is actual mileage.
+
+Keep achieved Stage D, last-tolerated Stage C, all restrictions, exposure/qualification counts, performed loads, prior Watch files and Evo SL **28.27 miles**. Advance only the live date/week to November 23/W5. Refresh the daily leg workout and seven-day override view together; preserve all W4 outcomes and the skipped Sunday record. Verify dated references, effective doses, Watch timing and dashboard rendering, then publish.

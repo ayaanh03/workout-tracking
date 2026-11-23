@@ -6,9 +6,9 @@
   "start_date": "2026-10-25",
   "end_date": "2027-01-03",
   "timezone": "America/New_York",
-  "as_of": "2026-11-22",
+  "as_of": "2026-11-23",
   "activation_status": "active",
-  "calendar_week": "W4",
+  "calendar_week": "W5",
   "calendar_phase": "Build",
   "lifting_stage": "D",
   "last_tolerated_stage": "C",
@@ -58,7 +58,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 507,
+  "last_adjustment_id": 508,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -1079,6 +1079,27 @@
       "source": "../history/weekly-summary.md#2026-11-22--w4-outcomes-sunday-skipped",
       "note": "Six sessions completed, Sunday skipped:65lifting sets,30run work minutes/9.48mi and50bike minutes. Good general recovery reported Sunday before the skip; reason for skip unreported. AchievedD retained, but not a fully completed manageable normal-D week. No stage advancement or new last-tolerated stage.",
       "skipped_sessions": 1
+    },
+    "W5": {
+      "range_start": "2026-11-23",
+      "range_end": "2026-11-29",
+      "stage": "D",
+      "completion": "not-started",
+      "completed_sessions": 0,
+      "known_lifting_sets": 0,
+      "known_running_work_minutes": 0,
+      "confirmed_running_miles": 0,
+      "known_cycling_minutes": 0,
+      "known_cycling_seconds": 0,
+      "known_rowing_minutes": 0,
+      "known_rowing_seconds": 0,
+      "manageable": null,
+      "status": "week-in-progress",
+      "decision_id": 508,
+      "source": "../history/adjustments.md#2026-11-23--one-week-schedule-change",
+      "schedule_override_id": "2026-11-23-week-five-reschedule",
+      "planned_lifting_sets": 85,
+      "note": "No W5 work performed. Planned 17 Monday legs + 18 Tuesday Upper A + 20 Thursday Upper B + 13 Friday delts/arms B + 17 Sunday legs = 85 sets; the original Wednesday’s 14 accessory sets are omitted. Only Friday’s 15-minute bike remains. Future doses remain subject to actuals/recovery."
     }
   },
   "program_amendments": [
@@ -1171,13 +1192,13 @@
     "default_recovery": "assumed-good-unless-reported-otherwise",
     "source": "../program/readiness.md",
     "last_generated_date": "2026-11-23",
-    "last_generated_prescription_id": "hybrid-2026-10-26-mon-upper-a-507",
-    "last_generated_from_session_id": "hybrid-2026-10-26-w4-sun-2026-11-22",
+    "last_generated_prescription_id": "hybrid-2026-10-26-mon-legs-508",
+    "last_generated_from_session_id": null,
     "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping.",
-    "last_generation_trigger": "automatic-next-workout-after-skipped-session-log",
-    "last_generation_decision_id": 507,
-    "last_review_decision_id": 507,
-    "last_review_reason": "Record skipped Sunday and preview normal Monday UpperA18sets; W5 reduces endurance only unless recovery requires otherwise."
+    "last_generation_trigger": "explicit-one-week-schedule-rearrangement",
+    "last_generation_decision_id": 508,
+    "last_review_decision_id": 508,
+    "last_review_reason": "Apply the authorized November 23–29 override and show Monday legs. Automatic next-session generation follows Tuesday Upper A, Wednesday run; original Wednesday lift/bike omitted. Recurring schedule resumes November 30."
   },
   "session_freeze_history": [
     {
@@ -1265,6 +1286,333 @@
       "compatibility_review": "Separate lifting/bike and run days. Delts/arms B has no direct leg/calf work, and its triceps are not the day before incline. Sunday legs remain November 8.",
       "completed_on": "2026-11-07",
       "completion_decision_id": 479
+    },
+    {
+      "id": "2026-11-23-week-five-reschedule",
+      "type": "one-week-rearrangement",
+      "status": "active",
+      "decision_id": 508,
+      "requested_on": "2026-11-23",
+      "recorded_at": "2026-11-23T04:43:53-05:00",
+      "instruction": "Aight make those changes for this week",
+      "approved_plan": "Monday legs; Tuesday Upper A; Wednesday moved Tuesday run; Thursday Upper B; Friday delts/arms B + 15-minute bike; Saturday W5 run; Sunday normal legs. Omit original Wednesday delts/arms A and bike.",
+      "dates": [
+        "2026-11-23",
+        "2026-11-24",
+        "2026-11-25",
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-28",
+        "2026-11-29"
+      ],
+      "range_start": "2026-11-23",
+      "range_end": "2026-11-29",
+      "normal_schedule_resumes": "2026-11-30",
+      "sessions": [
+        {
+          "scheduled_date": "2026-11-23",
+          "original_date": "2026-11-22",
+          "template_day": "Sunday",
+          "session": "Legs, bodyweight abs + calves",
+          "lifting_slots": [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6"
+          ],
+          "prescription_id": "hybrid-2026-10-26-mon-legs-508",
+          "replaces_prescription_id": "hybrid-2026-10-26-sun-legs-505",
+          "status": "planned-today-not-performed",
+          "lift": {
+            "table": [
+              {
+                "slotId": "L1",
+                "exercise": "Decline crunch — bodyweight",
+                "load": "BW",
+                "setsReps": "2×10–15",
+                "rir": "≥3",
+                "rest": "2 min"
+              },
+              {
+                "slotId": "L2",
+                "exercise": "Leg-press calf raise",
+                "load": "380 lb",
+                "setsReps": "4×10–15",
+                "rir": "1–2",
+                "rest": "2 min"
+              },
+              {
+                "slotId": "L3",
+                "exercise": "Hack squat",
+                "load": "135 lb starting",
+                "setsReps": "3×6–10",
+                "rir": "2",
+                "rest": "2–3 min"
+              },
+              {
+                "slotId": "L4",
+                "exercise": "Seated leg curl",
+                "load": "110 lb",
+                "setsReps": "3×8–12",
+                "rir": "2",
+                "rest": "2 min"
+              },
+              {
+                "slotId": "L5",
+                "exercise": "Leg extension",
+                "load": "125 lb",
+                "setsReps": "3×10–15",
+                "rir": "1–2",
+                "rest": "2 min"
+              },
+              {
+                "slotId": "L6",
+                "exercise": "45-degree back extension",
+                "load": "25 lb",
+                "setsReps": "2×8–12",
+                "rir": "2",
+                "rest": "2 min"
+              }
+            ]
+          },
+          "note": "November 22 actual remains skipped; today is a newly dated authorized leg session, not retroactive completion."
+        },
+        {
+          "scheduled_date": "2026-11-24",
+          "original_date": "2026-11-23",
+          "template_day": "Monday",
+          "session": "Upper A",
+          "lifting_slots": [
+            "M1a",
+            "M1b",
+            "M2",
+            "M3",
+            "M4",
+            "M5",
+            "M6",
+            "M7"
+          ],
+          "prescription_id": "hybrid-2026-10-26-tue-upper-a-508",
+          "supersedes_prescription_id": "hybrid-2026-10-26-mon-upper-a-507",
+          "status": "prescribed-preview-not-performed",
+          "lift": {
+            "table": [
+              {
+                "slotId": "M1a",
+                "exercise": "Incline barbell bench — top set",
+                "setsReps": "1×4–6",
+                "load": "145 lb",
+                "rir": "2",
+                "rest": "3–4 min"
+              },
+              {
+                "slotId": "M1b",
+                "exercise": "Incline barbell bench — back-offs",
+                "setsReps": "2×6–8",
+                "load": "137.5 lb; 140 lb if +2.5 total unavailable",
+                "rir": "2–3",
+                "rest": "3–4 min"
+              },
+              {
+                "slotId": "M2",
+                "exercise": "Incline DB curl",
+                "setsReps": "2×8–12",
+                "load": "22.5 lb",
+                "rir": "First: 1–2; final: 0–1",
+                "rest": "2 min"
+              },
+              {
+                "slotId": "M3",
+                "exercise": "DB lateral raise",
+                "setsReps": "4×12–20",
+                "load": "35 lb",
+                "rir": "Sets 1–3: 1–2; final: 0–1",
+                "rest": "2 min"
+              },
+              {
+                "slotId": "M4",
+                "exercise": "Cable pushdown",
+                "setsReps": "3×10–15",
+                "load": "50 lb",
+                "rir": "Sets 1–2: 2; final: 0–1",
+                "rest": "2 min"
+              },
+              {
+                "slotId": "M5",
+                "exercise": "Lat pulldown",
+                "setsReps": "2×8–12",
+                "load": "160 lb",
+                "rir": "2",
+                "rest": "2–3 min"
+              },
+              {
+                "slotId": "M6",
+                "exercise": "Decline crunch — bodyweight",
+                "setsReps": "2×10–15",
+                "load": "BW",
+                "rir": "≥3",
+                "rest": "2 min"
+              },
+              {
+                "slotId": "M7",
+                "exercise": "Chest-supported row",
+                "setsReps": "2×8–12",
+                "load": "70 lb",
+                "rir": "2",
+                "rest": "2–3 min"
+              }
+            ],
+            "lastWeek": {
+              "label": "Latest matching actuals: ordinary incline top Nov9; other slots Nov16. Nov16 single is separate.",
+              "table": [
+                {
+                  "slotId": "M1a",
+                  "exercise": "Incline barbell bench — top set",
+                  "load": "145 lb",
+                  "reps": "6",
+                  "rir": "3"
+                },
+                {
+                  "slotId": "M1b",
+                  "exercise": "Incline barbell bench — back-offs",
+                  "load": "135 lb",
+                  "reps": "8 / 8",
+                  "rir": "3 / 2"
+                },
+                {
+                  "slotId": "M2",
+                  "exercise": "Incline DB curl",
+                  "load": "22.5 lb",
+                  "reps": "12 / 11",
+                  "rir": "3 / 0"
+                },
+                {
+                  "slotId": "M3",
+                  "exercise": "DB lateral raise",
+                  "load": "35 lb",
+                  "reps": "14 / 14 / 12 / 12",
+                  "rir": "2 / 1 / 2 / 1"
+                },
+                {
+                  "slotId": "M4",
+                  "exercise": "Cable pushdown",
+                  "load": "50 lb",
+                  "reps": "12 / 10 / 10",
+                  "rir": "2 / 2 / 0"
+                },
+                {
+                  "slotId": "M5",
+                  "exercise": "Lat pulldown",
+                  "load": "160 lb",
+                  "reps": "8 / 8",
+                  "rir": "2 / 2"
+                },
+                {
+                  "slotId": "M6",
+                  "exercise": "Decline crunch — bodyweight",
+                  "load": "BW",
+                  "reps": "15 / 15",
+                  "rir": "5 / 5"
+                },
+                {
+                  "slotId": "M7",
+                  "exercise": "Chest-supported row",
+                  "load": "70 lb",
+                  "reps": "10 / 8",
+                  "rir": "2 / 2"
+                }
+              ]
+            }
+          },
+          "note": "The same 18-set dose from #507 moves one day. M1b 137.5 lb preferred / 140 conditional: source already applied once; no second reset or load award."
+        },
+        {
+          "scheduled_date": "2026-11-25",
+          "original_date": "2026-11-24",
+          "template_day": "Tuesday",
+          "session": "Assessment intervals",
+          "running_track": "tuesday",
+          "prescription_id": "hybrid-2026-10-26-wed-intervals-508",
+          "workout_file": "runs/2026-11-25.workout",
+          "status": "prescribed-preview-not-performed",
+          "cardio": {
+            "workout": "2×4 minutes at 6:40/mi, with one 3-minute easy recovery; eight work minutes, 31 minutes total.",
+            "warmup": "10 minutes easy, up to five extra if needed.",
+            "cooldown": "10 minutes easy.",
+            "targets": {
+              "pace": "6:40/mi",
+              "rpe": "Final rep ≤8/10"
+            },
+            "workoutFile": "runs/2026-11-25.workout"
+          }
+        },
+        {
+          "scheduled_date": "2026-11-26",
+          "original_date": "2026-11-26",
+          "template_day": "Thursday",
+          "session": "Upper B",
+          "status": "upcoming"
+        },
+        {
+          "scheduled_date": "2026-11-27",
+          "original_date": "2026-11-27",
+          "template_day": "Saturday",
+          "session": "Delts/arms B + bike",
+          "cycling_track": "saturday",
+          "cardio_prescription_id": "hybrid-2026-10-26-fri-bike-508",
+          "bike_minutes": 15,
+          "status": "upcoming"
+        },
+        {
+          "scheduled_date": "2026-11-28",
+          "original_date": "2026-11-28",
+          "template_day": "Friday",
+          "session": "W5 assessment run",
+          "running_track": "friday",
+          "status": "upcoming",
+          "test_selected": false,
+          "note": "Recovered no-test plan: 2×6 minutes at current 7:10/mi unless an optional 5K is explicitly selected and eligible."
+        },
+        {
+          "scheduled_date": "2026-11-29",
+          "original_date": "2026-11-29",
+          "template_day": "Sunday",
+          "session": "Legs, bodyweight abs + calves",
+          "lifting_slots": [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6"
+          ],
+          "status": "upcoming",
+          "note": "Normal Sunday leg slot remains, six days after Monday. Generate from updated L-slot actuals and recovery; no doubled sets."
+        }
+      ],
+      "omitted_sessions": [
+        {
+          "original_date": "2026-11-25",
+          "session": "Delts/arms A + bike",
+          "lifting_slots": [
+            "WE1",
+            "WE2",
+            "WE3",
+            "WE4",
+            "WE5"
+          ],
+          "cycling_track": "wednesday",
+          "status": "omitted-by-approved-schedule",
+          "effective_sets": 0,
+          "bike_minutes": 0,
+          "reason": "This week only: remove the entire accessory lift and bike; do not redistribute its sets or minutes."
+        }
+      ],
+      "selection_rule": "Select by scheduled_date during November 23–29 before recurring weekday templates. After Monday legs generate Tuesday Upper A, then Wednesday run. Preserve original slot/track identities and actual dates. Resume the recurring schedule November 30.",
+      "compatibility_review": "Monday legs → Wednesday run has an intervening day; Tuesday Upper A → Thursday Upper B has an intervening run day with no direct triceps. Runs stay separate from lifts/cycling. Friday and Saturday standing preference is preserved.",
+      "source": "../history/adjustments.md#2026-11-23--one-week-schedule-change"
     }
   ],
   "manageable_week_history": [
@@ -1437,16 +1785,17 @@
   },
   "next_session_adjustment": {
     "date": "2026-11-23",
-    "decision_id": 507,
-    "status": "preview-not-performed",
+    "decision_id": 508,
+    "status": "planned-today-not-performed",
     "original_session": "Upper A",
-    "effective_session": "Upper A",
-    "prescription_id": "hybrid-2026-10-26-mon-upper-a-507",
-    "source": "../history/adjustments.md#2026-11-22--skip-sunday-and-preview-monday",
-    "preview": true,
+    "effective_session": "Legs, bodyweight abs + calves",
+    "prescription_id": "hybrid-2026-10-26-mon-legs-508",
+    "source": "../history/adjustments.md#2026-11-23--one-week-schedule-change",
+    "preview": false,
     "stage": "D",
-    "working_sets": 18,
-    "reason": "Next scheduled uncompleted session after Sunday skip. Normal achieved-D Monday remains; no make-up sets. Resume ordinary incline top set and apply earned independent back-off increment."
+    "working_sets": 17,
+    "schedule_override_id": "2026-11-23-week-five-reschedule",
+    "reason": "Athlete explicitly approved this week’s rearrangement: legs Monday, Upper A Tuesday, short run Wednesday; omit original Wednesday lift/bike. Today uses independent L slots and previous demonstrated leg loads under current limits."
   },
   "next_session_adjustment_history": [
     {
@@ -1615,16 +1964,34 @@
       "reason": "Activate the prepared17-set Stage D Sunday session with good general recovery explicitly reported. Keep the #505 prescription identity, exact loads/reps/RIR/rest and local limits; no new dose increase or completed Sunday work.",
       "skipped_on": "2026-11-22",
       "skip_decision_id": 507
+    },
+    {
+      "date": "2026-11-23",
+      "decision_id": 507,
+      "status": "moved-before-performance",
+      "original_session": "Upper A",
+      "effective_session": "Upper A",
+      "prescription_id": "hybrid-2026-10-26-mon-upper-a-507",
+      "source": "../history/adjustments.md#2026-11-22--skip-sunday-and-preview-monday",
+      "preview": true,
+      "stage": "D",
+      "working_sets": 18,
+      "reason": "Next scheduled uncompleted session after Sunday skip. Normal achieved-D Monday remains; no make-up sets. Resume ordinary incline top set and apply earned independent back-off increment.",
+      "moved_to": "2026-11-24",
+      "superseded_by_prescription_id": "hybrid-2026-10-26-tue-upper-a-508",
+      "move_decision_id": 508
     }
   ],
   "assessment_boundary_review": {
-    "status": "due-at-live-w5-start",
+    "status": "reviewed-at-live-w5-start",
     "due_date": "2026-11-23",
-    "decision_id": 507,
-    "current_live_date": "2026-11-22",
-    "action": "At W5 start recheck and save at most one still-valid unused pace award per run. Tuesday currently has6:35 candidate fromNov10/17; Saturday none. Pending awards cannot speed assessment work. Reset counts at W5 end, not now.",
+    "decision_id": 508,
+    "current_live_date": "2026-11-23",
+    "action": "Save Tuesday’s valid unused five-second normal-pace step as a conditional W5 carried award; Saturday has none. Neither speeds assessment work. Reset counts at W5 end, not start. Test remains unselected.",
     "option_selected": null,
     "test_wants_confirmation": null,
-    "note": "The optional first-test week5 calendar entry does not mean a test is selected. Monday preview requires no test choice."
+    "note": "The optional first-test opportunity in W5 does not select a test. Current Monday legs and the moved Tuesday Upper A require no test choice.",
+    "reviewed_on": "2026-11-23",
+    "source": "../history/adjustments.md#2026-11-23--one-week-schedule-change"
   }
 }

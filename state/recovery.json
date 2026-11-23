@@ -1758,11 +1758,11 @@
   "planning_readiness": {
     "status": "assumed-good",
     "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-    "decision_id": 507,
-    "recorded_at": "2026-11-22T19:12:08-05:00",
+    "decision_id": 508,
+    "recorded_at": "2026-11-23T04:43:53-05:00",
     "for_date": "2026-11-23",
     "observed": false,
-    "reason": "Standing athlete default supplies ordinary Monday readiness. Earlier Sunday recovery was explicitly good; the later skip has no stated reason and does not establish poor recovery, illness or symptoms."
+    "reason": "Standing athlete default supplies ordinary current Monday readiness. The latest explicit recovery report was good Sunday; today’s schedule approval supplies no new symptoms or observed metrics. Preserve all local restrictions."
   },
   "general_readiness_history": [
     {
@@ -2119,6 +2119,15 @@
       "source": "../history/injury-log.md#2026-11-22--good-recovery-after-saturday",
       "reason": "Athlete reports good current Sunday general recovery, also supplying next-day general recovery after Saturday’s completed run. No numeric metrics or site-specific symptom clearance are supplied.",
       "for_date": "2026-11-22"
+    },
+    {
+      "status": "assumed-good",
+      "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+      "decision_id": 507,
+      "recorded_at": "2026-11-22T19:12:08-05:00",
+      "for_date": "2026-11-23",
+      "observed": false,
+      "reason": "Standing athlete default supplies ordinary Monday readiness. Earlier Sunday recovery was explicitly good; the later skip has no stated reason and does not establish poor recovery, illness or symptoms."
     }
   ],
   "recovery_override_history": [
