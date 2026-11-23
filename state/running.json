@@ -4477,17 +4477,18 @@
         "note": "Completes the prescribed 25 minutes at the target RPE 3, reported throughout, with 115 W average and reported Z2. Numeric HR, zone times and bike-specific symptoms remain unreported. Subsequent running/lifting validation is pending. No running or shoe mileage is added."
       },
       "pending_validation": {
-        "status": "running-supported-lifting-performance-pending",
-        "decision_id": 505,
-        "reviewed_on": "2026-11-21",
+        "status": "running-supported-awaiting-subsequent-lifting-after-skip",
+        "decision_id": 507,
+        "reviewed_on": "2026-11-22",
         "recorded_at": "2026-11-21T21:00:43-05:00",
         "source_session_id": "hybrid-2026-10-26-w4-fri-2026-11-20-bike",
         "prescribed_minutes": 25,
         "completed_seconds": 1500,
         "lifting": {
           "date": "2026-11-22",
-          "status": "unperformed",
-          "performance": null
+          "status": "skipped",
+          "performance": null,
+          "decision_id": 507
         },
         "running": {
           "date": "2026-11-21",
@@ -4550,8 +4551,14 @@
           "observed": false,
           "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. No new adverse recovery or symptom report accompanies the completed run; observed next-day recovery and site-specific responses remain unknown."
         },
-        "reason": "SaturdayNovember21 full qualifying run supports FridayNovember20 bike25minutes. SundayNovember22 lifting remains unperformed; retain last-tolerated20 and pending25 until subsequent lifting is reviewed.",
-        "recovery_followup_decision_id": 506
+        "reason": "SundayNov22 lifting was skipped, so it cannot validate Friday25minutes. Saturdayrun remains acceptable; await next actually completed priority lifting, potentially MondayNov23. Keep last-tolerated20, no new cycling award.",
+        "recovery_followup_decision_id": 506,
+        "next_lifting_review": {
+          "date": "2026-11-23",
+          "session": "Upper A",
+          "status": "unperformed",
+          "performance": null
+        }
       },
       "next_action": {
         "decision_id": 505,
@@ -4581,9 +4588,9 @@
           "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. No new adverse recovery or symptom report accompanies the completed run; observed next-day recovery and site-specific responses remain unknown."
         },
         "equipment_settings_ref": "cycling.equipment_settings",
-        "reason": "NextFridayNovember27 is W5 with a15-minute ceiling, not a new prescription. SaturdayNovember21 qualifying run supports the completed25-minute dose; SundayNovember22 lifting is still required before it becomes the last-tolerated duration.",
-        "validation_review_decision_id": 505,
-        "validation_status": "running-supported-lifting-performance-pending"
+        "reason": "W5Friday bike remains capped at15minutes, not yet prescribed. Friday25-minute tolerance has acceptable Saturday running but Sundaylifting was skipped; review next completed priority lifting before validating25.",
+        "validation_review_decision_id": 507,
+        "validation_status": "running-supported-awaiting-subsequent-lifting-after-skip"
       },
       "validation_review": {
         "decision_id": 505,
@@ -5301,6 +5308,83 @@
             "reason": "Standing athlete default supplies ordinary post-Friday recovery for the next workout. This log reports bike effort, power, zone and settings, not a new recovery or symptom observation; observed next-day recovery and site-specific responses remain unknown."
           },
           "reason": "Friday’s new 25-minute dose is completed at RPE 3 throughout. Review subsequent Saturday November 21 running and Sunday November 22 lifting before marking it tolerated or awarding another duration increase. Ordinary recovery uses the standing assumption; neither future session has been performed."
+        },
+        {
+          "status": "running-supported-lifting-performance-pending",
+          "decision_id": 505,
+          "reviewed_on": "2026-11-21",
+          "recorded_at": "2026-11-21T21:00:43-05:00",
+          "source_session_id": "hybrid-2026-10-26-w4-fri-2026-11-20-bike",
+          "prescribed_minutes": 25,
+          "completed_seconds": 1500,
+          "lifting": {
+            "date": "2026-11-22",
+            "status": "unperformed",
+            "performance": null
+          },
+          "running": {
+            "date": "2026-11-21",
+            "session_id": "hybrid-2026-10-26-w4-sat-2026-11-21",
+            "prescription_id": "hybrid-2026-10-26-sat-intervals-504",
+            "status": "completed-acceptable-performance",
+            "classification": "hit",
+            "source": "../history/cardio-log.md#2026-11-21--hybrid-v11-w4-saturday-longer-intervals",
+            "work_minutes": 18,
+            "rep_paces_seconds_per_mile": [
+              429,
+              414,
+              403
+            ],
+            "rep_rpe": [
+              7,
+              7,
+              7
+            ],
+            "performance": "Full3×6 at7:09/6:54/6:43 with both prescribed2-minute recoveries and RPE7 throughout; target7:10 passed, no adverse recovery reported.",
+            "recovery_basis": {
+              "status": "observed-good",
+              "decision_id": 506,
+              "recorded_at": "2026-11-22T13:51:27-05:00",
+              "reported_on": "2026-11-22",
+              "observed": true,
+              "observation_type": "athlete-self-report",
+              "report": "Recovery is good generate today",
+              "source": "../history/injury-log.md#2026-11-22--good-recovery-after-saturday",
+              "reason": "Athlete reports good current Sunday general recovery, also supplying next-day general recovery after Saturday’s completed run. No numeric metrics or site-specific symptom clearance are supplied."
+            },
+            "next_day_recovery": {
+              "status": "observed-good",
+              "decision_id": 506,
+              "recorded_at": "2026-11-22T13:51:27-05:00",
+              "reported_on": "2026-11-22",
+              "observed": true,
+              "observation_type": "athlete-self-report",
+              "report": "Recovery is good generate today",
+              "source": "../history/injury-log.md#2026-11-22--good-recovery-after-saturday",
+              "reason": "Athlete reports good current Sunday general recovery, also supplying next-day general recovery after Saturday’s completed run. No numeric metrics or site-specific symptom clearance are supplied."
+            },
+            "recovery_basis_history": [
+              {
+                "status": "assumed-good",
+                "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+                "decision_id": 505,
+                "recorded_at": "2026-11-21T21:00:43-05:00",
+                "observed": false,
+                "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. No new adverse recovery or symptom report accompanies the completed run; observed next-day recovery and site-specific responses remain unknown."
+              }
+            ]
+          },
+          "next_day_recovery": null,
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 505,
+            "recorded_at": "2026-11-21T21:00:43-05:00",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. No new adverse recovery or symptom report accompanies the completed run; observed next-day recovery and site-specific responses remain unknown."
+          },
+          "reason": "SaturdayNovember21 full qualifying run supports FridayNovember20 bike25minutes. SundayNovember22 lifting remains unperformed; retain last-tolerated20 and pending25 until subsequent lifting is reviewed.",
+          "recovery_followup_decision_id": 506
         }
       ]
     },

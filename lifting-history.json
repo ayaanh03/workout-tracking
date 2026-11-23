@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "blockId": "hybrid-2026-10-26",
-  "generatedAt": "2026-11-20T19:34:21-05:00",
+  "generatedAt": "2026-11-22T19:12:08-05:00",
   "sessions": [
     {
       "date": "2026-10-25",
@@ -2855,6 +2855,54 @@
         }
       ],
       "notes": "All 13 Stage D lifting sets reported. Incline curls used 30 lb because 27.5 lb dumbbells were unavailable; both sets meet the floor at prescribed effort. Pushdown sets 1–2 were RIR 1 rather than the intended 2. Wrist curls were 20 reps versus the cautious fixed-15 prescription; retain the prospective 15-rep dose. Bike: 25 min, 115 W average, reported Z2, RPE 3 throughout. No fresh symptom or observed next-day recovery report."
+    },
+    {
+      "date": "2026-11-22",
+      "week": "W4",
+      "stage": "D",
+      "sessionName": "Legs, bodyweight abs + calves — skipped",
+      "sessionId": "hybrid-2026-10-26-w4-sun-2026-11-22",
+      "prescriptionId": "hybrid-2026-10-26-sun-legs-505",
+      "actualRef": "history/lifting-log.md#2026-11-22--hybrid-v11-w4-sunday-skipped",
+      "exercises": [
+        {
+          "slotId": "L1",
+          "exercise": "Decline crunch — bodyweight",
+          "status": "skipped",
+          "sets": []
+        },
+        {
+          "slotId": "L2",
+          "exercise": "Leg-press calf raise",
+          "status": "skipped",
+          "sets": []
+        },
+        {
+          "slotId": "L3",
+          "exercise": "Hack squat",
+          "status": "skipped",
+          "sets": []
+        },
+        {
+          "slotId": "L4",
+          "exercise": "Seated leg curl",
+          "status": "skipped",
+          "sets": []
+        },
+        {
+          "slotId": "L5",
+          "exercise": "Leg extension",
+          "status": "skipped",
+          "sets": []
+        },
+        {
+          "slotId": "L6",
+          "exercise": "45-degree back extension",
+          "status": "skipped",
+          "sets": []
+        }
+      ],
+      "notes": "Athlete: Gonna skip today. Entire17-set session skipped; no reason supplied, no performed sets or exposure credit. Earlier good recovery remains recorded. No make-up workout."
     }
   ]
 }

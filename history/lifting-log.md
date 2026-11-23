@@ -402,3 +402,9 @@ Forearms remain deliberately cautious: **one 15-rep set each at 27.5 lb and ≥4
 Raw exposures increment once: S1/S2/S4 become 4; replacement pushdown S3 and forearms S5/S6 become 3. Store the first normal-D references at actual loads and first-set RIR; S3's RIR 1 is not comparable to a later RIR 2 set, and S6's performed 20 does not rewrite its fixed-15 prescription. Actual rest/setup remain unknown. No ramp credit, other-day credit, plateau or decline is inferred.
 
 Bike reported separately: **25 min, 115 W average, Z2, RPE 3 throughout**. No fresh elbow/Achilles/ab response or observed next-day recovery is supplied; ordinary recovery uses the standing assumed-good default without clearing local restrictions. Decision #504.
+
+## 2026-11-22 — Hybrid v11 W4 Sunday skipped
+
+Session `hybrid-2026-10-26-w4-sun-2026-11-22`, prescribed `hybrid-2026-10-26-sun-legs-505` and activated #506. Athlete: **“Gonna skip today.”** Resolve today as SundayNovember22 in America/New_York and record the entire scheduled **17-set legs/bodyweight-abs/calves session skipped**, zero performed sets. Preserve its original prescription in #505/#506 and mark L1–L6 skipped in the history cache; no lift exposure, new anchor, qualification, ab/calf response or make-up work.
+
+Reason is unreported. Earlier Sunday good general recovery remains recorded and is not overwritten with fatigue, illness or symptoms. Keep achievedD and all independent working loads. MondayNovember23 remains Upper A. Decision #507.

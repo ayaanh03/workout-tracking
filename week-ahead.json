@@ -1,72 +1,72 @@
 {
-  "generatedAt": "2026-11-22T13:51:27-05:00",
+  "generatedAt": "2026-11-22T19:12:08-05:00",
   "blockId": "hybrid-2026-10-26",
-  "preview": false,
-  "week": "W4",
-  "phase": "Hybrid v11 — Stage D",
-  "rangeStart": "2026-11-16",
-  "rangeEnd": "2026-11-22",
-  "summary": "W4, November 16–22: Monday through Saturday complete—65 lifting sets, 9.48 running miles and 50 bike minutes. Today is Sunday: 17 Stage D leg/ab/calf sets, no cardio. Good recovery reported; today’s work is not yet completed.",
+  "preview": true,
+  "week": "W5",
+  "phase": "Hybrid v11 — Stage D / assessment",
+  "rangeStart": "2026-11-23",
+  "rangeEnd": "2026-11-29",
+  "summary": "W4 closed with Sunday legs skipped: 65 lifting sets, 9.48 running miles and 50 bike minutes. W5 keeps Stage D lifting and reduces endurance. Monday preview is ready; all W5 work remains upcoming. Optional Saturday 5K is not selected.",
   "days": [
     {
-      "date": "2026-11-16",
+      "date": "2026-11-23",
       "day": "Mon",
-      "session": "Upper A + incline single",
-      "status": "done",
-      "note": "18 sets logged: single 170×1 RIR 1; back-offs 135×8/8; curl 22.5×12/11; laterals 35×14/14/12/12; pushdown 50×12/10/10; pulldown 160×8/8; BW abs 15/15; row 70×10/8. Full RIR values in history. Back-offs qualify for the next smallest increase."
+      "session": "Upper A",
+      "status": "upcoming",
+      "note": "Preview #507: 18 sets. Ordinary incline top 145; back-offs 137.5 preferred,140 if 2.5total unavailable/5smallest. Other same-slot loads held; BWabs cap remains. No make-up legs."
     },
     {
-      "date": "2026-11-17",
+      "date": "2026-11-24",
       "day": "Tue",
-      "session": "Intervals",
-      "status": "done",
-      "note": "Logged 3×4 at 6:37/6:30/6:33 per mile, RPE 7/8/8; 4.38 miles, 38:12 from intervals. Second qualifying hit at 6:40 earns a 6:35 normal-pace candidate. W5 assessment work stays at 6:40; carry/test rules apply."
+      "session": "Assessment intervals",
+      "status": "upcoming",
+      "note": "Planned W5 limit: 2×4 at current 6:40/mi, one 3-minute recovery,10-minute warmup/cooldown, finalRPE≤8. Earned 6:35 candidate cannot speed assessment work. Exact Watch export at generation."
     },
     {
-      "date": "2026-11-18",
+      "date": "2026-11-25",
       "day": "Wed",
       "session": "Delts/arms A + bike",
-      "status": "done",
-      "note": "Logged 14 sets: laterals 35×13/13/12/13; preacher 75×10/9; reverse pec deck 145×18/17; hammer 50×15 then 57.5×11; calves 380×11/11/13/13. Full RIR values in history. Bike 25 minutes Z2 at 115 W, seat height 10.5. Elbow tendon feels good."
+      "status": "upcoming",
+      "note": "Achieved Stage D with local limits; bike≤15 min after lifting. Omit Wednesday calves if the optional first 5K is explicitly selected. No test or omission selected yet."
     },
     {
-      "date": "2026-11-19",
+      "date": "2026-11-26",
       "day": "Thu",
       "session": "Upper B",
-      "status": "done",
-      "note": "Logged 20 sets: incline 135×8/8/8 RIR 2; preacher 75×9/8 RIR 3; lateral 35×12/13/12/12 RIR 2/2/2/0; BW pull-up 12/12 RIR 2; pushdown 50×10/10/10 RIR 2/2/1; row 120×9/9 RIR 2; BW abs 15/15 RIR 5; straight-arm 50×12/11 RIR 2. Incline and pull-ups earn next-load increases; no cardio."
+      "status": "upcoming",
+      "note": "Achieved Stage D with local limits. Independent incline/pull-up increases remain earned for review at generation; no future actuals."
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-27",
       "day": "Fri",
       "session": "Delts/arms B + bike",
-      "status": "done",
-      "note": "Logged 13 sets: lateral 35×15/14/14/14; incline curl 30×8/8 because 27.5 was unavailable; pushdown 50×10/10/10; reverse pec deck 145×15/19; reverse curl 27.5×15; wrist curl 27.5×20. Exact RIR in history. Bike 25 min at 115 W, reported Z2, RPE 3 throughout. Seat +4, handle +3; height 10.5 unchanged."
+      "status": "upcoming",
+      "note": "Achieved Stage D, cautious forearms; bike≤15 min after lifting. Friday 25-minute tolerance still awaits actual subsequent lifting after Sunday skip."
     },
     {
-      "date": "2026-11-21",
+      "date": "2026-11-28",
       "day": "Sat",
-      "session": "Longer intervals",
-      "status": "done",
-      "note": "Logged 3×6 at 7:09/6:54/6:43 per mile, RPE 7/7/7; 5.10 miles and 42:08 from intervals. First qualifying hit at 7:10; no new pace/minute award. Evo SL total 28.27 miles."
+      "session": "Assessment run — test not selected",
+      "status": "upcoming",
+      "note": "Recovered no-test option: 2×6 at current 7:10/mi, one 2-minute recovery,10-minute warmup/cooldown, finalRPE≤7. Optional exact 5K requires athlete choice and eligibility; no third hard run."
     },
     {
-      "date": "2026-11-22",
+      "date": "2026-11-29",
       "day": "Sun",
       "session": "Legs, bodyweight abs + calves",
-      "status": "today",
-      "note": "Today, #505 activated after reported good recovery: BW decline 2×10–15 at ≥3 RIR; calves 380 lb 4×10–15 at 1–2; hack 135 lb starting 3×6–10 at 2; seated curl 110 lb 3×8–12 at 2; extension 125 lb 3×10–15 at 1–2; back extension 25 lb 2×8–12 at 2. Rest 2 min, hack 2–3 min. 17 sets, no cardio."
+      "status": "upcoming",
+      "note": "Normal scheduled leg session at achieved stage and local limits, reviewed after Saturday. No extra sets for skippedNov 22."
     }
   ],
   "runningMileageCheck": {
-    "decisionId": 505,
-    "kind": "confirmed-completed-week-running",
-    "recordedMiles": 9.48,
-    "estimatedMiles": 9.48,
-    "upperMiles": 9.48,
+    "decisionId": 507,
+    "kind": "prospective-assessment-branch-budget",
+    "recordedMiles": 0,
+    "estimatedMiles": 8.168536251709988,
+    "upperMiles": 9.379895755770661,
     "limitMiles": 15,
-    "status": "confirmed-below-limit",
-    "assumptions": "Confirmed Tuesday4.38 plus Saturday5.10 =9.48mi. No more running is prescribed this week; Sunday lifting is still upcoming.",
-    "source": "state/running.json"
+    "status": "projected-below-limit",
+    "assumptions": "No-test B:Tue2×4 at6:40 +Sat2×6 at7:10, ten-minute warmups/cooldowns and between-rep recoveries, easybudget8:30. Upper uses5-second faster work alerts and+5warmup each. Optional exact5K A branch:9.365679490598435 planned/10.55733995225145 upper; unselected, not actual mileage.",
+    "source": "program/assessments.md"
   }
 }

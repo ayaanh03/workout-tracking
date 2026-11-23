@@ -1070,3 +1070,28 @@ Live date remains **Saturday November21, America/New_York**. Sunday stays upcomi
 Activate `hybrid-2026-10-26-sun-legs-505` unchanged as today, removing preview labels. **17 Stage D sets, no cardio:** BWdecline2×10–15 at≥3RIR; calf380lb4×10–15 at1–2; hack135lb starting3×6–10 at2; seatedcurl110lb3×8–12 at2; extension125lb3×10–15 at1–2; backextension25lb2×8–12 at2. Rest2min throughout except hack2–3min.
 
 Same-slot November15 actuals continue to support these weights. Hack135 remains a starting calibration with one set demonstrated; reduce if later sets cannot meet six reps at2RIR. Prior StageC ceiling reps earn no retrospective load increase. Preserve BW-only/max-two-set/≥3RIR abs and comfortable-only calf work. Good recovery does not add sets, change the stage or establish a new performed dose. Keep the original #505 prescription identity and all lifting histories/qualifications, run targets/credit, Watch files and EvoSL28.27mi. W4 remains six completed sessions,65lifting sets,30run work minutes,9.48mi and50bike minutes until Sunday is logged. Refresh both caches, mark Sunday today and publish.
+
+## 2026-11-22 — skip Sunday and preview Monday
+
+507. Athlete: **“Gonna skip today.”** Local time is SundayNovember22, America/New_York. Mark `hybrid-2026-10-26-w4-sun-2026-11-22` **skipped**, retaining original prescription `hybrid-2026-10-26-sun-legs-505` and its #506 activation. No17sets performed, new lift exposure, qualification or local tolerance. Record no reason; earlier good recovery stays valid dated evidence. No fatigue/illness diagnosis, stage rollback or make-up work. W4 closes with six completed/one skipped,65lifting sets,30run work minutes,9.48mi and50bike minutes; full manageable-D-week completion is not established.
+
+Friday25-minute bike validation keeps acceptable Saturday running, records Sunday lifting skipped and awaits subsequent actual priority lifting (next scheduled Monday). Last-tolerated20 remains. No new bike dose, running credit or mileage; Wednesday25 tolerance remains validated. A skipped lift is not a missed run and does not by itself cancel the Tuesday pace candidate or create a run-return path.
+
+Under the standing automatic-next workflow, issue **MondayNovember23 — W5 Upper A, preview**, `hybrid-2026-10-26-mon-upper-a-507`: **18 effective Stage D sets, no cardio**.
+
+| Slot | Exercise | Load | Sets × reps | RIR | Rest |
+|---|---|---|---|---|---|
+| M1a | Incline barbell bench — top set | 145 lb | 1×4–6 | 2 | 3–4 min |
+| M1b | Incline barbell bench — back-offs | 137.5 lb preferred; 140 if +2.5 total unavailable and +5 smallest | 2×6–8 | 2–3 | 3–4 min |
+| M2 | Incline DB curl | 22.5 lb | 2×8–12 | First1–2; final0–1 | 2 min |
+| M3 | DB lateral raise | 35 lb | 4×12–20 | First3sets1–2; final0–1 | 2 min |
+| M4 | Cable pushdown | 50 lb | 3×10–15 | First2sets2; final0–1 | 2 min |
+| M5 | Lat pulldown | 160 lb | 2×8–12 | 2 | 2–3 min |
+| M6 | Decline crunch — bodyweight | BW | 2×10–15 | ≥3 | 2 min |
+| M7 | Chest-supported row | 70 lb | 2×8–12 | 2 | 2–3 min |
+
+Resume ordinary M1a145 from November9’s145×6RIR3; November16’s170×1RIR1 is separate W4 single evidence, not a top-set load award. M1b’s **November16 normal-D135×8/8RIR3/2** earned the smallest available increment: apply it once to this preview, retain conditional availability, reset qualification before the changed-load exposure and keep demonstrated load135 until actual performance. If the increment cannot support six reps at2–3RIR, use smaller loading if available or hold135 and review. No other Monday slot reached every ceiling; retain its own load rather than borrowing Fridaycurl30 or Thursday awards. Keep permanent pushdowns and BW/max-two-set/≥3RIR abs.
+
+Monday ordinary readiness is assumed under the standing policy, separately from Sunday’s earlier observed good report. W5 retains achieved-stage lifting when recovered; routine endurance is reduced. The future overview uses Tuesday2×4 at current6:40 and recovered no-test Saturday2×6 at7:10 unless a5K is explicitly selected. Both bikes≤15. A test requires athlete choice/eligibility and would omit Wednesday calves; no test or omission selected here. Branch budgets, with ten-minute warmups/cooldowns: B8.168536251709988mi, upper9.379895755770661; optional exact5K A9.365679490598435, upper10.55733995225145. Both below15, neither completed mileage.
+
+Live state remains SundayW4. Save a deferred **November23 W5-start carry review**: current unused Tuesday6:35 candidate remains unchanged, Saturday has no award, and assessment work cannot be sped up by the candidate. Do not apply future carry/reset early; counts reset at W5end. Keep all prior performance, Watch files, shoes and source histories. Refresh actual skip history and Monday/W5 caches, verify and publish.
