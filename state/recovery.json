@@ -892,56 +892,25 @@
     }
   ],
   "post_session": {
-    "date": "2026-11-21",
-    "session_id": "hybrid-2026-10-26-w4-sat-2026-11-21",
+    "date": "2026-11-23",
+    "session_id": "hybrid-2026-10-26-w5-mon-2026-11-23",
     "completion": "reported",
-    "decision_id": 505,
-    "status": "completed-next-day-general-recovery-good-local-responses-unreported",
-    "work_minutes": 18,
-    "distance_miles": 5.1,
-    "rep_rpe": [
-      7,
-      7,
-      7
-    ],
+    "decision_id": 509,
+    "working_sets": 17,
+    "status": "general-recovery-assumed-specific-symptom-response-unreported",
     "lower_ab_response": null,
     "achilles_response": null,
     "elbow_response": null,
-    "next_day_recovery": {
-      "status": "observed-good",
-      "decision_id": 506,
-      "recorded_at": "2026-11-22T13:51:27-05:00",
-      "reported_on": "2026-11-22",
-      "observed": true,
-      "observation_type": "athlete-self-report",
-      "report": "Recovery is good generate today",
-      "source": "../history/injury-log.md#2026-11-22--good-recovery-after-saturday",
-      "reason": "Athlete reports good current Sunday general recovery, also supplying next-day general recovery after Saturday’s completed run. No numeric metrics or site-specific symptom clearance are supplied."
-    },
+    "next_day_recovery": null,
     "recovery_decision": {
-      "status": "observed-good",
-      "decision_id": 506,
-      "recorded_at": "2026-11-22T13:51:27-05:00",
-      "reported_on": "2026-11-22",
-      "observed": true,
-      "observation_type": "athlete-self-report",
-      "report": "Recovery is good generate today",
-      "source": "../history/injury-log.md#2026-11-22--good-recovery-after-saturday",
-      "reason": "Athlete reports good current Sunday general recovery, also supplying next-day general recovery after Saturday’s completed run. No numeric metrics or site-specific symptom clearance are supplied."
+      "status": "assumed-good",
+      "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+      "decision_id": 509,
+      "recorded_at": "2026-11-23T21:07:39-05:00",
+      "observed": false,
+      "reason": "Standing athlete default supplies ordinary post-session recovery and Tuesday readiness. This log supplies completed performance, not observed next-day recovery or site-specific symptom clearance; preserve existing local restrictions."
     },
-    "note": "November22 good general recovery confirms next-day recovery after the completed November21 run. Pace/RPE/distance and hit1 remain unchanged; site-specific symptom responses are still unreported.",
-    "recovery_decision_history": [
-      {
-        "status": "assumed-good",
-        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-        "decision_id": 505,
-        "recorded_at": "2026-11-21T21:01:06-05:00",
-        "for_date": "2026-11-22",
-        "observed": false,
-        "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. Full Saturday work and RPE 7/7/7 are reported without new adverse readiness or symptoms; no observed next-day recovery or local clearance is inferred."
-      }
-    ],
-    "followup_decision_id": 506
+    "note": "Moved leg workout completed. Hack final set RIR 1 is an effort deviation, not a new symptom report. General recovery assumed good; no observed next-day recovery, ab/Achilles response or loaded-ab clearance supplied."
   },
   "prior_pending_post_sessions": [
     {
@@ -1339,6 +1308,58 @@
         "reason": "Standing athlete default supplies ordinary post-Friday recovery and Saturday readiness. Friday completion and bike RPE 3 are reported; no new general recovery or site-specific symptom response is supplied. Existing local limits remain."
       },
       "note": "Incline curls30×8/8 atRIR2/0 used because27.5 dumbbells were unavailable. Wrist curl27.5×20RIR4 and reverse curl27.5×15RIR4 recorded without a new local symptom report. Prior November18 elbow comfort and ongoing cautious forearm restrictions remain; no recurrence or clearance inferred."
+    },
+    {
+      "date": "2026-11-21",
+      "session_id": "hybrid-2026-10-26-w4-sat-2026-11-21",
+      "completion": "reported",
+      "decision_id": 505,
+      "status": "completed-next-day-general-recovery-good-local-responses-unreported",
+      "work_minutes": 18,
+      "distance_miles": 5.1,
+      "rep_rpe": [
+        7,
+        7,
+        7
+      ],
+      "lower_ab_response": null,
+      "achilles_response": null,
+      "elbow_response": null,
+      "next_day_recovery": {
+        "status": "observed-good",
+        "decision_id": 506,
+        "recorded_at": "2026-11-22T13:51:27-05:00",
+        "reported_on": "2026-11-22",
+        "observed": true,
+        "observation_type": "athlete-self-report",
+        "report": "Recovery is good generate today",
+        "source": "../history/injury-log.md#2026-11-22--good-recovery-after-saturday",
+        "reason": "Athlete reports good current Sunday general recovery, also supplying next-day general recovery after Saturday’s completed run. No numeric metrics or site-specific symptom clearance are supplied."
+      },
+      "recovery_decision": {
+        "status": "observed-good",
+        "decision_id": 506,
+        "recorded_at": "2026-11-22T13:51:27-05:00",
+        "reported_on": "2026-11-22",
+        "observed": true,
+        "observation_type": "athlete-self-report",
+        "report": "Recovery is good generate today",
+        "source": "../history/injury-log.md#2026-11-22--good-recovery-after-saturday",
+        "reason": "Athlete reports good current Sunday general recovery, also supplying next-day general recovery after Saturday’s completed run. No numeric metrics or site-specific symptom clearance are supplied."
+      },
+      "note": "November22 good general recovery confirms next-day recovery after the completed November21 run. Pace/RPE/distance and hit1 remain unchanged; site-specific symptom responses are still unreported.",
+      "recovery_decision_history": [
+        {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 505,
+          "recorded_at": "2026-11-21T21:01:06-05:00",
+          "for_date": "2026-11-22",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary post-run recovery and Sunday readiness. Full Saturday work and RPE 7/7/7 are reported without new adverse readiness or symptoms; no observed next-day recovery or local clearance is inferred."
+        }
+      ],
+      "followup_decision_id": 506
     }
   ],
   "resolved_post_sessions": [
@@ -1758,11 +1779,11 @@
   "planning_readiness": {
     "status": "assumed-good",
     "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-    "decision_id": 508,
-    "recorded_at": "2026-11-23T04:43:53-05:00",
-    "for_date": "2026-11-23",
+    "decision_id": 509,
+    "recorded_at": "2026-11-23T21:07:39-05:00",
     "observed": false,
-    "reason": "Standing athlete default supplies ordinary current Monday readiness. The latest explicit recovery report was good Sunday; today’s schedule approval supplies no new symptoms or observed metrics. Preserve all local restrictions."
+    "reason": "Standing athlete default supplies ordinary post-session recovery and Tuesday readiness. This log supplies completed performance, not observed next-day recovery or site-specific symptom clearance; preserve existing local restrictions.",
+    "for_date": "2026-11-24"
   },
   "general_readiness_history": [
     {
@@ -2128,6 +2149,15 @@
       "for_date": "2026-11-23",
       "observed": false,
       "reason": "Standing athlete default supplies ordinary Monday readiness. Earlier Sunday recovery was explicitly good; the later skip has no stated reason and does not establish poor recovery, illness or symptoms."
+    },
+    {
+      "status": "assumed-good",
+      "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+      "decision_id": 508,
+      "recorded_at": "2026-11-23T04:43:53-05:00",
+      "for_date": "2026-11-23",
+      "observed": false,
+      "reason": "Standing athlete default supplies ordinary current Monday readiness. The latest explicit recovery report was good Sunday; today’s schedule approval supplies no new symptoms or observed metrics. Preserve all local restrictions."
     }
   ],
   "recovery_override_history": [

@@ -1149,3 +1149,32 @@ Friday's bike is prescribed separately as `hybrid-2026-10-26-fri-bike-508`: **15
 W5 planned lifting is **17 + 18 + 20 + 13 + 17 = 85 sets**, with the original Wednesday's 14 omitted and subsequent doses still subject to actual performance. No W5 work is logged. The moved-run no-test mileage estimate is **8.168536251709988 mi**, upper **9.379895755770661**; optional unselected exact-5K branch **9.365679490598435**, upper **10.55733995225145**. Estimates use ten-minute warmups/cooldowns and easy budgeting at 8:30/mi; uppers add five warmup minutes per run and faster work-alert bounds where applicable. Both branches stay below 15; neither is actual mileage.
 
 Keep achieved Stage D, last-tolerated Stage C, all restrictions, exposure/qualification counts, performed loads, prior Watch files and Evo SL **28.27 miles**. Advance only the live date/week to November 23/W5. Refresh the daily leg workout and seven-day override view together; preserve all W4 outcomes and the skipped Sunday record. Verify dated references, effective doses, Watch timing and dashboard rendering, then publish.
+
+## 2026-11-23 — log moved legs and preview Tuesday
+
+509. Log `hybrid-2026-10-26-w5-mon-2026-11-23` against `hybrid-2026-10-26-mon-legs-508`: **17 normal Stage D sets**, performed Monday November 23 under the approved one-week schedule override. Keep November 22's skipped session distinct and unchanged. Exact actuals:
+
+| Slot | Exercise | Load | Reps by set | RIR by set |
+|---|---|---|---|---|
+| L1 | Decline crunch — bodyweight | BW | 15 / 15 | 4 / 4 |
+| L2 | Leg-press calf raise | 380 lb | 12 / 13 / 13 / 13 | 2 / 2 / 2 / 1 |
+| L3 | Hack squat | 135 lb | 6 / 6 / 6 | 2 / 2 / 1 |
+| L4 | Seated leg curl | 110 lb | 9 / 10 / 8 | 2 / 2 / 2 |
+| L5 | Leg extension | 125 lb | 15 / 15 / 15 | 2 / 2 / 2 |
+| L6 | 45-degree back extension | 25 lb | 12 / 12 | 2 / 5 |
+
+The pasted hack label “135 lb starting” denotes the reported 135-lb load, not a separate equipment or unit. Preserve the issued #508 targets separately from performance. No extra work, cardio, rest durations, equipment changes or symptoms are inferred.
+
+**L5 and L6 earn independent increases.** Under [ordinary lift progression](../program/lift-progression.md#ordinary-progression), every prescribed set reached the ceiling with intended RIR **or more reserve**. Extension 125×15/15/15 at RIR 2 and back extension 25×12/12 at RIR 2/5 each satisfy the one-exposure rule. The RIR-5 back-extension set counts. Queue the smallest available increment for each next matching exposure, currently Sunday November 29; numeric increment availability is unreported and remains unselected. Keep demonstrated loads 125/25 and awards unused until a changed prescription applies them. Prior Stage C ceiling sets supplied no credit.
+
+**Hold other leg loads.** Calves 380 and seated curl 110 meet the current dose but have not reached every rep ceiling. Hack 135 is now reported for all three sets, but the last set at RIR 1 was closer to failure than the prescribed about 2. Hold 135 as the starting load; keep about 2 RIR and reduce later-set loading if necessary to reach six reps at that reserve. No hack loading award or validated three-set dose at the intended reserve. Bodyweight crunches remain capped at two sets and ≥3 RIR; extra reserve does not authorize loading. Record each L slot's exposure once, with the temporary ab substitute separate from its baseline exercise and without changing other days' slots.
+
+Ordinary recovery is **assumed good under the standing athlete directive**, not newly observed. No ab/Achilles/elbow response or next-day recovery accompanies the log; existing local restrictions remain. First normal-D leg performance establishes its own comparability, without retroactive Stage C progression or a new full-week manageability claim.
+
+**Friday bike tolerance:** this completed 17-set lift supplies the outstanding priority-lift evidence for November 20's 25-minute ride, alongside the qualifying November 21 run. Every leg rep floor was met, with no demonstrated bike-related decline; the hack effort deviation alone does not establish interference. Validate Friday's last-tolerated dose **20 → 25 minutes** under assumed ordinary recovery and archive the pending review. This creates no cardio actual. W5 Friday November 27 remains **15 minutes after lifting, RPE 3 (2–4)** with saved height 10.5, seat +4 and handle +3. Wednesday's separate bike history and omission are unchanged.
+
+Automatically show **Tuesday November 24 — Upper A, moved from Monday — preview**, retaining prepared prescription `hybrid-2026-10-26-tue-upper-a-508` and the exact #508 table: **18 effective sets, no cardio**. Top set 145 lb 1×4–6 at RIR 2; back-offs 137.5 lb preferred, or 140 if +2.5 lb total is unavailable and +5 is smallest, 2×6–8 at RIR 2–3; incline DB curl 22.5 lb 2×8–12; lateral raise 35 lb 4×12–20; pushdown 50 lb 3×10–15; pulldown 160 lb 2×8–12; BW decline 2×10–15 at ≥3 RIR; chest-supported row 70 lb 2×8–12. Curl/lateral/pushdown effort and all rests remain exactly as issued in #508.
+
+The independent M1b increase was already applied in #507 and moved in #508: retain its source, applied status and reset without awarding or consuming it again. November 16's separate heavy single does not increase the ordinary 145-lb top set. Remaining M-slot loads stay supported by their own actuals; Monday's L-slot awards do not transfer. Keep the current prescription ID so the unchanged preview is not represented as another exposure.
+
+Live date remains **Monday November 23, America/New_York**, despite UTC November 24. Tuesday is upcoming. W5 now has **one completed session and 17 lifting sets**, with zero W5 run/bike actuals. Achieved Stage D and last-tolerated Stage C remain unchanged. The override still sends the short run to Wednesday, omits the original Wednesday lift/bike and restores the recurring schedule November 30. Preserve W5 run doses/counters, saved unused carry, all Watch exports, W4 history and Evo SL 28.27 miles. Refresh lifting history, current-load notes, recovery provenance and daily/week views together; validate and publish.

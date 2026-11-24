@@ -408,3 +408,26 @@ Bike reported separately: **25 min, 115 W average, Z2, RPE 3 throughout**. No fr
 Session `hybrid-2026-10-26-w4-sun-2026-11-22`, prescribed `hybrid-2026-10-26-sun-legs-505` and activated #506. Athlete: **“Gonna skip today.”** Resolve today as SundayNovember22 in America/New_York and record the entire scheduled **17-set legs/bodyweight-abs/calves session skipped**, zero performed sets. Preserve its original prescription in #505/#506 and mark L1–L6 skipped in the history cache; no lift exposure, new anchor, qualification, ab/calf response or make-up work.
 
 Reason is unreported. Earlier Sunday good general recovery remains recorded and is not overwritten with fatigue, illness or symptoms. Keep achievedD and all independent working loads. MondayNovember23 remains Upper A. Decision #507.
+
+## 2026-11-23 — Hybrid v11 W5 Monday legs moved from Sunday
+
+Session `hybrid-2026-10-26-w5-mon-2026-11-23`, prescription `hybrid-2026-10-26-mon-legs-508`, **Stage D, 17 working sets**. This is Monday's authorized moved session; preserve November 22 as skipped. W5 retains normal achieved-stage lifting. No cardio prescribed or reported.
+
+| Slot | Exercise | Original prescription | Actual sets: load × reps, RIR |
+|---|---|---|---|
+| L1 | Decline crunch — bodyweight | BW · 2×10–15 · RIR ≥3 · rest 2 min | BW×15, RIR 4 / BW×15, RIR 4 |
+| L2 | Leg-press calf raise | 380 lb · 4×10–15 · RIR 1–2 · rest 2 min | 380×12, RIR 2 / 380×13, RIR 2 / 380×13, RIR 2 / 380×13, RIR 1 |
+| L3 | Hack squat | 135 lb starting · 3×6–10 · RIR 2 · rest 2–3 min | 135×6, RIR 2 / 135×6, RIR 2 / 135×6, RIR 1 |
+| L4 | Seated leg curl | 110 lb · 3×8–12 · RIR 2 · rest 2 min | 110×9, RIR 2 / 110×10, RIR 2 / 110×8, RIR 2 |
+| L5 | Leg extension | 125 lb · 3×10–15 · RIR 1–2 · rest 2 min | 125×15, RIR 2 / 125×15, RIR 2 / 125×15, RIR 2 |
+| L6 | 45-degree back extension | 25 lb · 2×8–12 · RIR 2 · rest 2 min | 25×12, RIR 2 / 25×12, RIR 5 |
+
+**Leg extension and back extension qualify independently.** L5 reached all three 15-rep ceilings at RIR 2. L6 reached both 12-rep ceilings at RIR 2/5; the final set's extra reserve satisfies the intended-RIR-or-more rule. Each earns its **smallest available load increment** for the next matching exposure. Exact increment/equipment availability is unreported, so do not invent a machine step or available implement. Retain performed loads **125/25 lb**, one qualifying exposure each and unused sources until application. If the smallest increment prevents the rep floor at intended reserve, use a smaller one if available or hold the old load and review. Prior Stage C ceiling sets supply no retrospective credit.
+
+**Hack squat:** all three sets were performed at 135 lb; “starting” is the prescription label, not a different load convention. Final RIR 1 is one rep closer to failure than the intended 2. Hold 135 lb starting, target 2 RIR throughout and reduce a later set if necessary to retain at least six reps at that reserve. Do not call the full three-set dose validated at the target effort or award a load increase. No failure target is added.
+
+Hold calves **380 lb** and seated leg curl **110 lb** while building reps; neither reached its ceiling on every set. Preserve the independent Wednesday calf record. BW crunches **15/15 at RIR 4/4** retain the bodyweight-only, maximum-two-set, minimum-3-RIR restriction and do not establish loaded-ab clearance.
+
+Each L slot's raw exposure increments once to **5** (L1's temporary substitute only); qualification is **1 for L5/L6 and 0 elsewhere**. Store the first normal-D references for L2–L6 with actual first-set effort, unknown actual rest/setup and no imported ramp plateau comparisons. Hack's first-set reference does not erase the final-set effort deviation. Baseline hanging leg raise remains uninitialized. Next matching leg work is normal **Sunday November 29**, subject to generation from current state.
+
+No fresh ab/Achilles response, equipment change or observed next-day recovery is supplied. Ordinary post-session recovery uses the standing assumed-good policy; local restrictions persist. Record the exact actuals and original dose together, preserve all earlier history and skip records, and show the moved Tuesday Upper A next. Decision **#509**.

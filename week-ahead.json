@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-11-23T04:43:53-05:00",
+  "generatedAt": "2026-11-23T21:07:39-05:00",
   "blockId": "hybrid-2026-10-26",
-  "preview": false,
+  "preview": true,
   "week": "W5",
   "phase": "Hybrid v11 — Stage D / assessment",
   "rangeStart": "2026-11-23",
   "rangeEnd": "2026-11-29",
-  "summary": "This week only: Monday legs, Tuesday Upper A, Wednesday short run, Thursday Upper B, Friday delts/arms B + 15-minute bike, Saturday W5 run, Sunday legs. Original Wednesday lift and bike omitted. Normal schedule resumes November 30. No W5 work logged yet.",
+  "summary": "This week only: Monday legs logged; Tuesday Upper A preview; Wednesday short run; Thursday Upper B; Friday delts/arms B + 15-minute bike; Saturday W5 run; Sunday legs. Original Wednesday lift and bike omitted. Normal schedule resumes November 30. W5 so far: one completed session, 17 lifting sets.",
   "days": [
     {
       "date": "2026-11-23",
       "day": "Mon",
       "session": "Legs, bodyweight abs + calves — moved",
-      "status": "today",
-      "note": "Today: 17 sets. BW decline 2×10–15 at ≥3 RIR; calves 380 lb 4×10–15 at 1–2; hack 135 lb starting 3×6–10 at 2; seated leg curl 110 lb 3×8–12 at 2; leg extension 125 lb 3×10–15 at 1–2; back extension 25 lb 2×8–12 at 2. Rest 2 minutes, hack 2–3. No cardio."
+      "status": "done",
+      "note": "Logged 17 sets. Extensions 125×15/15/15 at RIR 2 and back extensions 25×12/12 at RIR 2/5 earn the smallest next increases. Hold calves 380, hack 135 and seated leg curl 110. Hack final set was RIR 1; keep about 2 next time. BW abs remain capped at two sets."
     },
     {
       "date": "2026-11-24",
       "day": "Tue",
       "session": "Upper A — moved from Monday",
       "status": "upcoming",
-      "note": "Prepared 18-set Upper A moves unchanged. Incline top set 145 lb; back-offs 137.5 lb preferred, or 140 if +2.5 lb total is unavailable and +5 is the smallest increment. Independent slots and the once-applied increase are preserved."
+      "note": "Preview: unchanged prepared 18-set Upper A. Incline top 145 lb; back-offs 137.5 preferred, or 140 if +2.5 lb total is unavailable and +5 is the smallest increment. No cardio; ordinary recovery assumed good."
     },
     {
       "date": "2026-11-25",
@@ -55,7 +55,7 @@
       "day": "Sun",
       "session": "Legs, bodyweight abs + calves",
       "status": "upcoming",
-      "note": "Normal Sunday leg session remains six days after Monday. Generate from Monday actuals and current recovery; no doubled sets."
+      "note": "Normal Sunday legs, six days after Monday. Apply the independently earned extension/back-extension increments when generated, subject to available loading and current limits. Hold other leg loads; keep hack effort at about 2 RIR. No doubled sets."
     }
   ],
   "runningMileageCheck": {

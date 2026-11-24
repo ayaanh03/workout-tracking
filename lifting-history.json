@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "blockId": "hybrid-2026-10-26",
-  "generatedAt": "2026-11-22T19:12:08-05:00",
+  "generatedAt": "2026-11-23T21:07:34-05:00",
   "sessions": [
     {
       "date": "2026-10-25",
@@ -2903,6 +2903,168 @@
         }
       ],
       "notes": "Athlete: Gonna skip today. Entire17-set session skipped; no reason supplied, no performed sets or exposure credit. Earlier good recovery remains recorded. No make-up workout."
+    },
+    {
+      "date": "2026-11-23",
+      "week": "W5",
+      "stage": "D",
+      "sessionName": "Legs, bodyweight abs + calves — moved from Sunday",
+      "sessionId": "hybrid-2026-10-26-w5-mon-2026-11-23",
+      "prescriptionId": "hybrid-2026-10-26-mon-legs-508",
+      "actualRef": "history/lifting-log.md#2026-11-23--hybrid-v11-w5-monday-legs-moved-from-sunday",
+      "exercises": [
+        {
+          "slotId": "L1",
+          "exercise": "Decline crunch — bodyweight",
+          "status": "completed",
+          "sets": [
+            {
+              "load": "BW",
+              "reps": 15,
+              "rir": 4,
+              "units": "bodyweight"
+            },
+            {
+              "load": "BW",
+              "reps": 15,
+              "rir": 4,
+              "units": "bodyweight"
+            }
+          ],
+          "note": "November 23: BW×15/15 at RIR 4/4. Keep bodyweight only, maximum two sets and minimum 3 RIR. Extra reserve does not clear the separate ab-loading restriction; baseline hanging leg raise remains uninitialized."
+        },
+        {
+          "slotId": "L2",
+          "exercise": "Leg-press calf raise",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 380,
+              "reps": 12,
+              "rir": 2,
+              "units": "lb"
+            },
+            {
+              "load": 380,
+              "reps": 13,
+              "rir": 2,
+              "units": "lb"
+            },
+            {
+              "load": 380,
+              "reps": 13,
+              "rir": 2,
+              "units": "lb"
+            },
+            {
+              "load": 380,
+              "reps": 13,
+              "rir": 1,
+              "units": "lb"
+            }
+          ],
+          "note": "November 23: 380×12/13/13/13 at RIR 2/2/2/1. The full four-set dose meets the normal-D rep and effort targets, but not every set reached 15. Hold 380 lb and build reps; Wednesday calves remain independent and the Achilles comfort condition persists."
+        },
+        {
+          "slotId": "L3",
+          "exercise": "Hack squat",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 135,
+              "reps": 6,
+              "rir": 2,
+              "units": "lb"
+            },
+            {
+              "load": 135,
+              "reps": 6,
+              "rir": 2,
+              "units": "lb"
+            },
+            {
+              "load": 135,
+              "reps": 6,
+              "rir": 1,
+              "units": "lb"
+            }
+          ],
+          "note": "November 23: 135×6/6/6 at RIR 2/2/1. All three sets were performed at 135, but the final set went one rep closer to failure than prescribed. Hold 135 lb starting, target 2 RIR throughout and reduce a later set if six reps cannot be maintained at that reserve. No load award; the full dose at intended reserve remains unvalidated."
+        },
+        {
+          "slotId": "L4",
+          "exercise": "Seated leg curl",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 110,
+              "reps": 9,
+              "rir": 2,
+              "units": "lb"
+            },
+            {
+              "load": 110,
+              "reps": 10,
+              "rir": 2,
+              "units": "lb"
+            },
+            {
+              "load": 110,
+              "reps": 8,
+              "rir": 2,
+              "units": "lb"
+            }
+          ],
+          "note": "November 23: 110×9/10/8 at RIR 2/2/2. Full three-set dose meets range and effort. Hold 110 lb while building toward 12 on every set; no qualifying exposure."
+        },
+        {
+          "slotId": "L5",
+          "exercise": "Leg extension",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 125,
+              "reps": 15,
+              "rir": 2,
+              "units": "lb"
+            },
+            {
+              "load": 125,
+              "reps": 15,
+              "rir": 2,
+              "units": "lb"
+            },
+            {
+              "load": 125,
+              "reps": 15,
+              "rir": 2,
+              "units": "lb"
+            }
+          ],
+          "note": "November 23: 125×15/15/15 at RIR 2/2/2. All three normal-D sets reached 15 at intended reserve. Earn the smallest available increment for the next matching exposure; exact increment is unreported and unselected. Keep 125 lb as the performed load until a higher load is actually completed."
+        },
+        {
+          "slotId": "L6",
+          "exercise": "45-degree back extension",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 25,
+              "reps": 12,
+              "rir": 2,
+              "units": "lb"
+            },
+            {
+              "load": 25,
+              "reps": 12,
+              "rir": 5,
+              "units": "lb"
+            }
+          ],
+          "note": "November 23: 25×12/12 at RIR 2/5. Both normal-D sets reached 12 at intended reserve or more; final RIR 5 qualifies as extra reserve. Earn the smallest available increment for the next matching exposure, with amount/implement availability still unreported. Keep 25 lb as the performed load."
+        }
+      ],
+      "notes": "All 17 Stage D working sets reported for the approved moved leg day. November 22 remains skipped. Hack squat was 135 lb on all three sets; the final RIR 1 was closer to failure than prescribed 2. Leg extension and back extension earned their independent smallest available increments, not yet prescribed or performed. No new symptom or observed next-day recovery report; preserve bodyweight-ab and calf-comfort limits."
     }
   ]
 }
