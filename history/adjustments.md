@@ -1178,3 +1178,39 @@ Automatically show **Tuesday November 24 — Upper A, moved from Monday — prev
 The independent M1b increase was already applied in #507 and moved in #508: retain its source, applied status and reset without awarding or consuming it again. November 16's separate heavy single does not increase the ordinary 145-lb top set. Remaining M-slot loads stay supported by their own actuals; Monday's L-slot awards do not transfer. Keep the current prescription ID so the unchanged preview is not represented as another exposure.
 
 Live date remains **Monday November 23, America/New_York**, despite UTC November 24. Tuesday is upcoming. W5 now has **one completed session and 17 lifting sets**, with zero W5 run/bike actuals. Achieved Stage D and last-tolerated Stage C remain unchanged. The override still sends the short run to Wednesday, omits the original Wednesday lift/bike and restores the recurring schedule November 30. Preserve W5 run doses/counters, saved unused carry, all Watch exports, W4 history and Evo SL 28.27 miles. Refresh lifting history, current-load notes, recovery provenance and daily/week views together; validate and publish.
+
+## 2026-11-24 — log moved Upper A and preview Wednesday
+
+510. Log `hybrid-2026-10-26-w5-tue-2026-11-24` against the preserved `hybrid-2026-10-26-tue-upper-a-508`: **18 normal Stage D sets**. The pasted “preview” label does not negate the reported completion. Exact actuals:
+
+| Slot | Exercise | Load | Reps by set | RIR by set |
+|---|---|---|---|---|
+| M1a | Incline barbell bench — top set | 145 lb | 6 | 2 |
+| M1b | Incline barbell bench — back-offs | 140 lb | 6 / 6 | 2 / 2 |
+| M2 | Incline DB curl | 25 lb | 12 / 11 | 2 / 0 |
+| M3 | DB lateral raise | 35 lb | 15 / 13 / 12 / 13 | 2 / 1 / 1 / 0 |
+| M4 | Cable pushdown | 50 lb | 10 / 10 / 10 | 1 / 1 / 0 |
+| M5 | Lat pulldown | 160 lb | 10 / 8 | 2 / 2 |
+| M6 | Decline crunch — bodyweight | BW | 15 / 15 | 5 / 5 |
+| M7 | Chest-supported row | 70 lb | 12 / 12 | 2 / 2 |
+
+**Earn independent M1a and M7 increases** under [lift progression](../program/lift-progression.md). The ordinary top set reached six at RIR 2: queue **147.5 lb, or 150 if +2.5 lb total is unavailable**, for the next matching Monday, November 30. This comes from today's ordinary set, not the separate November 16 heavy single. Row 70×12/12 at RIR 2 reaches both ceilings: queue the **smallest available increment**, numeric amount unreported. Keep performed loads 145/70; sources remain unused until applied to a changed prescription. No borrowed Thursday or other-slot credit.
+
+**M1b 140 lb is now performed**, 6/6 at RIR 2 within the prescribed range/reserve. Preserve the original conditional 137.5/140 prescription and the November 16 source already applied once in #507 and migrated in #508. Logging does not re-award, re-consume or reset that source again. Hold 140 while building toward eight on both sets; no new ceiling award. Actual use of 140 does not establish the gym's availability of smaller increments.
+
+**M2 establishes 25 lb**, performed instead of prescribed 22.5. Both sets meet 8–12 and their first 1–2/final 0–1 effort. Record the reason for the heavier choice as unreported; do not infer missing dumbbells, equipment changes or symptoms. Retain 25 as this slot's working load, resetting comparable load-specific state rather than importing 22.5-lb credit. No next increase until both sets reach 12. M3 lateral 35 and M5 pulldown 160 remain below every-set ceilings, so hold and build reps. Eligible final RIR 0 on curls/laterals is literal and permitted.
+
+**M4 first-set effort needs correction:** 50×10/10/10 at RIR 1/1/0 versus about 2 on the first two sets and 0–1 on the final. Keep the 50-lb reference and target **2/2/0–1**, reducing load if needed to reach ten at the intended reserve. No loading award, extra set or decline diagnosis from unmatched effort. M6 BW15/15 at RIR 5 remains bodyweight only, maximum two sets and ≥3 RIR; extra reserve does not establish ab-loading clearance. Refresh its last exposure with unknown during/after and next-morning responses while preserving all restriction and symptom history.
+
+Ordinary post-session recovery and Wednesday readiness use the standing **assumed-good** policy. No fresh elbow, shoulder, ab, Achilles or next-day response is supplied. Preserve ongoing exercise replacements, local restrictions, achieved Stage D, last-tolerated Stage C, unrelated slot awards and Monday's leg actuals. Increment each performed M slot once; the temporary ab substitute remains separate from baseline cable crunch. Live date is **Tuesday November 24, America/New_York**, despite UTC November 25.
+
+Automatically publish **Wednesday November 25 — W5 short intervals, moved from Tuesday — preview**, retaining `hybrid-2026-10-26-wed-intervals-508` and its existing Watch file unchanged:
+
+- **10 minutes easy warmup**, optionally up to five extra minutes.
+- **2×4 minutes at 6:40/mile**, with **one 3-minute easy jog/walk recovery** between reps.
+- **10 minutes easy cooldown**. **31 minutes total**, eight work minutes, final-rep **RPE ≤8**.
+- Work-only pace alerts **6:35–6:45/mile**; no easy-section, HR, power or cadence alerts. File: `runs/2026-11-25.workout`.
+
+[W5 assessment rules](../program/assessments.md) require the lighter endurance dose at the current target. Preserve normal 3×4/6:40 and the unused saved 6:35 award; assessment work cannot apply it or earn ordinary run credit. Review the carry after eligible completed B at the first normal opportunity; a test or other cancellation event cancels it. No test is selected and no early counter reset occurs. The no-test complete-week mileage estimate remains **8.168536251709988 miles**, upper **9.379895755770661**, below 15; these are plans, not actual mileage. Saturday's no-test 2×6 recommendation and Friday's 15-minute bike remain unchanged.
+
+W5 now has **two completed sessions, 35 lifting sets, zero running/cycling actuals**. Wednesday is upcoming; the original Wednesday lift/bike remain omitted and the normal schedule resumes November 30. Preserve Sunday November 22's skip, all previous actuals, bike tolerance, run counters/sources, Watch files and Evo SL **28.27 miles**. Refresh exact lifting history, current-load notes, recovery provenance and both dashboard views; verify and publish.

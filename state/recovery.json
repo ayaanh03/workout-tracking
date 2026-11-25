@@ -44,11 +44,11 @@
       "response_status": "latest-bodyweight-exposure-response-unreported",
       "progression_limit": "No added weight, extra sets or baseline cable/hanging-raise restoration while original-site symptoms remain. Bodyweight work is permitted only if comfortable; stop or reduce aggravating work rather than continuing until the sensation fades. Reconsider a small loaded trial after a BW exposure is comfortable during/after and the next morning, with a fresh loading review.",
       "last_exposure": {
-        "date": "2026-11-19",
-        "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
-        "slot": "T7 temporary substitute",
+        "date": "2026-11-24",
+        "session_id": "hybrid-2026-10-26-w5-tue-2026-11-24",
+        "slot": "M6 temporary substitute",
         "exercise": "Decline crunch — bodyweight",
-        "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+        "source": "../history/lifting-log.md#2026-11-24--hybrid-v11-w5-tuesday-upper-a-moved-from-monday",
         "load": "BW",
         "external_load_lb": 0,
         "sets": 2,
@@ -279,6 +279,26 @@
           "slot": "M6 temporary substitute",
           "exercise": "Decline crunch — bodyweight",
           "source": "../history/lifting-log.md#2026-11-16--hybrid-v11-w4-monday-upper-a-single",
+          "load": "BW",
+          "external_load_lb": 0,
+          "sets": 2,
+          "reps": [
+            15,
+            15
+          ],
+          "rir": [
+            5,
+            5
+          ],
+          "symptom_response": null,
+          "next_morning_response": null
+        },
+        {
+          "date": "2026-11-19",
+          "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+          "slot": "T7 temporary substitute",
+          "exercise": "Decline crunch — bodyweight",
+          "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
           "load": "BW",
           "external_load_lb": 0,
           "sets": 2,
@@ -892,25 +912,26 @@
     }
   ],
   "post_session": {
-    "date": "2026-11-23",
-    "session_id": "hybrid-2026-10-26-w5-mon-2026-11-23",
+    "date": "2026-11-24",
+    "session_id": "hybrid-2026-10-26-w5-tue-2026-11-24",
     "completion": "reported",
-    "decision_id": 509,
-    "working_sets": 17,
+    "decision_id": 510,
+    "working_sets": 18,
     "status": "general-recovery-assumed-specific-symptom-response-unreported",
     "lower_ab_response": null,
     "achilles_response": null,
     "elbow_response": null,
+    "shoulder_response": null,
     "next_day_recovery": null,
     "recovery_decision": {
       "status": "assumed-good",
       "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-      "decision_id": 509,
-      "recorded_at": "2026-11-23T21:07:39-05:00",
+      "decision_id": 510,
+      "recorded_at": "2026-11-24T20:51:01-05:00",
       "observed": false,
-      "reason": "Standing athlete default supplies ordinary post-session recovery and Tuesday readiness. This log supplies completed performance, not observed next-day recovery or site-specific symptom clearance; preserve existing local restrictions."
+      "reason": "Standing athlete default supplies ordinary post-session recovery and Wednesday readiness. Completed Upper A is reported without a new recovery or site-specific symptom report. Preserve active local restrictions; no next-day observation or clearance is inferred."
     },
-    "note": "Moved leg workout completed. Hack final set RIR 1 is an effort deviation, not a new symptom report. General recovery assumed good; no observed next-day recovery, ab/Achilles response or loaded-ab clearance supplied."
+    "note": "Upper A completed at normal Stage D. Heavier actual curl/back-off loads and final RIR 0 sets are recorded literally. No fresh tendon/ab response, next-day recovery or loading clearance; permanent exercise replacements and local limits persist."
   },
   "prior_pending_post_sessions": [
     {
@@ -1360,6 +1381,27 @@
         }
       ],
       "followup_decision_id": 506
+    },
+    {
+      "date": "2026-11-23",
+      "session_id": "hybrid-2026-10-26-w5-mon-2026-11-23",
+      "completion": "reported",
+      "decision_id": 509,
+      "working_sets": 17,
+      "status": "general-recovery-assumed-specific-symptom-response-unreported",
+      "lower_ab_response": null,
+      "achilles_response": null,
+      "elbow_response": null,
+      "next_day_recovery": null,
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 509,
+        "recorded_at": "2026-11-23T21:07:39-05:00",
+        "observed": false,
+        "reason": "Standing athlete default supplies ordinary post-session recovery and Tuesday readiness. This log supplies completed performance, not observed next-day recovery or site-specific symptom clearance; preserve existing local restrictions."
+      },
+      "note": "Moved leg workout completed. Hack final set RIR 1 is an effort deviation, not a new symptom report. General recovery assumed good; no observed next-day recovery, ab/Achilles response or loaded-ab clearance supplied."
     }
   ],
   "resolved_post_sessions": [
@@ -1779,11 +1821,11 @@
   "planning_readiness": {
     "status": "assumed-good",
     "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-    "decision_id": 509,
-    "recorded_at": "2026-11-23T21:07:39-05:00",
+    "decision_id": 510,
+    "recorded_at": "2026-11-24T20:51:01-05:00",
     "observed": false,
-    "reason": "Standing athlete default supplies ordinary post-session recovery and Tuesday readiness. This log supplies completed performance, not observed next-day recovery or site-specific symptom clearance; preserve existing local restrictions.",
-    "for_date": "2026-11-24"
+    "reason": "Standing athlete default supplies ordinary post-session recovery and Wednesday readiness. Completed Upper A is reported without a new recovery or site-specific symptom report. Preserve active local restrictions; no next-day observation or clearance is inferred.",
+    "for_date": "2026-11-25"
   },
   "general_readiness_history": [
     {
@@ -2158,6 +2200,15 @@
       "for_date": "2026-11-23",
       "observed": false,
       "reason": "Standing athlete default supplies ordinary current Monday readiness. The latest explicit recovery report was good Sunday; today’s schedule approval supplies no new symptoms or observed metrics. Preserve all local restrictions."
+    },
+    {
+      "status": "assumed-good",
+      "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+      "decision_id": 509,
+      "recorded_at": "2026-11-23T21:07:39-05:00",
+      "observed": false,
+      "reason": "Standing athlete default supplies ordinary post-session recovery and Tuesday readiness. This log supplies completed performance, not observed next-day recovery or site-specific symptom clearance; preserve existing local restrictions.",
+      "for_date": "2026-11-24"
     }
   ],
   "recovery_override_history": [

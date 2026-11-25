@@ -431,3 +431,28 @@ Hold calves **380 lb** and seated leg curl **110 lb** while building reps; neith
 Each L slot's raw exposure increments once to **5** (L1's temporary substitute only); qualification is **1 for L5/L6 and 0 elsewhere**. Store the first normal-D references for L2–L6 with actual first-set effort, unknown actual rest/setup and no imported ramp plateau comparisons. Hack's first-set reference does not erase the final-set effort deviation. Baseline hanging leg raise remains uninitialized. Next matching leg work is normal **Sunday November 29**, subject to generation from current state.
 
 No fresh ab/Achilles response, equipment change or observed next-day recovery is supplied. Ordinary post-session recovery uses the standing assumed-good policy; local restrictions persist. Record the exact actuals and original dose together, preserve all earlier history and skip records, and show the moved Tuesday Upper A next. Decision **#509**.
+
+## 2026-11-24 — Hybrid v11 W5 Tuesday Upper A moved from Monday
+
+Session `hybrid-2026-10-26-w5-tue-2026-11-24`, prescription `hybrid-2026-10-26-tue-upper-a-508`, **Stage D, 18 working sets**. Tuesday placement follows the approved one-week override; retain Monday-template M-slot identities and the original issued dose. No cardio prescribed or reported.
+
+| Slot | Exercise | Original prescription | Actual sets: load × reps, RIR |
+|---|---|---|---|
+| M1a | Incline barbell bench — top set | 145 lb · 1×4–6 · RIR 2 · rest 3–4 min | 145×6, RIR 2 |
+| M1b | Incline barbell bench — back-offs | 137.5 lb preferred; 140 if +2.5 total unavailable and +5 smallest · 2×6–8 · RIR 2–3 · rest 3–4 min | 140×6, RIR 2 / 140×6, RIR 2 |
+| M2 | Incline DB curl | 22.5 lb · 2×8–12 · first RIR 1–2, final 0–1 · rest 2 min | 25×12, RIR 2 / 25×11, RIR 0 |
+| M3 | DB lateral raise | 35 lb · 4×12–20 · first three RIR 1–2, final 0–1 · rest 2 min | 35×15, RIR 2 / 35×13, RIR 1 / 35×12, RIR 1 / 35×13, RIR 0 |
+| M4 | Cable pushdown | 50 lb · 3×10–15 · first two RIR 2, final 0–1 · rest 2 min | 50×10, RIR 1 / 50×10, RIR 1 / 50×10, RIR 0 |
+| M5 | Lat pulldown | 160 lb · 2×8–12 · RIR 2 · rest 2–3 min | 160×10, RIR 2 / 160×8, RIR 2 |
+| M6 | Decline crunch — bodyweight | BW · 2×10–15 · RIR ≥3 · rest 2 min | BW×15, RIR 5 / BW×15, RIR 5 |
+| M7 | Chest-supported row | 70 lb · 2×8–12 · RIR 2 · rest 2–3 min | 70×12, RIR 2 / 70×12, RIR 2 |
+
+**Independent increases earned:** M1a's normal-D 145×6 at RIR 2 qualifies the ordinary top-set increase: **147.5 lb next Monday, or 150 if +2.5 lb total is unavailable**. This is separate from the November 16 heavy single; preserve that actual unchanged. M7's 70×12/12 at RIR 2/2 qualifies its **smallest available increment**, with numeric step/implement availability unreported and unselected. Keep performed loads 145/70, one qualifying exposure each and unused sources until applied to a new prescription. If an increment prevents the rep floor at intended reserve, use smaller loading if available or hold and review. Next matching date is regular Monday November 30.
+
+**Back-offs:** 140×6/6 at RIR 2/2 demonstrates the new load within the prescribed range and reserve. Record actual 140, hold it while building toward eight on both sets, and award no further increase. November 16's earned step was already applied once in #507 and moved in #508; retain the consumed source and completed applied prescription in history, without a second reset/consumption. Actual use of 140 does not independently confirm whether +2.5 lb total was unavailable.
+
+**Incline curls:** the athlete used 25 lb rather than the prescribed 22.5. Both sets meet range and effort, so retain 25 as this M2 slot's demonstrated load. No new increase: the second set reached 11 rather than 12. Preserve the reason/equipment availability as unreported; do not import Friday's 30-lb curl performance or its prior equipment explanation.
+
+**Pushdowns:** first two sets at RIR 1 were closer to failure than intended RIR 2; final RIR 0 is allowed. Hold 50 lb, restore about 2 RIR on the first two sets and 0–1 on the final set, reducing load if needed to reach ten reps at the intended reserve. The first-set change from 12 at RIR 2 to 10 at RIR 1 is not a matched-effort persistent-decline finding. No new local rollback or extra sets. Lateral raises and pulldowns retain 35/160 while building reps; neither reached every ceiling. Bodyweight decline 15/15 at RIR 5/5 does not clear the persistent bodyweight/two-set/minimum-3-RIR limit.
+
+Increment each active M-slot exposure once: M1a five total (four ordinary plus one heavy single), M1b/M2/M3/M5/M6/M7 five, M4 pushdown four since replacement. Preserve the former overhead-extension history. Normal reference changes for actual load/first-set-RIR changes retain old windows; no ramp credit or invented setup/rest comparability. Qualifications are one each for M1a/M7 and zero for the others. Ordinary recovery is assumed good under the standing policy; observed next-day recovery and site-specific symptoms are unreported. No ab clearance, new injury or completed Wednesday run inferred. Decision **#510**.

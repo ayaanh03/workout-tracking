@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "blockId": "hybrid-2026-10-26",
-  "generatedAt": "2026-11-23T21:07:34-05:00",
+  "generatedAt": "2026-11-24T20:51:22-05:00",
   "sessions": [
     {
       "date": "2026-10-25",
@@ -3065,6 +3065,190 @@
         }
       ],
       "notes": "All 17 Stage D working sets reported for the approved moved leg day. November 22 remains skipped. Hack squat was 135 lb on all three sets; the final RIR 1 was closer to failure than prescribed 2. Leg extension and back extension earned their independent smallest available increments, not yet prescribed or performed. No new symptom or observed next-day recovery report; preserve bodyweight-ab and calf-comfort limits."
+    },
+    {
+      "date": "2026-11-24",
+      "week": "W5",
+      "stage": "D",
+      "sessionName": "Upper A — moved from Monday",
+      "sessionId": "hybrid-2026-10-26-w5-tue-2026-11-24",
+      "prescriptionId": "hybrid-2026-10-26-tue-upper-a-508",
+      "actualRef": "history/lifting-log.md#2026-11-24--hybrid-v11-w5-tuesday-upper-a-moved-from-monday",
+      "exercises": [
+        {
+          "slotId": "M1a",
+          "exercise": "Incline barbell bench — top set",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 145,
+              "reps": 6,
+              "rir": 2,
+              "units": "lb"
+            }
+          ],
+          "note": "November 24: 145×6 at RIR 2 is a normal-D ordinary top set at the ceiling with intended reserve. Earn 147.5 lb next matching Monday, or 150 lb if +2.5 lb total is unavailable. Keep 145 as the performed load; the November 16 heavy single stays separate."
+        },
+        {
+          "slotId": "M1b",
+          "exercise": "Incline barbell bench — back-offs",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 140,
+              "reps": 6,
+              "rir": 2,
+              "units": "lb"
+            },
+            {
+              "load": 140,
+              "reps": 6,
+              "rir": 2,
+              "units": "lb"
+            }
+          ],
+          "note": "November 24: 140×6/6 at RIR 2/2 meets the prescribed back-off range/reserve and establishes 140 as the performed working load. Keep 140 and build toward eight on both sets. The prior November 16 award was already applied once in #507 and migrated in #508; no new award or second consumption/reset. Smaller-increment availability was not reported."
+        },
+        {
+          "slotId": "M2",
+          "exercise": "Incline DB curl",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 25,
+              "reps": 12,
+              "rir": 2,
+              "units": "lb"
+            },
+            {
+              "load": 25,
+              "reps": 11,
+              "rir": 0,
+              "units": "lb"
+            }
+          ],
+          "note": "November 24: 25×12/11 at RIR 2/0 instead of prescribed 22.5 lb. Both sets demonstrate 25 within the range and normal-D effort; retain 25 for this slot. No further award because the second set did not reach 12. Reason for choosing 25 and equipment availability are unreported; do not borrow Friday evidence."
+        },
+        {
+          "slotId": "M3",
+          "exercise": "DB lateral raise",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 35,
+              "reps": 15,
+              "rir": 2,
+              "units": "lb"
+            },
+            {
+              "load": 35,
+              "reps": 13,
+              "rir": 1,
+              "units": "lb"
+            },
+            {
+              "load": 35,
+              "reps": 12,
+              "rir": 1,
+              "units": "lb"
+            },
+            {
+              "load": 35,
+              "reps": 13,
+              "rir": 0,
+              "units": "lb"
+            }
+          ],
+          "note": "November 24: 35×15/13/12/13 at RIR 2/1/1/0. Full dose meets range and effort, but not all four sets reached 20. Hold 35 lb; zero qualifying exposures. Final RIR 0 is permitted."
+        },
+        {
+          "slotId": "M4",
+          "exercise": "Cable pushdown",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 50,
+              "reps": 10,
+              "rir": 1,
+              "units": "lb"
+            },
+            {
+              "load": 50,
+              "reps": 10,
+              "rir": 1,
+              "units": "lb"
+            },
+            {
+              "load": 50,
+              "reps": 10,
+              "rir": 0,
+              "units": "lb"
+            }
+          ],
+          "note": "November 24: 50×10/10/10 at RIR 1/1/0. First two sets were closer to failure than prescribed 2 RIR; final 0 is permitted. Hold 50 lb and target 2 RIR on the first two sets, 0–1 on the last, reducing load if needed to reach ten reps at intended reserve. No qualification or persistent-decline finding from unmatched first-set effort."
+        },
+        {
+          "slotId": "M5",
+          "exercise": "Lat pulldown",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 160,
+              "reps": 10,
+              "rir": 2,
+              "units": "lb"
+            },
+            {
+              "load": 160,
+              "reps": 8,
+              "rir": 2,
+              "units": "lb"
+            }
+          ],
+          "note": "November 24: 160×10/8 at RIR 2/2. Full dose meets range/effort; not both sets reached 12. Hold 160 lb and build reps independently."
+        },
+        {
+          "slotId": "M6",
+          "exercise": "Decline crunch — bodyweight",
+          "status": "completed",
+          "sets": [
+            {
+              "load": "BW",
+              "reps": 15,
+              "rir": 5,
+              "units": "bodyweight"
+            },
+            {
+              "load": "BW",
+              "reps": 15,
+              "rir": 5,
+              "units": "bodyweight"
+            }
+          ],
+          "note": "November 24: BW×15/15 at RIR 5/5. Preserve the extra reserve and persistent bodyweight-only, maximum-two-set, minimum-3-RIR limit. No fresh strain-site response or loaded-ab clearance is supplied."
+        },
+        {
+          "slotId": "M7",
+          "exercise": "Chest-supported row",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 70,
+              "reps": 12,
+              "rir": 2,
+              "units": "lb"
+            },
+            {
+              "load": 70,
+              "reps": 12,
+              "rir": 2,
+              "units": "lb"
+            }
+          ],
+          "note": "November 24: 70×12/12 at RIR 2/2. Both normal-D sets reached 12 at intended reserve; earn the smallest available increment for the next matching Monday. Exact increment/implement availability remains unreported and unselected. Keep 70 as the performed load and preserve its existing notation."
+        }
+      ],
+      "notes": "All 18 normal-D sets reported. Top-set incline and chest-supported row earned independent next-load increases. Back-offs were 140 lb; incline DB curls were 25 lb versus prescribed 22.5, with reason unreported. Pushdown first two sets at RIR 1 were closer than prescribed 2. No new symptom or observed next-day recovery report; local ab limit remains."
     }
   ]
 }

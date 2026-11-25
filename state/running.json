@@ -446,10 +446,10 @@
       "recovery_basis": {
         "status": "assumed-good",
         "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-        "decision_id": 508,
-        "recorded_at": "2026-11-23T04:43:19-05:00",
+        "decision_id": 510,
+        "recorded_at": "2026-11-24T20:51:01-05:00",
         "observed": false,
-        "reason": "Standing athlete default supplies ordinary W5 planning recovery. Latest explicit general recovery was good November22; approval of the one-week rearrangement supplies no new symptoms or observed future recovery. No active global fatigue, acute recovery override or run-return restriction is recorded."
+        "reason": "Standing athlete default supplies ordinary post-session recovery and Wednesday readiness. Completed Upper A is reported without a new recovery or site-specific symptom report. Preserve active local restrictions; no next-day observation or clearance is inferred."
       },
       "mileage_check": {
         "week": "W5",
@@ -466,7 +466,20 @@
       },
       "source": "../history/cardio-log.md#2026-11-23--w5-endurance-schedule-and-carried-award",
       "reason": "User-approved W5 schedule moves Tuesday short intervals to Wednesday to separate Monday leg/calf lifting from running. Recovered W5 A/B use2×4 at current6:40, not the saved6:35 candidate. This temporary assessment dose earns no ordinary hit/miss/comfortable credit and does not replace the normal3×4 dose. Keep the one-week movement scoped to Nov23–29.",
-      "action": "prescribe-moved-assessment-dose-hold-normal-pace"
+      "action": "prescribe-moved-assessment-dose-hold-normal-pace",
+      "recovery_basis_history": [
+        {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 508,
+          "recorded_at": "2026-11-23T04:43:19-05:00",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary W5 planning recovery. Latest explicit general recovery was good November22; approval of the one-week rearrangement supplies no new symptoms or observed future recovery. No active global fatigue, acute recovery override or run-return restriction is recorded."
+        }
+      ],
+      "last_review_decision_id": 510,
+      "last_reviewed_on": "2026-11-24",
+      "review_note": "Prepared #508 dose unchanged after Tuesday Upper A logging. Wednesday is the next uncompleted session under the one-week override. Saved carry, normal dose, counters and all actuals remain unchanged."
     },
     "pace_adjustment_history": [
       {

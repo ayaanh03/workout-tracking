@@ -6,7 +6,7 @@
   "start_date": "2026-10-25",
   "end_date": "2027-01-03",
   "timezone": "America/New_York",
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "activation_status": "active",
   "calendar_week": "W5",
   "calendar_phase": "Build",
@@ -58,7 +58,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 509,
+  "last_adjustment_id": 510,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -914,6 +914,31 @@
       },
       "schedule_override_id": "2026-11-23-week-five-reschedule",
       "review_note": "All 17 prescribed sets reported. L5 and L6 reach all ceiling reps with intended reserve or more and earn independent smallest increments for next use. L3 final set at RIR 1 versus about 2: hold 135 lb and calibrate effort. No new injury response, cardio or mileage."
+    },
+    "2026-11-24": {
+      "calendar_week": "W5",
+      "session": "Upper A — moved from Monday",
+      "session_id": "hybrid-2026-10-26-w5-tue-2026-11-24",
+      "status": "completed",
+      "stage": "D",
+      "working_sets": 18,
+      "reported_working_sets": 18,
+      "prescribed_working_sets": 18,
+      "prescription_id": "hybrid-2026-10-26-tue-upper-a-508",
+      "decision_id": 510,
+      "reported_at": "2026-11-24T20:51:01-05:00",
+      "actual_ref": "../history/lifting-log.md#2026-11-24--hybrid-v11-w5-tuesday-upper-a-moved-from-monday",
+      "recovery_status": "ordinary-recovery-assumed-good",
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 510,
+        "recorded_at": "2026-11-24T20:51:01-05:00",
+        "observed": false,
+        "reason": "Standing athlete default supplies ordinary post-session recovery and Wednesday readiness. Completed Upper A is reported without a new recovery or site-specific symptom report. Preserve active local restrictions; no next-day observation or clearance is inferred."
+      },
+      "schedule_override_id": "2026-11-23-week-five-reschedule",
+      "review_note": "All 18 sets reported. M1a 145×6 RIR 2 and M7 70×12/12 RIR 2 earn independent next increases. M1b 140 and M2 25 are performed working loads; no further increase yet. Pushdown first two sets at RIR 1 were closer than intended 2. No new symptom clearance, cardio or mileage."
     }
   },
   "planned_start_date": "2026-10-26",
@@ -1110,8 +1135,8 @@
       "range_end": "2026-11-29",
       "stage": "D",
       "completion": "in-progress",
-      "completed_sessions": 1,
-      "known_lifting_sets": 17,
+      "completed_sessions": 2,
+      "known_lifting_sets": 35,
       "known_running_work_minutes": 0,
       "confirmed_running_miles": 0,
       "known_cycling_minutes": 0,
@@ -1120,11 +1145,11 @@
       "known_rowing_seconds": 0,
       "manageable": null,
       "status": "week-in-progress",
-      "decision_id": 509,
-      "source": "../history/adjustments.md#2026-11-23--log-moved-legs-and-preview-tuesday",
+      "decision_id": 510,
+      "source": "../history/adjustments.md#2026-11-24--log-moved-upper-a-and-preview-wednesday",
       "schedule_override_id": "2026-11-23-week-five-reschedule",
       "planned_lifting_sets": 85,
-      "note": "Monday’s moved leg session completed: 17 normal-D sets. Six other dated sessions remain unperformed; original Wednesday delts/arms A and bike remain omitted. Planned weekly 85 lifting sets and Friday 15-minute bike are unchanged, subject to subsequent actuals/recovery. No full-week manageability or stage advancement inferred."
+      "note": "Moved Monday legs (17 sets) and Tuesday Upper A (18 sets) completed: 35 normal-D lifting sets. Remaining sessions are unperformed; original Wednesday delts/arms A and bike remain omitted. No W5 running/cycling actuals or full-week manageability yet."
     }
   },
   "program_amendments": [
@@ -1216,14 +1241,14 @@
     "publish_next_workout": true,
     "default_recovery": "assumed-good-unless-reported-otherwise",
     "source": "../program/readiness.md",
-    "last_generated_date": "2026-11-24",
-    "last_generated_prescription_id": "hybrid-2026-10-26-tue-upper-a-508",
-    "last_generated_from_session_id": "hybrid-2026-10-26-w5-mon-2026-11-23",
+    "last_generated_date": "2026-11-25",
+    "last_generated_prescription_id": "hybrid-2026-10-26-wed-intervals-508",
+    "last_generated_from_session_id": "hybrid-2026-10-26-w5-tue-2026-11-24",
     "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping.",
     "last_generation_trigger": "automatic-next-workout-after-logged-session",
-    "last_generation_decision_id": 509,
-    "last_review_decision_id": 509,
-    "last_review_reason": "Log moved Monday legs and publish Tuesday Upper A preview under the approved one-week override. Live date stays Monday November 23; Tuesday remains upcoming."
+    "last_generation_decision_id": 510,
+    "last_review_decision_id": 510,
+    "last_review_reason": "Log moved Tuesday Upper A and publish the prepared Wednesday W5 run preview. Live date is Tuesday November 24; Wednesday remains upcoming. Normal schedule resumes November 30."
   },
   "session_freeze_history": [
     {
@@ -1425,7 +1450,7 @@
           ],
           "prescription_id": "hybrid-2026-10-26-tue-upper-a-508",
           "supersedes_prescription_id": "hybrid-2026-10-26-mon-upper-a-507",
-          "status": "prescribed-preview-not-performed",
+          "status": "completed",
           "lift": {
             "table": [
               {
@@ -1555,8 +1580,12 @@
               ]
             }
           },
-          "note": "The same 18-set dose from #507 moves one day. M1b 137.5 lb preferred / 140 conditional: source already applied once; no second reset or load award.",
-          "last_review_decision_id": 509
+          "note": "Moved Tuesday Upper A completed against the preserved #508 prescription. Record actual back-offs 140 lb and incline curls 25 lb separately from the original load choices; source credit stays independent.",
+          "last_review_decision_id": 510,
+          "session_id": "hybrid-2026-10-26-w5-tue-2026-11-24",
+          "completion_decision_id": 510,
+          "actual_ref": "../history/lifting-log.md#2026-11-24--hybrid-v11-w5-tuesday-upper-a-moved-from-monday",
+          "working_sets": 18
         },
         {
           "scheduled_date": "2026-11-25",
@@ -1576,7 +1605,8 @@
               "rpe": "Final rep ≤8/10"
             },
             "workoutFile": "runs/2026-11-25.workout"
-          }
+          },
+          "last_review_decision_id": 510
         },
         {
           "scheduled_date": "2026-11-26",
@@ -1814,18 +1844,20 @@
     "compatibility_review": "Friday delts/arms B has no direct leg/calf work before Saturday running, and its triceps are not the day before incline. Running remains separate from lifting/bike. Sunday legs and Monday/Thursday incline remain in place."
   },
   "next_session_adjustment": {
-    "date": "2026-11-24",
-    "decision_id": 509,
+    "date": "2026-11-25",
+    "decision_id": 510,
     "status": "preview-not-performed",
-    "original_session": "Upper A — Monday template",
-    "effective_session": "Upper A — moved to Tuesday",
-    "prescription_id": "hybrid-2026-10-26-tue-upper-a-508",
-    "source": "../history/adjustments.md#2026-11-23--log-moved-legs-and-preview-tuesday",
+    "original_session": "Intervals — Tuesday track",
+    "effective_session": "W5 short intervals — moved to Wednesday",
+    "prescription_id": "hybrid-2026-10-26-wed-intervals-508",
+    "source": "../history/adjustments.md#2026-11-24--log-moved-upper-a-and-preview-wednesday",
     "preview": true,
-    "stage": "D",
-    "working_sets": 18,
+    "work_minutes": 8,
+    "total_minutes": 31,
+    "pace_seconds_per_mile": 400,
+    "rpe_cap": 8,
     "schedule_override_id": "2026-11-23-week-five-reschedule",
-    "reason": "After the completed moved Monday legs, the approved override selects Tuesday Upper A. Retain #508’s exact prepared dose and once-applied M1b increase; no new award/source consumption. Wednesday is the moved short run."
+    "reason": "After completed Tuesday Upper A, the approved override selects Wednesday short intervals. Preserve the exact prepared #508 W5 dose and Watch file; saved 6:35 carry does not speed assessment work."
   },
   "next_session_adjustment_history": [
     {
@@ -2027,6 +2059,23 @@
       "completed_on": "2026-11-23",
       "completion_decision_id": 509,
       "session_id": "hybrid-2026-10-26-w5-mon-2026-11-23"
+    },
+    {
+      "date": "2026-11-24",
+      "decision_id": 509,
+      "status": "completed",
+      "original_session": "Upper A — Monday template",
+      "effective_session": "Upper A — moved to Tuesday",
+      "prescription_id": "hybrid-2026-10-26-tue-upper-a-508",
+      "source": "../history/adjustments.md#2026-11-23--log-moved-legs-and-preview-tuesday",
+      "preview": true,
+      "stage": "D",
+      "working_sets": 18,
+      "schedule_override_id": "2026-11-23-week-five-reschedule",
+      "reason": "After the completed moved Monday legs, the approved override selects Tuesday Upper A. Retain #508’s exact prepared dose and once-applied M1b increase; no new award/source consumption. Wednesday is the moved short run.",
+      "completed_on": "2026-11-24",
+      "completion_decision_id": 510,
+      "session_id": "hybrid-2026-10-26-w5-tue-2026-11-24"
     }
   ],
   "assessment_boundary_review": {

@@ -1,238 +1,121 @@
 {
-  "generatedAt": "2026-11-23T21:07:39-05:00",
+  "generatedAt": "2026-11-24T20:51:01-05:00",
   "blockId": "hybrid-2026-10-26",
-  "prescriptionId": "hybrid-2026-10-26-tue-upper-a-508",
+  "prescriptionId": "hybrid-2026-10-26-wed-intervals-508",
   "preview": true,
   "week": "W5",
-  "day": "Tue",
-  "date": "2026-11-24",
-  "phase": "Hybrid v11 — Stage D / W5 assessment",
-  "sessionName": "Upper A — moved from Monday — preview",
+  "day": "Wed",
+  "date": "2026-11-25",
+  "phase": "Hybrid v11 — W5 assessment / Stage D lifting",
+  "sessionName": "W5 short intervals — moved from Tuesday — preview",
   "why": [
-    "Next is Tuesday Upper A under your one-week schedule change. Monday’s 17-set leg workout is logged; the short run follows Wednesday.",
-    "18 effective Stage D sets. W5 reduces endurance while keeping normal lifting; ordinary recovery is assumed good under your standing preference."
+    "Next is Wednesday’s short run under your one-week schedule change. Monday legs and Tuesday Upper A are logged; the original Wednesday lift and bike remain omitted.",
+    "W5 uses a planned lighter endurance dose: 2×4 minutes at the current 6:40/mile target. Ordinary recovery is assumed good. The normal running reference remains 3×4."
   ],
-  "intro": [
-    "Incline back-offs: use 137.5 lb if available, or 140 lb if +5 lb total is the smallest available increment."
-  ],
-  "lift": {
-    "table": [
-      {
-        "slotId": "M1a",
-        "exercise": "Incline barbell bench — top set",
-        "setsReps": "1×4–6",
-        "load": "145 lb",
-        "rir": "2",
-        "rest": "3–4 min"
-      },
-      {
-        "slotId": "M1b",
-        "exercise": "Incline barbell bench — back-offs",
-        "setsReps": "2×6–8",
-        "load": "137.5 lb; 140 lb if +2.5 total unavailable",
-        "rir": "2–3",
-        "rest": "3–4 min"
-      },
-      {
-        "slotId": "M2",
-        "exercise": "Incline DB curl",
-        "setsReps": "2×8–12",
-        "load": "22.5 lb",
-        "rir": "First: 1–2; final: 0–1",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "M3",
-        "exercise": "DB lateral raise",
-        "setsReps": "4×12–20",
-        "load": "35 lb",
-        "rir": "Sets 1–3: 1–2; final: 0–1",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "M4",
-        "exercise": "Cable pushdown",
-        "setsReps": "3×10–15",
-        "load": "50 lb",
-        "rir": "Sets 1–2: 2; final: 0–1",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "M5",
-        "exercise": "Lat pulldown",
-        "setsReps": "2×8–12",
-        "load": "160 lb",
-        "rir": "2",
-        "rest": "2–3 min"
-      },
-      {
-        "slotId": "M6",
-        "exercise": "Decline crunch — bodyweight",
-        "setsReps": "2×10–15",
-        "load": "BW",
-        "rir": "≥3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "M7",
-        "exercise": "Chest-supported row",
-        "setsReps": "2×8–12",
-        "load": "70 lb",
-        "rir": "2",
-        "rest": "2–3 min"
-      }
+  "intro": [],
+  "lift": null,
+  "cardio": {
+    "workout": "2×4 minutes at 6:40/mile, with one 3-minute easy jog/walk recovery between reps. 31 minutes total including warmup and cooldown.",
+    "warmup": "10 minutes easy; up to five extra minutes if needed.",
+    "cooldown": "10 minutes easy jog/walk.",
+    "targets": {
+      "pace": "6:40/mile during work reps",
+      "rpe": "Final rep ≤8/10; slow down if needed to stay within the cap."
+    },
+    "flags": [
+      "Work-only pace alerts: 6:35–6:45/mile. These guide pacing; faster running is not a miss.",
+      "No lifting or bike this day."
     ],
-    "lastWeek": {
-      "label": "Latest matching actuals: ordinary incline top Nov9; other slots Nov16. Nov16 single is separate.",
-      "table": [
-        {
-          "slotId": "M1a",
-          "exercise": "Incline barbell bench — top set",
-          "load": "145 lb",
-          "reps": "6",
-          "rir": "3"
-        },
-        {
-          "slotId": "M1b",
-          "exercise": "Incline barbell bench — back-offs",
-          "load": "135 lb",
-          "reps": "8 / 8",
-          "rir": "3 / 2"
-        },
-        {
-          "slotId": "M2",
-          "exercise": "Incline DB curl",
-          "load": "22.5 lb",
-          "reps": "12 / 11",
-          "rir": "3 / 0"
-        },
-        {
-          "slotId": "M3",
-          "exercise": "DB lateral raise",
-          "load": "35 lb",
-          "reps": "14 / 14 / 12 / 12",
-          "rir": "2 / 1 / 2 / 1"
-        },
-        {
-          "slotId": "M4",
-          "exercise": "Cable pushdown",
-          "load": "50 lb",
-          "reps": "12 / 10 / 10",
-          "rir": "2 / 2 / 0"
-        },
-        {
-          "slotId": "M5",
-          "exercise": "Lat pulldown",
-          "load": "160 lb",
-          "reps": "8 / 8",
-          "rir": "2 / 2"
-        },
-        {
-          "slotId": "M6",
-          "exercise": "Decline crunch — bodyweight",
-          "load": "BW",
-          "reps": "15 / 15",
-          "rir": "5 / 5"
-        },
-        {
-          "slotId": "M7",
-          "exercise": "Chest-supported row",
-          "load": "70 lb",
-          "reps": "10 / 8",
-          "rir": "2 / 2"
-        }
-      ]
-    }
+    "workoutFile": "runs/2026-11-25.workout"
   },
-  "cardio": null,
   "adaptation": [
     {
-      "exercise": "Incline top set",
-      "previous": "November 9 ordinary top set: 145×6 at RIR 3. November 16: separate 170×1 at RIR 1.",
-      "decision": "Resume 145 lb, 1×4–6 at RIR 2.",
-      "reason": "The heavy single does not earn an ordinary top-set increase. W5 uses normal top-set work."
+      "exercise": "Short-run dose",
+      "previous": "November 17: normal 3×4 at the 6:40 target, actual paces 6:37/6:30/6:33 and RPE 7/8/8.",
+      "decision": "W5: 2×4 at 6:40/mile with one 3-minute recovery.",
+      "reason": "The assessment-week rule reduces endurance volume while preserving the normal target. This is a planned reduction, not a performance regression; it earns no ordinary hit/miss or pace progression credit."
     },
     {
-      "exercise": "Incline back-offs",
-      "previous": "November 16: 135×8/8 at RIR 3/2; both sets reached the ceiling in normal Stage D.",
-      "decision": "137.5 lb preferred, or 140 lb if +2.5 total is unavailable and +5 is the smallest increment; 2×6–8 at RIR 2–3.",
-      "reason": "This earned increase was already applied to the prepared workout and moved to Tuesday. Keep it once; no second award or reset. If the increment prevents six reps at the intended reserve, use a smaller increment if available or hold 135 lb and review."
+      "exercise": "Earned running pace",
+      "previous": "The November 10 and 17 normal sessions earned a five-second pace increase, saved unused at the W5 boundary.",
+      "decision": "Keep the 6:35/mile award saved; do not apply it to this assessment workout.",
+      "reason": "After an eligible no-test W5, review it at the first normal opportunity. A test or other cancellation event changes that outcome. No test is selected, and ordinary counters reset at week end rather than now."
     },
     {
-      "exercise": "Remaining loaded Upper A slots",
-      "previous": "November 16: curl 22.5×12/11; lateral raise 35×14/14/12/12; pushdown 50×12/10/10; pulldown 160×8/8; row 70×10/8.",
-      "decision": "Keep each load and its prescribed sets/RIR; build reps within the ranges.",
-      "reason": "None reached every set’s rep ceiling. Each slot progresses independently; the leg-session awards do not alter Upper A."
+      "exercise": "Schedule and weekly mileage",
+      "previous": "This week’s approved order is Monday legs, Tuesday Upper A, Wednesday short run.",
+      "decision": "Retain the prepared November 25 Watch workout; Thursday Upper B follows.",
+      "reason": "This preserves a day between legs and the run. The no-test week estimate is 8.17 miles, upper allowance 9.38, below the 15-mile cap; these are planned distances, not mileage logged."
     },
     {
-      "exercise": "Bodyweight abs",
-      "previous": "M6 November 16: BW×15/15 at RIR 5/5. Monday’s separate L1 slot: BW×15/15 at RIR 4/4.",
-      "decision": "BW decline crunch, 2×10–15 at ≥3 RIR.",
-      "reason": "The persistent bodyweight-only limit remains. No new strain-site response or loading clearance was supplied; do not transfer the leg slot’s performance into M6 credit."
+      "exercise": "Logged Upper A progression",
+      "previous": "November 24: incline top 145×6 RIR 2; chest-supported row 70×12/12 RIR 2; back-offs 140×6/6 RIR 2; curls 25×12/11 RIR 2/0.",
+      "decision": "Top set earns 147.5 lb, or 150 if +2.5 total is unavailable; row earns its smallest available increase. Hold back-offs at 140 and curls at 25.",
+      "reason": "The top set and row reached every rep ceiling at intended reserve. Back-offs and curls have not. Awards remain independent and unused until their next prescriptions."
     },
     {
-      "exercise": "Logged leg progression",
-      "previous": "November 23: extension 125×15/15/15 at RIR 2; back extension 25×12/12 at RIR 2/5; hack 135×6/6/6 at RIR 2/2/1.",
-      "decision": "Extension and back extension earn their own smallest available increases for the next leg workout. Hold hack 135 lb and keep the final set at about 2 RIR.",
-      "reason": "All ceiling sets at intended reserve or more qualify in normal Stage D; extra reserve counts. Hack remains below its ceiling and its final set was closer to failure than prescribed. New leg loads are not yet performed or selected."
+      "exercise": "Pushdown effort",
+      "previous": "November 24: 50×10/10/10 at RIR 1/1/0.",
+      "decision": "Keep the 50-lb reference; use about 2 RIR on the first two sets and 0–1 on the final set.",
+      "reason": "The first two sets were closer to failure than prescribed. Reduce load if needed to reach 10 reps with the intended reserve; no load increase or invented tendon symptom."
     }
   ],
   "currentLoads": [
     {
       "slotId": "M1a",
       "exercise": "M1a — Incline barbell bench, top set",
-      "load": "145 lb ordinary reference",
-      "lastVerified": "2026-11-09",
-      "note": "Ordinary top set remains 145×6 at RIR 3. Separate November 16 single: 170×1 at RIR 1, completed and logged; no ordinary top-set award."
+      "load": "145 lb",
+      "lastVerified": "2026-11-24",
+      "note": "November 24 ordinary top set: 145×6 at RIR 2. Earn 147.5 lb next matching exposure, or 150 if +2.5 lb total is unavailable. Performed load remains 145; November 16 single stays separate."
     },
     {
       "slotId": "M1b",
       "exercise": "M1b — Incline barbell bench, back-offs",
-      "load": "135 lb",
-      "lastVerified": "2026-11-16",
-      "note": "November 16 actual 135×8/8 at RIR 3/2 earned 137.5 lb, or 140 if +2.5 lb total is unavailable and +5 is the smallest increment. The existing prescription moves to Tuesday, November 24. Performed load stays 135; the award is applied only once."
+      "load": "140 lb",
+      "lastVerified": "2026-11-24",
+      "note": "140×6/6 at RIR 2 establishes the performed load from the prior conditional increase. Hold 140 and build toward eight on both sets; no new award or repeated use of the November 16 source."
     },
     {
       "slotId": "M2",
       "exercise": "M2 — Incline DB curl",
-      "load": "22.5 lb",
-      "lastVerified": "2026-11-16",
-      "note": "22.5×12/11 at RIR 3/0. Hold 22.5 lb; not every set reached 12."
+      "load": "25 lb",
+      "lastVerified": "2026-11-24",
+      "note": "25×12/11 at RIR 2/0 versus prescribed 22.5. Both sets demonstrate 25 lb within range and intended effort; reason for the heavier load is unreported. Retain 25, with no further increase until both sets reach 12."
     },
     {
       "slotId": "M3",
       "exercise": "M3 — DB lateral raise",
       "load": "35 lb",
-      "lastVerified": "2026-11-16",
-      "note": "35×14/14/12/12 at RIR 2/1/2/1. Hold 35 lb; the four-set ceiling is 20 reps per set."
+      "lastVerified": "2026-11-24",
+      "note": "35×15/13/12/13 at RIR 2/1/1/0. All sets meet the range and eligible effort; final RIR 0 is permitted. Hold 35; not every set reached 20."
     },
     {
       "slotId": "M4",
       "exercise": "M4 — Cable pushdown",
       "load": "50 lb",
-      "lastVerified": "2026-11-16",
-      "note": "50×12/10/10 at RIR 2/2/0. Hold 50 lb; build toward 15 on all three sets."
+      "lastVerified": "2026-11-24",
+      "note": "50×10/10/10 at RIR 1/1/0. First two sets were closer to failure than prescribed 2 RIR. Keep 50 as the reference; target 2/2/0–1, reducing load if required to reach 10 at the intended reserve. No loading award."
     },
     {
       "slotId": "M5",
       "exercise": "M5 — Lat pulldown",
       "load": "160 lb",
-      "lastVerified": "2026-11-16",
-      "note": "160×8/8 at RIR 2. Hold 160 lb; build toward 12 on both sets."
+      "lastVerified": "2026-11-24",
+      "note": "160×10/8 at RIR 2/2. Hold 160 and build toward 12 on both sets."
     },
     {
       "slotId": "M6",
       "exercise": "M6 — Decline crunch (temporary)",
       "load": "BW",
-      "lastVerified": "2026-11-16",
-      "note": "BW×15/15 at RIR 5/5. Bodyweight only, max two sets and ≥3 RIR; specific symptom response/loading review remain separate."
+      "lastVerified": "2026-11-24",
+      "note": "BW×15/15 at RIR 5/5. Keep bodyweight only, maximum two sets and ≥3 RIR. Extra reserve does not remove the separate ab-loading limit; no new symptom response supplied."
     },
     {
       "slotId": "M7",
       "exercise": "M7 — Chest-supported row",
       "load": "70 lb",
-      "lastVerified": "2026-11-16",
-      "note": "70×10/8 at RIR 2. Hold 70 lb; build toward 12 on both sets."
+      "lastVerified": "2026-11-24",
+      "note": "70×12/12 at RIR 2/2. Both normal-D sets reached 12 with intended reserve: earn the smallest available increment next time. Exact increment unselected; performed load stays 70 lb."
     },
     {
       "slotId": "WE1",

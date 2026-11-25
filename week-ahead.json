@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-23T21:07:39-05:00",
+  "generatedAt": "2026-11-24T20:51:01-05:00",
   "blockId": "hybrid-2026-10-26",
   "preview": true,
   "week": "W5",
   "phase": "Hybrid v11 — Stage D / assessment",
   "rangeStart": "2026-11-23",
   "rangeEnd": "2026-11-29",
-  "summary": "This week only: Monday legs logged; Tuesday Upper A preview; Wednesday short run; Thursday Upper B; Friday delts/arms B + 15-minute bike; Saturday W5 run; Sunday legs. Original Wednesday lift and bike omitted. Normal schedule resumes November 30. W5 so far: one completed session, 17 lifting sets.",
+  "summary": "This week only: Monday legs and Tuesday Upper A logged; Wednesday short-run preview; Thursday Upper B; Friday delts/arms B + 15-minute bike; Saturday W5 run; Sunday legs. Original Wednesday lift and bike omitted. Normal schedule resumes November 30. W5 so far: two completed sessions, 35 lifting sets.",
   "days": [
     {
       "date": "2026-11-23",
@@ -19,15 +19,15 @@
       "date": "2026-11-24",
       "day": "Tue",
       "session": "Upper A — moved from Monday",
-      "status": "upcoming",
-      "note": "Preview: unchanged prepared 18-set Upper A. Incline top 145 lb; back-offs 137.5 preferred, or 140 if +2.5 lb total is unavailable and +5 is the smallest increment. No cardio; ordinary recovery assumed good."
+      "status": "done",
+      "note": "Logged 18 sets. Incline top 145×6 at RIR 2 and row 70×12/12 at RIR 2 earn independent increases. Actual back-offs 140 and curls 25 are retained. Pushdowns: restore 2 RIR on the first two sets; final 0–1 remains permitted."
     },
     {
       "date": "2026-11-25",
       "day": "Wed",
       "session": "W5 short run — moved from Tuesday",
       "status": "upcoming",
-      "note": "10-minute easy warmup, 2×4 minutes at 6:40/mi with one 3-minute easy recovery, 10-minute easy cooldown. 31 minutes total; final RPE ≤8. Original delts/arms A and bike omitted entirely."
+      "note": "Preview: 10-minute easy warmup, 2×4 minutes at 6:40/mile with one 3-minute easy recovery, 10-minute cooldown. 31 minutes total; final RPE ≤8. Original Wednesday lift/bike omitted. Saved 6:35 award stays unused during W5 assessment work."
     },
     {
       "date": "2026-11-26",
