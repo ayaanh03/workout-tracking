@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-24T20:51:01-05:00",
+  "generatedAt": "2026-11-25T18:19:22-05:00",
   "blockId": "hybrid-2026-10-26",
   "preview": true,
   "week": "W5",
   "phase": "Hybrid v11 — Stage D / assessment",
   "rangeStart": "2026-11-23",
   "rangeEnd": "2026-11-29",
-  "summary": "This week only: Monday legs and Tuesday Upper A logged; Wednesday short-run preview; Thursday Upper B; Friday delts/arms B + 15-minute bike; Saturday W5 run; Sunday legs. Original Wednesday lift and bike omitted. Normal schedule resumes November 30. W5 so far: two completed sessions, 35 lifting sets.",
+  "summary": "This week only: Monday legs, Tuesday Upper A and Wednesday short run logged; Thursday Upper B preview; Friday delts/arms B + 15-minute bike; Saturday W5 run; Sunday legs. Original Wednesday lift/bike omitted. Normal schedule resumes November 30. W5 so far: three sessions, 35 lifting sets, eight run work minutes and 3.48 miles.",
   "days": [
     {
       "date": "2026-11-23",
@@ -26,15 +26,15 @@
       "date": "2026-11-25",
       "day": "Wed",
       "session": "W5 short run — moved from Tuesday",
-      "status": "upcoming",
-      "note": "Preview: 10-minute easy warmup, 2×4 minutes at 6:40/mile with one 3-minute easy recovery, 10-minute cooldown. 31 minutes total; final RPE ≤8. Original Wednesday lift/bike omitted. Saved 6:35 award stays unused during W5 assessment work."
+      "status": "done",
+      "note": "Logged 2×4 minutes at 6:35/6:26 per mile, with 3-minute recovery; 10-minute warmup/cooldown. Confirmed 3.48 miles. RPE review pending; no ordinary assessment progression credit. Saved 6:35 award remains unused and conditional."
     },
     {
       "date": "2026-11-26",
       "day": "Thu",
       "session": "Upper B",
       "status": "upcoming",
-      "note": "Normal Thursday session at achieved Stage D with local limits; review independent earned incline/pull-up increases at generation."
+      "note": "Preview: 20 Stage D sets. Apply Thursday’s own earned incline increase (137.5 lb preferred / 140 conditional) and smallest available added pull-up load; calibrate the latter. Keep preacher curls at ≥3 RIR and abs bodyweight only. No cardio."
     },
     {
       "date": "2026-11-27",
@@ -59,14 +59,14 @@
     }
   ],
   "runningMileageCheck": {
-    "decisionId": 508,
-    "kind": "prospective-assessment-branch-budget",
-    "recordedMiles": 0,
-    "estimatedMiles": 8.168536251709988,
-    "upperMiles": 9.379895755770661,
+    "decisionId": 511,
+    "kind": "actual-plus-prospective-assessment-budget",
+    "recordedMiles": 3.48,
+    "estimatedMiles": 7.742653898768809,
+    "upperMiles": 8.350588235294117,
     "limitMiles": 15,
     "status": "projected-below-limit",
-    "assumptions": "No-test B: Wednesday 2×4 at 6:40 + Saturday 2×6 at 7:10, ten-minute warmups/cooldowns and between-rep recoveries, easy budget 8:30/mi. Upper uses five-second faster work alerts and five extra warmup minutes each. Optional exact-5K A branch: 9.365679490598435 planned / 10.55733995225145 upper; unselected, not actual mileage.",
+    "assumptions": "Confirmed Wednesday 3.48 miles + Saturday no-test 2×6 at 7:10, one 2-minute recovery and ten-minute warmup/cooldown; easy budget 8:30/mi. Upper uses 7:05 work and five extra warmup minutes. Optional exact-5K branch: 8.939797137657258 planned / 9.528032431774904 upper, still unselected. Future distances are estimates, not actual mileage.",
     "source": "program/assessments.md"
   },
   "scheduleOverrideId": "2026-11-23-week-five-reschedule",

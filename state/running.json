@@ -11,8 +11,8 @@
       "kind": "assessment-week-reduction",
       "assessment_week": 5,
       "assessment_option": "common-recovered-a-b-short-run",
-      "status": "prescribed-not-performed",
-      "preview": true,
+      "status": "completed-effort-pending",
+      "preview": false,
       "for_date": "2026-11-25",
       "scheduled_day": "Wednesday",
       "template_day": "Tuesday",
@@ -62,7 +62,11 @@
         "assumptions": "Wednesday short-track2×4 at6:40 and Saturday no-test2×6 at7:10, ten-minute warmups/cooldowns, normal between-rep recoveries; easy budget8:30/mi. Upper uses work-alert fastedges and optional five extra warmup minutes per run. Optional Saturday exact5K branch is a budget only; no test selected or completed mileage."
       },
       "source": "../history/cardio-log.md#2026-11-23--w5-endurance-schedule-and-carried-award",
-      "reason": "User-approved W5 schedule moves Tuesday short intervals to Wednesday to separate Monday leg/calf lifting from running. Recovered W5 A/B use2×4 at current6:40, not the saved6:35 candidate. This temporary assessment dose earns no ordinary hit/miss/comfortable credit and does not replace the normal3×4 dose. Keep the one-week movement scoped to Nov23–29."
+      "reason": "User-approved W5 schedule moves Tuesday short intervals to Wednesday to separate Monday leg/calf lifting from running. Recovered W5 A/B use2×4 at current6:40, not the saved6:35 candidate. This temporary assessment dose earns no ordinary hit/miss/comfortable credit and does not replace the normal3×4 dose. Keep the one-week movement scoped to Nov23–29.",
+      "actual_session_id": "hybrid-2026-10-26-w5-wed-2026-11-25",
+      "completion_decision_id": 511,
+      "completed_on": "2026-11-25",
+      "actual_source": "../history/cardio-log.md#2026-11-25--hybrid-v11-w5-wednesday-assessment-intervals"
     },
     "last_successful_normal": {
       "date": "2026-11-17",
@@ -94,195 +98,175 @@
         "reason": "Athlete reports good current Wednesday recovery, also supplying next-day general recovery after Tuesday’s completed run. No numeric metrics or site-specific symptom clearance are supplied."
       }
     },
-    "last_completed": "2026-11-17",
+    "last_completed": "2026-11-25",
     "latest_actual": {
-      "date": "2026-11-17",
-      "session_id": "hybrid-2026-10-26-w4-tue-2026-11-17",
-      "prescription_id": "hybrid-2026-10-26-tue-intervals-496",
-      "source": "../history/cardio-log.md#2026-11-17--hybrid-v11-w4-tuesday-intervals",
-      "reported_at": "2026-11-17T17:51:27-05:00",
-      "provenance": "Three Apple Fitness screenshots supply interval metrics; athlete supplies work-rep RPE 7/8/8 and confirms total distance 4.38 mi. Evo SL attribution uses the standing sole-current-shoe report from November 7.",
+      "date": "2026-11-25",
+      "session_id": "hybrid-2026-10-26-w5-wed-2026-11-25",
+      "prescription_id": "hybrid-2026-10-26-wed-intervals-508",
+      "source": "../history/cardio-log.md#2026-11-25--hybrid-v11-w5-wednesday-assessment-intervals",
+      "reported_at": "2026-11-25T18:19:25-05:00",
+      "decision_id": 511,
+      "provenance": "Three Apple Fitness screenshots supply interval and heart-rate metrics; athlete confirms total distance 3.48 mi. Work-rep RPE has been requested and is unreported. Evo SL attribution uses the standing sole-current-pair instruction.",
       "prescribed_target_seconds_per_mile": 400,
-      "work_minutes": 12,
-      "format": "3x4",
+      "work_minutes": 8,
+      "format": "2x4",
+      "assessment_week": 5,
+      "scheduled_day": "Wednesday",
+      "template_day": "Tuesday",
+      "schedule_override_id": "2026-11-23-week-five-reschedule",
+      "ordinary_progression_eligible": false,
       "rep_paces_seconds_per_mile": [
-        397,
-        390,
-        393
+        395,
+        386
       ],
       "rep_rpe": [
-        7,
-        8,
-        8
+        null,
+        null
       ],
       "recovery_seconds": [
-        180,
         180
       ],
-      "final_rep_rpe": 8,
-      "distance_miles": 4.38,
+      "final_rep_rpe": null,
+      "distance_miles": 3.48,
       "shoe": "Evo SL",
-      "shoe_basis": "Standing sole current pair per November 7 athlete report; not a new shoe confirmation.",
-      "duration_seconds_from_segments": 2292,
-      "duration_note": "Displayed interval durations sum to 38:12 including the 0:12 open segment. HR-zone durations total 38:05. Exact summary workout/elapsed duration is not shown; retain the seven-second display difference without inventing pauses.",
+      "shoe_basis": "Standing sole current pair per November 7 athlete report; no new pair or shoe change reported.",
+      "duration_seconds_from_segments": 1860,
+      "duration_note": "Displayed interval durations total 31:00. Mile splits total 30:58 and HR-zone durations 30:55. Exact summary workout/elapsed duration is not supplied. Preserve these small display differences without inventing pauses or an open segment.",
       "segments": [
         {
           "segment": "Warmup",
           "duration_seconds": 600,
-          "displayed_distance": 1.05,
+          "displayed_distance": 1.02,
           "distance_unit": "mi",
-          "pace_seconds_per_mile": 569,
+          "pace_seconds_per_mile": 588,
           "average_heart_rate_bpm": 148,
           "average_power_watts": 199,
-          "average_cadence_spm": 174
+          "average_cadence_spm": 170
         },
         {
           "segment": "Work 1",
           "duration_seconds": 240,
           "displayed_distance": 0.6,
           "distance_unit": "mi",
-          "pace_seconds_per_mile": 397,
-          "average_heart_rate_bpm": 182,
-          "average_power_watts": 300,
-          "average_cadence_spm": 188,
-          "rpe": 7
+          "pace_seconds_per_mile": 395,
+          "average_heart_rate_bpm": 177,
+          "average_power_watts": 298,
+          "average_cadence_spm": 187,
+          "rpe": null
         },
         {
           "segment": "Recovery 1",
           "duration_seconds": 180,
-          "displayed_distance": 0.28,
+          "displayed_distance": 0.27,
           "distance_unit": "mi",
-          "pace_seconds_per_mile": 627,
-          "average_heart_rate_bpm": 177,
-          "average_power_watts": 193,
-          "average_cadence_spm": 170
+          "pace_seconds_per_mile": 656,
+          "average_heart_rate_bpm": 169,
+          "average_power_watts": 179,
+          "average_cadence_spm": 164
         },
         {
           "segment": "Work 2",
           "duration_seconds": 240,
-          "displayed_distance": 0.61,
+          "displayed_distance": 0.62,
           "distance_unit": "mi",
-          "pace_seconds_per_mile": 390,
-          "average_heart_rate_bpm": 188,
-          "average_power_watts": 312,
-          "average_cadence_spm": 189,
-          "rpe": 8
-        },
-        {
-          "segment": "Recovery 2",
-          "duration_seconds": 180,
-          "displayed_distance": 0.29,
-          "distance_unit": "mi",
-          "pace_seconds_per_mile": 620,
-          "average_heart_rate_bpm": 183,
-          "average_power_watts": 204,
-          "average_cadence_spm": 167
-        },
-        {
-          "segment": "Work 3",
-          "duration_seconds": 240,
-          "displayed_distance": 0.61,
-          "distance_unit": "mi",
-          "pace_seconds_per_mile": 393,
-          "average_heart_rate_bpm": 190,
-          "average_power_watts": 310,
-          "average_cadence_spm": 187,
-          "rpe": 8
+          "pace_seconds_per_mile": 386,
+          "average_heart_rate_bpm": 180,
+          "average_power_watts": 307,
+          "average_cadence_spm": 186,
+          "rpe": null
         },
         {
           "segment": "Cooldown",
           "duration_seconds": 600,
-          "displayed_distance": 0.92,
+          "displayed_distance": 0.96,
           "distance_unit": "mi",
-          "pace_seconds_per_mile": 647,
-          "average_heart_rate_bpm": 175,
-          "average_power_watts": 178,
-          "average_cadence_spm": 167
-        },
-        {
-          "segment": "Open",
-          "duration_seconds": 12,
-          "displayed_distance": 58,
-          "distance_unit": "ft",
-          "pace_seconds_per_mile": 1071,
-          "average_heart_rate_bpm": 172,
-          "average_power_watts": 147,
-          "average_cadence_spm": 163
+          "pace_seconds_per_mile": 619,
+          "average_heart_rate_bpm": 169,
+          "average_power_watts": 199,
+          "average_cadence_spm": 168
         }
       ],
-      "estimated_distance_miles_from_segments": 4.370984848484849,
-      "distance_note": "Athlete-confirmed 4.38 mi is used for totals. Rounded displayed mile segments total 4.36 mi plus 58 ft, approximately 4.371 mi; this estimate remains separate.",
-      "average_heart_rate_bpm": 172,
+      "estimated_distance_miles_from_segments": 3.47,
+      "distance_note": "Use confirmed 3.48 mi for running and shoe totals. Rounded displayed segment distances sum to 3.47 mi and remain separate.",
+      "average_heart_rate_bpm": 165,
       "heart_rate_zones": [
         {
           "zone": 1,
-          "duration_seconds": 80,
+          "duration_seconds": 85,
           "displayed_range": "<137 bpm"
         },
         {
           "zone": 2,
-          "duration_seconds": 79,
+          "duration_seconds": 164,
           "displayed_range": "138–150 bpm"
         },
         {
           "zone": 3,
-          "duration_seconds": 344,
+          "duration_seconds": 427,
           "displayed_range": "151–163 bpm"
         },
         {
           "zone": 4,
-          "duration_seconds": 688,
+          "duration_seconds": 667,
           "displayed_range": "164–175 bpm"
         },
         {
           "zone": 5,
-          "duration_seconds": 1094,
+          "duration_seconds": 512,
           "displayed_range": "176+ bpm"
         }
       ],
-      "heart_rate_chart_note": "The upper chart axis 194 is not a measured peak heart rate.",
+      "heart_rate_chart_note": "The upper chart label 185 is a chart axis, not a confirmed peak heart rate.",
+      "mile_splits": [
+        {
+          "split": 1,
+          "duration_seconds": 594,
+          "displayed_pace_seconds_per_mile": 594,
+          "average_heart_rate_bpm": 148
+        },
+        {
+          "split": 2,
+          "duration_seconds": 461,
+          "displayed_pace_seconds_per_mile": 461,
+          "average_heart_rate_bpm": 173
+        },
+        {
+          "split": 3,
+          "duration_seconds": 508,
+          "displayed_pace_seconds_per_mile": 508,
+          "average_heart_rate_bpm": 176
+        },
+        {
+          "split": 4,
+          "duration_seconds": 295,
+          "displayed_pace_seconds_per_mile": 612,
+          "average_heart_rate_bpm": 166
+        }
+      ],
       "surface": null,
       "recovery_mode": null,
       "extra_rest_reported": null,
       "pause_timing": null,
-      "rest_evidence": "Both displayed recoveries are 3:00, matching the prescription. No extra interval rest is reported; absence of pauses is not established as a measured fact.",
-      "next_day_recovery": {
-        "status": "observed-good",
-        "decision_id": 499,
-        "recorded_at": "2026-11-18T13:30:08-05:00",
-        "reported_on": "2026-11-18",
-        "observed": true,
-        "observation_type": "athlete-self-report",
-        "report": "Recovery good today. Generate",
-        "source": "../history/injury-log.md#2026-11-18--good-recovery-after-tuesday",
-        "reason": "Athlete reports good current Wednesday recovery, also supplying next-day general recovery after Tuesday’s completed run. No numeric metrics or site-specific symptom clearance are supplied."
-      },
+      "rest_evidence": "The displayed between-rep recovery is 3:00, matching prescription. No extra interval rest is reported; no claim that unobserved pauses were absent.",
+      "next_day_recovery": null,
       "achilles_response": null,
       "lower_ab_response": null,
-      "athlete_report": "Rpe 7,8,8",
-      "distance_followup": {
-        "reported_on": "2026-11-17",
-        "recorded_at": "2026-11-17T17:51:27-05:00",
-        "report": "4.38",
-        "decision_id": 498
-      },
-      "decision_id": 498
+      "athlete_report": "3.48mi",
+      "effort_status": "requested-unreported",
+      "recovery_basis": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 511,
+        "recorded_at": "2026-11-25T18:19:25-05:00",
+        "observed": false,
+        "reason": "Standing athlete default supplies ordinary post-run recovery and planning readiness. No adverse recovery or site-specific response accompanies the run; observed next-day recovery remains unreported. Effort ratings are a separate pending performance value."
+      }
     },
     "classification": "hit",
     "hits": 2,
     "misses": 0,
     "comfortable_pair": [],
-    "next_day_recovery": {
-      "status": "observed-good",
-      "decision_id": 499,
-      "recorded_at": "2026-11-18T13:30:08-05:00",
-      "reported_on": "2026-11-18",
-      "observed": true,
-      "observation_type": "athlete-self-report",
-      "report": "Recovery good today. Generate",
-      "source": "../history/injury-log.md#2026-11-18--good-recovery-after-tuesday",
-      "reason": "Athlete reports good current Wednesday recovery, also supplying next-day general recovery after Tuesday’s completed run. No numeric metrics or site-specific symptom clearance are supplied."
-    },
+    "next_day_recovery": null,
     "poor_recovery_pattern": [],
     "return": null,
     "pending_validation": null,
@@ -345,7 +329,34 @@
       "cancellation_rule": "Cancel permanently for a miss/no-count, skipped or unexpectedly shortened run work, poor recovery, illness, Option C, run-return interruption/restriction, incompatible normal pace/minutes/format change, or unresolved required evidence not covered by the standing recovery policy. Any test attempt cancels both run awards, even stopped or compromised. A missed unrelated lift alone is not a missed run.",
       "use_or_expire_rule": "At the first otherwise-normal opportunity, recheck recovery/restrictions, unchanged source dose and complete-week mileage; apply this5-second step once at held12minutes and mark source used before resetting. If unusable then, cancel rather than bank. Do not stack another pace/minute increase.",
       "rule": "../program/run-credit.md#assessment-counters-and-carried-award",
-      "reason": "At the actual W5 boundary, the Nov10 and Nov17 ordinary hits at400s/mi,3×4 and180-second recoveries still support the unused5-second step. No intervening short-track result or adverse restriction cancels it. Approved Tuesday-to-Wednesday movement preserves this independent track. No first-test choice is inferred."
+      "reason": "At the actual W5 boundary, the Nov10 and Nov17 ordinary hits at400s/mi,3×4 and180-second recoveries still support the unused5-second step. No intervening short-track result or adverse restriction cancels it. Approved Tuesday-to-Wednesday movement preserves this independent track. No first-test choice is inferred.",
+      "assessment_validation": {
+        "decision_id": 511,
+        "session_id": "hybrid-2026-10-26-w5-wed-2026-11-25",
+        "date": "2026-11-25",
+        "status": "pending-effort-rating",
+        "completed_prescribed_work": true,
+        "pace_checks_passed": true,
+        "recorded_recovery_seconds": [
+          180
+        ],
+        "final_rep_rpe": null,
+        "effort_cap_met": null,
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 511,
+          "recorded_at": "2026-11-25T18:19:25-05:00",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary post-run recovery and planning readiness. No adverse recovery or site-specific response accompanies the run; observed next-day recovery remains unreported. Effort ratings are a separate pending performance value."
+        },
+        "remaining_gates": [
+          "Confirm short-run work effort within RPE cap 8.",
+          "Complete eligible no-test W5 and retain acceptable recovery/restriction status.",
+          "At first normal opportunity recheck unchanged source dose and complete-week mileage before applying once."
+        ],
+        "note": "Missing effort is not currently a cancellation or evidence of excessive effort. Resolve before dependent carry use; assessment completion creates no new award."
+      }
     },
     "classification_review": {
       "decision_id": 498,
@@ -410,76 +421,28 @@
       }
     },
     "next_action": {
-      "decision_id": 508,
-      "kind": "assessment-week-reduction",
-      "assessment_week": 5,
-      "assessment_option": "common-recovered-a-b-short-run",
-      "status": "prescribed-not-performed",
-      "preview": true,
-      "for_date": "2026-11-25",
-      "scheduled_day": "Wednesday",
-      "template_day": "Tuesday",
-      "schedule_override_id": "2026-11-23-week-five-reschedule",
-      "prescription_id": "hybrid-2026-10-26-wed-intervals-508",
-      "pace_seconds_per_mile": 400,
-      "work_minutes": 8,
-      "format": "2x4",
-      "rpe_cap": 8,
-      "recovery_seconds": 180,
-      "recovery_count": 1,
-      "warmup_seconds": 600,
-      "optional_extra_warmup_seconds": 300,
-      "cooldown_seconds": 600,
-      "total_planned_seconds": 1860,
-      "workout_file": "runs/2026-11-25.workout",
-      "work_pace_alert_seconds_per_mile": [
-        395,
-        405
-      ],
-      "normal_prescription_preserved": {
-        "pace_seconds_per_mile": 400,
-        "work_minutes": 12,
-        "format": "3x4"
-      },
-      "ordinary_progression_eligible": false,
+      "decision_id": 511,
+      "action": "review-saved-carry-at-first-normal-opportunity",
+      "status": "pending-assessment-validation-not-prescribed",
+      "for_date": "2026-12-01",
+      "scheduled_day": "Tuesday",
+      "source_session_id": "hybrid-2026-10-26-w5-wed-2026-11-25",
+      "source": "../history/cardio-log.md#2026-11-25--hybrid-v11-w5-wednesday-assessment-intervals",
+      "normal_pace_seconds_per_mile": 400,
+      "normal_work_minutes": 12,
+      "normal_format": "3x4",
       "carried_adjustment_id": "w5-tuesday-pace-carry-508",
+      "candidate_pace_seconds_per_mile": 395,
+      "candidate_status": "saved-unused-conditional-not-prescribed",
       "recovery_basis": {
         "status": "assumed-good",
         "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-        "decision_id": 510,
-        "recorded_at": "2026-11-24T20:51:01-05:00",
+        "decision_id": 511,
+        "recorded_at": "2026-11-25T18:19:25-05:00",
         "observed": false,
-        "reason": "Standing athlete default supplies ordinary post-session recovery and Wednesday readiness. Completed Upper A is reported without a new recovery or site-specific symptom report. Preserve active local restrictions; no next-day observation or clearance is inferred."
+        "reason": "Standing athlete default supplies ordinary post-run recovery and planning readiness. No adverse recovery or site-specific response accompanies the run; observed next-day recovery remains unreported. Effort ratings are a separate pending performance value."
       },
-      "mileage_check": {
-        "week": "W5",
-        "range_start": "2026-11-23",
-        "range_end": "2026-11-29",
-        "actual_miles": 0,
-        "estimated_planned_miles": 8.168536251709988,
-        "upper_planned_miles": 9.379895755770663,
-        "limit_miles": 15,
-        "status": "prospective-no-test-branch-below-limit",
-        "optional_test_branch_estimated_miles": 9.365679490598435,
-        "optional_test_branch_upper_miles": 10.55733995225145,
-        "assumptions": "Wednesday short-track2×4 at6:40 and Saturday no-test2×6 at7:10, ten-minute warmups/cooldowns, normal between-rep recoveries; easy budget8:30/mi. Upper uses work-alert fastedges and optional five extra warmup minutes per run. Optional Saturday exact5K branch is a budget only; no test selected or completed mileage."
-      },
-      "source": "../history/cardio-log.md#2026-11-23--w5-endurance-schedule-and-carried-award",
-      "reason": "User-approved W5 schedule moves Tuesday short intervals to Wednesday to separate Monday leg/calf lifting from running. Recovered W5 A/B use2×4 at current6:40, not the saved6:35 candidate. This temporary assessment dose earns no ordinary hit/miss/comfortable credit and does not replace the normal3×4 dose. Keep the one-week movement scoped to Nov23–29.",
-      "action": "prescribe-moved-assessment-dose-hold-normal-pace",
-      "recovery_basis_history": [
-        {
-          "status": "assumed-good",
-          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 508,
-          "recorded_at": "2026-11-23T04:43:19-05:00",
-          "observed": false,
-          "reason": "Standing athlete default supplies ordinary W5 planning recovery. Latest explicit general recovery was good November22; approval of the one-week rearrangement supplies no new symptoms or observed future recovery. No active global fatigue, acute recovery override or run-return restriction is recorded."
-        }
-      ],
-      "last_review_decision_id": 510,
-      "last_reviewed_on": "2026-11-24",
-      "review_note": "Prepared #508 dose unchanged after Tuesday Upper A logging. Wednesday is the next uncompleted session under the one-week override. Saved carry, normal dose, counters and all actuals remain unchanged."
+      "reason": "Current W5 short run completed at 6:35/6:26; RPE pending. Keep normal 6:40/3×4 and source counters unchanged until assessment end. At the first otherwise-normal opportunity review effort and eligible W5 completion, then use the saved five-second award once at held minutes or expire it under the existing rule. No new pace/minute award from assessment work."
     },
     "pace_adjustment_history": [
       {
@@ -733,15 +696,12 @@
       }
     ],
     "recovery_decision": {
-      "status": "observed-good",
-      "decision_id": 499,
-      "recorded_at": "2026-11-18T13:30:08-05:00",
-      "reported_on": "2026-11-18",
-      "observed": true,
-      "observation_type": "athlete-self-report",
-      "report": "Recovery good today. Generate",
-      "source": "../history/injury-log.md#2026-11-18--good-recovery-after-tuesday",
-      "reason": "Athlete reports good current Wednesday recovery, also supplying next-day general recovery after Tuesday’s completed run. No numeric metrics or site-specific symptom clearance are supplied."
+      "status": "assumed-good",
+      "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+      "decision_id": 511,
+      "recorded_at": "2026-11-25T18:19:25-05:00",
+      "observed": false,
+      "reason": "Standing athlete default supplies ordinary post-run recovery and planning readiness. No adverse recovery or site-specific response accompanies the run; observed next-day recovery remains unreported. Effort ratings are a separate pending performance value."
     },
     "pace_progression_review_history": [
       {
@@ -1254,6 +1214,82 @@
           "source": "../history/injury-log.md#2026-11-18--good-recovery-after-tuesday",
           "reason": "Athlete reports good current Wednesday recovery, also supplying next-day general recovery after Tuesday’s completed run. No numeric metrics or site-specific symptom clearance are supplied."
         }
+      },
+      {
+        "decision_id": 508,
+        "kind": "assessment-week-reduction",
+        "assessment_week": 5,
+        "assessment_option": "common-recovered-a-b-short-run",
+        "status": "completed-effort-pending",
+        "preview": false,
+        "for_date": "2026-11-25",
+        "scheduled_day": "Wednesday",
+        "template_day": "Tuesday",
+        "schedule_override_id": "2026-11-23-week-five-reschedule",
+        "prescription_id": "hybrid-2026-10-26-wed-intervals-508",
+        "pace_seconds_per_mile": 400,
+        "work_minutes": 8,
+        "format": "2x4",
+        "rpe_cap": 8,
+        "recovery_seconds": 180,
+        "recovery_count": 1,
+        "warmup_seconds": 600,
+        "optional_extra_warmup_seconds": 300,
+        "cooldown_seconds": 600,
+        "total_planned_seconds": 1860,
+        "workout_file": "runs/2026-11-25.workout",
+        "work_pace_alert_seconds_per_mile": [
+          395,
+          405
+        ],
+        "normal_prescription_preserved": {
+          "pace_seconds_per_mile": 400,
+          "work_minutes": 12,
+          "format": "3x4"
+        },
+        "ordinary_progression_eligible": false,
+        "carried_adjustment_id": "w5-tuesday-pace-carry-508",
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 510,
+          "recorded_at": "2026-11-24T20:51:01-05:00",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary post-session recovery and Wednesday readiness. Completed Upper A is reported without a new recovery or site-specific symptom report. Preserve active local restrictions; no next-day observation or clearance is inferred."
+        },
+        "mileage_check": {
+          "week": "W5",
+          "range_start": "2026-11-23",
+          "range_end": "2026-11-29",
+          "actual_miles": 0,
+          "estimated_planned_miles": 8.168536251709988,
+          "upper_planned_miles": 9.379895755770663,
+          "limit_miles": 15,
+          "status": "prospective-no-test-branch-below-limit",
+          "optional_test_branch_estimated_miles": 9.365679490598435,
+          "optional_test_branch_upper_miles": 10.55733995225145,
+          "assumptions": "Wednesday short-track2×4 at6:40 and Saturday no-test2×6 at7:10, ten-minute warmups/cooldowns, normal between-rep recoveries; easy budget8:30/mi. Upper uses work-alert fastedges and optional five extra warmup minutes per run. Optional Saturday exact5K branch is a budget only; no test selected or completed mileage."
+        },
+        "source": "../history/cardio-log.md#2026-11-23--w5-endurance-schedule-and-carried-award",
+        "reason": "User-approved W5 schedule moves Tuesday short intervals to Wednesday to separate Monday leg/calf lifting from running. Recovered W5 A/B use2×4 at current6:40, not the saved6:35 candidate. This temporary assessment dose earns no ordinary hit/miss/comfortable credit and does not replace the normal3×4 dose. Keep the one-week movement scoped to Nov23–29.",
+        "action": "prescribe-moved-assessment-dose-hold-normal-pace",
+        "recovery_basis_history": [
+          {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 508,
+            "recorded_at": "2026-11-23T04:43:19-05:00",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary W5 planning recovery. Latest explicit general recovery was good November22; approval of the one-week rearrangement supplies no new symptoms or observed future recovery. No active global fatigue, acute recovery override or run-return restriction is recorded."
+          }
+        ],
+        "last_review_decision_id": 510,
+        "last_reviewed_on": "2026-11-24",
+        "review_note": "Prepared #508 dose unchanged after Tuesday Upper A logging. Wednesday is the next uncompleted session under the one-week override. Saved carry, normal dose, counters and all actuals remain unchanged.",
+        "actual_session_id": "hybrid-2026-10-26-w5-wed-2026-11-25",
+        "completion_decision_id": 511,
+        "completed_on": "2026-11-25",
+        "actual_source": "../history/cardio-log.md#2026-11-25--hybrid-v11-w5-wednesday-assessment-intervals"
       }
     ],
     "counter_reset": {
@@ -1552,6 +1588,179 @@
           "decision_id": 484
         },
         "decision_id": 484
+      },
+      {
+        "date": "2026-11-17",
+        "session_id": "hybrid-2026-10-26-w4-tue-2026-11-17",
+        "prescription_id": "hybrid-2026-10-26-tue-intervals-496",
+        "source": "../history/cardio-log.md#2026-11-17--hybrid-v11-w4-tuesday-intervals",
+        "reported_at": "2026-11-17T17:51:27-05:00",
+        "provenance": "Three Apple Fitness screenshots supply interval metrics; athlete supplies work-rep RPE 7/8/8 and confirms total distance 4.38 mi. Evo SL attribution uses the standing sole-current-shoe report from November 7.",
+        "prescribed_target_seconds_per_mile": 400,
+        "work_minutes": 12,
+        "format": "3x4",
+        "rep_paces_seconds_per_mile": [
+          397,
+          390,
+          393
+        ],
+        "rep_rpe": [
+          7,
+          8,
+          8
+        ],
+        "recovery_seconds": [
+          180,
+          180
+        ],
+        "final_rep_rpe": 8,
+        "distance_miles": 4.38,
+        "shoe": "Evo SL",
+        "shoe_basis": "Standing sole current pair per November 7 athlete report; not a new shoe confirmation.",
+        "duration_seconds_from_segments": 2292,
+        "duration_note": "Displayed interval durations sum to 38:12 including the 0:12 open segment. HR-zone durations total 38:05. Exact summary workout/elapsed duration is not shown; retain the seven-second display difference without inventing pauses.",
+        "segments": [
+          {
+            "segment": "Warmup",
+            "duration_seconds": 600,
+            "displayed_distance": 1.05,
+            "distance_unit": "mi",
+            "pace_seconds_per_mile": 569,
+            "average_heart_rate_bpm": 148,
+            "average_power_watts": 199,
+            "average_cadence_spm": 174
+          },
+          {
+            "segment": "Work 1",
+            "duration_seconds": 240,
+            "displayed_distance": 0.6,
+            "distance_unit": "mi",
+            "pace_seconds_per_mile": 397,
+            "average_heart_rate_bpm": 182,
+            "average_power_watts": 300,
+            "average_cadence_spm": 188,
+            "rpe": 7
+          },
+          {
+            "segment": "Recovery 1",
+            "duration_seconds": 180,
+            "displayed_distance": 0.28,
+            "distance_unit": "mi",
+            "pace_seconds_per_mile": 627,
+            "average_heart_rate_bpm": 177,
+            "average_power_watts": 193,
+            "average_cadence_spm": 170
+          },
+          {
+            "segment": "Work 2",
+            "duration_seconds": 240,
+            "displayed_distance": 0.61,
+            "distance_unit": "mi",
+            "pace_seconds_per_mile": 390,
+            "average_heart_rate_bpm": 188,
+            "average_power_watts": 312,
+            "average_cadence_spm": 189,
+            "rpe": 8
+          },
+          {
+            "segment": "Recovery 2",
+            "duration_seconds": 180,
+            "displayed_distance": 0.29,
+            "distance_unit": "mi",
+            "pace_seconds_per_mile": 620,
+            "average_heart_rate_bpm": 183,
+            "average_power_watts": 204,
+            "average_cadence_spm": 167
+          },
+          {
+            "segment": "Work 3",
+            "duration_seconds": 240,
+            "displayed_distance": 0.61,
+            "distance_unit": "mi",
+            "pace_seconds_per_mile": 393,
+            "average_heart_rate_bpm": 190,
+            "average_power_watts": 310,
+            "average_cadence_spm": 187,
+            "rpe": 8
+          },
+          {
+            "segment": "Cooldown",
+            "duration_seconds": 600,
+            "displayed_distance": 0.92,
+            "distance_unit": "mi",
+            "pace_seconds_per_mile": 647,
+            "average_heart_rate_bpm": 175,
+            "average_power_watts": 178,
+            "average_cadence_spm": 167
+          },
+          {
+            "segment": "Open",
+            "duration_seconds": 12,
+            "displayed_distance": 58,
+            "distance_unit": "ft",
+            "pace_seconds_per_mile": 1071,
+            "average_heart_rate_bpm": 172,
+            "average_power_watts": 147,
+            "average_cadence_spm": 163
+          }
+        ],
+        "estimated_distance_miles_from_segments": 4.370984848484849,
+        "distance_note": "Athlete-confirmed 4.38 mi is used for totals. Rounded displayed mile segments total 4.36 mi plus 58 ft, approximately 4.371 mi; this estimate remains separate.",
+        "average_heart_rate_bpm": 172,
+        "heart_rate_zones": [
+          {
+            "zone": 1,
+            "duration_seconds": 80,
+            "displayed_range": "<137 bpm"
+          },
+          {
+            "zone": 2,
+            "duration_seconds": 79,
+            "displayed_range": "138–150 bpm"
+          },
+          {
+            "zone": 3,
+            "duration_seconds": 344,
+            "displayed_range": "151–163 bpm"
+          },
+          {
+            "zone": 4,
+            "duration_seconds": 688,
+            "displayed_range": "164–175 bpm"
+          },
+          {
+            "zone": 5,
+            "duration_seconds": 1094,
+            "displayed_range": "176+ bpm"
+          }
+        ],
+        "heart_rate_chart_note": "The upper chart axis 194 is not a measured peak heart rate.",
+        "surface": null,
+        "recovery_mode": null,
+        "extra_rest_reported": null,
+        "pause_timing": null,
+        "rest_evidence": "Both displayed recoveries are 3:00, matching the prescription. No extra interval rest is reported; absence of pauses is not established as a measured fact.",
+        "next_day_recovery": {
+          "status": "observed-good",
+          "decision_id": 499,
+          "recorded_at": "2026-11-18T13:30:08-05:00",
+          "reported_on": "2026-11-18",
+          "observed": true,
+          "observation_type": "athlete-self-report",
+          "report": "Recovery good today. Generate",
+          "source": "../history/injury-log.md#2026-11-18--good-recovery-after-tuesday",
+          "reason": "Athlete reports good current Wednesday recovery, also supplying next-day general recovery after Tuesday’s completed run. No numeric metrics or site-specific symptom clearance are supplied."
+        },
+        "achilles_response": null,
+        "lower_ab_response": null,
+        "athlete_report": "Rpe 7,8,8",
+        "distance_followup": {
+          "reported_on": "2026-11-17",
+          "recorded_at": "2026-11-17T17:51:27-05:00",
+          "report": "4.38",
+          "decision_id": 498
+        },
+        "decision_id": 498
       }
     ],
     "last_successful_normal_history": [
@@ -1675,7 +1884,7 @@
         "kind": "assessment-week-reduction",
         "assessment_week": 5,
         "assessment_option": "common-recovered-a-b-short-run",
-        "status": "prescribed-not-performed",
+        "status": "completed-effort-pending",
         "preview": true,
         "for_date": "2026-11-25",
         "scheduled_day": "Wednesday",
@@ -1726,7 +1935,11 @@
           "assumptions": "Wednesday short-track2×4 at6:40 and Saturday no-test2×6 at7:10, ten-minute warmups/cooldowns, normal between-rep recoveries; easy budget8:30/mi. Upper uses work-alert fastedges and optional five extra warmup minutes per run. Optional Saturday exact5K branch is a budget only; no test selected or completed mileage."
         },
         "source": "../history/cardio-log.md#2026-11-23--w5-endurance-schedule-and-carried-award",
-        "reason": "User-approved W5 schedule moves Tuesday short intervals to Wednesday to separate Monday leg/calf lifting from running. Recovered W5 A/B use2×4 at current6:40, not the saved6:35 candidate. This temporary assessment dose earns no ordinary hit/miss/comfortable credit and does not replace the normal3×4 dose. Keep the one-week movement scoped to Nov23–29."
+        "reason": "User-approved W5 schedule moves Tuesday short intervals to Wednesday to separate Monday leg/calf lifting from running. Recovered W5 A/B use2×4 at current6:40, not the saved6:35 candidate. This temporary assessment dose earns no ordinary hit/miss/comfortable credit and does not replace the normal3×4 dose. Keep the one-week movement scoped to Nov23–29.",
+        "actual_session_id": "hybrid-2026-10-26-w5-wed-2026-11-25",
+        "completion_decision_id": 511,
+        "completed_on": "2026-11-25",
+        "actual_source": "../history/cardio-log.md#2026-11-25--hybrid-v11-w5-wednesday-assessment-intervals"
       }
     ],
     "recovery_decision_history": [
@@ -1737,6 +1950,17 @@
         "recorded_at": "2026-11-17T17:51:27-05:00",
         "observed": false,
         "reason": "Standing athlete default supplies ordinary next-day recovery for Tuesday classification and next-workout planning. No new adverse recovery or symptom report accompanies this run; actual next-day recovery and site-specific responses remain unreported."
+      },
+      {
+        "status": "observed-good",
+        "decision_id": 499,
+        "recorded_at": "2026-11-18T13:30:08-05:00",
+        "reported_on": "2026-11-18",
+        "observed": true,
+        "observation_type": "athlete-self-report",
+        "report": "Recovery good today. Generate",
+        "source": "../history/injury-log.md#2026-11-18--good-recovery-after-tuesday",
+        "reason": "Athlete reports good current Wednesday recovery, also supplying next-day general recovery after Tuesday’s completed run. No numeric metrics or site-specific symptom clearance are supplied."
       }
     ],
     "carried_adjustment_history": [
@@ -1811,7 +2035,10 @@
       "effective_date": "2026-11-25",
       "effective_day": "Wednesday",
       "restore_regular_schedule_from": "2026-11-30",
-      "note": "A one-week movement of the same independent short-run track; no missed-run penalty, third hard run or permanent weekday change."
+      "note": "A one-week movement of the same independent short-run track; no missed-run penalty, third hard run or permanent weekday change.",
+      "completed_on": "2026-11-25",
+      "completion_decision_id": 511,
+      "session_id": "hybrid-2026-10-26-w5-wed-2026-11-25"
     },
     "assessment_boundary_reviews": [
       {
@@ -1825,7 +2052,130 @@
         "ordinary_credit_during_week": false,
         "source_consumed": false
       }
-    ]
+    ],
+    "classification_scope": "latest-normal-session; assessment results are stored separately",
+    "normal_classification_session_id": "hybrid-2026-10-26-w4-tue-2026-11-17",
+    "assessment_review": {
+      "decision_id": 511,
+      "reviewed_on": "2026-11-25",
+      "session_id": "hybrid-2026-10-26-w5-wed-2026-11-25",
+      "prescription_id": "hybrid-2026-10-26-wed-intervals-508",
+      "assessment_week": 5,
+      "status": "completed-effort-pending",
+      "classification": "assessment-no-ordinary-credit",
+      "ordinary_progression_eligible": false,
+      "full_prescribed_work_completed": true,
+      "prescribed_work_minutes": 8,
+      "completed_work_minutes": 8,
+      "prescribed_target_seconds_per_mile": 400,
+      "pace_pass_cutoff_seconds_per_mile": 405,
+      "rep_pace_offsets_seconds_per_mile": [
+        -5,
+        -14
+      ],
+      "rep_pace_checks_passed": [
+        true,
+        true
+      ],
+      "recorded_recovery_seconds": [
+        180
+      ],
+      "extra_rest_reported": null,
+      "rep_rpe": [
+        null,
+        null
+      ],
+      "final_rep_rpe": null,
+      "rpe_cap": 8,
+      "effort_cap_met": null,
+      "recovery_basis": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 511,
+        "recorded_at": "2026-11-25T18:19:25-05:00",
+        "observed": false,
+        "reason": "Standing athlete default supplies ordinary post-run recovery and planning readiness. No adverse recovery or site-specific response accompanies the run; observed next-day recovery remains unreported. Effort ratings are a separate pending performance value."
+      },
+      "carried_adjustment_id": "w5-tuesday-pace-carry-508",
+      "carry_effect": "Keep existing award saved and unused; assessment effort validation pending. No new award, use, cancellation or early counter reset.",
+      "reason": "Both displayed paces meet or exceed the target and the complete planned 2×4/3-minute recovery is reported. W5 assessment work earns no ordinary hit/miss/comfortable credit. RPE is unknown, so whether this effort supports carry survival is pending rather than assumed."
+    },
+    "completed_prescription": {
+      "decision_id": 508,
+      "kind": "assessment-week-reduction",
+      "assessment_week": 5,
+      "assessment_option": "common-recovered-a-b-short-run",
+      "status": "completed-effort-pending",
+      "preview": false,
+      "for_date": "2026-11-25",
+      "scheduled_day": "Wednesday",
+      "template_day": "Tuesday",
+      "schedule_override_id": "2026-11-23-week-five-reschedule",
+      "prescription_id": "hybrid-2026-10-26-wed-intervals-508",
+      "pace_seconds_per_mile": 400,
+      "work_minutes": 8,
+      "format": "2x4",
+      "rpe_cap": 8,
+      "recovery_seconds": 180,
+      "recovery_count": 1,
+      "warmup_seconds": 600,
+      "optional_extra_warmup_seconds": 300,
+      "cooldown_seconds": 600,
+      "total_planned_seconds": 1860,
+      "workout_file": "runs/2026-11-25.workout",
+      "work_pace_alert_seconds_per_mile": [
+        395,
+        405
+      ],
+      "normal_prescription_preserved": {
+        "pace_seconds_per_mile": 400,
+        "work_minutes": 12,
+        "format": "3x4"
+      },
+      "ordinary_progression_eligible": false,
+      "carried_adjustment_id": "w5-tuesday-pace-carry-508",
+      "recovery_basis": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 510,
+        "recorded_at": "2026-11-24T20:51:01-05:00",
+        "observed": false,
+        "reason": "Standing athlete default supplies ordinary post-session recovery and Wednesday readiness. Completed Upper A is reported without a new recovery or site-specific symptom report. Preserve active local restrictions; no next-day observation or clearance is inferred."
+      },
+      "mileage_check": {
+        "week": "W5",
+        "range_start": "2026-11-23",
+        "range_end": "2026-11-29",
+        "actual_miles": 0,
+        "estimated_planned_miles": 8.168536251709988,
+        "upper_planned_miles": 9.379895755770663,
+        "limit_miles": 15,
+        "status": "prospective-no-test-branch-below-limit",
+        "optional_test_branch_estimated_miles": 9.365679490598435,
+        "optional_test_branch_upper_miles": 10.55733995225145,
+        "assumptions": "Wednesday short-track2×4 at6:40 and Saturday no-test2×6 at7:10, ten-minute warmups/cooldowns, normal between-rep recoveries; easy budget8:30/mi. Upper uses work-alert fastedges and optional five extra warmup minutes per run. Optional Saturday exact5K branch is a budget only; no test selected or completed mileage."
+      },
+      "source": "../history/cardio-log.md#2026-11-23--w5-endurance-schedule-and-carried-award",
+      "reason": "User-approved W5 schedule moves Tuesday short intervals to Wednesday to separate Monday leg/calf lifting from running. Recovered W5 A/B use2×4 at current6:40, not the saved6:35 candidate. This temporary assessment dose earns no ordinary hit/miss/comfortable credit and does not replace the normal3×4 dose. Keep the one-week movement scoped to Nov23–29.",
+      "action": "prescribe-moved-assessment-dose-hold-normal-pace",
+      "recovery_basis_history": [
+        {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 508,
+          "recorded_at": "2026-11-23T04:43:19-05:00",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary W5 planning recovery. Latest explicit general recovery was good November22; approval of the one-week rearrangement supplies no new symptoms or observed future recovery. No active global fatigue, acute recovery override or run-return restriction is recorded."
+        }
+      ],
+      "last_review_decision_id": 510,
+      "last_reviewed_on": "2026-11-24",
+      "review_note": "Prepared #508 dose unchanged after Tuesday Upper A logging. Wednesday is the next uncompleted session under the one-week override. Saved carry, normal dose, counters and all actuals remain unchanged.",
+      "actual_session_id": "hybrid-2026-10-26-w5-wed-2026-11-25",
+      "completion_decision_id": 511,
+      "completed_on": "2026-11-25",
+      "actual_source": "../history/cardio-log.md#2026-11-25--hybrid-v11-w5-wednesday-assessment-intervals"
+    }
   },
   "friday": {
     "pace_seconds_per_mile": 430,
@@ -6319,5 +6669,20 @@
     "source": "../program/run-progression.md",
     "athlete_directive": "We should change the progression for running such that if I’m blowing past the targets we speed up and only progress conservatively once I start stalling",
     "scope": "Tuesday and Friday independently. Pace-first progression replaces calendar speed waits and automatic minutes-first priority. Normal recovery, effort caps, return/assessment, mileage and relevant symptom/tolerance checks remain."
+  },
+  "current_week_mileage_review": {
+    "decision_id": 511,
+    "week": "W5",
+    "range_start": "2026-11-23",
+    "range_end": "2026-11-29",
+    "confirmed_running_miles": 3.48,
+    "estimated_complete_week_miles": 7.742653898768809,
+    "upper_complete_week_miles": 8.350588235294117,
+    "optional_test_branch_estimated_miles": 8.939797137657258,
+    "optional_test_branch_upper_miles": 9.528032431774905,
+    "limit_miles": 15,
+    "status": "fits-both-uncompleted-saturday-branches",
+    "source": "../history/cardio-log.md#2026-11-25--hybrid-v11-w5-wednesday-assessment-intervals",
+    "assumptions": "Completed Wednesday uses confirmed 3.48 miles. Unperformed no-test Saturday is 2×6 at 7:10 with one 2-minute recovery and ten-minute warmup/cooldown; easy budget 8:30/mi. Upper uses 7:05 work and five extra warmup minutes. Optional unselected test branch is exactly 5 km plus twenty easy minutes, or twenty-five for the upper allowance. No Saturday work or extra mileage is logged."
   }
 }

@@ -1214,3 +1214,30 @@ Automatically publish **Wednesday November 25 — W5 short intervals, moved from
 [W5 assessment rules](../program/assessments.md) require the lighter endurance dose at the current target. Preserve normal 3×4/6:40 and the unused saved 6:35 award; assessment work cannot apply it or earn ordinary run credit. Review the carry after eligible completed B at the first normal opportunity; a test or other cancellation event cancels it. No test is selected and no early counter reset occurs. The no-test complete-week mileage estimate remains **8.168536251709988 miles**, upper **9.379895755770661**, below 15; these are plans, not actual mileage. Saturday's no-test 2×6 recommendation and Friday's 15-minute bike remain unchanged.
 
 W5 now has **two completed sessions, 35 lifting sets, zero running/cycling actuals**. Wednesday is upcoming; the original Wednesday lift/bike remain omitted and the normal schedule resumes November 30. Preserve Sunday November 22's skip, all previous actuals, bike tolerance, run counters/sources, Watch files and Evo SL **28.27 miles**. Refresh exact lifting history, current-load notes, recovery provenance and both dashboard views; verify and publish.
+
+## 2026-11-25 — log assessment run and preview Thursday
+
+511. Log `hybrid-2026-10-26-w5-wed-2026-11-25` against `hybrid-2026-10-26-wed-intervals-508`. Athlete confirms **3.48 miles**. Screenshots show the full W5 assessment dose: **10-minute warmup, 4 minutes at 6:35/mi, 3-minute recovery, 4 minutes at 6:26/mi, 10-minute cooldown**. Eight work minutes and 31 minutes from the interval rows. Rounded segment distances total 3.47 mi; use the confirmed 3.48 for actual mileage. Preserve displayed segment HR/power/cadence, mile splits and HR zones in cardio history. The split rows total 30:58 and zones 30:55; these do not overwrite the interval durations or imply extra work/rest.
+
+**Assessment completion, effort review pending.** Both reps meet the one-sided 6:45-or-faster check at the prescribed 6:40 target, and the intended work/recovery are recorded. RPE is not visible and was requested; store both rep efforts and cap result as unknown. Do not infer effort from heart rate or pace. [Assessment rules](../program/assessments.md) grant no ordinary hit/miss/comfortable credit for this planned reduced dose. Preserve the normal 6:40/3×4 reference, prior normal hit classification and count of two; reset at W5 end, not today. The saved unused **6:35** award remains conditional with effort validation pending, without creating, consuming or prematurely cancelling it. Its first normal opportunity remains December 1, subject to eligible W5 completion and the existing [carry rules](../program/run-credit.md#assessment-counters-and-carried-award).
+
+Add the confirmed run once to the standing sole current pair: **Evo SL 28.27 → 31.75 miles**. Preserve the inactive Vomero record and all earlier additions. W5 now has **three completed sessions, 35 lifting sets, eight running work minutes, 3.48 confirmed running miles and no bike actuals**. Ordinary recovery is assumed good under the athlete directive; no new observed recovery or ab/Achilles/elbow response is supplied. Pending effort does not itself establish fatigue or a new injury.
+
+Generate **Thursday November 26 — Upper B, preview**, `hybrid-2026-10-26-thu-upper-b-511`, **20 effective Stage D sets, no cardio**:
+
+| Slot | Exercise | Load | Sets × reps | RIR | Rest |
+|---|---|---|---|---|---|
+| T1 | Incline barbell bench | 137.5 lb preferred; 140 if +2.5 total unavailable and +5 smallest | 3×6–8 | 2–3 | 3 min |
+| T2 | Unilateral machine preacher curl | 75 lb | 2×8–12 per arm | ≥3 | 2 min |
+| T3 | DB lateral raise | 35 lb | 4×12–20 | First three 1–2; final 0–1 | 2 min |
+| T4 | Pull-up | Calibrate — smallest safely attachable added load available | 2×6–12 | 2 | 2–3 min |
+| T5 | Cable pushdown | 50 lb | 3×10–15 | First two 2; final 0–1 | 2 min |
+| T6 | Seated cable row | 120 lb | 2×8–12 | 2 | 2–3 min |
+| T7 | Decline crunch — bodyweight | BW | 2×10–15 | ≥3 | 2 min |
+| T8 | Straight-arm cable pulldown | 50 lb | 2×10–15 | 1–2 | 2 min |
+
+**Apply T1 and T4's independent November 19 awards once.** T1 135×8/8/8 at RIR 2 reached all ceilings; prescribe the smallest available increment, preferably +2.5 lb total. T4 BW/0 added×12/12 at RIR 2 qualifies for the smallest safely attachable added load. Numeric pull-up increment/equipment availability is unknown, so prescribe calibration rather than fabricate pounds. Record actual added load when performed. If no suitable setup exists or the smallest increment prevents six reps at 2 RIR, retain BW and review. For incline, use a smaller increment if possible or hold 135 if the rep floor at intended reserve cannot be met. Mark these awards applied to this prescription and reset qualification counts before changed loading; keep actual loads 135/0 until performed. Monday-slot increases are independent.
+
+Hold remaining Thursday loads from their own November 19 actuals: preacher 75×9/8 at RIR 3; lateral 35×12/13/12/12 at RIR 2/2/2/0; pushdown 50×10/10/10 at RIR 2/2/1; seated row 120×9/9 at RIR 2; straight-arm pulldown 50×12/11 at RIR 2. None reached every ceiling. Retain the local preacher floor ≥3 RIR, permanent cable-curl replacement and BW-only/max-two-set/≥3 RIR ab limit. T7 BW15/15 at RIR 5 does not clear loading. No new lift exposure, completed heavier load or stage advance is inferred by generation.
+
+Live date is **Wednesday November 25, America/New_York**; Thursday is upcoming. The one-week override still omits the original Wednesday delts/arms A and bike, preserves Friday lifting/Saturday running and resumes the standing schedule November 30. No test is selected. Updated whole-week budget uses actual Wednesday 3.48 + planned Saturday: no-test **7.742653898768811 mi**, upper **8.350588235294118**; optional exact-5K branch **8.939797137657258**, upper **9.528032431774904**. Both below 15; only 3.48 is performed. Preserve prior Watch files, normal run counters/sources, bike tolerance, lifting actual history and all unrelated slot awards. Refresh state and both dashboard views, verify and publish.

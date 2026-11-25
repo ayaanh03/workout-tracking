@@ -912,26 +912,30 @@
     }
   ],
   "post_session": {
-    "date": "2026-11-24",
-    "session_id": "hybrid-2026-10-26-w5-tue-2026-11-24",
+    "date": "2026-11-25",
+    "session_id": "hybrid-2026-10-26-w5-wed-2026-11-25",
     "completion": "reported",
-    "decision_id": 510,
-    "working_sets": 18,
-    "status": "general-recovery-assumed-specific-symptom-response-unreported",
+    "decision_id": 511,
+    "work_minutes": 8,
+    "distance_miles": 3.48,
+    "rep_rpe": [
+      null,
+      null
+    ],
+    "status": "general-recovery-assumed-run-effort-pending",
     "lower_ab_response": null,
     "achilles_response": null,
     "elbow_response": null,
-    "shoulder_response": null,
     "next_day_recovery": null,
     "recovery_decision": {
       "status": "assumed-good",
       "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-      "decision_id": 510,
-      "recorded_at": "2026-11-24T20:51:01-05:00",
+      "decision_id": 511,
+      "recorded_at": "2026-11-25T18:19:22-05:00",
       "observed": false,
-      "reason": "Standing athlete default supplies ordinary post-session recovery and Wednesday readiness. Completed Upper A is reported without a new recovery or site-specific symptom report. Preserve active local restrictions; no next-day observation or clearance is inferred."
+      "reason": "Standing athlete default supplies ordinary post-run recovery and Thursday readiness. The screenshots and distance report supply performance, not a new observed recovery or site-specific response. Effort ratings are requested separately; persistent local limits remain."
     },
-    "note": "Upper A completed at normal Stage D. Heavier actual curl/back-off loads and final RIR 0 sets are recorded literally. No fresh tendon/ab response, next-day recovery or loading clearance; permanent exercise replacements and local limits persist."
+    "note": "Completed moved W5 assessment run. Rep effort is not visible in screenshots and was requested; keep it unknown until answered. No new symptom report, next-day observation, fatigue diagnosis or local clearance."
   },
   "prior_pending_post_sessions": [
     {
@@ -1402,6 +1406,28 @@
         "reason": "Standing athlete default supplies ordinary post-session recovery and Tuesday readiness. This log supplies completed performance, not observed next-day recovery or site-specific symptom clearance; preserve existing local restrictions."
       },
       "note": "Moved leg workout completed. Hack final set RIR 1 is an effort deviation, not a new symptom report. General recovery assumed good; no observed next-day recovery, ab/Achilles response or loaded-ab clearance supplied."
+    },
+    {
+      "date": "2026-11-24",
+      "session_id": "hybrid-2026-10-26-w5-tue-2026-11-24",
+      "completion": "reported",
+      "decision_id": 510,
+      "working_sets": 18,
+      "status": "general-recovery-assumed-specific-symptom-response-unreported",
+      "lower_ab_response": null,
+      "achilles_response": null,
+      "elbow_response": null,
+      "shoulder_response": null,
+      "next_day_recovery": null,
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 510,
+        "recorded_at": "2026-11-24T20:51:01-05:00",
+        "observed": false,
+        "reason": "Standing athlete default supplies ordinary post-session recovery and Wednesday readiness. Completed Upper A is reported without a new recovery or site-specific symptom report. Preserve active local restrictions; no next-day observation or clearance is inferred."
+      },
+      "note": "Upper A completed at normal Stage D. Heavier actual curl/back-off loads and final RIR 0 sets are recorded literally. No fresh tendon/ab response, next-day recovery or loading clearance; permanent exercise replacements and local limits persist."
     }
   ],
   "resolved_post_sessions": [
@@ -1821,11 +1847,11 @@
   "planning_readiness": {
     "status": "assumed-good",
     "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-    "decision_id": 510,
-    "recorded_at": "2026-11-24T20:51:01-05:00",
+    "decision_id": 511,
+    "recorded_at": "2026-11-25T18:19:22-05:00",
     "observed": false,
-    "reason": "Standing athlete default supplies ordinary post-session recovery and Wednesday readiness. Completed Upper A is reported without a new recovery or site-specific symptom report. Preserve active local restrictions; no next-day observation or clearance is inferred.",
-    "for_date": "2026-11-25"
+    "reason": "Standing athlete default supplies ordinary post-run recovery and Thursday readiness. The screenshots and distance report supply performance, not a new observed recovery or site-specific response. Effort ratings are requested separately; persistent local limits remain.",
+    "for_date": "2026-11-26"
   },
   "general_readiness_history": [
     {
@@ -1995,6 +2021,14 @@
       "status": "first-single-and-stage-d-arm-response-unreported",
       "question": "Did your elbows and shoulders stay comfortable during and after the 170 lb single and the final curl/pushdown sets?",
       "scope": "Targeted response to the first recorded W4single and near-failure arm work. Preserve any W9single/local-loading implications; missing response alone does not establish an injury, recreate the released biceps hold or block Tuesday running."
+    },
+    {
+      "session_id": "hybrid-2026-10-26-w5-wed-2026-11-25",
+      "date": "2026-11-25",
+      "decision_id": 511,
+      "status": "rep-rpe-unreported",
+      "question": "What was your RPE for each of the two 4-minute reps?",
+      "scope": "Finish effort assessment and conditional carried-award review. Ordinary recovery remains assumed; this is not a routine recovery question or reason to cancel the saved award before the reply."
     }
   ],
   "resolved_log_details": [
@@ -2209,6 +2243,15 @@
       "observed": false,
       "reason": "Standing athlete default supplies ordinary post-session recovery and Tuesday readiness. This log supplies completed performance, not observed next-day recovery or site-specific symptom clearance; preserve existing local restrictions.",
       "for_date": "2026-11-24"
+    },
+    {
+      "status": "assumed-good",
+      "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+      "decision_id": 510,
+      "recorded_at": "2026-11-24T20:51:01-05:00",
+      "observed": false,
+      "reason": "Standing athlete default supplies ordinary post-session recovery and Wednesday readiness. Completed Upper A is reported without a new recovery or site-specific symptom report. Preserve active local restrictions; no next-day observation or clearance is inferred.",
+      "for_date": "2026-11-25"
     }
   ],
   "recovery_override_history": [

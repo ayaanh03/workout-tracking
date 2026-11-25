@@ -6,7 +6,7 @@
   "start_date": "2026-10-25",
   "end_date": "2027-01-03",
   "timezone": "America/New_York",
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-25",
   "activation_status": "active",
   "calendar_week": "W5",
   "calendar_phase": "Build",
@@ -58,7 +58,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 510,
+  "last_adjustment_id": 511,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -939,6 +939,41 @@
       },
       "schedule_override_id": "2026-11-23-week-five-reschedule",
       "review_note": "All 18 sets reported. M1a 145×6 RIR 2 and M7 70×12/12 RIR 2 earn independent next increases. M1b 140 and M2 25 are performed working loads; no further increase yet. Pushdown first two sets at RIR 1 were closer than intended 2. No new symptom clearance, cardio or mileage."
+    },
+    "2026-11-25": {
+      "calendar_week": "W5",
+      "session": "Assessment intervals — moved from Tuesday",
+      "session_id": "hybrid-2026-10-26-w5-wed-2026-11-25",
+      "status": "completed",
+      "work_minutes": 8,
+      "distance_miles": 3.48,
+      "duration_seconds_from_segments": 1860,
+      "prescription_id": "hybrid-2026-10-26-wed-intervals-508",
+      "decision_id": 511,
+      "reported_at": "2026-11-25T18:19:22-05:00",
+      "actual_ref": "../history/cardio-log.md#2026-11-25--hybrid-v11-w5-wednesday-assessment-intervals",
+      "classification": "assessment-completed-effort-review-pending",
+      "ordinary_progression_credit": false,
+      "rep_paces_seconds_per_mile": [
+        395,
+        386
+      ],
+      "rep_rpe": [
+        null,
+        null
+      ],
+      "final_rep_rpe": null,
+      "recovery_status": "ordinary-recovery-assumed-good",
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 511,
+        "recorded_at": "2026-11-25T18:19:22-05:00",
+        "observed": false,
+        "reason": "Standing athlete default supplies ordinary post-run recovery and Thursday readiness. The screenshots and distance report supply performance, not a new observed recovery or site-specific response. Effort ratings are requested separately; persistent local limits remain."
+      },
+      "schedule_override_id": "2026-11-23-week-five-reschedule",
+      "review_note": "Two 4-minute reps completed at 6:35/6:26 with prescribed 3-minute recovery. Pace and volume pass; RPE requested and pending. Assessment work earns no ordinary hit/miss. Saved 6:35 carry remains unused and conditional, without premature application/cancellation."
     }
   },
   "planned_start_date": "2026-10-26",
@@ -1135,21 +1170,21 @@
       "range_end": "2026-11-29",
       "stage": "D",
       "completion": "in-progress",
-      "completed_sessions": 2,
+      "completed_sessions": 3,
       "known_lifting_sets": 35,
-      "known_running_work_minutes": 0,
-      "confirmed_running_miles": 0,
+      "known_running_work_minutes": 8,
+      "confirmed_running_miles": 3.48,
       "known_cycling_minutes": 0,
       "known_cycling_seconds": 0,
       "known_rowing_minutes": 0,
       "known_rowing_seconds": 0,
       "manageable": null,
       "status": "week-in-progress",
-      "decision_id": 510,
-      "source": "../history/adjustments.md#2026-11-24--log-moved-upper-a-and-preview-wednesday",
+      "decision_id": 511,
+      "source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
       "schedule_override_id": "2026-11-23-week-five-reschedule",
       "planned_lifting_sets": 85,
-      "note": "Moved Monday legs (17 sets) and Tuesday Upper A (18 sets) completed: 35 normal-D lifting sets. Remaining sessions are unperformed; original Wednesday delts/arms A and bike remain omitted. No W5 running/cycling actuals or full-week manageability yet."
+      "note": "Moved Monday legs, Tuesday Upper A and Wednesday assessment run completed: 35 lifting sets, eight running work minutes and 3.48 confirmed miles. Run effort review pending; no ordinary assessment credit. Future sessions unperformed; original Wednesday delts/arms A and bike omitted. No full-week manageability or stage advancement."
     }
   },
   "program_amendments": [
@@ -1241,14 +1276,14 @@
     "publish_next_workout": true,
     "default_recovery": "assumed-good-unless-reported-otherwise",
     "source": "../program/readiness.md",
-    "last_generated_date": "2026-11-25",
-    "last_generated_prescription_id": "hybrid-2026-10-26-wed-intervals-508",
-    "last_generated_from_session_id": "hybrid-2026-10-26-w5-tue-2026-11-24",
+    "last_generated_date": "2026-11-26",
+    "last_generated_prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+    "last_generated_from_session_id": "hybrid-2026-10-26-w5-wed-2026-11-25",
     "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping.",
     "last_generation_trigger": "automatic-next-workout-after-logged-session",
-    "last_generation_decision_id": 510,
-    "last_review_decision_id": 510,
-    "last_review_reason": "Log moved Tuesday Upper A and publish the prepared Wednesday W5 run preview. Live date is Tuesday November 24; Wednesday remains upcoming. Normal schedule resumes November 30."
+    "last_generation_decision_id": 511,
+    "last_review_decision_id": 511,
+    "last_review_reason": "Log completed Wednesday assessment run with effort review pending, then publish Thursday Upper B preview. Live date remains Wednesday November 25. No future completion, stage advance or run-carry use."
   },
   "session_freeze_history": [
     {
@@ -1595,7 +1630,7 @@
           "running_track": "tuesday",
           "prescription_id": "hybrid-2026-10-26-wed-intervals-508",
           "workout_file": "runs/2026-11-25.workout",
-          "status": "prescribed-preview-not-performed",
+          "status": "completed",
           "cardio": {
             "workout": "2×4 minutes at 6:40/mi, with one 3-minute easy recovery; eight work minutes, 31 minutes total.",
             "warmup": "10 minutes easy, up to five extra if needed.",
@@ -1606,14 +1641,152 @@
             },
             "workoutFile": "runs/2026-11-25.workout"
           },
-          "last_review_decision_id": 510
+          "last_review_decision_id": 511,
+          "session_id": "hybrid-2026-10-26-w5-wed-2026-11-25",
+          "completion_decision_id": 511,
+          "actual_ref": "../history/cardio-log.md#2026-11-25--hybrid-v11-w5-wednesday-assessment-intervals",
+          "work_minutes": 8,
+          "distance_miles": 3.48,
+          "classification": "assessment-completed-effort-review-pending"
         },
         {
           "scheduled_date": "2026-11-26",
           "original_date": "2026-11-26",
           "template_day": "Thursday",
           "session": "Upper B",
-          "status": "upcoming"
+          "status": "prescribed-preview-not-performed",
+          "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+          "last_review_decision_id": 511,
+          "lift": {
+            "table": [
+              {
+                "slotId": "T1",
+                "exercise": "Incline barbell bench",
+                "load": "137.5 lb; 140 lb if +2.5 total unavailable",
+                "setsReps": "3×6–8",
+                "rir": "2–3",
+                "rest": "3 min"
+              },
+              {
+                "slotId": "T2",
+                "exercise": "Unilateral machine preacher curl",
+                "load": "75 lb",
+                "setsReps": "2×8–12 per arm",
+                "rir": "≥3",
+                "rest": "2 min"
+              },
+              {
+                "slotId": "T3",
+                "exercise": "DB lateral raise",
+                "load": "35 lb",
+                "setsReps": "4×12–20",
+                "rir": "Sets 1–3: 1–2; final: 0–1",
+                "rest": "2 min"
+              },
+              {
+                "slotId": "T4",
+                "exercise": "Pull-up",
+                "load": "Calibrate — smallest available added load",
+                "setsReps": "2×6–12",
+                "rir": "2",
+                "rest": "2–3 min"
+              },
+              {
+                "slotId": "T5",
+                "exercise": "Cable pushdown",
+                "load": "50 lb",
+                "setsReps": "3×10–15",
+                "rir": "Sets 1–2: 2; final: 0–1",
+                "rest": "2 min"
+              },
+              {
+                "slotId": "T6",
+                "exercise": "Seated cable row",
+                "load": "120 lb",
+                "setsReps": "2×8–12",
+                "rir": "2",
+                "rest": "2–3 min"
+              },
+              {
+                "slotId": "T7",
+                "exercise": "Decline crunch — bodyweight",
+                "load": "BW",
+                "setsReps": "2×10–15",
+                "rir": "≥3",
+                "rest": "2 min"
+              },
+              {
+                "slotId": "T8",
+                "exercise": "Straight-arm cable pulldown",
+                "load": "50 lb",
+                "setsReps": "2×10–15",
+                "rir": "1–2",
+                "rest": "2 min"
+              }
+            ],
+            "lastWeek": {
+              "label": "Last matching Thursday session — November 19",
+              "table": [
+                {
+                  "slotId": "T1",
+                  "exercise": "Incline barbell bench",
+                  "load": "135 lb",
+                  "reps": "8 / 8 / 8",
+                  "rir": "2 / 2 / 2"
+                },
+                {
+                  "slotId": "T2",
+                  "exercise": "Unilateral machine preacher curl",
+                  "load": "75 lb",
+                  "reps": "9 / 8",
+                  "rir": "3 / 3"
+                },
+                {
+                  "slotId": "T3",
+                  "exercise": "DB lateral raise",
+                  "load": "35 lb",
+                  "reps": "12 / 13 / 12 / 12",
+                  "rir": "2 / 2 / 2 / 0"
+                },
+                {
+                  "slotId": "T4",
+                  "exercise": "Pull-up",
+                  "load": "BW (0 lb added)",
+                  "reps": "12 / 12",
+                  "rir": "2 / 2"
+                },
+                {
+                  "slotId": "T5",
+                  "exercise": "Cable pushdown",
+                  "load": "50 lb",
+                  "reps": "10 / 10 / 10",
+                  "rir": "2 / 2 / 1"
+                },
+                {
+                  "slotId": "T6",
+                  "exercise": "Seated cable row",
+                  "load": "120 lb",
+                  "reps": "9 / 9",
+                  "rir": "2 / 2"
+                },
+                {
+                  "slotId": "T7",
+                  "exercise": "Decline crunch — bodyweight",
+                  "load": "BW",
+                  "reps": "15 / 15",
+                  "rir": "5 / 5"
+                },
+                {
+                  "slotId": "T8",
+                  "exercise": "Straight-arm cable pulldown",
+                  "load": "50 lb",
+                  "reps": "12 / 11",
+                  "rir": "2 / 2"
+                }
+              ]
+            }
+          },
+          "working_sets": 20
         },
         {
           "scheduled_date": "2026-11-27",
@@ -1844,20 +2017,18 @@
     "compatibility_review": "Friday delts/arms B has no direct leg/calf work before Saturday running, and its triceps are not the day before incline. Running remains separate from lifting/bike. Sunday legs and Monday/Thursday incline remain in place."
   },
   "next_session_adjustment": {
-    "date": "2026-11-25",
-    "decision_id": 510,
+    "date": "2026-11-26",
+    "decision_id": 511,
     "status": "preview-not-performed",
-    "original_session": "Intervals — Tuesday track",
-    "effective_session": "W5 short intervals — moved to Wednesday",
-    "prescription_id": "hybrid-2026-10-26-wed-intervals-508",
-    "source": "../history/adjustments.md#2026-11-24--log-moved-upper-a-and-preview-wednesday",
+    "original_session": "Upper B",
+    "effective_session": "Upper B",
+    "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+    "source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
     "preview": true,
-    "work_minutes": 8,
-    "total_minutes": 31,
-    "pace_seconds_per_mile": 400,
-    "rpe_cap": 8,
+    "stage": "D",
+    "working_sets": 20,
     "schedule_override_id": "2026-11-23-week-five-reschedule",
-    "reason": "After completed Tuesday Upper A, the approved override selects Wednesday short intervals. Preserve the exact prepared #508 W5 dose and Watch file; saved 6:35 carry does not speed assessment work."
+    "reason": "Next scheduled uncompleted workout after Wednesday run is Thursday Upper B. W5 retains achieved-D lifting. Apply independent Nov19 incline/pull-up awards once, preserve local preacher/ab limits and assume ordinary recovery without inventing observations."
   },
   "next_session_adjustment_history": [
     {
@@ -2076,6 +2247,25 @@
       "completed_on": "2026-11-24",
       "completion_decision_id": 510,
       "session_id": "hybrid-2026-10-26-w5-tue-2026-11-24"
+    },
+    {
+      "date": "2026-11-25",
+      "decision_id": 510,
+      "status": "completed",
+      "original_session": "Intervals — Tuesday track",
+      "effective_session": "W5 short intervals — moved to Wednesday",
+      "prescription_id": "hybrid-2026-10-26-wed-intervals-508",
+      "source": "../history/adjustments.md#2026-11-24--log-moved-upper-a-and-preview-wednesday",
+      "preview": true,
+      "work_minutes": 8,
+      "total_minutes": 31,
+      "pace_seconds_per_mile": 400,
+      "rpe_cap": 8,
+      "schedule_override_id": "2026-11-23-week-five-reschedule",
+      "reason": "After completed Tuesday Upper A, the approved override selects Wednesday short intervals. Preserve the exact prepared #508 W5 dose and Watch file; saved 6:35 carry does not speed assessment work.",
+      "completed_on": "2026-11-25",
+      "completion_decision_id": 511,
+      "session_id": "hybrid-2026-10-26-w5-wed-2026-11-25"
     }
   ],
   "assessment_boundary_review": {

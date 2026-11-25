@@ -390,3 +390,21 @@ Decision **#509**. November 23’s moved leg workout supplies the remaining subs
 Together with November 21’s full qualifying 3×6 run and the standing **assumed-good ordinary recovery** policy, this supports **Friday last-tolerated cycling duration 20 → 25 minutes** under [cycling tolerance](../program/endurance.md#cycling). Archive the pending review and retain its dated evidence. No fresh recovery measurement or ab/Achilles/elbow clearance was reported.
 
 **Friday November 27 remains 15 minutes after lifting at RPE 3 (acceptable 2–4)** because W5’s assessment ceiling still governs. Keep prescription `hybrid-2026-10-26-fri-bike-508`, settings height 10.5 / seat +4 / handle +3, and the original Wednesday bike omission. No new cardio actual, run target/credit/counter change, assessment-award use or mileage addition.
+
+## 2026-11-25 — Hybrid v11 W5 Wednesday assessment intervals
+
+Session `hybrid-2026-10-26-w5-wed-2026-11-25`, prescribed `hybrid-2026-10-26-wed-intervals-508`: the Tuesday short-run track moved to Wednesday for this week. The athlete confirms **3.48 miles**; screenshots show the full W5 **2×4 minutes** at **6:35/6:26 per mile**, one **3-minute recovery**, and ten-minute warmup/cooldown. **Work-rep RPE is requested and remains unreported.** Original target was **6:40/mi**, final RPE cap **8**; preserve the existing Watch prescription separately.
+
+| Segment | Time | Displayed distance | Displayed pace /mi | Avg HR | Avg power | Avg cadence |
+|---|---|---|---|---|---|---|
+| Warmup | 10:00 | 1.02 mi | 9:48 | 148 bpm | 199 W | 170 spm |
+| Work 1 | 4:00 | 0.60 mi | 6:35 | 177 bpm | 298 W | 187 spm |
+| Recovery | 3:00 | 0.27 mi | 10:56 | 169 bpm | 179 W | 164 spm |
+| Work 2 | 4:00 | 0.62 mi | 6:26 | 180 bpm | 307 W | 186 spm |
+| Cooldown | 10:00 | 0.96 mi | 10:19 | 169 bpm | 199 W | 168 spm |
+
+Displayed intervals total **31:00**; rounded distances total **3.47 mi**, separate from confirmed **3.48**. Mile splits show **9:54 / 7:41 / 8:28 / 4:55**, with displayed paces **9:54 / 7:41 / 8:28 / 10:12** and HR **148 / 173 / 176 / 166**. Their times total **30:58**. HR zones total **30:55**: Z1 **1:25** below137, Z2 **2:44** at138–150, Z3 **7:07** at151–163, Z4 **11:07** at164–175, Z5 **8:32** at176+. Overall average HR **165 bpm**. The chart's upper label185 is not confirmed peak HR. Preserve display differences; no open tail, pause duration or missing segment is invented. Surface, recovery mode, extra rest and site-specific responses are unreported.
+
+**Assessment completion, effort validation pending:** both paces meet the one-sided **6:45-or-faster** check, and the displayed work and between-rep recovery match the issued reduced dose. W5 assessment work earns **no ordinary hit/miss/comfortable credit or new pace award**. Preserve the latest normal classification from November17, normal **6:40/3×4/12 minutes**, Tuesday counters **2 hits/0 misses**, and the unused **6:35** carried award. Current missing RPE is neither excessive effort nor a cancellation; await the rating before validating this session for carry survival. Keep the award saved/unused and conditional on eligible no-test W5 completion, acceptable recovery and its existing use-or-expire review at the first normal opportunity. Any test or other clearing event still cancels it. Counters reset at W5 end, not here. Ordinary recovery is assumed good under the standing directive, with no observed next-day recovery or injury clearance inferred.
+
+Add **3.48 mi once** to the standing sole pair **Evo SL: 28.27 → 31.75 tracked miles**. Keep the inactive Vomero ledger unchanged. W5 running so far is **3.48 miles and eight work minutes**; no Saturday run has occurred. With the unperformed Saturday no-test **2×6 at7:10**, projected complete-week mileage is **7.74 mi**, upper **8.35 mi**. The unselected exact-5K branch projects **8.94 mi**, upper **9.53 mi**. Easy budgeting remains8:30/mi; upper allowances include Saturday's five extra warmup minutes and fast work-alert edge where applicable. Both remain below15. Saturday's plan, all normal run references/counters, source awards, cycling state and prior Watch files remain unchanged. Decision **#511**.
