@@ -1,17 +1,16 @@
 {
-  "generatedAt": "2026-11-25T18:19:22-05:00",
+  "generatedAt": "2026-11-26T13:17:50-05:00",
   "blockId": "hybrid-2026-10-26",
   "prescriptionId": "hybrid-2026-10-26-thu-upper-b-511",
-  "preview": true,
+  "preview": false,
   "week": "W5",
   "day": "Thu",
   "date": "2026-11-26",
   "phase": "Hybrid v11 — Stage D / W5 assessment",
-  "sessionName": "Upper B — preview",
+  "sessionName": "Upper B",
   "why": [
-    "Wednesday’s moved run is logged: 3.48 miles, with work reps at 6:35 and 6:26/mile. Thursday Upper B is next; the run effort review is pending your RPE reply.",
-    "Thursday Upper B remains in place under this week’s schedule override. W5 keeps normal Stage D lifting while endurance is lighter.",
-    "20 effective sets with the existing preacher-curl and bodyweight-ab limits. Ordinary recovery is assumed good under your standing preference."
+    "Today is Thursday, November 26: Upper B under this week’s schedule. The prepared workout remains 20 effective Stage D sets, with no cardio.",
+    "W5 keeps normal lifting while endurance is lighter. Ordinary recovery is assumed good; the existing preacher-curl and bodyweight-ab limits remain."
   ],
   "intro": [
     "Incline: 137.5 lb preferred, or 140 if +2.5 lb total is unavailable and +5 is the smallest increment.",
@@ -180,9 +179,9 @@
     },
     {
       "exercise": "Wednesday assessment run",
-      "previous": "November 25: two 4-minute reps at 6:35/6:26 per mile, one 3-minute recovery, 10-minute warmup/cooldown; 3.48 miles confirmed.",
-      "decision": "Record the completed work and mileage; retain the saved 6:35 pace award unused while the effort review is pending.",
-      "reason": "Both paces pass the current target, but effort ratings are unreported. W5 assessment work earns no ordinary progression credit. Ordinary recovery is assumed; no new symptom clearance or future run is inferred."
+      "previous": "November 25: two 4-minute reps at 6:35/6:26 per mile, confirmed RPE 8/8; 3.48 miles.",
+      "decision": "Effort review complete: both reps meet the cap. Keep the saved 6:35 pace award unused until its eligible normal-run review.",
+      "reason": "The full prescribed work, recovery and effort requirements are met under assumed ordinary recovery. W5 assessment work earns no new ordinary progression credit. The existing award still depends on completing an eligible W5; no extra mileage or run is logged."
     }
   ],
   "currentLoads": [

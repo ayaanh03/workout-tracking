@@ -6,7 +6,7 @@
   "start_date": "2026-10-25",
   "end_date": "2027-01-03",
   "timezone": "America/New_York",
-  "as_of": "2026-11-25",
+  "as_of": "2026-11-26",
   "activation_status": "active",
   "calendar_week": "W5",
   "calendar_phase": "Build",
@@ -58,7 +58,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 511,
+  "last_adjustment_id": 512,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -952,17 +952,17 @@
       "decision_id": 511,
       "reported_at": "2026-11-25T18:19:22-05:00",
       "actual_ref": "../history/cardio-log.md#2026-11-25--hybrid-v11-w5-wednesday-assessment-intervals",
-      "classification": "assessment-completed-effort-review-pending",
+      "classification": "assessment-completed-no-ordinary-credit",
       "ordinary_progression_credit": false,
       "rep_paces_seconds_per_mile": [
         395,
         386
       ],
       "rep_rpe": [
-        null,
-        null
+        8,
+        8
       ],
-      "final_rep_rpe": null,
+      "final_rep_rpe": 8,
       "recovery_status": "ordinary-recovery-assumed-good",
       "recovery_decision": {
         "status": "assumed-good",
@@ -973,7 +973,22 @@
         "reason": "Standing athlete default supplies ordinary post-run recovery and Thursday readiness. The screenshots and distance report supply performance, not a new observed recovery or site-specific response. Effort ratings are requested separately; persistent local limits remain."
       },
       "schedule_override_id": "2026-11-23-week-five-reschedule",
-      "review_note": "Two 4-minute reps completed at 6:35/6:26 with prescribed 3-minute recovery. Pace and volume pass; RPE requested and pending. Assessment work earns no ordinary hit/miss. Saved 6:35 carry remains unused and conditional, without premature application/cancellation."
+      "review_note": "Full W5 2×4 at 6:35/6:26 with the 3-minute recovery. Confirmed RPE 8/8 meets the cap of 8. Effort review resolved; assessment work adds no ordinary hit/miss or new pace award. Saved 6:35 carry remains unused, conditional on eligible W5 completion and first-normal-opportunity review.",
+      "effort_cap_met": true,
+      "effort_followup": {
+        "decision_id": 512,
+        "reported_on": "2026-11-26",
+        "recorded_at": "2026-11-26T13:17:50-05:00",
+        "report": "Rpe was 8,8 and then generate today if needed",
+        "rep_rpe": [
+          8,
+          8
+        ],
+        "final_rep_rpe": 8,
+        "effort_cap_met": true,
+        "source": "../history/cardio-log.md#2026-11-26--wednesday-assessment-effort-confirmed",
+        "scope": "Effort confirmation for the existing November 25 run only. No new run, mileage, observed recovery or symptom report."
+      }
     }
   },
   "planned_start_date": "2026-10-26",
@@ -1180,11 +1195,11 @@
       "known_rowing_seconds": 0,
       "manageable": null,
       "status": "week-in-progress",
-      "decision_id": 511,
-      "source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
+      "decision_id": 512,
+      "source": "../history/adjustments.md#2026-11-26--confirm-run-effort-and-activate-upper-b",
       "schedule_override_id": "2026-11-23-week-five-reschedule",
       "planned_lifting_sets": 85,
-      "note": "Moved Monday legs, Tuesday Upper A and Wednesday assessment run completed: 35 lifting sets, eight running work minutes and 3.48 confirmed miles. Run effort review pending; no ordinary assessment credit. Future sessions unperformed; original Wednesday delts/arms A and bike omitted. No full-week manageability or stage advancement."
+      "note": "Monday legs, Tuesday Upper A and Wednesday assessment run completed: 35 lifting sets, eight run work minutes and 3.48 miles. Wednesday effort confirmed RPE 8/8 within cap; no ordinary assessment credit. Thursday is planned today, not performed. Original Wednesday lift/bike omitted; full-week manageability remains unreviewed."
     }
   },
   "program_amendments": [
@@ -1280,10 +1295,10 @@
     "last_generated_prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
     "last_generated_from_session_id": "hybrid-2026-10-26-w5-wed-2026-11-25",
     "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping.",
-    "last_generation_trigger": "automatic-next-workout-after-logged-session",
-    "last_generation_decision_id": 511,
-    "last_review_decision_id": 511,
-    "last_review_reason": "Log completed Wednesday assessment run with effort review pending, then publish Thursday Upper B preview. Live date remains Wednesday November 25. No future completion, stage advance or run-carry use."
+    "last_generation_trigger": "current-workout-request-and-run-effort-followup",
+    "last_generation_decision_id": 512,
+    "last_review_decision_id": 512,
+    "last_review_reason": "Resolve existing run effort at RPE 8/8 and activate today’s unchanged Upper B prescription. No extra session, exposure, loading award or mileage."
   },
   "session_freeze_history": [
     {
@@ -1647,16 +1662,21 @@
           "actual_ref": "../history/cardio-log.md#2026-11-25--hybrid-v11-w5-wednesday-assessment-intervals",
           "work_minutes": 8,
           "distance_miles": 3.48,
-          "classification": "assessment-completed-effort-review-pending"
+          "classification": "assessment-completed-no-ordinary-credit",
+          "rep_rpe": [
+            8,
+            8
+          ],
+          "effort_review_decision_id": 512
         },
         {
           "scheduled_date": "2026-11-26",
           "original_date": "2026-11-26",
           "template_day": "Thursday",
           "session": "Upper B",
-          "status": "prescribed-preview-not-performed",
+          "status": "planned-today-not-performed",
           "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
-          "last_review_decision_id": 511,
+          "last_review_decision_id": 512,
           "lift": {
             "table": [
               {
@@ -1786,7 +1806,10 @@
               ]
             }
           },
-          "working_sets": 20
+          "working_sets": 20,
+          "preview": false,
+          "activated_on": "2026-11-26",
+          "activation_decision_id": 512
         },
         {
           "scheduled_date": "2026-11-27",
@@ -2018,17 +2041,17 @@
   },
   "next_session_adjustment": {
     "date": "2026-11-26",
-    "decision_id": 511,
-    "status": "preview-not-performed",
+    "decision_id": 512,
+    "status": "planned-today-not-performed",
     "original_session": "Upper B",
     "effective_session": "Upper B",
     "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
-    "source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
-    "preview": true,
+    "source": "../history/adjustments.md#2026-11-26--confirm-run-effort-and-activate-upper-b",
+    "preview": false,
     "stage": "D",
     "working_sets": 20,
     "schedule_override_id": "2026-11-23-week-five-reschedule",
-    "reason": "Next scheduled uncompleted workout after Wednesday run is Thursday Upper B. W5 retains achieved-D lifting. Apply independent Nov19 incline/pull-up awards once, preserve local preacher/ab limits and assume ordinary recovery without inventing observations."
+    "reason": "Activate the unchanged prepared #511 Thursday Upper B: 20 effective sets, no cardio. Rep RPE 8/8 resolves yesterday’s assessment effort review; normal current readiness is assumed. Preserve once-applied T1/T4 awards and all local limits."
   },
   "next_session_adjustment_history": [
     {
@@ -2266,6 +2289,22 @@
       "completed_on": "2026-11-25",
       "completion_decision_id": 511,
       "session_id": "hybrid-2026-10-26-w5-wed-2026-11-25"
+    },
+    {
+      "date": "2026-11-26",
+      "decision_id": 511,
+      "status": "preview-not-performed",
+      "original_session": "Upper B",
+      "effective_session": "Upper B",
+      "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+      "source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
+      "preview": true,
+      "stage": "D",
+      "working_sets": 20,
+      "schedule_override_id": "2026-11-23-week-five-reschedule",
+      "reason": "Next scheduled uncompleted workout after Wednesday run is Thursday Upper B. W5 retains achieved-D lifting. Apply independent Nov19 incline/pull-up awards once, preserve local preacher/ab limits and assume ordinary recovery without inventing observations.",
+      "activated_on": "2026-11-26",
+      "activation_decision_id": 512
     }
   ],
   "assessment_boundary_review": {

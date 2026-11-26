@@ -5247,7 +5247,7 @@
         "fallback_condition": "Use 140 lb only if +2.5 lb total is unavailable and +5 lb is the smallest available increment.",
         "calibration": "Respect 6–8 reps at 2–3 RIR. If the smallest increment prevents the floor, use a smaller one if available or hold 135 lb and review.",
         "for_date": "2026-11-26",
-        "preview": true,
+        "preview": false,
         "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
         "scheduled_day": "Thursday",
         "template_day": "Thursday",
@@ -5255,16 +5255,30 @@
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 511,
-          "recorded_at": "2026-11-25T18:19:26-05:00",
+          "decision_id": 512,
+          "recorded_at": "2026-11-26T13:17:50-05:00",
           "for_date": "2026-11-26",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+          "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
         },
         "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
         "qualification_source_applied_prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
         "qualification_source_applied_on": "2026-11-25",
-        "qualification_source_application_decision_id": 511
+        "qualification_source_application_decision_id": 511,
+        "activated_on": "2026-11-26",
+        "activation_decision_id": 512,
+        "last_review_decision_id": 512,
+        "recovery_basis_history": [
+          {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 511,
+            "recorded_at": "2026-11-25T18:19:26-05:00",
+            "for_date": "2026-11-26",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+          }
+        ]
       },
       "next_action_history": [
         {
@@ -5807,7 +5821,7 @@
         "reason": "November 19: 75×9/8 per arm at RIR 3 did not reach both ceilings. Hold 75 lb, two sets per arm and the active minimum 3 RIR; no new review removes that local effort limit.",
         "load_lb": 75,
         "for_date": "2026-11-26",
-        "preview": true,
+        "preview": false,
         "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
         "scheduled_day": "Thursday",
         "template_day": "Thursday",
@@ -5815,13 +5829,27 @@
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 511,
-          "recorded_at": "2026-11-25T18:19:26-05:00",
+          "decision_id": 512,
+          "recorded_at": "2026-11-26T13:17:50-05:00",
           "for_date": "2026-11-26",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+          "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
         },
-        "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday"
+        "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
+        "activated_on": "2026-11-26",
+        "activation_decision_id": 512,
+        "last_review_decision_id": 512,
+        "recovery_basis_history": [
+          {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 511,
+            "recorded_at": "2026-11-25T18:19:26-05:00",
+            "for_date": "2026-11-26",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+          }
+        ]
       },
       "next_action_history": [
         {
@@ -6094,7 +6122,7 @@
         "reason": "November 19: 35×12/13/12/12 at RIR 2/2/2/0. Hold 35 lb for four sets; no all-set 20-rep ceiling. Eligible final 0–1 remains permitted, independent of the Monday slot.",
         "load_lb": 35,
         "for_date": "2026-11-26",
-        "preview": true,
+        "preview": false,
         "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
         "scheduled_day": "Thursday",
         "template_day": "Thursday",
@@ -6102,13 +6130,27 @@
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 511,
-          "recorded_at": "2026-11-25T18:19:26-05:00",
+          "decision_id": 512,
+          "recorded_at": "2026-11-26T13:17:50-05:00",
           "for_date": "2026-11-26",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+          "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
         },
-        "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday"
+        "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
+        "activated_on": "2026-11-26",
+        "activation_decision_id": 512,
+        "last_review_decision_id": 512,
+        "recovery_basis_history": [
+          {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 511,
+            "recorded_at": "2026-11-25T18:19:26-05:00",
+            "for_date": "2026-11-26",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+          }
+        ]
       },
       "next_action_history": [
         {
@@ -6482,7 +6524,7 @@
         "load_selection": "Calibrate using the smallest available safely attachable added load. Exact amount and attachment remain unreported; record the actual added pounds at logging.",
         "calibration": "Respect 6–12 reps at about 2 RIR. If the increment prevents six reps at intended reserve, use a smaller increment if available or retain bodyweight and review.",
         "for_date": "2026-11-26",
-        "preview": true,
+        "preview": false,
         "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
         "scheduled_day": "Thursday",
         "template_day": "Thursday",
@@ -6490,18 +6532,32 @@
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 511,
-          "recorded_at": "2026-11-25T18:19:26-05:00",
+          "decision_id": 512,
+          "recorded_at": "2026-11-26T13:17:50-05:00",
           "for_date": "2026-11-26",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+          "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
         },
         "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
         "qualification_source_applied_prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
         "qualification_source_applied_on": "2026-11-25",
         "qualification_source_application_decision_id": 511,
         "fallback": "If no suitable added-load setup is available, retain BW. If the smallest increment prevents six reps at about 2 RIR, use a smaller increment if available or retain BW and review.",
-        "numeric_load_selection_status": "pending-equipment-availability-at-session"
+        "numeric_load_selection_status": "pending-equipment-availability-at-session",
+        "activated_on": "2026-11-26",
+        "activation_decision_id": 512,
+        "last_review_decision_id": 512,
+        "recovery_basis_history": [
+          {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 511,
+            "recorded_at": "2026-11-25T18:19:26-05:00",
+            "for_date": "2026-11-26",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+          }
+        ]
       },
       "bodyweight_lb": null,
       "next_action_history": [
@@ -6854,7 +6910,7 @@
         "reason": "November 19: 50×10/10/10 at RIR 2/2/1. Hold 50 lb and three sets; target about 2 RIR on the first two, 0–1 on the last. Tuesday’s separate pushdown effort deviation does not become a Thursday actual or loading award.",
         "load_lb": 50,
         "for_date": "2026-11-26",
-        "preview": true,
+        "preview": false,
         "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
         "scheduled_day": "Thursday",
         "template_day": "Thursday",
@@ -6862,13 +6918,27 @@
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 511,
-          "recorded_at": "2026-11-25T18:19:26-05:00",
+          "decision_id": 512,
+          "recorded_at": "2026-11-26T13:17:50-05:00",
           "for_date": "2026-11-26",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+          "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
         },
-        "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday"
+        "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
+        "activated_on": "2026-11-26",
+        "activation_decision_id": 512,
+        "last_review_decision_id": 512,
+        "recovery_basis_history": [
+          {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 511,
+            "recorded_at": "2026-11-25T18:19:26-05:00",
+            "for_date": "2026-11-26",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+          }
+        ]
       },
       "next_action_history": [
         {
@@ -7217,7 +7287,7 @@
         "reason": "November 19: 120×9/9 at RIR 2. Hold 120 lb and two sets while building toward 12. Tuesday’s chest-supported-row award belongs to another slot and equipment.",
         "load_lb": 120,
         "for_date": "2026-11-26",
-        "preview": true,
+        "preview": false,
         "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
         "scheduled_day": "Thursday",
         "template_day": "Thursday",
@@ -7225,13 +7295,27 @@
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 511,
-          "recorded_at": "2026-11-25T18:19:26-05:00",
+          "decision_id": 512,
+          "recorded_at": "2026-11-26T13:17:50-05:00",
           "for_date": "2026-11-26",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+          "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
         },
-        "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday"
+        "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
+        "activated_on": "2026-11-26",
+        "activation_decision_id": 512,
+        "last_review_decision_id": 512,
+        "recovery_basis_history": [
+          {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 511,
+            "recorded_at": "2026-11-25T18:19:26-05:00",
+            "for_date": "2026-11-26",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+          }
+        ]
       },
       "next_action_history": [
         {
@@ -7609,7 +7693,7 @@
           "reason": "November 19: BW×15/15 at RIR 5/5. Retain bodyweight only, maximum two sets and minimum 3 RIR. Other ab-slot reports and extra reserve do not clear the separate loading restriction.",
           "load": "BW",
           "for_date": "2026-11-26",
-          "preview": true,
+          "preview": false,
           "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
           "scheduled_day": "Thursday",
           "template_day": "Thursday",
@@ -7617,13 +7701,27 @@
           "recovery_basis": {
             "status": "assumed-good",
             "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-            "decision_id": 511,
-            "recorded_at": "2026-11-25T18:19:26-05:00",
+            "decision_id": 512,
+            "recorded_at": "2026-11-26T13:17:50-05:00",
             "for_date": "2026-11-26",
             "observed": false,
-            "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+            "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
           },
-          "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday"
+          "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
+          "activated_on": "2026-11-26",
+          "activation_decision_id": 512,
+          "last_review_decision_id": 512,
+          "recovery_basis_history": [
+            {
+              "status": "assumed-good",
+              "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+              "decision_id": 511,
+              "recorded_at": "2026-11-25T18:19:26-05:00",
+              "for_date": "2026-11-26",
+              "observed": false,
+              "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+            }
+          ]
         },
         "next_action_history": [
           {
@@ -7876,7 +7974,7 @@
         "reason": "November 19: 50×12/11 at RIR 2. Hold 50 lb for two sets at 1–2 RIR; neither set reached 15.",
         "load_lb": 50,
         "for_date": "2026-11-26",
-        "preview": true,
+        "preview": false,
         "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
         "scheduled_day": "Thursday",
         "template_day": "Thursday",
@@ -7884,13 +7982,27 @@
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 511,
-          "recorded_at": "2026-11-25T18:19:26-05:00",
+          "decision_id": 512,
+          "recorded_at": "2026-11-26T13:17:50-05:00",
           "for_date": "2026-11-26",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+          "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
         },
-        "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday"
+        "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
+        "activated_on": "2026-11-26",
+        "activation_decision_id": 512,
+        "last_review_decision_id": 512,
+        "recovery_basis_history": [
+          {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 511,
+            "recorded_at": "2026-11-25T18:19:26-05:00",
+            "for_date": "2026-11-26",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+          }
+        ]
       },
       "next_action_history": [
         {

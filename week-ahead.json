@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-25T18:19:22-05:00",
+  "generatedAt": "2026-11-26T13:17:50-05:00",
   "blockId": "hybrid-2026-10-26",
-  "preview": true,
+  "preview": false,
   "week": "W5",
   "phase": "Hybrid v11 — Stage D / assessment",
   "rangeStart": "2026-11-23",
   "rangeEnd": "2026-11-29",
-  "summary": "This week only: Monday legs, Tuesday Upper A and Wednesday short run logged; Thursday Upper B preview; Friday delts/arms B + 15-minute bike; Saturday W5 run; Sunday legs. Original Wednesday lift/bike omitted. Normal schedule resumes November 30. W5 so far: three sessions, 35 lifting sets, eight run work minutes and 3.48 miles.",
+  "summary": "This week only: Monday legs, Tuesday Upper A and Wednesday short run logged; Thursday Upper B today; Friday delts/arms B + 15-minute bike; Saturday W5 run; Sunday legs. Original Wednesday lift/bike omitted. Normal schedule resumes November 30. W5 so far: three sessions, 35 lifting sets, eight run work minutes and 3.48 miles.",
   "days": [
     {
       "date": "2026-11-23",
@@ -27,14 +27,14 @@
       "day": "Wed",
       "session": "W5 short run — moved from Tuesday",
       "status": "done",
-      "note": "Logged 2×4 minutes at 6:35/6:26 per mile, with 3-minute recovery; 10-minute warmup/cooldown. Confirmed 3.48 miles. RPE review pending; no ordinary assessment progression credit. Saved 6:35 award remains unused and conditional."
+      "note": "Logged 2×4 minutes at 6:35/6:26 per mile, RPE 8/8, with 3-minute recovery and 10-minute warmup/cooldown. Confirmed 3.48 miles. Assessment pace, volume and effort requirements met; no ordinary progression credit. Saved 6:35 award remains unused and conditional."
     },
     {
       "date": "2026-11-26",
       "day": "Thu",
       "session": "Upper B",
-      "status": "upcoming",
-      "note": "Preview: 20 Stage D sets. Apply Thursday’s own earned incline increase (137.5 lb preferred / 140 conditional) and smallest available added pull-up load; calibrate the latter. Keep preacher curls at ≥3 RIR and abs bodyweight only. No cardio."
+      "status": "today",
+      "note": "Today: unchanged prepared 20-set Upper B. Incline 137.5 lb preferred / 140 conditional; pull-ups with the smallest safely attachable added load available, calibrated to 2 RIR. Keep preacher curls ≥3 RIR and abs bodyweight only. No cardio."
     },
     {
       "date": "2026-11-27",

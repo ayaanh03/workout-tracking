@@ -1241,3 +1241,28 @@ Generate **Thursday November 26 — Upper B, preview**, `hybrid-2026-10-26-thu-u
 Hold remaining Thursday loads from their own November 19 actuals: preacher 75×9/8 at RIR 3; lateral 35×12/13/12/12 at RIR 2/2/2/0; pushdown 50×10/10/10 at RIR 2/2/1; seated row 120×9/9 at RIR 2; straight-arm pulldown 50×12/11 at RIR 2. None reached every ceiling. Retain the local preacher floor ≥3 RIR, permanent cable-curl replacement and BW-only/max-two-set/≥3 RIR ab limit. T7 BW15/15 at RIR 5 does not clear loading. No new lift exposure, completed heavier load or stage advance is inferred by generation.
 
 Live date is **Wednesday November 25, America/New_York**; Thursday is upcoming. The one-week override still omits the original Wednesday delts/arms A and bike, preserves Friday lifting/Saturday running and resumes the standing schedule November 30. No test is selected. Updated whole-week budget uses actual Wednesday 3.48 + planned Saturday: no-test **7.742653898768811 mi**, upper **8.350588235294118**; optional exact-5K branch **8.939797137657258**, upper **9.528032431774904**. Both below 15; only 3.48 is performed. Preserve prior Watch files, normal run counters/sources, bike tolerance, lifting actual history and all unrelated slot awards. Refresh state and both dashboard views, verify and publish.
+
+## 2026-11-26 — confirm run effort and activate Upper B
+
+512. Athlete confirms **“Rpe was 8,8 and then generate today if needed.”** Resolve **RPE 8/8, final 8** for the existing November 25 assessment run `hybrid-2026-10-26-w5-wed-2026-11-25`. Its two four-minute reps at 6:35/6:26, prescribed three-minute recovery and final effort cap ≤8 are now fully reviewed under the standing ordinary-recovery assumption. Preserve literal paces, all other screenshot metrics, confirmed 3.48 miles and the original `hybrid-2026-10-26-wed-intervals-508` prescription. This is an effort follow-up, not another run or shoe addition.
+
+The W5 assessment session is complete with the effort requirement met. Under [assessment](../program/assessments.md) and [run-credit](../program/run-credit.md#assessment-counters-and-carried-award) rules, it adds no ordinary hit/miss, comfortable credit, pace increase or successful-normal-dose replacement. Keep normal 6:40/3×4, historical normal hit count two and saved unused 6:35 award. Resolve this run's effort gate, while retaining the remaining eligible-W5-completion and first-normal-opportunity review conditions. Do not apply, cancel or enlarge the award, or reset counters early. A test or other clearing event still governs the saved award. RPE confirmation does not supply observed recovery or local symptom clearance.
+
+Today is **Thursday November 26, America/New_York, W5**. Activate the already-prepared `hybrid-2026-10-26-thu-upper-b-511` unchanged: **20 Stage D sets, no cardio**, same order and limits:
+
+| Slot | Exercise | Load | Sets × reps | RIR | Rest |
+|---|---|---|---|---|---|
+| T1 | Incline barbell bench | 137.5 lb preferred; 140 if +2.5 total unavailable and +5 smallest | 3×6–8 | 2–3 | 3 min |
+| T2 | Unilateral machine preacher curl | 75 lb | 2×8–12 per arm | ≥3 | 2 min |
+| T3 | DB lateral raise | 35 lb | 4×12–20 | First three 1–2; final 0–1 | 2 min |
+| T4 | Pull-up | Calibrate — smallest safely attachable added load available | 2×6–12 | 2 | 2–3 min |
+| T5 | Cable pushdown | 50 lb | 3×10–15 | First two 2; final 0–1 | 2 min |
+| T6 | Seated cable row | 120 lb | 2×8–12 | 2 | 2–3 min |
+| T7 | Decline crunch — bodyweight | BW | 2×10–15 | ≥3 | 2 min |
+| T8 | Straight-arm cable pulldown | 50 lb | 2×10–15 | 1–2 | 2 min |
+
+Retain #511's adaptation review: T1 November 19 135×8/8/8 at RIR 2 and T4 BW×12/12 at RIR 2 supplied their independent increases, already applied once to this prescription. Activation does not consume either source again, reset qualification again, update actual loads or create an exposure. Pull-up loading remains equipment-dependent calibration; if no suitable added load is available or six reps at 2 RIR cannot be maintained, use a smaller increment if available or retain BW and review. Other Thursday loads remain below their all-set ceilings; preserve the local preacher floor and bodyweight-ab ceiling. No cardio is added from the omitted Wednesday session.
+
+Refresh current-day readiness using the standing assumed-good policy. Remove preview labels and mark Thursday today, while keeping it unperformed. Resolve the pending effort question in recovery state; retain all unrelated questions, observed recovery history and active local restrictions. The run remains November 25, live date advances to November 26, and Friday/Saturday/Sunday stay upcoming under the existing one-week override.
+
+W5 totals remain **three completed sessions, 35 lifting sets, eight run work minutes, 3.48 miles and no bike actuals**. Evo SL remains **31.75 miles**. Preserve lifting history, all Watch files, normal running state, carried-award sources, bike tolerance and schedule restoration on November 30. Verify state/cache consistency and publish the activated dashboard.

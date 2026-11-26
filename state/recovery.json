@@ -919,10 +919,10 @@
     "work_minutes": 8,
     "distance_miles": 3.48,
     "rep_rpe": [
-      null,
-      null
+      8,
+      8
     ],
-    "status": "general-recovery-assumed-run-effort-pending",
+    "status": "assessment-effort-confirmed-general-recovery-assumed",
     "lower_ab_response": null,
     "achilles_response": null,
     "elbow_response": null,
@@ -930,12 +930,38 @@
     "recovery_decision": {
       "status": "assumed-good",
       "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-      "decision_id": 511,
-      "recorded_at": "2026-11-25T18:19:22-05:00",
+      "decision_id": 512,
+      "recorded_at": "2026-11-26T13:17:50-05:00",
+      "for_date": "2026-11-26",
       "observed": false,
-      "reason": "Standing athlete default supplies ordinary post-run recovery and Thursday readiness. The screenshots and distance report supply performance, not a new observed recovery or site-specific response. Effort ratings are requested separately; persistent local limits remain."
+      "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
     },
-    "note": "Completed moved W5 assessment run. Rep effort is not visible in screenshots and was requested; keep it unknown until answered. No new symptom report, next-day observation, fatigue diagnosis or local clearance."
+    "note": "November 25 assessment run completed; November 26 follow-up confirms RPE 8/8, meeting the final-rep cap. Ordinary recovery remains assumed; no observed next-day or local response supplied.",
+    "final_rep_rpe": 8,
+    "effort_followup": {
+      "decision_id": 512,
+      "reported_on": "2026-11-26",
+      "recorded_at": "2026-11-26T13:17:50-05:00",
+      "report": "Rpe was 8,8 and then generate today if needed",
+      "rep_rpe": [
+        8,
+        8
+      ],
+      "final_rep_rpe": 8,
+      "effort_cap_met": true,
+      "source": "../history/cardio-log.md#2026-11-26--wednesday-assessment-effort-confirmed",
+      "scope": "Effort confirmation for the existing November 25 run only. No new run, mileage, observed recovery or symptom report."
+    },
+    "recovery_decision_history": [
+      {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 511,
+        "recorded_at": "2026-11-25T18:19:22-05:00",
+        "observed": false,
+        "reason": "Standing athlete default supplies ordinary post-run recovery and Thursday readiness. The screenshots and distance report supply performance, not a new observed recovery or site-specific response. Effort ratings are requested separately; persistent local limits remain."
+      }
+    ]
   },
   "prior_pending_post_sessions": [
     {
@@ -1847,11 +1873,11 @@
   "planning_readiness": {
     "status": "assumed-good",
     "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-    "decision_id": 511,
-    "recorded_at": "2026-11-25T18:19:22-05:00",
+    "decision_id": 512,
+    "recorded_at": "2026-11-26T13:17:50-05:00",
+    "for_date": "2026-11-26",
     "observed": false,
-    "reason": "Standing athlete default supplies ordinary post-run recovery and Thursday readiness. The screenshots and distance report supply performance, not a new observed recovery or site-specific response. Effort ratings are requested separately; persistent local limits remain.",
-    "for_date": "2026-11-26"
+    "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
   },
   "general_readiness_history": [
     {
@@ -2021,14 +2047,6 @@
       "status": "first-single-and-stage-d-arm-response-unreported",
       "question": "Did your elbows and shoulders stay comfortable during and after the 170 lb single and the final curl/pushdown sets?",
       "scope": "Targeted response to the first recorded W4single and near-failure arm work. Preserve any W9single/local-loading implications; missing response alone does not establish an injury, recreate the released biceps hold or block Tuesday running."
-    },
-    {
-      "session_id": "hybrid-2026-10-26-w5-wed-2026-11-25",
-      "date": "2026-11-25",
-      "decision_id": 511,
-      "status": "rep-rpe-unreported",
-      "question": "What was your RPE for each of the two 4-minute reps?",
-      "scope": "Finish effort assessment and conditional carried-award review. Ordinary recovery remains assumed; this is not a routine recovery question or reason to cancel the saved award before the reply."
     }
   ],
   "resolved_log_details": [
@@ -2061,6 +2079,23 @@
         7,
         7
       ]
+    },
+    {
+      "session_id": "hybrid-2026-10-26-w5-wed-2026-11-25",
+      "date": "2026-11-25",
+      "decision_id": 511,
+      "status": "resolved-rpe-confirmed",
+      "question": "What was your RPE for each of the two 4-minute reps?",
+      "scope": "Finish effort assessment and conditional carried-award review. Ordinary recovery remains assumed; this is not a routine recovery question or reason to cancel the saved award before the reply.",
+      "resolved_on": "2026-11-26",
+      "resolution_decision_id": 512,
+      "answer": "8,8",
+      "rep_rpe": [
+        8,
+        8
+      ],
+      "final_rep_rpe": 8,
+      "effort_cap_met": true
     }
   ],
   "active_recovery_override": null,
@@ -2252,6 +2287,15 @@
       "observed": false,
       "reason": "Standing athlete default supplies ordinary post-session recovery and Wednesday readiness. Completed Upper A is reported without a new recovery or site-specific symptom report. Preserve active local restrictions; no next-day observation or clearance is inferred.",
       "for_date": "2026-11-25"
+    },
+    {
+      "status": "assumed-good",
+      "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+      "decision_id": 511,
+      "recorded_at": "2026-11-25T18:19:22-05:00",
+      "observed": false,
+      "reason": "Standing athlete default supplies ordinary post-run recovery and Thursday readiness. The screenshots and distance report supply performance, not a new observed recovery or site-specific response. Effort ratings are requested separately; persistent local limits remain.",
+      "for_date": "2026-11-26"
     }
   ],
   "recovery_override_history": [
