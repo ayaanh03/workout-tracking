@@ -58,7 +58,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 512,
+  "last_adjustment_id": 513,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -989,6 +989,31 @@
         "source": "../history/cardio-log.md#2026-11-26--wednesday-assessment-effort-confirmed",
         "scope": "Effort confirmation for the existing November 25 run only. No new run, mileage, observed recovery or symptom report."
       }
+    },
+    "2026-11-26": {
+      "calendar_week": "W5",
+      "session": "Upper B",
+      "session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+      "status": "completed",
+      "stage": "D",
+      "working_sets": 20,
+      "reported_working_sets": 20,
+      "prescribed_working_sets": 20,
+      "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+      "decision_id": 513,
+      "reported_at": "2026-11-26T14:51:48-05:00",
+      "actual_ref": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+      "recovery_status": "ordinary-recovery-assumed-good",
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 513,
+        "recorded_at": "2026-11-26T14:51:48-05:00",
+        "observed": false,
+        "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits."
+      },
+      "schedule_override_id": "2026-11-23-week-five-reschedule",
+      "review_note": "All 20 sets reported. Incline 140 and pull-up +10 established within target reps/RIR; hold to build reps, no new awards. Pushdown first two sets RIR 1 versus intended 2; final 0 permitted. No new symptom report or cardio."
     }
   },
   "planned_start_date": "2026-10-26",
@@ -1185,8 +1210,8 @@
       "range_end": "2026-11-29",
       "stage": "D",
       "completion": "in-progress",
-      "completed_sessions": 3,
-      "known_lifting_sets": 35,
+      "completed_sessions": 4,
+      "known_lifting_sets": 55,
       "known_running_work_minutes": 8,
       "confirmed_running_miles": 3.48,
       "known_cycling_minutes": 0,
@@ -1195,11 +1220,11 @@
       "known_rowing_seconds": 0,
       "manageable": null,
       "status": "week-in-progress",
-      "decision_id": 512,
-      "source": "../history/adjustments.md#2026-11-26--confirm-run-effort-and-activate-upper-b",
+      "decision_id": 513,
+      "source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday",
       "schedule_override_id": "2026-11-23-week-five-reschedule",
       "planned_lifting_sets": 85,
-      "note": "Monday legs, Tuesday Upper A and Wednesday assessment run completed: 35 lifting sets, eight run work minutes and 3.48 miles. Wednesday effort confirmed RPE 8/8 within cap; no ordinary assessment credit. Thursday is planned today, not performed. Original Wednesday lift/bike omitted; full-week manageability remains unreviewed."
+      "note": "Monday legs, Tuesday Upper A, Wednesday assessment run and Thursday Upper B completed: 55 lifting sets, eight run work minutes and 3.48 miles; no bike actuals. Friday is a preview. Original Wednesday lift/bike remains omitted; full-week manageability unreviewed."
     }
   },
   "program_amendments": [
@@ -1291,14 +1316,14 @@
     "publish_next_workout": true,
     "default_recovery": "assumed-good-unless-reported-otherwise",
     "source": "../program/readiness.md",
-    "last_generated_date": "2026-11-26",
-    "last_generated_prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
-    "last_generated_from_session_id": "hybrid-2026-10-26-w5-wed-2026-11-25",
+    "last_generated_date": "2026-11-27",
+    "last_generated_prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
+    "last_generated_from_session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
     "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping.",
-    "last_generation_trigger": "current-workout-request-and-run-effort-followup",
-    "last_generation_decision_id": 512,
-    "last_review_decision_id": 512,
-    "last_review_reason": "Resolve existing run effort at RPE 8/8 and activate today’s unchanged Upper B prescription. No extra session, exposure, loading award or mileage."
+    "last_generation_trigger": "automatic-next-workout-after-logging",
+    "last_generation_decision_id": 513,
+    "last_review_decision_id": 513,
+    "last_review_reason": "Log Thursday once and generate Friday preview without advancing live calendar or completing future work."
   },
   "session_freeze_history": [
     {
@@ -1674,7 +1699,7 @@
           "original_date": "2026-11-26",
           "template_day": "Thursday",
           "session": "Upper B",
-          "status": "planned-today-not-performed",
+          "status": "completed",
           "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
           "last_review_decision_id": 512,
           "lift": {
@@ -1809,7 +1834,10 @@
           "working_sets": 20,
           "preview": false,
           "activated_on": "2026-11-26",
-          "activation_decision_id": 512
+          "activation_decision_id": 512,
+          "actual_ref": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+          "completion_decision_id": 513,
+          "review_note": "All 20 sets reported. Incline 140 and pull-up +10 established within target reps/RIR; hold to build reps, no new awards. Pushdown first two sets RIR 1 versus intended 2; final 0 permitted. No new symptom report or cardio."
         },
         {
           "scheduled_date": "2026-11-27",
@@ -1819,7 +1847,71 @@
           "cycling_track": "saturday",
           "cardio_prescription_id": "hybrid-2026-10-26-fri-bike-508",
           "bike_minutes": 15,
-          "status": "upcoming"
+          "status": "planned-preview-not-performed",
+          "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
+          "working_sets": 13,
+          "preview": true,
+          "decision_id": 513,
+          "prescription_snapshot": {
+            "lift": {
+              "table": [
+                {
+                  "slotId": "S1",
+                  "exercise": "DB lateral raise",
+                  "load": "35 lb",
+                  "setsReps": "4×12–20",
+                  "rir": "Sets 1–3: 1–2; final: 0–1",
+                  "rest": "2 min"
+                },
+                {
+                  "slotId": "S2",
+                  "exercise": "Incline DB curl",
+                  "load": "30 lb",
+                  "setsReps": "2×8–12",
+                  "rir": "First: 1–2; final: 0–1",
+                  "rest": "2 min"
+                },
+                {
+                  "slotId": "S3",
+                  "exercise": "Cable pushdown",
+                  "load": "50 lb",
+                  "setsReps": "3×10–15",
+                  "rir": "Sets 1–2: 2; final: 0–1",
+                  "rest": "2 min"
+                },
+                {
+                  "slotId": "S4",
+                  "exercise": "Reverse pec deck",
+                  "load": "145 lb",
+                  "setsReps": "2×12–20",
+                  "rir": "1–2",
+                  "rest": "2 min"
+                },
+                {
+                  "slotId": "S5",
+                  "exercise": "Cable reverse curl",
+                  "load": "27.5 lb",
+                  "setsReps": "1×15",
+                  "rir": "≥4",
+                  "rest": "2 min"
+                },
+                {
+                  "slotId": "S6",
+                  "exercise": "Cable wrist curl",
+                  "load": "27.5 lb",
+                  "setsReps": "1×15",
+                  "rir": "≥4",
+                  "rest": "2 min"
+                }
+              ]
+            },
+            "bike_minutes": 15,
+            "bike_rpe": 3,
+            "bike_acceptable_rpe_range": [
+              2,
+              4
+            ]
+          }
         },
         {
           "scheduled_date": "2026-11-28",
@@ -2040,18 +2132,19 @@
     "compatibility_review": "Friday delts/arms B has no direct leg/calf work before Saturday running, and its triceps are not the day before incline. Running remains separate from lifting/bike. Sunday legs and Monday/Thursday incline remain in place."
   },
   "next_session_adjustment": {
-    "date": "2026-11-26",
-    "decision_id": 512,
-    "status": "planned-today-not-performed",
-    "original_session": "Upper B",
-    "effective_session": "Upper B",
-    "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
-    "source": "../history/adjustments.md#2026-11-26--confirm-run-effort-and-activate-upper-b",
-    "preview": false,
+    "date": "2026-11-27",
+    "decision_id": 513,
+    "status": "planned-preview-not-performed",
+    "original_session": "Delts/arms B + bike",
+    "effective_session": "Delts/arms B + bike",
+    "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
+    "source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday",
+    "preview": true,
     "stage": "D",
-    "working_sets": 20,
+    "working_sets": 13,
+    "bike_minutes": 15,
     "schedule_override_id": "2026-11-23-week-five-reschedule",
-    "reason": "Activate the unchanged prepared #511 Thursday Upper B: 20 effective sets, no cardio. Rep RPE 8/8 resolves yesterday’s assessment effort review; normal current readiness is assumed. Preserve once-applied T1/T4 awards and all local limits."
+    "reason": "Next scheduled session after completed Thursday. Normal Stage D lifting with cautious forearms; W5 limits bike to 15 minutes. Ordinary recovery assumed, active restrictions retained."
   },
   "next_session_adjustment_history": [
     {
@@ -2305,6 +2398,20 @@
       "reason": "Next scheduled uncompleted workout after Wednesday run is Thursday Upper B. W5 retains achieved-D lifting. Apply independent Nov19 incline/pull-up awards once, preserve local preacher/ab limits and assume ordinary recovery without inventing observations.",
       "activated_on": "2026-11-26",
       "activation_decision_id": 512
+    },
+    {
+      "date": "2026-11-26",
+      "decision_id": 512,
+      "status": "planned-today-not-performed",
+      "original_session": "Upper B",
+      "effective_session": "Upper B",
+      "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+      "source": "../history/adjustments.md#2026-11-26--confirm-run-effort-and-activate-upper-b",
+      "preview": false,
+      "stage": "D",
+      "working_sets": 20,
+      "schedule_override_id": "2026-11-23-week-five-reschedule",
+      "reason": "Activate the unchanged prepared #511 Thursday Upper B: 20 effective sets, no cardio. Rep RPE 8/8 resolves yesterday’s assessment effort review; normal current readiness is assumed. Preserve once-applied T1/T4 awards and all local limits."
     }
   ],
   "assessment_boundary_review": {

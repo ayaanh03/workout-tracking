@@ -456,3 +456,26 @@ Session `hybrid-2026-10-26-w5-tue-2026-11-24`, prescription `hybrid-2026-10-26-t
 **Pushdowns:** first two sets at RIR 1 were closer to failure than intended RIR 2; final RIR 0 is allowed. Hold 50 lb, restore about 2 RIR on the first two sets and 0–1 on the final set, reducing load if needed to reach ten reps at the intended reserve. The first-set change from 12 at RIR 2 to 10 at RIR 1 is not a matched-effort persistent-decline finding. No new local rollback or extra sets. Lateral raises and pulldowns retain 35/160 while building reps; neither reached every ceiling. Bodyweight decline 15/15 at RIR 5/5 does not clear the persistent bodyweight/two-set/minimum-3-RIR limit.
 
 Increment each active M-slot exposure once: M1a five total (four ordinary plus one heavy single), M1b/M2/M3/M5/M6/M7 five, M4 pushdown four since replacement. Preserve the former overhead-extension history. Normal reference changes for actual load/first-set-RIR changes retain old windows; no ramp credit or invented setup/rest comparability. Qualifications are one each for M1a/M7 and zero for the others. Ordinary recovery is assumed good under the standing policy; observed next-day recovery and site-specific symptoms are unreported. No ab clearance, new injury or completed Wednesday run inferred. Decision **#510**.
+
+## 2026-11-26 — Hybrid v11 W5 Thursday Upper B
+
+Session `hybrid-2026-10-26-w5-thu-2026-11-26`, original prescription `hybrid-2026-10-26-thu-upper-b-511`, activated by #512. **Stage D, 20 working sets**. W5 retains normal lifting; no cardio prescribed or reported. Original rests are shown below; actual rests/setup changes are unreported.
+
+| Slot | Exercise | Original prescription | Actual sets: load × reps, RIR |
+|---|---|---|---|
+| T1 | Incline barbell bench | 137.5 lb preferred; 140 if +2.5 total unavailable and +5 smallest · 3×6–8 · RIR 2–3 · rest 3 min | 140×8, RIR 3 / 140×7, RIR 2 / 140×7, RIR 2 |
+| T2 | Unilateral machine preacher curl | 75 lb · 2×8–12 per arm · RIR ≥3 · rest 2 min | 75×8, RIR 3 / 75×8, RIR 3 per arm |
+| T3 | DB lateral raise | 35 lb · 4×12–20 · first three RIR 1–2, final 0–1 · rest 2 min | 35×13, RIR 2 / 35×14, RIR 1 / 35×14, RIR 1 / 35×13, RIR 0 |
+| T4 | Pull-up | Calibrate: smallest available safely attachable added load · 2×6–12 · RIR 2 · rest 2–3 min | +10 lb added×9, RIR 2 / +10 lb added×9, RIR 2 |
+| T5 | Cable pushdown | 50 lb · 3×10–15 · first two RIR 2, final 0–1 · rest 2 min | 50×10, RIR 1 / 50×10, RIR 1 / 50×10, RIR 0 |
+| T6 | Seated cable row | 120 lb · 2×8–12 · RIR 2 · rest 2–3 min | 120×10, RIR 2 / 120×8, RIR 2 |
+| T7 | Decline crunch — bodyweight | BW · 2×10–15 · RIR ≥3 · rest 2 min | BW×15, RIR 5 / BW×15, RIR 3 |
+| T8 | Straight-arm cable pulldown | 50 lb · 2×10–15 · RIR 1–2 · rest 2 min | 50×12, RIR 2 / 50×11, RIR 1 |
+
+**Incline and pull-up increases are now performed.** T1's 140×8/7/7 at RIR 3/2/2 supports retaining **140 lb** while building all three sets toward eight. Using 140 does not itself establish whether the smaller increment was available. T4's **+10 lb added** for 9/9 at RIR 2/2 establishes the added-load reference; retain +10 while building both sets toward 12. Body mass and attachment method remain unknown. The independent November 19 awards were already applied once in #511 and activated without alteration in #512: record completion of those prescriptions without another source use or qualification reset. Neither new-load result earns a further increase, and Monday's incline records remain independent.
+
+**Pushdowns:** the first two 50×10 sets were RIR 1 rather than the intended 2. Final RIR 0 is permitted. Keep 50 lb as the reference, restore about 2 RIR on the first two sets and 0–1 on the final, and reduce load if necessary to reach ten reps at the intended reserve. Do not award progression or infer persistent decline from the unmatched first-set effort.
+
+Hold preacher75, laterals35, seated row120 and straight-arm50: none reached its rep ceiling on every set. The final lateral RIR 0 is permitted. T2 keeps its separate minimum3RIR limit; the new log contains no elbow review removing it. Bodyweight crunch15/15 at RIR5/3 retains the bodyweight-only, maximum-two-set, minimum-3-RIR limit and provides no loaded-ab clearance. All actual RIR values, including zeros, remain literal.
+
+Record one reported exposure per active Thursday slot (T7's temporary substitute only), no new qualifying exposures, and updated comparable references only where load or first-set effort changes require them. Preserve prior references and independent slots; no automatic plateau, decline, extra sets or blanket symptom clearance. Ordinary post-session recovery is assumed good under the standing policy; observed next-day recovery and site-specific symptoms are unreported. Next scheduled work is **Friday November 27 delts/arms B plus the W5-limited bike**, shown as a preview while the live date remains November26. Decision **#513**.

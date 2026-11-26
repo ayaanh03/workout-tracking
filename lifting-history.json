@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "blockId": "hybrid-2026-10-26",
-  "generatedAt": "2026-11-24T20:51:22-05:00",
+  "generatedAt": "2026-11-26T14:51:48-05:00",
   "sessions": [
     {
       "date": "2026-10-25",
@@ -3249,6 +3249,202 @@
         }
       ],
       "notes": "All 18 normal-D sets reported. Top-set incline and chest-supported row earned independent next-load increases. Back-offs were 140 lb; incline DB curls were 25 lb versus prescribed 22.5, with reason unreported. Pushdown first two sets at RIR 1 were closer than prescribed 2. No new symptom or observed next-day recovery report; local ab limit remains."
+    },
+    {
+      "date": "2026-11-26",
+      "week": "W5",
+      "stage": "D",
+      "sessionName": "Upper B",
+      "sessionId": "hybrid-2026-10-26-w5-thu-2026-11-26",
+      "prescriptionId": "hybrid-2026-10-26-thu-upper-b-511",
+      "actualRef": "history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+      "exercises": [
+        {
+          "slotId": "T1",
+          "exercise": "Incline barbell bench",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 140,
+              "units": "lb",
+              "reps": 8,
+              "rir": 3
+            },
+            {
+              "load": 140,
+              "units": "lb",
+              "reps": 7,
+              "rir": 2
+            },
+            {
+              "load": 140,
+              "units": "lb",
+              "reps": 7,
+              "rir": 2
+            }
+          ],
+          "note": "November 26: 140×8/7/7 at RIR 3/2/2 establishes the performed Thursday load within the prescribed range and reserve. Hold 140 and build all three sets toward eight. The November 19 award was already applied in #511; no new award, repeated source consumption or repeated qualification reset. Smaller-increment availability is unreported."
+        },
+        {
+          "slotId": "T2",
+          "exercise": "Unilateral machine preacher curl",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 75,
+              "units": "lb",
+              "reps": 8,
+              "rir": 3
+            },
+            {
+              "load": 75,
+              "units": "lb",
+              "reps": 8,
+              "rir": 3
+            }
+          ],
+          "note": "November 26: 75×8/8 per arm at RIR 3/3 meets the current prescription. Hold 75 for two sets per arm at ≥3 RIR; neither reached 12. No new elbow response or release of the local effort limit is supplied."
+        },
+        {
+          "slotId": "T3",
+          "exercise": "DB lateral raise",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 13,
+              "rir": 2
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 14,
+              "rir": 1
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 14,
+              "rir": 1
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 13,
+              "rir": 0
+            }
+          ],
+          "note": "November 26: 35×13/14/14/13 at RIR 2/1/1/0 meets the full four-set range and effort targets. Final RIR 0 is permitted. Hold 35; not every set reached 20."
+        },
+        {
+          "slotId": "T4",
+          "exercise": "Pull-up",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 10,
+              "units": "lb",
+              "reps": 9,
+              "rir": 2
+            },
+            {
+              "load": 10,
+              "units": "lb",
+              "reps": 9,
+              "rir": 2
+            }
+          ],
+          "note": "November 26: +10 lb added to bodyweight for 9/9 at RIR 2/2 establishes the performed added-load reference. Hold +10 and build toward 12 on both sets. Body mass and attachment method remain unknown. The November 19 award was applied once in #511; no further award or repeated source consumption."
+        },
+        {
+          "slotId": "T5",
+          "exercise": "Cable pushdown",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 10,
+              "rir": 1
+            },
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 10,
+              "rir": 1
+            },
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 10,
+              "rir": 0
+            }
+          ],
+          "note": "November 26: 50×10/10/10 at RIR 1/1/0. First two sets were closer to failure than prescribed RIR 2; final RIR 0 is permitted. Hold 50 as the reference and restore about 2 RIR on the first two sets, reducing load if needed to reach ten at the intended reserve. No qualification."
+        },
+        {
+          "slotId": "T6",
+          "exercise": "Seated cable row",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 120,
+              "units": "lb",
+              "reps": 10,
+              "rir": 2
+            },
+            {
+              "load": 120,
+              "units": "lb",
+              "reps": 8,
+              "rir": 2
+            }
+          ],
+          "note": "November 26: 120×10/8 at RIR 2/2 meets the range and intended effort. Hold 120 and build toward 12 on both sets; no load award."
+        },
+        {
+          "slotId": "T7",
+          "exercise": "Decline crunch — bodyweight",
+          "status": "completed",
+          "sets": [
+            {
+              "load": "BW",
+              "units": "bodyweight",
+              "reps": 15,
+              "rir": 5
+            },
+            {
+              "load": "BW",
+              "units": "bodyweight",
+              "reps": 15,
+              "rir": 3
+            }
+          ],
+          "note": "November 26: BW×15/15 at RIR 5/3. Keep the bodyweight-only, maximum-two-set, minimum-3-RIR restriction. Extra reserve and completed reps do not establish loaded-ab clearance; no fresh strain-site response was supplied."
+        },
+        {
+          "slotId": "T8",
+          "exercise": "Straight-arm cable pulldown",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 12,
+              "rir": 2
+            },
+            {
+              "load": 50,
+              "units": "lb",
+              "reps": 11,
+              "rir": 1
+            }
+          ],
+          "note": "November 26: 50×12/11 at RIR 2/1 meets the prescribed range and effort. Hold 50 and build toward 15 on both sets; no load award."
+        }
+      ],
+      "notes": "All 20 normal-D working sets reported. Incline 140 lb and pull-ups +10 lb added establish the new performed loads from previously applied independent awards. No further load increase earned. Pushdown first two sets at RIR 1 were closer than prescribed 2; the final lateral and pushdown RIR 0 sets are permitted. No cardio or fresh symptom/observed next-day recovery report. Ordinary recovery assumed good; existing local limits remain. Decision #513."
     }
   ]
 }

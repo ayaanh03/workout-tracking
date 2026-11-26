@@ -1,41 +1,24 @@
 {
-  "generatedAt": "2026-11-26T13:17:50-05:00",
+  "generatedAt": "2026-11-26T14:51:48-05:00",
   "blockId": "hybrid-2026-10-26",
-  "prescriptionId": "hybrid-2026-10-26-thu-upper-b-511",
-  "preview": false,
+  "prescriptionId": "hybrid-2026-10-26-fri-delts-arms-b-513",
+  "preview": true,
   "week": "W5",
-  "day": "Thu",
-  "date": "2026-11-26",
+  "day": "Fri",
+  "date": "2026-11-27",
   "phase": "Hybrid v11 — Stage D / W5 assessment",
-  "sessionName": "Upper B",
+  "sessionName": "Delts/arms B + bike — preview",
   "why": [
-    "Today is Thursday, November 26: Upper B under this week’s schedule. The prepared workout remains 20 effective Stage D sets, with no cardio.",
-    "W5 keeps normal lifting while endurance is lighter. Ordinary recovery is assumed good; the existing preacher-curl and bodyweight-ab limits remain."
+    "Friday, November 27 is the next scheduled session: 13 Stage D lifting sets, then a 15-minute bike. Thursday Upper B is logged.",
+    "W5 retains normal lifting and reduces endurance. Ordinary recovery is assumed good; cautious forearm limits remain."
   ],
   "intro": [
-    "Incline: 137.5 lb preferred, or 140 if +2.5 lb total is unavailable and +5 is the smallest increment.",
-    "Pull-ups: use the smallest safely attachable added load available; record the added pounds."
+    "Pushdowns: keep 2 RIR on the first two sets; reduce load if needed to reach ten reps with that reserve."
   ],
   "lift": {
     "table": [
       {
-        "slotId": "T1",
-        "exercise": "Incline barbell bench",
-        "load": "137.5 lb; 140 lb if +2.5 total unavailable",
-        "setsReps": "3×6–8",
-        "rir": "2–3",
-        "rest": "3 min"
-      },
-      {
-        "slotId": "T2",
-        "exercise": "Unilateral machine preacher curl",
-        "load": "75 lb",
-        "setsReps": "2×8–12 per arm",
-        "rir": "≥3",
-        "rest": "2 min"
-      },
-      {
-        "slotId": "T3",
+        "slotId": "S1",
         "exercise": "DB lateral raise",
         "load": "35 lb",
         "setsReps": "4×12–20",
@@ -43,15 +26,15 @@
         "rest": "2 min"
       },
       {
-        "slotId": "T4",
-        "exercise": "Pull-up",
-        "load": "Calibrate — smallest available added load",
-        "setsReps": "2×6–12",
-        "rir": "2",
-        "rest": "2–3 min"
+        "slotId": "S2",
+        "exercise": "Incline DB curl",
+        "load": "30 lb",
+        "setsReps": "2×8–12",
+        "rir": "First: 1–2; final: 0–1",
+        "rest": "2 min"
       },
       {
-        "slotId": "T5",
+        "slotId": "S3",
         "exercise": "Cable pushdown",
         "load": "50 lb",
         "setsReps": "3×10–15",
@@ -59,129 +42,121 @@
         "rest": "2 min"
       },
       {
-        "slotId": "T6",
-        "exercise": "Seated cable row",
-        "load": "120 lb",
-        "setsReps": "2×8–12",
-        "rir": "2",
-        "rest": "2–3 min"
-      },
-      {
-        "slotId": "T7",
-        "exercise": "Decline crunch — bodyweight",
-        "load": "BW",
-        "setsReps": "2×10–15",
-        "rir": "≥3",
+        "slotId": "S4",
+        "exercise": "Reverse pec deck",
+        "load": "145 lb",
+        "setsReps": "2×12–20",
+        "rir": "1–2",
         "rest": "2 min"
       },
       {
-        "slotId": "T8",
-        "exercise": "Straight-arm cable pulldown",
-        "load": "50 lb",
-        "setsReps": "2×10–15",
-        "rir": "1–2",
+        "slotId": "S5",
+        "exercise": "Cable reverse curl",
+        "load": "27.5 lb",
+        "setsReps": "1×15",
+        "rir": "≥4",
+        "rest": "2 min"
+      },
+      {
+        "slotId": "S6",
+        "exercise": "Cable wrist curl",
+        "load": "27.5 lb",
+        "setsReps": "1×15",
+        "rir": "≥4",
         "rest": "2 min"
       }
     ],
     "lastWeek": {
-      "label": "Last matching Thursday session — November 19",
+      "label": "Last matching Friday session — November 20",
       "table": [
         {
-          "slotId": "T1",
-          "exercise": "Incline barbell bench",
-          "load": "135 lb",
-          "reps": "8 / 8 / 8",
-          "rir": "2 / 2 / 2"
-        },
-        {
-          "slotId": "T2",
-          "exercise": "Unilateral machine preacher curl",
-          "load": "75 lb",
-          "reps": "9 / 8",
-          "rir": "3 / 3"
-        },
-        {
-          "slotId": "T3",
+          "slotId": "S1",
           "exercise": "DB lateral raise",
           "load": "35 lb",
-          "reps": "12 / 13 / 12 / 12",
+          "reps": "15 / 14 / 14 / 14",
           "rir": "2 / 2 / 2 / 0"
         },
         {
-          "slotId": "T4",
-          "exercise": "Pull-up",
-          "load": "BW (0 lb added)",
-          "reps": "12 / 12",
-          "rir": "2 / 2"
+          "slotId": "S2",
+          "exercise": "Incline DB curl",
+          "load": "30 lb",
+          "reps": "8 / 8",
+          "rir": "2 / 0"
         },
         {
-          "slotId": "T5",
+          "slotId": "S3",
           "exercise": "Cable pushdown",
           "load": "50 lb",
           "reps": "10 / 10 / 10",
-          "rir": "2 / 2 / 1"
+          "rir": "1 / 1 / 1"
         },
         {
-          "slotId": "T6",
-          "exercise": "Seated cable row",
-          "load": "120 lb",
-          "reps": "9 / 9",
-          "rir": "2 / 2"
+          "slotId": "S4",
+          "exercise": "Reverse pec deck",
+          "load": "145 lb",
+          "reps": "15 / 19",
+          "rir": "3 / 1"
         },
         {
-          "slotId": "T7",
-          "exercise": "Decline crunch — bodyweight",
-          "load": "BW",
-          "reps": "15 / 15",
-          "rir": "5 / 5"
+          "slotId": "S5",
+          "exercise": "Cable reverse curl",
+          "load": "27.5 lb",
+          "reps": "15",
+          "rir": "4"
         },
         {
-          "slotId": "T8",
-          "exercise": "Straight-arm cable pulldown",
-          "load": "50 lb",
-          "reps": "12 / 11",
-          "rir": "2 / 2"
+          "slotId": "S6",
+          "exercise": "Cable wrist curl",
+          "load": "27.5 lb",
+          "reps": "20",
+          "rir": "4"
         }
       ]
     }
   },
-  "cardio": null,
+  "cardio": {
+    "workout": "Bike 15 minutes after lifting at RPE 3 (acceptable 2–4).",
+    "warmup": null,
+    "cooldown": null,
+    "flags": [
+      "W5 assessment: 15-minute ceiling.",
+      "Settings: height 10.5; seat +4; handle +3."
+    ],
+    "targets": {
+      "rpe": "3 (acceptable 2–4)"
+    },
+    "workoutFile": null
+  },
   "adaptation": [
     {
-      "exercise": "Thursday incline progression",
-      "previous": "November 19: 135×8/8/8 at RIR 2 in this Thursday slot.",
-      "decision": "137.5 lb preferred, or 140 if +2.5 lb total is unavailable and +5 is the smallest increment; 3×6–8 at RIR 2–3.",
-      "reason": "Every prescribed set reached eight with intended reserve. Apply this earned increase once and reset its qualification count before the changed-load exposure. If the increment prevents six reps at the intended reserve, use a smaller increment or hold 135 and review. Monday’s incline slots remain independent."
+      "exercise": "Friday loads and reps",
+      "previous": "November 20: lateral 35×15/14/14/14; incline curl 30×8/8; pushdown 50×10/10/10; reverse pec deck 145×15/19.",
+      "decision": "Hold 35 / 30 / 50 / 145 lb and the same set counts.",
+      "reason": "No all-set rep ceilings reached. The demonstrated 30-lb curl load is retained after the unavailable 27.5s; Thursday slots progress independently."
     },
     {
-      "exercise": "Pull-up progression",
-      "previous": "November 19: bodyweight, 0 lb added, 12/12 at RIR 2.",
-      "decision": "Add the smallest available safely attachable load; calibrate 2×6–12 at RIR 2.",
-      "reason": "Both sets reached 12 and earned an increase. Exact loading equipment/increments are unreported, so the load field stays Calibrate. If no suitable setup is available or the smallest increment prevents six reps at the intended reserve, retain BW and review. Record actual added pounds; no higher-weight result is inferred."
+      "exercise": "Pushdown effort",
+      "previous": "Friday November 20: first two 50×10 sets at RIR 1 instead of 2. Thursday November 26 also ended the first two sets at 1.",
+      "decision": "First two sets at 2 RIR; final at 0–1. Reduce load if the ten-rep floor requires closer effort.",
+      "reason": "Keep the intended reserve; reaching the rep floor at lower RIR does not justify an increase. Thursday results support the reminder, not Friday progression credit."
     },
     {
-      "exercise": "Preacher curl",
-      "previous": "November 19: 75×9/8 per arm at RIR 3.",
-      "decision": "Hold 75 lb, 2×8–12 per arm at ≥3 RIR.",
-      "reason": "Neither set reached 12. The separate local minimum-RIR limit remains; no new symptom review removes it or restores standard cable curls."
+      "exercise": "Cautious forearms",
+      "previous": "November 20: reverse curl 27.5×15 RIR 4; wrist curl 27.5×20 RIR 4.",
+      "decision": "One 15-rep set each at 27.5 lb, ≥4 RIR.",
+      "reason": "Wrist curl has one of two ordinary ceiling qualifications; no increase yet. The cautious fixed dose stays, and additional sets need their W6 review."
     },
     {
-      "exercise": "Other loaded Thursday slots",
-      "previous": "November 19: lateral 35×12/13/12/12; pushdown 50×10/10/10; seated row 120×9/9; straight-arm pulldown 50×12/11.",
-      "decision": "Hold those loads and normal Stage D set counts; build reps within the ranges.",
-      "reason": "None reached every rep ceiling. Use the listed reserve targets, including 2 RIR on the first two pushdowns. Tuesday’s separate slot results do not transfer credit or redefine these actuals."
+      "exercise": "W5 bike",
+      "previous": "November 20: 25 minutes at 115 W, Z2, RPE 3; normal 25-minute tolerance validated November 23.",
+      "decision": "15 minutes at RPE 3 (acceptable 2–4), after lifting.",
+      "reason": "W5 assessment ceiling overrides normal duration. Preserve the validated 25-minute level; do not replace omitted Wednesday minutes."
     },
     {
-      "exercise": "Bodyweight abs",
-      "previous": "T7 November 19: BW×15/15 at RIR 5/5.",
-      "decision": "BW decline crunch, 2×10–15 at ≥3 RIR.",
-      "reason": "The active bodyweight-only/two-set limit remains. Extra reserve and other ab-slot performance do not establish loading clearance."
-    },
-    {
-      "exercise": "Wednesday assessment run",
-      "previous": "November 25: two 4-minute reps at 6:35/6:26 per mile, confirmed RPE 8/8; 3.48 miles.",
-      "decision": "Effort review complete: both reps meet the cap. Keep the saved 6:35 pace award unused until its eligible normal-run review.",
-      "reason": "The full prescribed work, recovery and effort requirements are met under assumed ordinary recovery. W5 assessment work earns no new ordinary progression credit. The existing award still depends on completing an eligible W5; no extra mileage or run is logged."
+      "exercise": "Logged Thursday progression",
+      "previous": "November 26: incline 140×8/7/7 RIR 3/2/2; pull-ups +10×9/9 RIR 2.",
+      "decision": "Retain 140 lb and +10 lb at their next matching Thursday exposure; build reps.",
+      "reason": "Both increases are supported by actual performance. Neither reached every rep ceiling; prior November 19 awards were already applied once, with no new award today."
     }
   ],
   "currentLoads": [
@@ -279,58 +254,58 @@
     {
       "slotId": "T1",
       "exercise": "T1 — Incline barbell bench",
-      "load": "135 lb",
-      "lastVerified": "2026-11-19",
-      "note": "November 19: 135×8/8/8 at RIR 2 qualifies the independent Thursday slot. Apply 137.5 lb preferred, or 140 if +2.5 lb total is unavailable and +5 is the smallest increment. Hold three sets at 2–3 RIR; actual load remains 135 until performed."
+      "load": "140 lb",
+      "lastVerified": "2026-11-26",
+      "note": "November 26: 140×8/7/7 at RIR 3/2/2. The heavier load meets all rep floors and intended reserve; retain 140 lb and build toward eight on all three sets. This realizes the conditional increase already applied in #511, not another award. Availability of 137.5 lb is unreported; no new source consumption or Monday-slot change."
     },
     {
       "slotId": "T2",
       "exercise": "T2 — Unilateral machine preacher curl",
       "load": "75 lb",
-      "lastVerified": "2026-11-19",
-      "note": "November 19: 75×9/8 per arm at RIR 3 did not reach both ceilings. Hold 75 lb, two sets per arm and the active minimum 3 RIR; no new review removes that local effort limit."
+      "lastVerified": "2026-11-26",
+      "note": "November 26: 75×8/8 per arm at RIR 3. Hold 75 lb, two sets at ≥3 RIR; neither reached 12. The first set is one rep below November 19, insufficient for persistent decline. No new elbow report or removal of the local effort limit."
     },
     {
       "slotId": "T3",
       "exercise": "T3 — DB lateral raise",
       "load": "35 lb",
-      "lastVerified": "2026-11-19",
-      "note": "November 19: 35×12/13/12/12 at RIR 2/2/2/0. Hold 35 lb for four sets; no all-set 20-rep ceiling. Eligible final 0–1 remains permitted, independent of the Monday slot."
+      "lastVerified": "2026-11-26",
+      "note": "November 26: 35×13/14/14/13 at RIR 2/1/1/0. Retain 35 lb for four sets; no all-set 20-rep ceiling. Final RIR 0 is permitted. First set improves 12→13 at the same RIR 2; later sets used closer reserve, so do not treat all extra reps as matched-effort gains."
     },
     {
       "slotId": "T4",
       "exercise": "T4 — Pull-up",
-      "load": "BW (0 lb added)",
-      "lastVerified": "2026-11-19",
-      "note": "November 19: BW, 0 lb added, 12/12 at RIR 2 qualifies the independent pull-up slot. Prescribe the smallest available safely attachable added load and calibrate 2×6–12 at RIR 2. Exact increment is unreported; no numeric load or equipment availability is invented. Actual added load remains 0 until performed."
+      "load": "BW + 10 lb",
+      "lastVerified": "2026-11-26",
+      "note": "November 26: +10 lb×9/9 at RIR 2 establishes the added-load prescription. Retain +10 lb, 2×6–12 at RIR 2; neither set reached 12. The November 19 source was already applied once in #511. Body mass and attachment method remain unreported; 10 lb is added external load, not total bodyweight."
     },
     {
       "slotId": "T5",
       "exercise": "T5 — Cable pushdown",
       "load": "50 lb",
-      "lastVerified": "2026-11-19",
-      "note": "November 19: 50×10/10/10 at RIR 2/2/1. Hold 50 lb and three sets; target about 2 RIR on the first two, 0–1 on the last. Tuesday’s separate pushdown effort deviation does not become a Thursday actual or loading award."
+      "lastVerified": "2026-11-26",
+      "note": "November 26: 50×10/10/10 at RIR 1/1/0. First two sets were closer to failure than the prescribed 2 RIR; final 0 is permitted. Keep 50 lb as the reference and target 2/2/0–1; reduce load if ten reps cannot fit the intended reserve. No qualifying exposure or load award."
     },
     {
       "slotId": "T6",
       "exercise": "T6 — Seated cable row",
       "load": "120 lb",
-      "lastVerified": "2026-11-19",
-      "note": "November 19: 120×9/9 at RIR 2. Hold 120 lb and two sets while building toward 12. Tuesday’s chest-supported-row award belongs to another slot and equipment."
+      "lastVerified": "2026-11-26",
+      "note": "November 26: 120×10/8 at RIR 2/2. Hold 120 lb and build toward 12 on both sets. Total reps match November 19, with one more first-set rep and one fewer second-set rep; no persistent decline or automatic set increase."
     },
     {
       "slotId": "T7",
       "exercise": "T7 — Decline crunch — bodyweight",
       "load": "BW",
-      "lastVerified": "2026-11-19",
-      "note": "November 19: BW×15/15 at RIR 5/5. Retain bodyweight only, maximum two sets and minimum 3 RIR. Other ab-slot reports and extra reserve do not clear the separate loading restriction."
+      "lastVerified": "2026-11-26",
+      "note": "November 26: BW×15/15 at RIR 5/3. Hold bodyweight only, maximum two sets and ≥3 RIR. Reaching the rep ceiling does not clear the separate ab-loading limit; no new symptom response supplied."
     },
     {
       "slotId": "T8",
       "exercise": "T8 — Straight-arm cable pulldown",
       "load": "50 lb",
-      "lastVerified": "2026-11-19",
-      "note": "November 19: 50×12/11 at RIR 2. Hold 50 lb for two sets at 1–2 RIR; neither set reached 15."
+      "lastVerified": "2026-11-26",
+      "note": "November 26: 50×12/11 at RIR 2/1. Hold 50 lb for two sets at 1–2 RIR; neither reached 15. Same reps as November 19 with the last set closer to failure; only two normal-D exposures, with actual rest/setup unreported, do not establish a plateau."
     },
     {
       "slotId": "S1",

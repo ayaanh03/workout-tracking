@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-26T13:17:50-05:00",
+  "generatedAt": "2026-11-26T14:51:48-05:00",
   "blockId": "hybrid-2026-10-26",
-  "preview": false,
+  "preview": true,
   "week": "W5",
   "phase": "Hybrid v11 — Stage D / assessment",
   "rangeStart": "2026-11-23",
   "rangeEnd": "2026-11-29",
-  "summary": "This week only: Monday legs, Tuesday Upper A and Wednesday short run logged; Thursday Upper B today; Friday delts/arms B + 15-minute bike; Saturday W5 run; Sunday legs. Original Wednesday lift/bike omitted. Normal schedule resumes November 30. W5 so far: three sessions, 35 lifting sets, eight run work minutes and 3.48 miles.",
+  "summary": "This week only: Monday legs, Tuesday Upper A, Wednesday short run and Thursday Upper B logged; Friday delts/arms B + 15-minute bike preview; Saturday W5 run; Sunday legs. Original Wednesday lift/bike omitted. Normal schedule resumes November 30. W5 so far: four sessions, 55 lifting sets, eight run work minutes and 3.48 miles.",
   "days": [
     {
       "date": "2026-11-23",
@@ -33,15 +33,15 @@
       "date": "2026-11-26",
       "day": "Thu",
       "session": "Upper B",
-      "status": "today",
-      "note": "Today: unchanged prepared 20-set Upper B. Incline 137.5 lb preferred / 140 conditional; pull-ups with the smallest safely attachable added load available, calibrated to 2 RIR. Keep preacher curls ≥3 RIR and abs bodyweight only. No cardio."
+      "status": "done",
+      "note": "Logged 20 sets. Incline 140×8/7/7 and pull-ups +10×9/9 meet target reps/RIR; retain loads and build reps. Pushdown first two sets were RIR 1: restore 2 RIR there. Bodyweight abs and preacher limits remain."
     },
     {
       "date": "2026-11-27",
       "day": "Fri",
       "session": "Delts/arms B + bike",
       "status": "upcoming",
-      "note": "Normal Friday lifting. Bike 15 minutes after lifting, RPE 3 (acceptable 2–4). Saved height 10.5, seat +4, handle +3. No replacement for the omitted Wednesday bike."
+      "note": "Preview ready: 13 lifting sets, then 15-minute bike at RPE 3 (acceptable 2–4). Hold lateral 35, incline curl 30, pushdown 50, reverse pec 145; forearms 27.5 for one 15-rep set each at ≥4 RIR. Height 10.5, seat +4, handle +3."
     },
     {
       "date": "2026-11-28",

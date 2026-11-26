@@ -5712,15 +5712,19 @@
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 508,
-          "recorded_at": "2026-11-23T04:43:19-05:00",
+          "decision_id": 513,
+          "recorded_at": "2026-11-26T14:51:48-05:00",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary W5 planning recovery. Latest explicit general recovery was good November22; approval of the one-week rearrangement supplies no new symptoms or observed future recovery. No active global fatigue, acute recovery override or run-return restriction is recorded."
+          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
+          "for_date": "2026-11-27"
         },
-        "reason": "Friday November 27 remains 15 minutes after lifting at RPE 3 (acceptable 2–4), capped by W5 assessment rules. The November 20 twenty-five-minute ride is now validated by subsequent running and Monday legs, but that does not raise this week’s 15-minute ceiling. Saved seat +4, handle +3 and height 10.5 apply. No future ride is marked completed.",
+        "reason": "W5 assessment ceiling keeps Friday bike at 15 minutes after lifting, RPE 3 (acceptable 2–4). Normal 25-minute tolerance remains validated. Do not make up the omitted Wednesday bike.",
         "validation_review_decision_id": 509,
         "validation_status": "25-minute-dose-validated",
-        "reviewed_on": "2026-11-23"
+        "reviewed_on": "2026-11-26",
+        "review_decision_id": 513,
+        "lifting_prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
+        "settings_note": "Height 10.5; seat +4; handle +3."
       },
       "validation_review": {
         "decision_id": 509,
@@ -6539,6 +6543,42 @@
             "reason": "Standing athlete default supplies ordinary W5 planning recovery. Latest explicit general recovery was good November22; approval of the one-week rearrangement supplies no new symptoms or observed future recovery. No active global fatigue, acute recovery override or run-return restriction is recorded."
           },
           "reason": "Friday delts/arms B remains on the approved W5 schedule, followed by15easybike minutes atRPE3. Assessment ceiling15 governs independently of pending prior25-minute tolerance. Saved seat+4,handle+3,height10.5 apply. No new completed ride."
+        },
+        {
+          "decision_id": 508,
+          "action": "prescribe-assessment-bike",
+          "status": "prescribed-not-performed",
+          "preview": true,
+          "for_date": "2026-11-27",
+          "prescription_id": "hybrid-2026-10-26-fri-bike-508",
+          "assessment_week": 5,
+          "minutes": 15,
+          "maximum_minutes": 15,
+          "target_rpe": 3,
+          "acceptable_rpe_range": [
+            2,
+            4
+          ],
+          "after_lifting": true,
+          "scheduled_day": "Friday",
+          "legacy_track": "saturday",
+          "schedule_override_id": "2026-11-23-week-five-reschedule",
+          "last_tolerated_minutes": 25,
+          "latest_completed_minutes": 25,
+          "pending_validation_minutes": null,
+          "equipment_settings_ref": "cycling.equipment_settings",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 508,
+            "recorded_at": "2026-11-23T04:43:19-05:00",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary W5 planning recovery. Latest explicit general recovery was good November22; approval of the one-week rearrangement supplies no new symptoms or observed future recovery. No active global fatigue, acute recovery override or run-return restriction is recorded."
+          },
+          "reason": "Friday November 27 remains 15 minutes after lifting at RPE 3 (acceptable 2–4), capped by W5 assessment rules. The November 20 twenty-five-minute ride is now validated by subsequent running and Monday legs, but that does not raise this week’s 15-minute ceiling. Saved seat +4, handle +3 and height 10.5 apply. No future ride is marked completed.",
+          "validation_review_decision_id": 509,
+          "validation_status": "25-minute-dose-validated",
+          "reviewed_on": "2026-11-23"
         }
       ],
       "latest_endurance_substitution": {

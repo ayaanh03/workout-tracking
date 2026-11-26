@@ -5172,49 +5172,58 @@
     },
     "T1": {
       "exercise": "Incline barbell bench",
-      "load": 135,
+      "load": 140,
       "units": "lb",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+      "load_source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
       "equipment": "Barbell and incline bench",
       "setup": null,
       "load_convention": "Total barbell load in lb; preserve incline angle/setup.",
       "last_actual": {
-        "date": "2026-11-19",
-        "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
-        "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
-        "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+        "date": "2026-11-26",
+        "session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+        "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+        "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
         "stage": "D",
         "sets": [
           {
-            "load": 135,
+            "load": 140,
             "reps": 8,
+            "rir": 3
+          },
+          {
+            "load": 140,
+            "reps": 7,
             "rir": 2
           },
           {
-            "load": 135,
-            "reps": 8,
-            "rir": 2
-          },
-          {
-            "load": 135,
-            "reps": 8,
+            "load": 140,
+            "reps": 7,
             "rir": 2
           }
         ],
+        "prescribed": {
+          "slotId": "T1",
+          "exercise": "Incline barbell bench",
+          "load": "137.5 lb; 140 lb if +2.5 total unavailable",
+          "setsReps": "3×6–8",
+          "rir": "2–3",
+          "rest": "3 min"
+        },
         "progression_eligible": true,
-        "qualifies_for_load_increase": true,
-        "reason": "November 19: 135×8/8/8 at RIR 2. All three normal-D sets reached eight with the intended reserve. Earn the smallest available increase for the next Thursday exposure: 137.5 lb if +2.5 lb total is available, otherwise 140 lb if +5 lb is the smallest available. Current demonstrated load stays 135 lb; no extra set or Monday-slot transfer.",
+        "qualifies_for_load_increase": false,
+        "reason": "November 26: 140×8/7/7 at RIR 3/2/2. The heavier load meets all rep floors and intended reserve; retain 140 lb and build toward eight on all three sets. This realizes the conditional increase already applied in #511, not another award. Availability of 137.5 lb is unreported; no new source consumption or Monday-slot change.",
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 502,
-          "recorded_at": "2026-11-19T20:11:48-05:00",
+          "decision_id": 513,
+          "recorded_at": "2026-11-26T14:51:48-05:00",
           "observed": false,
-          "reason": "Standing default supplies ordinary post-session recovery unless contradicted. The earlier November 19 good recovery report preceded this workout; no new post-session symptom response, observed next-day recovery or local clearance is supplied."
-        }
+          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits."
+        },
+        "increment_availability": "unreported"
       },
-      "new_exposure_count": 4,
+      "new_exposure_count": 5,
       "next_action": {
         "stage": "D",
         "sets": 3,
@@ -5231,54 +5240,20 @@
           180,
           180
         ],
-        "decision_id": 511,
-        "action": "apply-earned-incline-increment",
-        "status": "prescribed-not-performed",
-        "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
-        "reason": "November 19: 135×8/8/8 at RIR 2 qualifies the independent Thursday slot. Apply 137.5 lb preferred, or 140 if +2.5 lb total is unavailable and +5 is the smallest increment. Hold three sets at 2–3 RIR; actual load remains 135 until performed.",
-        "load_lb": 137.5,
-        "application_status": "applied-to-prescription-not-performed",
-        "qualification_source_session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
-        "qualification_source_consumed": true,
-        "increment_availability": "unreported",
-        "increment_lb": 2.5,
-        "preferred_load_lb": 137.5,
-        "fallback_load_lb": 140,
-        "fallback_condition": "Use 140 lb only if +2.5 lb total is unavailable and +5 lb is the smallest available increment.",
-        "calibration": "Respect 6–8 reps at 2–3 RIR. If the smallest increment prevents the floor, use a smaller one if available or hold 135 lb and review.",
-        "for_date": "2026-11-26",
-        "preview": false,
-        "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
-        "scheduled_day": "Thursday",
-        "template_day": "Thursday",
-        "schedule_override_id": "2026-11-23-week-five-reschedule",
+        "decision_id": 513,
+        "action": "hold-load-and-build-reps",
+        "status": "recommendation-for-next-matching-exposure",
+        "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+        "reason": "November 26: 140×8/7/7 at RIR 3/2/2. The heavier load meets all rep floors and intended reserve; retain 140 lb and build toward eight on all three sets. This realizes the conditional increase already applied in #511, not another award. Availability of 137.5 lb is unreported; no new source consumption or Monday-slot change.",
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 512,
-          "recorded_at": "2026-11-26T13:17:50-05:00",
-          "for_date": "2026-11-26",
+          "decision_id": 513,
+          "recorded_at": "2026-11-26T14:51:48-05:00",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
+          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits."
         },
-        "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
-        "qualification_source_applied_prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
-        "qualification_source_applied_on": "2026-11-25",
-        "qualification_source_application_decision_id": 511,
-        "activated_on": "2026-11-26",
-        "activation_decision_id": 512,
-        "last_review_decision_id": 512,
-        "recovery_basis_history": [
-          {
-            "status": "assumed-good",
-            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-            "decision_id": 511,
-            "recorded_at": "2026-11-25T18:19:26-05:00",
-            "for_date": "2026-11-26",
-            "observed": false,
-            "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
-          }
-        ]
+        "load_lb": 140
       },
       "next_action_history": [
         {
@@ -5421,6 +5396,71 @@
           "fallback_load_lb": 140,
           "fallback_condition": "Use 140 lb only if +2.5 lb total is unavailable and +5 lb is the smallest available increment.",
           "calibration": "Respect 6–8 reps at 2–3 RIR. If the smallest increment prevents the floor, use a smaller one if available or hold 135 lb and review."
+        },
+        {
+          "stage": "D",
+          "sets": 3,
+          "rep_range": [
+            6,
+            8
+          ],
+          "target_rir_range": [
+            2,
+            3
+          ],
+          "minimum_rir": 2,
+          "rest_seconds_range": [
+            180,
+            180
+          ],
+          "decision_id": 511,
+          "action": "apply-earned-incline-increment",
+          "status": "prescribed-not-performed",
+          "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+          "reason": "November 19: 135×8/8/8 at RIR 2 qualifies the independent Thursday slot. Apply 137.5 lb preferred, or 140 if +2.5 lb total is unavailable and +5 is the smallest increment. Hold three sets at 2–3 RIR; actual load remains 135 until performed.",
+          "load_lb": 137.5,
+          "application_status": "applied-to-prescription-not-performed",
+          "qualification_source_session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+          "qualification_source_consumed": true,
+          "increment_availability": "unreported",
+          "increment_lb": 2.5,
+          "preferred_load_lb": 137.5,
+          "fallback_load_lb": 140,
+          "fallback_condition": "Use 140 lb only if +2.5 lb total is unavailable and +5 lb is the smallest available increment.",
+          "calibration": "Respect 6–8 reps at 2–3 RIR. If the smallest increment prevents the floor, use a smaller one if available or hold 135 lb and review.",
+          "for_date": "2026-11-26",
+          "preview": false,
+          "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+          "scheduled_day": "Thursday",
+          "template_day": "Thursday",
+          "schedule_override_id": "2026-11-23-week-five-reschedule",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 512,
+            "recorded_at": "2026-11-26T13:17:50-05:00",
+            "for_date": "2026-11-26",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
+          },
+          "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
+          "qualification_source_applied_prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+          "qualification_source_applied_on": "2026-11-25",
+          "qualification_source_application_decision_id": 511,
+          "activated_on": "2026-11-26",
+          "activation_decision_id": 512,
+          "last_review_decision_id": 512,
+          "recovery_basis_history": [
+            {
+              "status": "assumed-good",
+              "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+              "decision_id": 511,
+              "recorded_at": "2026-11-25T18:19:26-05:00",
+              "for_date": "2026-11-26",
+              "observed": false,
+              "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+            }
+          ]
         }
       ],
       "actual_history": [
@@ -5475,56 +5515,11 @@
           ],
           "progression_eligible": false,
           "reason": "Stage-C ramp; no ordinary load-progression or plateau credit."
-        }
-      ],
-      "qualifying_exposures": 0,
-      "note": "November 19: 135×8/8/8 at RIR 2. All three normal-D sets reached eight with the intended reserve. Earn the smallest available increase for the next Thursday exposure: 137.5 lb if +2.5 lb total is available, otherwise 140 lb if +5 lb is the smallest available. Current demonstrated load stays 135 lb; no extra set or Monday-slot transfer.",
-      "progression_review": {
-        "decision_id": 502,
-        "date": "2026-11-19",
-        "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
-        "source_session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
-        "first_normal_exposure_completed": true,
-        "all_prescribed_sets_reported": true,
-        "all_sets_at_rep_ceiling": true,
-        "intended_rir_or_more_reserve": true,
-        "qualifying_exposures": 1,
-        "required_qualifying_exposures": 1,
-        "load_increase_earned": true,
-        "reason": "November 19: 135×8/8/8 at RIR 2. All three normal-D sets reached eight with the intended reserve. Earn the smallest available increase for the next Thursday exposure: 137.5 lb if +2.5 lb total is available, otherwise 140 lb if +5 lb is the smallest available. Current demonstrated load stays 135 lb; no extra set or Monday-slot transfer."
-      },
-      "first_set_anchor": {
-        "date": "2026-11-19",
-        "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
-        "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
-        "stage": "D",
-        "load": 135,
-        "reps": 8,
-        "rir": 2,
-        "equipment": "Barbell and incline bench",
-        "setup": null,
-        "rep_range": [
-          6,
-          8
-        ],
-        "prescribed_sets": 3,
-        "prescribed_rir_by_set": [
-          "2–3",
-          "2–3",
-          "2–3"
-        ],
-        "rest_seconds": [
-          180,
-          180
-        ],
-        "actual_rest_seconds": null,
-        "note": "First normal-D reference for this slot. Compare only matched load, setup, range, set count, rest and actual first-set RIR; no ramp credit or old unmatched-effort decline comparisons.",
-        "pending_load_change": "Earned increase is not yet prescribed or performed. Establish a new anchor after the higher load is actually performed."
-      },
-      "comparable_sessions": [
+        },
         {
           "date": "2026-11-19",
           "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+          "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
           "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
           "stage": "D",
           "sets": [
@@ -5544,7 +5539,85 @@
               "rir": 2
             }
           ],
-          "first_set_rir": 2,
+          "progression_eligible": true,
+          "qualifies_for_load_increase": true,
+          "reason": "November 19: 135×8/8/8 at RIR 2. All three normal-D sets reached eight with the intended reserve. Earn the smallest available increase for the next Thursday exposure: 137.5 lb if +2.5 lb total is available, otherwise 140 lb if +5 lb is the smallest available. Current demonstrated load stays 135 lb; no extra set or Monday-slot transfer.",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 502,
+            "recorded_at": "2026-11-19T20:11:48-05:00",
+            "observed": false,
+            "reason": "Standing default supplies ordinary post-session recovery unless contradicted. The earlier November 19 good recovery report preceded this workout; no new post-session symptom response, observed next-day recovery or local clearance is supplied."
+          }
+        }
+      ],
+      "qualifying_exposures": 0,
+      "note": "November 26: 140×8/7/7 at RIR 3/2/2. The heavier load meets all rep floors and intended reserve; retain 140 lb and build toward eight on all three sets. This realizes the conditional increase already applied in #511, not another award. Availability of 137.5 lb is unreported; no new source consumption or Monday-slot change.",
+      "progression_review": {
+        "decision_id": 513,
+        "date": "2026-11-26",
+        "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+        "source_session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+        "all_prescribed_sets_reported": true,
+        "all_sets_at_rep_ceiling": false,
+        "intended_rir_or_more_reserve": true,
+        "qualifying_exposures": 0,
+        "required_qualifying_exposures": 1,
+        "load_increase_earned": false,
+        "reason": "November 26: 140×8/7/7 at RIR 3/2/2. The heavier load meets all rep floors and intended reserve; retain 140 lb and build toward eight on all three sets. This realizes the conditional increase already applied in #511, not another award. Availability of 137.5 lb is unreported; no new source consumption or Monday-slot change."
+      },
+      "first_set_anchor": {
+        "date": "2026-11-26",
+        "session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+        "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+        "stage": "D",
+        "load": 140,
+        "reps": 8,
+        "rir": 3,
+        "equipment": "Barbell and incline bench",
+        "setup": null,
+        "rep_range": [
+          6,
+          8
+        ],
+        "prescribed_sets": 3,
+        "prescribed_rir_by_set": [
+          "2–3",
+          "2–3",
+          "2–3"
+        ],
+        "rest_seconds": [
+          180,
+          180
+        ],
+        "actual_rest_seconds": null,
+        "note": "New normal-D reference at performed load and first-set RIR. Compare only matched conditions; actual rest/setup unreported."
+      },
+      "comparable_sessions": [
+        {
+          "date": "2026-11-26",
+          "session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+          "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+          "stage": "D",
+          "sets": [
+            {
+              "load": 140,
+              "reps": 8,
+              "rir": 3
+            },
+            {
+              "load": 140,
+              "reps": 7,
+              "rir": 2
+            },
+            {
+              "load": 140,
+              "reps": 7,
+              "rir": 2
+            }
+          ],
+          "first_set_rir": 3,
           "prescribed_rir_by_set": [
             "2–3",
             "2–3",
@@ -5559,8 +5632,8 @@
             180
           ],
           "actual_rest_seconds": null,
-          "classification": "first-normal-stage-reference",
-          "comparison_count": 0
+          "classification": "new-load-or-effort-reference",
+          "comparison_note": "Actual rest/setup unreported. Preserve literal later-set RIR; no plateau or decline inferred from two normal exposures."
         }
       ],
       "qualification_reset_history": [
@@ -5572,6 +5645,170 @@
           "new_count": 0,
           "reason": "Earned increase applied once to the next prescription; reset before changed-load exposure. No higher-load actual or new comparable anchor yet."
         }
+      ],
+      "completed_prescription": {
+        "stage": "D",
+        "sets": 3,
+        "rep_range": [
+          6,
+          8
+        ],
+        "target_rir_range": [
+          2,
+          3
+        ],
+        "minimum_rir": 2,
+        "rest_seconds_range": [
+          180,
+          180
+        ],
+        "decision_id": 511,
+        "action": "apply-earned-incline-increment",
+        "status": "completed",
+        "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+        "reason": "November 19: 135×8/8/8 at RIR 2 qualifies the independent Thursday slot. Apply 137.5 lb preferred, or 140 if +2.5 lb total is unavailable and +5 is the smallest increment. Hold three sets at 2–3 RIR; actual load remains 135 until performed.",
+        "load_lb": 137.5,
+        "application_status": "performed",
+        "qualification_source_session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+        "qualification_source_consumed": true,
+        "increment_availability": "unreported",
+        "increment_lb": 2.5,
+        "preferred_load_lb": 137.5,
+        "fallback_load_lb": 140,
+        "fallback_condition": "Use 140 lb only if +2.5 lb total is unavailable and +5 lb is the smallest available increment.",
+        "calibration": "Respect 6–8 reps at 2–3 RIR. If the smallest increment prevents the floor, use a smaller one if available or hold 135 lb and review.",
+        "for_date": "2026-11-26",
+        "preview": false,
+        "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+        "scheduled_day": "Thursday",
+        "template_day": "Thursday",
+        "schedule_override_id": "2026-11-23-week-five-reschedule",
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 512,
+          "recorded_at": "2026-11-26T13:17:50-05:00",
+          "for_date": "2026-11-26",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
+        },
+        "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
+        "qualification_source_applied_prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+        "qualification_source_applied_on": "2026-11-25",
+        "qualification_source_application_decision_id": 511,
+        "activated_on": "2026-11-26",
+        "activation_decision_id": 512,
+        "last_review_decision_id": 512,
+        "recovery_basis_history": [
+          {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 511,
+            "recorded_at": "2026-11-25T18:19:26-05:00",
+            "for_date": "2026-11-26",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+          }
+        ],
+        "completed_on": "2026-11-26",
+        "completion_decision_id": 513,
+        "actual_session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+        "actual_source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+        "performed_load_lb": 140
+      },
+      "progression_review_history": [
+        {
+          "decision_id": 502,
+          "date": "2026-11-19",
+          "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+          "source_session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+          "first_normal_exposure_completed": true,
+          "all_prescribed_sets_reported": true,
+          "all_sets_at_rep_ceiling": true,
+          "intended_rir_or_more_reserve": true,
+          "qualifying_exposures": 1,
+          "required_qualifying_exposures": 1,
+          "load_increase_earned": true,
+          "reason": "November 19: 135×8/8/8 at RIR 2. All three normal-D sets reached eight with the intended reserve. Earn the smallest available increase for the next Thursday exposure: 137.5 lb if +2.5 lb total is available, otherwise 140 lb if +5 lb is the smallest available. Current demonstrated load stays 135 lb; no extra set or Monday-slot transfer."
+        }
+      ],
+      "first_set_anchor_history": [
+        {
+          "date": "2026-11-19",
+          "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+          "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+          "stage": "D",
+          "load": 135,
+          "reps": 8,
+          "rir": 2,
+          "equipment": "Barbell and incline bench",
+          "setup": null,
+          "rep_range": [
+            6,
+            8
+          ],
+          "prescribed_sets": 3,
+          "prescribed_rir_by_set": [
+            "2–3",
+            "2–3",
+            "2–3"
+          ],
+          "rest_seconds": [
+            180,
+            180
+          ],
+          "actual_rest_seconds": null,
+          "note": "First normal-D reference for this slot. Compare only matched load, setup, range, set count, rest and actual first-set RIR; no ramp credit or old unmatched-effort decline comparisons.",
+          "pending_load_change": "Earned increase is not yet prescribed or performed. Establish a new anchor after the higher load is actually performed."
+        }
+      ],
+      "comparable_sessions_history": [
+        {
+          "decision_id": 513,
+          "reason": "Actual load or first-set RIR changed; keep the prior reference and observations.",
+          "sessions": [
+            {
+              "date": "2026-11-19",
+              "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+              "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+              "stage": "D",
+              "sets": [
+                {
+                  "load": 135,
+                  "reps": 8,
+                  "rir": 2
+                },
+                {
+                  "load": 135,
+                  "reps": 8,
+                  "rir": 2
+                },
+                {
+                  "load": 135,
+                  "reps": 8,
+                  "rir": 2
+                }
+              ],
+              "first_set_rir": 2,
+              "prescribed_rir_by_set": [
+                "2–3",
+                "2–3",
+                "2–3"
+              ],
+              "rep_range": [
+                6,
+                8
+              ],
+              "rest_seconds": [
+                180,
+                180
+              ],
+              "actual_rest_seconds": null,
+              "classification": "first-normal-stage-reference",
+              "comparison_count": 0
+            }
+          ]
+        }
       ]
     },
     "T2": {
@@ -5582,17 +5819,17 @@
       "setup": null,
       "load_convention": "Same machine setting and per-arm convention as WE2; lower the load if needed to meet the rep range with at least3RIR comfortably.",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+      "load_source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
       "last_actual": {
-        "date": "2026-11-19",
-        "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
-        "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
-        "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+        "date": "2026-11-26",
+        "session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+        "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+        "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
         "stage": "D",
         "sets": [
           {
             "load": 75,
-            "reps": 9,
+            "reps": 8,
             "rir": 3
           },
           {
@@ -5601,21 +5838,29 @@
             "rir": 3
           }
         ],
+        "prescribed": {
+          "slotId": "T2",
+          "exercise": "Unilateral machine preacher curl",
+          "load": "75 lb",
+          "setsReps": "2×8–12 per arm",
+          "rir": "≥3",
+          "rest": "2 min"
+        },
         "progression_eligible": true,
         "qualifies_for_load_increase": false,
-        "reason": "November 19: 75×9/8 per arm at RIR 3. Both sets meet the local reserve floor, but neither reaches 12. Hold 75 lb and two sets at minimum 3 RIR; this log supplies no new elbow response or review removing the local effort limit.",
+        "reason": "November 26: 75×8/8 per arm at RIR 3. Hold 75 lb, two sets at ≥3 RIR; neither reached 12. The first set is one rep below November 19, insufficient for persistent decline. No new elbow report or removal of the local effort limit.",
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 502,
-          "recorded_at": "2026-11-19T20:11:48-05:00",
+          "decision_id": 513,
+          "recorded_at": "2026-11-26T14:51:48-05:00",
           "observed": false,
-          "reason": "Standing default supplies ordinary post-session recovery unless contradicted. The earlier November 19 good recovery report preceded this workout; no new post-session symptom response, observed next-day recovery or local clearance is supplied."
+          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits."
         },
         "per_arm": true,
         "elbow_response": null
       },
-      "new_exposure_count": 2,
+      "new_exposure_count": 3,
       "qualifying_exposures": 0,
       "comparable_sessions": [
         {
@@ -5651,6 +5896,40 @@
           "actual_rest_seconds": null,
           "classification": "first-normal-stage-reference",
           "comparison_count": 0
+        },
+        {
+          "date": "2026-11-26",
+          "session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+          "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+          "stage": "D",
+          "sets": [
+            {
+              "load": 75,
+              "reps": 8,
+              "rir": 3
+            },
+            {
+              "load": 75,
+              "reps": 8,
+              "rir": 3
+            }
+          ],
+          "first_set_rir": 3,
+          "prescribed_rir_by_set": [
+            "3",
+            "3"
+          ],
+          "rep_range": [
+            8,
+            12
+          ],
+          "rest_seconds": [
+            120,
+            120
+          ],
+          "actual_rest_seconds": null,
+          "classification": "same-load-first-set-rir-reference",
+          "comparison_note": "Actual rest/setup unreported. Preserve literal later-set RIR; no plateau or decline inferred from two normal exposures."
         }
       ],
       "first_set_anchor": {
@@ -5811,45 +6090,22 @@
           120,
           120
         ],
-        "per_arm": true,
-        "symptom_action": "Reduce or omit aggravating work if symptoms recur; do not force the load or rep floor.",
         "target_rir": 3,
-        "decision_id": 511,
-        "action": "hold-load-at-stage-d-dose",
-        "status": "prescribed-not-performed",
-        "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
-        "reason": "November 19: 75×9/8 per arm at RIR 3 did not reach both ceilings. Hold 75 lb, two sets per arm and the active minimum 3 RIR; no new review removes that local effort limit.",
-        "load_lb": 75,
-        "for_date": "2026-11-26",
-        "preview": false,
-        "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
-        "scheduled_day": "Thursday",
-        "template_day": "Thursday",
-        "schedule_override_id": "2026-11-23-week-five-reschedule",
+        "per_arm": true,
+        "decision_id": 513,
+        "action": "hold-load-and-build-reps",
+        "status": "recommendation-for-next-matching-exposure",
+        "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+        "reason": "November 26: 75×8/8 per arm at RIR 3. Hold 75 lb, two sets at ≥3 RIR; neither reached 12. The first set is one rep below November 19, insufficient for persistent decline. No new elbow report or removal of the local effort limit.",
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 512,
-          "recorded_at": "2026-11-26T13:17:50-05:00",
-          "for_date": "2026-11-26",
+          "decision_id": 513,
+          "recorded_at": "2026-11-26T14:51:48-05:00",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
+          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits."
         },
-        "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
-        "activated_on": "2026-11-26",
-        "activation_decision_id": 512,
-        "last_review_decision_id": 512,
-        "recovery_basis_history": [
-          {
-            "status": "assumed-good",
-            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-            "decision_id": 511,
-            "recorded_at": "2026-11-25T18:19:26-05:00",
-            "for_date": "2026-11-26",
-            "observed": false,
-            "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
-          }
-        ]
+        "load_lb": 75
       },
       "next_action_history": [
         {
@@ -6000,6 +6256,62 @@
           "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
           "reason": "November 19: 75×9/8 per arm at RIR 3. Both sets meet the local reserve floor, but neither reaches 12. Hold 75 lb and two sets at minimum 3 RIR; this log supplies no new elbow response or review removing the local effort limit.",
           "load_lb": 75
+        },
+        {
+          "stage": "D",
+          "sets": 2,
+          "rep_range": [
+            8,
+            12
+          ],
+          "target_rir_range": [
+            3,
+            3
+          ],
+          "minimum_rir": 3,
+          "rest_seconds_range": [
+            120,
+            120
+          ],
+          "per_arm": true,
+          "symptom_action": "Reduce or omit aggravating work if symptoms recur; do not force the load or rep floor.",
+          "target_rir": 3,
+          "decision_id": 511,
+          "action": "hold-load-at-stage-d-dose",
+          "status": "prescribed-not-performed",
+          "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+          "reason": "November 19: 75×9/8 per arm at RIR 3 did not reach both ceilings. Hold 75 lb, two sets per arm and the active minimum 3 RIR; no new review removes that local effort limit.",
+          "load_lb": 75,
+          "for_date": "2026-11-26",
+          "preview": false,
+          "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+          "scheduled_day": "Thursday",
+          "template_day": "Thursday",
+          "schedule_override_id": "2026-11-23-week-five-reschedule",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 512,
+            "recorded_at": "2026-11-26T13:17:50-05:00",
+            "for_date": "2026-11-26",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
+          },
+          "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
+          "activated_on": "2026-11-26",
+          "activation_decision_id": 512,
+          "last_review_decision_id": 512,
+          "recovery_basis_history": [
+            {
+              "status": "assumed-good",
+              "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+              "decision_id": 511,
+              "recorded_at": "2026-11-25T18:19:26-05:00",
+              "for_date": "2026-11-26",
+              "observed": false,
+              "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+            }
+          ]
         }
       ],
       "actual_history": [
@@ -6026,101 +6338,79 @@
           "per_arm": true,
           "elbow_response": null,
           "load_label_note": "The pasted word starting describes the prescription; actual load is 75 lb on both sets."
+        },
+        {
+          "date": "2026-11-19",
+          "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+          "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
+          "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+          "stage": "D",
+          "sets": [
+            {
+              "load": 75,
+              "reps": 9,
+              "rir": 3
+            },
+            {
+              "load": 75,
+              "reps": 8,
+              "rir": 3
+            }
+          ],
+          "progression_eligible": true,
+          "qualifies_for_load_increase": false,
+          "reason": "November 19: 75×9/8 per arm at RIR 3. Both sets meet the local reserve floor, but neither reaches 12. Hold 75 lb and two sets at minimum 3 RIR; this log supplies no new elbow response or review removing the local effort limit.",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 502,
+            "recorded_at": "2026-11-19T20:11:48-05:00",
+            "observed": false,
+            "reason": "Standing default supplies ordinary post-session recovery unless contradicted. The earlier November 19 good recovery report preceded this workout; no new post-session symptom response, observed next-day recovery or local clearance is supplied."
+          },
+          "per_arm": true,
+          "elbow_response": null
         }
       ],
-      "note": "November 19: 75×9/8 per arm at RIR 3. Both sets meet the local reserve floor, but neither reaches 12. Hold 75 lb and two sets at minimum 3 RIR; this log supplies no new elbow response or review removing the local effort limit.",
+      "note": "November 26: 75×8/8 per arm at RIR 3. Hold 75 lb, two sets at ≥3 RIR; neither reached 12. The first set is one rep below November 19, insufficient for persistent decline. No new elbow report or removal of the local effort limit.",
       "progression_review": {
-        "decision_id": 502,
-        "date": "2026-11-19",
-        "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
-        "source_session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
-        "first_normal_exposure_completed": true,
+        "decision_id": 513,
+        "date": "2026-11-26",
+        "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+        "source_session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
         "all_prescribed_sets_reported": true,
         "all_sets_at_rep_ceiling": false,
         "intended_rir_or_more_reserve": true,
         "qualifying_exposures": 0,
         "required_qualifying_exposures": 1,
         "load_increase_earned": false,
-        "reason": "November 19: 75×9/8 per arm at RIR 3. Both sets meet the local reserve floor, but neither reaches 12. Hold 75 lb and two sets at minimum 3 RIR; this log supplies no new elbow response or review removing the local effort limit."
-      }
-    },
-    "T3": {
-      "exercise": "DB lateral raise",
-      "load": 35,
-      "units": "lb",
-      "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
-      "equipment": "Dumbbells",
-      "setup": null,
-      "load_convention": "Same legacy dumbbell load notation; retain that convention.",
-      "last_actual": {
-        "date": "2026-11-19",
-        "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
-        "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
-        "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
-        "stage": "D",
-        "sets": [
-          {
-            "load": 35,
-            "reps": 12,
-            "rir": 2
-          },
-          {
-            "load": 35,
-            "reps": 13,
-            "rir": 2
-          },
-          {
-            "load": 35,
-            "reps": 12,
-            "rir": 2
-          },
-          {
-            "load": 35,
-            "reps": 12,
-            "rir": 0
-          }
-        ],
-        "progression_eligible": true,
-        "qualifies_for_load_increase": false,
-        "reason": "November 19: 35×12/13/12/12 at RIR 2/2/2/0. All sets meet the rep floor and their intended reserve; final RIR 0 is literal and permitted. None reaches 20, so hold 35 lb and build reps; zero qualifying exposures.",
-        "recovery_basis": {
-          "status": "assumed-good",
-          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 502,
-          "recorded_at": "2026-11-19T20:11:48-05:00",
-          "observed": false,
-          "reason": "Standing default supplies ordinary post-session recovery unless contradicted. The earlier November 19 good recovery report preceded this workout; no new post-session symptom response, observed next-day recovery or local clearance is supplied."
-        }
+        "reason": "November 26: 75×8/8 per arm at RIR 3. Hold 75 lb, two sets at ≥3 RIR; neither reached 12. The first set is one rep below November 19, insufficient for persistent decline. No new elbow report or removal of the local effort limit."
       },
-      "new_exposure_count": 4,
-      "next_action": {
+      "completed_prescription": {
         "stage": "D",
-        "sets": 4,
+        "sets": 2,
         "rep_range": [
-          12,
-          20
+          8,
+          12
         ],
         "target_rir_range": [
-          1,
-          2
+          3,
+          3
         ],
-        "minimum_rir": 0,
+        "minimum_rir": 3,
         "rest_seconds_range": [
           120,
           120
         ],
-        "final_set_rir_range": [
-          0,
-          1
-        ],
-        "nonfinal_minimum_rir": 1,
+        "per_arm": true,
+        "symptom_action": "Reduce or omit aggravating work if symptoms recur; do not force the load or rep floor.",
+        "target_rir": 3,
         "decision_id": 511,
         "action": "hold-load-at-stage-d-dose",
-        "status": "prescribed-not-performed",
+        "status": "completed",
         "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
-        "reason": "November 19: 35×12/13/12/12 at RIR 2/2/2/0. Hold 35 lb for four sets; no all-set 20-rep ceiling. Eligible final 0–1 remains permitted, independent of the Monday slot.",
-        "load_lb": 35,
+        "reason": "November 19: 75×9/8 per arm at RIR 3 did not reach both ceilings. Hold 75 lb, two sets per arm and the active minimum 3 RIR; no new review removes that local effort limit.",
+        "load_lb": 75,
         "for_date": "2026-11-26",
         "preview": false,
         "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
@@ -6150,7 +6440,122 @@
             "observed": false,
             "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
           }
-        ]
+        ],
+        "completed_on": "2026-11-26",
+        "completion_decision_id": 513,
+        "actual_session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+        "actual_source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b"
+      },
+      "progression_review_history": [
+        {
+          "decision_id": 502,
+          "date": "2026-11-19",
+          "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+          "source_session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+          "first_normal_exposure_completed": true,
+          "all_prescribed_sets_reported": true,
+          "all_sets_at_rep_ceiling": false,
+          "intended_rir_or_more_reserve": true,
+          "qualifying_exposures": 0,
+          "required_qualifying_exposures": 1,
+          "load_increase_earned": false,
+          "reason": "November 19: 75×9/8 per arm at RIR 3. Both sets meet the local reserve floor, but neither reaches 12. Hold 75 lb and two sets at minimum 3 RIR; this log supplies no new elbow response or review removing the local effort limit."
+        }
+      ]
+    },
+    "T3": {
+      "exercise": "DB lateral raise",
+      "load": 35,
+      "units": "lb",
+      "load_status": "established",
+      "load_source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+      "equipment": "Dumbbells",
+      "setup": null,
+      "load_convention": "Same legacy dumbbell load notation; retain that convention.",
+      "last_actual": {
+        "date": "2026-11-26",
+        "session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+        "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+        "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+        "stage": "D",
+        "sets": [
+          {
+            "load": 35,
+            "reps": 13,
+            "rir": 2
+          },
+          {
+            "load": 35,
+            "reps": 14,
+            "rir": 1
+          },
+          {
+            "load": 35,
+            "reps": 14,
+            "rir": 1
+          },
+          {
+            "load": 35,
+            "reps": 13,
+            "rir": 0
+          }
+        ],
+        "prescribed": {
+          "slotId": "T3",
+          "exercise": "DB lateral raise",
+          "load": "35 lb",
+          "setsReps": "4×12–20",
+          "rir": "Sets 1–3: 1–2; final: 0–1",
+          "rest": "2 min"
+        },
+        "progression_eligible": true,
+        "qualifies_for_load_increase": false,
+        "reason": "November 26: 35×13/14/14/13 at RIR 2/1/1/0. Retain 35 lb for four sets; no all-set 20-rep ceiling. Final RIR 0 is permitted. First set improves 12→13 at the same RIR 2; later sets used closer reserve, so do not treat all extra reps as matched-effort gains.",
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 513,
+          "recorded_at": "2026-11-26T14:51:48-05:00",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits."
+        }
+      },
+      "new_exposure_count": 5,
+      "next_action": {
+        "stage": "D",
+        "sets": 4,
+        "rep_range": [
+          12,
+          20
+        ],
+        "target_rir_range": [
+          1,
+          2
+        ],
+        "minimum_rir": 0,
+        "rest_seconds_range": [
+          120,
+          120
+        ],
+        "final_set_rir_range": [
+          0,
+          1
+        ],
+        "nonfinal_minimum_rir": 1,
+        "decision_id": 513,
+        "action": "hold-load-and-build-reps",
+        "status": "recommendation-for-next-matching-exposure",
+        "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+        "reason": "November 26: 35×13/14/14/13 at RIR 2/1/1/0. Retain 35 lb for four sets; no all-set 20-rep ceiling. Final RIR 0 is permitted. First set improves 12→13 at the same RIR 2; later sets used closer reserve, so do not treat all extra reps as matched-effort gains.",
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 513,
+          "recorded_at": "2026-11-26T14:51:48-05:00",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits."
+        },
+        "load_lb": 35
       },
       "next_action_history": [
         {
@@ -6299,6 +6704,64 @@
           "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
           "reason": "November 19: 35×12/13/12/12 at RIR 2/2/2/0. All sets meet the rep floor and their intended reserve; final RIR 0 is literal and permitted. None reaches 20, so hold 35 lb and build reps; zero qualifying exposures.",
           "load_lb": 35
+        },
+        {
+          "stage": "D",
+          "sets": 4,
+          "rep_range": [
+            12,
+            20
+          ],
+          "target_rir_range": [
+            1,
+            2
+          ],
+          "minimum_rir": 0,
+          "rest_seconds_range": [
+            120,
+            120
+          ],
+          "final_set_rir_range": [
+            0,
+            1
+          ],
+          "nonfinal_minimum_rir": 1,
+          "decision_id": 511,
+          "action": "hold-load-at-stage-d-dose",
+          "status": "prescribed-not-performed",
+          "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+          "reason": "November 19: 35×12/13/12/12 at RIR 2/2/2/0. Hold 35 lb for four sets; no all-set 20-rep ceiling. Eligible final 0–1 remains permitted, independent of the Monday slot.",
+          "load_lb": 35,
+          "for_date": "2026-11-26",
+          "preview": false,
+          "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+          "scheduled_day": "Thursday",
+          "template_day": "Thursday",
+          "schedule_override_id": "2026-11-23-week-five-reschedule",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 512,
+            "recorded_at": "2026-11-26T13:17:50-05:00",
+            "for_date": "2026-11-26",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
+          },
+          "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
+          "activated_on": "2026-11-26",
+          "activation_decision_id": 512,
+          "last_review_decision_id": 512,
+          "recovery_basis_history": [
+            {
+              "status": "assumed-good",
+              "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+              "decision_id": 511,
+              "recorded_at": "2026-11-25T18:19:26-05:00",
+              "for_date": "2026-11-26",
+              "observed": false,
+              "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+            }
+          ]
         }
       ],
       "actual_history": [
@@ -6358,23 +6821,62 @@
           ],
           "progression_eligible": false,
           "reason": "Stage-C ramp; no ordinary load-progression or plateau credit."
+        },
+        {
+          "date": "2026-11-19",
+          "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+          "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
+          "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+          "stage": "D",
+          "sets": [
+            {
+              "load": 35,
+              "reps": 12,
+              "rir": 2
+            },
+            {
+              "load": 35,
+              "reps": 13,
+              "rir": 2
+            },
+            {
+              "load": 35,
+              "reps": 12,
+              "rir": 2
+            },
+            {
+              "load": 35,
+              "reps": 12,
+              "rir": 0
+            }
+          ],
+          "progression_eligible": true,
+          "qualifies_for_load_increase": false,
+          "reason": "November 19: 35×12/13/12/12 at RIR 2/2/2/0. All sets meet the rep floor and their intended reserve; final RIR 0 is literal and permitted. None reaches 20, so hold 35 lb and build reps; zero qualifying exposures.",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 502,
+            "recorded_at": "2026-11-19T20:11:48-05:00",
+            "observed": false,
+            "reason": "Standing default supplies ordinary post-session recovery unless contradicted. The earlier November 19 good recovery report preceded this workout; no new post-session symptom response, observed next-day recovery or local clearance is supplied."
+          }
         }
       ],
       "qualifying_exposures": 0,
-      "note": "November 19: 35×12/13/12/12 at RIR 2/2/2/0. All sets meet the rep floor and their intended reserve; final RIR 0 is literal and permitted. None reaches 20, so hold 35 lb and build reps; zero qualifying exposures.",
+      "note": "November 26: 35×13/14/14/13 at RIR 2/1/1/0. Retain 35 lb for four sets; no all-set 20-rep ceiling. Final RIR 0 is permitted. First set improves 12→13 at the same RIR 2; later sets used closer reserve, so do not treat all extra reps as matched-effort gains.",
       "progression_review": {
-        "decision_id": 502,
-        "date": "2026-11-19",
-        "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
-        "source_session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
-        "first_normal_exposure_completed": true,
+        "decision_id": 513,
+        "date": "2026-11-26",
+        "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+        "source_session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
         "all_prescribed_sets_reported": true,
         "all_sets_at_rep_ceiling": false,
         "intended_rir_or_more_reserve": true,
         "qualifying_exposures": 0,
         "required_qualifying_exposures": 2,
         "load_increase_earned": false,
-        "reason": "November 19: 35×12/13/12/12 at RIR 2/2/2/0. All sets meet the rep floor and their intended reserve; final RIR 0 is literal and permitted. None reaches 20, so hold 35 lb and build reps; zero qualifying exposures."
+        "reason": "November 26: 35×13/14/14/13 at RIR 2/1/1/0. Retain 35 lb for four sets; no all-set 20-rep ceiling. Final RIR 0 is permitted. First set improves 12→13 at the same RIR 2; later sets used closer reserve, so do not treat all extra reps as matched-effort gains."
       },
       "first_set_anchor": {
         "date": "2026-11-19",
@@ -6450,79 +6952,81 @@
           "actual_rest_seconds": null,
           "classification": "first-normal-stage-reference",
           "comparison_count": 0
-        }
-      ]
-    },
-    "T4": {
-      "exercise": "Pull-up",
-      "load": 0,
-      "units": "lb",
-      "equipment": "Pull-up bar",
-      "setup": null,
-      "load_convention": "Added external load in lb; reported 0 interpreted as bodyweight with no added weight. Body mass not reported.",
-      "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
-      "last_actual": {
-        "date": "2026-11-19",
-        "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
-        "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
-        "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
-        "stage": "D",
-        "sets": [
-          {
-            "load": 0,
-            "reps": 12,
-            "rir": 2
-          },
-          {
-            "load": 0,
-            "reps": 12,
-            "rir": 2
-          }
-        ],
-        "progression_eligible": true,
-        "qualifies_for_load_increase": true,
-        "reason": "November 19: bodyweight, 0 lb added, 12/12 at RIR 2. Both normal-D sets reached 12 with intended reserve. Earn the smallest available safely attachable external-load increment for the next matching exposure. Exact increment/equipment availability is unreported and not selected here; current demonstrated added load remains 0 lb.",
-        "recovery_basis": {
-          "status": "assumed-good",
-          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 502,
-          "recorded_at": "2026-11-19T20:11:48-05:00",
-          "observed": false,
-          "reason": "Standing default supplies ordinary post-session recovery unless contradicted. The earlier November 19 good recovery report preceded this workout; no new post-session symptom response, observed next-day recovery or local clearance is supplied."
         },
-        "load_convention": "Added external load in lb; 0 means bodyweight without added load. Body mass unreported."
-      },
-      "new_exposure_count": 4,
-      "next_action": {
+        {
+          "date": "2026-11-26",
+          "session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+          "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+          "stage": "D",
+          "sets": [
+            {
+              "load": 35,
+              "reps": 13,
+              "rir": 2
+            },
+            {
+              "load": 35,
+              "reps": 14,
+              "rir": 1
+            },
+            {
+              "load": 35,
+              "reps": 14,
+              "rir": 1
+            },
+            {
+              "load": 35,
+              "reps": 13,
+              "rir": 0
+            }
+          ],
+          "first_set_rir": 2,
+          "prescribed_rir_by_set": [
+            "1–2",
+            "1–2",
+            "1–2",
+            "0–1"
+          ],
+          "rep_range": [
+            12,
+            20
+          ],
+          "rest_seconds": [
+            120,
+            120
+          ],
+          "actual_rest_seconds": null,
+          "classification": "same-load-first-set-rir-reference",
+          "comparison_note": "Actual rest/setup unreported. Preserve literal later-set RIR; no plateau or decline inferred from two normal exposures."
+        }
+      ],
+      "completed_prescription": {
         "stage": "D",
-        "sets": 2,
+        "sets": 4,
         "rep_range": [
-          6,
-          12
+          12,
+          20
         ],
         "target_rir_range": [
-          2,
+          1,
           2
         ],
-        "minimum_rir": 2,
+        "minimum_rir": 0,
         "rest_seconds_range": [
           120,
-          180
+          120
         ],
+        "final_set_rir_range": [
+          0,
+          1
+        ],
+        "nonfinal_minimum_rir": 1,
         "decision_id": 511,
-        "action": "apply-earned-added-load-with-calibration",
-        "status": "prescribed-not-performed",
+        "action": "hold-load-at-stage-d-dose",
+        "status": "completed",
         "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
-        "reason": "November 19: BW, 0 lb added, 12/12 at RIR 2 qualifies the independent pull-up slot. Prescribe the smallest available safely attachable added load and calibrate 2×6–12 at RIR 2. Exact increment is unreported; no numeric load or equipment availability is invented. Actual added load remains 0 until performed.",
-        "load_lb": null,
-        "application_status": "applied-to-prescription-not-performed",
-        "qualification_source_session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
-        "qualification_source_consumed": true,
-        "increment_availability": "unreported",
-        "increment_lb": null,
-        "load_selection": "Calibrate using the smallest available safely attachable added load. Exact amount and attachment remain unreported; record the actual added pounds at logging.",
-        "calibration": "Respect 6–12 reps at about 2 RIR. If the increment prevents six reps at intended reserve, use a smaller increment if available or retain bodyweight and review.",
+        "reason": "November 19: 35×12/13/12/12 at RIR 2/2/2/0. Hold 35 lb for four sets; no all-set 20-rep ceiling. Eligible final 0–1 remains permitted, independent of the Monday slot.",
+        "load_lb": 35,
         "for_date": "2026-11-26",
         "preview": false,
         "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
@@ -6539,11 +7043,6 @@
           "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
         },
         "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
-        "qualification_source_applied_prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
-        "qualification_source_applied_on": "2026-11-25",
-        "qualification_source_application_decision_id": 511,
-        "fallback": "If no suitable added-load setup is available, retain BW. If the smallest increment prevents six reps at about 2 RIR, use a smaller increment if available or retain BW and review.",
-        "numeric_load_selection_status": "pending-equipment-availability-at-session",
         "activated_on": "2026-11-26",
         "activation_decision_id": 512,
         "last_review_decision_id": 512,
@@ -6557,7 +7056,112 @@
             "observed": false,
             "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
           }
-        ]
+        ],
+        "completed_on": "2026-11-26",
+        "completion_decision_id": 513,
+        "actual_session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+        "actual_source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b"
+      },
+      "progression_review_history": [
+        {
+          "decision_id": 502,
+          "date": "2026-11-19",
+          "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+          "source_session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+          "first_normal_exposure_completed": true,
+          "all_prescribed_sets_reported": true,
+          "all_sets_at_rep_ceiling": false,
+          "intended_rir_or_more_reserve": true,
+          "qualifying_exposures": 0,
+          "required_qualifying_exposures": 2,
+          "load_increase_earned": false,
+          "reason": "November 19: 35×12/13/12/12 at RIR 2/2/2/0. All sets meet the rep floor and their intended reserve; final RIR 0 is literal and permitted. None reaches 20, so hold 35 lb and build reps; zero qualifying exposures."
+        }
+      ]
+    },
+    "T4": {
+      "exercise": "Pull-up",
+      "load": 10,
+      "units": "lb",
+      "equipment": "Pull-up bar",
+      "setup": null,
+      "load_convention": "Added external load in lb; reported 0 interpreted as bodyweight with no added weight. Body mass not reported.",
+      "load_status": "established",
+      "load_source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+      "last_actual": {
+        "date": "2026-11-26",
+        "session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+        "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+        "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+        "stage": "D",
+        "sets": [
+          {
+            "load": 10,
+            "reps": 9,
+            "rir": 2
+          },
+          {
+            "load": 10,
+            "reps": 9,
+            "rir": 2
+          }
+        ],
+        "prescribed": {
+          "slotId": "T4",
+          "exercise": "Pull-up",
+          "load": "Calibrate — smallest available added load",
+          "setsReps": "2×6–12",
+          "rir": "2",
+          "rest": "2–3 min"
+        },
+        "progression_eligible": true,
+        "qualifies_for_load_increase": false,
+        "reason": "November 26: +10 lb×9/9 at RIR 2 establishes the added-load prescription. Retain +10 lb, 2×6–12 at RIR 2; neither set reached 12. The November 19 source was already applied once in #511. Body mass and attachment method remain unreported; 10 lb is added external load, not total bodyweight.",
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 513,
+          "recorded_at": "2026-11-26T14:51:48-05:00",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits."
+        },
+        "added_load_lb": 10,
+        "bodyweight_lb": null,
+        "load_convention": "Added external load in lb; body mass unreported."
+      },
+      "new_exposure_count": 5,
+      "next_action": {
+        "stage": "D",
+        "sets": 2,
+        "rep_range": [
+          6,
+          12
+        ],
+        "target_rir_range": [
+          2,
+          2
+        ],
+        "minimum_rir": 2,
+        "rest_seconds_range": [
+          120,
+          180
+        ],
+        "decision_id": 513,
+        "action": "hold-load-and-build-reps",
+        "status": "recommendation-for-next-matching-exposure",
+        "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+        "reason": "November 26: +10 lb×9/9 at RIR 2 establishes the added-load prescription. Retain +10 lb, 2×6–12 at RIR 2; neither set reached 12. The November 19 source was already applied once in #511. Body mass and attachment method remain unreported; 10 lb is added external load, not total bodyweight.",
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 513,
+          "recorded_at": "2026-11-26T14:51:48-05:00",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits."
+        },
+        "load_lb": 10,
+        "load_convention": "Added external load",
+        "added_load_lb": 10
       },
       "bodyweight_lb": null,
       "next_action_history": [
@@ -6699,6 +7303,71 @@
           "increment_lb": null,
           "load_selection": "Use the smallest available safely attachable added-weight increment. Select its numeric amount when prescribing; belt/vest/other method and available increments are unreported.",
           "calibration": "Respect 6–12 reps at about 2 RIR. If the increment prevents six reps at intended reserve, use a smaller increment if available or retain bodyweight and review."
+        },
+        {
+          "stage": "D",
+          "sets": 2,
+          "rep_range": [
+            6,
+            12
+          ],
+          "target_rir_range": [
+            2,
+            2
+          ],
+          "minimum_rir": 2,
+          "rest_seconds_range": [
+            120,
+            180
+          ],
+          "decision_id": 511,
+          "action": "apply-earned-added-load-with-calibration",
+          "status": "prescribed-not-performed",
+          "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+          "reason": "November 19: BW, 0 lb added, 12/12 at RIR 2 qualifies the independent pull-up slot. Prescribe the smallest available safely attachable added load and calibrate 2×6–12 at RIR 2. Exact increment is unreported; no numeric load or equipment availability is invented. Actual added load remains 0 until performed.",
+          "load_lb": null,
+          "application_status": "applied-to-prescription-not-performed",
+          "qualification_source_session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+          "qualification_source_consumed": true,
+          "increment_availability": "unreported",
+          "increment_lb": null,
+          "load_selection": "Calibrate using the smallest available safely attachable added load. Exact amount and attachment remain unreported; record the actual added pounds at logging.",
+          "calibration": "Respect 6–12 reps at about 2 RIR. If the increment prevents six reps at intended reserve, use a smaller increment if available or retain bodyweight and review.",
+          "for_date": "2026-11-26",
+          "preview": false,
+          "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+          "scheduled_day": "Thursday",
+          "template_day": "Thursday",
+          "schedule_override_id": "2026-11-23-week-five-reschedule",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 512,
+            "recorded_at": "2026-11-26T13:17:50-05:00",
+            "for_date": "2026-11-26",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
+          },
+          "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
+          "qualification_source_applied_prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+          "qualification_source_applied_on": "2026-11-25",
+          "qualification_source_application_decision_id": 511,
+          "fallback": "If no suitable added-load setup is available, retain BW. If the smallest increment prevents six reps at about 2 RIR, use a smaller increment if available or retain BW and review.",
+          "numeric_load_selection_status": "pending-equipment-availability-at-session",
+          "activated_on": "2026-11-26",
+          "activation_decision_id": 512,
+          "last_review_decision_id": 512,
+          "recovery_basis_history": [
+            {
+              "status": "assumed-good",
+              "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+              "decision_id": 511,
+              "recorded_at": "2026-11-25T18:19:26-05:00",
+              "for_date": "2026-11-26",
+              "observed": false,
+              "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+            }
+          ]
         }
       ],
       "actual_history": [
@@ -6743,31 +7412,61 @@
           ],
           "progression_eligible": false,
           "reason": "Stage-C ramp; no ordinary load-progression or plateau credit."
+        },
+        {
+          "date": "2026-11-19",
+          "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+          "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
+          "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+          "stage": "D",
+          "sets": [
+            {
+              "load": 0,
+              "reps": 12,
+              "rir": 2
+            },
+            {
+              "load": 0,
+              "reps": 12,
+              "rir": 2
+            }
+          ],
+          "progression_eligible": true,
+          "qualifies_for_load_increase": true,
+          "reason": "November 19: bodyweight, 0 lb added, 12/12 at RIR 2. Both normal-D sets reached 12 with intended reserve. Earn the smallest available safely attachable external-load increment for the next matching exposure. Exact increment/equipment availability is unreported and not selected here; current demonstrated added load remains 0 lb.",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 502,
+            "recorded_at": "2026-11-19T20:11:48-05:00",
+            "observed": false,
+            "reason": "Standing default supplies ordinary post-session recovery unless contradicted. The earlier November 19 good recovery report preceded this workout; no new post-session symptom response, observed next-day recovery or local clearance is supplied."
+          },
+          "load_convention": "Added external load in lb; 0 means bodyweight without added load. Body mass unreported."
         }
       ],
       "qualifying_exposures": 0,
-      "note": "November 19: bodyweight, 0 lb added, 12/12 at RIR 2. Both normal-D sets reached 12 with intended reserve. Earn the smallest available safely attachable external-load increment for the next matching exposure. Exact increment/equipment availability is unreported and not selected here; current demonstrated added load remains 0 lb.",
+      "note": "November 26: +10 lb×9/9 at RIR 2 establishes the added-load prescription. Retain +10 lb, 2×6–12 at RIR 2; neither set reached 12. The November 19 source was already applied once in #511. Body mass and attachment method remain unreported; 10 lb is added external load, not total bodyweight.",
       "progression_review": {
-        "decision_id": 502,
-        "date": "2026-11-19",
-        "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
-        "source_session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
-        "first_normal_exposure_completed": true,
+        "decision_id": 513,
+        "date": "2026-11-26",
+        "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+        "source_session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
         "all_prescribed_sets_reported": true,
-        "all_sets_at_rep_ceiling": true,
+        "all_sets_at_rep_ceiling": false,
         "intended_rir_or_more_reserve": true,
-        "qualifying_exposures": 1,
+        "qualifying_exposures": 0,
         "required_qualifying_exposures": 1,
-        "load_increase_earned": true,
-        "reason": "November 19: bodyweight, 0 lb added, 12/12 at RIR 2. Both normal-D sets reached 12 with intended reserve. Earn the smallest available safely attachable external-load increment for the next matching exposure. Exact increment/equipment availability is unreported and not selected here; current demonstrated added load remains 0 lb."
+        "load_increase_earned": false,
+        "reason": "November 26: +10 lb×9/9 at RIR 2 establishes the added-load prescription. Retain +10 lb, 2×6–12 at RIR 2; neither set reached 12. The November 19 source was already applied once in #511. Body mass and attachment method remain unreported; 10 lb is added external load, not total bodyweight."
       },
       "first_set_anchor": {
-        "date": "2026-11-19",
-        "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
-        "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+        "date": "2026-11-26",
+        "session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+        "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
         "stage": "D",
-        "load": 0,
-        "reps": 12,
+        "load": 10,
+        "reps": 9,
         "rir": 2,
         "equipment": "Pull-up bar",
         "setup": null,
@@ -6785,26 +7484,25 @@
           180
         ],
         "actual_rest_seconds": null,
-        "note": "First normal-D reference for this slot. Compare only matched load, setup, range, set count, rest and actual first-set RIR; no ramp credit or old unmatched-effort decline comparisons.",
-        "pending_load_change": "Earned increase is not yet prescribed or performed. Establish a new anchor after the higher load is actually performed.",
+        "note": "New normal-D reference at performed load and first-set RIR. Compare only matched conditions; actual rest/setup unreported.",
         "bodyweight_lb": null,
         "load_convention": "Added external load; body mass unreported."
       },
       "comparable_sessions": [
         {
-          "date": "2026-11-19",
-          "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
-          "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+          "date": "2026-11-26",
+          "session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+          "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
           "stage": "D",
           "sets": [
             {
-              "load": 0,
-              "reps": 12,
+              "load": 10,
+              "reps": 9,
               "rir": 2
             },
             {
-              "load": 0,
-              "reps": 12,
+              "load": 10,
+              "reps": 9,
               "rir": 2
             }
           ],
@@ -6822,8 +7520,8 @@
             180
           ],
           "actual_rest_seconds": null,
-          "classification": "first-normal-stage-reference",
-          "comparison_count": 0
+          "classification": "new-load-or-effort-reference",
+          "comparison_note": "Actual rest/setup unreported. Preserve literal later-set RIR; no plateau or decline inferred from two normal exposures."
         }
       ],
       "qualification_reset_history": [
@@ -6835,6 +7533,165 @@
           "new_count": 0,
           "reason": "Earned increase applied once to the next prescription; reset before changed-load exposure. No higher-load actual or new comparable anchor yet."
         }
+      ],
+      "completed_prescription": {
+        "stage": "D",
+        "sets": 2,
+        "rep_range": [
+          6,
+          12
+        ],
+        "target_rir_range": [
+          2,
+          2
+        ],
+        "minimum_rir": 2,
+        "rest_seconds_range": [
+          120,
+          180
+        ],
+        "decision_id": 511,
+        "action": "apply-earned-added-load-with-calibration",
+        "status": "completed",
+        "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+        "reason": "November 19: BW, 0 lb added, 12/12 at RIR 2 qualifies the independent pull-up slot. Prescribe the smallest available safely attachable added load and calibrate 2×6–12 at RIR 2. Exact increment is unreported; no numeric load or equipment availability is invented. Actual added load remains 0 until performed.",
+        "load_lb": null,
+        "application_status": "performed",
+        "qualification_source_session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+        "qualification_source_consumed": true,
+        "increment_availability": "unreported",
+        "increment_lb": null,
+        "load_selection": "Calibrate using the smallest available safely attachable added load. Exact amount and attachment remain unreported; record the actual added pounds at logging.",
+        "calibration": "Respect 6–12 reps at about 2 RIR. If the increment prevents six reps at intended reserve, use a smaller increment if available or retain bodyweight and review.",
+        "for_date": "2026-11-26",
+        "preview": false,
+        "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+        "scheduled_day": "Thursday",
+        "template_day": "Thursday",
+        "schedule_override_id": "2026-11-23-week-five-reschedule",
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 512,
+          "recorded_at": "2026-11-26T13:17:50-05:00",
+          "for_date": "2026-11-26",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
+        },
+        "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
+        "qualification_source_applied_prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+        "qualification_source_applied_on": "2026-11-25",
+        "qualification_source_application_decision_id": 511,
+        "fallback": "If no suitable added-load setup is available, retain BW. If the smallest increment prevents six reps at about 2 RIR, use a smaller increment if available or retain BW and review.",
+        "numeric_load_selection_status": "pending-equipment-availability-at-session",
+        "activated_on": "2026-11-26",
+        "activation_decision_id": 512,
+        "last_review_decision_id": 512,
+        "recovery_basis_history": [
+          {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 511,
+            "recorded_at": "2026-11-25T18:19:26-05:00",
+            "for_date": "2026-11-26",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+          }
+        ],
+        "completed_on": "2026-11-26",
+        "completion_decision_id": 513,
+        "actual_session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+        "actual_source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+        "performed_load_lb": 10
+      },
+      "progression_review_history": [
+        {
+          "decision_id": 502,
+          "date": "2026-11-19",
+          "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+          "source_session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+          "first_normal_exposure_completed": true,
+          "all_prescribed_sets_reported": true,
+          "all_sets_at_rep_ceiling": true,
+          "intended_rir_or_more_reserve": true,
+          "qualifying_exposures": 1,
+          "required_qualifying_exposures": 1,
+          "load_increase_earned": true,
+          "reason": "November 19: bodyweight, 0 lb added, 12/12 at RIR 2. Both normal-D sets reached 12 with intended reserve. Earn the smallest available safely attachable external-load increment for the next matching exposure. Exact increment/equipment availability is unreported and not selected here; current demonstrated added load remains 0 lb."
+        }
+      ],
+      "first_set_anchor_history": [
+        {
+          "date": "2026-11-19",
+          "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+          "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+          "stage": "D",
+          "load": 0,
+          "reps": 12,
+          "rir": 2,
+          "equipment": "Pull-up bar",
+          "setup": null,
+          "rep_range": [
+            6,
+            12
+          ],
+          "prescribed_sets": 2,
+          "prescribed_rir_by_set": [
+            "2",
+            "2"
+          ],
+          "rest_seconds": [
+            120,
+            180
+          ],
+          "actual_rest_seconds": null,
+          "note": "First normal-D reference for this slot. Compare only matched load, setup, range, set count, rest and actual first-set RIR; no ramp credit or old unmatched-effort decline comparisons.",
+          "pending_load_change": "Earned increase is not yet prescribed or performed. Establish a new anchor after the higher load is actually performed.",
+          "bodyweight_lb": null,
+          "load_convention": "Added external load; body mass unreported."
+        }
+      ],
+      "comparable_sessions_history": [
+        {
+          "decision_id": 513,
+          "reason": "Actual load or first-set RIR changed; keep the prior reference and observations.",
+          "sessions": [
+            {
+              "date": "2026-11-19",
+              "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+              "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+              "stage": "D",
+              "sets": [
+                {
+                  "load": 0,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "load": 0,
+                  "reps": 12,
+                  "rir": 2
+                }
+              ],
+              "first_set_rir": 2,
+              "prescribed_rir_by_set": [
+                "2",
+                "2"
+              ],
+              "rep_range": [
+                6,
+                12
+              ],
+              "rest_seconds": [
+                120,
+                180
+              ],
+              "actual_rest_seconds": null,
+              "classification": "first-normal-stage-reference",
+              "comparison_count": 0
+            }
+          ]
+        }
       ]
     },
     "T5": {
@@ -6842,46 +7699,66 @@
       "load": 50,
       "units": "lb",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+      "load_source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
       "equipment": "Cable station",
       "setup": null,
       "load_convention": "Same carried bilateral rope/cable setting; preserve station/notation.",
       "last_actual": {
-        "date": "2026-11-19",
-        "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
-        "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
-        "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+        "date": "2026-11-26",
+        "session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+        "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+        "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
         "stage": "D",
         "sets": [
           {
             "load": 50,
             "reps": 10,
-            "rir": 2
-          },
-          {
-            "load": 50,
-            "reps": 10,
-            "rir": 2
+            "rir": 1
           },
           {
             "load": 50,
             "reps": 10,
             "rir": 1
+          },
+          {
+            "load": 50,
+            "reps": 10,
+            "rir": 0
           }
         ],
+        "prescribed": {
+          "slotId": "T5",
+          "exercise": "Cable pushdown",
+          "load": "50 lb",
+          "setsReps": "3×10–15",
+          "rir": "Sets 1–2: 2; final: 0–1",
+          "rest": "2 min"
+        },
         "progression_eligible": true,
         "qualifies_for_load_increase": false,
-        "reason": "November 19: 50×10/10/10 at RIR 2/2/1. All sets meet the range and effort, including the eligible final 0–1 target. Not all sets reached 15, so hold 50 lb and build reps.",
+        "reason": "November 26: 50×10/10/10 at RIR 1/1/0. First two sets were closer to failure than the prescribed 2 RIR; final 0 is permitted. Keep 50 lb as the reference and target 2/2/0–1; reduce load if ten reps cannot fit the intended reserve. No qualifying exposure or load award.",
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 502,
-          "recorded_at": "2026-11-19T20:11:48-05:00",
+          "decision_id": 513,
+          "recorded_at": "2026-11-26T14:51:48-05:00",
           "observed": false,
-          "reason": "Standing default supplies ordinary post-session recovery unless contradicted. The earlier November 19 good recovery report preceded this workout; no new post-session symptom response, observed next-day recovery or local clearance is supplied."
+          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits."
+        },
+        "prescription_deviation": {
+          "affected_sets": [
+            1,
+            2
+          ],
+          "prescribed_rir": 2,
+          "actual_rir": [
+            1,
+            1
+          ],
+          "reason": "First two sets one rep closer to failure than intended; final RIR 0 is permitted."
         }
       },
-      "new_exposure_count": 4,
+      "new_exposure_count": 5,
       "next_action": {
         "stage": "D",
         "sets": 3,
@@ -6903,42 +7780,21 @@
           1
         ],
         "nonfinal_minimum_rir": 2,
-        "decision_id": 511,
-        "action": "hold-load-at-stage-d-dose",
-        "status": "prescribed-not-performed",
-        "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
-        "reason": "November 19: 50×10/10/10 at RIR 2/2/1. Hold 50 lb and three sets; target about 2 RIR on the first two, 0–1 on the last. Tuesday’s separate pushdown effort deviation does not become a Thursday actual or loading award.",
-        "load_lb": 50,
-        "for_date": "2026-11-26",
-        "preview": false,
-        "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
-        "scheduled_day": "Thursday",
-        "template_day": "Thursday",
-        "schedule_override_id": "2026-11-23-week-five-reschedule",
+        "decision_id": 513,
+        "action": "hold-load-and-recalibrate-effort",
+        "status": "recommendation-for-next-matching-exposure",
+        "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+        "reason": "November 26: 50×10/10/10 at RIR 1/1/0. First two sets were closer to failure than the prescribed 2 RIR; final 0 is permitted. Keep 50 lb as the reference and target 2/2/0–1; reduce load if ten reps cannot fit the intended reserve. No qualifying exposure or load award.",
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 512,
-          "recorded_at": "2026-11-26T13:17:50-05:00",
-          "for_date": "2026-11-26",
+          "decision_id": 513,
+          "recorded_at": "2026-11-26T14:51:48-05:00",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
+          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits."
         },
-        "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
-        "activated_on": "2026-11-26",
-        "activation_decision_id": 512,
-        "last_review_decision_id": 512,
-        "recovery_basis_history": [
-          {
-            "status": "assumed-good",
-            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-            "decision_id": 511,
-            "recorded_at": "2026-11-25T18:19:26-05:00",
-            "for_date": "2026-11-26",
-            "observed": false,
-            "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
-          }
-        ]
+        "load_lb": 50,
+        "fallback": "Reduce load if the 10-rep floor cannot be met at RIR 2 on the first two sets."
       },
       "next_action_history": [
         {
@@ -7087,6 +7943,64 @@
           "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
           "reason": "November 19: 50×10/10/10 at RIR 2/2/1. All sets meet the range and effort, including the eligible final 0–1 target. Not all sets reached 15, so hold 50 lb and build reps.",
           "load_lb": 50
+        },
+        {
+          "stage": "D",
+          "sets": 3,
+          "rep_range": [
+            10,
+            15
+          ],
+          "target_rir_range": [
+            2,
+            2
+          ],
+          "minimum_rir": 0,
+          "rest_seconds_range": [
+            120,
+            120
+          ],
+          "final_set_rir_range": [
+            0,
+            1
+          ],
+          "nonfinal_minimum_rir": 2,
+          "decision_id": 511,
+          "action": "hold-load-at-stage-d-dose",
+          "status": "prescribed-not-performed",
+          "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+          "reason": "November 19: 50×10/10/10 at RIR 2/2/1. Hold 50 lb and three sets; target about 2 RIR on the first two, 0–1 on the last. Tuesday’s separate pushdown effort deviation does not become a Thursday actual or loading award.",
+          "load_lb": 50,
+          "for_date": "2026-11-26",
+          "preview": false,
+          "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+          "scheduled_day": "Thursday",
+          "template_day": "Thursday",
+          "schedule_override_id": "2026-11-23-week-five-reschedule",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 512,
+            "recorded_at": "2026-11-26T13:17:50-05:00",
+            "for_date": "2026-11-26",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
+          },
+          "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
+          "activated_on": "2026-11-26",
+          "activation_decision_id": 512,
+          "last_review_decision_id": 512,
+          "recovery_basis_history": [
+            {
+              "status": "assumed-good",
+              "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+              "decision_id": 511,
+              "recorded_at": "2026-11-25T18:19:26-05:00",
+              "for_date": "2026-11-26",
+              "observed": false,
+              "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+            }
+          ]
         }
       ],
       "actual_history": [
@@ -7136,55 +8050,11 @@
           ],
           "progression_eligible": false,
           "reason": "Stage-C ramp; no ordinary load-progression or plateau credit."
-        }
-      ],
-      "qualifying_exposures": 0,
-      "note": "November 19: 50×10/10/10 at RIR 2/2/1. All sets meet the range and effort, including the eligible final 0–1 target. Not all sets reached 15, so hold 50 lb and build reps.",
-      "progression_review": {
-        "decision_id": 502,
-        "date": "2026-11-19",
-        "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
-        "source_session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
-        "first_normal_exposure_completed": true,
-        "all_prescribed_sets_reported": true,
-        "all_sets_at_rep_ceiling": false,
-        "intended_rir_or_more_reserve": true,
-        "qualifying_exposures": 0,
-        "required_qualifying_exposures": 1,
-        "load_increase_earned": false,
-        "reason": "November 19: 50×10/10/10 at RIR 2/2/1. All sets meet the range and effort, including the eligible final 0–1 target. Not all sets reached 15, so hold 50 lb and build reps."
-      },
-      "first_set_anchor": {
-        "date": "2026-11-19",
-        "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
-        "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
-        "stage": "D",
-        "load": 50,
-        "reps": 10,
-        "rir": 2,
-        "equipment": "Cable station",
-        "setup": null,
-        "rep_range": [
-          10,
-          15
-        ],
-        "prescribed_sets": 3,
-        "prescribed_rir_by_set": [
-          "2",
-          "2",
-          "0–1"
-        ],
-        "rest_seconds": [
-          120,
-          120
-        ],
-        "actual_rest_seconds": null,
-        "note": "First normal-D reference for this slot. Compare only matched load, setup, range, set count, rest and actual first-set RIR; no ramp credit or old unmatched-effort decline comparisons."
-      },
-      "comparable_sessions": [
+        },
         {
           "date": "2026-11-19",
           "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+          "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
           "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
           "stage": "D",
           "sets": [
@@ -7204,7 +8074,85 @@
               "rir": 1
             }
           ],
-          "first_set_rir": 2,
+          "progression_eligible": true,
+          "qualifies_for_load_increase": false,
+          "reason": "November 19: 50×10/10/10 at RIR 2/2/1. All sets meet the range and effort, including the eligible final 0–1 target. Not all sets reached 15, so hold 50 lb and build reps.",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 502,
+            "recorded_at": "2026-11-19T20:11:48-05:00",
+            "observed": false,
+            "reason": "Standing default supplies ordinary post-session recovery unless contradicted. The earlier November 19 good recovery report preceded this workout; no new post-session symptom response, observed next-day recovery or local clearance is supplied."
+          }
+        }
+      ],
+      "qualifying_exposures": 0,
+      "note": "November 26: 50×10/10/10 at RIR 1/1/0. First two sets were closer to failure than the prescribed 2 RIR; final 0 is permitted. Keep 50 lb as the reference and target 2/2/0–1; reduce load if ten reps cannot fit the intended reserve. No qualifying exposure or load award.",
+      "progression_review": {
+        "decision_id": 513,
+        "date": "2026-11-26",
+        "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+        "source_session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+        "all_prescribed_sets_reported": true,
+        "all_sets_at_rep_ceiling": false,
+        "intended_rir_or_more_reserve": false,
+        "qualifying_exposures": 0,
+        "required_qualifying_exposures": 1,
+        "load_increase_earned": false,
+        "reason": "November 26: 50×10/10/10 at RIR 1/1/0. First two sets were closer to failure than the prescribed 2 RIR; final 0 is permitted. Keep 50 lb as the reference and target 2/2/0–1; reduce load if ten reps cannot fit the intended reserve. No qualifying exposure or load award."
+      },
+      "first_set_anchor": {
+        "date": "2026-11-26",
+        "session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+        "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+        "stage": "D",
+        "load": 50,
+        "reps": 10,
+        "rir": 1,
+        "equipment": "Cable station",
+        "setup": null,
+        "rep_range": [
+          10,
+          15
+        ],
+        "prescribed_sets": 3,
+        "prescribed_rir_by_set": [
+          "2",
+          "2",
+          "0–1"
+        ],
+        "rest_seconds": [
+          120,
+          120
+        ],
+        "actual_rest_seconds": null,
+        "note": "New normal-D reference at performed load and first-set RIR. Compare only matched conditions; actual rest/setup unreported."
+      },
+      "comparable_sessions": [
+        {
+          "date": "2026-11-26",
+          "session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+          "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+          "stage": "D",
+          "sets": [
+            {
+              "load": 50,
+              "reps": 10,
+              "rir": 1
+            },
+            {
+              "load": 50,
+              "reps": 10,
+              "rir": 1
+            },
+            {
+              "load": 50,
+              "reps": 10,
+              "rir": 0
+            }
+          ],
+          "first_set_rir": 1,
           "prescribed_rir_by_set": [
             "2",
             "2",
@@ -7219,73 +8167,37 @@
             120
           ],
           "actual_rest_seconds": null,
-          "classification": "first-normal-stage-reference",
-          "comparison_count": 0
+          "classification": "new-load-or-effort-reference",
+          "comparison_note": "Actual rest/setup unreported. Preserve literal later-set RIR; no plateau or decline inferred from two normal exposures."
         }
-      ]
-    },
-    "T6": {
-      "exercise": "Seated cable row",
-      "load": 120,
-      "units": "lb",
-      "equipment": "Seated cable row station",
-      "setup": null,
-      "load_convention": "Athlete-reported seated cable row setting in lb; attachment/station details not supplied.",
-      "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
-      "last_actual": {
-        "date": "2026-11-19",
-        "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
-        "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
-        "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+      ],
+      "completed_prescription": {
         "stage": "D",
-        "sets": [
-          {
-            "load": 120,
-            "reps": 9,
-            "rir": 2
-          },
-          {
-            "load": 120,
-            "reps": 9,
-            "rir": 2
-          }
-        ],
-        "progression_eligible": true,
-        "qualifies_for_load_increase": false,
-        "reason": "November 19: 120×9/9 at RIR 2. Both sets meet the range and intended reserve; neither reaches 12. Hold 120 lb. Prior Stage-C RIR 3 work is not a matched normal-D decline comparison.",
-        "recovery_basis": {
-          "status": "assumed-good",
-          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 502,
-          "recorded_at": "2026-11-19T20:11:48-05:00",
-          "observed": false,
-          "reason": "Standing default supplies ordinary post-session recovery unless contradicted. The earlier November 19 good recovery report preceded this workout; no new post-session symptom response, observed next-day recovery or local clearance is supplied."
-        }
-      },
-      "new_exposure_count": 4,
-      "next_action": {
-        "stage": "D",
-        "sets": 2,
+        "sets": 3,
         "rep_range": [
-          8,
-          12
+          10,
+          15
         ],
         "target_rir_range": [
           2,
           2
         ],
-        "minimum_rir": 2,
+        "minimum_rir": 0,
         "rest_seconds_range": [
           120,
-          180
+          120
         ],
+        "final_set_rir_range": [
+          0,
+          1
+        ],
+        "nonfinal_minimum_rir": 2,
         "decision_id": 511,
         "action": "hold-load-at-stage-d-dose",
-        "status": "prescribed-not-performed",
+        "status": "completed",
         "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
-        "reason": "November 19: 120×9/9 at RIR 2. Hold 120 lb and two sets while building toward 12. Tuesday’s chest-supported-row award belongs to another slot and equipment.",
-        "load_lb": 120,
+        "reason": "November 19: 50×10/10/10 at RIR 2/2/1. Hold 50 lb and three sets; target about 2 RIR on the first two, 0–1 on the last. Tuesday’s separate pushdown effort deviation does not become a Thursday actual or loading award.",
+        "load_lb": 50,
         "for_date": "2026-11-26",
         "preview": false,
         "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
@@ -7315,7 +8227,184 @@
             "observed": false,
             "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
           }
-        ]
+        ],
+        "completed_on": "2026-11-26",
+        "completion_decision_id": 513,
+        "actual_session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+        "actual_source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b"
+      },
+      "progression_review_history": [
+        {
+          "decision_id": 502,
+          "date": "2026-11-19",
+          "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+          "source_session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+          "first_normal_exposure_completed": true,
+          "all_prescribed_sets_reported": true,
+          "all_sets_at_rep_ceiling": false,
+          "intended_rir_or_more_reserve": true,
+          "qualifying_exposures": 0,
+          "required_qualifying_exposures": 1,
+          "load_increase_earned": false,
+          "reason": "November 19: 50×10/10/10 at RIR 2/2/1. All sets meet the range and effort, including the eligible final 0–1 target. Not all sets reached 15, so hold 50 lb and build reps."
+        }
+      ],
+      "first_set_anchor_history": [
+        {
+          "date": "2026-11-19",
+          "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+          "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+          "stage": "D",
+          "load": 50,
+          "reps": 10,
+          "rir": 2,
+          "equipment": "Cable station",
+          "setup": null,
+          "rep_range": [
+            10,
+            15
+          ],
+          "prescribed_sets": 3,
+          "prescribed_rir_by_set": [
+            "2",
+            "2",
+            "0–1"
+          ],
+          "rest_seconds": [
+            120,
+            120
+          ],
+          "actual_rest_seconds": null,
+          "note": "First normal-D reference for this slot. Compare only matched load, setup, range, set count, rest and actual first-set RIR; no ramp credit or old unmatched-effort decline comparisons."
+        }
+      ],
+      "comparable_sessions_history": [
+        {
+          "decision_id": 513,
+          "reason": "Actual load or first-set RIR changed; keep the prior reference and observations.",
+          "sessions": [
+            {
+              "date": "2026-11-19",
+              "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+              "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+              "stage": "D",
+              "sets": [
+                {
+                  "load": 50,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "load": 50,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "load": 50,
+                  "reps": 10,
+                  "rir": 1
+                }
+              ],
+              "first_set_rir": 2,
+              "prescribed_rir_by_set": [
+                "2",
+                "2",
+                "0–1"
+              ],
+              "rep_range": [
+                10,
+                15
+              ],
+              "rest_seconds": [
+                120,
+                120
+              ],
+              "actual_rest_seconds": null,
+              "classification": "first-normal-stage-reference",
+              "comparison_count": 0
+            }
+          ]
+        }
+      ]
+    },
+    "T6": {
+      "exercise": "Seated cable row",
+      "load": 120,
+      "units": "lb",
+      "equipment": "Seated cable row station",
+      "setup": null,
+      "load_convention": "Athlete-reported seated cable row setting in lb; attachment/station details not supplied.",
+      "load_status": "established",
+      "load_source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+      "last_actual": {
+        "date": "2026-11-26",
+        "session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+        "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+        "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+        "stage": "D",
+        "sets": [
+          {
+            "load": 120,
+            "reps": 10,
+            "rir": 2
+          },
+          {
+            "load": 120,
+            "reps": 8,
+            "rir": 2
+          }
+        ],
+        "prescribed": {
+          "slotId": "T6",
+          "exercise": "Seated cable row",
+          "load": "120 lb",
+          "setsReps": "2×8–12",
+          "rir": "2",
+          "rest": "2–3 min"
+        },
+        "progression_eligible": true,
+        "qualifies_for_load_increase": false,
+        "reason": "November 26: 120×10/8 at RIR 2/2. Hold 120 lb and build toward 12 on both sets. Total reps match November 19, with one more first-set rep and one fewer second-set rep; no persistent decline or automatic set increase.",
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 513,
+          "recorded_at": "2026-11-26T14:51:48-05:00",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits."
+        }
+      },
+      "new_exposure_count": 5,
+      "next_action": {
+        "stage": "D",
+        "sets": 2,
+        "rep_range": [
+          8,
+          12
+        ],
+        "target_rir_range": [
+          2,
+          2
+        ],
+        "minimum_rir": 2,
+        "rest_seconds_range": [
+          120,
+          180
+        ],
+        "decision_id": 513,
+        "action": "hold-load-and-build-reps",
+        "status": "recommendation-for-next-matching-exposure",
+        "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+        "reason": "November 26: 120×10/8 at RIR 2/2. Hold 120 lb and build toward 12 on both sets. Total reps match November 19, with one more first-set rep and one fewer second-set rep; no persistent decline or automatic set increase.",
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 513,
+          "recorded_at": "2026-11-26T14:51:48-05:00",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits."
+        },
+        "load_lb": 120
       },
       "next_action_history": [
         {
@@ -7449,6 +8538,59 @@
           "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
           "reason": "November 19: 120×9/9 at RIR 2. Both sets meet the range and intended reserve; neither reaches 12. Hold 120 lb. Prior Stage-C RIR 3 work is not a matched normal-D decline comparison.",
           "load_lb": 120
+        },
+        {
+          "stage": "D",
+          "sets": 2,
+          "rep_range": [
+            8,
+            12
+          ],
+          "target_rir_range": [
+            2,
+            2
+          ],
+          "minimum_rir": 2,
+          "rest_seconds_range": [
+            120,
+            180
+          ],
+          "decision_id": 511,
+          "action": "hold-load-at-stage-d-dose",
+          "status": "prescribed-not-performed",
+          "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+          "reason": "November 19: 120×9/9 at RIR 2. Hold 120 lb and two sets while building toward 12. Tuesday’s chest-supported-row award belongs to another slot and equipment.",
+          "load_lb": 120,
+          "for_date": "2026-11-26",
+          "preview": false,
+          "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+          "scheduled_day": "Thursday",
+          "template_day": "Thursday",
+          "schedule_override_id": "2026-11-23-week-five-reschedule",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 512,
+            "recorded_at": "2026-11-26T13:17:50-05:00",
+            "for_date": "2026-11-26",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
+          },
+          "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
+          "activated_on": "2026-11-26",
+          "activation_decision_id": 512,
+          "last_review_decision_id": 512,
+          "recovery_basis_history": [
+            {
+              "status": "assumed-good",
+              "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+              "decision_id": 511,
+              "recorded_at": "2026-11-25T18:19:26-05:00",
+              "for_date": "2026-11-26",
+              "observed": false,
+              "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+            }
+          ]
         }
       ],
       "actual_history": [
@@ -7493,23 +8635,52 @@
           ],
           "progression_eligible": false,
           "reason": "Stage-C ramp; no ordinary load-progression or plateau credit."
+        },
+        {
+          "date": "2026-11-19",
+          "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+          "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
+          "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+          "stage": "D",
+          "sets": [
+            {
+              "load": 120,
+              "reps": 9,
+              "rir": 2
+            },
+            {
+              "load": 120,
+              "reps": 9,
+              "rir": 2
+            }
+          ],
+          "progression_eligible": true,
+          "qualifies_for_load_increase": false,
+          "reason": "November 19: 120×9/9 at RIR 2. Both sets meet the range and intended reserve; neither reaches 12. Hold 120 lb. Prior Stage-C RIR 3 work is not a matched normal-D decline comparison.",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 502,
+            "recorded_at": "2026-11-19T20:11:48-05:00",
+            "observed": false,
+            "reason": "Standing default supplies ordinary post-session recovery unless contradicted. The earlier November 19 good recovery report preceded this workout; no new post-session symptom response, observed next-day recovery or local clearance is supplied."
+          }
         }
       ],
       "qualifying_exposures": 0,
-      "note": "November 19: 120×9/9 at RIR 2. Both sets meet the range and intended reserve; neither reaches 12. Hold 120 lb. Prior Stage-C RIR 3 work is not a matched normal-D decline comparison.",
+      "note": "November 26: 120×10/8 at RIR 2/2. Hold 120 lb and build toward 12 on both sets. Total reps match November 19, with one more first-set rep and one fewer second-set rep; no persistent decline or automatic set increase.",
       "progression_review": {
-        "decision_id": 502,
-        "date": "2026-11-19",
-        "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
-        "source_session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
-        "first_normal_exposure_completed": true,
+        "decision_id": 513,
+        "date": "2026-11-26",
+        "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+        "source_session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
         "all_prescribed_sets_reported": true,
         "all_sets_at_rep_ceiling": false,
         "intended_rir_or_more_reserve": true,
         "qualifying_exposures": 0,
         "required_qualifying_exposures": 1,
         "load_increase_earned": false,
-        "reason": "November 19: 120×9/9 at RIR 2. Both sets meet the range and intended reserve; neither reaches 12. Hold 120 lb. Prior Stage-C RIR 3 work is not a matched normal-D decline comparison."
+        "reason": "November 26: 120×10/8 at RIR 2/2. Hold 120 lb and build toward 12 on both sets. Total reps match November 19, with one more first-set rep and one fewer second-set rep; no persistent decline or automatic set increase."
       },
       "first_set_anchor": {
         "date": "2026-11-19",
@@ -7571,6 +8742,113 @@
           "actual_rest_seconds": null,
           "classification": "first-normal-stage-reference",
           "comparison_count": 0
+        },
+        {
+          "date": "2026-11-26",
+          "session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+          "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+          "stage": "D",
+          "sets": [
+            {
+              "load": 120,
+              "reps": 10,
+              "rir": 2
+            },
+            {
+              "load": 120,
+              "reps": 8,
+              "rir": 2
+            }
+          ],
+          "first_set_rir": 2,
+          "prescribed_rir_by_set": [
+            "2",
+            "2"
+          ],
+          "rep_range": [
+            8,
+            12
+          ],
+          "rest_seconds": [
+            120,
+            180
+          ],
+          "actual_rest_seconds": null,
+          "classification": "same-load-first-set-rir-reference",
+          "comparison_note": "Actual rest/setup unreported. Preserve literal later-set RIR; no plateau or decline inferred from two normal exposures."
+        }
+      ],
+      "completed_prescription": {
+        "stage": "D",
+        "sets": 2,
+        "rep_range": [
+          8,
+          12
+        ],
+        "target_rir_range": [
+          2,
+          2
+        ],
+        "minimum_rir": 2,
+        "rest_seconds_range": [
+          120,
+          180
+        ],
+        "decision_id": 511,
+        "action": "hold-load-at-stage-d-dose",
+        "status": "completed",
+        "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+        "reason": "November 19: 120×9/9 at RIR 2. Hold 120 lb and two sets while building toward 12. Tuesday’s chest-supported-row award belongs to another slot and equipment.",
+        "load_lb": 120,
+        "for_date": "2026-11-26",
+        "preview": false,
+        "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+        "scheduled_day": "Thursday",
+        "template_day": "Thursday",
+        "schedule_override_id": "2026-11-23-week-five-reschedule",
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 512,
+          "recorded_at": "2026-11-26T13:17:50-05:00",
+          "for_date": "2026-11-26",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
+        },
+        "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
+        "activated_on": "2026-11-26",
+        "activation_decision_id": 512,
+        "last_review_decision_id": 512,
+        "recovery_basis_history": [
+          {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 511,
+            "recorded_at": "2026-11-25T18:19:26-05:00",
+            "for_date": "2026-11-26",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+          }
+        ],
+        "completed_on": "2026-11-26",
+        "completion_decision_id": 513,
+        "actual_session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+        "actual_source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b"
+      },
+      "progression_review_history": [
+        {
+          "decision_id": 502,
+          "date": "2026-11-19",
+          "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+          "source_session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+          "first_normal_exposure_completed": true,
+          "all_prescribed_sets_reported": true,
+          "all_sets_at_rep_ceiling": false,
+          "intended_rir_or_more_reserve": true,
+          "qualifying_exposures": 0,
+          "required_qualifying_exposures": 1,
+          "load_increase_earned": false,
+          "reason": "November 19: 120×9/9 at RIR 2. Both sets meet the range and intended reserve; neither reaches 12. Hold 120 lb. Prior Stage-C RIR 3 work is not a matched normal-D decline comparison."
         }
       ]
     },
@@ -7632,12 +8910,12 @@
         "setup": null,
         "load_convention": "Bodyweight, no added load",
         "load_status": "established",
-        "load_source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+        "load_source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
         "last_actual": {
-          "date": "2026-11-19",
-          "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
-          "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
-          "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+          "date": "2026-11-26",
+          "session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+          "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+          "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
           "stage": "D",
           "sets": [
             {
@@ -7648,25 +8926,33 @@
             {
               "load": "BW",
               "reps": 15,
-              "rir": 5
+              "rir": 3
             }
           ],
+          "prescribed": {
+            "slotId": "T7",
+            "exercise": "Decline crunch — bodyweight",
+            "load": "BW",
+            "setsReps": "2×10–15",
+            "rir": "≥3",
+            "rest": "2 min"
+          },
           "progression_eligible": false,
           "qualifies_for_load_increase": false,
-          "reason": "November 19: BW×15/15 at RIR 5/5. Keep the reported extra reserve, bodyweight-only substitution, maximum two sets and minimum 3 RIR. Reaching the rep ceiling does not clear the separate ab-loading review; no new symptom response is supplied.",
+          "reason": "November 26: BW×15/15 at RIR 5/3. Hold bodyweight only, maximum two sets and ≥3 RIR. Reaching the rep ceiling does not clear the separate ab-loading limit; no new symptom response supplied.",
           "recovery_basis": {
             "status": "assumed-good",
             "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-            "decision_id": 502,
-            "recorded_at": "2026-11-19T20:11:48-05:00",
+            "decision_id": 513,
+            "recorded_at": "2026-11-26T14:51:48-05:00",
             "observed": false,
-            "reason": "Standing default supplies ordinary post-session recovery unless contradicted. The earlier November 19 good recovery report preceded this workout; no new post-session symptom response, observed next-day recovery or local clearance is supplied."
+            "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits."
           },
           "symptom_response": null
         },
-        "new_exposure_count": 3,
+        "new_exposure_count": 4,
         "qualifying_exposures": 0,
-        "note": "November 19: BW×15/15 at RIR 5/5. Keep the reported extra reserve, bodyweight-only substitution, maximum two sets and minimum 3 RIR. Reaching the rep ceiling does not clear the separate ab-loading review; no new symptom response is supplied.",
+        "note": "November 26: BW×15/15 at RIR 5/3. Hold bodyweight only, maximum two sets and ≥3 RIR. Reaching the rep ceiling does not clear the separate ab-loading limit; no new symptom response supplied.",
         "next_action": {
           "stage": "D",
           "sets": 2,
@@ -7686,42 +8972,20 @@
           "maximum_sets": 2,
           "target_rir": 3,
           "external_load_lb": 0,
-          "decision_id": 511,
+          "decision_id": 513,
           "action": "hold-bodyweight-under-local-limit",
-          "status": "prescribed-not-performed",
-          "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
-          "reason": "November 19: BW×15/15 at RIR 5/5. Retain bodyweight only, maximum two sets and minimum 3 RIR. Other ab-slot reports and extra reserve do not clear the separate loading restriction.",
-          "load": "BW",
-          "for_date": "2026-11-26",
-          "preview": false,
-          "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
-          "scheduled_day": "Thursday",
-          "template_day": "Thursday",
-          "schedule_override_id": "2026-11-23-week-five-reschedule",
+          "status": "recommendation-for-next-matching-exposure",
+          "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+          "reason": "November 26: BW×15/15 at RIR 5/3. Hold bodyweight only, maximum two sets and ≥3 RIR. Reaching the rep ceiling does not clear the separate ab-loading limit; no new symptom response supplied.",
           "recovery_basis": {
             "status": "assumed-good",
             "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-            "decision_id": 512,
-            "recorded_at": "2026-11-26T13:17:50-05:00",
-            "for_date": "2026-11-26",
+            "decision_id": 513,
+            "recorded_at": "2026-11-26T14:51:48-05:00",
             "observed": false,
-            "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
+            "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits."
           },
-          "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
-          "activated_on": "2026-11-26",
-          "activation_decision_id": 512,
-          "last_review_decision_id": 512,
-          "recovery_basis_history": [
-            {
-              "status": "assumed-good",
-              "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-              "decision_id": 511,
-              "recorded_at": "2026-11-25T18:19:26-05:00",
-              "for_date": "2026-11-26",
-              "observed": false,
-              "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
-            }
-          ]
+          "load": "BW"
         },
         "next_action_history": [
           {
@@ -7863,6 +9127,62 @@
             "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
             "reason": "November 19: BW×15/15 at RIR 5/5. Keep the reported extra reserve, bodyweight-only substitution, maximum two sets and minimum 3 RIR. Reaching the rep ceiling does not clear the separate ab-loading review; no new symptom response is supplied.",
             "load": "BW"
+          },
+          {
+            "stage": "D",
+            "sets": 2,
+            "rep_range": [
+              10,
+              15
+            ],
+            "target_rir_range": [
+              3,
+              3
+            ],
+            "minimum_rir": 3,
+            "rest_seconds_range": [
+              120,
+              120
+            ],
+            "maximum_sets": 2,
+            "target_rir": 3,
+            "external_load_lb": 0,
+            "decision_id": 511,
+            "action": "hold-bodyweight-under-local-limit",
+            "status": "prescribed-not-performed",
+            "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+            "reason": "November 19: BW×15/15 at RIR 5/5. Retain bodyweight only, maximum two sets and minimum 3 RIR. Other ab-slot reports and extra reserve do not clear the separate loading restriction.",
+            "load": "BW",
+            "for_date": "2026-11-26",
+            "preview": false,
+            "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+            "scheduled_day": "Thursday",
+            "template_day": "Thursday",
+            "schedule_override_id": "2026-11-23-week-five-reschedule",
+            "recovery_basis": {
+              "status": "assumed-good",
+              "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+              "decision_id": 512,
+              "recorded_at": "2026-11-26T13:17:50-05:00",
+              "for_date": "2026-11-26",
+              "observed": false,
+              "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
+            },
+            "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
+            "activated_on": "2026-11-26",
+            "activation_decision_id": 512,
+            "last_review_decision_id": 512,
+            "recovery_basis_history": [
+              {
+                "status": "assumed-good",
+                "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+                "decision_id": 511,
+                "recorded_at": "2026-11-25T18:19:26-05:00",
+                "for_date": "2026-11-26",
+                "observed": false,
+                "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+              }
+            ]
           }
         ],
         "actual_history": [
@@ -7907,8 +9227,114 @@
             ],
             "progression_eligible": false,
             "reason": "Stage-C ramp; no ordinary load-progression or plateau credit."
+          },
+          {
+            "date": "2026-11-19",
+            "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+            "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
+            "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+            "stage": "D",
+            "sets": [
+              {
+                "load": "BW",
+                "reps": 15,
+                "rir": 5
+              },
+              {
+                "load": "BW",
+                "reps": 15,
+                "rir": 5
+              }
+            ],
+            "progression_eligible": false,
+            "qualifies_for_load_increase": false,
+            "reason": "November 19: BW×15/15 at RIR 5/5. Keep the reported extra reserve, bodyweight-only substitution, maximum two sets and minimum 3 RIR. Reaching the rep ceiling does not clear the separate ab-loading review; no new symptom response is supplied.",
+            "recovery_basis": {
+              "status": "assumed-good",
+              "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+              "decision_id": 502,
+              "recorded_at": "2026-11-19T20:11:48-05:00",
+              "observed": false,
+              "reason": "Standing default supplies ordinary post-session recovery unless contradicted. The earlier November 19 good recovery report preceded this workout; no new post-session symptom response, observed next-day recovery or local clearance is supplied."
+            },
+            "symptom_response": null
           }
-        ]
+        ],
+        "completed_prescription": {
+          "stage": "D",
+          "sets": 2,
+          "rep_range": [
+            10,
+            15
+          ],
+          "target_rir_range": [
+            3,
+            3
+          ],
+          "minimum_rir": 3,
+          "rest_seconds_range": [
+            120,
+            120
+          ],
+          "maximum_sets": 2,
+          "target_rir": 3,
+          "external_load_lb": 0,
+          "decision_id": 511,
+          "action": "hold-bodyweight-under-local-limit",
+          "status": "completed",
+          "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+          "reason": "November 19: BW×15/15 at RIR 5/5. Retain bodyweight only, maximum two sets and minimum 3 RIR. Other ab-slot reports and extra reserve do not clear the separate loading restriction.",
+          "load": "BW",
+          "for_date": "2026-11-26",
+          "preview": false,
+          "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+          "scheduled_day": "Thursday",
+          "template_day": "Thursday",
+          "schedule_override_id": "2026-11-23-week-five-reschedule",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 512,
+            "recorded_at": "2026-11-26T13:17:50-05:00",
+            "for_date": "2026-11-26",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
+          },
+          "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
+          "activated_on": "2026-11-26",
+          "activation_decision_id": 512,
+          "last_review_decision_id": 512,
+          "recovery_basis_history": [
+            {
+              "status": "assumed-good",
+              "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+              "decision_id": 511,
+              "recorded_at": "2026-11-25T18:19:26-05:00",
+              "for_date": "2026-11-26",
+              "observed": false,
+              "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+            }
+          ],
+          "completed_on": "2026-11-26",
+          "completion_decision_id": 513,
+          "actual_session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+          "actual_source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b"
+        },
+        "progression_review": {
+          "decision_id": 513,
+          "date": "2026-11-26",
+          "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+          "source_session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+          "all_prescribed_sets_reported": true,
+          "all_sets_at_rep_ceiling": true,
+          "intended_rir_or_more_reserve": true,
+          "qualifying_exposures": 0,
+          "required_qualifying_exposures": 1,
+          "load_increase_earned": false,
+          "reason": "November 26: BW×15/15 at RIR 5/3. Hold bodyweight only, maximum two sets and ≥3 RIR. Reaching the rep ceiling does not clear the separate ab-loading limit; no new symptom response supplied.",
+          "progression_eligible": false,
+          "restricted_bodyweight_substitution": true
+        }
       }
     },
     "T8": {
@@ -7919,12 +9345,12 @@
       "setup": null,
       "load_convention": "Athlete-reported straight-arm cable pulldown setting in lb; attachment/station details not supplied.",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+      "load_source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
       "last_actual": {
-        "date": "2026-11-19",
-        "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
-        "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
-        "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+        "date": "2026-11-26",
+        "session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+        "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+        "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
         "stage": "D",
         "sets": [
           {
@@ -7935,22 +9361,30 @@
           {
             "load": 50,
             "reps": 11,
-            "rir": 2
+            "rir": 1
           }
         ],
+        "prescribed": {
+          "slotId": "T8",
+          "exercise": "Straight-arm cable pulldown",
+          "load": "50 lb",
+          "setsReps": "2×10–15",
+          "rir": "1–2",
+          "rest": "2 min"
+        },
         "progression_eligible": true,
         "qualifies_for_load_increase": false,
-        "reason": "November 19: 50×12/11 at RIR 2. Both sets meet the 1–2 RIR target but neither reaches 15. Hold 50 lb and build reps; no ordinary loading award.",
+        "reason": "November 26: 50×12/11 at RIR 2/1. Hold 50 lb for two sets at 1–2 RIR; neither reached 15. Same reps as November 19 with the last set closer to failure; only two normal-D exposures, with actual rest/setup unreported, do not establish a plateau.",
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 502,
-          "recorded_at": "2026-11-19T20:11:48-05:00",
+          "decision_id": 513,
+          "recorded_at": "2026-11-26T14:51:48-05:00",
           "observed": false,
-          "reason": "Standing default supplies ordinary post-session recovery unless contradicted. The earlier November 19 good recovery report preceded this workout; no new post-session symptom response, observed next-day recovery or local clearance is supplied."
+          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits."
         }
       },
-      "new_exposure_count": 4,
+      "new_exposure_count": 5,
       "next_action": {
         "stage": "D",
         "sets": 2,
@@ -7967,42 +9401,20 @@
           120,
           120
         ],
-        "decision_id": 511,
-        "action": "hold-load-at-stage-d-dose",
-        "status": "prescribed-not-performed",
-        "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
-        "reason": "November 19: 50×12/11 at RIR 2. Hold 50 lb for two sets at 1–2 RIR; neither set reached 15.",
-        "load_lb": 50,
-        "for_date": "2026-11-26",
-        "preview": false,
-        "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
-        "scheduled_day": "Thursday",
-        "template_day": "Thursday",
-        "schedule_override_id": "2026-11-23-week-five-reschedule",
+        "decision_id": 513,
+        "action": "hold-load-and-build-reps",
+        "status": "recommendation-for-next-matching-exposure",
+        "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+        "reason": "November 26: 50×12/11 at RIR 2/1. Hold 50 lb for two sets at 1–2 RIR; neither reached 15. Same reps as November 19 with the last set closer to failure; only two normal-D exposures, with actual rest/setup unreported, do not establish a plateau.",
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 512,
-          "recorded_at": "2026-11-26T13:17:50-05:00",
-          "for_date": "2026-11-26",
+          "decision_id": 513,
+          "recorded_at": "2026-11-26T14:51:48-05:00",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
+          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits."
         },
-        "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
-        "activated_on": "2026-11-26",
-        "activation_decision_id": 512,
-        "last_review_decision_id": 512,
-        "recovery_basis_history": [
-          {
-            "status": "assumed-good",
-            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-            "decision_id": 511,
-            "recorded_at": "2026-11-25T18:19:26-05:00",
-            "for_date": "2026-11-26",
-            "observed": false,
-            "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
-          }
-        ]
+        "load_lb": 50
       },
       "next_action_history": [
         {
@@ -8136,6 +9548,59 @@
           "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
           "reason": "November 19: 50×12/11 at RIR 2. Both sets meet the 1–2 RIR target but neither reaches 15. Hold 50 lb and build reps; no ordinary loading award.",
           "load_lb": 50
+        },
+        {
+          "stage": "D",
+          "sets": 2,
+          "rep_range": [
+            10,
+            15
+          ],
+          "target_rir_range": [
+            1,
+            2
+          ],
+          "minimum_rir": 1,
+          "rest_seconds_range": [
+            120,
+            120
+          ],
+          "decision_id": 511,
+          "action": "hold-load-at-stage-d-dose",
+          "status": "prescribed-not-performed",
+          "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+          "reason": "November 19: 50×12/11 at RIR 2. Hold 50 lb for two sets at 1–2 RIR; neither set reached 15.",
+          "load_lb": 50,
+          "for_date": "2026-11-26",
+          "preview": false,
+          "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+          "scheduled_day": "Thursday",
+          "template_day": "Thursday",
+          "schedule_override_id": "2026-11-23-week-five-reschedule",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 512,
+            "recorded_at": "2026-11-26T13:17:50-05:00",
+            "for_date": "2026-11-26",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
+          },
+          "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
+          "activated_on": "2026-11-26",
+          "activation_decision_id": 512,
+          "last_review_decision_id": 512,
+          "recovery_basis_history": [
+            {
+              "status": "assumed-good",
+              "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+              "decision_id": 511,
+              "recorded_at": "2026-11-25T18:19:26-05:00",
+              "for_date": "2026-11-26",
+              "observed": false,
+              "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+            }
+          ]
         }
       ],
       "actual_history": [
@@ -8180,23 +9645,52 @@
           ],
           "progression_eligible": false,
           "reason": "Stage-C ramp; no ordinary load-progression or plateau credit."
+        },
+        {
+          "date": "2026-11-19",
+          "session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+          "prescription_id": "hybrid-2026-10-26-thu-upper-b-500",
+          "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+          "stage": "D",
+          "sets": [
+            {
+              "load": 50,
+              "reps": 12,
+              "rir": 2
+            },
+            {
+              "load": 50,
+              "reps": 11,
+              "rir": 2
+            }
+          ],
+          "progression_eligible": true,
+          "qualifies_for_load_increase": false,
+          "reason": "November 19: 50×12/11 at RIR 2. Both sets meet the 1–2 RIR target but neither reaches 15. Hold 50 lb and build reps; no ordinary loading award.",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 502,
+            "recorded_at": "2026-11-19T20:11:48-05:00",
+            "observed": false,
+            "reason": "Standing default supplies ordinary post-session recovery unless contradicted. The earlier November 19 good recovery report preceded this workout; no new post-session symptom response, observed next-day recovery or local clearance is supplied."
+          }
         }
       ],
       "qualifying_exposures": 0,
-      "note": "November 19: 50×12/11 at RIR 2. Both sets meet the 1–2 RIR target but neither reaches 15. Hold 50 lb and build reps; no ordinary loading award.",
+      "note": "November 26: 50×12/11 at RIR 2/1. Hold 50 lb for two sets at 1–2 RIR; neither reached 15. Same reps as November 19 with the last set closer to failure; only two normal-D exposures, with actual rest/setup unreported, do not establish a plateau.",
       "progression_review": {
-        "decision_id": 502,
-        "date": "2026-11-19",
-        "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
-        "source_session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
-        "first_normal_exposure_completed": true,
+        "decision_id": 513,
+        "date": "2026-11-26",
+        "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+        "source_session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
         "all_prescribed_sets_reported": true,
         "all_sets_at_rep_ceiling": false,
         "intended_rir_or_more_reserve": true,
         "qualifying_exposures": 0,
         "required_qualifying_exposures": 1,
         "load_increase_earned": false,
-        "reason": "November 19: 50×12/11 at RIR 2. Both sets meet the 1–2 RIR target but neither reaches 15. Hold 50 lb and build reps; no ordinary loading award."
+        "reason": "November 26: 50×12/11 at RIR 2/1. Hold 50 lb for two sets at 1–2 RIR; neither reached 15. Same reps as November 19 with the last set closer to failure; only two normal-D exposures, with actual rest/setup unreported, do not establish a plateau."
       },
       "first_set_anchor": {
         "date": "2026-11-19",
@@ -8258,6 +9752,113 @@
           "actual_rest_seconds": null,
           "classification": "first-normal-stage-reference",
           "comparison_count": 0
+        },
+        {
+          "date": "2026-11-26",
+          "session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+          "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+          "stage": "D",
+          "sets": [
+            {
+              "load": 50,
+              "reps": 12,
+              "rir": 2
+            },
+            {
+              "load": 50,
+              "reps": 11,
+              "rir": 1
+            }
+          ],
+          "first_set_rir": 2,
+          "prescribed_rir_by_set": [
+            "1–2",
+            "1–2"
+          ],
+          "rep_range": [
+            10,
+            15
+          ],
+          "rest_seconds": [
+            120,
+            120
+          ],
+          "actual_rest_seconds": null,
+          "classification": "same-load-first-set-rir-reference",
+          "comparison_note": "Actual rest/setup unreported. Preserve literal later-set RIR; no plateau or decline inferred from two normal exposures."
+        }
+      ],
+      "completed_prescription": {
+        "stage": "D",
+        "sets": 2,
+        "rep_range": [
+          10,
+          15
+        ],
+        "target_rir_range": [
+          1,
+          2
+        ],
+        "minimum_rir": 1,
+        "rest_seconds_range": [
+          120,
+          120
+        ],
+        "decision_id": 511,
+        "action": "hold-load-at-stage-d-dose",
+        "status": "completed",
+        "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+        "reason": "November 19: 50×12/11 at RIR 2. Hold 50 lb for two sets at 1–2 RIR; neither set reached 15.",
+        "load_lb": 50,
+        "for_date": "2026-11-26",
+        "preview": false,
+        "prescription_id": "hybrid-2026-10-26-thu-upper-b-511",
+        "scheduled_day": "Thursday",
+        "template_day": "Thursday",
+        "schedule_override_id": "2026-11-23-week-five-reschedule",
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 512,
+          "recorded_at": "2026-11-26T13:17:50-05:00",
+          "for_date": "2026-11-26",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
+        },
+        "prescription_source": "../history/adjustments.md#2026-11-25--log-assessment-run-and-preview-thursday",
+        "activated_on": "2026-11-26",
+        "activation_decision_id": 512,
+        "last_review_decision_id": 512,
+        "recovery_basis_history": [
+          {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 511,
+            "recorded_at": "2026-11-25T18:19:26-05:00",
+            "for_date": "2026-11-26",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
+          }
+        ],
+        "completed_on": "2026-11-26",
+        "completion_decision_id": 513,
+        "actual_session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+        "actual_source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b"
+      },
+      "progression_review_history": [
+        {
+          "decision_id": 502,
+          "date": "2026-11-19",
+          "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+          "source_session_id": "hybrid-2026-10-26-w4-thu-2026-11-19",
+          "first_normal_exposure_completed": true,
+          "all_prescribed_sets_reported": true,
+          "all_sets_at_rep_ceiling": false,
+          "intended_rir_or_more_reserve": true,
+          "qualifying_exposures": 0,
+          "required_qualifying_exposures": 1,
+          "load_increase_earned": false,
+          "reason": "November 19: 50×12/11 at RIR 2. Both sets meet the 1–2 RIR target but neither reaches 15. Hold 50 lb and build reps; no ordinary loading award."
         }
       ]
     },
@@ -8349,12 +9950,28 @@
         ],
         "nonfinal_minimum_rir": 1,
         "stage": "D",
-        "decision_id": 504,
+        "decision_id": 513,
         "action": "hold-load-and-build-reps",
-        "status": "recommendation-for-next-generation",
+        "status": "prescribed-not-performed",
         "load_lb": 35,
         "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
-        "reason": "November 20: 35×15/14/14/14 at RIR 2/2/2/0. All four sets meet their rep floor and intended reserve, including the permitted final RIR 0. Not all sets reached 20; hold 35 lb and build reps."
+        "reason": "November 20: 35×15/14/14/14 at RIR 2/2/2/0. Hold 35 lb for four sets; not every set reached 20.",
+        "for_date": "2026-11-27",
+        "preview": true,
+        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
+        "scheduled_day": "Friday",
+        "template_day": "Saturday",
+        "schedule_override_id": "2026-11-23-week-five-reschedule",
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 513,
+          "recorded_at": "2026-11-26T14:51:48-05:00",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
+          "for_date": "2026-11-27"
+        },
+        "prescription_source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday"
       },
       "actual_history": [
         {
@@ -8549,6 +10166,31 @@
           "nonfinal_minimum_rir": 1,
           "review_decision_id": 503,
           "reviewed_on": "2026-11-20"
+        },
+        {
+          "sets": 4,
+          "rep_range": [
+            12,
+            20
+          ],
+          "target_rir_range": [
+            1,
+            2
+          ],
+          "minimum_rir": 0,
+          "rest_seconds": 120,
+          "final_set_rir_range": [
+            0,
+            1
+          ],
+          "nonfinal_minimum_rir": 1,
+          "stage": "D",
+          "decision_id": 504,
+          "action": "hold-load-and-build-reps",
+          "status": "recommendation-for-next-generation",
+          "load_lb": 35,
+          "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+          "reason": "November 20: 35×15/14/14/14 at RIR 2/2/2/0. All four sets meet their rep floor and intended reserve, including the permitted final RIR 0. Not all sets reached 20; hold 35 lb and build reps."
         }
       ],
       "qualifying_exposures": 0,
@@ -8730,16 +10372,32 @@
         ],
         "nonfinal_minimum_rir": 1,
         "stage": "D",
-        "decision_id": 504,
+        "decision_id": 513,
         "action": "retain-demonstrated-full-dose-load",
-        "status": "recommendation-for-next-generation",
+        "status": "prescribed-not-performed",
         "load_lb": 30,
         "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
-        "reason": "November 20: 30×8/8 at RIR 2/0 because the prescribed 27.5 lb dumbbells were unavailable. Both sets demonstrate the full two-set dose at the rep floor and intended effort. Retain 30 lb as the demonstrated working load; this equipment-availability adjustment is not an earned further increase. Neither set reached 12, so no qualification or additional load award.",
+        "reason": "November 20: 30×8/8 at RIR 2/0 after 27.5-lb dumbbells were unavailable. Both sets support 30 lb; retain it and build toward 12. No further increase.",
         "full_dose_at_reference_load_validated": true,
         "prescribed_load_lb_at_last_exposure": 27.5,
         "load_basis": "Both reported 30 lb sets reached 8 at RIR 2/0 after the athlete substituted for unavailable 27.5 lb dumbbells.",
-        "symptom_action": "Reduce or omit aggravating work if symptoms occur."
+        "symptom_action": "Reduce or omit aggravating work if symptoms occur.",
+        "for_date": "2026-11-27",
+        "preview": true,
+        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
+        "scheduled_day": "Friday",
+        "template_day": "Saturday",
+        "schedule_override_id": "2026-11-23-week-five-reschedule",
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 513,
+          "recorded_at": "2026-11-26T14:51:48-05:00",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
+          "for_date": "2026-11-27"
+        },
+        "prescription_source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday"
       },
       "actual_history": [
         {
@@ -8928,6 +10586,35 @@
           "symptom_action": "Reduce or omit aggravating work if symptoms occur.",
           "review_decision_id": 503,
           "reviewed_on": "2026-11-20"
+        },
+        {
+          "sets": 2,
+          "rep_range": [
+            8,
+            12
+          ],
+          "target_rir_range": [
+            1,
+            2
+          ],
+          "minimum_rir": 0,
+          "rest_seconds": 120,
+          "final_set_rir_range": [
+            0,
+            1
+          ],
+          "nonfinal_minimum_rir": 1,
+          "stage": "D",
+          "decision_id": 504,
+          "action": "retain-demonstrated-full-dose-load",
+          "status": "recommendation-for-next-generation",
+          "load_lb": 30,
+          "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+          "reason": "November 20: 30×8/8 at RIR 2/0 because the prescribed 27.5 lb dumbbells were unavailable. Both sets demonstrate the full two-set dose at the rep floor and intended effort. Retain 30 lb as the demonstrated working load; this equipment-availability adjustment is not an earned further increase. Neither set reached 12, so no qualification or additional load award.",
+          "full_dose_at_reference_load_validated": true,
+          "prescribed_load_lb_at_last_exposure": 27.5,
+          "load_basis": "Both reported 30 lb sets reached 8 at RIR 2/0 after the athlete substituted for unavailable 27.5 lb dumbbells.",
+          "symptom_action": "Reduce or omit aggravating work if symptoms occur."
         }
       ],
       "qualifying_exposures": 0,
@@ -9220,13 +10907,29 @@
         ],
         "nonfinal_minimum_rir": 2,
         "stage": "D",
-        "decision_id": 504,
+        "decision_id": 513,
         "action": "hold-load-and-recalibrate-effort",
-        "status": "recommendation-for-next-generation",
+        "status": "prescribed-not-performed",
         "load_lb": 50,
         "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
-        "reason": "November 20: 50×10/10/10 at RIR 1/1/1. The first two sets overshot the prescribed RIR 2; only the final RIR 1 matches its 0–1 target. Hold 50 lb for review/calibration, target RIR 2 on the first two sets and 0–1 on the last, and reduce load if 10 reps cannot be reached with the required reserve. No qualifying exposure or automatic load increase.",
-        "fallback": "Stop at the intended reserve; reduce load if the 10-rep floor cannot be met at RIR 2 on the first two sets. Do not force the floor or automatically lower the load before review."
+        "reason": "November 20: 50×10/10/10 at RIR 1. Keep 50 lb as the reference, but stop at 2 RIR on the first two sets and 0–1 on the final. Reduce load if ten reps cannot fit that reserve. Thursday’s similar effort deviation does not transfer Friday progression credit.",
+        "fallback": "Stop at the intended reserve; reduce load if the 10-rep floor cannot be met at RIR 2 on the first two sets. Do not force the floor or automatically lower the load before review.",
+        "for_date": "2026-11-27",
+        "preview": true,
+        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
+        "scheduled_day": "Friday",
+        "template_day": "Saturday",
+        "schedule_override_id": "2026-11-23-week-five-reschedule",
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 513,
+          "recorded_at": "2026-11-26T14:51:48-05:00",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
+          "for_date": "2026-11-27"
+        },
+        "prescription_source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday"
       },
       "next_action_history": [
         {
@@ -9337,6 +11040,32 @@
           "nonfinal_minimum_rir": 2,
           "review_decision_id": 503,
           "reviewed_on": "2026-11-20"
+        },
+        {
+          "sets": 3,
+          "rep_range": [
+            10,
+            15
+          ],
+          "target_rir_range": [
+            2,
+            2
+          ],
+          "minimum_rir": 0,
+          "rest_seconds": 120,
+          "final_set_rir_range": [
+            0,
+            1
+          ],
+          "nonfinal_minimum_rir": 2,
+          "stage": "D",
+          "decision_id": 504,
+          "action": "hold-load-and-recalibrate-effort",
+          "status": "recommendation-for-next-generation",
+          "load_lb": 50,
+          "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+          "reason": "November 20: 50×10/10/10 at RIR 1/1/1. The first two sets overshot the prescribed RIR 2; only the final RIR 1 matches its 0–1 target. Hold 50 lb for review/calibration, target RIR 2 on the first two sets and 0–1 on the last, and reduce load if 10 reps cannot be reached with the required reserve. No qualifying exposure or automatic load increase.",
+          "fallback": "Stop at the intended reserve; reduce load if the 10-rep floor cannot be met at RIR 2 on the first two sets. Do not force the floor or automatically lower the load before review."
         }
       ],
       "actual_history": [
@@ -9477,12 +11206,28 @@
         "minimum_rir": 1,
         "rest_seconds": 120,
         "stage": "D",
-        "decision_id": 504,
+        "decision_id": 513,
         "action": "hold-load-and-build-reps",
-        "status": "recommendation-for-next-generation",
+        "status": "prescribed-not-performed",
         "load_lb": 145,
         "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
-        "reason": "November 20: 145×15/19 at RIR 3/1. Both sets meet the rep floor and intended reserve or more; the first set has extra reserve. Neither reaches 20, so hold 145 lb and build reps."
+        "reason": "November 20: 145×15/19 at RIR 3/1. Hold 145 lb and build toward 20 on both sets.",
+        "for_date": "2026-11-27",
+        "preview": true,
+        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
+        "scheduled_day": "Friday",
+        "template_day": "Saturday",
+        "schedule_override_id": "2026-11-23-week-five-reschedule",
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 513,
+          "recorded_at": "2026-11-26T14:51:48-05:00",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
+          "for_date": "2026-11-27"
+        },
+        "prescription_source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday"
       },
       "actual_history": [
         {
@@ -9651,6 +11396,26 @@
           "reason": "Hold 145 lb and two sets, now at normal-D 1–2 RIR. Both sets remain below the 20-rep ceiling; Wednesday’s separate actuals supply no Friday credit.",
           "review_decision_id": 503,
           "reviewed_on": "2026-11-20"
+        },
+        {
+          "sets": 2,
+          "rep_range": [
+            12,
+            20
+          ],
+          "target_rir_range": [
+            1,
+            2
+          ],
+          "minimum_rir": 1,
+          "rest_seconds": 120,
+          "stage": "D",
+          "decision_id": 504,
+          "action": "hold-load-and-build-reps",
+          "status": "recommendation-for-next-generation",
+          "load_lb": 145,
+          "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+          "reason": "November 20: 145×15/19 at RIR 3/1. Both sets meet the rep floor and intended reserve or more; the first set has extra reserve. Neither reaches 20, so hold 145 lb and build reps."
         }
       ],
       "qualifying_exposures": 0,
@@ -9752,16 +11517,32 @@
           15
         ],
         "stage": "D",
-        "decision_id": 504,
+        "decision_id": 513,
         "action": "hold-cautious-forearm-dose",
-        "status": "recommendation-for-next-generation",
+        "status": "prescribed-not-performed",
         "load_lb": 27.5,
         "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
-        "reason": "November 20: 27.5×15 at RIR 4 matches the deliberate one-set, 15-rep cautious prescription. This is below the ordinary 20-rep ceiling, so zero ordinary qualifying exposures. Retain 27.5 lb for one 15-rep set at at least 4 RIR, without an automatic rep, load or set increase.",
+        "reason": "November 20: 27.5×15 at RIR 4. Retain the cautious one-set, 15-rep dose at ≥4 RIR; zero ordinary qualifications.",
         "symptom_action": "Reduce or omit aggravating work if symptoms occur.",
         "ordinary_qualifying_exposures": 0,
         "required_qualifying_exposures": 2,
-        "load_increase_earned": false
+        "load_increase_earned": false,
+        "for_date": "2026-11-27",
+        "preview": true,
+        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
+        "scheduled_day": "Friday",
+        "template_day": "Saturday",
+        "schedule_override_id": "2026-11-23-week-five-reschedule",
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 513,
+          "recorded_at": "2026-11-26T14:51:48-05:00",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
+          "for_date": "2026-11-27"
+        },
+        "prescription_source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday"
       },
       "units": "lb",
       "load_status": "established",
@@ -9994,6 +11775,33 @@
           "symptom_action": "Reduce or omit aggravating work if symptoms occur.",
           "review_decision_id": 503,
           "reviewed_on": "2026-11-20"
+        },
+        {
+          "sets": 1,
+          "rep_range": [
+            15,
+            15
+          ],
+          "target_rir_range": [
+            4,
+            4
+          ],
+          "minimum_rir": 4,
+          "rest_seconds": 120,
+          "reps_per_set": [
+            15
+          ],
+          "stage": "D",
+          "decision_id": 504,
+          "action": "hold-cautious-forearm-dose",
+          "status": "recommendation-for-next-generation",
+          "load_lb": 27.5,
+          "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+          "reason": "November 20: 27.5×15 at RIR 4 matches the deliberate one-set, 15-rep cautious prescription. This is below the ordinary 20-rep ceiling, so zero ordinary qualifying exposures. Retain 27.5 lb for one 15-rep set at at least 4 RIR, without an automatic rep, load or set increase.",
+          "symptom_action": "Reduce or omit aggravating work if symptoms occur.",
+          "ordinary_qualifying_exposures": 0,
+          "required_qualifying_exposures": 2,
+          "load_increase_earned": false
         }
       ],
       "actual_history": [
@@ -10097,16 +11905,32 @@
           15
         ],
         "stage": "D",
-        "decision_id": 504,
+        "decision_id": 513,
         "action": "hold-cautious-forearm-dose",
-        "status": "recommendation-for-next-generation",
+        "status": "prescribed-not-performed",
         "load_lb": 27.5,
         "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
-        "reason": "November 20: 27.5×20 at RIR 4 exceeds the deliberately prescribed 15 reps and reaches the ordinary 20-rep ceiling. Record one ordinary-cap qualifying observation, not a load award: two same-slot qualifying exposures are required and the cautious prescription remains 27.5 lb for one 15-rep set at at least 4 RIR. Do not automatically turn the performed 20 into a new prescribed target or add a set.",
+        "reason": "November 20: 27.5×20 at RIR 4. Preserve one of two required ordinary ceiling qualifications; no earned increase. The cautious prescription remains one 15-rep set at ≥4 RIR; no extra set before W6 review.",
         "symptom_action": "Reduce or omit aggravating work if symptoms occur.",
         "ordinary_qualifying_exposures": 1,
         "required_qualifying_exposures": 2,
-        "load_increase_earned": false
+        "load_increase_earned": false,
+        "for_date": "2026-11-27",
+        "preview": true,
+        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
+        "scheduled_day": "Friday",
+        "template_day": "Saturday",
+        "schedule_override_id": "2026-11-23-week-five-reschedule",
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 513,
+          "recorded_at": "2026-11-26T14:51:48-05:00",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
+          "for_date": "2026-11-27"
+        },
+        "prescription_source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday"
       },
       "units": "lb",
       "load_status": "established",
@@ -10348,6 +12172,33 @@
           "symptom_action": "Reduce or omit aggravating work if symptoms occur.",
           "review_decision_id": 503,
           "reviewed_on": "2026-11-20"
+        },
+        {
+          "sets": 1,
+          "rep_range": [
+            15,
+            15
+          ],
+          "target_rir_range": [
+            4,
+            4
+          ],
+          "minimum_rir": 4,
+          "rest_seconds": 120,
+          "reps_per_set": [
+            15
+          ],
+          "stage": "D",
+          "decision_id": 504,
+          "action": "hold-cautious-forearm-dose",
+          "status": "recommendation-for-next-generation",
+          "load_lb": 27.5,
+          "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+          "reason": "November 20: 27.5×20 at RIR 4 exceeds the deliberately prescribed 15 reps and reaches the ordinary 20-rep ceiling. Record one ordinary-cap qualifying observation, not a load award: two same-slot qualifying exposures are required and the cautious prescription remains 27.5 lb for one 15-rep set at at least 4 RIR. Do not automatically turn the performed 20 into a new prescribed target or add a set.",
+          "symptom_action": "Reduce or omit aggravating work if symptoms occur.",
+          "ordinary_qualifying_exposures": 1,
+          "required_qualifying_exposures": 2,
+          "load_increase_earned": false
         }
       ],
       "actual_history": [

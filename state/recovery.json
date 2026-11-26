@@ -44,11 +44,11 @@
       "response_status": "latest-bodyweight-exposure-response-unreported",
       "progression_limit": "No added weight, extra sets or baseline cable/hanging-raise restoration while original-site symptoms remain. Bodyweight work is permitted only if comfortable; stop or reduce aggravating work rather than continuing until the sensation fades. Reconsider a small loaded trial after a BW exposure is comfortable during/after and the next morning, with a fresh loading review.",
       "last_exposure": {
-        "date": "2026-11-24",
-        "session_id": "hybrid-2026-10-26-w5-tue-2026-11-24",
-        "slot": "M6 temporary substitute",
+        "date": "2026-11-26",
+        "session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+        "slot": "T7 temporary substitute",
         "exercise": "Decline crunch — bodyweight",
-        "source": "../history/lifting-log.md#2026-11-24--hybrid-v11-w5-tuesday-upper-a-moved-from-monday",
+        "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
         "load": "BW",
         "external_load_lb": 0,
         "sets": 2,
@@ -58,7 +58,7 @@
         ],
         "rir": [
           5,
-          5
+          3
         ],
         "symptom_response": null,
         "next_morning_response": null
@@ -299,6 +299,26 @@
           "slot": "T7 temporary substitute",
           "exercise": "Decline crunch — bodyweight",
           "source": "../history/lifting-log.md#2026-11-19--hybrid-v11-w4-thursday-upper-b",
+          "load": "BW",
+          "external_load_lb": 0,
+          "sets": 2,
+          "reps": [
+            15,
+            15
+          ],
+          "rir": [
+            5,
+            5
+          ],
+          "symptom_response": null,
+          "next_morning_response": null
+        },
+        {
+          "date": "2026-11-24",
+          "session_id": "hybrid-2026-10-26-w5-tue-2026-11-24",
+          "slot": "M6 temporary substitute",
+          "exercise": "Decline crunch — bodyweight",
+          "source": "../history/lifting-log.md#2026-11-24--hybrid-v11-w5-tuesday-upper-a-moved-from-monday",
           "load": "BW",
           "external_load_lb": 0,
           "sets": 2,
@@ -854,10 +874,10 @@
       "id": "ab-loading-review",
       "reported_on": "2026-10-24",
       "status": "awaiting-next-morning-response-and-review",
-      "blocks": "November 16 BW decline crunch 15/15 at RIR 5/5 is recorded. Specific symptom response, next-morning response and fresh loading review remain unreported; keep BW only, maximum two sets and minimum 3 RIR.",
+      "blocks": "November 26 BW decline crunch 15/15 at RIR 5/3 recorded. Specific symptom response, next-morning response and fresh loading review remain unreported; keep BW only, maximum two sets and minimum 3 RIR.",
       "review_requested_on": "2026-11-01",
-      "decision_id": 496,
-      "reviewed_on": "2026-11-16"
+      "decision_id": 513,
+      "reviewed_on": "2026-11-26"
     }
   ],
   "global_fatigue": null,
@@ -912,17 +932,12 @@
     }
   ],
   "post_session": {
-    "date": "2026-11-25",
-    "session_id": "hybrid-2026-10-26-w5-wed-2026-11-25",
+    "date": "2026-11-26",
+    "session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
     "completion": "reported",
-    "decision_id": 511,
-    "work_minutes": 8,
-    "distance_miles": 3.48,
-    "rep_rpe": [
-      8,
-      8
-    ],
-    "status": "assessment-effort-confirmed-general-recovery-assumed",
+    "decision_id": 513,
+    "working_sets": 20,
+    "status": "ordinary-recovery-assumed-no-new-symptom-report",
     "lower_ab_response": null,
     "achilles_response": null,
     "elbow_response": null,
@@ -930,38 +945,12 @@
     "recovery_decision": {
       "status": "assumed-good",
       "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-      "decision_id": 512,
-      "recorded_at": "2026-11-26T13:17:50-05:00",
-      "for_date": "2026-11-26",
+      "decision_id": 513,
+      "recorded_at": "2026-11-26T14:51:48-05:00",
       "observed": false,
-      "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
+      "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits."
     },
-    "note": "November 25 assessment run completed; November 26 follow-up confirms RPE 8/8, meeting the final-rep cap. Ordinary recovery remains assumed; no observed next-day or local response supplied.",
-    "final_rep_rpe": 8,
-    "effort_followup": {
-      "decision_id": 512,
-      "reported_on": "2026-11-26",
-      "recorded_at": "2026-11-26T13:17:50-05:00",
-      "report": "Rpe was 8,8 and then generate today if needed",
-      "rep_rpe": [
-        8,
-        8
-      ],
-      "final_rep_rpe": 8,
-      "effort_cap_met": true,
-      "source": "../history/cardio-log.md#2026-11-26--wednesday-assessment-effort-confirmed",
-      "scope": "Effort confirmation for the existing November 25 run only. No new run, mileage, observed recovery or symptom report."
-    },
-    "recovery_decision_history": [
-      {
-        "status": "assumed-good",
-        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-        "decision_id": 511,
-        "recorded_at": "2026-11-25T18:19:22-05:00",
-        "observed": false,
-        "reason": "Standing athlete default supplies ordinary post-run recovery and Thursday readiness. The screenshots and distance report supply performance, not a new observed recovery or site-specific response. Effort ratings are requested separately; persistent local limits remain."
-      }
-    ]
+    "note": "Twenty Upper B sets logged. Incline and pull-up increased loads meet targets; pushdown first two sets overshot intended reserve. No new observed recovery or local response supplied."
   },
   "prior_pending_post_sessions": [
     {
@@ -1454,6 +1443,58 @@
         "reason": "Standing athlete default supplies ordinary post-session recovery and Wednesday readiness. Completed Upper A is reported without a new recovery or site-specific symptom report. Preserve active local restrictions; no next-day observation or clearance is inferred."
       },
       "note": "Upper A completed at normal Stage D. Heavier actual curl/back-off loads and final RIR 0 sets are recorded literally. No fresh tendon/ab response, next-day recovery or loading clearance; permanent exercise replacements and local limits persist."
+    },
+    {
+      "date": "2026-11-25",
+      "session_id": "hybrid-2026-10-26-w5-wed-2026-11-25",
+      "completion": "reported",
+      "decision_id": 511,
+      "work_minutes": 8,
+      "distance_miles": 3.48,
+      "rep_rpe": [
+        8,
+        8
+      ],
+      "status": "assessment-effort-confirmed-general-recovery-assumed",
+      "lower_ab_response": null,
+      "achilles_response": null,
+      "elbow_response": null,
+      "next_day_recovery": null,
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 512,
+        "recorded_at": "2026-11-26T13:17:50-05:00",
+        "for_date": "2026-11-26",
+        "observed": false,
+        "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
+      },
+      "note": "November 25 assessment run completed; November 26 follow-up confirms RPE 8/8, meeting the final-rep cap. Ordinary recovery remains assumed; no observed next-day or local response supplied.",
+      "final_rep_rpe": 8,
+      "effort_followup": {
+        "decision_id": 512,
+        "reported_on": "2026-11-26",
+        "recorded_at": "2026-11-26T13:17:50-05:00",
+        "report": "Rpe was 8,8 and then generate today if needed",
+        "rep_rpe": [
+          8,
+          8
+        ],
+        "final_rep_rpe": 8,
+        "effort_cap_met": true,
+        "source": "../history/cardio-log.md#2026-11-26--wednesday-assessment-effort-confirmed",
+        "scope": "Effort confirmation for the existing November 25 run only. No new run, mileage, observed recovery or symptom report."
+      },
+      "recovery_decision_history": [
+        {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 511,
+          "recorded_at": "2026-11-25T18:19:22-05:00",
+          "observed": false,
+          "reason": "Standing athlete default supplies ordinary post-run recovery and Thursday readiness. The screenshots and distance report supply performance, not a new observed recovery or site-specific response. Effort ratings are requested separately; persistent local limits remain."
+        }
+      ]
     }
   ],
   "resolved_post_sessions": [
@@ -1873,11 +1914,11 @@
   "planning_readiness": {
     "status": "assumed-good",
     "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-    "decision_id": 512,
-    "recorded_at": "2026-11-26T13:17:50-05:00",
-    "for_date": "2026-11-26",
+    "decision_id": 513,
+    "recorded_at": "2026-11-26T14:51:48-05:00",
     "observed": false,
-    "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
+    "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
+    "for_date": "2026-11-27"
   },
   "general_readiness_history": [
     {
@@ -2296,6 +2337,15 @@
       "observed": false,
       "reason": "Standing athlete default supplies ordinary post-run recovery and Thursday readiness. The screenshots and distance report supply performance, not a new observed recovery or site-specific response. Effort ratings are requested separately; persistent local limits remain.",
       "for_date": "2026-11-26"
+    },
+    {
+      "status": "assumed-good",
+      "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+      "decision_id": 512,
+      "recorded_at": "2026-11-26T13:17:50-05:00",
+      "for_date": "2026-11-26",
+      "observed": false,
+      "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
     }
   ],
   "recovery_override_history": [

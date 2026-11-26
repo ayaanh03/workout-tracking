@@ -1266,3 +1266,41 @@ Retain #511's adaptation review: T1 November 19 135×8/8/8 at RIR 2 and T4 BW×1
 Refresh current-day readiness using the standing assumed-good policy. Remove preview labels and mark Thursday today, while keeping it unperformed. Resolve the pending effort question in recovery state; retain all unrelated questions, observed recovery history and active local restrictions. The run remains November 25, live date advances to November 26, and Friday/Saturday/Sunday stay upcoming under the existing one-week override.
 
 W5 totals remain **three completed sessions, 35 lifting sets, eight run work minutes, 3.48 miles and no bike actuals**. Evo SL remains **31.75 miles**. Preserve lifting history, all Watch files, normal running state, carried-award sources, bike tolerance and schedule restoration on November 30. Verify state/cache consistency and publish the activated dashboard.
+
+## 2026-11-26 — log Upper B and preview Friday
+
+513. Log `hybrid-2026-10-26-w5-thu-2026-11-26` against original prescription `hybrid-2026-10-26-thu-upper-b-511`, activated by #512. **20 Stage D working sets**, no cardio prescribed or reported. The [dated actuals](lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b) preserve every set, original target and literal zero RIR. Ordinary post-session recovery uses the [standing assumption](../program/readiness.md); no new observed recovery or elbow/ab/Achilles response is supplied.
+
+| Slot | Actual load × reps; RIR | Adaptation |
+|---|---|---|
+| T1 | 140×8/7/7; 3/2/2 | All sets support the heavier load. Hold 140 and build toward 8/8/8; no further award. Actual availability of 137.5 remains unreported. |
+| T2 | 75×8/8 per arm; 3/3 | Hold 75 at ≥3 RIR. One fewer first-set rep than November 19 does not establish persistent decline. |
+| T3 | 35×13/14/14/13; 2/1/1/0 | Hold 35; no all-set 20 ceiling. First set improves 12→13 at matched RIR2; later-set effort differs. Final0 is permitted. |
+| T4 | +10×9/9; 2/2 | Establish 10 lb **added external load**, body mass/attachment unreported. Hold +10 and build toward 12/12. |
+| T5 | 50×10/10/10; 1/1/0 | First two sets closer to failure than intended2; final0 permitted. Keep50 as reference, target2/2/0–1, reduce if ten reps cannot fit the reserve. |
+| T6 | 120×10/8; 2/2 | Hold120. First set gains one rep, second loses one; total18 unchanged. Neither reaches12. |
+| T7 | BW×15/15; 5/3 | Keep BW only, max two sets and ≥3RIR. No new loading clearance. |
+| T8 | 50×12/11; 2/1 | Hold50. Same reps with a closer final set; neither reaches15. |
+
+Under [ordinary lift progression](../program/lift-progression.md), no new load award is earned. T1/T4 complete the independent November19 awards already applied once by #511; preserve source-use metadata and do not consume them again. Record actual loads140/+10 without changing Monday incline state. Raw exposures increment once: T1/T3/T4/T5/T6/T8 become5, replacement T2 becomes3, BW T7 substitute becomes4. Qualifying counts remain0. Baseline T7 cable-crunch actuals/progression remain untouched.
+
+Preserve old reference/history before new anchors at T1's changed load/first-set RIR, T4's added load and T5's changed first-set RIR. Append other same-load first-set observations; actual rest/setup remain unreported. No three-exposure plateau, persistent decline, local cut or extra-set trial is established by these results. Do not compare ramp work or different slots as ordinary matched exposures. All active local restrictions and permanent replacements remain.
+
+Automatically prepare **Friday November27, W5 Delts/arms B + bike — preview**, prescription `hybrid-2026-10-26-fri-delts-arms-b-513`. Live date remains ThursdayNovember26 in America/New_York. Apply the [Friday template](../program/saturday.md), achievedD, current independent Friday loads and [W5 assessment ceiling](../program/assessments.md): **13 lifting sets + 15 minutes bike**.
+
+| Slot | Exercise | Load | Sets × reps | RIR | Rest |
+|---|---|---|---|---|---|
+| S1 | DB lateral raise | 35 lb | 4×12–20 | First three1–2; final0–1 | 2 min |
+| S2 | Incline DB curl | 30 lb | 2×8–12 | First1–2; final0–1 | 2 min |
+| S3 | Cable pushdown | 50 lb | 3×10–15 | First two2; final0–1 | 2 min |
+| S4 | Reverse pec deck | 145 lb | 2×12–20 | 1–2 | 2 min |
+| S5 | Cable reverse curl | 27.5 lb | 1×15 | ≥4 | 2 min |
+| S6 | Cable wrist curl | 27.5 lb | 1×15 | ≥4 | 2 min |
+
+November20 matching actuals support unchanged Friday loads: lateral35×15/14/14/14, incline curl30×8/8, pushdown50×10/10/10, reverse pec145×15/19. Curl30 is the full-dose demonstrated load after unavailable27.5s, not a new earned increase; T2's local minimum3RIR does not transfer to S2. Pushdown's own prior first two sets wereRIR1; keep2RIR there and lower load if needed for the10-rep floor. Today's similar Thursday deviation reinforces the effort reminder without transferring actuals or credit.
+
+Cautious forearms remain one15-rep set each at27.5 and ≥4RIR. November20 reversecurl15 gives zero ordinary qualifications; wristcurl20 gives one of the two required. Preserve that one count, but do not silently raise the cautious rep prescription or add a W6-only second set. No calves in this session.
+
+Bike **15 minutes after lifting, RPE3 (acceptable2–4)**; no mandatory wattage/HR target. Saved settings **height10.5, seat+4, handle+3**. Retain the already-issued bike prescription `hybrid-2026-10-26-fri-bike-508` linked to the new lifting preview. November20 normal25-minute tolerance remains validated by #509; W5's15-minute ceiling controls the current dose. Do not reset normal tolerance, add a completed ride, or make up omitted Wednesday minutes. No Watch file needed for cycling.
+
+W5 now has **four completed sessions, 55 lifting sets, eight run work minutes, 3.48 confirmed miles and zero bike actuals**. Friday/Saturday/Sunday remain unperformed; no completed-week review yet. Saturday no-test assessment remains planned and the optional5K unselected. Normal recurring schedule resumesNovember30. All run actuals/targets/counters/carried credit, shoe mileage and existing Watch files remain unchanged. Refresh lifting history, state and both dashboard caches together, verify consistency and publish.
