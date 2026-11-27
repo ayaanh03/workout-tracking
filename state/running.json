@@ -5690,7 +5690,7 @@
         "decision_id": 508,
         "action": "prescribe-assessment-bike",
         "status": "prescribed-not-performed",
-        "preview": true,
+        "preview": false,
         "for_date": "2026-11-27",
         "prescription_id": "hybrid-2026-10-26-fri-bike-508",
         "assessment_week": 5,
@@ -5712,19 +5712,32 @@
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 513,
-          "recorded_at": "2026-11-26T14:51:48-05:00",
+          "decision_id": 514,
+          "recorded_at": "2026-11-27T18:36:07-05:00",
+          "for_date": "2026-11-27",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
-          "for_date": "2026-11-27"
+          "reason": "Standing athlete default supplies ordinary current Friday readiness. The request to generate today contains no new observed recovery or symptom report; preserve all local limits."
         },
         "reason": "W5 assessment ceiling keeps Friday bike at 15 minutes after lifting, RPE 3 (acceptable 2–4). Normal 25-minute tolerance remains validated. Do not make up the omitted Wednesday bike.",
         "validation_review_decision_id": 509,
         "validation_status": "25-minute-dose-validated",
-        "reviewed_on": "2026-11-26",
-        "review_decision_id": 513,
+        "reviewed_on": "2026-11-27",
+        "review_decision_id": 514,
         "lifting_prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
-        "settings_note": "Height 10.5; seat +4; handle +3."
+        "settings_note": "Height 10.5; seat +4; handle +3.",
+        "recovery_basis_history": [
+          {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 513,
+            "recorded_at": "2026-11-26T14:51:48-05:00",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
+            "for_date": "2026-11-27"
+          }
+        ],
+        "activated_on": "2026-11-27",
+        "activation_decision_id": 514
       },
       "validation_review": {
         "decision_id": 509,

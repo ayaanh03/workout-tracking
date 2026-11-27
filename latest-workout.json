@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-26T14:51:48-05:00",
+  "generatedAt": "2026-11-27T18:36:07-05:00",
   "blockId": "hybrid-2026-10-26",
   "prescriptionId": "hybrid-2026-10-26-fri-delts-arms-b-513",
-  "preview": true,
+  "preview": false,
   "week": "W5",
   "day": "Fri",
   "date": "2026-11-27",
   "phase": "Hybrid v11 — Stage D / W5 assessment",
-  "sessionName": "Delts/arms B + bike — preview",
+  "sessionName": "Delts/arms B + bike",
   "why": [
-    "Friday, November 27 is the next scheduled session: 13 Stage D lifting sets, then a 15-minute bike. Thursday Upper B is logged.",
+    "Today is Friday, November 27: delts/arms B, 13 Stage D lifting sets, then a 15-minute bike. The prepared workout is unchanged.",
     "W5 retains normal lifting and reduces endurance. Ordinary recovery is assumed good; cautious forearm limits remain."
   ],
   "intro": [

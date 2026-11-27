@@ -9957,7 +9957,7 @@
         "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
         "reason": "November 20: 35×15/14/14/14 at RIR 2/2/2/0. Hold 35 lb for four sets; not every set reached 20.",
         "for_date": "2026-11-27",
-        "preview": true,
+        "preview": false,
         "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
         "scheduled_day": "Friday",
         "template_day": "Saturday",
@@ -9965,13 +9965,27 @@
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 513,
-          "recorded_at": "2026-11-26T14:51:48-05:00",
+          "decision_id": 514,
+          "recorded_at": "2026-11-27T18:36:07-05:00",
+          "for_date": "2026-11-27",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
-          "for_date": "2026-11-27"
+          "reason": "Standing athlete default supplies ordinary current Friday readiness. The request to generate today contains no new observed recovery or symptom report; preserve all local limits."
         },
-        "prescription_source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday"
+        "prescription_source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday",
+        "recovery_basis_history": [
+          {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 513,
+            "recorded_at": "2026-11-26T14:51:48-05:00",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
+            "for_date": "2026-11-27"
+          }
+        ],
+        "activated_on": "2026-11-27",
+        "activation_decision_id": 514,
+        "last_review_decision_id": 514
       },
       "actual_history": [
         {
@@ -10383,7 +10397,7 @@
         "load_basis": "Both reported 30 lb sets reached 8 at RIR 2/0 after the athlete substituted for unavailable 27.5 lb dumbbells.",
         "symptom_action": "Reduce or omit aggravating work if symptoms occur.",
         "for_date": "2026-11-27",
-        "preview": true,
+        "preview": false,
         "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
         "scheduled_day": "Friday",
         "template_day": "Saturday",
@@ -10391,13 +10405,27 @@
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 513,
-          "recorded_at": "2026-11-26T14:51:48-05:00",
+          "decision_id": 514,
+          "recorded_at": "2026-11-27T18:36:07-05:00",
+          "for_date": "2026-11-27",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
-          "for_date": "2026-11-27"
+          "reason": "Standing athlete default supplies ordinary current Friday readiness. The request to generate today contains no new observed recovery or symptom report; preserve all local limits."
         },
-        "prescription_source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday"
+        "prescription_source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday",
+        "recovery_basis_history": [
+          {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 513,
+            "recorded_at": "2026-11-26T14:51:48-05:00",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
+            "for_date": "2026-11-27"
+          }
+        ],
+        "activated_on": "2026-11-27",
+        "activation_decision_id": 514,
+        "last_review_decision_id": 514
       },
       "actual_history": [
         {
@@ -10915,7 +10943,7 @@
         "reason": "November 20: 50×10/10/10 at RIR 1. Keep 50 lb as the reference, but stop at 2 RIR on the first two sets and 0–1 on the final. Reduce load if ten reps cannot fit that reserve. Thursday’s similar effort deviation does not transfer Friday progression credit.",
         "fallback": "Stop at the intended reserve; reduce load if the 10-rep floor cannot be met at RIR 2 on the first two sets. Do not force the floor or automatically lower the load before review.",
         "for_date": "2026-11-27",
-        "preview": true,
+        "preview": false,
         "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
         "scheduled_day": "Friday",
         "template_day": "Saturday",
@@ -10923,13 +10951,27 @@
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 513,
-          "recorded_at": "2026-11-26T14:51:48-05:00",
+          "decision_id": 514,
+          "recorded_at": "2026-11-27T18:36:07-05:00",
+          "for_date": "2026-11-27",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
-          "for_date": "2026-11-27"
+          "reason": "Standing athlete default supplies ordinary current Friday readiness. The request to generate today contains no new observed recovery or symptom report; preserve all local limits."
         },
-        "prescription_source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday"
+        "prescription_source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday",
+        "recovery_basis_history": [
+          {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 513,
+            "recorded_at": "2026-11-26T14:51:48-05:00",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
+            "for_date": "2026-11-27"
+          }
+        ],
+        "activated_on": "2026-11-27",
+        "activation_decision_id": 514,
+        "last_review_decision_id": 514
       },
       "next_action_history": [
         {
@@ -11213,7 +11255,7 @@
         "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
         "reason": "November 20: 145×15/19 at RIR 3/1. Hold 145 lb and build toward 20 on both sets.",
         "for_date": "2026-11-27",
-        "preview": true,
+        "preview": false,
         "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
         "scheduled_day": "Friday",
         "template_day": "Saturday",
@@ -11221,13 +11263,27 @@
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 513,
-          "recorded_at": "2026-11-26T14:51:48-05:00",
+          "decision_id": 514,
+          "recorded_at": "2026-11-27T18:36:07-05:00",
+          "for_date": "2026-11-27",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
-          "for_date": "2026-11-27"
+          "reason": "Standing athlete default supplies ordinary current Friday readiness. The request to generate today contains no new observed recovery or symptom report; preserve all local limits."
         },
-        "prescription_source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday"
+        "prescription_source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday",
+        "recovery_basis_history": [
+          {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 513,
+            "recorded_at": "2026-11-26T14:51:48-05:00",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
+            "for_date": "2026-11-27"
+          }
+        ],
+        "activated_on": "2026-11-27",
+        "activation_decision_id": 514,
+        "last_review_decision_id": 514
       },
       "actual_history": [
         {
@@ -11528,7 +11584,7 @@
         "required_qualifying_exposures": 2,
         "load_increase_earned": false,
         "for_date": "2026-11-27",
-        "preview": true,
+        "preview": false,
         "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
         "scheduled_day": "Friday",
         "template_day": "Saturday",
@@ -11536,13 +11592,27 @@
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 513,
-          "recorded_at": "2026-11-26T14:51:48-05:00",
+          "decision_id": 514,
+          "recorded_at": "2026-11-27T18:36:07-05:00",
+          "for_date": "2026-11-27",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
-          "for_date": "2026-11-27"
+          "reason": "Standing athlete default supplies ordinary current Friday readiness. The request to generate today contains no new observed recovery or symptom report; preserve all local limits."
         },
-        "prescription_source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday"
+        "prescription_source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday",
+        "recovery_basis_history": [
+          {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 513,
+            "recorded_at": "2026-11-26T14:51:48-05:00",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
+            "for_date": "2026-11-27"
+          }
+        ],
+        "activated_on": "2026-11-27",
+        "activation_decision_id": 514,
+        "last_review_decision_id": 514
       },
       "units": "lb",
       "load_status": "established",
@@ -11916,7 +11986,7 @@
         "required_qualifying_exposures": 2,
         "load_increase_earned": false,
         "for_date": "2026-11-27",
-        "preview": true,
+        "preview": false,
         "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
         "scheduled_day": "Friday",
         "template_day": "Saturday",
@@ -11924,13 +11994,27 @@
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 513,
-          "recorded_at": "2026-11-26T14:51:48-05:00",
+          "decision_id": 514,
+          "recorded_at": "2026-11-27T18:36:07-05:00",
+          "for_date": "2026-11-27",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
-          "for_date": "2026-11-27"
+          "reason": "Standing athlete default supplies ordinary current Friday readiness. The request to generate today contains no new observed recovery or symptom report; preserve all local limits."
         },
-        "prescription_source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday"
+        "prescription_source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday",
+        "recovery_basis_history": [
+          {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 513,
+            "recorded_at": "2026-11-26T14:51:48-05:00",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
+            "for_date": "2026-11-27"
+          }
+        ],
+        "activated_on": "2026-11-27",
+        "activation_decision_id": 514,
+        "last_review_decision_id": 514
       },
       "units": "lb",
       "load_status": "established",

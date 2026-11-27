@@ -1914,11 +1914,11 @@
   "planning_readiness": {
     "status": "assumed-good",
     "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-    "decision_id": 513,
-    "recorded_at": "2026-11-26T14:51:48-05:00",
+    "decision_id": 514,
+    "recorded_at": "2026-11-27T18:36:07-05:00",
+    "for_date": "2026-11-27",
     "observed": false,
-    "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
-    "for_date": "2026-11-27"
+    "reason": "Standing athlete default supplies ordinary current Friday readiness. The request to generate today contains no new observed recovery or symptom report; preserve all local limits."
   },
   "general_readiness_history": [
     {
@@ -2346,6 +2346,15 @@
       "for_date": "2026-11-26",
       "observed": false,
       "reason": "Standing athlete default supplies ordinary current Thursday readiness and post-run recovery. The new report confirms yesterday’s rep effort, not observed recovery or symptom clearance. Existing local limits remain."
+    },
+    {
+      "status": "assumed-good",
+      "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+      "decision_id": 513,
+      "recorded_at": "2026-11-26T14:51:48-05:00",
+      "observed": false,
+      "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
+      "for_date": "2026-11-27"
     }
   ],
   "recovery_override_history": [

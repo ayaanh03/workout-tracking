@@ -1304,3 +1304,22 @@ Cautious forearms remain one15-rep set each at27.5 and ≥4RIR. November20 rever
 Bike **15 minutes after lifting, RPE3 (acceptable2–4)**; no mandatory wattage/HR target. Saved settings **height10.5, seat+4, handle+3**. Retain the already-issued bike prescription `hybrid-2026-10-26-fri-bike-508` linked to the new lifting preview. November20 normal25-minute tolerance remains validated by #509; W5's15-minute ceiling controls the current dose. Do not reset normal tolerance, add a completed ride, or make up omitted Wednesday minutes. No Watch file needed for cycling.
 
 W5 now has **four completed sessions, 55 lifting sets, eight run work minutes, 3.48 confirmed miles and zero bike actuals**. Friday/Saturday/Sunday remain unperformed; no completed-week review yet. Saturday no-test assessment remains planned and the optional5K unselected. Normal recurring schedule resumesNovember30. All run actuals/targets/counters/carried credit, shoe mileage and existing Watch files remain unchanged. Refresh lifting history, state and both dashboard caches together, verify consistency and publish.
+
+## 2026-11-27 — activate Friday delts/arms B
+
+514. Athlete requests **“Generate today.”** Today is FridayNovember27 in America/New_York, W5. Activate the prepared `hybrid-2026-10-26-fri-delts-arms-b-513` unchanged: **13 Stage D lifting sets, then 15 minutes bike**. Use the [standing ordinary-recovery assumption](../program/readiness.md); this request supplies no observed recovery or new symptom clearance. Preserve the original prescription identity and all completed actuals.
+
+| Slot | Exercise | Load | Sets × reps | RIR | Rest |
+|---|---|---|---|---|---|
+| S1 | DB lateral raise | 35 lb | 4×12–20 | First three1–2; final0–1 | 2 min |
+| S2 | Incline DB curl | 30 lb | 2×8–12 | First1–2; final0–1 | 2 min |
+| S3 | Cable pushdown | 50 lb | 3×10–15 | First two2; final0–1 | 2 min |
+| S4 | Reverse pec deck | 145 lb | 2×12–20 | 1–2 | 2 min |
+| S5 | Cable reverse curl | 27.5 lb | 1×15 | ≥4 | 2 min |
+| S6 | Cable wrist curl | 27.5 lb | 1×15 | ≥4 | 2 min |
+
+Keep #513's adaptation review from November20 same-slot actuals: lateral35×15/14/14/14, curl30×8/8, pushdown50×10/10/10 and reversepec145×15/19 do not reach all rep ceilings. Retain the demonstrated30lb curl load. First two pushdowns target2RIR; reduce load if ten reps cannot fit that reserve, since the previous Friday and latest Thursday first two sets wereRIR1. Thursday actuals do not supply Friday progression credit. Final0–1 remains permitted for S1/S2/S3. Forearms remain deliberately cautious: one15-rep set each at27.5 and ≥4RIR, preserving wristcurl's one ordinary ceiling qualification without granting a load or W6 set increase. No calves in this session.
+
+Bike remains **15 minutes after lifting, RPE3 (acceptable2–4)** under the [W5 assessment limit](../program/assessments.md). Saved settings: **height10.5, seat+4, handle+3**. Retain bike prescription `hybrid-2026-10-26-fri-bike-508` and validated normal25-minute tolerance; no completed ride, duration progression or replacement for omitted Wednesday cycling. No Watch file needed.
+
+Mark Friday today in both dashboard views and activate S1–S6/bike metadata. Preserve loads, original prescription sources, actuals/exposure counts, qualification, anchors, local restrictions, running credit and shoe mileage. W5 totals remain **four completed sessions, 55 lifting sets, eight run work minutes, 3.48 miles and zero bike actuals**. Saturday/Sunday remain upcoming and normal recurring schedule resumesNovember30. Verify and publish.

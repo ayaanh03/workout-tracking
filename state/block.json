@@ -6,7 +6,7 @@
   "start_date": "2026-10-25",
   "end_date": "2027-01-03",
   "timezone": "America/New_York",
-  "as_of": "2026-11-26",
+  "as_of": "2026-11-27",
   "activation_status": "active",
   "calendar_week": "W5",
   "calendar_phase": "Build",
@@ -58,7 +58,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 513,
+  "last_adjustment_id": 514,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -1220,11 +1220,11 @@
       "known_rowing_seconds": 0,
       "manageable": null,
       "status": "week-in-progress",
-      "decision_id": 513,
-      "source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday",
+      "decision_id": 514,
+      "source": "../history/adjustments.md#2026-11-27--activate-friday-deltsarms-b",
       "schedule_override_id": "2026-11-23-week-five-reschedule",
       "planned_lifting_sets": 85,
-      "note": "Monday legs, Tuesday Upper A, Wednesday assessment run and Thursday Upper B completed: 55 lifting sets, eight run work minutes and 3.48 miles; no bike actuals. Friday is a preview. Original Wednesday lift/bike remains omitted; full-week manageability unreviewed."
+      "note": "Monday legs, Tuesday Upper A, Wednesday assessment run and Thursday Upper B completed: 55 lifting sets, eight run work minutes and 3.48 miles; no bike actuals. Friday is planned today, not performed. Original Wednesday lift/bike remains omitted; full-week manageability unreviewed."
     }
   },
   "program_amendments": [
@@ -1320,10 +1320,10 @@
     "last_generated_prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
     "last_generated_from_session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
     "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping.",
-    "last_generation_trigger": "automatic-next-workout-after-logging",
-    "last_generation_decision_id": 513,
-    "last_review_decision_id": 513,
-    "last_review_reason": "Log Thursday once and generate Friday preview without advancing live calendar or completing future work."
+    "last_generation_trigger": "current-workout-request",
+    "last_generation_decision_id": 514,
+    "last_review_decision_id": 514,
+    "last_review_reason": "Activate Friday prescription #513 unchanged; keep all completed actuals and future sessions unchanged."
   },
   "session_freeze_history": [
     {
@@ -1847,10 +1847,10 @@
           "cycling_track": "saturday",
           "cardio_prescription_id": "hybrid-2026-10-26-fri-bike-508",
           "bike_minutes": 15,
-          "status": "planned-preview-not-performed",
+          "status": "planned-today-not-performed",
           "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
           "working_sets": 13,
-          "preview": true,
+          "preview": false,
           "decision_id": 513,
           "prescription_snapshot": {
             "lift": {
@@ -1911,7 +1911,10 @@
               2,
               4
             ]
-          }
+          },
+          "activated_on": "2026-11-27",
+          "activation_decision_id": 514,
+          "last_review_decision_id": 514
         },
         {
           "scheduled_date": "2026-11-28",
@@ -2133,18 +2136,18 @@
   },
   "next_session_adjustment": {
     "date": "2026-11-27",
-    "decision_id": 513,
-    "status": "planned-preview-not-performed",
+    "decision_id": 514,
+    "status": "planned-today-not-performed",
     "original_session": "Delts/arms B + bike",
     "effective_session": "Delts/arms B + bike",
     "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
-    "source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday",
-    "preview": true,
+    "source": "../history/adjustments.md#2026-11-27--activate-friday-deltsarms-b",
+    "preview": false,
     "stage": "D",
     "working_sets": 13,
     "bike_minutes": 15,
     "schedule_override_id": "2026-11-23-week-five-reschedule",
-    "reason": "Next scheduled session after completed Thursday. Normal Stage D lifting with cautious forearms; W5 limits bike to 15 minutes. Ordinary recovery assumed, active restrictions retained."
+    "reason": "Activate unchanged prepared Friday workout: 13 Stage D lifting sets and 15-minute assessment bike. Ordinary current readiness assumed; no new exposure, award or completed work."
   },
   "next_session_adjustment_history": [
     {
@@ -2412,6 +2415,21 @@
       "working_sets": 20,
       "schedule_override_id": "2026-11-23-week-five-reschedule",
       "reason": "Activate the unchanged prepared #511 Thursday Upper B: 20 effective sets, no cardio. Rep RPE 8/8 resolves yesterday’s assessment effort review; normal current readiness is assumed. Preserve once-applied T1/T4 awards and all local limits."
+    },
+    {
+      "date": "2026-11-27",
+      "decision_id": 513,
+      "status": "planned-preview-not-performed",
+      "original_session": "Delts/arms B + bike",
+      "effective_session": "Delts/arms B + bike",
+      "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
+      "source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday",
+      "preview": true,
+      "stage": "D",
+      "working_sets": 13,
+      "bike_minutes": 15,
+      "schedule_override_id": "2026-11-23-week-five-reschedule",
+      "reason": "Next scheduled session after completed Thursday. Normal Stage D lifting with cautious forearms; W5 limits bike to 15 minutes. Ordinary recovery assumed, active restrictions retained."
     }
   ],
   "assessment_boundary_review": {

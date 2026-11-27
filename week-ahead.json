@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-26T14:51:48-05:00",
+  "generatedAt": "2026-11-27T18:36:07-05:00",
   "blockId": "hybrid-2026-10-26",
-  "preview": true,
+  "preview": false,
   "week": "W5",
   "phase": "Hybrid v11 — Stage D / assessment",
   "rangeStart": "2026-11-23",
   "rangeEnd": "2026-11-29",
-  "summary": "This week only: Monday legs, Tuesday Upper A, Wednesday short run and Thursday Upper B logged; Friday delts/arms B + 15-minute bike preview; Saturday W5 run; Sunday legs. Original Wednesday lift/bike omitted. Normal schedule resumes November 30. W5 so far: four sessions, 55 lifting sets, eight run work minutes and 3.48 miles.",
+  "summary": "This week only: Monday legs, Tuesday Upper A, Wednesday short run and Thursday Upper B logged; Friday delts/arms B + 15-minute bike today; Saturday W5 run; Sunday legs. Original Wednesday lift/bike omitted. Normal schedule resumes November 30. W5 so far: four sessions, 55 lifting sets, eight run work minutes and 3.48 miles.",
   "days": [
     {
       "date": "2026-11-23",
@@ -40,8 +40,8 @@
       "date": "2026-11-27",
       "day": "Fri",
       "session": "Delts/arms B + bike",
-      "status": "upcoming",
-      "note": "Preview ready: 13 lifting sets, then 15-minute bike at RPE 3 (acceptable 2–4). Hold lateral 35, incline curl 30, pushdown 50, reverse pec 145; forearms 27.5 for one 15-rep set each at ≥4 RIR. Height 10.5, seat +4, handle +3."
+      "status": "today",
+      "note": "Today: 13 lifting sets, then 15-minute bike at RPE 3 (acceptable 2–4). Hold lateral 35, incline curl 30, pushdown 50, reverse pec 145; forearms 27.5 for one 15-rep set each at ≥4 RIR. Height 10.5, seat +4, handle +3."
     },
     {
       "date": "2026-11-28",
