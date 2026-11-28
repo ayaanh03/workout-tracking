@@ -12,6 +12,14 @@ Each of the 33 slots has independent load, equipment/setup, actuals and qualific
 
 Ramp, reduced, return, changed-equipment and temporarily shortened sessions earn no progression/plateau credit. Global fatigue freezes discretionary progression. Reset qualification streaks after load, set-count or effort-target changes. Preserve a fixed first-set reference if its conditions remain comparable; load or first-set-RIR changes need a new anchor. See [decline rules](adjustments.md).
 
+## Pushdown rebuild from November 27
+
+The athlete resets **M4/T5/S3 to 30 lb** and asks to progress from there. This supersedes the former 50 lb starting prescription prospectively; historical actuals stay unchanged. Use each slot’s achieved-stage set count (three in normal D), **10–15 reps, at least 3 RIR on every set and 2-minute rests**. The ≥3 RIR floor is a coaching choice for this rebuild and overrides the normal final 0–1 set while the local limit is active.
+
+Start fresh independent qualification at 30 lb; do not reuse old 50 lb credit or copy Friday’s exposure into Monday/Thursday. Build reps, then award the smallest available increase only when **every prescribed set** reaches 15 at ≥3 RIR with a comfortable response. The two reported Friday sets at 30×10, RIR5/3, were comfortable during/after but do not validate a three-set dose or earn an increase. The missing third set remains unreported.
+
+Thirty pounds is a starting reset, not a permanent cap. Update only the qualifying slot’s load and recovery-state override as it earns progression; retain the local RIR floor until reviewed. If discomfort worsens or changes execution, reduce/stop aggravating work and review before progressing. No fixed waiting period, diagnosis, automatic return to 50 lb or global training freeze is implied. [Dated report](../history/injury-log.md#2026-11-27--pushdown-rebuild-at-30-lb) · [Active overrides](../state/recovery.json).
+
 ## Incline slots
 
 - **M1a:** ordinary 4–6 at about 2 RIR. Six clean reps at that reserve qualifies +2.5 lb next Monday, or +5 if 2.5 is unavailable. Calibrate after an increase; never force the floor at excessive effort.

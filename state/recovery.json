@@ -867,6 +867,111 @@
           "source": "../history/injury-log.md#2026-11-11--elbows-comfortable-during-and-after-curls"
         }
       ]
+    },
+    {
+      "id": "triceps-pushdown-rebuild",
+      "status": "active-load-reset-with-comfortable-reported-exposure",
+      "reported_on": "2026-11-27",
+      "recorded_at": "2026-11-27T19:44:32-05:00",
+      "decision_id": 515,
+      "source": "../history/injury-log.md#2026-11-27--pushdown-rebuild-at-30-lb",
+      "affected_slots": [
+        "M4",
+        "T5",
+        "S3"
+      ],
+      "exercise": "Cable pushdown",
+      "athlete_instruction": "Reducing push down load to rebuild tricep tendon strength. Just assume we’re starting there from next time and for every push down instance lower to 30 for now and progress from there",
+      "side": null,
+      "diagnosis": null,
+      "resting_pain_status": null,
+      "next_morning_response": null,
+      "current_symptom_report": {
+        "reported_on": "2026-11-27",
+        "recorded_at": "2026-11-27T19:44:32-05:00",
+        "decision_id": 515,
+        "session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
+        "report": "Was fine during and after",
+        "status": "30-lb-pushdowns-comfortable-during-and-after",
+        "scope": "Confirms comfort during and after the two reported 30 lb pushdown sets. Does not establish tendon diagnosis, side, resting pain status, next-morning response, full three-set tolerance, other exercise tolerance or unrestricted loading clearance.",
+        "source": "../history/injury-log.md#2026-11-27--pushdown-rebuild-at-30-lb"
+      },
+      "last_exposure": {
+        "date": "2026-11-27",
+        "session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
+        "slot": "S3",
+        "load_lb": 30,
+        "reported_sets": [
+          {
+            "reps": 10,
+            "rir": 5
+          },
+          {
+            "reps": 10,
+            "rir": 3
+          }
+        ],
+        "prescribed_sets": 3,
+        "third_set_status": "unreported",
+        "symptom_response": "Comfortable during and after, athlete-confirmed.",
+        "next_morning_response": null
+      },
+      "starting_load_lb": 30,
+      "minimum_rir": 3,
+      "near_failure_suspended": true,
+      "effort_basis": "Coaching choice for the requested tendon rebuild: keep at least 3 RIR on every pushdown set, replacing the normal-D final 0–1 target for these slots. The athlete explicitly requested the 30 lb load reset; did not specify this RIR floor.",
+      "slot_overrides": {
+        "M4": {
+          "exercise": "Cable pushdown",
+          "load": 30,
+          "units": "lb",
+          "starting_load_lb": 30,
+          "retain_achieved_stage_sets": true,
+          "rep_range": [
+            10,
+            15
+          ],
+          "minimum_rir": 3,
+          "near_failure_suspended": true,
+          "rest_seconds": 120,
+          "load_policy": "Initial reset, not a permanent 30 lb ceiling. After fresh qualification, update this slot’s override to its independently earned load."
+        },
+        "T5": {
+          "exercise": "Cable pushdown",
+          "load": 30,
+          "units": "lb",
+          "starting_load_lb": 30,
+          "retain_achieved_stage_sets": true,
+          "rep_range": [
+            10,
+            15
+          ],
+          "minimum_rir": 3,
+          "near_failure_suspended": true,
+          "rest_seconds": 120,
+          "load_policy": "Initial reset, not a permanent 30 lb ceiling. After fresh qualification, update this slot’s override to its independently earned load."
+        },
+        "S3": {
+          "exercise": "Cable pushdown",
+          "load": 30,
+          "units": "lb",
+          "starting_load_lb": 30,
+          "retain_achieved_stage_sets": true,
+          "rep_range": [
+            10,
+            15
+          ],
+          "minimum_rir": 3,
+          "near_failure_suspended": true,
+          "rest_seconds": 120,
+          "load_policy": "Initial reset, not a permanent 30 lb ceiling. After fresh qualification, update this slot’s override to its independently earned load."
+        }
+      },
+      "progression_rule": "Start each slot at 30 lb with fresh qualification and reference records. Retain achieved-stage set count (three in normal D), 10–15 reps and 2-minute rests. Build reps; only a complete same-slot prescription reaching 15 on every set at ≥3 RIR with comfortable reported response can earn the smallest available increment. The two reported S3 sets do not validate three sets or earn a load increase. No old 50 lb credit, cross-slot qualification or automatic restoration to 50 lb. Update only that slot’s load override when progression is earned; keep the local RIR floor until reviewed.",
+      "symptom_action": "Reduce or stop aggravating work if discomfort worsens or changes execution; adjust before progressing.",
+      "scope": "Local pushdown reset only. Does not reinstate the resolved broad biceps hold, change other exercise loads, lower achieved stage, freeze running or clear any existing restriction.",
+      "reviewed_on": "2026-11-27",
+      "review_decision_id": 515
     }
   ],
   "pending_gates": [
@@ -932,25 +1037,53 @@
     }
   ],
   "post_session": {
-    "date": "2026-11-26",
-    "session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
-    "completion": "reported",
-    "decision_id": 513,
-    "working_sets": 20,
-    "status": "ordinary-recovery-assumed-no-new-symptom-report",
+    "date": "2026-11-27",
+    "session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
+    "completion": "reported-with-one-lifting-set-unreported",
+    "decision_id": 515,
+    "working_sets": 10,
+    "reported_working_sets": 10,
+    "prescribed_working_sets": 13,
+    "working_sets_complete": false,
+    "unreported_sets": [
+      {
+        "slot": "S3",
+        "set_number": 3
+      }
+    ],
+    "skipped_slots": [
+      "S5",
+      "S6"
+    ],
+    "cycling_minutes": 15,
+    "bike_average_power_watts": 115,
+    "bike_reported_zone": "Z2",
+    "bike_rpe": null,
+    "status": "ordinary-recovery-assumed-pushdowns-comfortable",
     "lower_ab_response": null,
     "achilles_response": null,
     "elbow_response": null,
+    "triceps_pushdown_response": "Comfortable during and after the two reported 30 lb sets.",
     "next_day_recovery": null,
     "recovery_decision": {
       "status": "assumed-good",
       "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-      "decision_id": 513,
-      "recorded_at": "2026-11-26T14:51:48-05:00",
+      "decision_id": 515,
+      "recorded_at": "2026-11-27T19:44:32-05:00",
       "observed": false,
-      "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits."
+      "reason": "Standing athlete default supplies ordinary post-Friday recovery and Saturday readiness. Comfortable 30 lb pushdowns are a local response, not a general-recovery observation; all other existing local limits remain."
     },
-    "note": "Twenty Upper B sets logged. Incline and pull-up increased loads meet targets; pushdown first two sets overshot intended reserve. No new observed recovery or local response supplied."
+    "symptom_followup": {
+      "reported_on": "2026-11-27",
+      "recorded_at": "2026-11-27T19:44:32-05:00",
+      "decision_id": 515,
+      "session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
+      "report": "Was fine during and after",
+      "status": "30-lb-pushdowns-comfortable-during-and-after",
+      "scope": "Confirms comfort during and after the two reported 30 lb pushdown sets. Does not establish tendon diagnosis, side, resting pain status, next-morning response, full three-set tolerance, other exercise tolerance or unrestricted loading clearance.",
+      "source": "../history/injury-log.md#2026-11-27--pushdown-rebuild-at-30-lb"
+    },
+    "note": "Ten lifting sets reported. S3 third prescribed set is unreported; wrist and reverse curls explicitly skipped. Reverse pec deck second set RIR 1 confirmed. Bike 15 minutes at 115 W average, reported Z2; effort remains unreported. Local 30 lb pushdown reset applies prospectively to M4/T5/S3."
   },
   "prior_pending_post_sessions": [
     {
@@ -1495,6 +1628,27 @@
           "reason": "Standing athlete default supplies ordinary post-run recovery and Thursday readiness. The screenshots and distance report supply performance, not a new observed recovery or site-specific response. Effort ratings are requested separately; persistent local limits remain."
         }
       ]
+    },
+    {
+      "date": "2026-11-26",
+      "session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+      "completion": "reported",
+      "decision_id": 513,
+      "working_sets": 20,
+      "status": "ordinary-recovery-assumed-no-new-symptom-report",
+      "lower_ab_response": null,
+      "achilles_response": null,
+      "elbow_response": null,
+      "next_day_recovery": null,
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 513,
+        "recorded_at": "2026-11-26T14:51:48-05:00",
+        "observed": false,
+        "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits."
+      },
+      "note": "Twenty Upper B sets logged. Incline and pull-up increased loads meet targets; pushdown first two sets overshot intended reserve. No new observed recovery or local response supplied."
     }
   ],
   "resolved_post_sessions": [
@@ -1818,14 +1972,14 @@
     }
   ],
   "current_symptom_report": {
-    "reported_on": "2026-11-18",
-    "recorded_at": "2026-11-18T20:41:03-05:00",
-    "decision_id": 500,
-    "session_id": "hybrid-2026-10-26-w4-wed-2026-11-18",
-    "report": "Going up in weight as the elbow tendon feels good",
-    "status": "elbow-feels-good-with-current-training",
-    "scope": "Current elbow comfort reported alongside completed Wednesday curls, including 57.5 lb hammer work. No numeric pain score, diagnosis, exact during/after timing, next-morning response, shoulder, ab or Achilles clearance is supplied.",
-    "source": "../history/injury-log.md#2026-11-18--elbow-comfort-with-heavier-wednesday-work"
+    "reported_on": "2026-11-27",
+    "recorded_at": "2026-11-27T19:44:32-05:00",
+    "decision_id": 515,
+    "session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
+    "report": "Was fine during and after",
+    "status": "30-lb-pushdowns-comfortable-during-and-after",
+    "scope": "Confirms comfort during and after the two reported 30 lb pushdown sets. Does not establish tendon diagnosis, side, resting pain status, next-morning response, full three-set tolerance, other exercise tolerance or unrestricted loading clearance.",
+    "source": "../history/injury-log.md#2026-11-27--pushdown-rebuild-at-30-lb"
   },
   "current_symptom_report_history": [
     {
@@ -1890,6 +2044,16 @@
       "status": "elbows-symptom-free-during-and-after",
       "scope": "Athlete confirms comfortable elbows during and after November 11 curls, including the 90 lb preacher set. No numeric pain score, diagnosis, next-morning recovery or ab/Achilles response is supplied.",
       "source": "../history/injury-log.md#2026-11-11--elbows-comfortable-during-and-after-curls"
+    },
+    {
+      "reported_on": "2026-11-18",
+      "recorded_at": "2026-11-18T20:41:03-05:00",
+      "decision_id": 500,
+      "session_id": "hybrid-2026-10-26-w4-wed-2026-11-18",
+      "report": "Going up in weight as the elbow tendon feels good",
+      "status": "elbow-feels-good-with-current-training",
+      "scope": "Current elbow comfort reported alongside completed Wednesday curls, including 57.5 lb hammer work. No numeric pain score, diagnosis, exact during/after timing, next-morning response, shoulder, ab or Achilles clearance is supplied.",
+      "source": "../history/injury-log.md#2026-11-18--elbow-comfort-with-heavier-wednesday-work"
     }
   ],
   "standing_recovery_policy": {
@@ -1914,11 +2078,12 @@
   "planning_readiness": {
     "status": "assumed-good",
     "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-    "decision_id": 514,
-    "recorded_at": "2026-11-27T18:36:07-05:00",
-    "for_date": "2026-11-27",
+    "decision_id": 515,
+    "recorded_at": "2026-11-27T19:44:32-05:00",
     "observed": false,
-    "reason": "Standing athlete default supplies ordinary current Friday readiness. The request to generate today contains no new observed recovery or symptom report; preserve all local limits."
+    "reason": "Standing athlete default supplies ordinary post-Friday recovery and Saturday readiness. Comfortable 30 lb pushdowns are a local response, not a general-recovery observation; all other existing local limits remain.",
+    "for_date": "2026-11-28",
+    "preview": true
   },
   "general_readiness_history": [
     {
@@ -2088,6 +2253,29 @@
       "status": "first-single-and-stage-d-arm-response-unreported",
       "question": "Did your elbows and shoulders stay comfortable during and after the 170 lb single and the final curl/pushdown sets?",
       "scope": "Targeted response to the first recorded W4single and near-failure arm work. Preserve any W9single/local-loading implications; missing response alone does not establish an injury, recreate the released biceps hold or block Tuesday running."
+    },
+    {
+      "session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
+      "date": "2026-11-27",
+      "decision_id": 515,
+      "status": "bike-rpe-unreported-asked-once",
+      "question": "What was the RIR on your second reverse pec deck set, and your bike effort from 1–10? Leave either unknown if you don’t remember.",
+      "answer": "Rir was 1",
+      "resolved_component": "Second reverse pec deck set RIR 1",
+      "remaining_unknowns": [
+        "Bike effort from 1–10"
+      ],
+      "scope": "Preserve bike RPE as unknown; reported Z2 does not establish RPE 3. No repeat question or ordinary recovery gate."
+    },
+    {
+      "session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
+      "date": "2026-11-27",
+      "decision_id": 515,
+      "slot_id": "S3",
+      "status": "third-set-unreported",
+      "asked": false,
+      "question": null,
+      "scope": "Two pushdown sets reported against three prescribed. Do not invent the third as completed or explicitly skipped. Ten lifting sets are known; full prescribed dose is not established."
     }
   ],
   "resolved_log_details": [
@@ -2137,6 +2325,31 @@
       ],
       "final_rep_rpe": 8,
       "effort_cap_met": true
+    },
+    {
+      "session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
+      "date": "2026-11-27",
+      "decision_id": 515,
+      "slot_id": "S4",
+      "status": "resolved-second-set-rir-confirmed",
+      "resolved_on": "2026-11-27",
+      "resolution_decision_id": 515,
+      "question": "What was the RIR on your second reverse pec deck set, and your bike effort from 1–10? Leave either unknown if you don’t remember.",
+      "answer": "Rir was 1",
+      "second_set_rir": 1,
+      "scope": "Second reverse pec deck set only; bike RPE remains unreported."
+    },
+    {
+      "session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
+      "date": "2026-11-27",
+      "decision_id": 515,
+      "slot_id": "S3",
+      "status": "resolved-during-after-comfort-confirmed",
+      "resolved_on": "2026-11-27",
+      "resolution_decision_id": 515,
+      "question": "Is the triceps tendon currently painful, and did the 30 lb pushdowns feel comfortable during and afterward?",
+      "answer": "Was fine during and after",
+      "response_scope": "Confirms comfort during and after the two reported 30 lb pushdown sets. Does not establish tendon diagnosis, side, resting pain status, next-morning response, full three-set tolerance, other exercise tolerance or unrestricted loading clearance."
     }
   ],
   "active_recovery_override": null,
@@ -2355,6 +2568,15 @@
       "observed": false,
       "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
       "for_date": "2026-11-27"
+    },
+    {
+      "status": "assumed-good",
+      "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+      "decision_id": 514,
+      "recorded_at": "2026-11-27T18:36:07-05:00",
+      "for_date": "2026-11-27",
+      "observed": false,
+      "reason": "Standing athlete default supplies ordinary current Friday readiness. The request to generate today contains no new observed recovery or symptom report; preserve all local limits."
     }
   ],
   "recovery_override_history": [

@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-27T18:36:07-05:00",
+  "generatedAt": "2026-11-27T19:46:11-05:00",
   "blockId": "hybrid-2026-10-26",
-  "preview": false,
+  "preview": true,
   "week": "W5",
   "phase": "Hybrid v11 — Stage D / assessment",
   "rangeStart": "2026-11-23",
   "rangeEnd": "2026-11-29",
-  "summary": "This week only: Monday legs, Tuesday Upper A, Wednesday short run and Thursday Upper B logged; Friday delts/arms B + 15-minute bike today; Saturday W5 run; Sunday legs. Original Wednesday lift/bike omitted. Normal schedule resumes November 30. W5 so far: four sessions, 55 lifting sets, eight run work minutes and 3.48 miles.",
+  "summary": "This week only: Monday legs, Tuesday Upper A, Wednesday short run, Thursday Upper B and Friday delts/arms B + bike reported. Saturday W5 run preview; Sunday legs upcoming. Original Wednesday lift/bike omitted. Normal schedule resumes November 30. W5 so far: five sessions, 65 known lifting sets, eight run work minutes, 3.48 miles and 15 bike minutes. Third Friday pushdown set unreported; forearms skipped.",
   "days": [
     {
       "date": "2026-11-23",
@@ -40,15 +40,15 @@
       "date": "2026-11-27",
       "day": "Fri",
       "session": "Delts/arms B + bike",
-      "status": "today",
-      "note": "Today: 13 lifting sets, then 15-minute bike at RPE 3 (acceptable 2–4). Hold lateral 35, incline curl 30, pushdown 50, reverse pec 145; forearms 27.5 for one 15-rep set each at ≥4 RIR. Height 10.5, seat +4, handle +3."
+      "status": "done",
+      "note": "Ten lifting sets reported; third pushdown set unreported, both forearm exercises skipped. All future pushdown slots start 30 lb at ≥3 RIR; 30 lb comfortable during/after. Bike 15 min, 115 W, Z2; RPE unknown."
     },
     {
       "date": "2026-11-28",
       "day": "Sat",
-      "session": "W5 assessment run",
+      "session": "W5 assessment intervals — no test",
       "status": "upcoming",
-      "note": "Recovered no-test plan: 2×6 minutes at 7:10/mi with one 2-minute recovery and 10-minute warmup/cooldown; final RPE ≤7. Optional 5K remains unselected and requires athlete choice and eligibility."
+      "note": "Preview ready: 10 min easy, 2×6 at 7:10/mi with one 2-minute recovery, 10 min easy; final RPE ≤7. Watch file ready. No 5K selected; no ordinary assessment progression credit."
     },
     {
       "date": "2026-11-29",
@@ -59,14 +59,14 @@
     }
   ],
   "runningMileageCheck": {
-    "decisionId": 511,
-    "kind": "actual-plus-prospective-assessment-budget",
+    "decisionId": 515,
+    "kind": "actual-plus-prescribed-assessment-budget",
     "recordedMiles": 3.48,
-    "estimatedMiles": 7.742653898768809,
+    "estimatedMiles": 7.74265389876881,
     "upperMiles": 8.350588235294117,
     "limitMiles": 15,
     "status": "projected-below-limit",
-    "assumptions": "Confirmed Wednesday 3.48 miles + Saturday no-test 2×6 at 7:10, one 2-minute recovery and ten-minute warmup/cooldown; easy budget 8:30/mi. Upper uses 7:05 work and five extra warmup minutes. Optional exact-5K branch: 8.939797137657258 planned / 9.528032431774904 upper, still unselected. Future distances are estimates, not actual mileage.",
+    "assumptions": "Completed Wednesday uses confirmed 3.48 miles. Prescribed unperformed Saturday Option B is 2×6 at 7:10 with one 2-minute recovery and ten-minute warmup/cooldown; easy budget 8:30/mi. Upper uses 7:05 work and five extra warmup minutes. Optional unselected exact-5K branch is retained only as a budget, not a selected workout. No future distance is logged.",
     "source": "program/assessments.md"
   },
   "scheduleOverrideId": "2026-11-23-week-five-reschedule",

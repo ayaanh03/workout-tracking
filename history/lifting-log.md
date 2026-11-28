@@ -479,3 +479,24 @@ Session `hybrid-2026-10-26-w5-thu-2026-11-26`, original prescription `hybrid-202
 Hold preacher75, laterals35, seated row120 and straight-arm50: none reached its rep ceiling on every set. The final lateral RIR 0 is permitted. T2 keeps its separate minimum3RIR limit; the new log contains no elbow review removing it. Bodyweight crunch15/15 at RIR5/3 retains the bodyweight-only, maximum-two-set, minimum-3-RIR limit and provides no loaded-ab clearance. All actual RIR values, including zeros, remain literal.
 
 Record one reported exposure per active Thursday slot (T7's temporary substitute only), no new qualifying exposures, and updated comparable references only where load or first-set effort changes require them. Preserve prior references and independent slots; no automatic plateau, decline, extra sets or blanket symptom clearance. Ordinary post-session recovery is assumed good under the standing policy; observed next-day recovery and site-specific symptoms are unreported. Next scheduled work is **Friday November 27 delts/arms B plus the W5-limited bike**, shown as a preview while the live date remains November26. Decision **#513**.
+
+## 2026-11-27 — Hybrid v11 W5 Friday delts/arms B
+
+Session `hybrid-2026-10-26-w5-fri-2026-11-27`, original prescription `hybrid-2026-10-26-fri-delts-arms-b-513`, activated by #514. **Stage D: 10 reported working sets of 13 prescribed**. Reverse and wrist curls were explicitly skipped. Only two of the three prescribed pushdown sets were reported; the third remains unreported, not assumed performed or explicitly skipped. All prescribed rests were 2 min; actual rest/setup changes are unreported.
+
+| Slot | Exercise | Original prescription | Actual sets: load × reps, RIR |
+|---|---|---|---|
+| S1 | DB lateral raise | 35 lb · 4×12–20 · first three RIR 1–2, final 0–1 | 35×15, RIR 2 / 35×12, RIR 2 / 35×13, RIR 2 / 35×13, RIR 0 |
+| S2 | Incline DB curl | 30 lb · 2×8–12 · first RIR 1–2, final 0–1 | 30×8, RIR 1 / 30×9, RIR 0 |
+| S3 | Cable pushdown | 50 lb · 3×10–15 · first two RIR 2, final 0–1 | 30×10, RIR 5 / 30×10, RIR 3; third set n/r |
+| S4 | Reverse pec deck | 145 lb · 2×12–20 · RIR 1–2 | 145×14, RIR 2 / 145×14, RIR 1 |
+| S5 | Cable reverse curl | 27.5 lb · 1×15 · RIR ≥4 | Skipped |
+| S6 | Cable wrist curl | 27.5 lb · 1×15 · RIR ≥4 | Skipped |
+
+The follow-up **“Rir was 1”** resolves the second reverse-pec-deck set's initially unreported effort to **RIR 1**. It does not supply a bike RPE. Keep all actual zero-RIR finals literal; S1/S2's final sets are permitted under the original normal-D prescription.
+
+**Pushdown reset:** athlete intentionally reduced to **30 lb** to rebuild triceps tendon strength and requests **30 lb for every future pushdown instance, progressing from there**. This applies prospectively to M4/T5/S3 without rewriting their historical 50 lb actuals or today's original 50 lb prescription. The athlete confirms the 30 lb work **“Was fine during and after.”** This establishes comfort during/after this exposure, not a diagnosis, next-morning tolerance or blanket tendon clearance. Today's two 30×10 sets at RIR 5/3 do not demonstrate the full prescribed three-set dose or earn a loading award. Retain the new reduced starting reference and preserve previous actuals; future local effort limits and progression are recorded in decision #515.
+
+Hold lateral35, incline curl30 and reverse pec145: none reached its rep ceiling on every set. S2's final set gains one rep versus November20 at matched RIR0, while its first-set RIR changed2→1; do not treat those first sets as matched-effort decline evidence. S4's first-set RIR changed3→2, so its lower reps do not establish a comparable persistent decline. No automatic plateau, extra sets or load increase. S5/S6 skips add no actual sets or exposures and do not invent symptoms or change the earlier forearm results.
+
+Bike is recorded separately: **15 minutes, 115 W average, athlete-reported Z2; effort RPE remains unreported**. Ordinary recovery uses the standing assumption. No fresh ab/Achilles or observed next-day recovery is supplied. Generate the next scheduled Saturday assessment run as a dated preview while the live America/New_York date remains November27. Decision **#515**.

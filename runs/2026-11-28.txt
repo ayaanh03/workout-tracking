@@ -1,0 +1,8 @@
+# W5 Saturday assessment Option B — decision515.
+# 34min planned, final RPE<=7. No ordinary progression credit.
+name: W5 Long 2x6 - Nov 28
+warmup: 10:00
+work: 6:00 @ current 7:05-7:15/mi
+recovery: 2:00
+work: 6:00 @ current 7:05-7:15/mi
+cooldown: 10:00

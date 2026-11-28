@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "blockId": "hybrid-2026-10-26",
-  "generatedAt": "2026-11-26T14:51:48-05:00",
+  "generatedAt": "2026-11-27T19:46:11-05:00",
   "sessions": [
     {
       "date": "2026-10-25",
@@ -3445,6 +3445,124 @@
         }
       ],
       "notes": "All 20 normal-D working sets reported. Incline 140 lb and pull-ups +10 lb added establish the new performed loads from previously applied independent awards. No further load increase earned. Pushdown first two sets at RIR 1 were closer than prescribed 2; the final lateral and pushdown RIR 0 sets are permitted. No cardio or fresh symptom/observed next-day recovery report. Ordinary recovery assumed good; existing local limits remain. Decision #513."
+    },
+    {
+      "date": "2026-11-27",
+      "week": "W5",
+      "stage": "D",
+      "sessionName": "Delts/arms B + bike",
+      "sessionId": "hybrid-2026-10-26-w5-fri-2026-11-27",
+      "prescriptionId": "hybrid-2026-10-26-fri-delts-arms-b-513",
+      "actualRef": "history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
+      "exercises": [
+        {
+          "slotId": "S1",
+          "exercise": "DB lateral raise",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 15,
+              "rir": 2
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 12,
+              "rir": 2
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 13,
+              "rir": 2
+            },
+            {
+              "load": 35,
+              "units": "lb",
+              "reps": 13,
+              "rir": 0
+            }
+          ],
+          "note": "35×15/12/13/13 at RIR 2/2/2/0. All four sets reported; final RIR 0 is permitted. Hold 35 lb while building toward 20 on every set; no load award."
+        },
+        {
+          "slotId": "S2",
+          "exercise": "Incline DB curl",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 30,
+              "units": "lb",
+              "reps": 8,
+              "rir": 1
+            },
+            {
+              "load": 30,
+              "units": "lb",
+              "reps": 9,
+              "rir": 0
+            }
+          ],
+          "note": "30×8/9 at RIR 1/0. Both sets meet the prescribed range and effort; final RIR 0 is literal and permitted. Hold 30 lb; neither set reached 12. Final set improves by one rep versus November 20 at the same RIR 0."
+        },
+        {
+          "slotId": "S3",
+          "exercise": "Cable pushdown",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 30,
+              "units": "lb",
+              "reps": 10,
+              "rir": 5
+            },
+            {
+              "load": 30,
+              "units": "lb",
+              "reps": 10,
+              "rir": 3
+            }
+          ],
+          "note": "Two reported sets at 30 lb instead of prescribed 50 lb for three sets. The third set remains unreported, not assumed performed or explicitly skipped. Athlete reduced load to rebuild triceps tendon strength, requests 30 lb for all future M4/T5/S3 pushdowns, and confirms the 30 lb work felt fine during and afterward. No full three-set validation or load award; preserve old 50 lb actuals and original prescription."
+        },
+        {
+          "slotId": "S4",
+          "exercise": "Reverse pec deck",
+          "status": "completed",
+          "sets": [
+            {
+              "load": 145,
+              "units": "lb",
+              "reps": 14,
+              "rir": 2
+            },
+            {
+              "load": 145,
+              "units": "lb",
+              "reps": 14,
+              "rir": 1
+            }
+          ],
+          "note": "145×14/14 at RIR 2/1. Follow-up confirms the initially unreported second-set RIR as 1. Hold 145 lb; neither set reached 20. Actual first-set effort differs from the November 20 reference, so no unmatched-effort decline finding."
+        },
+        {
+          "slotId": "S5",
+          "exercise": "Cable reverse curl",
+          "status": "skipped",
+          "sets": [],
+          "note": "Explicitly skipped. No performed sets or new exposure; preserve the previous actuals and cautious forearm dose."
+        },
+        {
+          "slotId": "S6",
+          "exercise": "Cable wrist curl",
+          "status": "skipped",
+          "sets": [],
+          "note": "Explicitly skipped. No performed sets or new exposure; preserve the previous actuals and cautious forearm dose."
+        }
+      ],
+      "notes": "10 reported lifting sets of 13 prescribed. Reverse and wrist curls explicitly skipped; third pushdown set unreported. Athlete lowers all future pushdown starting loads to 30 lb to rebuild triceps tendon strength; actual 30×10/10 RIR 5/3 felt fine during and afterward. Second reverse-pec-deck RIR confirmed as 1. No load awards. Bike separately logged as 15 min, 115 W average, Z2; RPE unknown. Ordinary recovery assumed, next-day/site-specific responses otherwise unreported. Decision #515."
     }
   ]
 }

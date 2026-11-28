@@ -1981,76 +1981,8 @@
       },
       "new_exposure_count": 4,
       "qualifying_exposures": 0,
-      "comparable_sessions": [
-        {
-          "date": "2026-11-24",
-          "session_id": "hybrid-2026-10-26-w5-tue-2026-11-24",
-          "source": "../history/lifting-log.md#2026-11-24--hybrid-v11-w5-tuesday-upper-a-moved-from-monday",
-          "stage": "D",
-          "sets": [
-            {
-              "load": 50,
-              "reps": 10,
-              "rir": 1
-            },
-            {
-              "load": 50,
-              "reps": 10,
-              "rir": 1
-            },
-            {
-              "load": 50,
-              "reps": 10,
-              "rir": 0
-            }
-          ],
-          "first_set_rir": 1,
-          "prescribed_rir_by_set": [
-            "2",
-            "2",
-            "0–1"
-          ],
-          "rep_range": [
-            10,
-            15
-          ],
-          "rest_seconds": [
-            120,
-            120
-          ],
-          "actual_rest_seconds": null,
-          "setup_change_reported": null,
-          "classification": "new-load-or-first-set-effort-reference",
-          "comparison_conditions": "Only compare matching apparatus/setup/rest and effort. Unknown actual rest/setup remains unknown."
-        }
-      ],
-      "first_set_anchor": {
-        "date": "2026-11-24",
-        "session_id": "hybrid-2026-10-26-w5-tue-2026-11-24",
-        "source": "../history/lifting-log.md#2026-11-24--hybrid-v11-w5-tuesday-upper-a-moved-from-monday",
-        "stage": "D",
-        "load": 50,
-        "reps": 10,
-        "rir": 1,
-        "equipment": "Cable station",
-        "setup": null,
-        "rep_range": [
-          10,
-          15
-        ],
-        "prescribed_sets": 3,
-        "prescribed_rir_by_set": [
-          "2",
-          "2",
-          "0–1"
-        ],
-        "rest_seconds": [
-          120,
-          120
-        ],
-        "actual_rest_seconds": null,
-        "note": "First-set RIR 1 is closer to failure than prescribed 2. Preserve this literal reference separately; next work at intended RIR 2 is not an automatic comparison or decline. No local rollback or effort-permission change."
-      },
+      "comparable_sessions": [],
+      "first_set_anchor": null,
       "exercise_history": [
         {
           "replaced_on": "2026-11-02",
@@ -2090,39 +2022,46 @@
         }
       ],
       "next_action": {
-        "decision_id": 510,
-        "action": "hold-load-and-calibrate-effort",
-        "status": "recommendation-for-next-exposure",
-        "for_date": "2026-11-30",
-        "scheduled_day": "Monday",
-        "template_day": "Monday",
+        "decision_id": 515,
+        "action": "start-pushdown-rebuild-at-30lb",
+        "status": "recommendation-for-next-matching-exposure",
+        "directive_id": "2026-11-27-pushdown-rebuild-30lb",
         "stage": "D",
-        "load": 50,
-        "units": "lb",
+        "load_lb": 30,
         "sets": 3,
         "rep_range": [
           10,
           15
         ],
+        "target_rir_range": [
+          3,
+          3
+        ],
+        "minimum_rir": 3,
+        "nonfinal_minimum_rir": 3,
+        "final_set_rir_range": [
+          3,
+          3
+        ],
         "rir_by_set": [
-          "2",
-          "2",
-          "0–1"
+          "≥3",
+          "≥3",
+          "≥3"
         ],
-        "rest_seconds": [
-          120,
-          120
-        ],
-        "source": "../history/lifting-log.md#2026-11-24--hybrid-v11-w5-tuesday-upper-a-moved-from-monday",
-        "reason": "November 24: 50×10/10/10 at RIR 1/1/0. First two sets were closer to failure than prescribed 2 RIR; final 0 is permitted. Hold 50 lb and target 2 RIR on the first two sets, 0–1 on the last, reducing load if needed to reach ten reps at intended reserve. No qualification or persistent-decline finding from unmatched first-set effort.",
+        "rest_seconds": 120,
+        "near_failure_suspended": true,
+        "source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
+        "reason": "Athlete requests every pushdown slot start at 30 lb and progress from there. Keep ≥3 RIR on every set while rebuilding; preserve normal sets/rest, lower load or stop aggravating work if needed. Friday two-set comfort does not validate another slot or a full three-set dose.",
+        "progression": "Build this slot toward all three sets of 15 at ≥3 RIR with comfortable response, then use the smallest available increment. No immediate return to 50 or inherited qualification. Review response before increasing; no automatic calendar increase.",
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 510,
-          "recorded_at": "2026-11-24T20:51:22-05:00",
+          "decision_id": 515,
+          "recorded_at": "2026-11-27T19:44:45-05:00",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary post-session recovery; no new observed next-day recovery or site-specific symptom response accompanies this completed log. Existing local limits remain."
-        }
+          "reason": "Standing default supplies ordinary post-session recovery and Saturday readiness. Athlete confirms 30 lb pushdowns comfortable during/after; no next-morning recovery or lower-body response supplied. Preserve the requested local tendon rebuild."
+        },
+        "restriction_id": "triceps-pushdown-rebuild"
       },
       "actual_history": [
         {
@@ -2324,6 +2263,41 @@
           "completion_decision_id": 510,
           "actual_session_id": "hybrid-2026-10-26-w5-tue-2026-11-24",
           "actual_load": 50
+        },
+        {
+          "decision_id": 510,
+          "action": "hold-load-and-calibrate-effort",
+          "status": "recommendation-for-next-exposure",
+          "for_date": "2026-11-30",
+          "scheduled_day": "Monday",
+          "template_day": "Monday",
+          "stage": "D",
+          "load": 50,
+          "units": "lb",
+          "sets": 3,
+          "rep_range": [
+            10,
+            15
+          ],
+          "rir_by_set": [
+            "2",
+            "2",
+            "0–1"
+          ],
+          "rest_seconds": [
+            120,
+            120
+          ],
+          "source": "../history/lifting-log.md#2026-11-24--hybrid-v11-w5-tuesday-upper-a-moved-from-monday",
+          "reason": "November 24: 50×10/10/10 at RIR 1/1/0. First two sets were closer to failure than prescribed 2 RIR; final 0 is permitted. Hold 50 lb and target 2 RIR on the first two sets, 0–1 on the last, reducing load if needed to reach ten reps at intended reserve. No qualification or persistent-decline finding from unmatched first-set effort.",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 510,
+            "recorded_at": "2026-11-24T20:51:22-05:00",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary post-session recovery; no new observed next-day recovery or site-specific symptom response accompanies this completed log. Existing local limits remain."
+          }
         }
       ],
       "progression_review": {
@@ -2391,6 +2365,33 @@
           ],
           "actual_rest_seconds": null,
           "note": "First normal-D reference. Compare only matching slot/load/setup/range/set count/rest and actual first-set effort; changed RIR or load requires a new comparison basis."
+        },
+        {
+          "date": "2026-11-24",
+          "session_id": "hybrid-2026-10-26-w5-tue-2026-11-24",
+          "source": "../history/lifting-log.md#2026-11-24--hybrid-v11-w5-tuesday-upper-a-moved-from-monday",
+          "stage": "D",
+          "load": 50,
+          "reps": 10,
+          "rir": 1,
+          "equipment": "Cable station",
+          "setup": null,
+          "rep_range": [
+            10,
+            15
+          ],
+          "prescribed_sets": 3,
+          "prescribed_rir_by_set": [
+            "2",
+            "2",
+            "0–1"
+          ],
+          "rest_seconds": [
+            120,
+            120
+          ],
+          "actual_rest_seconds": null,
+          "note": "First-set RIR 1 is closer to failure than prescribed 2. Preserve this literal reference separately; next work at intended RIR 2 is not an automatic comparison or decline. No local rollback or effort-permission change."
         }
       ],
       "comparable_session_windows": [
@@ -2439,7 +2440,79 @@
             }
           ]
         }
-      ]
+      ],
+      "rebuild_reference": {
+        "decision_id": 515,
+        "effective_from": "2026-11-27",
+        "directive_id": "2026-11-27-pushdown-rebuild-30lb",
+        "starting_load_lb": 30,
+        "previous_performed_load_lb": 50,
+        "actual_source": "../history/lifting-log.md#2026-11-24--hybrid-v11-w5-tuesday-upper-a-moved-from-monday",
+        "full_dose_at_starting_load_validated": false,
+        "load_basis": "Athlete-requested 30 lb starting point. Only two Friday sets demonstrated; other slots have not performed this reset dose.",
+        "symptom_response": "Friday 30 lb pushdowns comfortable during/after; no next-morning response yet.",
+        "restriction_id": "triceps-pushdown-rebuild"
+      },
+      "qualification_reset_history": [
+        {
+          "decision_id": 515,
+          "date": "2026-11-27",
+          "previous_count": 0,
+          "new_count": 0,
+          "reason": "New 30 lb starting load and ≥3 RIR effort target; no inherited 50 lb progression credit."
+        }
+      ],
+      "near_failure_suspended": true,
+      "comparable_sessions_history": [
+        {
+          "decision_id": 515,
+          "reason": "Preserve pre-rebuild comparisons; new full dose at 30 lb and ≥3 RIR requires a fresh anchor.",
+          "sessions": [
+            {
+              "date": "2026-11-24",
+              "session_id": "hybrid-2026-10-26-w5-tue-2026-11-24",
+              "source": "../history/lifting-log.md#2026-11-24--hybrid-v11-w5-tuesday-upper-a-moved-from-monday",
+              "stage": "D",
+              "sets": [
+                {
+                  "load": 50,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "load": 50,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "load": 50,
+                  "reps": 10,
+                  "rir": 0
+                }
+              ],
+              "first_set_rir": 1,
+              "prescribed_rir_by_set": [
+                "2",
+                "2",
+                "0–1"
+              ],
+              "rep_range": [
+                10,
+                15
+              ],
+              "rest_seconds": [
+                120,
+                120
+              ],
+              "actual_rest_seconds": null,
+              "setup_change_reported": null,
+              "classification": "new-load-or-first-set-effort-reference",
+              "comparison_conditions": "Only compare matching apparatus/setup/rest and effort. Unknown actual rest/setup remains unknown."
+            }
+          ]
+        }
+      ],
+      "anchor_status": "pending-full-dose-reference-at-reset-load-and-effort"
     },
     "M5": {
       "exercise": "Lat pulldown",
@@ -7760,41 +7833,46 @@
       },
       "new_exposure_count": 5,
       "next_action": {
+        "decision_id": 515,
+        "action": "start-pushdown-rebuild-at-30lb",
+        "status": "recommendation-for-next-matching-exposure",
+        "directive_id": "2026-11-27-pushdown-rebuild-30lb",
         "stage": "D",
+        "load_lb": 30,
         "sets": 3,
         "rep_range": [
           10,
           15
         ],
         "target_rir_range": [
-          2,
-          2
+          3,
+          3
         ],
-        "minimum_rir": 0,
-        "rest_seconds_range": [
-          120,
-          120
-        ],
+        "minimum_rir": 3,
+        "nonfinal_minimum_rir": 3,
         "final_set_rir_range": [
-          0,
-          1
+          3,
+          3
         ],
-        "nonfinal_minimum_rir": 2,
-        "decision_id": 513,
-        "action": "hold-load-and-recalibrate-effort",
-        "status": "recommendation-for-next-matching-exposure",
-        "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
-        "reason": "November 26: 50×10/10/10 at RIR 1/1/0. First two sets were closer to failure than the prescribed 2 RIR; final 0 is permitted. Keep 50 lb as the reference and target 2/2/0–1; reduce load if ten reps cannot fit the intended reserve. No qualifying exposure or load award.",
+        "rir_by_set": [
+          "≥3",
+          "≥3",
+          "≥3"
+        ],
+        "rest_seconds": 120,
+        "near_failure_suspended": true,
+        "source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
+        "reason": "Athlete requests every pushdown slot start at 30 lb and progress from there. Keep ≥3 RIR on every set while rebuilding; preserve normal sets/rest, lower load or stop aggravating work if needed. Friday two-set comfort does not validate another slot or a full three-set dose.",
+        "progression": "Build this slot toward all three sets of 15 at ≥3 RIR with comfortable response, then use the smallest available increment. No immediate return to 50 or inherited qualification. Review response before increasing; no automatic calendar increase.",
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 513,
-          "recorded_at": "2026-11-26T14:51:48-05:00",
+          "decision_id": 515,
+          "recorded_at": "2026-11-27T19:44:45-05:00",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits."
+          "reason": "Standing default supplies ordinary post-session recovery and Saturday readiness. Athlete confirms 30 lb pushdowns comfortable during/after; no next-morning recovery or lower-body response supplied. Preserve the requested local tendon rebuild."
         },
-        "load_lb": 50,
-        "fallback": "Reduce load if the 10-rep floor cannot be met at RIR 2 on the first two sets."
+        "restriction_id": "triceps-pushdown-rebuild"
       },
       "next_action_history": [
         {
@@ -8001,6 +8079,43 @@
               "reason": "Standing athlete default supplies ordinary Thursday readiness. No adverse recovery or new local symptom response accompanies the completed Wednesday run. Running effort classification is tracked separately; preserve active local restrictions."
             }
           ]
+        },
+        {
+          "stage": "D",
+          "sets": 3,
+          "rep_range": [
+            10,
+            15
+          ],
+          "target_rir_range": [
+            2,
+            2
+          ],
+          "minimum_rir": 0,
+          "rest_seconds_range": [
+            120,
+            120
+          ],
+          "final_set_rir_range": [
+            0,
+            1
+          ],
+          "nonfinal_minimum_rir": 2,
+          "decision_id": 513,
+          "action": "hold-load-and-recalibrate-effort",
+          "status": "recommendation-for-next-matching-exposure",
+          "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+          "reason": "November 26: 50×10/10/10 at RIR 1/1/0. First two sets were closer to failure than the prescribed 2 RIR; final 0 is permitted. Keep 50 lb as the reference and target 2/2/0–1; reduce load if ten reps cannot fit the intended reserve. No qualifying exposure or load award.",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 513,
+            "recorded_at": "2026-11-26T14:51:48-05:00",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits."
+          },
+          "load_lb": 50,
+          "fallback": "Reduce load if the 10-rep floor cannot be met at RIR 2 on the first two sets."
         }
       ],
       "actual_history": [
@@ -8102,75 +8217,8 @@
         "load_increase_earned": false,
         "reason": "November 26: 50×10/10/10 at RIR 1/1/0. First two sets were closer to failure than the prescribed 2 RIR; final 0 is permitted. Keep 50 lb as the reference and target 2/2/0–1; reduce load if ten reps cannot fit the intended reserve. No qualifying exposure or load award."
       },
-      "first_set_anchor": {
-        "date": "2026-11-26",
-        "session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
-        "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
-        "stage": "D",
-        "load": 50,
-        "reps": 10,
-        "rir": 1,
-        "equipment": "Cable station",
-        "setup": null,
-        "rep_range": [
-          10,
-          15
-        ],
-        "prescribed_sets": 3,
-        "prescribed_rir_by_set": [
-          "2",
-          "2",
-          "0–1"
-        ],
-        "rest_seconds": [
-          120,
-          120
-        ],
-        "actual_rest_seconds": null,
-        "note": "New normal-D reference at performed load and first-set RIR. Compare only matched conditions; actual rest/setup unreported."
-      },
-      "comparable_sessions": [
-        {
-          "date": "2026-11-26",
-          "session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
-          "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
-          "stage": "D",
-          "sets": [
-            {
-              "load": 50,
-              "reps": 10,
-              "rir": 1
-            },
-            {
-              "load": 50,
-              "reps": 10,
-              "rir": 1
-            },
-            {
-              "load": 50,
-              "reps": 10,
-              "rir": 0
-            }
-          ],
-          "first_set_rir": 1,
-          "prescribed_rir_by_set": [
-            "2",
-            "2",
-            "0–1"
-          ],
-          "rep_range": [
-            10,
-            15
-          ],
-          "rest_seconds": [
-            120,
-            120
-          ],
-          "actual_rest_seconds": null,
-          "classification": "new-load-or-effort-reference",
-          "comparison_note": "Actual rest/setup unreported. Preserve literal later-set RIR; no plateau or decline inferred from two normal exposures."
-        }
-      ],
+      "first_set_anchor": null,
+      "comparable_sessions": [],
       "completed_prescription": {
         "stage": "D",
         "sets": 3,
@@ -8276,6 +8324,33 @@
           ],
           "actual_rest_seconds": null,
           "note": "First normal-D reference for this slot. Compare only matched load, setup, range, set count, rest and actual first-set RIR; no ramp credit or old unmatched-effort decline comparisons."
+        },
+        {
+          "date": "2026-11-26",
+          "session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+          "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+          "stage": "D",
+          "load": 50,
+          "reps": 10,
+          "rir": 1,
+          "equipment": "Cable station",
+          "setup": null,
+          "rep_range": [
+            10,
+            15
+          ],
+          "prescribed_sets": 3,
+          "prescribed_rir_by_set": [
+            "2",
+            "2",
+            "0–1"
+          ],
+          "rest_seconds": [
+            120,
+            120
+          ],
+          "actual_rest_seconds": null,
+          "note": "New normal-D reference at performed load and first-set RIR. Compare only matched conditions; actual rest/setup unreported."
         }
       ],
       "comparable_sessions_history": [
@@ -8324,8 +8399,77 @@
               "comparison_count": 0
             }
           ]
+        },
+        {
+          "decision_id": 515,
+          "reason": "Preserve pre-rebuild comparisons; new full dose at 30 lb and ≥3 RIR requires a fresh anchor.",
+          "sessions": [
+            {
+              "date": "2026-11-26",
+              "session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+              "source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+              "stage": "D",
+              "sets": [
+                {
+                  "load": 50,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "load": 50,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "load": 50,
+                  "reps": 10,
+                  "rir": 0
+                }
+              ],
+              "first_set_rir": 1,
+              "prescribed_rir_by_set": [
+                "2",
+                "2",
+                "0–1"
+              ],
+              "rep_range": [
+                10,
+                15
+              ],
+              "rest_seconds": [
+                120,
+                120
+              ],
+              "actual_rest_seconds": null,
+              "classification": "new-load-or-effort-reference",
+              "comparison_note": "Actual rest/setup unreported. Preserve literal later-set RIR; no plateau or decline inferred from two normal exposures."
+            }
+          ]
         }
-      ]
+      ],
+      "rebuild_reference": {
+        "decision_id": 515,
+        "effective_from": "2026-11-27",
+        "directive_id": "2026-11-27-pushdown-rebuild-30lb",
+        "starting_load_lb": 30,
+        "previous_performed_load_lb": 50,
+        "actual_source": "../history/lifting-log.md#2026-11-26--hybrid-v11-w5-thursday-upper-b",
+        "full_dose_at_starting_load_validated": false,
+        "load_basis": "Athlete-requested 30 lb starting point. Only two Friday sets demonstrated; other slots have not performed this reset dose.",
+        "symptom_response": "Friday 30 lb pushdowns comfortable during/after; no next-morning response yet.",
+        "restriction_id": "triceps-pushdown-rebuild"
+      },
+      "qualification_reset_history": [
+        {
+          "decision_id": 515,
+          "date": "2026-11-27",
+          "previous_count": 0,
+          "new_count": 0,
+          "reason": "New 30 lb starting load and ≥3 RIR effort target; no inherited 50 lb progression credit."
+        }
+      ],
+      "near_failure_suspended": true,
+      "anchor_status": "pending-full-dose-reference-at-reset-load-and-effort"
     },
     "T6": {
       "exercise": "Seated cable row",
@@ -9867,16 +10011,16 @@
       "load": 35,
       "units": "lb",
       "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+      "load_source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
       "equipment": "Dumbbells",
       "setup": null,
       "load_convention": "Same athlete dumbbell notation; per-hand convention not explicitly supplied.",
-      "new_exposure_count": 4,
+      "new_exposure_count": 5,
       "last_actual": {
-        "date": "2026-11-20",
-        "session_id": "hybrid-2026-10-26-w4-fri-2026-11-20",
-        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-502",
-        "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+        "date": "2026-11-27",
+        "session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
+        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
+        "source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
         "stage": "D",
         "scheduled_day": "Friday",
         "sets": [
@@ -9887,49 +10031,38 @@
           },
           {
             "load": 35,
-            "reps": 14,
+            "reps": 12,
             "rir": 2
           },
           {
             "load": 35,
-            "reps": 14,
+            "reps": 13,
             "rir": 2
           },
           {
             "load": 35,
-            "reps": 14,
+            "reps": 13,
             "rir": 0
           }
         ],
         "prescribed": {
-          "load_lb": 35,
-          "sets": 4,
-          "rep_range": [
-            12,
-            20
-          ],
-          "target_rir_range": [
-            1,
-            2
-          ],
-          "minimum_rir": 0,
-          "rest_seconds": 120,
-          "final_set_rir_range": [
-            0,
-            1
-          ],
-          "nonfinal_minimum_rir": 1
+          "slotId": "S1",
+          "exercise": "DB lateral raise",
+          "load": "35 lb",
+          "setsReps": "4×12–20",
+          "rir": "Sets 1–3: 1–2; final: 0–1",
+          "rest": "2 min"
         },
         "progression_eligible": true,
         "qualifies_for_load_increase": false,
-        "reason": "November 20: 35×15/14/14/14 at RIR 2/2/2/0. All four sets meet their rep floor and intended reserve, including the permitted final RIR 0. Not all sets reached 20; hold 35 lb and build reps.",
+        "reason": "November 27: 35×15/12/13/13 at RIR 2/2/2/0. Hold 35 lb and four sets; no all-set 20-rep ceiling. First set matches November 20 at RIR 2; total reps lower, but two ordinary exposures do not establish plateau or persistent decline.",
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 504,
-          "recorded_at": "2026-11-20T19:34:21-05:00",
+          "decision_id": 515,
+          "recorded_at": "2026-11-27T19:44:45-05:00",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary recovery. This log supplies no fresh elbow, Achilles or ab response and no observed next-day recovery; preserve existing local restrictions."
+          "reason": "Standing default supplies ordinary post-session recovery and Saturday readiness. Athlete confirms 30 lb pushdowns comfortable during/after; no next-morning recovery or lower-body response supplied. Preserve the requested local tendon rebuild."
         }
       },
       "next_action": {
@@ -9950,42 +10083,20 @@
         ],
         "nonfinal_minimum_rir": 1,
         "stage": "D",
-        "decision_id": 513,
+        "decision_id": 515,
         "action": "hold-load-and-build-reps",
-        "status": "prescribed-not-performed",
+        "status": "recommendation-for-next-matching-exposure",
         "load_lb": 35,
-        "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
-        "reason": "November 20: 35×15/14/14/14 at RIR 2/2/2/0. Hold 35 lb for four sets; not every set reached 20.",
-        "for_date": "2026-11-27",
-        "preview": false,
-        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
-        "scheduled_day": "Friday",
-        "template_day": "Saturday",
-        "schedule_override_id": "2026-11-23-week-five-reschedule",
+        "source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
+        "reason": "November 27: 35×15/12/13/13 at RIR 2/2/2/0. Hold 35 lb and four sets; no all-set 20-rep ceiling. First set matches November 20 at RIR 2; total reps lower, but two ordinary exposures do not establish plateau or persistent decline.",
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 514,
-          "recorded_at": "2026-11-27T18:36:07-05:00",
-          "for_date": "2026-11-27",
+          "decision_id": 515,
+          "recorded_at": "2026-11-27T19:44:45-05:00",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary current Friday readiness. The request to generate today contains no new observed recovery or symptom report; preserve all local limits."
-        },
-        "prescription_source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday",
-        "recovery_basis_history": [
-          {
-            "status": "assumed-good",
-            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-            "decision_id": 513,
-            "recorded_at": "2026-11-26T14:51:48-05:00",
-            "observed": false,
-            "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
-            "for_date": "2026-11-27"
-          }
-        ],
-        "activated_on": "2026-11-27",
-        "activation_decision_id": 514,
-        "last_review_decision_id": 514
+          "reason": "Standing default supplies ordinary post-session recovery and Saturday readiness. Athlete confirms 30 lb pushdowns comfortable during/after; no next-morning recovery or lower-body response supplied. Preserve the requested local tendon rebuild."
+        }
       },
       "actual_history": [
         {
@@ -10069,6 +10180,66 @@
           ],
           "progression_eligible": false,
           "reason": "Stage-C ramp; no ordinary load-progression or plateau credit."
+        },
+        {
+          "date": "2026-11-20",
+          "session_id": "hybrid-2026-10-26-w4-fri-2026-11-20",
+          "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-502",
+          "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+          "stage": "D",
+          "scheduled_day": "Friday",
+          "sets": [
+            {
+              "load": 35,
+              "reps": 15,
+              "rir": 2
+            },
+            {
+              "load": 35,
+              "reps": 14,
+              "rir": 2
+            },
+            {
+              "load": 35,
+              "reps": 14,
+              "rir": 2
+            },
+            {
+              "load": 35,
+              "reps": 14,
+              "rir": 0
+            }
+          ],
+          "prescribed": {
+            "load_lb": 35,
+            "sets": 4,
+            "rep_range": [
+              12,
+              20
+            ],
+            "target_rir_range": [
+              1,
+              2
+            ],
+            "minimum_rir": 0,
+            "rest_seconds": 120,
+            "final_set_rir_range": [
+              0,
+              1
+            ],
+            "nonfinal_minimum_rir": 1
+          },
+          "progression_eligible": true,
+          "qualifies_for_load_increase": false,
+          "reason": "November 20: 35×15/14/14/14 at RIR 2/2/2/0. All four sets meet their rep floor and intended reserve, including the permitted final RIR 0. Not all sets reached 20; hold 35 lb and build reps.",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 504,
+            "recorded_at": "2026-11-20T19:34:21-05:00",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary recovery. This log supplies no fresh elbow, Achilles or ab response and no observed next-day recovery; preserve existing local restrictions."
+          }
         }
       ],
       "next_action_history": [
@@ -10205,24 +10376,78 @@
           "load_lb": 35,
           "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
           "reason": "November 20: 35×15/14/14/14 at RIR 2/2/2/0. All four sets meet their rep floor and intended reserve, including the permitted final RIR 0. Not all sets reached 20; hold 35 lb and build reps."
+        },
+        {
+          "sets": 4,
+          "rep_range": [
+            12,
+            20
+          ],
+          "target_rir_range": [
+            1,
+            2
+          ],
+          "minimum_rir": 0,
+          "rest_seconds": 120,
+          "final_set_rir_range": [
+            0,
+            1
+          ],
+          "nonfinal_minimum_rir": 1,
+          "stage": "D",
+          "decision_id": 513,
+          "action": "hold-load-and-build-reps",
+          "status": "prescribed-not-performed",
+          "load_lb": 35,
+          "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+          "reason": "November 20: 35×15/14/14/14 at RIR 2/2/2/0. Hold 35 lb for four sets; not every set reached 20.",
+          "for_date": "2026-11-27",
+          "preview": false,
+          "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
+          "scheduled_day": "Friday",
+          "template_day": "Saturday",
+          "schedule_override_id": "2026-11-23-week-five-reschedule",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 514,
+            "recorded_at": "2026-11-27T18:36:07-05:00",
+            "for_date": "2026-11-27",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary current Friday readiness. The request to generate today contains no new observed recovery or symptom report; preserve all local limits."
+          },
+          "prescription_source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday",
+          "recovery_basis_history": [
+            {
+              "status": "assumed-good",
+              "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+              "decision_id": 513,
+              "recorded_at": "2026-11-26T14:51:48-05:00",
+              "observed": false,
+              "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
+              "for_date": "2026-11-27"
+            }
+          ],
+          "activated_on": "2026-11-27",
+          "activation_decision_id": 514,
+          "last_review_decision_id": 514
         }
       ],
       "qualifying_exposures": 0,
-      "note": "November 20: 35×15/14/14/14 at RIR 2/2/2/0. All four sets meet their rep floor and intended reserve, including the permitted final RIR 0. Not all sets reached 20; hold 35 lb and build reps.",
+      "note": "November 27: 35×15/12/13/13 at RIR 2/2/2/0. Hold 35 lb and four sets; no all-set 20-rep ceiling. First set matches November 20 at RIR 2; total reps lower, but two ordinary exposures do not establish plateau or persistent decline.",
       "progression_review": {
-        "decision_id": 504,
-        "date": "2026-11-20",
-        "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
-        "source_session_id": "hybrid-2026-10-26-w4-fri-2026-11-20",
-        "first_normal_exposure_completed": true,
+        "decision_id": 515,
+        "date": "2026-11-27",
+        "source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
+        "source_session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
         "all_prescribed_sets_reported": true,
         "all_sets_at_rep_ceiling": false,
-        "rep_ceiling_used": 20,
         "intended_rir_or_more_reserve": true,
         "qualifying_exposures": 0,
         "required_qualifying_exposures": 2,
         "load_increase_earned": false,
-        "reason": "November 20: 35×15/14/14/14 at RIR 2/2/2/0. All four sets meet their rep floor and intended reserve, including the permitted final RIR 0. Not all sets reached 20; hold 35 lb and build reps."
+        "progression_eligible": true,
+        "reason": "November 27: 35×15/12/13/13 at RIR 2/2/2/0. Hold 35 lb and four sets; no all-set 20-rep ceiling. First set matches November 20 at RIR 2; total reps lower, but two ordinary exposures do not establish plateau or persistent decline."
       },
       "first_set_anchor": {
         "date": "2026-11-20",
@@ -10298,81 +10523,59 @@
           "actual_rest_seconds": null,
           "classification": "first-normal-stage-reference",
           "comparison_count": 0
-        }
-      ]
-    },
-    "S2": {
-      "exercise": "Incline DB curl",
-      "load": 30,
-      "units": "lb",
-      "equipment": "Dumbbells and incline bench",
-      "setup": null,
-      "load_convention": "Athlete-reported dumbbell notation; per-hand convention and incline angle not explicitly supplied.",
-      "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
-      "new_exposure_count": 4,
-      "last_actual": {
-        "date": "2026-11-20",
-        "session_id": "hybrid-2026-10-26-w4-fri-2026-11-20",
-        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-502",
-        "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
-        "stage": "D",
-        "scheduled_day": "Friday",
-        "sets": [
-          {
-            "load": 30,
-            "reps": 8,
-            "rir": 2
-          },
-          {
-            "load": 30,
-            "reps": 8,
-            "rir": 0
-          }
-        ],
-        "prescribed": {
-          "load_lb": 27.5,
-          "sets": 2,
+        },
+        {
+          "date": "2026-11-27",
+          "session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
+          "source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
+          "stage": "D",
+          "sets": [
+            {
+              "load": 35,
+              "reps": 15,
+              "rir": 2
+            },
+            {
+              "load": 35,
+              "reps": 12,
+              "rir": 2
+            },
+            {
+              "load": 35,
+              "reps": 13,
+              "rir": 2
+            },
+            {
+              "load": 35,
+              "reps": 13,
+              "rir": 0
+            }
+          ],
+          "first_set_rir": 2,
+          "prescribed_rir_by_set": [
+            "1–2",
+            "1–2",
+            "1–2",
+            "0–1"
+          ],
           "rep_range": [
-            8,
-            12
+            12,
+            20
           ],
-          "target_rir_range": [
-            1,
-            2
+          "rest_seconds": [
+            120,
+            120
           ],
-          "minimum_rir": 0,
-          "rest_seconds": 120,
-          "final_set_rir_range": [
-            0,
-            1
-          ],
-          "nonfinal_minimum_rir": 1
-        },
-        "progression_eligible": true,
-        "qualifies_for_load_increase": false,
-        "reason": "November 20: 30×8/8 at RIR 2/0 because the prescribed 27.5 lb dumbbells were unavailable. Both sets demonstrate the full two-set dose at the rep floor and intended effort. Retain 30 lb as the demonstrated working load; this equipment-availability adjustment is not an earned further increase. Neither set reached 12, so no qualification or additional load award.",
-        "recovery_basis": {
-          "status": "assumed-good",
-          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 504,
-          "recorded_at": "2026-11-20T19:34:21-05:00",
-          "observed": false,
-          "reason": "Standing athlete default supplies ordinary recovery. This log supplies no fresh elbow, Achilles or ab response and no observed next-day recovery; preserve existing local restrictions."
-        },
-        "prescription_deviation": {
-          "prescribed_load_lb": 27.5,
-          "actual_load_lb": 30,
-          "reason": "Athlete reports that no 27.5 lb dumbbells were available. Both 30 lb sets meet the 8-rep floor and prescribed effort."
-        },
-        "full_dose_at_reference_load_validated": true,
-        "elbow_response": null
-      },
-      "next_action": {
-        "sets": 2,
+          "actual_rest_seconds": null,
+          "classification": "same-load-first-set-rir-reference",
+          "comparison_note": "Actual rest/setup unreported; no plateau or persistent decline established."
+        }
+      ],
+      "completed_prescription": {
+        "sets": 4,
         "rep_range": [
-          8,
-          12
+          12,
+          20
         ],
         "target_rir_range": [
           1,
@@ -10387,15 +10590,11 @@
         "nonfinal_minimum_rir": 1,
         "stage": "D",
         "decision_id": 513,
-        "action": "retain-demonstrated-full-dose-load",
-        "status": "prescribed-not-performed",
-        "load_lb": 30,
+        "action": "hold-load-and-build-reps",
+        "status": "completed",
+        "load_lb": 35,
         "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
-        "reason": "November 20: 30×8/8 at RIR 2/0 after 27.5-lb dumbbells were unavailable. Both sets support 30 lb; retain it and build toward 12. No further increase.",
-        "full_dose_at_reference_load_validated": true,
-        "prescribed_load_lb_at_last_exposure": 27.5,
-        "load_basis": "Both reported 30 lb sets reached 8 at RIR 2/0 after the athlete substituted for unavailable 27.5 lb dumbbells.",
-        "symptom_action": "Reduce or omit aggravating work if symptoms occur.",
+        "reason": "November 20: 35×15/14/14/14 at RIR 2/2/2/0. Hold 35 lb for four sets; not every set reached 20.",
         "for_date": "2026-11-27",
         "preview": false,
         "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
@@ -10425,7 +10624,111 @@
         ],
         "activated_on": "2026-11-27",
         "activation_decision_id": 514,
-        "last_review_decision_id": 514
+        "last_review_decision_id": 514,
+        "completed_on": "2026-11-27",
+        "completion_decision_id": 515,
+        "actual_session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
+        "actual_source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b"
+      },
+      "progression_review_history": [
+        {
+          "decision_id": 504,
+          "date": "2026-11-20",
+          "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+          "source_session_id": "hybrid-2026-10-26-w4-fri-2026-11-20",
+          "first_normal_exposure_completed": true,
+          "all_prescribed_sets_reported": true,
+          "all_sets_at_rep_ceiling": false,
+          "rep_ceiling_used": 20,
+          "intended_rir_or_more_reserve": true,
+          "qualifying_exposures": 0,
+          "required_qualifying_exposures": 2,
+          "load_increase_earned": false,
+          "reason": "November 20: 35×15/14/14/14 at RIR 2/2/2/0. All four sets meet their rep floor and intended reserve, including the permitted final RIR 0. Not all sets reached 20; hold 35 lb and build reps."
+        }
+      ]
+    },
+    "S2": {
+      "exercise": "Incline DB curl",
+      "load": 30,
+      "units": "lb",
+      "equipment": "Dumbbells and incline bench",
+      "setup": null,
+      "load_convention": "Athlete-reported dumbbell notation; per-hand convention and incline angle not explicitly supplied.",
+      "load_status": "established",
+      "load_source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
+      "new_exposure_count": 5,
+      "last_actual": {
+        "date": "2026-11-27",
+        "session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
+        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
+        "source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
+        "stage": "D",
+        "scheduled_day": "Friday",
+        "sets": [
+          {
+            "load": 30,
+            "reps": 8,
+            "rir": 1
+          },
+          {
+            "load": 30,
+            "reps": 9,
+            "rir": 0
+          }
+        ],
+        "prescribed": {
+          "slotId": "S2",
+          "exercise": "Incline DB curl",
+          "load": "30 lb",
+          "setsReps": "2×8–12",
+          "rir": "First: 1–2; final: 0–1",
+          "rest": "2 min"
+        },
+        "progression_eligible": true,
+        "qualifies_for_load_increase": false,
+        "reason": "November 27: 30×8/9 at RIR 1/0. Hold 30 lb and two sets; neither reached 12. Second set gains one rep at the same final RIR 0; first-set reserve changed from 2 to 1 and requires a new reference.",
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 515,
+          "recorded_at": "2026-11-27T19:44:45-05:00",
+          "observed": false,
+          "reason": "Standing default supplies ordinary post-session recovery and Saturday readiness. Athlete confirms 30 lb pushdowns comfortable during/after; no next-morning recovery or lower-body response supplied. Preserve the requested local tendon rebuild."
+        }
+      },
+      "next_action": {
+        "sets": 2,
+        "rep_range": [
+          8,
+          12
+        ],
+        "target_rir_range": [
+          1,
+          2
+        ],
+        "minimum_rir": 0,
+        "rest_seconds": 120,
+        "final_set_rir_range": [
+          0,
+          1
+        ],
+        "nonfinal_minimum_rir": 1,
+        "stage": "D",
+        "decision_id": 515,
+        "action": "hold-load-and-build-reps",
+        "status": "recommendation-for-next-matching-exposure",
+        "load_lb": 30,
+        "source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
+        "reason": "November 27: 30×8/9 at RIR 1/0. Hold 30 lb and two sets; neither reached 12. Second set gains one rep at the same final RIR 0; first-set reserve changed from 2 to 1 and requires a new reference.",
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 515,
+          "recorded_at": "2026-11-27T19:44:45-05:00",
+          "observed": false,
+          "reason": "Standing default supplies ordinary post-session recovery and Saturday readiness. Athlete confirms 30 lb pushdowns comfortable during/after; no next-morning recovery or lower-body response supplied. Preserve the requested local tendon rebuild."
+        }
       },
       "actual_history": [
         {
@@ -10499,6 +10802,63 @@
             "actual_load_lb": 27.5,
             "reason": "Athlete performed a heavier load; record literally and retain as a working reference because reported reps/RIR fit. This is not an awarded ramp increase."
           },
+          "elbow_response": null
+        },
+        {
+          "date": "2026-11-20",
+          "session_id": "hybrid-2026-10-26-w4-fri-2026-11-20",
+          "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-502",
+          "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+          "stage": "D",
+          "scheduled_day": "Friday",
+          "sets": [
+            {
+              "load": 30,
+              "reps": 8,
+              "rir": 2
+            },
+            {
+              "load": 30,
+              "reps": 8,
+              "rir": 0
+            }
+          ],
+          "prescribed": {
+            "load_lb": 27.5,
+            "sets": 2,
+            "rep_range": [
+              8,
+              12
+            ],
+            "target_rir_range": [
+              1,
+              2
+            ],
+            "minimum_rir": 0,
+            "rest_seconds": 120,
+            "final_set_rir_range": [
+              0,
+              1
+            ],
+            "nonfinal_minimum_rir": 1
+          },
+          "progression_eligible": true,
+          "qualifies_for_load_increase": false,
+          "reason": "November 20: 30×8/8 at RIR 2/0 because the prescribed 27.5 lb dumbbells were unavailable. Both sets demonstrate the full two-set dose at the rep floor and intended effort. Retain 30 lb as the demonstrated working load; this equipment-availability adjustment is not an earned further increase. Neither set reached 12, so no qualification or additional load award.",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 504,
+            "recorded_at": "2026-11-20T19:34:21-05:00",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary recovery. This log supplies no fresh elbow, Achilles or ab response and no observed next-day recovery; preserve existing local restrictions."
+          },
+          "prescription_deviation": {
+            "prescribed_load_lb": 27.5,
+            "actual_load_lb": 30,
+            "reason": "Athlete reports that no 27.5 lb dumbbells were available. Both 30 lb sets meet the 8-rep floor and prescribed effort."
+          },
+          "full_dose_at_reference_load_validated": true,
           "elbow_response": null
         }
       ],
@@ -10643,33 +11003,91 @@
           "prescribed_load_lb_at_last_exposure": 27.5,
           "load_basis": "Both reported 30 lb sets reached 8 at RIR 2/0 after the athlete substituted for unavailable 27.5 lb dumbbells.",
           "symptom_action": "Reduce or omit aggravating work if symptoms occur."
+        },
+        {
+          "sets": 2,
+          "rep_range": [
+            8,
+            12
+          ],
+          "target_rir_range": [
+            1,
+            2
+          ],
+          "minimum_rir": 0,
+          "rest_seconds": 120,
+          "final_set_rir_range": [
+            0,
+            1
+          ],
+          "nonfinal_minimum_rir": 1,
+          "stage": "D",
+          "decision_id": 513,
+          "action": "retain-demonstrated-full-dose-load",
+          "status": "prescribed-not-performed",
+          "load_lb": 30,
+          "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+          "reason": "November 20: 30×8/8 at RIR 2/0 after 27.5-lb dumbbells were unavailable. Both sets support 30 lb; retain it and build toward 12. No further increase.",
+          "full_dose_at_reference_load_validated": true,
+          "prescribed_load_lb_at_last_exposure": 27.5,
+          "load_basis": "Both reported 30 lb sets reached 8 at RIR 2/0 after the athlete substituted for unavailable 27.5 lb dumbbells.",
+          "symptom_action": "Reduce or omit aggravating work if symptoms occur.",
+          "for_date": "2026-11-27",
+          "preview": false,
+          "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
+          "scheduled_day": "Friday",
+          "template_day": "Saturday",
+          "schedule_override_id": "2026-11-23-week-five-reschedule",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 514,
+            "recorded_at": "2026-11-27T18:36:07-05:00",
+            "for_date": "2026-11-27",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary current Friday readiness. The request to generate today contains no new observed recovery or symptom report; preserve all local limits."
+          },
+          "prescription_source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday",
+          "recovery_basis_history": [
+            {
+              "status": "assumed-good",
+              "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+              "decision_id": 513,
+              "recorded_at": "2026-11-26T14:51:48-05:00",
+              "observed": false,
+              "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
+              "for_date": "2026-11-27"
+            }
+          ],
+          "activated_on": "2026-11-27",
+          "activation_decision_id": 514,
+          "last_review_decision_id": 514
         }
       ],
       "qualifying_exposures": 0,
-      "note": "November 20: 30×8/8 at RIR 2/0 because the prescribed 27.5 lb dumbbells were unavailable. Both sets demonstrate the full two-set dose at the rep floor and intended effort. Retain 30 lb as the demonstrated working load; this equipment-availability adjustment is not an earned further increase. Neither set reached 12, so no qualification or additional load award.",
+      "note": "November 27: 30×8/9 at RIR 1/0. Hold 30 lb and two sets; neither reached 12. Second set gains one rep at the same final RIR 0; first-set reserve changed from 2 to 1 and requires a new reference.",
       "progression_review": {
-        "decision_id": 504,
-        "date": "2026-11-20",
-        "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
-        "source_session_id": "hybrid-2026-10-26-w4-fri-2026-11-20",
-        "first_normal_exposure_completed": true,
+        "decision_id": 515,
+        "date": "2026-11-27",
+        "source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
+        "source_session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
         "all_prescribed_sets_reported": true,
         "all_sets_at_rep_ceiling": false,
-        "rep_ceiling_used": 12,
         "intended_rir_or_more_reserve": true,
         "qualifying_exposures": 0,
         "required_qualifying_exposures": 1,
         "load_increase_earned": false,
-        "reason": "November 20: 30×8/8 at RIR 2/0 because the prescribed 27.5 lb dumbbells were unavailable. Both sets demonstrate the full two-set dose at the rep floor and intended effort. Retain 30 lb as the demonstrated working load; this equipment-availability adjustment is not an earned further increase. Neither set reached 12, so no qualification or additional load award."
+        "progression_eligible": true,
+        "reason": "November 27: 30×8/9 at RIR 1/0. Hold 30 lb and two sets; neither reached 12. Second set gains one rep at the same final RIR 0; first-set reserve changed from 2 to 1 and requires a new reference."
       },
       "first_set_anchor": {
-        "date": "2026-11-20",
-        "session_id": "hybrid-2026-10-26-w4-fri-2026-11-20",
-        "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+        "date": "2026-11-27",
+        "session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
+        "source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
         "stage": "D",
         "load": 30,
         "reps": 8,
-        "rir": 2,
+        "rir": 1,
         "equipment": "Dumbbells and incline bench",
         "setup": null,
         "rep_range": [
@@ -10686,27 +11104,27 @@
           120
         ],
         "actual_rest_seconds": null,
-        "note": "First normal-D reference. Compare only matching slot, actual load, setup, range, set count, rest and actual first-set RIR; no imported ramp credit or unmatched-effort decline comparison. Actual rest and setup are unreported. This anchor is at the performed 30 lb, not the prescribed but unavailable 27.5 lb."
+        "note": "New reference at actual first-set RIR. Compare matched conditions only; no imported ramp or other-slot credit."
       },
       "comparable_sessions": [
         {
-          "date": "2026-11-20",
-          "session_id": "hybrid-2026-10-26-w4-fri-2026-11-20",
-          "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+          "date": "2026-11-27",
+          "session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
+          "source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
           "stage": "D",
           "sets": [
             {
               "load": 30,
               "reps": 8,
-              "rir": 2
+              "rir": 1
             },
             {
               "load": 30,
-              "reps": 8,
+              "reps": 9,
               "rir": 0
             }
           ],
-          "first_set_rir": 2,
+          "first_set_rir": 1,
           "prescribed_rir_by_set": [
             "1–2",
             "0–1"
@@ -10720,158 +11138,226 @@
             120
           ],
           "actual_rest_seconds": null,
-          "classification": "first-normal-stage-reference",
-          "comparison_count": 0
+          "classification": "new-first-set-effort-reference",
+          "comparison_note": "Actual rest/setup unreported; no plateau or persistent decline established."
         }
-      ]
-    },
-    "S3": {
-      "exercise": "Cable pushdown",
-      "load": 50,
-      "units": "lb",
-      "equipment": "Cable station",
-      "setup": null,
-      "load_convention": "Use the existing Thursday pushdown station/setting convention where available; no new attachment or pulley-ratio detail supplied.",
-      "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
-      "last_actual": {
-        "date": "2026-11-20",
-        "session_id": "hybrid-2026-10-26-w4-fri-2026-11-20",
-        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-502",
-        "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
-        "stage": "D",
-        "scheduled_day": "Friday",
-        "sets": [
-          {
-            "load": 50,
-            "reps": 10,
-            "rir": 1
-          },
-          {
-            "load": 50,
-            "reps": 10,
-            "rir": 1
-          },
-          {
-            "load": 50,
-            "reps": 10,
-            "rir": 1
-          }
+      ],
+      "completed_prescription": {
+        "sets": 2,
+        "rep_range": [
+          8,
+          12
         ],
-        "prescribed": {
-          "load_lb": 50,
-          "sets": 3,
-          "rep_range": [
-            10,
-            15
-          ],
-          "target_rir_range": [
-            2,
-            2
-          ],
-          "minimum_rir": 0,
-          "rest_seconds": 120,
-          "final_set_rir_range": [
-            0,
-            1
-          ],
-          "nonfinal_minimum_rir": 2
-        },
-        "progression_eligible": true,
-        "qualifies_for_load_increase": false,
-        "reason": "November 20: 50×10/10/10 at RIR 1/1/1. The first two sets overshot the prescribed RIR 2; only the final RIR 1 matches its 0–1 target. Hold 50 lb for review/calibration, target RIR 2 on the first two sets and 0–1 on the last, and reduce load if 10 reps cannot be reached with the required reserve. No qualifying exposure or automatic load increase.",
+        "target_rir_range": [
+          1,
+          2
+        ],
+        "minimum_rir": 0,
+        "rest_seconds": 120,
+        "final_set_rir_range": [
+          0,
+          1
+        ],
+        "nonfinal_minimum_rir": 1,
+        "stage": "D",
+        "decision_id": 513,
+        "action": "retain-demonstrated-full-dose-load",
+        "status": "completed",
+        "load_lb": 30,
+        "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+        "reason": "November 20: 30×8/8 at RIR 2/0 after 27.5-lb dumbbells were unavailable. Both sets support 30 lb; retain it and build toward 12. No further increase.",
+        "full_dose_at_reference_load_validated": true,
+        "prescribed_load_lb_at_last_exposure": 27.5,
+        "load_basis": "Both reported 30 lb sets reached 8 at RIR 2/0 after the athlete substituted for unavailable 27.5 lb dumbbells.",
+        "symptom_action": "Reduce or omit aggravating work if symptoms occur.",
+        "for_date": "2026-11-27",
+        "preview": false,
+        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
+        "scheduled_day": "Friday",
+        "template_day": "Saturday",
+        "schedule_override_id": "2026-11-23-week-five-reschedule",
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 504,
-          "recorded_at": "2026-11-20T19:34:21-05:00",
+          "decision_id": 514,
+          "recorded_at": "2026-11-27T18:36:07-05:00",
+          "for_date": "2026-11-27",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary recovery. This log supplies no fresh elbow, Achilles or ab response and no observed next-day recovery; preserve existing local restrictions."
+          "reason": "Standing athlete default supplies ordinary current Friday readiness. The request to generate today contains no new observed recovery or symptom report; preserve all local limits."
         },
-        "prescription_deviation": {
-          "affected_sets": [
-            1,
-            2
-          ],
-          "prescribed_rir": 2,
-          "actual_rir": [
-            1,
-            1
-          ],
-          "reason": "First two sets went one rep closer to failure than intended; final RIR 1 meets the permitted 0–1 target."
-        }
+        "prescription_source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday",
+        "recovery_basis_history": [
+          {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 513,
+            "recorded_at": "2026-11-26T14:51:48-05:00",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
+            "for_date": "2026-11-27"
+          }
+        ],
+        "activated_on": "2026-11-27",
+        "activation_decision_id": 514,
+        "last_review_decision_id": 514,
+        "completed_on": "2026-11-27",
+        "completion_decision_id": 515,
+        "actual_session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
+        "actual_source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b"
       },
-      "new_exposure_count": 3,
-      "qualifying_exposures": 0,
-      "comparable_sessions": [
+      "progression_review_history": [
+        {
+          "decision_id": 504,
+          "date": "2026-11-20",
+          "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+          "source_session_id": "hybrid-2026-10-26-w4-fri-2026-11-20",
+          "first_normal_exposure_completed": true,
+          "all_prescribed_sets_reported": true,
+          "all_sets_at_rep_ceiling": false,
+          "rep_ceiling_used": 12,
+          "intended_rir_or_more_reserve": true,
+          "qualifying_exposures": 0,
+          "required_qualifying_exposures": 1,
+          "load_increase_earned": false,
+          "reason": "November 20: 30×8/8 at RIR 2/0 because the prescribed 27.5 lb dumbbells were unavailable. Both sets demonstrate the full two-set dose at the rep floor and intended effort. Retain 30 lb as the demonstrated working load; this equipment-availability adjustment is not an earned further increase. Neither set reached 12, so no qualification or additional load award."
+        }
+      ],
+      "first_set_anchor_history": [
         {
           "date": "2026-11-20",
           "session_id": "hybrid-2026-10-26-w4-fri-2026-11-20",
           "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
           "stage": "D",
-          "sets": [
-            {
-              "load": 50,
-              "reps": 10,
-              "rir": 1
-            },
-            {
-              "load": 50,
-              "reps": 10,
-              "rir": 1
-            },
-            {
-              "load": 50,
-              "reps": 10,
-              "rir": 1
-            }
-          ],
-          "first_set_rir": 1,
-          "prescribed_rir_by_set": [
-            "2",
-            "2",
-            "0–1"
-          ],
+          "load": 30,
+          "reps": 8,
+          "rir": 2,
+          "equipment": "Dumbbells and incline bench",
+          "setup": null,
           "rep_range": [
-            10,
-            15
+            8,
+            12
+          ],
+          "prescribed_sets": 2,
+          "prescribed_rir_by_set": [
+            "1–2",
+            "0–1"
           ],
           "rest_seconds": [
             120,
             120
           ],
           "actual_rest_seconds": null,
-          "classification": "first-normal-stage-reference-with-effort-deviation",
-          "comparison_count": 0
+          "note": "First normal-D reference. Compare only matching slot, actual load, setup, range, set count, rest and actual first-set RIR; no imported ramp credit or unmatched-effort decline comparison. Actual rest and setup are unreported. This anchor is at the performed 30 lb, not the prescribed but unavailable 27.5 lb."
         }
       ],
-      "first_set_anchor": {
-        "date": "2026-11-20",
-        "session_id": "hybrid-2026-10-26-w4-fri-2026-11-20",
-        "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+      "comparable_sessions_history": [
+        {
+          "decision_id": 515,
+          "reason": "First-set RIR changed. Preserve prior reference.",
+          "sessions": [
+            {
+              "date": "2026-11-20",
+              "session_id": "hybrid-2026-10-26-w4-fri-2026-11-20",
+              "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+              "stage": "D",
+              "sets": [
+                {
+                  "load": 30,
+                  "reps": 8,
+                  "rir": 2
+                },
+                {
+                  "load": 30,
+                  "reps": 8,
+                  "rir": 0
+                }
+              ],
+              "first_set_rir": 2,
+              "prescribed_rir_by_set": [
+                "1–2",
+                "0–1"
+              ],
+              "rep_range": [
+                8,
+                12
+              ],
+              "rest_seconds": [
+                120,
+                120
+              ],
+              "actual_rest_seconds": null,
+              "classification": "first-normal-stage-reference",
+              "comparison_count": 0
+            }
+          ]
+        }
+      ]
+    },
+    "S3": {
+      "exercise": "Cable pushdown",
+      "load": 30,
+      "units": "lb",
+      "equipment": "Cable station",
+      "setup": null,
+      "load_convention": "Use the existing Thursday pushdown station/setting convention where available; no new attachment or pulley-ratio detail supplied.",
+      "load_status": "established",
+      "load_source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
+      "last_actual": {
+        "date": "2026-11-27",
+        "session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
+        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
+        "source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
         "stage": "D",
-        "load": 50,
-        "reps": 10,
-        "rir": 1,
-        "equipment": "Cable station",
-        "setup": null,
-        "rep_range": [
-          10,
-          15
+        "scheduled_day": "Friday",
+        "sets": [
+          {
+            "load": 30,
+            "reps": 10,
+            "rir": 5
+          },
+          {
+            "load": 30,
+            "reps": 10,
+            "rir": 3
+          }
         ],
+        "prescribed": {
+          "slotId": "S3",
+          "exercise": "Cable pushdown",
+          "load": "50 lb",
+          "setsReps": "3×10–15",
+          "rir": "Sets 1–2: 2; final: 0–1",
+          "rest": "2 min"
+        },
+        "progression_eligible": false,
+        "qualifies_for_load_increase": false,
+        "reason": "November 27: 30×10/10 at RIR 5/3, deliberately reduced from prescribed 50 lb for triceps-tendon rebuilding. Both sets comfortable during and afterward. Third prescribed set is unreported. No ordinary qualification or full three-set validation; start future M4/T5/S3 at 30 lb, ≥3 RIR, and progress each slot independently.",
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 515,
+          "recorded_at": "2026-11-27T19:44:45-05:00",
+          "observed": false,
+          "reason": "Standing default supplies ordinary post-session recovery and Saturday readiness. Athlete confirms 30 lb pushdowns comfortable during/after; no next-morning recovery or lower-body response supplied. Preserve the requested local tendon rebuild."
+        },
+        "reported_sets": 2,
         "prescribed_sets": 3,
-        "prescribed_rir_by_set": [
-          "2",
-          "2",
-          "0–1"
+        "unreported_set_indices": [
+          3
         ],
-        "rest_seconds": [
-          120,
-          120
-        ],
-        "actual_rest_seconds": null,
-        "note": "First normal-D reference. Compare only matching slot, actual load, setup, range, set count, rest and actual first-set RIR; no imported ramp credit or unmatched-effort decline comparison. Actual rest and setup are unreported. Actual first-set RIR 1 overshot the prescribed 2; it is not comparable with a later RIR 2 set."
+        "full_prescribed_dose_completed": null,
+        "triceps_response": "Comfortable during and after at 30 lb.",
+        "next_morning_response": null,
+        "prescription_deviation": {
+          "load_lb": 30,
+          "prescribed_load_lb": 50,
+          "reason": "Athlete-directed tendon rebuild; third set unreported."
+        }
       },
+      "new_exposure_count": 4,
+      "qualifying_exposures": 0,
+      "comparable_sessions": [],
+      "first_set_anchor": null,
       "exercise_history": [
         {
           "replaced_on": "2026-11-02",
@@ -10918,60 +11404,46 @@
         }
       ],
       "next_action": {
+        "decision_id": 515,
+        "action": "start-pushdown-rebuild-at-30lb",
+        "status": "recommendation-for-next-matching-exposure",
+        "directive_id": "2026-11-27-pushdown-rebuild-30lb",
+        "stage": "D",
+        "load_lb": 30,
         "sets": 3,
         "rep_range": [
           10,
           15
         ],
         "target_rir_range": [
-          2,
-          2
+          3,
+          3
         ],
-        "minimum_rir": 0,
-        "rest_seconds": 120,
+        "minimum_rir": 3,
+        "nonfinal_minimum_rir": 3,
         "final_set_rir_range": [
-          0,
-          1
+          3,
+          3
         ],
-        "nonfinal_minimum_rir": 2,
-        "stage": "D",
-        "decision_id": 513,
-        "action": "hold-load-and-recalibrate-effort",
-        "status": "prescribed-not-performed",
-        "load_lb": 50,
-        "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
-        "reason": "November 20: 50×10/10/10 at RIR 1. Keep 50 lb as the reference, but stop at 2 RIR on the first two sets and 0–1 on the final. Reduce load if ten reps cannot fit that reserve. Thursday’s similar effort deviation does not transfer Friday progression credit.",
-        "fallback": "Stop at the intended reserve; reduce load if the 10-rep floor cannot be met at RIR 2 on the first two sets. Do not force the floor or automatically lower the load before review.",
-        "for_date": "2026-11-27",
-        "preview": false,
-        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
-        "scheduled_day": "Friday",
-        "template_day": "Saturday",
-        "schedule_override_id": "2026-11-23-week-five-reschedule",
+        "rir_by_set": [
+          "≥3",
+          "≥3",
+          "≥3"
+        ],
+        "rest_seconds": 120,
+        "near_failure_suspended": true,
+        "source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
+        "reason": "Athlete requests every pushdown slot start at 30 lb and progress from there. Keep ≥3 RIR on every set while rebuilding; preserve normal sets/rest, lower load or stop aggravating work if needed. Friday two-set comfort does not validate another slot or a full three-set dose.",
+        "progression": "Build this slot toward all three sets of 15 at ≥3 RIR with comfortable response, then use the smallest available increment. No immediate return to 50 or inherited qualification. Review response before increasing; no automatic calendar increase.",
         "recovery_basis": {
           "status": "assumed-good",
           "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 514,
-          "recorded_at": "2026-11-27T18:36:07-05:00",
-          "for_date": "2026-11-27",
+          "decision_id": 515,
+          "recorded_at": "2026-11-27T19:44:45-05:00",
           "observed": false,
-          "reason": "Standing athlete default supplies ordinary current Friday readiness. The request to generate today contains no new observed recovery or symptom report; preserve all local limits."
+          "reason": "Standing default supplies ordinary post-session recovery and Saturday readiness. Athlete confirms 30 lb pushdowns comfortable during/after; no next-morning recovery or lower-body response supplied. Preserve the requested local tendon rebuild."
         },
-        "prescription_source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday",
-        "recovery_basis_history": [
-          {
-            "status": "assumed-good",
-            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-            "decision_id": 513,
-            "recorded_at": "2026-11-26T14:51:48-05:00",
-            "observed": false,
-            "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
-            "for_date": "2026-11-27"
-          }
-        ],
-        "activated_on": "2026-11-27",
-        "activation_decision_id": 514,
-        "last_review_decision_id": 514
+        "restriction_id": "triceps-pushdown-rebuild"
       },
       "next_action_history": [
         {
@@ -11108,6 +11580,95 @@
           "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
           "reason": "November 20: 50×10/10/10 at RIR 1/1/1. The first two sets overshot the prescribed RIR 2; only the final RIR 1 matches its 0–1 target. Hold 50 lb for review/calibration, target RIR 2 on the first two sets and 0–1 on the last, and reduce load if 10 reps cannot be reached with the required reserve. No qualifying exposure or automatic load increase.",
           "fallback": "Stop at the intended reserve; reduce load if the 10-rep floor cannot be met at RIR 2 on the first two sets. Do not force the floor or automatically lower the load before review."
+        },
+        {
+          "sets": 3,
+          "rep_range": [
+            10,
+            15
+          ],
+          "target_rir_range": [
+            2,
+            2
+          ],
+          "minimum_rir": 0,
+          "rest_seconds": 120,
+          "final_set_rir_range": [
+            0,
+            1
+          ],
+          "nonfinal_minimum_rir": 2,
+          "stage": "D",
+          "decision_id": 513,
+          "action": "hold-load-and-recalibrate-effort",
+          "status": "prescribed-not-performed",
+          "load_lb": 50,
+          "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+          "reason": "November 20: 50×10/10/10 at RIR 1. Keep 50 lb as the reference, but stop at 2 RIR on the first two sets and 0–1 on the final. Reduce load if ten reps cannot fit that reserve. Thursday’s similar effort deviation does not transfer Friday progression credit.",
+          "fallback": "Stop at the intended reserve; reduce load if the 10-rep floor cannot be met at RIR 2 on the first two sets. Do not force the floor or automatically lower the load before review.",
+          "for_date": "2026-11-27",
+          "preview": false,
+          "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
+          "scheduled_day": "Friday",
+          "template_day": "Saturday",
+          "schedule_override_id": "2026-11-23-week-five-reschedule",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 514,
+            "recorded_at": "2026-11-27T18:36:07-05:00",
+            "for_date": "2026-11-27",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary current Friday readiness. The request to generate today contains no new observed recovery or symptom report; preserve all local limits."
+          },
+          "prescription_source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday",
+          "recovery_basis_history": [
+            {
+              "status": "assumed-good",
+              "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+              "decision_id": 513,
+              "recorded_at": "2026-11-26T14:51:48-05:00",
+              "observed": false,
+              "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
+              "for_date": "2026-11-27"
+            }
+          ],
+          "activated_on": "2026-11-27",
+          "activation_decision_id": 514,
+          "last_review_decision_id": 514
+        },
+        {
+          "sets": 3,
+          "rep_range": [
+            10,
+            15
+          ],
+          "target_rir_range": [
+            2,
+            2
+          ],
+          "minimum_rir": 0,
+          "rest_seconds": 120,
+          "final_set_rir_range": [
+            0,
+            1
+          ],
+          "nonfinal_minimum_rir": 2,
+          "stage": "D",
+          "decision_id": 515,
+          "action": "hold-load-and-build-reps",
+          "status": "recommendation-for-next-matching-exposure",
+          "load_lb": 30,
+          "source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
+          "reason": "November 27: 30×10/10 at RIR 5/3, deliberately reduced from prescribed 50 lb for triceps-tendon rebuilding. Both sets comfortable during and afterward. Third prescribed set is unreported. No ordinary qualification or full three-set validation; start future M4/T5/S3 at 30 lb, ≥3 RIR, and progress each slot independently.",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 515,
+            "recorded_at": "2026-11-27T19:44:45-05:00",
+            "observed": false,
+            "reason": "Standing default supplies ordinary post-session recovery and Saturday readiness. Athlete confirms 30 lb pushdowns comfortable during/after; no next-morning recovery or lower-body response supplied. Preserve the requested local tendon rebuild."
+          }
         }
       ],
       "actual_history": [
@@ -11161,99 +11722,115 @@
           ],
           "progression_eligible": false,
           "reason": "Stage-C ramp; no ordinary load-progression or plateau credit."
+        },
+        {
+          "date": "2026-11-20",
+          "session_id": "hybrid-2026-10-26-w4-fri-2026-11-20",
+          "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-502",
+          "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+          "stage": "D",
+          "scheduled_day": "Friday",
+          "sets": [
+            {
+              "load": 50,
+              "reps": 10,
+              "rir": 1
+            },
+            {
+              "load": 50,
+              "reps": 10,
+              "rir": 1
+            },
+            {
+              "load": 50,
+              "reps": 10,
+              "rir": 1
+            }
+          ],
+          "prescribed": {
+            "load_lb": 50,
+            "sets": 3,
+            "rep_range": [
+              10,
+              15
+            ],
+            "target_rir_range": [
+              2,
+              2
+            ],
+            "minimum_rir": 0,
+            "rest_seconds": 120,
+            "final_set_rir_range": [
+              0,
+              1
+            ],
+            "nonfinal_minimum_rir": 2
+          },
+          "progression_eligible": true,
+          "qualifies_for_load_increase": false,
+          "reason": "November 20: 50×10/10/10 at RIR 1/1/1. The first two sets overshot the prescribed RIR 2; only the final RIR 1 matches its 0–1 target. Hold 50 lb for review/calibration, target RIR 2 on the first two sets and 0–1 on the last, and reduce load if 10 reps cannot be reached with the required reserve. No qualifying exposure or automatic load increase.",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 504,
+            "recorded_at": "2026-11-20T19:34:21-05:00",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary recovery. This log supplies no fresh elbow, Achilles or ab response and no observed next-day recovery; preserve existing local restrictions."
+          },
+          "prescription_deviation": {
+            "affected_sets": [
+              1,
+              2
+            ],
+            "prescribed_rir": 2,
+            "actual_rir": [
+              1,
+              1
+            ],
+            "reason": "First two sets went one rep closer to failure than intended; final RIR 1 meets the permitted 0–1 target."
+          }
         }
       ],
-      "note": "November 20: 50×10/10/10 at RIR 1/1/1. The first two sets overshot the prescribed RIR 2; only the final RIR 1 matches its 0–1 target. Hold 50 lb for review/calibration, target RIR 2 on the first two sets and 0–1 on the last, and reduce load if 10 reps cannot be reached with the required reserve. No qualifying exposure or automatic load increase.",
+      "note": "November 27: 30×10/10 at RIR 5/3, deliberately reduced from prescribed 50 lb for triceps-tendon rebuilding. Both sets comfortable during and afterward. Third prescribed set is unreported. No ordinary qualification or full three-set validation; start future M4/T5/S3 at 30 lb, ≥3 RIR, and progress each slot independently.",
       "progression_review": {
-        "decision_id": 504,
-        "date": "2026-11-20",
-        "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
-        "source_session_id": "hybrid-2026-10-26-w4-fri-2026-11-20",
-        "first_normal_exposure_completed": true,
-        "all_prescribed_sets_reported": true,
+        "decision_id": 515,
+        "date": "2026-11-27",
+        "source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
+        "source_session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
+        "all_prescribed_sets_reported": false,
         "all_sets_at_rep_ceiling": false,
-        "rep_ceiling_used": 15,
-        "intended_rir_or_more_reserve": false,
+        "intended_rir_or_more_reserve": true,
         "qualifying_exposures": 0,
         "required_qualifying_exposures": 1,
         "load_increase_earned": false,
-        "reason": "November 20: 50×10/10/10 at RIR 1/1/1. The first two sets overshot the prescribed RIR 2; only the final RIR 1 matches its 0–1 target. Hold 50 lb for review/calibration, target RIR 2 on the first two sets and 0–1 on the last, and reduce load if 10 reps cannot be reached with the required reserve. No qualifying exposure or automatic load increase."
-      }
-    },
-    "S4": {
-      "exercise": "Reverse pec deck",
-      "load": 145,
-      "units": "lb",
-      "equipment": "Reverse pec deck machine",
-      "setup": null,
-      "load_convention": "Athlete-reported machine setting in lb; machine model/settings not supplied.",
-      "load_status": "established",
-      "load_source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
-      "new_exposure_count": 4,
-      "last_actual": {
-        "date": "2026-11-20",
-        "session_id": "hybrid-2026-10-26-w4-fri-2026-11-20",
-        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-502",
-        "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
-        "stage": "D",
-        "scheduled_day": "Friday",
-        "sets": [
-          {
-            "load": 145,
-            "reps": 15,
-            "rir": 3
-          },
-          {
-            "load": 145,
-            "reps": 19,
-            "rir": 1
-          }
-        ],
-        "prescribed": {
-          "load_lb": 145,
-          "sets": 2,
-          "rep_range": [
-            12,
-            20
-          ],
-          "target_rir_range": [
-            1,
-            2
-          ],
-          "minimum_rir": 1,
-          "rest_seconds": 120
-        },
-        "progression_eligible": true,
-        "qualifies_for_load_increase": false,
-        "reason": "November 20: 145×15/19 at RIR 3/1. Both sets meet the rep floor and intended reserve or more; the first set has extra reserve. Neither reaches 20, so hold 145 lb and build reps.",
-        "recovery_basis": {
-          "status": "assumed-good",
-          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 504,
-          "recorded_at": "2026-11-20T19:34:21-05:00",
-          "observed": false,
-          "reason": "Standing athlete default supplies ordinary recovery. This log supplies no fresh elbow, Achilles or ab response and no observed next-day recovery; preserve existing local restrictions."
-        }
+        "progression_eligible": false,
+        "reason": "November 27: 30×10/10 at RIR 5/3, deliberately reduced from prescribed 50 lb for triceps-tendon rebuilding. Both sets comfortable during and afterward. Third prescribed set is unreported. No ordinary qualification or full three-set validation; start future M4/T5/S3 at 30 lb, ≥3 RIR, and progress each slot independently."
       },
-      "next_action": {
-        "sets": 2,
+      "completed_prescription": {
+        "sets": 3,
         "rep_range": [
-          12,
-          20
+          10,
+          15
         ],
         "target_rir_range": [
-          1,
+          2,
           2
         ],
-        "minimum_rir": 1,
+        "minimum_rir": 0,
         "rest_seconds": 120,
+        "final_set_rir_range": [
+          0,
+          1
+        ],
+        "nonfinal_minimum_rir": 2,
         "stage": "D",
         "decision_id": 513,
-        "action": "hold-load-and-build-reps",
-        "status": "prescribed-not-performed",
-        "load_lb": 145,
+        "action": "hold-load-and-recalibrate-effort",
+        "status": "completed-with-unreported-third-set",
+        "load_lb": 50,
         "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
-        "reason": "November 20: 145×15/19 at RIR 3/1. Hold 145 lb and build toward 20 on both sets.",
+        "reason": "November 20: 50×10/10/10 at RIR 1. Keep 50 lb as the reference, but stop at 2 RIR on the first two sets and 0–1 on the final. Reduce load if ten reps cannot fit that reserve. Thursday’s similar effort deviation does not transfer Friday progression credit.",
+        "fallback": "Stop at the intended reserve; reduce load if the 10-rep floor cannot be met at RIR 2 on the first two sets. Do not force the floor or automatically lower the load before review.",
         "for_date": "2026-11-27",
         "preview": false,
         "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
@@ -11283,7 +11860,213 @@
         ],
         "activated_on": "2026-11-27",
         "activation_decision_id": 514,
-        "last_review_decision_id": 514
+        "last_review_decision_id": 514,
+        "completed_on": "2026-11-27",
+        "completion_decision_id": 515,
+        "actual_session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
+        "actual_source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b"
+      },
+      "progression_review_history": [
+        {
+          "decision_id": 504,
+          "date": "2026-11-20",
+          "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+          "source_session_id": "hybrid-2026-10-26-w4-fri-2026-11-20",
+          "first_normal_exposure_completed": true,
+          "all_prescribed_sets_reported": true,
+          "all_sets_at_rep_ceiling": false,
+          "rep_ceiling_used": 15,
+          "intended_rir_or_more_reserve": false,
+          "qualifying_exposures": 0,
+          "required_qualifying_exposures": 1,
+          "load_increase_earned": false,
+          "reason": "November 20: 50×10/10/10 at RIR 1/1/1. The first two sets overshot the prescribed RIR 2; only the final RIR 1 matches its 0–1 target. Hold 50 lb for review/calibration, target RIR 2 on the first two sets and 0–1 on the last, and reduce load if 10 reps cannot be reached with the required reserve. No qualifying exposure or automatic load increase."
+        }
+      ],
+      "rebuild_reference": {
+        "decision_id": 515,
+        "effective_from": "2026-11-27",
+        "directive_id": "2026-11-27-pushdown-rebuild-30lb",
+        "starting_load_lb": 30,
+        "previous_performed_load_lb": 30,
+        "actual_source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
+        "full_dose_at_starting_load_validated": false,
+        "load_basis": "Athlete-requested 30 lb starting point. Only two Friday sets demonstrated; other slots have not performed this reset dose.",
+        "symptom_response": "Friday 30 lb pushdowns comfortable during/after; no next-morning response yet.",
+        "restriction_id": "triceps-pushdown-rebuild"
+      },
+      "qualification_reset_history": [
+        {
+          "decision_id": 515,
+          "date": "2026-11-27",
+          "previous_count": 0,
+          "new_count": 0,
+          "reason": "New 30 lb starting load and ≥3 RIR effort target; no inherited 50 lb progression credit."
+        }
+      ],
+      "near_failure_suspended": true,
+      "first_set_anchor_history": [
+        {
+          "date": "2026-11-20",
+          "session_id": "hybrid-2026-10-26-w4-fri-2026-11-20",
+          "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+          "stage": "D",
+          "load": 50,
+          "reps": 10,
+          "rir": 1,
+          "equipment": "Cable station",
+          "setup": null,
+          "rep_range": [
+            10,
+            15
+          ],
+          "prescribed_sets": 3,
+          "prescribed_rir_by_set": [
+            "2",
+            "2",
+            "0–1"
+          ],
+          "rest_seconds": [
+            120,
+            120
+          ],
+          "actual_rest_seconds": null,
+          "note": "First normal-D reference. Compare only matching slot, actual load, setup, range, set count, rest and actual first-set RIR; no imported ramp credit or unmatched-effort decline comparison. Actual rest and setup are unreported. Actual first-set RIR 1 overshot the prescribed 2; it is not comparable with a later RIR 2 set."
+        }
+      ],
+      "comparable_sessions_history": [
+        {
+          "decision_id": 515,
+          "reason": "Preserve pre-rebuild comparisons; new full dose at 30 lb and ≥3 RIR requires a fresh anchor.",
+          "sessions": [
+            {
+              "date": "2026-11-20",
+              "session_id": "hybrid-2026-10-26-w4-fri-2026-11-20",
+              "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+              "stage": "D",
+              "sets": [
+                {
+                  "load": 50,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "load": 50,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "load": 50,
+                  "reps": 10,
+                  "rir": 1
+                }
+              ],
+              "first_set_rir": 1,
+              "prescribed_rir_by_set": [
+                "2",
+                "2",
+                "0–1"
+              ],
+              "rep_range": [
+                10,
+                15
+              ],
+              "rest_seconds": [
+                120,
+                120
+              ],
+              "actual_rest_seconds": null,
+              "classification": "first-normal-stage-reference-with-effort-deviation",
+              "comparison_count": 0
+            }
+          ]
+        }
+      ],
+      "anchor_status": "pending-full-dose-reference-at-reset-load-and-effort"
+    },
+    "S4": {
+      "exercise": "Reverse pec deck",
+      "load": 145,
+      "units": "lb",
+      "equipment": "Reverse pec deck machine",
+      "setup": null,
+      "load_convention": "Athlete-reported machine setting in lb; machine model/settings not supplied.",
+      "load_status": "established",
+      "load_source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
+      "new_exposure_count": 5,
+      "last_actual": {
+        "date": "2026-11-27",
+        "session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
+        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
+        "source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
+        "stage": "D",
+        "scheduled_day": "Friday",
+        "sets": [
+          {
+            "load": 145,
+            "reps": 14,
+            "rir": 2
+          },
+          {
+            "load": 145,
+            "reps": 14,
+            "rir": 1
+          }
+        ],
+        "prescribed": {
+          "slotId": "S4",
+          "exercise": "Reverse pec deck",
+          "load": "145 lb",
+          "setsReps": "2×12–20",
+          "rir": "1–2",
+          "rest": "2 min"
+        },
+        "progression_eligible": true,
+        "qualifies_for_load_increase": false,
+        "reason": "November 27: 145×14/14 at RIR 2/1; second-set RIR 1 confirmed by follow-up. Hold 145 lb and two sets, building toward 20. Previous first-set RIR was 3, so the changed effort is not a matched decline comparison.",
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 515,
+          "recorded_at": "2026-11-27T19:44:45-05:00",
+          "observed": false,
+          "reason": "Standing default supplies ordinary post-session recovery and Saturday readiness. Athlete confirms 30 lb pushdowns comfortable during/after; no next-morning recovery or lower-body response supplied. Preserve the requested local tendon rebuild."
+        },
+        "effort_followup": {
+          "report": "Rir was 1",
+          "set_index": 2,
+          "rir": 1,
+          "decision_id": 515,
+          "reported_on": "2026-11-27"
+        }
+      },
+      "next_action": {
+        "sets": 2,
+        "rep_range": [
+          12,
+          20
+        ],
+        "target_rir_range": [
+          1,
+          2
+        ],
+        "minimum_rir": 1,
+        "rest_seconds": 120,
+        "stage": "D",
+        "decision_id": 515,
+        "action": "hold-load-and-build-reps",
+        "status": "recommendation-for-next-matching-exposure",
+        "load_lb": 145,
+        "source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
+        "reason": "November 27: 145×14/14 at RIR 2/1; second-set RIR 1 confirmed by follow-up. Hold 145 lb and two sets, building toward 20. Previous first-set RIR was 3, so the changed effort is not a matched decline comparison.",
+        "recovery_basis": {
+          "status": "assumed-good",
+          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+          "decision_id": 515,
+          "recorded_at": "2026-11-27T19:44:45-05:00",
+          "observed": false,
+          "reason": "Standing default supplies ordinary post-session recovery and Saturday readiness. Athlete confirms 30 lb pushdowns comfortable during/after; no next-morning recovery or lower-body response supplied. Preserve the requested local tendon rebuild."
+        }
       },
       "actual_history": [
         {
@@ -11349,6 +12132,51 @@
           "prescribed_sets": 2,
           "reported_sets": 2,
           "full_dose_confirmed": true
+        },
+        {
+          "date": "2026-11-20",
+          "session_id": "hybrid-2026-10-26-w4-fri-2026-11-20",
+          "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-502",
+          "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+          "stage": "D",
+          "scheduled_day": "Friday",
+          "sets": [
+            {
+              "load": 145,
+              "reps": 15,
+              "rir": 3
+            },
+            {
+              "load": 145,
+              "reps": 19,
+              "rir": 1
+            }
+          ],
+          "prescribed": {
+            "load_lb": 145,
+            "sets": 2,
+            "rep_range": [
+              12,
+              20
+            ],
+            "target_rir_range": [
+              1,
+              2
+            ],
+            "minimum_rir": 1,
+            "rest_seconds": 120
+          },
+          "progression_eligible": true,
+          "qualifies_for_load_increase": false,
+          "reason": "November 20: 145×15/19 at RIR 3/1. Both sets meet the rep floor and intended reserve or more; the first set has extra reserve. Neither reaches 20, so hold 145 lb and build reps.",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 504,
+            "recorded_at": "2026-11-20T19:34:21-05:00",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary recovery. This log supplies no fresh elbow, Achilles or ab response and no observed next-day recovery; preserve existing local restrictions."
+          }
         }
       ],
       "next_action_history": [
@@ -11472,33 +12300,82 @@
           "load_lb": 145,
           "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
           "reason": "November 20: 145×15/19 at RIR 3/1. Both sets meet the rep floor and intended reserve or more; the first set has extra reserve. Neither reaches 20, so hold 145 lb and build reps."
+        },
+        {
+          "sets": 2,
+          "rep_range": [
+            12,
+            20
+          ],
+          "target_rir_range": [
+            1,
+            2
+          ],
+          "minimum_rir": 1,
+          "rest_seconds": 120,
+          "stage": "D",
+          "decision_id": 513,
+          "action": "hold-load-and-build-reps",
+          "status": "prescribed-not-performed",
+          "load_lb": 145,
+          "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+          "reason": "November 20: 145×15/19 at RIR 3/1. Hold 145 lb and build toward 20 on both sets.",
+          "for_date": "2026-11-27",
+          "preview": false,
+          "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
+          "scheduled_day": "Friday",
+          "template_day": "Saturday",
+          "schedule_override_id": "2026-11-23-week-five-reschedule",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 514,
+            "recorded_at": "2026-11-27T18:36:07-05:00",
+            "for_date": "2026-11-27",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary current Friday readiness. The request to generate today contains no new observed recovery or symptom report; preserve all local limits."
+          },
+          "prescription_source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday",
+          "recovery_basis_history": [
+            {
+              "status": "assumed-good",
+              "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+              "decision_id": 513,
+              "recorded_at": "2026-11-26T14:51:48-05:00",
+              "observed": false,
+              "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
+              "for_date": "2026-11-27"
+            }
+          ],
+          "activated_on": "2026-11-27",
+          "activation_decision_id": 514,
+          "last_review_decision_id": 514
         }
       ],
       "qualifying_exposures": 0,
-      "note": "November 20: 145×15/19 at RIR 3/1. Both sets meet the rep floor and intended reserve or more; the first set has extra reserve. Neither reaches 20, so hold 145 lb and build reps.",
+      "note": "November 27: 145×14/14 at RIR 2/1; second-set RIR 1 confirmed by follow-up. Hold 145 lb and two sets, building toward 20. Previous first-set RIR was 3, so the changed effort is not a matched decline comparison.",
       "progression_review": {
-        "decision_id": 504,
-        "date": "2026-11-20",
-        "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
-        "source_session_id": "hybrid-2026-10-26-w4-fri-2026-11-20",
-        "first_normal_exposure_completed": true,
+        "decision_id": 515,
+        "date": "2026-11-27",
+        "source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
+        "source_session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
         "all_prescribed_sets_reported": true,
         "all_sets_at_rep_ceiling": false,
-        "rep_ceiling_used": 20,
         "intended_rir_or_more_reserve": true,
         "qualifying_exposures": 0,
         "required_qualifying_exposures": 1,
         "load_increase_earned": false,
-        "reason": "November 20: 145×15/19 at RIR 3/1. Both sets meet the rep floor and intended reserve or more; the first set has extra reserve. Neither reaches 20, so hold 145 lb and build reps."
+        "progression_eligible": true,
+        "reason": "November 27: 145×14/14 at RIR 2/1; second-set RIR 1 confirmed by follow-up. Hold 145 lb and two sets, building toward 20. Previous first-set RIR was 3, so the changed effort is not a matched decline comparison."
       },
       "first_set_anchor": {
-        "date": "2026-11-20",
-        "session_id": "hybrid-2026-10-26-w4-fri-2026-11-20",
-        "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+        "date": "2026-11-27",
+        "session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
+        "source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
         "stage": "D",
         "load": 145,
-        "reps": 15,
-        "rir": 3,
+        "reps": 14,
+        "rir": 2,
         "equipment": "Reverse pec deck machine",
         "setup": null,
         "rep_range": [
@@ -11515,27 +12392,27 @@
           120
         ],
         "actual_rest_seconds": null,
-        "note": "First normal-D reference. Compare only matching slot, actual load, setup, range, set count, rest and actual first-set RIR; no imported ramp credit or unmatched-effort decline comparison. Actual rest and setup are unreported."
+        "note": "New reference at actual first-set RIR. Compare matched conditions only; no imported ramp or other-slot credit."
       },
       "comparable_sessions": [
         {
-          "date": "2026-11-20",
-          "session_id": "hybrid-2026-10-26-w4-fri-2026-11-20",
-          "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+          "date": "2026-11-27",
+          "session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
+          "source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
           "stage": "D",
           "sets": [
             {
               "load": 145,
-              "reps": 15,
-              "rir": 3
+              "reps": 14,
+              "rir": 2
             },
             {
               "load": 145,
-              "reps": 19,
+              "reps": 14,
               "rir": 1
             }
           ],
-          "first_set_rir": 3,
+          "first_set_rir": 2,
           "prescribed_rir_by_set": [
             "1–2",
             "1–2"
@@ -11549,40 +12426,29 @@
             120
           ],
           "actual_rest_seconds": null,
-          "classification": "first-normal-stage-reference",
-          "comparison_count": 0
+          "classification": "new-first-set-effort-reference",
+          "comparison_note": "Actual rest/setup unreported; no plateau or persistent decline established."
         }
-      ]
-    },
-    "S5": {
-      "exercise": "Cable reverse curl",
-      "load": 27.5,
-      "next_action": {
-        "sets": 1,
+      ],
+      "completed_prescription": {
+        "sets": 2,
         "rep_range": [
-          15,
-          15
+          12,
+          20
         ],
         "target_rir_range": [
-          4,
-          4
+          1,
+          2
         ],
-        "minimum_rir": 4,
+        "minimum_rir": 1,
         "rest_seconds": 120,
-        "reps_per_set": [
-          15
-        ],
         "stage": "D",
         "decision_id": 513,
-        "action": "hold-cautious-forearm-dose",
-        "status": "prescribed-not-performed",
-        "load_lb": 27.5,
+        "action": "hold-load-and-build-reps",
+        "status": "completed",
+        "load_lb": 145,
         "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
-        "reason": "November 20: 27.5×15 at RIR 4. Retain the cautious one-set, 15-rep dose at ≥4 RIR; zero ordinary qualifications.",
-        "symptom_action": "Reduce or omit aggravating work if symptoms occur.",
-        "ordinary_qualifying_exposures": 0,
-        "required_qualifying_exposures": 2,
-        "load_increase_earned": false,
+        "reason": "November 20: 145×15/19 at RIR 3/1. Hold 145 lb and build toward 20 on both sets.",
         "for_date": "2026-11-27",
         "preview": false,
         "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
@@ -11612,7 +12478,129 @@
         ],
         "activated_on": "2026-11-27",
         "activation_decision_id": 514,
-        "last_review_decision_id": 514
+        "last_review_decision_id": 514,
+        "completed_on": "2026-11-27",
+        "completion_decision_id": 515,
+        "actual_session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
+        "actual_source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b"
+      },
+      "progression_review_history": [
+        {
+          "decision_id": 504,
+          "date": "2026-11-20",
+          "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+          "source_session_id": "hybrid-2026-10-26-w4-fri-2026-11-20",
+          "first_normal_exposure_completed": true,
+          "all_prescribed_sets_reported": true,
+          "all_sets_at_rep_ceiling": false,
+          "rep_ceiling_used": 20,
+          "intended_rir_or_more_reserve": true,
+          "qualifying_exposures": 0,
+          "required_qualifying_exposures": 1,
+          "load_increase_earned": false,
+          "reason": "November 20: 145×15/19 at RIR 3/1. Both sets meet the rep floor and intended reserve or more; the first set has extra reserve. Neither reaches 20, so hold 145 lb and build reps."
+        }
+      ],
+      "first_set_anchor_history": [
+        {
+          "date": "2026-11-20",
+          "session_id": "hybrid-2026-10-26-w4-fri-2026-11-20",
+          "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+          "stage": "D",
+          "load": 145,
+          "reps": 15,
+          "rir": 3,
+          "equipment": "Reverse pec deck machine",
+          "setup": null,
+          "rep_range": [
+            12,
+            20
+          ],
+          "prescribed_sets": 2,
+          "prescribed_rir_by_set": [
+            "1–2",
+            "1–2"
+          ],
+          "rest_seconds": [
+            120,
+            120
+          ],
+          "actual_rest_seconds": null,
+          "note": "First normal-D reference. Compare only matching slot, actual load, setup, range, set count, rest and actual first-set RIR; no imported ramp credit or unmatched-effort decline comparison. Actual rest and setup are unreported."
+        }
+      ],
+      "comparable_sessions_history": [
+        {
+          "decision_id": 515,
+          "reason": "First-set RIR changed. Preserve prior reference.",
+          "sessions": [
+            {
+              "date": "2026-11-20",
+              "session_id": "hybrid-2026-10-26-w4-fri-2026-11-20",
+              "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+              "stage": "D",
+              "sets": [
+                {
+                  "load": 145,
+                  "reps": 15,
+                  "rir": 3
+                },
+                {
+                  "load": 145,
+                  "reps": 19,
+                  "rir": 1
+                }
+              ],
+              "first_set_rir": 3,
+              "prescribed_rir_by_set": [
+                "1–2",
+                "1–2"
+              ],
+              "rep_range": [
+                12,
+                20
+              ],
+              "rest_seconds": [
+                120,
+                120
+              ],
+              "actual_rest_seconds": null,
+              "classification": "first-normal-stage-reference",
+              "comparison_count": 0
+            }
+          ]
+        }
+      ]
+    },
+    "S5": {
+      "exercise": "Cable reverse curl",
+      "load": 27.5,
+      "next_action": {
+        "sets": 1,
+        "rep_range": [
+          15,
+          15
+        ],
+        "target_rir_range": [
+          4,
+          4
+        ],
+        "minimum_rir": 4,
+        "rest_seconds": 120,
+        "reps_per_set": [
+          15
+        ],
+        "stage": "D",
+        "load_lb": 27.5,
+        "action": "hold-cautious-forearm-dose",
+        "symptom_action": "Reduce or omit aggravating work if symptoms occur.",
+        "ordinary_qualifying_exposures": 0,
+        "required_qualifying_exposures": 2,
+        "load_increase_earned": false,
+        "decision_id": 515,
+        "status": "recommendation-for-next-generation",
+        "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+        "reason": "November 27 explicitly skipped. Preserve last performed load 27.5 lb, one cautious 15-rep set at ≥4 RIR, and existing qualification count. No new exposure or elbow-response validation; any W6 second set needs its own review."
       },
       "units": "lb",
       "load_status": "established",
@@ -11872,6 +12860,63 @@
           "ordinary_qualifying_exposures": 0,
           "required_qualifying_exposures": 2,
           "load_increase_earned": false
+        },
+        {
+          "sets": 1,
+          "rep_range": [
+            15,
+            15
+          ],
+          "target_rir_range": [
+            4,
+            4
+          ],
+          "minimum_rir": 4,
+          "rest_seconds": 120,
+          "reps_per_set": [
+            15
+          ],
+          "stage": "D",
+          "decision_id": 513,
+          "action": "hold-cautious-forearm-dose",
+          "status": "prescribed-not-performed",
+          "load_lb": 27.5,
+          "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+          "reason": "November 20: 27.5×15 at RIR 4. Retain the cautious one-set, 15-rep dose at ≥4 RIR; zero ordinary qualifications.",
+          "symptom_action": "Reduce or omit aggravating work if symptoms occur.",
+          "ordinary_qualifying_exposures": 0,
+          "required_qualifying_exposures": 2,
+          "load_increase_earned": false,
+          "for_date": "2026-11-27",
+          "preview": false,
+          "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
+          "scheduled_day": "Friday",
+          "template_day": "Saturday",
+          "schedule_override_id": "2026-11-23-week-five-reschedule",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 514,
+            "recorded_at": "2026-11-27T18:36:07-05:00",
+            "for_date": "2026-11-27",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary current Friday readiness. The request to generate today contains no new observed recovery or symptom report; preserve all local limits."
+          },
+          "prescription_source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday",
+          "recovery_basis_history": [
+            {
+              "status": "assumed-good",
+              "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+              "decision_id": 513,
+              "recorded_at": "2026-11-26T14:51:48-05:00",
+              "observed": false,
+              "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
+              "for_date": "2026-11-27"
+            }
+          ],
+          "activated_on": "2026-11-27",
+          "activation_decision_id": 514,
+          "last_review_decision_id": 514
         }
       ],
       "actual_history": [
@@ -11954,6 +12999,24 @@
         "ordinary_rep_ceiling": 20,
         "cautious_dose_preserved": true,
         "automatic_progression_authorized": false
+      },
+      "skipped_sessions": [
+        {
+          "date": "2026-11-27",
+          "session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
+          "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
+          "source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
+          "decision_id": 515,
+          "reason": "Athlete explicitly skipped wrist and reverse curls.",
+          "performed_sets": 0
+        }
+      ],
+      "last_scheduled_outcome": {
+        "date": "2026-11-27",
+        "status": "skipped",
+        "decision_id": 515,
+        "session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
+        "source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b"
       }
     },
     "S6": {
@@ -11975,46 +13038,16 @@
           15
         ],
         "stage": "D",
-        "decision_id": 513,
-        "action": "hold-cautious-forearm-dose",
-        "status": "prescribed-not-performed",
         "load_lb": 27.5,
-        "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
-        "reason": "November 20: 27.5×20 at RIR 4. Preserve one of two required ordinary ceiling qualifications; no earned increase. The cautious prescription remains one 15-rep set at ≥4 RIR; no extra set before W6 review.",
+        "action": "hold-cautious-forearm-dose",
         "symptom_action": "Reduce or omit aggravating work if symptoms occur.",
         "ordinary_qualifying_exposures": 1,
         "required_qualifying_exposures": 2,
         "load_increase_earned": false,
-        "for_date": "2026-11-27",
-        "preview": false,
-        "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
-        "scheduled_day": "Friday",
-        "template_day": "Saturday",
-        "schedule_override_id": "2026-11-23-week-five-reschedule",
-        "recovery_basis": {
-          "status": "assumed-good",
-          "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-          "decision_id": 514,
-          "recorded_at": "2026-11-27T18:36:07-05:00",
-          "for_date": "2026-11-27",
-          "observed": false,
-          "reason": "Standing athlete default supplies ordinary current Friday readiness. The request to generate today contains no new observed recovery or symptom report; preserve all local limits."
-        },
-        "prescription_source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday",
-        "recovery_basis_history": [
-          {
-            "status": "assumed-good",
-            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
-            "decision_id": 513,
-            "recorded_at": "2026-11-26T14:51:48-05:00",
-            "observed": false,
-            "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
-            "for_date": "2026-11-27"
-          }
-        ],
-        "activated_on": "2026-11-27",
-        "activation_decision_id": 514,
-        "last_review_decision_id": 514
+        "decision_id": 515,
+        "status": "recommendation-for-next-generation",
+        "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+        "reason": "November 27 explicitly skipped. Preserve last performed load 27.5 lb, one cautious 15-rep set at ≥4 RIR, and existing qualification count. No new exposure or elbow-response validation; any W6 second set needs its own review."
       },
       "units": "lb",
       "load_status": "established",
@@ -12283,6 +13316,63 @@
           "ordinary_qualifying_exposures": 1,
           "required_qualifying_exposures": 2,
           "load_increase_earned": false
+        },
+        {
+          "sets": 1,
+          "rep_range": [
+            15,
+            15
+          ],
+          "target_rir_range": [
+            4,
+            4
+          ],
+          "minimum_rir": 4,
+          "rest_seconds": 120,
+          "reps_per_set": [
+            15
+          ],
+          "stage": "D",
+          "decision_id": 513,
+          "action": "hold-cautious-forearm-dose",
+          "status": "prescribed-not-performed",
+          "load_lb": 27.5,
+          "source": "../history/lifting-log.md#2026-11-20--hybrid-v11-w4-friday-deltsarms-b",
+          "reason": "November 20: 27.5×20 at RIR 4. Preserve one of two required ordinary ceiling qualifications; no earned increase. The cautious prescription remains one 15-rep set at ≥4 RIR; no extra set before W6 review.",
+          "symptom_action": "Reduce or omit aggravating work if symptoms occur.",
+          "ordinary_qualifying_exposures": 1,
+          "required_qualifying_exposures": 2,
+          "load_increase_earned": false,
+          "for_date": "2026-11-27",
+          "preview": false,
+          "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
+          "scheduled_day": "Friday",
+          "template_day": "Saturday",
+          "schedule_override_id": "2026-11-23-week-five-reschedule",
+          "recovery_basis": {
+            "status": "assumed-good",
+            "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+            "decision_id": 514,
+            "recorded_at": "2026-11-27T18:36:07-05:00",
+            "for_date": "2026-11-27",
+            "observed": false,
+            "reason": "Standing athlete default supplies ordinary current Friday readiness. The request to generate today contains no new observed recovery or symptom report; preserve all local limits."
+          },
+          "prescription_source": "../history/adjustments.md#2026-11-26--log-upper-b-and-preview-friday",
+          "recovery_basis_history": [
+            {
+              "status": "assumed-good",
+              "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+              "decision_id": 513,
+              "recorded_at": "2026-11-26T14:51:48-05:00",
+              "observed": false,
+              "reason": "Standing athlete default supplies ordinary post-session recovery and Friday readiness. No new observed recovery or elbow, ab or Achilles response accompanies this log; preserve existing local limits.",
+              "for_date": "2026-11-27"
+            }
+          ],
+          "activated_on": "2026-11-27",
+          "activation_decision_id": 514,
+          "last_review_decision_id": 514
         }
       ],
       "actual_history": [
@@ -12365,6 +13455,24 @@
         "ordinary_rep_ceiling": 20,
         "cautious_dose_preserved": true,
         "automatic_progression_authorized": false
+      },
+      "skipped_sessions": [
+        {
+          "date": "2026-11-27",
+          "session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
+          "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
+          "source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
+          "decision_id": 515,
+          "reason": "Athlete explicitly skipped wrist and reverse curls.",
+          "performed_sets": 0
+        }
+      ],
+      "last_scheduled_outcome": {
+        "date": "2026-11-27",
+        "status": "skipped",
+        "decision_id": 515,
+        "session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
+        "source": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b"
       }
     },
     "L1": {

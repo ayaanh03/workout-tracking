@@ -58,7 +58,7 @@
     ]
   },
   "baseline_result_id": "baseline-5k-reported-2026-10-24",
-  "last_adjustment_id": 514,
+  "last_adjustment_id": 515,
   "assessments": {
     "first_test_week": 5,
     "first_test_attempted": false,
@@ -1014,6 +1014,46 @@
       },
       "schedule_override_id": "2026-11-23-week-five-reschedule",
       "review_note": "All 20 sets reported. Incline 140 and pull-up +10 established within target reps/RIR; hold to build reps, no new awards. Pushdown first two sets RIR 1 versus intended 2; final 0 permitted. No new symptom report or cardio."
+    },
+    "2026-11-27": {
+      "calendar_week": "W5",
+      "session": "Delts/arms B + bike",
+      "session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
+      "status": "completed-with-unreported-set",
+      "stage": "D",
+      "working_sets": 10,
+      "reported_working_sets": 10,
+      "prescribed_working_sets": 13,
+      "working_sets_note": "10 known sets; third pushdown set unreported. Two prescribed forearm sets explicitly skipped.",
+      "unresolved_slots": [
+        "S3 third set"
+      ],
+      "skipped_slots": [
+        "S5",
+        "S6"
+      ],
+      "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
+      "decision_id": 515,
+      "reported_at": "2026-11-27T19:44:45-05:00",
+      "actual_ref": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
+      "cardio_actual_ref": "../history/cardio-log.md#2026-11-27--hybrid-v11-w5-friday-bike",
+      "cardio_session_id": "hybrid-2026-10-26-w5-fri-2026-11-27-bike",
+      "cycling_minutes": 15,
+      "cycling_seconds": 900,
+      "bike_average_power_watts": 115,
+      "bike_reported_zone": "Z2",
+      "bike_rpe": null,
+      "recovery_status": "ordinary-recovery-assumed-triceps-comfort-confirmed",
+      "recovery_decision": {
+        "status": "assumed-good",
+        "policy_id": "2026-11-04-assume-good-recovery-and-auto-next",
+        "decision_id": 515,
+        "recorded_at": "2026-11-27T19:44:45-05:00",
+        "observed": false,
+        "reason": "Standing default supplies ordinary post-session recovery and Saturday readiness. Athlete confirms 30 lb pushdowns comfortable during/after; no next-morning recovery or lower-body response supplied. Preserve the requested local tendon rebuild."
+      },
+      "schedule_override_id": "2026-11-23-week-five-reschedule",
+      "review_note": "Hold lateral35,curl30,rear-delt145; no awards. All pushdown starting prescriptions reset30 for tendon rebuilding. Friday30 comfortable during/after; no general recovery observation or unrelated site clearance."
     }
   },
   "planned_start_date": "2026-10-26",
@@ -1210,21 +1250,29 @@
       "range_end": "2026-11-29",
       "stage": "D",
       "completion": "in-progress",
-      "completed_sessions": 4,
-      "known_lifting_sets": 55,
+      "completed_sessions": 5,
+      "known_lifting_sets": 65,
       "known_running_work_minutes": 8,
       "confirmed_running_miles": 3.48,
-      "known_cycling_minutes": 0,
-      "known_cycling_seconds": 0,
+      "known_cycling_minutes": 15,
+      "known_cycling_seconds": 900,
       "known_rowing_minutes": 0,
       "known_rowing_seconds": 0,
       "manageable": null,
       "status": "week-in-progress",
-      "decision_id": 514,
-      "source": "../history/adjustments.md#2026-11-27--activate-friday-deltsarms-b",
+      "decision_id": 515,
+      "source": "../history/adjustments.md#2026-11-27--log-friday-reset-pushdowns-and-preview-saturday",
       "schedule_override_id": "2026-11-23-week-five-reschedule",
       "planned_lifting_sets": 85,
-      "note": "Monday legs, Tuesday Upper A, Wednesday assessment run and Thursday Upper B completed: 55 lifting sets, eight run work minutes and 3.48 miles; no bike actuals. Friday is planned today, not performed. Original Wednesday lift/bike remains omitted; full-week manageability unreviewed."
+      "note": "Five sessions reported: 65 known lifting sets, eight run work minutes, 3.48 confirmed miles and 15 minutes bike. Friday third pushdown set unreported, forearms explicitly skipped. Saturday run is a future preview; full-week manageability unreviewed.",
+      "unresolved_lifting_sets": [
+        {
+          "date": "2026-11-27",
+          "slot_id": "S3",
+          "set_index": 3,
+          "status": "unreported"
+        }
+      ]
     }
   },
   "program_amendments": [
@@ -1307,6 +1355,20 @@
       ],
       "change": "Permanently schedule delts/arms B + bike on Friday and the longer run on Saturday, beginning November 13–14. Carry this weekday preference into future block reviews. Preserve legacy slot/track identities and all progression; optional assessments follow the Saturday run day.",
       "source": "../history/adjustments.md#2026-11-09--permanent-friday-lifting-and-saturday-running"
+    },
+    {
+      "id": "2026-11-27-pushdown-rebuild-30lb",
+      "date": "2026-11-27",
+      "decision_id": 515,
+      "affected_slots": [
+        "M4",
+        "T5",
+        "S3"
+      ],
+      "instruction": "Every pushdown instance starts at 30 lb and progresses from there to rebuild triceps tendon strength.",
+      "starting_load_lb": 30,
+      "coaching_effort_limit": "Minimum 3 RIR on all sets while rebuilding; not a user-reported RIR target.",
+      "source": "../history/adjustments.md#2026-11-27--log-friday-reset-pushdowns-and-preview-saturday"
     }
   ],
   "generation_preferences": {
@@ -1316,14 +1378,14 @@
     "publish_next_workout": true,
     "default_recovery": "assumed-good-unless-reported-otherwise",
     "source": "../program/readiness.md",
-    "last_generated_date": "2026-11-27",
-    "last_generated_prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
-    "last_generated_from_session_id": "hybrid-2026-10-26-w5-thu-2026-11-26",
+    "last_generated_date": "2026-11-28",
+    "last_generated_prescription_id": "hybrid-2026-10-26-sat-intervals-515",
+    "last_generated_from_session_id": "hybrid-2026-10-26-w5-fri-2026-11-27",
     "date_handling": "Use the next scheduled uncompleted session. Future prescriptions are dated previews, never early completion or live-calendar advancement; corrections regenerate the appropriate next session without skipping.",
-    "last_generation_trigger": "current-workout-request",
-    "last_generation_decision_id": 514,
-    "last_review_decision_id": 514,
-    "last_review_reason": "Activate Friday prescription #513 unchanged; keep all completed actuals and future sessions unchanged."
+    "last_generation_trigger": "automatic-next-workout-after-logging",
+    "last_generation_decision_id": 515,
+    "last_review_decision_id": 515,
+    "last_review_reason": "Log Friday, reset all pushdown starting loads to 30, and preview Saturday assessment run without completing future work."
   },
   "session_freeze_history": [
     {
@@ -1847,7 +1909,7 @@
           "cycling_track": "saturday",
           "cardio_prescription_id": "hybrid-2026-10-26-fri-bike-508",
           "bike_minutes": 15,
-          "status": "planned-today-not-performed",
+          "status": "completed-with-unreported-set",
           "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
           "working_sets": 13,
           "preview": false,
@@ -1914,7 +1976,12 @@
           },
           "activated_on": "2026-11-27",
           "activation_decision_id": 514,
-          "last_review_decision_id": 514
+          "last_review_decision_id": 514,
+          "actual_ref": "../history/lifting-log.md#2026-11-27--hybrid-v11-w5-friday-deltsarms-b",
+          "completion_decision_id": 515,
+          "reported_working_sets": 10,
+          "unreported_working_sets": 1,
+          "skipped_working_sets": 2
         },
         {
           "scheduled_date": "2026-11-28",
@@ -1922,9 +1989,13 @@
           "template_day": "Friday",
           "session": "W5 assessment run",
           "running_track": "friday",
-          "status": "upcoming",
+          "status": "planned-preview-not-performed",
           "test_selected": false,
-          "note": "Recovered no-test plan: 2×6 minutes at current 7:10/mi unless an optional 5K is explicitly selected and eligible."
+          "note": "Recovered no-test plan: 2×6 minutes at current 7:10/mi unless an optional 5K is explicitly selected and eligible.",
+          "preview": true,
+          "prescription_id": "hybrid-2026-10-26-sat-intervals-515",
+          "decision_id": 515,
+          "assessment_option": "B"
         },
         {
           "scheduled_date": "2026-11-29",
@@ -2135,19 +2206,21 @@
     "compatibility_review": "Friday delts/arms B has no direct leg/calf work before Saturday running, and its triceps are not the day before incline. Running remains separate from lifting/bike. Sunday legs and Monday/Thursday incline remain in place."
   },
   "next_session_adjustment": {
-    "date": "2026-11-27",
-    "decision_id": 514,
-    "status": "planned-today-not-performed",
-    "original_session": "Delts/arms B + bike",
-    "effective_session": "Delts/arms B + bike",
-    "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
-    "source": "../history/adjustments.md#2026-11-27--activate-friday-deltsarms-b",
-    "preview": false,
-    "stage": "D",
-    "working_sets": 13,
-    "bike_minutes": 15,
+    "date": "2026-11-28",
+    "decision_id": 515,
+    "status": "planned-preview-not-performed",
+    "original_session": "W5 assessment run",
+    "effective_session": "W5 assessment intervals — no test",
+    "prescription_id": "hybrid-2026-10-26-sat-intervals-515",
+    "source": "../history/adjustments.md#2026-11-27--log-friday-reset-pushdowns-and-preview-saturday",
+    "preview": true,
+    "running_track": "friday",
     "schedule_override_id": "2026-11-23-week-five-reschedule",
-    "reason": "Activate unchanged prepared Friday workout: 13 Stage D lifting sets and 15-minute assessment bike. Ordinary current readiness assumed; no new exposure, award or completed work."
+    "work_minutes": 12,
+    "format": "2x6",
+    "pace_seconds_per_mile": 430,
+    "rpe_cap": 7,
+    "reason": "Next scheduled session after Friday log. W5 no-test Option B at saved normal pace; local pushdown rebuild does not restrict running. Ordinary recovery assumed."
   },
   "next_session_adjustment_history": [
     {
@@ -2430,6 +2503,21 @@
       "bike_minutes": 15,
       "schedule_override_id": "2026-11-23-week-five-reschedule",
       "reason": "Next scheduled session after completed Thursday. Normal Stage D lifting with cautious forearms; W5 limits bike to 15 minutes. Ordinary recovery assumed, active restrictions retained."
+    },
+    {
+      "date": "2026-11-27",
+      "decision_id": 514,
+      "status": "planned-today-not-performed",
+      "original_session": "Delts/arms B + bike",
+      "effective_session": "Delts/arms B + bike",
+      "prescription_id": "hybrid-2026-10-26-fri-delts-arms-b-513",
+      "source": "../history/adjustments.md#2026-11-27--activate-friday-deltsarms-b",
+      "preview": false,
+      "stage": "D",
+      "working_sets": 13,
+      "bike_minutes": 15,
+      "schedule_override_id": "2026-11-23-week-five-reschedule",
+      "reason": "Activate unchanged prepared Friday workout: 13 Stage D lifting sets and 15-minute assessment bike. Ordinary current readiness assumed; no new exposure, award or completed work."
     }
   ],
   "assessment_boundary_review": {
